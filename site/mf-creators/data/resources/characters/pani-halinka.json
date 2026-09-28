@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T15:22:27.047Z",
+  "worldId": "mf-creators",
+  "kind": "resource",
+  "key": "character:pani-halinka",
+  "type": "characters",
+  "id": "pani-halinka",
+  "name": "Pani Halinka",
+  "description": "CHARACTER [age=45-64; presentation=feminine; height=average; build=curvy; body=hourglass; chest=medium; skin=fair; face=round; eyes=brown; hair-color=copper-red; hair-length=medium; hair-texture=curly]\n\nPani Halinka to dojrzała, pewna siebie kobieta o gęstych miedziano-rudych lokach średniej długości z krótką grzywką, ciepłych brązowych oczach i pełnych czerwonych ustach. Nosi czarny top, bordowy połyskujący długi kardigan, bardzo szerokie czarne spodnie z wysokim stanem i ciężkie czarne półbuty. Uzupełniają ją złote kolczyki-koła, delikatny naszyjnik, liczne bransolety i pierścionki oraz ciemnoczerwony manicure. Charakterystyczne są gest rogów, lekko uniesiona broda i serdecznie zadziorny uśmiech. Jej indywidualna paleta to czerń, burgund, magenta, fiolet i pomarańcz. Rysuj ją proporcjonalnie w półrealistycznym heroicznym rock-comic z mocnym tuszem, dynamicznymi włosami i plakatowym blaskiem.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "portrait",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/pani-halinka/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/pani-halinka/image-001-thumb.webp",
+      "width": 1536,
+      "height": 1024,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-002",
+      "role": "silhouette",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/pani-halinka/image-002.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/pani-halinka/image-002-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-28T17:17:51+02:00"
+}

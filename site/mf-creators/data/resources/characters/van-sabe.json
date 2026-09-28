@@ -1,32 +1,32 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T14:53:47.585Z",
+  "generatedAt": "2026-09-28T15:22:27.047Z",
   "worldId": "mf-creators",
   "kind": "resource",
   "key": "character:van-sabe",
   "type": "characters",
   "id": "van-sabe",
   "name": "Van Sabe",
-  "description": "CHARACTER [age=45-59; presentation=masculine; height=185cm; build=solid; body=rectangle; chest=medium; skin=medium; face=oblong; eyes=dark-brown; hair-color=dark-brown; hair-length=long; hair-texture=wavy]\n\nTwórca kanału Van Sabe (@vansabe.official, YouTube UCcRkrSCsaN7NVW5qsopkF9A). Kanoniczny wzrost: 185 cm. Kanoniczny wizerunek w świecie MF Creators to dojrzały mężczyzna o dużej karykaturalnej głowie, długich potarganych ciemnobrązowych włosach, gęstej brodzie przetykanej siwizną, dużym nosie i pełnych ustach. Nosi lustrzane aviatory, lekko przekrzywioną złotą koronę, czarny T-shirt, skórzaną ramoneskę, złoty łańcuch z zawieszką-koroną, zegarek i sygnet z czerwonym kamieniem. Odchylona głowa i szklanka bursztynowego napoju są jego charakterystycznymi znakami. Styl: ręcznie tuszowana, mocno kreskowana karykatura rockowo-komiksowa z czernią i złotem.",
+  "description": "CHARACTER [age=30-44; presentation=masculine; height=185cm; build=athletic; body=rectangle; chest=medium; skin=medium; face=oblong; eyes=dark-brown; hair-color=black; hair-length=medium; hair-texture=curly]\n\nTwórca kanału Van Sabe (@vansabe.official, YouTube UCcRkrSCsaN7NVW5qsopkF9A). Kanoniczny wzrost: 185 cm. Aktualny kanon zastępuje dawny wizerunek w koronie i aviatorach: Van Sabe jest wysokim, atletycznym mężczyzną o średniej długości czarnych lokach opadających na czoło, wyrazistej szczęce i lekkim zaroście. Nosi cały czarny zestaw: rozpiętą koszulę, dopasowaną marynarkę, spodnie z paskiem i ciężkie buty; na szyi ma metalowe nieśmiertelniki, a na dłoniach sygnety i bransolety. Charakterystyczne są dumnie uniesiona głowa, bezpośredni gest dłoni i chłodna czarno-błękitna paleta. Rysuj go proporcjonalnie w półrealistycznym heroicznym rock-comic z mocnym tuszem i filmowym modelowaniem twarzy.",
   "images": [
     {
-      "id": "image-002",
+      "id": "image-004",
       "role": "portrait",
-      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/van-sabe/image-002.webp",
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/van-sabe/image-002-thumb.webp",
-      "width": 1254,
-      "height": 1254,
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/van-sabe/image-004.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/van-sabe/image-004-thumb.webp",
+      "width": 1536,
+      "height": 1024,
       "contentType": "image/webp"
     },
     {
-      "id": "image-003",
+      "id": "image-005",
       "role": "silhouette",
-      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/van-sabe/image-003.webp",
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/van-sabe/image-003-thumb.webp",
-      "width": 1024,
-      "height": 1536,
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/van-sabe/image-005.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/van-sabe/image-005-thumb.webp",
+      "width": 1672,
+      "height": 941,
       "contentType": "image/webp"
     }
   ],
-  "updatedAt": "2026-09-28T16:39:14+02:00"
+  "updatedAt": "2026-09-28T17:17:51+02:00"
 }

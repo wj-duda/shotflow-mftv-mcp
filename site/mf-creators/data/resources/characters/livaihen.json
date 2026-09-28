@@ -1,32 +1,32 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T14:53:47.585Z",
+  "generatedAt": "2026-09-28T15:22:27.047Z",
   "worldId": "mf-creators",
   "kind": "resource",
   "key": "character:livaihen",
   "type": "characters",
   "id": "livaihen",
   "name": "Livaihen",
-  "description": "CHARACTER [age=30-44; presentation=feminine; height=170cm; build=curvy; body=hourglass; chest=medium; skin=fair; face=oval; eyes=green; hair-color=burgundy-red; hair-length=long; hair-texture=wavy]\n\nTwórczyni kanału Livaihen (@ewaduda-livaihen, YouTube UCgK0hHeDmi_8rhmz5-lKrxQ). Kanoniczny wzrost: 170 cm. Kanoniczny wizerunek to rockowa kobieta o dużej, wyrazistej głowie i bardzo długich, gęstych, falowanych włosach w ciemnym burgundzie z czerwonymi refleksami, zielonych oczach, czarnych kocich okularach i ciemnoczerwonej szmince. Nosi czarną koronkową bluzkę, skórzane spodnie, ciężkie botki, ciemny manicure i mały kolczyk w nosie. Mrugnięcie, wysunięty język i gest rogów są jej charakterystycznym znakiem. Styl: ręcznie tuszowana ilustracja rockowo-komiksowa z mocnym kreskowaniem i karminowymi akcentami.",
+  "description": "CHARACTER [age=30-44; presentation=feminine; height=170cm; build=curvy; body=hourglass; chest=medium; skin=fair; face=oval; eyes=brown; hair-color=burgundy-red; hair-length=very-long; hair-texture=wavy]\n\nTwórczyni kanału Livaihen (@ewaduda-livaihen, YouTube UCgK0hHeDmi_8rhmz5-lKrxQ). Kanoniczny wzrost: 170 cm. Aktualny kanon to rockowa kobieta o bardzo długich, gęstych, falowanych włosach w głębokim burgundzie z czerwonymi refleksami, czarnych kocich okularach, ciemnoczerwonej szmince i małym kolczyku w nosie. Nosi czarną koronkową bluzkę, dopasowane podarte czarne spodnie z podwójnym łańcuchem i ciężkie botki z klamrami. Charakterystyczne są spokojna pewność siebie, spojrzenie ponad oprawkami oraz karminowo-czarna paleta. Rysuj ją w półrealistycznym heroicznym rock-comic: proporcjonalna sylwetka, wyidealizowana twarz, tuszowe kreskowanie i plakatowe światło.",
   "images": [
     {
-      "id": "image-002",
+      "id": "image-004",
       "role": "portrait",
-      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/livaihen/image-002.webp",
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/livaihen/image-002-thumb.webp",
-      "width": 1145,
-      "height": 1374,
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/livaihen/image-004.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/livaihen/image-004-thumb.webp",
+      "width": 1672,
+      "height": 941,
       "contentType": "image/webp"
     },
     {
-      "id": "image-003",
+      "id": "image-005",
       "role": "silhouette",
-      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/livaihen/image-003.webp",
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/livaihen/image-003-thumb.webp",
-      "width": 1024,
-      "height": 1536,
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/livaihen/image-005.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/livaihen/image-005-thumb.webp",
+      "width": 1672,
+      "height": 941,
       "contentType": "image/webp"
     }
   ],
-  "updatedAt": "2026-09-28T16:39:14+02:00"
+  "updatedAt": "2026-09-28T17:17:51+02:00"
 }

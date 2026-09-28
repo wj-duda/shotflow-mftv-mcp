@@ -1,32 +1,23 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T14:53:47.585Z",
+  "generatedAt": "2026-09-28T15:22:27.047Z",
   "worldId": "mf-creators",
   "kind": "resource",
   "key": "character:darkvondagar",
   "type": "characters",
   "id": "darkvondagar",
   "name": "DarkVondagar",
-  "description": "CHARACTER [age=45-64; presentation=masculine; height=190cm; build=lean; body=rectangle; chest=medium; skin=deep-brown; face=long; eyes=dark-brown; hair-color=dark-brown; hair-length=long; hair-texture=braided]\n\nTwórca kanału DarkVondagar (@darkvondagar, YouTube UCZs5v9cslCrZIs4zCmMRxwA). Kanoniczny wzrost: 190 cm. Kanoniczny avatar to bardzo wysoki, szczupły mężczyzna o skrajnie karykaturalnej proporcji: ogromna, wydłużona i silnie pomarszczona głowa oraz małe, wąskie ciało. Ma długie ciemne warkocze spięte różowymi wałkami i sercowate różowe okulary. Nosi czarny T-shirt, puszysty różowy szlafrok, spodnie w motywy UFO i kapcie-jednorożce; biały kubek jest jego charakterystycznym rekwizytem. Styl: ręcznie tuszowana satyryczna ilustracja rockowo-komiksowa z mocnym kreskowaniem, czernią i neonowym różem.",
+  "description": "CHARACTER [age=45-64; presentation=masculine; height=190cm; build=lean; body=rectangle; chest=medium; skin=deep-brown; face=long; eyes=dark-brown; hair-color=dark-brown; hair-length=long; hair-texture=braided]\n\nTwórca kanału DarkVondagar (@darkvondagar, YouTube UCZs5v9cslCrZIs4zCmMRxwA). Kanoniczny wzrost: 190 cm. Aktualny kanon to bardzo wysoki, szczupły, dojrzały mężczyzna o wydłużonej, mocno pomarszczonej twarzy i długich cienkich warkoczach zwiniętych w różowe wałki. Ma różowe okulary w kształcie serc. Nosi czarny T-shirt z kosmicznym napisem, puszysty neonoworóżowy szlafrok, czarne spodnie w głowy obcych oraz kapcie-jednorożce; biały kubek kawy jest jego stałym rekwizytem. Czarny kot w różowych okularach i kosmiczne widoki są opcjonalnym otoczeniem. Rysuj go proporcjonalnie, bez dawnej chibi-deformacji, w półrealistycznym heroicznym rock-comic z mocnym tuszem, detalem skóry, neonowym różem i fioletem.",
   "images": [
     {
-      "id": "image-002",
-      "role": "portrait",
-      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/darkvondagar/image-002.webp",
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/darkvondagar/image-002-thumb.webp",
-      "width": 1254,
-      "height": 1254,
-      "contentType": "image/webp"
-    },
-    {
-      "id": "image-003",
+      "id": "image-004",
       "role": "silhouette",
-      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/darkvondagar/image-003.webp",
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/darkvondagar/image-003-thumb.webp",
-      "width": 1024,
-      "height": 1536,
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/darkvondagar/image-004.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/darkvondagar/image-004-thumb.webp",
+      "width": 1672,
+      "height": 941,
       "contentType": "image/webp"
     }
   ],
-  "updatedAt": "2026-09-28T16:39:14+02:00"
+  "updatedAt": "2026-09-28T17:17:51+02:00"
 }

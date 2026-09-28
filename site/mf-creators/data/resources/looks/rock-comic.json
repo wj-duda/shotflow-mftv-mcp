@@ -1,13 +1,23 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T14:53:47.585Z",
+  "generatedAt": "2026-09-28T15:22:27.047Z",
   "worldId": "mf-creators",
   "kind": "resource",
   "key": "look:rock-comic",
   "type": "looks",
   "id": "rock-comic",
-  "name": "MF Creators — rockowy komiks",
-  "description": "Nadrzędny kanon wizualny świata MF Creators. Wszystkie postacie przedstawiaj jako dopracowane, przerysowane ilustracje rockowo-komiksowe, a nie fotografie ani fotorealistyczne rendery 3D. Zachowuj rozpoznawalną anatomię i indywidualne cechy każdej postaci, jednocześnie wzmacniając mimikę, gest, kontur i satyryczną energię. Stosuj wyraźny czarny tusz lub malarski kontur, bogatą fakturę, wysoki kontrast, plakatowe światło oraz kontrolowany chaos tła. Paleta może zmieniać się wraz z postacią: od brudnego punku, kremowych kości, turkusu i karminu po neonowy róż, zieleń, fiolet, rudości i neutralne beże. Ręczna typografia, rozpryski farby, tabliczki i zabawne rekwizyty są opcjonalnymi elementami konkretnej kompozycji — nie kopiuj ich automatycznie z portretów referencyjnych i nie traktuj jako części anatomii. Przy scenach grupowych ujednolicaj sposób rysowania, fakturę, grubość konturu i oświetlenie, ale nie spłaszczaj indywidualnego wariantu stylistycznego postaci. Ten look ma pierwszeństwo przed domyślnym realizmem generatora.",
-  "images": [],
-  "updatedAt": "2026-09-28T16:05:11+02:00"
+  "name": "MF Creators — heroiczny rock-comic",
+  "description": "Nadrzędny kanon wizualny świata MF Creators, zsyntetyzowany z aktualnego zestawu wejściowego. Estetyka przypomina współczesny amerykański komiks superbohaterski połączony z rockowym plakatem i ulicznym muralem: półrealistyczna anatomia, atrakcyjnie wyidealizowane twarze, czytelne sylwetki, wyrazista poza oraz mocny czarny kontur z tuszowym kreskowaniem. Skóra, włosy, skóra naturalna, denim i metal mają bogatą ilustracyjną fakturę; światło jest filmowe, kontrastowe, często z ciepłą krawędzią i neonowym kolorem dopełniającym. Nie stosuj dawnej chibi-karykatury z ogromną głową i małym ciałem, fotorealizmu ani gładkiego renderu 3D. Tła mogą być realistyczną sceną z rockowego życia albo graficzną ścianą z rozpryskami farby, graffiti, koroną, sercem i dużą szczotkowaną typografią. Te znaki są językiem plakatu, nie częścią anatomii ani obowiązkowym elementem każdej sceny. Paleta bazowa: głęboka czerń, złamana biel i ciepłe odcienie skóry; każda postać otrzymuje jeden mocny akcent — karmin, magenta, błękit, fiolet, pomarańcz lub zieleń UFO. W scenach grupowych zachowuj spójny kontur, poziom detalu, kontrast i filmowe światło, ale utrzymuj indywidualną paletę, fryzurę, strój i rekwizyt każdej postaci. Załączony artstyle jest nadrzędną referencją atmosfery i sposobu rysowania, nie wzorcem dokładnej kompozycji, tekstów ani obsady.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/looks/rock-comic/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/looks/rock-comic/image-001-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-28T17:17:51+02:00"
 }

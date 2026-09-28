@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T14:53:47.585Z",
+  "generatedAt": "2026-09-28T15:22:27.047Z",
   "worldId": "mf-creators",
   "entries": [
     {
@@ -13,7 +13,7 @@
       "imageCount": 1,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/brand/aimftv-thumb.webp",
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/brand/aimftv.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/brand-core.json",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/brand.json",
       "fixed": true
     },
     {
@@ -46,11 +46,11 @@
       "type": "characters",
       "id": "aleksandra-ross",
       "name": "Aleksandra Ross",
-      "summary": "CHARACTER [age=30-44; presentation=feminine; height=168cm; build=curvy; body=hourglass; chest=medium; skin=fair; face=heart; eyes=hazel; hair-color=copper-red; hair-length=long; hair-texture=curly] Twórczyni kanału Aleksandra Ross (@aleksandraross6, YouTube UCVVZiC2RVqz4s2nXtTFu…",
+      "summary": "CHARACTER [age=30-44; presentation=feminine; height=168cm; build=curvy; body=hourglass; chest=medium; skin=fair; face=heart; eyes=hazel; hair-color=copper-red; hair-length=very-long; hair-texture=curly] Twórczyni kanału Aleksandra Ross (@aleksandraross6, YouTube UCVVZiC2RVqz4s2n…",
       "imageCount": 2,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/aleksandra-ross/image-002-thumb.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/aleksandra-ross/image-004-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/aleksandra-ross.json",
-      "updatedAt": "2026-09-28T16:39:14+02:00"
+      "updatedAt": "2026-09-28T17:17:51+02:00"
     },
     {
       "key": "character:baju-the-aigorhythms",
@@ -58,11 +58,11 @@
       "type": "characters",
       "id": "baju-the-aigorhythms",
       "name": "Baju & The AIgorhythms",
-      "summary": "CHARACTER [presentation=masculine; height=178cm; species=undead-cyborg-skeleton; build=very-slim; hair-color=black; hair-length=short; hair-texture=spiky] Twórca kanału Baju & The AIgorhythms (@bajutheaigorhythms, YouTube UCxgSjAx9oiXdvJBbPDn8UIg). Kanoniczny wzrost: 178 cm. Kan…",
+      "summary": "CHARACTER [age=30-44; presentation=masculine; height=178cm; species=human; build=muscular; body=rectangle; skin=medium; face=square; eyes=brown; hair-color=black; hair-length=short; hair-texture=mohawk] Twórca kanału Baju & The AIgorhythms (@bajutheaigorhythms, YouTube UCxgSjAx9…",
       "imageCount": 2,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/baju-the-aigorhythms/image-002-thumb.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/baju-the-aigorhythms/image-004-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/baju-the-aigorhythms.json",
-      "updatedAt": "2026-09-28T16:39:14+02:00"
+      "updatedAt": "2026-09-28T17:17:51+02:00"
     },
     {
       "key": "character:darkvondagar",
@@ -71,10 +71,10 @@
       "id": "darkvondagar",
       "name": "DarkVondagar",
       "summary": "CHARACTER [age=45-64; presentation=masculine; height=190cm; build=lean; body=rectangle; chest=medium; skin=deep-brown; face=long; eyes=dark-brown; hair-color=dark-brown; hair-length=long; hair-texture=braided] Twórca kanału DarkVondagar (@darkvondagar, YouTube UCZs5v9cslCrZIs4zC…",
-      "imageCount": 2,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/darkvondagar/image-002-thumb.webp",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/darkvondagar/image-004-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/darkvondagar.json",
-      "updatedAt": "2026-09-28T16:39:14+02:00"
+      "updatedAt": "2026-09-28T17:17:51+02:00"
     },
     {
       "key": "character:livaihen",
@@ -82,11 +82,11 @@
       "type": "characters",
       "id": "livaihen",
       "name": "Livaihen",
-      "summary": "CHARACTER [age=30-44; presentation=feminine; height=170cm; build=curvy; body=hourglass; chest=medium; skin=fair; face=oval; eyes=green; hair-color=burgundy-red; hair-length=long; hair-texture=wavy] Twórczyni kanału Livaihen (@ewaduda-livaihen, YouTube UCgK0hHeDmi_8rhmz5-lKrxQ).…",
+      "summary": "CHARACTER [age=30-44; presentation=feminine; height=170cm; build=curvy; body=hourglass; chest=medium; skin=fair; face=oval; eyes=brown; hair-color=burgundy-red; hair-length=very-long; hair-texture=wavy] Twórczyni kanału Livaihen (@ewaduda-livaihen, YouTube UCgK0hHeDmi_8rhmz5-lKr…",
       "imageCount": 2,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/livaihen/image-002-thumb.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/livaihen/image-004-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/livaihen.json",
-      "updatedAt": "2026-09-28T16:39:14+02:00"
+      "updatedAt": "2026-09-28T17:17:51+02:00"
     },
     {
       "key": "character:maia-melodies",
@@ -95,10 +95,34 @@
       "id": "maia-melodies",
       "name": "Maia Melodies",
       "summary": "CHARACTER [age=18-29; presentation=feminine; height=165cm; build=slim; body=hourglass; chest=medium; skin=fair; face=heart; eyes=brown; hair-color=platinum-blonde; hair-length=medium; hair-texture=straight] Twórczyni kanału Maia Melodies (@maiamelodies, YouTube UCSqRnFlVAhRQSkiz…",
-      "imageCount": 2,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/maia-melodies/image-002-thumb.webp",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/maia-melodies/image-004-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/maia-melodies.json",
-      "updatedAt": "2026-09-28T16:39:14+02:00"
+      "updatedAt": "2026-09-28T17:17:51+02:00"
+    },
+    {
+      "key": "character:pan-czeslaw",
+      "kind": "resource",
+      "type": "characters",
+      "id": "pan-czeslaw",
+      "name": "Pan Czesław",
+      "summary": "CHARACTER [age=45-64; presentation=masculine; height=average; build=lean; body=rectangle; chest=medium; skin=medium; face=oblong; eyes=brown; hair-color=black-gray; hair-length=medium; hair-texture=curly] Pan Czesław to dojrzały, szczupły mężczyzna o gęstych czarnych lokach z wy…",
+      "imageCount": 2,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/pan-czeslaw/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/pan-czeslaw.json",
+      "updatedAt": "2026-09-28T17:17:51+02:00"
+    },
+    {
+      "key": "character:pani-halinka",
+      "kind": "resource",
+      "type": "characters",
+      "id": "pani-halinka",
+      "name": "Pani Halinka",
+      "summary": "CHARACTER [age=45-64; presentation=feminine; height=average; build=curvy; body=hourglass; chest=medium; skin=fair; face=round; eyes=brown; hair-color=copper-red; hair-length=medium; hair-texture=curly] Pani Halinka to dojrzała, pewna siebie kobieta o gęstych miedziano-rudych lok…",
+      "imageCount": 2,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/pani-halinka/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/pani-halinka.json",
+      "updatedAt": "2026-09-28T17:17:51+02:00"
     },
     {
       "key": "character:rkfonzo",
@@ -106,11 +130,11 @@
       "type": "characters",
       "id": "rkfonzo",
       "name": "rkFonzo",
-      "summary": "CHARACTER [age=30-44; presentation=masculine; height=178cm; build=athletic; body=rectangle; chest=medium; skin=medium; face=angular; eyes=dark-brown; hair-color=silver-gray; hair-length=short; hair-texture=spiky] Twórca kanału rkFonzo (@rkfonzo, YouTube UC_OFjUpeMOY_6wydhhoPlLA)…",
-      "imageCount": 2,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/rkfonzo/image-002-thumb.webp",
+      "summary": "CHARACTER [age=45-64; presentation=masculine; height=178cm; build=athletic; body=rectangle; chest=medium; skin=medium; face=angular; eyes=dark-brown; hair-color=silver-gray; hair-length=short; hair-texture=spiky] Twórca kanału rkFonzo (@rkfonzo, YouTube UC_OFjUpeMOY_6wydhhoPlLA)…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/rkfonzo/image-004-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/rkfonzo.json",
-      "updatedAt": "2026-09-28T16:39:14+02:00"
+      "updatedAt": "2026-09-28T17:17:51+02:00"
     },
     {
       "key": "character:van-sabe",
@@ -118,11 +142,11 @@
       "type": "characters",
       "id": "van-sabe",
       "name": "Van Sabe",
-      "summary": "CHARACTER [age=45-59; presentation=masculine; height=185cm; build=solid; body=rectangle; chest=medium; skin=medium; face=oblong; eyes=dark-brown; hair-color=dark-brown; hair-length=long; hair-texture=wavy] Twórca kanału Van Sabe (@vansabe.official, YouTube UCcRkrSCsaN7NVW5qsopkF…",
+      "summary": "CHARACTER [age=30-44; presentation=masculine; height=185cm; build=athletic; body=rectangle; chest=medium; skin=medium; face=oblong; eyes=dark-brown; hair-color=black; hair-length=medium; hair-texture=curly] Twórca kanału Van Sabe (@vansabe.official, YouTube UCcRkrSCsaN7NVW5qsopk…",
       "imageCount": 2,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/van-sabe/image-002-thumb.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/van-sabe/image-004-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/van-sabe.json",
-      "updatedAt": "2026-09-28T16:39:14+02:00"
+      "updatedAt": "2026-09-28T17:17:51+02:00"
     },
     {
       "key": "character:zdziroversum",
@@ -131,10 +155,22 @@
       "id": "zdziroversum",
       "name": "ZDZIROVERSUM",
       "summary": "CHARACTER [age=30-44; presentation=feminine; height=172cm; build=curvy; body=hourglass; chest=medium; skin=medium; face=oval; eyes=dark-brown; hair-color=copper-red; hair-length=very-long; hair-texture=braided] Twórczyni kanału ZDZIROVERSUM (@zdziroversum, YouTube UCGZ72y5I6pcEM…",
-      "imageCount": 2,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/zdziroversum/image-002-thumb.webp",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/zdziroversum/image-004-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/zdziroversum.json",
-      "updatedAt": "2026-09-28T16:39:14+02:00"
+      "updatedAt": "2026-09-28T17:17:51+02:00"
+    },
+    {
+      "key": "look:rock-comic",
+      "kind": "resource",
+      "type": "looks",
+      "id": "rock-comic",
+      "name": "MF Creators — heroiczny rock-comic",
+      "summary": "Nadrzędny kanon wizualny świata MF Creators, zsyntetyzowany z aktualnego zestawu wejściowego. Estetyka przypomina współczesny amerykański komiks superbohaterski połączony z rockowym plakatem i ulicznym muralem: półrealistyczna anatomia, atrakcyjnie wyidealizowane twarze, czyteln…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/looks/rock-comic/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/looks/rock-comic.json",
+      "updatedAt": "2026-09-28T17:17:51+02:00"
     },
     {
       "key": "prop:ikona-usta-jezyk",
@@ -147,18 +183,6 @@
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/props/ikona-usta-jezyk/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/props/ikona-usta-jezyk.json",
       "updatedAt": "2026-09-28T16:35:18+02:00"
-    },
-    {
-      "key": "look:rock-comic",
-      "kind": "resource",
-      "type": "looks",
-      "id": "rock-comic",
-      "name": "MF Creators — rockowy komiks",
-      "summary": "Nadrzędny kanon wizualny świata MF Creators. Wszystkie postacie przedstawiaj jako dopracowane, przerysowane ilustracje rockowo-komiksowe, a nie fotografie ani fotorealistyczne rendery 3D. Zachowuj rozpoznawalną anatomię i indywidualne cechy każdej postaci, jednocześnie wzmacniaj…",
-      "imageCount": 0,
-      "thumbnailUrl": null,
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/looks/rock-comic.json",
-      "updatedAt": "2026-09-28T16:05:11+02:00"
     }
   ]
 }

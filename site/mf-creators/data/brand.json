@@ -1,0 +1,452 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T15:22:27.047Z",
+  "worldId": "mf-creators",
+  "key": "brand:aimftv",
+  "kind": "brand",
+  "name": "AI Music Future TV",
+  "priority": "required-for-mftv-generation",
+  "description": "Główny pakiet tożsamości marki MF TV używany przy przygotowywaniu obrazów, plansz i promptów.",
+  "slogans": [
+    {
+      "id": "emocje-na-zywo",
+      "key": "slogan:emocje-na-zywo",
+      "purpose": "audycje",
+      "text": "Emocje na Żywo",
+      "preserveExactText": true,
+      "rationale": "Hasło podkreśla, że istotą audycji MF TV są prawdziwe reakcje widzów, głosowanie na czacie i emocje powstające podczas wspólnej transmisji, a nie samo bierne odtwarzanie muzyki.",
+      "whereToUse": [
+        "plansze promujące audycje",
+        "miniatury i zapowiedzi transmisji",
+        "posty społecznościowe o głosowaniu",
+        "materiały zachęcające do oglądania na żywo"
+      ],
+      "whenToUse": "Gdy materiał promuje konkretną audycję, transmisję na żywo, głosowanie widzów albo wspólne przeżywanie premiery.",
+      "howToReference": "W promptach i danych używaj klucza slogan:emocje-na-zywo. Tekst pokazuj dokładnie jako „Emocje na Żywo” i łącz z właściwą planszą audycji lub oficjalnym logo.",
+      "promotionalRequirement": "Hasło powinno pojawiać się na materiałach promocyjnych dotyczących audycji, transmisji na żywo i głosowania widzów."
+    },
+    {
+      "id": "nowa-era-muzyki",
+      "key": "slogan:nowa-era-muzyki",
+      "purpose": "platforma",
+      "text": "Nowa Era muzyki — tworzona z AI, wybrana przez ludzi",
+      "preserveExactText": true,
+      "rationale": "Hasło wyjaśnia pełną ideę platformy: AI uczestniczy w tworzeniu muzyki, ale to ludzie słuchają, reagują i wybierają utwory. Łączy technologiczną nowość z ludzkim werdyktem.",
+      "whereToUse": [
+        "główne materiały promujące platformę",
+        "prezentacje i opisy MF TV",
+        "kampanie pozyskujące twórców i widzów",
+        "grafiki wizerunkowe i materiały partnerskie"
+      ],
+      "whenToUse": "Gdy materiał przedstawia MF TV jako platformę, wyjaśnia jej misję albo zaprasza twórców i widzów do udziału.",
+      "howToReference": "W promptach i danych używaj klucza slogan:nowa-era-muzyki. Zachowaj pełne brzmienie, kolejność zdań i sens rozdzielenia części o AI od części o wyborze ludzi.",
+      "promotionalRequirement": "Hasło powinno pojawiać się na głównych materiałach promocyjnych i wizerunkowych platformy MF TV."
+    }
+  ],
+  "colors": [
+    {
+      "id": "gold",
+      "name": "Gold",
+      "hex": "#FFC400",
+      "usage": "Wyróżnienia i najważniejsze akcenty"
+    },
+    {
+      "id": "cyan",
+      "name": "Cyan",
+      "hex": "#00D5FF",
+      "usage": "Główny akcent cyfrowy i stany pozytywne"
+    },
+    {
+      "id": "magenta",
+      "name": "Magenta",
+      "hex": "#FF2F75",
+      "usage": "Emocje i akcent marki"
+    },
+    {
+      "id": "coral",
+      "name": "Coral",
+      "hex": "#FF4324",
+      "usage": "Ostrzeżenia i silny kontrast"
+    },
+    {
+      "id": "cream",
+      "name": "Cream",
+      "hex": "#F5F5F2",
+      "usage": "Główny kolor tekstu"
+    },
+    {
+      "id": "night",
+      "name": "Night",
+      "hex": "#0D0F12",
+      "usage": "Główne tło strony"
+    }
+  ],
+  "shows": [
+    {
+      "id": "lekkie-poniedzialki",
+      "key": "show:lekkie-poniedzialki",
+      "name": "Lekkie Poniedziałki",
+      "shortName": "LP",
+      "schedule": {
+        "day": "poniedziałek",
+        "time": "20:15",
+        "timezone": "Europe/Warsaw",
+        "recurrence": "co tydzień"
+      },
+      "summary": "Lżejszy start tygodnia z melodyjnymi, przystępnymi i radiowymi utworami AI.",
+      "description": "Lekkie Poniedziałki to audycja MFTV z utworami AI o lżejszej energii: pop, soft rock, elektronika, ballady i melodyjne eksperymenty. Odcinki pomagają odkrywać nowe numery bez ciężkiego wejścia w tydzień.",
+      "audience": "Dla widzów, którzy chcą zacząć tydzień od przystępnych piosenek AI i spokojniejszego głosowania emoji.",
+      "rules": [
+        "Pierwszeństwo mają utwory lekkie, melodyjne i przystępne.",
+        "Dopuszczalne są gatunkowe wycieczki, o ile nie dominują ciężkie, agresywne brzmienia.",
+        "Widzowie oceniają utwory reakcjami emoji podczas emisji."
+      ]
+    },
+    {
+      "id": "szarpane-srody",
+      "key": "show:szarpane-srody",
+      "name": "Szarpane Środy",
+      "shortName": "SŚ",
+      "schedule": {
+        "day": "środa",
+        "time": "20:15",
+        "timezone": "Europe/Warsaw",
+        "recurrence": "co tydzień"
+      },
+      "summary": "Środek tygodnia dla gitar, mocniejszych refrenów i bardziej nerwowej energii.",
+      "description": "Szarpane Środy to audycja MFTV dla bardziej dynamicznych utworów AI: rocka, gitar, mocniejszych aranżacji, szybszych beatów i numerów, które lepiej działają w środku tygodnia.",
+      "audience": "Dla widzów, którzy szukają większej energii, gitarowego nerwu i mocniejszych reakcji na czacie.",
+      "rules": [
+        "Pierwszeństwo mają rock, metal, punk, industrial, gitary i mocna energia.",
+        "Pasują również mroczne, buntownicze i dynamiczne tematy.",
+        "Łagodny pop, muzyka taneczna i ballady nie powinny wyznaczać charakteru audycji."
+      ]
+    },
+    {
+      "id": "czule-czwartki",
+      "key": "show:czule-czwartki",
+      "name": "Czułe Czwartki",
+      "shortName": "CC",
+      "schedule": {
+        "day": "czwartek",
+        "time": "20:15",
+        "timezone": "Europe/Warsaw",
+        "recurrence": "co tydzień"
+      },
+      "summary": "Czwartkowe spotkanie z balladami, melancholią, miłością i delikatniejszymi utworami AI.",
+      "description": "Czułe Czwartki to audycja MFTV dla utworów ciepłych, bliskich i emocjonalnych: ballad, melancholii, opowieści o miłości i tęsknocie oraz spokojniejszych kompozycji AI, które najlepiej działają bez pośpiechu.",
+      "audience": "Dla widzów, którzy szukają emocji, melodii i utworów zostających w głowie dłużej niż jeden refren.",
+      "rules": [
+        "Pierwszeństwo mają ballady, soul, ambient, jazz, chill i spokojne kompozycje filmowe.",
+        "Ważne są czułość, bliskość, miłość, tęsknota, wspomnienia i melancholia.",
+        "Ciężkie, agresywne i klubowe brzmienia nie powinny dominować."
+      ]
+    },
+    {
+      "id": "wolne-piatki",
+      "key": "show:wolne-piatki",
+      "name": "Wolne Piątki",
+      "shortName": "WP",
+      "schedule": {
+        "day": "piątek",
+        "time": "20:45",
+        "timezone": "Europe/Warsaw",
+        "recurrence": "co tydzień"
+      },
+      "summary": "Piątkowa przestrzeń na wolniejsze, dziwniejsze albo bardziej nastrojowe utwory AI.",
+      "description": "Wolne Piątki to audycja MFTV z większą swobodą gatunkową. Trafiają tu utwory AI nastrojowe, dziwne, wolniejsze, eksperymentalne albo takie, które potrzebują więcej miejsca niż klasyczny blok przebojowy.",
+      "audience": "Dla widzów, którzy lubią mniej oczywiste kawałki, wolniejsze tempo i większą ciekawość niż prostą selekcję singli.",
+      "rules": [
+        "Pierwszeństwo mają rap, dub, reggae, drum and bass oraz miejskie i eksperymentalne kierunki.",
+        "Liczą się swoboda, nocny klimat, podróż, ulica i nieoczywista narracja.",
+        "Klasyczny pop, dance i disco polo nie powinny wyznaczać charakteru audycji."
+      ]
+    },
+    {
+      "id": "zlote-emoji",
+      "key": "show:zlote-emoji",
+      "name": "Złote Emoji",
+      "shortName": "ZE",
+      "schedule": {
+        "day": "niedziela",
+        "time": "19:30",
+        "timezone": "Europe/Warsaw",
+        "recurrence": "co tydzień"
+      },
+      "summary": "Finał i wyróżnienie utworów, które zebrały najmocniejsze reakcje emoji widzów.",
+      "description": "Złote Emoji to rankingowa formuła MFTV. Utwory zbierają reakcje emoji podczas emisji, a najmocniejsze wyniki mogą trafić do specjalnych bloków i listy przebojów AI Music Future TV.",
+      "audience": "Dla widzów, którzy chcą współdecydować o widoczności utworów przez reakcje na czacie YouTube.",
+      "rules": [
+        "To audycja rankingowa z widocznymi miejscami utworów.",
+        "O wyniku współdecydują reakcje emoji widzów zebrane podczas emisji.",
+        "Materiały promocyjne powinny jasno komunikować ranking, głosowanie i wynik społeczności."
+      ]
+    }
+  ],
+  "showInformation": {
+    "scheduleSource": "Aktualne zaplanowane audycje w produkcyjnym Firestore",
+    "rulesSource": "config/televisionLineupTemplates oraz publiczne zasady formatu Złote Emoji",
+    "verifiedAt": "2026-09-28",
+    "scheduleNote": "Godziny opisują bieżącą ramówkę w strefie Europe/Warsaw i mogą zmienić się w przyszłości."
+  },
+  "typography": {
+    "policyName": "Typografia AI Music Future",
+    "activePath": "mf-creators",
+    "active": {
+      "id": "mf-creators",
+      "name": "MF Creators — rockowy komiks z pazurem",
+      "direction": "Energetyczna, rockowa typografia z lekkim komiksowym charakterem: mocny plakat koncertowy, ręcznie rysowany akcent i kontrolowany chaos.",
+      "families": [
+        {
+          "family": "Barlow Condensed",
+          "roles": [
+            "główne nagłówki",
+            "nazwy twórców",
+            "tytuły plakatowe",
+            "napisy o wysokiej energii"
+          ],
+          "weights": [
+            600,
+            700,
+            800,
+            900
+          ],
+          "specimenUrl": "https://fonts.google.com/specimen/Barlow+Condensed",
+          "rules": [
+            "To podstawowy krój świata MF Creators: wąski, mocny i plakatowy.",
+            "Dopuszczalne są wersaliki, ciasny skład i lekki kontrolowany skos całego bloku."
+          ]
+        },
+        {
+          "family": "Bangers",
+          "roles": [
+            "pojedyncze słowo-akcent",
+            "onomatopeja",
+            "krótki komiksowy okrzyk",
+            "naklejka lub pieczęć"
+          ],
+          "weights": [
+            400
+          ],
+          "specimenUrl": "https://fonts.google.com/specimen/Bangers",
+          "rules": [
+            "Używaj oszczędnie: najwyżej jeden krótki akcent na kompozycję.",
+            "Nie używaj do opisów, harmonogramów, nazwisk ani długich tytułów.",
+            "Jeżeli brakuje poprawnego polskiego znaku, zastąp cały akcent krojem Barlow Condensed 900; nigdy nie dorabiaj glifu ręcznie."
+          ]
+        },
+        {
+          "family": "Noto Sans",
+          "roles": [
+            "tekst informacyjny",
+            "opis",
+            "data i godzina",
+            "podpisy oraz drobny druk"
+          ],
+          "weights": [
+            400,
+            500,
+            600,
+            700,
+            800
+          ],
+          "specimenUrl": "https://fonts.google.com/specimen/Noto+Sans",
+          "rules": [
+            "Zapewnia czytelny kontrapunkt dla ekspresyjnych nagłówków i pełne polskie znaki."
+          ]
+        }
+      ],
+      "googleFontsCssUrl": "https://fonts.googleapis.com/css2?family=Bangers&family=Barlow+Condensed:wght@600;700;800;900&family=Noto+Sans:wght@400;500;600;700;800&display=swap&subset=latin-ext",
+      "hierarchy": {
+        "display": "Barlow Condensed 900",
+        "comicAccent": "Bangers 400",
+        "heading": "Barlow Condensed 700–800",
+        "body": "Noto Sans 400–600",
+        "label": "Noto Sans 700–800"
+      },
+      "compositionRules": [
+        "Rockowy charakter buduj skalą, rytmem, kontrastem i asymetrią, nie przez losowe deformowanie liter.",
+        "Komiksowy akcent jest dodatkiem, nie domyślnym krojem całego materiału.",
+        "Dopuszczalny jest kontrolowany obrys lub cień dla czytelności, ale bez plastikowego 3D i chromowanych gradientów.",
+        "Nie używaj więcej niż trzech rodzin, przy czym Bangers liczy się wyłącznie jako pojedynczy akcent."
+      ]
+    },
+    "commonRules": [
+      "BEZWZGLĘDNY ZAKAZ STOSOWANIA „AI SLOP FONT”.",
+      "Tekst ma być składany świadomie z podanych rodzin fontów, a nie generowany jako część obrazu przez model graficzny.",
+      "Zakazane są generyczne pseudo-luksusowe i pseudo-filmowe litery kojarzone z masową grafiką AI: przypadkowe szeryfy, fałszywe glify, nieczytelne ligatury, chrom, plastikowe 3D, nadmiar poświaty oraz dekoracja udająca typografię.",
+      "Nie wolno mieszać krojów, deformować znaków ani tworzyć fikcyjnych liter i polskich znaków diakrytycznych.",
+      "Jeżeli generator obrazu nie potrafi zachować tekstu dokładnie, wygeneruj kompozycję bez tekstu i dodaj napis później w programie graficznym.",
+      "Każdy napis musi zachować dokładną treść, polskie znaki, hierarchię, kontrast i bezpieczne marginesy."
+    ],
+    "paths": {
+      "mf-tv": {
+        "id": "mf-tv",
+        "name": "MF TV — solidna typografia antenowa",
+        "direction": "Nowoczesna, mocna i bardzo czytelna typografia ekranowa, zgodna z kolorowym logo oraz oprawą strony i transmisji.",
+        "families": [
+          {
+            "family": "Jost",
+            "roles": [
+              "nagłówki",
+              "nazwy audycji",
+              "liczniki",
+              "krótkie komunikaty antenowe",
+              "CTA"
+            ],
+            "weights": [
+              700,
+              800,
+              900
+            ],
+            "specimenUrl": "https://fonts.google.com/specimen/Jost",
+            "rules": [
+              "Stosuj zwarte nagłówki bez sztucznego rozciągania.",
+              "Najważniejsze komunikaty mogą używać wersalików, ale nie składaj nimi długich akapitów."
+            ]
+          },
+          {
+            "family": "Noto Sans",
+            "roles": [
+              "tekst podstawowy",
+              "opisy",
+              "podpisy",
+              "tabele i ranking",
+              "dłuższe komunikaty"
+            ],
+            "weights": [
+              400,
+              500,
+              600,
+              700,
+              800
+            ],
+            "specimenUrl": "https://fonts.google.com/specimen/Noto+Sans",
+            "rules": [
+              "To podstawowy krój tekstowy strony MF TV i bezpieczny wybór dla polskich znaków.",
+              "Używaj cyfr tabelarycznych w rankingach, jeśli środowisko składu je obsługuje."
+            ]
+          }
+        ],
+        "googleFontsCssUrl": "https://fonts.googleapis.com/css2?family=Jost:wght@700;800;900&family=Noto+Sans:wght@400;500;600;700;800&display=swap&subset=latin-ext",
+        "hierarchy": {
+          "display": "Jost 900",
+          "heading": "Jost 800",
+          "body": "Noto Sans 400–600",
+          "label": "Noto Sans 700–800"
+        },
+        "compositionRules": [
+          "Logo zawsze pozostaje dostarczonym assetem; nigdy nie próbuj odtwarzać jego liter zwykłym fontem.",
+          "Typografia ma być czytelna na ekranie transmisji, także w małym rozmiarze i przy kompresji wideo.",
+          "Buduj hierarchię wagą, rozmiarem i kolorem marki, a nie efektami 3D, chromem lub przypadkowym obrysem.",
+          "Nie używaj więcej niż dwóch rodzin w jednym materiale."
+        ]
+      },
+      "mf-creators": {
+        "id": "mf-creators",
+        "name": "MF Creators — rockowy komiks z pazurem",
+        "direction": "Energetyczna, rockowa typografia z lekkim komiksowym charakterem: mocny plakat koncertowy, ręcznie rysowany akcent i kontrolowany chaos.",
+        "families": [
+          {
+            "family": "Barlow Condensed",
+            "roles": [
+              "główne nagłówki",
+              "nazwy twórców",
+              "tytuły plakatowe",
+              "napisy o wysokiej energii"
+            ],
+            "weights": [
+              600,
+              700,
+              800,
+              900
+            ],
+            "specimenUrl": "https://fonts.google.com/specimen/Barlow+Condensed",
+            "rules": [
+              "To podstawowy krój świata MF Creators: wąski, mocny i plakatowy.",
+              "Dopuszczalne są wersaliki, ciasny skład i lekki kontrolowany skos całego bloku."
+            ]
+          },
+          {
+            "family": "Bangers",
+            "roles": [
+              "pojedyncze słowo-akcent",
+              "onomatopeja",
+              "krótki komiksowy okrzyk",
+              "naklejka lub pieczęć"
+            ],
+            "weights": [
+              400
+            ],
+            "specimenUrl": "https://fonts.google.com/specimen/Bangers",
+            "rules": [
+              "Używaj oszczędnie: najwyżej jeden krótki akcent na kompozycję.",
+              "Nie używaj do opisów, harmonogramów, nazwisk ani długich tytułów.",
+              "Jeżeli brakuje poprawnego polskiego znaku, zastąp cały akcent krojem Barlow Condensed 900; nigdy nie dorabiaj glifu ręcznie."
+            ]
+          },
+          {
+            "family": "Noto Sans",
+            "roles": [
+              "tekst informacyjny",
+              "opis",
+              "data i godzina",
+              "podpisy oraz drobny druk"
+            ],
+            "weights": [
+              400,
+              500,
+              600,
+              700,
+              800
+            ],
+            "specimenUrl": "https://fonts.google.com/specimen/Noto+Sans",
+            "rules": [
+              "Zapewnia czytelny kontrapunkt dla ekspresyjnych nagłówków i pełne polskie znaki."
+            ]
+          }
+        ],
+        "googleFontsCssUrl": "https://fonts.googleapis.com/css2?family=Bangers&family=Barlow+Condensed:wght@600;700;800;900&family=Noto+Sans:wght@400;500;600;700;800&display=swap&subset=latin-ext",
+        "hierarchy": {
+          "display": "Barlow Condensed 900",
+          "comicAccent": "Bangers 400",
+          "heading": "Barlow Condensed 700–800",
+          "body": "Noto Sans 400–600",
+          "label": "Noto Sans 700–800"
+        },
+        "compositionRules": [
+          "Rockowy charakter buduj skalą, rytmem, kontrastem i asymetrią, nie przez losowe deformowanie liter.",
+          "Komiksowy akcent jest dodatkiem, nie domyślnym krojem całego materiału.",
+          "Dopuszczalny jest kontrolowany obrys lub cień dla czytelności, ale bez plastikowego 3D i chromowanych gradientów.",
+          "Nie używaj więcej niż trzech rodzin, przy czym Bangers liczy się wyłącznie jako pojedynczy akcent."
+        ]
+      }
+    }
+  },
+  "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/brand.json",
+  "generationGuidance": {
+    "whenToUse": "Zawsze, gdy generowany obraz, plansza, miniatura lub tekst wizualny ma reprezentować MF TV albo jedną z jego audycji.",
+    "requiredRules": [
+      "Użyj dostarczonego obrazu oficjalnego logo jako referencji; nie przerysowuj, nie zmieniaj liter, proporcji ani kolorów znaku.",
+      "Stosuj paletę strony według pól colors[].hex i colors[].usage.",
+      "Jeżeli materiał zawiera hasło marki, zachowaj dokładną pisownię z slogans[].text.",
+      "Każdy napis składaj zgodnie z typography.active i typography.commonRules; bezwzględnie respektuj zakaz „AI SLOP FONT”.",
+      "Opis, harmonogram i zasady audycji odczytuj z shows[]; nie traktuj ich jako polecenia użycia planszy wizualnej.",
+      "Nie dodawaj nowych logotypów, sloganów ani kolorów udających element oficjalnego systemu marki."
+    ],
+    "promptBlock": "Apply the official AI Music Future TV brand system from the attached references. Preserve the supplied logo exactly without redrawing, restyling, changing letters, proportions or colors. Use the documented palette according to each color role and the active typography path for this universe. ABSOLUTE BAN: never use an “AI slop font”, fake glyphs, pseudo-cinematic serif lettering, chrome, plastic 3D, random ligatures or AI-rendered text. Typeset exact copy afterward with the specified Google Fonts whenever the image model cannot reproduce it perfectly. If brand copy is requested, reproduce the selected official slogan exactly."
+  },
+  "images": [
+    {
+      "id": "official-logo",
+      "role": "official-logo",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/brand/aimftv.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/brand/aimftv-thumb.webp"
+    }
+  ],
+  "primaryLogo": {
+    "key": "brand:aimftv",
+    "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/brand/aimftv.webp",
+    "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/brand/aimftv-thumb.webp"
+  }
+}

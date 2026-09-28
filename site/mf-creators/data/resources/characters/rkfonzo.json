@@ -1,32 +1,23 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T14:53:47.585Z",
+  "generatedAt": "2026-09-28T15:22:27.047Z",
   "worldId": "mf-creators",
   "kind": "resource",
   "key": "character:rkfonzo",
   "type": "characters",
   "id": "rkfonzo",
   "name": "rkFonzo",
-  "description": "CHARACTER [age=30-44; presentation=masculine; height=178cm; build=athletic; body=rectangle; chest=medium; skin=medium; face=angular; eyes=dark-brown; hair-color=silver-gray; hair-length=short; hair-texture=spiky]\n\nTwórca kanału rkFonzo (@rkfonzo, YouTube UC_OFjUpeMOY_6wydhhoPlLA). Kanoniczny wzrost: 178 cm. Kanoniczny wizerunek to rockowy mężczyzna o dużej kanciastej głowie, krótkich, mocno nastroszonych srebrnoszarych włosach z ciemnymi pasmami i małym znamieniu na prawym policzku. Nosi duże czarne okulary przeciwsłoneczne, czarny T-shirt, skórzaną ramoneskę, czarne jeansy i spiczaste botki. Uniesiona broda i dwa gesty finger-guns są jego charakterystycznym znakiem. Styl: ręcznie tuszowana karykatura rockowo-komiksowa, gruby kontur, widoczne kreskowanie i wysoki kontrast.",
+  "description": "CHARACTER [age=45-64; presentation=masculine; height=178cm; build=athletic; body=rectangle; chest=medium; skin=medium; face=angular; eyes=dark-brown; hair-color=silver-gray; hair-length=short; hair-texture=spiky]\n\nTwórca kanału rkFonzo (@rkfonzo, YouTube UC_OFjUpeMOY_6wydhhoPlLA). Kanoniczny wzrost: 178 cm. Aktualny kanon to dojrzały rockowy mężczyzna o krótkich, mocno nastroszonych srebrnych włosach z ciemnymi bokami, kanciastej twarzy i czarnych okularach przeciwsłonecznych. Nosi czarny T-shirt z czaszką, skórzaną ramoneskę, podarte czarne jeansy z łańcuchem, masywne botki, zegarek, bransolety i naszyjnik z czaszką. Charakterystyczna jest spokojna poza z rękami w kieszeniach i uniesioną brodą. Rysuj go proporcjonalnie w półrealistycznym heroicznym rock-comic z ostrym czarnym tuszem, wyraźnym połyskiem skóry i fioletowym akcentem.",
   "images": [
     {
-      "id": "image-002",
-      "role": "portrait",
-      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/rkfonzo/image-002.webp",
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/rkfonzo/image-002-thumb.webp",
-      "width": 1536,
-      "height": 1024,
-      "contentType": "image/webp"
-    },
-    {
-      "id": "image-003",
+      "id": "image-004",
       "role": "silhouette",
-      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/rkfonzo/image-003.webp",
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/rkfonzo/image-003-thumb.webp",
-      "width": 1024,
-      "height": 1536,
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/rkfonzo/image-004.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/rkfonzo/image-004-thumb.webp",
+      "width": 1672,
+      "height": 941,
       "contentType": "image/webp"
     }
   ],
-  "updatedAt": "2026-09-28T16:39:14+02:00"
+  "updatedAt": "2026-09-28T17:17:51+02:00"
 }

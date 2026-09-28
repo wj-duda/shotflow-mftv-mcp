@@ -46,6 +46,18 @@ main { padding: 28px 0 60px; }
 .swatch span { display: grid; gap: 3px; padding: 8px; }
 .swatch strong { overflow: hidden; font-size: .7rem; text-overflow: ellipsis; white-space: nowrap; }
 .swatch code { color: var(--muted); font-size: .7rem; }
+.typography { display: grid; gap: 14px; padding: 20px; border: 1px solid var(--line); border-radius: 14px; background: rgba(0,213,255,.035); }
+.typography > * { margin: 0; }
+.typography-kicker { color: var(--accent); font-size: .7rem; font-weight: 850; letter-spacing: .1em; text-transform: uppercase; }
+.font-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px; }
+.font-list article { padding: 14px; border: 1px solid var(--line); border-radius: 10px; background: #0b0e10; }
+.font-list header { display: flex; justify-content: space-between; gap: 12px; }
+.font-list header a, .font-css-link { color: var(--accent); font-size: .75rem; }
+.font-list p, .font-list li { color: var(--muted); font-size: .8rem; line-height: 1.45; }
+.font-list ul, .type-ban ul { margin-bottom: 0; padding-left: 1.15rem; }
+.type-ban { padding: 14px; border: 1px solid rgba(255,67,36,.65); border-radius: 10px; background: rgba(255,67,36,.08); }
+.type-ban > strong { color: #ff8068; text-transform: uppercase; }
+.type-ban li { margin-top: 6px; line-height: 1.45; }
 .brand-show-definitions { display: grid; gap: 12px; }
 .brand-show-definitions article { padding: 18px; border: 1px solid var(--line); border-radius: 13px; background: #101416; }
 .brand-show-definitions header { display: flex; align-items: start; justify-content: space-between; gap: 18px; }

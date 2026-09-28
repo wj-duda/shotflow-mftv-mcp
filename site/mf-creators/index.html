@@ -127,6 +127,26 @@
                     </div>
                   </template>
                 </div>
+                <section class="typography" x-show="detail.typography?.active">
+                  <p class="typography-kicker">Aktywna ścieżka typograficzna</p>
+                  <h3 x-text="detail.typography?.active?.name"></h3>
+                  <p x-text="detail.typography?.active?.direction"></p>
+                  <div class="font-list">
+                    <template x-for="font in (detail.typography?.active?.families || [])" :key="font.family">
+                      <article>
+                        <header><strong x-text="font.family"></strong><a :href="font.specimenUrl" target="_blank" rel="noopener">Google Fonts ↗</a></header>
+                        <p><b>Role:</b> <span x-text="font.roles.join(', ')"></span></p>
+                        <p><b>Wagi:</b> <span x-text="font.weights.join(', ')"></span></p>
+                        <ul><template x-for="rule in font.rules" :key="rule"><li x-text="rule"></li></template></ul>
+                      </article>
+                    </template>
+                  </div>
+                  <a class="font-css-link" :href="detail.typography?.active?.googleFontsCssUrl" target="_blank" rel="noopener">Otwórz arkusz CSS Google Fonts ↗</a>
+                  <div class="type-ban">
+                    <strong>Zakaz „AI SLOP FONT”</strong>
+                    <ul><template x-for="rule in (detail.typography?.commonRules || [])" :key="rule"><li x-text="rule"></li></template></ul>
+                  </div>
+                </section>
                 <section class="prompt">
                   <h3>Instrukcja marki do promptu</h3>
                   <ul>

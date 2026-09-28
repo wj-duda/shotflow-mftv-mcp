@@ -67,6 +67,98 @@ const brandShows = hasMftvBrand ? [
     rules: ['To audycja rankingowa z widocznymi miejscami utworów.', 'O wyniku współdecydują reakcje emoji widzów zebrane podczas emisji.', 'Materiały promocyjne powinny jasno komunikować ranking, głosowanie i wynik społeczności.'],
   },
 ] : [];
+const typographyPaths = hasMftvBrand ? {
+  'mf-tv': {
+    id: 'mf-tv',
+    name: 'MF TV — solidna typografia antenowa',
+    direction: 'Nowoczesna, mocna i bardzo czytelna typografia ekranowa, zgodna z kolorowym logo oraz oprawą strony i transmisji.',
+    families: [
+      {
+        family: 'Jost',
+        roles: ['nagłówki', 'nazwy audycji', 'liczniki', 'krótkie komunikaty antenowe', 'CTA'],
+        weights: [700, 800, 900],
+        specimenUrl: 'https://fonts.google.com/specimen/Jost',
+        rules: ['Stosuj zwarte nagłówki bez sztucznego rozciągania.', 'Najważniejsze komunikaty mogą używać wersalików, ale nie składaj nimi długich akapitów.'],
+      },
+      {
+        family: 'Noto Sans',
+        roles: ['tekst podstawowy', 'opisy', 'podpisy', 'tabele i ranking', 'dłuższe komunikaty'],
+        weights: [400, 500, 600, 700, 800],
+        specimenUrl: 'https://fonts.google.com/specimen/Noto+Sans',
+        rules: ['To podstawowy krój tekstowy strony MF TV i bezpieczny wybór dla polskich znaków.', 'Używaj cyfr tabelarycznych w rankingach, jeśli środowisko składu je obsługuje.'],
+      },
+    ],
+    googleFontsCssUrl: 'https://fonts.googleapis.com/css2?family=Jost:wght@700;800;900&family=Noto+Sans:wght@400;500;600;700;800&display=swap&subset=latin-ext',
+    hierarchy: {
+      display: 'Jost 900',
+      heading: 'Jost 800',
+      body: 'Noto Sans 400–600',
+      label: 'Noto Sans 700–800',
+    },
+    compositionRules: [
+      'Logo zawsze pozostaje dostarczonym assetem; nigdy nie próbuj odtwarzać jego liter zwykłym fontem.',
+      'Typografia ma być czytelna na ekranie transmisji, także w małym rozmiarze i przy kompresji wideo.',
+      'Buduj hierarchię wagą, rozmiarem i kolorem marki, a nie efektami 3D, chromem lub przypadkowym obrysem.',
+      'Nie używaj więcej niż dwóch rodzin w jednym materiale.',
+    ],
+  },
+  'mf-creators': {
+    id: 'mf-creators',
+    name: 'MF Creators — rockowy komiks z pazurem',
+    direction: 'Energetyczna, rockowa typografia z lekkim komiksowym charakterem: mocny plakat koncertowy, ręcznie rysowany akcent i kontrolowany chaos.',
+    families: [
+      {
+        family: 'Barlow Condensed',
+        roles: ['główne nagłówki', 'nazwy twórców', 'tytuły plakatowe', 'napisy o wysokiej energii'],
+        weights: [600, 700, 800, 900],
+        specimenUrl: 'https://fonts.google.com/specimen/Barlow+Condensed',
+        rules: ['To podstawowy krój świata MF Creators: wąski, mocny i plakatowy.', 'Dopuszczalne są wersaliki, ciasny skład i lekki kontrolowany skos całego bloku.'],
+      },
+      {
+        family: 'Bangers',
+        roles: ['pojedyncze słowo-akcent', 'onomatopeja', 'krótki komiksowy okrzyk', 'naklejka lub pieczęć'],
+        weights: [400],
+        specimenUrl: 'https://fonts.google.com/specimen/Bangers',
+        rules: ['Używaj oszczędnie: najwyżej jeden krótki akcent na kompozycję.', 'Nie używaj do opisów, harmonogramów, nazwisk ani długich tytułów.', 'Jeżeli brakuje poprawnego polskiego znaku, zastąp cały akcent krojem Barlow Condensed 900; nigdy nie dorabiaj glifu ręcznie.'],
+      },
+      {
+        family: 'Noto Sans',
+        roles: ['tekst informacyjny', 'opis', 'data i godzina', 'podpisy oraz drobny druk'],
+        weights: [400, 500, 600, 700, 800],
+        specimenUrl: 'https://fonts.google.com/specimen/Noto+Sans',
+        rules: ['Zapewnia czytelny kontrapunkt dla ekspresyjnych nagłówków i pełne polskie znaki.'],
+      },
+    ],
+    googleFontsCssUrl: 'https://fonts.googleapis.com/css2?family=Bangers&family=Barlow+Condensed:wght@600;700;800;900&family=Noto+Sans:wght@400;500;600;700;800&display=swap&subset=latin-ext',
+    hierarchy: {
+      display: 'Barlow Condensed 900',
+      comicAccent: 'Bangers 400',
+      heading: 'Barlow Condensed 700–800',
+      body: 'Noto Sans 400–600',
+      label: 'Noto Sans 700–800',
+    },
+    compositionRules: [
+      'Rockowy charakter buduj skalą, rytmem, kontrastem i asymetrią, nie przez losowe deformowanie liter.',
+      'Komiksowy akcent jest dodatkiem, nie domyślnym krojem całego materiału.',
+      'Dopuszczalny jest kontrolowany obrys lub cień dla czytelności, ale bez plastikowego 3D i chromowanych gradientów.',
+      'Nie używaj więcej niż trzech rodzin, przy czym Bangers liczy się wyłącznie jako pojedynczy akcent.',
+    ],
+  },
+} : {};
+const brandTypography = hasMftvBrand ? {
+  policyName: 'Typografia AI Music Future',
+  activePath: universeId,
+  active: typographyPaths[universeId],
+  commonRules: [
+    'BEZWZGLĘDNY ZAKAZ STOSOWANIA „AI SLOP FONT”.',
+    'Tekst ma być składany świadomie z podanych rodzin fontów, a nie generowany jako część obrazu przez model graficzny.',
+    'Zakazane są generyczne pseudo-luksusowe i pseudo-filmowe litery kojarzone z masową grafiką AI: przypadkowe szeryfy, fałszywe glify, nieczytelne ligatury, chrom, plastikowe 3D, nadmiar poświaty oraz dekoracja udająca typografię.',
+    'Nie wolno mieszać krojów, deformować znaków ani tworzyć fikcyjnych liter i polskich znaków diakrytycznych.',
+    'Jeżeli generator obrazu nie potrafi zachować tekstu dokładnie, wygeneruj kompozycję bez tekstu i dodaj napis później w programie graficznym.',
+    'Każdy napis musi zachować dokładną treść, polskie znaki, hierarchię, kontrast i bezpieczne marginesy.',
+  ],
+  paths: typographyPaths,
+} : null;
 if (buildsMftvBrand && !brandAssetsSource) throw new Error('Dla mf-tv podaj katalog assetów marki przez --brand-assets albo MFTV_BRAND_ASSETS.');
 const brandAssetsRoot = brandAssetsSource ? path.resolve(brandAssetsSource) : null;
 
@@ -131,6 +223,7 @@ const brand = hasMftvBrand ? {
     verifiedAt: '2026-09-28',
     scheduleNote: 'Godziny opisują bieżącą ramówkę w strefie Europe/Warsaw i mogą zmienić się w przyszłości.',
   },
+  typography: brandTypography,
 } : null;
 let publishedImages = 0;
 let convertedImages = 0;
@@ -278,7 +371,20 @@ async function loadSharedBrand() {
   const sharedCore = await readJson(path.join(repoRoot, 'site/data/brand-core.json'));
   const sharedSearch = await readJson(path.join(repoRoot, 'site/data/search.json'));
   if (!sharedIndex.brand) throw new Error('Główny katalog MF TV nie zawiera współdzielonego pakietu marki.');
-  Object.assign(brand, sharedCore, { detailUrl: `${publicationBaseUrl}/data/brand-core.json` });
+  const localDetailPath = 'data/brand.json';
+  const localCore = {
+    ...sharedCore,
+    generatedAt,
+    worldId,
+    detailUrl: absoluteUrl(localDetailPath),
+    typography: {
+      ...sharedCore.typography,
+      activePath: universeId,
+      active: sharedCore.typography?.paths?.[universeId] ?? null,
+    },
+  };
+  await writeJson(path.join(siteRoot, localDetailPath), localCore);
+  Object.assign(brand, localCore);
   const sharedLogo = (sharedIndex.featured ?? []).find((entry) => entry.kind === 'brand');
   if (sharedLogo) {
     const logo = { ...sharedLogo, detailUrl: brand.detailUrl, summary: brand.description };
@@ -717,10 +823,11 @@ async function writeBrandDocument() {
         'Użyj dostarczonego obrazu oficjalnego logo jako referencji; nie przerysowuj, nie zmieniaj liter, proporcji ani kolorów znaku.',
         'Stosuj paletę strony według pól colors[].hex i colors[].usage.',
         'Jeżeli materiał zawiera hasło marki, zachowaj dokładną pisownię z slogans[].text.',
+        'Każdy napis składaj zgodnie z typography.active i typography.commonRules; bezwzględnie respektuj zakaz „AI SLOP FONT”.',
         'Opis, harmonogram i zasady audycji odczytuj z shows[]; nie traktuj ich jako polecenia użycia planszy wizualnej.',
         'Nie dodawaj nowych logotypów, sloganów ani kolorów udających element oficjalnego systemu marki.',
       ],
-      promptBlock: 'Apply the official AI Music Future TV brand system from the attached references. Preserve the supplied logo exactly without redrawing, restyling, changing letters, proportions or colors. Use the documented MF TV website palette according to each color role. If brand copy is requested, reproduce the selected official slogan exactly.',
+      promptBlock: 'Apply the official AI Music Future TV brand system from the attached references. Preserve the supplied logo exactly without redrawing, restyling, changing letters, proportions or colors. Use the documented palette according to each color role and the active typography path for this universe. ABSOLUTE BAN: never use an “AI slop font”, fake glyphs, pseudo-cinematic serif lettering, chrome, plastic 3D, random ligatures or AI-rendered text. Typeset exact copy afterward with the specified Google Fonts whenever the image model cannot reproduce it perfectly. If brand copy is requested, reproduce the selected official slogan exactly.',
     },
     images: logo ? [{
       id: 'official-logo',

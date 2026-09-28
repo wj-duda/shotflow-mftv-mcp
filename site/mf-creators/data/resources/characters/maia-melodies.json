@@ -1,32 +1,23 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T14:53:47.585Z",
+  "generatedAt": "2026-09-28T15:22:27.047Z",
   "worldId": "mf-creators",
   "kind": "resource",
   "key": "character:maia-melodies",
   "type": "characters",
   "id": "maia-melodies",
   "name": "Maia Melodies",
-  "description": "CHARACTER [age=18-29; presentation=feminine; height=165cm; build=slim; body=hourglass; chest=medium; skin=fair; face=heart; eyes=brown; hair-color=platinum-blonde; hair-length=medium; hair-texture=straight]\n\nTwórczyni kanału Maia Melodies (@maiamelodies, YouTube UCSqRnFlVAhRQSkiz0K7GKTQ). Kanoniczny wzrost: 165 cm. Kanoniczny wizerunek w świecie MF Creators to młoda kobieta o dużej, przyjaznej głowie, jasnej cerze, wielkich brązowych oczach i prostym platynowym bobie z głębokim przedziałkiem oraz ciemniejszym odrostem. Ma szeroki pogodny uśmiech, czarne słuchawki nauszne, biały top z czarną lamówką, czarne jeansy i białe sneakersy. Słuchawki są jej charakterystycznym elementem. Styl: ręcznie tuszowana, pogodna karykatura rockowo-komiksowa z widocznym kreskowaniem.",
+  "description": "CHARACTER [age=18-29; presentation=feminine; height=165cm; build=slim; body=hourglass; chest=medium; skin=fair; face=heart; eyes=brown; hair-color=platinum-blonde; hair-length=medium; hair-texture=straight]\n\nTwórczyni kanału Maia Melodies (@maiamelodies, YouTube UCSqRnFlVAhRQSkiz0K7GKTQ). Kanoniczny wzrost: 165 cm. Aktualny kanon to młoda kobieta o jasnej cerze, dużych brązowych oczach i asymetrycznym platynowym bobie z ciemniejszym odrostem. Ma pogodny uśmiech i czarne słuchawki nauszne. Nosi biały krótki top z czarną lamówką, bardzo luźne czarne spodnie cargo z łańcuchem, czarną bransoletę i biało-czarne sneakersy. Słuchawki i gest dotykania muszli są jej charakterystycznym znakiem. Rysuj ją proporcjonalnie w półrealistycznym heroicznym rock-comic, z mocnym tuszem, ciepłym światłem studyjnym i akcentami różu.",
   "images": [
     {
-      "id": "image-002",
-      "role": "portrait",
-      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/maia-melodies/image-002.webp",
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/maia-melodies/image-002-thumb.webp",
-      "width": 1536,
-      "height": 1024,
-      "contentType": "image/webp"
-    },
-    {
-      "id": "image-003",
+      "id": "image-004",
       "role": "silhouette",
-      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/maia-melodies/image-003.webp",
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/maia-melodies/image-003-thumb.webp",
-      "width": 1024,
-      "height": 1536,
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/maia-melodies/image-004.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/maia-melodies/image-004-thumb.webp",
+      "width": 1672,
+      "height": 941,
       "contentType": "image/webp"
     }
   ],
-  "updatedAt": "2026-09-28T16:39:14+02:00"
+  "updatedAt": "2026-09-28T17:17:51+02:00"
 }
