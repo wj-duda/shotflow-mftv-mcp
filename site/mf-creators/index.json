@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T16:07:21.836Z",
+  "generatedAt": "2026-09-28T18:15:24.033Z",
   "universe": {
     "id": "mf-creators",
     "name": "MF Creators"
@@ -453,7 +453,7 @@
       }
     },
     "schemaVersion": 1,
-    "generatedAt": "2026-09-28T16:07:21.836Z",
+    "generatedAt": "2026-09-28T18:15:24.033Z",
     "worldId": "mf-creators",
     "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/brand.json",
     "generationGuidance": {

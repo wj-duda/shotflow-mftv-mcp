@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T16:07:21.836Z",
+  "generatedAt": "2026-09-28T18:15:24.033Z",
   "worldId": "mf-creators",
   "type": "characters",
   "label": "Postacie",
@@ -63,7 +63,7 @@
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/livaihen/image-004-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/livaihen.json",
-      "updatedAt": "2026-09-28T18:07:10+02:00"
+      "updatedAt": "2026-09-28T20:14:44+02:00"
     },
     {
       "key": "character:maia-melodies",
