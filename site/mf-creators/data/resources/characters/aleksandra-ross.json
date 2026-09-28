@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T16:01:07.873Z",
+  "generatedAt": "2026-09-28T16:07:21.836Z",
   "worldId": "mf-creators",
   "kind": "resource",
   "key": "character:aleksandra-ross",
   "type": "characters",
   "id": "aleksandra-ross",
   "name": "Aleksandra Ross",
-  "description": "CHARACTER [age=18-29; presentation=feminine; height=168cm; build=slim; body=rectangle; chest=small; skin=fair; face=heart; eyes=green; hair-color=black-red; hair-length=long; hair-texture=wavy]\n\nTwórczyni kanału Aleksandra Ross (@aleksandraross6, YouTube UCVVZiC2RVqz4s2nXtTFuX9A), nazywana Olą. Kanoniczny wzrost: 168 cm. Aktualny kanon to młoda kobieta o jasnej, piegowatej cerze, intensywnie zielonych migdałowych oczach i długich, niedbale falowanych czarnych włosach z mocnymi karminowoczerwonymi pasmami przy twarzy. Ma kilka drobnych kolczyków w uszach, srebrny wiszący krzyżyk oraz wąski czarny choker ze srebrnym półksiężycem. Nosi obszerny czarny sweatshirt, bardzo szerokie szare jeansy i czarno-białe niskie sneakersy. Charakterystyczne są spokojne, lekko wyzywające spojrzenie, dłonie schowane w kieszeniach i czarno-karminowa paleta. Rysuj ją w półrealistycznym heroicznym rock-comic: proporcjonalna dorosła sylwetka, mocny czarny tusz, kontrolowane kreskowanie, filmowe światło i dynamiczne rozpryski farby; bez estetyki anime i chibi.",
+  "description": "CHARACTER [age=18-29; presentation=feminine; height=168cm; build=slim; body=rectangle; chest=small; skin=fair; face=heart; eyes=green; hair-color=black-red; hair-length=long; hair-texture=wavy]\n\nTwórczyni kanału Aleksandra Ross (@aleksandraross6, YouTube UCVVZiC2RVqz4s2nXtTFuX9A), nazywana Olą. Kanoniczny wzrost: 168 cm. Aktualny kanon to młoda kobieta o jasnej, piegowatej cerze, intensywnie zielonych migdałowych oczach i długich, niedbale falowanych czarnych włosach z mocnymi karminowoczerwonymi pasmami przy twarzy. Ma kilka drobnych kolczyków w uszach, srebrny wiszący krzyżyk oraz wąski czarny choker ze srebrnym półksiężycem. Nosi obszerny czarny sweatshirt, bardzo szerokie szare jeansy i czarno-białe niskie sneakersy. Charakterystyczne są spokojne, lekko wyzywające spojrzenie, dłonie schowane w kieszeniach i czarno-karminowa paleta. Rysuj ją w półrealistycznym heroicznym rock-comic: proporcjonalna dorosła sylwetka, mocny czarny tusz, kontrolowane kreskowanie, filmowe światło i dynamiczne rozpryski farby; bez estetyki anime i chibi.\n\nPERSONA KOMIKSOWA (fikcyjna)\nZnak zodiaku: Skorpion.\nCechy charakteru: introwertyczna, przenikliwa, niezależna, ironiczna i lojalna wobec swojej ekipy; najpierw obserwuje, potem trafia w sedno.\nLubi: nocne sesje twórcze, ciężki bas, szczere rozmowy bez widowni, czerń przełamaną karminem i ludzi z własnym zdaniem.\nNie lubi: sztucznego entuzjazmu, narzucania jej tempa, kopiowania cudzych pomysłów, hałaśliwego chaosu bez celu i protekcjonalnego tonu.\nMocne strony: wyczucie fałszu, konsekwencja, odwaga artystyczna, koncentracja pod presją.\nSłabe strony: długo pamięta urazy, niechętnie prosi o pomoc, bywa zbyt podejrzliwa i zamyka się, gdy czuje nacisk.\nPowiedzonka: „Ciszej. Zaraz będzie głośno.”; „Nie muszę krzyczeć, żeby było po mojemu.”",
   "images": [
     {
       "id": "image-006",
@@ -28,5 +28,5 @@
       "contentType": "image/webp"
     }
   ],
-  "updatedAt": "2026-09-28T17:41:48+02:00"
+  "updatedAt": "2026-09-28T18:07:10+02:00"
 }

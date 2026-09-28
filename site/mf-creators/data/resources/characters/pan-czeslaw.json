@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T16:01:07.873Z",
+  "generatedAt": "2026-09-28T16:07:21.836Z",
   "worldId": "mf-creators",
   "kind": "resource",
   "key": "character:pan-czeslaw",
   "type": "characters",
   "id": "pan-czeslaw",
   "name": "Pan Czesław",
-  "description": "CHARACTER [age=45-64; presentation=masculine; height=average; build=lean; body=rectangle; chest=medium; skin=medium; face=oblong; eyes=brown; hair-color=black-gray; hair-length=medium; hair-texture=curly]\n\nPan Czesław to dojrzały, szczupły mężczyzna o gęstych czarnych lokach z wyraźnymi siwymi pasmami przy skroniach, prostokątnych czarnych okularach, mocnych brwiach i krótkim siwiejącym zaroście. Nosi czarną fakturowaną marynarkę, zgaszoną brązową koszulę, luźno zawiązany ciemny krawat, czarne spodnie i klasyczne czarne buty. Charakterystyczne są lekko ironiczne spojrzenie, ręce w kieszeniach oraz niska szklanka bursztynowego napoju. Jego indywidualna paleta to czerń, krem, pomarańcz i bursztyn. Rysuj go proporcjonalnie w półrealistycznym heroicznym rock-comic z mocnym tuszem, kreskowaniem twarzy i elegancją zmieszaną z klubowym luzem.",
+  "description": "CHARACTER [age=45-64; presentation=masculine; height=average; build=lean; body=rectangle; chest=medium; skin=medium; face=oblong; eyes=brown; hair-color=black-gray; hair-length=medium; hair-texture=curly]\n\nPan Czesław to dojrzały, szczupły mężczyzna o gęstych czarnych lokach z wyraźnymi siwymi pasmami przy skroniach, prostokątnych czarnych okularach, mocnych brwiach i krótkim siwiejącym zaroście. Nosi czarną fakturowaną marynarkę, zgaszoną brązową koszulę, luźno zawiązany ciemny krawat, czarne spodnie i klasyczne czarne buty. Charakterystyczne są lekko ironiczne spojrzenie, ręce w kieszeniach oraz niska szklanka bursztynowego napoju. Jego indywidualna paleta to czerń, krem, pomarańcz i bursztyn. Rysuj go proporcjonalnie w półrealistycznym heroicznym rock-comic z mocnym tuszem, kreskowaniem twarzy i elegancją zmieszaną z klubowym luzem.\n\nPERSONA KOMIKSOWA (fikcyjna)\nZnak zodiaku: Panna.\nCechy charakteru: analityczny, ironiczny, spostrzegawczy, odpowiedzialny i dyskretnie opiekuńczy; komentuje chaos tak, jakby od początku znał zakończenie.\nLubi: celne puenty, dobrze ułożony plan, klasyczną elegancję, rozmowy po godzinach, bursztynowe światło i kompetentnych ludzi.\nNie lubi: patosu bez treści, bałaganu w ustaleniach, powtarzania tego samego, przesadnej poufałości i marnowania dobrego pomysłu.\nMocne strony: analiza, pamięć do szczegółów, dyplomacja, przewidywanie konsekwencji.\nSłabe strony: nadmierny krytycyzm, skłonność do zamartwiania się, trudność w spontanicznym działaniu i maskowanie uczuć ironią.\nPowiedzonka: „No dobrze, ale gdzie tu jest puenta?”; „Ja nic nie mówię. Ja tylko zauważam.”",
   "images": [
     {
       "id": "image-001",
@@ -28,5 +28,5 @@
       "contentType": "image/webp"
     }
   ],
-  "updatedAt": "2026-09-28T17:17:51+02:00"
+  "updatedAt": "2026-09-28T18:07:10+02:00"
 }

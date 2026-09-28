@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T16:01:07.873Z",
+  "generatedAt": "2026-09-28T16:07:21.836Z",
   "worldId": "mf-creators",
   "kind": "resource",
   "key": "character:baju-the-aigorhythms",
   "type": "characters",
   "id": "baju-the-aigorhythms",
   "name": "Baju & The AIgorhythms",
-  "description": "CHARACTER [age=30-44; presentation=masculine; height=178cm; species=human; build=muscular; body=rectangle; skin=medium; face=square; eyes=brown; hair-color=black; hair-length=short; hair-texture=mohawk]\n\nTwórca kanału Baju & The AIgorhythms (@bajutheaigorhythms, YouTube UCxgSjAx9oiXdvJBbPDn8UIg). Kanoniczny wzrost: 178 cm. Baju jest umięśnionym mężczyzną z krótkim czarnym irokezem i wygolonymi bokami, przystrzyżoną brodą, czarnym tunelem w uchu oraz dużym geometrycznym tatuażem na ramieniu. Nosi czarny T-shirt z motywem czaszki i sprzętu muzycznego, podarte luźne jeansy z łańcuchem, czarne bransolety, sygnet i biało-czarne sneakersy z niebieskim akcentem. Charakterystyczne są pewne spojrzenie, dłonie wysunięte w stronę widza i profesjonalne studio pełne gitar. Rysuj go w półrealistycznym heroicznym rock-comic z mocnym tuszem, dynamiczną perspektywą, czernią i elektrycznym błękitem.",
+  "description": "CHARACTER [age=30-44; presentation=masculine; height=178cm; species=human; build=muscular; body=rectangle; skin=medium; face=square; eyes=brown; hair-color=black; hair-length=short; hair-texture=mohawk]\n\nTwórca kanału Baju & The AIgorhythms (@bajutheaigorhythms, YouTube UCxgSjAx9oiXdvJBbPDn8UIg). Kanoniczny wzrost: 178 cm. Baju jest umięśnionym mężczyzną z krótkim czarnym irokezem i wygolonymi bokami, przystrzyżoną brodą, czarnym tunelem w uchu oraz dużym geometrycznym tatuażem na ramieniu. Nosi czarny T-shirt z motywem czaszki i sprzętu muzycznego, podarte luźne jeansy z łańcuchem, czarne bransolety, sygnet i biało-czarne sneakersy z niebieskim akcentem. Charakterystyczne są pewne spojrzenie, dłonie wysunięte w stronę widza i profesjonalne studio pełne gitar. Rysuj go w półrealistycznym heroicznym rock-comic z mocnym tuszem, dynamiczną perspektywą, czernią i elektrycznym błękitem.\n\nPERSONA KOMIKSOWA (fikcyjna)\nZnak zodiaku: Baran.\nCechy charakteru: energiczny, bezpośredni, pracowity, technicznie dociekliwy i opiekuńczy wobec zespołu; lubi przejmować inicjatywę.\nLubi: potężne riffy, testowanie nowych brzmień, precyzyjny sprzęt, trening i konstruktywną rywalizację.\nNie lubi: wymówek, spóźnień, grania bez przygotowania, pustego efekciarstwa i pomysłów bez wykonania.\nMocne strony: przywództwo, dyscyplina, szybkie decyzje, łączenie technologii z muzycznym instynktem.\nSłabe strony: niecierpliwość, upór, branie zbyt wielu obowiązków i skłonność do poprawiania innych bez pytania.\nPowiedzonka: „Algorytm algorytmem, riff musi się zgadzać.”; „Jeszcze raz — tym razem z mocą.”",
   "images": [
     {
       "id": "image-004",
@@ -28,5 +28,5 @@
       "contentType": "image/webp"
     }
   ],
-  "updatedAt": "2026-09-28T17:17:51+02:00"
+  "updatedAt": "2026-09-28T18:07:10+02:00"
 }

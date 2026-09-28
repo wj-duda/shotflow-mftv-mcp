@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T16:01:07.873Z",
+  "generatedAt": "2026-09-28T16:07:21.836Z",
   "worldId": "mf-creators",
   "kind": "resource",
   "key": "character:rkfonzo",
   "type": "characters",
   "id": "rkfonzo",
   "name": "rkFonzo",
-  "description": "CHARACTER [age=45-64; presentation=masculine; height=178cm; build=athletic; body=rectangle; chest=medium; skin=medium; face=angular; eyes=dark-brown; hair-color=silver-gray; hair-length=short; hair-texture=spiky]\n\nTwórca kanału rkFonzo (@rkfonzo, YouTube UC_OFjUpeMOY_6wydhhoPlLA). Kanoniczny wzrost: 178 cm. Aktualny kanon to dojrzały rockowy mężczyzna o krótkich, mocno nastroszonych srebrnych włosach z ciemnymi bokami, kanciastej twarzy i czarnych okularach przeciwsłonecznych. Nosi czarny T-shirt z czaszką, skórzaną ramoneskę, podarte czarne jeansy z łańcuchem, masywne botki, zegarek, bransolety i naszyjnik z czaszką. Charakterystyczna jest spokojna poza z rękami w kieszeniach i uniesioną brodą. Rysuj go proporcjonalnie w półrealistycznym heroicznym rock-comic z ostrym czarnym tuszem, wyraźnym połyskiem skóry i fioletowym akcentem.",
+  "description": "CHARACTER [age=45-64; presentation=masculine; height=178cm; build=athletic; body=rectangle; chest=medium; skin=medium; face=angular; eyes=dark-brown; hair-color=silver-gray; hair-length=short; hair-texture=spiky]\n\nTwórca kanału rkFonzo (@rkfonzo, YouTube UC_OFjUpeMOY_6wydhhoPlLA). Kanoniczny wzrost: 178 cm. Aktualny kanon to dojrzały rockowy mężczyzna o krótkich, mocno nastroszonych srebrnych włosach z ciemnymi bokami, kanciastej twarzy i czarnych okularach przeciwsłonecznych. Nosi czarny T-shirt z czaszką, skórzaną ramoneskę, podarte czarne jeansy z łańcuchem, masywne botki, zegarek, bransolety i naszyjnik z czaszką. Charakterystyczna jest spokojna poza z rękami w kieszeniach i uniesioną brodą. Rysuj go proporcjonalnie w półrealistycznym heroicznym rock-comic z ostrym czarnym tuszem, wyraźnym połyskiem skóry i fioletowym akcentem.\n\nPERSONA KOMIKSOWA (fikcyjna)\nZnak zodiaku: Byk.\nCechy charakteru: niewzruszony, konkretny, wytrwały, oszczędny w słowach i wierny własnym zasadom; jego spokój ma ciężar wzmacniacza.\nLubi: klasyczne rockowe brzmienie, solidny sprzęt, skórzane kurtki, punktualność, długie trasy i rzeczy z historią.\nNie lubi: zbędnego gadania, chwilowych mód, niedbałego wykonania, zmiany planu w ostatniej chwili i naciskania go bez argumentów.\nMocne strony: niezawodność, cierpliwość, odporność, praktyczne doświadczenie.\nSłabe strony: upór, niechęć do eksperymentu bez dowodów, powolne wybaczanie i zamykanie emocji za ciemnymi okularami.\nPowiedzonka: „Bez zbędnych słów. Odpalamy.”; „Dobre brzmienie nie potrzebuje wymówek.”",
   "images": [
     {
       "id": "image-004",
@@ -19,5 +19,5 @@
       "contentType": "image/webp"
     }
   ],
-  "updatedAt": "2026-09-28T17:17:51+02:00"
+  "updatedAt": "2026-09-28T18:07:10+02:00"
 }
