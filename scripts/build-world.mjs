@@ -16,14 +16,16 @@ const publicationBaseUrl = (args.publicationBaseUrl ?? 'https://wj-duda.github.i
 const baseUrl = (args.baseUrl ?? (universeId === 'mf-tv' ? publicationBaseUrl : `${publicationBaseUrl}/${universeId}`)).replace(/\/$/, '');
 const imageCachePath = path.join(repoRoot, '.cache/image-metadata.json');
 const imageCache = await readOptionalJson(imageCachePath, {});
-const hasMftvBrand = universeId === 'mf-tv';
+const buildsMftvBrand = universeId === 'mf-tv';
+const sharesMftvBrand = universeId === 'mf-creators';
+const hasMftvBrand = buildsMftvBrand || sharesMftvBrand;
 const generationProfile = universeId === 'mf-creators'
   ? {
       requiredLookKey: 'look:rock-comic',
       rule: 'Każda generacja obrazu w MF Creators musi stosować nadrzędny look rockowo-komiksowy oraz indywidualny wariant zapisany przy wybranych postaciach.',
     }
   : null;
-if (hasMftvBrand && !brandAssetsSource) throw new Error('Dla mf-tv podaj katalog assetów marki przez --brand-assets albo MFTV_BRAND_ASSETS.');
+if (buildsMftvBrand && !brandAssetsSource) throw new Error('Dla mf-tv podaj katalog assetów marki przez --brand-assets albo MFTV_BRAND_ASSETS.');
 const brandAssetsRoot = brandAssetsSource ? path.resolve(brandAssetsSource) : null;
 
 assertInside(repoRoot, siteRoot, 'Katalog wyjściowy musi znajdować się wewnątrz repozytorium.');
@@ -88,9 +90,11 @@ let reusedImages = 0;
 await cleanOutput();
 await writeStaticFiles();
 await buildResources();
-if (hasMftvBrand) {
+if (buildsMftvBrand) {
   await buildFeatured();
   await writeBrandDocument();
+} else if (sharesMftvBrand) {
+  await loadSharedBrand();
 }
 await buildProjects();
 await writeUniverseDirectory();
@@ -218,6 +222,15 @@ async function writeStaticFiles() {
   await writeFile(path.join(siteRoot, 'index.html'), html, 'utf8');
   await writeFile(path.join(siteRoot, 'app.js'), await readFile(path.join(templateRoot, 'app.js')), 'utf8');
   await writeFile(path.join(siteRoot, 'styles.css'), await readFile(path.join(templateRoot, 'styles.css')), 'utf8');
+}
+
+async function loadSharedBrand() {
+  const sharedIndex = await readJson(path.join(repoRoot, 'site/index.json'));
+  const sharedSearch = await readJson(path.join(repoRoot, 'site/data/search.json'));
+  if (!sharedIndex.brand) throw new Error('Główny katalog MF TV nie zawiera współdzielonego pakietu marki.');
+  Object.assign(brand, sharedIndex.brand);
+  featured.push(...(sharedIndex.featured ?? []));
+  searchEntries.push(...sharedSearch.entries.filter((entry) => entry.type === 'brand' && entry.fixed));
 }
 
 async function writeUniverseDirectory() {
