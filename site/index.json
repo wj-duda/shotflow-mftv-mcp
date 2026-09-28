@@ -1,6 +1,10 @@
 {
   "schemaVersion": 1,
   "generatedAt": "2026-09-28T11:56:12.545Z",
+  "universe": {
+    "id": "mf-tv",
+    "name": "Świat MF TV"
+  },
   "world": {
     "id": "aimftv",
     "name": "Świat MF TV"
@@ -8,7 +12,7 @@
   "usage": {
     "purpose": "Publiczny katalog świata ShotFlow dla ludzi i klientów MCP.",
     "mcp": [
-      "Przed generacją materiału dotyczącego MF TV pobierz brand.detailUrl i zastosuj zawarte tam zasady marki.",
+      "Pakiet marki pobieraj wyłącznie dla jawnych materiałów promocyjnych, plansz, logo, sloganów lub identyfikacji audycji.",
       "Pobierz searchUrl i wybierz tylko rekordy potrzebne do zadania.",
       "Przed ustaleniem wyglądu w danym momencie pobierz eventsUrl. Projekty są tam ułożone od najnowszych, a shoty wewnątrz projektu zgodnie z przebiegiem historii.",
       "Stan obecny ustalaj z najpóźniejszego pasującego wydarzenia; starszy obraz jest historyczny i nie może zastąpić późniejszej transformacji, stroju ani stanu miejsca.",
@@ -221,6 +225,7 @@
       "url": "https://wj-duda.github.io/shotflow-mftv-mcp/data/brand.json"
     }
   },
+  "universesUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/universes.json",
   "searchUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/search.json",
   "timelineUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/timeline.json",
   "eventsUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/events.json"

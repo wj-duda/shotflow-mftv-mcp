@@ -4,19 +4,19 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Publiczna przeglądarka postaci, miejsc, rekwizytów i shotów świata MF TV." />
-    <title>Świat MF TV</title>
+    <title>MF Creators</title>
     <link rel="stylesheet" href="styles.css" />
     <script defer src="app.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.9/dist/cdn.min.js"></script>
   </head>
-  <body x-data="worldBrowser('aimftv')" x-init="init()">
+  <body x-data="worldBrowser('mf-creators')" x-init="init()">
     <header class="hero">
       <button class="brand-mark" type="button" x-show="logoEntry" @click="open(logoEntry)">
         <img :src="localUrl(logoEntry?.imageUrl)" alt="Oficjalne logo AI Music Future TV" />
       </button>
       <div class="hero-copy">
         <p class="eyebrow">SHOTFLOW · PUBLICZNE ARCHIWUM</p>
-        <h1>Świat MF TV</h1>
+        <h1>MF Creators</h1>
         <p class="lead">Postacie, miejsca, rekwizyty, notatki i aktualne kadry projektów.</p>
       </div>
       <div class="hero-actions">

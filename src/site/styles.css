@@ -27,6 +27,10 @@ button, input, select { font: inherit; }
 .eyebrow { margin: 0 0 10px; color: var(--accent); font-size: .72rem; font-weight: 800; letter-spacing: .18em; }
 h1 { margin: 0; font-size: clamp(2.5rem, 7vw, 6.2rem); line-height: .9; letter-spacing: -.055em; }
 .lead { margin: 18px 0 0; max-width: 52rem; color: var(--muted); font-size: 1.05rem; }
+.hero-actions { display: grid; gap: 10px; justify-items: end; }
+.universe-switcher { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 6px; }
+.universe-switcher a { border: 1px solid var(--line); border-radius: 999px; padding: 7px 11px; color: var(--muted); font-size: .75rem; text-decoration: none; }
+.universe-switcher a:hover, .universe-switcher a.active { border-color: var(--accent); color: #fff; }
 .api-link, .copy, .more { border: 1px solid var(--line); border-radius: 999px; padding: 10px 16px; background: #101416; text-decoration: none; cursor: pointer; }
 .api-link:hover, .copy:hover, .more:hover { border-color: var(--accent); color: var(--accent); }
 
@@ -112,7 +116,8 @@ footer { display: flex; justify-content: space-between; gap: 20px; padding: 24px
 
 @media (max-width: 700px) {
   .hero { grid-template-columns: 100px 1fr; align-items: center; padding-top: 30px; }
-  .api-link { grid-column: 1 / -1; justify-self: start; }
+  .hero-actions { grid-column: 1 / -1; justify-items: start; }
+  .universe-switcher { justify-content: flex-start; }
   .toolbar { grid-template-columns: 1fr; }
   .brand-detail .brand-lines { grid-template-columns: 1fr; }
   .slogan-detail dl div { grid-template-columns: 1fr; gap: 6px; }

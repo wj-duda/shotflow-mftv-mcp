@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T13:52:18.217Z",
+  "universe": {
+    "id": "mf-creators",
+    "name": "MF Creators"
+  },
+  "world": {
+    "id": "mf-creators",
+    "name": "MF Creators"
+  },
+  "usage": {
+    "purpose": "Publiczny katalog świata ShotFlow dla ludzi i klientów MCP.",
+    "mcp": [
+      "Pobierz searchUrl i wybierz tylko rekordy potrzebne do zadania.",
+      "Przed ustaleniem wyglądu w danym momencie pobierz eventsUrl. Projekty są tam ułożone od najnowszych, a shoty wewnątrz projektu zgodnie z przebiegiem historii.",
+      "Stan obecny ustalaj z najpóźniejszego pasującego wydarzenia; starszy obraz jest historyczny i nie może zastąpić późniejszej transformacji, stroju ani stanu miejsca.",
+      "Następnie pobierz detailUrl wybranych rekordów; nie pobieraj całej biblioteki obrazów.",
+      "W promptach odwołuj się do stabilnego pola key, a obraz przekazuj z imageUrl wskazanego w szczegółach."
+    ]
+  },
+  "counts": {
+    "resources": 0,
+    "projects": 0,
+    "shots": 0,
+    "images": 0
+  },
+  "brand": null,
+  "featured": [],
+  "catalogs": {
+    "resources": [],
+    "projects": {
+      "count": 0,
+      "url": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/index.json"
+    }
+  },
+  "universesUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/universes.json",
+  "searchUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/search.json",
+  "timelineUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/timeline.json",
+  "eventsUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/events.json"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T13:52:18.217Z",
+  "defaultUniverseId": "mf-tv",
+  "universes": [
+    {
+      "id": "mf-tv",
+      "worldId": "aimftv",
+      "name": "MF TV",
+      "url": "https://wj-duda.github.io/shotflow-mftv-mcp/",
+      "catalogUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/index.json",
+      "mcpUrl": "https://europe-central2-aitv-42f4b.cloudfunctions.net/shotflowMcpProbe/mf-tv/mcp"
+    },
+    {
+      "id": "mf-creators",
+      "worldId": "mf-creators",
+      "name": "MF Creators",
+      "url": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/",
+      "catalogUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/index.json",
+      "mcpUrl": "https://europe-central2-aitv-42f4b.cloudfunctions.net/shotflowMcpProbe/mf-creators/mcp"
+    }
+  ]
+}

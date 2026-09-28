@@ -19,7 +19,14 @@
         <h1>{{WORLD_NAME}}</h1>
         <p class="lead">Postacie, miejsca, rekwizyty, notatki i aktualne kadry projektów.</p>
       </div>
-      <a class="api-link" href="index.json">Indeks JSON dla MCP</a>
+      <div class="hero-actions">
+        <nav class="universe-switcher" x-show="universes.length > 1" aria-label="Uniwersum">
+          <template x-for="universe in universes" :key="universe.id">
+            <a :class="{ active: universe.id === activeUniverseId }" :href="universeUrl(universe)" x-text="universe.name"></a>
+          </template>
+        </nav>
+        <a class="api-link" href="index.json">Indeks JSON dla MCP</a>
+      </div>
     </header>
 
     <main>

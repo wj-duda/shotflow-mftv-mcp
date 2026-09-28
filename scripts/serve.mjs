@@ -18,7 +18,9 @@ const contentTypes = {
 const server = createServer(async (request, response) => {
   try {
     const requestPath = decodeURIComponent(new URL(request.url, `http://${request.headers.host}`).pathname);
-    const relativePath = requestPath === '/' ? 'index.html' : requestPath.replace(/^\/+/, '');
+    const relativePath = requestPath === '/'
+      ? 'index.html'
+      : `${requestPath.replace(/^\/+/, '')}${requestPath.endsWith('/') ? 'index.html' : ''}`;
     const filePath = path.resolve(root, relativePath);
     const relative = path.relative(root, filePath);
     if (relative.startsWith('..') || path.isAbsolute(relative) || !(await stat(filePath)).isFile()) {

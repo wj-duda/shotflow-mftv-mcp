@@ -9,6 +9,8 @@ window.worldBrowser = function worldBrowser(worldId) {
     entries: [],
     featured: [],
     brand: { slogans: [], colors: [] },
+    universes: [],
+    activeUniverseId: '',
     timeline: [],
     selected: null,
     detail: null,
@@ -17,14 +19,17 @@ window.worldBrowser = function worldBrowser(worldId) {
     async init() {
       try {
         const root = await fetchJson('index.json');
+        this.activeUniverseId = root.universe?.id ?? root.world?.id ?? this.worldId;
         this.featured = root.featured ?? [];
         this.brand = root.brand ?? this.brand;
-        const [search, timeline] = await Promise.all([
+        const [search, timeline, universeDirectory] = await Promise.all([
           fetchJson(this.localUrl(root.searchUrl)),
           fetchJson(this.localUrl(root.timelineUrl)),
+          root.universesUrl ? fetchJson(this.localUrl(root.universesUrl)) : Promise.resolve({ universes: [] }),
         ]);
         this.entries = search.entries;
         this.timeline = timeline.projects;
+        this.universes = universeDirectory.universes ?? [];
       } catch (error) {
         this.error = `Nie udało się wczytać katalogu: ${error.message}`;
       } finally {
@@ -78,6 +83,10 @@ window.worldBrowser = function worldBrowser(worldId) {
         return parsed.pathname.replace(/^\/shotflow-mftv-mcp\//, '/');
       }
       return url;
+    },
+
+    universeUrl(universe) {
+      return this.localUrl(universe.url);
     },
 
     typeLabel(type) {

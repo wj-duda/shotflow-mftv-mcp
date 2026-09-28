@@ -9,16 +9,21 @@ const siteRoot = path.resolve(repoRoot, args.output ?? 'site');
 const worldSource = args.world ?? process.env.SHOTFLOW_WORLD;
 const brandAssetsSource = args.brandAssets ?? process.env.MFTV_BRAND_ASSETS;
 if (!worldSource) throw new Error('Podaj katalog świata przez --world albo SHOTFLOW_WORLD.');
-if (!brandAssetsSource) throw new Error('Podaj katalog assetów marki przez --brand-assets albo MFTV_BRAND_ASSETS.');
 const worldRoot = path.resolve(worldSource);
 const worldId = path.basename(worldRoot);
-const baseUrl = (args.baseUrl ?? 'https://wj-duda.github.io/shotflow-mftv-mcp').replace(/\/$/, '');
+const universeId = args.universeId ?? (worldId === 'aimftv' ? 'mf-tv' : worldId);
+const publicationBaseUrl = (args.publicationBaseUrl ?? 'https://wj-duda.github.io/shotflow-mftv-mcp').replace(/\/$/, '');
+const baseUrl = (args.baseUrl ?? (universeId === 'mf-tv' ? publicationBaseUrl : `${publicationBaseUrl}/${universeId}`)).replace(/\/$/, '');
 const imageCachePath = path.join(repoRoot, '.cache/image-metadata.json');
 const imageCache = await readOptionalJson(imageCachePath, {});
-const brandAssetsRoot = path.resolve(brandAssetsSource);
+const hasMftvBrand = universeId === 'mf-tv';
+if (hasMftvBrand && !brandAssetsSource) throw new Error('Dla mf-tv podaj katalog assetów marki przez --brand-assets albo MFTV_BRAND_ASSETS.');
+const brandAssetsRoot = brandAssetsSource ? path.resolve(brandAssetsSource) : null;
 
 assertInside(repoRoot, siteRoot, 'Katalog wyjściowy musi znajdować się wewnątrz repozytorium.');
 await requireDirectory(worldRoot, `Nie znaleziono świata: ${worldRoot}`);
+const worldMetadata = await readOptionalJson(path.join(worldRoot, 'world.json'), {});
+const worldDisplayName = String(worldMetadata.name || worldName(worldId));
 
 const generatedAt = new Date().toISOString();
 const warnings = [];
@@ -29,7 +34,7 @@ const searchEntries = [];
 const projectCatalog = [];
 const storyEvents = [];
 const featured = [];
-const brand = {
+const brand = hasMftvBrand ? {
   key: 'brand:aimftv',
   kind: 'brand',
   name: 'AI Music Future TV',
@@ -69,7 +74,7 @@ const brand = {
     { id: 'cream', name: 'Cream', hex: '#F5F5F2', usage: 'Główny kolor tekstu' },
     { id: 'night', name: 'Night', hex: '#0D0F12', usage: 'Główne tło strony' },
   ],
-};
+} : null;
 let publishedImages = 0;
 let convertedImages = 0;
 let reusedImages = 0;
@@ -77,9 +82,12 @@ let reusedImages = 0;
 await cleanOutput();
 await writeStaticFiles();
 await buildResources();
-await buildFeatured();
-await writeBrandDocument();
+if (hasMftvBrand) {
+  await buildFeatured();
+  await writeBrandDocument();
+}
 await buildProjects();
+await writeUniverseDirectory();
 
 const resourceTypes = [...resourceCatalogs.entries()]
   .sort(([left], [right]) => left.localeCompare(right, 'pl'))
@@ -93,11 +101,12 @@ const resourceTypes = [...resourceCatalogs.entries()]
 const index = {
   schemaVersion: 1,
   generatedAt,
-  world: { id: worldId, name: worldName(worldId) },
+  universe: { id: universeId, name: worldDisplayName },
+  world: { id: worldId, name: worldDisplayName },
   usage: {
     purpose: 'Publiczny katalog świata ShotFlow dla ludzi i klientów MCP.',
     mcp: [
-      'Przed generacją materiału dotyczącego MF TV pobierz brand.detailUrl i zastosuj zawarte tam zasady marki.',
+      ...(hasMftvBrand ? ['Pakiet marki pobieraj wyłącznie dla jawnych materiałów promocyjnych, plansz, logo, sloganów lub identyfikacji audycji.'] : []),
       'Pobierz searchUrl i wybierz tylko rekordy potrzebne do zadania.',
       'Przed ustaleniem wyglądu w danym momencie pobierz eventsUrl. Projekty są tam ułożone od najnowszych, a shoty wewnątrz projektu zgodnie z przebiegiem historii.',
       'Stan obecny ustalaj z najpóźniejszego pasującego wydarzenia; starszy obraz jest historyczny i nie może zastąpić późniejszej transformacji, stroju ani stanu miejsca.',
@@ -119,12 +128,13 @@ const index = {
       count: projectCatalog.length,
       url: absoluteUrl('data/projects/index.json'),
     },
-    brand: {
+    ...(brand ? { brand: {
       key: brand.key,
       priority: brand.priority,
       url: brand.detailUrl,
-    },
+    } } : {}),
   },
+  universesUrl: `${publicationBaseUrl}/universes.json`,
   searchUrl: absoluteUrl('data/search.json'),
   timelineUrl: absoluteUrl('data/timeline.json'),
   eventsUrl: absoluteUrl('data/events.json'),
@@ -196,11 +206,38 @@ async function cleanOutput() {
 async function writeStaticFiles() {
   const templateRoot = path.join(repoRoot, 'src/site');
   const html = (await readFile(path.join(templateRoot, 'index.html'), 'utf8'))
-    .replaceAll('{{WORLD_NAME}}', escapeHtml(worldName(worldId)))
+    .replaceAll('{{WORLD_NAME}}', escapeHtml(worldDisplayName))
     .replaceAll('{{WORLD_ID}}', escapeHtml(worldId));
   await writeFile(path.join(siteRoot, 'index.html'), html, 'utf8');
   await writeFile(path.join(siteRoot, 'app.js'), await readFile(path.join(templateRoot, 'app.js')), 'utf8');
   await writeFile(path.join(siteRoot, 'styles.css'), await readFile(path.join(templateRoot, 'styles.css')), 'utf8');
+}
+
+async function writeUniverseDirectory() {
+  const universes = [
+    {
+      id: 'mf-tv',
+      worldId: 'aimftv',
+      name: 'MF TV',
+      url: `${publicationBaseUrl}/`,
+      catalogUrl: `${publicationBaseUrl}/index.json`,
+      mcpUrl: 'https://europe-central2-aitv-42f4b.cloudfunctions.net/shotflowMcpProbe/mf-tv/mcp',
+    },
+    {
+      id: 'mf-creators',
+      worldId: 'mf-creators',
+      name: 'MF Creators',
+      url: `${publicationBaseUrl}/mf-creators/`,
+      catalogUrl: `${publicationBaseUrl}/mf-creators/index.json`,
+      mcpUrl: 'https://europe-central2-aitv-42f4b.cloudfunctions.net/shotflowMcpProbe/mf-creators/mcp',
+    },
+  ];
+  await writeJson(path.join(repoRoot, 'site/universes.json'), {
+    schemaVersion: 1,
+    generatedAt,
+    defaultUniverseId: 'mf-tv',
+    universes,
+  });
 }
 
 async function buildResources() {
