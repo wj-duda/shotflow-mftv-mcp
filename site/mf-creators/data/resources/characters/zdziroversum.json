@@ -1,23 +1,32 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T14:17:15.042Z",
+  "generatedAt": "2026-09-28T14:53:47.585Z",
   "worldId": "mf-creators",
   "kind": "resource",
   "key": "character:zdziroversum",
   "type": "characters",
   "id": "zdziroversum",
   "name": "ZDZIROVERSUM",
-  "description": "CHARACTER [age=30-44; presentation=feminine; height=average; build=curvy; body=hourglass; chest=medium; skin=medium; face=oval; eyes=dark-brown; hair-color=copper-red; hair-length=very-long; hair-texture=braided]\n\nTwórczyni kanału ZDZIROVERSUM (@zdziroversum, YouTube UCGZ72y5I6pcEM8JkV4Deuhw). Kanoniczny avatar to pewna siebie kobieta o bardzo długich miedziano-rudych warkoczach z jasnymi pasmami i kolorowymi koralikami. Nosi czapkę z folii aluminiowej, duże czarne okulary przeciwsłoneczne, czerwoną bluzkę i czarną skórzaną ramoneskę. Ma ciemnoczerwony manicure, wysuwa język i pokazuje znak pokoju. Kosmici, UFO, pies w wózku, butelka, pizza i tablice są elementami kosmicznej sceny, nie częściami postaci. Styl: hiper-szczegółowa, neonowa ilustracja rockowo-komiksowa z miejską nocą, zielenią UFO, czernią skóry i pomarańczem włosów.",
+  "description": "CHARACTER [age=30-44; presentation=feminine; height=172cm; build=curvy; body=hourglass; chest=medium; skin=medium; face=oval; eyes=dark-brown; hair-color=copper-red; hair-length=very-long; hair-texture=braided]\n\nTwórczyni kanału ZDZIROVERSUM (@zdziroversum, YouTube UCGZ72y5I6pcEM8JkV4Deuhw). Kanoniczny wzrost: 172 cm. Kanoniczny avatar to pewna siebie kobieta o dużej wyrazistej głowie i bardzo długich miedziano-rudych warkoczach z jasnymi pasmami oraz kolorowymi koralikami. Nosi czapkę z folii aluminiowej, duże czarne okulary, czerwoną bluzkę, skórzaną ramoneskę, czarne spodnie i ciężkie botki. Wysunięty język, znak pokoju i foliowa czapka są jej charakterystycznymi znakami. Styl: ręcznie tuszowana, szczegółowa karykatura rockowo-komiksowa z widocznym kreskowaniem, czernią i pomarańczem włosów.",
   "images": [
     {
-      "id": "image-001",
+      "id": "image-002",
       "role": "portrait",
-      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/zdziroversum/image-001.webp",
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/zdziroversum/image-001-thumb.webp",
-      "width": 1536,
-      "height": 1024,
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/zdziroversum/image-002.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/zdziroversum/image-002-thumb.webp",
+      "width": 1199,
+      "height": 1312,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-003",
+      "role": "silhouette",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/zdziroversum/image-003.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/zdziroversum/image-003-thumb.webp",
+      "width": 1024,
+      "height": 1536,
       "contentType": "image/webp"
     }
   ],
-  "updatedAt": "2026-09-28T15:59:54+02:00"
+  "updatedAt": "2026-09-28T16:39:14+02:00"
 }

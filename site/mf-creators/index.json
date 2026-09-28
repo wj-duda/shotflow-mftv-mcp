@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T14:17:15.042Z",
+  "generatedAt": "2026-09-28T14:53:47.585Z",
   "universe": {
     "id": "mf-creators",
     "name": "MF Creators"
@@ -25,10 +25,10 @@
     ]
   },
   "counts": {
-    "resources": 9,
+    "resources": 10,
     "projects": 0,
     "shots": 0,
-    "images": 8
+    "images": 17
   },
   "brand": {
     "key": "brand:aimftv",
@@ -275,6 +275,12 @@
         "label": "Style",
         "count": 1,
         "url": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/looks/index.json"
+      },
+      {
+        "type": "props",
+        "label": "Rekwizyty",
+        "count": 1,
+        "url": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/props/index.json"
       }
     ],
     "projects": {

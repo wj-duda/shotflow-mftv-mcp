@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T14:17:15.042Z",
+  "generatedAt": "2026-09-28T14:53:47.585Z",
   "worldId": "mf-creators",
   "entries": [
     {
@@ -41,6 +41,114 @@
       "fixed": true
     },
     {
+      "key": "character:aleksandra-ross",
+      "kind": "resource",
+      "type": "characters",
+      "id": "aleksandra-ross",
+      "name": "Aleksandra Ross",
+      "summary": "CHARACTER [age=30-44; presentation=feminine; height=168cm; build=curvy; body=hourglass; chest=medium; skin=fair; face=heart; eyes=hazel; hair-color=copper-red; hair-length=long; hair-texture=curly] Twórczyni kanału Aleksandra Ross (@aleksandraross6, YouTube UCVVZiC2RVqz4s2nXtTFu…",
+      "imageCount": 2,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/aleksandra-ross/image-002-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/aleksandra-ross.json",
+      "updatedAt": "2026-09-28T16:39:14+02:00"
+    },
+    {
+      "key": "character:baju-the-aigorhythms",
+      "kind": "resource",
+      "type": "characters",
+      "id": "baju-the-aigorhythms",
+      "name": "Baju & The AIgorhythms",
+      "summary": "CHARACTER [presentation=masculine; height=178cm; species=undead-cyborg-skeleton; build=very-slim; hair-color=black; hair-length=short; hair-texture=spiky] Twórca kanału Baju & The AIgorhythms (@bajutheaigorhythms, YouTube UCxgSjAx9oiXdvJBbPDn8UIg). Kanoniczny wzrost: 178 cm. Kan…",
+      "imageCount": 2,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/baju-the-aigorhythms/image-002-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/baju-the-aigorhythms.json",
+      "updatedAt": "2026-09-28T16:39:14+02:00"
+    },
+    {
+      "key": "character:darkvondagar",
+      "kind": "resource",
+      "type": "characters",
+      "id": "darkvondagar",
+      "name": "DarkVondagar",
+      "summary": "CHARACTER [age=45-64; presentation=masculine; height=190cm; build=lean; body=rectangle; chest=medium; skin=deep-brown; face=long; eyes=dark-brown; hair-color=dark-brown; hair-length=long; hair-texture=braided] Twórca kanału DarkVondagar (@darkvondagar, YouTube UCZs5v9cslCrZIs4zC…",
+      "imageCount": 2,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/darkvondagar/image-002-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/darkvondagar.json",
+      "updatedAt": "2026-09-28T16:39:14+02:00"
+    },
+    {
+      "key": "character:livaihen",
+      "kind": "resource",
+      "type": "characters",
+      "id": "livaihen",
+      "name": "Livaihen",
+      "summary": "CHARACTER [age=30-44; presentation=feminine; height=170cm; build=curvy; body=hourglass; chest=medium; skin=fair; face=oval; eyes=green; hair-color=burgundy-red; hair-length=long; hair-texture=wavy] Twórczyni kanału Livaihen (@ewaduda-livaihen, YouTube UCgK0hHeDmi_8rhmz5-lKrxQ).…",
+      "imageCount": 2,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/livaihen/image-002-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/livaihen.json",
+      "updatedAt": "2026-09-28T16:39:14+02:00"
+    },
+    {
+      "key": "character:maia-melodies",
+      "kind": "resource",
+      "type": "characters",
+      "id": "maia-melodies",
+      "name": "Maia Melodies",
+      "summary": "CHARACTER [age=18-29; presentation=feminine; height=165cm; build=slim; body=hourglass; chest=medium; skin=fair; face=heart; eyes=brown; hair-color=platinum-blonde; hair-length=medium; hair-texture=straight] Twórczyni kanału Maia Melodies (@maiamelodies, YouTube UCSqRnFlVAhRQSkiz…",
+      "imageCount": 2,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/maia-melodies/image-002-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/maia-melodies.json",
+      "updatedAt": "2026-09-28T16:39:14+02:00"
+    },
+    {
+      "key": "character:rkfonzo",
+      "kind": "resource",
+      "type": "characters",
+      "id": "rkfonzo",
+      "name": "rkFonzo",
+      "summary": "CHARACTER [age=30-44; presentation=masculine; height=178cm; build=athletic; body=rectangle; chest=medium; skin=medium; face=angular; eyes=dark-brown; hair-color=silver-gray; hair-length=short; hair-texture=spiky] Twórca kanału rkFonzo (@rkfonzo, YouTube UC_OFjUpeMOY_6wydhhoPlLA)…",
+      "imageCount": 2,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/rkfonzo/image-002-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/rkfonzo.json",
+      "updatedAt": "2026-09-28T16:39:14+02:00"
+    },
+    {
+      "key": "character:van-sabe",
+      "kind": "resource",
+      "type": "characters",
+      "id": "van-sabe",
+      "name": "Van Sabe",
+      "summary": "CHARACTER [age=45-59; presentation=masculine; height=185cm; build=solid; body=rectangle; chest=medium; skin=medium; face=oblong; eyes=dark-brown; hair-color=dark-brown; hair-length=long; hair-texture=wavy] Twórca kanału Van Sabe (@vansabe.official, YouTube UCcRkrSCsaN7NVW5qsopkF…",
+      "imageCount": 2,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/van-sabe/image-002-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/van-sabe.json",
+      "updatedAt": "2026-09-28T16:39:14+02:00"
+    },
+    {
+      "key": "character:zdziroversum",
+      "kind": "resource",
+      "type": "characters",
+      "id": "zdziroversum",
+      "name": "ZDZIROVERSUM",
+      "summary": "CHARACTER [age=30-44; presentation=feminine; height=172cm; build=curvy; body=hourglass; chest=medium; skin=medium; face=oval; eyes=dark-brown; hair-color=copper-red; hair-length=very-long; hair-texture=braided] Twórczyni kanału ZDZIROVERSUM (@zdziroversum, YouTube UCGZ72y5I6pcEM…",
+      "imageCount": 2,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/zdziroversum/image-002-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/zdziroversum.json",
+      "updatedAt": "2026-09-28T16:39:14+02:00"
+    },
+    {
+      "key": "prop:ikona-usta-jezyk",
+      "kind": "resource",
+      "type": "props",
+      "id": "ikona-usta-jezyk",
+      "name": "Ikona ust z językiem",
+      "summary": "Uproszczona rockowa ikona: jaskrawoczerwone usta, białe górne zęby i długi czerwony język, zamknięte w mocnym czarnym konturze. Płaski, czytelny znak na prawdziwie przezroczystym tle, bez napisów, symboli rejestracji, cieni i dodatkowych elementów. Używać jako wizualnej referenc…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/props/ikona-usta-jezyk/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/props/ikona-usta-jezyk.json",
+      "updatedAt": "2026-09-28T16:35:18+02:00"
+    },
+    {
       "key": "look:rock-comic",
       "kind": "resource",
       "type": "looks",
@@ -51,102 +159,6 @@
       "thumbnailUrl": null,
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/looks/rock-comic.json",
       "updatedAt": "2026-09-28T16:05:11+02:00"
-    },
-    {
-      "key": "character:van-sabe",
-      "kind": "resource",
-      "type": "characters",
-      "id": "van-sabe",
-      "name": "Van Sabe",
-      "summary": "CHARACTER [age=45-59; presentation=masculine; height=tall; build=solid; body=rectangle; chest=medium; skin=medium; face=oblong; eyes=dark-brown; hair-color=dark-brown; hair-length=long; hair-texture=wavy] Twórca kanału Van Sabe (@vansabe.official, YouTube UCcRkrSCsaN7NVW5qsopkF9…",
-      "imageCount": 1,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/van-sabe/image-001-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/van-sabe.json",
-      "updatedAt": "2026-09-28T16:04:12+02:00"
-    },
-    {
-      "key": "character:aleksandra-ross",
-      "kind": "resource",
-      "type": "characters",
-      "id": "aleksandra-ross",
-      "name": "Aleksandra Ross",
-      "summary": "CHARACTER [age=30-44; presentation=feminine; height=average; build=curvy; body=hourglass; chest=medium; skin=fair; face=heart; eyes=hazel; hair-color=copper-red; hair-length=long; hair-texture=curly] Twórczyni kanału Aleksandra Ross (@aleksandraross6, YouTube UCVVZiC2RVqz4s2nXtT…",
-      "imageCount": 1,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/aleksandra-ross/image-001-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/aleksandra-ross.json",
-      "updatedAt": "2026-09-28T15:59:54+02:00"
-    },
-    {
-      "key": "character:baju-the-aigorhythms",
-      "kind": "resource",
-      "type": "characters",
-      "id": "baju-the-aigorhythms",
-      "name": "Baju & The AIgorhythms",
-      "summary": "Twórca kanału Baju & The AIgorhythms (@bajutheaigorhythms, YouTube UCxgSjAx9oiXdvJBbPDn8UIg). Kanoniczna postać jest groteskową, rockową maskotką: ożywioną czaszką z czarnym irokezem, jednym mocno wyłupiastym okiem, drugim okiem cybernetycznym świecącym na czerwono oraz metalowy…",
-      "imageCount": 1,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/baju-the-aigorhythms/image-001-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/baju-the-aigorhythms.json",
-      "updatedAt": "2026-09-28T15:59:54+02:00"
-    },
-    {
-      "key": "character:darkvondagar",
-      "kind": "resource",
-      "type": "characters",
-      "id": "darkvondagar",
-      "name": "DarkVondagar",
-      "summary": "CHARACTER [age=45-64; presentation=masculine; height=tall; build=lean; body=rectangle; chest=medium; skin=deep-brown; face=long; eyes=dark-brown; hair-color=dark-brown; hair-length=long; hair-texture=braided] Twórca kanału DarkVondagar (@darkvondagar, YouTube UCZs5v9cslCrZIs4zCm…",
-      "imageCount": 1,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/darkvondagar/image-001-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/darkvondagar.json",
-      "updatedAt": "2026-09-28T15:59:54+02:00"
-    },
-    {
-      "key": "character:livaihen",
-      "kind": "resource",
-      "type": "characters",
-      "id": "livaihen",
-      "name": "Livaihen",
-      "summary": "CHARACTER [age=30-44; presentation=feminine; height=average; build=curvy; body=hourglass; chest=medium; skin=fair; face=oval; eyes=green; hair-color=burgundy-red; hair-length=long; hair-texture=wavy] Twórczyni kanału Livaihen (@ewaduda-livaihen, YouTube UCgK0hHeDmi_8rhmz5-lKrxQ)…",
-      "imageCount": 1,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/livaihen/image-001-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/livaihen.json",
-      "updatedAt": "2026-09-28T15:59:54+02:00"
-    },
-    {
-      "key": "character:maia-melodies",
-      "kind": "resource",
-      "type": "characters",
-      "id": "maia-melodies",
-      "name": "Maia Melodies",
-      "summary": "CHARACTER [age=18-29; presentation=feminine; height=average; build=slim; body=hourglass; chest=medium; skin=fair; face=heart; eyes=brown; hair-color=platinum-blonde; hair-length=medium; hair-texture=straight] Twórczyni kanału Maia Melodies (@maiamelodies, YouTube UCSqRnFlVAhRQSk…",
-      "imageCount": 1,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/maia-melodies/image-001-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/maia-melodies.json",
-      "updatedAt": "2026-09-28T15:59:54+02:00"
-    },
-    {
-      "key": "character:rkfonzo",
-      "kind": "resource",
-      "type": "characters",
-      "id": "rkfonzo",
-      "name": "rkFonzo",
-      "summary": "CHARACTER [age=30-44; presentation=masculine; height=average; build=athletic; body=rectangle; chest=medium; skin=medium; face=angular; eyes=dark-brown; hair-color=silver-gray; hair-length=short; hair-texture=spiky] Twórca kanału rkFonzo (@rkfonzo, YouTube UC_OFjUpeMOY_6wydhhoPlL…",
-      "imageCount": 1,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/rkfonzo/image-001-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/rkfonzo.json",
-      "updatedAt": "2026-09-28T15:59:54+02:00"
-    },
-    {
-      "key": "character:zdziroversum",
-      "kind": "resource",
-      "type": "characters",
-      "id": "zdziroversum",
-      "name": "ZDZIROVERSUM",
-      "summary": "CHARACTER [age=30-44; presentation=feminine; height=average; build=curvy; body=hourglass; chest=medium; skin=medium; face=oval; eyes=dark-brown; hair-color=copper-red; hair-length=very-long; hair-texture=braided] Twórczyni kanału ZDZIROVERSUM (@zdziroversum, YouTube UCGZ72y5I6pc…",
-      "imageCount": 1,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/zdziroversum/image-001-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/zdziroversum.json",
-      "updatedAt": "2026-09-28T15:59:54+02:00"
     }
   ]
 }

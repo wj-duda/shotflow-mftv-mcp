@@ -1,23 +1,32 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T14:17:15.042Z",
+  "generatedAt": "2026-09-28T14:53:47.585Z",
   "worldId": "mf-creators",
   "kind": "resource",
   "key": "character:aleksandra-ross",
   "type": "characters",
   "id": "aleksandra-ross",
   "name": "Aleksandra Ross",
-  "description": "CHARACTER [age=30-44; presentation=feminine; height=average; build=curvy; body=hourglass; chest=medium; skin=fair; face=heart; eyes=hazel; hair-color=copper-red; hair-length=long; hair-texture=curly]\n\nTwórczyni kanału Aleksandra Ross (@aleksandraross6, YouTube UCVVZiC2RVqz4s2nXtTFuX9A). Kanoniczny wizerunek to pewna siebie kobieta o bardzo bujnych, miedziano-rudych lokach z jasnymi pasmami przy twarzy, mocnych brwiach, pełnych ustach i czarnych paznokciach. Nosi czarny T-shirt i ma energiczną, bezczelną ekspresję. Obraz źródłowy pokazuje ją za kierownicą z kubkiem kawy; pies i tekstowe tabliczki są elementami sceny, nie cechami anatomii postaci. Wspólny język wizualny świata: przerysowana, szczegółowa ilustracja rockowo-komiksowa, ciepła skóra, mocny kontur i satyryczna energia.",
+  "description": "CHARACTER [age=30-44; presentation=feminine; height=168cm; build=curvy; body=hourglass; chest=medium; skin=fair; face=heart; eyes=hazel; hair-color=copper-red; hair-length=long; hair-texture=curly]\n\nTwórczyni kanału Aleksandra Ross (@aleksandraross6, YouTube UCVVZiC2RVqz4s2nXtTFuX9A). Kanoniczny wzrost: 168 cm. Kanoniczny wizerunek to pewna siebie kobieta o bardzo bujnych, miedziano-rudych lokach z jasnymi pasmami przy twarzy, mocnych brwiach, pełnych ustach i czarnych paznokciach. Nosi czarny T-shirt i ma energiczną, bezczelną ekspresję. Kubek kawy jest jej charakterystycznym rekwizytem. Wspólny język wizualny świata: ręcznie tuszowana, przerysowana ilustracja rockowo-komiksowa z dużą głową, mniejszym ciałem, widocznym kreskowaniem i satyryczną energią.",
   "images": [
     {
-      "id": "image-001",
+      "id": "image-002",
       "role": "portrait",
-      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/aleksandra-ross/image-001.webp",
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/aleksandra-ross/image-001-thumb.webp",
-      "width": 1374,
-      "height": 1145,
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/aleksandra-ross/image-002.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/aleksandra-ross/image-002-thumb.webp",
+      "width": 1145,
+      "height": 1374,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-003",
+      "role": "silhouette",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/aleksandra-ross/image-003.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/aleksandra-ross/image-003-thumb.webp",
+      "width": 1024,
+      "height": 1536,
       "contentType": "image/webp"
     }
   ],
-  "updatedAt": "2026-09-28T15:59:54+02:00"
+  "updatedAt": "2026-09-28T16:39:14+02:00"
 }
