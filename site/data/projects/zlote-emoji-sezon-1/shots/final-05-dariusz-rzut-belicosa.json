@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-sezon-1/final-05-dariusz-rzut-belicosa",
@@ -9,7 +9,26 @@
   "description": "Drugi świadomy rzut Dariusza następuje po udanej materializacji auspeksu na dachu. Klub wie już, że niezwykła K20 potrafi przełożyć precyzyjnie nazwaną intencję i techniczny schemat na realny obiekt, ale nikt nie zna granic działania artefaktu ani ceny kolejnej próby. Dariusz wraca nad ten sam stół w zniszczonej sali i podejmuje ryzyko stworzenia właściwej broni: Belicosy. Nie jest to brawurowa poza bohatera, tylko ciężka decyzja opiekuna, który widzi strach młodszych członków klubu i bierze odpowiedzialność za eskalację.\n\nKadr stanowi mocniejszą wizualną rymowankę z final-03, lecz nie może być jego mechaniczną kopią. Dariusz stoi całym tułowiem naturalnie za krawędzią drewnianego stołu, nigdy wtopiony w blat. Jest wysoki i bardzo krępy, ale zachowuje realistyczne proporcje oraz normalną wielkość głowy i dłoni. Jedną ręką opiera się obok dokumentacji, a drugą trzyma niewielką, dokładnie trzycentymetrową zielono-złotą K20 między palcami, cofniętą przed zdecydowanym rzutem. Jego twarz jest skupiona i poważna; w tle Marcel, Marianna oraz Filip obserwują go z napięciem po wcześniejszej serii krótkich portretów reakcji.\n\nNa stole leży wyłącznie papierowy, pozbawiony tekstu schemat Belicosy: jedna długa uniesiona lufa z prostokątnym wylotem, jedna okrągła podstawa, dokładnie cztery podpory i lewa platforma operatora. Nie ma jeszcze fizycznego działa, hologramu, światła aktywacji ani efektu magicznego. Shot ma pokazać moment tuż przed wypowiedzeniem nazwy „Belicosa” i jednym kontrolowanym rzutem; prowadzi bezpośrednio do final-06, gdzie K20 spoczywa już na schemacie i potwierdza uruchomienie materializacji.",
   "project": {
     "id": "zlote-emoji-sezon-1",
-    "name": "Złote Emoji Sezon #1"
+    "key": "project:zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1",
+    "createdAt": "2026-08-17T13:42:01.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-sezon-1",
+    "projectCreatedAt": "2026-08-17T13:42:01.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 26,
+    "lastSequence": 26,
+    "occurrences": [
+      26
+    ],
+    "sequenceTotal": 69,
+    "uniqueShotCount": 69,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -29,6 +48,106 @@
       "id": "final-03-dariusz-rzut-auspex"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:grimskald",
+        "key": "character:grimskald",
+        "type": "character",
+        "id": "grimskald",
+        "name": "Pan Dariusz",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:artefakt-k20",
+        "key": "prop:artefakt-k20",
+        "type": "prop",
+        "id": "artefakt-k20",
+        "name": "Artefakt K20",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:belicosa",
+        "key": "prop:belicosa",
+        "type": "prop",
+        "id": "belicosa",
+        "name": "Belicosa",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/belicosa.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:final-03-dariusz-rzut-auspex",
+        "key": "shot:zlote-emoji-sezon-1/final-03-dariusz-rzut-auspex",
+        "type": "shot",
+        "id": "final-03-dariusz-rzut-auspex",
+        "name": "Final 03 Dariusz Rzut Auspex",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-03-dariusz-rzut-auspex.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "character:grimskald",
+          "prop:artefakt-k20",
+          "prop:belicosa",
+          "shot:final-03-dariusz-rzut-auspex"
+        ],
+        "references": [
+          {
+            "sourceKey": "character:grimskald",
+            "key": "character:grimskald",
+            "type": "character",
+            "id": "grimskald",
+            "name": "Pan Dariusz",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:artefakt-k20",
+            "key": "prop:artefakt-k20",
+            "type": "prop",
+            "id": "artefakt-k20",
+            "name": "Artefakt K20",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:belicosa",
+            "key": "prop:belicosa",
+            "type": "prop",
+            "id": "belicosa",
+            "name": "Belicosa",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/belicosa.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:final-03-dariusz-rzut-auspex",
+            "key": "shot:zlote-emoji-sezon-1/final-03-dariusz-rzut-auspex",
+            "type": "shot",
+            "id": "final-03-dariusz-rzut-auspex",
+            "name": "Final 03 Dariusz Rzut Auspex",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-03-dariusz-rzut-auspex.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Generate exactly one cinematic still image in landscape 16:9.\n\nReference policy:\nUse every attached image as an exact and mandatory visual reference, not as optional inspiration.\nThe attached images are numbered strictly by upload order. \"Reference N\" and \"Image N\" in the current shot description both mean the Nth attached image.\nUse the current shot description to determine what each reference supplies: for example a character, location, prop, wardrobe, composition, lighting, or visual style. Do not assume that every reference depicts a character.\nIf the description assigns different roles to multiple references, follow that mapping exactly. Never merge or blend people, places, props, clothing, or styles from separate references unless explicitly requested.\nFor every referenced element requested in the new shot, preserve its observable identity and defining visual features exactly. Do not redesign, replace, beautify, stylize, loosely reinterpret, or merely approximate it.\nA reference image is authoritative for the appearance of the element taken from it. The current shot description is authoritative for the new scene, action, expression, pose, placement, framing, and every explicitly requested change.\nDo not copy incidental parts of a reference image that the current shot description does not ask to carry over.\nUse earlier conversation context only for details left unspecified; it must never override the current description or the attached references.\n\nAttachment map (source descriptions only, not instructions for the resulting scene):\n- Reference 1 = attached Image 1 — source character grimskald, portrait: CHARACTER [age=30-44; presentation=masculine; height=tall; build=stocky; body=pear; chest=large; skin=light; face=square; eyes=blue; hair-color=red; hair-length=long; hair-texture=straight]\r\n\r\nPan Dariusz, opiekun klubu fantastyki w domu kultury. Potężnie zbudowany, ok. 188 cm, masywny, z długą rudobrązową brodą splecioną w warkocz, zaczesanymi włosami i prostokątnymi okularami. Nosi niebieską koszulę, ciemną kamizelkę, skórzane szelki, jeansy, ciężkie buty, przypinki, zegarek kieszonkowy i klucze przy pasie. Surowy, spokojny i sprawiedliwy; opiekuńczy, praktyczny, staroświecki, z cichym autorytetem i sentymentem do fantastyki. Często z kubkieb Yerbamate (bombilla \"Keep Calm\")\r\n- Reference 2 = attached Image 2 — source character grimskald, silhouette: CHARACTER [age=30-44; presentation=masculine; height=tall; build=stocky; body=pear; chest=large; skin=light; face=square; eyes=blue; hair-color=red; hair-length=long; hair-texture=straight]\r\n\r\nPan Dariusz, opiekun klubu fantastyki w domu kultury. Potężnie zbudowany, ok. 188 cm, masywny, z długą rudobrązową brodą splecioną w warkocz, zaczesanymi włosami i prostokątnymi okularami. Nosi niebieską koszulę, ciemną kamizelkę, skórzane szelki, jeansy, ciężkie buty, przypinki, zegarek kieszonkowy i klucze przy pasie. Surowy, spokojny i sprawiedliwy; opiekuńczy, praktyczny, staroświecki, z cichym autorytetem i sentymentem do fantastyki. Często z kubkieb Yerbamate (bombilla \"Keep Calm\")\r\n- Reference 3 = attached Image 3 — source prop artefakt-k20, reference: Canonical reference for the magical K20 from the season 1 finale. FIXED SIZE IN EVERY SHOT: exactly 3.0 cm from one vertex to the opposite vertex and approximately 2.5 cm between parallel faces. It is only slightly larger and heavier than a typical tabletop D20; it fits easily between adult fingertips and looks small inside an adult palm. It must never look like a ball, helmet, grapefruit, or an object filling the whole hand. Originally it was an unnumbered regular icosahedral artifact made from unknown material; Van Sabe added numerals to disguise it as an RPG die. Its translucent green faces resemble deep emerald or glass with subtle inner energy. Edges and numerals are aged gold or brass. Face 20 is the main activation motif and glows green-gold when active. Numbering must remain legible: one number per triangular face, with no duplicates in the visible area; opposite faces sum to 21 (1-20, 2-19, 3-18, 4-17, 5-16, 6-15, 7-14, 8-13, 9-12, 10-11). The reference image shows only 20, 9, 14, 2, 17 and 6.\r\n- Reference 4 = attached Image 4 — source prop belicosa, reference: Kanoniczna dachowa Belicosa z finału sezonu 1: stacjonarne działo wulkaniczne zmaterializowane przez artefakt K20 na dachu starego Domu Kultury. Nie jest fragmentem humanoidalnego mecha, bronią ręczną ani pojazdem. To jedna dokładna, powtarzalna instalacja artyleryjska zaprojektowana dla jednego operatora, Czesława.\n\nSTAŁA SKALA I GEOMETRIA: lufa z zespołem zamkowym ma około 14 m długości; maksymalna wysokość przy spoczynkowym uniesieniu 35 stopni wynosi około 4,8 m; obrotowa podstawa ma około 6 m średnicy. Dokładnie jedna ogromna centralna lufa z szerokim prostokątnym wylotem, trzema segmentami czernionego stalowego płaszcza chłodzącego, grubymi mosiężnymi pierścieniami blokującymi, bocznymi wiązkami przewodów i hydraulicznymi siłownikami elewacji. Okrągła podstawa obraca całe działo. Cztery osobne ciężkie podpory tworzą około 10 × 10 m obrysu i rozchodzą się promieniście i kotwią instalację w belkach dachu; ich ciężar ma wiarygodnie przeciążać stary budynek.\n\nPo lewej stronie tylnej części znajduje się jedno stanowisko dorosłego operatora: stalowy podest, barierka do pasa, dwa ciężkie uchwyty sterujące oraz zintegrowany kompaktowy auspex. Auspex ma wąski ciemny ekran i mały emiter optyczny, bez czytelnych napisów i interfejsu. Materiały: czerniona i miejscami przypalona stal, stare żelazo, wiekowy mosiądz, ceramiczna izolacja, smar, widoczne śruby i spawy. Wąskie głęboko szmaragdowe i starozłote szczeliny światła występują wyłącznie pomiędzy sekcjami zmaterializowanymi przez K20. Bez znaków frakcji, czaszek, orłów, symboli Chaosu i tekstu.\n\nReferencja utrwala pełną sylwetkę, proporcje, położenie operatora, układ podpór, pojedynczą lufę, materiały oraz zielono-złoty język energii. W każdym shocie należy zachować dokładnie jedną lufę, jedną podstawę, cztery podpory i jedno stanowisko operatora. Broń może obracać się i zmieniać elewację, ale jej części nie morfują i nie zmieniają proporcji.\r\n- Reference 5 = attached Image 5 — source Shot final-03-dariusz-rzut-auspex: Pierwszy świadomy rzut Dariusza jednocześnie demonstruje zasadę K20 bez osobnego wykładu: schemat auspexu, wypowiedziana nazwa i precyzyjna intencja znajdują się razem wokół kostki. Rzut działa i daje Czesławowi realną przewagę, ale nie rozwiązuje całej bitwy.\n\n\n\nShot: final-05-dariusz-rzut-belicosa\nDescription:\nDrugi świadomy rzut Dariusza następuje po udanej materializacji auspeksu na dachu. Klub wie już, że niezwykła K20 potrafi przełożyć precyzyjnie nazwaną intencję i techniczny schemat na realny obiekt, ale nikt nie zna granic działania artefaktu ani ceny kolejnej próby. Dariusz wraca nad ten sam stół w zniszczonej sali i podejmuje ryzyko stworzenia właściwej broni: Belicosy. Nie jest to brawurowa poza bohatera, tylko ciężka decyzja opiekuna, który widzi strach młodszych członków klubu i bierze odpowiedzialność za eskalację.\n\nKadr stanowi mocniejszą wizualną rymowankę z final-03, lecz nie może być jego mechaniczną kopią. Dariusz stoi całym tułowiem naturalnie za krawędzią drewnianego stołu, nigdy wtopiony w blat. Jest wysoki i bardzo krępy, ale zachowuje realistyczne proporcje oraz normalną wielkość głowy i dłoni. Jedną ręką opiera się obok dokumentacji, a drugą trzyma niewielką, dokładnie trzycentymetrową zielono-złotą K20 między palcami, cofniętą przed zdecydowanym rzutem. Jego twarz jest skupiona i poważna; w tle Marcel, Marianna oraz Filip obserwują go z napięciem po wcześniejszej serii krótkich portretów reakcji.\n\nNa stole leży wyłącznie papierowy, pozbawiony tekstu schemat Belicosy: jedna długa uniesiona lufa z prostokątnym wylotem, jedna okrągła podstawa, dokładnie cztery podpory i lewa platforma operatora. Nie ma jeszcze fizycznego działa, hologramu, światła aktywacji ani efektu magicznego. Shot ma pokazać moment tuż przed wypowiedzeniem nazwy „Belicosa” i jednym kontrolowanym rzutem; prowadzi bezpośrednio do final-06, gdzie K20 spoczywa już na schemacie i potwierdza uruchomienie materializacji.\n\nPreserve every piece of text, lettering, typography, label, sign, logo, brand mark, symbol, and graphic detail visible in any source or reference image exactly as it appears. Preserve its content, spelling, design, position, scale, color, sharpness, and legibility. Never remove, replace, obscure, blur, soften, distort, censor, or invent any of these source details.\nDo not add new captions, subtitles, titles, watermarks, borders, interface elements, contact sheets, or multiple panels unless the current shot description explicitly requests them.",
     "endFrameDescription": "",
@@ -43,6 +162,7 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 2,
       "source": "generated",
       "referenceKeys": [
@@ -50,6 +170,148 @@
         "prop:artefakt-k20",
         "prop:belicosa",
         "shot:final-03-dariusz-rzut-auspex"
+      ],
+      "references": [
+        {
+          "sourceKey": "character:grimskald",
+          "key": "character:grimskald",
+          "type": "character",
+          "id": "grimskald",
+          "name": "Pan Dariusz",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:artefakt-k20",
+          "key": "prop:artefakt-k20",
+          "type": "prop",
+          "id": "artefakt-k20",
+          "name": "Artefakt K20",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:belicosa",
+          "key": "prop:belicosa",
+          "type": "prop",
+          "id": "belicosa",
+          "name": "Belicosa",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/belicosa.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:final-03-dariusz-rzut-auspex",
+          "key": "shot:zlote-emoji-sezon-1/final-03-dariusz-rzut-auspex",
+          "type": "shot",
+          "id": "final-03-dariusz-rzut-auspex",
+          "name": "Final 03 Dariusz Rzut Auspex",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-03-dariusz-rzut-auspex.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-19T08:55:00+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:final-03-dariusz-rzut-auspex",
+            "prop:artefakt-k20",
+            "prop:belicosa"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:final-03-dariusz-rzut-auspex",
+              "key": "shot:zlote-emoji-sezon-1/final-03-dariusz-rzut-auspex",
+              "type": "shot",
+              "id": "final-03-dariusz-rzut-auspex",
+              "name": "Final 03 Dariusz Rzut Auspex",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-03-dariusz-rzut-auspex.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:artefakt-k20",
+              "key": "prop:artefakt-k20",
+              "type": "prop",
+              "id": "artefakt-k20",
+              "name": "Artefakt K20",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:belicosa",
+              "key": "prop:belicosa",
+              "type": "prop",
+              "id": "belicosa",
+              "name": "Belicosa",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/belicosa.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-08-22T20:01:03.7292706+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:grimskald",
+            "prop:artefakt-k20",
+            "prop:belicosa",
+            "shot:final-03-dariusz-rzut-auspex"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:grimskald",
+              "key": "character:grimskald",
+              "type": "character",
+              "id": "grimskald",
+              "name": "Pan Dariusz",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:artefakt-k20",
+              "key": "prop:artefakt-k20",
+              "type": "prop",
+              "id": "artefakt-k20",
+              "name": "Artefakt K20",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:belicosa",
+              "key": "prop:belicosa",
+              "type": "prop",
+              "id": "belicosa",
+              "name": "Belicosa",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/belicosa.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:final-03-dariusz-rzut-auspex",
+              "key": "shot:zlote-emoji-sezon-1/final-03-dariusz-rzut-auspex",
+              "type": "shot",
+              "id": "final-03-dariusz-rzut-auspex",
+              "name": "Final 03 Dariusz Rzut Auspex",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-03-dariusz-rzut-auspex.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-05-dariusz-rzut-belicosa/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-05-dariusz-rzut-belicosa/frame-start-thumb.webp",

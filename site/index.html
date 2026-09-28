@@ -170,6 +170,40 @@
               </section>
             </template>
 
+            <template x-if="detail.kind === 'shot' && detail.referenceUsage">
+              <section class="prompt continuity-detail">
+                <h3>Stan świata i pochodzenie obrazu</h3>
+                <p>
+                  <strong x-text="`Moment ${detail.chronology.sequence} z ${detail.chronology.sequenceTotal} w projekcie`"></strong>
+                  <span x-text="` · ${detail.project.name}`"></span>
+                </p>
+                <p>Ten obraz dokumentuje stan świata dokładnie w tym momencie historii. Późniejsze shoty i późniejsze projekty mają pierwszeństwo przy ustalaniu stanu obecnego.</p>
+                <template x-for="frame in detail.referenceUsage.activeFrames" :key="frame.frameId">
+                  <div>
+                    <h4 x-text="`${frame.frameId} · aktywna rewizja ${frame.revision ?? '—'}`"></h4>
+                    <p x-show="!frame.references.length">Aktywna rewizja nie ma dodatkowych referencji zapisanych w manifeście.</p>
+                    <ul>
+                      <template x-for="reference in frame.references" :key="reference.sourceKey">
+                        <li>
+                          <strong x-text="reference.name"></strong>
+                          <code x-text="reference.key"></code>
+                          <span x-text="` — ${reference.relationship}`"></span>
+                        </li>
+                      </template>
+                    </ul>
+                  </div>
+                </template>
+                <details>
+                  <summary>Pełny kontekst przypisany do shota</summary>
+                  <ul>
+                    <template x-for="reference in detail.referenceUsage.declared" :key="reference.sourceKey">
+                      <li><strong x-text="reference.name"></strong> <code x-text="reference.key"></code></li>
+                    </template>
+                  </ul>
+                </details>
+              </section>
+            </template>
+
             <section class="images" x-show="detail.images?.length">
               <template x-for="image in detail.images" :key="image.id">
                 <figure>

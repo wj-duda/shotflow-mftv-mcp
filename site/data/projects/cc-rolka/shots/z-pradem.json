@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:cc-rolka/z-pradem",
@@ -9,7 +9,26 @@
   "description": "Czesław pyta wzrokiem, czy herbata jest z prądem.",
   "project": {
     "id": "cc-rolka",
-    "name": "CC-Rolka"
+    "key": "project:cc-rolka",
+    "name": "CC-Rolka",
+    "createdAt": "2026-09-04T21:44:12.588Z"
+  },
+  "chronology": {
+    "projectKey": "project:cc-rolka",
+    "projectCreatedAt": "2026-09-04T21:44:12.588Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 3,
+    "lastSequence": 3,
+    "occurrences": [
+      3
+    ],
+    "sequenceTotal": 18,
+    "uniqueShotCount": 18,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -21,6 +40,64 @@
       "id": "czeslaw"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:halinka-herbata",
+        "key": "shot:cc-rolka/halinka-herbata",
+        "type": "shot",
+        "id": "halinka-herbata",
+        "name": "Halinka przynosi herbatę",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/cc-rolka/shots/halinka-herbata.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:czeslaw",
+        "key": "character:czeslaw",
+        "type": "character",
+        "id": "czeslaw",
+        "name": "Czesław",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "shot:halinka-herbata",
+          "character:czeslaw"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:halinka-herbata",
+            "key": "shot:cc-rolka/halinka-herbata",
+            "type": "shot",
+            "id": "halinka-herbata",
+            "name": "Halinka przynosi herbatę",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/cc-rolka/shots/halinka-herbata.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:czeslaw",
+            "key": "character:czeslaw",
+            "type": "character",
+            "id": "czeslaw",
+            "name": "Czesław",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Native vertical 9:16 shot/reverse close-up in the same late-1990s Polish TV bedroom. Exact Czeslaw lies propped in bed with one real glass thermometer at the corner of his closed mouth. He gives off-screen Halinka a hopeful conspiratorial sideways glance, one eyebrow raised, as if asking whether the tea contains alcohol. Tight head-and-shoulders close-up; Czeslaw occupies the right two-thirds and looks up-left, with negative space left. Same striped pajamas, black rectangular glasses, floral pillow, faint warm lamp bokeh, cold window fill and tungsten rim. Exact photorealism, natural older skin, subtle 16 mm/S-VHS softness. One person, no text, no cigarette, no open mouth or AI artifacts.",
     "endFrameDescription": "",
@@ -35,11 +112,101 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 2,
       "source": "generated",
       "referenceKeys": [
         "shot:halinka-herbata",
         "character:czeslaw"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:halinka-herbata",
+          "key": "shot:cc-rolka/halinka-herbata",
+          "type": "shot",
+          "id": "halinka-herbata",
+          "name": "Halinka przynosi herbatę",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/cc-rolka/shots/halinka-herbata.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:czeslaw",
+          "key": "character:czeslaw",
+          "type": "character",
+          "id": "czeslaw",
+          "name": "Czesław",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-04T21:44:12.5882061+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:halinka-herbata",
+            "character:czeslaw"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:halinka-herbata",
+              "key": "shot:cc-rolka/halinka-herbata",
+              "type": "shot",
+              "id": "halinka-herbata",
+              "name": "Halinka przynosi herbatę",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/cc-rolka/shots/halinka-herbata.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:czeslaw",
+              "key": "character:czeslaw",
+              "type": "character",
+              "id": "czeslaw",
+              "name": "Czesław",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-09-05T15:34:09.1486822+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:halinka-herbata",
+            "character:czeslaw"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:halinka-herbata",
+              "key": "shot:cc-rolka/halinka-herbata",
+              "type": "shot",
+              "id": "halinka-herbata",
+              "name": "Halinka przynosi herbatę",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/cc-rolka/shots/halinka-herbata.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:czeslaw",
+              "key": "character:czeslaw",
+              "type": "character",
+              "id": "czeslaw",
+              "name": "Czesław",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/z-pradem/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/z-pradem/frame-start-thumb.webp",

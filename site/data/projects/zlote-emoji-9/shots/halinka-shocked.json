@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-9/halinka-shocked",
@@ -9,7 +9,26 @@
   "description": "Bardzo ciasny close-up twarzy Halinki patrzącej poza kadr w głębokim, kontrolowanym niedowierzaniu. Oczy ma szeroko otwarte, brwi uniesione i lekko ściągnięte, a usta minimalnie rozchylone. To nieruchoma reakcja człowieka, który nie potrafi przetworzyć tego, co właśnie widzi — bez krzyku i groteski.",
   "project": {
     "id": "zlote-emoji-9",
-    "name": "Złote Emoji #9"
+    "key": "project:zlote-emoji-9",
+    "name": "Złote Emoji #9",
+    "createdAt": "2026-08-15T21:51:58.401Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-9",
+    "projectCreatedAt": "2026-08-15T21:51:58.401Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 13,
+    "lastSequence": 13,
+    "occurrences": [
+      13
+    ],
+    "sequenceTotal": 14,
+    "uniqueShotCount": 11,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -21,6 +40,64 @@
       "id": "halinka"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:confusion-techno",
+        "key": "shot:zlote-emoji-9/confusion-techno",
+        "type": "shot",
+        "id": "confusion-techno",
+        "name": "confusion-techno",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-9/shots/confusion-techno.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:halinka",
+        "key": "character:halinka",
+        "type": "character",
+        "id": "halinka",
+        "name": "Halinka",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:confusion-techno",
+          "character:halinka"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:confusion-techno",
+            "key": "shot:zlote-emoji-9/confusion-techno",
+            "type": "shot",
+            "id": "confusion-techno",
+            "name": "confusion-techno",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-9/shots/confusion-techno.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:halinka",
+            "key": "character:halinka",
+            "type": "character",
+            "id": "halinka",
+            "name": "Halinka",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Use confusion-techno for exact scene continuity and the Halinka character reference for exact identity. Create a very tight cinematic 16:9 close-up of Halinka's face as she looks sharply offscreen left in profound silent disbelief. Her brown eyes are opened very wide, eyebrows raised and slightly drawn together, forehead tense, lips parted only a few millimetres and jaw held still. Preserve her exact age, face, skin texture, red curly updo, gold earrings, layered necklaces, sparkly burgundy cardigan and black dress. Match the dim hall with blue rim light, magenta strobe accent, warm skin tones and thin haze in a softly blurred background. Controlled shock, not a scream, smile or caricature. Exactly one person; no captions or watermark.",
     "endFrameDescription": "",
@@ -35,11 +112,69 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 1,
       "source": "generated",
       "referenceKeys": [
         "shot:confusion-techno",
         "character:halinka"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:confusion-techno",
+          "key": "shot:zlote-emoji-9/confusion-techno",
+          "type": "shot",
+          "id": "confusion-techno",
+          "name": "confusion-techno",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-9/shots/confusion-techno.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:halinka",
+          "key": "character:halinka",
+          "type": "character",
+          "id": "halinka",
+          "name": "Halinka",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-16T00:00:00+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:confusion-techno",
+            "character:halinka"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:confusion-techno",
+              "key": "shot:zlote-emoji-9/confusion-techno",
+              "type": "shot",
+              "id": "confusion-techno",
+              "name": "confusion-techno",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-9/shots/confusion-techno.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:halinka",
+              "key": "character:halinka",
+              "type": "character",
+              "id": "halinka",
+              "name": "Halinka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-9/shots/halinka-shocked/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-9/shots/halinka-shocked/frame-start-thumb.webp",

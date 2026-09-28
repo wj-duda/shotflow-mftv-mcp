@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-sezon-1/final-08b-1-czeslaw-komenda-srodek",
@@ -9,7 +9,26 @@
   "description": "Początek drugiej salwy otrzymuje własny kadr, wyraźnie inny od sekwencji A. Kamera stoi po przeciwnej stronie platformy, tuż za obudową auspeksu: widzimy napięty profil Czesława oraz częściowe odbicie jego oczu w zielonkawym szkle urządzenia. Spust znajduje się głębiej w kadrze, a ciężka mechanika lufy zamyka tło nad jego głową. Deszcz spływa po hełmie i okularach, postawa jest wymuszona uprzężą, a twarz zdradza zmęczenie po pierwszym odrzucie.\n\nCzesław przenosi wzrok ze wskazania auspeksu na środkowy cel, łapie krótki oddech i wykrzykuje drugą komendę z większym wysiłkiem. Kontrolowany strach miesza się z wojenną koncentracją: nie staje się bohaterem akcji, tylko coraz bardziej zużytym człowiekiem konsekwentnie wykonującym zadanie. To osobna kotwica drugiej salwy; niebieski błysk pojawia się dopiero przy uruchomieniu spustu, a final-08b-3 wraca właśnie do tego profilowego ustawienia.",
   "project": {
     "id": "zlote-emoji-sezon-1",
-    "name": "Złote Emoji Sezon #1"
+    "key": "project:zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1",
+    "createdAt": "2026-08-17T13:42:01.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-sezon-1",
+    "projectCreatedAt": "2026-08-17T13:42:01.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 35,
+    "lastSequence": 35,
+    "occurrences": [
+      35
+    ],
+    "sequenceTotal": 69,
+    "uniqueShotCount": 69,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -45,6 +64,166 @@
       "id": "final-08a-3-powrot-na-czeslawa"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:czeslaw",
+        "key": "character:czeslaw",
+        "type": "character",
+        "id": "czeslaw",
+        "name": "Czesław",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:belicosa",
+        "key": "prop:belicosa",
+        "type": "prop",
+        "id": "belicosa",
+        "name": "Belicosa",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/belicosa.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:final-08a-1-czeslaw-komenda-lewo",
+        "key": "shot:zlote-emoji-sezon-1/final-08a-1-czeslaw-komenda-lewo",
+        "type": "shot",
+        "id": "final-08a-1-czeslaw-komenda-lewo",
+        "name": "Final 08A 1 Czesław — komenda lewą flankę",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-08a-1-czeslaw-komenda-lewo.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:dach-domu-kultury",
+        "key": "place:dach-domu-kultury",
+        "type": "place",
+        "id": "dach-domu-kultury",
+        "name": "Dach Domu Kultury",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dach-domu-kultury.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:auspex-belicosy",
+        "key": "prop:auspex-belicosy",
+        "type": "prop",
+        "id": "auspex-belicosy",
+        "name": "Auspex Belicosy",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/auspex-belicosy.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:dach-domu-kultury-obrona",
+        "key": "place:dach-domu-kultury-obrona",
+        "type": "place",
+        "id": "dach-domu-kultury-obrona",
+        "name": "Dach Domu Kultury podczas obrony",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dach-domu-kultury-obrona.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:helm-czeslawa-wz31",
+        "key": "prop:helm-czeslawa-wz31",
+        "type": "prop",
+        "id": "helm-czeslawa-wz31",
+        "name": "Hełm Czesława wz.31",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/helm-czeslawa-wz31.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:final-08a-3-powrot-na-czeslawa",
+        "key": "shot:zlote-emoji-sezon-1/final-08a-3-powrot-na-czeslawa",
+        "type": "shot",
+        "id": "final-08a-3-powrot-na-czeslawa",
+        "name": "Final 08A 3 — powrót na Czesława",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-08a-3-powrot-na-czeslawa.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "shot:final-08a-3-powrot-na-czeslawa",
+          "character:czeslaw",
+          "prop:helm-czeslawa-wz31",
+          "prop:auspex-belicosy",
+          "prop:belicosa"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:final-08a-3-powrot-na-czeslawa",
+            "key": "shot:zlote-emoji-sezon-1/final-08a-3-powrot-na-czeslawa",
+            "type": "shot",
+            "id": "final-08a-3-powrot-na-czeslawa",
+            "name": "Final 08A 3 — powrót na Czesława",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-08a-3-powrot-na-czeslawa.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:czeslaw",
+            "key": "character:czeslaw",
+            "type": "character",
+            "id": "czeslaw",
+            "name": "Czesław",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:helm-czeslawa-wz31",
+            "key": "prop:helm-czeslawa-wz31",
+            "type": "prop",
+            "id": "helm-czeslawa-wz31",
+            "name": "Hełm Czesława wz.31",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/helm-czeslawa-wz31.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:auspex-belicosy",
+            "key": "prop:auspex-belicosy",
+            "type": "prop",
+            "id": "auspex-belicosy",
+            "name": "Auspex Belicosy",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/auspex-belicosy.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:belicosa",
+            "key": "prop:belicosa",
+            "type": "prop",
+            "id": "belicosa",
+            "name": "Belicosa",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/belicosa.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": {
+          "sourceKey": "shot:final-08a-1-czeslaw-komenda-lewo",
+          "key": "shot:zlote-emoji-sezon-1/final-08a-1-czeslaw-komenda-lewo",
+          "type": "shot",
+          "id": "final-08a-1-czeslaw-komenda-lewo",
+          "name": "Final 08A 1 Czesław — komenda lewą flankę",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-08a-1-czeslaw-komenda-lewo.json",
+          "exists": true
+        }
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Photorealistic cinematic 16:9 battle anchor for the second firing sequence, with a camera clearly different from salwa A. Tight 50 mm side-profile shot positioned immediately behind the canonical auspex housing. Its blackened metal edge and dark green glass fill the near-left foreground; exact Czesław's tense right-facing profile is sharp at center, with a coherent partial reflection of his eyes and wet crooked glasses in the screen. Heavy Belicosa machinery compresses the background above his authentic olive Polish wz. 31 helmet, while one correct hand waits deeper on the trigger. He is soaked, dirty and exhausted after the first recoil, breathing through parted lips and shifting his eyes from auspex toward the central target. Controlled fear, ringing ears and duty. Rain, dust and small sparks cross the depth. No blue muzzle reflection yet, no pose, front three-quarter framing, extra anatomy, text, readable UI, logos or watermark.",
     "endFrameDescription": "",
@@ -59,6 +238,7 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 2,
       "source": "reference",
       "referenceKeys": [
@@ -67,6 +247,165 @@
         "prop:helm-czeslawa-wz31",
         "prop:auspex-belicosy",
         "prop:belicosa"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:final-08a-3-powrot-na-czeslawa",
+          "key": "shot:zlote-emoji-sezon-1/final-08a-3-powrot-na-czeslawa",
+          "type": "shot",
+          "id": "final-08a-3-powrot-na-czeslawa",
+          "name": "Final 08A 3 — powrót na Czesława",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-08a-3-powrot-na-czeslawa.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:czeslaw",
+          "key": "character:czeslaw",
+          "type": "character",
+          "id": "czeslaw",
+          "name": "Czesław",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:helm-czeslawa-wz31",
+          "key": "prop:helm-czeslawa-wz31",
+          "type": "prop",
+          "id": "helm-czeslawa-wz31",
+          "name": "Hełm Czesława wz.31",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/helm-czeslawa-wz31.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:auspex-belicosy",
+          "key": "prop:auspex-belicosy",
+          "type": "prop",
+          "id": "auspex-belicosy",
+          "name": "Auspex Belicosy",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/auspex-belicosy.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:belicosa",
+          "key": "prop:belicosa",
+          "type": "prop",
+          "id": "belicosa",
+          "name": "Belicosa",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/belicosa.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": {
+        "sourceKey": "shot:final-08a-1-czeslaw-komenda-lewo",
+        "key": "shot:zlote-emoji-sezon-1/final-08a-1-czeslaw-komenda-lewo",
+        "type": "shot",
+        "id": "final-08a-1-czeslaw-komenda-lewo",
+        "name": "Final 08A 1 Czesław — komenda lewą flankę",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-08a-1-czeslaw-komenda-lewo.json",
+        "exists": true
+      },
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-19T09:45:00+02:00",
+          "source": "reference",
+          "referenceKeys": [
+            "shot:final-08a-1-czeslaw-komenda-lewo"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:final-08a-1-czeslaw-komenda-lewo",
+              "key": "shot:zlote-emoji-sezon-1/final-08a-1-czeslaw-komenda-lewo",
+              "type": "shot",
+              "id": "final-08a-1-czeslaw-komenda-lewo",
+              "name": "Final 08A 1 Czesław — komenda lewą flankę",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-08a-1-czeslaw-komenda-lewo.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": {
+            "sourceKey": "shot:final-08a-1-czeslaw-komenda-lewo",
+            "key": "shot:zlote-emoji-sezon-1/final-08a-1-czeslaw-komenda-lewo",
+            "type": "shot",
+            "id": "final-08a-1-czeslaw-komenda-lewo",
+            "name": "Final 08A 1 Czesław — komenda lewą flankę",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-08a-1-czeslaw-komenda-lewo.json",
+            "exists": true
+          }
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-08-19T13:00:00+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:final-08a-3-powrot-na-czeslawa",
+            "character:czeslaw",
+            "prop:helm-czeslawa-wz31",
+            "prop:auspex-belicosy",
+            "prop:belicosa"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:final-08a-3-powrot-na-czeslawa",
+              "key": "shot:zlote-emoji-sezon-1/final-08a-3-powrot-na-czeslawa",
+              "type": "shot",
+              "id": "final-08a-3-powrot-na-czeslawa",
+              "name": "Final 08A 3 — powrót na Czesława",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-08a-3-powrot-na-czeslawa.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:czeslaw",
+              "key": "character:czeslaw",
+              "type": "character",
+              "id": "czeslaw",
+              "name": "Czesław",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:helm-czeslawa-wz31",
+              "key": "prop:helm-czeslawa-wz31",
+              "type": "prop",
+              "id": "helm-czeslawa-wz31",
+              "name": "Hełm Czesława wz.31",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/helm-czeslawa-wz31.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:auspex-belicosy",
+              "key": "prop:auspex-belicosy",
+              "type": "prop",
+              "id": "auspex-belicosy",
+              "name": "Auspex Belicosy",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/auspex-belicosy.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:belicosa",
+              "key": "prop:belicosa",
+              "type": "prop",
+              "id": "belicosa",
+              "name": "Belicosa",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/belicosa.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-08b-1-czeslaw-komenda-srodek/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-08b-1-czeslaw-komenda-srodek/frame-start-thumb.webp",

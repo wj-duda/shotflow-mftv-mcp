@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-9/maja-ogar",
@@ -9,7 +9,24 @@
   "description": "Trzysekundowy most między finałem występu Mai a wręczeniem Złotego Emoji. Maia przerywa miksowanie, lekko odsuwa jedną muszlę słuchawek i spogląda znad konsoli w stronę ceremonii z ciepłym, przyjemnie zaskoczonym uśmiechem. Następne cięcie prowadzi bezpośrednio do Halinki wyciągającej statuetkę ze słowami: „proszę przyjąć”.",
   "project": {
     "id": "zlote-emoji-9",
-    "name": "Złote Emoji #9"
+    "key": "project:zlote-emoji-9",
+    "name": "Złote Emoji #9",
+    "createdAt": "2026-08-15T21:51:58.401Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-9",
+    "projectCreatedAt": "2026-08-15T21:51:58.401Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": false,
+    "canonicalEvent": false,
+    "sequence": null,
+    "lastSequence": null,
+    "occurrences": [],
+    "sequenceTotal": 14,
+    "uniqueShotCount": 11,
+    "sequenceOrder": null,
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This project material is not present on the saved timeline, so it must not override canonical timeline events by date alone."
   },
   "references": [
     {
@@ -21,6 +38,64 @@
       "id": "maia-melodies"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:maja-smile",
+        "key": "shot:zlote-emoji-9/maja-smile",
+        "type": "shot",
+        "id": "maja-smile",
+        "name": "maja-smile",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-9/shots/maja-smile.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:maia-melodies",
+        "key": "character:maia-melodies",
+        "type": "character",
+        "id": "maia-melodies",
+        "name": "Maia Melodies",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/maia-melodies.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:maja-smile",
+          "character:maia-melodies"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:maja-smile",
+            "key": "shot:zlote-emoji-9/maja-smile",
+            "type": "shot",
+            "id": "maja-smile",
+            "name": "maja-smile",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-9/shots/maja-smile.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:maia-melodies",
+            "key": "character:maia-melodies",
+            "type": "character",
+            "id": "maia-melodies",
+            "name": "Maia Melodies",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/maia-melodies.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Use the maja-smile Start Frame as the exact mandatory scene, lighting, wardrobe, DJ console, cardboard debris and continuity reference, and the Maia Melodies portrait as the exact mandatory facial identity reference. Continue the same moment in a cinematic 16:9 medium close-up. Maia has just heard that the award ceremony is addressing her: she pauses at the DJ console, lifts only one headphone earcup slightly away from one ear with one natural hand, and looks upward toward someone off-camera with warm, pleasantly surprised recognition. Preserve her exact short asymmetrical platinum-lavender bob, green-brown eyes, fair skin, large black headphones and white button-up shirt. Preserve the same dim backstage storage room, torn brown cardboard panels, warm practical wall light, door, deck and mixer. A few settled confetti pieces remain motionless; no airborne confetti. Exactly one Maia. No Halinka, Czesław, audience, trophy, paper, thumbs-up, extra person, duplicate body part, deformed hand, dialogue pose, caption or watermark.",
     "endFrameDescription": "",
@@ -35,11 +110,69 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 1,
       "source": "generated",
       "referenceKeys": [
         "shot:maja-smile",
         "character:maia-melodies"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:maja-smile",
+          "key": "shot:zlote-emoji-9/maja-smile",
+          "type": "shot",
+          "id": "maja-smile",
+          "name": "maja-smile",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-9/shots/maja-smile.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:maia-melodies",
+          "key": "character:maia-melodies",
+          "type": "character",
+          "id": "maia-melodies",
+          "name": "Maia Melodies",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/maia-melodies.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-17T10:14:59.7721546+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:maja-smile",
+            "character:maia-melodies"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:maja-smile",
+              "key": "shot:zlote-emoji-9/maja-smile",
+              "type": "shot",
+              "id": "maja-smile",
+              "name": "maja-smile",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-9/shots/maja-smile.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:maia-melodies",
+              "key": "character:maia-melodies",
+              "type": "character",
+              "id": "maia-melodies",
+              "name": "Maia Melodies",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/maia-melodies.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-9/shots/maja-ogar/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-9/shots/maja-ogar/frame-start-thumb.webp",

@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-sezon-1/final-08a-2-pocisk-i-trafienie-lewo",
@@ -9,7 +9,26 @@
   "description": "Kinetyczny środkowy shot pierwszej salwy. Kamera leży nisko niemal za zamkiem i patrzy wzdłuż unoszącej się lufy, dzięki czemu żółty pocisk gwałtownie oddala się od widza w stronę małego biookrętu na lewej flance. Perspektywa jest osiowa i ciasna: wylot dominuje dół kadru, a żółty cel znajduje się daleko w górnym lewym sektorze. W niebie pozostają dokładnie cztery jednostki roju: statek-matka oraz trzy mniejsze cele oznaczone żółtym, niebieskim i różowo-czerwonym organem.\n\nStrzał nie jest czystą demonstracją efektu. Cztery podpory Belicosy wciskają się w stary dach, woda odskakuje z papy, przewody szarpią się, a spod stóp działa unosi się pierwszy pył. Pocisk trafia wyłącznie żółty cel w jednym ciągłym ruchu — jeden wystrzał, jeden tor, jedno trafienie. Wojenny ciężar wynika z odrzutu, wibracji i zagrożenia dla budynku, nie z mnożenia eksplozji ani przypadkowych statków.",
   "project": {
     "id": "zlote-emoji-sezon-1",
-    "name": "Złote Emoji Sezon #1"
+    "key": "project:zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1",
+    "createdAt": "2026-08-17T13:42:01.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-sezon-1",
+    "projectCreatedAt": "2026-08-17T13:42:01.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 33,
+    "lastSequence": 33,
+    "occurrences": [
+      33
+    ],
+    "sequenceTotal": 69,
+    "uniqueShotCount": 69,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -33,6 +52,116 @@
       "id": "roj-dzieci-gwiazd"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "prop:belicosa",
+        "key": "prop:belicosa",
+        "type": "prop",
+        "id": "belicosa",
+        "name": "Belicosa",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/belicosa.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:final-08a-1-czeslaw-komenda-lewo",
+        "key": "shot:zlote-emoji-sezon-1/final-08a-1-czeslaw-komenda-lewo",
+        "type": "shot",
+        "id": "final-08a-1-czeslaw-komenda-lewo",
+        "name": "Final 08A 1 Czesław — komenda lewą flankę",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-08a-1-czeslaw-komenda-lewo.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:dach-domu-kultury",
+        "key": "place:dach-domu-kultury",
+        "type": "place",
+        "id": "dach-domu-kultury",
+        "name": "Dach Domu Kultury",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dach-domu-kultury.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:dach-domu-kultury-obrona",
+        "key": "place:dach-domu-kultury-obrona",
+        "type": "place",
+        "id": "dach-domu-kultury-obrona",
+        "name": "Dach Domu Kultury podczas obrony",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dach-domu-kultury-obrona.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:roj-dzieci-gwiazd",
+        "key": "prop:roj-dzieci-gwiazd",
+        "type": "prop",
+        "id": "roj-dzieci-gwiazd",
+        "name": "Rój Dzieci Gwiazd",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/roj-dzieci-gwiazd.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "shot:final-08a-1-czeslaw-komenda-lewo",
+          "place:dach-domu-kultury-obrona",
+          "prop:belicosa",
+          "prop:roj-dzieci-gwiazd"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:final-08a-1-czeslaw-komenda-lewo",
+            "key": "shot:zlote-emoji-sezon-1/final-08a-1-czeslaw-komenda-lewo",
+            "type": "shot",
+            "id": "final-08a-1-czeslaw-komenda-lewo",
+            "name": "Final 08A 1 Czesław — komenda lewą flankę",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-08a-1-czeslaw-komenda-lewo.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "place:dach-domu-kultury-obrona",
+            "key": "place:dach-domu-kultury-obrona",
+            "type": "place",
+            "id": "dach-domu-kultury-obrona",
+            "name": "Dach Domu Kultury podczas obrony",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dach-domu-kultury-obrona.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:belicosa",
+            "key": "prop:belicosa",
+            "type": "prop",
+            "id": "belicosa",
+            "name": "Belicosa",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/belicosa.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:roj-dzieci-gwiazd",
+            "key": "prop:roj-dzieci-gwiazd",
+            "type": "prop",
+            "id": "roj-dzieci-gwiazd",
+            "name": "Rój Dzieci Gwiazd",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/roj-dzieci-gwiazd.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Photorealistic cinematic 16:9 Start Frame for the first yellow firing sequence. Very low 24–28 mm rear-quarter camera over wet roofing felt, looking from the CLOSED segmented Belicosa breech along one continuous elevated 14 m barrel toward its single distant muzzle. Exactly one compact white-hot projectile with a saturated yellow core has just exited that far muzzle and races toward the intact left-flank yellow weak-point organ. Exactly four bio-ships total remain visible: one colossal brood ship and three small attackers with yellow, blue and pink-red organs from left to right. One barrel, one closed near breech, one far muzzle, one base and four supports. Water leaps from the roof, cables whip and fine dust bursts around the supports under recoil. No second projectile, no second opening, no impact yet, no Czesław, extra ships, UI, text, logos or watermark.",
     "endFrameDescription": "",
@@ -47,6 +176,7 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 2,
       "source": "generated",
       "referenceKeys": [
@@ -54,6 +184,159 @@
         "place:dach-domu-kultury-obrona",
         "prop:belicosa",
         "prop:roj-dzieci-gwiazd"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:final-08a-1-czeslaw-komenda-lewo",
+          "key": "shot:zlote-emoji-sezon-1/final-08a-1-czeslaw-komenda-lewo",
+          "type": "shot",
+          "id": "final-08a-1-czeslaw-komenda-lewo",
+          "name": "Final 08A 1 Czesław — komenda lewą flankę",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-08a-1-czeslaw-komenda-lewo.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "place:dach-domu-kultury-obrona",
+          "key": "place:dach-domu-kultury-obrona",
+          "type": "place",
+          "id": "dach-domu-kultury-obrona",
+          "name": "Dach Domu Kultury podczas obrony",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dach-domu-kultury-obrona.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:belicosa",
+          "key": "prop:belicosa",
+          "type": "prop",
+          "id": "belicosa",
+          "name": "Belicosa",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/belicosa.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:roj-dzieci-gwiazd",
+          "key": "prop:roj-dzieci-gwiazd",
+          "type": "prop",
+          "id": "roj-dzieci-gwiazd",
+          "name": "Rój Dzieci Gwiazd",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/roj-dzieci-gwiazd.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-19T09:20:00+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "place:dach-domu-kultury-obrona",
+            "prop:belicosa",
+            "prop:roj-dzieci-gwiazd",
+            "shot:final-08a-1-czeslaw-komenda-lewo"
+          ],
+          "references": [
+            {
+              "sourceKey": "place:dach-domu-kultury-obrona",
+              "key": "place:dach-domu-kultury-obrona",
+              "type": "place",
+              "id": "dach-domu-kultury-obrona",
+              "name": "Dach Domu Kultury podczas obrony",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dach-domu-kultury-obrona.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:belicosa",
+              "key": "prop:belicosa",
+              "type": "prop",
+              "id": "belicosa",
+              "name": "Belicosa",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/belicosa.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:roj-dzieci-gwiazd",
+              "key": "prop:roj-dzieci-gwiazd",
+              "type": "prop",
+              "id": "roj-dzieci-gwiazd",
+              "name": "Rój Dzieci Gwiazd",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/roj-dzieci-gwiazd.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:final-08a-1-czeslaw-komenda-lewo",
+              "key": "shot:zlote-emoji-sezon-1/final-08a-1-czeslaw-komenda-lewo",
+              "type": "shot",
+              "id": "final-08a-1-czeslaw-komenda-lewo",
+              "name": "Final 08A 1 Czesław — komenda lewą flankę",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-08a-1-czeslaw-komenda-lewo.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-08-19T12:30:00+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:final-08a-1-czeslaw-komenda-lewo",
+            "place:dach-domu-kultury-obrona",
+            "prop:belicosa",
+            "prop:roj-dzieci-gwiazd"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:final-08a-1-czeslaw-komenda-lewo",
+              "key": "shot:zlote-emoji-sezon-1/final-08a-1-czeslaw-komenda-lewo",
+              "type": "shot",
+              "id": "final-08a-1-czeslaw-komenda-lewo",
+              "name": "Final 08A 1 Czesław — komenda lewą flankę",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-08a-1-czeslaw-komenda-lewo.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:dach-domu-kultury-obrona",
+              "key": "place:dach-domu-kultury-obrona",
+              "type": "place",
+              "id": "dach-domu-kultury-obrona",
+              "name": "Dach Domu Kultury podczas obrony",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dach-domu-kultury-obrona.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:belicosa",
+              "key": "prop:belicosa",
+              "type": "prop",
+              "id": "belicosa",
+              "name": "Belicosa",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/belicosa.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:roj-dzieci-gwiazd",
+              "key": "prop:roj-dzieci-gwiazd",
+              "type": "prop",
+              "id": "roj-dzieci-gwiazd",
+              "name": "Rój Dzieci Gwiazd",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/roj-dzieci-gwiazd.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-08a-2-pocisk-i-trafienie-lewo/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-08a-2-pocisk-i-trafienie-lewo/frame-start-thumb.webp",

@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-12/ze12-02-uderzenie-w-remont",
@@ -9,7 +9,26 @@
   "description": "Noc. Anioł w skali dorosłego człowieka, na głębokości budynku, tuż nad prawą wyrwą w dachu. Czarne płonące skrzydła i włosy, jasny garnitur. Trafia w istniejącą strefę remontu i znika wewnątrz. Gwałtowny lokalny wyrzut pyłu budowlanego, drobnego gruzu i rozdarcie plandeki; reszta budynku zachowana.",
   "project": {
     "id": "zlote-emoji-12",
-    "name": "Złote Emoji #12"
+    "key": "project:zlote-emoji-12",
+    "name": "Złote Emoji #12",
+    "createdAt": "2026-09-11T23:11:37.531Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-12",
+    "projectCreatedAt": "2026-09-11T23:11:37.531Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 5,
+    "lastSequence": 5,
+    "occurrences": [
+      5
+    ],
+    "sequenceTotal": 20,
+    "uniqueShotCount": 17,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -29,6 +48,93 @@
       "id": "aniol-wygnany"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "note:ciaglosc-remont-ze11",
+        "key": "note:ciaglosc-remont-ze11",
+        "type": "note",
+        "id": "ciaglosc-remont-ze11",
+        "name": "Ciągłość remontu z ZE11",
+        "relationship": "story-and-continuity-context",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ciaglosc-remont-ze11.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze12-02-uderzenie-w-remont",
+        "key": "shot:zlote-emoji-12/ze12-02-uderzenie-w-remont",
+        "type": "shot",
+        "id": "ze12-02-uderzenie-w-remont",
+        "name": "02 — Uderzenie w remont",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-02-uderzenie-w-remont.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze12-01-upadek-aniola",
+        "key": "shot:zlote-emoji-12/ze12-01-upadek-aniola",
+        "type": "shot",
+        "id": "ze12-01-upadek-aniola",
+        "name": "01 — Upadek anioła",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-01-upadek-aniola.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:aniol-wygnany",
+        "key": "character:aniol-wygnany",
+        "type": "character",
+        "id": "aniol-wygnany",
+        "name": "Anioł wygnany",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/aniol-wygnany.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 4,
+        "referenceKeys": [
+          "shot:ze12-02-uderzenie-w-remont"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze12-02-uderzenie-w-remont",
+            "key": "shot:zlote-emoji-12/ze12-02-uderzenie-w-remont",
+            "type": "shot",
+            "id": "ze12-02-uderzenie-w-remont",
+            "name": "02 — Uderzenie w remont",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-02-uderzenie-w-remont.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      },
+      {
+        "frameId": "frame-end",
+        "revision": 2,
+        "referenceKeys": [
+          "shot:ze12-02-uderzenie-w-remont"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze12-02-uderzenie-w-remont",
+            "key": "shot:zlote-emoji-12/ze12-02-uderzenie-w-remont",
+            "type": "shot",
+            "id": "ze12-02-uderzenie-w-remont",
+            "name": "02 — Uderzenie w remont",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-02-uderzenie-w-remont.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Use case: precise-object-edit. Edit this exact 16:9 cinematic building shot. CORRECT ONLY the airborne angel scale and placement. Remove the existing gigantic foreground angel and its giant flame trail, restoring the night clouds seamlessly. Place the SAME ivory-suited black-haired angel with two black burning wings much farther away directly above the right roof repair opening. A real 1.8-metre adult AT THE BUILDING'S DEPTH: head-to-shoes length in image approximately 65 pixels on a 1920px-wide frame, comparable to the height of a single entrance door at that distance and less than half the height of the upper pink parapet. Entire angel including trailing folded wings and small flame wake must fit within about 95 pixels, only FIVE PERCENT of image width. He is NOT nearer to the camera. His head points down and slightly right toward roof opening, feet up-left. Head only about one body-length above the roof edge, just before impact. Keep ivory business suit, BLACK charred wings, BLACK hair and small orange flames; exact face need not be visible at this physically correct distance. Preserve ALL building pixels as closely as possible: camera perspective, size, roof renovation state BEFORE impact, lettering DOM KULTURY, REMONT ZAMKNIĘTE DO ODWOŁANIA, scaffolding, blue tarp, lamps, satellite, fence, moon and pavement. No dust or new damage yet, no camera reframing, no big fireball, no extra people, text or watermark.",
     "endFrameDescription": "Anioł wewnątrz budynku. Nad prawą wyrwą gęsty, turbulentny obłok pyłu, drobny gruz w powietrzu i pył opadający przy rusztowaniu. Lokalnie powiększony otwór, zgięte górne rusztowanie, rozdarta opadająca plandeka.",
@@ -43,10 +149,143 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 4,
       "source": "generated",
       "referenceKeys": [
         "shot:ze12-02-uderzenie-w-remont"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze12-02-uderzenie-w-remont",
+          "key": "shot:zlote-emoji-12/ze12-02-uderzenie-w-remont",
+          "type": "shot",
+          "id": "ze12-02-uderzenie-w-remont",
+          "name": "02 — Uderzenie w remont",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-02-uderzenie-w-remont.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-11T23:11:37.53179+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "note:ciaglosc-remont-ze11",
+            "note:aniol-osmalony-ze12"
+          ],
+          "references": [
+            {
+              "sourceKey": "note:ciaglosc-remont-ze11",
+              "key": "note:ciaglosc-remont-ze11",
+              "type": "note",
+              "id": "ciaglosc-remont-ze11",
+              "name": "Ciągłość remontu z ZE11",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ciaglosc-remont-ze11.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "note:aniol-osmalony-ze12",
+              "key": "note:aniol-osmalony-ze12",
+              "type": "note",
+              "id": "aniol-osmalony-ze12",
+              "name": "Anioł ZE12 — stan po osmaleniu",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/aniol-osmalony-ze12.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-09-11T23:55:17.461278+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze12-02-uderzenie-w-remont",
+            "note:aniol-wejscie-w-atmosfere-ze12"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze12-02-uderzenie-w-remont",
+              "key": "shot:zlote-emoji-12/ze12-02-uderzenie-w-remont",
+              "type": "shot",
+              "id": "ze12-02-uderzenie-w-remont",
+              "name": "02 — Uderzenie w remont",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-02-uderzenie-w-remont.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "note:aniol-wejscie-w-atmosfere-ze12",
+              "key": "note:aniol-wejscie-w-atmosfere-ze12",
+              "type": "note",
+              "id": "aniol-wejscie-w-atmosfere-ze12",
+              "name": "Anioł ZE12 — upadek głową w dół",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/aniol-wejscie-w-atmosfere-ze12.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 3,
+          "createdAt": "2026-09-12T00:39:07.411729+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze12-02-uderzenie-w-remont",
+            "shot:ze12-01-upadek-aniola"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze12-02-uderzenie-w-remont",
+              "key": "shot:zlote-emoji-12/ze12-02-uderzenie-w-remont",
+              "type": "shot",
+              "id": "ze12-02-uderzenie-w-remont",
+              "name": "02 — Uderzenie w remont",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-02-uderzenie-w-remont.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ze12-01-upadek-aniola",
+              "key": "shot:zlote-emoji-12/ze12-01-upadek-aniola",
+              "type": "shot",
+              "id": "ze12-01-upadek-aniola",
+              "name": "01 — Upadek anioła",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-01-upadek-aniola.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 4,
+          "createdAt": "2026-09-12T00:50:50.05693+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze12-02-uderzenie-w-remont"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze12-02-uderzenie-w-remont",
+              "key": "shot:zlote-emoji-12/ze12-02-uderzenie-w-remont",
+              "type": "shot",
+              "id": "ze12-02-uderzenie-w-remont",
+              "name": "02 — Uderzenie w remont",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-02-uderzenie-w-remont.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-02-uderzenie-w-remont/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-02-uderzenie-w-remont/frame-start-thumb.webp",
@@ -56,10 +295,68 @@
     },
     {
       "id": "frame-end",
+      "role": "frame-end",
       "revision": 2,
       "source": "generated",
       "referenceKeys": [
         "shot:ze12-02-uderzenie-w-remont"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze12-02-uderzenie-w-remont",
+          "key": "shot:zlote-emoji-12/ze12-02-uderzenie-w-remont",
+          "type": "shot",
+          "id": "ze12-02-uderzenie-w-remont",
+          "name": "02 — Uderzenie w remont",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-02-uderzenie-w-remont.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-11T23:11:37.53179+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze12-02-uderzenie-w-remont"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze12-02-uderzenie-w-remont",
+              "key": "shot:zlote-emoji-12/ze12-02-uderzenie-w-remont",
+              "type": "shot",
+              "id": "ze12-02-uderzenie-w-remont",
+              "name": "02 — Uderzenie w remont",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-02-uderzenie-w-remont.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-09-12T00:50:50.05693+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze12-02-uderzenie-w-remont"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze12-02-uderzenie-w-remont",
+              "key": "shot:zlote-emoji-12/ze12-02-uderzenie-w-remont",
+              "type": "shot",
+              "id": "ze12-02-uderzenie-w-remont",
+              "name": "02 — Uderzenie w remont",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-02-uderzenie-w-remont.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-02-uderzenie-w-remont/frame-end.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-02-uderzenie-w-remont/frame-end-thumb.webp",

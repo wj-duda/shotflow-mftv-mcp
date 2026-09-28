@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-sezon-1/ze5-czeslaw-halinka-karczma",
@@ -9,9 +9,31 @@
   "description": "Archiwalne ujecie z ZE5: Czeslaw i Halinka siedza w fantastycznej karczmie. Material zostal zaimportowany z istniejacego klipu timeline'u.",
   "project": {
     "id": "zlote-emoji-sezon-1",
-    "name": "Złote Emoji Sezon #1"
+    "key": "project:zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1",
+    "createdAt": "2026-08-17T13:42:01.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-sezon-1",
+    "projectCreatedAt": "2026-08-17T13:42:01.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": false,
+    "canonicalEvent": false,
+    "sequence": null,
+    "lastSequence": null,
+    "occurrences": [],
+    "sequenceTotal": 69,
+    "uniqueShotCount": 69,
+    "sequenceOrder": null,
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This project material is not present on the saved timeline, so it must not override canonical timeline events by date alone."
   },
   "references": [],
+  "referenceUsage": {
+    "declared": [],
+    "activeFrames": [],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "",
     "endFrameDescription": "",

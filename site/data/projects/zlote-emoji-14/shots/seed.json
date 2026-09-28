@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-14/seed",
@@ -9,7 +9,26 @@
   "description": "Pochmurny dzień, podwyższony plan Domu Kultury we wczesnej odbudowie według dwóch nowych rzutów użytkownika. Szeroka centralna sala, wąskie boczne skrzydła, przedni hol i wysunięty środkowy przedsionek ze schodami. Stare fragmenty elewacji połączone z nowym murem, uprzątnięta posadzka, materiały, brak dachu i pracowników. Biały paczkomat wolnostojący przed lewą częścią elewacji, oddzielony od ściany przejściem. Nowa geometria zastępuje wcześniejszą błędną bryłę ruin; wymiary przybliżone z dostarczonych widoków, nie pomiar budowlany. Aktualizacja: intensywna ulewa, mokre powierzchnie i kałuże; bryła i wolnostojący paczkomat bez zmian.",
   "project": {
     "id": "zlote-emoji-14",
-    "name": "Złote Emoji #14"
+    "key": "project:zlote-emoji-14",
+    "name": "Złote Emoji #14",
+    "createdAt": "2026-09-27T00:13:04.173Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-14",
+    "projectCreatedAt": "2026-09-27T00:13:04.173Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 1,
+    "lastSequence": 1,
+    "occurrences": [
+      1
+    ],
+    "sequenceTotal": 18,
+    "uniqueShotCount": 16,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -37,6 +56,93 @@
       "id": "ze13-ruina-po-ze12"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "note:ciaglosc-remont-ze11",
+        "key": "note:ciaglosc-remont-ze11",
+        "type": "note",
+        "id": "ciaglosc-remont-ze11",
+        "name": "Ciągłość remontu z ZE11",
+        "relationship": "story-and-continuity-context",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ciaglosc-remont-ze11.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "note:dom-kultury-po-upadku-ze12",
+        "key": "note:dom-kultury-po-upadku-ze12",
+        "type": "note",
+        "id": "dom-kultury-po-upadku-ze12",
+        "name": "Dom Kultury — szkody po upadku anioła",
+        "relationship": "story-and-continuity-context",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/dom-kultury-po-upadku-ze12.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "note:movie-shot",
+        "key": "note:movie-shot",
+        "type": "note",
+        "id": "movie-shot",
+        "name": "Movie",
+        "relationship": "story-and-continuity-context",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/movie-shot.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "note:ze14-kanon-domu-kultury",
+        "key": "note:ze14-kanon-domu-kultury",
+        "type": "note",
+        "id": "ze14-kanon-domu-kultury",
+        "name": "ZE14 — elewacja historyczna; skalę zniszczeń określa ZE13",
+        "relationship": "story-and-continuity-context",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze14-kanon-domu-kultury.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:seed",
+        "key": "shot:zlote-emoji-14/seed",
+        "type": "shot",
+        "id": "seed",
+        "name": "01 — Pusty Dom Kultury",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/seed.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "note:ze13-ruina-po-ze12",
+        "key": "note:ze13-ruina-po-ze12",
+        "type": "note",
+        "id": "ze13-ruina-po-ze12",
+        "name": "ZE13 — ciągłość bezdachowej ruiny po ZE12",
+        "relationship": "story-and-continuity-context",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze13-ruina-po-ze12.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 6,
+        "referenceKeys": [
+          "shot:seed"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:seed",
+            "key": "shot:zlote-emoji-14/seed",
+            "type": "shot",
+            "id": "seed",
+            "name": "01 — Pusty Dom Kultury",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/seed.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Precise weather/wetness edit of EXACT reference1 movie frame. Preserve composition, lens, all identity/face/body anatomy, poses, hands, gaze direction, furniture, architecture proportions, signs/text, door opening/hinge direction, trophy design/rotation and all props. No redesign or mirror. 16:9 photoreal cinematic, grey overcast daytime with readable faces. Add a real HEAVY steady autumn DOWNPOUR visible as rain streaks across depth, puddle rings/splashes and running water on paving and steps, soaked construction materials, darkened brick/plaster. EXACT new building footprint and renovation state preserved; freestanding parcel locker LEFT of entrance remains separate from wall, no moved walls or fencing. No people, fog, lightning, flooding, roof rebuilding or giant ruins.",
     "endFrameDescription": "",
@@ -51,10 +157,172 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 6,
       "source": "generated",
       "referenceKeys": [
         "shot:seed"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:seed",
+          "key": "shot:zlote-emoji-14/seed",
+          "type": "shot",
+          "id": "seed",
+          "name": "01 — Pusty Dom Kultury",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/seed.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-27T00:13:04.173042+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "note:ciaglosc-remont-ze11",
+            "note:dom-kultury-po-upadku-ze12",
+            "note:movie-shot"
+          ],
+          "references": [
+            {
+              "sourceKey": "note:ciaglosc-remont-ze11",
+              "key": "note:ciaglosc-remont-ze11",
+              "type": "note",
+              "id": "ciaglosc-remont-ze11",
+              "name": "Ciągłość remontu z ZE11",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ciaglosc-remont-ze11.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "note:dom-kultury-po-upadku-ze12",
+              "key": "note:dom-kultury-po-upadku-ze12",
+              "type": "note",
+              "id": "dom-kultury-po-upadku-ze12",
+              "name": "Dom Kultury — szkody po upadku anioła",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/dom-kultury-po-upadku-ze12.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "note:movie-shot",
+              "key": "note:movie-shot",
+              "type": "note",
+              "id": "movie-shot",
+              "name": "Movie",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/movie-shot.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-09-27T00:48:49.38816+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "note:ze14-kanon-domu-kultury"
+          ],
+          "references": [
+            {
+              "sourceKey": "note:ze14-kanon-domu-kultury",
+              "key": "note:ze14-kanon-domu-kultury",
+              "type": "note",
+              "id": "ze14-kanon-domu-kultury",
+              "name": "ZE14 — elewacja historyczna; skalę zniszczeń określa ZE13",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze14-kanon-domu-kultury.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 3,
+          "createdAt": "2026-09-27T00:58:44.420427+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:seed",
+            "note:ze13-ruina-po-ze12"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:seed",
+              "key": "shot:zlote-emoji-14/seed",
+              "type": "shot",
+              "id": "seed",
+              "name": "01 — Pusty Dom Kultury",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/seed.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "note:ze13-ruina-po-ze12",
+              "key": "note:ze13-ruina-po-ze12",
+              "type": "note",
+              "id": "ze13-ruina-po-ze12",
+              "name": "ZE13 — ciągłość bezdachowej ruiny po ZE12",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze13-ruina-po-ze12.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 4,
+          "createdAt": "2026-09-27T10:04:18.242919+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:seed"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:seed",
+              "key": "shot:zlote-emoji-14/seed",
+              "type": "shot",
+              "id": "seed",
+              "name": "01 — Pusty Dom Kultury",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/seed.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 5,
+          "createdAt": "2026-09-27T10:19:15.796834+00:00",
+          "source": "generated",
+          "referenceKeys": [],
+          "references": [],
+          "sourceReference": null
+        },
+        {
+          "revision": 6,
+          "createdAt": "2026-09-27T11:13:42.520125+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:seed"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:seed",
+              "key": "shot:zlote-emoji-14/seed",
+              "type": "shot",
+              "id": "seed",
+              "name": "01 — Pusty Dom Kultury",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/seed.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/seed/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/seed/frame-start-thumb.webp",

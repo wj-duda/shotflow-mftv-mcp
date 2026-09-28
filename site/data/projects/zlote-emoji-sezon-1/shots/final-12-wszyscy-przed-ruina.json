@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-sezon-1/final-12-wszyscy-przed-ruina",
@@ -9,7 +9,26 @@
   "description": "Insert bez postaci, bez dłoni i bez fragmentów ciała. Bardzo niski, nieruchomy kadr 16:9 z kamerą około 10–15 cm nad mokrym brukiem placu przed zniszczonym Domem Kultury, na tej samej osi przestrzennej, w tym samym ulewnym deszczu i w tej samej chłodnej burzowej porze co poprzednie ujęcie. Ostry pierwszy plan zajmuje ciemna, mokra nawierzchnia z płytką kałużą i drobnymi odłamkami; ruina budynku, ciepłe światło wejścia oraz uszkodzona Belicosa pozostają daleko w tle, naturalnie silnie rozmyte przez małą głębię ostrości. Kanoniczny oliwkowo-khaki polski hełm stalowy wz.31 Czesława znajduje się w chwili pierwszego kontaktu z ziemią: wpada z górnej prawej strony kadru, jest przechylony, jego niski rant właśnie uderza w kałużę nieco na prawo od środka i wyrzuca niski, realistyczny rozbryzg wody. Odpięty brązowy skórzany pasek zwisa swobodnie i pozostaje wyraźnie częścią hełmu. Hełm zachowuje autentyczną płytką kopułę, ciągły rant, nity i grubą ziarnistą fakturę salamandra; nie jest kulą i nie przypomina innego typu hełmu. W kadrze nie ma Czesława ani nikogo z grupy, nie ma nóg, rąk, sylwetek, ludzkich cieni ani odbić ludzi w wodzie. To surowy, symboliczny obraz kapitulacji, nie komediowy gag.\n\nHełm zaczyna spać od Góry kadru jeszcze nie dotknłą ziemi ale niedługo dotknie",
   "project": {
     "id": "zlote-emoji-sezon-1",
-    "name": "Złote Emoji Sezon #1"
+    "key": "project:zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1",
+    "createdAt": "2026-08-17T13:42:01.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-sezon-1",
+    "projectCreatedAt": "2026-08-17T13:42:01.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 47,
+    "lastSequence": 47,
+    "occurrences": [
+      47
+    ],
+    "sequenceTotal": 69,
+    "uniqueShotCount": 69,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -25,6 +44,87 @@
       "id": "final-12a-porazka-czeslawa/take-2"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "prop:helm-czeslawa-wz31",
+        "key": "prop:helm-czeslawa-wz31",
+        "type": "prop",
+        "id": "helm-czeslawa-wz31",
+        "name": "Hełm Czesława wz.31",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/helm-czeslawa-wz31.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:final-11-belicosa-niszczy-dom-kultury",
+        "key": "shot:zlote-emoji-sezon-1/final-11-belicosa-niszczy-dom-kultury",
+        "type": "shot",
+        "id": "final-11-belicosa-niszczy-dom-kultury",
+        "name": "Final 11 — Belicosa niszczy Dom Kultury",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-11-belicosa-niszczy-dom-kultury.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "take:final-12a-porazka-czeslawa/take-2",
+        "key": "take:zlote-emoji-sezon-1/final-12a-porazka-czeslawa/take-2",
+        "type": "take",
+        "id": "final-12a-porazka-czeslawa/take-2",
+        "name": "Final 12A — Czesław odpina hełm / take-2",
+        "relationship": "visible-state-from-take",
+        "shotKey": "shot:zlote-emoji-sezon-1/final-12a-porazka-czeslawa",
+        "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-12a-porazka-czeslawa.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 5,
+        "referenceKeys": [
+          "prop:helm-czeslawa-wz31",
+          "shot:final-11-belicosa-niszczy-dom-kultury",
+          "take:final-12a-porazka-czeslawa/take-2"
+        ],
+        "references": [
+          {
+            "sourceKey": "prop:helm-czeslawa-wz31",
+            "key": "prop:helm-czeslawa-wz31",
+            "type": "prop",
+            "id": "helm-czeslawa-wz31",
+            "name": "Hełm Czesława wz.31",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/helm-czeslawa-wz31.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:final-11-belicosa-niszczy-dom-kultury",
+            "key": "shot:zlote-emoji-sezon-1/final-11-belicosa-niszczy-dom-kultury",
+            "type": "shot",
+            "id": "final-11-belicosa-niszczy-dom-kultury",
+            "name": "Final 11 — Belicosa niszczy Dom Kultury",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-11-belicosa-niszczy-dom-kultury.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "take:final-12a-porazka-czeslawa/take-2",
+            "key": "take:zlote-emoji-sezon-1/final-12a-porazka-czeslawa/take-2",
+            "type": "take",
+            "id": "final-12a-porazka-czeslawa/take-2",
+            "name": "Final 12A — Czesław odpina hełm / take-2",
+            "relationship": "visible-state-from-take",
+            "shotKey": "shot:zlote-emoji-sezon-1/final-12a-porazka-czeslawa",
+            "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-12a-porazka-czeslawa.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Generate exactly one cinematic still image in landscape 16:9.\n\nReference policy:\nUse every attached image as an exact and mandatory visual reference, not as optional inspiration.\nThe attached images are numbered strictly by upload order. \"Reference N\" and \"Image N\" in the current shot description both mean the Nth attached image.\nUse the current shot description to determine what each reference supplies: for example a character, location, prop, wardrobe, composition, lighting, or visual style. Do not assume that every reference depicts a character.\nIf the description assigns different roles to multiple references, follow that mapping exactly. Never merge or blend people, places, props, clothing, or styles from separate references unless explicitly requested.\nFor every referenced element requested in the new shot, preserve its observable identity and defining visual features exactly. Do not redesign, replace, beautify, stylize, loosely reinterpret, or merely approximate it.\nA reference image is authoritative for the appearance of the element taken from it. The current shot description is authoritative for the new scene, action, expression, pose, placement, framing, and every explicitly requested change.\nDo not copy incidental parts of a reference image that the current shot description does not ask to carry over.\nUse earlier conversation context only for details left unspecified; it must never override the current description or the attached references.\n\nAttachment map (source descriptions only, not instructions for the resulting scene):\n- Reference 1 = attached Image 1 — source prop helm-czeslawa-wz31, reference: Kanoniczny hełm, który Czesław zakłada podczas całej obrony Domu Kultury. Autentyczna polska sylwetka hełmu stalowego wz.31 z lat trzydziestych: płytka, regularnie zaokrąglona kopuła i niski, delikatnie rozszerzający się ciągły rant. Kolor oliwkowo-khaki. Powierzchnia ma charakterystyczną grubą, ziarnistą fakturę przeciwodblaskową typu „salamandra”, umiarkowanie zużytą na krawędziach. Wewnątrz ciemnobrązowy skórzany fasunek oraz prosty, postarzały skórzany pasek pod brodę. Hełm jest zawsze tym samym fizycznym przedmiotem i zachowuje kształt, odcień, fakturę, nity oraz pasek we wszystkich ujęciach od wejścia Czesława na dach do scen po przeciążeniu działa. Nie ma orła, godła, napisów, numerów, odznak, dziur po kulach ani współczesnych dodatków. Nie może zmieniać się w niemiecki Stahlhelm, radziecki SSh-40, brytyjski Brodie, amerykański M1 ani nowoczesny hełm NATO. To prawdziwy stary element wyposażenia, nie błyszczący cosplay.\r\n- Reference 2 = attached Image 2 — source Shot final-11-belicosa-niszczy-dom-kultury: Sama masa, odrzut i rozgrzane podpory zbyt potężnej Belicosy przebijają stary dach i częściowo niszczą Dom Kultury. Nie jest to skutek bombardowania.\r\n- Reference 3 = attached Image 3 — source Take final-12a-porazka-czeslawa/take-2, last visible frame 45: Statyczne, ciasne zbliżenie Czesława od piersi w górę po przegranej obronie Domu Kultury. Stoi w ulewnym deszczu przed zniszczoną fasadą; wysoko w rozmytym tle nadal wiszą obce statki, a ukośna lufa uszkodzonej Belicosy pozostaje nieruchoma. Czesław zajmuje prawą i centralną część kadru. Ma mokrą, zmęczoną twarz, prostokątne czarne okulary, kilkudniowy zarost, przemoczony ciemny garnitur, pogniecioną jasną koszulę i poluzowany czarny krawat. Na głowie nadal nosi ten sam oliwkowo-khaki polski hełm wz.31; jego skórzany pasek jest jeszcze zapięty pod brodą. Jedyna czynność w shocie: Czesław spokojnie odpina sprzączkę paska pod brodą. Nie zdejmuje hełmu, nie upuszcza go i nie osuwa się. Kadr pozostaje nieruchomy i skupiony na drobnym, wyczerpanym geście kapitulacji. One continuous static-camera shot, approximately 3 seconds. The framing remains completely locked on the existing rain-soaked close portrait of Czeslaw; no zoom, dolly, pan, tilt, orbit, reframing or cut. Czeslaw remains standing in exactly the same place and keeps the same exhausted, defeated expression. His body, head, helmet, glasses and clothing stay almost motionless. His only deliberate action is to unfasten the helmet chin strap: one hand rises naturally from below frame to the small leather buckle directly beneath his chin, thumb and forefinger grasp the real buckle, and with one restrained precise movement he releases it. The two ends of the leather strap separate and fall loosely beside his cheeks under gravity. His hand then lowers slightly. The olive-khaki Polish wz.31 helmet remains firmly on his head for the entire shot. He does not remove, lift, tilt or drop the helmet. He does not bow, collapse, kneel, speak, turn, gesture with the other hand or look into camera. The emotion is conveyed only by his tired eyes, shallow breathing and the quiet practical act of undoing the strap after defeat. Rain continues naturally across his face, helmet and jacket; faint steam and dust drift slowly in the distant ruined background, while the cannon and alien ships remain essentially fixed. Preserve Czeslaw's exact identity, facial anatomy, rectangular black glasses, wet stubble, costume, helmet shape and salamandra texture, buckle construction, background geometry, cannon direction and all visible signage. No hand deformation, extra fingers, duplicated arms, strap morphing, wardrobe changes, new people, new destruction, explosions, dramatic wind, subtitles, text, logos or watermark.\n\n\n\nShot: final-12-wszyscy-przed-ruina\nDescription:\nInsert bez postaci, bez dłoni i bez fragmentów ciała. Bardzo niski, nieruchomy kadr 16:9 z kamerą około 10–15 cm nad mokrym brukiem placu przed zniszczonym Domem Kultury, na tej samej osi przestrzennej, w tym samym ulewnym deszczu i w tej samej chłodnej burzowej porze co poprzednie ujęcie. Ostry pierwszy plan zajmuje ciemna, mokra nawierzchnia z płytką kałużą i drobnymi odłamkami; ruina budynku, ciepłe światło wejścia oraz uszkodzona Belicosa pozostają daleko w tle, naturalnie silnie rozmyte przez małą głębię ostrości. Kanoniczny oliwkowo-khaki polski hełm stalowy wz.31 Czesława znajduje się w chwili pierwszego kontaktu z ziemią: wpada z górnej prawej strony kadru, jest przechylony, jego niski rant właśnie uderza w kałużę nieco na prawo od środka i wyrzuca niski, realistyczny rozbryzg wody. Odpięty brązowy skórzany pasek zwisa swobodnie i pozostaje wyraźnie częścią hełmu. Hełm zachowuje autentyczną płytką kopułę, ciągły rant, nity i grubą ziarnistą fakturę salamandra; nie jest kulą i nie przypomina innego typu hełmu. W kadrze nie ma Czesława ani nikogo z grupy, nie ma nóg, rąk, sylwetek, ludzkich cieni ani odbić ludzi w wodzie. To surowy, symboliczny obraz kapitulacji, nie komediowy gag.\n\nHełm zaczyna spać od Góry kadru jeszcze nie dotknłą ziemi ale niedługo dotknie\n\nPreserve every piece of text, lettering, typography, label, sign, logo, brand mark, symbol, and graphic detail visible in any source or reference image exactly as it appears. Preserve its content, spelling, design, position, scale, color, sharpness, and legibility. Never remove, replace, obscure, blur, soften, distort, censor, or invent any of these source details.\nDo not add new captions, subtitles, titles, watermarks, borders, interface elements, contact sheets, or multiple panels unless the current shot description explicitly requests them.",
     "endFrameDescription": "",
@@ -39,12 +139,452 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 5,
       "source": "generated",
       "referenceKeys": [
         "prop:helm-czeslawa-wz31",
         "shot:final-11-belicosa-niszczy-dom-kultury",
         "take:final-12a-porazka-czeslawa/take-2"
+      ],
+      "references": [
+        {
+          "sourceKey": "prop:helm-czeslawa-wz31",
+          "key": "prop:helm-czeslawa-wz31",
+          "type": "prop",
+          "id": "helm-czeslawa-wz31",
+          "name": "Hełm Czesława wz.31",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/helm-czeslawa-wz31.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:final-11-belicosa-niszczy-dom-kultury",
+          "key": "shot:zlote-emoji-sezon-1/final-11-belicosa-niszczy-dom-kultury",
+          "type": "shot",
+          "id": "final-11-belicosa-niszczy-dom-kultury",
+          "name": "Final 11 — Belicosa niszczy Dom Kultury",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-11-belicosa-niszczy-dom-kultury.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "take:final-12a-porazka-czeslawa/take-2",
+          "key": "take:zlote-emoji-sezon-1/final-12a-porazka-czeslawa/take-2",
+          "type": "take",
+          "id": "final-12a-porazka-czeslawa/take-2",
+          "name": "Final 12A — Czesław odpina hełm / take-2",
+          "relationship": "visible-state-from-take",
+          "shotKey": "shot:zlote-emoji-sezon-1/final-12a-porazka-czeslawa",
+          "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-12a-porazka-czeslawa.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-20T12:34:22.2289378+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:halinka",
+            "character:grimskald",
+            "character:czeslaw",
+            "character:marianna",
+            "place:dom-kultury-wejscie",
+            "prop:artefakt-k20",
+            "shot:final-11-belicosa-niszczy-dom-kultury",
+            "place:dom-kultury-ruina-po-belicosie",
+            "prop:helm-czeslawa-wz31"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:halinka",
+              "key": "character:halinka",
+              "type": "character",
+              "id": "halinka",
+              "name": "Halinka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:grimskald",
+              "key": "character:grimskald",
+              "type": "character",
+              "id": "grimskald",
+              "name": "Pan Dariusz",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:czeslaw",
+              "key": "character:czeslaw",
+              "type": "character",
+              "id": "czeslaw",
+              "name": "Czesław",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:marianna",
+              "key": "character:marianna",
+              "type": "character",
+              "id": "marianna",
+              "name": "Marianna \"Mańka\"",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/marianna.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:dom-kultury-wejscie",
+              "key": "place:dom-kultury-wejscie",
+              "type": "place",
+              "id": "dom-kultury-wejscie",
+              "name": "Wejście do Domu Kultruy",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-wejscie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:artefakt-k20",
+              "key": "prop:artefakt-k20",
+              "type": "prop",
+              "id": "artefakt-k20",
+              "name": "Artefakt K20",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:final-11-belicosa-niszczy-dom-kultury",
+              "key": "shot:zlote-emoji-sezon-1/final-11-belicosa-niszczy-dom-kultury",
+              "type": "shot",
+              "id": "final-11-belicosa-niszczy-dom-kultury",
+              "name": "Final 11 — Belicosa niszczy Dom Kultury",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-11-belicosa-niszczy-dom-kultury.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:dom-kultury-ruina-po-belicosie",
+              "key": "place:dom-kultury-ruina-po-belicosie",
+              "type": "place",
+              "id": "dom-kultury-ruina-po-belicosie",
+              "name": "Dom Kultury — ruina po Belicosie",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-ruina-po-belicosie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:helm-czeslawa-wz31",
+              "key": "prop:helm-czeslawa-wz31",
+              "type": "prop",
+              "id": "helm-czeslawa-wz31",
+              "name": "Hełm Czesława wz.31",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/helm-czeslawa-wz31.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-08-20T15:27:03.2377049+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:halinka",
+            "character:grimskald",
+            "character:czeslaw",
+            "character:marianna",
+            "place:dom-kultury-wejscie",
+            "prop:artefakt-k20",
+            "shot:final-11-belicosa-niszczy-dom-kultury",
+            "place:dom-kultury-ruina-po-belicosie",
+            "prop:helm-czeslawa-wz31"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:halinka",
+              "key": "character:halinka",
+              "type": "character",
+              "id": "halinka",
+              "name": "Halinka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:grimskald",
+              "key": "character:grimskald",
+              "type": "character",
+              "id": "grimskald",
+              "name": "Pan Dariusz",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:czeslaw",
+              "key": "character:czeslaw",
+              "type": "character",
+              "id": "czeslaw",
+              "name": "Czesław",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:marianna",
+              "key": "character:marianna",
+              "type": "character",
+              "id": "marianna",
+              "name": "Marianna \"Mańka\"",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/marianna.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:dom-kultury-wejscie",
+              "key": "place:dom-kultury-wejscie",
+              "type": "place",
+              "id": "dom-kultury-wejscie",
+              "name": "Wejście do Domu Kultruy",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-wejscie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:artefakt-k20",
+              "key": "prop:artefakt-k20",
+              "type": "prop",
+              "id": "artefakt-k20",
+              "name": "Artefakt K20",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:final-11-belicosa-niszczy-dom-kultury",
+              "key": "shot:zlote-emoji-sezon-1/final-11-belicosa-niszczy-dom-kultury",
+              "type": "shot",
+              "id": "final-11-belicosa-niszczy-dom-kultury",
+              "name": "Final 11 — Belicosa niszczy Dom Kultury",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-11-belicosa-niszczy-dom-kultury.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:dom-kultury-ruina-po-belicosie",
+              "key": "place:dom-kultury-ruina-po-belicosie",
+              "type": "place",
+              "id": "dom-kultury-ruina-po-belicosie",
+              "name": "Dom Kultury — ruina po Belicosie",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-ruina-po-belicosie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:helm-czeslawa-wz31",
+              "key": "prop:helm-czeslawa-wz31",
+              "type": "prop",
+              "id": "helm-czeslawa-wz31",
+              "name": "Hełm Czesława wz.31",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/helm-czeslawa-wz31.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 3,
+          "createdAt": "2026-08-20T15:27:28.9957488+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:halinka",
+            "character:grimskald",
+            "character:czeslaw",
+            "character:marianna",
+            "place:dom-kultury-wejscie",
+            "prop:artefakt-k20",
+            "shot:final-11-belicosa-niszczy-dom-kultury",
+            "place:dom-kultury-ruina-po-belicosie",
+            "prop:helm-czeslawa-wz31"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:halinka",
+              "key": "character:halinka",
+              "type": "character",
+              "id": "halinka",
+              "name": "Halinka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:grimskald",
+              "key": "character:grimskald",
+              "type": "character",
+              "id": "grimskald",
+              "name": "Pan Dariusz",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:czeslaw",
+              "key": "character:czeslaw",
+              "type": "character",
+              "id": "czeslaw",
+              "name": "Czesław",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:marianna",
+              "key": "character:marianna",
+              "type": "character",
+              "id": "marianna",
+              "name": "Marianna \"Mańka\"",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/marianna.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:dom-kultury-wejscie",
+              "key": "place:dom-kultury-wejscie",
+              "type": "place",
+              "id": "dom-kultury-wejscie",
+              "name": "Wejście do Domu Kultruy",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-wejscie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:artefakt-k20",
+              "key": "prop:artefakt-k20",
+              "type": "prop",
+              "id": "artefakt-k20",
+              "name": "Artefakt K20",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:final-11-belicosa-niszczy-dom-kultury",
+              "key": "shot:zlote-emoji-sezon-1/final-11-belicosa-niszczy-dom-kultury",
+              "type": "shot",
+              "id": "final-11-belicosa-niszczy-dom-kultury",
+              "name": "Final 11 — Belicosa niszczy Dom Kultury",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-11-belicosa-niszczy-dom-kultury.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:dom-kultury-ruina-po-belicosie",
+              "key": "place:dom-kultury-ruina-po-belicosie",
+              "type": "place",
+              "id": "dom-kultury-ruina-po-belicosie",
+              "name": "Dom Kultury — ruina po Belicosie",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-ruina-po-belicosie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:helm-czeslawa-wz31",
+              "key": "prop:helm-czeslawa-wz31",
+              "type": "prop",
+              "id": "helm-czeslawa-wz31",
+              "name": "Hełm Czesława wz.31",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/helm-czeslawa-wz31.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 4,
+          "createdAt": "2026-08-20T16:49:37.0732114+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "prop:helm-czeslawa-wz31",
+            "shot:final-11-belicosa-niszczy-dom-kultury"
+          ],
+          "references": [
+            {
+              "sourceKey": "prop:helm-czeslawa-wz31",
+              "key": "prop:helm-czeslawa-wz31",
+              "type": "prop",
+              "id": "helm-czeslawa-wz31",
+              "name": "Hełm Czesława wz.31",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/helm-czeslawa-wz31.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:final-11-belicosa-niszczy-dom-kultury",
+              "key": "shot:zlote-emoji-sezon-1/final-11-belicosa-niszczy-dom-kultury",
+              "type": "shot",
+              "id": "final-11-belicosa-niszczy-dom-kultury",
+              "name": "Final 11 — Belicosa niszczy Dom Kultury",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-11-belicosa-niszczy-dom-kultury.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 5,
+          "createdAt": "2026-08-20T16:53:40.3857146+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "prop:helm-czeslawa-wz31",
+            "shot:final-11-belicosa-niszczy-dom-kultury",
+            "take:final-12a-porazka-czeslawa/take-2"
+          ],
+          "references": [
+            {
+              "sourceKey": "prop:helm-czeslawa-wz31",
+              "key": "prop:helm-czeslawa-wz31",
+              "type": "prop",
+              "id": "helm-czeslawa-wz31",
+              "name": "Hełm Czesława wz.31",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/helm-czeslawa-wz31.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:final-11-belicosa-niszczy-dom-kultury",
+              "key": "shot:zlote-emoji-sezon-1/final-11-belicosa-niszczy-dom-kultury",
+              "type": "shot",
+              "id": "final-11-belicosa-niszczy-dom-kultury",
+              "name": "Final 11 — Belicosa niszczy Dom Kultury",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-11-belicosa-niszczy-dom-kultury.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "take:final-12a-porazka-czeslawa/take-2",
+              "key": "take:zlote-emoji-sezon-1/final-12a-porazka-czeslawa/take-2",
+              "type": "take",
+              "id": "final-12a-porazka-czeslawa/take-2",
+              "name": "Final 12A — Czesław odpina hełm / take-2",
+              "relationship": "visible-state-from-take",
+              "shotKey": "shot:zlote-emoji-sezon-1/final-12a-porazka-czeslawa",
+              "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-12a-porazka-czeslawa.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-12-wszyscy-przed-ruina/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-12-wszyscy-przed-ruina/frame-start-thumb.webp",

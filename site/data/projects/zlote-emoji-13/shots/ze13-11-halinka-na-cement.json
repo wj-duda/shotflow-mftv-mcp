@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-13/ze13-11-halinka-na-cement",
@@ -9,7 +9,26 @@
   "description": "Ciągłość last-to-first: Start Frame jest dokładną ostatnią widoczną klatką (71) take’a ze13-09-halinka-wylacza/take-1. Halinka puszcza telefon na środku blatu; prawą ręką sięga w lewo do istniejącego burgundowego portfela, otwiera go na miejscu i wyjmuje jeden złożony banknot 100 zł. Podnosi go przy piersi i patrzy na Wiesława poza kadrem po prawej. Lewa dłoń pozostaje na stole. Dialog z istniejącego nagrania: „Panie Wiesiu, to jednak na cement.” Portfel nie przeskakuje pod lewą rękę; telefon zachowuje rzeczywistą pozycję i orientację z take’a 09. Bez przekazania pieniędzy w tym krótkim ujęciu. Start v004, End v001 wygenerowany z tego Startu. Widoczne 93 klatki / 24 fps = 3,875 s; planowany take 4 s, bez audio. Referencje animacji: Halinka-gruzowisko jako Element, banknot-100-pln jako Image.",
   "project": {
     "id": "zlote-emoji-13",
-    "name": "Złote Emoji #13"
+    "key": "project:zlote-emoji-13",
+    "name": "Złote Emoji #13",
+    "createdAt": "2026-09-19T00:38:20.615Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-13",
+    "projectCreatedAt": "2026-09-19T00:38:20.615Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 9,
+    "lastSequence": 9,
+    "occurrences": [
+      9
+    ],
+    "sequenceTotal": 11,
+    "uniqueShotCount": 10,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -25,6 +44,117 @@
       "id": "banknot-100-pln"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "take:ze13-09-halinka-wylacza/take-1",
+        "key": "take:zlote-emoji-13/ze13-09-halinka-wylacza/take-1",
+        "type": "take",
+        "id": "ze13-09-halinka-wylacza/take-1",
+        "name": "ZE13 08 — samodzielne rozpoznanie / take-1",
+        "relationship": "visible-state-from-take",
+        "shotKey": "shot:zlote-emoji-13/ze13-09-halinka-wylacza",
+        "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-13/shots/ze13-09-halinka-wylacza.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:halinka-gruzowisko",
+        "key": "character:halinka-gruzowisko",
+        "type": "character",
+        "id": "halinka-gruzowisko",
+        "name": "Halinka — gruzowisko",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka-gruzowisko.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:banknot-100-pln",
+        "key": "prop:banknot-100-pln",
+        "type": "prop",
+        "id": "banknot-100-pln",
+        "name": "Banknot 100 zł — polski złoty",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/banknot-100-pln.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 4,
+        "referenceKeys": [
+          "take:ze13-09-halinka-wylacza/take-1"
+        ],
+        "references": [
+          {
+            "sourceKey": "take:ze13-09-halinka-wylacza/take-1",
+            "key": "take:zlote-emoji-13/ze13-09-halinka-wylacza/take-1",
+            "type": "take",
+            "id": "ze13-09-halinka-wylacza/take-1",
+            "name": "ZE13 08 — samodzielne rozpoznanie / take-1",
+            "relationship": "visible-state-from-take",
+            "shotKey": "shot:zlote-emoji-13/ze13-09-halinka-wylacza",
+            "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-13/shots/ze13-09-halinka-wylacza.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": {
+          "sourceKey": "take:ze13-09-halinka-wylacza/take-1",
+          "key": "take:zlote-emoji-13/ze13-09-halinka-wylacza/take-1",
+          "type": "take",
+          "id": "ze13-09-halinka-wylacza/take-1",
+          "name": "ZE13 08 — samodzielne rozpoznanie / take-1",
+          "relationship": "visible-state-from-take",
+          "shotKey": "shot:zlote-emoji-13/ze13-09-halinka-wylacza",
+          "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-13/shots/ze13-09-halinka-wylacza.json",
+          "exists": true
+        }
+      },
+      {
+        "frameId": "frame-end",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:ze13-11-halinka-na-cement",
+          "prop:banknot-100-pln",
+          "character:halinka-gruzowisko"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze13-11-halinka-na-cement",
+            "key": "shot:zlote-emoji-13/ze13-11-halinka-na-cement",
+            "type": "shot",
+            "id": "ze13-11-halinka-na-cement",
+            "name": "ZE13 09 — to jednak na cement",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-13/shots/ze13-11-halinka-na-cement.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:banknot-100-pln",
+            "key": "prop:banknot-100-pln",
+            "type": "prop",
+            "id": "banknot-100-pln",
+            "name": "Banknot 100 zł — polski złoty",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/banknot-100-pln.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:halinka-gruzowisko",
+            "key": "character:halinka-gruzowisko",
+            "type": "character",
+            "id": "halinka-gruzowisko",
+            "name": "Halinka — gruzowisko",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka-gruzowisko.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Exact copied last visible frame 71 of ze13-09-halinka-wylacza/take-1, no image generation or modification. This is the first frame of the continuous next action.",
     "endFrameDescription": "Ta sama kamera i układ stołu co Start. Halinka trzyma jeden złożony banknot 100 zł w prawej dłoni przy piersi, patrzy na Wiesława poza kadrem po prawej. Lewa dłoń nadal na stole po prawej. Burgundowy portfel otwarty w swoim pierwotnym miejscu daleko po lewej; telefon nieruchomo na środku blatu, spodek i teczka bez zmiany położenia.",
@@ -39,10 +169,187 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 4,
       "source": "reference",
       "referenceKeys": [
         "take:ze13-09-halinka-wylacza/take-1"
+      ],
+      "references": [
+        {
+          "sourceKey": "take:ze13-09-halinka-wylacza/take-1",
+          "key": "take:zlote-emoji-13/ze13-09-halinka-wylacza/take-1",
+          "type": "take",
+          "id": "ze13-09-halinka-wylacza/take-1",
+          "name": "ZE13 08 — samodzielne rozpoznanie / take-1",
+          "relationship": "visible-state-from-take",
+          "shotKey": "shot:zlote-emoji-13/ze13-09-halinka-wylacza",
+          "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-13/shots/ze13-09-halinka-wylacza.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": {
+        "sourceKey": "take:ze13-09-halinka-wylacza/take-1",
+        "key": "take:zlote-emoji-13/ze13-09-halinka-wylacza/take-1",
+        "type": "take",
+        "id": "ze13-09-halinka-wylacza/take-1",
+        "name": "ZE13 08 — samodzielne rozpoznanie / take-1",
+        "relationship": "visible-state-from-take",
+        "shotKey": "shot:zlote-emoji-13/ze13-09-halinka-wylacza",
+        "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-13/shots/ze13-09-halinka-wylacza.json",
+        "exists": true
+      },
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-19T00:54:01.76638+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze13-09-halinka-wylacza",
+            "character:halinka"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze13-09-halinka-wylacza",
+              "key": "shot:zlote-emoji-13/ze13-09-halinka-wylacza",
+              "type": "shot",
+              "id": "ze13-09-halinka-wylacza",
+              "name": "ZE13 08 — samodzielne rozpoznanie",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-13/shots/ze13-09-halinka-wylacza.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:halinka",
+              "key": "character:halinka",
+              "type": "character",
+              "id": "halinka",
+              "name": "Halinka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-09-20T10:01:43.540207+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze13-11-halinka-na-cement",
+            "shot:ze13-09-halinka-wylacza",
+            "character:halinka-gruzowisko"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze13-11-halinka-na-cement",
+              "key": "shot:zlote-emoji-13/ze13-11-halinka-na-cement",
+              "type": "shot",
+              "id": "ze13-11-halinka-na-cement",
+              "name": "ZE13 09 — to jednak na cement",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-13/shots/ze13-11-halinka-na-cement.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ze13-09-halinka-wylacza",
+              "key": "shot:zlote-emoji-13/ze13-09-halinka-wylacza",
+              "type": "shot",
+              "id": "ze13-09-halinka-wylacza",
+              "name": "ZE13 08 — samodzielne rozpoznanie",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-13/shots/ze13-09-halinka-wylacza.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:halinka-gruzowisko",
+              "key": "character:halinka-gruzowisko",
+              "type": "character",
+              "id": "halinka-gruzowisko",
+              "name": "Halinka — gruzowisko",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka-gruzowisko.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 3,
+          "createdAt": "2026-09-20T11:15:05.460366+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze13-11-halinka-na-cement",
+            "prop:banknot-100-pln",
+            "character:halinka-gruzowisko"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze13-11-halinka-na-cement",
+              "key": "shot:zlote-emoji-13/ze13-11-halinka-na-cement",
+              "type": "shot",
+              "id": "ze13-11-halinka-na-cement",
+              "name": "ZE13 09 — to jednak na cement",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-13/shots/ze13-11-halinka-na-cement.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:banknot-100-pln",
+              "key": "prop:banknot-100-pln",
+              "type": "prop",
+              "id": "banknot-100-pln",
+              "name": "Banknot 100 zł — polski złoty",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/banknot-100-pln.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:halinka-gruzowisko",
+              "key": "character:halinka-gruzowisko",
+              "type": "character",
+              "id": "halinka-gruzowisko",
+              "name": "Halinka — gruzowisko",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka-gruzowisko.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 4,
+          "createdAt": "2026-09-20T12:18:43.484806+00:00",
+          "source": "reference",
+          "referenceKeys": [
+            "take:ze13-09-halinka-wylacza/take-1"
+          ],
+          "references": [
+            {
+              "sourceKey": "take:ze13-09-halinka-wylacza/take-1",
+              "key": "take:zlote-emoji-13/ze13-09-halinka-wylacza/take-1",
+              "type": "take",
+              "id": "ze13-09-halinka-wylacza/take-1",
+              "name": "ZE13 08 — samodzielne rozpoznanie / take-1",
+              "relationship": "visible-state-from-take",
+              "shotKey": "shot:zlote-emoji-13/ze13-09-halinka-wylacza",
+              "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-13/shots/ze13-09-halinka-wylacza.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": {
+            "sourceKey": "take:ze13-09-halinka-wylacza/take-1",
+            "key": "take:zlote-emoji-13/ze13-09-halinka-wylacza/take-1",
+            "type": "take",
+            "id": "ze13-09-halinka-wylacza/take-1",
+            "name": "ZE13 08 — samodzielne rozpoznanie / take-1",
+            "relationship": "visible-state-from-take",
+            "shotKey": "shot:zlote-emoji-13/ze13-09-halinka-wylacza",
+            "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-13/shots/ze13-09-halinka-wylacza.json",
+            "exists": true
+          }
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-13/shots/ze13-11-halinka-na-cement/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-13/shots/ze13-11-halinka-na-cement/frame-start-thumb.webp",
@@ -52,12 +359,91 @@
     },
     {
       "id": "frame-end",
+      "role": "frame-end",
       "revision": 1,
       "source": "generated",
       "referenceKeys": [
         "shot:ze13-11-halinka-na-cement",
         "prop:banknot-100-pln",
         "character:halinka-gruzowisko"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze13-11-halinka-na-cement",
+          "key": "shot:zlote-emoji-13/ze13-11-halinka-na-cement",
+          "type": "shot",
+          "id": "ze13-11-halinka-na-cement",
+          "name": "ZE13 09 — to jednak na cement",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-13/shots/ze13-11-halinka-na-cement.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:banknot-100-pln",
+          "key": "prop:banknot-100-pln",
+          "type": "prop",
+          "id": "banknot-100-pln",
+          "name": "Banknot 100 zł — polski złoty",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/banknot-100-pln.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:halinka-gruzowisko",
+          "key": "character:halinka-gruzowisko",
+          "type": "character",
+          "id": "halinka-gruzowisko",
+          "name": "Halinka — gruzowisko",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka-gruzowisko.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-20T12:20:25.013199+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze13-11-halinka-na-cement",
+            "prop:banknot-100-pln",
+            "character:halinka-gruzowisko"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze13-11-halinka-na-cement",
+              "key": "shot:zlote-emoji-13/ze13-11-halinka-na-cement",
+              "type": "shot",
+              "id": "ze13-11-halinka-na-cement",
+              "name": "ZE13 09 — to jednak na cement",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-13/shots/ze13-11-halinka-na-cement.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:banknot-100-pln",
+              "key": "prop:banknot-100-pln",
+              "type": "prop",
+              "id": "banknot-100-pln",
+              "name": "Banknot 100 zł — polski złoty",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/banknot-100-pln.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:halinka-gruzowisko",
+              "key": "character:halinka-gruzowisko",
+              "type": "character",
+              "id": "halinka-gruzowisko",
+              "name": "Halinka — gruzowisko",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka-gruzowisko.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-13/shots/ze13-11-halinka-na-cement/frame-end.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-13/shots/ze13-11-halinka-na-cement/frame-end-thumb.webp",

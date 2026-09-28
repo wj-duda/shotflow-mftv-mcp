@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-sezon-1/prolog-06-pokoj-cisza",
@@ -9,7 +9,24 @@
   "description": "Statyczny szeroki plan taniego pokoju w Belen nocą. Van śpi niespokojnie, zakamuflowana K20 leży na stoliku na pierwszym planie. Trzy sekundy ciszy i bezruchu przed wtargnięciem.",
   "project": {
     "id": "zlote-emoji-sezon-1",
-    "name": "Złote Emoji Sezon #1"
+    "key": "project:zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1",
+    "createdAt": "2026-08-17T13:42:01.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-sezon-1",
+    "projectCreatedAt": "2026-08-17T13:42:01.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": false,
+    "canonicalEvent": false,
+    "sequence": null,
+    "lastSequence": null,
+    "occurrences": [],
+    "sequenceTotal": 69,
+    "uniqueShotCount": 69,
+    "sequenceOrder": null,
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This project material is not present on the saved timeline, so it must not override canonical timeline events by date alone."
   },
   "references": [
     {
@@ -25,6 +42,85 @@
       "id": "iquitos-tani-pensjonat-belen"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:van-sabe",
+        "key": "character:van-sabe",
+        "type": "character",
+        "id": "van-sabe",
+        "name": "Van Sabe",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/van-sabe.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:artefakt-k20",
+        "key": "prop:artefakt-k20",
+        "type": "prop",
+        "id": "artefakt-k20",
+        "name": "Artefakt K20",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:iquitos-tani-pensjonat-belen",
+        "key": "place:iquitos-tani-pensjonat-belen",
+        "type": "place",
+        "id": "iquitos-tani-pensjonat-belen",
+        "name": "Iquitos — tani pensjonat w Belén",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/iquitos-tani-pensjonat-belen.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "character:van-sabe",
+          "prop:artefakt-k20",
+          "place:iquitos-tani-pensjonat-belen"
+        ],
+        "references": [
+          {
+            "sourceKey": "character:van-sabe",
+            "key": "character:van-sabe",
+            "type": "character",
+            "id": "van-sabe",
+            "name": "Van Sabe",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/van-sabe.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:artefakt-k20",
+            "key": "prop:artefakt-k20",
+            "type": "prop",
+            "id": "artefakt-k20",
+            "name": "Artefakt K20",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "place:iquitos-tani-pensjonat-belen",
+            "key": "place:iquitos-tani-pensjonat-belen",
+            "type": "place",
+            "id": "iquitos-tani-pensjonat-belen",
+            "name": "Iquitos — tani pensjonat w Belén",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/iquitos-tani-pensjonat-belen.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Exact edit of revision 1: preserve the complete room shot and reduce only the K20 on the table to canonical size, exactly 3.0 cm vertex-to-vertex and about 2.5 cm face-to-face, slightly larger than a normal tabletop D20. Keep exact position, material, numerals, contact shadow and no glow.",
     "endFrameDescription": "",
@@ -39,12 +135,134 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 2,
       "source": "generated",
       "referenceKeys": [
         "character:van-sabe",
         "prop:artefakt-k20",
         "place:iquitos-tani-pensjonat-belen"
+      ],
+      "references": [
+        {
+          "sourceKey": "character:van-sabe",
+          "key": "character:van-sabe",
+          "type": "character",
+          "id": "van-sabe",
+          "name": "Van Sabe",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/van-sabe.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:artefakt-k20",
+          "key": "prop:artefakt-k20",
+          "type": "prop",
+          "id": "artefakt-k20",
+          "name": "Artefakt K20",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "place:iquitos-tani-pensjonat-belen",
+          "key": "place:iquitos-tani-pensjonat-belen",
+          "type": "place",
+          "id": "iquitos-tani-pensjonat-belen",
+          "name": "Iquitos — tani pensjonat w Belén",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/iquitos-tani-pensjonat-belen.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-17T22:31:36.5638312+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:van-sabe",
+            "prop:artefakt-k20",
+            "place:iquitos-tani-pensjonat-belen"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:van-sabe",
+              "key": "character:van-sabe",
+              "type": "character",
+              "id": "van-sabe",
+              "name": "Van Sabe",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/van-sabe.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:artefakt-k20",
+              "key": "prop:artefakt-k20",
+              "type": "prop",
+              "id": "artefakt-k20",
+              "name": "Artefakt K20",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:iquitos-tani-pensjonat-belen",
+              "key": "place:iquitos-tani-pensjonat-belen",
+              "type": "place",
+              "id": "iquitos-tani-pensjonat-belen",
+              "name": "Iquitos — tani pensjonat w Belén",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/iquitos-tani-pensjonat-belen.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-08-17T22:55:19.2844903+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:van-sabe",
+            "prop:artefakt-k20",
+            "place:iquitos-tani-pensjonat-belen"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:van-sabe",
+              "key": "character:van-sabe",
+              "type": "character",
+              "id": "van-sabe",
+              "name": "Van Sabe",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/van-sabe.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:artefakt-k20",
+              "key": "prop:artefakt-k20",
+              "type": "prop",
+              "id": "artefakt-k20",
+              "name": "Artefakt K20",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:iquitos-tani-pensjonat-belen",
+              "key": "place:iquitos-tani-pensjonat-belen",
+              "type": "place",
+              "id": "iquitos-tani-pensjonat-belen",
+              "name": "Iquitos — tani pensjonat w Belén",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/iquitos-tani-pensjonat-belen.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-06-pokoj-cisza/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-06-pokoj-cisza/frame-start-thumb.webp",

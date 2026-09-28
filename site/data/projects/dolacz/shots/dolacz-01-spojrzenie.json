@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:dolacz/dolacz-01-spojrzenie",
@@ -9,7 +9,26 @@
   "description": "19-sekundowa pętla Dołącz: widz zagląda do świata AI MFTV. Czesław po lewej, Halinka po prawej, przy biurku pełnym papierów w lokalu zastępczym. W tle realna elewacja KTS w Łazach przy Spółdzielczej 2. Bez mówienia i świadomego kontaktu z kamerą. Ruch uspokojony, zoom pozostawiony playerowi.\n\nCzesław przenosi uwagę z dokumentów na Halinkę. Krótka niema wymiana spojrzeń.\n\nStart: zaakceptowany oryginał A v002. Aktualna reżyseria i czas mikrogestów: prompts.animation; rzeczywisty wynik: take-1.",
   "project": {
     "id": "dolacz",
-    "name": "Dołącz"
+    "key": "project:dolacz",
+    "name": "Dołącz",
+    "createdAt": "2026-09-22T00:10:17.171Z"
+  },
+  "chronology": {
+    "projectKey": "project:dolacz",
+    "projectCreatedAt": "2026-09-22T00:10:17.171Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 1,
+    "lastSequence": 1,
+    "occurrences": [
+      1
+    ],
+    "sequenceTotal": 6,
+    "uniqueShotCount": 6,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -45,6 +64,124 @@
       "id": "lazy-kts-spoldzielcza-2"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:halinka",
+        "key": "character:halinka",
+        "type": "character",
+        "id": "halinka",
+        "name": "Halinka",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:czeslaw",
+        "key": "character:czeslaw",
+        "type": "character",
+        "id": "czeslaw",
+        "name": "Czesław",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:lokal-zastepczy-domu-kultury",
+        "key": "place:lokal-zastepczy-domu-kultury",
+        "type": "place",
+        "id": "lokal-zastepczy-domu-kultury",
+        "name": "Lokal zastępczy Domu Kultury",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lokal-zastepczy-domu-kultury.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:szklanka-czeslawa",
+        "key": "prop:szklanka-czeslawa",
+        "type": "prop",
+        "id": "szklanka-czeslawa",
+        "name": "Szklanka Czesława",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/szklanka-czeslawa.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "note:movie-shot",
+        "key": "note:movie-shot",
+        "type": "note",
+        "id": "movie-shot",
+        "name": "Movie",
+        "relationship": "story-and-continuity-context",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/movie-shot.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "note:plan-lokalu-zastepczego",
+        "key": "note:plan-lokalu-zastepczego",
+        "type": "note",
+        "id": "plan-lokalu-zastepczego",
+        "name": "Lokal zastępczy — rzut z góry",
+        "relationship": "story-and-continuity-context",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/plan-lokalu-zastepczego.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:dolacz-01-spojrzenie",
+        "key": "shot:dolacz/dolacz-01-spojrzenie",
+        "type": "shot",
+        "id": "dolacz-01-spojrzenie",
+        "name": "01 — Spojrzenie",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/dolacz/shots/dolacz-01-spojrzenie.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:lazy-kts-spoldzielcza-2",
+        "key": "place:lazy-kts-spoldzielcza-2",
+        "type": "place",
+        "id": "lazy-kts-spoldzielcza-2",
+        "name": "Łazy — KTS, Spółdzielcza 2",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lazy-kts-spoldzielcza-2.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "shot:dolacz-01-spojrzenie",
+          "place:lazy-kts-spoldzielcza-2"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:dolacz-01-spojrzenie",
+            "key": "shot:dolacz/dolacz-01-spojrzenie",
+            "type": "shot",
+            "id": "dolacz-01-spojrzenie",
+            "name": "01 — Spojrzenie",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/dolacz/shots/dolacz-01-spojrzenie.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "place:lazy-kts-spoldzielcza-2",
+            "key": "place:lazy-kts-spoldzielcza-2",
+            "type": "place",
+            "id": "lazy-kts-spoldzielcza-2",
+            "name": "Łazy — KTS, Spółdzielcza 2",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lazy-kts-spoldzielcza-2.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Use case: precise-object-edit. Edit image 1, the existing canonical opening film frame, producing one photorealistic 16:9 1920x1080 still. Image 1 is the edit target and locks ALL interior pixels and both characters: exact faces, hairstyles, clothing, glasses, hands, tea cups, saucers, binder, paper stacks, phone, camera angle, doorjamb, lighting and framing. Image 2 is an authentic photograph of the KTS building at Spoldzielcza 2, Lazy, Poland, and supplies ONLY the exterior seen THROUGH THE LEFT WINDOW. Replace the yellow excavator, blue industrial barriers and construction-site view outside that window with a geographically believable view toward the cream-colored two-storey SIDE FACADE of this exact real building. Preserve its distinctive evenly spaced dark rectangular windows, subtle vertical pilasters, grey plinth and leafy tree by the corner. Show only a partial section of this facade and the tree through the existing Venetian blinds, at a plausible distance across a small courtyard. Ground outside should be a quiet finished ordinary courtyard, no construction equipment, excavation or rubble. Match perspective and natural morning light to the existing window, slightly softer than the subjects but recognizable as image 2. Do NOT paste the entire reference photo into the window; render the correct partial street-level view from this interior. Existing blinds, window frame, reflections and foreground occlusions remain exactly as in image 1. Change nothing else inside: even the pinned construction PHOTOGRAPHS on the wall remain unchanged, since these are paperwork not the view outdoors. Czeslaw still looks down at the binder, Halinka at him; neither looks at camera. No new people, new furniture, extra glasses, hand changes, text overlays or watermarks. This is a surgical exterior-background correction, not a redesign.",
     "endFrameDescription": "Bez zadanego End Frame. Ostatnia widoczna klatka gotowego take’a przekazana do Start następnego shota.",
@@ -59,11 +196,134 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 2,
       "source": "generated",
       "referenceKeys": [
         "shot:dolacz-01-spojrzenie",
         "place:lazy-kts-spoldzielcza-2"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:dolacz-01-spojrzenie",
+          "key": "shot:dolacz/dolacz-01-spojrzenie",
+          "type": "shot",
+          "id": "dolacz-01-spojrzenie",
+          "name": "01 — Spojrzenie",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/dolacz/shots/dolacz-01-spojrzenie.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "place:lazy-kts-spoldzielcza-2",
+          "key": "place:lazy-kts-spoldzielcza-2",
+          "type": "place",
+          "id": "lazy-kts-spoldzielcza-2",
+          "name": "Łazy — KTS, Spółdzielcza 2",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lazy-kts-spoldzielcza-2.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-22T00:10:17.171718+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "place:lokal-zastepczy-domu-kultury",
+            "note:plan-lokalu-zastepczego",
+            "character:czeslaw",
+            "character:halinka",
+            "prop:szklanka-czeslawa"
+          ],
+          "references": [
+            {
+              "sourceKey": "place:lokal-zastepczy-domu-kultury",
+              "key": "place:lokal-zastepczy-domu-kultury",
+              "type": "place",
+              "id": "lokal-zastepczy-domu-kultury",
+              "name": "Lokal zastępczy Domu Kultury",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lokal-zastepczy-domu-kultury.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "note:plan-lokalu-zastepczego",
+              "key": "note:plan-lokalu-zastepczego",
+              "type": "note",
+              "id": "plan-lokalu-zastepczego",
+              "name": "Lokal zastępczy — rzut z góry",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/plan-lokalu-zastepczego.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:czeslaw",
+              "key": "character:czeslaw",
+              "type": "character",
+              "id": "czeslaw",
+              "name": "Czesław",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:halinka",
+              "key": "character:halinka",
+              "type": "character",
+              "id": "halinka",
+              "name": "Halinka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:szklanka-czeslawa",
+              "key": "prop:szklanka-czeslawa",
+              "type": "prop",
+              "id": "szklanka-czeslawa",
+              "name": "Szklanka Czesława",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/szklanka-czeslawa.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-09-22T00:28:39.452496+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:dolacz-01-spojrzenie",
+            "place:lazy-kts-spoldzielcza-2"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:dolacz-01-spojrzenie",
+              "key": "shot:dolacz/dolacz-01-spojrzenie",
+              "type": "shot",
+              "id": "dolacz-01-spojrzenie",
+              "name": "01 — Spojrzenie",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/dolacz/shots/dolacz-01-spojrzenie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:lazy-kts-spoldzielcza-2",
+              "key": "place:lazy-kts-spoldzielcza-2",
+              "type": "place",
+              "id": "lazy-kts-spoldzielcza-2",
+              "name": "Łazy — KTS, Spółdzielcza 2",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lazy-kts-spoldzielcza-2.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dolacz/shots/dolacz-01-spojrzenie/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dolacz/shots/dolacz-01-spojrzenie/frame-start-thumb.webp",

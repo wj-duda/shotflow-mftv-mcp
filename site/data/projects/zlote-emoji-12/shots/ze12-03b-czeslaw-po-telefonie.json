@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-12/ze12-03b-czeslaw-po-telefonie",
@@ -9,7 +9,26 @@
   "description": "Po odłożeniu słuchawki Czesław zastyga z przerażonym spojrzeniem. Cicho powtarza: „Komisja Kultury Najwyższej…”. Prawa dłoń na odłożonej słuchawce, lewa na teczce. 3 s; dialog do późniejszego nagrania. Lokal zastępczy poza Domem Kultury; Czesław nie wie o upadku anioła.",
   "project": {
     "id": "zlote-emoji-12",
-    "name": "Złote Emoji #12"
+    "key": "project:zlote-emoji-12",
+    "name": "Złote Emoji #12",
+    "createdAt": "2026-09-11T23:11:37.531Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-12",
+    "projectCreatedAt": "2026-09-11T23:11:37.531Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 11,
+    "lastSequence": 11,
+    "occurrences": [
+      11
+    ],
+    "sequenceTotal": 20,
+    "uniqueShotCount": 17,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -21,6 +40,53 @@
       "id": "czeslaw-lokal-zastepczy-ze12"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:ze12-03-telefon-czeslawa",
+        "key": "shot:zlote-emoji-12/ze12-03-telefon-czeslawa",
+        "type": "shot",
+        "id": "ze12-03-telefon-czeslawa",
+        "name": "03 — Telefon o poranku",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-03-telefon-czeslawa.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "note:czeslaw-lokal-zastepczy-ze12",
+        "key": "note:czeslaw-lokal-zastepczy-ze12",
+        "type": "note",
+        "id": "czeslaw-lokal-zastepczy-ze12",
+        "name": "ZE12 — Czesław w lokalu zastępczym",
+        "relationship": "story-and-continuity-context",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/czeslaw-lokal-zastepczy-ze12.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:ze12-03-telefon-czeslawa"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze12-03-telefon-czeslawa",
+            "key": "shot:zlote-emoji-12/ze12-03-telefon-czeslawa",
+            "type": "shot",
+            "id": "ze12-03-telefon-czeslawa",
+            "name": "03 — Telefon o poranku",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-03-telefon-czeslawa.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Use case: identity-preserve. New separate 16:9 cinematic reaction closeup continuing exact reference scene seconds later. SAME Czeslaw face, curly dark hair, rectangular glasses, rumpled dark suit, beige shirt, loose tie, same site-office container, blinds and morning light from left. He has ALREADY PUT DOWN the beige telephone handset onto its cradle on desk at lower-left edge; his RIGHT hand rests on the returned handset, never at his ear. Left hand stays on folder. Frame slightly tighter around chest/head while keeping phone and resting right hand readable along bottom edge. He looks straight ahead just off camera with a frozen frightened stare, eyes wider, lips slightly parted, shallow breath, no comic grimace. Emotion: he has realized the highest cultural commission is coming and fears dismissal. Vulnerable deadpan realism. No other people, new props, dialogue captions, text or watermark. Preserve phone base shape and existing desk scene. This is a paused moment AFTER hanging up, mouth relaxed for later spoken line.",
     "endFrameDescription": "",
@@ -35,10 +101,47 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 1,
       "source": "generated",
       "referenceKeys": [
         "shot:ze12-03-telefon-czeslawa"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze12-03-telefon-czeslawa",
+          "key": "shot:zlote-emoji-12/ze12-03-telefon-czeslawa",
+          "type": "shot",
+          "id": "ze12-03-telefon-czeslawa",
+          "name": "03 — Telefon o poranku",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-03-telefon-czeslawa.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-12T01:07:52.224886+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze12-03-telefon-czeslawa"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze12-03-telefon-czeslawa",
+              "key": "shot:zlote-emoji-12/ze12-03-telefon-czeslawa",
+              "type": "shot",
+              "id": "ze12-03-telefon-czeslawa",
+              "name": "03 — Telefon o poranku",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-03-telefon-czeslawa.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-03b-czeslaw-po-telefonie/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-03b-czeslaw-po-telefonie/frame-start-thumb.webp",

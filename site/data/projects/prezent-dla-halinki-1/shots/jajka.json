@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:prezent-dla-halinki-1/jajka",
@@ -9,9 +9,42 @@
   "description": "",
   "project": {
     "id": "prezent-dla-halinki-1",
-    "name": "Prezent Dla Halinki 1"
+    "key": "project:prezent-dla-halinki-1",
+    "name": "Prezent Dla Halinki 1",
+    "createdAt": "2026-08-03T12:09:48.055Z"
+  },
+  "chronology": {
+    "projectKey": "project:prezent-dla-halinki-1",
+    "projectCreatedAt": "2026-08-03T12:09:48.055Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 9,
+    "lastSequence": 12,
+    "occurrences": [
+      9,
+      12
+    ],
+    "sequenceTotal": 16,
+    "uniqueShotCount": 14,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [],
+  "referenceUsage": {
+    "declared": [],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [],
+        "references": [],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "",
     "endFrameDescription": "",
@@ -26,9 +59,22 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 1,
       "source": "generated",
       "referenceKeys": [],
+      "references": [],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-03T13:42:22.7593275+00:00",
+          "source": "generated",
+          "referenceKeys": [],
+          "references": [],
+          "sourceReference": null
+        }
+      ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/prezent-dla-halinki-1/shots/jajka/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/prezent-dla-halinki-1/shots/jajka/frame-start-thumb.webp",
       "width": 1672,

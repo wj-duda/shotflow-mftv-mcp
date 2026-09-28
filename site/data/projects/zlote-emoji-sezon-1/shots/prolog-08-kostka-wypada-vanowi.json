@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-sezon-1/prolog-08-kostka-wypada-vanowi",
@@ -9,7 +9,24 @@
   "description": "Jedno ciagle ujecie. Van dopiero zrywa sie z nieposcielonego lozka, podczas gdy mala K20 lezy nieruchomo na okraglym stoliku, a Pipa celuje z odleglych drzwi. Van dopada stolika, dotyka kostki, ploszy sie i dopiero wtedy K20 wyslizguje mu sie z palcow nad krawedzia blatu.",
   "project": {
     "id": "zlote-emoji-sezon-1",
-    "name": "Złote Emoji Sezon #1"
+    "key": "project:zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1",
+    "createdAt": "2026-08-17T13:42:01.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-sezon-1",
+    "projectCreatedAt": "2026-08-17T13:42:01.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": false,
+    "canonicalEvent": false,
+    "sequence": null,
+    "lastSequence": null,
+    "occurrences": [],
+    "sequenceTotal": 69,
+    "uniqueShotCount": 69,
+    "sequenceOrder": null,
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This project material is not present on the saved timeline, so it must not override canonical timeline events by date alone."
   },
   "references": [
     {
@@ -37,6 +54,177 @@
       "id": "prolog-07b-pipa-w-drzwiach"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:van-sabe",
+        "key": "character:van-sabe",
+        "type": "character",
+        "id": "van-sabe",
+        "name": "Van Sabe",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/van-sabe.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:laidy-pipa",
+        "key": "character:laidy-pipa",
+        "type": "character",
+        "id": "laidy-pipa",
+        "name": "LAIdy Pipa",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/laidy-pipa.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:artefakt-k20",
+        "key": "prop:artefakt-k20",
+        "type": "prop",
+        "id": "artefakt-k20",
+        "name": "Artefakt K20",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:iquitos-tani-pensjonat-belen",
+        "key": "place:iquitos-tani-pensjonat-belen",
+        "type": "place",
+        "id": "iquitos-tani-pensjonat-belen",
+        "name": "Iquitos — tani pensjonat w Belén",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/iquitos-tani-pensjonat-belen.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:prolog-06-pokoj-cisza",
+        "key": "shot:zlote-emoji-sezon-1/prolog-06-pokoj-cisza",
+        "type": "shot",
+        "id": "prolog-06-pokoj-cisza",
+        "name": "Pokój — cisza",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-06-pokoj-cisza.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:prolog-07b-pipa-w-drzwiach",
+        "key": "shot:zlote-emoji-sezon-1/prolog-07b-pipa-w-drzwiach",
+        "type": "shot",
+        "id": "prolog-07b-pipa-w-drzwiach",
+        "name": "Prolog 07B - Pipa w drzwiach",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-07b-pipa-w-drzwiach.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 4,
+        "referenceKeys": [
+          "character:van-sabe",
+          "character:laidy-pipa",
+          "prop:artefakt-k20",
+          "place:iquitos-tani-pensjonat-belen",
+          "shot:prolog-06-pokoj-cisza",
+          "shot:prolog-07b-pipa-w-drzwiach"
+        ],
+        "references": [
+          {
+            "sourceKey": "character:van-sabe",
+            "key": "character:van-sabe",
+            "type": "character",
+            "id": "van-sabe",
+            "name": "Van Sabe",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/van-sabe.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:laidy-pipa",
+            "key": "character:laidy-pipa",
+            "type": "character",
+            "id": "laidy-pipa",
+            "name": "LAIdy Pipa",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/laidy-pipa.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:artefakt-k20",
+            "key": "prop:artefakt-k20",
+            "type": "prop",
+            "id": "artefakt-k20",
+            "name": "Artefakt K20",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "place:iquitos-tani-pensjonat-belen",
+            "key": "place:iquitos-tani-pensjonat-belen",
+            "type": "place",
+            "id": "iquitos-tani-pensjonat-belen",
+            "name": "Iquitos — tani pensjonat w Belén",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/iquitos-tani-pensjonat-belen.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:prolog-06-pokoj-cisza",
+            "key": "shot:zlote-emoji-sezon-1/prolog-06-pokoj-cisza",
+            "type": "shot",
+            "id": "prolog-06-pokoj-cisza",
+            "name": "Pokój — cisza",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-06-pokoj-cisza.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:prolog-07b-pipa-w-drzwiach",
+            "key": "shot:zlote-emoji-sezon-1/prolog-07b-pipa-w-drzwiach",
+            "type": "shot",
+            "id": "prolog-07b-pipa-w-drzwiach",
+            "name": "Prolog 07B - Pipa w drzwiach",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-07b-pipa-w-drzwiach.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      },
+      {
+        "frameId": "frame-end",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:prolog-08-kostka-wypada-vanowi"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:prolog-08-kostka-wypada-vanowi",
+            "key": "shot:zlote-emoji-sezon-1/prolog-08-kostka-wypada-vanowi",
+            "type": "shot",
+            "id": "prolog-08-kostka-wypada-vanowi",
+            "name": "Kostka wypada Vanowi",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-08-kostka-wypada-vanowi.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": {
+          "sourceKey": "shot:prolog-08-kostka-wypada-vanowi",
+          "key": "shot:zlote-emoji-sezon-1/prolog-08-kostka-wypada-vanowi",
+          "type": "shot",
+          "id": "prolog-08-kostka-wypada-vanowi",
+          "name": "Kostka wypada Vanowi",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-08-kostka-wypada-vanowi.json",
+          "exists": true
+        }
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Locked wide First Frame matching the former shot-08 frame as the later endpoint. Van is only beginning to scramble off the same rumpled bed; one hand pushes into the mattress and one leg swings toward the floor. The exact 3 cm emerald-and-gold K20 rests stationary and unlit on top of the same round metal table. Pipa remains distant in the corrected right-hinged doorway, aiming at Van. Exact identities, room geometry, furniture scale and lighting; no floating die, duplicates or camera change.",
     "endFrameDescription": "The former active Start Frame revision 3 preserved exactly: Van has reached and crouched at the round table; the small K20 has just slipped from his fingers and is airborne immediately beyond the table edge, while Pipa keeps aiming from the distant doorway.",
@@ -51,6 +239,7 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 4,
       "source": "generated",
       "referenceKeys": [
@@ -61,6 +250,320 @@
         "shot:prolog-06-pokoj-cisza",
         "shot:prolog-07b-pipa-w-drzwiach"
       ],
+      "references": [
+        {
+          "sourceKey": "character:van-sabe",
+          "key": "character:van-sabe",
+          "type": "character",
+          "id": "van-sabe",
+          "name": "Van Sabe",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/van-sabe.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:laidy-pipa",
+          "key": "character:laidy-pipa",
+          "type": "character",
+          "id": "laidy-pipa",
+          "name": "LAIdy Pipa",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/laidy-pipa.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:artefakt-k20",
+          "key": "prop:artefakt-k20",
+          "type": "prop",
+          "id": "artefakt-k20",
+          "name": "Artefakt K20",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "place:iquitos-tani-pensjonat-belen",
+          "key": "place:iquitos-tani-pensjonat-belen",
+          "type": "place",
+          "id": "iquitos-tani-pensjonat-belen",
+          "name": "Iquitos — tani pensjonat w Belén",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/iquitos-tani-pensjonat-belen.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:prolog-06-pokoj-cisza",
+          "key": "shot:zlote-emoji-sezon-1/prolog-06-pokoj-cisza",
+          "type": "shot",
+          "id": "prolog-06-pokoj-cisza",
+          "name": "Pokój — cisza",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-06-pokoj-cisza.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:prolog-07b-pipa-w-drzwiach",
+          "key": "shot:zlote-emoji-sezon-1/prolog-07b-pipa-w-drzwiach",
+          "type": "shot",
+          "id": "prolog-07b-pipa-w-drzwiach",
+          "name": "Prolog 07B - Pipa w drzwiach",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-07b-pipa-w-drzwiach.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-17T22:34:23.832238+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:van-sabe",
+            "character:laidy-pipa",
+            "prop:artefakt-k20",
+            "place:iquitos-tani-pensjonat-belen"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:van-sabe",
+              "key": "character:van-sabe",
+              "type": "character",
+              "id": "van-sabe",
+              "name": "Van Sabe",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/van-sabe.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:laidy-pipa",
+              "key": "character:laidy-pipa",
+              "type": "character",
+              "id": "laidy-pipa",
+              "name": "LAIdy Pipa",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/laidy-pipa.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:artefakt-k20",
+              "key": "prop:artefakt-k20",
+              "type": "prop",
+              "id": "artefakt-k20",
+              "name": "Artefakt K20",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:iquitos-tani-pensjonat-belen",
+              "key": "place:iquitos-tani-pensjonat-belen",
+              "type": "place",
+              "id": "iquitos-tani-pensjonat-belen",
+              "name": "Iquitos — tani pensjonat w Belén",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/iquitos-tani-pensjonat-belen.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-08-17T22:56:24.5620728+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:van-sabe",
+            "character:laidy-pipa",
+            "prop:artefakt-k20",
+            "place:iquitos-tani-pensjonat-belen"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:van-sabe",
+              "key": "character:van-sabe",
+              "type": "character",
+              "id": "van-sabe",
+              "name": "Van Sabe",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/van-sabe.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:laidy-pipa",
+              "key": "character:laidy-pipa",
+              "type": "character",
+              "id": "laidy-pipa",
+              "name": "LAIdy Pipa",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/laidy-pipa.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:artefakt-k20",
+              "key": "prop:artefakt-k20",
+              "type": "prop",
+              "id": "artefakt-k20",
+              "name": "Artefakt K20",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:iquitos-tani-pensjonat-belen",
+              "key": "place:iquitos-tani-pensjonat-belen",
+              "type": "place",
+              "id": "iquitos-tani-pensjonat-belen",
+              "name": "Iquitos — tani pensjonat w Belén",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/iquitos-tani-pensjonat-belen.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 3,
+          "createdAt": "2026-08-17T23:23:46.1056318+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:van-sabe",
+            "character:laidy-pipa",
+            "prop:artefakt-k20",
+            "place:iquitos-tani-pensjonat-belen",
+            "shot:prolog-07-wtargniecie-pipy"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:van-sabe",
+              "key": "character:van-sabe",
+              "type": "character",
+              "id": "van-sabe",
+              "name": "Van Sabe",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/van-sabe.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:laidy-pipa",
+              "key": "character:laidy-pipa",
+              "type": "character",
+              "id": "laidy-pipa",
+              "name": "LAIdy Pipa",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/laidy-pipa.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:artefakt-k20",
+              "key": "prop:artefakt-k20",
+              "type": "prop",
+              "id": "artefakt-k20",
+              "name": "Artefakt K20",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:iquitos-tani-pensjonat-belen",
+              "key": "place:iquitos-tani-pensjonat-belen",
+              "type": "place",
+              "id": "iquitos-tani-pensjonat-belen",
+              "name": "Iquitos — tani pensjonat w Belén",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/iquitos-tani-pensjonat-belen.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:prolog-07-wtargniecie-pipy",
+              "key": "shot:zlote-emoji-sezon-1/prolog-07-wtargniecie-pipy",
+              "type": "shot",
+              "id": "prolog-07-wtargniecie-pipy",
+              "name": "Pipa blokuje drzwi",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-07-wtargniecie-pipy.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 4,
+          "createdAt": "2026-08-18T05:40:52.7340857+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:van-sabe",
+            "character:laidy-pipa",
+            "prop:artefakt-k20",
+            "place:iquitos-tani-pensjonat-belen",
+            "shot:prolog-06-pokoj-cisza",
+            "shot:prolog-07b-pipa-w-drzwiach"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:van-sabe",
+              "key": "character:van-sabe",
+              "type": "character",
+              "id": "van-sabe",
+              "name": "Van Sabe",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/van-sabe.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:laidy-pipa",
+              "key": "character:laidy-pipa",
+              "type": "character",
+              "id": "laidy-pipa",
+              "name": "LAIdy Pipa",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/laidy-pipa.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:artefakt-k20",
+              "key": "prop:artefakt-k20",
+              "type": "prop",
+              "id": "artefakt-k20",
+              "name": "Artefakt K20",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:iquitos-tani-pensjonat-belen",
+              "key": "place:iquitos-tani-pensjonat-belen",
+              "type": "place",
+              "id": "iquitos-tani-pensjonat-belen",
+              "name": "Iquitos — tani pensjonat w Belén",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/iquitos-tani-pensjonat-belen.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:prolog-06-pokoj-cisza",
+              "key": "shot:zlote-emoji-sezon-1/prolog-06-pokoj-cisza",
+              "type": "shot",
+              "id": "prolog-06-pokoj-cisza",
+              "name": "Pokój — cisza",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-06-pokoj-cisza.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:prolog-07b-pipa-w-drzwiach",
+              "key": "shot:zlote-emoji-sezon-1/prolog-07b-pipa-w-drzwiach",
+              "type": "shot",
+              "id": "prolog-07b-pipa-w-drzwiach",
+              "name": "Prolog 07B - Pipa w drzwiach",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-07b-pipa-w-drzwiach.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-08-kostka-wypada-vanowi/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-08-kostka-wypada-vanowi/frame-start-thumb.webp",
       "width": 1920,
@@ -69,10 +572,65 @@
     },
     {
       "id": "frame-end",
+      "role": "frame-end",
       "revision": 1,
       "source": "reference",
       "referenceKeys": [
         "shot:prolog-08-kostka-wypada-vanowi"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:prolog-08-kostka-wypada-vanowi",
+          "key": "shot:zlote-emoji-sezon-1/prolog-08-kostka-wypada-vanowi",
+          "type": "shot",
+          "id": "prolog-08-kostka-wypada-vanowi",
+          "name": "Kostka wypada Vanowi",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-08-kostka-wypada-vanowi.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": {
+        "sourceKey": "shot:prolog-08-kostka-wypada-vanowi",
+        "key": "shot:zlote-emoji-sezon-1/prolog-08-kostka-wypada-vanowi",
+        "type": "shot",
+        "id": "prolog-08-kostka-wypada-vanowi",
+        "name": "Kostka wypada Vanowi",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-08-kostka-wypada-vanowi.json",
+        "exists": true
+      },
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-18T05:40:52.7340857+00:00",
+          "source": "reference",
+          "referenceKeys": [
+            "shot:prolog-08-kostka-wypada-vanowi"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:prolog-08-kostka-wypada-vanowi",
+              "key": "shot:zlote-emoji-sezon-1/prolog-08-kostka-wypada-vanowi",
+              "type": "shot",
+              "id": "prolog-08-kostka-wypada-vanowi",
+              "name": "Kostka wypada Vanowi",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-08-kostka-wypada-vanowi.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": {
+            "sourceKey": "shot:prolog-08-kostka-wypada-vanowi",
+            "key": "shot:zlote-emoji-sezon-1/prolog-08-kostka-wypada-vanowi",
+            "type": "shot",
+            "id": "prolog-08-kostka-wypada-vanowi",
+            "name": "Kostka wypada Vanowi",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-08-kostka-wypada-vanowi.json",
+            "exists": true
+          }
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-08-kostka-wypada-vanowi/frame-end.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-08-kostka-wypada-vanowi/frame-end-thumb.webp",

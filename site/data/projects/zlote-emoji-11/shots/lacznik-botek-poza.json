@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-11/lacznik-botek-poza",
@@ -9,7 +9,24 @@
   "description": "Niski detal botków Mai podczas kontrolowanego przeniesienia ciężaru do pewnej siebie pozy przed lustrem.",
   "project": {
     "id": "zlote-emoji-11",
-    "name": "Złote Emoji #11"
+    "key": "project:zlote-emoji-11",
+    "name": "Złote Emoji #11",
+    "createdAt": "2026-09-05T16:08:47.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-11",
+    "projectCreatedAt": "2026-09-05T16:08:47.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": false,
+    "canonicalEvent": false,
+    "sequence": null,
+    "lastSequence": null,
+    "occurrences": [],
+    "sequenceTotal": 7,
+    "uniqueShotCount": 7,
+    "sequenceOrder": null,
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This project material is not present on the saved timeline, so it must not override canonical timeline events by date alone."
   },
   "references": [
     {
@@ -29,6 +46,106 @@
       "id": "movie-shot"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:maia-sprawdza-profil",
+        "key": "shot:zlote-emoji-11/maia-sprawdza-profil",
+        "type": "shot",
+        "id": "maia-sprawdza-profil",
+        "name": "Maia sprawdza profil",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-sprawdza-profil.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:maia-pozuje-do-lustra",
+        "key": "shot:zlote-emoji-11/maia-pozuje-do-lustra",
+        "type": "shot",
+        "id": "maia-pozuje-do-lustra",
+        "name": "Maia pozuje do lustra",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-pozuje-do-lustra.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:maia-melodies-v2",
+        "key": "character:maia-melodies-v2",
+        "type": "character",
+        "id": "maia-melodies-v2",
+        "name": "Maia Melodies v2",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/maia-melodies-v2.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "note:movie-shot",
+        "key": "note:movie-shot",
+        "type": "note",
+        "id": "movie-shot",
+        "name": "Movie",
+        "relationship": "story-and-continuity-context",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/movie-shot.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:maia-sprawdza-profil",
+          "shot:maia-pozuje-do-lustra",
+          "character:maia-melodies-v2",
+          "note:movie-shot"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:maia-sprawdza-profil",
+            "key": "shot:zlote-emoji-11/maia-sprawdza-profil",
+            "type": "shot",
+            "id": "maia-sprawdza-profil",
+            "name": "Maia sprawdza profil",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-sprawdza-profil.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:maia-pozuje-do-lustra",
+            "key": "shot:zlote-emoji-11/maia-pozuje-do-lustra",
+            "type": "shot",
+            "id": "maia-pozuje-do-lustra",
+            "name": "Maia pozuje do lustra",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-pozuje-do-lustra.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:maia-melodies-v2",
+            "key": "character:maia-melodies-v2",
+            "type": "character",
+            "id": "maia-melodies-v2",
+            "name": "Maia Melodies v2",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/maia-melodies-v2.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "note:movie-shot",
+            "key": "note:movie-shot",
+            "type": "note",
+            "id": "movie-shot",
+            "name": "Movie",
+            "relationship": "story-and-continuity-context",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/movie-shot.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Fotorealistyczny filmowy detal 16:9 z poziomu podłogi. Kadr od połowy łydek: dopasowane czarne skórzane spodnie i kanoniczne czarne botki na niskim obcasie stoją na drewnianym parkiecie. Jedna stopa jest ustawiona szerzej i lekko na zewnątrz podczas kontrolowanego przeniesienia ciężaru w pewną siebie pozę. Dokładnie dwie nogi i dwa botki, twarz poza kadrem, ciepłe odbicia, miękkie tło mieszkania. Bez chodzenia, dodatkowej osoby, wysokich szpilek, napisów i deformacji.",
     "endFrameDescription": "",
@@ -43,6 +160,7 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 1,
       "source": "generated",
       "referenceKeys": [
@@ -50,6 +168,105 @@
         "shot:maia-pozuje-do-lustra",
         "character:maia-melodies-v2",
         "note:movie-shot"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:maia-sprawdza-profil",
+          "key": "shot:zlote-emoji-11/maia-sprawdza-profil",
+          "type": "shot",
+          "id": "maia-sprawdza-profil",
+          "name": "Maia sprawdza profil",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-sprawdza-profil.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:maia-pozuje-do-lustra",
+          "key": "shot:zlote-emoji-11/maia-pozuje-do-lustra",
+          "type": "shot",
+          "id": "maia-pozuje-do-lustra",
+          "name": "Maia pozuje do lustra",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-pozuje-do-lustra.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:maia-melodies-v2",
+          "key": "character:maia-melodies-v2",
+          "type": "character",
+          "id": "maia-melodies-v2",
+          "name": "Maia Melodies v2",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/maia-melodies-v2.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "note:movie-shot",
+          "key": "note:movie-shot",
+          "type": "note",
+          "id": "movie-shot",
+          "name": "Movie",
+          "relationship": "story-and-continuity-context",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/movie-shot.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-05T17:35:00+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:maia-sprawdza-profil",
+            "shot:maia-pozuje-do-lustra",
+            "character:maia-melodies-v2",
+            "note:movie-shot"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:maia-sprawdza-profil",
+              "key": "shot:zlote-emoji-11/maia-sprawdza-profil",
+              "type": "shot",
+              "id": "maia-sprawdza-profil",
+              "name": "Maia sprawdza profil",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-sprawdza-profil.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:maia-pozuje-do-lustra",
+              "key": "shot:zlote-emoji-11/maia-pozuje-do-lustra",
+              "type": "shot",
+              "id": "maia-pozuje-do-lustra",
+              "name": "Maia pozuje do lustra",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-pozuje-do-lustra.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:maia-melodies-v2",
+              "key": "character:maia-melodies-v2",
+              "type": "character",
+              "id": "maia-melodies-v2",
+              "name": "Maia Melodies v2",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/maia-melodies-v2.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "note:movie-shot",
+              "key": "note:movie-shot",
+              "type": "note",
+              "id": "movie-shot",
+              "name": "Movie",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/movie-shot.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-11/shots/lacznik-botek-poza/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-11/shots/lacznik-botek-poza/frame-start-thumb.webp",

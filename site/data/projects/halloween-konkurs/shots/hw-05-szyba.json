@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:halloween-konkurs/hw-05-szyba",
@@ -9,7 +9,26 @@
   "description": "Filmowy ciasny detal z wnętrza salonu, pod skosem do zamkniętej szyby. Zombie w szarej kurtce wbija bark w taflę; twarz w półprofilu, obie ręce przy tułowiu, zamek na pierwszym planie po lewej. Rdzawa kurtka i czerwona krata napierają nieostro w tle. Drzwi jeszcze zamknięte; puszczają pod kolejnym naporem. 1080×1920, 24 fps; ujęcie 1 s. Nowy Start Frame, zachowany prompt animacji.",
   "project": {
     "id": "halloween-konkurs",
-    "name": "Halloween Konkurs"
+    "key": "project:halloween-konkurs",
+    "name": "Halloween Konkurs",
+    "createdAt": "2026-09-20T15:29:11.720Z"
+  },
+  "chronology": {
+    "projectKey": "project:halloween-konkurs",
+    "projectCreatedAt": "2026-09-20T15:29:11.720Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 6,
+    "lastSequence": 6,
+    "occurrences": [
+      6
+    ],
+    "sequenceTotal": 25,
+    "uniqueShotCount": 21,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -21,6 +40,53 @@
       "id": "hw-05-szyba"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:hw-04-wampiry-mocniej",
+        "key": "shot:halloween-konkurs/hw-04-wampiry-mocniej",
+        "type": "shot",
+        "id": "hw-04-wampiry-mocniej",
+        "name": "04 — Wampiry!",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-04-wampiry-mocniej.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:hw-05-szyba",
+        "key": "shot:halloween-konkurs/hw-05-szyba",
+        "type": "shot",
+        "id": "hw-05-szyba",
+        "name": "05 — Uderzenie / pęka szyba",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-05-szyba.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 3,
+        "referenceKeys": [
+          "shot:hw-05-szyba"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:hw-05-szyba",
+            "key": "shot:halloween-konkurs/hw-05-szyba",
+            "type": "shot",
+            "id": "hw-05-szyba",
+            "name": "05 — Uderzenie / pęka szyba",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-05-szyba.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Use case: identity-preserve. Recompose supplied image into a genuinely cinematic horror action insert, SINGLE vertical 9:16 film still. Reference defines the EXACT three zombie identities, grey zip jacket and dark shirt of lead man, older curly grey woman in rust jacket, dark curly bearded man in red plaid, same dark sliding terrace-door frame and bronze latch, Polish garden dusk, warm interior. Camera is INSIDE, close to LEFT latch looking OBLIQUELY along glass at roughly 35 degrees, 50mm film lens, tight chest-up composition. Lead zombie is OUTSIDE, aggressively driving his shoulder into CLOSED glass, body rotated three-quarter, cheek in tense half profile near shoulder, gaze into room rather than posing for camera. Both his arms are anatomically attached and bent LOW near torso, one clenched fist near chest; NO raised overhead arm, NO huge foreground hand. Shoulder contact and exact recognizable strained face dominate centre-right; dark jamb and bronze latch occupy narrow near-left foreground. Older woman and plaid man behind remain softly defocused, their shoulders and partial faces communicate pressure of crowd, no giant palms. Clear solid glass plane separates all bodies from camera: restrained reflections of warm salon lamp, faint smears at shoulder contact, no plastic wrinkling, no shattered hole or broken door yet. Shallow depth of field, face and shoulder sharp, soft background, subtly handheld 3-degree cant, restrained motion blur jacket edge, tactile natural skin and fabric, warm amber edge light from interior versus cool blue garden, deep cinematic shadows with readable eyes. No gore, extra limbs, duplicate faces, text, watermark, collage, borders. Match exact wardrobe and lighting continuity, make the physical strain believable.",
     "endFrameDescription": "",
@@ -35,10 +101,89 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 3,
       "source": "generated",
       "referenceKeys": [
         "shot:hw-05-szyba"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:hw-05-szyba",
+          "key": "shot:halloween-konkurs/hw-05-szyba",
+          "type": "shot",
+          "id": "hw-05-szyba",
+          "name": "05 — Uderzenie / pęka szyba",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-05-szyba.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-20T15:35:08.143209+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:hw-04-wampiry-mocniej"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:hw-04-wampiry-mocniej",
+              "key": "shot:halloween-konkurs/hw-04-wampiry-mocniej",
+              "type": "shot",
+              "id": "hw-04-wampiry-mocniej",
+              "name": "04 — Wampiry!",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-04-wampiry-mocniej.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-09-20T16:34:19.159053+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:hw-05-szyba"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:hw-05-szyba",
+              "key": "shot:halloween-konkurs/hw-05-szyba",
+              "type": "shot",
+              "id": "hw-05-szyba",
+              "name": "05 — Uderzenie / pęka szyba",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-05-szyba.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 3,
+          "createdAt": "2026-09-20T19:46:36.15222+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:hw-05-szyba"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:hw-05-szyba",
+              "key": "shot:halloween-konkurs/hw-05-szyba",
+              "type": "shot",
+              "id": "hw-05-szyba",
+              "name": "05 — Uderzenie / pęka szyba",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-05-szyba.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-05-szyba/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-05-szyba/frame-start-thumb.webp",

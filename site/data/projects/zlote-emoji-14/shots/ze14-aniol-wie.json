@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-14/ze14-aniol-wie",
@@ -9,7 +9,26 @@
   "description": "Anioł nadal obserwuje z oddali spod drzewa po drugiej stronie ulicy, lecz kamera używa długiego obiektywu do czytelnego półzbliżenia. Twarz z kanonicznego portretu: pociągła, krzywy orli nos, szare oczy, ciemne włosy. Parasol i ciemny płaszcz, pod nim jasna klapa ze srebrną spinką. Bez skrzydeł, ognia i aureoli. Ulewa. Bez fizycznego zbliżenia do Sirock.",
   "project": {
     "id": "zlote-emoji-14",
-    "name": "Złote Emoji #14"
+    "key": "project:zlote-emoji-14",
+    "name": "Złote Emoji #14",
+    "createdAt": "2026-09-27T00:13:04.173Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-14",
+    "projectCreatedAt": "2026-09-27T00:13:04.173Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 18,
+    "lastSequence": 18,
+    "occurrences": [
+      18
+    ],
+    "sequenceTotal": 18,
+    "uniqueShotCount": 16,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -33,6 +52,94 @@
       "id": "seed"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "place:lazy-kts-spoldzielcza-2",
+        "key": "place:lazy-kts-spoldzielcza-2",
+        "type": "place",
+        "id": "lazy-kts-spoldzielcza-2",
+        "name": "Łazy — KTS, Spółdzielcza 2",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lazy-kts-spoldzielcza-2.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "note:movie-shot",
+        "key": "note:movie-shot",
+        "type": "note",
+        "id": "movie-shot",
+        "name": "Movie",
+        "relationship": "story-and-continuity-context",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/movie-shot.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:aniol-wygnany",
+        "key": "character:aniol-wygnany",
+        "type": "character",
+        "id": "aniol-wygnany",
+        "name": "Anioł wygnany",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/aniol-wygnany.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze14-aniol-wie",
+        "key": "shot:zlote-emoji-14/ze14-aniol-wie",
+        "type": "shot",
+        "id": "ze14-aniol-wie",
+        "name": "09 — Anioł wie",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-aniol-wie.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:seed",
+        "key": "shot:zlote-emoji-14/seed",
+        "type": "shot",
+        "id": "seed",
+        "name": "01 — Pusty Dom Kultury",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/seed.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 5,
+        "referenceKeys": [
+          "character:aniol-wygnany",
+          "shot:ze14-aniol-wie"
+        ],
+        "references": [
+          {
+            "sourceKey": "character:aniol-wygnany",
+            "key": "character:aniol-wygnany",
+            "type": "character",
+            "id": "aniol-wygnany",
+            "name": "Anioł wygnany",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/aniol-wygnany.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:ze14-aniol-wie",
+            "key": "shot:zlote-emoji-14/ze14-aniol-wie",
+            "type": "shot",
+            "id": "ze14-aniol-wie",
+            "name": "09 — Anioł wie",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-aniol-wie.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Identity-preserve correction. Image1 is ABSOLUTE facial identity reference: same specific 42-year-old thin man, long narrow tired face, crooked aquiline nose, grey eyes, thin lips, shoulder-length black hair, clean shaven. Reproduce facial bone structure precisely, do not replace with generic attractive man. Remove soot/fire only, preserve natural wrinkles. Image2 supplies current rainy location across street, plain charcoal raincoat, dark umbrella and tree. NEW CAMERA: long telephoto lens from distant office across road, tight WAIST-UP shot of observer at far sidewalk; physical position does NOT move closer to Sirock. His FACE should occupy about 25 percent image height and be tack-sharp unobstructed below umbrella, 3/4 toward SCREEN RIGHT, wary knowing glance. Left frame edge a slim strip of tree; behind him blurred pale municipal building and autumn foliage. Lower frame may include defocused wet street edge to suggest separation. Modest raincoat slightly open over clean ivory shirt and small visible ivory lapel with canonical rectangular silver pin, human disguise not fantasy. One ordinary black umbrella overhead held by one hand, canopy upper frame, does NOT shadow face into invisibility. Soft cloudy daylight lights eyes and face clearly. Visible heavy rain outside canopy, droplets along rim. No soot, wings, halo, glowing eyes, Sirock nearby, extra people, text or collage. Cinematic realistic 16:9. The same recognizable canonical man, now readable rather than tiny distant figure.",
     "endFrameDescription": "",
@@ -47,11 +154,184 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 5,
       "source": "generated",
       "referenceKeys": [
         "character:aniol-wygnany",
         "shot:ze14-aniol-wie"
+      ],
+      "references": [
+        {
+          "sourceKey": "character:aniol-wygnany",
+          "key": "character:aniol-wygnany",
+          "type": "character",
+          "id": "aniol-wygnany",
+          "name": "Anioł wygnany",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/aniol-wygnany.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ze14-aniol-wie",
+          "key": "shot:zlote-emoji-14/ze14-aniol-wie",
+          "type": "shot",
+          "id": "ze14-aniol-wie",
+          "name": "09 — Anioł wie",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-aniol-wie.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-27T00:13:28.045958+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "note:aniol-osmalony-ze12",
+            "place:lazy-kts-spoldzielcza-2",
+            "note:movie-shot"
+          ],
+          "references": [
+            {
+              "sourceKey": "note:aniol-osmalony-ze12",
+              "key": "note:aniol-osmalony-ze12",
+              "type": "note",
+              "id": "aniol-osmalony-ze12",
+              "name": "Anioł ZE12 — stan po osmaleniu",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/aniol-osmalony-ze12.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:lazy-kts-spoldzielcza-2",
+              "key": "place:lazy-kts-spoldzielcza-2",
+              "type": "place",
+              "id": "lazy-kts-spoldzielcza-2",
+              "name": "Łazy — KTS, Spółdzielcza 2",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lazy-kts-spoldzielcza-2.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "note:movie-shot",
+              "key": "note:movie-shot",
+              "type": "note",
+              "id": "movie-shot",
+              "name": "Movie",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/movie-shot.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-09-27T00:49:14.302685+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:aniol-wygnany",
+            "place:lazy-kts-spoldzielcza-2"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:aniol-wygnany",
+              "key": "character:aniol-wygnany",
+              "type": "character",
+              "id": "aniol-wygnany",
+              "name": "Anioł wygnany",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/aniol-wygnany.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:lazy-kts-spoldzielcza-2",
+              "key": "place:lazy-kts-spoldzielcza-2",
+              "type": "place",
+              "id": "lazy-kts-spoldzielcza-2",
+              "name": "Łazy — KTS, Spółdzielcza 2",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lazy-kts-spoldzielcza-2.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 3,
+          "createdAt": "2026-09-27T10:08:14.710729+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze14-aniol-wie",
+            "shot:seed"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze14-aniol-wie",
+              "key": "shot:zlote-emoji-14/ze14-aniol-wie",
+              "type": "shot",
+              "id": "ze14-aniol-wie",
+              "name": "09 — Anioł wie",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-aniol-wie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:seed",
+              "key": "shot:zlote-emoji-14/seed",
+              "type": "shot",
+              "id": "seed",
+              "name": "01 — Pusty Dom Kultury",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/seed.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 4,
+          "createdAt": "2026-09-27T11:01:43.901368+00:00",
+          "source": "generated",
+          "referenceKeys": [],
+          "references": [],
+          "sourceReference": null
+        },
+        {
+          "revision": 5,
+          "createdAt": "2026-09-27T11:13:39.154629+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:aniol-wygnany",
+            "shot:ze14-aniol-wie"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:aniol-wygnany",
+              "key": "character:aniol-wygnany",
+              "type": "character",
+              "id": "aniol-wygnany",
+              "name": "Anioł wygnany",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/aniol-wygnany.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ze14-aniol-wie",
+              "key": "shot:zlote-emoji-14/ze14-aniol-wie",
+              "type": "shot",
+              "id": "ze14-aniol-wie",
+              "name": "09 — Anioł wie",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-aniol-wie.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-aniol-wie/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-aniol-wie/frame-start-thumb.webp",

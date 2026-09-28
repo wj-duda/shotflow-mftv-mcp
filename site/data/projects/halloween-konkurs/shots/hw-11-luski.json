@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:halloween-konkurs/hw-11-luski",
@@ -9,7 +9,26 @@
   "description": "Gotowy Start Frame 1080×1920. Bez take’a. Planowany montaż: 13.25–14 s; 18 klatek / 24 fps. Planowany take: 3 s, wykorzystanie od początku. Mikroprzebitka przy butach Zosi. Kilka łusek z poprzedniej serii odbija się od parkietu. Bez twarzy i bez nowej czynności bohaterki. Eliptyczna wstawka z końcówki strzelania; montaż nie wymaga dodatkowego strzału. Kamera: Nieruchomy detal podłogi; cięcie na metaliczny akcent. Dialog do osobnego nagrania: brak. Start Frame wygenerowany wbudowanym generatorem i zweryfikowany. Animacja bez natywnego audio; wypowiedzi, lipsync i SFX opracować osobno. Wstawiono na V1 timeline: sekwencja 25 sekund, 24 fps. ",
   "project": {
     "id": "halloween-konkurs",
-    "name": "Halloween Konkurs"
+    "key": "project:halloween-konkurs",
+    "name": "Halloween Konkurs",
+    "createdAt": "2026-09-20T15:29:11.720Z"
+  },
+  "chronology": {
+    "projectKey": "project:halloween-konkurs",
+    "projectCreatedAt": "2026-09-20T15:29:11.720Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 14,
+    "lastSequence": 14,
+    "occurrences": [
+      14
+    ],
+    "sequenceTotal": 25,
+    "uniqueShotCount": 21,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -17,6 +36,43 @@
       "id": "hw-08-zosia-wejscie"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:hw-08-zosia-wejscie",
+        "key": "shot:halloween-konkurs/hw-08-zosia-wejscie",
+        "type": "shot",
+        "id": "hw-08-zosia-wejscie",
+        "name": "08 — Wejście Zosi z korytarza",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-08-zosia-wejscie.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:hw-08-zosia-wejscie"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:hw-08-zosia-wejscie",
+            "key": "shot:halloween-konkurs/hw-08-zosia-wejscie",
+            "type": "shot",
+            "id": "hw-08-zosia-wejscie",
+            "name": "08 — Wejście Zosi z korytarza",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-08-zosia-wejscie.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Single photorealistic vertical 9:16 cinematic INSERT, camera almost on parquet floor. Reference supplies exact worn black lace-up boot, black jean cuff, warm herringbone parquet and hallway doorway lighting. Very close shot of just ONE Zosia black boot in upper left third, planted on same floor, jeans cut off above ankle. Exactly THREE small realistic empty brass spent rifle cartridge CASES (hollow cases, NO bullets attached) caught tumbling a few centimetres above parquet foreground, each separately visible and correctly small relative to boot. Floor in crisp focus beneath casings, warm lamp reflections, cool subtle edge light, shallow background. No face, rifle, other shoes or persons. Cinematic photographic freeze of tiny descending objects, no long motion trails. No blood, text, logos, watermark, collage. This is a brief low detail cut within the same action, preserve location materials, not studio.",
     "endFrameDescription": "",
@@ -31,10 +87,47 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 1,
       "source": "generated",
       "referenceKeys": [
         "shot:hw-08-zosia-wejscie"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:hw-08-zosia-wejscie",
+          "key": "shot:halloween-konkurs/hw-08-zosia-wejscie",
+          "type": "shot",
+          "id": "hw-08-zosia-wejscie",
+          "name": "08 — Wejście Zosi z korytarza",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-08-zosia-wejscie.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-20T15:48:08.579457+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:hw-08-zosia-wejscie"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:hw-08-zosia-wejscie",
+              "key": "shot:halloween-konkurs/hw-08-zosia-wejscie",
+              "type": "shot",
+              "id": "hw-08-zosia-wejscie",
+              "name": "08 — Wejście Zosi z korytarza",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-08-zosia-wejscie.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-11-luski/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-11-luski/frame-start-thumb.webp",

@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-13/ze13-10-pieniadze-z-portfela",
@@ -9,7 +9,24 @@
   "description": "Poza timeline’em wersji 42 s. Zachowany projekt wcześniejszego wariantu. Detal dłoni. Po eliptycznym cięciu portfel jest już otwarty; Halinka wyciąga jeden złożony banknot. Telefon leży ekranem do dołu. Nie pokazujemy czytelnego nominału. Etap projektu: zaprojektowany placeholder; Start Frame i take nie zostały wygenerowane.",
   "project": {
     "id": "zlote-emoji-13",
-    "name": "Złote Emoji #13"
+    "key": "project:zlote-emoji-13",
+    "name": "Złote Emoji #13",
+    "createdAt": "2026-09-19T00:38:20.615Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-13",
+    "projectCreatedAt": "2026-09-19T00:38:20.615Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": false,
+    "canonicalEvent": false,
+    "sequence": null,
+    "lastSequence": null,
+    "occurrences": [],
+    "sequenceTotal": 11,
+    "uniqueShotCount": 10,
+    "sequenceOrder": null,
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This project material is not present on the saved timeline, so it must not override canonical timeline events by date alone."
   },
   "references": [
     {
@@ -21,6 +38,32 @@
       "id": "halinka"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:ze13-09-halinka-wylacza",
+        "key": "shot:zlote-emoji-13/ze13-09-halinka-wylacza",
+        "type": "shot",
+        "id": "ze13-09-halinka-wylacza",
+        "name": "ZE13 08 — samodzielne rozpoznanie",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-13/shots/ze13-09-halinka-wylacza.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:halinka",
+        "key": "character:halinka",
+        "type": "character",
+        "id": "halinka",
+        "name": "Halinka",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Create exactly one photorealistic cinematic 16:9 START FRAME, target 1920x1080. Natural diffuse daylight through the missing roof, restrained 35mm texture, real skin and materials. Mandatory references in attachment order:\nImage 1: shot:ze13-09-halinka-wylacza, established scene geography, props, light and costume continuity; change the framing/action only as specified below.\nImages 2 and 3: character:halinka, exact facial identity and full-body wardrobe/proportions. Reference-sheet labels and white studio backgrounds are not scene elements.\n\nClose tabletop insert, no faces. Same table patch as ze13-09, black phone screen DOWN and sage saucer fixed farther back. One small burgundy leather wallet is NOW OPEN after an elliptical cut. Halinka’s LEFT hand holds it steady; RIGHT thumb and index finger already grip the exposed edge of ONE folded banknote inside. Burgundy sleeves, natural hands, clear separation of fingers. Most of the note is concealed by folding and grip; no legible amount is required. No new cash pile, coins or payment terminal.\nKeep the hall roofless and ruined. Preserve all existing visible source lettering and logos on included scene objects; do not transplant reference-sheet annotations. No added people, repaired roof, supernatural light, oversized smoke, illustration, captions, watermark, montage or malformed anatomy. Mouths rest naturally before dialogue. No End Frame is required.",
     "endFrameDescription": "",

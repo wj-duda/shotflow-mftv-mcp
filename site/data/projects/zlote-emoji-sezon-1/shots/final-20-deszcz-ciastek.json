@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-sezon-1/final-20-deszcz-ciastek",
@@ -9,7 +9,26 @@
   "description": "Po zniknięciu floty K20 nadmiernie dosłownie realizuje wspólny obraz i zsyła nad ruinę deszcz Delicji.",
   "project": {
     "id": "zlote-emoji-sezon-1",
-    "name": "Złote Emoji Sezon #1"
+    "key": "project:zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1",
+    "createdAt": "2026-08-17T13:42:01.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-sezon-1",
+    "projectCreatedAt": "2026-08-17T13:42:01.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 56,
+    "lastSequence": 56,
+    "occurrences": [
+      56
+    ],
+    "sequenceTotal": 69,
+    "uniqueShotCount": 69,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -45,6 +64,179 @@
       "id": "halinka"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "place:dom-kultury-ruina-po-belicosie",
+        "key": "place:dom-kultury-ruina-po-belicosie",
+        "type": "place",
+        "id": "dom-kultury-ruina-po-belicosie",
+        "name": "Dom Kultury — ruina po Belicosie",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-ruina-po-belicosie.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:delicja-pomaranczowa",
+        "key": "prop:delicja-pomaranczowa",
+        "type": "prop",
+        "id": "delicja-pomaranczowa",
+        "name": "Delicja pomarańczowa",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/delicja-pomaranczowa.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:grimskald",
+        "key": "character:grimskald",
+        "type": "character",
+        "id": "grimskald",
+        "name": "Pan Dariusz",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:marianna",
+        "key": "character:marianna",
+        "type": "character",
+        "id": "marianna",
+        "name": "Marianna \"Mańka\"",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/marianna.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:marcel",
+        "key": "character:marcel",
+        "type": "character",
+        "id": "marcel",
+        "name": "Marcel",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/marcel.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:filip-koza",
+        "key": "character:filip-koza",
+        "type": "character",
+        "id": "filip-koza",
+        "name": "Filip",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/filip-koza.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:czeslaw",
+        "key": "character:czeslaw",
+        "type": "character",
+        "id": "czeslaw",
+        "name": "Czesław",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:halinka",
+        "key": "character:halinka",
+        "type": "character",
+        "id": "halinka",
+        "name": "Halinka",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 5,
+        "referenceKeys": [
+          "self:final-20-deszcz-ciastek",
+          "character:grimskald",
+          "character:marianna",
+          "character:marcel",
+          "character:filip-koza",
+          "character:czeslaw",
+          "character:halinka"
+        ],
+        "references": [
+          {
+            "sourceKey": "self:final-20-deszcz-ciastek",
+            "key": "shot:zlote-emoji-sezon-1/final-20-deszcz-ciastek",
+            "type": "shot",
+            "id": "final-20-deszcz-ciastek",
+            "name": "Final 20 — Deszcz ciastek",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-20-deszcz-ciastek.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:grimskald",
+            "key": "character:grimskald",
+            "type": "character",
+            "id": "grimskald",
+            "name": "Pan Dariusz",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:marianna",
+            "key": "character:marianna",
+            "type": "character",
+            "id": "marianna",
+            "name": "Marianna \"Mańka\"",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/marianna.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:marcel",
+            "key": "character:marcel",
+            "type": "character",
+            "id": "marcel",
+            "name": "Marcel",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/marcel.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:filip-koza",
+            "key": "character:filip-koza",
+            "type": "character",
+            "id": "filip-koza",
+            "name": "Filip",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/filip-koza.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:czeslaw",
+            "key": "character:czeslaw",
+            "type": "character",
+            "id": "czeslaw",
+            "name": "Czesław",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:halinka",
+            "key": "character:halinka",
+            "type": "character",
+            "id": "halinka",
+            "name": "Halinka",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Two-pass likeness correction. First pass used the active final-20 frame plus only the canonical full-body silhouettes of Dariusz, Mańka and Marcel, correcting the three leftmost people while locking the rest of the image. Second pass used that corrected intermediate frame plus only the canonical full-body silhouettes of Filip, Czesław and Halinka, correcting the three rightmost people while locking the corrected left trio.\n\nFinal-pass prompt:\n\nUse case: identity-preserve\nAsset type: second and final likeness-correction pass for the cinematic final-20 Start Frame, landscape 16:9\n\nInput mapping:\n- Image 1 is the exact edit target. It already contains the corrected Dariusz, Mańka and Marcel as the three leftmost people; those corrections are final and must remain unchanged.\n- Image 2 is the mandatory full-body silhouette reference for Filip \"Koza\".\n- Image 3 is the mandatory full-body silhouette reference for Czesław.\n- Image 4 is the mandatory full-body silhouette reference for Halinka.\n\nCorrect ONLY the likeness, body proportions and canonical wardrobe of the THREE RIGHTMOST people in the six-person line at the bottom of Image 1, one by one:\n1. FOURTH FROM LEFT = Filip \"Koza\". Make him unmistakably Image 2: young, very slim and slightly hunched with long limbs, olive skin, narrow oblong youthful face, messy wavy black hair, prominent ears, dark fantasy graphic T-shirt under a worn black zip hoodie, dark narrow jeans and worn shoes. Preserve his exact existing spot, upward gaze and stance.\n2. FIFTH FROM LEFT = Czesław. Make him unmistakably Image 3: approximately 171 cm, average straight build, tired middle-aged face, short unruly curly black hair, rectangular dark glasses, stubble, rumpled dark suit, wrinkled beige shirt and loose dark tie. Preserve his exact existing spot, open-handed upward-looking pose and stance. Do not add a helmet in this shot.\n3. RIGHTMOST = Halinka. Make her unmistakably Image 4: short, approximately 162 cm, warm round mature face, copper-red curly updo with loose strands, brown eyes, short pear-shaped build, red textured cardigan over a subtly sparkling black top, loose black trousers, layered gold necklaces and earrings. Preserve her exact existing spot, upward gaze and stance.\n\nThe supplied silhouettes are identity and full-body proportion authorities. Match recognizable faces, height relationships, builds, hair, glasses, jewelry and clothing; adapt only wetness, rain, night lighting and the existing upward-looking expressions.\n\nHARD LOCK: Do not alter the three leftmost corrected people at all — Dariusz, Mańka and Marcel must remain exactly as in Image 1. Do not move, add, delete or reorder anyone. Preserve all six poses, spacing, scale in perspective and occlusion.\n\nPreserve every Delicja exactly as in Image 1: one pale sponge base and smooth chocolate cap, no Oreo structure, same count, position, scale and motion blur. Preserve the ruined Dom Kultury, collapsed Belicosa, rubble, banner text \"Finał Złotego Emoji Tygodnia\", sign \"DOM KULTURY\", windows, rain, lighting, camera and framing exactly.\n\nAvoid: generic or blended faces; swapping identities; changing the wrong person; duplicated person; extra limbs; malformed hands; altered left trio; helmet on Czesław; Oreo cookies; changed biscuits; changed building or cannon; repaired damage; new text; subtitle; watermark; collage or split screen.\n",
     "endFrameDescription": "",
@@ -59,6 +251,7 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 5,
       "source": "generated",
       "referenceKeys": [
@@ -69,6 +262,395 @@
         "character:filip-koza",
         "character:czeslaw",
         "character:halinka"
+      ],
+      "references": [
+        {
+          "sourceKey": "self:final-20-deszcz-ciastek",
+          "key": "shot:zlote-emoji-sezon-1/final-20-deszcz-ciastek",
+          "type": "shot",
+          "id": "final-20-deszcz-ciastek",
+          "name": "Final 20 — Deszcz ciastek",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-20-deszcz-ciastek.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:grimskald",
+          "key": "character:grimskald",
+          "type": "character",
+          "id": "grimskald",
+          "name": "Pan Dariusz",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:marianna",
+          "key": "character:marianna",
+          "type": "character",
+          "id": "marianna",
+          "name": "Marianna \"Mańka\"",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/marianna.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:marcel",
+          "key": "character:marcel",
+          "type": "character",
+          "id": "marcel",
+          "name": "Marcel",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/marcel.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:filip-koza",
+          "key": "character:filip-koza",
+          "type": "character",
+          "id": "filip-koza",
+          "name": "Filip",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/filip-koza.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:czeslaw",
+          "key": "character:czeslaw",
+          "type": "character",
+          "id": "czeslaw",
+          "name": "Czesław",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:halinka",
+          "key": "character:halinka",
+          "type": "character",
+          "id": "halinka",
+          "name": "Halinka",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-20T02:03:27+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "place:dom-kultury-ruina-po-belicosie",
+            "prop:ciastko-czarne-z-bialym-kremem",
+            "shot:final-02-dariusz-rozpoznaje-flote",
+            "character:czeslaw",
+            "character:halinka"
+          ],
+          "references": [
+            {
+              "sourceKey": "place:dom-kultury-ruina-po-belicosie",
+              "key": "place:dom-kultury-ruina-po-belicosie",
+              "type": "place",
+              "id": "dom-kultury-ruina-po-belicosie",
+              "name": "Dom Kultury — ruina po Belicosie",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-ruina-po-belicosie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:ciastko-czarne-z-bialym-kremem",
+              "key": "prop:ciastko-czarne-z-bialym-kremem",
+              "type": "prop",
+              "id": "ciastko-czarne-z-bialym-kremem",
+              "name": "Czarne ciastko z białym kremem",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/ciastko-czarne-z-bialym-kremem.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:final-02-dariusz-rozpoznaje-flote",
+              "key": "shot:zlote-emoji-sezon-1/final-02-dariusz-rozpoznaje-flote",
+              "type": "shot",
+              "id": "final-02-dariusz-rozpoznaje-flote",
+              "name": "Final 02 Klub obmyśla obronę",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-02-dariusz-rozpoznaje-flote.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:czeslaw",
+              "key": "character:czeslaw",
+              "type": "character",
+              "id": "czeslaw",
+              "name": "Czesław",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:halinka",
+              "key": "character:halinka",
+              "type": "character",
+              "id": "halinka",
+              "name": "Halinka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-08-20T06:54:06.1170419+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "place:dom-kultury-ruina-po-belicosie",
+            "prop:ciastko-czarne-z-bialym-kremem",
+            "character:grimskald",
+            "character:marianna",
+            "character:marcel",
+            "character:filip-koza",
+            "character:czeslaw",
+            "character:halinka"
+          ],
+          "references": [
+            {
+              "sourceKey": "place:dom-kultury-ruina-po-belicosie",
+              "key": "place:dom-kultury-ruina-po-belicosie",
+              "type": "place",
+              "id": "dom-kultury-ruina-po-belicosie",
+              "name": "Dom Kultury — ruina po Belicosie",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-ruina-po-belicosie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:ciastko-czarne-z-bialym-kremem",
+              "key": "prop:ciastko-czarne-z-bialym-kremem",
+              "type": "prop",
+              "id": "ciastko-czarne-z-bialym-kremem",
+              "name": "Czarne ciastko z białym kremem",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/ciastko-czarne-z-bialym-kremem.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:grimskald",
+              "key": "character:grimskald",
+              "type": "character",
+              "id": "grimskald",
+              "name": "Pan Dariusz",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:marianna",
+              "key": "character:marianna",
+              "type": "character",
+              "id": "marianna",
+              "name": "Marianna \"Mańka\"",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/marianna.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:marcel",
+              "key": "character:marcel",
+              "type": "character",
+              "id": "marcel",
+              "name": "Marcel",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/marcel.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:filip-koza",
+              "key": "character:filip-koza",
+              "type": "character",
+              "id": "filip-koza",
+              "name": "Filip",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/filip-koza.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:czeslaw",
+              "key": "character:czeslaw",
+              "type": "character",
+              "id": "czeslaw",
+              "name": "Czesław",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:halinka",
+              "key": "character:halinka",
+              "type": "character",
+              "id": "halinka",
+              "name": "Halinka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 3,
+          "createdAt": "2026-08-21T12:53:14+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "self:final-20-deszcz-ciastek",
+            "prop:delicja-pomaranczowa"
+          ],
+          "references": [
+            {
+              "sourceKey": "self:final-20-deszcz-ciastek",
+              "key": "shot:zlote-emoji-sezon-1/final-20-deszcz-ciastek",
+              "type": "shot",
+              "id": "final-20-deszcz-ciastek",
+              "name": "Final 20 — Deszcz ciastek",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-20-deszcz-ciastek.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:delicja-pomaranczowa",
+              "key": "prop:delicja-pomaranczowa",
+              "type": "prop",
+              "id": "delicja-pomaranczowa",
+              "name": "Delicja pomarańczowa",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/delicja-pomaranczowa.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 4,
+          "createdAt": "2026-08-21T17:45:30+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "self:final-20-deszcz-ciastek",
+            "prop:delicja-pomaranczowa"
+          ],
+          "references": [
+            {
+              "sourceKey": "self:final-20-deszcz-ciastek",
+              "key": "shot:zlote-emoji-sezon-1/final-20-deszcz-ciastek",
+              "type": "shot",
+              "id": "final-20-deszcz-ciastek",
+              "name": "Final 20 — Deszcz ciastek",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-20-deszcz-ciastek.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:delicja-pomaranczowa",
+              "key": "prop:delicja-pomaranczowa",
+              "type": "prop",
+              "id": "delicja-pomaranczowa",
+              "name": "Delicja pomarańczowa",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/delicja-pomaranczowa.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 5,
+          "createdAt": "2026-08-21T18:04:36+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "self:final-20-deszcz-ciastek",
+            "character:grimskald",
+            "character:marianna",
+            "character:marcel",
+            "character:filip-koza",
+            "character:czeslaw",
+            "character:halinka"
+          ],
+          "references": [
+            {
+              "sourceKey": "self:final-20-deszcz-ciastek",
+              "key": "shot:zlote-emoji-sezon-1/final-20-deszcz-ciastek",
+              "type": "shot",
+              "id": "final-20-deszcz-ciastek",
+              "name": "Final 20 — Deszcz ciastek",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-20-deszcz-ciastek.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:grimskald",
+              "key": "character:grimskald",
+              "type": "character",
+              "id": "grimskald",
+              "name": "Pan Dariusz",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:marianna",
+              "key": "character:marianna",
+              "type": "character",
+              "id": "marianna",
+              "name": "Marianna \"Mańka\"",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/marianna.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:marcel",
+              "key": "character:marcel",
+              "type": "character",
+              "id": "marcel",
+              "name": "Marcel",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/marcel.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:filip-koza",
+              "key": "character:filip-koza",
+              "type": "character",
+              "id": "filip-koza",
+              "name": "Filip",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/filip-koza.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:czeslaw",
+              "key": "character:czeslaw",
+              "type": "character",
+              "id": "czeslaw",
+              "name": "Czesław",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:halinka",
+              "key": "character:halinka",
+              "type": "character",
+              "id": "halinka",
+              "name": "Halinka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-20-deszcz-ciastek/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-20-deszcz-ciastek/frame-start-thumb.webp",

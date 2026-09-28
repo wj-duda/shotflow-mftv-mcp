@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "type": "places",
   "label": "Miejsca",
@@ -14,7 +14,8 @@
       "summary": "Kanoniczny dach sąsiedniego bloku, na którym Mistrz Końca odprawia rytuał przywołania Dzieci Gwiazd. Jest to wysoki dach starego bloku mieszkalnego stojącego bezpośrednio obok niższego Domu Kultury. Mokra papa, betonowa nadbudówka z ciemnym wejściem, anteny, przewody, kominiki i…",
       "imageCount": 1,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/dach-bloku-dzieci-gwiazd/image-001-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dach-bloku-dzieci-gwiazd.json"
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dach-bloku-dzieci-gwiazd.json",
+      "updatedAt": "2026-08-18T00:25:28Z"
     },
     {
       "key": "place:dach-domu-kultury",
@@ -25,7 +26,8 @@
       "summary": "Kanoniczny dach starego Domu Kultury używany w finale sezonu 1. Kamera znajduje się wysoko nad placem przed głównym wejściem, lekko po frontowej lewej stronie budynku, i patrzy w dół ku jego tyłowi. Dolna krawędź referencji zawsze oznacza FRONT i plac; górna krawędź zawsze oznac…",
       "imageCount": 1,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/dach-domu-kultury/image-002-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dach-domu-kultury.json"
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dach-domu-kultury.json",
+      "updatedAt": "2026-08-19T08:30:00+02:00"
     },
     {
       "key": "place:dach-domu-kultury-obrona",
@@ -36,7 +38,8 @@
       "summary": "Kanoniczny stan dachu Domu Kultury po pełnej materializacji Belicosy, przed przegrzaniem i zawaleniem. Kamera, fasada, wejście, baner, głośnik, antena satelitarna, attyki, nadbudówka, kominy, wywietrzniki, mokra papa i panorama są identyczne jak w place:dach-domu-kultury. Dolna…",
       "imageCount": 1,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/dach-domu-kultury-obrona/image-003-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dach-domu-kultury-obrona.json"
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dach-domu-kultury-obrona.json",
+      "updatedAt": "2026-08-19T08:30:00+02:00"
     },
     {
       "key": "place:dom-kultury",
@@ -47,7 +50,8 @@
       "summary": "Plan domu kultury i rozmieszczenie krzesłek, sceny oraz postaci w momencie Złotego Emoji",
       "imageCount": 1,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/dom-kultury/image-001-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury.json"
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury.json",
+      "updatedAt": "2026-08-01T15:31:02.3328199+00:00"
     },
     {
       "key": "place:dom-kultury-ruina-po-belicosie",
@@ -58,7 +62,8 @@
       "summary": "Kanoniczny stan Domu Kultury po trzech strzałach i przeciążeniu Belicosy. To dokładnie ten sam front budynku, kamera i dach co w place:dach-domu-kultury-obrona. Dolna krawędź kadru pozostaje FRONTEM z głównym wejściem i placem, górna krawędź pozostaje TYŁEM. Zielona nadbudówka s…",
       "imageCount": 1,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/dom-kultury-ruina-po-belicosie/image-003-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-ruina-po-belicosie.json"
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-ruina-po-belicosie.json",
+      "updatedAt": "2026-08-19T08:30:00+02:00"
     },
     {
       "key": "place:iquitos-dzungla",
@@ -69,7 +74,8 @@
       "summary": "DRAFT / research prologu. Gęsty, wilgotny las amazoński pod Iquitos: wąska ścieżka, wielopiętrowa zieleń, splątane liany, miękkie światło przebijające przez koronę drzew i ograniczona widoczność. Referencja dla odnalezienia artefaktu K20 przez Van Sabe; postać na zdjęciu nie jes…",
       "imageCount": 1,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/iquitos-dzungla/image-001-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/iquitos-dzungla.json"
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/iquitos-dzungla.json",
+      "updatedAt": "2026-08-17T15:21:20+02:00"
     },
     {
       "key": "place:iquitos-ulica-noc",
@@ -80,7 +86,8 @@
       "summary": "DRAFT / research prologu. Ruchliwa nocna ulica Iquitos: ciepłe latarnie, ciemne niebo, małe jaskrawe sklepy, motocykle i charakterystyczne mototaksówki. Może służyć jako krótki establishing shot lub przejście między pokojem hotelowym a pocztą, podkreślające realne miasto bez dok…",
       "imageCount": 1,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/iquitos-ulica-noc/image-001-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/iquitos-ulica-noc.json"
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/iquitos-ulica-noc.json",
+      "updatedAt": "2026-08-17T15:21:20+02:00"
     },
     {
       "key": "place:iquitos-poczta-serpost",
@@ -91,7 +98,8 @@
       "summary": "DRAFT / research prologu. Zwyczajna peruwiańska placówka pocztowa, w której przerażony i nerwowy Van Sabe stoi w kolejce z paczką zawierającą K20. Image-001 pokazuje autentyczną fasadę oddziału Serpost w Iquitos: kraty, niebiesko-czerwone barwy i duży szyld. Image-002 pokazuje t…",
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/iquitos-poczta-serpost/image-001-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/iquitos-poczta-serpost.json"
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/iquitos-poczta-serpost.json",
+      "updatedAt": "2026-08-17T15:21:20+02:00"
     },
     {
       "key": "place:iquitos-tani-pensjonat-belen",
@@ -102,7 +110,8 @@
       "summary": "DRAFT / research prologu. Fikcyjny, tani i anonimowy pensjonat w górnej części dzielnicy Belén, w którym Van Sabe ukrywa się po odnalezieniu K20. To nie luksus: wąski pokój z białymi, lekko zużytymi ścianami, prostym drewnianym łóżkiem, płytkami, małym metalowym stolikiem, tabor…",
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/iquitos-tani-pensjonat-belen/image-001-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/iquitos-tani-pensjonat-belen.json"
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/iquitos-tani-pensjonat-belen.json",
+      "updatedAt": "2026-08-17T15:32:27+02:00"
     },
     {
       "key": "place:kanciapa",
@@ -113,7 +122,8 @@
       "summary": "mały pokój w domu kultury",
       "imageCount": 1,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/kanciapa/image-001-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/kanciapa.json"
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/kanciapa.json",
+      "updatedAt": "2026-08-01T15:31:02.3328199+00:00"
     },
     {
       "key": "place:klub-kanapa-po-imprezie",
@@ -124,7 +134,8 @@
       "summary": "Kanoniczna lokacja cutsceny Złotego Emoji Tygodnia #10, zaczerpnięta bezpośrednio z końcówki klipu Mai i LAIdy Pipy. W centrum stoi szeroka, mocno zużyta czerwonobrązowa skórzana kanapa z grubymi podłokietnikami. Za nią znajduje się niewielka klubowa scena: czarna kurtyna, czerw…",
       "imageCount": 1,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/klub-kanapa-po-imprezie/image-001-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/klub-kanapa-po-imprezie.json"
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/klub-kanapa-po-imprezie.json",
+      "updatedAt": "2026-08-23T01:10:42+02:00"
     },
     {
       "key": "place:klub-fantastyki",
@@ -135,7 +146,8 @@
       "summary": "Klub fantastyki w domu kultury, Klub fantastyki mieści się w dzikiej, półlegalnej PRL-owskiej nadbudówce nad bocznym skrzydłem domu kultury. To niskie, prowizorycznie zaadaptowane pomieszczenie z belkami, rurami, małymi oknami od tyłu i wejściem po wąskich schodach z zaplecza. O…",
       "imageCount": 1,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/klub-fantastyki/image-001-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/klub-fantastyki.json"
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/klub-fantastyki.json",
+      "updatedAt": "2026-08-01T15:31:02.3328199+00:00"
     },
     {
       "key": "place:komis-rtv",
@@ -146,7 +158,8 @@
       "summary": "Małomiasteczkowy polski komis używanej elektroniki i osobliwości, prowadzony przez character:komisant. Ciasny lokal w zaadaptowanym parterze: nikotynowokremowe i sprane zielone ściany, jarzeniówki, kraty w bocznym oknie, tanie regały, plątanina przedłużaczy i niska porysowana sz…",
       "imageCount": 1,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/komis-rtv/image-001-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/komis-rtv.json"
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/komis-rtv.json",
+      "updatedAt": "2026-09-27T13:13:52+02:00"
     },
     {
       "key": "place:komisja-zlote-emoji-tygodnia",
@@ -157,7 +170,8 @@
       "summary": "Stolik w domu kultury stoją przy nim Halinka i Czesław w dniu rozdania Złotego Emoji Tygodnia",
       "imageCount": 1,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/komisja-zlote-emoji-tygodnia/image-001-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/komisja-zlote-emoji-tygodnia.json"
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/komisja-zlote-emoji-tygodnia.json",
+      "updatedAt": "2026-08-01T21:34:51.0366827+00:00"
     },
     {
       "key": "place:lokal-zastepczy-domu-kultury",
@@ -168,7 +182,8 @@
       "summary": "Lokal zastępczy Domu Kultury w Łazach, poza zniszczonym Domem Kultury. Źródło istniejącego kanonu: note:czeslaw-lokal-zastepczy-ze12 oraz Start Frame shota ze12-03-telefon-czeslawa w projekcie zlote-emoji-12. Czesław dojeżdża stąd do Domu Kultury rowerem. Dokładny adres i odległ…",
       "imageCount": 1,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/lokal-zastepczy-domu-kultury/image-001-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lokal-zastepczy-domu-kultury.json"
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lokal-zastepczy-domu-kultury.json",
+      "updatedAt": "2026-09-21T23:53:55.011738+00:00"
     },
     {
       "key": "place:lazy",
@@ -179,7 +194,8 @@
       "summary": "To są realne Łazy w województwie śląskim — małe miasto o spokojnym, lekko melancholijnym klimacie, wyrastające wokół swojej kolejowej tożsamości. W panoramie najmocniej wybijają się tory i infrastruktura stacyjna, które nadają temu miejscu rytm i charakter, a także kościół domin…",
       "imageCount": 1,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/lazy/image-001-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lazy.json"
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lazy.json",
+      "updatedAt": "2026-08-03T12:01:18.061391+00:00"
     },
     {
       "key": "place:lazy-kts-spoldzielcza-2",
@@ -190,7 +206,8 @@
       "summary": "Rzeczywisty budynek KTS przy ul. Spółdzielczej 2, 42-450 Łazy, woj. śląskie, powiat zawierciański. Referencja prawdziwego miejskiego otoczenia dla lokalu zastępczego AI MFTV. Aktywny obraz jest autentyczną fotografią z serwisu Gminy Łazy: boczna jasna elewacja, dwa rzędy ciemnyc…",
       "imageCount": 1,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/lazy-kts-spoldzielcza-2/image-001-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lazy-kts-spoldzielcza-2.json"
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lazy-kts-spoldzielcza-2.json",
+      "updatedAt": "2026-09-22T00:25:23.267344+00:00"
     },
     {
       "key": "place:mala-lazienka",
@@ -201,7 +218,8 @@
       "summary": "Niewielka, ciasna i wyraźnie użytkowana łazienka. Jasne płytki ceramiczne, mała umywalka, lustro, półki oraz dużo codziennych drobiazgów: ręczniki, kosmetyki, środki czystości i kosz na pranie. Pomieszczenie jest zagracone, ale wiarygodne i funkcjonalne; wyposażenie lekko zużyte…",
       "imageCount": 0,
       "thumbnailUrl": null,
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/mala-lazienka.json"
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/mala-lazienka.json",
+      "updatedAt": "2026-08-02T12:00:00+02:00"
     },
     {
       "key": "place:mieszkanie-po-afterze",
@@ -212,7 +230,8 @@
       "summary": "Prywatne, zwyczajne mieszkanie po całonocnym afterze. Centrum salonu zajmuje szeroka ciemna kanapa, na której mogą spać dwie osoby. W tle widać mały aneks kuchenny i typowe wyposażenie niedużego wynajmowanego mieszkania. Poranek wpada przez częściowo zasłonięte okno, podczas gdy…",
       "imageCount": 1,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/mieszkanie-po-afterze/image-001-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/mieszkanie-po-afterze.json"
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/mieszkanie-po-afterze.json",
+      "updatedAt": "2026-08-23T01:22:00+02:00"
     },
     {
       "key": "place:dom-kultury-publika",
@@ -223,7 +242,8 @@
       "summary": "Publika domu kultury w momencie wręczania nagorody Złotego Emoji Tygodnia",
       "imageCount": 1,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/dom-kultury-publika/image-001-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-publika.json"
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-publika.json",
+      "updatedAt": "2026-08-01T18:31:16.4598891+00:00"
     },
     {
       "key": "place:dom-kultury-sala",
@@ -234,7 +254,8 @@
       "summary": "Sala Domu Kultury, tam odbywają się złote emoji, i jest ekran z rzutnikiem",
       "imageCount": 1,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/dom-kultury-sala/image-001-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-sala.json"
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-sala.json",
+      "updatedAt": "2026-08-01T15:31:02.3328199+00:00"
     },
     {
       "key": "place:pokoj-manki-i-marcela",
@@ -245,7 +266,8 @@
       "summary": "AKTUALNA KONCEPCJA v003 do rolki „Halloween Konkurs”: klasyczny rodzinny salon domu Mańki i Marcela, zamiast wcześniejszej sypialni. Zmiana na wyraźne życzenie autora. ID pokoj-manki-i-marcela zachowane dla ciągłości zasobu; nazwa i aktywny obraz przedstawiają salon. Parter domu…",
       "imageCount": 1,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/pokoj-manki-i-marcela/image-003-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/pokoj-manki-i-marcela.json"
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/pokoj-manki-i-marcela.json",
+      "updatedAt": "2026-09-20T14:59:53.864428+00:00"
     },
     {
       "key": "place:dom-kultury-wejscie",
@@ -256,7 +278,8 @@
       "summary": "Wejście do domu kltury w dniu złotego emoji, w inne dni nie ma tej szarfy oczywisćie",
       "imageCount": 1,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/dom-kultury-wejscie/image-001-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-wejscie.json"
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-wejscie.json",
+      "updatedAt": "2026-08-03T11:54:21.9253277+00:00"
     },
     {
       "key": "place:kanciapa-zniszczona",
@@ -267,7 +290,8 @@
       "summary": "Zniszczona kanciapa po tym jak klub fantastyki zarwał sufit w swojej sali magiczną D20",
       "imageCount": 1,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/kanciapa-zniszczona/image-001-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/kanciapa-zniszczona.json"
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/kanciapa-zniszczona.json",
+      "updatedAt": "2026-08-01T15:31:02.3328199+00:00"
     },
     {
       "key": "place:klub-fantastyki-zniszczony",
@@ -278,7 +302,8 @@
       "summary": "Sala klubu fantastyki po zarwaniu podłogi i przbicu sufitu do kanciapy Klub fantastyki w domu kultury, Klub fantastyki mieści się w dzikiej, półlegalnej PRL-owskiej nadbudówce nad bocznym skrzydłem domu kultury. To niskie, prowizorycznie zaadaptowane pomieszczenie z belkami, rur…",
       "imageCount": 1,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/klub-fantastyki-zniszczony/image-001-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/klub-fantastyki-zniszczony.json"
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/klub-fantastyki-zniszczony.json",
+      "updatedAt": "2026-08-01T15:31:02.3328199+00:00"
     }
   ]
 }

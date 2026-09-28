@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-10/ze10-pipa-zasypia",
@@ -9,7 +9,26 @@
   "description": "Twardy powrót do tego samego szerokiego planu mieszkania. Pipa przez ułamek sekundy patrzy na kompletnie nieprzytomną Maję, natychmiast uznaje sprawę za przegraną, zamyka oko i ciężko opada z powrotem na jej ramię. Maia nawet się nie budzi. Obie wracają niemal dokładnie do początkowego układu na kanapie, otoczone czytelnymi śladami afteru. Statyczne domknięcie pozwala na twarde cięcie do komisji nadal czekającej w Domu Kultury.",
   "project": {
     "id": "zlote-emoji-10",
-    "name": "Złote Emoji #10"
+    "key": "project:zlote-emoji-10",
+    "name": "Złote Emoji #10",
+    "createdAt": "2026-08-22T23:55:35.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-10",
+    "projectCreatedAt": "2026-08-22T23:55:35.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 7,
+    "lastSequence": 7,
+    "occurrences": [
+      7
+    ],
+    "sequenceTotal": 10,
+    "uniqueShotCount": 10,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -29,6 +48,106 @@
       "id": "mieszkanie-po-afterze"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:pipa-wake",
+        "key": "shot:zlote-emoji-10/pipa-wake",
+        "type": "shot",
+        "id": "pipa-wake",
+        "name": "Maja i Pipa po afterze",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-10/shots/pipa-wake.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze10-pipa-miala-jechac",
+        "key": "shot:zlote-emoji-10/ze10-pipa-miala-jechac",
+        "type": "shot",
+        "id": "ze10-pipa-miala-jechac",
+        "name": "Pipa: miałaś jechać",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-10/shots/ze10-pipa-miala-jechac.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze10-maia-nie-reaguje",
+        "key": "shot:zlote-emoji-10/ze10-maia-nie-reaguje",
+        "type": "shot",
+        "id": "ze10-maia-nie-reaguje",
+        "name": "Maia nie reaguje",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-10/shots/ze10-maia-nie-reaguje.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:mieszkanie-po-afterze",
+        "key": "place:mieszkanie-po-afterze",
+        "type": "place",
+        "id": "mieszkanie-po-afterze",
+        "name": "Mieszkanie po afterze",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/mieszkanie-po-afterze.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:pipa-wake",
+          "shot:ze10-pipa-miala-jechac",
+          "shot:ze10-maia-nie-reaguje",
+          "place:mieszkanie-po-afterze"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:pipa-wake",
+            "key": "shot:zlote-emoji-10/pipa-wake",
+            "type": "shot",
+            "id": "pipa-wake",
+            "name": "Maja i Pipa po afterze",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-10/shots/pipa-wake.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:ze10-pipa-miala-jechac",
+            "key": "shot:zlote-emoji-10/ze10-pipa-miala-jechac",
+            "type": "shot",
+            "id": "ze10-pipa-miala-jechac",
+            "name": "Pipa: miałaś jechać",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-10/shots/ze10-pipa-miala-jechac.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:ze10-maia-nie-reaguje",
+            "key": "shot:zlote-emoji-10/ze10-maia-nie-reaguje",
+            "type": "shot",
+            "id": "ze10-maia-nie-reaguje",
+            "name": "Maia nie reaguje",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-10/shots/ze10-maia-nie-reaguje.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "place:mieszkanie-po-afterze",
+            "key": "place:mieszkanie-po-afterze",
+            "type": "place",
+            "id": "mieszkanie-po-afterze",
+            "name": "Mieszkanie po afterze",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/mieszkanie-po-afterze.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Create a cinematic photorealistic 16:9 wide shot returning exactly to the composition of pipa-wake. Use that shot as the primary continuity reference, with LAIdy Pipa v2 and Maia Melodies v2 as mandatory identity references and the apartment-afterparty place for the set. Static eye-level view of the dark sofa centered in the ordinary apartment. Pipa remains on the left with one exhausted eye barely open, leaning against Maia. Maia remains asleep on the right. Keep the kitchenette, blinds, late-morning light, warm lamp, blankets, clothes, cups, takeaway boxes, balloons, confetti, tissues, glasses, generic bottles and lone high heel in the same believable positions. Preserve faces, hairstyles, proportions, outfits, screen positions and lighting. No new people, phone, nightclub, cleaned room, text, subtitles, logos, watermark or malformed anatomy.",
     "endFrameDescription": "",
@@ -43,6 +162,7 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 1,
       "source": "generated",
       "referenceKeys": [
@@ -50,6 +170,105 @@
         "shot:ze10-pipa-miala-jechac",
         "shot:ze10-maia-nie-reaguje",
         "place:mieszkanie-po-afterze"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:pipa-wake",
+          "key": "shot:zlote-emoji-10/pipa-wake",
+          "type": "shot",
+          "id": "pipa-wake",
+          "name": "Maja i Pipa po afterze",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-10/shots/pipa-wake.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ze10-pipa-miala-jechac",
+          "key": "shot:zlote-emoji-10/ze10-pipa-miala-jechac",
+          "type": "shot",
+          "id": "ze10-pipa-miala-jechac",
+          "name": "Pipa: miałaś jechać",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-10/shots/ze10-pipa-miala-jechac.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ze10-maia-nie-reaguje",
+          "key": "shot:zlote-emoji-10/ze10-maia-nie-reaguje",
+          "type": "shot",
+          "id": "ze10-maia-nie-reaguje",
+          "name": "Maia nie reaguje",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-10/shots/ze10-maia-nie-reaguje.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "place:mieszkanie-po-afterze",
+          "key": "place:mieszkanie-po-afterze",
+          "type": "place",
+          "id": "mieszkanie-po-afterze",
+          "name": "Mieszkanie po afterze",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/mieszkanie-po-afterze.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-23T01:55:35+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:pipa-wake",
+            "shot:ze10-pipa-miala-jechac",
+            "shot:ze10-maia-nie-reaguje",
+            "place:mieszkanie-po-afterze"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:pipa-wake",
+              "key": "shot:zlote-emoji-10/pipa-wake",
+              "type": "shot",
+              "id": "pipa-wake",
+              "name": "Maja i Pipa po afterze",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-10/shots/pipa-wake.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ze10-pipa-miala-jechac",
+              "key": "shot:zlote-emoji-10/ze10-pipa-miala-jechac",
+              "type": "shot",
+              "id": "ze10-pipa-miala-jechac",
+              "name": "Pipa: miałaś jechać",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-10/shots/ze10-pipa-miala-jechac.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ze10-maia-nie-reaguje",
+              "key": "shot:zlote-emoji-10/ze10-maia-nie-reaguje",
+              "type": "shot",
+              "id": "ze10-maia-nie-reaguje",
+              "name": "Maia nie reaguje",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-10/shots/ze10-maia-nie-reaguje.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:mieszkanie-po-afterze",
+              "key": "place:mieszkanie-po-afterze",
+              "type": "place",
+              "id": "mieszkanie-po-afterze",
+              "name": "Mieszkanie po afterze",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/mieszkanie-po-afterze.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-10/shots/ze10-pipa-zasypia/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-10/shots/ze10-pipa-zasypia/frame-start-thumb.webp",

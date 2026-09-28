@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-sezon-1/final-07b-czeslaw-zajmuje-platforme",
@@ -9,7 +9,26 @@
   "description": "Moment przejścia od klubowego planu do realnej walki. Czesław w autentycznym polskim hełmie wz. 31 wspina się na lewą platformę świeżo zmaterializowanej Belicosy, chwyta mokrą barierkę i zapina ciężką uprząż operatora. Nie pozuje przy dziale: wokół niego już trwa atak, dach drży od odległych uderzeń, wiatr niesie deszcz i pył, a ogromna lufa oraz mechanizmy przytłaczają zwykłego człowieka w pogniecionym garniturze.\n\nKadr ma zbudować fizyczny respekt przed bronią i pierwszy emocjonalny punkt Czesława: krótkie oszołomienie przechodzi w urzędniczą, niemal absurdalną determinację — skoro ktoś musi obsłużyć urządzenie, on bierze odpowiedzialność. Kamera znajduje się nisko i blisko platformy, w duchu ciężkich scen załogi pojazdu z Fury i ciasnoty Das Boot, ale Czesław nadal wygląda jak gospodarz Domu Kultury, nie zawodowy żołnierz. To ostatnia chwila przed pierwszą komendą i strzałem; auspex działa, lecz Belicosa jeszcze nie otworzyła ognia.",
   "project": {
     "id": "zlote-emoji-sezon-1",
-    "name": "Złote Emoji Sezon #1"
+    "key": "project:zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1",
+    "createdAt": "2026-08-17T13:42:01.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-sezon-1",
+    "projectCreatedAt": "2026-08-17T13:42:01.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 31,
+    "lastSequence": 31,
+    "occurrences": [
+      31
+    ],
+    "sequenceTotal": 69,
+    "uniqueShotCount": 69,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -33,6 +52,116 @@
       "id": "czeslaw"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "place:dach-domu-kultury",
+        "key": "place:dach-domu-kultury",
+        "type": "place",
+        "id": "dach-domu-kultury",
+        "name": "Dach Domu Kultury",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dach-domu-kultury.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:auspex-belicosy",
+        "key": "prop:auspex-belicosy",
+        "type": "prop",
+        "id": "auspex-belicosy",
+        "name": "Auspex Belicosy",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/auspex-belicosy.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:dach-domu-kultury-obrona",
+        "key": "place:dach-domu-kultury-obrona",
+        "type": "place",
+        "id": "dach-domu-kultury-obrona",
+        "name": "Dach Domu Kultury podczas obrony",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dach-domu-kultury-obrona.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:helm-czeslawa-wz31",
+        "key": "prop:helm-czeslawa-wz31",
+        "type": "prop",
+        "id": "helm-czeslawa-wz31",
+        "name": "Hełm Czesława wz.31",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/helm-czeslawa-wz31.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:czeslaw",
+        "key": "character:czeslaw",
+        "type": "character",
+        "id": "czeslaw",
+        "name": "Czesław",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "character:czeslaw",
+          "prop:helm-czeslawa-wz31",
+          "prop:belicosa",
+          "place:dach-domu-kultury-obrona"
+        ],
+        "references": [
+          {
+            "sourceKey": "character:czeslaw",
+            "key": "character:czeslaw",
+            "type": "character",
+            "id": "czeslaw",
+            "name": "Czesław",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:helm-czeslawa-wz31",
+            "key": "prop:helm-czeslawa-wz31",
+            "type": "prop",
+            "id": "helm-czeslawa-wz31",
+            "name": "Hełm Czesława wz.31",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/helm-czeslawa-wz31.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:belicosa",
+            "key": "prop:belicosa",
+            "type": "prop",
+            "id": "belicosa",
+            "name": "Belicosa",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/belicosa.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "place:dach-domu-kultury-obrona",
+            "key": "place:dach-domu-kultury-obrona",
+            "type": "place",
+            "id": "dach-domu-kultury-obrona",
+            "name": "Dach Domu Kultury podczas obrony",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dach-domu-kultury-obrona.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Photorealistic cinematic 16:9 Start Frame during an active rooftop attack. Low, close 28–35 mm camera beside the wet grated steps, slightly canted. Exact Czesław in his soaked rumpled civilian suit and authentic olive Polish wz. 31 helmet is caught mid-climb onto the left operator platform of the canonical Belicosa. One shoe is planted on a grated step, the other leg hauls his weight upward; one hand grips the wet waist rail while the other pulls the heavy unfastened leather safety belt toward him. His face changes from shock to duty: eyes wide behind rain-spattered glasses, mouth tense on a breath, attention fixed on the controls rather than the viewer. The enormous single-barrel Belicosa crowds the upper-right. Wind-driven rain, fine roof dust, tiny sparks and distant cold battle flashes create war-film immediacy. The gun has not fired yet: no muzzle flash, projectile, steam or overheating. Preserve exact identity, correct hands, one helmet, one barrel, one platform and the canonical auspex. No hero pose, military uniform, extra people or limbs, text, UI, logos or watermark.",
     "endFrameDescription": "",
@@ -47,6 +176,7 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 2,
       "source": "generated",
       "referenceKeys": [
@@ -54,6 +184,159 @@
         "prop:helm-czeslawa-wz31",
         "prop:belicosa",
         "place:dach-domu-kultury-obrona"
+      ],
+      "references": [
+        {
+          "sourceKey": "character:czeslaw",
+          "key": "character:czeslaw",
+          "type": "character",
+          "id": "czeslaw",
+          "name": "Czesław",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:helm-czeslawa-wz31",
+          "key": "prop:helm-czeslawa-wz31",
+          "type": "prop",
+          "id": "helm-czeslawa-wz31",
+          "name": "Hełm Czesława wz.31",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/helm-czeslawa-wz31.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:belicosa",
+          "key": "prop:belicosa",
+          "type": "prop",
+          "id": "belicosa",
+          "name": "Belicosa",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/belicosa.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "place:dach-domu-kultury-obrona",
+          "key": "place:dach-domu-kultury-obrona",
+          "type": "place",
+          "id": "dach-domu-kultury-obrona",
+          "name": "Dach Domu Kultury podczas obrony",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dach-domu-kultury-obrona.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-19T09:10:00+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:czeslaw",
+            "prop:helm-czeslawa-wz31",
+            "place:dach-domu-kultury-obrona",
+            "prop:auspex-belicosy"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:czeslaw",
+              "key": "character:czeslaw",
+              "type": "character",
+              "id": "czeslaw",
+              "name": "Czesław",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:helm-czeslawa-wz31",
+              "key": "prop:helm-czeslawa-wz31",
+              "type": "prop",
+              "id": "helm-czeslawa-wz31",
+              "name": "Hełm Czesława wz.31",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/helm-czeslawa-wz31.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:dach-domu-kultury-obrona",
+              "key": "place:dach-domu-kultury-obrona",
+              "type": "place",
+              "id": "dach-domu-kultury-obrona",
+              "name": "Dach Domu Kultury podczas obrony",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dach-domu-kultury-obrona.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:auspex-belicosy",
+              "key": "prop:auspex-belicosy",
+              "type": "prop",
+              "id": "auspex-belicosy",
+              "name": "Auspex Belicosy",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/auspex-belicosy.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-08-19T12:00:00+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:czeslaw",
+            "prop:helm-czeslawa-wz31",
+            "prop:belicosa",
+            "place:dach-domu-kultury-obrona"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:czeslaw",
+              "key": "character:czeslaw",
+              "type": "character",
+              "id": "czeslaw",
+              "name": "Czesław",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:helm-czeslawa-wz31",
+              "key": "prop:helm-czeslawa-wz31",
+              "type": "prop",
+              "id": "helm-czeslawa-wz31",
+              "name": "Hełm Czesława wz.31",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/helm-czeslawa-wz31.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:belicosa",
+              "key": "prop:belicosa",
+              "type": "prop",
+              "id": "belicosa",
+              "name": "Belicosa",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/belicosa.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:dach-domu-kultury-obrona",
+              "key": "place:dach-domu-kultury-obrona",
+              "type": "place",
+              "id": "dach-domu-kultury-obrona",
+              "name": "Dach Domu Kultury podczas obrony",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dach-domu-kultury-obrona.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-07b-czeslaw-zajmuje-platforme/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-07b-czeslaw-zajmuje-platforme/frame-start-thumb.webp",

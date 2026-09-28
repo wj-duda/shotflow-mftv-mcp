@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-14/ze14-drzwi-zamkniete",
@@ -9,7 +9,26 @@
   "description": "Zamknięte drzwi, osobny shot 24 klatki / 1 s. Następnie cięcie na reakcję pracowników. Otwarcie poza kadrem, bez First/Last.",
   "project": {
     "id": "zlote-emoji-14",
-    "name": "Złote Emoji #14"
+    "key": "project:zlote-emoji-14",
+    "name": "Złote Emoji #14",
+    "createdAt": "2026-09-27T00:13:04.173Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-14",
+    "projectCreatedAt": "2026-09-27T00:13:04.173Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 7,
+    "lastSequence": 7,
+    "occurrences": [
+      7
+    ],
+    "sequenceTotal": 18,
+    "uniqueShotCount": 16,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -17,6 +36,52 @@
       "id": "ze14-sirock-wchodzi"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:ze14-sirock-wchodzi",
+        "key": "shot:zlote-emoji-14/ze14-sirock-wchodzi",
+        "type": "shot",
+        "id": "ze14-sirock-wchodzi",
+        "name": "05 — Sirock wchodzi",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-sirock-wchodzi.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:ze14-sirock-wchodzi"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze14-sirock-wchodzi",
+            "key": "shot:zlote-emoji-14/ze14-sirock-wchodzi",
+            "type": "shot",
+            "id": "ze14-sirock-wchodzi",
+            "name": "05 — Sirock wchodzi",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-sirock-wchodzi.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": {
+          "sourceKey": "shot:ze14-sirock-wchodzi",
+          "key": "shot:zlote-emoji-14/ze14-sirock-wchodzi",
+          "type": "shot",
+          "id": "ze14-sirock-wchodzi",
+          "name": "05 — Sirock wchodzi",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-sirock-wchodzi.json",
+          "exists": true
+        }
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Reuse exact approved closed-door Start v006; no image generation.",
     "endFrameDescription": "",
@@ -31,10 +96,65 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 1,
       "source": "reference",
       "referenceKeys": [
         "shot:ze14-sirock-wchodzi"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze14-sirock-wchodzi",
+          "key": "shot:zlote-emoji-14/ze14-sirock-wchodzi",
+          "type": "shot",
+          "id": "ze14-sirock-wchodzi",
+          "name": "05 — Sirock wchodzi",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-sirock-wchodzi.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": {
+        "sourceKey": "shot:ze14-sirock-wchodzi",
+        "key": "shot:zlote-emoji-14/ze14-sirock-wchodzi",
+        "type": "shot",
+        "id": "ze14-sirock-wchodzi",
+        "name": "05 — Sirock wchodzi",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-sirock-wchodzi.json",
+        "exists": true
+      },
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-27T13:07:37.538865+00:00",
+          "source": "reference",
+          "referenceKeys": [
+            "shot:ze14-sirock-wchodzi"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze14-sirock-wchodzi",
+              "key": "shot:zlote-emoji-14/ze14-sirock-wchodzi",
+              "type": "shot",
+              "id": "ze14-sirock-wchodzi",
+              "name": "05 — Sirock wchodzi",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-sirock-wchodzi.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": {
+            "sourceKey": "shot:ze14-sirock-wchodzi",
+            "key": "shot:zlote-emoji-14/ze14-sirock-wchodzi",
+            "type": "shot",
+            "id": "ze14-sirock-wchodzi",
+            "name": "05 — Sirock wchodzi",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-sirock-wchodzi.json",
+            "exists": true
+          }
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-drzwi-zamkniete/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-drzwi-zamkniete/frame-start-thumb.webp",

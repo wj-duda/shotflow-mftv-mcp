@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:halloween-konkurs/hw-02-wampiry",
@@ -9,7 +9,26 @@
   "description": "Gotowy Start Frame 1080×1920. Bez take’a. Planowany montaż: 1.75–3 s; 30 klatek / 24 fps. Planowany take: 3 s, wykorzystanie od początku. Ciasne zbliżenie twarzy Mańki z tej samej strony osi rozmowy. Odpowiada rzeczowo, przekonana o swojej racji. Wzrok w prawo na brata. Fragment ogrodu za ramieniem utrzymuje zagrożenie; zombie bliżej niż w otwarciu. Kamera: Lekki najazd na Mańkę; cięcie montażowe, bez wygenerowanego przerzutu kamery. Dialog do osobnego nagrania: Mańka: „Wampiry”. Start Frame wygenerowany wbudowanym generatorem i zweryfikowany. Animacja bez natywnego audio; wypowiedzi, lipsync i SFX opracować osobno. Wstawiono na V1 timeline: sekwencja 25 sekund, 24 fps. Ciasne zbliżenie twarzy, zgodnie z korektą montażu: szeroki → Mańka → Marcel → szeroki. Książka poniżej kadru.",
   "project": {
     "id": "halloween-konkurs",
-    "name": "Halloween Konkurs"
+    "key": "project:halloween-konkurs",
+    "name": "Halloween Konkurs",
+    "createdAt": "2026-09-20T15:29:11.720Z"
+  },
+  "chronology": {
+    "projectKey": "project:halloween-konkurs",
+    "projectCreatedAt": "2026-09-20T15:29:11.720Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 3,
+    "lastSequence": 3,
+    "occurrences": [
+      3
+    ],
+    "sequenceTotal": 25,
+    "uniqueShotCount": 21,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -17,6 +36,43 @@
       "id": "hw-01-wilkolaki-ogrod"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:hw-01-wilkolaki-ogrod",
+        "key": "shot:halloween-konkurs/hw-01-wilkolaki-ogrod",
+        "type": "shot",
+        "id": "hw-01-wilkolaki-ogrod",
+        "name": "01 — Wilkołaki / zombie już w ogrodzie",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-01-wilkolaki-ogrod.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:hw-01-wilkolaki-ogrod"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:hw-01-wilkolaki-ogrod",
+            "key": "shot:halloween-konkurs/hw-01-wilkolaki-ogrod",
+            "type": "shot",
+            "id": "hw-01-wilkolaki-ogrod",
+            "name": "01 — Wilkołaki / zombie już w ogrodzie",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-01-wilkolaki-ogrod.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Photorealistic single vertical 9:16 movie frame. Image 1 is the continuity reference: retain exactly the albino adult woman's identity, white hair, black knitted cardigan, D20 pendant, sofa position and warm light, green sofa and cool garden beyond intact glass. New camera setup: TIGHT CLOSE-UP of Marianna's FACE looking toward screen RIGHT at her offscreen brother. Frame crown to upper chest, face dominates, clear assertive calm expression, no grin. Television side of conversation axis, shallow but legible background with blurred silhouettes of the SAME neighbours already established outside glass. They do not enter. No Marcel in crop. She continues holding the same Vampire book in her same right hand BELOW this tight frame; do not force a whole book into the close-up. One still image, not collage or storyboard, no captions, no subtitles, no added text, no watermark. Natural skin texture, same color grading as image 1. This is a sharp cut from a two-shot to her face.",
     "endFrameDescription": "",
@@ -31,10 +87,47 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 1,
       "source": "generated",
       "referenceKeys": [
         "shot:hw-01-wilkolaki-ogrod"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:hw-01-wilkolaki-ogrod",
+          "key": "shot:halloween-konkurs/hw-01-wilkolaki-ogrod",
+          "type": "shot",
+          "id": "hw-01-wilkolaki-ogrod",
+          "name": "01 — Wilkołaki / zombie już w ogrodzie",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-01-wilkolaki-ogrod.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-20T15:30:41.627518+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:hw-01-wilkolaki-ogrod"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:hw-01-wilkolaki-ogrod",
+              "key": "shot:halloween-konkurs/hw-01-wilkolaki-ogrod",
+              "type": "shot",
+              "id": "hw-01-wilkolaki-ogrod",
+              "name": "01 — Wilkołaki / zombie już w ogrodzie",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-01-wilkolaki-ogrod.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-02-wampiry/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-02-wampiry/frame-start-thumb.webp",

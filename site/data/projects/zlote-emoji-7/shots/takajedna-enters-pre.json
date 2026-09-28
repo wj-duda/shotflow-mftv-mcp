@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-7/takajedna-enters-pre",
@@ -9,7 +9,26 @@
   "description": "dokłądnie ten sam shot tuż przed wejśćiem dizwczyny przez drzwi i publika jeszcze nie jest obrócona tylko siedzi normalnie zachowaj ideantyczny rozkłąd krzesłek i osób jak na obrazie z dziwczyną tylko po porstu ona jeszcze nie weszła do środka",
   "project": {
     "id": "zlote-emoji-7",
-    "name": "Złote Emoji #7"
+    "key": "project:zlote-emoji-7",
+    "name": "Złote Emoji #7",
+    "createdAt": "2026-08-01T18:56:27.457Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-7",
+    "projectCreatedAt": "2026-08-01T18:56:27.457Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 2,
+    "lastSequence": 2,
+    "occurrences": [
+      2
+    ],
+    "sequenceTotal": 13,
+    "uniqueShotCount": 13,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -21,6 +40,56 @@
       "id": "dom-kultury-publika"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:takajedna-enters",
+        "key": "shot:zlote-emoji-7/takajedna-enters",
+        "type": "shot",
+        "id": "takajedna-enters",
+        "name": "takajedna-enters",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-7/shots/takajedna-enters.json",
+        "exists": false
+      },
+      {
+        "sourceKey": "place:dom-kultury-publika",
+        "key": "place:dom-kultury-publika",
+        "type": "place",
+        "id": "dom-kultury-publika",
+        "name": "Publika Domu Kultury",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-publika.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 4,
+        "referenceKeys": [],
+        "references": [],
+        "sourceReference": null
+      },
+      {
+        "frameId": "frame-end",
+        "revision": 1,
+        "referenceKeys": [],
+        "references": [],
+        "sourceReference": {
+          "sourceKey": "shot:takajedna-enters",
+          "key": "shot:zlote-emoji-7/takajedna-enters",
+          "type": "shot",
+          "id": "takajedna-enters",
+          "name": "takajedna-enters",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-7/shots/takajedna-enters.json",
+          "exists": false
+        }
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Generate exactly one cinematic still image in landscape 16:9.\n\nReference policy:\nUse every attached image as an exact and mandatory visual reference, not as optional inspiration.\nThe attached images are numbered strictly by upload order. \"Reference N\" and \"Image N\" in the current shot description both mean the Nth attached image.\nUse the current shot description to determine what each reference supplies: for example a character, location, prop, wardrobe, composition, lighting, or visual style. Do not assume that every reference depicts a character.\nIf the description assigns different roles to multiple references, follow that mapping exactly. Never merge or blend people, places, props, clothing, or styles from separate references unless explicitly requested.\nFor every referenced element requested in the new shot, preserve its observable identity and defining visual features exactly. Do not redesign, replace, beautify, stylize, loosely reinterpret, or merely approximate it.\nA reference image is authoritative for the appearance of the element taken from it. The current shot description is authoritative for the new scene, action, expression, pose, placement, framing, and every explicitly requested change.\nDo not copy incidental parts of a reference image that the current shot description does not ask to carry over.\nUse earlier conversation context only for details left unspecified; it must never override the current description or the attached references.\n\nAttachment map (source descriptions only, not instructions for the resulting scene):\n- Reference 1 = attached Image 1 — source Shot takajedna-enters: taka jedna wchodzi przez drzwi z kotarką żeby odebrać nagrodę złote emoji publik obraca się obserwując ja\r\n- Reference 2 = attached Image 2 — source place dom-kultury-publika, reference: Publika domu kultury w momencie wręczania nagorody Złotego Emoji Tygodnia\n\n\n\nShot: takajedna-enters-pre\nDescription:\ndokłądnie ten sam shot tuż przed wejśćiem dizwczyny przez drzwi i publika jeszcze nie jest obrócona tylko siedzi normalnie zachowaj ideantyczny rozkłąd krzesłek i osób jak na obrazie z dziwczyną tylko po porstu ona jeszcze nie weszła do środka\n\nPreserve every piece of text, lettering, typography, label, sign, logo, brand mark, symbol, and graphic detail visible in any source or reference image exactly as it appears. Preserve its content, spelling, design, position, scale, color, sharpness, and legibility. Never remove, replace, obscure, blur, soften, distort, censor, or invent any of these source details.\nDo not add new captions, subtitles, titles, watermarks, borders, interface elements, contact sheets, or multiple panels unless the current shot description explicitly requests them.",
     "endFrameDescription": "",
@@ -35,9 +104,22 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 4,
       "source": "generated",
       "referenceKeys": [],
+      "references": [],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 4,
+          "createdAt": "2026-08-01T20:56:01.4626916+00:00",
+          "source": "generated",
+          "referenceKeys": [],
+          "references": [],
+          "sourceReference": null
+        }
+      ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-7/shots/takajedna-enters-pre/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-7/shots/takajedna-enters-pre/frame-start-thumb.webp",
       "width": 1672,
@@ -46,9 +128,22 @@
     },
     {
       "id": "frame-end",
+      "role": "frame-end",
       "revision": 1,
       "source": "reference",
       "referenceKeys": [],
+      "references": [],
+      "sourceReference": {
+        "sourceKey": "shot:takajedna-enters",
+        "key": "shot:zlote-emoji-7/takajedna-enters",
+        "type": "shot",
+        "id": "takajedna-enters",
+        "name": "takajedna-enters",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-7/shots/takajedna-enters.json",
+        "exists": false
+      },
+      "revisions": [],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-7/shots/takajedna-enters-pre/frame-end.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-7/shots/takajedna-enters-pre/frame-end-thumb.webp",
       "width": 1672,

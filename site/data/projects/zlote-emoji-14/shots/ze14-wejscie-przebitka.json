@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-14/ze14-wejscie-przebitka",
@@ -9,9 +9,31 @@
   "description": "",
   "project": {
     "id": "zlote-emoji-14",
-    "name": "Złote Emoji #14"
+    "key": "project:zlote-emoji-14",
+    "name": "Złote Emoji #14",
+    "createdAt": "2026-09-27T00:13:04.173Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-14",
+    "projectCreatedAt": "2026-09-27T00:13:04.173Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": false,
+    "canonicalEvent": false,
+    "sequence": null,
+    "lastSequence": null,
+    "occurrences": [],
+    "sequenceTotal": 18,
+    "uniqueShotCount": 16,
+    "sequenceOrder": null,
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This project material is not present on the saved timeline, so it must not override canonical timeline events by date alone."
   },
   "references": [],
+  "referenceUsage": {
+    "declared": [],
+    "activeFrames": [],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "",
     "endFrameDescription": "",

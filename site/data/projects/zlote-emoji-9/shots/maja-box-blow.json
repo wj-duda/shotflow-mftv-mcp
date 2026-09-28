@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-9/maja-box-blow",
@@ -9,7 +9,26 @@
   "description": "Dokładnie ten sam magazyn i ta sama ogromna skrzynia co w shocie maja-box. Karton właśnie rozrywa się na duże kawałki, a całe pomieszczenie wypełnia fala kolorowego konfetti. Ze środka wyłania się Maia Melodies za pełną profesjonalną konsolą DJ-ską: dwa gramofony po bokach i centralny mikser. To efekt sceniczny bez ognia, dymu i niebezpiecznego wybuchu.",
   "project": {
     "id": "zlote-emoji-9",
-    "name": "Złote Emoji #9"
+    "key": "project:zlote-emoji-9",
+    "name": "Złote Emoji #9",
+    "createdAt": "2026-08-15T21:51:58.401Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-9",
+    "projectCreatedAt": "2026-08-15T21:51:58.401Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 5,
+    "lastSequence": 5,
+    "occurrences": [
+      5
+    ],
+    "sequenceTotal": 14,
+    "uniqueShotCount": 11,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -21,6 +40,92 @@
       "id": "dom-kultury-sala"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "place:dom-kultury",
+        "key": "place:dom-kultury",
+        "type": "place",
+        "id": "dom-kultury",
+        "name": "Dom Kultury",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:dom-kultury-sala",
+        "key": "place:dom-kultury-sala",
+        "type": "place",
+        "id": "dom-kultury-sala",
+        "name": "Sala Domu Kultury",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-sala.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-end",
+        "revision": 2,
+        "referenceKeys": [
+          "place:dom-kultury",
+          "place:dom-kultury-sala",
+          "character:maia-melodies"
+        ],
+        "references": [
+          {
+            "sourceKey": "place:dom-kultury",
+            "key": "place:dom-kultury",
+            "type": "place",
+            "id": "dom-kultury",
+            "name": "Dom Kultury",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "place:dom-kultury-sala",
+            "key": "place:dom-kultury-sala",
+            "type": "place",
+            "id": "dom-kultury-sala",
+            "name": "Sala Domu Kultury",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-sala.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:maia-melodies",
+            "key": "character:maia-melodies",
+            "type": "character",
+            "id": "maia-melodies",
+            "name": "Maia Melodies",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/maia-melodies.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      },
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [],
+        "references": [],
+        "sourceReference": {
+          "sourceKey": "take:maja-box/take-1",
+          "key": "take:zlote-emoji-9/maja-box/take-1",
+          "type": "take",
+          "id": "maja-box/take-1",
+          "name": "maja-box / take-1",
+          "relationship": "visible-state-from-take",
+          "shotKey": "shot:zlote-emoji-9/maja-box",
+          "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-9/shots/maja-box.json",
+          "exists": true
+        }
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Use maja-box as exact visual continuity. Preserve the same camera, storage room, door, lamp, walls, floor and warm lighting. Freeze the theatrical reveal as the giant compost crate bursts into torn cardboard panels and dense colorful confetti. Maia Melodies appears behind a full-width professional DJ flight-case console with two clearly visible turntables and a central mixer. Preserve her exact face, lavender-platinum bob, black headphones, white shirt and black trousers. No fire, smoke, audience, chairs, ceremony, stage, text or watermark.",
     "endFrameDescription": "",
@@ -35,12 +140,134 @@
   "images": [
     {
       "id": "frame-end",
+      "role": "frame-end",
       "revision": 2,
       "source": "generated",
       "referenceKeys": [
         "place:dom-kultury",
         "place:dom-kultury-sala",
         "character:maia-melodies"
+      ],
+      "references": [
+        {
+          "sourceKey": "place:dom-kultury",
+          "key": "place:dom-kultury",
+          "type": "place",
+          "id": "dom-kultury",
+          "name": "Dom Kultury",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "place:dom-kultury-sala",
+          "key": "place:dom-kultury-sala",
+          "type": "place",
+          "id": "dom-kultury-sala",
+          "name": "Sala Domu Kultury",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-sala.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:maia-melodies",
+          "key": "character:maia-melodies",
+          "type": "character",
+          "id": "maia-melodies",
+          "name": "Maia Melodies",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/maia-melodies.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-15T22:04:36.7442353+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "place:dom-kultury",
+            "place:dom-kultury-sala",
+            "character:maia-melodies"
+          ],
+          "references": [
+            {
+              "sourceKey": "place:dom-kultury",
+              "key": "place:dom-kultury",
+              "type": "place",
+              "id": "dom-kultury",
+              "name": "Dom Kultury",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:dom-kultury-sala",
+              "key": "place:dom-kultury-sala",
+              "type": "place",
+              "id": "dom-kultury-sala",
+              "name": "Sala Domu Kultury",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-sala.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:maia-melodies",
+              "key": "character:maia-melodies",
+              "type": "character",
+              "id": "maia-melodies",
+              "name": "Maia Melodies",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/maia-melodies.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-08-15T22:08:25.096326+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "place:dom-kultury",
+            "place:dom-kultury-sala",
+            "character:maia-melodies"
+          ],
+          "references": [
+            {
+              "sourceKey": "place:dom-kultury",
+              "key": "place:dom-kultury",
+              "type": "place",
+              "id": "dom-kultury",
+              "name": "Dom Kultury",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:dom-kultury-sala",
+              "key": "place:dom-kultury-sala",
+              "type": "place",
+              "id": "dom-kultury-sala",
+              "name": "Sala Domu Kultury",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-sala.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:maia-melodies",
+              "key": "character:maia-melodies",
+              "type": "character",
+              "id": "maia-melodies",
+              "name": "Maia Melodies",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/maia-melodies.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-9/shots/maja-box-blow/frame-end.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-9/shots/maja-box-blow/frame-end-thumb.webp",
@@ -50,9 +277,42 @@
     },
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 1,
       "source": "reference",
       "referenceKeys": [],
+      "references": [],
+      "sourceReference": {
+        "sourceKey": "take:maja-box/take-1",
+        "key": "take:zlote-emoji-9/maja-box/take-1",
+        "type": "take",
+        "id": "maja-box/take-1",
+        "name": "maja-box / take-1",
+        "relationship": "visible-state-from-take",
+        "shotKey": "shot:zlote-emoji-9/maja-box",
+        "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-9/shots/maja-box.json",
+        "exists": true
+      },
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-15T23:01:25.9992299+00:00",
+          "source": "reference",
+          "referenceKeys": [],
+          "references": [],
+          "sourceReference": {
+            "sourceKey": "take:maja-box/take-1",
+            "key": "take:zlote-emoji-9/maja-box/take-1",
+            "type": "take",
+            "id": "maja-box/take-1",
+            "name": "maja-box / take-1",
+            "relationship": "visible-state-from-take",
+            "shotKey": "shot:zlote-emoji-9/maja-box",
+            "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-9/shots/maja-box.json",
+            "exists": true
+          }
+        }
+      ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-9/shots/maja-box-blow/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-9/shots/maja-box-blow/frame-start-thumb.webp",
       "width": 1920,

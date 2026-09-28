@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-14/ze14-wzrok-ku-drzwiom",
@@ -9,7 +9,27 @@
   "description": "Kontynuacja faktycznej ostatniej klatki (71 przy 24 fps) filmu ze14-lup-na-dachu/take-2. Start v005 to bezpośrednio wyodrębniona klatka MP4, bez regenerowania wyglądu. Czesław po lewej i Halinka po prawej nadal patrzą ku drzwiom z lekkim przestrachem; nie resetują głów ani mimiki. Referencje Take: kanoniczne portrety obu postaci. Istniejące filmy i montaż zachowane.",
   "project": {
     "id": "zlote-emoji-14",
-    "name": "Złote Emoji #14"
+    "key": "project:zlote-emoji-14",
+    "name": "Złote Emoji #14",
+    "createdAt": "2026-09-27T00:13:04.173Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-14",
+    "projectCreatedAt": "2026-09-27T00:13:04.173Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 6,
+    "lastSequence": 8,
+    "occurrences": [
+      6,
+      8
+    ],
+    "sequenceTotal": 18,
+    "uniqueShotCount": 16,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -33,6 +53,95 @@
       "id": "ze14-lup-na-dachu/take-2"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:ze14-lup-na-dachu",
+        "key": "shot:zlote-emoji-14/ze14-lup-na-dachu",
+        "type": "shot",
+        "id": "ze14-lup-na-dachu",
+        "name": "04 — Łup na dachu",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-lup-na-dachu.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze14-wzrok-ku-drzwiom",
+        "key": "shot:zlote-emoji-14/ze14-wzrok-ku-drzwiom",
+        "type": "shot",
+        "id": "ze14-wzrok-ku-drzwiom",
+        "name": "Wzrok ku drzwiom",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-wzrok-ku-drzwiom.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:czeslaw",
+        "key": "character:czeslaw",
+        "type": "character",
+        "id": "czeslaw",
+        "name": "Czesław",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:halinka",
+        "key": "character:halinka",
+        "type": "character",
+        "id": "halinka",
+        "name": "Halinka",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "take:ze14-lup-na-dachu/take-2",
+        "key": "take:zlote-emoji-14/ze14-lup-na-dachu/take-2",
+        "type": "take",
+        "id": "ze14-lup-na-dachu/take-2",
+        "name": "04 — Łup na dachu / take-2",
+        "relationship": "visible-state-from-take",
+        "shotKey": "shot:zlote-emoji-14/ze14-lup-na-dachu",
+        "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-lup-na-dachu.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 5,
+        "referenceKeys": [
+          "take:ze14-lup-na-dachu/take-2"
+        ],
+        "references": [
+          {
+            "sourceKey": "take:ze14-lup-na-dachu/take-2",
+            "key": "take:zlote-emoji-14/ze14-lup-na-dachu/take-2",
+            "type": "take",
+            "id": "ze14-lup-na-dachu/take-2",
+            "name": "04 — Łup na dachu / take-2",
+            "relationship": "visible-state-from-take",
+            "shotKey": "shot:zlote-emoji-14/ze14-lup-na-dachu",
+            "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-lup-na-dachu.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": {
+          "sourceKey": "take:ze14-lup-na-dachu/take-2",
+          "key": "take:zlote-emoji-14/ze14-lup-na-dachu/take-2",
+          "type": "take",
+          "id": "ze14-lup-na-dachu/take-2",
+          "name": "04 — Łup na dachu / take-2",
+          "relationship": "visible-state-from-take",
+          "shotKey": "shot:zlote-emoji-14/ze14-lup-na-dachu",
+          "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-lup-na-dachu.json",
+          "exists": true
+        }
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Use reference: exact decoded frame 71 of ze14-lup-na-dachu/take-2/video-v001-edit.mp4, 24 fps, 1920x1080. No image generation or alteration.",
     "endFrameDescription": "",
@@ -47,10 +156,208 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 5,
       "source": "reference",
       "referenceKeys": [
         "take:ze14-lup-na-dachu/take-2"
+      ],
+      "references": [
+        {
+          "sourceKey": "take:ze14-lup-na-dachu/take-2",
+          "key": "take:zlote-emoji-14/ze14-lup-na-dachu/take-2",
+          "type": "take",
+          "id": "ze14-lup-na-dachu/take-2",
+          "name": "04 — Łup na dachu / take-2",
+          "relationship": "visible-state-from-take",
+          "shotKey": "shot:zlote-emoji-14/ze14-lup-na-dachu",
+          "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-lup-na-dachu.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": {
+        "sourceKey": "take:ze14-lup-na-dachu/take-2",
+        "key": "take:zlote-emoji-14/ze14-lup-na-dachu/take-2",
+        "type": "take",
+        "id": "ze14-lup-na-dachu/take-2",
+        "name": "04 — Łup na dachu / take-2",
+        "relationship": "visible-state-from-take",
+        "shotKey": "shot:zlote-emoji-14/ze14-lup-na-dachu",
+        "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-lup-na-dachu.json",
+        "exists": true
+      },
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-27T10:30:29.639468+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze14-lup-na-dachu"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze14-lup-na-dachu",
+              "key": "shot:zlote-emoji-14/ze14-lup-na-dachu",
+              "type": "shot",
+              "id": "ze14-lup-na-dachu",
+              "name": "04 — Łup na dachu",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-lup-na-dachu.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-09-27T13:18:19.992519+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze14-wzrok-ku-drzwiom",
+            "character:czeslaw",
+            "character:halinka"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze14-wzrok-ku-drzwiom",
+              "key": "shot:zlote-emoji-14/ze14-wzrok-ku-drzwiom",
+              "type": "shot",
+              "id": "ze14-wzrok-ku-drzwiom",
+              "name": "Wzrok ku drzwiom",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-wzrok-ku-drzwiom.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:czeslaw",
+              "key": "character:czeslaw",
+              "type": "character",
+              "id": "czeslaw",
+              "name": "Czesław",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:halinka",
+              "key": "character:halinka",
+              "type": "character",
+              "id": "halinka",
+              "name": "Halinka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 3,
+          "createdAt": "2026-09-27T13:33:33.890148+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:czeslaw",
+            "character:halinka"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:czeslaw",
+              "key": "character:czeslaw",
+              "type": "character",
+              "id": "czeslaw",
+              "name": "Czesław",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:halinka",
+              "key": "character:halinka",
+              "type": "character",
+              "id": "halinka",
+              "name": "Halinka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 4,
+          "createdAt": "2026-09-27T14:43:45.242+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze14-lup-na-dachu",
+            "character:czeslaw",
+            "character:halinka"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze14-lup-na-dachu",
+              "key": "shot:zlote-emoji-14/ze14-lup-na-dachu",
+              "type": "shot",
+              "id": "ze14-lup-na-dachu",
+              "name": "04 — Łup na dachu",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-lup-na-dachu.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:czeslaw",
+              "key": "character:czeslaw",
+              "type": "character",
+              "id": "czeslaw",
+              "name": "Czesław",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:halinka",
+              "key": "character:halinka",
+              "type": "character",
+              "id": "halinka",
+              "name": "Halinka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 5,
+          "createdAt": "2026-09-27T15:25:16.165+00:00",
+          "source": "reference",
+          "referenceKeys": [
+            "take:ze14-lup-na-dachu/take-2"
+          ],
+          "references": [
+            {
+              "sourceKey": "take:ze14-lup-na-dachu/take-2",
+              "key": "take:zlote-emoji-14/ze14-lup-na-dachu/take-2",
+              "type": "take",
+              "id": "ze14-lup-na-dachu/take-2",
+              "name": "04 — Łup na dachu / take-2",
+              "relationship": "visible-state-from-take",
+              "shotKey": "shot:zlote-emoji-14/ze14-lup-na-dachu",
+              "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-lup-na-dachu.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": {
+            "sourceKey": "take:ze14-lup-na-dachu/take-2",
+            "key": "take:zlote-emoji-14/ze14-lup-na-dachu/take-2",
+            "type": "take",
+            "id": "ze14-lup-na-dachu/take-2",
+            "name": "04 — Łup na dachu / take-2",
+            "relationship": "visible-state-from-take",
+            "shotKey": "shot:zlote-emoji-14/ze14-lup-na-dachu",
+            "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-lup-na-dachu.json",
+            "exists": true
+          }
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-wzrok-ku-drzwiom/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-wzrok-ku-drzwiom/frame-start-thumb.webp",

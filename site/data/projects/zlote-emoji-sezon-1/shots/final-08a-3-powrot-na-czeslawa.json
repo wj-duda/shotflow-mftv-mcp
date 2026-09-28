@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-sezon-1/final-08a-3-powrot-na-czeslawa",
@@ -9,7 +9,26 @@
   "description": "Natychmiastowy powrót do tego samego ciasnego kadru trzy czwarte co w final-08a-1. Żółty poblask wystrzału przesuwa się po mokrym hełmie, szkłach i jednej stronie twarzy; uprząż wbija się w tułów, szczęka jest zaciśnięta, a oddech na moment ucieka pod wpływem huku. Czesław nie triumfuje i nie zachowuje kamiennej obojętności — jest przestraszony mocą urządzenia, lecz nie puszcza sterowania i natychmiast odzyskuje koncentrację.\n\nDrobny pył i żółte światło wygasają, okulary oraz głowa wracają na miejsce, ale emocja pozostaje napięta. Ostatnia klatka może dokładnie odtworzyć kotwicę final-08a-1, aby zapętlić wyłącznie pierwszą salwę. Następna salwa zmienia ustawienie kamery; nie wraca do tego samego portretu.",
   "project": {
     "id": "zlote-emoji-sezon-1",
-    "name": "Złote Emoji Sezon #1"
+    "key": "project:zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1",
+    "createdAt": "2026-08-17T13:42:01.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-sezon-1",
+    "projectCreatedAt": "2026-08-17T13:42:01.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 34,
+    "lastSequence": 34,
+    "occurrences": [
+      34
+    ],
+    "sequenceTotal": 69,
+    "uniqueShotCount": 69,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -45,6 +64,175 @@
       "id": "helm-czeslawa-wz31"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:czeslaw",
+        "key": "character:czeslaw",
+        "type": "character",
+        "id": "czeslaw",
+        "name": "Czesław",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:belicosa",
+        "key": "prop:belicosa",
+        "type": "prop",
+        "id": "belicosa",
+        "name": "Belicosa",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/belicosa.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:final-08a-1-czeslaw-komenda-lewo",
+        "key": "shot:zlote-emoji-sezon-1/final-08a-1-czeslaw-komenda-lewo",
+        "type": "shot",
+        "id": "final-08a-1-czeslaw-komenda-lewo",
+        "name": "Final 08A 1 Czesław — komenda lewą flankę",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-08a-1-czeslaw-komenda-lewo.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:final-08a-2-pocisk-i-trafienie-lewo",
+        "key": "shot:zlote-emoji-sezon-1/final-08a-2-pocisk-i-trafienie-lewo",
+        "type": "shot",
+        "id": "final-08a-2-pocisk-i-trafienie-lewo",
+        "name": "Final 08A 2 — pocisk i trafienie lewą flankę",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-08a-2-pocisk-i-trafienie-lewo.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:dach-domu-kultury",
+        "key": "place:dach-domu-kultury",
+        "type": "place",
+        "id": "dach-domu-kultury",
+        "name": "Dach Domu Kultury",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dach-domu-kultury.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:auspex-belicosy",
+        "key": "prop:auspex-belicosy",
+        "type": "prop",
+        "id": "auspex-belicosy",
+        "name": "Auspex Belicosy",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/auspex-belicosy.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:dach-domu-kultury-obrona",
+        "key": "place:dach-domu-kultury-obrona",
+        "type": "place",
+        "id": "dach-domu-kultury-obrona",
+        "name": "Dach Domu Kultury podczas obrony",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dach-domu-kultury-obrona.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:helm-czeslawa-wz31",
+        "key": "prop:helm-czeslawa-wz31",
+        "type": "prop",
+        "id": "helm-czeslawa-wz31",
+        "name": "Hełm Czesława wz.31",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/helm-czeslawa-wz31.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "shot:final-08a-1-czeslaw-komenda-lewo",
+          "shot:final-08a-2-pocisk-i-trafienie-lewo",
+          "character:czeslaw",
+          "prop:helm-czeslawa-wz31"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:final-08a-1-czeslaw-komenda-lewo",
+            "key": "shot:zlote-emoji-sezon-1/final-08a-1-czeslaw-komenda-lewo",
+            "type": "shot",
+            "id": "final-08a-1-czeslaw-komenda-lewo",
+            "name": "Final 08A 1 Czesław — komenda lewą flankę",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-08a-1-czeslaw-komenda-lewo.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:final-08a-2-pocisk-i-trafienie-lewo",
+            "key": "shot:zlote-emoji-sezon-1/final-08a-2-pocisk-i-trafienie-lewo",
+            "type": "shot",
+            "id": "final-08a-2-pocisk-i-trafienie-lewo",
+            "name": "Final 08A 2 — pocisk i trafienie lewą flankę",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-08a-2-pocisk-i-trafienie-lewo.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:czeslaw",
+            "key": "character:czeslaw",
+            "type": "character",
+            "id": "czeslaw",
+            "name": "Czesław",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:helm-czeslawa-wz31",
+            "key": "prop:helm-czeslawa-wz31",
+            "type": "prop",
+            "id": "helm-czeslawa-wz31",
+            "name": "Hełm Czesława wz.31",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/helm-czeslawa-wz31.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      },
+      {
+        "frameId": "frame-end",
+        "revision": 2,
+        "referenceKeys": [
+          "shot:final-08a-1-czeslaw-komenda-lewo"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:final-08a-1-czeslaw-komenda-lewo",
+            "key": "shot:zlote-emoji-sezon-1/final-08a-1-czeslaw-komenda-lewo",
+            "type": "shot",
+            "id": "final-08a-1-czeslaw-komenda-lewo",
+            "name": "Final 08A 1 Czesław — komenda lewą flankę",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-08a-1-czeslaw-komenda-lewo.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": {
+          "sourceKey": "shot:final-08a-1-czeslaw-komenda-lewo",
+          "key": "shot:zlote-emoji-sezon-1/final-08a-1-czeslaw-komenda-lewo",
+          "type": "shot",
+          "id": "final-08a-1-czeslaw-komenda-lewo",
+          "name": "Final 08A 1 Czesław — komenda lewą flankę",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-08a-1-czeslaw-komenda-lewo.json",
+          "exists": true
+        }
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Photorealistic cinematic 16:9 opening reaction frame immediately after the first yellow shot. Return to the exact tight 35 mm trigger-side three-quarter camera of final-08a-1 revision 2. Exact Czesław is displaced a few centimeters by recoil: fastened harness bites into his torso, shoulders and head jerk back, one correct hand still crushes the same brass control, wet glasses sit crooked and his eyes squeeze partly shut against pressure and grit. His mouth loses one sharp breath; fear and pain replace triumph. Strong localized yellow residual light crosses one side of his rain-covered glasses, cheek and authentic olive wz. 31 helmet. Dust, droplets and tiny sparks cross the foreground while Belicosa machinery vibrates. Preserve exact identity, suit, dirty shirt, loose tie, helmet, hand, auspex corner and platform geometry. Must be able to settle precisely into final-08a-1 revision 2. No blue or pink-red light, projectile, blood, smile, pose, extra anatomy, text, UI, logos or watermark.",
     "endFrameDescription": "Dokładny pikselowo powrót do własnej napiętej kotwicy salwy A z final-08a-1 revision 2; nie do kadrów salwy B ani C.",
@@ -59,6 +247,7 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 2,
       "source": "generated",
       "referenceKeys": [
@@ -66,6 +255,159 @@
         "shot:final-08a-2-pocisk-i-trafienie-lewo",
         "character:czeslaw",
         "prop:helm-czeslawa-wz31"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:final-08a-1-czeslaw-komenda-lewo",
+          "key": "shot:zlote-emoji-sezon-1/final-08a-1-czeslaw-komenda-lewo",
+          "type": "shot",
+          "id": "final-08a-1-czeslaw-komenda-lewo",
+          "name": "Final 08A 1 Czesław — komenda lewą flankę",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-08a-1-czeslaw-komenda-lewo.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:final-08a-2-pocisk-i-trafienie-lewo",
+          "key": "shot:zlote-emoji-sezon-1/final-08a-2-pocisk-i-trafienie-lewo",
+          "type": "shot",
+          "id": "final-08a-2-pocisk-i-trafienie-lewo",
+          "name": "Final 08A 2 — pocisk i trafienie lewą flankę",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-08a-2-pocisk-i-trafienie-lewo.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:czeslaw",
+          "key": "character:czeslaw",
+          "type": "character",
+          "id": "czeslaw",
+          "name": "Czesław",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:helm-czeslawa-wz31",
+          "key": "prop:helm-czeslawa-wz31",
+          "type": "prop",
+          "id": "helm-czeslawa-wz31",
+          "name": "Hełm Czesława wz.31",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/helm-czeslawa-wz31.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-19T09:25:00+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:final-08a-1-czeslaw-komenda-lewo",
+            "shot:final-08a-2-pocisk-i-trafienie-lewo",
+            "character:czeslaw",
+            "prop:helm-czeslawa-wz31"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:final-08a-1-czeslaw-komenda-lewo",
+              "key": "shot:zlote-emoji-sezon-1/final-08a-1-czeslaw-komenda-lewo",
+              "type": "shot",
+              "id": "final-08a-1-czeslaw-komenda-lewo",
+              "name": "Final 08A 1 Czesław — komenda lewą flankę",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-08a-1-czeslaw-komenda-lewo.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:final-08a-2-pocisk-i-trafienie-lewo",
+              "key": "shot:zlote-emoji-sezon-1/final-08a-2-pocisk-i-trafienie-lewo",
+              "type": "shot",
+              "id": "final-08a-2-pocisk-i-trafienie-lewo",
+              "name": "Final 08A 2 — pocisk i trafienie lewą flankę",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-08a-2-pocisk-i-trafienie-lewo.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:czeslaw",
+              "key": "character:czeslaw",
+              "type": "character",
+              "id": "czeslaw",
+              "name": "Czesław",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:helm-czeslawa-wz31",
+              "key": "prop:helm-czeslawa-wz31",
+              "type": "prop",
+              "id": "helm-czeslawa-wz31",
+              "name": "Hełm Czesława wz.31",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/helm-czeslawa-wz31.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-08-19T12:45:00+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:final-08a-1-czeslaw-komenda-lewo",
+            "shot:final-08a-2-pocisk-i-trafienie-lewo",
+            "character:czeslaw",
+            "prop:helm-czeslawa-wz31"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:final-08a-1-czeslaw-komenda-lewo",
+              "key": "shot:zlote-emoji-sezon-1/final-08a-1-czeslaw-komenda-lewo",
+              "type": "shot",
+              "id": "final-08a-1-czeslaw-komenda-lewo",
+              "name": "Final 08A 1 Czesław — komenda lewą flankę",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-08a-1-czeslaw-komenda-lewo.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:final-08a-2-pocisk-i-trafienie-lewo",
+              "key": "shot:zlote-emoji-sezon-1/final-08a-2-pocisk-i-trafienie-lewo",
+              "type": "shot",
+              "id": "final-08a-2-pocisk-i-trafienie-lewo",
+              "name": "Final 08A 2 — pocisk i trafienie lewą flankę",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-08a-2-pocisk-i-trafienie-lewo.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:czeslaw",
+              "key": "character:czeslaw",
+              "type": "character",
+              "id": "czeslaw",
+              "name": "Czesław",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:helm-czeslawa-wz31",
+              "key": "prop:helm-czeslawa-wz31",
+              "type": "prop",
+              "id": "helm-czeslawa-wz31",
+              "name": "Hełm Czesława wz.31",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/helm-czeslawa-wz31.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-08a-3-powrot-na-czeslawa/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-08a-3-powrot-na-czeslawa/frame-start-thumb.webp",
@@ -75,10 +417,95 @@
     },
     {
       "id": "frame-end",
+      "role": "frame-end",
       "revision": 2,
       "source": "reference",
       "referenceKeys": [
         "shot:final-08a-1-czeslaw-komenda-lewo"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:final-08a-1-czeslaw-komenda-lewo",
+          "key": "shot:zlote-emoji-sezon-1/final-08a-1-czeslaw-komenda-lewo",
+          "type": "shot",
+          "id": "final-08a-1-czeslaw-komenda-lewo",
+          "name": "Final 08A 1 Czesław — komenda lewą flankę",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-08a-1-czeslaw-komenda-lewo.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": {
+        "sourceKey": "shot:final-08a-1-czeslaw-komenda-lewo",
+        "key": "shot:zlote-emoji-sezon-1/final-08a-1-czeslaw-komenda-lewo",
+        "type": "shot",
+        "id": "final-08a-1-czeslaw-komenda-lewo",
+        "name": "Final 08A 1 Czesław — komenda lewą flankę",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-08a-1-czeslaw-komenda-lewo.json",
+        "exists": true
+      },
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-19T09:25:00+02:00",
+          "source": "reference",
+          "referenceKeys": [
+            "shot:final-08a-1-czeslaw-komenda-lewo"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:final-08a-1-czeslaw-komenda-lewo",
+              "key": "shot:zlote-emoji-sezon-1/final-08a-1-czeslaw-komenda-lewo",
+              "type": "shot",
+              "id": "final-08a-1-czeslaw-komenda-lewo",
+              "name": "Final 08A 1 Czesław — komenda lewą flankę",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-08a-1-czeslaw-komenda-lewo.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": {
+            "sourceKey": "shot:final-08a-1-czeslaw-komenda-lewo",
+            "key": "shot:zlote-emoji-sezon-1/final-08a-1-czeslaw-komenda-lewo",
+            "type": "shot",
+            "id": "final-08a-1-czeslaw-komenda-lewo",
+            "name": "Final 08A 1 Czesław — komenda lewą flankę",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-08a-1-czeslaw-komenda-lewo.json",
+            "exists": true
+          }
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-08-19T12:45:00+02:00",
+          "source": "reference",
+          "referenceKeys": [
+            "shot:final-08a-1-czeslaw-komenda-lewo"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:final-08a-1-czeslaw-komenda-lewo",
+              "key": "shot:zlote-emoji-sezon-1/final-08a-1-czeslaw-komenda-lewo",
+              "type": "shot",
+              "id": "final-08a-1-czeslaw-komenda-lewo",
+              "name": "Final 08A 1 Czesław — komenda lewą flankę",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-08a-1-czeslaw-komenda-lewo.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": {
+            "sourceKey": "shot:final-08a-1-czeslaw-komenda-lewo",
+            "key": "shot:zlote-emoji-sezon-1/final-08a-1-czeslaw-komenda-lewo",
+            "type": "shot",
+            "id": "final-08a-1-czeslaw-komenda-lewo",
+            "name": "Final 08A 1 Czesław — komenda lewą flankę",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-08a-1-czeslaw-komenda-lewo.json",
+            "exists": true
+          }
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-08a-3-powrot-na-czeslawa/frame-end.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-08a-3-powrot-na-czeslawa/frame-end-thumb.webp",

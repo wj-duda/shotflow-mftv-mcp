@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "project",
   "key": "project:you-talking",
@@ -13,24 +13,93 @@
     {
       "id": "representative-frame",
       "role": "representative-frame",
-      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/you-talking/shots/czeslaw-c/frame-start.webp",
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/you-talking/shots/czeslaw-c/frame-start-thumb.webp"
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/you-talking/shots/czeslaw-a/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/you-talking/shots/czeslaw-a/frame-start-thumb.webp"
+    }
+  ],
+  "shotOrder": "canonical timeline order first; off-timeline project materials last",
+  "timeline": [
+    {
+      "position": 1,
+      "shotKey": "shot:you-talking/a3115482-56b1-4aaa-a85d-f432302d268b",
+      "shotId": "a3115482-56b1-4aaa-a85d-f432302d268b",
+      "title": "a3115482-56b1-4aaa-a85d-f432302d268b"
+    },
+    {
+      "position": 2,
+      "shotKey": "shot:you-talking/d5f08913-4bde-4878-8db6-66c27cda69be",
+      "shotId": "d5f08913-4bde-4878-8db6-66c27cda69be",
+      "title": "d5f08913-4bde-4878-8db6-66c27cda69be"
+    },
+    {
+      "position": 3,
+      "shotKey": "shot:you-talking/3d8ea526-94f8-4b8d-8206-ef3d91566496",
+      "shotId": "3d8ea526-94f8-4b8d-8206-ef3d91566496",
+      "title": "3d8ea526-94f8-4b8d-8206-ef3d91566496"
+    },
+    {
+      "position": 4,
+      "shotKey": "shot:you-talking/ea0aef7c-15a6-48af-af02-945816b7fd9b",
+      "shotId": "ea0aef7c-15a6-48af-af02-945816b7fd9b",
+      "title": "ea0aef7c-15a6-48af-af02-945816b7fd9b"
+    },
+    {
+      "position": 5,
+      "shotKey": "shot:you-talking/czeslaw-a",
+      "shotId": "czeslaw-a",
+      "title": "czeslaw-a"
+    },
+    {
+      "position": 6,
+      "shotKey": "shot:you-talking/czeslaw-c",
+      "shotId": "czeslaw-c",
+      "title": "czeslaw-c"
+    },
+    {
+      "position": 7,
+      "shotKey": "shot:you-talking/czeslaw-end",
+      "shotId": "czeslaw-end",
+      "title": "czeslaw-end"
     }
   ],
   "shots": [
     {
-      "key": "shot:you-talking/15226fdb-0dbb-43f7-bc19-c5b29191627f",
+      "key": "shot:you-talking/a3115482-56b1-4aaa-a85d-f432302d268b",
       "kind": "shot",
       "type": "shots",
-      "id": "15226fdb-0dbb-43f7-bc19-c5b29191627f",
-      "name": "15226fdb-0dbb-43f7-bc19-c5b29191627f",
+      "id": "a3115482-56b1-4aaa-a85d-f432302d268b",
+      "name": "a3115482-56b1-4aaa-a85d-f432302d268b",
       "projectId": "you-talking",
       "projectName": "You Talking",
+      "projectCreatedAt": "2026-08-02T20:09:25.290Z",
+      "onTimeline": true,
+      "sequence": 1,
+      "lastSequence": 1,
+      "sequenceTotal": 7,
       "summary": "",
       "imageCount": 1,
-      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/you-talking/shots/15226fdb-0dbb-43f7-bc19-c5b29191627f/frame-start.webp",
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/you-talking/shots/15226fdb-0dbb-43f7-bc19-c5b29191627f/frame-start-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/you-talking/shots/15226fdb-0dbb-43f7-bc19-c5b29191627f.json"
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/you-talking/shots/a3115482-56b1-4aaa-a85d-f432302d268b/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/you-talking/shots/a3115482-56b1-4aaa-a85d-f432302d268b/frame-start-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/you-talking/shots/a3115482-56b1-4aaa-a85d-f432302d268b.json"
+    },
+    {
+      "key": "shot:you-talking/d5f08913-4bde-4878-8db6-66c27cda69be",
+      "kind": "shot",
+      "type": "shots",
+      "id": "d5f08913-4bde-4878-8db6-66c27cda69be",
+      "name": "d5f08913-4bde-4878-8db6-66c27cda69be",
+      "projectId": "you-talking",
+      "projectName": "You Talking",
+      "projectCreatedAt": "2026-08-02T20:09:25.290Z",
+      "onTimeline": true,
+      "sequence": 2,
+      "lastSequence": 2,
+      "sequenceTotal": 7,
+      "summary": "",
+      "imageCount": 1,
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/you-talking/shots/d5f08913-4bde-4878-8db6-66c27cda69be/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/you-talking/shots/d5f08913-4bde-4878-8db6-66c27cda69be/frame-start-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/you-talking/shots/d5f08913-4bde-4878-8db6-66c27cda69be.json"
     },
     {
       "key": "shot:you-talking/3d8ea526-94f8-4b8d-8206-ef3d91566496",
@@ -40,6 +109,11 @@
       "name": "3d8ea526-94f8-4b8d-8206-ef3d91566496",
       "projectId": "you-talking",
       "projectName": "You Talking",
+      "projectCreatedAt": "2026-08-02T20:09:25.290Z",
+      "onTimeline": true,
+      "sequence": 3,
+      "lastSequence": 3,
+      "sequenceTotal": 7,
       "summary": "",
       "imageCount": 1,
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/you-talking/shots/3d8ea526-94f8-4b8d-8206-ef3d91566496/frame-start.webp",
@@ -47,18 +121,23 @@
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/you-talking/shots/3d8ea526-94f8-4b8d-8206-ef3d91566496.json"
     },
     {
-      "key": "shot:you-talking/a3115482-56b1-4aaa-a85d-f432302d268b",
+      "key": "shot:you-talking/ea0aef7c-15a6-48af-af02-945816b7fd9b",
       "kind": "shot",
       "type": "shots",
-      "id": "a3115482-56b1-4aaa-a85d-f432302d268b",
-      "name": "a3115482-56b1-4aaa-a85d-f432302d268b",
+      "id": "ea0aef7c-15a6-48af-af02-945816b7fd9b",
+      "name": "ea0aef7c-15a6-48af-af02-945816b7fd9b",
       "projectId": "you-talking",
       "projectName": "You Talking",
+      "projectCreatedAt": "2026-08-02T20:09:25.290Z",
+      "onTimeline": true,
+      "sequence": 4,
+      "lastSequence": 4,
+      "sequenceTotal": 7,
       "summary": "",
       "imageCount": 1,
-      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/you-talking/shots/a3115482-56b1-4aaa-a85d-f432302d268b/frame-start.webp",
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/you-talking/shots/a3115482-56b1-4aaa-a85d-f432302d268b/frame-start-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/you-talking/shots/a3115482-56b1-4aaa-a85d-f432302d268b.json"
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/you-talking/shots/ea0aef7c-15a6-48af-af02-945816b7fd9b/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/you-talking/shots/ea0aef7c-15a6-48af-af02-945816b7fd9b/frame-start-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/you-talking/shots/ea0aef7c-15a6-48af-af02-945816b7fd9b.json"
     },
     {
       "key": "shot:you-talking/czeslaw-a",
@@ -68,6 +147,11 @@
       "name": "czeslaw-a",
       "projectId": "you-talking",
       "projectName": "You Talking",
+      "projectCreatedAt": "2026-08-02T20:09:25.290Z",
+      "onTimeline": true,
+      "sequence": 5,
+      "lastSequence": 5,
+      "sequenceTotal": 7,
       "summary": "czełsaw goli sie u siebie w domu w łazience ma peDzel z painą i maszynkę i jest częsciowo w tej pianie secan bedzie pariadą takuwtakrz you talking to me najpierw shot jakby twarz czesława wedziana od z perpektywy lustra apotem samo odbiece czełwaw w lustrze przygotuj w suie dwa…",
       "imageCount": 1,
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/you-talking/shots/czeslaw-a/frame-start.webp",
@@ -82,6 +166,11 @@
       "name": "czeslaw-c",
       "projectId": "you-talking",
       "projectName": "You Talking",
+      "projectCreatedAt": "2026-08-02T20:09:25.290Z",
+      "onTimeline": true,
+      "sequence": 6,
+      "lastSequence": 6,
+      "sequenceTotal": 7,
       "summary": "Static cinematic shot, identical framing and composition to the source image. Czesław stands at the bathroom mirror during shaving. He is preparing to deliver an intense, confrontational monologue to his own reflection, but this pass is only for later lip-sync. His lips remain f…",
       "imageCount": 1,
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/you-talking/shots/czeslaw-c/frame-start.webp",
@@ -96,6 +185,11 @@
       "name": "czeslaw-end",
       "projectId": "you-talking",
       "projectName": "You Talking",
+      "projectCreatedAt": "2026-08-02T20:09:25.290Z",
+      "onTimeline": true,
+      "sequence": 7,
+      "lastSequence": 7,
+      "sequenceTotal": 7,
       "summary": "ok teraz potrzebuję tej ostatniej sceny zbilęznie twarzy w luistrze zastygłe troch e puste troche smutne trcohę spokojne coś co mocno będzie diząłać psychologicznie mikoroespresją rece opszuczone na dół shot praktycznie w tej samej pozycji bo tylko minimalnie zoomoujem ale tak z…",
       "imageCount": 2,
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/you-talking/shots/czeslaw-end/frame-start.webp",
@@ -103,32 +197,23 @@
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/you-talking/shots/czeslaw-end.json"
     },
     {
-      "key": "shot:you-talking/d5f08913-4bde-4878-8db6-66c27cda69be",
+      "key": "shot:you-talking/15226fdb-0dbb-43f7-bc19-c5b29191627f",
       "kind": "shot",
       "type": "shots",
-      "id": "d5f08913-4bde-4878-8db6-66c27cda69be",
-      "name": "d5f08913-4bde-4878-8db6-66c27cda69be",
+      "id": "15226fdb-0dbb-43f7-bc19-c5b29191627f",
+      "name": "15226fdb-0dbb-43f7-bc19-c5b29191627f",
       "projectId": "you-talking",
       "projectName": "You Talking",
+      "projectCreatedAt": "2026-08-02T20:09:25.290Z",
+      "onTimeline": false,
+      "sequence": null,
+      "lastSequence": null,
+      "sequenceTotal": 7,
       "summary": "",
       "imageCount": 1,
-      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/you-talking/shots/d5f08913-4bde-4878-8db6-66c27cda69be/frame-start.webp",
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/you-talking/shots/d5f08913-4bde-4878-8db6-66c27cda69be/frame-start-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/you-talking/shots/d5f08913-4bde-4878-8db6-66c27cda69be.json"
-    },
-    {
-      "key": "shot:you-talking/ea0aef7c-15a6-48af-af02-945816b7fd9b",
-      "kind": "shot",
-      "type": "shots",
-      "id": "ea0aef7c-15a6-48af-af02-945816b7fd9b",
-      "name": "ea0aef7c-15a6-48af-af02-945816b7fd9b",
-      "projectId": "you-talking",
-      "projectName": "You Talking",
-      "summary": "",
-      "imageCount": 1,
-      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/you-talking/shots/ea0aef7c-15a6-48af-af02-945816b7fd9b/frame-start.webp",
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/you-talking/shots/ea0aef7c-15a6-48af-af02-945816b7fd9b/frame-start-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/you-talking/shots/ea0aef7c-15a6-48af-af02-945816b7fd9b.json"
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/you-talking/shots/15226fdb-0dbb-43f7-bc19-c5b29191627f/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/you-talking/shots/15226fdb-0dbb-43f7-bc19-c5b29191627f/frame-start-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/you-talking/shots/15226fdb-0dbb-43f7-bc19-c5b29191627f.json"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-12/angel-swirl-profile",
@@ -9,7 +9,26 @@
   "description": "Gwałtowne pikowanie głową w dół przez nieruchomy kadr, zakończone wyjściem anioła dolną krawędzią. Obrót całego ciała to ruch wtórny podczas spadku. Mocno płonące skrzydła zostawiają smugę ognia i żaru skierowaną ku górze. Kamera nie śledzi postaci. Daleki profil; najpierw przechylenie głową w dół z pozycji startowej.",
   "project": {
     "id": "zlote-emoji-12",
-    "name": "Złote Emoji #12"
+    "key": "project:zlote-emoji-12",
+    "name": "Złote Emoji #12",
+    "createdAt": "2026-09-11T23:11:37.531Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-12",
+    "projectCreatedAt": "2026-09-11T23:11:37.531Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 2,
+    "lastSequence": 2,
+    "occurrences": [
+      2
+    ],
+    "sequenceTotal": 20,
+    "uniqueShotCount": 17,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -21,6 +40,53 @@
       "id": "angel-swirl-profile"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:aniol-wygnany",
+        "key": "character:aniol-wygnany",
+        "type": "character",
+        "id": "aniol-wygnany",
+        "name": "Anioł wygnany",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/aniol-wygnany.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:angel-swirl-profile",
+        "key": "shot:zlote-emoji-12/angel-swirl-profile",
+        "type": "shot",
+        "id": "angel-swirl-profile",
+        "name": "angel-swirl-profile",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/angel-swirl-profile.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 3,
+        "referenceKeys": [
+          "shot:angel-swirl-profile"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:angel-swirl-profile",
+            "key": "shot:zlote-emoji-12/angel-swirl-profile",
+            "type": "shot",
+            "id": "angel-swirl-profile",
+            "name": "angel-swirl-profile",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/angel-swirl-profile.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Edit only the supernatural orange FLAME EFFECTS on this winged character: strong visible orange tongues of magical fire now cover the surfaces of BOTH BLACK FEATHERED WINGS from shoulder roots to outer tips, not just glowing edges. Keep black feather shapes readable between flame tongues. Add a small distinct orange flame effect among his black hair tips, with face unaltered. Preserve everything else EXACTLY: tiny character scale at center, sideways horizontal awkward pose, ordinary ivory suit, hands, face, vast dark blue cloud composition, 16:9 camera. Light from fire softly illuminates nearby sleeves. No fire elsewhere, no injury, no new people, no zoom, no text or watermark.",
     "endFrameDescription": "",
@@ -35,10 +101,89 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 3,
       "source": "generated",
       "referenceKeys": [
         "shot:angel-swirl-profile"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:angel-swirl-profile",
+          "key": "shot:zlote-emoji-12/angel-swirl-profile",
+          "type": "shot",
+          "id": "angel-swirl-profile",
+          "name": "angel-swirl-profile",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/angel-swirl-profile.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-12T00:39:07.411729+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:aniol-wygnany"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:aniol-wygnany",
+              "key": "character:aniol-wygnany",
+              "type": "character",
+              "id": "aniol-wygnany",
+              "name": "Anioł wygnany",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/aniol-wygnany.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-09-12T00:39:07.411729+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:angel-swirl-profile"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:angel-swirl-profile",
+              "key": "shot:zlote-emoji-12/angel-swirl-profile",
+              "type": "shot",
+              "id": "angel-swirl-profile",
+              "name": "angel-swirl-profile",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/angel-swirl-profile.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 3,
+          "createdAt": "2026-09-12T00:39:07.411729+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:angel-swirl-profile"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:angel-swirl-profile",
+              "key": "shot:zlote-emoji-12/angel-swirl-profile",
+              "type": "shot",
+              "id": "angel-swirl-profile",
+              "name": "angel-swirl-profile",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/angel-swirl-profile.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/angel-swirl-profile/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/angel-swirl-profile/frame-start-thumb.webp",

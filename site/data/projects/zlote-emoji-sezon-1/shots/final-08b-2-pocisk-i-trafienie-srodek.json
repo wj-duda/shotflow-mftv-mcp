@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-sezon-1/final-08b-2-pocisk-i-trafienie-srodek",
@@ -9,7 +9,26 @@
   "description": "Druga kinetyczna odpowiedź Belicosy ma odmienną, boczną gramatykę. Kamera obserwuje działo i niebo z profilu, a następnie prowadzi wzrok równolegle do pojedynczego pocisku z niebieskim rdzeniem biegnącego do środkowego małego biookrętu. W jednym szerokim układzie czytelne są jednocześnie sylwetka lufy, boczny tor pocisku i niebieski organ celu; pozostałe dwie małe jednostki oraz statek-matka pozostają nietknięte.\n\nOdrzut jest cięższy niż za pierwszym razem: mokra papa faluje przy podstawie, podpory przesuwają drobny gruz, z chłodzenia wydostaje się krótka para, a na powierzchni dachu pojawiają się pierwsze włoskowate pęknięcia. Jeden wystrzał prowadzi do jednego trafienia zgodnego z niebieskim kodem amunicji; nie ma dodatkowych wiązek, celów ani efektów gry.",
   "project": {
     "id": "zlote-emoji-sezon-1",
-    "name": "Złote Emoji Sezon #1"
+    "key": "project:zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1",
+    "createdAt": "2026-08-17T13:42:01.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-sezon-1",
+    "projectCreatedAt": "2026-08-17T13:42:01.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 36,
+    "lastSequence": 36,
+    "occurrences": [
+      36
+    ],
+    "sequenceTotal": 69,
+    "uniqueShotCount": 69,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -37,6 +56,137 @@
       "id": "final-08a-2-pocisk-i-trafienie-lewo"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "prop:belicosa",
+        "key": "prop:belicosa",
+        "type": "prop",
+        "id": "belicosa",
+        "name": "Belicosa",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/belicosa.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:final-08b-1-czeslaw-komenda-srodek",
+        "key": "shot:zlote-emoji-sezon-1/final-08b-1-czeslaw-komenda-srodek",
+        "type": "shot",
+        "id": "final-08b-1-czeslaw-komenda-srodek",
+        "name": "Final 08B 1 Czesław — komenda środkowy cel",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-08b-1-czeslaw-komenda-srodek.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:dach-domu-kultury",
+        "key": "place:dach-domu-kultury",
+        "type": "place",
+        "id": "dach-domu-kultury",
+        "name": "Dach Domu Kultury",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dach-domu-kultury.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:dach-domu-kultury-obrona",
+        "key": "place:dach-domu-kultury-obrona",
+        "type": "place",
+        "id": "dach-domu-kultury-obrona",
+        "name": "Dach Domu Kultury podczas obrony",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dach-domu-kultury-obrona.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:roj-dzieci-gwiazd",
+        "key": "prop:roj-dzieci-gwiazd",
+        "type": "prop",
+        "id": "roj-dzieci-gwiazd",
+        "name": "Rój Dzieci Gwiazd",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/roj-dzieci-gwiazd.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:final-08a-2-pocisk-i-trafienie-lewo",
+        "key": "shot:zlote-emoji-sezon-1/final-08a-2-pocisk-i-trafienie-lewo",
+        "type": "shot",
+        "id": "final-08a-2-pocisk-i-trafienie-lewo",
+        "name": "Final 08A 2 — pocisk i trafienie lewą flankę",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-08a-2-pocisk-i-trafienie-lewo.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "shot:final-08b-1-czeslaw-komenda-srodek",
+          "shot:final-08a-2-pocisk-i-trafienie-lewo",
+          "place:dach-domu-kultury-obrona",
+          "prop:belicosa",
+          "prop:roj-dzieci-gwiazd"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:final-08b-1-czeslaw-komenda-srodek",
+            "key": "shot:zlote-emoji-sezon-1/final-08b-1-czeslaw-komenda-srodek",
+            "type": "shot",
+            "id": "final-08b-1-czeslaw-komenda-srodek",
+            "name": "Final 08B 1 Czesław — komenda środkowy cel",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-08b-1-czeslaw-komenda-srodek.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:final-08a-2-pocisk-i-trafienie-lewo",
+            "key": "shot:zlote-emoji-sezon-1/final-08a-2-pocisk-i-trafienie-lewo",
+            "type": "shot",
+            "id": "final-08a-2-pocisk-i-trafienie-lewo",
+            "name": "Final 08A 2 — pocisk i trafienie lewą flankę",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-08a-2-pocisk-i-trafienie-lewo.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "place:dach-domu-kultury-obrona",
+            "key": "place:dach-domu-kultury-obrona",
+            "type": "place",
+            "id": "dach-domu-kultury-obrona",
+            "name": "Dach Domu Kultury podczas obrony",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dach-domu-kultury-obrona.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:belicosa",
+            "key": "prop:belicosa",
+            "type": "prop",
+            "id": "belicosa",
+            "name": "Belicosa",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/belicosa.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:roj-dzieci-gwiazd",
+            "key": "prop:roj-dzieci-gwiazd",
+            "type": "prop",
+            "id": "roj-dzieci-gwiazd",
+            "name": "Rój Dzieci Gwiazd",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/roj-dzieci-gwiazd.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Photorealistic cinematic 16:9 second-volley Start Frame. A 24 mm combat camera lies at wet roof level extremely close and parallel to the canonical Belicosa barrel, canted about eight degrees. The massive single continuous barrel tears diagonally from the lower-left foreground toward the upper-right sky. Exactly one compact white-hot projectile with a saturated BLUE core has just cleared the far rectangular muzzle and races toward only the central small bio-ship's intact blue organ; it is discrete ammunition, never a continuous laser. One support and the circular base slam into the wet roof at the lower edge, roofing water and black grit burst toward the lens, cables snap taut and a short pressure cloud vents. Selective motion blur affects spray and debris while cannon and target remain readable. Exactly four ships remain: one colossal brood ship and three small yellow-, blue- and pink-red-organ attackers. War-correspondent immediacy, hard blue light grazing rain-black steel. No Czeslaw, impact, second projectile, extra ship, extra barrel, UI, text, logos or watermark.",
     "endFrameDescription": "",
@@ -51,6 +201,7 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 2,
       "source": "generated",
       "referenceKeys": [
@@ -59,6 +210,180 @@
         "place:dach-domu-kultury-obrona",
         "prop:belicosa",
         "prop:roj-dzieci-gwiazd"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:final-08b-1-czeslaw-komenda-srodek",
+          "key": "shot:zlote-emoji-sezon-1/final-08b-1-czeslaw-komenda-srodek",
+          "type": "shot",
+          "id": "final-08b-1-czeslaw-komenda-srodek",
+          "name": "Final 08B 1 Czesław — komenda środkowy cel",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-08b-1-czeslaw-komenda-srodek.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:final-08a-2-pocisk-i-trafienie-lewo",
+          "key": "shot:zlote-emoji-sezon-1/final-08a-2-pocisk-i-trafienie-lewo",
+          "type": "shot",
+          "id": "final-08a-2-pocisk-i-trafienie-lewo",
+          "name": "Final 08A 2 — pocisk i trafienie lewą flankę",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-08a-2-pocisk-i-trafienie-lewo.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "place:dach-domu-kultury-obrona",
+          "key": "place:dach-domu-kultury-obrona",
+          "type": "place",
+          "id": "dach-domu-kultury-obrona",
+          "name": "Dach Domu Kultury podczas obrony",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dach-domu-kultury-obrona.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:belicosa",
+          "key": "prop:belicosa",
+          "type": "prop",
+          "id": "belicosa",
+          "name": "Belicosa",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/belicosa.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:roj-dzieci-gwiazd",
+          "key": "prop:roj-dzieci-gwiazd",
+          "type": "prop",
+          "id": "roj-dzieci-gwiazd",
+          "name": "Rój Dzieci Gwiazd",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/roj-dzieci-gwiazd.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-19T10:00:00+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "place:dach-domu-kultury-obrona",
+            "prop:belicosa",
+            "prop:roj-dzieci-gwiazd",
+            "shot:final-08a-2-pocisk-i-trafienie-lewo"
+          ],
+          "references": [
+            {
+              "sourceKey": "place:dach-domu-kultury-obrona",
+              "key": "place:dach-domu-kultury-obrona",
+              "type": "place",
+              "id": "dach-domu-kultury-obrona",
+              "name": "Dach Domu Kultury podczas obrony",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dach-domu-kultury-obrona.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:belicosa",
+              "key": "prop:belicosa",
+              "type": "prop",
+              "id": "belicosa",
+              "name": "Belicosa",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/belicosa.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:roj-dzieci-gwiazd",
+              "key": "prop:roj-dzieci-gwiazd",
+              "type": "prop",
+              "id": "roj-dzieci-gwiazd",
+              "name": "Rój Dzieci Gwiazd",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/roj-dzieci-gwiazd.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:final-08a-2-pocisk-i-trafienie-lewo",
+              "key": "shot:zlote-emoji-sezon-1/final-08a-2-pocisk-i-trafienie-lewo",
+              "type": "shot",
+              "id": "final-08a-2-pocisk-i-trafienie-lewo",
+              "name": "Final 08A 2 — pocisk i trafienie lewą flankę",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-08a-2-pocisk-i-trafienie-lewo.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-08-19T19:57:17+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:final-08b-1-czeslaw-komenda-srodek",
+            "shot:final-08a-2-pocisk-i-trafienie-lewo",
+            "place:dach-domu-kultury-obrona",
+            "prop:belicosa",
+            "prop:roj-dzieci-gwiazd"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:final-08b-1-czeslaw-komenda-srodek",
+              "key": "shot:zlote-emoji-sezon-1/final-08b-1-czeslaw-komenda-srodek",
+              "type": "shot",
+              "id": "final-08b-1-czeslaw-komenda-srodek",
+              "name": "Final 08B 1 Czesław — komenda środkowy cel",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-08b-1-czeslaw-komenda-srodek.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:final-08a-2-pocisk-i-trafienie-lewo",
+              "key": "shot:zlote-emoji-sezon-1/final-08a-2-pocisk-i-trafienie-lewo",
+              "type": "shot",
+              "id": "final-08a-2-pocisk-i-trafienie-lewo",
+              "name": "Final 08A 2 — pocisk i trafienie lewą flankę",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-08a-2-pocisk-i-trafienie-lewo.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:dach-domu-kultury-obrona",
+              "key": "place:dach-domu-kultury-obrona",
+              "type": "place",
+              "id": "dach-domu-kultury-obrona",
+              "name": "Dach Domu Kultury podczas obrony",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dach-domu-kultury-obrona.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:belicosa",
+              "key": "prop:belicosa",
+              "type": "prop",
+              "id": "belicosa",
+              "name": "Belicosa",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/belicosa.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:roj-dzieci-gwiazd",
+              "key": "prop:roj-dzieci-gwiazd",
+              "type": "prop",
+              "id": "roj-dzieci-gwiazd",
+              "name": "Rój Dzieci Gwiazd",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/roj-dzieci-gwiazd.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-08b-2-pocisk-i-trafienie-srodek/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-08b-2-pocisk-i-trafienie-srodek/frame-start-thumb.webp",

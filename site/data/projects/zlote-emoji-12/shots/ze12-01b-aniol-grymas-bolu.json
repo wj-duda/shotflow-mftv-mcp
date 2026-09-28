@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-12/ze12-01b-aniol-grymas-bolu",
@@ -9,7 +9,26 @@
   "description": "Profil twarzy i górnego tułowia podczas pionowego upadku głową w dół. Naturalne połączenie szyi z barkami, głowa bez odginania do pleców. Zaciśnięte powieki, brwi ściągnięte bólem, usta otwarte w mimowolnym grymasie. Czarne włosy i zwęglone skrzydła płoną.",
   "project": {
     "id": "zlote-emoji-12",
-    "name": "Złote Emoji #12"
+    "key": "project:zlote-emoji-12",
+    "name": "Złote Emoji #12",
+    "createdAt": "2026-09-11T23:11:37.531Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-12",
+    "projectCreatedAt": "2026-09-11T23:11:37.531Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 4,
+    "lastSequence": 4,
+    "occurrences": [
+      4
+    ],
+    "sequenceTotal": 20,
+    "uniqueShotCount": 17,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -21,6 +40,64 @@
       "id": "aniol-wygnany"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:ze12-01-upadek-aniola",
+        "key": "shot:zlote-emoji-12/ze12-01-upadek-aniola",
+        "type": "shot",
+        "id": "ze12-01-upadek-aniola",
+        "name": "01 — Upadek anioła",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-01-upadek-aniola.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:aniol-wygnany",
+        "key": "character:aniol-wygnany",
+        "type": "character",
+        "id": "aniol-wygnany",
+        "name": "Anioł wygnany",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/aniol-wygnany.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 4,
+        "referenceKeys": [
+          "shot:ze12-01-upadek-aniola",
+          "character:aniol-wygnany"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze12-01-upadek-aniola",
+            "key": "shot:zlote-emoji-12/ze12-01-upadek-aniola",
+            "type": "shot",
+            "id": "ze12-01-upadek-aniola",
+            "name": "01 — Upadek anioła",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-01-upadek-aniola.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:aniol-wygnany",
+            "key": "character:aniol-wygnany",
+            "type": "character",
+            "id": "aniol-wygnany",
+            "name": "Anioł wygnany",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/aniol-wygnany.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Use case: identity-preserve. ONE photorealistic cinematic 16:9 closer coverage of reference1 fictional winged man descending vertically in night clouds. Reference1 locks exact SIDE PROFILE orientation, naturally INVERTED head with forehead below mouth in screen coordinates, anatomically coherent neck and torso, ivory suit, black hair, burning charcoal wings and blue moonlit setting. Reference2 is exact facial identity only, do not copy its upright orientation. Frame head, neck and upper chest from exactly same side as reference1. Head at lower center, shoulders above it, crown toward screen bottom; nose points screen RIGHT. Neck remains neutral following torso, NO backward arch or twist to face viewer. Side profile face, eyelids closed tightly, brows knitted, lips parted in pained expression, natural jaw proportions. Show vulnerability through expression, not joint distortion. Black hair and small orange ember flame tips stream upward toward chest; black feather edges behind shoulders frame upper left. Keep whole face visible. Detailed natural skin with soot, no wounds. Camera level, matching light, shallow background cloud focus, no moon necessary in crop. No front-facing reinterpretation, extra limbs, people, text or watermark.",
     "endFrameDescription": "",
@@ -35,11 +112,154 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 4,
       "source": "generated",
       "referenceKeys": [
         "shot:ze12-01-upadek-aniola",
         "character:aniol-wygnany"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze12-01-upadek-aniola",
+          "key": "shot:zlote-emoji-12/ze12-01-upadek-aniola",
+          "type": "shot",
+          "id": "ze12-01-upadek-aniola",
+          "name": "01 — Upadek anioła",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-01-upadek-aniola.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:aniol-wygnany",
+          "key": "character:aniol-wygnany",
+          "type": "character",
+          "id": "aniol-wygnany",
+          "name": "Anioł wygnany",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/aniol-wygnany.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-11T23:55:17.461278+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "note:aniol-wejscie-w-atmosfere-ze12"
+          ],
+          "references": [
+            {
+              "sourceKey": "note:aniol-wejscie-w-atmosfere-ze12",
+              "key": "note:aniol-wejscie-w-atmosfere-ze12",
+              "type": "note",
+              "id": "aniol-wejscie-w-atmosfere-ze12",
+              "name": "Anioł ZE12 — upadek głową w dół",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/aniol-wejscie-w-atmosfere-ze12.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-09-12T00:39:07.411729+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze12-01-upadek-aniola",
+            "character:aniol-wygnany"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze12-01-upadek-aniola",
+              "key": "shot:zlote-emoji-12/ze12-01-upadek-aniola",
+              "type": "shot",
+              "id": "ze12-01-upadek-aniola",
+              "name": "01 — Upadek anioła",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-01-upadek-aniola.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:aniol-wygnany",
+              "key": "character:aniol-wygnany",
+              "type": "character",
+              "id": "aniol-wygnany",
+              "name": "Anioł wygnany",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/aniol-wygnany.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 3,
+          "createdAt": "2026-09-12T01:12:33.360132+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze12-01-upadek-aniola",
+            "character:aniol-wygnany"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze12-01-upadek-aniola",
+              "key": "shot:zlote-emoji-12/ze12-01-upadek-aniola",
+              "type": "shot",
+              "id": "ze12-01-upadek-aniola",
+              "name": "01 — Upadek anioła",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-01-upadek-aniola.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:aniol-wygnany",
+              "key": "character:aniol-wygnany",
+              "type": "character",
+              "id": "aniol-wygnany",
+              "name": "Anioł wygnany",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/aniol-wygnany.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 4,
+          "createdAt": "2026-09-12T01:36:09.32496+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze12-01-upadek-aniola",
+            "character:aniol-wygnany"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze12-01-upadek-aniola",
+              "key": "shot:zlote-emoji-12/ze12-01-upadek-aniola",
+              "type": "shot",
+              "id": "ze12-01-upadek-aniola",
+              "name": "01 — Upadek anioła",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-01-upadek-aniola.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:aniol-wygnany",
+              "key": "character:aniol-wygnany",
+              "type": "character",
+              "id": "aniol-wygnany",
+              "name": "Anioł wygnany",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/aniol-wygnany.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-01b-aniol-grymas-bolu/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-01b-aniol-grymas-bolu/frame-start-thumb.webp",

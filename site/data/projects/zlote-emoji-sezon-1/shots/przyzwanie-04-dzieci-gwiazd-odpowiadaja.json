@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-sezon-1/przyzwanie-04-dzieci-gwiazd-odpowiadaja",
@@ -9,7 +9,26 @@
   "description": "realizuje finał speciala i pokazuje, że wezwanie naprawdę zadziałało. To pierwszy kosztowny shot-bohater.",
   "project": {
     "id": "zlote-emoji-sezon-1",
-    "name": "Złote Emoji Sezon #1"
+    "key": "project:zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1",
+    "createdAt": "2026-08-17T13:42:01.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-sezon-1",
+    "projectCreatedAt": "2026-08-17T13:42:01.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 15,
+    "lastSequence": 15,
+    "occurrences": [
+      15
+    ],
+    "sequenceTotal": 69,
+    "uniqueShotCount": 69,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -25,6 +44,85 @@
       "id": "przyzwanie-03-k20-aktywuje-rytual"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "place:dach-bloku-dzieci-gwiazd",
+        "key": "place:dach-bloku-dzieci-gwiazd",
+        "type": "place",
+        "id": "dach-bloku-dzieci-gwiazd",
+        "name": "Dach bloku Dzieci Gwiazd",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dach-bloku-dzieci-gwiazd.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:mistrz-konca",
+        "key": "character:mistrz-konca",
+        "type": "character",
+        "id": "mistrz-konca",
+        "name": "Mistrz Końca",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/mistrz-konca.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:przyzwanie-03-k20-aktywuje-rytual",
+        "key": "shot:zlote-emoji-sezon-1/przyzwanie-03-k20-aktywuje-rytual",
+        "type": "shot",
+        "id": "przyzwanie-03-k20-aktywuje-rytual",
+        "name": "Przyzwanie 03 K20 Aktywuje Rytual",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/przyzwanie-03-k20-aktywuje-rytual.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "place:dach-bloku-dzieci-gwiazd",
+          "character:mistrz-konca",
+          "shot:przyzwanie-03-k20-aktywuje-rytual"
+        ],
+        "references": [
+          {
+            "sourceKey": "place:dach-bloku-dzieci-gwiazd",
+            "key": "place:dach-bloku-dzieci-gwiazd",
+            "type": "place",
+            "id": "dach-bloku-dzieci-gwiazd",
+            "name": "Dach bloku Dzieci Gwiazd",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dach-bloku-dzieci-gwiazd.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:mistrz-konca",
+            "key": "character:mistrz-konca",
+            "type": "character",
+            "id": "mistrz-konca",
+            "name": "Mistrz Końca",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/mistrz-konca.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:przyzwanie-03-k20-aktywuje-rytual",
+            "key": "shot:zlote-emoji-sezon-1/przyzwanie-03-k20-aktywuje-rytual",
+            "type": "shot",
+            "id": "przyzwanie-03-k20-aktywuje-rytual",
+            "name": "Przyzwanie 03 K20 Aktywuje Rytual",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/przyzwanie-03-k20-aktywuje-rytual.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Photorealistic exact locked rooftop at the first instant the summoning begins. Preserve exact ritual-costumed Mistrz Konca and rooftop. A restrained green-old-gold pressure glow rises from the ritual stand while enormous organic silhouettes matching the canonical Children of the Stars begin emerging faintly inside the storm clouds. Mistrz has started raising his arms. Cold storm-blue night, one person, no fully solid ships, ground creatures, portal, altered architecture, new text or watermark.",
     "endFrameDescription": "",
@@ -39,12 +137,91 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 1,
       "source": "generated",
       "referenceKeys": [
         "place:dach-bloku-dzieci-gwiazd",
         "character:mistrz-konca",
         "shot:przyzwanie-03-k20-aktywuje-rytual"
+      ],
+      "references": [
+        {
+          "sourceKey": "place:dach-bloku-dzieci-gwiazd",
+          "key": "place:dach-bloku-dzieci-gwiazd",
+          "type": "place",
+          "id": "dach-bloku-dzieci-gwiazd",
+          "name": "Dach bloku Dzieci Gwiazd",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dach-bloku-dzieci-gwiazd.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:mistrz-konca",
+          "key": "character:mistrz-konca",
+          "type": "character",
+          "id": "mistrz-konca",
+          "name": "Mistrz Końca",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/mistrz-konca.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:przyzwanie-03-k20-aktywuje-rytual",
+          "key": "shot:zlote-emoji-sezon-1/przyzwanie-03-k20-aktywuje-rytual",
+          "type": "shot",
+          "id": "przyzwanie-03-k20-aktywuje-rytual",
+          "name": "Przyzwanie 03 K20 Aktywuje Rytual",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/przyzwanie-03-k20-aktywuje-rytual.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-18T23:50:00+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "place:dach-bloku-dzieci-gwiazd",
+            "character:mistrz-konca",
+            "shot:przyzwanie-03-k20-aktywuje-rytual"
+          ],
+          "references": [
+            {
+              "sourceKey": "place:dach-bloku-dzieci-gwiazd",
+              "key": "place:dach-bloku-dzieci-gwiazd",
+              "type": "place",
+              "id": "dach-bloku-dzieci-gwiazd",
+              "name": "Dach bloku Dzieci Gwiazd",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dach-bloku-dzieci-gwiazd.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:mistrz-konca",
+              "key": "character:mistrz-konca",
+              "type": "character",
+              "id": "mistrz-konca",
+              "name": "Mistrz Końca",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/mistrz-konca.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:przyzwanie-03-k20-aktywuje-rytual",
+              "key": "shot:zlote-emoji-sezon-1/przyzwanie-03-k20-aktywuje-rytual",
+              "type": "shot",
+              "id": "przyzwanie-03-k20-aktywuje-rytual",
+              "name": "Przyzwanie 03 K20 Aktywuje Rytual",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/przyzwanie-03-k20-aktywuje-rytual.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/przyzwanie-04-dzieci-gwiazd-odpowiadaja/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/przyzwanie-04-dzieci-gwiazd-odpowiadaja/frame-start-thumb.webp",

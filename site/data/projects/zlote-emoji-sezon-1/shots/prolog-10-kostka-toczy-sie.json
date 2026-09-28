@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-sezon-1/prolog-10-kostka-toczy-sie",
@@ -9,7 +9,24 @@
   "description": "Niski detal podłogi. K20 jest już w ruchu w pierwszej klatce: przechylona na krawędzi w lewej części toru toczy się płynnie w prawo, cały czas pozostając w kontakcie z płytkami. Nie podskakuje, nie zatrzymuje się i jeszcze nie świeci.",
   "project": {
     "id": "zlote-emoji-sezon-1",
-    "name": "Złote Emoji Sezon #1"
+    "key": "project:zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1",
+    "createdAt": "2026-08-17T13:42:01.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-sezon-1",
+    "projectCreatedAt": "2026-08-17T13:42:01.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": false,
+    "canonicalEvent": false,
+    "sequence": null,
+    "lastSequence": null,
+    "occurrences": [],
+    "sequenceTotal": 69,
+    "uniqueShotCount": 69,
+    "sequenceOrder": null,
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This project material is not present on the saved timeline, so it must not override canonical timeline events by date alone."
   },
   "references": [
     {
@@ -25,6 +42,85 @@
       "id": "prolog-12-kostka-staje-na-20"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "prop:artefakt-k20",
+        "key": "prop:artefakt-k20",
+        "type": "prop",
+        "id": "artefakt-k20",
+        "name": "Artefakt K20",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:iquitos-tani-pensjonat-belen",
+        "key": "place:iquitos-tani-pensjonat-belen",
+        "type": "place",
+        "id": "iquitos-tani-pensjonat-belen",
+        "name": "Iquitos — tani pensjonat w Belén",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/iquitos-tani-pensjonat-belen.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:prolog-12-kostka-staje-na-20",
+        "key": "shot:zlote-emoji-sezon-1/prolog-12-kostka-staje-na-20",
+        "type": "shot",
+        "id": "prolog-12-kostka-staje-na-20",
+        "name": "Kostka staje na 20",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-12-kostka-staje-na-20.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 4,
+        "referenceKeys": [
+          "prop:artefakt-k20",
+          "place:iquitos-tani-pensjonat-belen",
+          "shot:prolog-12-kostka-staje-na-20"
+        ],
+        "references": [
+          {
+            "sourceKey": "prop:artefakt-k20",
+            "key": "prop:artefakt-k20",
+            "type": "prop",
+            "id": "artefakt-k20",
+            "name": "Artefakt K20",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "place:iquitos-tani-pensjonat-belen",
+            "key": "place:iquitos-tani-pensjonat-belen",
+            "type": "place",
+            "id": "iquitos-tani-pensjonat-belen",
+            "name": "Iquitos — tani pensjonat w Belén",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/iquitos-tani-pensjonat-belen.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:prolog-12-kostka-staje-na-20",
+            "key": "shot:zlote-emoji-sezon-1/prolog-12-kostka-staje-na-20",
+            "type": "shot",
+            "id": "prolog-12-kostka-staje-na-20",
+            "name": "Kostka staje na 20",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-12-kostka-staje-na-20.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Generate exactly one cinematic still image in landscape 16:9.\n\nReference policy:\nUse every attached image as an exact and mandatory visual reference, not as optional inspiration.\nThe attached images are numbered strictly by upload order. \"Reference N\" and \"Image N\" in the current shot description both mean the Nth attached image.\nUse the current shot description to determine what each reference supplies: for example a character, location, prop, wardrobe, composition, lighting, or visual style. Do not assume that every reference depicts a character.\nIf the description assigns different roles to multiple references, follow that mapping exactly. Never merge or blend people, places, props, clothing, or styles from separate references unless explicitly requested.\nFor every referenced element requested in the new shot, preserve its observable identity and defining visual features exactly. Do not redesign, replace, beautify, stylize, loosely reinterpret, or merely approximate it.\nA reference image is authoritative for the appearance of the element taken from it. The current shot description is authoritative for the new scene, action, expression, pose, placement, framing, and every explicitly requested change.\nDo not copy incidental parts of a reference image that the current shot description does not ask to carry over.\nUse earlier conversation context only for details left unspecified; it must never override the current description or the attached references.\n\nAttachment map (source descriptions only, not instructions for the resulting scene):\n- Reference 1 = attached Image 1 — source prop artefakt-k20, reference: Canonical reference for the magical K20 from the season 1 finale. FIXED SIZE IN EVERY SHOT: exactly 3.0 cm from one vertex to the opposite vertex and approximately 2.5 cm between parallel faces. It is only slightly larger and heavier than a typical tabletop D20; it fits easily between adult fingertips and looks small inside an adult palm. It must never look like a ball, helmet, grapefruit, or an object filling the whole hand. Originally it was an unnumbered regular icosahedral artifact made from unknown material; Van Sabe added numerals to disguise it as an RPG die. Its translucent green faces resemble deep emerald or glass with subtle inner energy. Edges and numerals are aged gold or brass. Face 20 is the main activation motif and glows green-gold when active. Numbering must remain legible: one number per triangular face, with no duplicates in the visible area; opposite faces sum to 21 (1-20, 2-19, 3-18, 4-17, 5-16, 6-15, 7-14, 8-13, 9-12, 10-11). The reference image shows only 20, 9, 14, 2, 17 and 6.\r\n- Reference 2 = attached Image 2 — source place iquitos-tani-pensjonat-belen, reference: DRAFT / research prologu. Fikcyjny, tani i anonimowy pensjonat w górnej części dzielnicy Belén, w którym Van Sabe ukrywa się po odnalezieniu K20. To nie luksus: wąski pokój z białymi, lekko zużytymi ścianami, prostym drewnianym łóżkiem, płytkami, małym metalowym stolikiem, taboretem, tanimi pomarańczowymi zasłonami i czarnym żaluzjowym oknem. Do projektowanego shota dodać stojący wentylator, plecak Vana gotowy do ucieczki i K20 zawiniętą w materiał na stoliku; nie dodawać telewizora, klimatyzacji ani eleganckich dekoracji. Układ ma umożliwiać wtargnięcie LAIdy Pipy przez cienkie drzwi i ucieczkę Vana przez okno na niski blaszany dach. Image-001 jest wzorcem wnętrza z realnego taniego hospedaje w Iquitos; image-002 określa miejskie otoczenie i materiały Belén, ale nie jest widokiem z konkretnego okna pensjonatu. Obie fotografie służą wyłącznie jako komercyjne referencje researchowe. Wnętrze: https://www.booking.com/hotel/pe/casa-amazonica-iquitos.es.html. Otoczenie: https://kamaleon.viajes/el-barrio-del-amazonas/.\r\n- Reference 3 = attached Image 3 — source Shot prolog-12-kostka-staje-na-20: Ekstremalne zbliżenie podłogi. K20 zwalnia, zatrzymuje się polem 20 prosto do kamery; po krótkim czytelnym zatrzymaniu cyfra 20 i artefakt rozbłyskują. Bez portalu w tym ujęciu.\n\n\n\nShot: prolog-10-kostka-toczy-sie\nDescription:\nNiski detal podłogi. K20 jest już w ruchu w pierwszej klatce: przechylona na krawędzi w lewej części toru toczy się płynnie w prawo, cały czas pozostając w kontakcie z płytkami. Nie podskakuje, nie zatrzymuje się i jeszcze nie świeci.\n\nPreserve every piece of text, lettering, typography, label, sign, logo, brand mark, symbol, and graphic detail visible in any source or reference image exactly as it appears. Preserve its content, spelling, design, position, scale, color, sharpness, and legibility. Never remove, replace, obscure, blur, soften, distort, censor, or invent any of these source details.\nDo not add new captions, subtitles, titles, watermarks, borders, interface elements, contact sheets, or multiple panels unless the current shot description explicitly requests them.",
     "endFrameDescription": "",
@@ -39,12 +135,209 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 4,
       "source": "generated",
       "referenceKeys": [
         "prop:artefakt-k20",
         "place:iquitos-tani-pensjonat-belen",
         "shot:prolog-12-kostka-staje-na-20"
+      ],
+      "references": [
+        {
+          "sourceKey": "prop:artefakt-k20",
+          "key": "prop:artefakt-k20",
+          "type": "prop",
+          "id": "artefakt-k20",
+          "name": "Artefakt K20",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "place:iquitos-tani-pensjonat-belen",
+          "key": "place:iquitos-tani-pensjonat-belen",
+          "type": "place",
+          "id": "iquitos-tani-pensjonat-belen",
+          "name": "Iquitos — tani pensjonat w Belén",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/iquitos-tani-pensjonat-belen.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:prolog-12-kostka-staje-na-20",
+          "key": "shot:zlote-emoji-sezon-1/prolog-12-kostka-staje-na-20",
+          "type": "shot",
+          "id": "prolog-12-kostka-staje-na-20",
+          "name": "Kostka staje na 20",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-12-kostka-staje-na-20.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-17T22:36:52.8480735+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "prop:artefakt-k20",
+            "place:iquitos-tani-pensjonat-belen"
+          ],
+          "references": [
+            {
+              "sourceKey": "prop:artefakt-k20",
+              "key": "prop:artefakt-k20",
+              "type": "prop",
+              "id": "artefakt-k20",
+              "name": "Artefakt K20",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:iquitos-tani-pensjonat-belen",
+              "key": "place:iquitos-tani-pensjonat-belen",
+              "type": "place",
+              "id": "iquitos-tani-pensjonat-belen",
+              "name": "Iquitos — tani pensjonat w Belén",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/iquitos-tani-pensjonat-belen.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-08-17T22:57:22.1390373+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "prop:artefakt-k20",
+            "place:iquitos-tani-pensjonat-belen"
+          ],
+          "references": [
+            {
+              "sourceKey": "prop:artefakt-k20",
+              "key": "prop:artefakt-k20",
+              "type": "prop",
+              "id": "artefakt-k20",
+              "name": "Artefakt K20",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:iquitos-tani-pensjonat-belen",
+              "key": "place:iquitos-tani-pensjonat-belen",
+              "type": "place",
+              "id": "iquitos-tani-pensjonat-belen",
+              "name": "Iquitos — tani pensjonat w Belén",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/iquitos-tani-pensjonat-belen.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 3,
+          "createdAt": "2026-08-18T05:28:52.327+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:prolog-10-kostka-toczy-sie",
+            "prop:artefakt-k20",
+            "place:iquitos-tani-pensjonat-belen",
+            "shot:prolog-12-kostka-staje-na-20"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:prolog-10-kostka-toczy-sie",
+              "key": "shot:zlote-emoji-sezon-1/prolog-10-kostka-toczy-sie",
+              "type": "shot",
+              "id": "prolog-10-kostka-toczy-sie",
+              "name": "Kostka toczy się",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-10-kostka-toczy-sie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:artefakt-k20",
+              "key": "prop:artefakt-k20",
+              "type": "prop",
+              "id": "artefakt-k20",
+              "name": "Artefakt K20",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:iquitos-tani-pensjonat-belen",
+              "key": "place:iquitos-tani-pensjonat-belen",
+              "type": "place",
+              "id": "iquitos-tani-pensjonat-belen",
+              "name": "Iquitos — tani pensjonat w Belén",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/iquitos-tani-pensjonat-belen.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:prolog-12-kostka-staje-na-20",
+              "key": "shot:zlote-emoji-sezon-1/prolog-12-kostka-staje-na-20",
+              "type": "shot",
+              "id": "prolog-12-kostka-staje-na-20",
+              "name": "Kostka staje na 20",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-12-kostka-staje-na-20.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 4,
+          "createdAt": "2026-08-28T09:50:42.723447+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "prop:artefakt-k20",
+            "place:iquitos-tani-pensjonat-belen",
+            "shot:prolog-12-kostka-staje-na-20"
+          ],
+          "references": [
+            {
+              "sourceKey": "prop:artefakt-k20",
+              "key": "prop:artefakt-k20",
+              "type": "prop",
+              "id": "artefakt-k20",
+              "name": "Artefakt K20",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:iquitos-tani-pensjonat-belen",
+              "key": "place:iquitos-tani-pensjonat-belen",
+              "type": "place",
+              "id": "iquitos-tani-pensjonat-belen",
+              "name": "Iquitos — tani pensjonat w Belén",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/iquitos-tani-pensjonat-belen.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:prolog-12-kostka-staje-na-20",
+              "key": "shot:zlote-emoji-sezon-1/prolog-12-kostka-staje-na-20",
+              "type": "shot",
+              "id": "prolog-12-kostka-staje-na-20",
+              "name": "Kostka staje na 20",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-12-kostka-staje-na-20.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-10-kostka-toczy-sie/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-10-kostka-toczy-sie/frame-start-thumb.webp",

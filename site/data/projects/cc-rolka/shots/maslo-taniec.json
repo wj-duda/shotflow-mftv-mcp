@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:cc-rolka/maslo-taniec",
@@ -9,7 +9,26 @@
   "description": "Dariusz miesza masę i wykonuje jeden przesadnie delikatny krok taneczny.",
   "project": {
     "id": "cc-rolka",
-    "name": "CC-Rolka"
+    "key": "project:cc-rolka",
+    "name": "CC-Rolka",
+    "createdAt": "2026-09-04T21:44:12.588Z"
+  },
+  "chronology": {
+    "projectKey": "project:cc-rolka",
+    "projectCreatedAt": "2026-09-04T21:44:12.588Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 12,
+    "lastSequence": 12,
+    "occurrences": [
+      12
+    ],
+    "sequenceTotal": 18,
+    "uniqueShotCount": 18,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -21,6 +40,64 @@
       "id": "grimskald"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:dariusz-fartuszek",
+        "key": "shot:cc-rolka/dariusz-fartuszek",
+        "type": "shot",
+        "id": "dariusz-fartuszek",
+        "name": "Dariusz piecze z czułością",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/cc-rolka/shots/dariusz-fartuszek.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:grimskald",
+        "key": "character:grimskald",
+        "type": "character",
+        "id": "grimskald",
+        "name": "Pan Dariusz",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "shot:dariusz-fartuszek",
+          "character:grimskald"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:dariusz-fartuszek",
+            "key": "shot:cc-rolka/dariusz-fartuszek",
+            "type": "shot",
+            "id": "dariusz-fartuszek",
+            "name": "Dariusz piecze z czułością",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/cc-rolka/shots/dariusz-fartuszek.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:grimskald",
+            "key": "character:grimskald",
+            "type": "character",
+            "id": "grimskald",
+            "name": "Pan Dariusz",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Native vertical 9:16 energetic dance frame in the same kitchen. Exact Dariusz stirs batter while performing one delicate theatrical step: left heel lifted behind, knees soft, hips shifted, free wrist raised, braid swinging. Full body and bare feet stay inside the tall frame at a slight Dutch angle. Identical fully covering opaque pink heart apron and opaque high-waisted red satin athletic shorts; no shirt, hairy shoulders and arms visible, chest front and nipples covered. Exact photoreal late-1990s Polish TV music-comedy with warm tungsten and S-VHS texture. One person, physically possible pose, no nudity, white T-shirt, extra limbs, text or artifacts.",
     "endFrameDescription": "",
@@ -35,11 +112,101 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 2,
       "source": "generated",
       "referenceKeys": [
         "shot:dariusz-fartuszek",
         "character:grimskald"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:dariusz-fartuszek",
+          "key": "shot:cc-rolka/dariusz-fartuszek",
+          "type": "shot",
+          "id": "dariusz-fartuszek",
+          "name": "Dariusz piecze z czułością",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/cc-rolka/shots/dariusz-fartuszek.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:grimskald",
+          "key": "character:grimskald",
+          "type": "character",
+          "id": "grimskald",
+          "name": "Pan Dariusz",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-04T21:44:12.5882061+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:dariusz-fartuszek",
+            "character:grimskald"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:dariusz-fartuszek",
+              "key": "shot:cc-rolka/dariusz-fartuszek",
+              "type": "shot",
+              "id": "dariusz-fartuszek",
+              "name": "Dariusz piecze z czułością",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/cc-rolka/shots/dariusz-fartuszek.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:grimskald",
+              "key": "character:grimskald",
+              "type": "character",
+              "id": "grimskald",
+              "name": "Pan Dariusz",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-09-05T15:34:09.1486822+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:dariusz-fartuszek",
+            "character:grimskald"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:dariusz-fartuszek",
+              "key": "shot:cc-rolka/dariusz-fartuszek",
+              "type": "shot",
+              "id": "dariusz-fartuszek",
+              "name": "Dariusz piecze z czułością",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/cc-rolka/shots/dariusz-fartuszek.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:grimskald",
+              "key": "character:grimskald",
+              "type": "character",
+              "id": "grimskald",
+              "name": "Pan Dariusz",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/maslo-taniec/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/maslo-taniec/frame-start-thumb.webp",

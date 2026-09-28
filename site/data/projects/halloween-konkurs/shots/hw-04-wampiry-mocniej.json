@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:halloween-konkurs/hw-04-wampiry-mocniej",
@@ -9,7 +9,26 @@
   "description": "Gotowy Start Frame 1080×1920. Bez take’a. Planowany montaż: 3.75–4.5 s; 18 klatek / 24 fps. Planowany take: 3 s, wykorzystanie od początku. Powrót do szerokiego planu salonu z obojgiem bliźniaków. Odrobinę pochyla się do Marcela, wzrok nadal w prawo. To ostatnia kwestia przed akcją. W szerokim tle osiem zombie dociera do przeszklenia. Kamera: Nieruchomy szeroki plan po zbliżeniu Marcela; twarde cięcie na uderzenie w szybę. Dialog do osobnego nagrania: Mańka, mocniej: „Wampiry!”. Start Frame wygenerowany wbudowanym generatorem i zweryfikowany. Animacja bez natywnego audio; wypowiedzi, lipsync i SFX opracować osobno. Wstawiono na V1 timeline: sekwencja 25 sekund, 24 fps. Korekta użytkownika: powrót do szerokiego planu zamiast ponownego zbliżenia Mańki. Zombie w szarej kurtce dochodzi do prawego panelu.",
   "project": {
     "id": "halloween-konkurs",
-    "name": "Halloween Konkurs"
+    "key": "project:halloween-konkurs",
+    "name": "Halloween Konkurs",
+    "createdAt": "2026-09-20T15:29:11.720Z"
+  },
+  "chronology": {
+    "projectKey": "project:halloween-konkurs",
+    "projectCreatedAt": "2026-09-20T15:29:11.720Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 5,
+    "lastSequence": 5,
+    "occurrences": [
+      5
+    ],
+    "sequenceTotal": 25,
+    "uniqueShotCount": 21,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -21,6 +40,64 @@
       "id": "pokoj-manki-i-marcela"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:hw-01-wilkolaki-ogrod",
+        "key": "shot:halloween-konkurs/hw-01-wilkolaki-ogrod",
+        "type": "shot",
+        "id": "hw-01-wilkolaki-ogrod",
+        "name": "01 — Wilkołaki / zombie już w ogrodzie",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-01-wilkolaki-ogrod.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:pokoj-manki-i-marcela",
+        "key": "place:pokoj-manki-i-marcela",
+        "type": "place",
+        "id": "pokoj-manki-i-marcela",
+        "name": "Salon domu bliźniaków — plan z góry",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/pokoj-manki-i-marcela.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:hw-01-wilkolaki-ogrod",
+          "place:pokoj-manki-i-marcela"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:hw-01-wilkolaki-ogrod",
+            "key": "shot:halloween-konkurs/hw-01-wilkolaki-ogrod",
+            "type": "shot",
+            "id": "hw-01-wilkolaki-ogrod",
+            "name": "01 — Wilkołaki / zombie już w ogrodzie",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-01-wilkolaki-ogrod.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "place:pokoj-manki-i-marcela",
+            "key": "place:pokoj-manki-i-marcela",
+            "type": "place",
+            "id": "pokoj-manki-i-marcela",
+            "name": "Salon domu bliźniaków — plan z góry",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/pokoj-manki-i-marcela.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Precise object edit of supplied vertical film still. Preserve camera, twins and their two hand-held rulebooks, faces, costumes, light, all furniture. Correct TWO continuity mistakes only: REMOVE the extra grey-jacket male zombie at FAR LEFT edge of the garden group (behind the potted tree). Keep the grey-jacket man with raised palm beside central window mullion unchanged. This leaves exactly EIGHT zombies: grey jacket raised palm, navy hoodie woman, bald beige sweater man, auburn woman black tee, elderly moustache olive coat man, grey curly rust jacket woman, bearded plaid man, denim jacket woman. Fill removed duplicate with existing garden naturally. Also REMOVE ALL books lying on coffee table, remove snack bowl and remote newly introduced there. Preserve the original two mugs, runner and potted plant. No other alterations. Single 9:16 photoreal movie frame.",
     "endFrameDescription": "",
@@ -35,11 +112,69 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 1,
       "source": "generated",
       "referenceKeys": [
         "shot:hw-01-wilkolaki-ogrod",
         "place:pokoj-manki-i-marcela"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:hw-01-wilkolaki-ogrod",
+          "key": "shot:halloween-konkurs/hw-01-wilkolaki-ogrod",
+          "type": "shot",
+          "id": "hw-01-wilkolaki-ogrod",
+          "name": "01 — Wilkołaki / zombie już w ogrodzie",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-01-wilkolaki-ogrod.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "place:pokoj-manki-i-marcela",
+          "key": "place:pokoj-manki-i-marcela",
+          "type": "place",
+          "id": "pokoj-manki-i-marcela",
+          "name": "Salon domu bliźniaków — plan z góry",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/pokoj-manki-i-marcela.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-20T15:34:10.047987+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:hw-01-wilkolaki-ogrod",
+            "place:pokoj-manki-i-marcela"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:hw-01-wilkolaki-ogrod",
+              "key": "shot:halloween-konkurs/hw-01-wilkolaki-ogrod",
+              "type": "shot",
+              "id": "hw-01-wilkolaki-ogrod",
+              "name": "01 — Wilkołaki / zombie już w ogrodzie",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-01-wilkolaki-ogrod.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:pokoj-manki-i-marcela",
+              "key": "place:pokoj-manki-i-marcela",
+              "type": "place",
+              "id": "pokoj-manki-i-marcela",
+              "name": "Salon domu bliźniaków — plan z góry",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/pokoj-manki-i-marcela.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-04-wampiry-mocniej/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-04-wampiry-mocniej/frame-start-thumb.webp",

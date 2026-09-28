@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-10/ze10-tequila-intro",
@@ -9,7 +9,26 @@
   "description": "Dwusekundowy intro shot gagu. Na pierwszym planie kuchennej części mieszkania leży całkowicie opróżniona butelka DON QUETZAL z etykietą TEQUILA DE GUATEMALA. Kamera stoi bardzo nisko przy małym stole i jest skierowana wyłącznie w stronę białych szafek aneksu kuchennego. W kadrze widać nogi stołu i krzeseł, parkiet, zgnieciony kubek, karton po jedzeniu, konfetti oraz późnoporanne światło. Kanapa, stolik kawowy i cała część wypoczynkowa znajdują się za kamerą i nie mogą pojawić się nawet w nieostrym tle. Bohaterki pozostają poza kadrem; następny shot po raz pierwszy ujawnia śpiące Pipę i Maję.",
   "project": {
     "id": "zlote-emoji-10",
-    "name": "Złote Emoji #10"
+    "key": "project:zlote-emoji-10",
+    "name": "Złote Emoji #10",
+    "createdAt": "2026-08-22T23:55:35.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-10",
+    "projectCreatedAt": "2026-08-22T23:55:35.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 3,
+    "lastSequence": 3,
+    "occurrences": [
+      3
+    ],
+    "sequenceTotal": 10,
+    "uniqueShotCount": 10,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -21,6 +40,64 @@
       "id": "pusta-butelka-tequili"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "place:mieszkanie-po-afterze",
+        "key": "place:mieszkanie-po-afterze",
+        "type": "place",
+        "id": "mieszkanie-po-afterze",
+        "name": "Mieszkanie po afterze",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/mieszkanie-po-afterze.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:pusta-butelka-tequili",
+        "key": "prop:pusta-butelka-tequili",
+        "type": "prop",
+        "id": "pusta-butelka-tequili",
+        "name": "Don Quetzal — pusta tequila z Gwatemali",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/pusta-butelka-tequili.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 3,
+        "referenceKeys": [
+          "place:mieszkanie-po-afterze",
+          "prop:pusta-butelka-tequili"
+        ],
+        "references": [
+          {
+            "sourceKey": "place:mieszkanie-po-afterze",
+            "key": "place:mieszkanie-po-afterze",
+            "type": "place",
+            "id": "mieszkanie-po-afterze",
+            "name": "Mieszkanie po afterze",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/mieszkanie-po-afterze.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:pusta-butelka-tequili",
+            "key": "prop:pusta-butelka-tequili",
+            "type": "prop",
+            "id": "pusta-butelka-tequili",
+            "name": "Don Quetzal — pusta tequila z Gwatemali",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/pusta-butelka-tequili.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Create replacement Start Frame revision 3 for ze10-tequila-intro, cinematic photorealistic 16:9. Image 1 is the mandatory exact apartment geography and materials. Use ONLY its kitchenette and dining corner on the LEFT: parquet, small round dining table, chair legs, white lower kitchen cabinets, tiled backsplash and the same late-morning light. Image 2 defines ONLY the exact normal tall 700 ml bottle, cream-and-gold quetzal label, metal screw cap and exact readable fictional text DON QUETZAL and TEQUILA DE GUATEMALA. Do not reuse Image 2's background or camera direction. Very low camera beside the small dining table, pointed TOWARD the kitchenette cabinets and AWAY FROM the living-room seating area. The sofa, coffee table and lounge area are entirely behind the camera and MUST NOT appear anywhere, not even blurred or at an edge. Tight insert on the completely empty DON QUETZAL bottle lying on its side near one wooden table leg; metal cap beside its neck. Keep enough recognizable kitchen background to establish the same apartment: cabinet toe-kick, chair legs, a paper cup and a takeaway carton on the floor, sparse confetti, morning light on parquet. Ordinary believable tall rectangular clear-glass 0.7 l bottle, long narrow neck, thick base, empty interior. Label text correctly spelled and readable: large DON QUETZAL, smaller TEQUILA DE GUATEMALA, original golden quetzal-bird emblem. No people, body parts, sofa, couch, cushions, coffee table, living room, extra hero bottle, liquid, cork, lime, salt, shot glass, malformed glass, changed label, subtitles, watermark or any text outside the bottle label.",
     "endFrameDescription": "",
@@ -35,11 +112,122 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 3,
       "source": "generated",
       "referenceKeys": [
         "place:mieszkanie-po-afterze",
         "prop:pusta-butelka-tequili"
+      ],
+      "references": [
+        {
+          "sourceKey": "place:mieszkanie-po-afterze",
+          "key": "place:mieszkanie-po-afterze",
+          "type": "place",
+          "id": "mieszkanie-po-afterze",
+          "name": "Mieszkanie po afterze",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/mieszkanie-po-afterze.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:pusta-butelka-tequili",
+          "key": "prop:pusta-butelka-tequili",
+          "type": "prop",
+          "id": "pusta-butelka-tequili",
+          "name": "Don Quetzal — pusta tequila z Gwatemali",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/pusta-butelka-tequili.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-23T01:55:35+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "place:mieszkanie-po-afterze",
+            "prop:pusta-butelka-tequili"
+          ],
+          "references": [
+            {
+              "sourceKey": "place:mieszkanie-po-afterze",
+              "key": "place:mieszkanie-po-afterze",
+              "type": "place",
+              "id": "mieszkanie-po-afterze",
+              "name": "Mieszkanie po afterze",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/mieszkanie-po-afterze.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:pusta-butelka-tequili",
+              "key": "prop:pusta-butelka-tequili",
+              "type": "prop",
+              "id": "pusta-butelka-tequili",
+              "name": "Don Quetzal — pusta tequila z Gwatemali",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/pusta-butelka-tequili.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-08-23T02:03:41+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "place:mieszkanie-po-afterze"
+          ],
+          "references": [
+            {
+              "sourceKey": "place:mieszkanie-po-afterze",
+              "key": "place:mieszkanie-po-afterze",
+              "type": "place",
+              "id": "mieszkanie-po-afterze",
+              "name": "Mieszkanie po afterze",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/mieszkanie-po-afterze.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 3,
+          "createdAt": "2026-08-23T02:16:28+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "place:mieszkanie-po-afterze",
+            "prop:pusta-butelka-tequili"
+          ],
+          "references": [
+            {
+              "sourceKey": "place:mieszkanie-po-afterze",
+              "key": "place:mieszkanie-po-afterze",
+              "type": "place",
+              "id": "mieszkanie-po-afterze",
+              "name": "Mieszkanie po afterze",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/mieszkanie-po-afterze.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:pusta-butelka-tequili",
+              "key": "prop:pusta-butelka-tequili",
+              "type": "prop",
+              "id": "pusta-butelka-tequili",
+              "name": "Don Quetzal — pusta tequila z Gwatemali",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/pusta-butelka-tequili.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-10/shots/ze10-tequila-intro/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-10/shots/ze10-tequila-intro/frame-start-thumb.webp",

@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:halloween-konkurs/hw-15-ostatni-zombie",
@@ -9,7 +9,26 @@
   "description": "Ostatnie trafienie: kobieta w rdzawej kurtce gwałtownie traci równowagę i pada w środkowym przejściu. End pokazuje całą ósemkę pokonaną. Po upadku krótki bezruch przed cichym „Zombie” Zosi. Widoczny zakres źródła: 0–2.5 s, 24 fps, 1080×1920. Gotowe kadry; animacja do wygenerowania. Natywne audio wyłączone, dialog i SFX osobno.",
   "project": {
     "id": "halloween-konkurs",
-    "name": "Halloween Konkurs"
+    "key": "project:halloween-konkurs",
+    "name": "Halloween Konkurs",
+    "createdAt": "2026-09-20T15:29:11.720Z"
+  },
+  "chronology": {
+    "projectKey": "project:halloween-konkurs",
+    "projectCreatedAt": "2026-09-20T15:29:11.720Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 18,
+    "lastSequence": 18,
+    "occurrences": [
+      18
+    ],
+    "sequenceTotal": 25,
+    "uniqueShotCount": 21,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -25,6 +44,83 @@
       "id": "hw-15-ostatni-zombie"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:hw-13-fala-opada",
+        "key": "shot:halloween-konkurs/hw-13-fala-opada",
+        "type": "shot",
+        "id": "hw-13-fala-opada",
+        "name": "13 — Fala zombie załamuje się przy tarasie",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-13-fala-opada.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:horda-zombie-halloween",
+        "key": "character:horda-zombie-halloween",
+        "type": "character",
+        "id": "horda-zombie-halloween",
+        "name": "Horda zombie — ośmioro sąsiadów",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/horda-zombie-halloween.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:hw-15-ostatni-zombie",
+        "key": "shot:halloween-konkurs/hw-15-ostatni-zombie",
+        "type": "shot",
+        "id": "hw-15-ostatni-zombie",
+        "name": "15 — Ostatni zombie pada",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-15-ostatni-zombie.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 3,
+        "referenceKeys": [
+          "shot:hw-15-ostatni-zombie"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:hw-15-ostatni-zombie",
+            "key": "shot:halloween-konkurs/hw-15-ostatni-zombie",
+            "type": "shot",
+            "id": "hw-15-ostatni-zombie",
+            "name": "15 — Ostatni zombie pada",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-15-ostatni-zombie.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      },
+      {
+        "frameId": "frame-end",
+        "revision": 3,
+        "referenceKeys": [
+          "shot:hw-15-ostatni-zombie"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:hw-15-ostatni-zombie",
+            "key": "shot:halloween-konkurs/hw-15-ostatni-zombie",
+            "type": "shot",
+            "id": "hw-15-ostatni-zombie",
+            "name": "15 — Ostatni zombie pada",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-15-ostatni-zombie.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Precise continuity edit, restrained non-graphic fictional zombie movie, vertical 9:16. Image1 is START edit target: retain its camera and ALL original poses. Older rust-jacket zombie still upright in central passage recoiling, seven others already down, grey man front-right, navy woman left floor, bald beige man at right threshold, four outside. Image2 is previous END damage master: transfer exact same small superficial dark-red shoulder marks and torn fabric on those THREE grounded foreground zombies. Transfer the exact two star cracks in left pane, two dents in right metal sash and chipped coffee-table edge. Image3 is this shot's END for future injury placement only: on standing rust woman's cream blouse begin the same tiny red upper-chest injury mark at collar level as image3, with a little dust from the same point; remove conflicting large dust burst over outer jacket shoulder. Keep every other character's pose unchanged from image1, preserve grounded bodies and their recognizable faces. Restrained small makeup injury marks, no exposed tissue, gore, blood sprays or pools. Keep original warm lamp, olive sofa, glass debris, cool Polish garden. No extra people, no replacing standing woman with fallen pose, no text. Same photorealistic shot.",
     "endFrameDescription": "End15: osiem postaci; ostatnia kobieta leży w przejściu, szara kurtka zachowuje pozycję ze Start. Przywrócona czerwona krata w poprzednim ułożeniu na tarasie.",
@@ -39,10 +135,111 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 3,
       "source": "generated",
       "referenceKeys": [
         "shot:hw-15-ostatni-zombie"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:hw-15-ostatni-zombie",
+          "key": "shot:halloween-konkurs/hw-15-ostatni-zombie",
+          "type": "shot",
+          "id": "hw-15-ostatni-zombie",
+          "name": "15 — Ostatni zombie pada",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-15-ostatni-zombie.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-20T16:06:22.03054+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:hw-13-fala-opada",
+            "character:horda-zombie-halloween"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:hw-13-fala-opada",
+              "key": "shot:halloween-konkurs/hw-13-fala-opada",
+              "type": "shot",
+              "id": "hw-13-fala-opada",
+              "name": "13 — Fala zombie załamuje się przy tarasie",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-13-fala-opada.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:horda-zombie-halloween",
+              "key": "character:horda-zombie-halloween",
+              "type": "character",
+              "id": "horda-zombie-halloween",
+              "name": "Horda zombie — ośmioro sąsiadów",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/horda-zombie-halloween.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-09-20T16:48:40.142108+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:hw-13-fala-opada",
+            "shot:hw-15-ostatni-zombie"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:hw-13-fala-opada",
+              "key": "shot:halloween-konkurs/hw-13-fala-opada",
+              "type": "shot",
+              "id": "hw-13-fala-opada",
+              "name": "13 — Fala zombie załamuje się przy tarasie",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-13-fala-opada.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:hw-15-ostatni-zombie",
+              "key": "shot:halloween-konkurs/hw-15-ostatni-zombie",
+              "type": "shot",
+              "id": "hw-15-ostatni-zombie",
+              "name": "15 — Ostatni zombie pada",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-15-ostatni-zombie.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 3,
+          "createdAt": "2026-09-21T17:45:07.734569+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:hw-15-ostatni-zombie"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:hw-15-ostatni-zombie",
+              "key": "shot:halloween-konkurs/hw-15-ostatni-zombie",
+              "type": "shot",
+              "id": "hw-15-ostatni-zombie",
+              "name": "15 — Ostatni zombie pada",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-15-ostatni-zombie.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-15-ostatni-zombie/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-15-ostatni-zombie/frame-start-thumb.webp",
@@ -52,10 +249,89 @@
     },
     {
       "id": "frame-end",
+      "role": "frame-end",
       "revision": 3,
       "source": "generated",
       "referenceKeys": [
         "shot:hw-15-ostatni-zombie"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:hw-15-ostatni-zombie",
+          "key": "shot:halloween-konkurs/hw-15-ostatni-zombie",
+          "type": "shot",
+          "id": "hw-15-ostatni-zombie",
+          "name": "15 — Ostatni zombie pada",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-15-ostatni-zombie.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-20T16:51:14.315719+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:hw-15-ostatni-zombie"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:hw-15-ostatni-zombie",
+              "key": "shot:halloween-konkurs/hw-15-ostatni-zombie",
+              "type": "shot",
+              "id": "hw-15-ostatni-zombie",
+              "name": "15 — Ostatni zombie pada",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-15-ostatni-zombie.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-09-21T17:35:18.695594+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:hw-15-ostatni-zombie"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:hw-15-ostatni-zombie",
+              "key": "shot:halloween-konkurs/hw-15-ostatni-zombie",
+              "type": "shot",
+              "id": "hw-15-ostatni-zombie",
+              "name": "15 — Ostatni zombie pada",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-15-ostatni-zombie.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 3,
+          "createdAt": "2026-09-21T19:23:46.874633+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:hw-15-ostatni-zombie"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:hw-15-ostatni-zombie",
+              "key": "shot:halloween-konkurs/hw-15-ostatni-zombie",
+              "type": "shot",
+              "id": "hw-15-ostatni-zombie",
+              "name": "15 — Ostatni zombie pada",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-15-ostatni-zombie.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-15-ostatni-zombie/frame-end.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-15-ostatni-zombie/frame-end-thumb.webp",

@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-11/maia-przed-remontem",
@@ -9,7 +9,24 @@
   "description": "Maia wysiada przy Domu Kultury i zamiera. Po katastrofie z Belicosą budynek jest nadal odbudowywany, a na ogrodzeniu wisi tablica: REMONT — ZAMKNIĘTE DO ODWOŁANIA.",
   "project": {
     "id": "zlote-emoji-11",
-    "name": "Złote Emoji #11"
+    "key": "project:zlote-emoji-11",
+    "name": "Złote Emoji #11",
+    "createdAt": "2026-09-05T16:08:47.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-11",
+    "projectCreatedAt": "2026-09-05T16:08:47.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": false,
+    "canonicalEvent": false,
+    "sequence": null,
+    "lastSequence": null,
+    "occurrences": [],
+    "sequenceTotal": 7,
+    "uniqueShotCount": 7,
+    "sequenceOrder": null,
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This project material is not present on the saved timeline, so it must not override canonical timeline events by date alone."
   },
   "references": [
     {
@@ -33,6 +50,127 @@
       "id": "movie-shot"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:maia-gotowa-na-gale",
+        "key": "shot:zlote-emoji-11/maia-gotowa-na-gale",
+        "type": "shot",
+        "id": "maia-gotowa-na-gale",
+        "name": "Maia gotowa na galę",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-gotowa-na-gale.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:maia-przejazd-przez-lazy",
+        "key": "shot:zlote-emoji-11/maia-przejazd-przez-lazy",
+        "type": "shot",
+        "id": "maia-przejazd-przez-lazy",
+        "name": "Przejazd przez Łazy",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-przejazd-przez-lazy.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:dom-kultury-wejscie",
+        "key": "place:dom-kultury-wejscie",
+        "type": "place",
+        "id": "dom-kultury-wejscie",
+        "name": "Wejście do Domu Kultruy",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-wejscie.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:dom-kultury-ruina-po-belicosie",
+        "key": "place:dom-kultury-ruina-po-belicosie",
+        "type": "place",
+        "id": "dom-kultury-ruina-po-belicosie",
+        "name": "Dom Kultury — ruina po Belicosie",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-ruina-po-belicosie.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "note:movie-shot",
+        "key": "note:movie-shot",
+        "type": "note",
+        "id": "movie-shot",
+        "name": "Movie",
+        "relationship": "story-and-continuity-context",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/movie-shot.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "shot:maia-gotowa-na-gale",
+          "shot:maia-przejazd-przez-lazy",
+          "place:dom-kultury-wejscie",
+          "place:dom-kultury-ruina-po-belicosie",
+          "note:movie-shot"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:maia-gotowa-na-gale",
+            "key": "shot:zlote-emoji-11/maia-gotowa-na-gale",
+            "type": "shot",
+            "id": "maia-gotowa-na-gale",
+            "name": "Maia gotowa na galę",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-gotowa-na-gale.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:maia-przejazd-przez-lazy",
+            "key": "shot:zlote-emoji-11/maia-przejazd-przez-lazy",
+            "type": "shot",
+            "id": "maia-przejazd-przez-lazy",
+            "name": "Przejazd przez Łazy",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-przejazd-przez-lazy.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "place:dom-kultury-wejscie",
+            "key": "place:dom-kultury-wejscie",
+            "type": "place",
+            "id": "dom-kultury-wejscie",
+            "name": "Wejście do Domu Kultruy",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-wejscie.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "place:dom-kultury-ruina-po-belicosie",
+            "key": "place:dom-kultury-ruina-po-belicosie",
+            "type": "place",
+            "id": "dom-kultury-ruina-po-belicosie",
+            "name": "Dom Kultury — ruina po Belicosie",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-ruina-po-belicosie.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "note:movie-shot",
+            "key": "note:movie-shot",
+            "type": "note",
+            "id": "movie-shot",
+            "name": "Movie",
+            "relationship": "story-and-continuity-context",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/movie-shot.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Kanoniczny front Domu Kultury w Łazach kilka tygodni po finale sezonu. Zachować dokładną niską parterową bryłę: ciemnoróżowy górny pas, kremową fakturowaną fasadę, bordowy cokół, centralne szklane wejście, szerokie schody z czarnymi poręczami, okna, głośnik po lewej, antenę po prawej, iglak oraz szary paczkomat po lewej. Lokalna środkowo-prawa część dachu i górnej fasady jest odbudowywana po zapadnięciu Belicosy: rusztowania, podpory, częściowa niebieska plandeka, uporządkowany gruz i materiały. Belicosa całkowicie usunięta. Maia v2 stoi obok ciemnego hatchbacka i patrzy na ogrodzenie. Stały szyld brzmi dokładnie DOM KULTURY. Biała tablica ma dokładnie dwie linie: REMONT / ZAMKNIĘTE DO ODWOŁANIA. Bez napisu AIMFTV, starego baneru gali, ludzi, fantastycznych maszyn i dodatkowych tekstów.",
     "endFrameDescription": "",
@@ -47,6 +185,7 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 2,
       "source": "generated",
       "referenceKeys": [
@@ -55,6 +194,191 @@
         "place:dom-kultury-wejscie",
         "place:dom-kultury-ruina-po-belicosie",
         "note:movie-shot"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:maia-gotowa-na-gale",
+          "key": "shot:zlote-emoji-11/maia-gotowa-na-gale",
+          "type": "shot",
+          "id": "maia-gotowa-na-gale",
+          "name": "Maia gotowa na galę",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-gotowa-na-gale.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:maia-przejazd-przez-lazy",
+          "key": "shot:zlote-emoji-11/maia-przejazd-przez-lazy",
+          "type": "shot",
+          "id": "maia-przejazd-przez-lazy",
+          "name": "Przejazd przez Łazy",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-przejazd-przez-lazy.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "place:dom-kultury-wejscie",
+          "key": "place:dom-kultury-wejscie",
+          "type": "place",
+          "id": "dom-kultury-wejscie",
+          "name": "Wejście do Domu Kultruy",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-wejscie.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "place:dom-kultury-ruina-po-belicosie",
+          "key": "place:dom-kultury-ruina-po-belicosie",
+          "type": "place",
+          "id": "dom-kultury-ruina-po-belicosie",
+          "name": "Dom Kultury — ruina po Belicosie",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-ruina-po-belicosie.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "note:movie-shot",
+          "key": "note:movie-shot",
+          "type": "note",
+          "id": "movie-shot",
+          "name": "Movie",
+          "relationship": "story-and-continuity-context",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/movie-shot.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-05T18:08:47+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:maia-jedzie-na-gale",
+            "character:maia-melodies-v2",
+            "place:dom-kultury-ruina-po-belicosie",
+            "place:lazy",
+            "note:movie-shot"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:maia-jedzie-na-gale",
+              "key": "shot:zlote-emoji-11/maia-jedzie-na-gale",
+              "type": "shot",
+              "id": "maia-jedzie-na-gale",
+              "name": "Maia jedzie na super galę",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-jedzie-na-gale.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:maia-melodies-v2",
+              "key": "character:maia-melodies-v2",
+              "type": "character",
+              "id": "maia-melodies-v2",
+              "name": "Maia Melodies v2",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/maia-melodies-v2.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:dom-kultury-ruina-po-belicosie",
+              "key": "place:dom-kultury-ruina-po-belicosie",
+              "type": "place",
+              "id": "dom-kultury-ruina-po-belicosie",
+              "name": "Dom Kultury — ruina po Belicosie",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-ruina-po-belicosie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:lazy",
+              "key": "place:lazy",
+              "type": "place",
+              "id": "lazy",
+              "name": "Łazy",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lazy.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "note:movie-shot",
+              "key": "note:movie-shot",
+              "type": "note",
+              "id": "movie-shot",
+              "name": "Movie",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/movie-shot.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-09-05T18:54:56+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:maia-gotowa-na-gale",
+            "shot:maia-przejazd-przez-lazy",
+            "place:dom-kultury-wejscie",
+            "place:dom-kultury-ruina-po-belicosie",
+            "note:movie-shot"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:maia-gotowa-na-gale",
+              "key": "shot:zlote-emoji-11/maia-gotowa-na-gale",
+              "type": "shot",
+              "id": "maia-gotowa-na-gale",
+              "name": "Maia gotowa na galę",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-gotowa-na-gale.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:maia-przejazd-przez-lazy",
+              "key": "shot:zlote-emoji-11/maia-przejazd-przez-lazy",
+              "type": "shot",
+              "id": "maia-przejazd-przez-lazy",
+              "name": "Przejazd przez Łazy",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-przejazd-przez-lazy.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:dom-kultury-wejscie",
+              "key": "place:dom-kultury-wejscie",
+              "type": "place",
+              "id": "dom-kultury-wejscie",
+              "name": "Wejście do Domu Kultruy",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-wejscie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:dom-kultury-ruina-po-belicosie",
+              "key": "place:dom-kultury-ruina-po-belicosie",
+              "type": "place",
+              "id": "dom-kultury-ruina-po-belicosie",
+              "name": "Dom Kultury — ruina po Belicosie",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-ruina-po-belicosie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "note:movie-shot",
+              "key": "note:movie-shot",
+              "type": "note",
+              "id": "movie-shot",
+              "name": "Movie",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/movie-shot.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-11/shots/maia-przed-remontem/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-11/shots/maia-przed-remontem/frame-start-thumb.webp",

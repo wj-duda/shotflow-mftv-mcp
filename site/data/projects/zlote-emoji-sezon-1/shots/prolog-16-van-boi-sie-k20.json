@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-sezon-1/prolog-16-van-boi-sie-k20",
@@ -9,7 +9,24 @@
   "description": "Osobne ciasne ujęcie na dachu. Van patrzy na świecącą K20 w dłoni i rozumie, że przedmiot zadziałał bez jego kontroli; strach przed artefaktem wypiera ulgę po ucieczce. Jedna nieruchoma kamera.",
   "project": {
     "id": "zlote-emoji-sezon-1",
-    "name": "Złote Emoji Sezon #1"
+    "key": "project:zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1",
+    "createdAt": "2026-08-17T13:42:01.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-sezon-1",
+    "projectCreatedAt": "2026-08-17T13:42:01.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": false,
+    "canonicalEvent": false,
+    "sequence": null,
+    "lastSequence": null,
+    "occurrences": [],
+    "sequenceTotal": 69,
+    "uniqueShotCount": 69,
+    "sequenceOrder": null,
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This project material is not present on the saved timeline, so it must not override canonical timeline events by date alone."
   },
   "references": [
     {
@@ -29,6 +46,106 @@
       "id": "prolog-15-van-na-dachu"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:van-sabe",
+        "key": "character:van-sabe",
+        "type": "character",
+        "id": "van-sabe",
+        "name": "Van Sabe",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/van-sabe.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:artefakt-k20",
+        "key": "prop:artefakt-k20",
+        "type": "prop",
+        "id": "artefakt-k20",
+        "name": "Artefakt K20",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:iquitos-ulica-noc",
+        "key": "place:iquitos-ulica-noc",
+        "type": "place",
+        "id": "iquitos-ulica-noc",
+        "name": "Iquitos — Jirón Próspero nocą",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/iquitos-ulica-noc.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:prolog-15-van-na-dachu",
+        "key": "shot:zlote-emoji-sezon-1/prolog-15-van-na-dachu",
+        "type": "shot",
+        "id": "prolog-15-van-na-dachu",
+        "name": "Van ucieka na dach",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-15-van-na-dachu.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "character:van-sabe",
+          "prop:artefakt-k20",
+          "place:iquitos-ulica-noc",
+          "shot:prolog-15-van-na-dachu"
+        ],
+        "references": [
+          {
+            "sourceKey": "character:van-sabe",
+            "key": "character:van-sabe",
+            "type": "character",
+            "id": "van-sabe",
+            "name": "Van Sabe",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/van-sabe.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:artefakt-k20",
+            "key": "prop:artefakt-k20",
+            "type": "prop",
+            "id": "artefakt-k20",
+            "name": "Artefakt K20",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "place:iquitos-ulica-noc",
+            "key": "place:iquitos-ulica-noc",
+            "type": "place",
+            "id": "iquitos-ulica-noc",
+            "name": "Iquitos — Jirón Próspero nocą",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/iquitos-ulica-noc.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:prolog-15-van-na-dachu",
+            "key": "shot:zlote-emoji-sezon-1/prolog-15-van-na-dachu",
+            "type": "shot",
+            "id": "prolog-15-van-na-dachu",
+            "name": "Van ucieka na dach",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-15-van-na-dachu.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Exact edit of revision 1: preserve Vans emotional rooftop close-up and reduce only the K20 to canonical 3.0 cm vertex-to-vertex, about 2.5 cm face-to-face. It is a small die held between the pads of both hands, around two fingertips wide, while its glow still lights his frightened face.",
     "endFrameDescription": "",
@@ -43,6 +160,7 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 2,
       "source": "generated",
       "referenceKeys": [
@@ -50,6 +168,159 @@
         "prop:artefakt-k20",
         "place:iquitos-ulica-noc",
         "shot:prolog-15-van-na-dachu"
+      ],
+      "references": [
+        {
+          "sourceKey": "character:van-sabe",
+          "key": "character:van-sabe",
+          "type": "character",
+          "id": "van-sabe",
+          "name": "Van Sabe",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/van-sabe.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:artefakt-k20",
+          "key": "prop:artefakt-k20",
+          "type": "prop",
+          "id": "artefakt-k20",
+          "name": "Artefakt K20",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "place:iquitos-ulica-noc",
+          "key": "place:iquitos-ulica-noc",
+          "type": "place",
+          "id": "iquitos-ulica-noc",
+          "name": "Iquitos — Jirón Próspero nocą",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/iquitos-ulica-noc.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:prolog-15-van-na-dachu",
+          "key": "shot:zlote-emoji-sezon-1/prolog-15-van-na-dachu",
+          "type": "shot",
+          "id": "prolog-15-van-na-dachu",
+          "name": "Van ucieka na dach",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-15-van-na-dachu.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-17T22:46:45.5906414+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:van-sabe",
+            "prop:artefakt-k20",
+            "place:iquitos-ulica-noc",
+            "shot:prolog-15-van-na-dachu"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:van-sabe",
+              "key": "character:van-sabe",
+              "type": "character",
+              "id": "van-sabe",
+              "name": "Van Sabe",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/van-sabe.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:artefakt-k20",
+              "key": "prop:artefakt-k20",
+              "type": "prop",
+              "id": "artefakt-k20",
+              "name": "Artefakt K20",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:iquitos-ulica-noc",
+              "key": "place:iquitos-ulica-noc",
+              "type": "place",
+              "id": "iquitos-ulica-noc",
+              "name": "Iquitos — Jirón Próspero nocą",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/iquitos-ulica-noc.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:prolog-15-van-na-dachu",
+              "key": "shot:zlote-emoji-sezon-1/prolog-15-van-na-dachu",
+              "type": "shot",
+              "id": "prolog-15-van-na-dachu",
+              "name": "Van ucieka na dach",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-15-van-na-dachu.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-08-17T23:03:18.5650181+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:van-sabe",
+            "prop:artefakt-k20",
+            "place:iquitos-ulica-noc",
+            "shot:prolog-15-van-na-dachu"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:van-sabe",
+              "key": "character:van-sabe",
+              "type": "character",
+              "id": "van-sabe",
+              "name": "Van Sabe",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/van-sabe.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:artefakt-k20",
+              "key": "prop:artefakt-k20",
+              "type": "prop",
+              "id": "artefakt-k20",
+              "name": "Artefakt K20",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:iquitos-ulica-noc",
+              "key": "place:iquitos-ulica-noc",
+              "type": "place",
+              "id": "iquitos-ulica-noc",
+              "name": "Iquitos — Jirón Próspero nocą",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/iquitos-ulica-noc.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:prolog-15-van-na-dachu",
+              "key": "shot:zlote-emoji-sezon-1/prolog-15-van-na-dachu",
+              "type": "shot",
+              "id": "prolog-15-van-na-dachu",
+              "name": "Van ucieka na dach",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-15-van-na-dachu.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-16-van-boi-sie-k20/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-16-van-boi-sie-k20/frame-start-thumb.webp",

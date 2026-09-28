@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "order": "oldest-first",
   "projects": [
@@ -14,8 +14,8 @@
       "createdAt": "2026-07-31T12:16:21.368Z",
       "shotCount": 15,
       "imageCount": 1,
-      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/flow/shots/tomasz/frame-start.webp",
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/flow/shots/tomasz/frame-start-thumb.webp",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/flow/shots/a1/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/flow/shots/a1/frame-start-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/flow/index.json",
       "url": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/flow/index.json"
     },
@@ -29,8 +29,8 @@
       "createdAt": "2026-08-01T18:56:27.457Z",
       "shotCount": 17,
       "imageCount": 1,
-      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-7/shots/klamka/frame-start.webp",
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-7/shots/klamka/frame-start-thumb.webp",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-7/shots/dariusz-tlumaczenie/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-7/shots/dariusz-tlumaczenie/frame-start-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-7/index.json",
       "url": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-7/index.json"
     },
@@ -44,8 +44,8 @@
       "createdAt": "2026-08-02T20:09:25.290Z",
       "shotCount": 8,
       "imageCount": 1,
-      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/you-talking/shots/czeslaw-c/frame-start.webp",
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/you-talking/shots/czeslaw-c/frame-start-thumb.webp",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/you-talking/shots/czeslaw-a/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/you-talking/shots/czeslaw-a/frame-start-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/you-talking/index.json",
       "url": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/you-talking/index.json"
     },
@@ -59,8 +59,8 @@
       "createdAt": "2026-08-03T12:09:48.055Z",
       "shotCount": 15,
       "imageCount": 1,
-      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/prezent-dla-halinki-1/shots/mis/frame-start.webp",
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/prezent-dla-halinki-1/shots/mis/frame-start-thumb.webp",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/prezent-dla-halinki-1/shots/gra-muzyka/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/prezent-dla-halinki-1/shots/gra-muzyka/frame-start-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/prezent-dla-halinki-1/index.json",
       "url": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/prezent-dla-halinki-1/index.json"
     },
@@ -74,8 +74,8 @@
       "createdAt": "2026-08-03T15:31:08.817Z",
       "shotCount": 7,
       "imageCount": 1,
-      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-8/shots/halinka-odpowiedz/frame-start.webp",
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-8/shots/halinka-odpowiedz/frame-start-thumb.webp",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-8/shots/halinka-konsternacja/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-8/shots/halinka-konsternacja/frame-start-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-8/index.json",
       "url": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-8/index.json"
     },
@@ -89,8 +89,8 @@
       "createdAt": "2026-08-15T21:51:58.401Z",
       "shotCount": 14,
       "imageCount": 1,
-      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-9/shots/maja-box-closed/frame-start.webp",
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-9/shots/maja-box-closed/frame-start-thumb.webp",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-9/shots/czeslaw-halinka-dance/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-9/shots/czeslaw-halinka-dance/frame-start-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-9/index.json",
       "url": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-9/index.json"
     },
@@ -104,8 +104,8 @@
       "createdAt": "2026-08-17T13:42:01.000Z",
       "shotCount": 99,
       "imageCount": 1,
-      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/finale-2/frame-start.webp",
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/finale-2/frame-start-thumb.webp",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-13-halinka-skupcie-sie-na/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-13-halinka-skupcie-sie-na/frame-start-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/index.json",
       "url": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/index.json"
     },
@@ -134,8 +134,8 @@
       "createdAt": "2026-08-30T09:28:39.402Z",
       "shotCount": 19,
       "imageCount": 1,
-      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/coco-jambo-26/shots/idle-4/frame-start.webp",
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/coco-jambo-26/shots/idle-4/frame-start-thumb.webp",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/coco-jambo-26/shots/idle-4-back/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/coco-jambo-26/shots/idle-4-back/frame-start-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/coco-jambo-26/index.json",
       "url": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/coco-jambo-26/index.json"
     },
@@ -149,8 +149,8 @@
       "createdAt": "2026-09-04T21:44:12.588Z",
       "shotCount": 24,
       "imageCount": 1,
-      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/maslo-taniec/frame-start.webp",
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/maslo-taniec/frame-start-thumb.webp",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/dariusz-fartuszek/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/dariusz-fartuszek/frame-start-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/cc-rolka/index.json",
       "url": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/cc-rolka/index.json"
     },
@@ -164,8 +164,8 @@
       "createdAt": "2026-09-05T16:08:47.000Z",
       "shotCount": 17,
       "imageCount": 1,
-      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-11/shots/maia-makijaz/frame-start.webp",
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-11/shots/maia-makijaz/frame-start-thumb.webp",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-11/shots/maia-przed-remontem/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-11/shots/maia-przed-remontem/frame-start-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/index.json",
       "url": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/index.json"
     },
@@ -209,8 +209,8 @@
       "createdAt": "2026-09-20T15:29:11.720Z",
       "shotCount": 23,
       "imageCount": 1,
-      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-07-blizniaki-unik/frame-start.webp",
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-07-blizniaki-unik/frame-start-thumb.webp",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-09-zosia-pierwsza-seria/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-09-zosia-pierwsza-seria/frame-start-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/index.json",
       "url": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/index.json"
     },
@@ -239,8 +239,8 @@
       "createdAt": "2026-09-27T00:13:04.173Z",
       "shotCount": 19,
       "imageCount": 1,
-      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-odbicie-halinki/frame-start.webp",
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-odbicie-halinki/frame-start-thumb.webp",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-pytanie-czeslawa/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-pytanie-czeslawa/frame-start-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/index.json",
       "url": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/index.json"
     }

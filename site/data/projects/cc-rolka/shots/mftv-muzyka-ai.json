@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:cc-rolka/mftv-muzyka-ai",
@@ -9,7 +9,26 @@
   "description": "Pionowa plansza antenowa AI MFTV: najlepsze audycje z muzyką AI.",
   "project": {
     "id": "cc-rolka",
-    "name": "CC-Rolka"
+    "key": "project:cc-rolka",
+    "name": "CC-Rolka",
+    "createdAt": "2026-09-04T21:44:12.588Z"
+  },
+  "chronology": {
+    "projectKey": "project:cc-rolka",
+    "projectCreatedAt": "2026-09-04T21:44:12.588Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 17,
+    "lastSequence": 17,
+    "occurrences": [
+      17
+    ],
+    "sequenceTotal": 18,
+    "uniqueShotCount": 18,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -17,6 +36,43 @@
       "id": "logo-aimftv-kolor"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "prop:logo-aimftv-kolor",
+        "key": "prop:logo-aimftv-kolor",
+        "type": "prop",
+        "id": "logo-aimftv-kolor",
+        "name": "Logo AI MFTV - kolor",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/logo-aimftv-kolor.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "prop:logo-aimftv-kolor"
+        ],
+        "references": [
+          {
+            "sourceKey": "prop:logo-aimftv-kolor",
+            "key": "prop:logo-aimftv-kolor",
+            "type": "prop",
+            "id": "logo-aimftv-kolor",
+            "name": "Logo AI MFTV - kolor",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/logo-aimftv-kolor.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Native vertical 9:16 AI MFTV station ident. Preserve the exact canonical logo shapes, black outlines and colors: cyan AI, yellow MF and hot-pink TV. Center the complete logo in the upper-middle on deep black late-1990s CRT texture with restrained cyan, yellow and magenta glow streaks. Below, set exactly three centered bold condensed lines: NAJLEPSZE AUDYCJE / Z MUZYKĄ / AI, with correct Ą and the last AI in cyan. High-contrast phone readability. No cake, people, date, time, extra words, logo changes or artifacts.",
     "endFrameDescription": "",
@@ -31,10 +87,47 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 1,
       "source": "generated",
       "referenceKeys": [
         "prop:logo-aimftv-kolor"
+      ],
+      "references": [
+        {
+          "sourceKey": "prop:logo-aimftv-kolor",
+          "key": "prop:logo-aimftv-kolor",
+          "type": "prop",
+          "id": "logo-aimftv-kolor",
+          "name": "Logo AI MFTV - kolor",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/logo-aimftv-kolor.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-05T15:34:09.1486822+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "prop:logo-aimftv-kolor"
+          ],
+          "references": [
+            {
+              "sourceKey": "prop:logo-aimftv-kolor",
+              "key": "prop:logo-aimftv-kolor",
+              "type": "prop",
+              "id": "logo-aimftv-kolor",
+              "name": "Logo AI MFTV - kolor",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/logo-aimftv-kolor.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/mftv-muzyka-ai/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/mftv-muzyka-ai/frame-start-thumb.webp",

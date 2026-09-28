@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-9/czeslaw-dance-closeup",
@@ -9,7 +9,26 @@
   "description": "Dynamiczne półzbliżenie Czesława podczas jego sztywnego urzędniczego tańca techno. Ten sam moment, strój, sala, niebiesko-różowe światło i mgła co w czeslaw-halinka-dance. Czesław wypełnia kadr od pasa w górę, układa przedramiona pod kątem prostym i zachowuje śmiertelnie poważną twarz.",
   "project": {
     "id": "zlote-emoji-9",
-    "name": "Złote Emoji #9"
+    "key": "project:zlote-emoji-9",
+    "name": "Złote Emoji #9",
+    "createdAt": "2026-08-15T21:51:58.401Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-9",
+    "projectCreatedAt": "2026-08-15T21:51:58.401Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 11,
+    "lastSequence": 11,
+    "occurrences": [
+      11
+    ],
+    "sequenceTotal": 14,
+    "uniqueShotCount": 11,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -21,6 +40,64 @@
       "id": "czeslaw"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:czeslaw-halinka-dance",
+        "key": "shot:zlote-emoji-9/czeslaw-halinka-dance",
+        "type": "shot",
+        "id": "czeslaw-halinka-dance",
+        "name": "czeslaw-halinka-dance",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-9/shots/czeslaw-halinka-dance.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:czeslaw",
+        "key": "character:czeslaw",
+        "type": "character",
+        "id": "czeslaw",
+        "name": "Czesław",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:czeslaw-halinka-dance",
+          "character:czeslaw"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:czeslaw-halinka-dance",
+            "key": "shot:zlote-emoji-9/czeslaw-halinka-dance",
+            "type": "shot",
+            "id": "czeslaw-halinka-dance",
+            "name": "czeslaw-halinka-dance",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-9/shots/czeslaw-halinka-dance.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:czeslaw",
+            "key": "character:czeslaw",
+            "type": "character",
+            "id": "czeslaw",
+            "name": "Czesław",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Continue directly from czeslaw-halinka-dance with exact visual continuity. Create a cinematic 16:9 medium close-up of Czesław alone, framed from approximately the waist or lower chest upward with both hands visible. He performs the same stiff bureaucratic techno dance, holding one forearm vertically beside his head and the other horizontally across his chest at a precise right angle. Preserve his exact identity, curly dark hair, heavy eyebrows, stubble, rectangular glasses, wrinkled beige shirt, dark speckled jacket and loose tie. Preserve the same community-centre hall, AIMFTV plaque, blue-magenta strobe light and thin haze in the softly focused background. His expression remains completely stern and concentrated. Exactly one person; no Halinka, audience, Maia, DJ, captions or watermark.",
     "endFrameDescription": "",
@@ -35,11 +112,69 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 1,
       "source": "generated",
       "referenceKeys": [
         "shot:czeslaw-halinka-dance",
         "character:czeslaw"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:czeslaw-halinka-dance",
+          "key": "shot:zlote-emoji-9/czeslaw-halinka-dance",
+          "type": "shot",
+          "id": "czeslaw-halinka-dance",
+          "name": "czeslaw-halinka-dance",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-9/shots/czeslaw-halinka-dance.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:czeslaw",
+          "key": "character:czeslaw",
+          "type": "character",
+          "id": "czeslaw",
+          "name": "Czesław",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-16T00:00:00+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:czeslaw-halinka-dance",
+            "character:czeslaw"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:czeslaw-halinka-dance",
+              "key": "shot:zlote-emoji-9/czeslaw-halinka-dance",
+              "type": "shot",
+              "id": "czeslaw-halinka-dance",
+              "name": "czeslaw-halinka-dance",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-9/shots/czeslaw-halinka-dance.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:czeslaw",
+              "key": "character:czeslaw",
+              "type": "character",
+              "id": "czeslaw",
+              "name": "Czesław",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-9/shots/czeslaw-dance-closeup/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-9/shots/czeslaw-dance-closeup/frame-start-thumb.webp",

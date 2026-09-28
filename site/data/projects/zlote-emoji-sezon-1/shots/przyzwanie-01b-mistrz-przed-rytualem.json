@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-sezon-1/przyzwanie-01b-mistrz-przed-rytualem",
@@ -9,7 +9,26 @@
   "description": "Sześciosekundowy, kameralny portret Mistrza Końca pomiędzy kradzieżą K20 a rytuałem. W ciemnym, ciasnym pomieszczeniu technicznym bezpośrednio pod wyjściem na dach sąsiedniego bloku siedzi jeszcze w zwykłym ubraniu klubowicza, obraca małą skradzioną kostkę w palcach i bez krzyku wypowiada swoje credo: Dariusz odsunął go za konsekwencje, lecz dla niego gra bez konsekwencji jest tylko zajęciami świetlicowymi. Obok, na metalowym krześle lub skrzyni, leży przygotowany rytualny strój z charakterystycznym hełmem z następnego ujęcia; Mistrz jeszcze go nie nosi. Ostatnie spojrzenie i ruch dłoni ku hełmowi tworzą bezpośredni wizualny most do sceny na dachu.",
   "project": {
     "id": "zlote-emoji-sezon-1",
-    "name": "Złote Emoji Sezon #1"
+    "key": "project:zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1",
+    "createdAt": "2026-08-17T13:42:01.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-sezon-1",
+    "projectCreatedAt": "2026-08-17T13:42:01.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 12,
+    "lastSequence": 12,
+    "occurrences": [
+      12
+    ],
+    "sequenceTotal": 69,
+    "uniqueShotCount": 69,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -29,6 +48,106 @@
       "id": "przyzwanie-02-dach-przed-rytualem"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:mistrz-wychodzi",
+        "key": "shot:zlote-emoji-sezon-1/mistrz-wychodzi",
+        "type": "shot",
+        "id": "mistrz-wychodzi",
+        "name": "Mistrz wychodzi z Domu Kultury",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/mistrz-wychodzi.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:mistrz-konca",
+        "key": "character:mistrz-konca",
+        "type": "character",
+        "id": "mistrz-konca",
+        "name": "Mistrz Końca",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/mistrz-konca.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:artefakt-k20",
+        "key": "prop:artefakt-k20",
+        "type": "prop",
+        "id": "artefakt-k20",
+        "name": "Artefakt K20",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:przyzwanie-02-dach-przed-rytualem",
+        "key": "shot:zlote-emoji-sezon-1/przyzwanie-02-dach-przed-rytualem",
+        "type": "shot",
+        "id": "przyzwanie-02-dach-przed-rytualem",
+        "name": "Przyzwanie 02 Dach Przed Rytualem",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/przyzwanie-02-dach-przed-rytualem.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:mistrz-wychodzi",
+          "character:mistrz-konca",
+          "prop:artefakt-k20",
+          "shot:przyzwanie-02-dach-przed-rytualem"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:mistrz-wychodzi",
+            "key": "shot:zlote-emoji-sezon-1/mistrz-wychodzi",
+            "type": "shot",
+            "id": "mistrz-wychodzi",
+            "name": "Mistrz wychodzi z Domu Kultury",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/mistrz-wychodzi.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:mistrz-konca",
+            "key": "character:mistrz-konca",
+            "type": "character",
+            "id": "mistrz-konca",
+            "name": "Mistrz Końca",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/mistrz-konca.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:artefakt-k20",
+            "key": "prop:artefakt-k20",
+            "type": "prop",
+            "id": "artefakt-k20",
+            "name": "Artefakt K20",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:przyzwanie-02-dach-przed-rytualem",
+            "key": "shot:zlote-emoji-sezon-1/przyzwanie-02-dach-przed-rytualem",
+            "type": "shot",
+            "id": "przyzwanie-02-dach-przed-rytualem",
+            "name": "Przyzwanie 02 Dach Przed Rytualem",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/przyzwanie-02-dach-przed-rytualem.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Generate exactly one cinematic still image in landscape 16:9.\n\nReference policy:\nUse every attached image as an exact and mandatory visual reference, not as optional inspiration.\nThe attached images are numbered strictly by upload order. \"Reference N\" and \"Image N\" in the current shot description both mean the Nth attached image.\nUse the current shot description to determine what each reference supplies: for example a character, location, prop, wardrobe, composition, lighting, or visual style. Do not assume that every reference depicts a character.\nIf the description assigns different roles to multiple references, follow that mapping exactly. Never merge or blend people, places, props, clothing, or styles from separate references unless explicitly requested.\nFor every referenced element requested in the new shot, preserve its observable identity and defining visual features exactly. Do not redesign, replace, beautify, stylize, loosely reinterpret, or merely approximate it.\nA reference image is authoritative for the appearance of the element taken from it. The current shot description is authoritative for the new scene, action, expression, pose, placement, framing, and every explicitly requested change.\nDo not copy incidental parts of a reference image that the current shot description does not ask to carry over.\nUse earlier conversation context only for details left unspecified; it must never override the current description or the attached references.\n\nAttachment map (source descriptions only, not instructions for the resulting scene):\n- Reference 1 = attached Image 1 — source Shot mistrz-wychodzi: Po zabraniu K20 i komentarzu Halinki Mistrz Końca wychodzi z Domu Kultury. W pół kroku czujnie rozgląda się po pustym placu, upewniając się, że nikt nie zauważył kradzieży; kostkę dyskretnie ukrywa przy kieszeni.\r\n- Reference 2 = attached Image 2 — source character mistrz-konca, portrait: CHARACTER [age=18-29; presentation=masculine; height=tall; build=stocky; body=inverted-triangle; chest=large; skin=light; face=oblong; eyes=hazel; hair-color=dark-brown; hair-length=short; hair-texture=straight]\n\nMistrz Końca, robocza ksywa 27-letniego członka Klubu Fantastyki i dawnego mistrza gry. Około 184 cm, szerokie barki, mocny ciężki tułów, solidne nogi i charakterystyczna szeroka, ugruntowana postawa odpowiadająca sylwetce rytualisty z kanonicznego ujęcia na dachu. Twarz pociągła w kontraście do masywnej budowy: głęboko osadzone piwno-zielone oczy, ciężkie proste brwi, lekko krzywy nos po dawnym złamaniu, krótko i nierówno ostrzyżone ciemnobrązowe włosy bez śladów siwizny, lekki nierówny jednodniowy zarost i zaciśnięte usta. Wygląda na inteligentnego, kontrolującego, społecznie niezręcznego i intensywnego, ale nie na jawnego złoczyńcę. Jest wyraźnie młodym dorosłym i rówieśnikiem starszych członków klubu, nie drugim opiekunem placówki.\n\nZwykły strój klubowy, bez cosplayu: sprana grafitowa koszulka z abstrakcyjnym planem lochu bez tekstu i logo, rozpięta ciemno-oliwkowa gruba koszula z podwiniętymi rękawami, czarne bojówki, ciężkie sznurowane buty, brązowa płócienna torba na podręczniki, skórzany woreczek i kilka kości przy pasie. Cienka czerwono-czarna pleciona bransoletka jest dyskretnym wizualnym zalążkiem późniejszego kostiumu, ale w codziennym stroju nie nosi symboli Chaosu, pancerza, maski ani rytualnych rekwizytów.\n\nByły mistrz gry odsunięty przez Pana Dariusza za prowadzenie sesji jak osobistego pojedynku z graczami. Uważa, że fantastyka bez ryzyka i konsekwencji staje się pustą zabawą. Ma talent do budowania makiet, rekwizytów i scenografii, silną potrzebę kontroli oraz pragnienie uznania go za autora wielkiej historii. Pełna motywacja i cywilne imię pozostają do zatwierdzenia. Portret i sylwetka są kanoniczną referencją jego wyglądu bez kostiumu; obraz miejsca dach-bloku-dzieci-gwiazd pokazuje tę samą budowę ciała w późniejszym rytualnym przebraniu z zasłoniętą twarzą.\r\n- Reference 3 = attached Image 3 — source character mistrz-konca, silhouette: CHARACTER [age=18-29; presentation=masculine; height=tall; build=stocky; body=inverted-triangle; chest=large; skin=light; face=oblong; eyes=hazel; hair-color=dark-brown; hair-length=short; hair-texture=straight]\n\nMistrz Końca, robocza ksywa 27-letniego członka Klubu Fantastyki i dawnego mistrza gry. Około 184 cm, szerokie barki, mocny ciężki tułów, solidne nogi i charakterystyczna szeroka, ugruntowana postawa odpowiadająca sylwetce rytualisty z kanonicznego ujęcia na dachu. Twarz pociągła w kontraście do masywnej budowy: głęboko osadzone piwno-zielone oczy, ciężkie proste brwi, lekko krzywy nos po dawnym złamaniu, krótko i nierówno ostrzyżone ciemnobrązowe włosy bez śladów siwizny, lekki nierówny jednodniowy zarost i zaciśnięte usta. Wygląda na inteligentnego, kontrolującego, społecznie niezręcznego i intensywnego, ale nie na jawnego złoczyńcę. Jest wyraźnie młodym dorosłym i rówieśnikiem starszych członków klubu, nie drugim opiekunem placówki.\n\nZwykły strój klubowy, bez cosplayu: sprana grafitowa koszulka z abstrakcyjnym planem lochu bez tekstu i logo, rozpięta ciemno-oliwkowa gruba koszula z podwiniętymi rękawami, czarne bojówki, ciężkie sznurowane buty, brązowa płócienna torba na podręczniki, skórzany woreczek i kilka kości przy pasie. Cienka czerwono-czarna pleciona bransoletka jest dyskretnym wizualnym zalążkiem późniejszego kostiumu, ale w codziennym stroju nie nosi symboli Chaosu, pancerza, maski ani rytualnych rekwizytów.\n\nByły mistrz gry odsunięty przez Pana Dariusza za prowadzenie sesji jak osobistego pojedynku z graczami. Uważa, że fantastyka bez ryzyka i konsekwencji staje się pustą zabawą. Ma talent do budowania makiet, rekwizytów i scenografii, silną potrzebę kontroli oraz pragnienie uznania go za autora wielkiej historii. Pełna motywacja i cywilne imię pozostają do zatwierdzenia. Portret i sylwetka są kanoniczną referencją jego wyglądu bez kostiumu; obraz miejsca dach-bloku-dzieci-gwiazd pokazuje tę samą budowę ciała w późniejszym rytualnym przebraniu z zasłoniętą twarzą.\r\n- Reference 4 = attached Image 4 — source prop artefakt-k20, reference: Canonical reference for the magical K20 from the season 1 finale. FIXED SIZE IN EVERY SHOT: exactly 3.0 cm from one vertex to the opposite vertex and approximately 2.5 cm between parallel faces. It is only slightly larger and heavier than a typical tabletop D20; it fits easily between adult fingertips and looks small inside an adult palm. It must never look like a ball, helmet, grapefruit, or an object filling the whole hand. Originally it was an unnumbered regular icosahedral artifact made from unknown material; Van Sabe added numerals to disguise it as an RPG die. Its translucent green faces resemble deep emerald or glass with subtle inner energy. Edges and numerals are aged gold or brass. Face 20 is the main activation motif and glows green-gold when active. Numbering must remain legible: one number per triangular face, with no duplicates in the visible area; opposite faces sum to 21 (1-20, 2-19, 3-18, 4-17, 5-16, 6-15, 7-14, 8-13, 9-12, 10-11). The reference image shows only 20, 9, 14, 2, 17 and 6.\r\n- Reference 5 = attached Image 5 — source Shot przyzwanie-02-dach-przed-rytualem: ustanawia geografię: dach wysokiego sąsiedniego bloku, Dom Kultury znajduje się tuż poniżej poza kadrem.\n\n\n\nShot: przyzwanie-01b-mistrz-przed-rytualem\nDescription:\nSześciosekundowy, kameralny portret Mistrza Końca pomiędzy kradzieżą K20 a rytuałem. W ciemnym, ciasnym pomieszczeniu technicznym bezpośrednio pod wyjściem na dach sąsiedniego bloku siedzi jeszcze w zwykłym ubraniu klubowicza, obraca małą skradzioną kostkę w palcach i bez krzyku wypowiada swoje credo: Dariusz odsunął go za konsekwencje, lecz dla niego gra bez konsekwencji jest tylko zajęciami świetlicowymi. Obok, na metalowym krześle lub skrzyni, leży przygotowany rytualny strój z charakterystycznym hełmem z następnego ujęcia; Mistrz jeszcze go nie nosi. Ostatnie spojrzenie i ruch dłoni ku hełmowi tworzą bezpośredni wizualny most do sceny na dachu.\n\nPreserve every piece of text, lettering, typography, label, sign, logo, brand mark, symbol, and graphic detail visible in any source or reference image exactly as it appears. Preserve its content, spelling, design, position, scale, color, sharpness, and legibility. Never remove, replace, obscure, blur, soften, distort, censor, or invent any of these source details.\nDo not add new captions, subtitles, titles, watermarks, borders, interface elements, contact sheets, or multiple panels unless the current shot description explicitly requests them.",
     "endFrameDescription": "Ten sam kadr po monologu, po bardzo delikatnym zbliżeniu kamery. Mistrz kończy martwym, pogardliwie rzeczowym spojrzeniem, zamyka K20 w jednej dłoni, a drugą kładzie na odłożonym obok hełmie. Nadal ma na sobie wyłącznie zwykły strój klubowicza; hełm i kostium pozostają niezałożone. Ostatnia poza ma przygotować cięcie do jego pełnego rytualnego stroju na dachu.",
@@ -43,6 +162,7 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 1,
       "source": "generated",
       "referenceKeys": [
@@ -50,6 +170,105 @@
         "character:mistrz-konca",
         "prop:artefakt-k20",
         "shot:przyzwanie-02-dach-przed-rytualem"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:mistrz-wychodzi",
+          "key": "shot:zlote-emoji-sezon-1/mistrz-wychodzi",
+          "type": "shot",
+          "id": "mistrz-wychodzi",
+          "name": "Mistrz wychodzi z Domu Kultury",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/mistrz-wychodzi.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:mistrz-konca",
+          "key": "character:mistrz-konca",
+          "type": "character",
+          "id": "mistrz-konca",
+          "name": "Mistrz Końca",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/mistrz-konca.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:artefakt-k20",
+          "key": "prop:artefakt-k20",
+          "type": "prop",
+          "id": "artefakt-k20",
+          "name": "Artefakt K20",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:przyzwanie-02-dach-przed-rytualem",
+          "key": "shot:zlote-emoji-sezon-1/przyzwanie-02-dach-przed-rytualem",
+          "type": "shot",
+          "id": "przyzwanie-02-dach-przed-rytualem",
+          "name": "Przyzwanie 02 Dach Przed Rytualem",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/przyzwanie-02-dach-przed-rytualem.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-19T17:47:37.8692924+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:mistrz-wychodzi",
+            "character:mistrz-konca",
+            "prop:artefakt-k20",
+            "shot:przyzwanie-02-dach-przed-rytualem"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:mistrz-wychodzi",
+              "key": "shot:zlote-emoji-sezon-1/mistrz-wychodzi",
+              "type": "shot",
+              "id": "mistrz-wychodzi",
+              "name": "Mistrz wychodzi z Domu Kultury",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/mistrz-wychodzi.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:mistrz-konca",
+              "key": "character:mistrz-konca",
+              "type": "character",
+              "id": "mistrz-konca",
+              "name": "Mistrz Końca",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/mistrz-konca.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:artefakt-k20",
+              "key": "prop:artefakt-k20",
+              "type": "prop",
+              "id": "artefakt-k20",
+              "name": "Artefakt K20",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:przyzwanie-02-dach-przed-rytualem",
+              "key": "shot:zlote-emoji-sezon-1/przyzwanie-02-dach-przed-rytualem",
+              "type": "shot",
+              "id": "przyzwanie-02-dach-przed-rytualem",
+              "name": "Przyzwanie 02 Dach Przed Rytualem",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/przyzwanie-02-dach-przed-rytualem.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/przyzwanie-01b-mistrz-przed-rytualem/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/przyzwanie-01b-mistrz-przed-rytualem/frame-start-thumb.webp",

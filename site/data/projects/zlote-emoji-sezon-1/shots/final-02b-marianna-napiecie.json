@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-sezon-1/final-02b-marianna-napiecie",
@@ -9,7 +9,26 @@
   "description": "Krótki ciasny portret Marianny. Początkowy strach i napięcie przechodzą w skupienie, gdy jej wzrok zatrzymuje się na papierowym schemacie auspeksu. To emocjonalny most pomiędzy rozpoznaniem zagrożenia a praktycznym pomysłem obrony.",
   "project": {
     "id": "zlote-emoji-sezon-1",
-    "name": "Złote Emoji Sezon #1"
+    "key": "project:zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1",
+    "createdAt": "2026-08-17T13:42:01.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-sezon-1",
+    "projectCreatedAt": "2026-08-17T13:42:01.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 22,
+    "lastSequence": 22,
+    "occurrences": [
+      22
+    ],
+    "sequenceTotal": 69,
+    "uniqueShotCount": 69,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -25,6 +44,85 @@
       "id": "klub-fantastyki-zniszczony"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:marianna",
+        "key": "character:marianna",
+        "type": "character",
+        "id": "marianna",
+        "name": "Marianna \"Mańka\"",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/marianna.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:final-02-dariusz-rozpoznaje-flote",
+        "key": "shot:zlote-emoji-sezon-1/final-02-dariusz-rozpoznaje-flote",
+        "type": "shot",
+        "id": "final-02-dariusz-rozpoznaje-flote",
+        "name": "Final 02 Klub obmyśla obronę",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-02-dariusz-rozpoznaje-flote.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:klub-fantastyki-zniszczony",
+        "key": "place:klub-fantastyki-zniszczony",
+        "type": "place",
+        "id": "klub-fantastyki-zniszczony",
+        "name": "Zniszczony Klub Fantastyki",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/klub-fantastyki-zniszczony.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "character:marianna",
+          "shot:final-02-dariusz-rozpoznaje-flote",
+          "place:klub-fantastyki-zniszczony"
+        ],
+        "references": [
+          {
+            "sourceKey": "character:marianna",
+            "key": "character:marianna",
+            "type": "character",
+            "id": "marianna",
+            "name": "Marianna \"Mańka\"",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/marianna.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:final-02-dariusz-rozpoznaje-flote",
+            "key": "shot:zlote-emoji-sezon-1/final-02-dariusz-rozpoznaje-flote",
+            "type": "shot",
+            "id": "final-02-dariusz-rozpoznaje-flote",
+            "name": "Final 02 Klub obmyśla obronę",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-02-dariusz-rozpoznaje-flote.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "place:klub-fantastyki-zniszczony",
+            "key": "place:klub-fantastyki-zniszczony",
+            "type": "place",
+            "id": "klub-fantastyki-zniszczony",
+            "name": "Zniszczony Klub Fantastyki",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/klub-fantastyki-zniszczony.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Photorealistic live-action 16:9 tight 85 mm close-up of Marianna during the same planning-table moment as final-02. Preserve her exact pale face, long white hair, blue eyes, tall slim proportions, black layered RPG-club wardrobe and subtle jewelry from the character reference. Preserve the exact destroyed Klub Fantastyki, warm practical lighting, storm-blue window light and paper auspex diagram continuity from final-02 and the place reference. Frame upper chest to just above her head. Initial fear remains in slightly widened eyes and a tight jaw, but her gaze has just dropped toward the paper auspex diagram below frame and is sharpening into concentrated problem-solving. Only Marianna is in focus; vague shoulders of the group may remain soft background shapes, never new faces. No smile, glamour pose, doll skin, tears, magic, glowing eyes, K20, text, UI, captions, watermark, extra people or malformed anatomy.",
     "endFrameDescription": "",
@@ -39,12 +137,91 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 1,
       "source": "generated",
       "referenceKeys": [
         "character:marianna",
         "shot:final-02-dariusz-rozpoznaje-flote",
         "place:klub-fantastyki-zniszczony"
+      ],
+      "references": [
+        {
+          "sourceKey": "character:marianna",
+          "key": "character:marianna",
+          "type": "character",
+          "id": "marianna",
+          "name": "Marianna \"Mańka\"",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/marianna.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:final-02-dariusz-rozpoznaje-flote",
+          "key": "shot:zlote-emoji-sezon-1/final-02-dariusz-rozpoznaje-flote",
+          "type": "shot",
+          "id": "final-02-dariusz-rozpoznaje-flote",
+          "name": "Final 02 Klub obmyśla obronę",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-02-dariusz-rozpoznaje-flote.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "place:klub-fantastyki-zniszczony",
+          "key": "place:klub-fantastyki-zniszczony",
+          "type": "place",
+          "id": "klub-fantastyki-zniszczony",
+          "name": "Zniszczony Klub Fantastyki",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/klub-fantastyki-zniszczony.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-20T02:03:27+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:marianna",
+            "shot:final-02-dariusz-rozpoznaje-flote",
+            "place:klub-fantastyki-zniszczony"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:marianna",
+              "key": "character:marianna",
+              "type": "character",
+              "id": "marianna",
+              "name": "Marianna \"Mańka\"",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/marianna.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:final-02-dariusz-rozpoznaje-flote",
+              "key": "shot:zlote-emoji-sezon-1/final-02-dariusz-rozpoznaje-flote",
+              "type": "shot",
+              "id": "final-02-dariusz-rozpoznaje-flote",
+              "name": "Final 02 Klub obmyśla obronę",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-02-dariusz-rozpoznaje-flote.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:klub-fantastyki-zniszczony",
+              "key": "place:klub-fantastyki-zniszczony",
+              "type": "place",
+              "id": "klub-fantastyki-zniszczony",
+              "name": "Zniszczony Klub Fantastyki",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/klub-fantastyki-zniszczony.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-02b-marianna-napiecie/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-02b-marianna-napiecie/frame-start-thumb.webp",

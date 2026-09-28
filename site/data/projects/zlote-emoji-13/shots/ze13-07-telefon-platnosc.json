@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-13/ze13-07-telefon-platnosc",
@@ -9,7 +9,26 @@
   "description": "Insert telefonu w prawej dłoni Halinki podczas komunikatu o opłacie. Żart niesie głos i przerwanie medytacji; nie potrzebujemy generowanego interfejsu ani czytelnych liter. Dialog: Komunikat aplikacji: „Twój dostęp wygasł. Aby kontynuować, dokonaj płatności.” Klatki generowane bezpośrednio przez agenta; take nie został uruchomiony. Wariant stroju: halinka-gruzowisko, śliwkowa miękka kurtka, szal paisley; naturalne wąskie ramiona. Nowa wersja obrazu: dym niesiony lekko w lewo, pył w świetle, przygaszone tło i filmowa głębia. Istniejący komunikat na A1: klatki 579–765 włącznie. Bez ponownego nagrywania; Czesław od klatki 766.",
   "project": {
     "id": "zlote-emoji-13",
-    "name": "Złote Emoji #13"
+    "key": "project:zlote-emoji-13",
+    "name": "Złote Emoji #13",
+    "createdAt": "2026-09-19T00:38:20.615Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-13",
+    "projectCreatedAt": "2026-09-19T00:38:20.615Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 6,
+    "lastSequence": 6,
+    "occurrences": [
+      6
+    ],
+    "sequenceTotal": 11,
+    "uniqueShotCount": 10,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -21,6 +40,75 @@
       "id": "halinka-gruzowisko"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:ze13-05-halinka-ustepuje",
+        "key": "shot:zlote-emoji-13/ze13-05-halinka-ustepuje",
+        "type": "shot",
+        "id": "ze13-05-halinka-ustepuje",
+        "name": "ZE13 05 — dosłowne usunięcie blokady",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-13/shots/ze13-05-halinka-ustepuje.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:halinka-gruzowisko",
+        "key": "character:halinka-gruzowisko",
+        "type": "character",
+        "id": "halinka-gruzowisko",
+        "name": "Halinka — gruzowisko",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka-gruzowisko.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "shot:ze13-07-telefon-platnosc",
+          "shot:ze13-05-halinka-ustepuje",
+          "character:halinka-gruzowisko"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze13-07-telefon-platnosc",
+            "key": "shot:zlote-emoji-13/ze13-07-telefon-platnosc",
+            "type": "shot",
+            "id": "ze13-07-telefon-platnosc",
+            "name": "ZE13 06 — dostęp wygasł",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-13/shots/ze13-07-telefon-platnosc.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:ze13-05-halinka-ustepuje",
+            "key": "shot:zlote-emoji-13/ze13-05-halinka-ustepuje",
+            "type": "shot",
+            "id": "ze13-05-halinka-ustepuje",
+            "name": "ZE13 05 — dosłowne usunięcie blokady",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-13/shots/ze13-05-halinka-ustepuje.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:halinka-gruzowisko",
+            "key": "character:halinka-gruzowisko",
+            "type": "character",
+            "id": "halinka-gruzowisko",
+            "name": "Halinka — gruzowisko",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka-gruzowisko.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Create ONE 1920x1080 16:9 photorealistic cinema still. Input1 OLD target locks action and prop state ONLY, REPLACE its old outfit, broad build and lighting. Input2 NEW continuity locks actual costume/light/location/props. Input3 exact face; input4 exact body and outfit. Halinka is the SAME SHORT 162cm woman, average pear-shaped body, narrow naturally sloping shoulders, modest upper torso, larger hips. Exact new outfit from wardrobe reference, unpadded soft plum cotton jacket, thin teal/copper paisley scarf, cream shirt, gold sun pendant. Never broaden shoulders, enlarge chest, inflate arms or use old red sequined cardigan. Visual language: atmospheric 35mm cinema still, gentle diffusion and halation ONLY on highlights, natural grain, muted colors, deep cool grey-teal shadows and selective warm amber backlight from upper-right rear through missing roof. Expose for light so background falls 1.5 stops darker, NOT evenly lit HDR or orange glossy commercial. Layers of translucent sage smoke drift in delicate serpentine filaments across foreground, tiny airborne plaster dust sparkles ONLY inside sun shaft, no glitter or magical particles. Slightly unreal suspended-time mood produced by optics, smoke and dust, but physically real ruin. Background soft and partially obscured, strong depth, off-center human composition, natural skin. TIGHT 85mm insert of matte black phone BACK held upright in Halinka anatomical RIGHT hand. Keep exact black phone vertical dual-camera design from input1, phone fills 55% image height. Natural small hand, plum cotton rolled sleeve, cream shirt partly at right edge, no sequins. ALL head and hips cropped out. Behind at screen LEFT table, closed burgundy wallet, grey folder and sage saucer NOW ON TABLE, completed previous action. Only a fine wisp curls left from stationary sage on table, shallow depth of field, modest airborne plaster dust. No phone screen, UI or readable brand. No other hands or people. No extra people, extra limbs, new captions, watermarks, roof repair, sparkle effects or sequined cardigan.",
     "endFrameDescription": "",
@@ -35,12 +123,123 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 2,
       "source": "generated",
       "referenceKeys": [
         "shot:ze13-07-telefon-platnosc",
         "shot:ze13-05-halinka-ustepuje",
         "character:halinka-gruzowisko"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze13-07-telefon-platnosc",
+          "key": "shot:zlote-emoji-13/ze13-07-telefon-platnosc",
+          "type": "shot",
+          "id": "ze13-07-telefon-platnosc",
+          "name": "ZE13 06 — dostęp wygasł",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-13/shots/ze13-07-telefon-platnosc.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ze13-05-halinka-ustepuje",
+          "key": "shot:zlote-emoji-13/ze13-05-halinka-ustepuje",
+          "type": "shot",
+          "id": "ze13-05-halinka-ustepuje",
+          "name": "ZE13 05 — dosłowne usunięcie blokady",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-13/shots/ze13-05-halinka-ustepuje.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:halinka-gruzowisko",
+          "key": "character:halinka-gruzowisko",
+          "type": "character",
+          "id": "halinka-gruzowisko",
+          "name": "Halinka — gruzowisko",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka-gruzowisko.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-19T00:50:45.439513+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze13-05-halinka-ustepuje",
+            "character:halinka"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze13-05-halinka-ustepuje",
+              "key": "shot:zlote-emoji-13/ze13-05-halinka-ustepuje",
+              "type": "shot",
+              "id": "ze13-05-halinka-ustepuje",
+              "name": "ZE13 05 — dosłowne usunięcie blokady",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-13/shots/ze13-05-halinka-ustepuje.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:halinka",
+              "key": "character:halinka",
+              "type": "character",
+              "id": "halinka",
+              "name": "Halinka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-09-20T09:56:41.202124+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze13-07-telefon-platnosc",
+            "shot:ze13-05-halinka-ustepuje",
+            "character:halinka-gruzowisko"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze13-07-telefon-platnosc",
+              "key": "shot:zlote-emoji-13/ze13-07-telefon-platnosc",
+              "type": "shot",
+              "id": "ze13-07-telefon-platnosc",
+              "name": "ZE13 06 — dostęp wygasł",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-13/shots/ze13-07-telefon-platnosc.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ze13-05-halinka-ustepuje",
+              "key": "shot:zlote-emoji-13/ze13-05-halinka-ustepuje",
+              "type": "shot",
+              "id": "ze13-05-halinka-ustepuje",
+              "name": "ZE13 05 — dosłowne usunięcie blokady",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-13/shots/ze13-05-halinka-ustepuje.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:halinka-gruzowisko",
+              "key": "character:halinka-gruzowisko",
+              "type": "character",
+              "id": "halinka-gruzowisko",
+              "name": "Halinka — gruzowisko",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka-gruzowisko.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-13/shots/ze13-07-telefon-platnosc/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-13/shots/ze13-07-telefon-platnosc/frame-start-thumb.webp",

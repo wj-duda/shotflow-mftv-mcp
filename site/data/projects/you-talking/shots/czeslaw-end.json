@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:you-talking/czeslaw-end",
@@ -9,9 +9,67 @@
   "description": "ok teraz potrzebuję tej ostatniej sceny zbilęznie twarzy w luistrze zastygłe troch e puste troche smutne trcohę spokojne coś co mocno będzie diząłać psychologicznie mikoroespresją rece opszuczone na dół shot praktycznie w tej samej pozycji bo tylko minimalnie zoomoujem ale tak z 2%",
   "project": {
     "id": "you-talking",
-    "name": "You Talking"
+    "key": "project:you-talking",
+    "name": "You Talking",
+    "createdAt": "2026-08-02T20:09:25.290Z"
+  },
+  "chronology": {
+    "projectKey": "project:you-talking",
+    "projectCreatedAt": "2026-08-02T20:09:25.290Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 7,
+    "lastSequence": 7,
+    "occurrences": [
+      7
+    ],
+    "sequenceTotal": 7,
+    "uniqueShotCount": 7,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [],
+  "referenceUsage": {
+    "declared": [],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 4,
+        "referenceKeys": [],
+        "references": [],
+        "sourceReference": {
+          "sourceKey": "take:czeslaw-c/take-2",
+          "key": "take:you-talking/czeslaw-c/take-2",
+          "type": "take",
+          "id": "czeslaw-c/take-2",
+          "name": "czeslaw-c / take-2",
+          "relationship": "visible-state-from-take",
+          "shotKey": "shot:you-talking/czeslaw-c",
+          "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/you-talking/shots/czeslaw-c.json",
+          "exists": true
+        }
+      },
+      {
+        "frameId": "frame-end",
+        "revision": 4,
+        "referenceKeys": [],
+        "references": [],
+        "sourceReference": {
+          "sourceKey": "shot:15226fdb-0dbb-43f7-bc19-c5b29191627f",
+          "key": "shot:you-talking/15226fdb-0dbb-43f7-bc19-c5b29191627f",
+          "type": "shot",
+          "id": "15226fdb-0dbb-43f7-bc19-c5b29191627f",
+          "name": "15226fdb-0dbb-43f7-bc19-c5b29191627f",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/you-talking/shots/15226fdb-0dbb-43f7-bc19-c5b29191627f.json",
+          "exists": true
+        }
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Generate exactly one cinematic still image in landscape 16:9.\n\nReference policy:\nUse the attached image as an exact and mandatory visual reference, not as optional inspiration.\nThe attached images are numbered strictly by upload order. \"Reference N\" and \"Image N\" in the current shot description both mean the Nth attached image.\nUse the current shot description to determine what each reference supplies: for example a character, location, prop, wardrobe, composition, lighting, or visual style. Do not assume that every reference depicts a character.\nIf the description assigns different roles to multiple references, follow that mapping exactly. Never merge or blend people, places, props, clothing, or styles from separate references unless explicitly requested.\nFor every referenced element requested in the new shot, preserve its observable identity and defining visual features exactly. Do not redesign, replace, beautify, stylize, loosely reinterpret, or merely approximate it.\nA reference image is authoritative for the appearance of the element taken from it. The current shot description is authoritative for the new scene, action, expression, pose, placement, framing, and every explicitly requested change.\nDo not copy incidental parts of a reference image that the current shot description does not ask to carry over.\nUse earlier conversation context only for details left unspecified; it must never override the current description or the attached references.\n\nAttachment map (source descriptions only, not instructions for the resulting scene):\n- Reference 1 = attached Image 1 — source Take czeslaw-c/take-2, last visible frame 132: Static cinematic shot, identical framing and composition to the source image. Czesław stands at the bathroom mirror during shaving. He is preparing to deliver an intense, confrontational monologue to his own reflection, but this pass is only for later lip-sync.\n\nHis lips remain fully closed for the entire shot. No speaking, no mouth opening, no visible articulation, no smiling with parted lips.\n\nUse only subtle facial acting: his eyes slowly harden, his brows tighten slightly, and his gaze locks onto his own reflection with growing suspicion and restrained challenge. A tiny shift of the jaw under closed lips, a faint narrowing of the eyes, minimal nostril tension, and very small changes in posture. He briefly pauses the shaving motion, studies himself, then slightly tilts his head as if silently asking a provocative question.\n\nKeep the performance controlled, serious and psychologically tense, not exaggerated, not comedic in expression. The humor comes from Czesław treating the moment with complete sincerity.\n\nThe razor and shaving brush remain naturally in his hands. Very small hand movement only. No sudden gestures. No camera movement. No zoom. No morphing, no face distortion, no changing glasses, no extra fingers, no object deformation. Warm realistic bathroom lighting, natural mirror physics, hyperrealistic cinematic motion, 16:9. Static cinematic shot, identical framing and composition to the source image. Czesław stands at the bathroom mirror during shaving. He is preparing to deliver an intense, confrontational monologue to his own reflection, but this pass is only for later lip-sync.\n\nHis lips remain fully closed for the entire shot. No speaking, no mouth opening, no visible articulation, no smiling with parted lips.\n\nUse only subtle facial acting: his eyes slowly harden, his brows tighten slightly, and his gaze locks onto his own reflection with growing suspicion and restrained challenge. A tiny shift of the jaw under closed lips, a faint narrowing of the eyes, minimal nostril tension, and very small changes in posture. He briefly pauses the shaving motion, studies himself, then slightly tilts his head as if silently asking a provocative question.\n\nKeep the performance controlled, serious and psychologically tense, not exaggerated, not comedic in expression. The humor comes from Czesław treating the moment with complete sincerity.\n\nThe razor and shaving brush remain naturally in his hands. Very small hand movement only. No sudden gestures. No camera movement. No zoom. No morphing, no face distortion, no changing glasses, no extra fingers, no object deformation. Warm realistic bathroom lighting, natural mirror physics, hyperrealistic cinematic motion, 16:9.\n\n\n\nShot: czeslaw-end\nDescription:\nok teraz potrzebuję tej ostatniej sceny zbilęznie twarzy w luistrze zastygłe troch e puste troche smutne trcohę spokojne coś co mocno będzie diząłać psychologicznie mikoroespresją rece opszuczone na dół shot praktycznie w tej samej pozycji bo tylko minimalnie zoomoujem ale tak z 2%\n\nPreserve every piece of text, lettering, typography, label, sign, logo, brand mark, symbol, and graphic detail visible in any source or reference image exactly as it appears. Preserve its content, spelling, design, position, scale, color, sharpness, and legibility. Never remove, replace, obscure, blur, soften, distort, censor, or invent any of these source details.\nDo not add new captions, subtitles, titles, watermarks, borders, interface elements, contact sheets, or multiple panels unless the current shot description explicitly requests them.",
     "endFrameDescription": "",
@@ -26,9 +84,67 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 4,
       "source": "reference",
       "referenceKeys": [],
+      "references": [],
+      "sourceReference": {
+        "sourceKey": "take:czeslaw-c/take-2",
+        "key": "take:you-talking/czeslaw-c/take-2",
+        "type": "take",
+        "id": "czeslaw-c/take-2",
+        "name": "czeslaw-c / take-2",
+        "relationship": "visible-state-from-take",
+        "shotKey": "shot:you-talking/czeslaw-c",
+        "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/you-talking/shots/czeslaw-c.json",
+        "exists": true
+      },
+      "revisions": [
+        {
+          "revision": 2,
+          "createdAt": "2026-08-02T22:25:59.4096012+00:00",
+          "source": "reference",
+          "referenceKeys": [],
+          "references": [],
+          "sourceReference": {
+            "sourceKey": "shot:czeslaw-c",
+            "key": "shot:you-talking/czeslaw-c",
+            "type": "shot",
+            "id": "czeslaw-c",
+            "name": "czeslaw-c",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/you-talking/shots/czeslaw-c.json",
+            "exists": true
+          }
+        },
+        {
+          "revision": 3,
+          "createdAt": "2026-08-02T22:26:15.5600844+00:00",
+          "source": "generated",
+          "referenceKeys": [],
+          "references": [],
+          "sourceReference": null
+        },
+        {
+          "revision": 4,
+          "createdAt": "2026-08-02T22:26:25.7623648+00:00",
+          "source": "reference",
+          "referenceKeys": [],
+          "references": [],
+          "sourceReference": {
+            "sourceKey": "take:czeslaw-c/take-2",
+            "key": "take:you-talking/czeslaw-c/take-2",
+            "type": "take",
+            "id": "czeslaw-c/take-2",
+            "name": "czeslaw-c / take-2",
+            "relationship": "visible-state-from-take",
+            "shotKey": "shot:you-talking/czeslaw-c",
+            "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/you-talking/shots/czeslaw-c.json",
+            "exists": true
+          }
+        }
+      ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/you-talking/shots/czeslaw-end/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/you-talking/shots/czeslaw-end/frame-start-thumb.webp",
       "width": 1920,
@@ -37,9 +153,82 @@
     },
     {
       "id": "frame-end",
+      "role": "frame-end",
       "revision": 4,
       "source": "reference",
       "referenceKeys": [],
+      "references": [],
+      "sourceReference": {
+        "sourceKey": "shot:15226fdb-0dbb-43f7-bc19-c5b29191627f",
+        "key": "shot:you-talking/15226fdb-0dbb-43f7-bc19-c5b29191627f",
+        "type": "shot",
+        "id": "15226fdb-0dbb-43f7-bc19-c5b29191627f",
+        "name": "15226fdb-0dbb-43f7-bc19-c5b29191627f",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/you-talking/shots/15226fdb-0dbb-43f7-bc19-c5b29191627f.json",
+        "exists": true
+      },
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-02T22:25:19.8748182+00:00",
+          "source": "reference",
+          "referenceKeys": [],
+          "references": [],
+          "sourceReference": {
+            "sourceKey": "shot:ea0aef7c-15a6-48af-af02-945816b7fd9b",
+            "key": "shot:you-talking/ea0aef7c-15a6-48af-af02-945816b7fd9b",
+            "type": "shot",
+            "id": "ea0aef7c-15a6-48af-af02-945816b7fd9b",
+            "name": "ea0aef7c-15a6-48af-af02-945816b7fd9b",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/you-talking/shots/ea0aef7c-15a6-48af-af02-945816b7fd9b.json",
+            "exists": true
+          }
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-08-02T22:25:25.581989+00:00",
+          "source": "reference",
+          "referenceKeys": [],
+          "references": [],
+          "sourceReference": {
+            "sourceKey": "shot:15226fdb-0dbb-43f7-bc19-c5b29191627f",
+            "key": "shot:you-talking/15226fdb-0dbb-43f7-bc19-c5b29191627f",
+            "type": "shot",
+            "id": "15226fdb-0dbb-43f7-bc19-c5b29191627f",
+            "name": "15226fdb-0dbb-43f7-bc19-c5b29191627f",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/you-talking/shots/15226fdb-0dbb-43f7-bc19-c5b29191627f.json",
+            "exists": true
+          }
+        },
+        {
+          "revision": 3,
+          "createdAt": "2026-08-02T22:25:38.7943096+00:00",
+          "source": "generated",
+          "referenceKeys": [],
+          "references": [],
+          "sourceReference": null
+        },
+        {
+          "revision": 4,
+          "createdAt": "2026-08-02T22:26:12.8095667+00:00",
+          "source": "reference",
+          "referenceKeys": [],
+          "references": [],
+          "sourceReference": {
+            "sourceKey": "shot:15226fdb-0dbb-43f7-bc19-c5b29191627f",
+            "key": "shot:you-talking/15226fdb-0dbb-43f7-bc19-c5b29191627f",
+            "type": "shot",
+            "id": "15226fdb-0dbb-43f7-bc19-c5b29191627f",
+            "name": "15226fdb-0dbb-43f7-bc19-c5b29191627f",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/you-talking/shots/15226fdb-0dbb-43f7-bc19-c5b29191627f.json",
+            "exists": true
+          }
+        }
+      ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/you-talking/shots/czeslaw-end/frame-end.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/you-talking/shots/czeslaw-end/frame-end-thumb.webp",
       "width": 1672,

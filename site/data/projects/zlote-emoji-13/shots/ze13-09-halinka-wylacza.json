@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-13/ze13-09-halinka-wylacza",
@@ -9,7 +9,26 @@
   "description": "Halinka otwiera oczy, rozumie sytuację i blokuje telefon. Odkłada go ekranem do dołu. Nie jest upokorzona i nie robi wielkiej miny. Jej decyzja kończy działanie mentorki. Klatki generowane bezpośrednio przez agenta; take nie został uruchomiony. Wariant stroju: halinka-gruzowisko, śliwkowa miękka kurtka, szal paisley; naturalne wąskie ramiona. Nowa wersja obrazu: dym niesiony lekko w lewo, pył w świetle, przygaszone tło i filmowa głębia.",
   "project": {
     "id": "zlote-emoji-13",
-    "name": "Złote Emoji #13"
+    "key": "project:zlote-emoji-13",
+    "name": "Złote Emoji #13",
+    "createdAt": "2026-09-19T00:38:20.615Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-13",
+    "projectCreatedAt": "2026-09-19T00:38:20.615Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 8,
+    "lastSequence": 8,
+    "occurrences": [
+      8
+    ],
+    "sequenceTotal": 11,
+    "uniqueShotCount": 10,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -25,6 +44,85 @@
       "id": "ze13-02-halinka-w-smudze-swiatla"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:ze13-07-telefon-platnosc",
+        "key": "shot:zlote-emoji-13/ze13-07-telefon-platnosc",
+        "type": "shot",
+        "id": "ze13-07-telefon-platnosc",
+        "name": "ZE13 06 — dostęp wygasł",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-13/shots/ze13-07-telefon-platnosc.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:halinka-gruzowisko",
+        "key": "character:halinka-gruzowisko",
+        "type": "character",
+        "id": "halinka-gruzowisko",
+        "name": "Halinka — gruzowisko",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka-gruzowisko.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze13-02-halinka-w-smudze-swiatla",
+        "key": "shot:zlote-emoji-13/ze13-02-halinka-w-smudze-swiatla",
+        "type": "shot",
+        "id": "ze13-02-halinka-w-smudze-swiatla",
+        "name": "ZE13 02 — Halinka w smudze światła",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-13/shots/ze13-02-halinka-w-smudze-swiatla.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "shot:ze13-09-halinka-wylacza",
+          "shot:ze13-07-telefon-platnosc",
+          "character:halinka-gruzowisko"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze13-09-halinka-wylacza",
+            "key": "shot:zlote-emoji-13/ze13-09-halinka-wylacza",
+            "type": "shot",
+            "id": "ze13-09-halinka-wylacza",
+            "name": "ZE13 08 — samodzielne rozpoznanie",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-13/shots/ze13-09-halinka-wylacza.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:ze13-07-telefon-platnosc",
+            "key": "shot:zlote-emoji-13/ze13-07-telefon-platnosc",
+            "type": "shot",
+            "id": "ze13-07-telefon-platnosc",
+            "name": "ZE13 06 — dostęp wygasł",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-13/shots/ze13-07-telefon-platnosc.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:halinka-gruzowisko",
+            "key": "character:halinka-gruzowisko",
+            "type": "character",
+            "id": "halinka-gruzowisko",
+            "name": "Halinka — gruzowisko",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka-gruzowisko.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Create ONE 1920x1080 16:9 photorealistic cinema still. Input1 OLD target locks action and prop state ONLY, REPLACE its old outfit, broad build and lighting. Input2 NEW continuity locks actual costume/light/location/props. Input3 exact face; input4 exact body and outfit. Halinka is the SAME SHORT 162cm woman, average pear-shaped body, narrow naturally sloping shoulders, modest upper torso, larger hips. Exact new outfit from wardrobe reference, unpadded soft plum cotton jacket, thin teal/copper paisley scarf, cream shirt, gold sun pendant. Never broaden shoulders, enlarge chest, inflate arms or use old red sequined cardigan. Visual language: atmospheric 35mm cinema still, gentle diffusion and halation ONLY on highlights, natural grain, muted colors, deep cool grey-teal shadows and selective warm amber backlight from upper-right rear through missing roof. Expose for light so background falls 1.5 stops darker, NOT evenly lit HDR or orange glossy commercial. Layers of translucent sage smoke drift in delicate serpentine filaments across foreground, tiny airborne plaster dust sparkles ONLY inside sun shaft, no glitter or magical particles. Slightly unreal suspended-time mood produced by optics, smoke and dust, but physically real ruin. Background soft and partially obscured, strong depth, off-center human composition, natural skin. Medium shot 65mm includes waist/table and entire head. Halinka at right end of table, torso angled gently 20 degrees, narrow shoulders no frontal broad stance. Eyes OPEN directed down at upright matte black phone in anatomical RIGHT hand (image left), same phone and grip as image2. LEFT hand relaxed on table image right. Sage and cream saucer ALREADY ON TABLE left, closed burgundy wallet beside it, grey folder lower left. Empty tabletop patch to lower phone into. Quiet recognition in face, no huge smile or humiliating expression. More subdued smoke: one fine wisp from tabletop sage trails toward screen left below face, dust sparse. Keep face naturally sized, don't inflate chest or arms. Phone not yet lying on table. No extra people, extra limbs, new captions, watermarks, roof repair, sparkle effects or sequined cardigan.",
     "endFrameDescription": "",
@@ -39,12 +137,134 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 2,
       "source": "generated",
       "referenceKeys": [
         "shot:ze13-09-halinka-wylacza",
         "shot:ze13-07-telefon-platnosc",
         "character:halinka-gruzowisko"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze13-09-halinka-wylacza",
+          "key": "shot:zlote-emoji-13/ze13-09-halinka-wylacza",
+          "type": "shot",
+          "id": "ze13-09-halinka-wylacza",
+          "name": "ZE13 08 — samodzielne rozpoznanie",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-13/shots/ze13-09-halinka-wylacza.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ze13-07-telefon-platnosc",
+          "key": "shot:zlote-emoji-13/ze13-07-telefon-platnosc",
+          "type": "shot",
+          "id": "ze13-07-telefon-platnosc",
+          "name": "ZE13 06 — dostęp wygasł",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-13/shots/ze13-07-telefon-platnosc.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:halinka-gruzowisko",
+          "key": "character:halinka-gruzowisko",
+          "type": "character",
+          "id": "halinka-gruzowisko",
+          "name": "Halinka — gruzowisko",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka-gruzowisko.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-19T00:52:23.669362+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze13-07-telefon-platnosc",
+            "character:halinka",
+            "shot:ze13-02-halinka-w-smudze-swiatla"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze13-07-telefon-platnosc",
+              "key": "shot:zlote-emoji-13/ze13-07-telefon-platnosc",
+              "type": "shot",
+              "id": "ze13-07-telefon-platnosc",
+              "name": "ZE13 06 — dostęp wygasł",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-13/shots/ze13-07-telefon-platnosc.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:halinka",
+              "key": "character:halinka",
+              "type": "character",
+              "id": "halinka",
+              "name": "Halinka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ze13-02-halinka-w-smudze-swiatla",
+              "key": "shot:zlote-emoji-13/ze13-02-halinka-w-smudze-swiatla",
+              "type": "shot",
+              "id": "ze13-02-halinka-w-smudze-swiatla",
+              "name": "ZE13 02 — Halinka w smudze światła",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-13/shots/ze13-02-halinka-w-smudze-swiatla.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-09-20T10:00:04.808785+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze13-09-halinka-wylacza",
+            "shot:ze13-07-telefon-platnosc",
+            "character:halinka-gruzowisko"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze13-09-halinka-wylacza",
+              "key": "shot:zlote-emoji-13/ze13-09-halinka-wylacza",
+              "type": "shot",
+              "id": "ze13-09-halinka-wylacza",
+              "name": "ZE13 08 — samodzielne rozpoznanie",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-13/shots/ze13-09-halinka-wylacza.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ze13-07-telefon-platnosc",
+              "key": "shot:zlote-emoji-13/ze13-07-telefon-platnosc",
+              "type": "shot",
+              "id": "ze13-07-telefon-platnosc",
+              "name": "ZE13 06 — dostęp wygasł",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-13/shots/ze13-07-telefon-platnosc.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:halinka-gruzowisko",
+              "key": "character:halinka-gruzowisko",
+              "type": "character",
+              "id": "halinka-gruzowisko",
+              "name": "Halinka — gruzowisko",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka-gruzowisko.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-13/shots/ze13-09-halinka-wylacza/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-13/shots/ze13-09-halinka-wylacza/frame-start-thumb.webp",

@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-sezon-1/prolog-07d-twarz-pipy-ciemnosc",
@@ -9,7 +9,24 @@
   "description": "Kontrzblizenie Pipy stojacej nieruchomo w drzwiach. Swiatlo pokoju jest zgaszone, a jej twarz modeluje tylko waski odblask z korytarza.",
   "project": {
     "id": "zlote-emoji-sezon-1",
-    "name": "Złote Emoji Sezon #1"
+    "key": "project:zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1",
+    "createdAt": "2026-08-17T13:42:01.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-sezon-1",
+    "projectCreatedAt": "2026-08-17T13:42:01.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": false,
+    "canonicalEvent": false,
+    "sequence": null,
+    "lastSequence": null,
+    "occurrences": [],
+    "sequenceTotal": 69,
+    "uniqueShotCount": 69,
+    "sequenceOrder": null,
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This project material is not present on the saved timeline, so it must not override canonical timeline events by date alone."
   },
   "references": [
     {
@@ -29,6 +46,106 @@
       "id": "laidy-pipa"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:prolog-07b-pipa-w-drzwiach",
+        "key": "shot:zlote-emoji-sezon-1/prolog-07b-pipa-w-drzwiach",
+        "type": "shot",
+        "id": "prolog-07b-pipa-w-drzwiach",
+        "name": "Prolog 07B - Pipa w drzwiach",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-07b-pipa-w-drzwiach.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:prolog-07c-reakcja-vana",
+        "key": "shot:zlote-emoji-sezon-1/prolog-07c-reakcja-vana",
+        "type": "shot",
+        "id": "prolog-07c-reakcja-vana",
+        "name": "Prolog 07C - reakcja Vana",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-07c-reakcja-vana.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:prolog-07-wtargniecie-pipy",
+        "key": "shot:zlote-emoji-sezon-1/prolog-07-wtargniecie-pipy",
+        "type": "shot",
+        "id": "prolog-07-wtargniecie-pipy",
+        "name": "Pipa blokuje drzwi",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-07-wtargniecie-pipy.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:laidy-pipa",
+        "key": "character:laidy-pipa",
+        "type": "character",
+        "id": "laidy-pipa",
+        "name": "LAIdy Pipa",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/laidy-pipa.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:prolog-07b-pipa-w-drzwiach",
+          "shot:prolog-07c-reakcja-vana",
+          "shot:prolog-07-wtargniecie-pipy",
+          "character:laidy-pipa"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:prolog-07b-pipa-w-drzwiach",
+            "key": "shot:zlote-emoji-sezon-1/prolog-07b-pipa-w-drzwiach",
+            "type": "shot",
+            "id": "prolog-07b-pipa-w-drzwiach",
+            "name": "Prolog 07B - Pipa w drzwiach",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-07b-pipa-w-drzwiach.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:prolog-07c-reakcja-vana",
+            "key": "shot:zlote-emoji-sezon-1/prolog-07c-reakcja-vana",
+            "type": "shot",
+            "id": "prolog-07c-reakcja-vana",
+            "name": "Prolog 07C - reakcja Vana",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-07c-reakcja-vana.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:prolog-07-wtargniecie-pipy",
+            "key": "shot:zlote-emoji-sezon-1/prolog-07-wtargniecie-pipy",
+            "type": "shot",
+            "id": "prolog-07-wtargniecie-pipy",
+            "name": "Pipa blokuje drzwi",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-07-wtargniecie-pipy.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:laidy-pipa",
+            "key": "character:laidy-pipa",
+            "type": "character",
+            "id": "laidy-pipa",
+            "name": "LAIdy Pipa",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/laidy-pipa.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Use case: photorealistic-natural. Asset type: cinematic 16:9 start frame for a reaction shot. Reverse close-up of Lady Pipa in the doorway immediately after Van's reaction. Character laidy-pipa is the exact facial identity, hair, makeup and costume reference. Shot prolog-07-wtargniecie-pipy supplies the exact cheap doorway, rifle, costume and screen geography. Shot prolog-07b-pipa-w-drzwiach is the direct preceding appearance reference for broken door, corridor, exposure and moment. Shot prolog-07c-reakcja-vana is the matching reverse-shot reference for lens intimacy, grade and eyeline. Night; room light completely off. Pipa stands still just inside threshold. Restrained warm corridor rim and faint illumination reveal her face while the room side stays in deep shadow. One tight close-up at eye level from Van's side. Pipa looks strongly SCREEN LEFT at Van, matching his screen-right eyeline. Hint of doorway and blurred corridor; a small dark rifle or shoulder edge may appear low, but gaze is sole focus. Expression is cold fury and contained confidence. Exact identity, realistic skin, hair and anatomy, hyperrealistic live action, shallow depth of field. Avoid Van, duplicate people, wrong eyeline, bright room, firing, magic, distortion, text, logo and watermark.",
     "endFrameDescription": "",
@@ -43,6 +160,7 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 1,
       "source": "generated",
       "referenceKeys": [
@@ -50,6 +168,105 @@
         "shot:prolog-07c-reakcja-vana",
         "shot:prolog-07-wtargniecie-pipy",
         "character:laidy-pipa"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:prolog-07b-pipa-w-drzwiach",
+          "key": "shot:zlote-emoji-sezon-1/prolog-07b-pipa-w-drzwiach",
+          "type": "shot",
+          "id": "prolog-07b-pipa-w-drzwiach",
+          "name": "Prolog 07B - Pipa w drzwiach",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-07b-pipa-w-drzwiach.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:prolog-07c-reakcja-vana",
+          "key": "shot:zlote-emoji-sezon-1/prolog-07c-reakcja-vana",
+          "type": "shot",
+          "id": "prolog-07c-reakcja-vana",
+          "name": "Prolog 07C - reakcja Vana",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-07c-reakcja-vana.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:prolog-07-wtargniecie-pipy",
+          "key": "shot:zlote-emoji-sezon-1/prolog-07-wtargniecie-pipy",
+          "type": "shot",
+          "id": "prolog-07-wtargniecie-pipy",
+          "name": "Pipa blokuje drzwi",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-07-wtargniecie-pipy.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:laidy-pipa",
+          "key": "character:laidy-pipa",
+          "type": "character",
+          "id": "laidy-pipa",
+          "name": "LAIdy Pipa",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/laidy-pipa.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-18T05:10:00+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:prolog-07b-pipa-w-drzwiach",
+            "shot:prolog-07c-reakcja-vana",
+            "shot:prolog-07-wtargniecie-pipy",
+            "character:laidy-pipa"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:prolog-07b-pipa-w-drzwiach",
+              "key": "shot:zlote-emoji-sezon-1/prolog-07b-pipa-w-drzwiach",
+              "type": "shot",
+              "id": "prolog-07b-pipa-w-drzwiach",
+              "name": "Prolog 07B - Pipa w drzwiach",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-07b-pipa-w-drzwiach.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:prolog-07c-reakcja-vana",
+              "key": "shot:zlote-emoji-sezon-1/prolog-07c-reakcja-vana",
+              "type": "shot",
+              "id": "prolog-07c-reakcja-vana",
+              "name": "Prolog 07C - reakcja Vana",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-07c-reakcja-vana.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:prolog-07-wtargniecie-pipy",
+              "key": "shot:zlote-emoji-sezon-1/prolog-07-wtargniecie-pipy",
+              "type": "shot",
+              "id": "prolog-07-wtargniecie-pipy",
+              "name": "Pipa blokuje drzwi",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-07-wtargniecie-pipy.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:laidy-pipa",
+              "key": "character:laidy-pipa",
+              "type": "character",
+              "id": "laidy-pipa",
+              "name": "LAIdy Pipa",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/laidy-pipa.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-07d-twarz-pipy-ciemnosc/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-07d-twarz-pipy-ciemnosc/frame-start-thumb.webp",

@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-13/ze13-06-halinka-medytuje",
@@ -9,7 +9,26 @@
   "description": "Dokładnie na znaczniku A1, klatki 206–346, Halinka słucha istniejącej kwestii mentorki. Kontynuacja skupienia: oczy już przymknięte, szałwia NADAL w lewej dłoni, telefon w prawej. Wiesław przerywa dopiero po tej kwestii. Nie nagrywać mentorki ponownie. Dialog: Mentorka — istniejące A1: „Pieniądz jest tylko energią. Pozwól mu swobodnie płynąć.” [już na A1] Klatki generowane bezpośrednio przez agenta; take nie został uruchomiony. Wariant stroju: halinka-gruzowisko, śliwkowa miękka kurtka, szal paisley; naturalne wąskie ramiona. Nowa wersja obrazu: dym niesiony lekko w lewo, pył w świetle, przygaszone tło i filmowa głębia. Po końcu kwestii na klatce 346 jeszcze 2 s spokojnego oddechu i dymu; cięcie na Wiesława w klatce 395.",
   "project": {
     "id": "zlote-emoji-13",
-    "name": "Złote Emoji #13"
+    "key": "project:zlote-emoji-13",
+    "name": "Złote Emoji #13",
+    "createdAt": "2026-09-19T00:38:20.615Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-13",
+    "projectCreatedAt": "2026-09-19T00:38:20.615Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 3,
+    "lastSequence": 3,
+    "occurrences": [
+      3
+    ],
+    "sequenceTotal": 11,
+    "uniqueShotCount": 10,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -21,6 +40,75 @@
       "id": "halinka-gruzowisko"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:ze13-02-halinka-w-smudze-swiatla",
+        "key": "shot:zlote-emoji-13/ze13-02-halinka-w-smudze-swiatla",
+        "type": "shot",
+        "id": "ze13-02-halinka-w-smudze-swiatla",
+        "name": "ZE13 02 — Halinka w smudze światła",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-13/shots/ze13-02-halinka-w-smudze-swiatla.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:halinka-gruzowisko",
+        "key": "character:halinka-gruzowisko",
+        "type": "character",
+        "id": "halinka-gruzowisko",
+        "name": "Halinka — gruzowisko",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka-gruzowisko.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "shot:ze13-06-halinka-medytuje",
+          "shot:ze13-02-halinka-w-smudze-swiatla",
+          "character:halinka-gruzowisko"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze13-06-halinka-medytuje",
+            "key": "shot:zlote-emoji-13/ze13-06-halinka-medytuje",
+            "type": "shot",
+            "id": "ze13-06-halinka-medytuje",
+            "name": "ZE13 03 — pieniądz jest energią",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-13/shots/ze13-06-halinka-medytuje.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:ze13-02-halinka-w-smudze-swiatla",
+            "key": "shot:zlote-emoji-13/ze13-02-halinka-w-smudze-swiatla",
+            "type": "shot",
+            "id": "ze13-02-halinka-w-smudze-swiatla",
+            "name": "ZE13 02 — Halinka w smudze światła",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-13/shots/ze13-02-halinka-w-smudze-swiatla.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:halinka-gruzowisko",
+            "key": "character:halinka-gruzowisko",
+            "type": "character",
+            "id": "halinka-gruzowisko",
+            "name": "Halinka — gruzowisko",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka-gruzowisko.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Create ONE 1920x1080 16:9 photorealistic cinema still. Input1 OLD target locks action and prop state ONLY, REPLACE its old outfit, broad build and lighting. Input2 NEW continuity locks actual costume/light/location/props. Input3 exact face; input4 exact body and outfit. Halinka is the SAME SHORT 162cm woman, average pear-shaped body, narrow naturally sloping shoulders, modest upper torso, larger hips. Exact new outfit from wardrobe reference, unpadded soft plum cotton jacket, thin teal/copper paisley scarf, cream shirt, gold sun pendant. Never broaden shoulders, enlarge chest, inflate arms or use old red sequined cardigan. Visual language: atmospheric 35mm cinema still, gentle diffusion and halation ONLY on highlights, natural grain, muted colors, deep cool grey-teal shadows and selective warm amber backlight from upper-right rear through missing roof. Expose for light so background falls 1.5 stops darker, NOT evenly lit HDR or orange glossy commercial. Layers of translucent sage smoke drift in delicate serpentine filaments across foreground, tiny airborne plaster dust sparkles ONLY inside sun shaft, no glitter or magical particles. Slightly unreal suspended-time mood produced by optics, smoke and dust, but physically real ruin. Background soft and partially obscured, strong depth, off-center human composition, natural skin. 65mm portrait from lower chest up, body turned subtly 15 degrees, face at right-third intersection, not square shoulders filling frame. Eyes gently closed, peaceful listening. LEFT hand retains level sage saucer at lower image-right edge, right phone retained below crop. One delicate translucent smoke ribbon crosses near lower cheek and dissipates left, mouth readable. Tiny near-lens dust softly unfocused, clear face focal plane, dark broken stage soft behind. Do not move saucer to table yet. No extra people, extra limbs, new captions, watermarks, roof repair, sparkle effects or sequined cardigan.",
     "endFrameDescription": "",
@@ -35,12 +123,123 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 2,
       "source": "generated",
       "referenceKeys": [
         "shot:ze13-06-halinka-medytuje",
         "shot:ze13-02-halinka-w-smudze-swiatla",
         "character:halinka-gruzowisko"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze13-06-halinka-medytuje",
+          "key": "shot:zlote-emoji-13/ze13-06-halinka-medytuje",
+          "type": "shot",
+          "id": "ze13-06-halinka-medytuje",
+          "name": "ZE13 03 — pieniądz jest energią",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-13/shots/ze13-06-halinka-medytuje.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ze13-02-halinka-w-smudze-swiatla",
+          "key": "shot:zlote-emoji-13/ze13-02-halinka-w-smudze-swiatla",
+          "type": "shot",
+          "id": "ze13-02-halinka-w-smudze-swiatla",
+          "name": "ZE13 02 — Halinka w smudze światła",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-13/shots/ze13-02-halinka-w-smudze-swiatla.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:halinka-gruzowisko",
+          "key": "character:halinka-gruzowisko",
+          "type": "character",
+          "id": "halinka-gruzowisko",
+          "name": "Halinka — gruzowisko",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka-gruzowisko.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-19T00:47:28.376203+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze13-02-halinka-w-smudze-swiatla",
+            "character:halinka"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze13-02-halinka-w-smudze-swiatla",
+              "key": "shot:zlote-emoji-13/ze13-02-halinka-w-smudze-swiatla",
+              "type": "shot",
+              "id": "ze13-02-halinka-w-smudze-swiatla",
+              "name": "ZE13 02 — Halinka w smudze światła",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-13/shots/ze13-02-halinka-w-smudze-swiatla.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:halinka",
+              "key": "character:halinka",
+              "type": "character",
+              "id": "halinka",
+              "name": "Halinka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-09-20T09:51:38.283536+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze13-06-halinka-medytuje",
+            "shot:ze13-02-halinka-w-smudze-swiatla",
+            "character:halinka-gruzowisko"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze13-06-halinka-medytuje",
+              "key": "shot:zlote-emoji-13/ze13-06-halinka-medytuje",
+              "type": "shot",
+              "id": "ze13-06-halinka-medytuje",
+              "name": "ZE13 03 — pieniądz jest energią",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-13/shots/ze13-06-halinka-medytuje.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ze13-02-halinka-w-smudze-swiatla",
+              "key": "shot:zlote-emoji-13/ze13-02-halinka-w-smudze-swiatla",
+              "type": "shot",
+              "id": "ze13-02-halinka-w-smudze-swiatla",
+              "name": "ZE13 02 — Halinka w smudze światła",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-13/shots/ze13-02-halinka-w-smudze-swiatla.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:halinka-gruzowisko",
+              "key": "character:halinka-gruzowisko",
+              "type": "character",
+              "id": "halinka-gruzowisko",
+              "name": "Halinka — gruzowisko",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka-gruzowisko.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-13/shots/ze13-06-halinka-medytuje/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-13/shots/ze13-06-halinka-medytuje/frame-start-thumb.webp",

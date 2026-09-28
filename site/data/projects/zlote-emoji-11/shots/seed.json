@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-11/seed",
@@ -9,9 +9,31 @@
   "description": "",
   "project": {
     "id": "zlote-emoji-11",
-    "name": "Złote Emoji #11"
+    "key": "project:zlote-emoji-11",
+    "name": "Złote Emoji #11",
+    "createdAt": "2026-09-05T16:08:47.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-11",
+    "projectCreatedAt": "2026-09-05T16:08:47.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": false,
+    "canonicalEvent": false,
+    "sequence": null,
+    "lastSequence": null,
+    "occurrences": [],
+    "sequenceTotal": 7,
+    "uniqueShotCount": 7,
+    "sequenceOrder": null,
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This project material is not present on the saved timeline, so it must not override canonical timeline events by date alone."
   },
   "references": [],
+  "referenceUsage": {
+    "declared": [],
+    "activeFrames": [],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "",
     "endFrameDescription": "",

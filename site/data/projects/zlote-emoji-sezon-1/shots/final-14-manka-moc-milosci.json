@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-sezon-1/final-14-manka-moc-milosci",
@@ -9,7 +9,26 @@
   "description": "Mańka dopowiada najbardziej oczekiwany patetyczny finał: „mocy miłości?”.",
   "project": {
     "id": "zlote-emoji-sezon-1",
-    "name": "Złote Emoji Sezon #1"
+    "key": "project:zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1",
+    "createdAt": "2026-08-17T13:42:01.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-sezon-1",
+    "projectCreatedAt": "2026-08-17T13:42:01.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 50,
+    "lastSequence": 50,
+    "occurrences": [
+      50
+    ],
+    "sequenceTotal": 69,
+    "uniqueShotCount": 69,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -29,6 +48,95 @@
       "id": "final-12b-dariusz-podaje-k20-halince"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:marianna",
+        "key": "character:marianna",
+        "type": "character",
+        "id": "marianna",
+        "name": "Marianna \"Mańka\"",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/marianna.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:final-13-halinka-skupcie-sie-na",
+        "key": "shot:zlote-emoji-sezon-1/final-13-halinka-skupcie-sie-na",
+        "type": "shot",
+        "id": "final-13-halinka-skupcie-sie-na",
+        "name": "Final 13 — Halinka: skupcie się na…",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-13-halinka-skupcie-sie-na.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:dom-kultury-ruina-po-belicosie",
+        "key": "place:dom-kultury-ruina-po-belicosie",
+        "type": "place",
+        "id": "dom-kultury-ruina-po-belicosie",
+        "name": "Dom Kultury — ruina po Belicosie",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-ruina-po-belicosie.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:final-12b-dariusz-podaje-k20-halince",
+        "key": "shot:zlote-emoji-sezon-1/final-12b-dariusz-podaje-k20-halince",
+        "type": "shot",
+        "id": "final-12b-dariusz-podaje-k20-halince",
+        "name": "Final 12B — Dariusz podaje K20 Halince",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-12b-dariusz-podaje-k20-halince.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "character:marianna",
+          "place:dom-kultury-ruina-po-belicosie",
+          "shot:final-12b-dariusz-podaje-k20-halince"
+        ],
+        "references": [
+          {
+            "sourceKey": "character:marianna",
+            "key": "character:marianna",
+            "type": "character",
+            "id": "marianna",
+            "name": "Marianna \"Mańka\"",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/marianna.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "place:dom-kultury-ruina-po-belicosie",
+            "key": "place:dom-kultury-ruina-po-belicosie",
+            "type": "place",
+            "id": "dom-kultury-ruina-po-belicosie",
+            "name": "Dom Kultury — ruina po Belicosie",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-ruina-po-belicosie.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:final-12b-dariusz-podaje-k20-halince",
+            "key": "shot:zlote-emoji-sezon-1/final-12b-dariusz-podaje-k20-halince",
+            "type": "shot",
+            "id": "final-12b-dariusz-podaje-k20-halince",
+            "name": "Final 12B — Dariusz podaje K20 Halince",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-12b-dariusz-podaje-k20-halince.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Photorealistic live-action 16:9 locked 85 mm close-up of exact Marianna outside the ruined Dom Kultury, continuous with Dariusz handing K20 to Halinka. Preserve her pale face, long white hair, blue eyes, tall slim proportions, black layered clothes and natural skin. She turns slightly toward Halinka off-screen after hearing 'skupcie się na...' and tentatively offers the expected grand answer. Her expression is half genuinely hopeful and half aware that 'moc miłości' sounds obvious: eyebrows lift by a trace, lips poised to ask a short question, eyes seeking confirmation. Sincere first, gently comic second. Cold storm-blue ambience with warm entrance edge light; club members only as indistinct silhouettes. No glow, visible K20, cookie, broad smile, glamour pose, extra focused person, text, subtitles, UI or watermark.",
     "endFrameDescription": "",
@@ -43,12 +151,91 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 1,
       "source": "generated",
       "referenceKeys": [
         "character:marianna",
         "place:dom-kultury-ruina-po-belicosie",
         "shot:final-12b-dariusz-podaje-k20-halince"
+      ],
+      "references": [
+        {
+          "sourceKey": "character:marianna",
+          "key": "character:marianna",
+          "type": "character",
+          "id": "marianna",
+          "name": "Marianna \"Mańka\"",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/marianna.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "place:dom-kultury-ruina-po-belicosie",
+          "key": "place:dom-kultury-ruina-po-belicosie",
+          "type": "place",
+          "id": "dom-kultury-ruina-po-belicosie",
+          "name": "Dom Kultury — ruina po Belicosie",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-ruina-po-belicosie.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:final-12b-dariusz-podaje-k20-halince",
+          "key": "shot:zlote-emoji-sezon-1/final-12b-dariusz-podaje-k20-halince",
+          "type": "shot",
+          "id": "final-12b-dariusz-podaje-k20-halince",
+          "name": "Final 12B — Dariusz podaje K20 Halince",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-12b-dariusz-podaje-k20-halince.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-20T02:03:27+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:marianna",
+            "place:dom-kultury-ruina-po-belicosie",
+            "shot:final-12b-dariusz-podaje-k20-halince"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:marianna",
+              "key": "character:marianna",
+              "type": "character",
+              "id": "marianna",
+              "name": "Marianna \"Mańka\"",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/marianna.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:dom-kultury-ruina-po-belicosie",
+              "key": "place:dom-kultury-ruina-po-belicosie",
+              "type": "place",
+              "id": "dom-kultury-ruina-po-belicosie",
+              "name": "Dom Kultury — ruina po Belicosie",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-ruina-po-belicosie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:final-12b-dariusz-podaje-k20-halince",
+              "key": "shot:zlote-emoji-sezon-1/final-12b-dariusz-podaje-k20-halince",
+              "type": "shot",
+              "id": "final-12b-dariusz-podaje-k20-halince",
+              "name": "Final 12B — Dariusz podaje K20 Halince",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-12b-dariusz-podaje-k20-halince.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-14-manka-moc-milosci/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-14-manka-moc-milosci/frame-start-thumb.webp",

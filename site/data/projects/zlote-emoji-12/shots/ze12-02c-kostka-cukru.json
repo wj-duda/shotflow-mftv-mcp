@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-12/ze12-02c-kostka-cukru",
@@ -9,7 +9,26 @@
   "description": "Biała kostka cukru wpada w czarną kawę w kanonicznej szklance Czesława z metalowym koszyczkiem. Montażowy rym z upadkiem anioła, bez fizycznego związku lokacji. Poranek w lokalu zastępczym poza Domem Kultury. 1 s.",
   "project": {
     "id": "zlote-emoji-12",
-    "name": "Złote Emoji #12"
+    "key": "project:zlote-emoji-12",
+    "name": "Złote Emoji #12",
+    "createdAt": "2026-09-11T23:11:37.531Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-12",
+    "projectCreatedAt": "2026-09-11T23:11:37.531Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 6,
+    "lastSequence": 6,
+    "occurrences": [
+      6
+    ],
+    "sequenceTotal": 20,
+    "uniqueShotCount": 17,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -25,6 +44,74 @@
       "id": "czeslaw-lokal-zastepczy-ze12"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "prop:szklanka-czeslawa",
+        "key": "prop:szklanka-czeslawa",
+        "type": "prop",
+        "id": "szklanka-czeslawa",
+        "name": "Szklanka Czesława",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/szklanka-czeslawa.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze12-03-telefon-czeslawa",
+        "key": "shot:zlote-emoji-12/ze12-03-telefon-czeslawa",
+        "type": "shot",
+        "id": "ze12-03-telefon-czeslawa",
+        "name": "03 — Telefon o poranku",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-03-telefon-czeslawa.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "note:czeslaw-lokal-zastepczy-ze12",
+        "key": "note:czeslaw-lokal-zastepczy-ze12",
+        "type": "note",
+        "id": "czeslaw-lokal-zastepczy-ze12",
+        "name": "ZE12 — Czesław w lokalu zastępczym",
+        "relationship": "story-and-continuity-context",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/czeslaw-lokal-zastepczy-ze12.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "prop:szklanka-czeslawa",
+          "shot:ze12-03-telefon-czeslawa"
+        ],
+        "references": [
+          {
+            "sourceKey": "prop:szklanka-czeslawa",
+            "key": "prop:szklanka-czeslawa",
+            "type": "prop",
+            "id": "szklanka-czeslawa",
+            "name": "Szklanka Czesława",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/szklanka-czeslawa.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:ze12-03-telefon-czeslawa",
+            "key": "shot:zlote-emoji-12/ze12-03-telefon-czeslawa",
+            "type": "shot",
+            "id": "ze12-03-telefon-czeslawa",
+            "name": "03 — Telefon o poranku",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-03-telefon-czeslawa.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Use case: compositing. ONE photorealistic cinematic 16:9 tight insert of a WHITE sugar cube falling into BLACK coffee. Reference1 is mandatory exact Czeslaw drinking glass: tall clear straight-sided glass with delicate etched leaf motifs, ornate tarnished silver openwork METAL holder with loop handle and clear glass saucer. Preserve exact holder lattice, shape and proportions. Fill glass with black coffee to 2cm below rim. Reference2 locks scratched dark wooden desktop and morning light through left window blinds, tan folders and ordinary temporary office mood. High oblique camera about 60 degrees down, focus on black liquid surface and cube, glass in center, upper rim fully readable, lower holder visible. One small white sugar cube already released in midair just 1cm above center of coffee; no fingers or hand in crop. No splash yet. Small metal teaspoon lies on saucer. Quiet warm morning, shallow depth of field, cropped office folders far behind. This is a montage cut from a falling white angel to falling white sugar, not a physical connection between locations. No rubble, dust falling, tremor, damage, people, text or watermark.",
     "endFrameDescription": "",
@@ -39,11 +126,69 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 1,
       "source": "generated",
       "referenceKeys": [
         "prop:szklanka-czeslawa",
         "shot:ze12-03-telefon-czeslawa"
+      ],
+      "references": [
+        {
+          "sourceKey": "prop:szklanka-czeslawa",
+          "key": "prop:szklanka-czeslawa",
+          "type": "prop",
+          "id": "szklanka-czeslawa",
+          "name": "Szklanka Czesława",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/szklanka-czeslawa.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ze12-03-telefon-czeslawa",
+          "key": "shot:zlote-emoji-12/ze12-03-telefon-czeslawa",
+          "type": "shot",
+          "id": "ze12-03-telefon-czeslawa",
+          "name": "03 — Telefon o poranku",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-03-telefon-czeslawa.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-12T11:40:01.334125+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "prop:szklanka-czeslawa",
+            "shot:ze12-03-telefon-czeslawa"
+          ],
+          "references": [
+            {
+              "sourceKey": "prop:szklanka-czeslawa",
+              "key": "prop:szklanka-czeslawa",
+              "type": "prop",
+              "id": "szklanka-czeslawa",
+              "name": "Szklanka Czesława",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/szklanka-czeslawa.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ze12-03-telefon-czeslawa",
+              "key": "shot:zlote-emoji-12/ze12-03-telefon-czeslawa",
+              "type": "shot",
+              "id": "ze12-03-telefon-czeslawa",
+              "name": "03 — Telefon o poranku",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-03-telefon-czeslawa.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-02c-kostka-cukru/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-02c-kostka-cukru/frame-start-thumb.webp",

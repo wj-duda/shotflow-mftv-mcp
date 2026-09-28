@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-sezon-1/final-15-halinka-na-ciasteczkach",
@@ -9,7 +9,26 @@
   "description": "Halinka bez mrugnięcia odrzuca patos i każe wszystkim wyobrazić sobie dokładnie te same czarne ciasteczka z białym kremem. Za nią Dariusz stoi po lewej stronie kadru, a Mańka po prawej.",
   "project": {
     "id": "zlote-emoji-sezon-1",
-    "name": "Złote Emoji Sezon #1"
+    "key": "project:zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1",
+    "createdAt": "2026-08-17T13:42:01.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-sezon-1",
+    "projectCreatedAt": "2026-08-17T13:42:01.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 51,
+    "lastSequence": 51,
+    "occurrences": [
+      51
+    ],
+    "sequenceTotal": 69,
+    "uniqueShotCount": 69,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -41,6 +60,125 @@
       "id": "marianna"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:halinka",
+        "key": "character:halinka",
+        "type": "character",
+        "id": "halinka",
+        "name": "Halinka",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:grimskald",
+        "key": "character:grimskald",
+        "type": "character",
+        "id": "grimskald",
+        "name": "Pan Dariusz",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:final-14-manka-moc-milosci",
+        "key": "shot:zlote-emoji-sezon-1/final-14-manka-moc-milosci",
+        "type": "shot",
+        "id": "final-14-manka-moc-milosci",
+        "name": "Final 14 — Mańka: mocy miłości?",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-14-manka-moc-milosci.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:dom-kultury-ruina-po-belicosie",
+        "key": "place:dom-kultury-ruina-po-belicosie",
+        "type": "place",
+        "id": "dom-kultury-ruina-po-belicosie",
+        "name": "Dom Kultury — ruina po Belicosie",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-ruina-po-belicosie.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:filip-koza",
+        "key": "character:filip-koza",
+        "type": "character",
+        "id": "filip-koza",
+        "name": "Filip",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/filip-koza.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:marcel",
+        "key": "character:marcel",
+        "type": "character",
+        "id": "marcel",
+        "name": "Marcel",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/marcel.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:marianna",
+        "key": "character:marianna",
+        "type": "character",
+        "id": "marianna",
+        "name": "Marianna \"Mańka\"",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/marianna.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 3,
+        "referenceKeys": [
+          "self:final-15-halinka-na-ciasteczkach",
+          "character:grimskald",
+          "character:marianna"
+        ],
+        "references": [
+          {
+            "sourceKey": "self:final-15-halinka-na-ciasteczkach",
+            "key": "shot:zlote-emoji-sezon-1/final-15-halinka-na-ciasteczkach",
+            "type": "shot",
+            "id": "final-15-halinka-na-ciasteczkach",
+            "name": "Final 15 — Halinka: na ciasteczkach",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-15-halinka-na-ciasteczkach.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:grimskald",
+            "key": "character:grimskald",
+            "type": "character",
+            "id": "grimskald",
+            "name": "Pan Dariusz",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:marianna",
+            "key": "character:marianna",
+            "type": "character",
+            "id": "marianna",
+            "name": "Marianna \"Mańka\"",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/marianna.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Use case: precise-object-edit\nAsset type: cinematic Start Frame for final-15-halinka-na-ciasteczkach, 16:9 photorealistic film still\n\nInput images:\n- Image 1 is the exact edit target and authoritative source for the complete frame, Halinka, camera, crop, ruined Dom Kultury, rain, lighting, color grade, depth of field, signage and atmosphere.\n- Images 2 and 3 are exact identity, face, body-proportion and wardrobe references for Pan Dariusz.\n- Images 4 and 5 are exact identity, face, body-proportion and wardrobe references for Marianna \"Mańka\".\n\nPrimary request: Change only the two supporting characters behind Halinka. Keep Halinka exactly where she is in the foreground, with the same face, pose, expression, wardrobe, jewelry, scale and sharp focus. On the VIEWER'S LEFT side of Halinka, replace the currently cropped dark-haired young man with Pan Dariusz. Dariusz stands slightly behind Halinka on screen-left, visibly tall and very massive/stocky, correctly scaled relative to her, wearing his canonical blue shirt, dark vest, leather suspenders, rectangular glasses and long reddish-brown beard braided at the end. Frame him naturally as a partially visible supporting figure, not merged with Halinka and not touching her. On the VIEWER'S RIGHT side of Halinka, in the exact background region currently occupied by Dariusz, replace him with Marianna \"Mańka\". Mańka is tall and slim with very fair skin, long straight white hair and canonical black layered RPG-club clothing; she stands behind Halinka, rain-soaked, looking toward Halinka with stunned concentration. She must be recognizably the woman from Images 4 and 5, not a generic albino person.\n\nComposition/framing: Preserve the exact camera position, lens, foreground close-up of Halinka and spatial depth from Image 1. Dariusz must read clearly on screen-left; Mańka must read clearly on screen-right. Do not mirror the requested sides. Maintain believable occlusion behind Halinka and realistic scale: Dariusz broader and taller than Mańka, Mańka tall and slender, Halinka short in the foreground.\n\nLighting/mood: Preserve the same stormy night, warm doorway practical lights, cold rain, wet skin and fabric, subdued defeat and quiet concentration.\n\nConstraints: Change only the two background people. Preserve every other pixel-level scene choice as closely as possible: Halinka's exact identity and face, her position and expression, ruined facade, readable DOM KULTURY signage, wet pavement, rain direction, lighting, color grade and cinematic realism. No K20 die visible in anyone's hands. No cookies yet. No gestures that compete with Halinka. Correct human anatomy and separate bodies.\n\nAvoid: do not move or redesign Halinka; do not put Dariusz on screen-right; do not put Mańka on screen-left; do not retain a duplicate Dariusz; do not retain the dark-haired young man in the left slot; do not add, remove or duplicate other people beyond these explicit replacements; no merged bodies, extra limbs, malformed hands, face blending, text changes, subtitles, watermark, collage or split screen.\n",
     "endFrameDescription": "",
@@ -55,12 +193,166 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 3,
       "source": "generated",
       "referenceKeys": [
         "self:final-15-halinka-na-ciasteczkach",
         "character:grimskald",
         "character:marianna"
+      ],
+      "references": [
+        {
+          "sourceKey": "self:final-15-halinka-na-ciasteczkach",
+          "key": "shot:zlote-emoji-sezon-1/final-15-halinka-na-ciasteczkach",
+          "type": "shot",
+          "id": "final-15-halinka-na-ciasteczkach",
+          "name": "Final 15 — Halinka: na ciasteczkach",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-15-halinka-na-ciasteczkach.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:grimskald",
+          "key": "character:grimskald",
+          "type": "character",
+          "id": "grimskald",
+          "name": "Pan Dariusz",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:marianna",
+          "key": "character:marianna",
+          "type": "character",
+          "id": "marianna",
+          "name": "Marianna \"Mańka\"",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/marianna.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-20T18:50:48+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "place:dom-kultury-ruina-po-belicosie",
+            "character:grimskald",
+            "character:halinka",
+            "prop:artefakt-k20"
+          ],
+          "references": [
+            {
+              "sourceKey": "place:dom-kultury-ruina-po-belicosie",
+              "key": "place:dom-kultury-ruina-po-belicosie",
+              "type": "place",
+              "id": "dom-kultury-ruina-po-belicosie",
+              "name": "Dom Kultury — ruina po Belicosie",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-ruina-po-belicosie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:grimskald",
+              "key": "character:grimskald",
+              "type": "character",
+              "id": "grimskald",
+              "name": "Pan Dariusz",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:halinka",
+              "key": "character:halinka",
+              "type": "character",
+              "id": "halinka",
+              "name": "Halinka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:artefakt-k20",
+              "key": "prop:artefakt-k20",
+              "type": "prop",
+              "id": "artefakt-k20",
+              "name": "Artefakt K20",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-08-21T11:48:46+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "self:final-15-halinka-na-ciasteczkach"
+          ],
+          "references": [
+            {
+              "sourceKey": "self:final-15-halinka-na-ciasteczkach",
+              "key": "shot:zlote-emoji-sezon-1/final-15-halinka-na-ciasteczkach",
+              "type": "shot",
+              "id": "final-15-halinka-na-ciasteczkach",
+              "name": "Final 15 — Halinka: na ciasteczkach",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-15-halinka-na-ciasteczkach.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 3,
+          "createdAt": "2026-08-21T12:33:48+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "self:final-15-halinka-na-ciasteczkach",
+            "character:grimskald",
+            "character:marianna"
+          ],
+          "references": [
+            {
+              "sourceKey": "self:final-15-halinka-na-ciasteczkach",
+              "key": "shot:zlote-emoji-sezon-1/final-15-halinka-na-ciasteczkach",
+              "type": "shot",
+              "id": "final-15-halinka-na-ciasteczkach",
+              "name": "Final 15 — Halinka: na ciasteczkach",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-15-halinka-na-ciasteczkach.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:grimskald",
+              "key": "character:grimskald",
+              "type": "character",
+              "id": "grimskald",
+              "name": "Pan Dariusz",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:marianna",
+              "key": "character:marianna",
+              "type": "character",
+              "id": "marianna",
+              "name": "Marianna \"Mańka\"",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/marianna.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-15-halinka-na-ciasteczkach/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-15-halinka-na-ciasteczkach/frame-start-thumb.webp",

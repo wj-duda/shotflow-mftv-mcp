@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-10/otrzyjme-maia-melodies",
@@ -9,9 +9,51 @@
   "description": "",
   "project": {
     "id": "zlote-emoji-10",
-    "name": "Złote Emoji #10"
+    "key": "project:zlote-emoji-10",
+    "name": "Złote Emoji #10",
+    "createdAt": "2026-08-22T23:55:35.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-10",
+    "projectCreatedAt": "2026-08-22T23:55:35.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 10,
+    "lastSequence": 10,
+    "occurrences": [
+      10
+    ],
+    "sequenceTotal": 10,
+    "uniqueShotCount": 10,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [],
+  "referenceUsage": {
+    "declared": [],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [],
+        "references": [],
+        "sourceReference": {
+          "sourceKey": "take:act-two-browser-recording-czeslaw/take-1",
+          "key": "take:zlote-emoji-10/act-two-browser-recording-czeslaw/take-1",
+          "type": "take",
+          "id": "act-two-browser-recording-czeslaw/take-1",
+          "name": "act-two-browser-recording-czeslaw / take-1",
+          "relationship": "visible-state-from-take",
+          "shotKey": "shot:zlote-emoji-10/act-two-browser-recording-czeslaw",
+          "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-10/shots/act-two-browser-recording-czeslaw.json",
+          "exists": true
+        }
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "",
     "endFrameDescription": "",
@@ -26,9 +68,42 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 1,
       "source": "reference",
       "referenceKeys": [],
+      "references": [],
+      "sourceReference": {
+        "sourceKey": "take:act-two-browser-recording-czeslaw/take-1",
+        "key": "take:zlote-emoji-10/act-two-browser-recording-czeslaw/take-1",
+        "type": "take",
+        "id": "act-two-browser-recording-czeslaw/take-1",
+        "name": "act-two-browser-recording-czeslaw / take-1",
+        "relationship": "visible-state-from-take",
+        "shotKey": "shot:zlote-emoji-10/act-two-browser-recording-czeslaw",
+        "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-10/shots/act-two-browser-recording-czeslaw.json",
+        "exists": true
+      },
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-23T16:22:17.4968282+00:00",
+          "source": "reference",
+          "referenceKeys": [],
+          "references": [],
+          "sourceReference": {
+            "sourceKey": "take:act-two-browser-recording-czeslaw/take-1",
+            "key": "take:zlote-emoji-10/act-two-browser-recording-czeslaw/take-1",
+            "type": "take",
+            "id": "act-two-browser-recording-czeslaw/take-1",
+            "name": "act-two-browser-recording-czeslaw / take-1",
+            "relationship": "visible-state-from-take",
+            "shotKey": "shot:zlote-emoji-10/act-two-browser-recording-czeslaw",
+            "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-10/shots/act-two-browser-recording-czeslaw.json",
+            "exists": true
+          }
+        }
+      ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-10/shots/otrzyjme-maia-melodies/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-10/shots/otrzyjme-maia-melodies/frame-start-thumb.webp",
       "width": 1280,

@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-12/ze12-08-wieslaw-remont",
@@ -9,7 +9,26 @@
   "description": "Epilog wewnątrz niemal całkowicie pozbawionej dachu ruiny sali Domu Kultury. Nad gruzowiskiem otwarte niebo, pojedyncze resztki belek i poszarpane szczyty ścian. Bliższy kadr do piersi Wiesława: dominująca, ostra twarz ze zmęczoną miną; taczka głównie poniżej kadru. Trzy osoby KKN mniejsze i miękko rozmyte w tle: fioletowa taśma i oględziny. Anioła i Czesława nie ma. 8 s. Tekst Wiesława pod nosem: „Najpierw kosmici, potem anioły… W takim tempie nigdy nie skończymy tego remontu”. Dialog do późniejszego nagrania i lipsyncu.",
   "project": {
     "id": "zlote-emoji-12",
-    "name": "Złote Emoji #12"
+    "key": "project:zlote-emoji-12",
+    "name": "Złote Emoji #12",
+    "createdAt": "2026-09-11T23:11:37.531Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-12",
+    "projectCreatedAt": "2026-09-11T23:11:37.531Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 20,
+    "lastSequence": 20,
+    "occurrences": [
+      20
+    ],
+    "sequenceTotal": 20,
+    "uniqueShotCount": 17,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -53,6 +72,144 @@
       "id": "dom-kultury-sala"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:wieslaw-majster",
+        "key": "character:wieslaw-majster",
+        "type": "character",
+        "id": "wieslaw-majster",
+        "name": "Wiesław — majster remontu",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/wieslaw-majster.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "note:kkn-duet-biurowy-koncepcja",
+        "key": "note:kkn-duet-biurowy-koncepcja",
+        "type": "note",
+        "id": "kkn-duet-biurowy-koncepcja",
+        "name": "KKN — dwie urzędniczki, propozycja stroju",
+        "relationship": "story-and-continuity-context",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/kkn-duet-biurowy-koncepcja.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze12-05b-protokolant-fotografuje",
+        "key": "shot:zlote-emoji-12/ze12-05b-protokolant-fotografuje",
+        "type": "shot",
+        "id": "ze12-05b-protokolant-fotografuje",
+        "name": "Protokolant — dokumentacja",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-05b-protokolant-fotografuje.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:kkn-przewodniczaca",
+        "key": "character:kkn-przewodniczaca",
+        "type": "character",
+        "id": "kkn-przewodniczaca",
+        "name": "KKN — Przewodnicząca",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/kkn-przewodniczaca.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:kkn-inspektorka",
+        "key": "character:kkn-inspektorka",
+        "type": "character",
+        "id": "kkn-inspektorka",
+        "name": "KKN — Inspektorka",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/kkn-inspektorka.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:kkn-protokolant",
+        "key": "character:kkn-protokolant",
+        "type": "character",
+        "id": "kkn-protokolant",
+        "name": "KKN — Protokolant",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/kkn-protokolant.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:kkn-sygnet",
+        "key": "prop:kkn-sygnet",
+        "type": "prop",
+        "id": "kkn-sygnet",
+        "name": "KKN — sygnet Komisji Kultury Najwyższej",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/kkn-sygnet.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:leica-m3",
+        "key": "prop:leica-m3",
+        "type": "prop",
+        "id": "leica-m3",
+        "name": "Leica M3 — aparat protokolanta",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/leica-m3.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze12-08-wieslaw-remont",
+        "key": "shot:zlote-emoji-12/ze12-08-wieslaw-remont",
+        "type": "shot",
+        "id": "ze12-08-wieslaw-remont",
+        "name": "Wiesław — wieczny remont",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-08-wieslaw-remont.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:dom-kultury-sala",
+        "key": "place:dom-kultury-sala",
+        "type": "place",
+        "id": "dom-kultury-sala",
+        "name": "Sala Domu Kultury",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-sala.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 3,
+        "referenceKeys": [
+          "shot:ze12-08-wieslaw-remont",
+          "character:wieslaw-majster"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze12-08-wieslaw-remont",
+            "key": "shot:zlote-emoji-12/ze12-08-wieslaw-remont",
+            "type": "shot",
+            "id": "ze12-08-wieslaw-remont",
+            "name": "Wiesław — wieczny remont",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-08-wieslaw-remont.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:wieslaw-majster",
+            "key": "character:wieslaw-majster",
+            "type": "character",
+            "id": "wieslaw-majster",
+            "name": "Wiesław — majster remontu",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/wieslaw-majster.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Use case: compositing. Edit image1 (current film frame), with image2 as the exact facial identity reference for Wieslaw. Two required changes: the hall is now practically a roofless RUIN, and the shot is much closer to Wieslaw's face. 16:9 photorealistic cinematic medium close-up, 50mm lens at his eye level. Wieslaw occupies left half, cropped around lower chest, his head from top margin to near vertical center, face sharply detailed, same exact balding grey hair, large drooping grey-rust moustache, bulbous nose, weathered ruddy skin and tired practical expression. Same mustard sweater, olive quilted vest, blue overalls/red pencil. Looking just down past camera, not posed for portrait, mouth unobstructed for later dialogue. He still handles wheelbarrow below frame; only tiny out-of-focus lip/handle may enter bottom edge, do not widen to show cart. Right half and upper background reveal the SAME former Dom Kultury hall but catastrophically wrecked: OVER NINETY PERCENT OF ROOF AND CEILING GONE, broad open pale morning sky across upper background, only two or three snapped beam stubs projecting from jagged standing wall tops, no continuous ceiling or surviving roof sheet overhead. Huge irregular piles of bricks, fractured plaster, shattered roof timbers cover former parquet. Remaining ochre walls with dark green dado establish we stand within building footprint, not exterior street. Damaged remnants of stage and torn burgundy curtains far behind, recognizable but subordinate. No neat usable auditorium, intact screen or lit wall lamps. Three existing KKN personnel smaller and softly out of focus on right, same two women and bald male photographer, same black/violet wardrobe, badges on anatomical left chest, violet-white barrier tape, silver-black Leica M3. Inspector securing tape, leader inspecting rubble, photographer photographing few burned black feathers. Preserve exact four people only. Face is dominant and tack sharp while background is gently soft but damage and commissioner activities legible; natural diffuse open-sky light, restrained film color. No angel, body, Czeslaw, additional people, text overlays, watermark. Single frame, no panels.",
     "endFrameDescription": "",
@@ -67,11 +224,155 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 3,
       "source": "generated",
       "referenceKeys": [
         "shot:ze12-08-wieslaw-remont",
         "character:wieslaw-majster"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze12-08-wieslaw-remont",
+          "key": "shot:zlote-emoji-12/ze12-08-wieslaw-remont",
+          "type": "shot",
+          "id": "ze12-08-wieslaw-remont",
+          "name": "Wiesław — wieczny remont",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-08-wieslaw-remont.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:wieslaw-majster",
+          "key": "character:wieslaw-majster",
+          "type": "character",
+          "id": "wieslaw-majster",
+          "name": "Wiesław — majster remontu",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/wieslaw-majster.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-12T12:03:58.004056+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:wieslaw-majster",
+            "shot:ze12-04-przyjazd-komisji",
+            "note:kkn-duet-biurowy-koncepcja",
+            "shot:ze12-05b-protokolant-fotografuje"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:wieslaw-majster",
+              "key": "character:wieslaw-majster",
+              "type": "character",
+              "id": "wieslaw-majster",
+              "name": "Wiesław — majster remontu",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/wieslaw-majster.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ze12-04-przyjazd-komisji",
+              "key": "shot:zlote-emoji-12/ze12-04-przyjazd-komisji",
+              "type": "shot",
+              "id": "ze12-04-przyjazd-komisji",
+              "name": "04 — Komisja Kultury Najwyższej",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-04-przyjazd-komisji.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "note:kkn-duet-biurowy-koncepcja",
+              "key": "note:kkn-duet-biurowy-koncepcja",
+              "type": "note",
+              "id": "kkn-duet-biurowy-koncepcja",
+              "name": "KKN — dwie urzędniczki, propozycja stroju",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/kkn-duet-biurowy-koncepcja.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ze12-05b-protokolant-fotografuje",
+              "key": "shot:zlote-emoji-12/ze12-05b-protokolant-fotografuje",
+              "type": "shot",
+              "id": "ze12-05b-protokolant-fotografuje",
+              "name": "Protokolant — dokumentacja",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-05b-protokolant-fotografuje.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-09-12T12:16:40.754098+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze12-08-wieslaw-remont",
+            "place:dom-kultury-sala"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze12-08-wieslaw-remont",
+              "key": "shot:zlote-emoji-12/ze12-08-wieslaw-remont",
+              "type": "shot",
+              "id": "ze12-08-wieslaw-remont",
+              "name": "Wiesław — wieczny remont",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-08-wieslaw-remont.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:dom-kultury-sala",
+              "key": "place:dom-kultury-sala",
+              "type": "place",
+              "id": "dom-kultury-sala",
+              "name": "Sala Domu Kultury",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-sala.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 3,
+          "createdAt": "2026-09-12T12:22:38.311084+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze12-08-wieslaw-remont",
+            "character:wieslaw-majster"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze12-08-wieslaw-remont",
+              "key": "shot:zlote-emoji-12/ze12-08-wieslaw-remont",
+              "type": "shot",
+              "id": "ze12-08-wieslaw-remont",
+              "name": "Wiesław — wieczny remont",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-08-wieslaw-remont.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:wieslaw-majster",
+              "key": "character:wieslaw-majster",
+              "type": "character",
+              "id": "wieslaw-majster",
+              "name": "Wiesław — majster remontu",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/wieslaw-majster.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-08-wieslaw-remont/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-08-wieslaw-remont/frame-start-thumb.webp",

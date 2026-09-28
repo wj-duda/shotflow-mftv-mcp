@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-14/ze14-drzwi-cisza",
@@ -9,7 +9,24 @@
   "description": "Sekundowa przebitka na zamknięte szare drzwi baraku. Korekta ciągłości: od wnętrza zawiasy po PRAWEJ przy ścianie z włącznikiem, klamka po LEWEJ przy regale; skrzydło otwiera się w prawo jak przy wejściu Sirock. Układ pokoju i oś kamery bez odbicia lustrzanego. Bez ludzi, sylwetek i cieni. Pochmurne światło. Statyczny Start Frame; montaż i audio bez zmian.",
   "project": {
     "id": "zlote-emoji-14",
-    "name": "Złote Emoji #14"
+    "key": "project:zlote-emoji-14",
+    "name": "Złote Emoji #14",
+    "createdAt": "2026-09-27T00:13:04.173Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-14",
+    "projectCreatedAt": "2026-09-27T00:13:04.173Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": false,
+    "canonicalEvent": false,
+    "sequence": null,
+    "lastSequence": null,
+    "occurrences": [],
+    "sequenceTotal": 18,
+    "uniqueShotCount": 16,
+    "sequenceOrder": null,
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This project material is not present on the saved timeline, so it must not override canonical timeline events by date alone."
   },
   "references": [
     {
@@ -21,6 +38,64 @@
       "id": "ze14-drzwi-cisza"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:ze14-sirock-wchodzi",
+        "key": "shot:zlote-emoji-14/ze14-sirock-wchodzi",
+        "type": "shot",
+        "id": "ze14-sirock-wchodzi",
+        "name": "05 — Sirock wchodzi",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-sirock-wchodzi.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze14-drzwi-cisza",
+        "key": "shot:zlote-emoji-14/ze14-drzwi-cisza",
+        "type": "shot",
+        "id": "ze14-drzwi-cisza",
+        "name": "Zamkniete drzwi - cisza",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-drzwi-cisza.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "shot:ze14-drzwi-cisza",
+          "shot:ze14-sirock-wchodzi"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze14-drzwi-cisza",
+            "key": "shot:zlote-emoji-14/ze14-drzwi-cisza",
+            "type": "shot",
+            "id": "ze14-drzwi-cisza",
+            "name": "Zamkniete drzwi - cisza",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-drzwi-cisza.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:ze14-sirock-wchodzi",
+            "key": "shot:zlote-emoji-14/ze14-sirock-wchodzi",
+            "type": "shot",
+            "id": "ze14-sirock-wchodzi",
+            "name": "05 — Sirock wchodzi",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-sirock-wchodzi.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Precise-object-edit, surgical continuity correction. Image1 is the EXACT target closed-door frame. Image2 is context ONLY showing subsequent entrance; do NOT copy woman or open door. Change ONLY handedness of closed grey door hardware in image1: REMOVE ALL hinges from LEFT jamb and put hinges on RIGHT jamb, next to wall with light switch. REMOVE handle/keyhole/backplate from RIGHT side of leaf and place them on LEFT side of leaf, next to shelving-side jamb. Lever anchored near LEFT edge extends RIGHT into door center. Door remains fully CLOSED, solid grey unglazed sheet metal in same opening. This door will swing toward screen-right on its RIGHT hinges in following shot. Do not mirror the whole image or the room! Shelf, helmet, jacket, binders and desk stay LEFT; light switch and wall map stay RIGHT. Preserve exact camera composition, door size, perspective, textures, exposure, cloudy daylight and all other pixels. NO person, shadow, added text, new props or open gap. 16:9 photoreal film still.",
     "endFrameDescription": "",
@@ -35,11 +110,90 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 2,
       "source": "generated",
       "referenceKeys": [
         "shot:ze14-drzwi-cisza",
         "shot:ze14-sirock-wchodzi"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze14-drzwi-cisza",
+          "key": "shot:zlote-emoji-14/ze14-drzwi-cisza",
+          "type": "shot",
+          "id": "ze14-drzwi-cisza",
+          "name": "Zamkniete drzwi - cisza",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-drzwi-cisza.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ze14-sirock-wchodzi",
+          "key": "shot:zlote-emoji-14/ze14-sirock-wchodzi",
+          "type": "shot",
+          "id": "ze14-sirock-wchodzi",
+          "name": "05 — Sirock wchodzi",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-sirock-wchodzi.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-27T10:30:32.248549+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze14-sirock-wchodzi"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze14-sirock-wchodzi",
+              "key": "shot:zlote-emoji-14/ze14-sirock-wchodzi",
+              "type": "shot",
+              "id": "ze14-sirock-wchodzi",
+              "name": "05 — Sirock wchodzi",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-sirock-wchodzi.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-09-27T10:34:25.423254+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze14-drzwi-cisza",
+            "shot:ze14-sirock-wchodzi"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze14-drzwi-cisza",
+              "key": "shot:zlote-emoji-14/ze14-drzwi-cisza",
+              "type": "shot",
+              "id": "ze14-drzwi-cisza",
+              "name": "Zamkniete drzwi - cisza",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-drzwi-cisza.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ze14-sirock-wchodzi",
+              "key": "shot:zlote-emoji-14/ze14-sirock-wchodzi",
+              "type": "shot",
+              "id": "ze14-sirock-wchodzi",
+              "name": "05 — Sirock wchodzi",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-sirock-wchodzi.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-drzwi-cisza/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-drzwi-cisza/frame-start-thumb.webp",

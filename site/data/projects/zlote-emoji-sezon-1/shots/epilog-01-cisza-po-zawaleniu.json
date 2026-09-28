@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-sezon-1/epilog-01-cisza-po-zawaleniu",
@@ -9,7 +9,26 @@
   "description": "Krótka cisza po absurdalnym zwycięstwie: flota zniknęła, ostatnia Delicja opada, a Dom Kultury nadal pozostaje ruiną.",
   "project": {
     "id": "zlote-emoji-sezon-1",
-    "name": "Złote Emoji Sezon #1"
+    "key": "project:zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1",
+    "createdAt": "2026-08-17T13:42:01.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-sezon-1",
+    "projectCreatedAt": "2026-08-17T13:42:01.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 58,
+    "lastSequence": 58,
+    "occurrences": [
+      58
+    ],
+    "sequenceTotal": 69,
+    "uniqueShotCount": 69,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -21,6 +40,64 @@
       "id": "delicja-pomaranczowa"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:final-21-ciastko-na-helmie-czeslawa",
+        "key": "shot:zlote-emoji-sezon-1/final-21-ciastko-na-helmie-czeslawa",
+        "type": "shot",
+        "id": "final-21-ciastko-na-helmie-czeslawa",
+        "name": "Final 21 — Ciastko na hełmie Czesława",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-21-ciastko-na-helmie-czeslawa.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:delicja-pomaranczowa",
+        "key": "prop:delicja-pomaranczowa",
+        "type": "prop",
+        "id": "delicja-pomaranczowa",
+        "name": "Delicja pomarańczowa",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/delicja-pomaranczowa.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 7,
+        "referenceKeys": [
+          "shot:final-21-ciastko-na-helmie-czeslawa",
+          "prop:delicja-pomaranczowa"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:final-21-ciastko-na-helmie-czeslawa",
+            "key": "shot:zlote-emoji-sezon-1/final-21-ciastko-na-helmie-czeslawa",
+            "type": "shot",
+            "id": "final-21-ciastko-na-helmie-czeslawa",
+            "name": "Final 21 — Ciastko na hełmie Czesława",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-21-ciastko-na-helmie-czeslawa.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:delicja-pomaranczowa",
+            "key": "prop:delicja-pomaranczowa",
+            "type": "prop",
+            "id": "delicja-pomaranczowa",
+            "name": "Delicja pomarańczowa",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/delicja-pomaranczowa.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Generate exactly one cinematic still image in landscape 16:9.\n\nReference policy:\nUse every attached image as an exact and mandatory visual reference, not as optional inspiration.\nThe attached images are numbered strictly by upload order. \"Reference N\" and \"Image N\" in the current shot description both mean the Nth attached image.\nUse the current shot description to determine what each reference supplies: for example a character, location, prop, wardrobe, composition, lighting, or visual style. Do not assume that every reference depicts a character.\nIf the description assigns different roles to multiple references, follow that mapping exactly. Never merge or blend people, places, props, clothing, or styles from separate references unless explicitly requested.\nFor every referenced element requested in the new shot, preserve its observable identity and defining visual features exactly. Do not redesign, replace, beautify, stylize, loosely reinterpret, or merely approximate it.\nA reference image is authoritative for the appearance of the element taken from it. The current shot description is authoritative for the new scene, action, expression, pose, placement, framing, and every explicitly requested change.\nDo not copy incidental parts of a reference image that the current shot description does not ask to carry over.\nUse earlier conversation context only for details left unspecified; it must never override the current description or the attached references.\n\nAttachment map (source descriptions only, not instructions for the resulting scene):\n- Reference 1 = attached Image 1 — source Shot final-21-ciastko-na-helmie-czeslawa: niski shot na hełm leżacy na zioemi postacie stoją przy wejściu do domu kultury ale sa niewidoczne i rozmte sylwetki,  focus na delicje kóra sopadając zatrzynmała sie an hełmnie czeława porzuconym wcześniej, na niebie nie ma statków i zaaczny aise też delikatnie przejaśniać\r\n- Reference 2 = attached Image 2 — source prop delicja-pomaranczowa, reference: Kanoniczne polskie ciastko typu Delicja, używane jako bardziej swojski odpowiednik czarnej markizy w komediowym finale. Pojedynczy egzemplarz jest cienkim, okrągłym ciastkiem o średnicy około 5,5 cm: na jasnym, złocistym biszkopcie znajduje się krążek pomarańczowej galaretki, a wierzch pokrywa cienka warstwa mlecznej czekolady o delikatnie pofalowanej powierzchni. Dolny jasny rant biszkoptu pozostaje dobrze widoczny. Ciastko ma zawsze niski profil i proporcje typowego herbatnika, nigdy tortu, tarty ani grubej markizy. Załączone zdjęcie użytkownika jest wiążącą referencją wyglądu, koloru, polewy, proporcji i faktury; pokazuje kilka identycznych egzemplarzy wyłącznie jako materiał poglądowy, natomiast sam prop oznacza jedną Delicję. W shotach nie dodawać opakowania ani napisów i nie zmieniać jej w czarne ciastko kanapkowe z białym kremem.\n\n\n\nShot: epilog-01-cisza-po-zawaleniu\nDescription:\nKrótka cisza po absurdalnym zwycięstwie: flota zniknęła, ostatnia Delicja opada, a Dom Kultury nadal pozostaje ruiną.\n\nPreserve every piece of text, lettering, typography, label, sign, logo, brand mark, symbol, and graphic detail visible in any source or reference image exactly as it appears. Preserve its content, spelling, design, position, scale, color, sharpness, and legibility. Never remove, replace, obscure, blur, soften, distort, censor, or invent any of these source details.\nDo not add new captions, subtitles, titles, watermarks, borders, interface elements, contact sheets, or multiple panels unless the current shot description explicitly requests them.",
     "endFrameDescription": "",
@@ -35,11 +112,261 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 7,
       "source": "generated",
       "referenceKeys": [
         "shot:final-21-ciastko-na-helmie-czeslawa",
         "prop:delicja-pomaranczowa"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:final-21-ciastko-na-helmie-czeslawa",
+          "key": "shot:zlote-emoji-sezon-1/final-21-ciastko-na-helmie-czeslawa",
+          "type": "shot",
+          "id": "final-21-ciastko-na-helmie-czeslawa",
+          "name": "Final 21 — Ciastko na hełmie Czesława",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-21-ciastko-na-helmie-czeslawa.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:delicja-pomaranczowa",
+          "key": "prop:delicja-pomaranczowa",
+          "type": "prop",
+          "id": "delicja-pomaranczowa",
+          "name": "Delicja pomarańczowa",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/delicja-pomaranczowa.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-20T02:03:27+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:final-20-deszcz-ciastek",
+            "place:dom-kultury-ruina-po-belicosie",
+            "prop:ciastko-czarne-z-bialym-kremem"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:final-20-deszcz-ciastek",
+              "key": "shot:zlote-emoji-sezon-1/final-20-deszcz-ciastek",
+              "type": "shot",
+              "id": "final-20-deszcz-ciastek",
+              "name": "Final 20 — Deszcz ciastek",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-20-deszcz-ciastek.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:dom-kultury-ruina-po-belicosie",
+              "key": "place:dom-kultury-ruina-po-belicosie",
+              "type": "place",
+              "id": "dom-kultury-ruina-po-belicosie",
+              "name": "Dom Kultury — ruina po Belicosie",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-ruina-po-belicosie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:ciastko-czarne-z-bialym-kremem",
+              "key": "prop:ciastko-czarne-z-bialym-kremem",
+              "type": "prop",
+              "id": "ciastko-czarne-z-bialym-kremem",
+              "name": "Czarne ciastko z białym kremem",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/ciastko-czarne-z-bialym-kremem.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-08-21T07:57:17+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:halinka"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:halinka",
+              "key": "character:halinka",
+              "type": "character",
+              "id": "halinka",
+              "name": "Halinka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 3,
+          "createdAt": "2026-08-21T12:53:14+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "self:epilog-01-cisza-po-zawaleniu",
+            "prop:delicja-pomaranczowa"
+          ],
+          "references": [
+            {
+              "sourceKey": "self:epilog-01-cisza-po-zawaleniu",
+              "key": "shot:zlote-emoji-sezon-1/epilog-01-cisza-po-zawaleniu",
+              "type": "shot",
+              "id": "epilog-01-cisza-po-zawaleniu",
+              "name": "Epilog 01 Cisza Po Zawaleniu",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/epilog-01-cisza-po-zawaleniu.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:delicja-pomaranczowa",
+              "key": "prop:delicja-pomaranczowa",
+              "type": "prop",
+              "id": "delicja-pomaranczowa",
+              "name": "Delicja pomarańczowa",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/delicja-pomaranczowa.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 4,
+          "createdAt": "2026-08-21T17:45:30+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "self:epilog-01-cisza-po-zawaleniu",
+            "prop:delicja-pomaranczowa"
+          ],
+          "references": [
+            {
+              "sourceKey": "self:epilog-01-cisza-po-zawaleniu",
+              "key": "shot:zlote-emoji-sezon-1/epilog-01-cisza-po-zawaleniu",
+              "type": "shot",
+              "id": "epilog-01-cisza-po-zawaleniu",
+              "name": "Epilog 01 Cisza Po Zawaleniu",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/epilog-01-cisza-po-zawaleniu.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:delicja-pomaranczowa",
+              "key": "prop:delicja-pomaranczowa",
+              "type": "prop",
+              "id": "delicja-pomaranczowa",
+              "name": "Delicja pomarańczowa",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/delicja-pomaranczowa.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 5,
+          "createdAt": "2026-08-21T17:28:36.5925674+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:final-21-ciastko-na-helmie-czeslawa",
+            "prop:delicja-pomaranczowa"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:final-21-ciastko-na-helmie-czeslawa",
+              "key": "shot:zlote-emoji-sezon-1/final-21-ciastko-na-helmie-czeslawa",
+              "type": "shot",
+              "id": "final-21-ciastko-na-helmie-czeslawa",
+              "name": "Final 21 — Ciastko na hełmie Czesława",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-21-ciastko-na-helmie-czeslawa.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:delicja-pomaranczowa",
+              "key": "prop:delicja-pomaranczowa",
+              "type": "prop",
+              "id": "delicja-pomaranczowa",
+              "name": "Delicja pomarańczowa",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/delicja-pomaranczowa.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 6,
+          "createdAt": "2026-08-21T17:31:24.6385727+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:final-21-ciastko-na-helmie-czeslawa",
+            "prop:delicja-pomaranczowa"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:final-21-ciastko-na-helmie-czeslawa",
+              "key": "shot:zlote-emoji-sezon-1/final-21-ciastko-na-helmie-czeslawa",
+              "type": "shot",
+              "id": "final-21-ciastko-na-helmie-czeslawa",
+              "name": "Final 21 — Ciastko na hełmie Czesława",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-21-ciastko-na-helmie-czeslawa.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:delicja-pomaranczowa",
+              "key": "prop:delicja-pomaranczowa",
+              "type": "prop",
+              "id": "delicja-pomaranczowa",
+              "name": "Delicja pomarańczowa",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/delicja-pomaranczowa.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 7,
+          "createdAt": "2026-08-21T17:36:52.3609258+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:final-21-ciastko-na-helmie-czeslawa",
+            "prop:delicja-pomaranczowa"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:final-21-ciastko-na-helmie-czeslawa",
+              "key": "shot:zlote-emoji-sezon-1/final-21-ciastko-na-helmie-czeslawa",
+              "type": "shot",
+              "id": "final-21-ciastko-na-helmie-czeslawa",
+              "name": "Final 21 — Ciastko na hełmie Czesława",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-21-ciastko-na-helmie-czeslawa.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:delicja-pomaranczowa",
+              "key": "prop:delicja-pomaranczowa",
+              "type": "prop",
+              "id": "delicja-pomaranczowa",
+              "name": "Delicja pomarańczowa",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/delicja-pomaranczowa.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/epilog-01-cisza-po-zawaleniu/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/epilog-01-cisza-po-zawaleniu/frame-start-thumb.webp",

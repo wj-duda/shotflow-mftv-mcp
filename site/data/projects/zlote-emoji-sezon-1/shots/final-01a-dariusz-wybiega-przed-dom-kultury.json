@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-sezon-1/final-01a-dariusz-wybiega-przed-dom-kultury",
@@ -9,7 +9,26 @@
   "description": "Statyczne, ciasne ujęcie Dariusza już stojącego przed Domem Kultury. Patrzy w niebo z autentycznym terrorem, rozpoznaje flotę jako Dzieci Gwiazd i szeptem łączy katastrofę z Teodorem.",
   "project": {
     "id": "zlote-emoji-sezon-1",
-    "name": "Złote Emoji Sezon #1"
+    "key": "project:zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1",
+    "createdAt": "2026-08-17T13:42:01.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-sezon-1",
+    "projectCreatedAt": "2026-08-17T13:42:01.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 18,
+    "lastSequence": 18,
+    "occurrences": [
+      18
+    ],
+    "sequenceTotal": 69,
+    "uniqueShotCount": 69,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -25,6 +44,85 @@
       "id": "dom-kultury-wejscie"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:final-01-roj-nad-domem-kultury",
+        "key": "shot:zlote-emoji-sezon-1/final-01-roj-nad-domem-kultury",
+        "type": "shot",
+        "id": "final-01-roj-nad-domem-kultury",
+        "name": "Final 01 Roj Nad Domem Kultury",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-01-roj-nad-domem-kultury.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:grimskald",
+        "key": "character:grimskald",
+        "type": "character",
+        "id": "grimskald",
+        "name": "Pan Dariusz",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:dom-kultury-wejscie",
+        "key": "place:dom-kultury-wejscie",
+        "type": "place",
+        "id": "dom-kultury-wejscie",
+        "name": "Wejście do Domu Kultruy",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-wejscie.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "shot:final-01-roj-nad-domem-kultury",
+          "character:grimskald",
+          "place:dom-kultury-wejscie"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:final-01-roj-nad-domem-kultury",
+            "key": "shot:zlote-emoji-sezon-1/final-01-roj-nad-domem-kultury",
+            "type": "shot",
+            "id": "final-01-roj-nad-domem-kultury",
+            "name": "Final 01 Roj Nad Domem Kultury",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-01-roj-nad-domem-kultury.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:grimskald",
+            "key": "character:grimskald",
+            "type": "character",
+            "id": "grimskald",
+            "name": "Pan Dariusz",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "place:dom-kultury-wejscie",
+            "key": "place:dom-kultury-wejscie",
+            "type": "place",
+            "id": "dom-kultury-wejscie",
+            "name": "Wejście do Domu Kultruy",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-wejscie.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Create one photorealistic cinematic 16:9 Start Frame for the revised shot final-01a. Reference 1 is the canonical Dzieci Gwiazd fleet and stormy night atmosphere. References 2 and 3 are the exact mandatory facial identity, hair, braided beard, glasses, body proportions and clothing of Pan Dariusz. Reference 4 supplies continuity of the Dom Kultury exterior and its night lighting, but must not impose a running pose or wide action composition.\n\nNew composition: a static, intimate medium close-up from mid-chest upward. Dariusz has already stopped outside on the forecourt and is staring steeply upward into the sky, slightly off camera. The camera is locked and positioned just below his eye line, using a restrained 65–85 mm cinematic portrait perspective, with no Dutch angle. His face dominates the frame. Show authentic restrained terror rather than an exaggerated scream: eyes wide and wet behind his rectangular glasses, pupils lifted toward the sky, brow tense, lower eyelids taut, lips barely parted as if he has just whispered a name, breath held, skin slightly clammy. Behind the terror, the beginning of recognition is visible in a minute tightening of his mouth. A dim cold-blue reflection of the organic fleet crosses both eyeglass lenses without hiding his eyes. Cold storm light from above shapes his face; a soft warm rim from the Dom Kultury entrance separates his beard and shoulder from the dark background. The shallow-focus background contains only a small blurred fragment of the familiar Dom Kultury facade, storm clouds and one or two enormous blurred organic silhouettes high above. The ships must remain canonical Dzieci Gwiazd bio-ships, never generic spacecraft. Preserve Dariusz’s exact blue shirt, dark vest, leather suspenders, pins and braided beard. Do not add a cup, weapon, cube, hat or other people. Natural skin texture and correct anatomy. No text, captions, subtitles, logos, watermark, extra limbs, distorted hands, comedy, superhero pose, running, screaming mouth, fisheye or excessive motion blur.\n",
     "endFrameDescription": "",
@@ -39,12 +137,134 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 2,
       "source": "generated",
       "referenceKeys": [
         "shot:final-01-roj-nad-domem-kultury",
         "character:grimskald",
         "place:dom-kultury-wejscie"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:final-01-roj-nad-domem-kultury",
+          "key": "shot:zlote-emoji-sezon-1/final-01-roj-nad-domem-kultury",
+          "type": "shot",
+          "id": "final-01-roj-nad-domem-kultury",
+          "name": "Final 01 Roj Nad Domem Kultury",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-01-roj-nad-domem-kultury.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:grimskald",
+          "key": "character:grimskald",
+          "type": "character",
+          "id": "grimskald",
+          "name": "Pan Dariusz",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "place:dom-kultury-wejscie",
+          "key": "place:dom-kultury-wejscie",
+          "type": "place",
+          "id": "dom-kultury-wejscie",
+          "name": "Wejście do Domu Kultruy",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-wejscie.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-20T00:58:03+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:final-01-roj-nad-domem-kultury",
+            "character:grimskald",
+            "place:dom-kultury-wejscie"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:final-01-roj-nad-domem-kultury",
+              "key": "shot:zlote-emoji-sezon-1/final-01-roj-nad-domem-kultury",
+              "type": "shot",
+              "id": "final-01-roj-nad-domem-kultury",
+              "name": "Final 01 Roj Nad Domem Kultury",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-01-roj-nad-domem-kultury.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:grimskald",
+              "key": "character:grimskald",
+              "type": "character",
+              "id": "grimskald",
+              "name": "Pan Dariusz",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:dom-kultury-wejscie",
+              "key": "place:dom-kultury-wejscie",
+              "type": "place",
+              "id": "dom-kultury-wejscie",
+              "name": "Wejście do Domu Kultruy",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-wejscie.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-08-20T08:02:53+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:final-01-roj-nad-domem-kultury",
+            "character:grimskald",
+            "place:dom-kultury-wejscie"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:final-01-roj-nad-domem-kultury",
+              "key": "shot:zlote-emoji-sezon-1/final-01-roj-nad-domem-kultury",
+              "type": "shot",
+              "id": "final-01-roj-nad-domem-kultury",
+              "name": "Final 01 Roj Nad Domem Kultury",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-01-roj-nad-domem-kultury.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:grimskald",
+              "key": "character:grimskald",
+              "type": "character",
+              "id": "grimskald",
+              "name": "Pan Dariusz",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:dom-kultury-wejscie",
+              "key": "place:dom-kultury-wejscie",
+              "type": "place",
+              "id": "dom-kultury-wejscie",
+              "name": "Wejście do Domu Kultruy",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-wejscie.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-01a-dariusz-wybiega-przed-dom-kultury/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-01a-dariusz-wybiega-przed-dom-kultury/frame-start-thumb.webp",

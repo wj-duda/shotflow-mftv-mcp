@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:cc-rolka/nie-szarpane-srody",
@@ -9,7 +9,26 @@
   "description": "Halinka odpowiada suchym, ciepłym spojrzeniem: to nie Szarpane Środy.",
   "project": {
     "id": "cc-rolka",
-    "name": "CC-Rolka"
+    "key": "project:cc-rolka",
+    "name": "CC-Rolka",
+    "createdAt": "2026-09-04T21:44:12.588Z"
+  },
+  "chronology": {
+    "projectKey": "project:cc-rolka",
+    "projectCreatedAt": "2026-09-04T21:44:12.588Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 4,
+    "lastSequence": 4,
+    "occurrences": [
+      4
+    ],
+    "sequenceTotal": 18,
+    "uniqueShotCount": 18,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -21,6 +40,64 @@
       "id": "halinka"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:halinka-herbata",
+        "key": "shot:cc-rolka/halinka-herbata",
+        "type": "shot",
+        "id": "halinka-herbata",
+        "name": "Halinka przynosi herbatę",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/cc-rolka/shots/halinka-herbata.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:halinka",
+        "key": "character:halinka",
+        "type": "character",
+        "id": "halinka",
+        "name": "Halinka",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "shot:halinka-herbata",
+          "character:halinka"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:halinka-herbata",
+            "key": "shot:cc-rolka/halinka-herbata",
+            "type": "shot",
+            "id": "halinka-herbata",
+            "name": "Halinka przynosi herbatę",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/cc-rolka/shots/halinka-herbata.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:halinka",
+            "key": "character:halinka",
+            "type": "character",
+            "id": "halinka",
+            "name": "Halinka",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Native vertical 9:16 reverse close-up completing the same late-1990s Polish TV bedroom dialogue. Exact Halinka pauses with one steaming transparent glass mug and gives off-screen Czeslaw a tiny restrained deadpan look: warm concern mixed with dry disapproval, lips closed. Tight chest-and-face close-up; Halinka occupies the left two-thirds and looks down-right. Mug and steam enter lower-center; floral wallpaper and warm bedside lamp continue the location. Canonical burgundy cardigan, black top, gold earrings and layered necklaces. Exact photorealism, subtle 16 mm/S-VHS grain, cold window fill and warm tungsten edge. One person, one mug, correct hands, no text or artifacts.",
     "endFrameDescription": "",
@@ -35,11 +112,101 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 2,
       "source": "generated",
       "referenceKeys": [
         "shot:halinka-herbata",
         "character:halinka"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:halinka-herbata",
+          "key": "shot:cc-rolka/halinka-herbata",
+          "type": "shot",
+          "id": "halinka-herbata",
+          "name": "Halinka przynosi herbatę",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/cc-rolka/shots/halinka-herbata.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:halinka",
+          "key": "character:halinka",
+          "type": "character",
+          "id": "halinka",
+          "name": "Halinka",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-04T21:44:12.5882061+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:halinka-herbata",
+            "character:halinka"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:halinka-herbata",
+              "key": "shot:cc-rolka/halinka-herbata",
+              "type": "shot",
+              "id": "halinka-herbata",
+              "name": "Halinka przynosi herbatę",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/cc-rolka/shots/halinka-herbata.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:halinka",
+              "key": "character:halinka",
+              "type": "character",
+              "id": "halinka",
+              "name": "Halinka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-09-05T15:34:09.1486822+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:halinka-herbata",
+            "character:halinka"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:halinka-herbata",
+              "key": "shot:cc-rolka/halinka-herbata",
+              "type": "shot",
+              "id": "halinka-herbata",
+              "name": "Halinka przynosi herbatę",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/cc-rolka/shots/halinka-herbata.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:halinka",
+              "key": "character:halinka",
+              "type": "character",
+              "id": "halinka",
+              "name": "Halinka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/nie-szarpane-srody/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/nie-szarpane-srody/frame-start-thumb.webp",

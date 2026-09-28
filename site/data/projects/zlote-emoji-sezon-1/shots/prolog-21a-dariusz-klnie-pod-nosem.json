@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-sezon-1/prolog-21a-dariusz-klnie-pod-nosem",
@@ -9,7 +9,26 @@
   "description": "Bardzo krótki, rytmiczny insert pomiędzy odkryciem K20 a rantem o brakującej yerbie. Dokładnie na cięciu twardo urywa się El Correo de Guatemala, a od tego miejsca aż do planszy „Kilka tygodni później” pozostaje kontrastowa cisza bez podkładu muzycznego. Z planu pokazującego Dariusza, paczkę i stół przeskakujemy brutalnie do ekstremalnego zbliżenia wyłącznie na dolną część jego twarzy: nos, rozpoznawalne wąsy, napięte usta i fragment ogromnej rudej brody. W nagle odsłoniętej ciszy Dariusz cedzi pod nosem jedno krótkie, suche „Kurwa.”. Słowo ma być słyszalne blisko i intymnie, wraz z oddechem i minimalnym ruchem wąsów; nie jest krzykiem. Funkcją shota jest montażowe uderzenie i pierwszy błysk irytacji przed spokojniejszym, pełnym zdaniem w 22A; nie rozwijamy tu osobnej sceny aktorskiej. Kamera pozostaje całkowicie nieruchoma, a humor bierze się z nagłej ciszy, brutalnej zmiany skali i przesadnie ciasnego kadru, nie z min ani gestykulacji.",
   "project": {
     "id": "zlote-emoji-sezon-1",
-    "name": "Złote Emoji Sezon #1"
+    "key": "project:zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1",
+    "createdAt": "2026-08-17T13:42:01.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-sezon-1",
+    "projectCreatedAt": "2026-08-17T13:42:01.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 4,
+    "lastSequence": 4,
+    "occurrences": [
+      4
+    ],
+    "sequenceTotal": 69,
+    "uniqueShotCount": 69,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -29,6 +48,108 @@
       "id": "klub-fantastyki"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "take:prolog-21-k20-na-stole/take-1",
+        "key": "take:zlote-emoji-sezon-1/prolog-21-k20-na-stole/take-1",
+        "type": "take",
+        "id": "prolog-21-k20-na-stole/take-1",
+        "name": "K20 na stole / take-1",
+        "relationship": "visible-state-from-take",
+        "shotKey": "shot:zlote-emoji-sezon-1/prolog-21-k20-na-stole",
+        "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-21-k20-na-stole.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:grimskald",
+        "key": "character:grimskald",
+        "type": "character",
+        "id": "grimskald",
+        "name": "Pan Dariusz",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:prolog-22a-dariusz-gwatemalska-yerba",
+        "key": "shot:zlote-emoji-sezon-1/prolog-22a-dariusz-gwatemalska-yerba",
+        "type": "shot",
+        "id": "prolog-22a-dariusz-gwatemalska-yerba",
+        "name": "Dariusz — gwatemalska yerba",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-22a-dariusz-gwatemalska-yerba.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:klub-fantastyki",
+        "key": "place:klub-fantastyki",
+        "type": "place",
+        "id": "klub-fantastyki",
+        "name": "Klub Fantastyki",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/klub-fantastyki.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "take:prolog-21-k20-na-stole/take-1",
+          "character:grimskald",
+          "shot:prolog-22a-dariusz-gwatemalska-yerba",
+          "place:klub-fantastyki"
+        ],
+        "references": [
+          {
+            "sourceKey": "take:prolog-21-k20-na-stole/take-1",
+            "key": "take:zlote-emoji-sezon-1/prolog-21-k20-na-stole/take-1",
+            "type": "take",
+            "id": "prolog-21-k20-na-stole/take-1",
+            "name": "K20 na stole / take-1",
+            "relationship": "visible-state-from-take",
+            "shotKey": "shot:zlote-emoji-sezon-1/prolog-21-k20-na-stole",
+            "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-21-k20-na-stole.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:grimskald",
+            "key": "character:grimskald",
+            "type": "character",
+            "id": "grimskald",
+            "name": "Pan Dariusz",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:prolog-22a-dariusz-gwatemalska-yerba",
+            "key": "shot:zlote-emoji-sezon-1/prolog-22a-dariusz-gwatemalska-yerba",
+            "type": "shot",
+            "id": "prolog-22a-dariusz-gwatemalska-yerba",
+            "name": "Dariusz — gwatemalska yerba",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-22a-dariusz-gwatemalska-yerba.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "place:klub-fantastyki",
+            "key": "place:klub-fantastyki",
+            "type": "place",
+            "id": "klub-fantastyki",
+            "name": "Klub Fantastyki",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/klub-fantastyki.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Generate exactly one cinematic still image in landscape 16:9.\n\nReference policy:\nUse every attached image as an exact and mandatory visual reference, not as optional inspiration.\nThe attached images are numbered strictly by upload order. \"Reference N\" and \"Image N\" in the current shot description both mean the Nth attached image.\nUse the current shot description to determine what each reference supplies: for example a character, location, prop, wardrobe, composition, lighting, or visual style. Do not assume that every reference depicts a character.\nIf the description assigns different roles to multiple references, follow that mapping exactly. Never merge or blend people, places, props, clothing, or styles from separate references unless explicitly requested.\nFor every referenced element requested in the new shot, preserve its observable identity and defining visual features exactly. Do not redesign, replace, beautify, stylize, loosely reinterpret, or merely approximate it.\nA reference image is authoritative for the appearance of the element taken from it. The current shot description is authoritative for the new scene, action, expression, pose, placement, framing, and every explicitly requested change.\nDo not copy incidental parts of a reference image that the current shot description does not ask to carry over.\nUse earlier conversation context only for details left unspecified; it must never override the current description or the attached references.\n\nAttachment map (source descriptions only, not instructions for the resulting scene):\n- Reference 1 = attached Image 1 — source Take prolog-21-k20-na-stole/take-1, last visible frame 75: Widok z góry na stół Klubu Fantastyki. Ręce Dariusza otwierają paczkę i odsłaniają zakamuflowaną K20; kamera zatrzymuje się na rozpoznawalnym artefakcie i przygotowuje bezpośrednią kontynuację dialogową w shotach 22A i 22B. Nie wracamy tutaj do materiału ZE5. One continuous 4-second cinematic live-action take. The supplied Start Frame already shows the parcel open and the inert K20 visible among the packing paper; do not reopen the box and do not repeat the reveal. The camera remains completely locked so Dariusz's face, hovering hands, open parcel and K20 stay readable together. 0.0-0.8 s, generated lead-in before the visible timeline segment: Dariusz has just pulled the paper apart. A faint trace of pleased anticipation remains in his eyes and closed mouth because he expects his long-awaited yerba mate from Guatemala. His hands finish one tiny natural settling motion above the parcel, then stop. 0.8-1.5 s: his eyes land on the K20; the small satisfied smile drains away gradually rather than snapping off. His gaze makes a quick, precise search across the empty packing paper and both corners of the box, as if his brain is still looking for bags of yerba. One natural blink. 1.5-2.4 s: comprehension fails. His eyebrows first rise by a few millimetres, then draw together asymmetrically; the skin between them tightens, his nostrils flare subtly, and his head retracts and tilts a fraction. His mouth remains silent: the lips part only one or two millimetres for a confused breath, then press together unevenly. 2.4-3.3 s: his eyes move K20 -> empty paper -> K20, slower on the return. His jaw loosens slightly, one corner of the moustache twitches, and his shoulders become rigid. The hands remain suspended in mismatched half-gestures, fingers making only tiny uncertain flexes, as if he has forgotten what action should come next. 3.3-4.0 s: total silent confusion and disorientation settles in. He freezes, staring at the impossible object with unfocused disbelief, then makes one minuscule backward head movement without touching it. Performance must be psychologically natural, restrained and driven by readable microexpressions, not theatrical mugging. No dialogue, no words, no lip-sync and no broad gesture. The K20 remains exactly 3.0 cm vertex-to-vertex, inert, dark and motionless in the same place. Preserve exact Dariusz identity, braided red beard, black glasses, anatomy, clothing, badges, hands, open parcel, packing paper, tabletop, miniatures, room, lighting, composition, K20 geometry and correct numerals. No glow, magic, rolling die, reaching for the die, new objects, yerba appearing, extra people, extra fingers, morphing, camera movement, cuts, captions, logos or watermark.\r\n- Reference 2 = attached Image 2 — source character grimskald, portrait: CHARACTER [age=30-44; presentation=masculine; height=tall; build=stocky; body=pear; chest=large; skin=light; face=square; eyes=blue; hair-color=red; hair-length=long; hair-texture=straight]\r\n\r\nPan Dariusz, opiekun klubu fantastyki w domu kultury. Potężnie zbudowany, ok. 188 cm, masywny, z długą rudobrązową brodą splecioną w warkocz, zaczesanymi włosami i prostokątnymi okularami. Nosi niebieską koszulę, ciemną kamizelkę, skórzane szelki, jeansy, ciężkie buty, przypinki, zegarek kieszonkowy i klucze przy pasie. Surowy, spokojny i sprawiedliwy; opiekuńczy, praktyczny, staroświecki, z cichym autorytetem i sentymentem do fantastyki. Często z kubkieb Yerbamate (bombilla \"Keep Calm\")\r\n- Reference 3 = attached Image 3 — source character grimskald, silhouette: CHARACTER [age=30-44; presentation=masculine; height=tall; build=stocky; body=pear; chest=large; skin=light; face=square; eyes=blue; hair-color=red; hair-length=long; hair-texture=straight]\r\n\r\nPan Dariusz, opiekun klubu fantastyki w domu kultury. Potężnie zbudowany, ok. 188 cm, masywny, z długą rudobrązową brodą splecioną w warkocz, zaczesanymi włosami i prostokątnymi okularami. Nosi niebieską koszulę, ciemną kamizelkę, skórzane szelki, jeansy, ciężkie buty, przypinki, zegarek kieszonkowy i klucze przy pasie. Surowy, spokojny i sprawiedliwy; opiekuńczy, praktyczny, staroświecki, z cichym autorytetem i sentymentem do fantastyki. Często z kubkieb Yerbamate (bombilla \"Keep Calm\")\r\n- Reference 4 = attached Image 4 — source Shot prolog-22a-dariusz-gwatemalska-yerba: Bezpośrednie przedłużenie końca prologu. Dariusz nad otwartą paczką próbuje zrozumieć, dlaczego zamiast zamówionej gwatemalskiej yerby dostał artefakt K20.\r\n- Reference 5 = attached Image 5 — source place klub-fantastyki, reference: Klub fantastyki w domu kultury, Klub fantastyki mieści się w dzikiej, półlegalnej PRL-owskiej nadbudówce nad bocznym skrzydłem domu kultury. To niskie, prowizorycznie zaadaptowane pomieszczenie z belkami, rurami, małymi oknami od tyłu i wejściem po wąskich schodach z zaplecza. Oficjalnie miało być magazynem, ale z czasem przejął je klub, a dziś nikt już nie wie, kto i na jakiej podstawie je dobudował.Prowadzą do niego wąskie schody z zaplecza przy magazynie, dlatego jest odseparowany od widowni i sceny. Od strony sali prób sąsiaduje z boczną częścią domu kultury, ale funkcjonuje jako osobne, ukryte pomieszczenie klubowe.\n\n\n\nShot: prolog-21a-dariusz-klnie-pod-nosem\nDescription:\nBardzo krótki, rytmiczny insert pomiędzy odkryciem K20 a rantem o brakującej yerbie. Dokładnie na cięciu twardo urywa się El Correo de Guatemala, a od tego miejsca aż do planszy „Kilka tygodni później” pozostaje kontrastowa cisza bez podkładu muzycznego. Z planu pokazującego Dariusza, paczkę i stół przeskakujemy brutalnie do ekstremalnego zbliżenia wyłącznie na dolną część jego twarzy: nos, rozpoznawalne wąsy, napięte usta i fragment ogromnej rudej brody. W nagle odsłoniętej ciszy Dariusz cedzi pod nosem jedno krótkie, suche „Kurwa.”. Słowo ma być słyszalne blisko i intymnie, wraz z oddechem i minimalnym ruchem wąsów; nie jest krzykiem. Funkcją shota jest montażowe uderzenie i pierwszy błysk irytacji przed spokojniejszym, pełnym zdaniem w 22A; nie rozwijamy tu osobnej sceny aktorskiej. Kamera pozostaje całkowicie nieruchoma, a humor bierze się z nagłej ciszy, brutalnej zmiany skali i przesadnie ciasnego kadru, nie z min ani gestykulacji.\n\nPreserve every piece of text, lettering, typography, label, sign, logo, brand mark, symbol, and graphic detail visible in any source or reference image exactly as it appears. Preserve its content, spelling, design, position, scale, color, sharpness, and legibility. Never remove, replace, obscure, blur, soften, distort, censor, or invent any of these source details.\nDo not add new captions, subtitles, titles, watermarks, borders, interface elements, contact sheets, or multiple panels unless the current shot description explicitly requests them.",
     "endFrameDescription": "",
@@ -43,6 +164,7 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 1,
       "source": "generated",
       "referenceKeys": [
@@ -50,6 +172,107 @@
         "character:grimskald",
         "shot:prolog-22a-dariusz-gwatemalska-yerba",
         "place:klub-fantastyki"
+      ],
+      "references": [
+        {
+          "sourceKey": "take:prolog-21-k20-na-stole/take-1",
+          "key": "take:zlote-emoji-sezon-1/prolog-21-k20-na-stole/take-1",
+          "type": "take",
+          "id": "prolog-21-k20-na-stole/take-1",
+          "name": "K20 na stole / take-1",
+          "relationship": "visible-state-from-take",
+          "shotKey": "shot:zlote-emoji-sezon-1/prolog-21-k20-na-stole",
+          "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-21-k20-na-stole.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:grimskald",
+          "key": "character:grimskald",
+          "type": "character",
+          "id": "grimskald",
+          "name": "Pan Dariusz",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:prolog-22a-dariusz-gwatemalska-yerba",
+          "key": "shot:zlote-emoji-sezon-1/prolog-22a-dariusz-gwatemalska-yerba",
+          "type": "shot",
+          "id": "prolog-22a-dariusz-gwatemalska-yerba",
+          "name": "Dariusz — gwatemalska yerba",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-22a-dariusz-gwatemalska-yerba.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "place:klub-fantastyki",
+          "key": "place:klub-fantastyki",
+          "type": "place",
+          "id": "klub-fantastyki",
+          "name": "Klub Fantastyki",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/klub-fantastyki.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-20T22:16:09.4670949+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "take:prolog-21-k20-na-stole/take-1",
+            "character:grimskald",
+            "shot:prolog-22a-dariusz-gwatemalska-yerba",
+            "place:klub-fantastyki"
+          ],
+          "references": [
+            {
+              "sourceKey": "take:prolog-21-k20-na-stole/take-1",
+              "key": "take:zlote-emoji-sezon-1/prolog-21-k20-na-stole/take-1",
+              "type": "take",
+              "id": "prolog-21-k20-na-stole/take-1",
+              "name": "K20 na stole / take-1",
+              "relationship": "visible-state-from-take",
+              "shotKey": "shot:zlote-emoji-sezon-1/prolog-21-k20-na-stole",
+              "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-21-k20-na-stole.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:grimskald",
+              "key": "character:grimskald",
+              "type": "character",
+              "id": "grimskald",
+              "name": "Pan Dariusz",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:prolog-22a-dariusz-gwatemalska-yerba",
+              "key": "shot:zlote-emoji-sezon-1/prolog-22a-dariusz-gwatemalska-yerba",
+              "type": "shot",
+              "id": "prolog-22a-dariusz-gwatemalska-yerba",
+              "name": "Dariusz — gwatemalska yerba",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-22a-dariusz-gwatemalska-yerba.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:klub-fantastyki",
+              "key": "place:klub-fantastyki",
+              "type": "place",
+              "id": "klub-fantastyki",
+              "name": "Klub Fantastyki",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/klub-fantastyki.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-21a-dariusz-klnie-pod-nosem/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-21a-dariusz-klnie-pod-nosem/frame-start-thumb.webp",

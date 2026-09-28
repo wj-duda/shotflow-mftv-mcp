@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-sezon-1/prolog-22a-dariusz-gwatemalska-yerba",
@@ -9,7 +9,26 @@
   "description": "Bezpośrednie przedłużenie końca prologu. Dariusz nad otwartą paczką próbuje zrozumieć, dlaczego zamiast zamówionej gwatemalskiej yerby dostał artefakt K20.",
   "project": {
     "id": "zlote-emoji-sezon-1",
-    "name": "Złote Emoji Sezon #1"
+    "key": "project:zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1",
+    "createdAt": "2026-08-17T13:42:01.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-sezon-1",
+    "projectCreatedAt": "2026-08-17T13:42:01.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 5,
+    "lastSequence": 5,
+    "occurrences": [
+      5
+    ],
+    "sequenceTotal": 69,
+    "uniqueShotCount": 69,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -29,6 +48,139 @@
       "id": "artefakt-k20"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "take:prolog-21-k20-na-stole/take-1",
+        "key": "take:zlote-emoji-sezon-1/prolog-21-k20-na-stole/take-1",
+        "type": "take",
+        "id": "prolog-21-k20-na-stole/take-1",
+        "name": "K20 na stole / take-1",
+        "relationship": "visible-state-from-take",
+        "shotKey": "shot:zlote-emoji-sezon-1/prolog-21-k20-na-stole",
+        "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-21-k20-na-stole.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:grimskald",
+        "key": "character:grimskald",
+        "type": "character",
+        "id": "grimskald",
+        "name": "Pan Dariusz",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:klub-fantastyki",
+        "key": "place:klub-fantastyki",
+        "type": "place",
+        "id": "klub-fantastyki",
+        "name": "Klub Fantastyki",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/klub-fantastyki.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:artefakt-k20",
+        "key": "prop:artefakt-k20",
+        "type": "prop",
+        "id": "artefakt-k20",
+        "name": "Artefakt K20",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "take:prolog-21-k20-na-stole/take-1"
+        ],
+        "references": [
+          {
+            "sourceKey": "take:prolog-21-k20-na-stole/take-1",
+            "key": "take:zlote-emoji-sezon-1/prolog-21-k20-na-stole/take-1",
+            "type": "take",
+            "id": "prolog-21-k20-na-stole/take-1",
+            "name": "K20 na stole / take-1",
+            "relationship": "visible-state-from-take",
+            "shotKey": "shot:zlote-emoji-sezon-1/prolog-21-k20-na-stole",
+            "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-21-k20-na-stole.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": {
+          "sourceKey": "take:prolog-21-k20-na-stole/take-1",
+          "key": "take:zlote-emoji-sezon-1/prolog-21-k20-na-stole/take-1",
+          "type": "take",
+          "id": "prolog-21-k20-na-stole/take-1",
+          "name": "K20 na stole / take-1",
+          "relationship": "visible-state-from-take",
+          "shotKey": "shot:zlote-emoji-sezon-1/prolog-21-k20-na-stole",
+          "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-21-k20-na-stole.json",
+          "exists": true
+        }
+      },
+      {
+        "frameId": "frame-end",
+        "revision": 1,
+        "referenceKeys": [
+          "take:prolog-21-k20-na-stole/take-1",
+          "character:grimskald",
+          "place:klub-fantastyki",
+          "prop:artefakt-k20"
+        ],
+        "references": [
+          {
+            "sourceKey": "take:prolog-21-k20-na-stole/take-1",
+            "key": "take:zlote-emoji-sezon-1/prolog-21-k20-na-stole/take-1",
+            "type": "take",
+            "id": "prolog-21-k20-na-stole/take-1",
+            "name": "K20 na stole / take-1",
+            "relationship": "visible-state-from-take",
+            "shotKey": "shot:zlote-emoji-sezon-1/prolog-21-k20-na-stole",
+            "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-21-k20-na-stole.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:grimskald",
+            "key": "character:grimskald",
+            "type": "character",
+            "id": "grimskald",
+            "name": "Pan Dariusz",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "place:klub-fantastyki",
+            "key": "place:klub-fantastyki",
+            "type": "place",
+            "id": "klub-fantastyki",
+            "name": "Klub Fantastyki",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/klub-fantastyki.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:artefakt-k20",
+            "key": "prop:artefakt-k20",
+            "type": "prop",
+            "id": "artefakt-k20",
+            "name": "Artefakt K20",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Exact byte-for-byte continuation from the last visible frame of take prolog-21-k20-na-stole/take-1. Dariusz leans over the open parcel containing the inert small K20.",
     "endFrameDescription": "Same locked camera. Dariusz raises his head only slightly, keeps both hands near the parcel, looks at the K20 and finishes the sentence about his Guatemalan yerba with restrained disbelief.",
@@ -43,10 +195,69 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 1,
       "source": "reference",
       "referenceKeys": [
         "take:prolog-21-k20-na-stole/take-1"
+      ],
+      "references": [
+        {
+          "sourceKey": "take:prolog-21-k20-na-stole/take-1",
+          "key": "take:zlote-emoji-sezon-1/prolog-21-k20-na-stole/take-1",
+          "type": "take",
+          "id": "prolog-21-k20-na-stole/take-1",
+          "name": "K20 na stole / take-1",
+          "relationship": "visible-state-from-take",
+          "shotKey": "shot:zlote-emoji-sezon-1/prolog-21-k20-na-stole",
+          "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-21-k20-na-stole.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": {
+        "sourceKey": "take:prolog-21-k20-na-stole/take-1",
+        "key": "take:zlote-emoji-sezon-1/prolog-21-k20-na-stole/take-1",
+        "type": "take",
+        "id": "prolog-21-k20-na-stole/take-1",
+        "name": "K20 na stole / take-1",
+        "relationship": "visible-state-from-take",
+        "shotKey": "shot:zlote-emoji-sezon-1/prolog-21-k20-na-stole",
+        "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-21-k20-na-stole.json",
+        "exists": true
+      },
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-18T10:40:57.2389626+00:00",
+          "source": "reference",
+          "referenceKeys": [
+            "take:prolog-21-k20-na-stole/take-1"
+          ],
+          "references": [
+            {
+              "sourceKey": "take:prolog-21-k20-na-stole/take-1",
+              "key": "take:zlote-emoji-sezon-1/prolog-21-k20-na-stole/take-1",
+              "type": "take",
+              "id": "prolog-21-k20-na-stole/take-1",
+              "name": "K20 na stole / take-1",
+              "relationship": "visible-state-from-take",
+              "shotKey": "shot:zlote-emoji-sezon-1/prolog-21-k20-na-stole",
+              "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-21-k20-na-stole.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": {
+            "sourceKey": "take:prolog-21-k20-na-stole/take-1",
+            "key": "take:zlote-emoji-sezon-1/prolog-21-k20-na-stole/take-1",
+            "type": "take",
+            "id": "prolog-21-k20-na-stole/take-1",
+            "name": "K20 na stole / take-1",
+            "relationship": "visible-state-from-take",
+            "shotKey": "shot:zlote-emoji-sezon-1/prolog-21-k20-na-stole",
+            "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-21-k20-na-stole.json",
+            "exists": true
+          }
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-22a-dariusz-gwatemalska-yerba/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-22a-dariusz-gwatemalska-yerba/frame-start-thumb.webp",
@@ -56,6 +267,7 @@
     },
     {
       "id": "frame-end",
+      "role": "frame-end",
       "revision": 1,
       "source": "generated",
       "referenceKeys": [
@@ -63,6 +275,107 @@
         "character:grimskald",
         "place:klub-fantastyki",
         "prop:artefakt-k20"
+      ],
+      "references": [
+        {
+          "sourceKey": "take:prolog-21-k20-na-stole/take-1",
+          "key": "take:zlote-emoji-sezon-1/prolog-21-k20-na-stole/take-1",
+          "type": "take",
+          "id": "prolog-21-k20-na-stole/take-1",
+          "name": "K20 na stole / take-1",
+          "relationship": "visible-state-from-take",
+          "shotKey": "shot:zlote-emoji-sezon-1/prolog-21-k20-na-stole",
+          "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-21-k20-na-stole.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:grimskald",
+          "key": "character:grimskald",
+          "type": "character",
+          "id": "grimskald",
+          "name": "Pan Dariusz",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "place:klub-fantastyki",
+          "key": "place:klub-fantastyki",
+          "type": "place",
+          "id": "klub-fantastyki",
+          "name": "Klub Fantastyki",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/klub-fantastyki.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:artefakt-k20",
+          "key": "prop:artefakt-k20",
+          "type": "prop",
+          "id": "artefakt-k20",
+          "name": "Artefakt K20",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-18T10:40:57.2389626+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "take:prolog-21-k20-na-stole/take-1",
+            "character:grimskald",
+            "place:klub-fantastyki",
+            "prop:artefakt-k20"
+          ],
+          "references": [
+            {
+              "sourceKey": "take:prolog-21-k20-na-stole/take-1",
+              "key": "take:zlote-emoji-sezon-1/prolog-21-k20-na-stole/take-1",
+              "type": "take",
+              "id": "prolog-21-k20-na-stole/take-1",
+              "name": "K20 na stole / take-1",
+              "relationship": "visible-state-from-take",
+              "shotKey": "shot:zlote-emoji-sezon-1/prolog-21-k20-na-stole",
+              "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-21-k20-na-stole.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:grimskald",
+              "key": "character:grimskald",
+              "type": "character",
+              "id": "grimskald",
+              "name": "Pan Dariusz",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:klub-fantastyki",
+              "key": "place:klub-fantastyki",
+              "type": "place",
+              "id": "klub-fantastyki",
+              "name": "Klub Fantastyki",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/klub-fantastyki.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:artefakt-k20",
+              "key": "prop:artefakt-k20",
+              "type": "prop",
+              "id": "artefakt-k20",
+              "name": "Artefakt K20",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-22a-dariusz-gwatemalska-yerba/frame-end.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-22a-dariusz-gwatemalska-yerba/frame-end-thumb.webp",

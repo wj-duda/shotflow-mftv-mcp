@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-sezon-1/mistrz-wychodzi",
@@ -9,7 +9,26 @@
   "description": "Po zabraniu K20 i komentarzu Halinki Mistrz Końca wychodzi z Domu Kultury. W pół kroku czujnie rozgląda się po pustym placu, upewniając się, że nikt nie zauważył kradzieży; kostkę dyskretnie ukrywa przy kieszeni.",
   "project": {
     "id": "zlote-emoji-sezon-1",
-    "name": "Złote Emoji Sezon #1"
+    "key": "project:zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1",
+    "createdAt": "2026-08-17T13:42:01.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-sezon-1",
+    "projectCreatedAt": "2026-08-17T13:42:01.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 11,
+    "lastSequence": 11,
+    "occurrences": [
+      11
+    ],
+    "sequenceTotal": 69,
+    "uniqueShotCount": 69,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -21,6 +40,64 @@
       "id": "dom-kultury-wejscie"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:mistrz-konca",
+        "key": "character:mistrz-konca",
+        "type": "character",
+        "id": "mistrz-konca",
+        "name": "Mistrz Końca",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/mistrz-konca.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:dom-kultury-wejscie",
+        "key": "place:dom-kultury-wejscie",
+        "type": "place",
+        "id": "dom-kultury-wejscie",
+        "name": "Wejście do Domu Kultruy",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-wejscie.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "character:mistrz-konca",
+          "place:dom-kultury-wejscie"
+        ],
+        "references": [
+          {
+            "sourceKey": "character:mistrz-konca",
+            "key": "character:mistrz-konca",
+            "type": "character",
+            "id": "mistrz-konca",
+            "name": "Mistrz Końca",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/mistrz-konca.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "place:dom-kultury-wejscie",
+            "key": "place:dom-kultury-wejscie",
+            "type": "place",
+            "id": "dom-kultury-wejscie",
+            "name": "Wejście do Domu Kultruy",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-wejscie.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Use case: photorealistic-natural. Asset type: cinematic Start Frame for a 1920x1080 live-action comedy-fantasy film shot. Image 1 is the mandatory facial identity reference for Mistrz Końca; Image 2 is the mandatory full-body proportions, everyday clothing, bag and silhouette reference for the same character; Image 3 is the mandatory architectural reference for the front entrance of Dom Kultury. Mistrz Końca has just quietly left the Dom Kultury after secretly taking a twenty-sided die. He is caught mid-step on the entrance landing, cautiously looking to one side to check whether anyone saw him. His behavior is furtive and controlled, not theatrical and not villain cosplay. One hand holds the brown shoulder-bag strap; the other stays close to a trouser pocket, subtly concealing the stolen die rather than displaying it. The same recognizable Polish Dom Kultury front and entrance at blue-hour night, but several weeks after the event shown in the reference: remove the large event banner completely. Keep the DOM KULTURY building sign. Glass entrance door partly open behind him with warm old fluorescent interior light spilling onto the steps. Quiet empty paved forecourt. Exactly one Mistrz Końca, age 27, matching the identity references precisely: same young adult face, short dark-brown hair, light stubble, stocky broad-shouldered 184 cm build; same faded charcoal dungeon-map T-shirt, open dark-olive overshirt, black cargo trousers, heavy boots, brown shoulder bag, dice pouch and red-black bracelet. Grounded photorealistic Polish live-action cinema. Cinematic 16:9 medium-wide shot from the forecourt, camera near chest height and slightly off-axis; show the entrance, steps and character from head to boots. Cold blue dusk outside and warm doorway light. Preserve identity, age, proportions, clothing, bag and facade. Exactly one person, correct anatomy. Die concealed or barely glimpsed, never enlarged or glowing. No event banner, crowd, villain pose, weapons, magic, costume, destroyed facade, duplicated limbs, captions, logos or watermark.",
     "endFrameDescription": "",
@@ -35,11 +112,69 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 1,
       "source": "generated",
       "referenceKeys": [
         "character:mistrz-konca",
         "place:dom-kultury-wejscie"
+      ],
+      "references": [
+        {
+          "sourceKey": "character:mistrz-konca",
+          "key": "character:mistrz-konca",
+          "type": "character",
+          "id": "mistrz-konca",
+          "name": "Mistrz Końca",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/mistrz-konca.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "place:dom-kultury-wejscie",
+          "key": "place:dom-kultury-wejscie",
+          "type": "place",
+          "id": "dom-kultury-wejscie",
+          "name": "Wejście do Domu Kultruy",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-wejscie.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-19T10:48:05.176802+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:mistrz-konca",
+            "place:dom-kultury-wejscie"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:mistrz-konca",
+              "key": "character:mistrz-konca",
+              "type": "character",
+              "id": "mistrz-konca",
+              "name": "Mistrz Końca",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/mistrz-konca.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:dom-kultury-wejscie",
+              "key": "place:dom-kultury-wejscie",
+              "type": "place",
+              "id": "dom-kultury-wejscie",
+              "name": "Wejście do Domu Kultruy",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-wejscie.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/mistrz-wychodzi/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/mistrz-wychodzi/frame-start-thumb.webp",

@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-11/lacznik-szminka-zalotka",
@@ -9,7 +9,24 @@
   "description": "Krótki detal dłoni Mai odkładającej zamkniętą szminkę i sięgającej ku zalotce; maskuje cięcie między makijażem ust a podkręcaniem rzęs.",
   "project": {
     "id": "zlote-emoji-11",
-    "name": "Złote Emoji #11"
+    "key": "project:zlote-emoji-11",
+    "name": "Złote Emoji #11",
+    "createdAt": "2026-09-05T16:08:47.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-11",
+    "projectCreatedAt": "2026-09-05T16:08:47.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": false,
+    "canonicalEvent": false,
+    "sequence": null,
+    "lastSequence": null,
+    "occurrences": [],
+    "sequenceTotal": 7,
+    "uniqueShotCount": 7,
+    "sequenceOrder": null,
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This project material is not present on the saved timeline, so it must not override canonical timeline events by date alone."
   },
   "references": [
     {
@@ -29,6 +46,106 @@
       "id": "movie-shot"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:maia-makijaz",
+        "key": "shot:zlote-emoji-11/maia-makijaz",
+        "type": "shot",
+        "id": "maia-makijaz",
+        "name": "Maia robi makijaż",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-makijaz.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:maia-podkreca-rzesy",
+        "key": "shot:zlote-emoji-11/maia-podkreca-rzesy",
+        "type": "shot",
+        "id": "maia-podkreca-rzesy",
+        "name": "Maia podkręca rzęsy",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-podkreca-rzesy.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:mieszkanie-po-afterze",
+        "key": "place:mieszkanie-po-afterze",
+        "type": "place",
+        "id": "mieszkanie-po-afterze",
+        "name": "Mieszkanie po afterze",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/mieszkanie-po-afterze.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "note:movie-shot",
+        "key": "note:movie-shot",
+        "type": "note",
+        "id": "movie-shot",
+        "name": "Movie",
+        "relationship": "story-and-continuity-context",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/movie-shot.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:maia-makijaz",
+          "shot:maia-podkreca-rzesy",
+          "place:mieszkanie-po-afterze",
+          "note:movie-shot"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:maia-makijaz",
+            "key": "shot:zlote-emoji-11/maia-makijaz",
+            "type": "shot",
+            "id": "maia-makijaz",
+            "name": "Maia robi makijaż",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-makijaz.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:maia-podkreca-rzesy",
+            "key": "shot:zlote-emoji-11/maia-podkreca-rzesy",
+            "type": "shot",
+            "id": "maia-podkreca-rzesy",
+            "name": "Maia podkręca rzęsy",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-podkreca-rzesy.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "place:mieszkanie-po-afterze",
+            "key": "place:mieszkanie-po-afterze",
+            "type": "place",
+            "id": "mieszkanie-po-afterze",
+            "name": "Mieszkanie po afterze",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/mieszkanie-po-afterze.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "note:movie-shot",
+            "key": "note:movie-shot",
+            "type": "note",
+            "id": "movie-shot",
+            "name": "Movie",
+            "relationship": "story-and-continuity-context",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/movie-shot.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Fotorealistyczny filmowy detal 16:9 przy drewnianej toaletce w kanonicznym mieszkaniu. Dłoń Mai w czarnym skórzanym mankiecie odkłada zamkniętą szminkę, a obok czeka zalotka. Świeży boczny kąt kamery, twarz poza kadrem, ciepłe światło, płytka głębia ostrości. Zachować manicure i ciągłość stroju z ujęć maia-makijaz oraz maia-podkreca-rzesy; bez napisów, logotypów, dodatkowych dłoni i przypadkowych rekwizytów.",
     "endFrameDescription": "",
@@ -43,6 +160,7 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 1,
       "source": "generated",
       "referenceKeys": [
@@ -50,6 +168,105 @@
         "shot:maia-podkreca-rzesy",
         "place:mieszkanie-po-afterze",
         "note:movie-shot"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:maia-makijaz",
+          "key": "shot:zlote-emoji-11/maia-makijaz",
+          "type": "shot",
+          "id": "maia-makijaz",
+          "name": "Maia robi makijaż",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-makijaz.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:maia-podkreca-rzesy",
+          "key": "shot:zlote-emoji-11/maia-podkreca-rzesy",
+          "type": "shot",
+          "id": "maia-podkreca-rzesy",
+          "name": "Maia podkręca rzęsy",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-podkreca-rzesy.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "place:mieszkanie-po-afterze",
+          "key": "place:mieszkanie-po-afterze",
+          "type": "place",
+          "id": "mieszkanie-po-afterze",
+          "name": "Mieszkanie po afterze",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/mieszkanie-po-afterze.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "note:movie-shot",
+          "key": "note:movie-shot",
+          "type": "note",
+          "id": "movie-shot",
+          "name": "Movie",
+          "relationship": "story-and-continuity-context",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/movie-shot.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-05T17:35:00+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:maia-makijaz",
+            "shot:maia-podkreca-rzesy",
+            "place:mieszkanie-po-afterze",
+            "note:movie-shot"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:maia-makijaz",
+              "key": "shot:zlote-emoji-11/maia-makijaz",
+              "type": "shot",
+              "id": "maia-makijaz",
+              "name": "Maia robi makijaż",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-makijaz.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:maia-podkreca-rzesy",
+              "key": "shot:zlote-emoji-11/maia-podkreca-rzesy",
+              "type": "shot",
+              "id": "maia-podkreca-rzesy",
+              "name": "Maia podkręca rzęsy",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-podkreca-rzesy.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:mieszkanie-po-afterze",
+              "key": "place:mieszkanie-po-afterze",
+              "type": "place",
+              "id": "mieszkanie-po-afterze",
+              "name": "Mieszkanie po afterze",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/mieszkanie-po-afterze.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "note:movie-shot",
+              "key": "note:movie-shot",
+              "type": "note",
+              "id": "movie-shot",
+              "name": "Movie",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/movie-shot.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-11/shots/lacznik-szminka-zalotka/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-11/shots/lacznik-szminka-zalotka/frame-start-thumb.webp",

@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-sezon-1/prolog-21-k20-na-stole",
@@ -9,7 +9,26 @@
   "description": "Widok z góry na stół Klubu Fantastyki. Ręce Dariusza otwierają paczkę i odsłaniają zakamuflowaną K20; kamera zatrzymuje się na rozpoznawalnym artefakcie i przygotowuje bezpośrednią kontynuację dialogową w shotach 22A i 22B. Nie wracamy tutaj do materiału ZE5.",
   "project": {
     "id": "zlote-emoji-sezon-1",
-    "name": "Złote Emoji Sezon #1"
+    "key": "project:zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1",
+    "createdAt": "2026-08-17T13:42:01.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-sezon-1",
+    "projectCreatedAt": "2026-08-17T13:42:01.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 3,
+    "lastSequence": 3,
+    "occurrences": [
+      3
+    ],
+    "sequenceTotal": 69,
+    "uniqueShotCount": 69,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -29,6 +48,106 @@
       "id": "prolog-20-dariusz-paczkomat"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:grimskald",
+        "key": "character:grimskald",
+        "type": "character",
+        "id": "grimskald",
+        "name": "Pan Dariusz",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:artefakt-k20",
+        "key": "prop:artefakt-k20",
+        "type": "prop",
+        "id": "artefakt-k20",
+        "name": "Artefakt K20",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:klub-fantastyki",
+        "key": "place:klub-fantastyki",
+        "type": "place",
+        "id": "klub-fantastyki",
+        "name": "Klub Fantastyki",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/klub-fantastyki.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:prolog-20-dariusz-paczkomat",
+        "key": "shot:zlote-emoji-sezon-1/prolog-20-dariusz-paczkomat",
+        "type": "shot",
+        "id": "prolog-20-dariusz-paczkomat",
+        "name": "Dariusz odbiera paczkę",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-20-dariusz-paczkomat.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "character:grimskald",
+          "prop:artefakt-k20",
+          "place:klub-fantastyki",
+          "shot:prolog-20-dariusz-paczkomat"
+        ],
+        "references": [
+          {
+            "sourceKey": "character:grimskald",
+            "key": "character:grimskald",
+            "type": "character",
+            "id": "grimskald",
+            "name": "Pan Dariusz",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:artefakt-k20",
+            "key": "prop:artefakt-k20",
+            "type": "prop",
+            "id": "artefakt-k20",
+            "name": "Artefakt K20",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "place:klub-fantastyki",
+            "key": "place:klub-fantastyki",
+            "type": "place",
+            "id": "klub-fantastyki",
+            "name": "Klub Fantastyki",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/klub-fantastyki.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:prolog-20-dariusz-paczkomat",
+            "key": "shot:zlote-emoji-sezon-1/prolog-20-dariusz-paczkomat",
+            "type": "shot",
+            "id": "prolog-20-dariusz-paczkomat",
+            "name": "Dariusz odbiera paczkę",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-20-dariusz-paczkomat.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Final cinematic prologue frame in the exact Klub Fantastyki. Exact Dariusz leans over the opened parcel; the inert emerald-and-gold K20 rests among packing paper. Canonical size is exactly 3.0 cm vertex-to-vertex and about 2.5 cm face-to-face, slightly larger than a normal D20 and small relative to his fingers, miniatures and mugs. No glow.",
     "endFrameDescription": "",
@@ -43,6 +162,7 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 1,
       "source": "generated",
       "referenceKeys": [
@@ -50,6 +170,105 @@
         "prop:artefakt-k20",
         "place:klub-fantastyki",
         "shot:prolog-20-dariusz-paczkomat"
+      ],
+      "references": [
+        {
+          "sourceKey": "character:grimskald",
+          "key": "character:grimskald",
+          "type": "character",
+          "id": "grimskald",
+          "name": "Pan Dariusz",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:artefakt-k20",
+          "key": "prop:artefakt-k20",
+          "type": "prop",
+          "id": "artefakt-k20",
+          "name": "Artefakt K20",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "place:klub-fantastyki",
+          "key": "place:klub-fantastyki",
+          "type": "place",
+          "id": "klub-fantastyki",
+          "name": "Klub Fantastyki",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/klub-fantastyki.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:prolog-20-dariusz-paczkomat",
+          "key": "shot:zlote-emoji-sezon-1/prolog-20-dariusz-paczkomat",
+          "type": "shot",
+          "id": "prolog-20-dariusz-paczkomat",
+          "name": "Dariusz odbiera paczkę",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-20-dariusz-paczkomat.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-17T23:09:38.1839524+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:grimskald",
+            "prop:artefakt-k20",
+            "place:klub-fantastyki",
+            "shot:prolog-20-dariusz-paczkomat"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:grimskald",
+              "key": "character:grimskald",
+              "type": "character",
+              "id": "grimskald",
+              "name": "Pan Dariusz",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:artefakt-k20",
+              "key": "prop:artefakt-k20",
+              "type": "prop",
+              "id": "artefakt-k20",
+              "name": "Artefakt K20",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:klub-fantastyki",
+              "key": "place:klub-fantastyki",
+              "type": "place",
+              "id": "klub-fantastyki",
+              "name": "Klub Fantastyki",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/klub-fantastyki.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:prolog-20-dariusz-paczkomat",
+              "key": "shot:zlote-emoji-sezon-1/prolog-20-dariusz-paczkomat",
+              "type": "shot",
+              "id": "prolog-20-dariusz-paczkomat",
+              "name": "Dariusz odbiera paczkę",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-20-dariusz-paczkomat.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-21-k20-na-stole/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-21-k20-na-stole/frame-start-thumb.webp",

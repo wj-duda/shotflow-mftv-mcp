@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:halloween-konkurs/hw-14-blizniaki-pod-kanapa",
@@ -9,7 +9,26 @@
   "description": "Gotowy Start Frame 1080×1920. Bez take’a. Planowany montaż: 18–19 s; 24 klatek / 24 fps. Planowany take: 3 s, wykorzystanie od początku. Reakcja rodzeństwa nadal skulonego obok LEWEGO podłokietnika kanapy. Zerkają w prawo ku Zosi; żadne już nie broni swojego stanowiska. Bez dodatkowego żartu i dialogu. Kamera: Niski nieruchomy wspólny kadr, nieco ciaśniejszy niż unik. Dialog do osobnego nagrania: brak. Start Frame wygenerowany wbudowanym generatorem i zweryfikowany. Animacja bez natywnego audio; wypowiedzi, lipsync i SFX opracować osobno. Wstawiono na V1 timeline: sekwencja 25 sekund, 24 fps. Ciasna reakcja obojga z tego samego schronienia po lewej stronie kanapy. Książki pozostają w dłoniach poniżej kadru.",
   "project": {
     "id": "halloween-konkurs",
-    "name": "Halloween Konkurs"
+    "key": "project:halloween-konkurs",
+    "name": "Halloween Konkurs",
+    "createdAt": "2026-09-20T15:29:11.720Z"
+  },
+  "chronology": {
+    "projectKey": "project:halloween-konkurs",
+    "projectCreatedAt": "2026-09-20T15:29:11.720Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 17,
+    "lastSequence": 17,
+    "occurrences": [
+      17
+    ],
+    "sequenceTotal": 25,
+    "uniqueShotCount": 21,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -25,6 +44,85 @@
       "id": "werewolf-apocalypse-1e"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:hw-07-blizniaki-unik",
+        "key": "shot:halloween-konkurs/hw-07-blizniaki-unik",
+        "type": "shot",
+        "id": "hw-07-blizniaki-unik",
+        "name": "07 — Bliźniaki nurkują przy kanapie",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-07-blizniaki-unik.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:vampire-masquerade-1e",
+        "key": "prop:vampire-masquerade-1e",
+        "type": "prop",
+        "id": "vampire-masquerade-1e",
+        "name": "Vampire: The Masquerade — pierwsze wydanie (1991)",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/vampire-masquerade-1e.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:werewolf-apocalypse-1e",
+        "key": "prop:werewolf-apocalypse-1e",
+        "type": "prop",
+        "id": "werewolf-apocalypse-1e",
+        "name": "Werewolf: The Apocalypse — pierwsze wydanie (1992)",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/werewolf-apocalypse-1e.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:hw-07-blizniaki-unik",
+          "prop:vampire-masquerade-1e",
+          "prop:werewolf-apocalypse-1e"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:hw-07-blizniaki-unik",
+            "key": "shot:halloween-konkurs/hw-07-blizniaki-unik",
+            "type": "shot",
+            "id": "hw-07-blizniaki-unik",
+            "name": "07 — Bliźniaki nurkują przy kanapie",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-07-blizniaki-unik.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:vampire-masquerade-1e",
+            "key": "prop:vampire-masquerade-1e",
+            "type": "prop",
+            "id": "vampire-masquerade-1e",
+            "name": "Vampire: The Masquerade — pierwsze wydanie (1991)",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/vampire-masquerade-1e.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:werewolf-apocalypse-1e",
+            "key": "prop:werewolf-apocalypse-1e",
+            "type": "prop",
+            "id": "werewolf-apocalypse-1e",
+            "name": "Werewolf: The Apocalypse — pierwsze wydanie (1992)",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/werewolf-apocalypse-1e.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Precise edit: image 1 is target film still. Keep both faces, hands, camera, poses, hair, clothes, room and light COMPLETELY unchanged. Correct only printed artwork of the two existing handheld book FRONT covers. Left woman's book must match image 2 EXACTLY in its normal NON-MIRRORED orientation: large VAMPIRE readable left-to-right at top, The Masquerade beneath, green marble and red rose. Right man's partly cropped book must match image 3 green WEREWOLF The Apocalypse title and claw-mark dark brown artwork, ignore white margins. Keep existing book positions and perspective and same fingers occluding them. One book per person, don't add objects. Never mirror or invent lettering. Single vertical 9:16 photograph.",
     "endFrameDescription": "",
@@ -39,12 +137,91 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 1,
       "source": "generated",
       "referenceKeys": [
         "shot:hw-07-blizniaki-unik",
         "prop:vampire-masquerade-1e",
         "prop:werewolf-apocalypse-1e"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:hw-07-blizniaki-unik",
+          "key": "shot:halloween-konkurs/hw-07-blizniaki-unik",
+          "type": "shot",
+          "id": "hw-07-blizniaki-unik",
+          "name": "07 — Bliźniaki nurkują przy kanapie",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-07-blizniaki-unik.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:vampire-masquerade-1e",
+          "key": "prop:vampire-masquerade-1e",
+          "type": "prop",
+          "id": "vampire-masquerade-1e",
+          "name": "Vampire: The Masquerade — pierwsze wydanie (1991)",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/vampire-masquerade-1e.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:werewolf-apocalypse-1e",
+          "key": "prop:werewolf-apocalypse-1e",
+          "type": "prop",
+          "id": "werewolf-apocalypse-1e",
+          "name": "Werewolf: The Apocalypse — pierwsze wydanie (1992)",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/werewolf-apocalypse-1e.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-20T15:56:42.636569+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:hw-07-blizniaki-unik",
+            "prop:vampire-masquerade-1e",
+            "prop:werewolf-apocalypse-1e"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:hw-07-blizniaki-unik",
+              "key": "shot:halloween-konkurs/hw-07-blizniaki-unik",
+              "type": "shot",
+              "id": "hw-07-blizniaki-unik",
+              "name": "07 — Bliźniaki nurkują przy kanapie",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-07-blizniaki-unik.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:vampire-masquerade-1e",
+              "key": "prop:vampire-masquerade-1e",
+              "type": "prop",
+              "id": "vampire-masquerade-1e",
+              "name": "Vampire: The Masquerade — pierwsze wydanie (1991)",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/vampire-masquerade-1e.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:werewolf-apocalypse-1e",
+              "key": "prop:werewolf-apocalypse-1e",
+              "type": "prop",
+              "id": "werewolf-apocalypse-1e",
+              "name": "Werewolf: The Apocalypse — pierwsze wydanie (1992)",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/werewolf-apocalypse-1e.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-14-blizniaki-pod-kanapa/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-14-blizniaki-pod-kanapa/frame-start-thumb.webp",

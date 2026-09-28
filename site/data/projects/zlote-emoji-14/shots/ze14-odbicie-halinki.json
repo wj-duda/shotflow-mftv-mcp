@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-14/ze14-odbicie-halinki",
@@ -9,7 +9,26 @@
   "description": "Pierwsza przebitka ping-pong, 12 klatek / 0,5 s. Makro złotej kuli: wyłącznie odbita Halinka w kanonicznym stroju. Mały ciepły błysk przy odbiciu jej naszyjnika, Halinka nieświadoma. Bez bezpośredniego rozbłysku na realnej postaci; po tym cięcie na czarną Sirock w drugim odbiciu.",
   "project": {
     "id": "zlote-emoji-14",
-    "name": "Złote Emoji #14"
+    "key": "project:zlote-emoji-14",
+    "name": "Złote Emoji #14",
+    "createdAt": "2026-09-27T00:13:04.173Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-14",
+    "projectCreatedAt": "2026-09-27T00:13:04.173Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 15,
+    "lastSequence": 15,
+    "occurrences": [
+      15
+    ],
+    "sequenceTotal": 18,
+    "uniqueShotCount": 16,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -17,6 +36,43 @@
       "id": "ze14-nagroda-naszyjnik"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:ze14-nagroda-naszyjnik",
+        "key": "shot:zlote-emoji-14/ze14-nagroda-naszyjnik",
+        "type": "shot",
+        "id": "ze14-nagroda-naszyjnik",
+        "name": "07 — Nagroda i naszyjnik",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-nagroda-naszyjnik.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:ze14-nagroda-naszyjnik"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze14-nagroda-naszyjnik",
+            "key": "shot:zlote-emoji-14/ze14-nagroda-naszyjnik",
+            "type": "shot",
+            "id": "ze14-nagroda-naszyjnik",
+            "name": "07 — Nagroda i naszyjnik",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-nagroda-naszyjnik.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Single cinematic photoreal 16:9 EXTREME MACRO insert of the polished gold spherical smiley trophy from input1 during handover. Input1 is mandatory identity of Halinka, burgundy cardigan, black top, small round gold compass pendant AND the exact trophy material and existing small office. Camera on the BACK SIDE of gold sphere facing toward seated Halinka via its curved mirror surface. Crop so gold curved surface fills 85 percent of frame, a rounded rim on one side and tiny out of focus pedestal edge make it an actual metal sphere, not portal or flat mirror. Because this is back of trophy the engraved smiley face is on opposite unseen side, do not redesign trophy. ONLY Halinka's reflected head and upper torso appear recognizable in the convex gold surface, naturally compressed and gently barrel-distorted, all skin and clothing tinted by warm gold reflection. Her expression calm mundane unaware. At reflected pendant on reflected chest there is ONE tiny intense warm white-gold glint with short restrained star rays, 5 percent frame maximum, a hint of inner light; no glow anywhere else, no visible real Halinka outside reflection. Reflected office window light strips and fine metallic micro-scratches convincingly establish curved polished metal. Real surrounding desk/office is just soft abstract bokeh at edges. Do NOT include Sirock, Czeslaw, extra faces, figures trapped inside sphere, crystal glass, magic smoke, sparks, runes, halos, captions or text. The effect exists ONLY within mirror reflection on opaque GOLD METAL. Film macro optics shallow depth of field, face and tiny pendant glint readable in half-second insert. Single frame.",
     "endFrameDescription": "",
@@ -31,10 +87,47 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 1,
       "source": "generated",
       "referenceKeys": [
         "shot:ze14-nagroda-naszyjnik"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze14-nagroda-naszyjnik",
+          "key": "shot:zlote-emoji-14/ze14-nagroda-naszyjnik",
+          "type": "shot",
+          "id": "ze14-nagroda-naszyjnik",
+          "name": "07 — Nagroda i naszyjnik",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-nagroda-naszyjnik.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-27T01:28:38.456188+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze14-nagroda-naszyjnik"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze14-nagroda-naszyjnik",
+              "key": "shot:zlote-emoji-14/ze14-nagroda-naszyjnik",
+              "type": "shot",
+              "id": "ze14-nagroda-naszyjnik",
+              "name": "07 — Nagroda i naszyjnik",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-nagroda-naszyjnik.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-odbicie-halinki/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-odbicie-halinki/frame-start-thumb.webp",

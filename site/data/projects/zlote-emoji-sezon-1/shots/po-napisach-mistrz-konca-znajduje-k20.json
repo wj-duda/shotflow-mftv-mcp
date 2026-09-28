@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-sezon-1/po-napisach-mistrz-konca-znajduje-k20",
@@ -9,7 +9,24 @@
   "description": "zapowiedź Nemezisa bez objaśniania sezonu 2.",
   "project": {
     "id": "zlote-emoji-sezon-1",
-    "name": "Złote Emoji Sezon #1"
+    "key": "project:zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1",
+    "createdAt": "2026-08-17T13:42:01.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-sezon-1",
+    "projectCreatedAt": "2026-08-17T13:42:01.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": false,
+    "canonicalEvent": false,
+    "sequence": null,
+    "lastSequence": null,
+    "occurrences": [],
+    "sequenceTotal": 69,
+    "uniqueShotCount": 69,
+    "sequenceOrder": null,
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This project material is not present on the saved timeline, so it must not override canonical timeline events by date alone."
   },
   "references": [
     {
@@ -25,6 +42,85 @@
       "id": "dom-kultury-ruina-po-belicosie"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "prop:artefakt-k20",
+        "key": "prop:artefakt-k20",
+        "type": "prop",
+        "id": "artefakt-k20",
+        "name": "Artefakt K20",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:mistrz-konca",
+        "key": "character:mistrz-konca",
+        "type": "character",
+        "id": "mistrz-konca",
+        "name": "Mistrz Końca",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/mistrz-konca.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:dom-kultury-ruina-po-belicosie",
+        "key": "place:dom-kultury-ruina-po-belicosie",
+        "type": "place",
+        "id": "dom-kultury-ruina-po-belicosie",
+        "name": "Dom Kultury — ruina po Belicosie",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-ruina-po-belicosie.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "prop:artefakt-k20",
+          "character:mistrz-konca",
+          "place:dom-kultury-ruina-po-belicosie"
+        ],
+        "references": [
+          {
+            "sourceKey": "prop:artefakt-k20",
+            "key": "prop:artefakt-k20",
+            "type": "prop",
+            "id": "artefakt-k20",
+            "name": "Artefakt K20",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:mistrz-konca",
+            "key": "character:mistrz-konca",
+            "type": "character",
+            "id": "mistrz-konca",
+            "name": "Mistrz Końca",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/mistrz-konca.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "place:dom-kultury-ruina-po-belicosie",
+            "key": "place:dom-kultury-ruina-po-belicosie",
+            "type": "place",
+            "id": "dom-kultury-ruina-po-belicosie",
+            "name": "Dom Kultury — ruina po Belicosie",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-ruina-po-belicosie.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Photorealistic live-action 16:9 locked low night post-credits shot among the exact dark Dom Kultury rubble after everyone leaves. The tiny inert canonical 3 cm K20 lies half-buried near center. One battered dark work glove and dark green overshirt sleeve belonging to exact younger Mistrz Konca reaches from upper-right, fingers still several centimeters away. His tall stocky body is only a looming soft edge silhouette; a narrow fragment of jaw and watchful hazel eye may be caught in shadow. His clothing is ordinary practical RPG-player fieldwear, explicitly not Chaos cosplay; a folded scrap of plain dark fabric lies nearby with no symbol. Moon-blue light and faint natural green reflection from the die. No transformation, pulse, smile, villain pose, robes, helmet, extra hand, duplicate die, other person, text, UI, captions or watermark.",
     "endFrameDescription": "",
@@ -39,12 +135,91 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 1,
       "source": "generated",
       "referenceKeys": [
         "prop:artefakt-k20",
         "character:mistrz-konca",
         "place:dom-kultury-ruina-po-belicosie"
+      ],
+      "references": [
+        {
+          "sourceKey": "prop:artefakt-k20",
+          "key": "prop:artefakt-k20",
+          "type": "prop",
+          "id": "artefakt-k20",
+          "name": "Artefakt K20",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:mistrz-konca",
+          "key": "character:mistrz-konca",
+          "type": "character",
+          "id": "mistrz-konca",
+          "name": "Mistrz Końca",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/mistrz-konca.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "place:dom-kultury-ruina-po-belicosie",
+          "key": "place:dom-kultury-ruina-po-belicosie",
+          "type": "place",
+          "id": "dom-kultury-ruina-po-belicosie",
+          "name": "Dom Kultury — ruina po Belicosie",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-ruina-po-belicosie.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-20T02:03:27+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "prop:artefakt-k20",
+            "character:mistrz-konca",
+            "place:dom-kultury-ruina-po-belicosie"
+          ],
+          "references": [
+            {
+              "sourceKey": "prop:artefakt-k20",
+              "key": "prop:artefakt-k20",
+              "type": "prop",
+              "id": "artefakt-k20",
+              "name": "Artefakt K20",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:mistrz-konca",
+              "key": "character:mistrz-konca",
+              "type": "character",
+              "id": "mistrz-konca",
+              "name": "Mistrz Końca",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/mistrz-konca.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:dom-kultury-ruina-po-belicosie",
+              "key": "place:dom-kultury-ruina-po-belicosie",
+              "type": "place",
+              "id": "dom-kultury-ruina-po-belicosie",
+              "name": "Dom Kultury — ruina po Belicosie",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-ruina-po-belicosie.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/po-napisach-mistrz-konca-znajduje-k20/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/po-napisach-mistrz-konca-znajduje-k20/frame-start-thumb.webp",

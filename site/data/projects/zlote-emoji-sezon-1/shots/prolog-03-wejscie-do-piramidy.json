@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-sezon-1/prolog-03-wejscie-do-piramidy",
@@ -9,7 +9,24 @@
   "description": "Boczny plan wejścia. Van z już zapaloną pochodnią odsuwa pnącza i znika w ciemnym portalu; kamera pozostaje na zewnątrz. Jedna prosta czynność, bez zmiany kąta.",
   "project": {
     "id": "zlote-emoji-sezon-1",
-    "name": "Złote Emoji Sezon #1"
+    "key": "project:zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1",
+    "createdAt": "2026-08-17T13:42:01.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-sezon-1",
+    "projectCreatedAt": "2026-08-17T13:42:01.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": false,
+    "canonicalEvent": false,
+    "sequence": null,
+    "lastSequence": null,
+    "occurrences": [],
+    "sequenceTotal": 69,
+    "uniqueShotCount": 69,
+    "sequenceOrder": null,
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This project material is not present on the saved timeline, so it must not override canonical timeline events by date alone."
   },
   "references": [
     {
@@ -25,6 +42,85 @@
       "id": "iquitos-dzungla"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:prolog-02-zaginiona-piramida",
+        "key": "shot:zlote-emoji-sezon-1/prolog-02-zaginiona-piramida",
+        "type": "shot",
+        "id": "prolog-02-zaginiona-piramida",
+        "name": "Prolog 02 - Zaginiona piramida",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-02-zaginiona-piramida.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:van-sabe",
+        "key": "character:van-sabe",
+        "type": "character",
+        "id": "van-sabe",
+        "name": "Van Sabe",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/van-sabe.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:iquitos-dzungla",
+        "key": "place:iquitos-dzungla",
+        "type": "place",
+        "id": "iquitos-dzungla",
+        "name": "Iquitos — dżungla Allpahuayo-Mishana",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/iquitos-dzungla.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "shot:prolog-02-zaginiona-piramida",
+          "character:van-sabe",
+          "place:iquitos-dzungla"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:prolog-02-zaginiona-piramida",
+            "key": "shot:zlote-emoji-sezon-1/prolog-02-zaginiona-piramida",
+            "type": "shot",
+            "id": "prolog-02-zaginiona-piramida",
+            "name": "Prolog 02 - Zaginiona piramida",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-02-zaginiona-piramida.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:van-sabe",
+            "key": "character:van-sabe",
+            "type": "character",
+            "id": "van-sabe",
+            "name": "Van Sabe",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/van-sabe.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "place:iquitos-dzungla",
+            "key": "place:iquitos-dzungla",
+            "type": "place",
+            "id": "iquitos-dzungla",
+            "name": "Iquitos — dżungla Allpahuayo-Mishana",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/iquitos-dzungla.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Cinematic live-action landscape 16:9. Side-on medium-wide shot at the overgrown pyramid entrance. Van Sabe, matching the character references exactly, holds an already lit torch and begins parting wet vines before entering the black stone portal. Warm torchlight against cool humid jungle, clear spatial geography, grounded adventure-noir, no other people, no text.",
     "endFrameDescription": "",
@@ -39,12 +135,91 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 2,
       "source": "generated",
       "referenceKeys": [
         "shot:prolog-02-zaginiona-piramida",
         "character:van-sabe",
         "place:iquitos-dzungla"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:prolog-02-zaginiona-piramida",
+          "key": "shot:zlote-emoji-sezon-1/prolog-02-zaginiona-piramida",
+          "type": "shot",
+          "id": "prolog-02-zaginiona-piramida",
+          "name": "Prolog 02 - Zaginiona piramida",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-02-zaginiona-piramida.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:van-sabe",
+          "key": "character:van-sabe",
+          "type": "character",
+          "id": "van-sabe",
+          "name": "Van Sabe",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/van-sabe.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "place:iquitos-dzungla",
+          "key": "place:iquitos-dzungla",
+          "type": "place",
+          "id": "iquitos-dzungla",
+          "name": "Iquitos — dżungla Allpahuayo-Mishana",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/iquitos-dzungla.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 2,
+          "createdAt": "2026-08-17T22:28:16.4892312+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:prolog-02-zaginiona-piramida",
+            "character:van-sabe",
+            "place:iquitos-dzungla"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:prolog-02-zaginiona-piramida",
+              "key": "shot:zlote-emoji-sezon-1/prolog-02-zaginiona-piramida",
+              "type": "shot",
+              "id": "prolog-02-zaginiona-piramida",
+              "name": "Prolog 02 - Zaginiona piramida",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-02-zaginiona-piramida.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:van-sabe",
+              "key": "character:van-sabe",
+              "type": "character",
+              "id": "van-sabe",
+              "name": "Van Sabe",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/van-sabe.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:iquitos-dzungla",
+              "key": "place:iquitos-dzungla",
+              "type": "place",
+              "id": "iquitos-dzungla",
+              "name": "Iquitos — dżungla Allpahuayo-Mishana",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/iquitos-dzungla.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-03-wejscie-do-piramidy/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-03-wejscie-do-piramidy/frame-start-thumb.webp",

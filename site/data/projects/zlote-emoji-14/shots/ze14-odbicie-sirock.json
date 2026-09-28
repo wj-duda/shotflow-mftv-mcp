@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-14/ze14-odbicie-sirock",
@@ -9,7 +9,26 @@
   "description": "Druga przebitka ping-pong, 12 klatek / 0,5 s. Makro drugiej strony złotej kuli. WYŁĄCZNIE w odbiciu: kanoniczna twarz Sirock, czarne włosy i całkowicie czarne oczy bez białek i tęczówek, bez żaru. Poza odbiciem pozostaje blond. Bez rogów i dodatkowych deformacji. Po niej natychmiast zwyczajna scena pokwitowania.",
   "project": {
     "id": "zlote-emoji-14",
-    "name": "Złote Emoji #14"
+    "key": "project:zlote-emoji-14",
+    "name": "Złote Emoji #14",
+    "createdAt": "2026-09-27T00:13:04.173Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-14",
+    "projectCreatedAt": "2026-09-27T00:13:04.173Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 14,
+    "lastSequence": 14,
+    "occurrences": [
+      14
+    ],
+    "sequenceTotal": 18,
+    "uniqueShotCount": 16,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -21,6 +40,64 @@
       "id": "ze14-nagroda-naszyjnik"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:sirock",
+        "key": "character:sirock",
+        "type": "character",
+        "id": "sirock",
+        "name": "Sirock",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/sirock.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze14-nagroda-naszyjnik",
+        "key": "shot:zlote-emoji-14/ze14-nagroda-naszyjnik",
+        "type": "shot",
+        "id": "ze14-nagroda-naszyjnik",
+        "name": "07 — Nagroda i naszyjnik",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-nagroda-naszyjnik.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "character:sirock",
+          "shot:ze14-nagroda-naszyjnik"
+        ],
+        "references": [
+          {
+            "sourceKey": "character:sirock",
+            "key": "character:sirock",
+            "type": "character",
+            "id": "sirock",
+            "name": "Sirock",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/sirock.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:ze14-nagroda-naszyjnik",
+            "key": "shot:zlote-emoji-14/ze14-nagroda-naszyjnik",
+            "type": "shot",
+            "id": "ze14-nagroda-naszyjnik",
+            "name": "07 — Nagroda i naszyjnik",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-nagroda-naszyjnik.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Single photoreal cinematic 16:9 macro reverse insert, paired with input1. Input1 is ONLY macro scale, convex gold metal reflection optics, scratched polished spherical trophy surface, rim and neck design. Input2 is EXACT Sirock BLACK HAIRED facial identity, clothes and necklaces, except both eyes must be TOTALLY BLACK including sclera: no whites, no iris, no ember ring, no colored pupil, only tiny realistic specular catchlight allowed. Input3 establishes actual gold smiley sphere award and office. Camera around opposite side of SAME sphere from Halinka reflection: it now reflects ONLY Sirock from chest up in convex GOLD METAL. She has long wet BLACK hair, pale narrow heart-oval face exact input2, dark makeup dark lips, black corset silver chains, unnaturally still serious expression, mouth closed, no monster deformation. Gold curvature naturally warps her reflection and tints it warm but black eyes and hair clearly readable. Nobody physically visible outside reflection; real Sirock is still blonde offscreen. Frame sphere at same giant macro scale as input1, reflection centered slightly right. A small cropped portion of existing black engraved smile curve at extreme LEFT EDGE of sphere may establish front side but must not cross reflected face or look like extra eyes. Office reflected behind her is soft pale wall near entry (visitor side), not cabinet/map wall behind Halinka. NO Halinka reflected, no pendant flash in this shot, no second face, no glowing/red eyes, no white sclera, horns, fangs, smoke, blood, portals or captions. Must read as ominous image reflected ON opaque gold, NOT head inside transparent crystal ball. Tiny neck/base edge bottom, room bokeh outside sphere. Half-second flash of wrong identity.",
     "endFrameDescription": "",
@@ -35,11 +112,69 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 1,
       "source": "generated",
       "referenceKeys": [
         "character:sirock",
         "shot:ze14-nagroda-naszyjnik"
+      ],
+      "references": [
+        {
+          "sourceKey": "character:sirock",
+          "key": "character:sirock",
+          "type": "character",
+          "id": "sirock",
+          "name": "Sirock",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/sirock.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ze14-nagroda-naszyjnik",
+          "key": "shot:zlote-emoji-14/ze14-nagroda-naszyjnik",
+          "type": "shot",
+          "id": "ze14-nagroda-naszyjnik",
+          "name": "07 — Nagroda i naszyjnik",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-nagroda-naszyjnik.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-27T01:28:41.015571+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:sirock",
+            "shot:ze14-nagroda-naszyjnik"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:sirock",
+              "key": "character:sirock",
+              "type": "character",
+              "id": "sirock",
+              "name": "Sirock",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/sirock.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ze14-nagroda-naszyjnik",
+              "key": "shot:zlote-emoji-14/ze14-nagroda-naszyjnik",
+              "type": "shot",
+              "id": "ze14-nagroda-naszyjnik",
+              "name": "07 — Nagroda i naszyjnik",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-nagroda-naszyjnik.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-odbicie-sirock/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-odbicie-sirock/frame-start-thumb.webp",

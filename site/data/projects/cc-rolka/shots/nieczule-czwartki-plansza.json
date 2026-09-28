@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:cc-rolka/nieczule-czwartki-plansza",
@@ -9,9 +9,39 @@
   "description": "A two-second cold opening card shown above the first Zosia bus shot. The exact same image later starts the three-second title morph.",
   "project": {
     "id": "cc-rolka",
-    "name": "CC-Rolka"
+    "key": "project:cc-rolka",
+    "name": "CC-Rolka",
+    "createdAt": "2026-09-04T21:44:12.588Z"
+  },
+  "chronology": {
+    "projectKey": "project:cc-rolka",
+    "projectCreatedAt": "2026-09-04T21:44:12.588Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": false,
+    "canonicalEvent": false,
+    "sequence": null,
+    "lastSequence": null,
+    "occurrences": [],
+    "sequenceTotal": 18,
+    "uniqueShotCount": 18,
+    "sequenceOrder": null,
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This project material is not present on the saved timeline, so it must not override canonical timeline events by date alone."
   },
   "references": [],
+  "referenceUsage": {
+    "declared": [],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [],
+        "references": [],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Cold monochrome broadcast card with exact two-line title NIECZULE CZWARTKI, using Polish L-stroke U+0141. Pale-gray condensed type over one damaged circular graphite orbit on a near-black analog background. No cake, food, warm colors or extra text.",
     "endFrameDescription": "",
@@ -26,9 +56,22 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 1,
       "source": "generated",
       "referenceKeys": [],
+      "references": [],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-05T11:36:57.0906185+00:00",
+          "source": "generated",
+          "referenceKeys": [],
+          "references": [],
+          "sourceReference": null
+        }
+      ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/nieczule-czwartki-plansza/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/nieczule-czwartki-plansza/frame-start-thumb.webp",
       "width": 1920,

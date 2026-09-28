@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:halloween-konkurs/doll-in-dark-room-ac",
@@ -9,7 +9,26 @@
   "description": "Tło ogłoszenia konkursu, 1080×1920, 24 fps, 3 s. Układ AB/BA/AB/BA/AC: 15 s według bieżącego timeline. Górne 25% oraz dolne 25% ciemne, przeznaczone pod napisy dodawane w montażu; marginesy tekstu 10% po bokach. Finał: lalka powoli obraca głowę i patrzy w obiektyw. Ziarno jako wspólny efekt montażowy po złożeniu. Gotowe Start/End Frames i prompt; animacja niegenerowana.",
   "project": {
     "id": "halloween-konkurs",
-    "name": "Halloween Konkurs"
+    "key": "project:halloween-konkurs",
+    "name": "Halloween Konkurs",
+    "createdAt": "2026-09-20T15:29:11.720Z"
+  },
+  "chronology": {
+    "projectKey": "project:halloween-konkurs",
+    "projectCreatedAt": "2026-09-20T15:29:11.720Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 25,
+    "lastSequence": 25,
+    "occurrences": [
+      25
+    ],
+    "sequenceTotal": 25,
+    "uniqueShotCount": 21,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -21,6 +40,73 @@
       "id": "doll-in-dark-room-ac"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:doll-in-dark-room-ab",
+        "key": "shot:halloween-konkurs/doll-in-dark-room-ab",
+        "type": "shot",
+        "id": "doll-in-dark-room-ab",
+        "name": "AB — Spokojna lalka / światło przygasa",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/doll-in-dark-room-ab.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:doll-in-dark-room-ac",
+        "key": "shot:halloween-konkurs/doll-in-dark-room-ac",
+        "type": "shot",
+        "id": "doll-in-dark-room-ac",
+        "name": "AC — Lalka patrzy na widza",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/doll-in-dark-room-ac.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:doll-in-dark-room-ab"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:doll-in-dark-room-ab",
+            "key": "shot:halloween-konkurs/doll-in-dark-room-ab",
+            "type": "shot",
+            "id": "doll-in-dark-room-ab",
+            "name": "AB — Spokojna lalka / światło przygasa",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/doll-in-dark-room-ab.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      },
+      {
+        "frameId": "frame-end",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:doll-in-dark-room-ac"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:doll-in-dark-room-ac",
+            "key": "shot:halloween-konkurs/doll-in-dark-room-ac",
+            "type": "shot",
+            "id": "doll-in-dark-room-ac",
+            "name": "AC — Lalka patrzy na widza",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/doll-in-dark-room-ac.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Dokładna kopia klatki A z AB, wspólny początek AC.",
     "endFrameDescription": "C: lalka obróciła tylko głowę i patrzy martwymi szklanymi oczami w obiektyw. Tułów, dłonie, krzesło i kamera bez ruchu; ciemne pola pod napisy pozostają wolne.",
@@ -35,10 +121,47 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 1,
       "source": "generated",
       "referenceKeys": [
         "shot:doll-in-dark-room-ab"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:doll-in-dark-room-ab",
+          "key": "shot:halloween-konkurs/doll-in-dark-room-ab",
+          "type": "shot",
+          "id": "doll-in-dark-room-ab",
+          "name": "AB — Spokojna lalka / światło przygasa",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/doll-in-dark-room-ab.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-20T20:26:53.580596+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:doll-in-dark-room-ab"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:doll-in-dark-room-ab",
+              "key": "shot:halloween-konkurs/doll-in-dark-room-ab",
+              "type": "shot",
+              "id": "doll-in-dark-room-ab",
+              "name": "AB — Spokojna lalka / światło przygasa",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/doll-in-dark-room-ab.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/doll-in-dark-room-ac/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/doll-in-dark-room-ac/frame-start-thumb.webp",
@@ -48,10 +171,47 @@
     },
     {
       "id": "frame-end",
+      "role": "frame-end",
       "revision": 1,
       "source": "generated",
       "referenceKeys": [
         "shot:doll-in-dark-room-ac"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:doll-in-dark-room-ac",
+          "key": "shot:halloween-konkurs/doll-in-dark-room-ac",
+          "type": "shot",
+          "id": "doll-in-dark-room-ac",
+          "name": "AC — Lalka patrzy na widza",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/doll-in-dark-room-ac.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-20T20:28:44.637547+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:doll-in-dark-room-ac"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:doll-in-dark-room-ac",
+              "key": "shot:halloween-konkurs/doll-in-dark-room-ac",
+              "type": "shot",
+              "id": "doll-in-dark-room-ac",
+              "name": "AC — Lalka patrzy na widza",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/doll-in-dark-room-ac.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/doll-in-dark-room-ac/frame-end.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/doll-in-dark-room-ac/frame-end-thumb.webp",

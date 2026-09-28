@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-12/ze12-03c-czeslaw-rower",
@@ -9,7 +9,26 @@
   "description": "Po telefonie i przerażonej reakcji Czesław jedzie z lokalu zastępczego do Domu Kultury przez Łazy. Stara bordowa damka, bez kasku, ten sam garnitur. Zatroskany wizytacją, nadal nieświadomy upadku anioła. Miasto na podstawie referencji place:lazy; ulica jest filmową interpretacją, nie rekonstrukcją konkretnego adresu. 4 s.",
   "project": {
     "id": "zlote-emoji-12",
-    "name": "Złote Emoji #12"
+    "key": "project:zlote-emoji-12",
+    "name": "Złote Emoji #12",
+    "createdAt": "2026-09-11T23:11:37.531Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-12",
+    "projectCreatedAt": "2026-09-11T23:11:37.531Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 12,
+    "lastSequence": 12,
+    "occurrences": [
+      12
+    ],
+    "sequenceTotal": 20,
+    "uniqueShotCount": 17,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -25,6 +44,74 @@
       "id": "czeslaw-lokal-zastepczy-ze12"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:czeslaw",
+        "key": "character:czeslaw",
+        "type": "character",
+        "id": "czeslaw",
+        "name": "Czesław",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:lazy",
+        "key": "place:lazy",
+        "type": "place",
+        "id": "lazy",
+        "name": "Łazy",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lazy.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "note:czeslaw-lokal-zastepczy-ze12",
+        "key": "note:czeslaw-lokal-zastepczy-ze12",
+        "type": "note",
+        "id": "czeslaw-lokal-zastepczy-ze12",
+        "name": "ZE12 — Czesław w lokalu zastępczym",
+        "relationship": "story-and-continuity-context",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/czeslaw-lokal-zastepczy-ze12.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "character:czeslaw",
+          "place:lazy"
+        ],
+        "references": [
+          {
+            "sourceKey": "character:czeslaw",
+            "key": "character:czeslaw",
+            "type": "character",
+            "id": "czeslaw",
+            "name": "Czesław",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "place:lazy",
+            "key": "place:lazy",
+            "type": "place",
+            "id": "lazy",
+            "name": "Łazy",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lazy.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Use case: identity-preserve. ONE photorealistic cinematic 16:9 shot: Czeslaw is already cycling briskly FROM SCREEN LEFT TO RIGHT on a quiet residential street through Łazy, Poland, on his way from an off-site temporary office to Dom Kultury. Reference1 exact face, curly dark hair and rectangular glasses; reference2 exact full ordinary rumpled dark suit, beige shirt, loose tie, trousers and shoes, 171cm average build. Reference3 is Łazy town location reference: use its distinctive pale church tower with dark onion-shaped cap as a distant recognizable landmark, modest low-rise houses and pastel apartment blocks, small Polish railway-town scale, adapt to STREET LEVEL autumn morning. Do not copy aerial camera or claim exact documented street layout. Medium-wide low side three-quarter tracking composition with whole rider and entire bicycle visible, cyclist left of center, room toward right. Old worn dark burgundy steel DAMKA step-through city bicycle, low curved frame with NO high top tube, two normal spoked wheels, full metal mudguards, rear rack, swept-back chrome handlebars, classic saddle, chain connected properly to rear wheel. He wears NO HELMET, bare curly head, no sportswear. Both hands on grips, one foot on each pedal at opposite crank positions, seated natural upright posture leaning slightly forward, focused worried expression after ominous call. Jacket hem and loose tie slightly lifted by movement. Morning warm sunlight, autumn leaves, background softly receding, quiet road no nearby cars or other riders. No angel, ruined building, new signs, text overlay, watermark or anatomy distortion.",
     "endFrameDescription": "",
@@ -39,11 +126,69 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 1,
       "source": "generated",
       "referenceKeys": [
         "character:czeslaw",
         "place:lazy"
+      ],
+      "references": [
+        {
+          "sourceKey": "character:czeslaw",
+          "key": "character:czeslaw",
+          "type": "character",
+          "id": "czeslaw",
+          "name": "Czesław",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "place:lazy",
+          "key": "place:lazy",
+          "type": "place",
+          "id": "lazy",
+          "name": "Łazy",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lazy.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-12T11:40:01.334125+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:czeslaw",
+            "place:lazy"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:czeslaw",
+              "key": "character:czeslaw",
+              "type": "character",
+              "id": "czeslaw",
+              "name": "Czesław",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:lazy",
+              "key": "place:lazy",
+              "type": "place",
+              "id": "lazy",
+              "name": "Łazy",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lazy.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-03c-czeslaw-rower/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-03c-czeslaw-rower/frame-start-thumb.webp",

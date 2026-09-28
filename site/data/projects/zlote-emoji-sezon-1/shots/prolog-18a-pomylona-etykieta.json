@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-sezon-1/prolog-18a-pomylona-etykieta",
@@ -9,7 +9,24 @@
   "description": "Na chaotycznym zapleczu SERPOST odrealniony, skrajnie chudy pracownik w czapce BOSS myli dwa kody i nakleja etykietę sąsiedniej przesyłki na paczkę Vana.",
   "project": {
     "id": "zlote-emoji-sezon-1",
-    "name": "Złote Emoji Sezon #1"
+    "key": "project:zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1",
+    "createdAt": "2026-08-17T13:42:01.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-sezon-1",
+    "projectCreatedAt": "2026-08-17T13:42:01.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": false,
+    "canonicalEvent": false,
+    "sequence": null,
+    "lastSequence": null,
+    "occurrences": [],
+    "sequenceTotal": 69,
+    "uniqueShotCount": 69,
+    "sequenceOrder": null,
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This project material is not present on the saved timeline, so it must not override canonical timeline events by date alone."
   },
   "references": [
     {
@@ -21,6 +38,64 @@
       "id": "iquitos-poczta-serpost"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:prolog-18-nadanie-paczki",
+        "key": "shot:zlote-emoji-sezon-1/prolog-18-nadanie-paczki",
+        "type": "shot",
+        "id": "prolog-18-nadanie-paczki",
+        "name": "Nadanie paczki",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-18-nadanie-paczki.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:iquitos-poczta-serpost",
+        "key": "place:iquitos-poczta-serpost",
+        "type": "place",
+        "id": "iquitos-poczta-serpost",
+        "name": "Iquitos — poczta Serpost",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/iquitos-poczta-serpost.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:prolog-18-nadanie-paczki",
+          "place:iquitos-poczta-serpost"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:prolog-18-nadanie-paczki",
+            "key": "shot:zlote-emoji-sezon-1/prolog-18-nadanie-paczki",
+            "type": "shot",
+            "id": "prolog-18-nadanie-paczki",
+            "name": "Nadanie paczki",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-18-nadanie-paczki.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "place:iquitos-poczta-serpost",
+            "key": "place:iquitos-poczta-serpost",
+            "type": "place",
+            "id": "iquitos-poczta-serpost",
+            "name": "Iquitos — poczta Serpost",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/iquitos-poczta-serpost.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Use case: photorealistic-natural. Cinematic 16:9 start frame for a 4.29-second image-to-video comedy insert. Create a grotesque but believable live-action shot in the cluttered back room of the same SERPOST office immediately after Van hands over his parcel. Shot prolog-18-nadanie-paczki is the primary exact continuity reference for Van's small rectangular package: preserve its dimensions, brown paper, transparent tape, folds, wear and small plain white label; Van must not appear. Place iquitos-poczta-serpost is the primary reference for the modest Peruvian post-office materials, blue-and-white fixtures, fluorescent institutional lighting and regional realism. A cramped chaotic postal sorting room in Iquitos is filled with parcels, padded envelopes, loose forms, label rolls, tape dispensers and battered crates. Van's parcel lies prominently in the foreground beside one different parcel. One extremely skinny adult male worker sits slouched behind the desk with hollow cheeks, red tired eyes, an absent expression, poor posture, a washed-out sleeveless undershirt and an oversized cap bearing the exact readable word BOSS. An empty unlabeled clear alcohol bottle stands incidentally beside the clutter. He holds one barcode label in each hand above the two parcels, staring between them with one eye partly closed. His face, both labels and Van's package are readable in the same static medium-wide, slightly off-kilter 35mm composition. Harsh fluorescent light mixes with weak warm daylight; muted blue, beige and nicotine-yellow palette; hyperrealistic live action and dry absurdist comedy. Exactly one worker, two parcels and two loose labels. Avoid Van, Pipa, fantasy objects, K20, active drinking, smoking, extra people, malformed hands, readable addresses, magic, subtitles, logo overlays and watermark.",
     "endFrameDescription": "",
@@ -35,11 +110,69 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 1,
       "source": "generated",
       "referenceKeys": [
         "shot:prolog-18-nadanie-paczki",
         "place:iquitos-poczta-serpost"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:prolog-18-nadanie-paczki",
+          "key": "shot:zlote-emoji-sezon-1/prolog-18-nadanie-paczki",
+          "type": "shot",
+          "id": "prolog-18-nadanie-paczki",
+          "name": "Nadanie paczki",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-18-nadanie-paczki.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "place:iquitos-poczta-serpost",
+          "key": "place:iquitos-poczta-serpost",
+          "type": "place",
+          "id": "iquitos-poczta-serpost",
+          "name": "Iquitos — poczta Serpost",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/iquitos-poczta-serpost.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-18T05:02:00+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:prolog-18-nadanie-paczki",
+            "place:iquitos-poczta-serpost"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:prolog-18-nadanie-paczki",
+              "key": "shot:zlote-emoji-sezon-1/prolog-18-nadanie-paczki",
+              "type": "shot",
+              "id": "prolog-18-nadanie-paczki",
+              "name": "Nadanie paczki",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-18-nadanie-paczki.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:iquitos-poczta-serpost",
+              "key": "place:iquitos-poczta-serpost",
+              "type": "place",
+              "id": "iquitos-poczta-serpost",
+              "name": "Iquitos — poczta Serpost",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/iquitos-poczta-serpost.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-18a-pomylona-etykieta/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-18a-pomylona-etykieta/frame-start-thumb.webp",

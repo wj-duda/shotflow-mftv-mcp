@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-sezon-1/prolog-20-dariusz-paczkomat",
@@ -9,7 +9,26 @@
   "description": "Kontynuacja End Frame 19b. Dariusz stoi przy świeżo otwartej skrytce, wkłada pustą dłoń do środka i fizycznie wyciąga wyczekiwaną paczkę. Trzyma ją nisko przy brzuchu i patrzy na nią z cichą, autentyczną radością. Nie mówi.",
   "project": {
     "id": "zlote-emoji-sezon-1",
-    "name": "Złote Emoji Sezon #1"
+    "key": "project:zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1",
+    "createdAt": "2026-08-17T13:42:01.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-sezon-1",
+    "projectCreatedAt": "2026-08-17T13:42:01.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 2,
+    "lastSequence": 2,
+    "occurrences": [
+      2
+    ],
+    "sequenceTotal": 69,
+    "uniqueShotCount": 69,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -25,6 +44,105 @@
       "id": "prolog-19b-dariusz-wychodzi-po-paczke"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:grimskald",
+        "key": "character:grimskald",
+        "type": "character",
+        "id": "grimskald",
+        "name": "Pan Dariusz",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:dom-kultury-wejscie",
+        "key": "place:dom-kultury-wejscie",
+        "type": "place",
+        "id": "dom-kultury-wejscie",
+        "name": "Wejście do Domu Kultruy",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-wejscie.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:prolog-19b-dariusz-wychodzi-po-paczke",
+        "key": "shot:zlote-emoji-sezon-1/prolog-19b-dariusz-wychodzi-po-paczke",
+        "type": "shot",
+        "id": "prolog-19b-dariusz-wychodzi-po-paczke",
+        "name": "Dariusz wychodzi po paczkę",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-19b-dariusz-wychodzi-po-paczke.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 4,
+        "referenceKeys": [
+          "shot:prolog-19b-dariusz-wychodzi-po-paczke",
+          "character:grimskald"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:prolog-19b-dariusz-wychodzi-po-paczke",
+            "key": "shot:zlote-emoji-sezon-1/prolog-19b-dariusz-wychodzi-po-paczke",
+            "type": "shot",
+            "id": "prolog-19b-dariusz-wychodzi-po-paczke",
+            "name": "Dariusz wychodzi po paczkę",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-19b-dariusz-wychodzi-po-paczke.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:grimskald",
+            "key": "character:grimskald",
+            "type": "character",
+            "id": "grimskald",
+            "name": "Pan Dariusz",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      },
+      {
+        "frameId": "frame-end",
+        "revision": 3,
+        "referenceKeys": [
+          "shot:prolog-20-dariusz-paczkomat",
+          "character:grimskald"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:prolog-20-dariusz-paczkomat",
+            "key": "shot:zlote-emoji-sezon-1/prolog-20-dariusz-paczkomat",
+            "type": "shot",
+            "id": "prolog-20-dariusz-paczkomat",
+            "name": "Dariusz odbiera paczkę",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-20-dariusz-paczkomat.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:grimskald",
+            "key": "character:grimskald",
+            "type": "character",
+            "id": "grimskald",
+            "name": "Pan Dariusz",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Use case: identity-preserve. Exact continuity edit of the previous active Start Frame. Preserve the locked camera, lens, crop, wet nighttime pavement, Dom Kultury entrance, open parcel locker, Dariusz identity, long braided red beard, black glasses, blue shirt, dark embroidered vest, canonical badges, leather straps, keys, lighting and grade. Remove the parcel from his hands. Both hands are empty: his right hand has just steadied the open locker door and his left hand rests near his torso. He looks into the dark compartment; the parcel remains unseen inside. Exactly one Dariusz, two correct empty hands and one open locker. No package visible, vehicle, extra people, K20, magic, new text or watermark.",
     "endFrameDescription": "Ta sama nieruchoma kamera: Dariusz przy otwartej skrytce trzyma niewielką brązową paczkę obiema rękami nisko przy brzuchu, patrzy na nią z ciepłym zamkniętym uśmiechem i wyraźnym zadowoleniem. Nie prezentuje jej kamerze.",
@@ -39,11 +157,231 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 4,
       "source": "generated",
       "referenceKeys": [
         "shot:prolog-19b-dariusz-wychodzi-po-paczke",
         "character:grimskald"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:prolog-19b-dariusz-wychodzi-po-paczke",
+          "key": "shot:zlote-emoji-sezon-1/prolog-19b-dariusz-wychodzi-po-paczke",
+          "type": "shot",
+          "id": "prolog-19b-dariusz-wychodzi-po-paczke",
+          "name": "Dariusz wychodzi po paczkę",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-19b-dariusz-wychodzi-po-paczke.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:grimskald",
+          "key": "character:grimskald",
+          "type": "character",
+          "id": "grimskald",
+          "name": "Pan Dariusz",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-17T23:07:12.793987+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:grimskald",
+            "note:kompost",
+            "place:dom-kultury-wejscie",
+            "shot:prolog-19-kompost-noca"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:grimskald",
+              "key": "character:grimskald",
+              "type": "character",
+              "id": "grimskald",
+              "name": "Pan Dariusz",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "note:kompost",
+              "key": "note:kompost",
+              "type": "note",
+              "id": "kompost",
+              "name": "Kompost",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/kompost.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:dom-kultury-wejscie",
+              "key": "place:dom-kultury-wejscie",
+              "type": "place",
+              "id": "dom-kultury-wejscie",
+              "name": "Wejście do Domu Kultruy",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-wejscie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:prolog-19-kompost-noca",
+              "key": "shot:zlote-emoji-sezon-1/prolog-19-kompost-noca",
+              "type": "shot",
+              "id": "prolog-19-kompost-noca",
+              "name": "prolog-19-kompost-noca",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-19-kompost-noca.json",
+              "exists": false
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-08-17T23:36:40.8758656+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:grimskald",
+            "note:kompost",
+            "place:dom-kultury-wejscie",
+            "shot:prolog-19-kompost-noca"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:grimskald",
+              "key": "character:grimskald",
+              "type": "character",
+              "id": "grimskald",
+              "name": "Pan Dariusz",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "note:kompost",
+              "key": "note:kompost",
+              "type": "note",
+              "id": "kompost",
+              "name": "Kompost",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/kompost.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:dom-kultury-wejscie",
+              "key": "place:dom-kultury-wejscie",
+              "type": "place",
+              "id": "dom-kultury-wejscie",
+              "name": "Wejście do Domu Kultruy",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-wejscie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:prolog-19-kompost-noca",
+              "key": "shot:zlote-emoji-sezon-1/prolog-19-kompost-noca",
+              "type": "shot",
+              "id": "prolog-19-kompost-noca",
+              "name": "prolog-19-kompost-noca",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-19-kompost-noca.json",
+              "exists": false
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 3,
+          "createdAt": "2026-08-17T23:50:16.7559839+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:grimskald",
+            "note:kompost",
+            "place:dom-kultury-wejscie",
+            "shot:prolog-19-kompost-noca"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:grimskald",
+              "key": "character:grimskald",
+              "type": "character",
+              "id": "grimskald",
+              "name": "Pan Dariusz",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "note:kompost",
+              "key": "note:kompost",
+              "type": "note",
+              "id": "kompost",
+              "name": "Kompost",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/kompost.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:dom-kultury-wejscie",
+              "key": "place:dom-kultury-wejscie",
+              "type": "place",
+              "id": "dom-kultury-wejscie",
+              "name": "Wejście do Domu Kultruy",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-wejscie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:prolog-19-kompost-noca",
+              "key": "shot:zlote-emoji-sezon-1/prolog-19-kompost-noca",
+              "type": "shot",
+              "id": "prolog-19-kompost-noca",
+              "name": "prolog-19-kompost-noca",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-19-kompost-noca.json",
+              "exists": false
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 4,
+          "createdAt": "2026-08-18T03:48:52.339+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:prolog-19b-dariusz-wychodzi-po-paczke",
+            "character:grimskald"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:prolog-19b-dariusz-wychodzi-po-paczke",
+              "key": "shot:zlote-emoji-sezon-1/prolog-19b-dariusz-wychodzi-po-paczke",
+              "type": "shot",
+              "id": "prolog-19b-dariusz-wychodzi-po-paczke",
+              "name": "Dariusz wychodzi po paczkę",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-19b-dariusz-wychodzi-po-paczke.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:grimskald",
+              "key": "character:grimskald",
+              "type": "character",
+              "id": "grimskald",
+              "name": "Pan Dariusz",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-20-dariusz-paczkomat/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-20-dariusz-paczkomat/frame-start-thumb.webp",
@@ -53,11 +391,142 @@
     },
     {
       "id": "frame-end",
+      "role": "frame-end",
       "revision": 3,
       "source": "generated",
       "referenceKeys": [
         "shot:prolog-20-dariusz-paczkomat",
         "character:grimskald"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:prolog-20-dariusz-paczkomat",
+          "key": "shot:zlote-emoji-sezon-1/prolog-20-dariusz-paczkomat",
+          "type": "shot",
+          "id": "prolog-20-dariusz-paczkomat",
+          "name": "Dariusz odbiera paczkę",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-20-dariusz-paczkomat.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:grimskald",
+          "key": "character:grimskald",
+          "type": "character",
+          "id": "grimskald",
+          "name": "Pan Dariusz",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-18T04:00:24.995+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:prolog-20-dariusz-paczkomat",
+            "character:grimskald"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:prolog-20-dariusz-paczkomat",
+              "key": "shot:zlote-emoji-sezon-1/prolog-20-dariusz-paczkomat",
+              "type": "shot",
+              "id": "prolog-20-dariusz-paczkomat",
+              "name": "Dariusz odbiera paczkę",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-20-dariusz-paczkomat.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:grimskald",
+              "key": "character:grimskald",
+              "type": "character",
+              "id": "grimskald",
+              "name": "Pan Dariusz",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-08-18T04:07:45.209+00:00",
+          "source": "reference",
+          "referenceKeys": [
+            "shot:prolog-20-dariusz-paczkomat",
+            "character:grimskald"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:prolog-20-dariusz-paczkomat",
+              "key": "shot:zlote-emoji-sezon-1/prolog-20-dariusz-paczkomat",
+              "type": "shot",
+              "id": "prolog-20-dariusz-paczkomat",
+              "name": "Dariusz odbiera paczkę",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-20-dariusz-paczkomat.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:grimskald",
+              "key": "character:grimskald",
+              "type": "character",
+              "id": "grimskald",
+              "name": "Pan Dariusz",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": {
+            "sourceKey": "shot:prolog-20-dariusz-paczkomat",
+            "key": "shot:zlote-emoji-sezon-1/prolog-20-dariusz-paczkomat",
+            "type": "shot",
+            "id": "prolog-20-dariusz-paczkomat",
+            "name": "Dariusz odbiera paczkę",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-20-dariusz-paczkomat.json",
+            "exists": true
+          }
+        },
+        {
+          "revision": 3,
+          "createdAt": "2026-08-18T04:13:40.266+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:prolog-20-dariusz-paczkomat",
+            "character:grimskald"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:prolog-20-dariusz-paczkomat",
+              "key": "shot:zlote-emoji-sezon-1/prolog-20-dariusz-paczkomat",
+              "type": "shot",
+              "id": "prolog-20-dariusz-paczkomat",
+              "name": "Dariusz odbiera paczkę",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-20-dariusz-paczkomat.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:grimskald",
+              "key": "character:grimskald",
+              "type": "character",
+              "id": "grimskald",
+              "name": "Pan Dariusz",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-20-dariusz-paczkomat/frame-end.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-20-dariusz-paczkomat/frame-end-thumb.webp",

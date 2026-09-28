@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-9/czeslaw-halinka-dance",
@@ -9,7 +9,27 @@
   "description": "Bezpośrednia puenta po shocie confusion-techno. W tej samej przyciemnionej sali Czesław wychodzi przed bok stołu komisji i zaczyna tańczyć techno całkowicie sztywno, mechanicznie i z kamienną urzędniczą twarzą, jakby realizował zatwierdzoną procedurę. Halinka pozostaje nieruchoma za stołem, opiera dłonie o jego krawędź i patrzy na niego w kontrolowanym szoku. Migają niebiesko-różowe światła, a para sceniczna płynie przez salę.",
   "project": {
     "id": "zlote-emoji-9",
-    "name": "Złote Emoji #9"
+    "key": "project:zlote-emoji-9",
+    "name": "Złote Emoji #9",
+    "createdAt": "2026-08-15T21:51:58.401Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-9",
+    "projectCreatedAt": "2026-08-15T21:51:58.401Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 8,
+    "lastSequence": 10,
+    "occurrences": [
+      8,
+      10
+    ],
+    "sequenceTotal": 14,
+    "uniqueShotCount": 11,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -25,6 +45,85 @@
       "id": "halinka"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:confusion-techno",
+        "key": "shot:zlote-emoji-9/confusion-techno",
+        "type": "shot",
+        "id": "confusion-techno",
+        "name": "confusion-techno",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-9/shots/confusion-techno.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:czeslaw",
+        "key": "character:czeslaw",
+        "type": "character",
+        "id": "czeslaw",
+        "name": "Czesław",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:halinka",
+        "key": "character:halinka",
+        "type": "character",
+        "id": "halinka",
+        "name": "Halinka",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:confusion-techno",
+          "character:czeslaw",
+          "character:halinka"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:confusion-techno",
+            "key": "shot:zlote-emoji-9/confusion-techno",
+            "type": "shot",
+            "id": "confusion-techno",
+            "name": "confusion-techno",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-9/shots/confusion-techno.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:czeslaw",
+            "key": "character:czeslaw",
+            "type": "character",
+            "id": "czeslaw",
+            "name": "Czesław",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:halinka",
+            "key": "character:halinka",
+            "type": "character",
+            "id": "halinka",
+            "name": "Halinka",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Continue directly from confusion-techno with the same AIMFTV ceremony hall, jury table, props, dim blue-magenta strobe lighting and stage fog. Use a wider 16:9 composition. Czesław stands on the open floor beside the table and performs an intensely serious stiff bureaucratic techno dance, one forearm vertical and the other horizontal at a right angle, knees rigid and loose tie moving. Halinka remains motionless behind the table with both hands braced on its edge, watching him in disbelief. Preserve exact identities, wardrobe, AIMFTV logo, Golden Emoji trophy and hall continuity. Exactly two people; only Czesław dances; no Maia, DJ console, audience, confetti, captions or watermark.",
     "endFrameDescription": "",
@@ -39,12 +138,91 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 1,
       "source": "generated",
       "referenceKeys": [
         "shot:confusion-techno",
         "character:czeslaw",
         "character:halinka"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:confusion-techno",
+          "key": "shot:zlote-emoji-9/confusion-techno",
+          "type": "shot",
+          "id": "confusion-techno",
+          "name": "confusion-techno",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-9/shots/confusion-techno.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:czeslaw",
+          "key": "character:czeslaw",
+          "type": "character",
+          "id": "czeslaw",
+          "name": "Czesław",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:halinka",
+          "key": "character:halinka",
+          "type": "character",
+          "id": "halinka",
+          "name": "Halinka",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-15T22:25:41.363678+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:confusion-techno",
+            "character:czeslaw",
+            "character:halinka"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:confusion-techno",
+              "key": "shot:zlote-emoji-9/confusion-techno",
+              "type": "shot",
+              "id": "confusion-techno",
+              "name": "confusion-techno",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-9/shots/confusion-techno.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:czeslaw",
+              "key": "character:czeslaw",
+              "type": "character",
+              "id": "czeslaw",
+              "name": "Czesław",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:halinka",
+              "key": "character:halinka",
+              "type": "character",
+              "id": "halinka",
+              "name": "Halinka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-9/shots/czeslaw-halinka-dance/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-9/shots/czeslaw-halinka-dance/frame-start-thumb.webp",

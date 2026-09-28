@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-sezon-1/prolog-13b-pipa-cmoka-ze-zlosci",
@@ -9,7 +9,24 @@
   "description": "Bezpośrednia reakcja po uderzeniu. Pipa siedzi osunięta pod ścianą przy wejściu, oszołomiona, ale wściekła; karabin leży kilka metrów dalej poza jej zasięgiem. Zielone światło portalu pada na jej twarz, gdy ze złością cmoka i rozumie, że Van ma drogę ucieczki.",
   "project": {
     "id": "zlote-emoji-sezon-1",
-    "name": "Złote Emoji Sezon #1"
+    "key": "project:zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1",
+    "createdAt": "2026-08-17T13:42:01.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-sezon-1",
+    "projectCreatedAt": "2026-08-17T13:42:01.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": false,
+    "canonicalEvent": false,
+    "sequence": null,
+    "lastSequence": null,
+    "occurrences": [],
+    "sequenceTotal": 69,
+    "uniqueShotCount": 69,
+    "sequenceOrder": null,
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This project material is not present on the saved timeline, so it must not override canonical timeline events by date alone."
   },
   "references": [
     {
@@ -29,6 +46,106 @@
       "id": "prolog-13-drzwi-w-scianie"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:laidy-pipa",
+        "key": "character:laidy-pipa",
+        "type": "character",
+        "id": "laidy-pipa",
+        "name": "LAIdy Pipa",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/laidy-pipa.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:artefakt-k20",
+        "key": "prop:artefakt-k20",
+        "type": "prop",
+        "id": "artefakt-k20",
+        "name": "Artefakt K20",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:iquitos-tani-pensjonat-belen",
+        "key": "place:iquitos-tani-pensjonat-belen",
+        "type": "place",
+        "id": "iquitos-tani-pensjonat-belen",
+        "name": "Iquitos — tani pensjonat w Belén",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/iquitos-tani-pensjonat-belen.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:prolog-13-drzwi-w-scianie",
+        "key": "shot:zlote-emoji-sezon-1/prolog-13-drzwi-w-scianie",
+        "type": "shot",
+        "id": "prolog-13-drzwi-w-scianie",
+        "name": "Drzwi w pustej ścianie",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-13-drzwi-w-scianie.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "character:laidy-pipa",
+          "prop:artefakt-k20",
+          "place:iquitos-tani-pensjonat-belen",
+          "shot:prolog-13-drzwi-w-scianie"
+        ],
+        "references": [
+          {
+            "sourceKey": "character:laidy-pipa",
+            "key": "character:laidy-pipa",
+            "type": "character",
+            "id": "laidy-pipa",
+            "name": "LAIdy Pipa",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/laidy-pipa.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:artefakt-k20",
+            "key": "prop:artefakt-k20",
+            "type": "prop",
+            "id": "artefakt-k20",
+            "name": "Artefakt K20",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "place:iquitos-tani-pensjonat-belen",
+            "key": "place:iquitos-tani-pensjonat-belen",
+            "type": "place",
+            "id": "iquitos-tani-pensjonat-belen",
+            "name": "Iquitos — tani pensjonat w Belén",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/iquitos-tani-pensjonat-belen.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:prolog-13-drzwi-w-scianie",
+            "key": "shot:zlote-emoji-sezon-1/prolog-13-drzwi-w-scianie",
+            "type": "shot",
+            "id": "prolog-13-drzwi-w-scianie",
+            "name": "Drzwi w pustej ścianie",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-13-drzwi-w-scianie.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Bezpośrednia kontynuacja shota 13. Dokładna Pipa jest osunięta pod prawą ścianą po uderzeniu falą K20, potargana i wściekła. Nie trzyma broni; karabin leży rozmyty kilka metrów dalej. Zielone światło portalu pada na jej twarz, gdy cmoka ze złością.",
     "endFrameDescription": "",
@@ -43,6 +160,7 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 2,
       "source": "generated",
       "referenceKeys": [
@@ -50,6 +168,159 @@
         "prop:artefakt-k20",
         "place:iquitos-tani-pensjonat-belen",
         "shot:prolog-13-drzwi-w-scianie"
+      ],
+      "references": [
+        {
+          "sourceKey": "character:laidy-pipa",
+          "key": "character:laidy-pipa",
+          "type": "character",
+          "id": "laidy-pipa",
+          "name": "LAIdy Pipa",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/laidy-pipa.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:artefakt-k20",
+          "key": "prop:artefakt-k20",
+          "type": "prop",
+          "id": "artefakt-k20",
+          "name": "Artefakt K20",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "place:iquitos-tani-pensjonat-belen",
+          "key": "place:iquitos-tani-pensjonat-belen",
+          "type": "place",
+          "id": "iquitos-tani-pensjonat-belen",
+          "name": "Iquitos — tani pensjonat w Belén",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/iquitos-tani-pensjonat-belen.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:prolog-13-drzwi-w-scianie",
+          "key": "shot:zlote-emoji-sezon-1/prolog-13-drzwi-w-scianie",
+          "type": "shot",
+          "id": "prolog-13-drzwi-w-scianie",
+          "name": "Drzwi w pustej ścianie",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-13-drzwi-w-scianie.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-17T22:41:49.6354097+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:laidy-pipa",
+            "prop:artefakt-k20",
+            "place:iquitos-tani-pensjonat-belen",
+            "shot:prolog-13-drzwi-w-scianie"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:laidy-pipa",
+              "key": "character:laidy-pipa",
+              "type": "character",
+              "id": "laidy-pipa",
+              "name": "LAIdy Pipa",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/laidy-pipa.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:artefakt-k20",
+              "key": "prop:artefakt-k20",
+              "type": "prop",
+              "id": "artefakt-k20",
+              "name": "Artefakt K20",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:iquitos-tani-pensjonat-belen",
+              "key": "place:iquitos-tani-pensjonat-belen",
+              "type": "place",
+              "id": "iquitos-tani-pensjonat-belen",
+              "name": "Iquitos — tani pensjonat w Belén",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/iquitos-tani-pensjonat-belen.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:prolog-13-drzwi-w-scianie",
+              "key": "shot:zlote-emoji-sezon-1/prolog-13-drzwi-w-scianie",
+              "type": "shot",
+              "id": "prolog-13-drzwi-w-scianie",
+              "name": "Drzwi w pustej ścianie",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-13-drzwi-w-scianie.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-08-17T23:27:30.7037359+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:laidy-pipa",
+            "prop:artefakt-k20",
+            "place:iquitos-tani-pensjonat-belen",
+            "shot:prolog-13-drzwi-w-scianie"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:laidy-pipa",
+              "key": "character:laidy-pipa",
+              "type": "character",
+              "id": "laidy-pipa",
+              "name": "LAIdy Pipa",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/laidy-pipa.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:artefakt-k20",
+              "key": "prop:artefakt-k20",
+              "type": "prop",
+              "id": "artefakt-k20",
+              "name": "Artefakt K20",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:iquitos-tani-pensjonat-belen",
+              "key": "place:iquitos-tani-pensjonat-belen",
+              "type": "place",
+              "id": "iquitos-tani-pensjonat-belen",
+              "name": "Iquitos — tani pensjonat w Belén",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/iquitos-tani-pensjonat-belen.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:prolog-13-drzwi-w-scianie",
+              "key": "shot:zlote-emoji-sezon-1/prolog-13-drzwi-w-scianie",
+              "type": "shot",
+              "id": "prolog-13-drzwi-w-scianie",
+              "name": "Drzwi w pustej ścianie",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-13-drzwi-w-scianie.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-13b-pipa-cmoka-ze-zlosci/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-13b-pipa-cmoka-ze-zlosci/frame-start-thumb.webp",

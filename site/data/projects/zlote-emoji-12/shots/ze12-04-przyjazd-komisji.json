@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-12/ze12-04-przyjazd-komisji",
@@ -9,7 +9,26 @@
   "description": "Poranek. Dwie komisarzki idą od ulicy w stronę Domu Kultury, widziane od tyłu i w trzech czwartych. Zachowane biurowe stroje, fiolet, lenonki i teczki. Zatrzymują się przed ogrodzeniem remontu.",
   "project": {
     "id": "zlote-emoji-12",
-    "name": "Złote Emoji #12"
+    "key": "project:zlote-emoji-12",
+    "name": "Złote Emoji #12",
+    "createdAt": "2026-09-11T23:11:37.531Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-12",
+    "projectCreatedAt": "2026-09-11T23:11:37.531Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 13,
+    "lastSequence": 13,
+    "occurrences": [
+      13
+    ],
+    "sequenceTotal": 20,
+    "uniqueShotCount": 17,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -33,6 +52,83 @@
       "id": "kkn-inspektorka"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "note:dom-kultury-po-upadku-ze12",
+        "key": "note:dom-kultury-po-upadku-ze12",
+        "type": "note",
+        "id": "dom-kultury-po-upadku-ze12",
+        "name": "Dom Kultury — szkody po upadku anioła",
+        "relationship": "story-and-continuity-context",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/dom-kultury-po-upadku-ze12.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze12-04-przyjazd-komisji",
+        "key": "shot:zlote-emoji-12/ze12-04-przyjazd-komisji",
+        "type": "shot",
+        "id": "ze12-04-przyjazd-komisji",
+        "name": "04 — Komisja Kultury Najwyższej",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-04-przyjazd-komisji.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:kkn-przewodniczaca",
+        "key": "character:kkn-przewodniczaca",
+        "type": "character",
+        "id": "kkn-przewodniczaca",
+        "name": "KKN — Przewodnicząca",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/kkn-przewodniczaca.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "note:kkn-duet-biurowy-koncepcja",
+        "key": "note:kkn-duet-biurowy-koncepcja",
+        "type": "note",
+        "id": "kkn-duet-biurowy-koncepcja",
+        "name": "KKN — dwie urzędniczki, propozycja stroju",
+        "relationship": "story-and-continuity-context",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/kkn-duet-biurowy-koncepcja.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:kkn-inspektorka",
+        "key": "character:kkn-inspektorka",
+        "type": "character",
+        "id": "kkn-inspektorka",
+        "name": "KKN — Inspektorka",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/kkn-inspektorka.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 4,
+        "referenceKeys": [
+          "shot:ze12-04-przyjazd-komisji"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze12-04-przyjazd-komisji",
+            "key": "shot:zlote-emoji-12/ze12-04-przyjazd-komisji",
+            "type": "shot",
+            "id": "ze12-04-przyjazd-komisji",
+            "name": "04 — Komisja Kultury Najwyższej",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-04-przyjazd-komisji.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Use case: identity-preserve. Correct the walking direction in this exact cinematic 16:9 scene. Preserve the Dom Kultury facade, renovation damage, fence, signs, morning light and camera location looking from street toward building. Show the SAME TWO female commissioners from BEHIND in three-quarter REAR VIEW, walking AWAY FROM CAMERA FROM THE STREET TOWARD the building entrance and fence. They are foreground lower left/center with the entrance clearly ahead of their bodies; their feet, torsos, faces and gazes all point toward the building, never toward camera. Tall silver-bob chairwoman slightly ahead with long black coat and slim folio in left hand; shorter dark-bun inspector behind with short boxy black jacket, purple cuffs, wide trousers and accordion briefcase. Preserve exact identities, hair, heights, wardrobe and props despite rear view. Camera stays on street side; do not put building behind the women's direction of travel. Full or three-quarter body, clear spatial storytelling, quiet formidable approach. No third person, cars, new signs, changed architecture, watermark or collage.",
     "endFrameDescription": "",
@@ -47,10 +143,143 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 4,
       "source": "generated",
       "referenceKeys": [
         "shot:ze12-04-przyjazd-komisji"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze12-04-przyjazd-komisji",
+          "key": "shot:zlote-emoji-12/ze12-04-przyjazd-komisji",
+          "type": "shot",
+          "id": "ze12-04-przyjazd-komisji",
+          "name": "04 — Komisja Kultury Najwyższej",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-04-przyjazd-komisji.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-11T23:11:37.53179+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "note:dom-kultury-po-upadku-ze12"
+          ],
+          "references": [
+            {
+              "sourceKey": "note:dom-kultury-po-upadku-ze12",
+              "key": "note:dom-kultury-po-upadku-ze12",
+              "type": "note",
+              "id": "dom-kultury-po-upadku-ze12",
+              "name": "Dom Kultury — szkody po upadku anioła",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/dom-kultury-po-upadku-ze12.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-09-11T23:55:17.461278+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze12-04-przyjazd-komisji",
+            "character:kkn-przewodniczaca",
+            "character:kkn-protokolant"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze12-04-przyjazd-komisji",
+              "key": "shot:zlote-emoji-12/ze12-04-przyjazd-komisji",
+              "type": "shot",
+              "id": "ze12-04-przyjazd-komisji",
+              "name": "04 — Komisja Kultury Najwyższej",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-04-przyjazd-komisji.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:kkn-przewodniczaca",
+              "key": "character:kkn-przewodniczaca",
+              "type": "character",
+              "id": "kkn-przewodniczaca",
+              "name": "KKN — Przewodnicząca",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/kkn-przewodniczaca.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:kkn-protokolant",
+              "key": "character:kkn-protokolant",
+              "type": "character",
+              "id": "kkn-protokolant",
+              "name": "KKN — Protokolant",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/kkn-protokolant.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 3,
+          "createdAt": "2026-09-12T00:39:07.411729+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze12-04-przyjazd-komisji",
+            "note:kkn-duet-biurowy-koncepcja"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze12-04-przyjazd-komisji",
+              "key": "shot:zlote-emoji-12/ze12-04-przyjazd-komisji",
+              "type": "shot",
+              "id": "ze12-04-przyjazd-komisji",
+              "name": "04 — Komisja Kultury Najwyższej",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-04-przyjazd-komisji.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "note:kkn-duet-biurowy-koncepcja",
+              "key": "note:kkn-duet-biurowy-koncepcja",
+              "type": "note",
+              "id": "kkn-duet-biurowy-koncepcja",
+              "name": "KKN — dwie urzędniczki, propozycja stroju",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/kkn-duet-biurowy-koncepcja.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 4,
+          "createdAt": "2026-09-12T01:07:52.224886+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze12-04-przyjazd-komisji"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze12-04-przyjazd-komisji",
+              "key": "shot:zlote-emoji-12/ze12-04-przyjazd-komisji",
+              "type": "shot",
+              "id": "ze12-04-przyjazd-komisji",
+              "name": "04 — Komisja Kultury Najwyższej",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-04-przyjazd-komisji.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-04-przyjazd-komisji/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-04-przyjazd-komisji/frame-start-thumb.webp",

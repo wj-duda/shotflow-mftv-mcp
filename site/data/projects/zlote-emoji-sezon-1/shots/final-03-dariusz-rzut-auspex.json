@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-sezon-1/final-03-dariusz-rzut-auspex",
@@ -9,7 +9,26 @@
   "description": "Pierwszy świadomy rzut Dariusza jednocześnie demonstruje zasadę K20 bez osobnego wykładu: schemat auspexu, wypowiedziana nazwa i precyzyjna intencja znajdują się razem wokół kostki. Rzut działa i daje Czesławowi realną przewagę, ale nie rozwiązuje całej bitwy.",
   "project": {
     "id": "zlote-emoji-sezon-1",
-    "name": "Złote Emoji Sezon #1"
+    "key": "project:zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1",
+    "createdAt": "2026-08-17T13:42:01.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-sezon-1",
+    "projectCreatedAt": "2026-08-17T13:42:01.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 24,
+    "lastSequence": 24,
+    "occurrences": [
+      24
+    ],
+    "sequenceTotal": 69,
+    "uniqueShotCount": 69,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -29,6 +48,106 @@
       "id": "final-02-dariusz-rozpoznaje-flote"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:grimskald",
+        "key": "character:grimskald",
+        "type": "character",
+        "id": "grimskald",
+        "name": "Pan Dariusz",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:artefakt-k20",
+        "key": "prop:artefakt-k20",
+        "type": "prop",
+        "id": "artefakt-k20",
+        "name": "Artefakt K20",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:auspex-belicosy",
+        "key": "prop:auspex-belicosy",
+        "type": "prop",
+        "id": "auspex-belicosy",
+        "name": "Auspex Belicosy",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/auspex-belicosy.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:final-02-dariusz-rozpoznaje-flote",
+        "key": "shot:zlote-emoji-sezon-1/final-02-dariusz-rozpoznaje-flote",
+        "type": "shot",
+        "id": "final-02-dariusz-rozpoznaje-flote",
+        "name": "Final 02 Klub obmyśla obronę",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-02-dariusz-rozpoznaje-flote.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "character:grimskald",
+          "prop:artefakt-k20",
+          "prop:auspex-belicosy",
+          "shot:final-02-dariusz-rozpoznaje-flote"
+        ],
+        "references": [
+          {
+            "sourceKey": "character:grimskald",
+            "key": "character:grimskald",
+            "type": "character",
+            "id": "grimskald",
+            "name": "Pan Dariusz",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:artefakt-k20",
+            "key": "prop:artefakt-k20",
+            "type": "prop",
+            "id": "artefakt-k20",
+            "name": "Artefakt K20",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:auspex-belicosy",
+            "key": "prop:auspex-belicosy",
+            "type": "prop",
+            "id": "auspex-belicosy",
+            "name": "Auspex Belicosy",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/auspex-belicosy.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:final-02-dariusz-rozpoznaje-flote",
+            "key": "shot:zlote-emoji-sezon-1/final-02-dariusz-rozpoznaje-flote",
+            "type": "shot",
+            "id": "final-02-dariusz-rozpoznaje-flote",
+            "name": "Final 02 Klub obmyśla obronę",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-02-dariusz-rozpoznaje-flote.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Generate exactly one cinematic still image in landscape 16:9.\n\nReference policy:\nUse every attached image as an exact and mandatory visual reference, not as optional inspiration.\nThe attached images are numbered strictly by upload order. \"Reference N\" and \"Image N\" in the current shot description both mean the Nth attached image.\nUse the current shot description to determine what each reference supplies: for example a character, location, prop, wardrobe, composition, lighting, or visual style. Do not assume that every reference depicts a character.\nIf the description assigns different roles to multiple references, follow that mapping exactly. Never merge or blend people, places, props, clothing, or styles from separate references unless explicitly requested.\nFor every referenced element requested in the new shot, preserve its observable identity and defining visual features exactly. Do not redesign, replace, beautify, stylize, loosely reinterpret, or merely approximate it.\nA reference image is authoritative for the appearance of the element taken from it. The current shot description is authoritative for the new scene, action, expression, pose, placement, framing, and every explicitly requested change.\nDo not copy incidental parts of a reference image that the current shot description does not ask to carry over.\nUse earlier conversation context only for details left unspecified; it must never override the current description or the attached references.\n\nAttachment map (source descriptions only, not instructions for the resulting scene):\n- Reference 1 = attached Image 1 — source character grimskald, portrait: CHARACTER [age=30-44; presentation=masculine; height=tall; build=stocky; body=pear; chest=large; skin=light; face=square; eyes=blue; hair-color=red; hair-length=long; hair-texture=straight]\r\n\r\nPan Dariusz, opiekun klubu fantastyki w domu kultury. Potężnie zbudowany, ok. 188 cm, masywny, z długą rudobrązową brodą splecioną w warkocz, zaczesanymi włosami i prostokątnymi okularami. Nosi niebieską koszulę, ciemną kamizelkę, skórzane szelki, jeansy, ciężkie buty, przypinki, zegarek kieszonkowy i klucze przy pasie. Surowy, spokojny i sprawiedliwy; opiekuńczy, praktyczny, staroświecki, z cichym autorytetem i sentymentem do fantastyki. Często z kubkieb Yerbamate (bombilla \"Keep Calm\")\r\n- Reference 2 = attached Image 2 — source character grimskald, silhouette: CHARACTER [age=30-44; presentation=masculine; height=tall; build=stocky; body=pear; chest=large; skin=light; face=square; eyes=blue; hair-color=red; hair-length=long; hair-texture=straight]\r\n\r\nPan Dariusz, opiekun klubu fantastyki w domu kultury. Potężnie zbudowany, ok. 188 cm, masywny, z długą rudobrązową brodą splecioną w warkocz, zaczesanymi włosami i prostokątnymi okularami. Nosi niebieską koszulę, ciemną kamizelkę, skórzane szelki, jeansy, ciężkie buty, przypinki, zegarek kieszonkowy i klucze przy pasie. Surowy, spokojny i sprawiedliwy; opiekuńczy, praktyczny, staroświecki, z cichym autorytetem i sentymentem do fantastyki. Często z kubkieb Yerbamate (bombilla \"Keep Calm\")\r\n- Reference 3 = attached Image 3 — source prop artefakt-k20, reference: Canonical reference for the magical K20 from the season 1 finale. FIXED SIZE IN EVERY SHOT: exactly 3.0 cm from one vertex to the opposite vertex and approximately 2.5 cm between parallel faces. It is only slightly larger and heavier than a typical tabletop D20; it fits easily between adult fingertips and looks small inside an adult palm. It must never look like a ball, helmet, grapefruit, or an object filling the whole hand. Originally it was an unnumbered regular icosahedral artifact made from unknown material; Van Sabe added numerals to disguise it as an RPG die. Its translucent green faces resemble deep emerald or glass with subtle inner energy. Edges and numerals are aged gold or brass. Face 20 is the main activation motif and glows green-gold when active. Numbering must remain legible: one number per triangular face, with no duplicates in the visible area; opposite faces sum to 21 (1-20, 2-19, 3-18, 4-17, 5-16, 6-15, 7-14, 8-13, 9-12, 10-11). The reference image shows only 20, 9, 14, 2, 17 and 6.\r\n- Reference 4 = attached Image 4 — source prop auspex-belicosy, reference: Kanoniczny auspex systemu Belicosa. Najpierw materializuje się samodzielnie na dachu Domu Kultury, a później zostaje bez zmiany kształtu włączony w lewą platformę operatora działa. To wolnostojący, przemysłowy pulpit celowniczy o wysokości 1,15 m, szerokości 0,72 m i głębokości 0,55 m. Stoi na prostokątnej płycie 0,70 × 0,50 m z czterema otworami kotwiącymi.\n\nSTAŁA GEOMETRIA: czerniony stalowy korpus z widocznymi śrubami i spawami; pulpit pochylony około 25 stopni; jeden główny wąski ekran operatorski z ciemnego szkła; nad nim zamknięte okno dalmierza oraz dokładnie jeden mosiężny emiter optyczny z okrągłą zieloną soczewką. Pod ekranem znajdują się dokładnie dwa mosiężne pokrętła, jeden osłonięty przełącznik i jedna wąska szczelina kontrolna. Po obu stronach biegną stałe stalowe poręcze. Z tyłu pozostają jedno gniazdo grubej wiązki przewodów i dwa porty przyłączeniowe do hydrauliki oraz zasilania Belicosy.\n\nMateriały i język wizualny są identyczne jak w propie Belicosy: czerniona, miejscami zużyta stal, wiekowy mosiądz, smar i bardzo oszczędne głęboko zielone światło. Brak klawiatury, joysticka, hologramów, napisów, logotypów, symboli frakcyjnych i dodatkowych ekranów. Urządzenie nie jest bronią i nie strzela; wykrywa, śledzi i wskazuje cele. Referencja utrwala pełną sylwetkę, skalę, rozmieszczenie elementów sterujących, soczewkę i złącza.\r\n- Reference 5 = attached Image 5 — source Shot final-02-dariusz-rozpoznaje-flote: Pierwsza wspólna narada Klubu Fantastyki po zauważeniu floty Dzieci Gwiazd. W zniszczonej sali klubowej Dariusz, Marcel, Marianna i Filip gromadzą się po jednej stronie zwykłego drewnianego stołu i gorączkowo porównują bestiariusz z dokumentacją wyposażenia. Dariusz rozpoznaje napastników jako flotę roju i trzyma otwarty bestiariusz; Marianna odnajduje na osobnej, leżącej płasko kartce techniczny schemat auspeksu i wskazuje go palcem; Marcel oraz Filip pochylają się nad znaleziskiem i pomagają zweryfikować pomysł. To nie jest scena jednego bohatera, lecz moment, w którym cała czwórka wspólnie dochodzi do pierwszego praktycznego rozwiązania obrony.\n\nKadr ma być realistycznym, czytelnym medium-wide ensemble shotem: cztery wyraźnie rozdzielone sylwetki znajdują się naturalnie za ciągłą krawędzią blatu, z poprawnymi proporcjami, anatomią i rozpoznawalnymi twarzami zgodnymi z personami. Dariusz pozostaje wysoki i bardzo krępy, ale nie olbrzymi; Filip jest szczupłym, naturalnie wyglądającym młodym człowiekiem, bez plastikowej skóry i lalkowatej twarzy. Zniszczenia klubu, ciepłe lampy i burzowe światło za oknem budują presję, lecz tło jest spokojne wizualnie i nie konkuruje z postaciami.\n\nNa tym etapie nikt nie zna jeszcze mocy K20: kostki nie ma w kadrze, nic się nie materializuje i nie pojawia się żadna magia. Widoczne są wyłącznie zwykły papierowy schemat auspeksu i otwarty bestiariusz. Scena przygotowuje bezpośrednio świadomy rzut Dariusza w final-03, dlatego musi jasno pokazać wspólną decyzję: najpierw potrzebują urządzenia, które pozwoli wykrywać i wskazywać cele.\n\n\n\nShot: final-03-dariusz-rzut-auspex\nDescription:\nPierwszy świadomy rzut Dariusza jednocześnie demonstruje zasadę K20 bez osobnego wykładu: schemat auspexu, wypowiedziana nazwa i precyzyjna intencja znajdują się razem wokół kostki. Rzut działa i daje Czesławowi realną przewagę, ale nie rozwiązuje całej bitwy.\n\nPreserve every piece of text, lettering, typography, label, sign, logo, brand mark, symbol, and graphic detail visible in any source or reference image exactly as it appears. Preserve its content, spelling, design, position, scale, color, sharpness, and legibility. Never remove, replace, obscure, blur, soften, distort, censor, or invent any of these source details.\nDo not add new captions, subtitles, titles, watermarks, borders, interface elements, contact sheets, or multiple panels unless the current shot description explicitly requests them.",
     "endFrameDescription": "",
@@ -43,6 +162,7 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 2,
       "source": "generated",
       "referenceKeys": [
@@ -50,6 +170,159 @@
         "prop:artefakt-k20",
         "prop:auspex-belicosy",
         "shot:final-02-dariusz-rozpoznaje-flote"
+      ],
+      "references": [
+        {
+          "sourceKey": "character:grimskald",
+          "key": "character:grimskald",
+          "type": "character",
+          "id": "grimskald",
+          "name": "Pan Dariusz",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:artefakt-k20",
+          "key": "prop:artefakt-k20",
+          "type": "prop",
+          "id": "artefakt-k20",
+          "name": "Artefakt K20",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:auspex-belicosy",
+          "key": "prop:auspex-belicosy",
+          "type": "prop",
+          "id": "auspex-belicosy",
+          "name": "Auspex Belicosy",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/auspex-belicosy.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:final-02-dariusz-rozpoznaje-flote",
+          "key": "shot:zlote-emoji-sezon-1/final-02-dariusz-rozpoznaje-flote",
+          "type": "shot",
+          "id": "final-02-dariusz-rozpoznaje-flote",
+          "name": "Final 02 Klub obmyśla obronę",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-02-dariusz-rozpoznaje-flote.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-19T08:45:00+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:final-02-dariusz-rozpoznaje-flote",
+            "character:grimskald",
+            "prop:artefakt-k20",
+            "prop:auspex-belicosy"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:final-02-dariusz-rozpoznaje-flote",
+              "key": "shot:zlote-emoji-sezon-1/final-02-dariusz-rozpoznaje-flote",
+              "type": "shot",
+              "id": "final-02-dariusz-rozpoznaje-flote",
+              "name": "Final 02 Klub obmyśla obronę",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-02-dariusz-rozpoznaje-flote.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:grimskald",
+              "key": "character:grimskald",
+              "type": "character",
+              "id": "grimskald",
+              "name": "Pan Dariusz",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:artefakt-k20",
+              "key": "prop:artefakt-k20",
+              "type": "prop",
+              "id": "artefakt-k20",
+              "name": "Artefakt K20",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:auspex-belicosy",
+              "key": "prop:auspex-belicosy",
+              "type": "prop",
+              "id": "auspex-belicosy",
+              "name": "Auspex Belicosy",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/auspex-belicosy.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-08-19T09:47:23.1648056+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:grimskald",
+            "prop:artefakt-k20",
+            "prop:auspex-belicosy",
+            "shot:final-02-dariusz-rozpoznaje-flote"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:grimskald",
+              "key": "character:grimskald",
+              "type": "character",
+              "id": "grimskald",
+              "name": "Pan Dariusz",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:artefakt-k20",
+              "key": "prop:artefakt-k20",
+              "type": "prop",
+              "id": "artefakt-k20",
+              "name": "Artefakt K20",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:auspex-belicosy",
+              "key": "prop:auspex-belicosy",
+              "type": "prop",
+              "id": "auspex-belicosy",
+              "name": "Auspex Belicosy",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/auspex-belicosy.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:final-02-dariusz-rozpoznaje-flote",
+              "key": "shot:zlote-emoji-sezon-1/final-02-dariusz-rozpoznaje-flote",
+              "type": "shot",
+              "id": "final-02-dariusz-rozpoznaje-flote",
+              "name": "Final 02 Klub obmyśla obronę",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-02-dariusz-rozpoznaje-flote.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-03-dariusz-rzut-auspex/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-03-dariusz-rzut-auspex/frame-start-thumb.webp",

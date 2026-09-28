@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "project",
   "key": "project:dolacz",
@@ -17,6 +17,45 @@
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dolacz/shots/dolacz-04-lyk/frame-start-thumb.webp"
     }
   ],
+  "shotOrder": "canonical timeline order first; off-timeline project materials last",
+  "timeline": [
+    {
+      "position": 1,
+      "shotKey": "shot:dolacz/dolacz-01-spojrzenie",
+      "shotId": "dolacz-01-spojrzenie",
+      "title": "01 — Spojrzenie"
+    },
+    {
+      "position": 2,
+      "shotKey": "shot:dolacz/dolacz-02-najpierw-herbata",
+      "shotId": "dolacz-02-najpierw-herbata",
+      "title": "02 — Najpierw herbata"
+    },
+    {
+      "position": 3,
+      "shotKey": "shot:dolacz/dolacz-03-maly-toast",
+      "shotId": "dolacz-03-maly-toast",
+      "title": "03 — Przerwa na herbatę"
+    },
+    {
+      "position": 4,
+      "shotKey": "shot:dolacz/dolacz-04-lyk",
+      "shotId": "dolacz-04-lyk",
+      "title": "04 — Spojrzenie Halinki"
+    },
+    {
+      "position": 5,
+      "shotKey": "shot:dolacz/dolacz-05-wracamy",
+      "shotId": "dolacz-05-wracamy",
+      "title": "05 — Wracamy do papierów"
+    },
+    {
+      "position": 6,
+      "shotKey": "shot:dolacz/dolacz-06-powrot",
+      "shotId": "dolacz-06-powrot",
+      "title": "06 — Powrót do początku"
+    }
+  ],
   "shots": [
     {
       "key": "shot:dolacz/dolacz-01-spojrzenie",
@@ -26,6 +65,11 @@
       "name": "01 — Spojrzenie",
       "projectId": "dolacz",
       "projectName": "Dołącz",
+      "projectCreatedAt": "2026-09-22T00:10:17.171Z",
+      "onTimeline": true,
+      "sequence": 1,
+      "lastSequence": 1,
+      "sequenceTotal": 6,
       "summary": "19-sekundowa pętla Dołącz: widz zagląda do świata AI MFTV. Czesław po lewej, Halinka po prawej, przy biurku pełnym papierów w lokalu zastępczym. W tle realna elewacja KTS w Łazach przy Spółdzielczej 2. Bez mówienia i świadomego kontaktu z kamerą. Ruch uspokojony, zoom pozostawio…",
       "imageCount": 1,
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dolacz/shots/dolacz-01-spojrzenie/frame-start.webp",
@@ -40,6 +84,11 @@
       "name": "02 — Najpierw herbata",
       "projectId": "dolacz",
       "projectName": "Dołącz",
+      "projectCreatedAt": "2026-09-22T00:10:17.171Z",
+      "onTimeline": true,
+      "sequence": 2,
+      "lastSequence": 2,
+      "sequenceTotal": 6,
       "summary": "19-sekundowa pętla Dołącz: widz zagląda do świata AI MFTV. Czesław po lewej, Halinka po prawej, przy biurku pełnym papierów w lokalu zastępczym. W tle realna elewacja KTS w Łazach przy Spółdzielczej 2. Bez mówienia i świadomego kontaktu z kamerą. Ruch uspokojony, zoom pozostawio…",
       "imageCount": 1,
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dolacz/shots/dolacz-02-najpierw-herbata/frame-start.webp",
@@ -54,6 +103,11 @@
       "name": "03 — Przerwa na herbatę",
       "projectId": "dolacz",
       "projectName": "Dołącz",
+      "projectCreatedAt": "2026-09-22T00:10:17.171Z",
+      "onTimeline": true,
+      "sequence": 3,
+      "lastSequence": 3,
+      "sequenceTotal": 6,
       "summary": "19-sekundowa pętla Dołącz: widz zagląda do świata AI MFTV. Czesław po lewej, Halinka po prawej, przy biurku pełnym papierów w lokalu zastępczym. W tle realna elewacja KTS w Łazach przy Spółdzielczej 2. Bez mówienia i świadomego kontaktu z kamerą. Ruch uspokojony, zoom pozostawio…",
       "imageCount": 1,
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dolacz/shots/dolacz-03-maly-toast/frame-start.webp",
@@ -68,6 +122,11 @@
       "name": "04 — Spojrzenie Halinki",
       "projectId": "dolacz",
       "projectName": "Dołącz",
+      "projectCreatedAt": "2026-09-22T00:10:17.171Z",
+      "onTimeline": true,
+      "sequence": 4,
+      "lastSequence": 4,
+      "sequenceTotal": 6,
       "summary": "19-sekundowa pętla Dołącz: widz zagląda do świata AI MFTV. Czesław po lewej, Halinka po prawej, przy biurku pełnym papierów w lokalu zastępczym. W tle realna elewacja KTS w Łazach przy Spółdzielczej 2. Bez mówienia i świadomego kontaktu z kamerą. Ruch uspokojony, zoom pozostawio…",
       "imageCount": 1,
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dolacz/shots/dolacz-04-lyk/frame-start.webp",
@@ -82,6 +141,11 @@
       "name": "05 — Wracamy do papierów",
       "projectId": "dolacz",
       "projectName": "Dołącz",
+      "projectCreatedAt": "2026-09-22T00:10:17.171Z",
+      "onTimeline": true,
+      "sequence": 5,
+      "lastSequence": 5,
+      "sequenceTotal": 6,
       "summary": "19-sekundowa pętla Dołącz: widz zagląda do świata AI MFTV. Czesław po lewej, Halinka po prawej, przy biurku pełnym papierów w lokalu zastępczym. W tle realna elewacja KTS w Łazach przy Spółdzielczej 2. Bez mówienia i świadomego kontaktu z kamerą. Ruch uspokojony, zoom pozostawio…",
       "imageCount": 1,
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dolacz/shots/dolacz-05-wracamy/frame-start.webp",
@@ -96,6 +160,11 @@
       "name": "06 — Powrót do początku",
       "projectId": "dolacz",
       "projectName": "Dołącz",
+      "projectCreatedAt": "2026-09-22T00:10:17.171Z",
+      "onTimeline": true,
+      "sequence": 6,
+      "lastSequence": 6,
+      "sequenceTotal": 6,
       "summary": "19-sekundowa pętla Dołącz: widz zagląda do świata AI MFTV. Czesław po lewej, Halinka po prawej, przy biurku pełnym papierów w lokalu zastępczym. W tle realna elewacja KTS w Łazach przy Spółdzielczej 2. Bez mówienia i świadomego kontaktu z kamerą. Ruch uspokojony, zoom pozostawio…",
       "imageCount": 2,
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dolacz/shots/dolacz-06-powrot/frame-start.webp",

@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:cc-rolka/zosia-deszcz-na-szybie",
@@ -9,7 +9,26 @@
   "description": "Wewnątrz autobusu Zosia lekko dociska słuchawkę, próbując odgrodzić się od świata za mokrą szybą.",
   "project": {
     "id": "cc-rolka",
-    "name": "CC-Rolka"
+    "key": "project:cc-rolka",
+    "name": "CC-Rolka",
+    "createdAt": "2026-09-04T21:44:12.588Z"
+  },
+  "chronology": {
+    "projectKey": "project:cc-rolka",
+    "projectCreatedAt": "2026-09-04T21:44:12.588Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 6,
+    "lastSequence": 6,
+    "occurrences": [
+      6
+    ],
+    "sequenceTotal": 18,
+    "uniqueShotCount": 18,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -21,6 +40,64 @@
       "id": "zosia"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:zosia-autobus-noc",
+        "key": "shot:cc-rolka/zosia-autobus-noc",
+        "type": "shot",
+        "id": "zosia-autobus-noc",
+        "name": "Zosia - nocny autobus",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/cc-rolka/shots/zosia-autobus-noc.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:zosia",
+        "key": "character:zosia",
+        "type": "character",
+        "id": "zosia",
+        "name": "Zosia",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/zosia.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 3,
+        "referenceKeys": [
+          "shot:zosia-autobus-noc",
+          "character:zosia"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:zosia-autobus-noc",
+            "key": "shot:cc-rolka/zosia-autobus-noc",
+            "type": "shot",
+            "id": "zosia-autobus-noc",
+            "name": "Zosia - nocny autobus",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/cc-rolka/shots/zosia-autobus-noc.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:zosia",
+            "key": "character:zosia",
+            "type": "character",
+            "id": "zosia",
+            "name": "Zosia",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/zosia.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Native vertical 9:16 interior continuation in the same night bus. Exact petite Zosia gently presses the right black headphone cup closer with one small relaxed hand while looking through the rainy glass. Intimate head-and-shoulders profile with a flat 65 mm lens at eye height: real face right-middle, wet window left half, complete hand and earcup upper-right. One faint soft reflection of her eye and cheek appears in the glass. Exact youthful oval narrow face, gray eyes, small jaw, long black hair with blue streaks, oversized shirt and necklaces. Photoreal late-1990s Central-European music video, amber/cyan practical light and subtle 16 mm/S-VHS softness. No legs, broad shoulders, oversized hand, glamour, tears, singing, duplicate person, text or artifacts.",
     "endFrameDescription": "",
@@ -35,11 +112,133 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 3,
       "source": "generated",
       "referenceKeys": [
         "shot:zosia-autobus-noc",
         "character:zosia"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:zosia-autobus-noc",
+          "key": "shot:cc-rolka/zosia-autobus-noc",
+          "type": "shot",
+          "id": "zosia-autobus-noc",
+          "name": "Zosia - nocny autobus",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/cc-rolka/shots/zosia-autobus-noc.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:zosia",
+          "key": "character:zosia",
+          "type": "character",
+          "id": "zosia",
+          "name": "Zosia",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/zosia.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-05T11:18:41.5728016+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:zosia-autobus-noc",
+            "character:zosia"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:zosia-autobus-noc",
+              "key": "shot:cc-rolka/zosia-autobus-noc",
+              "type": "shot",
+              "id": "zosia-autobus-noc",
+              "name": "Zosia - nocny autobus",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/cc-rolka/shots/zosia-autobus-noc.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:zosia",
+              "key": "character:zosia",
+              "type": "character",
+              "id": "zosia",
+              "name": "Zosia",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/zosia.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-09-05T15:34:09.1486822+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:zosia-autobus-noc",
+            "character:zosia"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:zosia-autobus-noc",
+              "key": "shot:cc-rolka/zosia-autobus-noc",
+              "type": "shot",
+              "id": "zosia-autobus-noc",
+              "name": "Zosia - nocny autobus",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/cc-rolka/shots/zosia-autobus-noc.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:zosia",
+              "key": "character:zosia",
+              "type": "character",
+              "id": "zosia",
+              "name": "Zosia",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/zosia.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 3,
+          "createdAt": "2026-09-05T15:50:01.0599055+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:zosia-autobus-noc",
+            "character:zosia"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:zosia-autobus-noc",
+              "key": "shot:cc-rolka/zosia-autobus-noc",
+              "type": "shot",
+              "id": "zosia-autobus-noc",
+              "name": "Zosia - nocny autobus",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/cc-rolka/shots/zosia-autobus-noc.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:zosia",
+              "key": "character:zosia",
+              "type": "character",
+              "id": "zosia",
+              "name": "Zosia",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/zosia.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/zosia-deszcz-na-szybie/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/zosia-deszcz-na-szybie/frame-start-thumb.webp",

@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-7/huk",
@@ -9,7 +9,26 @@
   "description": "ujęcie sufitu w sali głównej z Czesław i Halinka patrzą z niepokojem na sufit bo coś tam hukneło potężnie",
   "project": {
     "id": "zlote-emoji-7",
-    "name": "Złote Emoji #7"
+    "key": "project:zlote-emoji-7",
+    "name": "Złote Emoji #7",
+    "createdAt": "2026-08-01T18:56:27.457Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-7",
+    "projectCreatedAt": "2026-08-01T18:56:27.457Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 5,
+    "lastSequence": 5,
+    "occurrences": [
+      5
+    ],
+    "sequenceTotal": 13,
+    "uniqueShotCount": 13,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -29,6 +48,106 @@
       "id": "dom-kultury"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "place:komisja-zlote-emoji-tygodnia",
+        "key": "place:komisja-zlote-emoji-tygodnia",
+        "type": "place",
+        "id": "komisja-zlote-emoji-tygodnia",
+        "name": "Komisja Złote Emoji Tygodnia",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/komisja-zlote-emoji-tygodnia.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:czeslaw",
+        "key": "character:czeslaw",
+        "type": "character",
+        "id": "czeslaw",
+        "name": "Czesław",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:halinka",
+        "key": "character:halinka",
+        "type": "character",
+        "id": "halinka",
+        "name": "Halinka",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:dom-kultury",
+        "key": "place:dom-kultury",
+        "type": "place",
+        "id": "dom-kultury",
+        "name": "Dom Kultury",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "place:komisja-zlote-emoji-tygodnia",
+          "character:czeslaw",
+          "character:halinka",
+          "place:dom-kultury"
+        ],
+        "references": [
+          {
+            "sourceKey": "place:komisja-zlote-emoji-tygodnia",
+            "key": "place:komisja-zlote-emoji-tygodnia",
+            "type": "place",
+            "id": "komisja-zlote-emoji-tygodnia",
+            "name": "Komisja Złote Emoji Tygodnia",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/komisja-zlote-emoji-tygodnia.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:czeslaw",
+            "key": "character:czeslaw",
+            "type": "character",
+            "id": "czeslaw",
+            "name": "Czesław",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:halinka",
+            "key": "character:halinka",
+            "type": "character",
+            "id": "halinka",
+            "name": "Halinka",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "place:dom-kultury",
+            "key": "place:dom-kultury",
+            "type": "place",
+            "id": "dom-kultury",
+            "name": "Dom Kultury",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Generate exactly one cinematic still image in landscape 16:9.\n\nReference policy:\nUse every attached image as an exact and mandatory visual reference, not as optional inspiration.\nThe attached images are numbered strictly by upload order. \"Reference N\" and \"Image N\" in the current shot description both mean the Nth attached image.\nUse the current shot description to determine what each reference supplies: for example a character, location, prop, wardrobe, composition, lighting, or visual style. Do not assume that every reference depicts a character.\nIf the description assigns different roles to multiple references, follow that mapping exactly. Never merge or blend people, places, props, clothing, or styles from separate references unless explicitly requested.\nFor every referenced element requested in the new shot, preserve its observable identity and defining visual features exactly. Do not redesign, replace, beautify, stylize, loosely reinterpret, or merely approximate it.\nA reference image is authoritative for the appearance of the element taken from it. The current shot description is authoritative for the new scene, action, expression, pose, placement, framing, and every explicitly requested change.\nDo not copy incidental parts of a reference image that the current shot description does not ask to carry over.\nUse earlier conversation context only for details left unspecified; it must never override the current description or the attached references.\n\nAttachment map (source descriptions only, not instructions for the resulting scene):\n- Reference 1 = attached Image 1 — source place komisja-zlote-emoji-tygodnia, reference: Stolik w domu kultury stoją przy nim Halinka i Czesław w dniu rozdania Złotego Emoji Tygodnia\r\n- Reference 2 = attached Image 2 — source character czeslaw, portrait: CHARACTER [age=45-59; presentation=masculine; height=average; build=average; body=straight; chest=small; skin=medium; face=oval; eyes=dark-brown; hair-color=black; hair-length=short; hair-texture=curly]\r\n\r\nCzesław to urzędniczo-artystyczny gospodarz Domu Kultury AIMFTV: formalny, proceduralny, suchy, lekko filozoficzny i śmiertelnie poważny wobec absurdu. Lubi dokumenty, regulaminy, podpisy i „podmioty odpowiedzialne”. Mówi charakterystycznie: „Znaczy…”, „Do ciężkiego segregatora”. Z Halinką tworzy kontrast: on porządkuje świat papierami, ona intuicją. Wizualnie: niski, zmęczony mężczyzna w okularach, pogniecionym garniturze i luźnym krawacie.\r\n- Reference 3 = attached Image 3 — source character czeslaw, silhouette: CHARACTER [age=45-59; presentation=masculine; height=average; build=average; body=straight; chest=small; skin=medium; face=oval; eyes=dark-brown; hair-color=black; hair-length=short; hair-texture=curly]\r\n\r\nCzesław to urzędniczo-artystyczny gospodarz Domu Kultury AIMFTV: formalny, proceduralny, suchy, lekko filozoficzny i śmiertelnie poważny wobec absurdu. Lubi dokumenty, regulaminy, podpisy i „podmioty odpowiedzialne”. Mówi charakterystycznie: „Znaczy…”, „Do ciężkiego segregatora”. Z Halinką tworzy kontrast: on porządkuje świat papierami, ona intuicją. Wizualnie: niski, zmęczony mężczyzna w okularach, pogniecionym garniturze i luźnym krawacie.\r\n- Reference 4 = attached Image 4 — source character halinka, portrait: CHARACTER [age=45-59; presentation=feminine; height=short; build=average; body=pear; chest=medium; skin=light; face=round; eyes=brown; hair-color=red; hair-length=medium; hair-texture=curly]\r\n\r\nHalinka jest ciepłą, swojską i życzliwą pracownicą prowincjonalnego Domu Kultury. Działa intuicyjnie i emocjonalnie, bywa roztargniona oraz lekko chaotyczna, ale dobrze wyczuwa ludzi i atmosferę. Lubi ceremoniał, symboliczne gesty i organizacyjne rytuały. Wobec dziwnych i absurdalnych zdarzeń zachowuje zaskakujący spokój. Dyskretnie interesuje się ezoteryką, znakami i niewytłumaczalnymi zjawiskami, lecz ujawnia to jedynie w drobnych komentarzach i reakcjach. Pod spokojną codziennością skrywa barwną, artystyczną i bardziej przygodową przeszłość.\r\n- Reference 5 = attached Image 5 — source character halinka, silhouette: CHARACTER [age=45-59; presentation=feminine; height=short; build=average; body=pear; chest=medium; skin=light; face=round; eyes=brown; hair-color=red; hair-length=medium; hair-texture=curly]\r\n\r\nHalinka jest ciepłą, swojską i życzliwą pracownicą prowincjonalnego Domu Kultury. Działa intuicyjnie i emocjonalnie, bywa roztargniona oraz lekko chaotyczna, ale dobrze wyczuwa ludzi i atmosferę. Lubi ceremoniał, symboliczne gesty i organizacyjne rytuały. Wobec dziwnych i absurdalnych zdarzeń zachowuje zaskakujący spokój. Dyskretnie interesuje się ezoteryką, znakami i niewytłumaczalnymi zjawiskami, lecz ujawnia to jedynie w drobnych komentarzach i reakcjach. Pod spokojną codziennością skrywa barwną, artystyczną i bardziej przygodową przeszłość.\r\n- Reference 6 = attached Image 6 — source place dom-kultury, reference: Plan domu kultury i rozmieszczenie krzesłek, sceny oraz postaci w momencie Złotego Emoji\n\n\n\nShot: huk\nDescription:\nujęcie sufitu w sali głównej z Czesław i Halinka patrzą z niepokojem na sufit bo coś tam hukneło potężnie\n\nPreserve every piece of text, lettering, typography, label, sign, logo, brand mark, symbol, and graphic detail visible in any source or reference image exactly as it appears. Preserve its content, spelling, design, position, scale, color, sharpness, and legibility. Never remove, replace, obscure, blur, soften, distort, censor, or invent any of these source details.\nDo not add new captions, subtitles, titles, watermarks, borders, interface elements, contact sheets, or multiple panels unless the current shot description explicitly requests them.",
     "endFrameDescription": "",
@@ -43,6 +162,7 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 1,
       "source": "generated",
       "referenceKeys": [
@@ -50,6 +170,105 @@
         "character:czeslaw",
         "character:halinka",
         "place:dom-kultury"
+      ],
+      "references": [
+        {
+          "sourceKey": "place:komisja-zlote-emoji-tygodnia",
+          "key": "place:komisja-zlote-emoji-tygodnia",
+          "type": "place",
+          "id": "komisja-zlote-emoji-tygodnia",
+          "name": "Komisja Złote Emoji Tygodnia",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/komisja-zlote-emoji-tygodnia.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:czeslaw",
+          "key": "character:czeslaw",
+          "type": "character",
+          "id": "czeslaw",
+          "name": "Czesław",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:halinka",
+          "key": "character:halinka",
+          "type": "character",
+          "id": "halinka",
+          "name": "Halinka",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "place:dom-kultury",
+          "key": "place:dom-kultury",
+          "type": "place",
+          "id": "dom-kultury",
+          "name": "Dom Kultury",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-01T21:51:00.2247799+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "place:komisja-zlote-emoji-tygodnia",
+            "character:czeslaw",
+            "character:halinka",
+            "place:dom-kultury"
+          ],
+          "references": [
+            {
+              "sourceKey": "place:komisja-zlote-emoji-tygodnia",
+              "key": "place:komisja-zlote-emoji-tygodnia",
+              "type": "place",
+              "id": "komisja-zlote-emoji-tygodnia",
+              "name": "Komisja Złote Emoji Tygodnia",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/komisja-zlote-emoji-tygodnia.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:czeslaw",
+              "key": "character:czeslaw",
+              "type": "character",
+              "id": "czeslaw",
+              "name": "Czesław",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:halinka",
+              "key": "character:halinka",
+              "type": "character",
+              "id": "halinka",
+              "name": "Halinka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:dom-kultury",
+              "key": "place:dom-kultury",
+              "type": "place",
+              "id": "dom-kultury",
+              "name": "Dom Kultury",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-7/shots/huk/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-7/shots/huk/frame-start-thumb.webp",

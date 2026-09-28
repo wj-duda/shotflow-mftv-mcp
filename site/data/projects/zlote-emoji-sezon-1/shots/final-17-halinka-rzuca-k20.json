@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-sezon-1/final-17-halinka-rzuca-k20",
@@ -9,7 +9,26 @@
   "description": "Halinka rzuca K20 na płaski kawałek betonu przed ruiną, gdy wszyscy utrzymują ten sam konkretny obraz ciasteczka.",
   "project": {
     "id": "zlote-emoji-sezon-1",
-    "name": "Złote Emoji Sezon #1"
+    "key": "project:zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1",
+    "createdAt": "2026-08-17T13:42:01.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-sezon-1",
+    "projectCreatedAt": "2026-08-17T13:42:01.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 53,
+    "lastSequence": 53,
+    "occurrences": [
+      53
+    ],
+    "sequenceTotal": 69,
+    "uniqueShotCount": 69,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -33,6 +52,116 @@
       "id": "final-12b-dariusz-podaje-k20-halince"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:halinka",
+        "key": "character:halinka",
+        "type": "character",
+        "id": "halinka",
+        "name": "Halinka",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:artefakt-k20",
+        "key": "prop:artefakt-k20",
+        "type": "prop",
+        "id": "artefakt-k20",
+        "name": "Artefakt K20",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:final-16-wszyscy-sie-skupiaja",
+        "key": "shot:zlote-emoji-sezon-1/final-16-wszyscy-sie-skupiaja",
+        "type": "shot",
+        "id": "final-16-wszyscy-sie-skupiaja",
+        "name": "Final 16 — Wszyscy skupiają się na ciasteczkach",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-16-wszyscy-sie-skupiaja.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:dom-kultury-ruina-po-belicosie",
+        "key": "place:dom-kultury-ruina-po-belicosie",
+        "type": "place",
+        "id": "dom-kultury-ruina-po-belicosie",
+        "name": "Dom Kultury — ruina po Belicosie",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-ruina-po-belicosie.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:final-12b-dariusz-podaje-k20-halince",
+        "key": "shot:zlote-emoji-sezon-1/final-12b-dariusz-podaje-k20-halince",
+        "type": "shot",
+        "id": "final-12b-dariusz-podaje-k20-halince",
+        "name": "Final 12B — Dariusz podaje K20 Halince",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-12b-dariusz-podaje-k20-halince.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "character:halinka",
+          "prop:artefakt-k20",
+          "place:dom-kultury-ruina-po-belicosie",
+          "shot:final-12b-dariusz-podaje-k20-halince"
+        ],
+        "references": [
+          {
+            "sourceKey": "character:halinka",
+            "key": "character:halinka",
+            "type": "character",
+            "id": "halinka",
+            "name": "Halinka",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:artefakt-k20",
+            "key": "prop:artefakt-k20",
+            "type": "prop",
+            "id": "artefakt-k20",
+            "name": "Artefakt K20",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "place:dom-kultury-ruina-po-belicosie",
+            "key": "place:dom-kultury-ruina-po-belicosie",
+            "type": "place",
+            "id": "dom-kultury-ruina-po-belicosie",
+            "name": "Dom Kultury — ruina po Belicosie",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-ruina-po-belicosie.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:final-12b-dariusz-podaje-k20-halince",
+            "key": "shot:zlote-emoji-sezon-1/final-12b-dariusz-podaje-k20-halince",
+            "type": "shot",
+            "id": "final-12b-dariusz-podaje-k20-halince",
+            "name": "Final 12B — Dariusz podaje K20 Halince",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-12b-dariusz-podaje-k20-halince.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Photorealistic live-action 16:9 locked low close shot 12 cm above a flat dust-covered concrete step outside the exact ruined Dom Kultury. Preserve Halinka's identity and red sleeve from the handoff, and the canonical K20 at exactly 3 cm. Her anatomically correct right hand enters from upper-right, holding the tiny inert emerald-and-aged-gold die between thumb and first two fingers 8-10 cm above the surface with a clear air gap, poised for a gentle tabletop roll. Die and fingertips are razor sharp; the group's lower legs and shoes form a still distant semicircle with a clean rolling lane. Cold storm ambience and warm entrance spill. No final face, glow, levitation, giant die, second hand, duplicate die, extra fingers, visible faces, text, UI, captions or watermark.",
     "endFrameDescription": "",
@@ -47,6 +176,7 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 1,
       "source": "generated",
       "referenceKeys": [
@@ -54,6 +184,105 @@
         "prop:artefakt-k20",
         "place:dom-kultury-ruina-po-belicosie",
         "shot:final-12b-dariusz-podaje-k20-halince"
+      ],
+      "references": [
+        {
+          "sourceKey": "character:halinka",
+          "key": "character:halinka",
+          "type": "character",
+          "id": "halinka",
+          "name": "Halinka",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:artefakt-k20",
+          "key": "prop:artefakt-k20",
+          "type": "prop",
+          "id": "artefakt-k20",
+          "name": "Artefakt K20",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "place:dom-kultury-ruina-po-belicosie",
+          "key": "place:dom-kultury-ruina-po-belicosie",
+          "type": "place",
+          "id": "dom-kultury-ruina-po-belicosie",
+          "name": "Dom Kultury — ruina po Belicosie",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-ruina-po-belicosie.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:final-12b-dariusz-podaje-k20-halince",
+          "key": "shot:zlote-emoji-sezon-1/final-12b-dariusz-podaje-k20-halince",
+          "type": "shot",
+          "id": "final-12b-dariusz-podaje-k20-halince",
+          "name": "Final 12B — Dariusz podaje K20 Halince",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-12b-dariusz-podaje-k20-halince.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-20T02:03:27+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:halinka",
+            "prop:artefakt-k20",
+            "place:dom-kultury-ruina-po-belicosie",
+            "shot:final-12b-dariusz-podaje-k20-halince"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:halinka",
+              "key": "character:halinka",
+              "type": "character",
+              "id": "halinka",
+              "name": "Halinka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:artefakt-k20",
+              "key": "prop:artefakt-k20",
+              "type": "prop",
+              "id": "artefakt-k20",
+              "name": "Artefakt K20",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:dom-kultury-ruina-po-belicosie",
+              "key": "place:dom-kultury-ruina-po-belicosie",
+              "type": "place",
+              "id": "dom-kultury-ruina-po-belicosie",
+              "name": "Dom Kultury — ruina po Belicosie",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-ruina-po-belicosie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:final-12b-dariusz-podaje-k20-halince",
+              "key": "shot:zlote-emoji-sezon-1/final-12b-dariusz-podaje-k20-halince",
+              "type": "shot",
+              "id": "final-12b-dariusz-podaje-k20-halince",
+              "name": "Final 12B — Dariusz podaje K20 Halince",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-12b-dariusz-podaje-k20-halince.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-17-halinka-rzuca-k20/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-17-halinka-rzuca-k20/frame-start-thumb.webp",

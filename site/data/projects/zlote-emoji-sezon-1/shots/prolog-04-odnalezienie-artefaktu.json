@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-sezon-1/prolog-04-odnalezienie-artefaktu",
@@ -9,7 +9,24 @@
   "description": "Powolny najazd w kamiennej komnacie. Van dostrzega na piedestale ciemny, nienumerowany dwudziestościenny artefakt i ostrożnie zbliża do niego dłoń. Bez cyfr i bez zmiany lokacji.",
   "project": {
     "id": "zlote-emoji-sezon-1",
-    "name": "Złote Emoji Sezon #1"
+    "key": "project:zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1",
+    "createdAt": "2026-08-17T13:42:01.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-sezon-1",
+    "projectCreatedAt": "2026-08-17T13:42:01.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": false,
+    "canonicalEvent": false,
+    "sequence": null,
+    "lastSequence": null,
+    "occurrences": [],
+    "sequenceTotal": 69,
+    "uniqueShotCount": 69,
+    "sequenceOrder": null,
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This project material is not present on the saved timeline, so it must not override canonical timeline events by date alone."
   },
   "references": [
     {
@@ -25,6 +42,85 @@
       "id": "artefakt-k20"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:prolog-02-zaginiona-piramida",
+        "key": "shot:zlote-emoji-sezon-1/prolog-02-zaginiona-piramida",
+        "type": "shot",
+        "id": "prolog-02-zaginiona-piramida",
+        "name": "Prolog 02 - Zaginiona piramida",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-02-zaginiona-piramida.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:van-sabe",
+        "key": "character:van-sabe",
+        "type": "character",
+        "id": "van-sabe",
+        "name": "Van Sabe",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/van-sabe.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:artefakt-k20",
+        "key": "prop:artefakt-k20",
+        "type": "prop",
+        "id": "artefakt-k20",
+        "name": "Artefakt K20",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "shot:prolog-02-zaginiona-piramida",
+          "character:van-sabe",
+          "prop:artefakt-k20"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:prolog-02-zaginiona-piramida",
+            "key": "shot:zlote-emoji-sezon-1/prolog-02-zaginiona-piramida",
+            "type": "shot",
+            "id": "prolog-02-zaginiona-piramida",
+            "name": "Prolog 02 - Zaginiona piramida",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-02-zaginiona-piramida.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:van-sabe",
+            "key": "character:van-sabe",
+            "type": "character",
+            "id": "van-sabe",
+            "name": "Van Sabe",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/van-sabe.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:artefakt-k20",
+            "key": "prop:artefakt-k20",
+            "type": "prop",
+            "id": "artefakt-k20",
+            "name": "Artefakt K20",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Exact edit of revision 1: preserve the complete shot and reduce only the unnumbered artifact to canonical size, exactly 3.0 cm vertex-to-vertex and about 2.5 cm face-to-face, slightly larger than a normal tabletop D20 and tiny relative to Van and the pedestal. Exact emerald and aged-gold material, no numerals.",
     "endFrameDescription": "",
@@ -39,12 +135,134 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 2,
       "source": "generated",
       "referenceKeys": [
         "shot:prolog-02-zaginiona-piramida",
         "character:van-sabe",
         "prop:artefakt-k20"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:prolog-02-zaginiona-piramida",
+          "key": "shot:zlote-emoji-sezon-1/prolog-02-zaginiona-piramida",
+          "type": "shot",
+          "id": "prolog-02-zaginiona-piramida",
+          "name": "Prolog 02 - Zaginiona piramida",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-02-zaginiona-piramida.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:van-sabe",
+          "key": "character:van-sabe",
+          "type": "character",
+          "id": "van-sabe",
+          "name": "Van Sabe",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/van-sabe.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:artefakt-k20",
+          "key": "prop:artefakt-k20",
+          "type": "prop",
+          "id": "artefakt-k20",
+          "name": "Artefakt K20",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-17T22:29:22.0167547+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:prolog-02-zaginiona-piramida",
+            "character:van-sabe",
+            "prop:artefakt-k20"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:prolog-02-zaginiona-piramida",
+              "key": "shot:zlote-emoji-sezon-1/prolog-02-zaginiona-piramida",
+              "type": "shot",
+              "id": "prolog-02-zaginiona-piramida",
+              "name": "Prolog 02 - Zaginiona piramida",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-02-zaginiona-piramida.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:van-sabe",
+              "key": "character:van-sabe",
+              "type": "character",
+              "id": "van-sabe",
+              "name": "Van Sabe",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/van-sabe.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:artefakt-k20",
+              "key": "prop:artefakt-k20",
+              "type": "prop",
+              "id": "artefakt-k20",
+              "name": "Artefakt K20",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-08-17T22:53:16.5436577+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:prolog-02-zaginiona-piramida",
+            "character:van-sabe",
+            "prop:artefakt-k20"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:prolog-02-zaginiona-piramida",
+              "key": "shot:zlote-emoji-sezon-1/prolog-02-zaginiona-piramida",
+              "type": "shot",
+              "id": "prolog-02-zaginiona-piramida",
+              "name": "Prolog 02 - Zaginiona piramida",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-02-zaginiona-piramida.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:van-sabe",
+              "key": "character:van-sabe",
+              "type": "character",
+              "id": "van-sabe",
+              "name": "Van Sabe",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/van-sabe.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:artefakt-k20",
+              "key": "prop:artefakt-k20",
+              "type": "prop",
+              "id": "artefakt-k20",
+              "name": "Artefakt K20",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-04-odnalezienie-artefaktu/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-04-odnalezienie-artefaktu/frame-start-thumb.webp",

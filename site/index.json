@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "world": {
     "id": "aimftv",
     "name": "Świat MF TV"
@@ -10,6 +10,8 @@
     "mcp": [
       "Przed generacją materiału dotyczącego MF TV pobierz brand.detailUrl i zastosuj zawarte tam zasady marki.",
       "Pobierz searchUrl i wybierz tylko rekordy potrzebne do zadania.",
+      "Przed ustaleniem wyglądu w danym momencie pobierz eventsUrl. Projekty są tam ułożone od najnowszych, a shoty wewnątrz projektu zgodnie z przebiegiem historii.",
+      "Stan obecny ustalaj z najpóźniejszego pasującego wydarzenia; starszy obraz jest historyczny i nie może zastąpić późniejszej transformacji, stroju ani stanu miejsca.",
       "Następnie pobierz detailUrl wybranych rekordów; nie pobieraj całej biblioteki obrazów.",
       "W promptach odwołuj się do stabilnego pola key, a obraz przekazuj z imageUrl wskazanego w szczegółach."
     ]
@@ -220,5 +222,6 @@
     }
   },
   "searchUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/search.json",
-  "timelineUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/timeline.json"
+  "timelineUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/timeline.json",
+  "eventsUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/events.json"
 }

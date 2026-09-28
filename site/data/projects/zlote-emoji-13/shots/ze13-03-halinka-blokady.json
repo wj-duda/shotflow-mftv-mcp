@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-13/ze13-03-halinka-blokady",
@@ -9,7 +9,24 @@
   "description": "Poza timeline’em wersji 42 s. Zachowany projekt wcześniejszego wariantu. Kontrplan Halinki. Zwyczajnie wyjaśnia swój rytuał, nadal trzymając szałwię na spodku w lewej dłoni i telefon w prawej. Dialog do nagrania: Halinka: „Usuwam blokady.” Etap projektu: zaprojektowany placeholder; Start Frame i take nie zostały wygenerowane.",
   "project": {
     "id": "zlote-emoji-13",
-    "name": "Złote Emoji #13"
+    "key": "project:zlote-emoji-13",
+    "name": "Złote Emoji #13",
+    "createdAt": "2026-09-19T00:38:20.615Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-13",
+    "projectCreatedAt": "2026-09-19T00:38:20.615Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": false,
+    "canonicalEvent": false,
+    "sequence": null,
+    "lastSequence": null,
+    "occurrences": [],
+    "sequenceTotal": 11,
+    "uniqueShotCount": 10,
+    "sequenceOrder": null,
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This project material is not present on the saved timeline, so it must not override canonical timeline events by date alone."
   },
   "references": [
     {
@@ -21,6 +38,32 @@
       "id": "halinka"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:ze13-01-oczyszczanie",
+        "key": "shot:zlote-emoji-13/ze13-01-oczyszczanie",
+        "type": "shot",
+        "id": "ze13-01-oczyszczanie",
+        "name": "ZE13 01 — od żaru do twarzy",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-13/shots/ze13-01-oczyszczanie.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:halinka",
+        "key": "character:halinka",
+        "type": "character",
+        "id": "halinka",
+        "name": "Halinka",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Create exactly one photorealistic cinematic 16:9 START FRAME, target 1920x1080. Natural diffuse daylight through the missing roof, restrained 35mm texture, real skin and materials. Mandatory references in attachment order:\nImage 1: shot:ze13-01-oczyszczanie, established scene geography, props, light and costume continuity; change the framing/action only as specified below.\nImages 2 and 3: character:halinka, exact facial identity and full-body wardrobe/proportions. Reference-sheet labels and white studio backgrounds are not scene elements.\n\nMatching 65mm medium close-up of Halinka on SCREEN RIGHT, looking off-screen LEFT toward seated Czeslaw. Canonical cardigan and jewelry. Her LEFT hand supports the level saucer with the exact sage bundle at lower chest height; right-hand black phone sits lower, screen toward her body. Her face is unobscured by smoke; thin plume trails upward away from her eyes. Same position as master, no other person visible.\nKeep the hall roofless and ruined. Preserve all existing visible source lettering and logos on included scene objects; do not transplant reference-sheet annotations. No added people, repaired roof, supernatural light, oversized smoke, illustration, captions, watermark, montage or malformed anatomy. Mouths rest naturally before dialogue. No End Frame is required.",
     "endFrameDescription": "",

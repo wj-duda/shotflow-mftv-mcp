@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:halloween-konkurs/hw-09-zosia-pierwsza-seria",
@@ -9,7 +9,26 @@
   "description": "Zosia strzela w prawo, ku tarasowi. Widoczna końcówka lufy z błyskiem, łuska i praca barku pod odrzutem. Bliźniaki poza osią strzału po lewej stronie salonu. Widoczny zakres źródła: 0–2 s, 24 fps, 1080×1920. Gotowe kadry; animacja do wygenerowania. Natywne audio wyłączone, dialog i SFX osobno.",
   "project": {
     "id": "halloween-konkurs",
-    "name": "Halloween Konkurs"
+    "key": "project:halloween-konkurs",
+    "name": "Halloween Konkurs",
+    "createdAt": "2026-09-20T15:29:11.720Z"
+  },
+  "chronology": {
+    "projectKey": "project:halloween-konkurs",
+    "projectCreatedAt": "2026-09-20T15:29:11.720Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 12,
+    "lastSequence": 12,
+    "occurrences": [
+      12
+    ],
+    "sequenceTotal": 25,
+    "uniqueShotCount": 21,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -29,6 +48,73 @@
       "id": "hw-09-zosia-pierwsza-seria"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:hw-08-zosia-wejscie",
+        "key": "shot:halloween-konkurs/hw-08-zosia-wejscie",
+        "type": "shot",
+        "id": "hw-08-zosia-wejscie",
+        "name": "08 — Wejście Zosi z korytarza",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-08-zosia-wejscie.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:m16-zosi",
+        "key": "prop:m16-zosi",
+        "type": "prop",
+        "id": "m16-zosi",
+        "name": "M16 Zosi — Halloween",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/m16-zosi.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:zosia",
+        "key": "character:zosia",
+        "type": "character",
+        "id": "zosia",
+        "name": "Zosia",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/zosia.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:hw-09-zosia-pierwsza-seria",
+        "key": "shot:halloween-konkurs/hw-09-zosia-pierwsza-seria",
+        "type": "shot",
+        "id": "hw-09-zosia-pierwsza-seria",
+        "name": "09 — Zosia / pierwsza seria",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-09-zosia-pierwsza-seria.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "shot:hw-09-zosia-pierwsza-seria"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:hw-09-zosia-pierwsza-seria",
+            "key": "shot:halloween-konkurs/hw-09-zosia-pierwsza-seria",
+            "type": "shot",
+            "id": "hw-09-zosia-pierwsza-seria",
+            "name": "09 — Zosia / pierwsza seria",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-09-zosia-pierwsza-seria.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Edit this exact image as a powerful action-film still, vertical9:16. Preserve exact woman's facial likeness, black hair with blue strands, black printed oversized metal shirt, jewellery, black jeans, exact Polish living room and hallway. Reframe slightly wider and move subject to left so ENTIRE rifle muzzle is visible with clear space at screen right. Same classic black M16 carry handle fixed stock straight magazine, two correct hands. She is firing toward SCREEN RIGHT, grounded stance leaning into recoil, focused unflinching face. Compact bright orange-white muzzle flash emerges ONLY from barrel tip, small reflected warm light on hand and face, ONE brass casing caught just right of receiver, slight smoke from muzzle. Weapon butt firmly at shoulder, barrel stays pointed right. Subtle motion in hair tips and sleeves, face sharp. No extra fingers, no extra guns, no giant fireball, no text or watermark. Single still no panels.",
     "endFrameDescription": "",
@@ -43,10 +129,90 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 2,
       "source": "generated",
       "referenceKeys": [
         "shot:hw-09-zosia-pierwsza-seria"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:hw-09-zosia-pierwsza-seria",
+          "key": "shot:halloween-konkurs/hw-09-zosia-pierwsza-seria",
+          "type": "shot",
+          "id": "hw-09-zosia-pierwsza-seria",
+          "name": "09 — Zosia / pierwsza seria",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-09-zosia-pierwsza-seria.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-20T15:45:20.471108+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:hw-08-zosia-wejscie",
+            "prop:m16-zosi",
+            "character:zosia"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:hw-08-zosia-wejscie",
+              "key": "shot:halloween-konkurs/hw-08-zosia-wejscie",
+              "type": "shot",
+              "id": "hw-08-zosia-wejscie",
+              "name": "08 — Wejście Zosi z korytarza",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-08-zosia-wejscie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:m16-zosi",
+              "key": "prop:m16-zosi",
+              "type": "prop",
+              "id": "m16-zosi",
+              "name": "M16 Zosi — Halloween",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/m16-zosi.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:zosia",
+              "key": "character:zosia",
+              "type": "character",
+              "id": "zosia",
+              "name": "Zosia",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/zosia.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-09-20T16:43:40.273888+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:hw-09-zosia-pierwsza-seria"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:hw-09-zosia-pierwsza-seria",
+              "key": "shot:halloween-konkurs/hw-09-zosia-pierwsza-seria",
+              "type": "shot",
+              "id": "hw-09-zosia-pierwsza-seria",
+              "name": "09 — Zosia / pierwsza seria",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-09-zosia-pierwsza-seria.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-09-zosia-pierwsza-seria/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-09-zosia-pierwsza-seria/frame-start-thumb.webp",

@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-11/maia-przejazd-przez-lazy",
@@ -9,7 +9,24 @@
   "description": "Zewnętrzny tracking ciemnego hatchbacka Mai jadącego przez Łazy na super galę.",
   "project": {
     "id": "zlote-emoji-11",
-    "name": "Złote Emoji #11"
+    "key": "project:zlote-emoji-11",
+    "name": "Złote Emoji #11",
+    "createdAt": "2026-09-05T16:08:47.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-11",
+    "projectCreatedAt": "2026-09-05T16:08:47.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": false,
+    "canonicalEvent": false,
+    "sequence": null,
+    "lastSequence": null,
+    "occurrences": [],
+    "sequenceTotal": 7,
+    "uniqueShotCount": 7,
+    "sequenceOrder": null,
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This project material is not present on the saved timeline, so it must not override canonical timeline events by date alone."
   },
   "references": [
     {
@@ -29,6 +46,106 @@
       "id": "movie-shot"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:maia-jedzie-na-gale",
+        "key": "shot:zlote-emoji-11/maia-jedzie-na-gale",
+        "type": "shot",
+        "id": "maia-jedzie-na-gale",
+        "name": "Maia jedzie na super galę",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-jedzie-na-gale.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:maia-przed-remontem",
+        "key": "shot:zlote-emoji-11/maia-przed-remontem",
+        "type": "shot",
+        "id": "maia-przed-remontem",
+        "name": "Dom Kultury zamknięty",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-przed-remontem.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:lazy",
+        "key": "place:lazy",
+        "type": "place",
+        "id": "lazy",
+        "name": "Łazy",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lazy.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "note:movie-shot",
+        "key": "note:movie-shot",
+        "type": "note",
+        "id": "movie-shot",
+        "name": "Movie",
+        "relationship": "story-and-continuity-context",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/movie-shot.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:maia-jedzie-na-gale",
+          "shot:maia-przed-remontem",
+          "place:lazy",
+          "note:movie-shot"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:maia-jedzie-na-gale",
+            "key": "shot:zlote-emoji-11/maia-jedzie-na-gale",
+            "type": "shot",
+            "id": "maia-jedzie-na-gale",
+            "name": "Maia jedzie na super galę",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-jedzie-na-gale.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:maia-przed-remontem",
+            "key": "shot:zlote-emoji-11/maia-przed-remontem",
+            "type": "shot",
+            "id": "maia-przed-remontem",
+            "name": "Dom Kultury zamknięty",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-przed-remontem.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "place:lazy",
+            "key": "place:lazy",
+            "type": "place",
+            "id": "lazy",
+            "name": "Łazy",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lazy.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "note:movie-shot",
+            "key": "note:movie-shot",
+            "type": "note",
+            "id": "movie-shot",
+            "name": "Movie",
+            "relationship": "story-and-continuity-context",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/movie-shot.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Zewnętrzny filmowy tracking 16:9 tego samego ciemnego hatchbacka co w shocie przy Domu Kultury. Auto jedzie spokojną ulicą Łazów w późnym popołudniu. Ujęcie trzy czwarte z boku; Maia v2 widoczna jako jedyna osoba za kierownicą, platynowo-lawendowy bob, ramoneska i kremowa koszula. Naturalne rozmycie kół i tła, realistyczne szkło, lakier i droga. Bez dominujących innych aut, tłumu, czytelnej tablicy rejestracyjnej, napisów i watermarku.",
     "endFrameDescription": "",
@@ -43,6 +160,7 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 1,
       "source": "generated",
       "referenceKeys": [
@@ -50,6 +168,105 @@
         "shot:maia-przed-remontem",
         "place:lazy",
         "note:movie-shot"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:maia-jedzie-na-gale",
+          "key": "shot:zlote-emoji-11/maia-jedzie-na-gale",
+          "type": "shot",
+          "id": "maia-jedzie-na-gale",
+          "name": "Maia jedzie na super galę",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-jedzie-na-gale.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:maia-przed-remontem",
+          "key": "shot:zlote-emoji-11/maia-przed-remontem",
+          "type": "shot",
+          "id": "maia-przed-remontem",
+          "name": "Dom Kultury zamknięty",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-przed-remontem.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "place:lazy",
+          "key": "place:lazy",
+          "type": "place",
+          "id": "lazy",
+          "name": "Łazy",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lazy.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "note:movie-shot",
+          "key": "note:movie-shot",
+          "type": "note",
+          "id": "movie-shot",
+          "name": "Movie",
+          "relationship": "story-and-continuity-context",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/movie-shot.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-05T18:34:52+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:maia-jedzie-na-gale",
+            "shot:maia-przed-remontem",
+            "place:lazy",
+            "note:movie-shot"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:maia-jedzie-na-gale",
+              "key": "shot:zlote-emoji-11/maia-jedzie-na-gale",
+              "type": "shot",
+              "id": "maia-jedzie-na-gale",
+              "name": "Maia jedzie na super galę",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-jedzie-na-gale.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:maia-przed-remontem",
+              "key": "shot:zlote-emoji-11/maia-przed-remontem",
+              "type": "shot",
+              "id": "maia-przed-remontem",
+              "name": "Dom Kultury zamknięty",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-przed-remontem.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:lazy",
+              "key": "place:lazy",
+              "type": "place",
+              "id": "lazy",
+              "name": "Łazy",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lazy.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "note:movie-shot",
+              "key": "note:movie-shot",
+              "type": "note",
+              "id": "movie-shot",
+              "name": "Movie",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/movie-shot.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-11/shots/maia-przejazd-przez-lazy/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-11/shots/maia-przejazd-przez-lazy/frame-start-thumb.webp",

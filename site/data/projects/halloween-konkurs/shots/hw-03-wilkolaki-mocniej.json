@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:halloween-konkurs/hw-03-wilkolaki-mocniej",
@@ -9,7 +9,26 @@
   "description": "Gotowy Start Frame 1080×1920. Bez take’a. Planowany montaż: 3–3.75 s; 18 klatek / 24 fps. Planowany take: 3 s, wykorzystanie od początku. Ciasny portret Marcela, eyeline w lewo. Druga kwestia wyraźnie mocniejsza; szybkie cięcie i zmiana skali budują tempo. Bez dodatkowych słów i komediowych grymasów. Dokładne zmieszczenie słowa w 18 klatkach wymaga próby nagrania. Kamera: Nieruchomy ciasny portret; energię daje cięcie. Dialog do osobnego nagrania: Marcel, mocniej: „Wilkołaki!”. Start Frame wygenerowany wbudowanym generatorem i zweryfikowany. Animacja bez natywnego audio; wypowiedzi, lipsync i SFX opracować osobno. Wstawiono na V1 timeline: sekwencja 25 sekund, 24 fps. ",
   "project": {
     "id": "halloween-konkurs",
-    "name": "Halloween Konkurs"
+    "key": "project:halloween-konkurs",
+    "name": "Halloween Konkurs",
+    "createdAt": "2026-09-20T15:29:11.720Z"
+  },
+  "chronology": {
+    "projectKey": "project:halloween-konkurs",
+    "projectCreatedAt": "2026-09-20T15:29:11.720Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 4,
+    "lastSequence": 4,
+    "occurrences": [
+      4
+    ],
+    "sequenceTotal": 25,
+    "uniqueShotCount": 21,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -17,6 +36,43 @@
       "id": "hw-01-wilkolaki-ogrod"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:hw-01-wilkolaki-ogrod",
+        "key": "shot:halloween-konkurs/hw-01-wilkolaki-ogrod",
+        "type": "shot",
+        "id": "hw-01-wilkolaki-ogrod",
+        "name": "01 — Wilkołaki / zombie już w ogrodzie",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-01-wilkolaki-ogrod.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:hw-01-wilkolaki-ogrod"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:hw-01-wilkolaki-ogrod",
+            "key": "shot:halloween-konkurs/hw-01-wilkolaki-ogrod",
+            "type": "shot",
+            "id": "hw-01-wilkolaki-ogrod",
+            "name": "01 — Wilkołaki / zombie już w ogrodzie",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-01-wilkolaki-ogrod.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Single photorealistic vertical 9:16 film still. Reference image 1 fixes exact identity, costume and location. New tight face close-up of MARCEL, the adult albino man with short white hair and tinted rectangular glasses seated on RIGHT of olive sofa. Frame crown to upper chest, his face dominates frame, same brown knitted cardigan, black shirt, D20 pendant. He looks toward SCREEN LEFT at his sister, with a firmer challenging expression, slightly leaning forward. Camera remains on TV side of dialogue axis. Same warm practical interior light and cool dusk through intact glass behind. Blurred same established zombie neighbours remain outside. No woman in crop. His Werewolf book is still in same right hand BELOW frame; don't force it into face shot. Natural skin, realistic eyeglasses with both eyes visible. No captions, text, watermark or collage. Preserve likeness precisely; this is another camera setup in the SAME scene.",
     "endFrameDescription": "",
@@ -31,10 +87,47 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 1,
       "source": "generated",
       "referenceKeys": [
         "shot:hw-01-wilkolaki-ogrod"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:hw-01-wilkolaki-ogrod",
+          "key": "shot:halloween-konkurs/hw-01-wilkolaki-ogrod",
+          "type": "shot",
+          "id": "hw-01-wilkolaki-ogrod",
+          "name": "01 — Wilkołaki / zombie już w ogrodzie",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-01-wilkolaki-ogrod.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-20T15:31:54.067141+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:hw-01-wilkolaki-ogrod"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:hw-01-wilkolaki-ogrod",
+              "key": "shot:halloween-konkurs/hw-01-wilkolaki-ogrod",
+              "type": "shot",
+              "id": "hw-01-wilkolaki-ogrod",
+              "name": "01 — Wilkołaki / zombie już w ogrodzie",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-01-wilkolaki-ogrod.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-03-wilkolaki-mocniej/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-03-wilkolaki-mocniej/frame-start-thumb.webp",

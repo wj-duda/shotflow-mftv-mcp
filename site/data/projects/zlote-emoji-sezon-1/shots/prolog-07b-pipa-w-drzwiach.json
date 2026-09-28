@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-sezon-1/prolog-07b-pipa-w-drzwiach",
@@ -9,7 +9,24 @@
   "description": "Cięcie na ruchu po kopnięciu. Pipa zajmuje próg z karabinem. Ciemne skrzydło jest zawiasowane po prawej i otwarte na prawą stronę przy ścianie dokładnie jak w shocie 8; nie zasłania środka pokoju.",
   "project": {
     "id": "zlote-emoji-sezon-1",
-    "name": "Złote Emoji Sezon #1"
+    "key": "project:zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1",
+    "createdAt": "2026-08-17T13:42:01.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-sezon-1",
+    "projectCreatedAt": "2026-08-17T13:42:01.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": false,
+    "canonicalEvent": false,
+    "sequence": null,
+    "lastSequence": null,
+    "occurrences": [],
+    "sequenceTotal": 69,
+    "uniqueShotCount": 69,
+    "sequenceOrder": null,
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This project material is not present on the saved timeline, so it must not override canonical timeline events by date alone."
   },
   "references": [
     {
@@ -29,6 +46,106 @@
       "id": "prolog-08-kostka-wypada-vanowi"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:prolog-07a-klamka-i-kopniecie",
+        "key": "shot:zlote-emoji-sezon-1/prolog-07a-klamka-i-kopniecie",
+        "type": "shot",
+        "id": "prolog-07a-klamka-i-kopniecie",
+        "name": "Prolog 07A - klamka i kopniecie",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-07a-klamka-i-kopniecie.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:prolog-07-wtargniecie-pipy",
+        "key": "shot:zlote-emoji-sezon-1/prolog-07-wtargniecie-pipy",
+        "type": "shot",
+        "id": "prolog-07-wtargniecie-pipy",
+        "name": "Pipa blokuje drzwi",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-07-wtargniecie-pipy.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:laidy-pipa",
+        "key": "character:laidy-pipa",
+        "type": "character",
+        "id": "laidy-pipa",
+        "name": "LAIdy Pipa",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/laidy-pipa.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:prolog-08-kostka-wypada-vanowi",
+        "key": "shot:zlote-emoji-sezon-1/prolog-08-kostka-wypada-vanowi",
+        "type": "shot",
+        "id": "prolog-08-kostka-wypada-vanowi",
+        "name": "Kostka wypada Vanowi",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-08-kostka-wypada-vanowi.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "shot:prolog-07b-pipa-w-drzwiach",
+          "shot:prolog-08-kostka-wypada-vanowi",
+          "shot:prolog-07a-klamka-i-kopniecie",
+          "character:laidy-pipa"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:prolog-07b-pipa-w-drzwiach",
+            "key": "shot:zlote-emoji-sezon-1/prolog-07b-pipa-w-drzwiach",
+            "type": "shot",
+            "id": "prolog-07b-pipa-w-drzwiach",
+            "name": "Prolog 07B - Pipa w drzwiach",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-07b-pipa-w-drzwiach.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:prolog-08-kostka-wypada-vanowi",
+            "key": "shot:zlote-emoji-sezon-1/prolog-08-kostka-wypada-vanowi",
+            "type": "shot",
+            "id": "prolog-08-kostka-wypada-vanowi",
+            "name": "Kostka wypada Vanowi",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-08-kostka-wypada-vanowi.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:prolog-07a-klamka-i-kopniecie",
+            "key": "shot:zlote-emoji-sezon-1/prolog-07a-klamka-i-kopniecie",
+            "type": "shot",
+            "id": "prolog-07a-klamka-i-kopniecie",
+            "name": "Prolog 07A - klamka i kopniecie",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-07a-klamka-i-kopniecie.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:laidy-pipa",
+            "key": "character:laidy-pipa",
+            "type": "character",
+            "id": "laidy-pipa",
+            "name": "LAIdy Pipa",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/laidy-pipa.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Use case: precise-object-edit. Preserve the former active Start Frame as the exact base, including camera, crop, Pipa, rifle, bed, dark exposure and warm corridor light. Correct only the door assembly to match shot prolog-08-kostka-wypada-vanowi exactly: the dark wooden leaf is right-hinged and open toward screen-right along the right wall, with the silver knob and right jamb in the same canonical positions. The doorway and central wall remain unobstructed. No left-swinging panel across the room, double door, changed Pipa, Van, magic, text or watermark.",
     "endFrameDescription": "",
@@ -43,6 +160,7 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 2,
       "source": "generated",
       "referenceKeys": [
@@ -50,6 +168,148 @@
         "shot:prolog-08-kostka-wypada-vanowi",
         "shot:prolog-07a-klamka-i-kopniecie",
         "character:laidy-pipa"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:prolog-07b-pipa-w-drzwiach",
+          "key": "shot:zlote-emoji-sezon-1/prolog-07b-pipa-w-drzwiach",
+          "type": "shot",
+          "id": "prolog-07b-pipa-w-drzwiach",
+          "name": "Prolog 07B - Pipa w drzwiach",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-07b-pipa-w-drzwiach.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:prolog-08-kostka-wypada-vanowi",
+          "key": "shot:zlote-emoji-sezon-1/prolog-08-kostka-wypada-vanowi",
+          "type": "shot",
+          "id": "prolog-08-kostka-wypada-vanowi",
+          "name": "Kostka wypada Vanowi",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-08-kostka-wypada-vanowi.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:prolog-07a-klamka-i-kopniecie",
+          "key": "shot:zlote-emoji-sezon-1/prolog-07a-klamka-i-kopniecie",
+          "type": "shot",
+          "id": "prolog-07a-klamka-i-kopniecie",
+          "name": "Prolog 07A - klamka i kopniecie",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-07a-klamka-i-kopniecie.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:laidy-pipa",
+          "key": "character:laidy-pipa",
+          "type": "character",
+          "id": "laidy-pipa",
+          "name": "LAIdy Pipa",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/laidy-pipa.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-18T05:10:00+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:prolog-07a-klamka-i-kopniecie",
+            "shot:prolog-07-wtargniecie-pipy",
+            "character:laidy-pipa"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:prolog-07a-klamka-i-kopniecie",
+              "key": "shot:zlote-emoji-sezon-1/prolog-07a-klamka-i-kopniecie",
+              "type": "shot",
+              "id": "prolog-07a-klamka-i-kopniecie",
+              "name": "Prolog 07A - klamka i kopniecie",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-07a-klamka-i-kopniecie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:prolog-07-wtargniecie-pipy",
+              "key": "shot:zlote-emoji-sezon-1/prolog-07-wtargniecie-pipy",
+              "type": "shot",
+              "id": "prolog-07-wtargniecie-pipy",
+              "name": "Pipa blokuje drzwi",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-07-wtargniecie-pipy.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:laidy-pipa",
+              "key": "character:laidy-pipa",
+              "type": "character",
+              "id": "laidy-pipa",
+              "name": "LAIdy Pipa",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/laidy-pipa.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-08-18T05:17:27.065+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:prolog-07b-pipa-w-drzwiach",
+            "shot:prolog-08-kostka-wypada-vanowi",
+            "shot:prolog-07a-klamka-i-kopniecie",
+            "character:laidy-pipa"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:prolog-07b-pipa-w-drzwiach",
+              "key": "shot:zlote-emoji-sezon-1/prolog-07b-pipa-w-drzwiach",
+              "type": "shot",
+              "id": "prolog-07b-pipa-w-drzwiach",
+              "name": "Prolog 07B - Pipa w drzwiach",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-07b-pipa-w-drzwiach.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:prolog-08-kostka-wypada-vanowi",
+              "key": "shot:zlote-emoji-sezon-1/prolog-08-kostka-wypada-vanowi",
+              "type": "shot",
+              "id": "prolog-08-kostka-wypada-vanowi",
+              "name": "Kostka wypada Vanowi",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-08-kostka-wypada-vanowi.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:prolog-07a-klamka-i-kopniecie",
+              "key": "shot:zlote-emoji-sezon-1/prolog-07a-klamka-i-kopniecie",
+              "type": "shot",
+              "id": "prolog-07a-klamka-i-kopniecie",
+              "name": "Prolog 07A - klamka i kopniecie",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/prolog-07a-klamka-i-kopniecie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:laidy-pipa",
+              "key": "character:laidy-pipa",
+              "type": "character",
+              "id": "laidy-pipa",
+              "name": "LAIdy Pipa",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/laidy-pipa.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-07b-pipa-w-drzwiach/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-07b-pipa-w-drzwiach/frame-start-thumb.webp",

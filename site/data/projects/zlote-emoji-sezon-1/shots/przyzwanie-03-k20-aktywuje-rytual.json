@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-sezon-1/przyzwanie-03-k20-aktywuje-rytual",
@@ -9,7 +9,26 @@
   "description": "pokazuje konkretną przyczynę inwazji oraz rozpoczyna powrót kostki do klubu.",
   "project": {
     "id": "zlote-emoji-sezon-1",
-    "name": "Złote Emoji Sezon #1"
+    "key": "project:zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1",
+    "createdAt": "2026-08-17T13:42:01.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-sezon-1",
+    "projectCreatedAt": "2026-08-17T13:42:01.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 14,
+    "lastSequence": 14,
+    "occurrences": [
+      14
+    ],
+    "sequenceTotal": 69,
+    "uniqueShotCount": 69,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -25,6 +44,85 @@
       "id": "przyzwanie-02-dach-przed-rytualem"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "prop:artefakt-k20",
+        "key": "prop:artefakt-k20",
+        "type": "prop",
+        "id": "artefakt-k20",
+        "name": "Artefakt K20",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:dach-bloku-dzieci-gwiazd",
+        "key": "place:dach-bloku-dzieci-gwiazd",
+        "type": "place",
+        "id": "dach-bloku-dzieci-gwiazd",
+        "name": "Dach bloku Dzieci Gwiazd",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dach-bloku-dzieci-gwiazd.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:przyzwanie-02-dach-przed-rytualem",
+        "key": "shot:zlote-emoji-sezon-1/przyzwanie-02-dach-przed-rytualem",
+        "type": "shot",
+        "id": "przyzwanie-02-dach-przed-rytualem",
+        "name": "Przyzwanie 02 Dach Przed Rytualem",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/przyzwanie-02-dach-przed-rytualem.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "prop:artefakt-k20",
+          "place:dach-bloku-dzieci-gwiazd",
+          "shot:przyzwanie-02-dach-przed-rytualem"
+        ],
+        "references": [
+          {
+            "sourceKey": "prop:artefakt-k20",
+            "key": "prop:artefakt-k20",
+            "type": "prop",
+            "id": "artefakt-k20",
+            "name": "Artefakt K20",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "place:dach-bloku-dzieci-gwiazd",
+            "key": "place:dach-bloku-dzieci-gwiazd",
+            "type": "place",
+            "id": "dach-bloku-dzieci-gwiazd",
+            "name": "Dach bloku Dzieci Gwiazd",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dach-bloku-dzieci-gwiazd.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:przyzwanie-02-dach-przed-rytualem",
+            "key": "shot:zlote-emoji-sezon-1/przyzwanie-02-dach-przed-rytualem",
+            "type": "shot",
+            "id": "przyzwanie-02-dach-przed-rytualem",
+            "name": "Przyzwanie 02 Dach Przed Rytualem",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/przyzwanie-02-dach-przed-rytualem.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Photorealistic static low macro on the wet scratched metal ritual stand on the same stormy rooftop. The canonical tiny 3 cm emerald-and-aged-gold K20 is rolling naturally on one edge, face 20 beginning to rotate toward camera. One rough dark ritual glove withdraws above it. Cold storm-blue moonlight and restrained warm lamp reflection. One die and one gloved hand, no glow yet, no creatures, duplicate objects, text or watermark.",
     "endFrameDescription": "",
@@ -39,12 +137,91 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 1,
       "source": "generated",
       "referenceKeys": [
         "prop:artefakt-k20",
         "place:dach-bloku-dzieci-gwiazd",
         "shot:przyzwanie-02-dach-przed-rytualem"
+      ],
+      "references": [
+        {
+          "sourceKey": "prop:artefakt-k20",
+          "key": "prop:artefakt-k20",
+          "type": "prop",
+          "id": "artefakt-k20",
+          "name": "Artefakt K20",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "place:dach-bloku-dzieci-gwiazd",
+          "key": "place:dach-bloku-dzieci-gwiazd",
+          "type": "place",
+          "id": "dach-bloku-dzieci-gwiazd",
+          "name": "Dach bloku Dzieci Gwiazd",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dach-bloku-dzieci-gwiazd.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:przyzwanie-02-dach-przed-rytualem",
+          "key": "shot:zlote-emoji-sezon-1/przyzwanie-02-dach-przed-rytualem",
+          "type": "shot",
+          "id": "przyzwanie-02-dach-przed-rytualem",
+          "name": "Przyzwanie 02 Dach Przed Rytualem",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/przyzwanie-02-dach-przed-rytualem.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-18T23:47:00+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "prop:artefakt-k20",
+            "place:dach-bloku-dzieci-gwiazd",
+            "shot:przyzwanie-02-dach-przed-rytualem"
+          ],
+          "references": [
+            {
+              "sourceKey": "prop:artefakt-k20",
+              "key": "prop:artefakt-k20",
+              "type": "prop",
+              "id": "artefakt-k20",
+              "name": "Artefakt K20",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:dach-bloku-dzieci-gwiazd",
+              "key": "place:dach-bloku-dzieci-gwiazd",
+              "type": "place",
+              "id": "dach-bloku-dzieci-gwiazd",
+              "name": "Dach bloku Dzieci Gwiazd",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dach-bloku-dzieci-gwiazd.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:przyzwanie-02-dach-przed-rytualem",
+              "key": "shot:zlote-emoji-sezon-1/przyzwanie-02-dach-przed-rytualem",
+              "type": "shot",
+              "id": "przyzwanie-02-dach-przed-rytualem",
+              "name": "Przyzwanie 02 Dach Przed Rytualem",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/przyzwanie-02-dach-przed-rytualem.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/przyzwanie-03-k20-aktywuje-rytual/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/przyzwanie-03-k20-aktywuje-rytual/frame-start-thumb.webp",

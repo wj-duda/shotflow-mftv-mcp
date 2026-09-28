@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-sezon-1/final-02c-filip-napiecie",
@@ -9,7 +9,26 @@
   "description": "Krótki ciasny portret Filipa. Najbardziej młodzieńcza i ludzka reakcja na rozpoznanie floty: strach, przyspieszony oddech i spojrzenie ku zniszczonemu sufitowi, po czym powrót wzroku do grupy. Naturalna skóra i twarz, bez lalkowatości.",
   "project": {
     "id": "zlote-emoji-sezon-1",
-    "name": "Złote Emoji Sezon #1"
+    "key": "project:zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1",
+    "createdAt": "2026-08-17T13:42:01.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-sezon-1",
+    "projectCreatedAt": "2026-08-17T13:42:01.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 23,
+    "lastSequence": 23,
+    "occurrences": [
+      23
+    ],
+    "sequenceTotal": 69,
+    "uniqueShotCount": 69,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -25,6 +44,85 @@
       "id": "klub-fantastyki-zniszczony"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:filip-koza",
+        "key": "character:filip-koza",
+        "type": "character",
+        "id": "filip-koza",
+        "name": "Filip",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/filip-koza.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:final-02-dariusz-rozpoznaje-flote",
+        "key": "shot:zlote-emoji-sezon-1/final-02-dariusz-rozpoznaje-flote",
+        "type": "shot",
+        "id": "final-02-dariusz-rozpoznaje-flote",
+        "name": "Final 02 Klub obmyśla obronę",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-02-dariusz-rozpoznaje-flote.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:klub-fantastyki-zniszczony",
+        "key": "place:klub-fantastyki-zniszczony",
+        "type": "place",
+        "id": "klub-fantastyki-zniszczony",
+        "name": "Zniszczony Klub Fantastyki",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/klub-fantastyki-zniszczony.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "character:filip-koza",
+          "shot:final-02-dariusz-rozpoznaje-flote",
+          "place:klub-fantastyki-zniszczony"
+        ],
+        "references": [
+          {
+            "sourceKey": "character:filip-koza",
+            "key": "character:filip-koza",
+            "type": "character",
+            "id": "filip-koza",
+            "name": "Filip",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/filip-koza.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:final-02-dariusz-rozpoznaje-flote",
+            "key": "shot:zlote-emoji-sezon-1/final-02-dariusz-rozpoznaje-flote",
+            "type": "shot",
+            "id": "final-02-dariusz-rozpoznaje-flote",
+            "name": "Final 02 Klub obmyśla obronę",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-02-dariusz-rozpoznaje-flote.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "place:klub-fantastyki-zniszczony",
+            "key": "place:klub-fantastyki-zniszczony",
+            "type": "place",
+            "id": "klub-fantastyki-zniszczony",
+            "name": "Zniszczony Klub Fantastyki",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/klub-fantastyki-zniszczony.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Photorealistic live-action 16:9 tight 85 mm close-up of Filip during the same planning-table moment as final-02. Preserve his exact long narrow youthful face, hazel eyes, messy dark wavy hair, prominent ears, natural olive skin, very slim build, black hoodie and faded fantasy T-shirt. Preserve the exact destroyed Klub Fantastyki, warm practical lighting and storm-blue window light. Frame upper chest to just above his hair. Filip is the youngest and most visibly frightened: breath held, lips slightly parted, eyes lifted toward the damaged ceiling and threat outside, poised to look back toward the group. Fear is restrained and human, not horror acting. Only Filip is in focus; the club and group remain soft background continuity. No doll skin, rubber face, smile, screaming, tears, magic, K20, new person, text, UI, captions, watermark or malformed anatomy.",
     "endFrameDescription": "",
@@ -39,12 +137,91 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 1,
       "source": "generated",
       "referenceKeys": [
         "character:filip-koza",
         "shot:final-02-dariusz-rozpoznaje-flote",
         "place:klub-fantastyki-zniszczony"
+      ],
+      "references": [
+        {
+          "sourceKey": "character:filip-koza",
+          "key": "character:filip-koza",
+          "type": "character",
+          "id": "filip-koza",
+          "name": "Filip",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/filip-koza.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:final-02-dariusz-rozpoznaje-flote",
+          "key": "shot:zlote-emoji-sezon-1/final-02-dariusz-rozpoznaje-flote",
+          "type": "shot",
+          "id": "final-02-dariusz-rozpoznaje-flote",
+          "name": "Final 02 Klub obmyśla obronę",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-02-dariusz-rozpoznaje-flote.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "place:klub-fantastyki-zniszczony",
+          "key": "place:klub-fantastyki-zniszczony",
+          "type": "place",
+          "id": "klub-fantastyki-zniszczony",
+          "name": "Zniszczony Klub Fantastyki",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/klub-fantastyki-zniszczony.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-20T02:03:27+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:filip-koza",
+            "shot:final-02-dariusz-rozpoznaje-flote",
+            "place:klub-fantastyki-zniszczony"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:filip-koza",
+              "key": "character:filip-koza",
+              "type": "character",
+              "id": "filip-koza",
+              "name": "Filip",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/filip-koza.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:final-02-dariusz-rozpoznaje-flote",
+              "key": "shot:zlote-emoji-sezon-1/final-02-dariusz-rozpoznaje-flote",
+              "type": "shot",
+              "id": "final-02-dariusz-rozpoznaje-flote",
+              "name": "Final 02 Klub obmyśla obronę",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-02-dariusz-rozpoznaje-flote.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:klub-fantastyki-zniszczony",
+              "key": "place:klub-fantastyki-zniszczony",
+              "type": "place",
+              "id": "klub-fantastyki-zniszczony",
+              "name": "Zniszczony Klub Fantastyki",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/klub-fantastyki-zniszczony.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-02c-filip-napiecie/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-02c-filip-napiecie/frame-start-thumb.webp",

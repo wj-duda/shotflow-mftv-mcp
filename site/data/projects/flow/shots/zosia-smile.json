@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:flow/zosia-smile",
@@ -9,7 +9,26 @@
   "description": "zosia swzczęśliwa, napraw wszystkie AI glitche na tym obrazku",
   "project": {
     "id": "flow",
-    "name": "Flow"
+    "key": "project:flow",
+    "name": "Flow",
+    "createdAt": "2026-07-31T12:16:21.368Z"
+  },
+  "chronology": {
+    "projectKey": "project:flow",
+    "projectCreatedAt": "2026-07-31T12:16:21.368Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 3,
+    "lastSequence": 3,
+    "occurrences": [
+      3
+    ],
+    "sequenceTotal": 11,
+    "uniqueShotCount": 11,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -21,6 +40,40 @@
       "id": "zosia-jump"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:zosia-wraca-do-domu",
+        "key": "shot:flow/zosia-wraca-do-domu",
+        "type": "shot",
+        "id": "zosia-wraca-do-domu",
+        "name": "zosia-wraca-do-domu",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/flow/shots/zosia-wraca-do-domu.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:zosia-jump",
+        "key": "shot:flow/zosia-jump",
+        "type": "shot",
+        "id": "zosia-jump",
+        "name": "zosia-jump",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/flow/shots/zosia-jump.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [],
+        "references": [],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Generate exactly one cinematic still image in landscape 16:9.\n\nMaintain visual continuity with the characters, location, lighting, and style established earlier in this conversation.\n\nShot: zosia-smile\nDescription:\nzosia swzczęśliwa, napraw wszystkie AI glitche na tym obrazku\n\nDo not include text, captions, borders, contact sheets, or multiple panels.",
     "endFrameDescription": "",
@@ -35,9 +88,13 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 2,
       "source": "generated",
       "referenceKeys": [],
+      "references": [],
+      "sourceReference": null,
+      "revisions": [],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/flow/shots/zosia-smile/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/flow/shots/zosia-smile/frame-start-thumb.webp",
       "width": 1672,

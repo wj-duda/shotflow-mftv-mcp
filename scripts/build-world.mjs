@@ -22,9 +22,12 @@ await requireDirectory(worldRoot, `Nie znaleziono świata: ${worldRoot}`);
 
 const generatedAt = new Date().toISOString();
 const warnings = [];
+const unresolvedReferences = new Set();
 const resourceCatalogs = new Map();
+const resourceEntriesByKey = new Map();
 const searchEntries = [];
 const projectCatalog = [];
+const storyEvents = [];
 const featured = [];
 const brand = {
   key: 'brand:aimftv',
@@ -96,6 +99,8 @@ const index = {
     mcp: [
       'Przed generacją materiału dotyczącego MF TV pobierz brand.detailUrl i zastosuj zawarte tam zasady marki.',
       'Pobierz searchUrl i wybierz tylko rekordy potrzebne do zadania.',
+      'Przed ustaleniem wyglądu w danym momencie pobierz eventsUrl. Projekty są tam ułożone od najnowszych, a shoty wewnątrz projektu zgodnie z przebiegiem historii.',
+      'Stan obecny ustalaj z najpóźniejszego pasującego wydarzenia; starszy obraz jest historyczny i nie może zastąpić późniejszej transformacji, stroju ani stanu miejsca.',
       'Następnie pobierz detailUrl wybranych rekordów; nie pobieraj całej biblioteki obrazów.',
       'W promptach odwołuj się do stabilnego pola key, a obraz przekazuj z imageUrl wskazanego w szczegółach.',
     ],
@@ -122,6 +127,7 @@ const index = {
   },
   searchUrl: absoluteUrl('data/search.json'),
   timelineUrl: absoluteUrl('data/timeline.json'),
+  eventsUrl: absoluteUrl('data/events.json'),
 };
 
 await writeJson(path.join(siteRoot, 'index.json'), index);
@@ -135,7 +141,8 @@ await writeJson(path.join(siteRoot, 'data/projects/index.json'), {
   schemaVersion: 1,
   generatedAt,
   worldId,
-  projects: projectCatalog.sort((a, b) => a.name.localeCompare(b.name, 'pl')),
+  order: 'newest-first',
+  projects: [...projectCatalog].sort(compareProjectsNewestFirst),
 });
 const timeline = projectCatalog
   .filter((project) => project.createdAt && project.thumbnailUrl)
@@ -146,6 +153,14 @@ await writeJson(path.join(siteRoot, 'data/timeline.json'), {
   worldId,
   order: 'oldest-first',
   projects: timeline,
+});
+await writeJson(path.join(siteRoot, 'data/events.json'), {
+  schemaVersion: 1,
+  generatedAt,
+  worldId,
+  order: 'projects-newest-first; canonical timeline clips oldest-to-newest inside each project; off-timeline project materials last',
+  currentStateRule: 'For current canon, use only canonicalEvent=true: select the newest matching project and then the matching event with the greatest lastSequence. Off-timeline materials cannot override saved timeline events. Older events remain valid only for their historical story moment.',
+  events: [...storyEvents].sort(compareEventsForBrowsing),
 });
 
 for (const [type, items] of resourceCatalogs) {
@@ -241,9 +256,11 @@ async function buildResources() {
         imageCount: images.length,
         thumbnailUrl: images[0]?.thumbnailUrl ?? null,
         detailUrl: absoluteUrl(detailPath),
+        updatedAt: manifest.updatedAt ?? null,
       };
       if (!resourceCatalogs.has(type)) resourceCatalogs.set(type, []);
       resourceCatalogs.get(type).push(listing);
+      resourceEntriesByKey.set(key, listing);
       searchEntries.push(listing);
     }
   }
@@ -262,15 +279,39 @@ async function buildProjects() {
     const projectId = safeSegment(workspace.id ?? projectDir.name);
     const projectName = workspace.displayName ?? workspace.id ?? projectDir.name;
     const shots = [];
-    const projectDates = [];
+    const timelineShotOrder = await readTimelineShotOrder(workspace.projectFile);
+    const timelinePositions = new Map();
+    const timelineLastPositions = new Map();
+    const timelineOccurrences = new Map();
+    timelineShotOrder.forEach((shotId, index) => {
+      if (!timelinePositions.has(shotId)) timelinePositions.set(shotId, index);
+      timelineLastPositions.set(shotId, index);
+      if (!timelineOccurrences.has(shotId)) timelineOccurrences.set(shotId, []);
+      timelineOccurrences.get(shotId).push(index + 1);
+    });
+    const timelineShotCount = new Set(timelineShotOrder).size;
+    const shotSources = (await Promise.all(
+      (await findNamedFiles(path.join(projectRoot, 'shots'), 'shot.json')).map(async (shotPath) => ({
+        shotPath,
+        shot: await readJson(shotPath),
+      })),
+    ))
+      .filter(({ shot }) => shot?.id)
+      .sort((left, right) => compareShotSequence(left.shot, right.shot, timelinePositions));
+    const projectDates = shotSources.flatMap(({ shot }) => (shot.frames ?? [])
+      .map((frame) => frame?.createdAt)
+      .filter(isUsefulDate)
+      .map((value) => new Date(value).toISOString()));
+    const createdAt = projectDates.sort()[0] ?? null;
+    const rawProjectId = workspace.id ?? projectDir.name;
+    const projectKey = `project:${rawProjectId}`;
+    const shotNames = new Map(shotSources.map(({ shot }) => [shot.id, shot.title ?? shot.id]));
 
-    for (const shotPath of await findNamedFiles(path.join(projectRoot, 'shots'), 'shot.json')) {
-      const shot = await readJson(shotPath);
-      if (!shot?.id) continue;
+    for (let shotIndex = 0; shotIndex < shotSources.length; shotIndex += 1) {
+      const { shotPath, shot } = shotSources[shotIndex];
       const shotId = safeSegment(shot.id);
       const images = [];
       for (const frame of shot.frames ?? []) {
-        if (isUsefulDate(frame?.createdAt)) projectDates.push(new Date(frame.createdAt).toISOString());
         if (!frame?.image || !frame?.id) continue;
         const source = safeSource(path.dirname(shotPath), frame.image);
         const targetBase = `assets/projects/${projectId}/shots/${shotId}/${safeSegment(frame.id)}`;
@@ -278,17 +319,59 @@ async function buildProjects() {
         if (!published) continue;
         images.push({
           id: frame.id,
+          role: frame.id,
           revision: frame.revision ?? null,
           source: frame.source ?? null,
           referenceKeys: frame.referenceKeys ?? [],
+          references: resolveReferenceKeys(frame.referenceKeys ?? [], rawProjectId, projectId, shot.id, shotNames),
+          sourceReference: frame.sourceReferenceKey
+            ? resolveReferenceKey(frame.sourceReferenceKey, rawProjectId, projectId, shot.id, shotNames)
+            : null,
+          revisions: (frame.revisions ?? []).map((revision) => ({
+            revision: revision.revision ?? null,
+            createdAt: revision.createdAt ?? null,
+            source: revision.source ?? null,
+            referenceKeys: revision.referenceKeys ?? [],
+            references: resolveReferenceKeys(revision.referenceKeys ?? [], rawProjectId, projectId, shot.id, shotNames),
+            sourceReference: revision.sourceReferenceKey
+              ? resolveReferenceKey(revision.sourceReferenceKey, rawProjectId, projectId, shot.id, shotNames)
+              : null,
+          })),
           ...published,
         });
       }
 
-      const key = `shot:${workspace.id ?? projectDir.name}/${shot.id}`;
+      const key = `shot:${rawProjectId}/${shot.id}`;
       const detailPath = `data/projects/${projectId}/shots/${shotId}.json`;
+      const onTimeline = timelinePositions.has(shot.id);
+      const firstTimelinePosition = onTimeline ? timelinePositions.get(shot.id) + 1 : null;
+      const lastTimelinePosition = onTimeline ? timelineLastPositions.get(shot.id) + 1 : null;
+      const declaredReferences = (shot.references ?? []).map((reference) => resolveDeclaredReference(
+        reference,
+        rawProjectId,
+        projectId,
+        shot.id,
+        shotNames,
+      ));
+      const chronology = {
+        projectKey,
+        projectCreatedAt: createdAt,
+        projectOrder: 'newest-first outside the project',
+        onTimeline,
+        canonicalEvent: onTimeline,
+        sequence: firstTimelinePosition,
+        lastSequence: lastTimelinePosition,
+        occurrences: timelineOccurrences.get(shot.id) ?? [],
+        sequenceTotal: timelineShotOrder.length,
+        uniqueShotCount: timelineShotCount,
+        sequenceOrder: onTimeline ? 'oldest-to-newest timeline clip order' : null,
+        sequenceSource: timelineShotOrder.length ? 'workspace timeline' : 'natural shot title order',
+        stateRule: onTimeline
+          ? 'This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon.'
+          : 'This project material is not present on the saved timeline, so it must not override canonical timeline events by date alone.',
+      };
       const detail = {
-        schemaVersion: 1,
+        schemaVersion: 2,
         generatedAt,
         worldId,
         kind: 'shot',
@@ -296,8 +379,20 @@ async function buildProjects() {
         id: shot.id,
         title: shot.title ?? shot.id,
         description: shot.description ?? '',
-        project: { id: workspace.id ?? projectDir.name, name: projectName },
+        project: { id: rawProjectId, key: projectKey, name: projectName, createdAt },
+        chronology,
         references: shot.references ?? [],
+        referenceUsage: {
+          declared: declaredReferences,
+          activeFrames: images.map((image) => ({
+            frameId: image.id,
+            revision: image.revision,
+            referenceKeys: image.referenceKeys,
+            references: image.references,
+            sourceReference: image.sourceReference,
+          })),
+          provenanceRule: 'activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context.',
+        },
         prompts: {
           image: shot.prompts?.image ?? '',
           endFrameDescription: shot.prompts?.endFrameDescription ?? '',
@@ -315,8 +410,13 @@ async function buildProjects() {
         type: 'shots',
         id: shot.id,
         name: detail.title,
-        projectId: workspace.id ?? projectDir.name,
+        projectId: rawProjectId,
         projectName,
+        projectCreatedAt: createdAt,
+        onTimeline,
+        sequence: firstTimelinePosition,
+        lastSequence: lastTimelinePosition,
+        sequenceTotal: timelineShotOrder.length,
         summary: summarize(detail.description),
         imageCount: images.length,
         imageUrl: images[0]?.imageUrl ?? null,
@@ -325,13 +425,31 @@ async function buildProjects() {
       };
       shots.push(listing);
       searchEntries.push(listing);
+      storyEvents.push({
+        key,
+        kind: 'story-event',
+        projectKey,
+        projectId: rawProjectId,
+        projectName,
+        projectCreatedAt: createdAt,
+        onTimeline,
+        canonicalEvent: onTimeline,
+        sequence: firstTimelinePosition,
+        lastSequence: lastTimelinePosition,
+        occurrences: timelineOccurrences.get(shot.id) ?? [],
+        sequenceTotal: timelineShotOrder.length,
+        title: detail.title,
+        description: detail.description,
+        declaredReferences,
+        activeFrameReferences: detail.referenceUsage.activeFrames,
+        images: images.map(({ revisions: _revisions, references: _references, sourceReference: _sourceReference, ...image }) => image),
+        detailUrl: absoluteUrl(detailPath),
+      });
     }
 
     const projectIndexPath = `data/projects/${projectId}/index.json`;
     const shotsWithImages = shots.filter((shot) => shot.imageUrl);
     const representative = shotsWithImages[Math.floor(shotsWithImages.length / 2)] ?? shotsWithImages.at(-1) ?? null;
-    const createdAt = projectDates.sort()[0] ?? null;
-    const projectKey = `project:${workspace.id ?? projectDir.name}`;
     const projectDescription = shots.length
       ? `${projectName}: ${shots.length} shotów w archiwum ShotFlow.`
       : `${projectName}: projekt bez opublikowanych shotów.`;
@@ -342,7 +460,7 @@ async function buildProjects() {
       kind: 'project',
       key: projectKey,
       type: 'projects',
-      id: workspace.id ?? projectDir.name,
+      id: rawProjectId,
       name: projectName,
       description: projectDescription,
       createdAt,
@@ -352,13 +470,20 @@ async function buildProjects() {
         imageUrl: representative.imageUrl,
         thumbnailUrl: representative.thumbnailUrl,
       }] : [],
-      shots: shots.sort((a, b) => a.name.localeCompare(b.name, 'pl')),
+      shotOrder: 'canonical timeline order first; off-timeline project materials last',
+      timeline: timelineShotOrder.map((shotId, index) => ({
+        position: index + 1,
+        shotKey: `shot:${rawProjectId}/${shotId}`,
+        shotId,
+        title: shotNames.get(shotId) ?? shotId,
+      })),
+      shots,
     });
     const projectListing = {
       key: projectKey,
       kind: 'project',
       type: 'projects',
-      id: workspace.id ?? projectDir.name,
+      id: rawProjectId,
       name: projectName,
       summary: projectDescription,
       createdAt,
@@ -642,8 +767,160 @@ function safeSegment(value) {
   return result;
 }
 
+function resolveDeclaredReference(reference, rawProjectId, projectId, currentShotId, shotNames) {
+  const sourceKey = `${reference?.type ?? 'unknown'}:${reference?.id ?? ''}`;
+  return resolveReferenceKey(sourceKey, rawProjectId, projectId, currentShotId, shotNames);
+}
+
+function resolveReferenceKeys(keys, rawProjectId, projectId, currentShotId, shotNames) {
+  return [...new Set(keys)].map((key) => resolveReferenceKey(key, rawProjectId, projectId, currentShotId, shotNames));
+}
+
+function resolveReferenceKey(sourceKey, rawProjectId, projectId, currentShotId, shotNames) {
+  const separator = String(sourceKey).indexOf(':');
+  const type = separator >= 0 ? sourceKey.slice(0, separator) : 'unknown';
+  const id = separator >= 0 ? sourceKey.slice(separator + 1) : sourceKey;
+  if (type === 'self') {
+    return {
+      sourceKey,
+      key: `shot:${rawProjectId}/${currentShotId}`,
+      type: 'shot',
+      id: currentShotId,
+      name: shotNames.get(currentShotId) ?? currentShotId,
+      relationship: 'prior-state-of-same-shot',
+      detailUrl: absoluteUrl(`data/projects/${projectId}/shots/${safeSegment(currentShotId)}.json`),
+      exists: shotNames.has(currentShotId),
+    };
+  }
+  if (type === 'shot') {
+    const resolvedKey = `shot:${rawProjectId}/${id}`;
+    if (!shotNames.has(id)) recordUnresolvedReference(sourceKey, resolvedKey);
+    return {
+      sourceKey,
+      key: resolvedKey,
+      type,
+      id,
+      name: shotNames.get(id) ?? id,
+      relationship: id === currentShotId ? 'prior-state-of-same-shot' : 'shot-continuity',
+      detailUrl: absoluteUrl(`data/projects/${projectId}/shots/${safeSegment(id)}.json`),
+      exists: shotNames.has(id),
+    };
+  }
+  if (type === 'take') {
+    const [shotId, takeId] = id.split('/');
+    if (!takeId || !shotNames.has(shotId)) recordUnresolvedReference(sourceKey, `take:${rawProjectId}/${id}`);
+    return {
+      sourceKey,
+      key: `take:${rawProjectId}/${id}`,
+      type,
+      id,
+      name: `${shotNames.get(shotId) ?? shotId} / ${takeId ?? 'take'}`,
+      relationship: 'visible-state-from-take',
+      shotKey: `shot:${rawProjectId}/${shotId}`,
+      shotDetailUrl: absoluteUrl(`data/projects/${projectId}/shots/${safeSegment(shotId)}.json`),
+      exists: Boolean(takeId && shotNames.has(shotId)),
+    };
+  }
+  const pluralType = ({ character: 'characters', place: 'places', prop: 'props', note: 'notes', look: 'looks' })[type];
+  if (pluralType) {
+    const key = `${type}:${id}`;
+    const entry = resourceEntriesByKey.get(key);
+    if (!entry) recordUnresolvedReference(sourceKey, key);
+    return {
+      sourceKey,
+      key,
+      type,
+      id,
+      name: entry?.name ?? id,
+      relationship: type === 'note' ? 'story-and-continuity-context' : 'world-entity-identity',
+      detailUrl: entry?.detailUrl ?? absoluteUrl(`data/resources/${pluralType}/${safeSegment(id)}.json`),
+      exists: Boolean(entry),
+    };
+  }
+  return { sourceKey, key: sourceKey, type, id, name: id, relationship: 'unknown', detailUrl: null, exists: false };
+}
+
+function recordUnresolvedReference(sourceKey, resolvedKey) {
+  const warning = `Nie można rozwiązać referencji ${sourceKey} jako ${resolvedKey}.`;
+  if (unresolvedReferences.has(warning)) return;
+  unresolvedReferences.add(warning);
+  warnings.push(warning);
+}
+
+function compareShotSequence(left, right, timelinePositions = new Map()) {
+  const leftPosition = timelinePositions.get(left.id) ?? Number.POSITIVE_INFINITY;
+  const rightPosition = timelinePositions.get(right.id) ?? Number.POSITIVE_INFINITY;
+  return leftPosition - rightPosition || String(left.title ?? left.id).localeCompare(
+    String(right.title ?? right.id),
+    'pl',
+    { numeric: true },
+  );
+}
+
+function compareProjectsNewestFirst(left, right) {
+  if (left.createdAt && right.createdAt) return right.createdAt.localeCompare(left.createdAt) || left.name.localeCompare(right.name, 'pl');
+  if (left.createdAt) return -1;
+  if (right.createdAt) return 1;
+  return left.name.localeCompare(right.name, 'pl');
+}
+
+function compareEventsForBrowsing(left, right) {
+  const projectComparison = compareProjectsNewestFirst(
+    { createdAt: left.projectCreatedAt, name: left.projectName },
+    { createdAt: right.projectCreatedAt, name: right.projectName },
+  );
+  if (projectComparison) return projectComparison;
+  if (left.onTimeline !== right.onTimeline) return left.onTimeline ? -1 : 1;
+  if (left.sequence !== null && right.sequence !== null && left.sequence !== right.sequence) return left.sequence - right.sequence;
+  return left.title.localeCompare(right.title, 'pl', { numeric: true });
+}
+
 function compareEntries(a, b) {
-  return a.name.localeCompare(b.name, 'pl') || a.key.localeCompare(b.key);
+  if (a.fixed !== b.fixed) return a.fixed ? -1 : 1;
+  if (a.projectCreatedAt || b.projectCreatedAt) {
+    const projectComparison = compareProjectsNewestFirst(
+      { createdAt: a.projectCreatedAt, name: a.projectName ?? '' },
+      { createdAt: b.projectCreatedAt, name: b.projectName ?? '' },
+    );
+    if (projectComparison) return projectComparison;
+    if (a.sequence && b.sequence) return a.sequence - b.sequence;
+  }
+  if (a.updatedAt && b.updatedAt) return String(b.updatedAt).localeCompare(String(a.updatedAt));
+  if (a.updatedAt) return -1;
+  if (b.updatedAt) return 1;
+  return a.name.localeCompare(b.name, 'pl', { numeric: true }) || a.key.localeCompare(b.key);
+}
+
+async function readTimelineShotOrder(projectFile) {
+  if (!projectFile) return [];
+  let candidate = projectFile;
+  if (process.platform !== 'win32' && /^[A-Za-z]:\\/.test(candidate)) {
+    const drive = candidate[0].toLowerCase();
+    candidate = `/mnt/${drive}/${candidate.slice(3).replaceAll('\\', '/')}`;
+  }
+  try {
+    const xml = await readFile(candidate, 'utf8');
+    const producerToShot = new Map();
+    for (const match of xml.matchAll(/<(chain|producer)\b[^>]*\bid=["']([^"']+)["'][^>]*>([\s\S]*?)<\/\1>/g)) {
+      const shotMatch = match[3].match(/<property\s+name=["']shotflow\.id["']>([^<]+)<\/property>/);
+      if (shotMatch) producerToShot.set(decodeXmlText(match[2]), decodeXmlText(shotMatch[1].trim()));
+    }
+    const playlists = [];
+    for (const match of xml.matchAll(/<playlist\b[^>]*\bid=["']([^"']+)["'][^>]*>([\s\S]*?)<\/playlist>/g)) {
+      const ids = [...match[2].matchAll(/<entry\b[^>]*\bproducer=["']([^"']+)["'][^>]*\/?\s*>/g)]
+        .map((entry) => producerToShot.get(decodeXmlText(entry[1])))
+        .filter(Boolean);
+      if (ids.length) playlists.push({ id: decodeXmlText(match[1]), ids });
+    }
+    const primary = playlists.sort((left, right) => right.ids.length - left.ids.length)[0];
+    return primary?.ids ?? [];
+  } catch {
+    return [];
+  }
+}
+
+function decodeXmlText(value) {
+  return value.replaceAll('&amp;', '&').replaceAll('&lt;', '<').replaceAll('&gt;', '>').replaceAll('&quot;', '"').replaceAll('&apos;', "'");
 }
 
 function parseArgs(values) {

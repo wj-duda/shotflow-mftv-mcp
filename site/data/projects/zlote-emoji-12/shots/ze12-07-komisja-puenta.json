@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-12/ze12-07-komisja-puenta",
@@ -9,7 +9,28 @@
   "description": "Kontrplan przewodniczącej, w tle wyłącznie niższa inspektorka, Czesław nieostry po prawej. Biurowe identyfikatory, lenonki i fiolet. Wyjaśnienie zgłoszenia kurii; „Niestety. To już trzeci w tym miesiącu” zostaje ostatnią puentą. Identyfikatory z białym sygnetem KKN na fioletowym tle, zawsze na anatomicznie lewej piersi; zasłonięte plakietki pozostają zasłonięte.",
   "project": {
     "id": "zlote-emoji-12",
-    "name": "Złote Emoji #12"
+    "key": "project:zlote-emoji-12",
+    "name": "Złote Emoji #12",
+    "createdAt": "2026-09-11T23:11:37.531Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-12",
+    "projectCreatedAt": "2026-09-11T23:11:37.531Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 17,
+    "lastSequence": 19,
+    "occurrences": [
+      17,
+      18,
+      19
+    ],
+    "sequenceTotal": 20,
+    "uniqueShotCount": 17,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -41,6 +62,114 @@
       "id": "kkn-sygnet"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:ze12-05-ogledziny",
+        "key": "shot:zlote-emoji-12/ze12-05-ogledziny",
+        "type": "shot",
+        "id": "ze12-05-ogledziny",
+        "name": "05 — Nieme oględziny",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-05-ogledziny.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze12-04-przyjazd-komisji",
+        "key": "shot:zlote-emoji-12/ze12-04-przyjazd-komisji",
+        "type": "shot",
+        "id": "ze12-04-przyjazd-komisji",
+        "name": "04 — Komisja Kultury Najwyższej",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-04-przyjazd-komisji.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze12-07-komisja-puenta",
+        "key": "shot:zlote-emoji-12/ze12-07-komisja-puenta",
+        "type": "shot",
+        "id": "ze12-07-komisja-puenta",
+        "name": "07 — Trzeci w tym miesiącu",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-07-komisja-puenta.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "note:kkn-duet-biurowy-koncepcja",
+        "key": "note:kkn-duet-biurowy-koncepcja",
+        "type": "note",
+        "id": "kkn-duet-biurowy-koncepcja",
+        "name": "KKN — dwie urzędniczki, propozycja stroju",
+        "relationship": "story-and-continuity-context",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/kkn-duet-biurowy-koncepcja.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:kkn-przewodniczaca",
+        "key": "character:kkn-przewodniczaca",
+        "type": "character",
+        "id": "kkn-przewodniczaca",
+        "name": "KKN — Przewodnicząca",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/kkn-przewodniczaca.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:kkn-inspektorka",
+        "key": "character:kkn-inspektorka",
+        "type": "character",
+        "id": "kkn-inspektorka",
+        "name": "KKN — Inspektorka",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/kkn-inspektorka.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:kkn-sygnet",
+        "key": "prop:kkn-sygnet",
+        "type": "prop",
+        "id": "kkn-sygnet",
+        "name": "KKN — sygnet Komisji Kultury Najwyższej",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/kkn-sygnet.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 4,
+        "referenceKeys": [
+          "shot:ze12-07-komisja-puenta",
+          "prop:kkn-sygnet"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze12-07-komisja-puenta",
+            "key": "shot:zlote-emoji-12/ze12-07-komisja-puenta",
+            "type": "shot",
+            "id": "ze12-07-komisja-puenta",
+            "name": "07 — Trzeci w tym miesiącu",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-07-komisja-puenta.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:kkn-sygnet",
+            "key": "prop:kkn-sygnet",
+            "type": "prop",
+            "id": "kkn-sygnet",
+            "name": "KKN — sygnet Komisji Kultury Najwyższej",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/kkn-sygnet.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Use case: precise-object-edit. Edit ONLY the tiny commissioner identification badges in reference1; preserve every face, anatomy, expression, hair, glasses, clothing folds, pose, hands, camera, depth of field, lighting and background exactly. Reference2 is the exact monochrome KKN emblem (three architectural pillars under arch). Reproduce its silhouette in WHITE ink on a small VIOLET vertical rectangular badge with thin silver rim and metal clip; no letters. Badge always on wearer's anatomical LEFT chest. Keep physically realistic badge scale around 3x4cm, not a giant emblem or graphic overlay. No other changes, no new people, no text, no watermark. 16:9 photorealism. Foreground silver-bob chairwoman existing badge screen x=900 y=840 stays exactly there on her anatomical LEFT lapel; replace KKN lettering with white emblem. IMPORTANT FIX: background dark-haired inspector currently has a WRONG badge near image LEFT EDGE x=50 y=750 on her anatomical RIGHT chest. REMOVE that whole wrong badge and clip seamlessly restoring black wool. Her correct anatomical LEFT chest is hidden behind foreground chairwoman, so do NOT draw a visible replacement badge for inspector. Do not shift the foreground woman to reveal it.",
     "endFrameDescription": "",
@@ -55,11 +184,165 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 4,
       "source": "generated",
       "referenceKeys": [
         "shot:ze12-07-komisja-puenta",
         "prop:kkn-sygnet"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze12-07-komisja-puenta",
+          "key": "shot:zlote-emoji-12/ze12-07-komisja-puenta",
+          "type": "shot",
+          "id": "ze12-07-komisja-puenta",
+          "name": "07 — Trzeci w tym miesiącu",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-07-komisja-puenta.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:kkn-sygnet",
+          "key": "prop:kkn-sygnet",
+          "type": "prop",
+          "id": "kkn-sygnet",
+          "name": "KKN — sygnet Komisji Kultury Najwyższej",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/kkn-sygnet.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-11T23:11:37.53179+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze12-05-ogledziny",
+            "shot:ze12-04-przyjazd-komisji"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze12-05-ogledziny",
+              "key": "shot:zlote-emoji-12/ze12-05-ogledziny",
+              "type": "shot",
+              "id": "ze12-05-ogledziny",
+              "name": "05 — Nieme oględziny",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-05-ogledziny.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ze12-04-przyjazd-komisji",
+              "key": "shot:zlote-emoji-12/ze12-04-przyjazd-komisji",
+              "type": "shot",
+              "id": "ze12-04-przyjazd-komisji",
+              "name": "04 — Komisja Kultury Najwyższej",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-04-przyjazd-komisji.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-09-11T23:55:17.461278+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze12-07-komisja-puenta",
+            "shot:ze12-05-ogledziny"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze12-07-komisja-puenta",
+              "key": "shot:zlote-emoji-12/ze12-07-komisja-puenta",
+              "type": "shot",
+              "id": "ze12-07-komisja-puenta",
+              "name": "07 — Trzeci w tym miesiącu",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-07-komisja-puenta.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ze12-05-ogledziny",
+              "key": "shot:zlote-emoji-12/ze12-05-ogledziny",
+              "type": "shot",
+              "id": "ze12-05-ogledziny",
+              "name": "05 — Nieme oględziny",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-05-ogledziny.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 3,
+          "createdAt": "2026-09-12T00:39:07.411729+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze12-07-komisja-puenta",
+            "note:kkn-duet-biurowy-koncepcja"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze12-07-komisja-puenta",
+              "key": "shot:zlote-emoji-12/ze12-07-komisja-puenta",
+              "type": "shot",
+              "id": "ze12-07-komisja-puenta",
+              "name": "07 — Trzeci w tym miesiącu",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-07-komisja-puenta.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "note:kkn-duet-biurowy-koncepcja",
+              "key": "note:kkn-duet-biurowy-koncepcja",
+              "type": "note",
+              "id": "kkn-duet-biurowy-koncepcja",
+              "name": "KKN — dwie urzędniczki, propozycja stroju",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/kkn-duet-biurowy-koncepcja.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 4,
+          "createdAt": "2026-09-12T01:22:34.098466+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze12-07-komisja-puenta",
+            "prop:kkn-sygnet"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze12-07-komisja-puenta",
+              "key": "shot:zlote-emoji-12/ze12-07-komisja-puenta",
+              "type": "shot",
+              "id": "ze12-07-komisja-puenta",
+              "name": "07 — Trzeci w tym miesiącu",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-07-komisja-puenta.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:kkn-sygnet",
+              "key": "prop:kkn-sygnet",
+              "type": "prop",
+              "id": "kkn-sygnet",
+              "name": "KKN — sygnet Komisji Kultury Najwyższej",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/kkn-sygnet.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-07-komisja-puenta/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-07-komisja-puenta/frame-start-thumb.webp",

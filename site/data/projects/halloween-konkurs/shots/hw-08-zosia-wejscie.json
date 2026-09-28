@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:halloween-konkurs/hw-08-zosia-wejscie",
@@ -9,7 +9,26 @@
   "description": "Gotowy Start Frame 1080×1920. Bez take’a. Planowany montaż: 8–10 s; 48 klatek / 24 fps. Planowany take: 3 s, wykorzystanie od początku. Niski półpełny plan od strony salonu na drzwi korytarza. Zosia już pojawia się w progu z jednym karabinem typu M16; jeden krok do prawego przejścia. Jej zwyczajny metalowy strój, chłodna twarz i brak zaskoczenia. Bez kwestii. Pochodzenie broni pozostaje świadomie otwartym elementem koncepcji. Kamera: Niski krótki najazd; na końcu rozpoznawalna twarz i broń w jednym pionowym kadrze. Dialog do osobnego nagrania: brak. Start Frame wygenerowany wbudowanym generatorem i zweryfikowany. Animacja bez natywnego audio; wypowiedzi, lipsync i SFX opracować osobno. Wstawiono na V1 timeline: sekwencja 25 sekund, 24 fps. Ustalona referencja M16 Zosi; wejście przez drzwi korytarza na przeciwnym końcu prawego przejścia niż taras.",
   "project": {
     "id": "halloween-konkurs",
-    "name": "Halloween Konkurs"
+    "key": "project:halloween-konkurs",
+    "name": "Halloween Konkurs",
+    "createdAt": "2026-09-20T15:29:11.720Z"
+  },
+  "chronology": {
+    "projectKey": "project:halloween-konkurs",
+    "projectCreatedAt": "2026-09-20T15:29:11.720Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 10,
+    "lastSequence": 10,
+    "occurrences": [
+      10
+    ],
+    "sequenceTotal": 25,
+    "uniqueShotCount": 21,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -29,6 +48,106 @@
       "id": "hw-04-wampiry-mocniej"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "place:pokoj-manki-i-marcela",
+        "key": "place:pokoj-manki-i-marcela",
+        "type": "place",
+        "id": "pokoj-manki-i-marcela",
+        "name": "Salon domu bliźniaków — plan z góry",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/pokoj-manki-i-marcela.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:zosia",
+        "key": "character:zosia",
+        "type": "character",
+        "id": "zosia",
+        "name": "Zosia",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/zosia.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:m16-zosi",
+        "key": "prop:m16-zosi",
+        "type": "prop",
+        "id": "m16-zosi",
+        "name": "M16 Zosi — Halloween",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/m16-zosi.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:hw-04-wampiry-mocniej",
+        "key": "shot:halloween-konkurs/hw-04-wampiry-mocniej",
+        "type": "shot",
+        "id": "hw-04-wampiry-mocniej",
+        "name": "04 — Wampiry!",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-04-wampiry-mocniej.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "place:pokoj-manki-i-marcela",
+          "character:zosia",
+          "prop:m16-zosi",
+          "shot:hw-04-wampiry-mocniej"
+        ],
+        "references": [
+          {
+            "sourceKey": "place:pokoj-manki-i-marcela",
+            "key": "place:pokoj-manki-i-marcela",
+            "type": "place",
+            "id": "pokoj-manki-i-marcela",
+            "name": "Salon domu bliźniaków — plan z góry",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/pokoj-manki-i-marcela.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:zosia",
+            "key": "character:zosia",
+            "type": "character",
+            "id": "zosia",
+            "name": "Zosia",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/zosia.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:m16-zosi",
+            "key": "prop:m16-zosi",
+            "type": "prop",
+            "id": "m16-zosi",
+            "name": "M16 Zosi — Halloween",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/m16-zosi.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:hw-04-wampiry-mocniej",
+            "key": "shot:halloween-konkurs/hw-04-wampiry-mocniej",
+            "type": "shot",
+            "id": "hw-04-wampiry-mocniej",
+            "name": "04 — Wampiry!",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-04-wampiry-mocniej.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Single photorealistic vertical 9:16 film frame. Image 1 exact Zosia adult woman facial identity, image 2 same short slim 161cm woman full everyday metal outfit and proportions (ignore chart/text), image 3 ONE exact black M16 film prop rifle (fixed stock, carry handle, straight short magazine, no optics), image 4 overhead floorplan for room spatial layout ONLY, image 5 exact living room photographic materials/lighting. New low-angle full-body shot from sofa side looking toward OPEN ordinary wooden hallway door at opposite end from terrace. Zosia stands at threshold already starting one step into living room, facing three-quarter screen RIGHT toward offscreen terrace. Her exact black-and-blue long hair, dark makeup, oversized faded black metal graphic tee, black jeans, worn lace-up black boots, necklaces and wristbands. Holds the single rifle in two hands at low-ready across torso, muzzle diagonally toward screen RIGHT and slightly down, away from camera, no firing. Face calm matter-of-fact, no smile or superhero stance. Behind her modest Polish hallway with coat hooks, shoes on shelf, pale walls; warm hall lamp, parquet living room floor, cool edge light from terrace offscreen right. Include full boots and floor for step. No zombies or twins in crop, no tactical vest, no American decor, no text labels/captions/watermark. Translate plan into realistic human-height view, not dollhouse.",
     "endFrameDescription": "",
@@ -43,6 +162,7 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 1,
       "source": "generated",
       "referenceKeys": [
@@ -50,6 +170,105 @@
         "character:zosia",
         "prop:m16-zosi",
         "shot:hw-04-wampiry-mocniej"
+      ],
+      "references": [
+        {
+          "sourceKey": "place:pokoj-manki-i-marcela",
+          "key": "place:pokoj-manki-i-marcela",
+          "type": "place",
+          "id": "pokoj-manki-i-marcela",
+          "name": "Salon domu bliźniaków — plan z góry",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/pokoj-manki-i-marcela.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:zosia",
+          "key": "character:zosia",
+          "type": "character",
+          "id": "zosia",
+          "name": "Zosia",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/zosia.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:m16-zosi",
+          "key": "prop:m16-zosi",
+          "type": "prop",
+          "id": "m16-zosi",
+          "name": "M16 Zosi — Halloween",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/m16-zosi.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:hw-04-wampiry-mocniej",
+          "key": "shot:halloween-konkurs/hw-04-wampiry-mocniej",
+          "type": "shot",
+          "id": "hw-04-wampiry-mocniej",
+          "name": "04 — Wampiry!",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-04-wampiry-mocniej.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-20T15:40:56.401235+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "place:pokoj-manki-i-marcela",
+            "character:zosia",
+            "prop:m16-zosi",
+            "shot:hw-04-wampiry-mocniej"
+          ],
+          "references": [
+            {
+              "sourceKey": "place:pokoj-manki-i-marcela",
+              "key": "place:pokoj-manki-i-marcela",
+              "type": "place",
+              "id": "pokoj-manki-i-marcela",
+              "name": "Salon domu bliźniaków — plan z góry",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/pokoj-manki-i-marcela.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:zosia",
+              "key": "character:zosia",
+              "type": "character",
+              "id": "zosia",
+              "name": "Zosia",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/zosia.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:m16-zosi",
+              "key": "prop:m16-zosi",
+              "type": "prop",
+              "id": "m16-zosi",
+              "name": "M16 Zosi — Halloween",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/m16-zosi.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:hw-04-wampiry-mocniej",
+              "key": "shot:halloween-konkurs/hw-04-wampiry-mocniej",
+              "type": "shot",
+              "id": "hw-04-wampiry-mocniej",
+              "name": "04 — Wampiry!",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-04-wampiry-mocniej.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-08-zosia-wejscie/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-08-zosia-wejscie/frame-start-thumb.webp",

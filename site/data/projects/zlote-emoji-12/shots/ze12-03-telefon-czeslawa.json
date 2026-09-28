@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-12/ze12-03-telefon-czeslawa",
@@ -9,7 +9,27 @@
   "description": "Poranek w tymczasowym biurze remontu. Głos członkini poza kadrem zapowiada wizytację Komisji Kultury Najwyższej bez podania powodu. Czesław obawia się odwołania. Dialog w PLAN.md. Lokal zastępczy poza Domem Kultury; Czesław nie wie o upadku anioła.",
   "project": {
     "id": "zlote-emoji-12",
-    "name": "Złote Emoji #12"
+    "key": "project:zlote-emoji-12",
+    "name": "Złote Emoji #12",
+    "createdAt": "2026-09-11T23:11:37.531Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-12",
+    "projectCreatedAt": "2026-09-11T23:11:37.531Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 9,
+    "lastSequence": 10,
+    "occurrences": [
+      9,
+      10
+    ],
+    "sequenceTotal": 20,
+    "uniqueShotCount": 17,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -21,6 +41,69 @@
       "id": "czeslaw-lokal-zastepczy-ze12"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:czeslaw",
+        "key": "character:czeslaw",
+        "type": "character",
+        "id": "czeslaw",
+        "name": "Czesław",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "note:czeslaw-lokal-zastepczy-ze12",
+        "key": "note:czeslaw-lokal-zastepczy-ze12",
+        "type": "note",
+        "id": "czeslaw-lokal-zastepczy-ze12",
+        "name": "ZE12 — Czesław w lokalu zastępczym",
+        "relationship": "story-and-continuity-context",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/czeslaw-lokal-zastepczy-ze12.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "character:czeslaw"
+        ],
+        "references": [
+          {
+            "sourceKey": "character:czeslaw",
+            "key": "character:czeslaw",
+            "type": "character",
+            "id": "czeslaw",
+            "name": "Czesław",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      },
+      {
+        "frameId": "frame-end",
+        "revision": 1,
+        "referenceKeys": [],
+        "references": [],
+        "sourceReference": {
+          "sourceKey": "shot:ze12-03b-czeslaw-po-telefonie",
+          "key": "shot:zlote-emoji-12/ze12-03b-czeslaw-po-telefonie",
+          "type": "shot",
+          "id": "ze12-03b-czeslaw-po-telefonie",
+          "name": "Czesław — po telefonie",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-03b-czeslaw-po-telefonie.json",
+          "exists": true
+        }
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Use case: identity-preserve. ONE photorealistic cinematic 16:9 START FRAME, 1920x1080 preferred. Images 1 and 2 lock Czeslaw's exact face, rectangular glasses, curly dark hair, unshaven tired face, 171cm average build, rumpled dark suit, beige shirt and loose dark tie; do not copy reference-sheet text. A medium close-up from a little below seated eye level, 50mm lens, man seated in a cramped TEMPORARY construction site office container. Strong early morning daylight through venetian blinds on screen left, cold white metal panel walls, old wooden desk, a few plain folders and a beige corded telephone. His RIGHT hand already holds handset to RIGHT ear, LEFT hand rests on folder. He is listening, eyes focused toward lower left, lips closed, brow beginning to tighten: a small human being about to hear a terrifying institutional name. Composition puts him screen right with quiet negative space to left, softly blurred blinds. No other people, no commission visible, no wings, no readable invented paperwork text, no decor of a finished renovated building. Restrained 35mm grain and natural skin, real Polish provincial workplace, no cartoon grimace.",
     "endFrameDescription": "",
@@ -35,10 +118,47 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 1,
       "source": "generated",
       "referenceKeys": [
         "character:czeslaw"
+      ],
+      "references": [
+        {
+          "sourceKey": "character:czeslaw",
+          "key": "character:czeslaw",
+          "type": "character",
+          "id": "czeslaw",
+          "name": "Czesław",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-11T23:11:37.53179+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:czeslaw"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:czeslaw",
+              "key": "character:czeslaw",
+              "type": "character",
+              "id": "czeslaw",
+              "name": "Czesław",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-03-telefon-czeslawa/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-03-telefon-czeslawa/frame-start-thumb.webp",
@@ -48,9 +168,40 @@
     },
     {
       "id": "frame-end",
+      "role": "frame-end",
       "revision": 1,
       "source": "reference",
       "referenceKeys": [],
+      "references": [],
+      "sourceReference": {
+        "sourceKey": "shot:ze12-03b-czeslaw-po-telefonie",
+        "key": "shot:zlote-emoji-12/ze12-03b-czeslaw-po-telefonie",
+        "type": "shot",
+        "id": "ze12-03b-czeslaw-po-telefonie",
+        "name": "Czesław — po telefonie",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-03b-czeslaw-po-telefonie.json",
+        "exists": true
+      },
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-12T13:11:24.7169+00:00",
+          "source": "reference",
+          "referenceKeys": [],
+          "references": [],
+          "sourceReference": {
+            "sourceKey": "shot:ze12-03b-czeslaw-po-telefonie",
+            "key": "shot:zlote-emoji-12/ze12-03b-czeslaw-po-telefonie",
+            "type": "shot",
+            "id": "ze12-03b-czeslaw-po-telefonie",
+            "name": "Czesław — po telefonie",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-12/shots/ze12-03b-czeslaw-po-telefonie.json",
+            "exists": true
+          }
+        }
+      ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-03-telefon-czeslawa/frame-end.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-03-telefon-czeslawa/frame-end-thumb.webp",
       "width": 1920,

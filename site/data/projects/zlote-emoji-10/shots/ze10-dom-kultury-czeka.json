@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-10/ze10-dom-kultury-czeka",
@@ -9,7 +9,26 @@
   "description": "Szeroki plan od strony stolika komisji ku scenie Domu Kultury. Zespół Łazowanki wykonuje ludowy taniec, zapełniając czas oczekiwania na laureatkę. Halinka i Czesław oglądają występ w pierwszym planie, ale ich uwaga jest podzielona: Czesław dyskretnie sprawdza zegarek, a Halinka zerka między sceną i wejściem. Puste krzesła i przygotowane Złote Emoji podkreślają, że ceremonia trwa, choć zwyciężczynie nadal nie przychodzą. Ujęcie prowadzi bezpośrednio do zbliżenia na finał tańca Łazowanek.",
   "project": {
     "id": "zlote-emoji-10",
-    "name": "Złote Emoji #10"
+    "key": "project:zlote-emoji-10",
+    "name": "Złote Emoji #10",
+    "createdAt": "2026-08-22T23:55:35.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-10",
+    "projectCreatedAt": "2026-08-22T23:55:35.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 8,
+    "lastSequence": 8,
+    "occurrences": [
+      8
+    ],
+    "sequenceTotal": 10,
+    "uniqueShotCount": 10,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -25,6 +44,85 @@
       "id": "czeslaw"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "place:komisja-zlote-emoji-tygodnia",
+        "key": "place:komisja-zlote-emoji-tygodnia",
+        "type": "place",
+        "id": "komisja-zlote-emoji-tygodnia",
+        "name": "Komisja Złote Emoji Tygodnia",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/komisja-zlote-emoji-tygodnia.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:halinka",
+        "key": "character:halinka",
+        "type": "character",
+        "id": "halinka",
+        "name": "Halinka",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:czeslaw",
+        "key": "character:czeslaw",
+        "type": "character",
+        "id": "czeslaw",
+        "name": "Czesław",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "place:komisja-zlote-emoji-tygodnia",
+          "character:halinka",
+          "character:czeslaw"
+        ],
+        "references": [
+          {
+            "sourceKey": "place:komisja-zlote-emoji-tygodnia",
+            "key": "place:komisja-zlote-emoji-tygodnia",
+            "type": "place",
+            "id": "komisja-zlote-emoji-tygodnia",
+            "name": "Komisja Złote Emoji Tygodnia",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/komisja-zlote-emoji-tygodnia.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:halinka",
+            "key": "character:halinka",
+            "type": "character",
+            "id": "halinka",
+            "name": "Halinka",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:czeslaw",
+            "key": "character:czeslaw",
+            "type": "character",
+            "id": "czeslaw",
+            "name": "Czesław",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Cinematic photorealistic 16:9 reverse three-quarter wide shot from beside the green committee table toward the established Dom Kultury stage. Preserve the exact hall, warm lighting, Halinka and Czeslaw from their mandatory references. Halinka and Czeslaw occupy the lower foreground in profile, facing the stage. Czeslaw discreetly checks a small wristwatch while half-watching the performance; Halinka watches the stage with an anxious glance toward the entrance. The trophy, papers and tea remain on the table. On stage, five distinct Polish women aged 60-75 form the folk ensemble Lazowanki and perform a synchronized step in coherent regional-inspired costumes: white blouses, dark embroidered waistcoats, patterned calf-length skirts, red beads and black shoes. Empty chairs make the absent winners readable. Grounded provincial cultural-center realism and dry comedy. Preserve identities, anatomy, room and trophy. No Maia, Pipa, crowd, men in the ensemble, clones, malformed limbs, subtitles or watermark.",
     "endFrameDescription": "",
@@ -39,12 +137,134 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 2,
       "source": "generated",
       "referenceKeys": [
         "place:komisja-zlote-emoji-tygodnia",
         "character:halinka",
         "character:czeslaw"
+      ],
+      "references": [
+        {
+          "sourceKey": "place:komisja-zlote-emoji-tygodnia",
+          "key": "place:komisja-zlote-emoji-tygodnia",
+          "type": "place",
+          "id": "komisja-zlote-emoji-tygodnia",
+          "name": "Komisja Złote Emoji Tygodnia",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/komisja-zlote-emoji-tygodnia.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:halinka",
+          "key": "character:halinka",
+          "type": "character",
+          "id": "halinka",
+          "name": "Halinka",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:czeslaw",
+          "key": "character:czeslaw",
+          "type": "character",
+          "id": "czeslaw",
+          "name": "Czesław",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-23T01:55:35+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "place:komisja-zlote-emoji-tygodnia",
+            "character:halinka",
+            "character:czeslaw"
+          ],
+          "references": [
+            {
+              "sourceKey": "place:komisja-zlote-emoji-tygodnia",
+              "key": "place:komisja-zlote-emoji-tygodnia",
+              "type": "place",
+              "id": "komisja-zlote-emoji-tygodnia",
+              "name": "Komisja Złote Emoji Tygodnia",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/komisja-zlote-emoji-tygodnia.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:halinka",
+              "key": "character:halinka",
+              "type": "character",
+              "id": "halinka",
+              "name": "Halinka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:czeslaw",
+              "key": "character:czeslaw",
+              "type": "character",
+              "id": "czeslaw",
+              "name": "Czesław",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-08-23T18:03:20+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "place:komisja-zlote-emoji-tygodnia",
+            "character:halinka",
+            "character:czeslaw"
+          ],
+          "references": [
+            {
+              "sourceKey": "place:komisja-zlote-emoji-tygodnia",
+              "key": "place:komisja-zlote-emoji-tygodnia",
+              "type": "place",
+              "id": "komisja-zlote-emoji-tygodnia",
+              "name": "Komisja Złote Emoji Tygodnia",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/komisja-zlote-emoji-tygodnia.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:halinka",
+              "key": "character:halinka",
+              "type": "character",
+              "id": "halinka",
+              "name": "Halinka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:czeslaw",
+              "key": "character:czeslaw",
+              "type": "character",
+              "id": "czeslaw",
+              "name": "Czesław",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-10/shots/ze10-dom-kultury-czeka/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-10/shots/ze10-dom-kultury-czeka/frame-start-thumb.webp",

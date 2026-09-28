@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-11/lacznik-flakon-perfumy",
@@ -9,7 +9,24 @@
   "description": "Makro dłoni Mai chwytającej przejrzysty flakon na toaletce; prowadzi od kolczyka do aplikacji perfum.",
   "project": {
     "id": "zlote-emoji-11",
-    "name": "Złote Emoji #11"
+    "key": "project:zlote-emoji-11",
+    "name": "Złote Emoji #11",
+    "createdAt": "2026-09-05T16:08:47.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-11",
+    "projectCreatedAt": "2026-09-05T16:08:47.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": false,
+    "canonicalEvent": false,
+    "sequence": null,
+    "lastSequence": null,
+    "occurrences": [],
+    "sequenceTotal": 7,
+    "uniqueShotCount": 7,
+    "sequenceOrder": null,
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This project material is not present on the saved timeline, so it must not override canonical timeline events by date alone."
   },
   "references": [
     {
@@ -29,6 +46,106 @@
       "id": "movie-shot"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:maia-zaklada-kolczyk",
+        "key": "shot:zlote-emoji-11/maia-zaklada-kolczyk",
+        "type": "shot",
+        "id": "maia-zaklada-kolczyk",
+        "name": "Maia zakłada kolczyk",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-zaklada-kolczyk.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:maia-perfumy",
+        "key": "shot:zlote-emoji-11/maia-perfumy",
+        "type": "shot",
+        "id": "maia-perfumy",
+        "name": "Maia używa perfum",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-perfumy.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:mieszkanie-po-afterze",
+        "key": "place:mieszkanie-po-afterze",
+        "type": "place",
+        "id": "mieszkanie-po-afterze",
+        "name": "Mieszkanie po afterze",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/mieszkanie-po-afterze.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "note:movie-shot",
+        "key": "note:movie-shot",
+        "type": "note",
+        "id": "movie-shot",
+        "name": "Movie",
+        "relationship": "story-and-continuity-context",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/movie-shot.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:maia-zaklada-kolczyk",
+          "shot:maia-perfumy",
+          "place:mieszkanie-po-afterze",
+          "note:movie-shot"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:maia-zaklada-kolczyk",
+            "key": "shot:zlote-emoji-11/maia-zaklada-kolczyk",
+            "type": "shot",
+            "id": "maia-zaklada-kolczyk",
+            "name": "Maia zakłada kolczyk",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-zaklada-kolczyk.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:maia-perfumy",
+            "key": "shot:zlote-emoji-11/maia-perfumy",
+            "type": "shot",
+            "id": "maia-perfumy",
+            "name": "Maia używa perfum",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-perfumy.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "place:mieszkanie-po-afterze",
+            "key": "place:mieszkanie-po-afterze",
+            "type": "place",
+            "id": "mieszkanie-po-afterze",
+            "name": "Mieszkanie po afterze",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/mieszkanie-po-afterze.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "note:movie-shot",
+            "key": "note:movie-shot",
+            "type": "note",
+            "id": "movie-shot",
+            "name": "Movie",
+            "relationship": "story-and-continuity-context",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/movie-shot.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Fotorealistyczne filmowe makro 16:9 z wysokiego kąta nad drewnianą toaletką. Jedna dłoń Mai w czarnym skórzanym mankiecie obejmuje szyjkę małego przejrzystego flakonu i zaczyna go unosić; zamknięte pudełko biżuterii jest nieostre z tyłu. Twarz poza kadrem, ciepłe światło, realistyczne szkło i skóra. Zachować flakon i manicure z ujęcia maia-perfumy; bez rozpylania, etykiety, logotypu, duplikatu flakonu, dodatkowych palców i napisów.",
     "endFrameDescription": "",
@@ -43,6 +160,7 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 1,
       "source": "generated",
       "referenceKeys": [
@@ -50,6 +168,105 @@
         "shot:maia-perfumy",
         "place:mieszkanie-po-afterze",
         "note:movie-shot"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:maia-zaklada-kolczyk",
+          "key": "shot:zlote-emoji-11/maia-zaklada-kolczyk",
+          "type": "shot",
+          "id": "maia-zaklada-kolczyk",
+          "name": "Maia zakłada kolczyk",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-zaklada-kolczyk.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:maia-perfumy",
+          "key": "shot:zlote-emoji-11/maia-perfumy",
+          "type": "shot",
+          "id": "maia-perfumy",
+          "name": "Maia używa perfum",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-perfumy.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "place:mieszkanie-po-afterze",
+          "key": "place:mieszkanie-po-afterze",
+          "type": "place",
+          "id": "mieszkanie-po-afterze",
+          "name": "Mieszkanie po afterze",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/mieszkanie-po-afterze.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "note:movie-shot",
+          "key": "note:movie-shot",
+          "type": "note",
+          "id": "movie-shot",
+          "name": "Movie",
+          "relationship": "story-and-continuity-context",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/movie-shot.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-05T17:35:00+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:maia-zaklada-kolczyk",
+            "shot:maia-perfumy",
+            "place:mieszkanie-po-afterze",
+            "note:movie-shot"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:maia-zaklada-kolczyk",
+              "key": "shot:zlote-emoji-11/maia-zaklada-kolczyk",
+              "type": "shot",
+              "id": "maia-zaklada-kolczyk",
+              "name": "Maia zakłada kolczyk",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-zaklada-kolczyk.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:maia-perfumy",
+              "key": "shot:zlote-emoji-11/maia-perfumy",
+              "type": "shot",
+              "id": "maia-perfumy",
+              "name": "Maia używa perfum",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-perfumy.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:mieszkanie-po-afterze",
+              "key": "place:mieszkanie-po-afterze",
+              "type": "place",
+              "id": "mieszkanie-po-afterze",
+              "name": "Mieszkanie po afterze",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/mieszkanie-po-afterze.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "note:movie-shot",
+              "key": "note:movie-shot",
+              "type": "note",
+              "id": "movie-shot",
+              "name": "Movie",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/movie-shot.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-11/shots/lacznik-flakon-perfumy/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-11/shots/lacznik-flakon-perfumy/frame-start-thumb.webp",

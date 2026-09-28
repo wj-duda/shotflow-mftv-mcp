@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:halloween-konkurs/hw-05b-blizniaki-przerazenie",
@@ -9,7 +9,26 @@
   "description": "05b — Przerażone spojrzenie Mańki i Marcela. Twarze oparte bezpośrednio na kanonicznych portretach postaci. W tle horda już napiera ciałami na popękane przeszklenie; skrzydło odchyla się przy puszczającym zamku, przed wtargnięciem w 06. Książki w prawych dłoniach, bez dialogu. 18 klatek, 24 fps, 1080×1920.",
   "project": {
     "id": "halloween-konkurs",
-    "name": "Halloween Konkurs"
+    "key": "project:halloween-konkurs",
+    "name": "Halloween Konkurs",
+    "createdAt": "2026-09-20T15:29:11.720Z"
+  },
+  "chronology": {
+    "projectKey": "project:halloween-konkurs",
+    "projectCreatedAt": "2026-09-20T15:29:11.720Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 7,
+    "lastSequence": 7,
+    "occurrences": [
+      7
+    ],
+    "sequenceTotal": 25,
+    "uniqueShotCount": 21,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -41,6 +60,147 @@
       "id": "hw-05-szyba"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:hw-04-wampiry-mocniej",
+        "key": "shot:halloween-konkurs/hw-04-wampiry-mocniej",
+        "type": "shot",
+        "id": "hw-04-wampiry-mocniej",
+        "name": "04 — Wampiry!",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-04-wampiry-mocniej.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:hw-01-wilkolaki-ogrod",
+        "key": "shot:halloween-konkurs/hw-01-wilkolaki-ogrod",
+        "type": "shot",
+        "id": "hw-01-wilkolaki-ogrod",
+        "name": "01 — Wilkołaki / zombie już w ogrodzie",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-01-wilkolaki-ogrod.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:marianna",
+        "key": "character:marianna",
+        "type": "character",
+        "id": "marianna",
+        "name": "Marianna \"Mańka\"",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/marianna.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:marcel",
+        "key": "character:marcel",
+        "type": "character",
+        "id": "marcel",
+        "name": "Marcel",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/marcel.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:horda-zombie-halloween",
+        "key": "character:horda-zombie-halloween",
+        "type": "character",
+        "id": "horda-zombie-halloween",
+        "name": "Horda zombie — ośmioro sąsiadów",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/horda-zombie-halloween.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:hw-05b-blizniaki-przerazenie",
+        "key": "shot:halloween-konkurs/hw-05b-blizniaki-przerazenie",
+        "type": "shot",
+        "id": "hw-05b-blizniaki-przerazenie",
+        "name": "05b - Przerazone spojrzenie blizniakow",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-05b-blizniaki-przerazenie.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:hw-05-szyba",
+        "key": "shot:halloween-konkurs/hw-05-szyba",
+        "type": "shot",
+        "id": "hw-05-szyba",
+        "name": "05 — Uderzenie / pęka szyba",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-05-szyba.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "character:marianna",
+          "character:marcel",
+          "shot:hw-05b-blizniaki-przerazenie",
+          "character:horda-zombie-halloween",
+          "shot:hw-05-szyba"
+        ],
+        "references": [
+          {
+            "sourceKey": "character:marianna",
+            "key": "character:marianna",
+            "type": "character",
+            "id": "marianna",
+            "name": "Marianna \"Mańka\"",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/marianna.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:marcel",
+            "key": "character:marcel",
+            "type": "character",
+            "id": "marcel",
+            "name": "Marcel",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/marcel.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:hw-05b-blizniaki-przerazenie",
+            "key": "shot:halloween-konkurs/hw-05b-blizniaki-przerazenie",
+            "type": "shot",
+            "id": "hw-05b-blizniaki-przerazenie",
+            "name": "05b - Przerazone spojrzenie blizniakow",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-05b-blizniaki-przerazenie.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:horda-zombie-halloween",
+            "key": "character:horda-zombie-halloween",
+            "type": "character",
+            "id": "horda-zombie-halloween",
+            "name": "Horda zombie — ośmioro sąsiadów",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/horda-zombie-halloween.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:hw-05-szyba",
+            "key": "shot:halloween-konkurs/hw-05-szyba",
+            "type": "shot",
+            "id": "hw-05-szyba",
+            "name": "05 — Uderzenie / pęka szyba",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-05-szyba.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Single vertical9:16 photoreal cinematic film still. Reference priority CRITICAL: IMAGE1 is the ONLY authoritative face for Marianna LEFT, IMAGE2 ONLY authoritative face for Marcel RIGHT. Reproduce these two exact young ADULT faces with high identity fidelity, their true young age and albino complexion, white almost invisible eyebrows and eyelashes, white hair. Marianna exact blue eyes, delicate heart-shaped face, lip shape, small gap front teeth, smooth young skin from image1; do NOT copy older angular face from image3. Marcel exact soft broad round face, small slightly crooked nose, tinted rectangular metal glasses, stocky body from image2; do NOT copy lean older face from image3. Both recognizably these portrait people. IMAGE3 is layout/lighting/books reference ONLY, not faces or zombie positions. Preserve its tight seated sofa two-shot, Mańka left Marcel right, black cardigan dress and D20 pendant for her, brown cardigan black tee D20 pendant for him. Preserve exact book covers in their RIGHT hands Vampire left and Werewolf right. They exchange a frightened direct eye-to-eye look, heads gently turned toward one another, eyes widened, mouths slightly parted, shoulders tense, restrained fear. IMAGE4 supplies eight zombie identities/wardrobe only, never lineup composition. IMAGE5 supplies CURRENT siege state: grey-jacket zombie drives shoulder against glass, rust-jacket woman and red-plaid man press directly behind him. In background of new frame ALL horde is already crowded RIGHT AGAINST terrace glass, faces and palms pressed against pane, bodies leaning forcefully inward, absolutely NO setback into garden, NO relaxed standing or waiting. Glass has visible spreading spiderweb cracks at shoulder contact; latch has yielded and right sliding sash tilts a few centimetres inward at top, tiny fragments falling at edge. Barrier still partly holds, no zombie fully inside yet. Hordes are softly defocused but pressure, cracks and close contact unmistakable. Foreground twin faces stay sharp, subtle warm Polish living-room lamp vs cold dusk outside. No extra people, duplicate limbs, hand swapping, aging protagonists, dark eyebrows on Marianna, captions or watermark. This is an identity correction AND advancing background action, not a beauty reinterpretation.\n\nSECOND PASS (draft image, Marianna portrait, Marcel portrait): Precise identity replacement in IMAGE1, single9:16. IMAGE2 and IMAGE3 are the actual actors, authoritative facial reference photographs. Replace the WRONG woman in image1 with the exact young adult woman from image2; replace the WRONG man with exact young adult man from image3. Do not just recolor existing faces. Rebuild correct facial geometry, youthful smooth cheeks, jaw, eyes, nose and lips using portraits. Woman image2 has delicate heart face, very pale almost invisible eyebrows, blue eyes, small nose and fuller lips with small front-tooth gap; man image3 has broad soft round face and fuller cheeks, tinted metal glasses, stocky neck. Keep both albino white hair. For recognizable likeness, reduce head rotation: both faces in gentle three-quarter angle toward camera, while EYES look sideways toward each other in terrified glance. Fear through widened eyes and parted lips, no deep aged brow creases. Preserve EVERYTHING ELSE in image1 exactly: same seats, wardrobe, books and hands, room, warm light, same eight zombies directly pressing on cracked glass, frame partly giving way. Faces must read as portrait2 and portrait3 under warm practical lighting; image1 faces must NOT be preserved. No text overlays.",
     "endFrameDescription": "",
@@ -55,6 +215,7 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 2,
       "source": "generated",
       "referenceKeys": [
@@ -63,6 +224,147 @@
         "shot:hw-05b-blizniaki-przerazenie",
         "character:horda-zombie-halloween",
         "shot:hw-05-szyba"
+      ],
+      "references": [
+        {
+          "sourceKey": "character:marianna",
+          "key": "character:marianna",
+          "type": "character",
+          "id": "marianna",
+          "name": "Marianna \"Mańka\"",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/marianna.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:marcel",
+          "key": "character:marcel",
+          "type": "character",
+          "id": "marcel",
+          "name": "Marcel",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/marcel.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:hw-05b-blizniaki-przerazenie",
+          "key": "shot:halloween-konkurs/hw-05b-blizniaki-przerazenie",
+          "type": "shot",
+          "id": "hw-05b-blizniaki-przerazenie",
+          "name": "05b - Przerazone spojrzenie blizniakow",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-05b-blizniaki-przerazenie.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:horda-zombie-halloween",
+          "key": "character:horda-zombie-halloween",
+          "type": "character",
+          "id": "horda-zombie-halloween",
+          "name": "Horda zombie — ośmioro sąsiadów",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/horda-zombie-halloween.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:hw-05-szyba",
+          "key": "shot:halloween-konkurs/hw-05-szyba",
+          "type": "shot",
+          "id": "hw-05-szyba",
+          "name": "05 — Uderzenie / pęka szyba",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-05-szyba.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-20T19:50:12.562711+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:hw-04-wampiry-mocniej"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:hw-04-wampiry-mocniej",
+              "key": "shot:halloween-konkurs/hw-04-wampiry-mocniej",
+              "type": "shot",
+              "id": "hw-04-wampiry-mocniej",
+              "name": "04 — Wampiry!",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-04-wampiry-mocniej.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-09-20T20:02:16.708171+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:marianna",
+            "character:marcel",
+            "shot:hw-05b-blizniaki-przerazenie",
+            "character:horda-zombie-halloween",
+            "shot:hw-05-szyba"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:marianna",
+              "key": "character:marianna",
+              "type": "character",
+              "id": "marianna",
+              "name": "Marianna \"Mańka\"",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/marianna.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:marcel",
+              "key": "character:marcel",
+              "type": "character",
+              "id": "marcel",
+              "name": "Marcel",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/marcel.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:hw-05b-blizniaki-przerazenie",
+              "key": "shot:halloween-konkurs/hw-05b-blizniaki-przerazenie",
+              "type": "shot",
+              "id": "hw-05b-blizniaki-przerazenie",
+              "name": "05b - Przerazone spojrzenie blizniakow",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-05b-blizniaki-przerazenie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:horda-zombie-halloween",
+              "key": "character:horda-zombie-halloween",
+              "type": "character",
+              "id": "horda-zombie-halloween",
+              "name": "Horda zombie — ośmioro sąsiadów",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/horda-zombie-halloween.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:hw-05-szyba",
+              "key": "shot:halloween-konkurs/hw-05-szyba",
+              "type": "shot",
+              "id": "hw-05-szyba",
+              "name": "05 — Uderzenie / pęka szyba",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-05-szyba.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-05b-blizniaki-przerazenie/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-05b-blizniaki-przerazenie/frame-start-thumb.webp",

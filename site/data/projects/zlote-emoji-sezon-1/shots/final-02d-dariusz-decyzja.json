@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-sezon-1/final-02d-dariusz-decyzja",
@@ -9,7 +9,26 @@
   "description": "Krótki ciasny portret Dariusza zamykający montaż napięcia. Widzi strach młodszych członków klubu, bierze odpowiedzialność i podejmuje decyzję o sprawdzeniu niezwykłej K20 na papierowym schemacie auspeksu. Bez magii i bez ujawniania mocy kostki.",
   "project": {
     "id": "zlote-emoji-sezon-1",
-    "name": "Złote Emoji Sezon #1"
+    "key": "project:zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1",
+    "createdAt": "2026-08-17T13:42:01.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-sezon-1",
+    "projectCreatedAt": "2026-08-17T13:42:01.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 29,
+    "lastSequence": 29,
+    "occurrences": [
+      29
+    ],
+    "sequenceTotal": 69,
+    "uniqueShotCount": 69,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -29,6 +48,95 @@
       "id": "artefakt-k20"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:grimskald",
+        "key": "character:grimskald",
+        "type": "character",
+        "id": "grimskald",
+        "name": "Pan Dariusz",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:final-02-dariusz-rozpoznaje-flote",
+        "key": "shot:zlote-emoji-sezon-1/final-02-dariusz-rozpoznaje-flote",
+        "type": "shot",
+        "id": "final-02-dariusz-rozpoznaje-flote",
+        "name": "Final 02 Klub obmyśla obronę",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-02-dariusz-rozpoznaje-flote.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:klub-fantastyki-zniszczony",
+        "key": "place:klub-fantastyki-zniszczony",
+        "type": "place",
+        "id": "klub-fantastyki-zniszczony",
+        "name": "Zniszczony Klub Fantastyki",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/klub-fantastyki-zniszczony.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:artefakt-k20",
+        "key": "prop:artefakt-k20",
+        "type": "prop",
+        "id": "artefakt-k20",
+        "name": "Artefakt K20",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "character:grimskald",
+          "shot:final-02-dariusz-rozpoznaje-flote",
+          "place:klub-fantastyki-zniszczony"
+        ],
+        "references": [
+          {
+            "sourceKey": "character:grimskald",
+            "key": "character:grimskald",
+            "type": "character",
+            "id": "grimskald",
+            "name": "Pan Dariusz",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:final-02-dariusz-rozpoznaje-flote",
+            "key": "shot:zlote-emoji-sezon-1/final-02-dariusz-rozpoznaje-flote",
+            "type": "shot",
+            "id": "final-02-dariusz-rozpoznaje-flote",
+            "name": "Final 02 Klub obmyśla obronę",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-02-dariusz-rozpoznaje-flote.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "place:klub-fantastyki-zniszczony",
+            "key": "place:klub-fantastyki-zniszczony",
+            "type": "place",
+            "id": "klub-fantastyki-zniszczony",
+            "name": "Zniszczony Klub Fantastyki",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/klub-fantastyki-zniszczony.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Photorealistic live-action 16:9 tight 85 mm close-up of Dariusz at the same planning table as final-02. Preserve his exact blue eyes behind rectangular black glasses, enormous braided reddish beard, swept-back hair, tall massive build, blue shirt, dark waistcoat, leather suspenders and badges. Preserve the exact destroyed Klub Fantastyki, warm practical light, storm-blue window light and paper auspex diagram continuity. Frame upper chest to just above his head. He has registered the fear of the younger members and made a responsible decision: jaw firms, brows stop wavering and gaze drops toward the paper auspex diagram below frame. Restrained protective authority, never a heroic pose. Only Dariusz is sharp. No visible K20, magic, glow, smile, shouting, weapon, new person, text, captions, watermark or malformed anatomy.",
     "endFrameDescription": "",
@@ -43,12 +151,91 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 1,
       "source": "generated",
       "referenceKeys": [
         "character:grimskald",
         "shot:final-02-dariusz-rozpoznaje-flote",
         "place:klub-fantastyki-zniszczony"
+      ],
+      "references": [
+        {
+          "sourceKey": "character:grimskald",
+          "key": "character:grimskald",
+          "type": "character",
+          "id": "grimskald",
+          "name": "Pan Dariusz",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:final-02-dariusz-rozpoznaje-flote",
+          "key": "shot:zlote-emoji-sezon-1/final-02-dariusz-rozpoznaje-flote",
+          "type": "shot",
+          "id": "final-02-dariusz-rozpoznaje-flote",
+          "name": "Final 02 Klub obmyśla obronę",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-02-dariusz-rozpoznaje-flote.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "place:klub-fantastyki-zniszczony",
+          "key": "place:klub-fantastyki-zniszczony",
+          "type": "place",
+          "id": "klub-fantastyki-zniszczony",
+          "name": "Zniszczony Klub Fantastyki",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/klub-fantastyki-zniszczony.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-20T02:03:27+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:grimskald",
+            "shot:final-02-dariusz-rozpoznaje-flote",
+            "place:klub-fantastyki-zniszczony"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:grimskald",
+              "key": "character:grimskald",
+              "type": "character",
+              "id": "grimskald",
+              "name": "Pan Dariusz",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:final-02-dariusz-rozpoznaje-flote",
+              "key": "shot:zlote-emoji-sezon-1/final-02-dariusz-rozpoznaje-flote",
+              "type": "shot",
+              "id": "final-02-dariusz-rozpoznaje-flote",
+              "name": "Final 02 Klub obmyśla obronę",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/final-02-dariusz-rozpoznaje-flote.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:klub-fantastyki-zniszczony",
+              "key": "place:klub-fantastyki-zniszczony",
+              "type": "place",
+              "id": "klub-fantastyki-zniszczony",
+              "name": "Zniszczony Klub Fantastyki",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/klub-fantastyki-zniszczony.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-02d-dariusz-decyzja/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-02d-dariusz-decyzja/frame-start-thumb.webp",

@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-14/ze14-nagroda-naszyjnik",
@@ -9,7 +9,27 @@
   "description": "Przekazanie statuetki przed dwiema przebitkami odbić. Korekta ciągłości: cała statuetka wraz z podstawą obrócona, ku Sirock skierowany gładki bok kuli; grawer uśmiechu widoczny tylko przy lewej krawędzi, tabliczka na skośnej lewej ściance podstawy. Halinka trzyma podstawę, Sirock sięga, układ postaci i biurka bez zmian. Bez błysku i przemiany w tym szerokim kadrze: anomalia występuje wyłącznie w następujących odbiciach. Halinka pozostaje nieświadoma. Ciągłość ulewy: Sirock przemoczona, mokre blond włosy i czarne ubranie, krople na skórze; bez kurtki i parasola. Wnętrze i Halinka suche, deszcz tylko na zewnątrz. Ustawienie statuetki zachowane.",
   "project": {
     "id": "zlote-emoji-14",
-    "name": "Złote Emoji #14"
+    "key": "project:zlote-emoji-14",
+    "name": "Złote Emoji #14",
+    "createdAt": "2026-09-27T00:13:04.173Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-14",
+    "projectCreatedAt": "2026-09-27T00:13:04.173Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 13,
+    "lastSequence": 16,
+    "occurrences": [
+      13,
+      16
+    ],
+    "sequenceTotal": 18,
+    "uniqueShotCount": 16,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -61,6 +81,164 @@
       "id": "ze14-sirock-weszy"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "place:komisja-zlote-emoji-tygodnia",
+        "key": "place:komisja-zlote-emoji-tygodnia",
+        "type": "place",
+        "id": "komisja-zlote-emoji-tygodnia",
+        "name": "Komisja Złote Emoji Tygodnia",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/komisja-zlote-emoji-tygodnia.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:sirock-blond",
+        "key": "character:sirock-blond",
+        "type": "character",
+        "id": "sirock-blond",
+        "name": "Sirock — blond",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/sirock-blond.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:halinka",
+        "key": "character:halinka",
+        "type": "character",
+        "id": "halinka",
+        "name": "Halinka",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:czeslaw",
+        "key": "character:czeslaw",
+        "type": "character",
+        "id": "czeslaw",
+        "name": "Czesław",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "note:movie-shot",
+        "key": "note:movie-shot",
+        "type": "note",
+        "id": "movie-shot",
+        "name": "Movie",
+        "relationship": "story-and-continuity-context",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/movie-shot.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:lokal-zastepczy-domu-kultury",
+        "key": "place:lokal-zastepczy-domu-kultury",
+        "type": "place",
+        "id": "lokal-zastepczy-domu-kultury",
+        "name": "Lokal zastępczy Domu Kultury",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lokal-zastepczy-domu-kultury.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze14-mozna-odebrac",
+        "key": "shot:zlote-emoji-14/ze14-mozna-odebrac",
+        "type": "shot",
+        "id": "ze14-mozna-odebrac",
+        "name": "06 — Można odebrać / Wiem",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-mozna-odebrac.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze14-nagroda-naszyjnik",
+        "key": "shot:zlote-emoji-14/ze14-nagroda-naszyjnik",
+        "type": "shot",
+        "id": "ze14-nagroda-naszyjnik",
+        "name": "07 — Nagroda i naszyjnik",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-nagroda-naszyjnik.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze14-odbicie-halinki",
+        "key": "shot:zlote-emoji-14/ze14-odbicie-halinki",
+        "type": "shot",
+        "id": "ze14-odbicie-halinki",
+        "name": "Odbicie Halinki - blysk",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-odbicie-halinki.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze14-odbicie-sirock",
+        "key": "shot:zlote-emoji-14/ze14-odbicie-sirock",
+        "type": "shot",
+        "id": "ze14-odbicie-sirock",
+        "name": "Odbicie Sirock - czarne oczy",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-odbicie-sirock.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:seed",
+        "key": "shot:zlote-emoji-14/seed",
+        "type": "shot",
+        "id": "seed",
+        "name": "01 — Pusty Dom Kultury",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/seed.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze14-sirock-weszy",
+        "key": "shot:zlote-emoji-14/ze14-sirock-weszy",
+        "type": "shot",
+        "id": "ze14-sirock-weszy",
+        "name": "02 — Sirock węszy",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-sirock-weszy.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 5,
+        "referenceKeys": [
+          "shot:ze14-nagroda-naszyjnik",
+          "shot:ze14-sirock-weszy"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze14-nagroda-naszyjnik",
+            "key": "shot:zlote-emoji-14/ze14-nagroda-naszyjnik",
+            "type": "shot",
+            "id": "ze14-nagroda-naszyjnik",
+            "name": "07 — Nagroda i naszyjnik",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-nagroda-naszyjnik.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:ze14-sirock-weszy",
+            "key": "shot:zlote-emoji-14/ze14-sirock-weszy",
+            "type": "shot",
+            "id": "ze14-sirock-weszy",
+            "name": "02 — Sirock węszy",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-sirock-weszy.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Precise weather/wetness edit of EXACT reference1 movie frame. Preserve composition, lens, all identity/face/body anatomy, poses, hands, gaze direction, furniture, architecture proportions, signs/text, door opening/hinge direction, trophy design/rotation and all props. No redesign or mirror. 16:9 photoreal cinematic, grey overcast daytime with readable faces. Inside DRY office. Halinka dry handing award. CRITICAL preserve trophy rotated SIDE-ON: smooth gold side toward Sirock, tiny smile profile at LEFT edge, plaque on foreshortened LEFT base face. Do NOT turn trophy to camera. No pendant glow, no rain falling inside. Sirock is visibly SOAKED THROUGH after walking in a downpour without coat or umbrella, entirely indifferent to the rain. Preserve her BLONDE hair color and length but make it genuinely saturated: darker wet blonde strand bundles flattened to scalp, stringy dripping lengths stuck against neck/shoulders, wet fringe against forehead. Visible droplets and water trails on bare shoulders, arms and face; heavy eye makeup slightly damp/smudged but EXACT facial features intact. Black corset/trousers dark wet fabric with restrained water sheen, stays fully OPAQUE and same cut; same silver jewellery. No added jacket/hood/umbrella/towel, no shivering or cold gesture, no supernatural eyes. Image2 wetness continuity only. Do NOT change trophy orientation or handover geometry of image1.",
     "endFrameDescription": "",
@@ -75,11 +253,252 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 5,
       "source": "generated",
       "referenceKeys": [
         "shot:ze14-nagroda-naszyjnik",
         "shot:ze14-sirock-weszy"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze14-nagroda-naszyjnik",
+          "key": "shot:zlote-emoji-14/ze14-nagroda-naszyjnik",
+          "type": "shot",
+          "id": "ze14-nagroda-naszyjnik",
+          "name": "07 — Nagroda i naszyjnik",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-nagroda-naszyjnik.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ze14-sirock-weszy",
+          "key": "shot:zlote-emoji-14/ze14-sirock-weszy",
+          "type": "shot",
+          "id": "ze14-sirock-weszy",
+          "name": "02 — Sirock węszy",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-sirock-weszy.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-27T00:13:18.906859+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "place:komisja-zlote-emoji-tygodnia",
+            "character:sirock-blond",
+            "character:halinka",
+            "character:czeslaw",
+            "note:movie-shot"
+          ],
+          "references": [
+            {
+              "sourceKey": "place:komisja-zlote-emoji-tygodnia",
+              "key": "place:komisja-zlote-emoji-tygodnia",
+              "type": "place",
+              "id": "komisja-zlote-emoji-tygodnia",
+              "name": "Komisja Złote Emoji Tygodnia",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/komisja-zlote-emoji-tygodnia.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:sirock-blond",
+              "key": "character:sirock-blond",
+              "type": "character",
+              "id": "sirock-blond",
+              "name": "Sirock — blond",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/sirock-blond.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:halinka",
+              "key": "character:halinka",
+              "type": "character",
+              "id": "halinka",
+              "name": "Halinka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:czeslaw",
+              "key": "character:czeslaw",
+              "type": "character",
+              "id": "czeslaw",
+              "name": "Czesław",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "note:movie-shot",
+              "key": "note:movie-shot",
+              "type": "note",
+              "id": "movie-shot",
+              "name": "Movie",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/movie-shot.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-09-27T00:49:07.511776+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:sirock-blond",
+            "place:lokal-zastepczy-domu-kultury",
+            "shot:ze14-mozna-odebrac"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:sirock-blond",
+              "key": "character:sirock-blond",
+              "type": "character",
+              "id": "sirock-blond",
+              "name": "Sirock — blond",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/sirock-blond.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:lokal-zastepczy-domu-kultury",
+              "key": "place:lokal-zastepczy-domu-kultury",
+              "type": "place",
+              "id": "lokal-zastepczy-domu-kultury",
+              "name": "Lokal zastępczy Domu Kultury",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lokal-zastepczy-domu-kultury.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ze14-mozna-odebrac",
+              "key": "shot:zlote-emoji-14/ze14-mozna-odebrac",
+              "type": "shot",
+              "id": "ze14-mozna-odebrac",
+              "name": "06 — Można odebrać / Wiem",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-mozna-odebrac.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 3,
+          "createdAt": "2026-09-27T01:37:31.776162+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze14-nagroda-naszyjnik",
+            "shot:ze14-odbicie-halinki",
+            "shot:ze14-odbicie-sirock"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze14-nagroda-naszyjnik",
+              "key": "shot:zlote-emoji-14/ze14-nagroda-naszyjnik",
+              "type": "shot",
+              "id": "ze14-nagroda-naszyjnik",
+              "name": "07 — Nagroda i naszyjnik",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-nagroda-naszyjnik.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ze14-odbicie-halinki",
+              "key": "shot:zlote-emoji-14/ze14-odbicie-halinki",
+              "type": "shot",
+              "id": "ze14-odbicie-halinki",
+              "name": "Odbicie Halinki - blysk",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-odbicie-halinki.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ze14-odbicie-sirock",
+              "key": "shot:zlote-emoji-14/ze14-odbicie-sirock",
+              "type": "shot",
+              "id": "ze14-odbicie-sirock",
+              "name": "Odbicie Sirock - czarne oczy",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-odbicie-sirock.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 4,
+          "createdAt": "2026-09-27T10:16:02.163997+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze14-nagroda-naszyjnik",
+            "shot:seed"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze14-nagroda-naszyjnik",
+              "key": "shot:zlote-emoji-14/ze14-nagroda-naszyjnik",
+              "type": "shot",
+              "id": "ze14-nagroda-naszyjnik",
+              "name": "07 — Nagroda i naszyjnik",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-nagroda-naszyjnik.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:seed",
+              "key": "shot:zlote-emoji-14/seed",
+              "type": "shot",
+              "id": "seed",
+              "name": "01 — Pusty Dom Kultury",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/seed.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 5,
+          "createdAt": "2026-09-27T11:23:44.91101+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze14-nagroda-naszyjnik",
+            "shot:ze14-sirock-weszy"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze14-nagroda-naszyjnik",
+              "key": "shot:zlote-emoji-14/ze14-nagroda-naszyjnik",
+              "type": "shot",
+              "id": "ze14-nagroda-naszyjnik",
+              "name": "07 — Nagroda i naszyjnik",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-nagroda-naszyjnik.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ze14-sirock-weszy",
+              "key": "shot:zlote-emoji-14/ze14-sirock-weszy",
+              "type": "shot",
+              "id": "ze14-sirock-weszy",
+              "name": "02 — Sirock węszy",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-14/shots/ze14-sirock-weszy.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-nagroda-naszyjnik/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-nagroda-naszyjnik/frame-start-thumb.webp",

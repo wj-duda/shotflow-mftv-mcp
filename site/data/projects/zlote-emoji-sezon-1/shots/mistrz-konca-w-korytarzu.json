@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-sezon-1/mistrz-konca-w-korytarzu",
@@ -9,7 +9,26 @@
   "description": "Niemy, około 3,7-sekundowy reveal Mistrza Końca bezpośrednio pomiędzy kradzieżą K20 a jego wyjściem przed Dom Kultury. Mistrz idzie sam wąskim korytarzem zaplecza: za plecami zostawia ciepłe światło zniszczonego Klubu Fantastyki, przed sobą ma chłodne światło wyjścia. Kamera cofa się przed nim w planie od pasa w górę. Jedną rękę trzyma w kieszeni na ukrytej kostce, drugą zaciska na pasku torby. Jeszcze się nie rozgląda i nic nie mówi. Niepokój wynika z jego zbyt spokojnego, nieruchomego spojrzenia, zaciśniętej szczęki oraz starej świetlówki, której krótkie przygasanie przesuwa cień przez twarz. To pierwszy czytelny sygnał, że kradzież była świadomą decyzją, ale Mistrz nadal wygląda jak zwyczajny członek klubu, nie jawny złoczyńca.",
   "project": {
     "id": "zlote-emoji-sezon-1",
-    "name": "Złote Emoji Sezon #1"
+    "key": "project:zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1",
+    "createdAt": "2026-08-17T13:42:01.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-sezon-1",
+    "projectCreatedAt": "2026-08-17T13:42:01.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 10,
+    "lastSequence": 10,
+    "occurrences": [
+      10
+    ],
+    "sequenceTotal": 69,
+    "uniqueShotCount": 69,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -29,6 +48,106 @@
       "id": "klub-fantastyki-zniszczony"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:mistrz-konca",
+        "key": "character:mistrz-konca",
+        "type": "character",
+        "id": "mistrz-konca",
+        "name": "Mistrz Końca",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/mistrz-konca.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:przyzwanie-01-kradziez-k20",
+        "key": "shot:zlote-emoji-sezon-1/przyzwanie-01-kradziez-k20",
+        "type": "shot",
+        "id": "przyzwanie-01-kradziez-k20",
+        "name": "Przyzwanie 01 Kradziez K20",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/przyzwanie-01-kradziez-k20.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:mistrz-wychodzi",
+        "key": "shot:zlote-emoji-sezon-1/mistrz-wychodzi",
+        "type": "shot",
+        "id": "mistrz-wychodzi",
+        "name": "Mistrz wychodzi z Domu Kultury",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/mistrz-wychodzi.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:klub-fantastyki-zniszczony",
+        "key": "place:klub-fantastyki-zniszczony",
+        "type": "place",
+        "id": "klub-fantastyki-zniszczony",
+        "name": "Zniszczony Klub Fantastyki",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/klub-fantastyki-zniszczony.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "character:mistrz-konca",
+          "shot:przyzwanie-01-kradziez-k20",
+          "shot:mistrz-wychodzi",
+          "place:klub-fantastyki-zniszczony"
+        ],
+        "references": [
+          {
+            "sourceKey": "character:mistrz-konca",
+            "key": "character:mistrz-konca",
+            "type": "character",
+            "id": "mistrz-konca",
+            "name": "Mistrz Końca",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/mistrz-konca.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:przyzwanie-01-kradziez-k20",
+            "key": "shot:zlote-emoji-sezon-1/przyzwanie-01-kradziez-k20",
+            "type": "shot",
+            "id": "przyzwanie-01-kradziez-k20",
+            "name": "Przyzwanie 01 Kradziez K20",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/przyzwanie-01-kradziez-k20.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:mistrz-wychodzi",
+            "key": "shot:zlote-emoji-sezon-1/mistrz-wychodzi",
+            "type": "shot",
+            "id": "mistrz-wychodzi",
+            "name": "Mistrz wychodzi z Domu Kultury",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/mistrz-wychodzi.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "place:klub-fantastyki-zniszczony",
+            "key": "place:klub-fantastyki-zniszczony",
+            "type": "place",
+            "id": "klub-fantastyki-zniszczony",
+            "name": "Zniszczony Klub Fantastyki",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/klub-fantastyki-zniszczony.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Use case: identity-preserve. Asset type: cinematic Start Frame for a photorealistic live-action 1920x1080 film shot. Generate one landscape 16:9 frame. References 1 and 2 are the mandatory portrait and full-body identity of the exact 27-year-old Mistrz Konca. Reference 3 establishes immediate story continuity after his hand steals the tiny K20 from the ruined Klub Fantastyki. Reference 4 establishes his exact downstream face, civilian wardrobe, bag and proportions immediately after he exits the building. Reference 5 supplies only the aged materials, post-damage dust and warm practical-light atmosphere of the hidden club behind him; do not copy its room composition or floor breach into the corridor.\n\nThis is the missing silent beat directly between stealing the K20 and stepping outside. Mistrz Konca walks alone through the narrow backstage service corridor of an old Polish Dom Kultury. He has already concealed the stolen die inside the pocket of his black cargo trousers. The K20 is not visible and emits no light. He moves from the warm damaged club area behind him toward the colder front exit ahead.\n\nCinematic waist-up moving portrait, camera at chest-to-eye height directly ahead of him as if tracking backward, 40–50 mm lens, shallow but not extreme depth of field. He is slightly right of center, walking toward camera. Show enough waist to read one hand pressed naturally inside the cargo pocket guarding the hidden die; his other hand grips the brown shoulder-bag strap. Strong corridor convergence behind him: scuffed institutional cream-and-green walls, old radiator, exposed pipes, battered doors and dusty linoleum or terrazzo floor. At the far end behind him, only a soft warm amber spill hints at the ruined club. Ahead and above him, one aging cold fluorescent tube creates pale green-cyan top light.\n\nHis exact recognizable face is the emotional center. No speech, grin, sneer, rage, panic or theatrical villain pose. Mouth closed, jaw quietly set, eyes fixed straight ahead with wounded certainty and controlled determination. He looks like someone who has already justified what he did. Unease comes from stillness and microexpression: heavy brow, almost no blinking, unnervingly calm forward gaze. The overhead fluorescent is caught during a subtle flicker, leaving one side of his face colder and the other in soft moving shadow, with a faint warm rim behind him. Grounded Polish live-action drama with understated fantasy-comedy context, realistic skin, fabric and institutional architecture.\n\nExactly one Mistrz Konca. Preserve exact young-adult face, short dark-brown hair, light uneven stubble, hazel-green eyes, stocky broad-shouldered proportions, faded charcoal dungeon-map T-shirt without readable text, open dark-olive overshirt with rolled sleeves, black cargo trousers, brown shoulder bag, dice pouch and thin red-black bracelet. The stolen K20 stays completely concealed inside his pocket: no visible die, glow, magic or oversized pocket bulge. No ritual helmet, armor, mask, Chaos symbol, costume, weapon, second person, floor hole, destroyed corridor, exterior facade, signage, captions, subtitles, watermark, extra fingers, duplicated limbs, warped hands, merged bag strap or plastic skin.",
     "endFrameDescription": "",
@@ -43,6 +162,7 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 1,
       "source": "generated",
       "referenceKeys": [
@@ -50,6 +170,105 @@
         "shot:przyzwanie-01-kradziez-k20",
         "shot:mistrz-wychodzi",
         "place:klub-fantastyki-zniszczony"
+      ],
+      "references": [
+        {
+          "sourceKey": "character:mistrz-konca",
+          "key": "character:mistrz-konca",
+          "type": "character",
+          "id": "mistrz-konca",
+          "name": "Mistrz Końca",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/mistrz-konca.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:przyzwanie-01-kradziez-k20",
+          "key": "shot:zlote-emoji-sezon-1/przyzwanie-01-kradziez-k20",
+          "type": "shot",
+          "id": "przyzwanie-01-kradziez-k20",
+          "name": "Przyzwanie 01 Kradziez K20",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/przyzwanie-01-kradziez-k20.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:mistrz-wychodzi",
+          "key": "shot:zlote-emoji-sezon-1/mistrz-wychodzi",
+          "type": "shot",
+          "id": "mistrz-wychodzi",
+          "name": "Mistrz wychodzi z Domu Kultury",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/mistrz-wychodzi.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "place:klub-fantastyki-zniszczony",
+          "key": "place:klub-fantastyki-zniszczony",
+          "type": "place",
+          "id": "klub-fantastyki-zniszczony",
+          "name": "Zniszczony Klub Fantastyki",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/klub-fantastyki-zniszczony.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-20T09:14:06+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:mistrz-konca",
+            "shot:przyzwanie-01-kradziez-k20",
+            "shot:mistrz-wychodzi",
+            "place:klub-fantastyki-zniszczony"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:mistrz-konca",
+              "key": "character:mistrz-konca",
+              "type": "character",
+              "id": "mistrz-konca",
+              "name": "Mistrz Końca",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/mistrz-konca.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:przyzwanie-01-kradziez-k20",
+              "key": "shot:zlote-emoji-sezon-1/przyzwanie-01-kradziez-k20",
+              "type": "shot",
+              "id": "przyzwanie-01-kradziez-k20",
+              "name": "Przyzwanie 01 Kradziez K20",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/przyzwanie-01-kradziez-k20.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:mistrz-wychodzi",
+              "key": "shot:zlote-emoji-sezon-1/mistrz-wychodzi",
+              "type": "shot",
+              "id": "mistrz-wychodzi",
+              "name": "Mistrz wychodzi z Domu Kultury",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/mistrz-wychodzi.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:klub-fantastyki-zniszczony",
+              "key": "place:klub-fantastyki-zniszczony",
+              "type": "place",
+              "id": "klub-fantastyki-zniszczony",
+              "name": "Zniszczony Klub Fantastyki",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/klub-fantastyki-zniszczony.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/mistrz-konca-w-korytarzu/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/mistrz-konca-w-korytarzu/frame-start-thumb.webp",

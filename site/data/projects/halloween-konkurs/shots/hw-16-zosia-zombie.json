@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:halloween-konkurs/hw-16-zosia-zombie",
@@ -9,7 +9,27 @@
   "description": "Gotowy Start Frame 1080×1920. Bez take’a. Planowany montaż: 21.5–25 s; 84 klatek / 24 fps. Planowany take: 4 s, wykorzystanie od początku. Puenta. Zosia u wejścia opuszcza lufę poniżej kadru i patrzy w stronę bliźniaków. Od 21,5 s ustaje muzyka i strzały. Słowo około 22,75–23,5 s, potem spojrzenie do końca 25 s. Spokój, oszczędny ruch, żadnego triumfu ani puszczania oka. Łącznik do późniejszej części konkursowej pozostaje otwarty. Kamera: Prawie nieruchome półzbliżenie od strony kanapy; wizualne zatrzymanie po walce. Dialog do osobnego nagrania: Zosia, cicho: „Zombie”. Start Frame wygenerowany wbudowanym generatorem i zweryfikowany. Animacja bez natywnego audio; wypowiedzi, lipsync i SFX opracować osobno. Wstawiono na V1 timeline: sekwencja 25 sekund, 24 fps. ",
   "project": {
     "id": "halloween-konkurs",
-    "name": "Halloween Konkurs"
+    "key": "project:halloween-konkurs",
+    "name": "Halloween Konkurs",
+    "createdAt": "2026-09-20T15:29:11.720Z"
+  },
+  "chronology": {
+    "projectKey": "project:halloween-konkurs",
+    "projectCreatedAt": "2026-09-20T15:29:11.720Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 19,
+    "lastSequence": 20,
+    "occurrences": [
+      19,
+      20
+    ],
+    "sequenceTotal": 25,
+    "uniqueShotCount": 21,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -25,6 +45,85 @@
       "id": "zosia"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:hw-08-zosia-wejscie",
+        "key": "shot:halloween-konkurs/hw-08-zosia-wejscie",
+        "type": "shot",
+        "id": "hw-08-zosia-wejscie",
+        "name": "08 — Wejście Zosi z korytarza",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-08-zosia-wejscie.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:hw-09-zosia-pierwsza-seria",
+        "key": "shot:halloween-konkurs/hw-09-zosia-pierwsza-seria",
+        "type": "shot",
+        "id": "hw-09-zosia-pierwsza-seria",
+        "name": "09 — Zosia / pierwsza seria",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-09-zosia-pierwsza-seria.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:zosia",
+        "key": "character:zosia",
+        "type": "character",
+        "id": "zosia",
+        "name": "Zosia",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/zosia.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:hw-08-zosia-wejscie",
+          "shot:hw-09-zosia-pierwsza-seria",
+          "character:zosia"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:hw-08-zosia-wejscie",
+            "key": "shot:halloween-konkurs/hw-08-zosia-wejscie",
+            "type": "shot",
+            "id": "hw-08-zosia-wejscie",
+            "name": "08 — Wejście Zosi z korytarza",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-08-zosia-wejscie.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:hw-09-zosia-pierwsza-seria",
+            "key": "shot:halloween-konkurs/hw-09-zosia-pierwsza-seria",
+            "type": "shot",
+            "id": "hw-09-zosia-pierwsza-seria",
+            "name": "09 — Zosia / pierwsza seria",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-09-zosia-pierwsza-seria.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:zosia",
+            "key": "character:zosia",
+            "type": "character",
+            "id": "zosia",
+            "name": "Zosia",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/zosia.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Single photorealistic vertical 9:16 final film still. Image1 exact Zosia outfit and doorway location, image2 immediate action continuity and rifle, image3 exact facial identity. After fight, CUT to composed MEDIUM CLOSE-UP of Zosia head to mid torso, slightly more frontal but still from same sofa side near hallway. Same adult woman black hair blue streaks, natural pale skin, dark eye makeup, oversized faded black metal tee, necklaces. Her expression is absolutely calm, matter-of-fact, slightly tired, lips relaxed and unobstructed, no smile, wink, victory pose or grimace. Gaze still initially toward screen RIGHT terrace, ready to glance toward twins just left of camera. Same ONE black M16 now being lowered, receiver and carry handle only partly visible diagonally at bottom edge of frame; muzzle below/outside crop, never toward camera. Both hands remain attached correctly below crop. Warm open hallway doorway softly blurred behind, faint cool edge light on hair. Quiet stillness, no dense smoke. No other people, blood, added captions, subtitles, text, watermark or collage. Preserve face exactly, not glamorous retouching. This still is start of final 3.5-second shot under eventual softly spoken single word, do NOT print that word.",
     "endFrameDescription": "",
@@ -39,12 +138,91 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 1,
       "source": "generated",
       "referenceKeys": [
         "shot:hw-08-zosia-wejscie",
         "shot:hw-09-zosia-pierwsza-seria",
         "character:zosia"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:hw-08-zosia-wejscie",
+          "key": "shot:halloween-konkurs/hw-08-zosia-wejscie",
+          "type": "shot",
+          "id": "hw-08-zosia-wejscie",
+          "name": "08 — Wejście Zosi z korytarza",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-08-zosia-wejscie.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:hw-09-zosia-pierwsza-seria",
+          "key": "shot:halloween-konkurs/hw-09-zosia-pierwsza-seria",
+          "type": "shot",
+          "id": "hw-09-zosia-pierwsza-seria",
+          "name": "09 — Zosia / pierwsza seria",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-09-zosia-pierwsza-seria.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:zosia",
+          "key": "character:zosia",
+          "type": "character",
+          "id": "zosia",
+          "name": "Zosia",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/zosia.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-20T16:08:29.447823+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:hw-08-zosia-wejscie",
+            "shot:hw-09-zosia-pierwsza-seria",
+            "character:zosia"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:hw-08-zosia-wejscie",
+              "key": "shot:halloween-konkurs/hw-08-zosia-wejscie",
+              "type": "shot",
+              "id": "hw-08-zosia-wejscie",
+              "name": "08 — Wejście Zosi z korytarza",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-08-zosia-wejscie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:hw-09-zosia-pierwsza-seria",
+              "key": "shot:halloween-konkurs/hw-09-zosia-pierwsza-seria",
+              "type": "shot",
+              "id": "hw-09-zosia-pierwsza-seria",
+              "name": "09 — Zosia / pierwsza seria",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween-konkurs/shots/hw-09-zosia-pierwsza-seria.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:zosia",
+              "key": "character:zosia",
+              "type": "character",
+              "id": "zosia",
+              "name": "Zosia",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/zosia.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-16-zosia-zombie/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-16-zosia-zombie/frame-start-thumb.webp",

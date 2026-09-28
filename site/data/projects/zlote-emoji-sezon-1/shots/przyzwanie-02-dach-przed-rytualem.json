@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-sezon-1/przyzwanie-02-dach-przed-rytualem",
@@ -9,7 +9,26 @@
   "description": "ustanawia geografię: dach wysokiego sąsiedniego bloku, Dom Kultury znajduje się tuż poniżej poza kadrem.",
   "project": {
     "id": "zlote-emoji-sezon-1",
-    "name": "Złote Emoji Sezon #1"
+    "key": "project:zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1",
+    "createdAt": "2026-08-17T13:42:01.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-sezon-1",
+    "projectCreatedAt": "2026-08-17T13:42:01.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 13,
+    "lastSequence": 13,
+    "occurrences": [
+      13
+    ],
+    "sequenceTotal": 69,
+    "uniqueShotCount": 69,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -25,6 +44,74 @@
       "id": "przyzwanie-01-kradziez-k20"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "place:dach-bloku-dzieci-gwiazd",
+        "key": "place:dach-bloku-dzieci-gwiazd",
+        "type": "place",
+        "id": "dach-bloku-dzieci-gwiazd",
+        "name": "Dach bloku Dzieci Gwiazd",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dach-bloku-dzieci-gwiazd.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:mistrz-konca",
+        "key": "character:mistrz-konca",
+        "type": "character",
+        "id": "mistrz-konca",
+        "name": "Mistrz Końca",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/mistrz-konca.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:przyzwanie-01-kradziez-k20",
+        "key": "shot:zlote-emoji-sezon-1/przyzwanie-01-kradziez-k20",
+        "type": "shot",
+        "id": "przyzwanie-01-kradziez-k20",
+        "name": "Przyzwanie 01 Kradziez K20",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-sezon-1/shots/przyzwanie-01-kradziez-k20.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "place:dach-bloku-dzieci-gwiazd",
+          "character:mistrz-konca"
+        ],
+        "references": [
+          {
+            "sourceKey": "place:dach-bloku-dzieci-gwiazd",
+            "key": "place:dach-bloku-dzieci-gwiazd",
+            "type": "place",
+            "id": "dach-bloku-dzieci-gwiazd",
+            "name": "Dach bloku Dzieci Gwiazd",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dach-bloku-dzieci-gwiazd.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:mistrz-konca",
+            "key": "character:mistrz-konca",
+            "type": "character",
+            "id": "mistrz-konca",
+            "name": "Mistrz Końca",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/mistrz-konca.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Photorealistic exact Polish apartment-block rooftop before the summoning succeeds. Preserve wet roofing felt, concrete utility hut, antennas, practical lamp, banner, graffiti and urban blocks. The exact ritual-costumed Mistrz Konca stands alone beside a crude waist-high metal ritual stand with both arms lowered, preparing. Empty storm sky and moon, absolutely no organic ships. Locked wide cold-blue night frame with warm rooftop lamp. No new person, creature, portal, text or watermark.",
     "endFrameDescription": "",
@@ -39,11 +126,69 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 1,
       "source": "generated",
       "referenceKeys": [
         "place:dach-bloku-dzieci-gwiazd",
         "character:mistrz-konca"
+      ],
+      "references": [
+        {
+          "sourceKey": "place:dach-bloku-dzieci-gwiazd",
+          "key": "place:dach-bloku-dzieci-gwiazd",
+          "type": "place",
+          "id": "dach-bloku-dzieci-gwiazd",
+          "name": "Dach bloku Dzieci Gwiazd",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dach-bloku-dzieci-gwiazd.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:mistrz-konca",
+          "key": "character:mistrz-konca",
+          "type": "character",
+          "id": "mistrz-konca",
+          "name": "Mistrz Końca",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/mistrz-konca.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-08-18T23:44:30+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "place:dach-bloku-dzieci-gwiazd",
+            "character:mistrz-konca"
+          ],
+          "references": [
+            {
+              "sourceKey": "place:dach-bloku-dzieci-gwiazd",
+              "key": "place:dach-bloku-dzieci-gwiazd",
+              "type": "place",
+              "id": "dach-bloku-dzieci-gwiazd",
+              "name": "Dach bloku Dzieci Gwiazd",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dach-bloku-dzieci-gwiazd.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:mistrz-konca",
+              "key": "character:mistrz-konca",
+              "type": "character",
+              "id": "mistrz-konca",
+              "name": "Mistrz Końca",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/mistrz-konca.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/przyzwanie-02-dach-przed-rytualem/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/przyzwanie-02-dach-przed-rytualem/frame-start-thumb.webp",

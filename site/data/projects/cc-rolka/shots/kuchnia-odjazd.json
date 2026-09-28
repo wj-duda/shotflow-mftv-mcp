@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:cc-rolka/kuchnia-odjazd",
@@ -9,7 +9,26 @@
   "description": "",
   "project": {
     "id": "cc-rolka",
-    "name": "CC-Rolka"
+    "key": "project:cc-rolka",
+    "name": "CC-Rolka",
+    "createdAt": "2026-09-04T21:44:12.588Z"
+  },
+  "chronology": {
+    "projectKey": "project:cc-rolka",
+    "projectCreatedAt": "2026-09-04T21:44:12.588Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 10,
+    "lastSequence": 10,
+    "occurrences": [
+      10
+    ],
+    "sequenceTotal": 18,
+    "uniqueShotCount": 18,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -25,6 +44,102 @@
       "id": "ciasto-dariusza"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:ciasto-zoom",
+        "key": "shot:cc-rolka/ciasto-zoom",
+        "type": "shot",
+        "id": "ciasto-zoom",
+        "name": "Wjazd w serce tortu",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/cc-rolka/shots/ciasto-zoom.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:grimskald",
+        "key": "character:grimskald",
+        "type": "character",
+        "id": "grimskald",
+        "name": "Pan Dariusz",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:ciasto-dariusza",
+        "key": "prop:ciasto-dariusza",
+        "type": "prop",
+        "id": "ciasto-dariusza",
+        "name": "Domowy tort Dariusza",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/ciasto-dariusza.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 3,
+        "referenceKeys": [],
+        "references": [],
+        "sourceReference": {
+          "sourceKey": "take:ciasto-zoom/take-1",
+          "key": "take:cc-rolka/ciasto-zoom/take-1",
+          "type": "take",
+          "id": "ciasto-zoom/take-1",
+          "name": "Wjazd w serce tortu / take-1",
+          "relationship": "visible-state-from-take",
+          "shotKey": "shot:cc-rolka/ciasto-zoom",
+          "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/cc-rolka/shots/ciasto-zoom.json",
+          "exists": true
+        }
+      },
+      {
+        "frameId": "frame-end",
+        "revision": 2,
+        "referenceKeys": [
+          "shot:ciasto-zoom",
+          "character:grimskald",
+          "prop:ciasto-dariusza"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ciasto-zoom",
+            "key": "shot:cc-rolka/ciasto-zoom",
+            "type": "shot",
+            "id": "ciasto-zoom",
+            "name": "Wjazd w serce tortu",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/cc-rolka/shots/ciasto-zoom.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:grimskald",
+            "key": "character:grimskald",
+            "type": "character",
+            "id": "grimskald",
+            "name": "Pan Dariusz",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:ciasto-dariusza",
+            "key": "prop:ciasto-dariusza",
+            "type": "prop",
+            "id": "ciasto-dariusza",
+            "name": "Domowy tort Dariusza",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/ciasto-dariusza.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Identical native vertical 9:16 extreme top-down macro inherited from the previous shot: one complete red buttercream heart surrounded by cream rosettes, pink frosting, chocolate shavings and nuts. This is the locked optical-axis start for a rapid pull-back. Exact photoreal food macro, subtle late-1990s analog softness. No text, hands, face or artifacts.",
     "endFrameDescription": "Odjazd odsłania pełny tort i Dariusza w różowym fartuchu oraz czerwonych spodenkach.",
@@ -39,9 +154,126 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 3,
       "source": "reference",
       "referenceKeys": [],
+      "references": [],
+      "sourceReference": {
+        "sourceKey": "take:ciasto-zoom/take-1",
+        "key": "take:cc-rolka/ciasto-zoom/take-1",
+        "type": "take",
+        "id": "ciasto-zoom/take-1",
+        "name": "Wjazd w serce tortu / take-1",
+        "relationship": "visible-state-from-take",
+        "shotKey": "shot:cc-rolka/ciasto-zoom",
+        "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/cc-rolka/shots/ciasto-zoom.json",
+        "exists": true
+      },
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-04T21:44:12.5882061+00:00",
+          "source": "reference",
+          "referenceKeys": [
+            "shot:ciasto-zoom",
+            "character:grimskald",
+            "prop:ciasto-dariusza"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ciasto-zoom",
+              "key": "shot:cc-rolka/ciasto-zoom",
+              "type": "shot",
+              "id": "ciasto-zoom",
+              "name": "Wjazd w serce tortu",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/cc-rolka/shots/ciasto-zoom.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:grimskald",
+              "key": "character:grimskald",
+              "type": "character",
+              "id": "grimskald",
+              "name": "Pan Dariusz",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:ciasto-dariusza",
+              "key": "prop:ciasto-dariusza",
+              "type": "prop",
+              "id": "ciasto-dariusza",
+              "name": "Domowy tort Dariusza",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/ciasto-dariusza.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": {
+            "sourceKey": "shot:ciasto-zoom",
+            "key": "shot:cc-rolka/ciasto-zoom",
+            "type": "shot",
+            "id": "ciasto-zoom",
+            "name": "Wjazd w serce tortu",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/cc-rolka/shots/ciasto-zoom.json",
+            "exists": true
+          }
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-09-05T15:34:09.1486822+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ciasto-zoom",
+            "prop:ciasto-dariusza"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ciasto-zoom",
+              "key": "shot:cc-rolka/ciasto-zoom",
+              "type": "shot",
+              "id": "ciasto-zoom",
+              "name": "Wjazd w serce tortu",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/cc-rolka/shots/ciasto-zoom.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:ciasto-dariusza",
+              "key": "prop:ciasto-dariusza",
+              "type": "prop",
+              "id": "ciasto-dariusza",
+              "name": "Domowy tort Dariusza",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/ciasto-dariusza.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 3,
+          "createdAt": "2026-09-05T21:47:09.732525+00:00",
+          "source": "reference",
+          "referenceKeys": [],
+          "references": [],
+          "sourceReference": {
+            "sourceKey": "take:ciasto-zoom/take-1",
+            "key": "take:cc-rolka/ciasto-zoom/take-1",
+            "type": "take",
+            "id": "ciasto-zoom/take-1",
+            "name": "Wjazd w serce tortu / take-1",
+            "relationship": "visible-state-from-take",
+            "shotKey": "shot:cc-rolka/ciasto-zoom",
+            "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/cc-rolka/shots/ciasto-zoom.json",
+            "exists": true
+          }
+        }
+      ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/kuchnia-odjazd/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/kuchnia-odjazd/frame-start-thumb.webp",
       "width": 1080,
@@ -50,12 +282,134 @@
     },
     {
       "id": "frame-end",
+      "role": "frame-end",
       "revision": 2,
       "source": "generated",
       "referenceKeys": [
         "shot:ciasto-zoom",
         "character:grimskald",
         "prop:ciasto-dariusza"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ciasto-zoom",
+          "key": "shot:cc-rolka/ciasto-zoom",
+          "type": "shot",
+          "id": "ciasto-zoom",
+          "name": "Wjazd w serce tortu",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/cc-rolka/shots/ciasto-zoom.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:grimskald",
+          "key": "character:grimskald",
+          "type": "character",
+          "id": "grimskald",
+          "name": "Pan Dariusz",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:ciasto-dariusza",
+          "key": "prop:ciasto-dariusza",
+          "type": "prop",
+          "id": "ciasto-dariusza",
+          "name": "Domowy tort Dariusza",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/ciasto-dariusza.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-04T21:44:12.5882061+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ciasto-zoom",
+            "character:grimskald",
+            "prop:ciasto-dariusza"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ciasto-zoom",
+              "key": "shot:cc-rolka/ciasto-zoom",
+              "type": "shot",
+              "id": "ciasto-zoom",
+              "name": "Wjazd w serce tortu",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/cc-rolka/shots/ciasto-zoom.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:grimskald",
+              "key": "character:grimskald",
+              "type": "character",
+              "id": "grimskald",
+              "name": "Pan Dariusz",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:ciasto-dariusza",
+              "key": "prop:ciasto-dariusza",
+              "type": "prop",
+              "id": "ciasto-dariusza",
+              "name": "Domowy tort Dariusza",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/ciasto-dariusza.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-09-05T15:34:09.1486822+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ciasto-zoom",
+            "character:grimskald",
+            "prop:ciasto-dariusza"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ciasto-zoom",
+              "key": "shot:cc-rolka/ciasto-zoom",
+              "type": "shot",
+              "id": "ciasto-zoom",
+              "name": "Wjazd w serce tortu",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/cc-rolka/shots/ciasto-zoom.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:grimskald",
+              "key": "character:grimskald",
+              "type": "character",
+              "id": "grimskald",
+              "name": "Pan Dariusz",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:ciasto-dariusza",
+              "key": "prop:ciasto-dariusza",
+              "type": "prop",
+              "id": "ciasto-dariusza",
+              "name": "Domowy tort Dariusza",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/ciasto-dariusza.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/kuchnia-odjazd/frame-end.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/kuchnia-odjazd/frame-end-thumb.webp",

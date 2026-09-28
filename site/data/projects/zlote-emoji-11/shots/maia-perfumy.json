@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T11:56:12.545Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-11/maia-perfumy",
@@ -9,7 +9,26 @@
   "description": "Maia zakłada ramoneskę i z celebracją spryskuje szyję perfumami, coraz mocniej wchodząc w rolę gwiazdy wieczoru.",
   "project": {
     "id": "zlote-emoji-11",
-    "name": "Złote Emoji #11"
+    "key": "project:zlote-emoji-11",
+    "name": "Złote Emoji #11",
+    "createdAt": "2026-09-05T16:08:47.000Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-11",
+    "projectCreatedAt": "2026-09-05T16:08:47.000Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 4,
+    "lastSequence": 4,
+    "occurrences": [
+      4
+    ],
+    "sequenceTotal": 7,
+    "uniqueShotCount": 7,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -29,6 +48,106 @@
       "id": "movie-shot"
     }
   ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:maia-zaklada-kolczyk",
+        "key": "shot:zlote-emoji-11/maia-zaklada-kolczyk",
+        "type": "shot",
+        "id": "maia-zaklada-kolczyk",
+        "name": "Maia zakłada kolczyk",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-zaklada-kolczyk.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:maia-gotowa-na-gale",
+        "key": "shot:zlote-emoji-11/maia-gotowa-na-gale",
+        "type": "shot",
+        "id": "maia-gotowa-na-gale",
+        "name": "Maia gotowa na galę",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-gotowa-na-gale.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:maia-melodies-v2",
+        "key": "character:maia-melodies-v2",
+        "type": "character",
+        "id": "maia-melodies-v2",
+        "name": "Maia Melodies v2",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/maia-melodies-v2.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "note:movie-shot",
+        "key": "note:movie-shot",
+        "type": "note",
+        "id": "movie-shot",
+        "name": "Movie",
+        "relationship": "story-and-continuity-context",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/movie-shot.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:maia-zaklada-kolczyk",
+          "shot:maia-gotowa-na-gale",
+          "character:maia-melodies-v2",
+          "note:movie-shot"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:maia-zaklada-kolczyk",
+            "key": "shot:zlote-emoji-11/maia-zaklada-kolczyk",
+            "type": "shot",
+            "id": "maia-zaklada-kolczyk",
+            "name": "Maia zakłada kolczyk",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-zaklada-kolczyk.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:maia-gotowa-na-gale",
+            "key": "shot:zlote-emoji-11/maia-gotowa-na-gale",
+            "type": "shot",
+            "id": "maia-gotowa-na-gale",
+            "name": "Maia gotowa na galę",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-gotowa-na-gale.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:maia-melodies-v2",
+            "key": "character:maia-melodies-v2",
+            "type": "character",
+            "id": "maia-melodies-v2",
+            "name": "Maia Melodies v2",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/maia-melodies-v2.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "note:movie-shot",
+            "key": "note:movie-shot",
+            "type": "note",
+            "id": "movie-shot",
+            "name": "Movie",
+            "relationship": "story-and-continuity-context",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/movie-shot.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
   "prompts": {
     "image": "Filmowy kadr 16:9 w tym samym mieszkaniu. Maia v2 ma już czarną ramoneskę na kremowej koszuli i małe srebrne kółko. Trzyma mały bezmarkowy flakon perfum przy szyi, palec na atomizerze, drugą dłonią odsuwa kołnierz. Oczy półprzymknięte, broda lekko uniesiona, spokojna próżność i bad-bitch pewność siebie. Realistyczne szkło, skóra i delikatna mgiełka; bez dodatkowych osób, butelek, napisów i watermarku.",
     "endFrameDescription": "",
@@ -43,6 +162,7 @@
   "images": [
     {
       "id": "frame-start",
+      "role": "frame-start",
       "revision": 1,
       "source": "generated",
       "referenceKeys": [
@@ -50,6 +170,105 @@
         "shot:maia-gotowa-na-gale",
         "character:maia-melodies-v2",
         "note:movie-shot"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:maia-zaklada-kolczyk",
+          "key": "shot:zlote-emoji-11/maia-zaklada-kolczyk",
+          "type": "shot",
+          "id": "maia-zaklada-kolczyk",
+          "name": "Maia zakłada kolczyk",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-zaklada-kolczyk.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:maia-gotowa-na-gale",
+          "key": "shot:zlote-emoji-11/maia-gotowa-na-gale",
+          "type": "shot",
+          "id": "maia-gotowa-na-gale",
+          "name": "Maia gotowa na galę",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-gotowa-na-gale.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:maia-melodies-v2",
+          "key": "character:maia-melodies-v2",
+          "type": "character",
+          "id": "maia-melodies-v2",
+          "name": "Maia Melodies v2",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/maia-melodies-v2.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "note:movie-shot",
+          "key": "note:movie-shot",
+          "type": "note",
+          "id": "movie-shot",
+          "name": "Movie",
+          "relationship": "story-and-continuity-context",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/movie-shot.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-05T18:34:52+02:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:maia-zaklada-kolczyk",
+            "shot:maia-gotowa-na-gale",
+            "character:maia-melodies-v2",
+            "note:movie-shot"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:maia-zaklada-kolczyk",
+              "key": "shot:zlote-emoji-11/maia-zaklada-kolczyk",
+              "type": "shot",
+              "id": "maia-zaklada-kolczyk",
+              "name": "Maia zakłada kolczyk",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-zaklada-kolczyk.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:maia-gotowa-na-gale",
+              "key": "shot:zlote-emoji-11/maia-gotowa-na-gale",
+              "type": "shot",
+              "id": "maia-gotowa-na-gale",
+              "name": "Maia gotowa na galę",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-11/shots/maia-gotowa-na-gale.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:maia-melodies-v2",
+              "key": "character:maia-melodies-v2",
+              "type": "character",
+              "id": "maia-melodies-v2",
+              "name": "Maia Melodies v2",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/maia-melodies-v2.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "note:movie-shot",
+              "key": "note:movie-shot",
+              "type": "note",
+              "id": "movie-shot",
+              "name": "Movie",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/movie-shot.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-11/shots/maia-perfumy/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-11/shots/maia-perfumy/frame-start-thumb.webp",
