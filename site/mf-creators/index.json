@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T13:52:18.217Z",
+  "generatedAt": "2026-09-28T14:06:18.595Z",
   "universe": {
     "id": "mf-creators",
     "name": "MF Creators"
@@ -8,6 +8,10 @@
   "world": {
     "id": "mf-creators",
     "name": "MF Creators"
+  },
+  "generationProfile": {
+    "requiredLookKey": "look:rock-comic",
+    "rule": "Każda generacja obrazu w MF Creators musi stosować nadrzędny look rockowo-komiksowy oraz indywidualny wariant zapisany przy wybranych postaciach."
   },
   "usage": {
     "purpose": "Publiczny katalog świata ShotFlow dla ludzi i klientów MCP.",
@@ -20,15 +24,28 @@
     ]
   },
   "counts": {
-    "resources": 0,
+    "resources": 9,
     "projects": 0,
     "shots": 0,
-    "images": 0
+    "images": 8
   },
   "brand": null,
   "featured": [],
   "catalogs": {
-    "resources": [],
+    "resources": [
+      {
+        "type": "characters",
+        "label": "Postacie",
+        "count": 8,
+        "url": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/index.json"
+      },
+      {
+        "type": "looks",
+        "label": "Style",
+        "count": 1,
+        "url": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/looks/index.json"
+      }
+    ],
     "projects": {
       "count": 0,
       "url": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/index.json"

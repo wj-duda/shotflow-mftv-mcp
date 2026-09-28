@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T14:06:18.595Z",
+  "worldId": "mf-creators",
+  "kind": "resource",
+  "key": "character:van-sabe",
+  "type": "characters",
+  "id": "van-sabe",
+  "name": "Van Sabe",
+  "description": "CHARACTER [age=45-59; presentation=masculine; height=tall; build=solid; body=rectangle; chest=medium; skin=medium; face=oblong; eyes=dark-brown; hair-color=dark-brown; hair-length=long; hair-texture=wavy]\n\nTwórca kanału Van Sabe (@vansabe.official, YouTube UCcRkrSCsaN7NVW5qsopkF9A). Kanoniczny wizerunek w świecie MF Creators to dojrzały, pewny siebie mężczyzna o długich, potarganych ciemnobrązowych włosach, gęstej brodzie wyraźnie przetykanej siwizną, dużym charakterystycznym nosie i pełnych ustach. Nosi lustrzane aviatory odbijające neonowe miasto, czarny T-shirt, czarną skórzaną ramoneskę, gruby złoty łańcuch z zawieszką-koroną, złoty zegarek i sygnet z czerwonym kamieniem. Charakterystyczna poza: głowa odchylona ku górze, szklanka bursztynowego napoju w lewej dłoni i nonszalancki gest prawej dłoni. Złote korony, księżyc, palmy, panorama miasta i neonowe napisy są elementami sceny, nie częściami postaci. Styl: nasycona, hiper-szczegółowa ilustracja rockowo-komiksowa z neonowym różem, błękitem i złotem, nocnym glamour i przerysowaną królewską energią.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "portrait",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/van-sabe/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/van-sabe/image-001-thumb.webp",
+      "width": 1254,
+      "height": 1254,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-28T16:04:12+02:00"
+}

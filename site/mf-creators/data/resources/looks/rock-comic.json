@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T14:06:18.595Z",
+  "worldId": "mf-creators",
+  "kind": "resource",
+  "key": "look:rock-comic",
+  "type": "looks",
+  "id": "rock-comic",
+  "name": "MF Creators — rockowy komiks",
+  "description": "Nadrzędny kanon wizualny świata MF Creators. Wszystkie postacie przedstawiaj jako dopracowane, przerysowane ilustracje rockowo-komiksowe, a nie fotografie ani fotorealistyczne rendery 3D. Zachowuj rozpoznawalną anatomię i indywidualne cechy każdej postaci, jednocześnie wzmacniając mimikę, gest, kontur i satyryczną energię. Stosuj wyraźny czarny tusz lub malarski kontur, bogatą fakturę, wysoki kontrast, plakatowe światło oraz kontrolowany chaos tła. Paleta może zmieniać się wraz z postacią: od brudnego punku, kremowych kości, turkusu i karminu po neonowy róż, zieleń, fiolet, rudości i neutralne beże. Ręczna typografia, rozpryski farby, tabliczki i zabawne rekwizyty są opcjonalnymi elementami konkretnej kompozycji — nie kopiuj ich automatycznie z portretów referencyjnych i nie traktuj jako części anatomii. Przy scenach grupowych ujednolicaj sposób rysowania, fakturę, grubość konturu i oświetlenie, ale nie spłaszczaj indywidualnego wariantu stylistycznego postaci. Ten look ma pierwszeństwo przed domyślnym realizmem generatora.",
+  "images": [],
+  "updatedAt": "2026-09-28T16:05:11+02:00"
+}

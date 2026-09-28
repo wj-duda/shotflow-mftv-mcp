@@ -2,31 +2,9 @@
   "schemaVersion": 1,
   "generatedAt": "2026-09-28T14:06:18.595Z",
   "worldId": "mf-creators",
-  "entries": [
-    {
-      "key": "look:rock-comic",
-      "kind": "resource",
-      "type": "looks",
-      "id": "rock-comic",
-      "name": "MF Creators — rockowy komiks",
-      "summary": "Nadrzędny kanon wizualny świata MF Creators. Wszystkie postacie przedstawiaj jako dopracowane, przerysowane ilustracje rockowo-komiksowe, a nie fotografie ani fotorealistyczne rendery 3D. Zachowuj rozpoznawalną anatomię i indywidualne cechy każdej postaci, jednocześnie wzmacniaj…",
-      "imageCount": 0,
-      "thumbnailUrl": null,
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/looks/rock-comic.json",
-      "updatedAt": "2026-09-28T16:05:11+02:00"
-    },
-    {
-      "key": "character:van-sabe",
-      "kind": "resource",
-      "type": "characters",
-      "id": "van-sabe",
-      "name": "Van Sabe",
-      "summary": "CHARACTER [age=45-59; presentation=masculine; height=tall; build=solid; body=rectangle; chest=medium; skin=medium; face=oblong; eyes=dark-brown; hair-color=dark-brown; hair-length=long; hair-texture=wavy] Twórca kanału Van Sabe (@vansabe.official, YouTube UCcRkrSCsaN7NVW5qsopkF9…",
-      "imageCount": 1,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/van-sabe/image-001-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/van-sabe.json",
-      "updatedAt": "2026-09-28T16:04:12+02:00"
-    },
+  "type": "characters",
+  "label": "Postacie",
+  "items": [
     {
       "key": "character:aleksandra-ross",
       "kind": "resource",
@@ -98,6 +76,18 @@
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/rkfonzo/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/rkfonzo.json",
       "updatedAt": "2026-09-28T15:59:54+02:00"
+    },
+    {
+      "key": "character:van-sabe",
+      "kind": "resource",
+      "type": "characters",
+      "id": "van-sabe",
+      "name": "Van Sabe",
+      "summary": "CHARACTER [age=45-59; presentation=masculine; height=tall; build=solid; body=rectangle; chest=medium; skin=medium; face=oblong; eyes=dark-brown; hair-color=dark-brown; hair-length=long; hair-texture=wavy] Twórca kanału Van Sabe (@vansabe.official, YouTube UCcRkrSCsaN7NVW5qsopkF9…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/van-sabe/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/van-sabe.json",
+      "updatedAt": "2026-09-28T16:04:12+02:00"
     },
     {
       "key": "character:zdziroversum",

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T14:06:18.595Z",
+  "worldId": "mf-creators",
+  "kind": "resource",
+  "key": "character:darkvondagar",
+  "type": "characters",
+  "id": "darkvondagar",
+  "name": "DarkVondagar",
+  "description": "CHARACTER [age=45-64; presentation=masculine; height=tall; build=lean; body=rectangle; chest=medium; skin=deep-brown; face=long; eyes=dark-brown; hair-color=dark-brown; hair-length=long; hair-texture=braided]\n\nTwórca kanału DarkVondagar (@darkvondagar, YouTube UCZs5v9cslCrZIs4zCmMRxwA). Kanoniczny avatar to szczupły, wyraźnie starszy mężczyzna o bardzo wydłużonej, silnie pomarszczonej twarzy, długich ciemnych warkoczach spiętych różowymi wałkami i sercowatych różowych okularach. Nosi czarny T-shirt, puszysty różowy szlafrok, ciemne spodnie w motywy UFO i pluszowe kapcie-jednorożce. Spokojna, znudzona poza kontrastuje z absurdalnym kosmicznym entourage'em. Kot, zielone kosmity, pizza, kubek, kontroler i tabliczki na obrazie źródłowym są elementami sceny. Styl: hiper-szczegółowa satyryczna ilustracja rockowo-komiksowa z czernią, neonowym różem i zielenią.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "portrait",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/darkvondagar/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/darkvondagar/image-001-thumb.webp",
+      "width": 1254,
+      "height": 1254,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-28T15:59:54+02:00"
+}

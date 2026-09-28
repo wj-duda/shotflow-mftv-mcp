@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T14:06:18.595Z",
+  "worldId": "mf-creators",
+  "kind": "resource",
+  "key": "character:rkfonzo",
+  "type": "characters",
+  "id": "rkfonzo",
+  "name": "rkFonzo",
+  "description": "CHARACTER [age=30-44; presentation=masculine; height=average; build=athletic; body=rectangle; chest=medium; skin=medium; face=angular; eyes=dark-brown; hair-color=silver-gray; hair-length=short; hair-texture=spiky]\n\nTwórca kanału rkFonzo (@rkfonzo, YouTube UC_OFjUpeMOY_6wydhhoPlLA). Kanoniczny wizerunek to rockowy mężczyzna o krótkich, mocno nastroszonych srebrnoszarych włosach z ciemnymi pasmami, kanciastej twarzy i małym znamieniu na prawym policzku. Nosi duże czarne okulary przeciwsłoneczne, czarny T-shirt i czarną skórzaną ramoneskę ze srebrnymi zamkami i napami. Charakterystyczna poza to uniesiona broda i dwa gesty finger-guns, z pewnym siebie, lekko ironicznym wyrazem ust. Styl: wyrazista ilustracja rockowo-komiksowa, czerń i głęboki fiolet, gruby kontur i wysoki kontrast.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "portrait",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/rkfonzo/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/rkfonzo/image-001-thumb.webp",
+      "width": 1536,
+      "height": 1024,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-28T15:59:54+02:00"
+}

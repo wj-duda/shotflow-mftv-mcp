@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T14:06:18.595Z",
+  "worldId": "mf-creators",
+  "kind": "resource",
+  "key": "character:baju-the-aigorhythms",
+  "type": "characters",
+  "id": "baju-the-aigorhythms",
+  "name": "Baju & The AIgorhythms",
+  "description": "Twórca kanału Baju & The AIgorhythms (@bajutheaigorhythms, YouTube UCxgSjAx9oiXdvJBbPDn8UIg). Kanoniczna postać jest groteskową, rockową maskotką: ożywioną czaszką z czarnym irokezem, jednym mocno wyłupiastym okiem, drugim okiem cybernetycznym świecącym na czerwono oraz metalowymi złączami i śrubami w czaszce. Wysuwa język, pali papierosa i pokazuje środkowy palec kościstą dłonią. Obraz źródłowy zawiera gramofonową płytę, butelki, puszki, pizzę i typografię; są to rekwizyty sceny, nie elementy ciała. Styl: brudny punkowy plakat, czarny tusz, kremowe kości, turkus i karmin, wysoki kontrast i kontrolowany chaos.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "portrait",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/baju-the-aigorhythms/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/baju-the-aigorhythms/image-001-thumb.webp",
+      "width": 1254,
+      "height": 1254,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-28T15:59:54+02:00"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T14:06:18.595Z",
+  "worldId": "mf-creators",
+  "kind": "resource",
+  "key": "character:maia-melodies",
+  "type": "characters",
+  "id": "maia-melodies",
+  "name": "Maia Melodies",
+  "description": "CHARACTER [age=18-29; presentation=feminine; height=average; build=slim; body=hourglass; chest=medium; skin=fair; face=heart; eyes=brown; hair-color=platinum-blonde; hair-length=medium; hair-texture=straight]\n\nTwórczyni kanału Maia Melodies (@maiamelodies, YouTube UCSqRnFlVAhRQSkiz0K7GKTQ). Kanoniczny wizerunek w świecie MF Creators to młoda kobieta o jasnej cerze, dużych brązowych oczach i prostym platynowym blond bobie z głębokim przedziałkiem na bok oraz ciemniejszym odrostem. Ma delikatny makijaż, szeroki pogodny uśmiech i czarne studyjne słuchawki nauszne. Nosi biały top bez rękawów z czarną lamówką. Styl: czysta, szczegółowa ilustracja komiksowo-portretowa w neutralnych beżach, czerni i przygaszonym różu; muzyczna, serdeczna energia.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "portrait",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/maia-melodies/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/maia-melodies/image-001-thumb.webp",
+      "width": 1536,
+      "height": 1024,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-28T15:59:54+02:00"
+}

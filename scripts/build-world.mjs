@@ -17,6 +17,12 @@ const baseUrl = (args.baseUrl ?? (universeId === 'mf-tv' ? publicationBaseUrl : 
 const imageCachePath = path.join(repoRoot, '.cache/image-metadata.json');
 const imageCache = await readOptionalJson(imageCachePath, {});
 const hasMftvBrand = universeId === 'mf-tv';
+const generationProfile = universeId === 'mf-creators'
+  ? {
+      requiredLookKey: 'look:rock-comic',
+      rule: 'Każda generacja obrazu w MF Creators musi stosować nadrzędny look rockowo-komiksowy oraz indywidualny wariant zapisany przy wybranych postaciach.',
+    }
+  : null;
 if (hasMftvBrand && !brandAssetsSource) throw new Error('Dla mf-tv podaj katalog assetów marki przez --brand-assets albo MFTV_BRAND_ASSETS.');
 const brandAssetsRoot = brandAssetsSource ? path.resolve(brandAssetsSource) : null;
 
@@ -103,6 +109,7 @@ const index = {
   generatedAt,
   universe: { id: universeId, name: worldDisplayName },
   world: { id: worldId, name: worldDisplayName },
+  generationProfile,
   usage: {
     purpose: 'Publiczny katalog świata ShotFlow dla ludzi i klientów MCP.',
     mcp: [
