@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-sezon-1/final-11a-podpora-przebija-dach",
+  "id": "final-11a-podpora-przebija-dach",
+  "title": "Final 11A — Podpora przebija dach",
+  "description": "Detal jednej z czterech rozgrzanych podpór Belicosy przebijającej beton; pęknięcia jednoznacznie pokazują, że budynek niszczy samo działo.",
+  "project": {
+    "id": "zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1"
+  },
+  "references": [
+    {
+      "type": "place",
+      "id": "dach-domu-kultury"
+    },
+    {
+      "type": "place",
+      "id": "dach-domu-kultury-obrona"
+    },
+    {
+      "type": "place",
+      "id": "dom-kultury-ruina-po-belicosie"
+    },
+    {
+      "type": "prop",
+      "id": "belicosa"
+    },
+    {
+      "type": "shot",
+      "id": "final-09-belicosa-przegrzewa-sie"
+    }
+  ],
+  "prompts": {
+    "image": "Photorealistic live-action 16:9 extreme low macro combat insert focused on exactly one canonical Belicosa stabilizer foot as its enormous load punches through the old Dom Kultury roof. Preserve roof orientation, support placement, canonical Belicosa geometry and the orange-hot overheated state from final-09. The heavy blackened-steel foot and brass hydraulic collar dominate frame; wet roofing felt buckles downward, concrete splits radially, aggregate and rusted rebar become visible and fine dust drops through the opening. Orange heat grazes the cracks while cold storm light reflects in roof water. The cannon support itself is unmistakably crushing the building from above, not a bomb. Camera 10 cm above roof, 50 mm macro feel. No person, projectile, enemy attack, fireball, second support, giant explosion, creature, text, logo, UI, captions or watermark.",
+    "endFrameDescription": "",
+    "animation": "One continuous 2.5-second locked macro mechanical failure shot. 0.00-0.45 s: the overheated support shudders under load and the wet roofing felt dimples. 0.45-1.45 s: concrete fractures radially, one slab drops several centimeters and rusted rebar bends while dust and grit fall into the opening. 1.45-2.50 s: the support sinks once more and stops under tension; steam and fine dust drift. Preserve one support, exact machinery, roof orientation and lighting. No bomb, external impact, explosion, second support, camera movement, cut, person, text or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "place:dach-domu-kultury",
+        "place:dach-domu-kultury-obrona",
+        "place:dom-kultury-ruina-po-belicosie",
+        "prop:belicosa",
+        "shot:final-09-belicosa-przegrzewa-sie"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-11a-podpora-przebija-dach/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-11a-podpora-przebija-dach/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

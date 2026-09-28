@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "prop:szklanka-czeslawa",
+  "type": "props",
+  "id": "szklanka-czeslawa",
+  "name": "Szklanka Czesława",
+  "description": "Szklanka w szklanym koszyczku z PRLu,",
+  "images": [
+    {
+      "id": "image-004",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/szklanka-czeslawa/image-004.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/szklanka-czeslawa/image-004-thumb.webp",
+      "width": 328,
+      "height": 389,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-12T12:33:40.784902+00:00"
+}

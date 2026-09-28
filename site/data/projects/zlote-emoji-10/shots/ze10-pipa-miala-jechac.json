@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-10/ze10-pipa-miala-jechac",
+  "id": "ze10-pipa-miala-jechac",
+  "title": "Pipa: miałaś jechać",
+  "description": "Twarde cięcie z szerokiego planu na ciasne zbliżenie twarzy półprzytomnej Pipy. Nadal leży oparta o Maję; jedna powieka jest ledwo uniesiona, a policzek pozostaje wgnieciony w jej ramię. Bez podnoszenia głowy Pipa wykonuje mały, leniwy ruch łokciem i zachrypniętym, całkowicie pozbawionym energii głosem mówi: „Maja. Miałaś jechać do Łazów, łajzo”. Nie jest zła — sama ledwo funkcjonuje. Kadr służy twarzy, mikroekspresji i kwestii.",
+  "project": {
+    "id": "zlote-emoji-10",
+    "name": "Złote Emoji #10"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "pipa-wake"
+    },
+    {
+      "type": "character",
+      "id": "laidy-pipa-v2"
+    },
+    {
+      "type": "character",
+      "id": "maia-melodies-v2"
+    },
+    {
+      "type": "place",
+      "id": "mieszkanie-po-afterze"
+    }
+  ],
+  "prompts": {
+    "image": "Create a cinematic photorealistic 16:9 close-up continuing directly from pipa-wake. Use that wide shot for continuity and LAIdy Pipa v2 as the mandatory identity reference. Frame Pipa's exhausted face tightly from the sofa side; Maia's shoulder and a soft edge of her platinum-lavender hair remain at the right edge only to show Pipa is still leaning against her. Pipa's cheek is naturally compressed, one eyelid barely open, makeup slightly slept-in, vivid-purple boxer braids messy across her black gothic outfit. Match the apartment's late-morning daylight and forgotten warm lamp. Her expression is foggy and almost too tired to speak, never angry. Preserve face, age, proportions, hairstyle and wardrobe exactly. No phone, raised head, smile, extra people, nightclub, text, subtitles, logos, watermark or malformed anatomy.",
+    "endFrameDescription": "",
+    "animation": "One continuous static three-second close-up with no cut. @Element1 is LAIdy Pipa v2, still leaning against @Element2 Maia at the same angle established in the previous wide shot; @Image1 preserves apartment light and sofa continuity. Pipa never sits up. 0.0–0.4 s: her single open eye tries to focus. 0.4–2.8 s: she gives Maia one tiny tired nudge, mostly outside the tight frame, and says in a low hoarse half-asleep voice: “Maja. Miałaś jechać do Łazów, łajzo.” The delivery is weak and dry, not irritated. Use restrained lip motion, one slow blink and minute exhaustion. 2.8–3.0 s: hold her unfocused look for the hard cut to Maia. Preserve identity, braids, clothing, contact and lighting. No camera move, zoom, head lift, anger, broad gesture, morphing, extra limbs, subtitles, text or transition."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:pipa-wake",
+        "character:laidy-pipa-v2",
+        "character:maia-melodies-v2"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-10/shots/ze10-pipa-miala-jechac/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-10/shots/ze10-pipa-miala-jechac/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

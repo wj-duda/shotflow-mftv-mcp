@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:cc-rolka/zosia-deszcz-na-szybie",
+  "id": "zosia-deszcz-na-szybie",
+  "title": "Zosia - deszcz na szybie",
+  "description": "Wewnątrz autobusu Zosia lekko dociska słuchawkę, próbując odgrodzić się od świata za mokrą szybą.",
+  "project": {
+    "id": "cc-rolka",
+    "name": "CC-Rolka"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "zosia-autobus-noc"
+    },
+    {
+      "type": "character",
+      "id": "zosia"
+    }
+  ],
+  "prompts": {
+    "image": "Native vertical 9:16 interior continuation in the same night bus. Exact petite Zosia gently presses the right black headphone cup closer with one small relaxed hand while looking through the rainy glass. Intimate head-and-shoulders profile with a flat 65 mm lens at eye height: real face right-middle, wet window left half, complete hand and earcup upper-right. One faint soft reflection of her eye and cheek appears in the glass. Exact youthful oval narrow face, gray eyes, small jaw, long black hair with blue streaks, oversized shirt and necklaces. Photoreal late-1990s Central-European music video, amber/cyan practical light and subtle 16 mm/S-VHS softness. No legs, broad shoulders, oversized hand, glamour, tears, singing, duplicate person, text or artifacts.",
+    "endFrameDescription": "",
+    "animation": "6-second continuous interior close-up. Start with Zosia's fingers resting lightly on the right headphone cup. She presses it inward by only a few millimeters, holds for one beat, then relaxes without removing her hand. One large raindrop travels down the left side of the window and city reflections drift horizontally. Camera makes a very slow straight push of a few centimeters, never orbiting. Keep her lips closed, gaze screen-left and faint reflection synchronized. Preserve exact petite identity, small hand, hair, clothing, headphones and bus. No singing, tears, extra fingers, duplicate face, cuts, morphing, text or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 3,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:zosia-autobus-noc",
+        "character:zosia"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/zosia-deszcz-na-szybie/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/zosia-deszcz-na-szybie/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "character:aniol-wygnany",
+  "type": "characters",
+  "id": "aniol-wygnany",
+  "name": "Anioł wygnany",
+  "description": "Oryginalna postać ZE12, imię i biografia pozostają otwarte. Mężczyzna około 42 lat, szczupły, zmęczona pociągła twarz, krzywy orli nos, szare oczy, bez zarostu. Zwykły staromodny dwurzędowy garnitur w kolorze kości słoniowej, spodnie z zakładkami, koszula z rozpiętym kołnierzem, jasne skórzane półbuty, mała prostokątna srebrna spinka na klapie. Dwa wielkie ciężkie pierzaste skrzydła. W stanie upadku wszystkie pióra są zwęglone na czarno, z czerwonym żarem w pęknięciach i pomarańczowym ogniem; włosy do ramion również czarne, osmalone, żarzące się na końcach. Twarz ludzka, sadza bez ran. Bez zbroi, szat fantasy, aureoli i rogów. Jest wyrzucony przez zewnętrzną siłę; bezradność, a nie świadomy lot. Łączność z wcześniejszym skitem Diablo jest wizualna: zwęglona materia i czerwony żar (source/B5.png). Pokrewieństwo, wspólna historia i przyczyna wygnania nie zostały ustalone. Portret i sylwetka przedstawiają ten sam stan po osmaleniu; stan jasny jest osobną notą. Prompty: output/imagegen/zlote-emoji-12/revision-3/character-generation.json.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "portrait",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/aniol-wygnany/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/aniol-wygnany/image-001-thumb.webp",
+      "width": 1536,
+      "height": 1024,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-002",
+      "role": "silhouette",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/aniol-wygnany/image-002.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/aniol-wygnany/image-002-thumb.webp",
+      "width": 1536,
+      "height": 1024,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-12T00:28:41.641594+00:00"
+}

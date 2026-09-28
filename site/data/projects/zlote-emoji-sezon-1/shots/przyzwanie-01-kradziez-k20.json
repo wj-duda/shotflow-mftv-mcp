@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-sezon-1/przyzwanie-01-kradziez-k20",
+  "id": "przyzwanie-01-kradziez-k20",
+  "title": "Przyzwanie 01 Kradziez K20",
+  "description": "Eliptyczne cięcie po pytaniu Dariusza przenosi K20 z otwartej paczki do ruin Klubu Fantastyki po wydarzeniach ZE5. Nakładka montażowa JAKIŚ CZAS PÓŹNIEJ nie jest częścią generowanego obrazu. Zwyczajnie ubrany Mistrz Końca zabiera artefakt; scena nie powtarza recapu i nie rozwija osobnej historii kradzieży.",
+  "project": {
+    "id": "zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1"
+  },
+  "references": [
+    {
+      "type": "place",
+      "id": "klub-fantastyki-zniszczony"
+    },
+    {
+      "type": "prop",
+      "id": "artefakt-k20"
+    },
+    {
+      "type": "character",
+      "id": "mistrz-konca"
+    }
+  ],
+  "prompts": {
+    "image": "Photorealistic low locked insert inside the exact destroyed Klub Fantastyki. The canonical tiny 3 cm emerald-and-aged-gold K20 lies among dust, broken drawer wood and tabletop debris near the floor collapse. The bare right hand of exact Mistrz Konca enters above it, wearing the ordinary dark olive overshirt and thin red-black bracelet, not ritual costume. Preserve exact ruined room, cool breach light and warm surviving lamps. Exactly one die and one natural hand. No glove, armor, magic, face, text or watermark.",
+    "endFrameDescription": "",
+    "animation": "One continuous approximately 5.7-second cinematic close-detail shot, with no cuts. Begin at floor level on the small K20 lying directly on the dusty damaged floor among plaster, splinters and rubble inside the destroyed Klub Fantastyki. There is no table and no tabletop. The unseen person is crouching or bent down. His bare right hand enters close to the floor, deliberately closes around the die and lifts it from the floor. The camera stays tightly focused on the hand and follows it upward in one smooth restrained tilt as the unseen person stands up. Do not reveal the face, head or full body. Reframe only to the lower torso and hip: black cargo trousers, the edge of the ordinary dark-olive overshirt, the thin red-black bracelet and one clearly formed trouser pocket. The hand pauses briefly beside the pocket, then pushes the single K20 fully inside the trouser pocket. Finish on the hand withdrawing from the pocket and the pocket containing the concealed die. The theft and concealment are the entire point of the take. Preserve the exact tiny emerald-and-aged-gold die, natural hand anatomy, clothing and destroyed room. Exactly one hand, one die and one pocket interaction. No table, no furniture interaction, no glowing magic, no visible face, no second person, no extra hands, no duplicated die, no morphing clothing, no ritual costume, no text, no watermark and no random camera cut."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "place:klub-fantastyki-zniszczony",
+        "character:mistrz-konca",
+        "prop:artefakt-k20"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/przyzwanie-01-kradziez-k20/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/przyzwanie-01-kradziez-k20/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

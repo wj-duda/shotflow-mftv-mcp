@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-12/ze12-05-ogledziny",
+  "id": "ze12-05-ogledziny",
+  "title": "05 — Nieme oględziny",
+  "description": "Przewodnicząca patrzy na dach, niższa inspektorka stoi za nią po lewej z zamkniętą teczką harmonijkową. Czesław po prawej obserwuje przewodniczącą. Łącznie trzy osoby. Nowy wariant biurowych kostiumów KKN. Identyfikatory z białym sygnetem KKN na fioletowym tle, zawsze na anatomicznie lewej piersi; zasłonięte plakietki pozostają zasłonięte.",
+  "project": {
+    "id": "zlote-emoji-12",
+    "name": "Złote Emoji #12"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "ze12-04-przyjazd-komisji"
+    },
+    {
+      "type": "character",
+      "id": "czeslaw"
+    },
+    {
+      "type": "shot",
+      "id": "ze12-05-ogledziny"
+    },
+    {
+      "type": "note",
+      "id": "kkn-duet-biurowy-koncepcja"
+    },
+    {
+      "type": "character",
+      "id": "kkn-przewodniczaca"
+    },
+    {
+      "type": "character",
+      "id": "kkn-inspektorka"
+    },
+    {
+      "type": "prop",
+      "id": "kkn-sygnet"
+    }
+  ],
+  "prompts": {
+    "image": "Use case: precise-object-edit. Edit ONLY the tiny commissioner identification badges in reference1; preserve every face, anatomy, expression, hair, glasses, clothing folds, pose, hands, camera, depth of field, lighting and background exactly. Reference2 is the exact monochrome KKN emblem (three architectural pillars under arch). Reproduce its silhouette in WHITE ink on a small VIOLET vertical rectangular badge with thin silver rim and metal clip; no letters. Badge always on wearer's anatomical LEFT chest. Keep physically realistic badge scale around 3x4cm, not a giant emblem or graphic overlay. No other changes, no new people, no text, no watermark. 16:9 photorealism. Foreground silver-bob chairwoman's existing badge at screen x=680 y=465 stays in EXACT same place on her anatomical LEFT lapel (screen-right side of her torso); replace KKN letters with white emblem. Background inspector's anatomical LEFT chest is OCCLUDED by chairwoman, so keep her badge occluded, do not add one to visible screen-left lapel.",
+    "endFrameDescription": "",
+    "animation": "0–2.5s: The silver-bob chairwoman on screen left slightly raises her chin toward the roof. Czeslaw on screen right watches her face with hands clasped. 2.5–4s: she lowers her gaze toward him. Camera remains locked. The shorter dark-bun inspector behind her stays still with her briefcase closed; hair tips and coat hems move faintly. Preserve all three identities, costumes, KKN badges, glasses chain, fence and screen positions. No male official, pointing, speaking, new people, morphing, extra limbs, cuts, captions or watermarks. Keep each badge fixed to the wearer’s anatomical LEFT chest, with its exact white arch-and-three-pillars emblem on violet; never mirror, relocate or duplicate a badge.\n\n@Image1 identifies the foreground silver-bob chairwoman; @Image2 identifies the shorter inspector behind her at screen left; @Image3 identifies Czeslaw at screen right. Identity only: retain Start Frame costumes, glasses chain, badge emblems and their occlusion."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 4,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze12-05-ogledziny",
+        "prop:kkn-sygnet"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-05-ogledziny/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-05-ogledziny/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

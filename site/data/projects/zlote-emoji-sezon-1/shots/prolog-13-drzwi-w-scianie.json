@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-sezon-1/prolog-13-drzwi-w-scianie",
+  "id": "prolog-13-drzwi-w-scianie",
+  "title": "Drzwi w pustej ścianie",
+  "description": "Jedno szerokie ujęcie przed i po impulsie K20. First Frame: Pipa stoi przy prawym wejściu z karabinem, Van osłania się przy stoliku, K20 leży na środku, a ściana jest pusta. Last Frame: zielono-złota fala odrzuca Pipę w prawą ścianę, wyrywa karabin i kreśli portal.",
+  "project": {
+    "id": "zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1"
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "van-sabe"
+    },
+    {
+      "type": "character",
+      "id": "laidy-pipa"
+    },
+    {
+      "type": "prop",
+      "id": "artefakt-k20"
+    },
+    {
+      "type": "place",
+      "id": "iquitos-tani-pensjonat-belen"
+    },
+    {
+      "type": "shot",
+      "id": "prolog-08-kostka-wypada-vanowi"
+    },
+    {
+      "type": "shot",
+      "id": "prolog-12-kostka-staje-na-20"
+    }
+  ],
+  "prompts": {
+    "image": "Use case: identity-preserve. Exact pre-blast First Frame based on the former active Start Frame revision 3. Preserve its locked wide camera, lens, room geometry, bed, round table, doorways, floor and lighting. Remove every consequence of the blast. Van is tense behind the table, beginning to shield himself. LAIdy Pipa stands firmly on the floor near the right doorway about one metre before the impact wall, holding the black rifle correctly in both hands. The tiny 3.0 cm K20 lies at the exact center-floor position with face 20 upward and only a faint internal pinpoint. Blank wall intact; no wave, portal, debris, airborne person or floating rifle.",
+    "endFrameDescription": "Dokładnie dawny aktywny Start Frame revision 3: pełny zielono-złoty impuls, Van osłonięty przy stoliku, Pipa odrzucona plecami w prawą ścianę, karabin wyrwany w powietrzu i portal kreślący się na pustej ścianie.",
+    "animation": "One continuous 3-second hyperrealistic wide action shot from the supplied quiet pre-blast First Frame to the supplied explosive Last Frame. COMPLETELY LOCKED CAMERA: no pan, tilt, zoom, dolly, reframing or cut. 0.0-0.35 s: tense stillness. Pipa stands at the far right on both feet and grips the rifle with both hands; Van is behind the round table; the tiny 3.0 cm K20 lies at the exact center-floor position with face 20 upward. A concentrated green-gold point intensifies only inside face 20. 0.35-0.65 s: the die emits one sudden focused emerald-gold flash and a coherent radial shockwave begins at the die, expanding physically across the tile floor and through the room. Van immediately ducks lower and completes his defensive shield behind the table. 0.65-1.25 s: the wave reaches Pipa from the die direction, strikes the front of her body, tears the rifle cleanly out of both hands and accelerates her backward along a continuous visible path toward the far right wall. The rifle separates from her hands and spins independently toward the center-left, never duplicating. 1.25-1.85 s: Pipa travels backward through the air and her upper back impacts the right wall exactly where shown in the Last Frame; her boots lift forward from inertia, hair and layered costume whip naturally, and the wall reacts with dust but no gore. 1.45-2.05 s: simultaneously, precise green lines rapidly trace the rooftop portal on the central blank wall above the bed. 2.05-3.0 s: motion settles into the supplied Last Frame: Pipa held at the wall by the fading force, rifle airborne separately, Van fully shielded, portal outline established, debris and green energy matching the endpoint. Reach the complete blast composition no later than 2.05 seconds and hold/settle it so the effect is fully visible inside the 57-frame timeline clip. Preserve exact Van and LAIdy Pipa identities, anatomy, canonical costumes, room geometry, rumpled bed, table, tiny die scale, K20 design and correct numerals. Exactly one Van, one Pipa, one rifle and one K20. No fireball, gore, teleporting person, object spawning, rifle remaining in Pipa hands after impact, duplicate weapon, giant die, extra people, extra limbs, morphing, camera movement, cuts, captions, logos or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 4,
+      "source": "generated",
+      "referenceKeys": [
+        "character:van-sabe",
+        "character:laidy-pipa",
+        "prop:artefakt-k20",
+        "place:iquitos-tani-pensjonat-belen",
+        "shot:prolog-12-kostka-staje-na-20"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-13-drzwi-w-scianie/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-13-drzwi-w-scianie/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "revision": 1,
+      "source": "reference",
+      "referenceKeys": [
+        "shot:prolog-13-drzwi-w-scianie"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-13-drzwi-w-scianie/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-13-drzwi-w-scianie/frame-end-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

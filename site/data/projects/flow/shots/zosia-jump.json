@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:flow/zosia-jump",
+  "id": "zosia-jump",
+  "title": "zosia-jump",
+  "description": "zosia skacze na koncercie polandrock festiwal",
+  "project": {
+    "id": "flow",
+    "name": "Flow"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "zosia-wraca-do-domu"
+    }
+  ],
+  "prompts": {
+    "image": "Generate exactly one cinematic still image in landscape 16:9.\n\nCreate a variation of the previously generated Shot: zosia-wraca-do-domu.\nTreat that shot as the exact visual reference.\nPreserve the same character identity, clothing, location, camera position, framing, lighting, lens, composition, and visual style.\nReference shot description:\nzosia pakuje się z przystanku pol and rock i wsiada na statcji do pociągu, zachowaj pełne podobieństwo tej postaic co wkleiłem\nChange only what is requested in the new shot description below.\n\nShot: zosia-jump\nDescription:\nzosia skacze na koncercie polandrock festiwal\n\nDo not include text, captions, borders, contact sheets, or multiple panels.",
+    "endFrameDescription": "",
+    "animation": "zosia is jumping at music festival"
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/flow/shots/zosia-jump/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/flow/shots/zosia-jump/frame-start-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ]
+}

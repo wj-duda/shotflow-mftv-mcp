@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:you-talking/a3115482-56b1-4aaa-a85d-f432302d268b",
+  "id": "a3115482-56b1-4aaa-a85d-f432302d268b",
+  "title": "a3115482-56b1-4aaa-a85d-f432302d268b",
+  "description": "",
+  "project": {
+    "id": "you-talking",
+    "name": "You Talking"
+  },
+  "references": [],
+  "prompts": {
+    "image": "",
+    "endFrameDescription": "",
+    "animation": "sun rise in polish city, statci shot nothing is chaning"
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "timeline",
+      "referenceKeys": [],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/you-talking/shots/a3115482-56b1-4aaa-a85d-f432302d268b/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/you-talking/shots/a3115482-56b1-4aaa-a85d-f432302d268b/frame-start-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ]
+}

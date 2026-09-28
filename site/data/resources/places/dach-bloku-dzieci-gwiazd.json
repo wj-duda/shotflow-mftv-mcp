@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "place:dach-bloku-dzieci-gwiazd",
+  "type": "places",
+  "id": "dach-bloku-dzieci-gwiazd",
+  "name": "Dach bloku Dzieci Gwiazd",
+  "description": "Kanoniczny dach sąsiedniego bloku, na którym Mistrz Końca odprawia rytuał przywołania Dzieci Gwiazd. Jest to wysoki dach starego bloku mieszkalnego stojącego bezpośrednio obok niższego Domu Kultury. Mokra papa, betonowa nadbudówka z ciemnym wejściem, anteny, przewody, kominiki i pojedyncza techniczna lampa tworzą surową nocną scenografię. Na ścianie znajduje się napis PRZYJDŹCIE DZIECI GWIAZD, ośmioramienny symbol Chaosu i numer 18; obok wisi czerwono-czarny sztandar Chaosu. Nad osiedlem rozciąga się granatowe, burzowe niebo. Referencja utrwala dokładną architekturę, kamerę, kompozycję, oświetlenie oraz relację dachu z panoramą blokowiska. Dom Kultury leży tuż poza kadrem, poniżej sąsiedniego budynku, dzięki czemu K20 wyrzucona falą energii może wpaść przez istniejącą wyrwę do zniszczonego Klubu Fantastyki. Mistrz Końca i biookręty obecne na obrazie są elementami kanonicznego shota przyzwania, lecz przy projektowaniu innych ujęć lokacji nie muszą znajdować się w kadrze.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/dach-bloku-dzieci-gwiazd/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/dach-bloku-dzieci-gwiazd/image-001-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-08-18T00:25:28Z"
+}

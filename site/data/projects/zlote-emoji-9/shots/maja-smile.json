@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-9/maja-smile",
+  "id": "maja-smile",
+  "title": "maja-smile",
+  "description": "Finałowy close-up twarzy Mai podczas spokojnego grania. Patrzy lekko w dół na mikser i uśmiecha się ciepło oraz pewnie, słuchając muzyki w dużych czarnych słuchawkach. Wybuch już się skończył: konfetti nie lata, tylko leży na konsoli, kartonie i pojedynczo na jej ramieniu.",
+  "project": {
+    "id": "zlote-emoji-9",
+    "name": "Złote Emoji #9"
+  },
+  "references": [
+    {
+      "type": "take",
+      "id": "maja-box-blow/take-1"
+    },
+    {
+      "type": "character",
+      "id": "maia-melodies"
+    }
+  ],
+  "prompts": {
+    "image": "Use the last visible frame of maja-box-blow/take-1 for exact scene continuity and the Maia Melodies character portrait for exact facial identity. Create an intimate cinematic 16:9 close-up of Maia from upper chest to headphones while she continues DJing. She looks slightly downward toward the mixer below frame with a warm, confident, genuinely pleased smile. Preserve her exact short asymmetrical platinum-lavender bob, green-brown eyes, large black headphones, white shirt, face and skin tone. Keep the same storage room, torn cardboard and upper edge of the console softly blurred behind and below her. The confetti burst is finished: no airborne confetti, only a few settled pieces on the cardboard, console and one on her shoulder. No hand gesture, extra person, captions or watermark.",
+    "endFrameDescription": "",
+    "animation": "Intimate close-up with an extremely subtle slow push-in of only a few percent. Maia keeps her eyes directed toward the mixer just below frame and continues working the controls outside the lower edge, visible only through small natural movements in her shoulders and forearms. She makes two gentle head nods in time with the beat; her platinum-lavender bob responds with slight secondary motion. Halfway through, her focused smile deepens naturally for a moment as she hears the transition land, then settles into a relaxed confident expression. She briefly tilts her head a few degrees toward one headphone earcup as if monitoring the mix, without raising a hand into the facial area. Preserve Maia's exact facial identity, eyes, hair, headphones, white shirt, skin texture, proportions and the established room throughout. All confetti has already fallen and remains motionless on the cardboard, console and her shoulder; no new pieces enter or move through the air. No speaking, no lip-sync, no exaggerated grin, no thumbs-up, no camera shake, no cuts, no face morphing, no new person, no explosion, no smoke, no flying confetti, no text changes and no watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "take:maja-box-blow/take-1",
+        "character:maia-melodies"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-9/shots/maja-smile/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-9/shots/maja-smile/frame-start-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ]
+}

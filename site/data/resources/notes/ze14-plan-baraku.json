@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "note:ze14-plan-baraku",
+  "type": "notes",
+  "id": "ze14-plan-baraku",
+  "name": "ZE14 — blocking baraku i osie kamer",
+  "description": "Rzut produkcyjny na podstawie kanonicznego planu lokalu i ujęcia dolacz-01-spojrzenie. Jedno biurko: Czesław z tyłu po lewej, Halinka z tyłu po prawej. Dwa krzesła petentów przed biurkiem. Sirock wchodzi jedynymi drzwiami na prawej ścianie od strony przedniej i staje przy prawym przednim narożniku biurka. A: kamera od strony petentów. B: lewy przedni narożnik, kierunek na drzwi. Plan orientacyjny, nie pomiar architektoniczny. Strzałki i podpisy nie występują w filmie.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/ze14-plan-baraku/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/ze14-plan-baraku/image-001-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-27T00:47:40.977Z"
+}

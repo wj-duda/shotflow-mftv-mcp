@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-12/ze12-03-telefon-czeslawa",
+  "id": "ze12-03-telefon-czeslawa",
+  "title": "03 — Telefon o poranku",
+  "description": "Poranek w tymczasowym biurze remontu. Głos członkini poza kadrem zapowiada wizytację Komisji Kultury Najwyższej bez podania powodu. Czesław obawia się odwołania. Dialog w PLAN.md. Lokal zastępczy poza Domem Kultury; Czesław nie wie o upadku anioła.",
+  "project": {
+    "id": "zlote-emoji-12",
+    "name": "Złote Emoji #12"
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "czeslaw"
+    },
+    {
+      "type": "note",
+      "id": "czeslaw-lokal-zastepczy-ze12"
+    }
+  ],
+  "prompts": {
+    "image": "Use case: identity-preserve. ONE photorealistic cinematic 16:9 START FRAME, 1920x1080 preferred. Images 1 and 2 lock Czeslaw's exact face, rectangular glasses, curly dark hair, unshaven tired face, 171cm average build, rumpled dark suit, beige shirt and loose dark tie; do not copy reference-sheet text. A medium close-up from a little below seated eye level, 50mm lens, man seated in a cramped TEMPORARY construction site office container. Strong early morning daylight through venetian blinds on screen left, cold white metal panel walls, old wooden desk, a few plain folders and a beige corded telephone. His RIGHT hand already holds handset to RIGHT ear, LEFT hand rests on folder. He is listening, eyes focused toward lower left, lips closed, brow beginning to tighten: a small human being about to hear a terrifying institutional name. Composition puts him screen right with quiet negative space to left, softly blurred blinds. No other people, no commission visible, no wings, no readable invented paperwork text, no decor of a finished renovated building. Restrained 35mm grain and natural skin, real Polish provincial workplace, no cartoon grimace.",
+    "endFrameDescription": "",
+    "animation": "9-second continuous locked shot. 0–3s: Czeslaw silently listens with handset at his right ear. 3–6s: eyes widen, shoulders stiffen, torso straightens slightly. 6–8.5s: he slowly lowers the handset with his right hand and seats it in the original telephone cradle. 8.5–9s: his right palm rests on the hung-up handset, stunned gaze fixed ahead. Left hand stays on folder throughout. Coiled cord settles naturally. Keep desk, blinds and morning lighting unchanged. No hand swap, standing up or generated speech. Preserve exact identity, anatomy, clothing, props and set geometry. No new people, extra limbs, morphing, cuts, captions or watermarks."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "character:czeslaw"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-03-telefon-czeslawa/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-03-telefon-czeslawa/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "revision": 1,
+      "source": "reference",
+      "referenceKeys": [],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-03-telefon-czeslawa/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-03-telefon-czeslawa/frame-end-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-9/maja-mix",
+  "id": "maja-mix",
+  "title": "maja-mix",
+  "description": "Prawdziwy top shot dokładnie pionowo nad konsolą DJ-ską Mai. Oba decki i centralny mikser wypełniają kadr. Widać wyłącznie jej przedramiona i dłonie: lewa precyzyjnie pracuje na korekcji i faderach miksera, prawa kontroluje talerz prawego decka. Na sprzęt opadają pojedyncze kawałki konfetti.",
+  "project": {
+    "id": "zlote-emoji-9",
+    "name": "Złote Emoji #9"
+  },
+  "references": [
+    {
+      "type": "take",
+      "id": "maja-box-blow/take-1"
+    }
+  ],
+  "prompts": {
+    "image": "Use the last visible frame of maja-box-blow/take-1 as exact visual continuity. Create a true vertical bird's-eye top shot with the camera pointing straight down at 90 degrees over the same professional DJ console. Fill the 16:9 frame with the left turntable, large central mixer and right turntable. Only Maia's two forearms with rolled white sleeves and her hands enter from the top edge. Her left hand pinches an EQ knob on the central mixer; her right hand touches the right platter for cueing. Preserve the exact black flight cases, plausible controls, faders, knobs, cables, torn cardboard edges and sparse falling confetti. Warm light with subtle blue-magenta reflections. No face, torso, extra hands, warped equipment, front perspective, captions or watermark.",
+    "endFrameDescription": "",
+    "animation": "Static true top-down camera, locked exactly perpendicular to the DJ console for the entire shot. Over roughly three seconds Maia performs one concise, technically believable mixing phrase. Her left thumb and index finger turn the selected EQ knob a small quarter-turn clockwise, pause on the beat, then return it slightly and slide one nearby channel fader upward by a short controlled distance. At the same time her right hand gently nudges the edge of the right turntable platter backward a few centimetres, releases it cleanly, and taps one illuminated cue button once. Her wrists and fingers move with precise professional control rather than exaggerated dancing. Small LEDs and level meters pulse rhythmically on the equipment while a few pieces of confetti drift slowly across the frame and settle without covering the controls. Preserve the exact console layout, both turntables, central mixer, cables, flight cases, cardboard edges, Maia's skin tone and rolled white sleeves throughout. Exactly two anatomically correct hands with five fingers each. No camera movement, no zoom, no cuts, no face, no torso, no extra hands, no fused fingers, no floating controls, no duplicated equipment, no console morphing, no new objects, no text changes and no watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "take:maja-box-blow/take-1"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-9/shots/maja-mix/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-9/shots/maja-mix/frame-start-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ]
+}

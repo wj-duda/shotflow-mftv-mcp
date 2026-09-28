@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-11/lacznik-pudelko-kolczyk",
+  "id": "lacznik-pudelko-kolczyk",
+  "title": "Łącznik: wybór kolczyka",
+  "description": "Widok z góry na dłonie Mai wybierające srebrny kolczyk z czarnego pudełka; prowadzi od zalotki do założenia biżuterii.",
+  "project": {
+    "id": "zlote-emoji-11",
+    "name": "Złote Emoji #11"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "maia-podkreca-rzesy"
+    },
+    {
+      "type": "shot",
+      "id": "maia-zaklada-kolczyk"
+    },
+    {
+      "type": "place",
+      "id": "mieszkanie-po-afterze"
+    },
+    {
+      "type": "note",
+      "id": "movie-shot"
+    }
+  ],
+  "prompts": {
+    "image": "Fotorealistyczny filmowy insert 16:9 z góry nad drewnianą toaletką. Dwie anatomicznie poprawne dłonie Mai otwierają małe czarne aksamitne pudełko; palce podnoszą jeden mały srebrny kolczyk-koło, drugi pozostaje w pudełku. Zalotka może być miękko nieostra w tle. Zachować manicure, skórzane mankiety, oświetlenie mieszkania i biżuterię z sąsiednich ujęć; bez twarzy, napisów, logotypów, nadmiarowych palców i dodatkowej biżuterii.",
+    "endFrameDescription": "",
+    "animation": "Single continuous 3-second top-down macro insert with a locked camera. The action begins immediately: Maia's fingertips grasp exactly one small silver hoop earring and lift it a few centimeters from the open black velvet jewelry box. Complete the useful lift within the first second, then hold it steadily. The matching second earring stays inside the box and the eyelash curler remains still in the background. Preserve the exact hands, manicure, leather cuffs, jewelry, box, wooden vanity, and warm light. No extra jewelry, extra fingers, malformed hands, duplicated objects, morphing, camera move, cut, text, or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:maia-podkreca-rzesy",
+        "shot:maia-zaklada-kolczyk",
+        "place:mieszkanie-po-afterze",
+        "note:movie-shot"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-11/shots/lacznik-pudelko-kolczyk/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-11/shots/lacznik-pudelko-kolczyk/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

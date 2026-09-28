@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-sezon-1/prolog-08-kostka-wypada-vanowi",
+  "id": "prolog-08-kostka-wypada-vanowi",
+  "title": "Kostka wypada Vanowi",
+  "description": "Jedno ciagle ujecie. Van dopiero zrywa sie z nieposcielonego lozka, podczas gdy mala K20 lezy nieruchomo na okraglym stoliku, a Pipa celuje z odleglych drzwi. Van dopada stolika, dotyka kostki, ploszy sie i dopiero wtedy K20 wyslizguje mu sie z palcow nad krawedzia blatu.",
+  "project": {
+    "id": "zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1"
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "van-sabe"
+    },
+    {
+      "type": "character",
+      "id": "laidy-pipa"
+    },
+    {
+      "type": "prop",
+      "id": "artefakt-k20"
+    },
+    {
+      "type": "place",
+      "id": "iquitos-tani-pensjonat-belen"
+    },
+    {
+      "type": "shot",
+      "id": "prolog-06-pokoj-cisza"
+    },
+    {
+      "type": "shot",
+      "id": "prolog-07b-pipa-w-drzwiach"
+    }
+  ],
+  "prompts": {
+    "image": "Locked wide First Frame matching the former shot-08 frame as the later endpoint. Van is only beginning to scramble off the same rumpled bed; one hand pushes into the mattress and one leg swings toward the floor. The exact 3 cm emerald-and-gold K20 rests stationary and unlit on top of the same round metal table. Pipa remains distant in the corrected right-hinged doorway, aiming at Van. Exact identities, room geometry, furniture scale and lighting; no floating die, duplicates or camera change.",
+    "endFrameDescription": "The former active Start Frame revision 3 preserved exactly: Van has reached and crouched at the round table; the small K20 has just slipped from his fingers and is airborne immediately beyond the table edge, while Pipa keeps aiming from the distant doorway.",
+    "animation": "One continuous photorealistic live-action shot, exactly 3 seconds, using the supplied First Frame and Last Frame as immutable visual endpoints. The camera is completely locked off: no pan, tilt, zoom, reframing or cut. Van starts on the rumpled bed, already pushing hard off the mattress in alarm. He makes one urgent, physically continuous movement: swings his leg down, lunges the short distance to the round metal table, drops into the low crouch shown in the Last Frame and reaches for the K20. CRITICAL OBJECT PHYSICS: the single 3 cm K20 remains absolutely stationary on the tabletop until Van's fingertips make clear physical contact with it. His fingers close around the die for an instant; because he is rushing and frightened, it immediately slips from his grasp and travels naturally over the near table edge into the exact airborne position shown in the supplied Last Frame. The die never moves by itself, never levitates, never hops, never bounces and never changes size. Lady Pipa remains a distant, nearly motionless threat in the doorway, keeping the rifle aimed at Van throughout; only subtle breathing and natural micro-movement. Preserve the exact faces, bodies, black clothing, Pipa's costume and rifle, right-hinged door opened toward screen-right, room geometry, rumpled bedding, table, lighting, reflections and all object scales. Exactly one Van, one Pipa, one rifle and one die. No teleporting, sliding person, premature die movement, duplicate objects, firing, muzzle flash, magic glow, morphing, anatomy changes, extra limbs, new people, cuts, captions, logos or watermark. Reach the supplied Last Frame cleanly and hold its composition at the end."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 4,
+      "source": "generated",
+      "referenceKeys": [
+        "character:van-sabe",
+        "character:laidy-pipa",
+        "prop:artefakt-k20",
+        "place:iquitos-tani-pensjonat-belen",
+        "shot:prolog-06-pokoj-cisza",
+        "shot:prolog-07b-pipa-w-drzwiach"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-08-kostka-wypada-vanowi/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-08-kostka-wypada-vanowi/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "revision": 1,
+      "source": "reference",
+      "referenceKeys": [
+        "shot:prolog-08-kostka-wypada-vanowi"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-08-kostka-wypada-vanowi/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-08-kostka-wypada-vanowi/frame-end-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

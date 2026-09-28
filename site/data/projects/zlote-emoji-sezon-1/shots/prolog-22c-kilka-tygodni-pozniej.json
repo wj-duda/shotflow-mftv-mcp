@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-sezon-1/prolog-22c-kilka-tygodni-pozniej",
+  "id": "prolog-22c-kilka-tygodni-pozniej",
+  "title": "Kilka tygodni później",
+  "description": "Czterosekundowa plansza czasowa po schowaniu kostki K20: KILKA TYGODNI PÓŹNIEJ. Po planszy montażysta wstawi fragment Złote Emoji Special pokazujący wtargnięcie chłopaków do środka i powstanie dziury, przed ujęciem ręki zabierającej kostkę.",
+  "project": {
+    "id": "zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1"
+  },
+  "references": [],
+  "prompts": {
+    "image": "Minimalist cinematic 16:9 time card. Very dark, nearly black background with a subtle charcoal and burgundy vertical gradient. Exactly centered single uppercase Polish title: KILKA TYGODNI POZNIEJ, rendered with the correct Polish diacritics as visible in the supplied frame. Classic serif typeface, warm off-white letters, ample negative space, no border, decoration, logo, or additional text.",
+    "endFrameDescription": "",
+    "animation": "Static four-second time card. Camera and title remain completely motionless; no flicker, letter deformation, new elements, cuts, or watermarks."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-22c-kilka-tygodni-pozniej/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-22c-kilka-tygodni-pozniej/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

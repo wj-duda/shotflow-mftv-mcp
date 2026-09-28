@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "note:kompost",
+  "type": "notes",
+  "id": "kompost",
+  "name": "Kompost",
+  "description": "Firma kurierska jest parodią inpostu ale ogólnie firm kurierskich. Kurierzu jeżdzą czarnymi furgontkami do paczkomatów i mało kto ich kiedykowliek widiął bo jeżdzą tylko nocą. Jak się pojawiają eny robią się gangsterko niekopojące choć w scenie nic się nie dzieje. Ujęcia na koła drzwi. Furgonetki mają przyciemniane szyby",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/kompost/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/kompost/image-001-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-08-03T11:48:18.2028961+00:00"
+}

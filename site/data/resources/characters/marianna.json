@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "character:marianna",
+  "type": "characters",
+  "id": "marianna",
+  "name": "Marianna \"Mańka\"",
+  "description": "CHARACTER [age=18-29; presentation=feminine; height=tall; build=slim; body=straight; chest=small; skin=very-fair; face=heart; eyes=blue; hair-color=white; hair-length=long; hair-texture=straight]\r\nOkoło 178 cm, wysoka, szczupła, z długimi kończynami i nieco kanciastą postawą. Także ma albinizm, lecz jest wyraźnie smuklejsza od brata; długie białe włosy, niemal niewidoczne brwi i rzęsy. Cecha charakterystyczna: niewielka przerwa między przednimi zębami.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "portrait",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/marianna/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/marianna/image-001-thumb.webp",
+      "width": 1254,
+      "height": 1254,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-002",
+      "role": "silhouette",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/marianna/image-002.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/marianna/image-002-thumb.webp",
+      "width": 1254,
+      "height": 1254,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-08-01T23:33:14.0422348+00:00"
+}

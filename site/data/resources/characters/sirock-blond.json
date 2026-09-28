@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "character:sirock-blond",
+  "type": "characters",
+  "id": "sirock-blond",
+  "name": "Sirock — blond",
+  "description": "CHARACTER [age=30-38; presentation=feminine; height=average; build=slim; body=straight; chest=small; skin=pale; face=elongated-heart-oval; eyes=gray-green; hair-color=ash-blonde; hair-length=long; hair-texture=straight-wet]\n\nBlond wariant kanonicznej Sirock w świecie AIMFTV. To dokładnie ta sama dorosła kobieta co `character:sirock`: wąska wydłużona twarz o lekko sercowatym owalu, duże migdałowe zielonoszare oczy, cienkie łukowate brwi, zwarty wąski nos, mocny łuk Kupidyna, pełna dolna warga i delikatnie spiczasty podbródek. Rysy pochodzą z syntezy awatarów „A Little Unbalanced”, zwłaszcza ujęć za skorodowanymi prętami, i nie mogą przypominać Zośki. Jedyną zmianą względem wersji czarnowłosej są długie, mokre włosy w chłodnym popielatym blondzie z naturalnymi ciemnymi odrostami. Makijaż jest brudny i ciężki, grafitowoczarny, rozmazany pod dolnymi powiekami; usta ciemne, winno-czarne. Opętanie sygnalizuje wyłącznie włosowata, przygaszona żarowa obręcz na skraju tęczówek — detal łatwy do przeoczenia. Bez rogów, kłów, ran i jawnie potwornych deformacji. Strój bazowy: czarny dopasowany top gorsetowy, czarne jeansy, ciężkie sznurowane buty, wąski choker i kilka cienkich srebrnych łańcuszków. Wariant odpowiada blond wizerunkowi ze zwycięskiego „Which One Is Real”, zachowując identyczną twarz i proporcje wersji czarnowłosej.",
+  "images": [
+    {
+      "id": "image-003",
+      "role": "portrait",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/sirock-blond/image-003.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/sirock-blond/image-003-thumb.webp",
+      "width": 1149,
+      "height": 1369,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-004",
+      "role": "silhouette",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/sirock-blond/image-004.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/sirock-blond/image-004-thumb.webp",
+      "width": 1149,
+      "height": 1369,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-26T18:45:00+02:00"
+}

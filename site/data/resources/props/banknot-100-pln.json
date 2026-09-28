@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "prop:banknot-100-pln",
+  "type": "props",
+  "id": "banknot-100-pln",
+  "name": "Banknot 100 zł — polski złoty",
+  "description": "Banknot 100 polskich złotych, awers z Władysławem II Jagiełłą. Referencja pobrana z oficjalnego serwisu NBP, niegenerowana; oryginalny materiał edukacyjny z nadrukiem WZÓR. Źródło: https://static.nbp.pl/strony/bezpiecznepieniadze/100.html ; plik: https://static.nbp.pl/strony/bezpiecznepieniadze/assets/img/content/front-100.jpg . W ZE13 jeden banknot złożony na pół w prawej dłoni Halinki, widoczny nominał 100, naturalna skala i ślad zgięcia.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/banknot-100-pln/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/banknot-100-pln/image-001-thumb.webp",
+      "width": 909,
+      "height": 453,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-20T11:12:43.061070+00:00"
+}

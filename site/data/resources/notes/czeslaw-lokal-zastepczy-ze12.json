@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "note:czeslaw-lokal-zastepczy-ze12",
+  "type": "notes",
+  "id": "czeslaw-lokal-zastepczy-ze12",
+  "name": "ZE12 — Czesław w lokalu zastępczym",
+  "description": "Czesław pije kawę i odbiera telefon w osobnym lokalu zastępczym poza Domem Kultury. Nie widział upadku anioła i nie zna przyczyny wizytacji. Telefon wywołuje lęk przed odwołaniem i zamknięciem placówki. Po odłożeniu słuchawki jedzie starą damką przez Łazy do Domu Kultury. Upadek kostki cukru to wyłącznie montażowe nawiązanie do anioła, nie oznaka wstrząsu ani gruzu w biurze. Obowiązuje szklanka Czesława prop:szklanka-czeslawa. Na potrzeby tej sceny autor zaakceptował kostkę cukru mimo wcześniejszej uwagi, że Czesław nie słodzi.",
+  "images": [],
+  "updatedAt": "2026-09-12T11:40:01.334125+00:00"
+}

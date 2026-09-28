@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "place:dom-kultury-wejscie",
+  "type": "places",
+  "id": "dom-kultury-wejscie",
+  "name": "Wejście do Domu Kultruy",
+  "description": "Wejście do domu kltury w dniu złotego emoji, w inne dni nie ma tej szarfy oczywisćie",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/dom-kultury-wejscie/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/dom-kultury-wejscie/image-001-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-08-03T11:54:21.9253277+00:00"
+}

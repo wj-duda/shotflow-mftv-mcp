@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-11/maia-zaklada-kolczyk",
+  "id": "maia-zaklada-kolczyk",
+  "title": "Maia zakłada kolczyk",
+  "description": "Maia dopina małe srebrne kółko i z zadowoleniem sprawdza swój profil w lustrze.",
+  "project": {
+    "id": "zlote-emoji-11",
+    "name": "Złote Emoji #11"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "maia-podkreca-rzesy"
+    },
+    {
+      "type": "shot",
+      "id": "maia-gotowa-na-gale"
+    },
+    {
+      "type": "character",
+      "id": "maia-melodies-v2"
+    },
+    {
+      "type": "note",
+      "id": "movie-shot"
+    }
+  ],
+  "prompts": {
+    "image": "Filmowy kadr 16:9 przy tej samej toaletce. Maia v2 w kremowej koszuli odchyla włosy i dwoma naturalnymi dłońmi zapina jedno małe srebrne kółko w widocznym uchu. Identyczna twarz, bob, eyeliner i ciemna szminka. Lekko uniesiona broda i subtelny, samozadowolony pół-dzióbek podczas kontroli profilu. Realistyczne ucho, zapięcie i palce; bez dodatkowej biżuterii, osób, słuchawek, tekstu i watermarku.",
+    "endFrameDescription": "",
+    "animation": "Single continuous 3-second shot. Maia is alone at the mirror. She fastens the existing silver earring, releases the clasp, and lowers one hand. She turns her head only a few degrees to find a more flattering profile. Her eyelids settle into a calm evaluating half-gaze, her lips form a very small controlled pout, and one cheek tightens with restrained satisfaction. When the earring sits perfectly, one eyebrow makes an almost invisible confirmation movement and her expression returns to cool neutrality. Keep the camera stable. Preserve Maia's exact face, hair, makeup, outfit, earring count and design, hands, mirror, and apartment. No broad smile, posing to camera, jewelry duplication, extra hand, extra person, morphing, cut, text, or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:maia-podkreca-rzesy",
+        "shot:maia-gotowa-na-gale",
+        "character:maia-melodies-v2",
+        "note:movie-shot"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-11/shots/maia-zaklada-kolczyk/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-11/shots/maia-zaklada-kolczyk/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

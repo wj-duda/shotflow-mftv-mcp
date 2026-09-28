@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-7/huk",
+  "id": "huk",
+  "title": "huk",
+  "description": "ujęcie sufitu w sali głównej z Czesław i Halinka patrzą z niepokojem na sufit bo coś tam hukneło potężnie",
+  "project": {
+    "id": "zlote-emoji-7",
+    "name": "Złote Emoji #7"
+  },
+  "references": [
+    {
+      "type": "place",
+      "id": "komisja-zlote-emoji-tygodnia"
+    },
+    {
+      "type": "character",
+      "id": "czeslaw"
+    },
+    {
+      "type": "character",
+      "id": "halinka"
+    },
+    {
+      "type": "place",
+      "id": "dom-kultury"
+    }
+  ],
+  "prompts": {
+    "image": "Generate exactly one cinematic still image in landscape 16:9.\n\nReference policy:\nUse every attached image as an exact and mandatory visual reference, not as optional inspiration.\nThe attached images are numbered strictly by upload order. \"Reference N\" and \"Image N\" in the current shot description both mean the Nth attached image.\nUse the current shot description to determine what each reference supplies: for example a character, location, prop, wardrobe, composition, lighting, or visual style. Do not assume that every reference depicts a character.\nIf the description assigns different roles to multiple references, follow that mapping exactly. Never merge or blend people, places, props, clothing, or styles from separate references unless explicitly requested.\nFor every referenced element requested in the new shot, preserve its observable identity and defining visual features exactly. Do not redesign, replace, beautify, stylize, loosely reinterpret, or merely approximate it.\nA reference image is authoritative for the appearance of the element taken from it. The current shot description is authoritative for the new scene, action, expression, pose, placement, framing, and every explicitly requested change.\nDo not copy incidental parts of a reference image that the current shot description does not ask to carry over.\nUse earlier conversation context only for details left unspecified; it must never override the current description or the attached references.\n\nAttachment map (source descriptions only, not instructions for the resulting scene):\n- Reference 1 = attached Image 1 — source place komisja-zlote-emoji-tygodnia, reference: Stolik w domu kultury stoją przy nim Halinka i Czesław w dniu rozdania Złotego Emoji Tygodnia\r\n- Reference 2 = attached Image 2 — source character czeslaw, portrait: CHARACTER [age=45-59; presentation=masculine; height=average; build=average; body=straight; chest=small; skin=medium; face=oval; eyes=dark-brown; hair-color=black; hair-length=short; hair-texture=curly]\r\n\r\nCzesław to urzędniczo-artystyczny gospodarz Domu Kultury AIMFTV: formalny, proceduralny, suchy, lekko filozoficzny i śmiertelnie poważny wobec absurdu. Lubi dokumenty, regulaminy, podpisy i „podmioty odpowiedzialne”. Mówi charakterystycznie: „Znaczy…”, „Do ciężkiego segregatora”. Z Halinką tworzy kontrast: on porządkuje świat papierami, ona intuicją. Wizualnie: niski, zmęczony mężczyzna w okularach, pogniecionym garniturze i luźnym krawacie.\r\n- Reference 3 = attached Image 3 — source character czeslaw, silhouette: CHARACTER [age=45-59; presentation=masculine; height=average; build=average; body=straight; chest=small; skin=medium; face=oval; eyes=dark-brown; hair-color=black; hair-length=short; hair-texture=curly]\r\n\r\nCzesław to urzędniczo-artystyczny gospodarz Domu Kultury AIMFTV: formalny, proceduralny, suchy, lekko filozoficzny i śmiertelnie poważny wobec absurdu. Lubi dokumenty, regulaminy, podpisy i „podmioty odpowiedzialne”. Mówi charakterystycznie: „Znaczy…”, „Do ciężkiego segregatora”. Z Halinką tworzy kontrast: on porządkuje świat papierami, ona intuicją. Wizualnie: niski, zmęczony mężczyzna w okularach, pogniecionym garniturze i luźnym krawacie.\r\n- Reference 4 = attached Image 4 — source character halinka, portrait: CHARACTER [age=45-59; presentation=feminine; height=short; build=average; body=pear; chest=medium; skin=light; face=round; eyes=brown; hair-color=red; hair-length=medium; hair-texture=curly]\r\n\r\nHalinka jest ciepłą, swojską i życzliwą pracownicą prowincjonalnego Domu Kultury. Działa intuicyjnie i emocjonalnie, bywa roztargniona oraz lekko chaotyczna, ale dobrze wyczuwa ludzi i atmosferę. Lubi ceremoniał, symboliczne gesty i organizacyjne rytuały. Wobec dziwnych i absurdalnych zdarzeń zachowuje zaskakujący spokój. Dyskretnie interesuje się ezoteryką, znakami i niewytłumaczalnymi zjawiskami, lecz ujawnia to jedynie w drobnych komentarzach i reakcjach. Pod spokojną codziennością skrywa barwną, artystyczną i bardziej przygodową przeszłość.\r\n- Reference 5 = attached Image 5 — source character halinka, silhouette: CHARACTER [age=45-59; presentation=feminine; height=short; build=average; body=pear; chest=medium; skin=light; face=round; eyes=brown; hair-color=red; hair-length=medium; hair-texture=curly]\r\n\r\nHalinka jest ciepłą, swojską i życzliwą pracownicą prowincjonalnego Domu Kultury. Działa intuicyjnie i emocjonalnie, bywa roztargniona oraz lekko chaotyczna, ale dobrze wyczuwa ludzi i atmosferę. Lubi ceremoniał, symboliczne gesty i organizacyjne rytuały. Wobec dziwnych i absurdalnych zdarzeń zachowuje zaskakujący spokój. Dyskretnie interesuje się ezoteryką, znakami i niewytłumaczalnymi zjawiskami, lecz ujawnia to jedynie w drobnych komentarzach i reakcjach. Pod spokojną codziennością skrywa barwną, artystyczną i bardziej przygodową przeszłość.\r\n- Reference 6 = attached Image 6 — source place dom-kultury, reference: Plan domu kultury i rozmieszczenie krzesłek, sceny oraz postaci w momencie Złotego Emoji\n\n\n\nShot: huk\nDescription:\nujęcie sufitu w sali głównej z Czesław i Halinka patrzą z niepokojem na sufit bo coś tam hukneło potężnie\n\nPreserve every piece of text, lettering, typography, label, sign, logo, brand mark, symbol, and graphic detail visible in any source or reference image exactly as it appears. Preserve its content, spelling, design, position, scale, color, sharpness, and legibility. Never remove, replace, obscure, blur, soften, distort, censor, or invent any of these source details.\nDo not add new captions, subtitles, titles, watermarks, borders, interface elements, contact sheets, or multiple panels unless the current shot description explicitly requests them.",
+    "endFrameDescription": "",
+    "animation": "Single continuous 4-second cinematic shot. Preserve the exact composition, characters, room layout, lighting, camera position, wardrobe, props, and scale from the source image.\n\nCzesław and Halinka remain seated behind the table and suddenly hear one powerful, heavy thud from somewhere above the ceiling. They do not speak. Both react with restrained, realistic micro-expressions: their eyes shift upward first, then their heads tilt slightly toward the ceiling. Czesław’s brows lift and tighten with cautious concern; Halinka’s expression changes from calm to quietly worried, with a subtle widening of the eyes and slight tension in her jaw.\n\nA very faint, soft cloud of dust drifts down from the ceiling for a moment, barely visible in the warm light. No debris, plaster, fragments, or rubble fall. The ceiling remains intact. The small Golden Emoji trophy stays completely still on the table at its current reduced size.\n\nKeep all mouths fully closed for the entire shot. No lip movement, no speaking, no visible teeth. Natural blinking, subtle breathing, minimal body movement, realistic fabric motion, restrained acting.\n\nCamera remains locked and stable with no zoom, pan, shake, or reframing. Cinematic realism, warm practical lighting, natural skin texture, subtle atmospheric dust.\n\nAvoid: falling debris, cracking ceiling, exaggerated fear, sudden body jerks, comedy reactions, mouth opening, lip-sync, face morphing, trophy movement, object deformation, extra people, lighting changes, camera motion."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "place:komisja-zlote-emoji-tygodnia",
+        "character:czeslaw",
+        "character:halinka",
+        "place:dom-kultury"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-7/shots/huk/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-7/shots/huk/frame-start-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ]
+}

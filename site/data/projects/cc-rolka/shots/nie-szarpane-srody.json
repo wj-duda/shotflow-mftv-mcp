@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:cc-rolka/nie-szarpane-srody",
+  "id": "nie-szarpane-srody",
+  "title": "To nie Szarpane Środy",
+  "description": "Halinka odpowiada suchym, ciepłym spojrzeniem: to nie Szarpane Środy.",
+  "project": {
+    "id": "cc-rolka",
+    "name": "CC-Rolka"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "halinka-herbata"
+    },
+    {
+      "type": "character",
+      "id": "halinka"
+    }
+  ],
+  "prompts": {
+    "image": "Native vertical 9:16 reverse close-up completing the same late-1990s Polish TV bedroom dialogue. Exact Halinka pauses with one steaming transparent glass mug and gives off-screen Czeslaw a tiny restrained deadpan look: warm concern mixed with dry disapproval, lips closed. Tight chest-and-face close-up; Halinka occupies the left two-thirds and looks down-right. Mug and steam enter lower-center; floral wallpaper and warm bedside lamp continue the location. Canonical burgundy cardigan, black top, gold earrings and layered necklaces. Exact photorealism, subtle 16 mm/S-VHS grain, cold window fill and warm tungsten edge. One person, one mug, correct hands, no text or artifacts.",
+    "endFrameDescription": "",
+    "animation": "3-second locked reaction close-up. Halinka gives a tiny knowing smile, raises one eyebrow and clearly says in Polish: 'Ale panie Czesławie, to nie Szarpane Środy.' Keep delivery calm and dry, with only small natural facial movement. Preserve identity, hair, jewelry and lighting. No cut, zoom, extra people, text or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:halinka-herbata",
+        "character:halinka"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/nie-szarpane-srody/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/nie-szarpane-srody/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

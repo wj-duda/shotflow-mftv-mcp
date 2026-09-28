@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-14/ze14-nagroda-naszyjnik",
+  "id": "ze14-nagroda-naszyjnik",
+  "title": "07 — Nagroda i naszyjnik",
+  "description": "Przekazanie statuetki przed dwiema przebitkami odbić. Korekta ciągłości: cała statuetka wraz z podstawą obrócona, ku Sirock skierowany gładki bok kuli; grawer uśmiechu widoczny tylko przy lewej krawędzi, tabliczka na skośnej lewej ściance podstawy. Halinka trzyma podstawę, Sirock sięga, układ postaci i biurka bez zmian. Bez błysku i przemiany w tym szerokim kadrze: anomalia występuje wyłącznie w następujących odbiciach. Halinka pozostaje nieświadoma. Ciągłość ulewy: Sirock przemoczona, mokre blond włosy i czarne ubranie, krople na skórze; bez kurtki i parasola. Wnętrze i Halinka suche, deszcz tylko na zewnątrz. Ustawienie statuetki zachowane.",
+  "project": {
+    "id": "zlote-emoji-14",
+    "name": "Złote Emoji #14"
+  },
+  "references": [
+    {
+      "type": "place",
+      "id": "komisja-zlote-emoji-tygodnia"
+    },
+    {
+      "type": "character",
+      "id": "sirock-blond"
+    },
+    {
+      "type": "character",
+      "id": "halinka"
+    },
+    {
+      "type": "character",
+      "id": "czeslaw"
+    },
+    {
+      "type": "note",
+      "id": "movie-shot"
+    },
+    {
+      "type": "place",
+      "id": "lokal-zastepczy-domu-kultury"
+    },
+    {
+      "type": "shot",
+      "id": "ze14-mozna-odebrac"
+    },
+    {
+      "type": "shot",
+      "id": "ze14-nagroda-naszyjnik"
+    },
+    {
+      "type": "shot",
+      "id": "ze14-odbicie-halinki"
+    },
+    {
+      "type": "shot",
+      "id": "ze14-odbicie-sirock"
+    },
+    {
+      "type": "shot",
+      "id": "seed"
+    },
+    {
+      "type": "shot",
+      "id": "ze14-sirock-weszy"
+    }
+  ],
+  "prompts": {
+    "image": "Precise weather/wetness edit of EXACT reference1 movie frame. Preserve composition, lens, all identity/face/body anatomy, poses, hands, gaze direction, furniture, architecture proportions, signs/text, door opening/hinge direction, trophy design/rotation and all props. No redesign or mirror. 16:9 photoreal cinematic, grey overcast daytime with readable faces. Inside DRY office. Halinka dry handing award. CRITICAL preserve trophy rotated SIDE-ON: smooth gold side toward Sirock, tiny smile profile at LEFT edge, plaque on foreshortened LEFT base face. Do NOT turn trophy to camera. No pendant glow, no rain falling inside. Sirock is visibly SOAKED THROUGH after walking in a downpour without coat or umbrella, entirely indifferent to the rain. Preserve her BLONDE hair color and length but make it genuinely saturated: darker wet blonde strand bundles flattened to scalp, stringy dripping lengths stuck against neck/shoulders, wet fringe against forehead. Visible droplets and water trails on bare shoulders, arms and face; heavy eye makeup slightly damp/smudged but EXACT facial features intact. Black corset/trousers dark wet fabric with restrained water sheen, stays fully OPAQUE and same cut; same silver jewellery. No added jacket/hood/umbrella/towel, no shivering or cold gesture, no supernatural eyes. Image2 wetness continuity only. Do NOT change trophy orientation or handover geometry of image1.",
+    "endFrameDescription": "",
+    "animation": "0.0–1.6s: Sirock's already extended hand moves forward a few centimeters and closes gently around the near side of the trophy base. Halinka keeps supporting the opposite side. 1.6–3.0s: Both maintain this shared contact while Sirock lowers her eyes toward the gold sphere. Camera: locked-off. Secondary motion: a small drop falls from Sirock's hair. @Image1 anchors Halinka's face; @Image2 anchors Sirock's identity and wet blonde hair only. Preserve the trophy's size, sideways orientation, engraved smile at the left edge and plaque. Avoid rotating or lifting the trophy, fused fingers, black eyes, glowing pendant, new people or cuts."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 5,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze14-nagroda-naszyjnik",
+        "shot:ze14-sirock-weszy"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-nagroda-naszyjnik/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-nagroda-naszyjnik/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

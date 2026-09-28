@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-12/ze12-01-upadek-aniola",
+  "id": "ze12-01-upadek-aniola",
+  "title": "01 — Upadek anioła",
+  "description": "Gwałtowne pikowanie głową w dół przez nieruchomy kadr, zakończone wyjściem anioła dolną krawędzią. Obrót całego ciała to ruch wtórny podczas spadku. Mocno płonące skrzydła zostawiają smugę ognia i żaru skierowaną ku górze. Kamera nie śledzi postaci. Pionowy spadek od pierwszej klatki.",
+  "project": {
+    "id": "zlote-emoji-12",
+    "name": "Złote Emoji #12"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "ze12-01-upadek-aniola"
+    },
+    {
+      "type": "character",
+      "id": "aniol-wygnany"
+    }
+  ],
+  "prompts": {
+    "image": "Use case: identity-preserve. Fictional supernatural movie scene, one photorealistic 16:9 frame. Same winged character as references1 and2, same face and ivory double-breasted suit with pale shoes. Character is upside down in blue night clouds, descending vertically after magical expulsion. Show a clear SIDE PROFILE with a simple anatomically natural relaxed pose. Head at lower center, feet at upper center, whole figure visible. Head, neck, chest and pelvis naturally aligned; crown toward bottom and nose toward screen right. Chin close to chest, shoulders and hips face the same direction. Both legs close to parallel, knees slightly bent normally, ankles relaxed. Both arms relaxed alongside body, elbows slightly bent, hands loosely beside hips. Two wings attached at shoulder blades behind back, black charred feather surfaces glowing orange with magical flames swept upward. Black hair swept upward with ember tips. Eyes closed, brows drawn, mouth slightly open expressing distress. Accurate believable human proportions and natural joints are the priority. No extreme limb positions or torso twist. Level side camera, dark blue clouds and small moon upper right. Figure about 65 percent image height with space below head, gentle flame trails upward establish vertical direction. Preserve the ordinary suit and recognizable face. No visible physical injury, blood, extra limbs, additional people, text or watermark.",
+    "endFrameDescription": "",
+    "animation": "0–4.5s: The angel is already plunging headfirst straight toward SCREEN BOTTOM from the first frame, accelerating through the image. His head crosses the bottom edge first, followed by torso, burning wings and feet; his entire body exits below frame by 4.5s. During descent his whole body rolls once around its head-to-feet axis, shoulders and pelvis turning together. 4.5–6s: only the fading fire trail remains. Camera: completely locked; cloud formations and moon stay fixed, no following or recentering. Secondary motion: powerful turbulent flames stream upward from both burning wings; embers peel off the feathers into a trailing wake. Preserve identity, ivory suit, two attached wings and anatomically natural joints. No hovering, slow motion, flying sideways, wingbeats, camera orbit, extra limbs, morphing, cuts, new people, text or watermarks."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 5,
+      "source": "generated",
+      "referenceKeys": [
+        "character:aniol-wygnany"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-01-upadek-aniola/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-01-upadek-aniola/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

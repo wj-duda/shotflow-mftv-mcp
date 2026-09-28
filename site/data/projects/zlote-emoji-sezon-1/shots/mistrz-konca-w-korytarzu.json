@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-sezon-1/mistrz-konca-w-korytarzu",
+  "id": "mistrz-konca-w-korytarzu",
+  "title": "Mistrz Końca w korytarzu",
+  "description": "Niemy, około 3,7-sekundowy reveal Mistrza Końca bezpośrednio pomiędzy kradzieżą K20 a jego wyjściem przed Dom Kultury. Mistrz idzie sam wąskim korytarzem zaplecza: za plecami zostawia ciepłe światło zniszczonego Klubu Fantastyki, przed sobą ma chłodne światło wyjścia. Kamera cofa się przed nim w planie od pasa w górę. Jedną rękę trzyma w kieszeni na ukrytej kostce, drugą zaciska na pasku torby. Jeszcze się nie rozgląda i nic nie mówi. Niepokój wynika z jego zbyt spokojnego, nieruchomego spojrzenia, zaciśniętej szczęki oraz starej świetlówki, której krótkie przygasanie przesuwa cień przez twarz. To pierwszy czytelny sygnał, że kradzież była świadomą decyzją, ale Mistrz nadal wygląda jak zwyczajny członek klubu, nie jawny złoczyńca.",
+  "project": {
+    "id": "zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1"
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "mistrz-konca"
+    },
+    {
+      "type": "shot",
+      "id": "przyzwanie-01-kradziez-k20"
+    },
+    {
+      "type": "shot",
+      "id": "mistrz-wychodzi"
+    },
+    {
+      "type": "place",
+      "id": "klub-fantastyki-zniszczony"
+    }
+  ],
+  "prompts": {
+    "image": "Use case: identity-preserve. Asset type: cinematic Start Frame for a photorealistic live-action 1920x1080 film shot. Generate one landscape 16:9 frame. References 1 and 2 are the mandatory portrait and full-body identity of the exact 27-year-old Mistrz Konca. Reference 3 establishes immediate story continuity after his hand steals the tiny K20 from the ruined Klub Fantastyki. Reference 4 establishes his exact downstream face, civilian wardrobe, bag and proportions immediately after he exits the building. Reference 5 supplies only the aged materials, post-damage dust and warm practical-light atmosphere of the hidden club behind him; do not copy its room composition or floor breach into the corridor.\n\nThis is the missing silent beat directly between stealing the K20 and stepping outside. Mistrz Konca walks alone through the narrow backstage service corridor of an old Polish Dom Kultury. He has already concealed the stolen die inside the pocket of his black cargo trousers. The K20 is not visible and emits no light. He moves from the warm damaged club area behind him toward the colder front exit ahead.\n\nCinematic waist-up moving portrait, camera at chest-to-eye height directly ahead of him as if tracking backward, 40–50 mm lens, shallow but not extreme depth of field. He is slightly right of center, walking toward camera. Show enough waist to read one hand pressed naturally inside the cargo pocket guarding the hidden die; his other hand grips the brown shoulder-bag strap. Strong corridor convergence behind him: scuffed institutional cream-and-green walls, old radiator, exposed pipes, battered doors and dusty linoleum or terrazzo floor. At the far end behind him, only a soft warm amber spill hints at the ruined club. Ahead and above him, one aging cold fluorescent tube creates pale green-cyan top light.\n\nHis exact recognizable face is the emotional center. No speech, grin, sneer, rage, panic or theatrical villain pose. Mouth closed, jaw quietly set, eyes fixed straight ahead with wounded certainty and controlled determination. He looks like someone who has already justified what he did. Unease comes from stillness and microexpression: heavy brow, almost no blinking, unnervingly calm forward gaze. The overhead fluorescent is caught during a subtle flicker, leaving one side of his face colder and the other in soft moving shadow, with a faint warm rim behind him. Grounded Polish live-action drama with understated fantasy-comedy context, realistic skin, fabric and institutional architecture.\n\nExactly one Mistrz Konca. Preserve exact young-adult face, short dark-brown hair, light uneven stubble, hazel-green eyes, stocky broad-shouldered proportions, faded charcoal dungeon-map T-shirt without readable text, open dark-olive overshirt with rolled sleeves, black cargo trousers, brown shoulder bag, dice pouch and thin red-black bracelet. The stolen K20 stays completely concealed inside his pocket: no visible die, glow, magic or oversized pocket bulge. No ritual helmet, armor, mask, Chaos symbol, costume, weapon, second person, floor hole, destroyed corridor, exterior facade, signage, captions, subtitles, watermark, extra fingers, duplicated limbs, warped hands, merged bag strap or plastic skin.",
+    "endFrameDescription": "",
+    "animation": "One continuous 3-second silent tracking shot with no cuts. Start from the exact generated frame. The emotional progression must be created primarily by the camera closing the distance, not by theatrical acting. 0.0–0.8 s: the camera retreats smoothly at Mistrz Konca's walking pace along the same corridor axis, holding the initial waist-up medium shot. He takes one slow, deliberate step toward camera, shoulders heavy and controlled. One hand remains naturally inside the cargo pocket over the fully concealed K20; the other grips the shoulder-bag strap. His mouth stays closed and his gaze remains fixed straight ahead. 0.8–2.3 s: the camera gradually slows down while Mistrz continues forward for one more measured step, so he naturally closes the physical distance to the lens. This must create a clear, smooth transition from the waist-up medium shot into a tight close-up of his face—a real perspective change caused by proximity, never a digital zoom. The corridor progressively falls out of focus behind him. During this approach, the aging fluorescent tube briefly dims and recovers once; a soft band of cold shadow passes naturally across his eyes and cheeks, with no spark, flash or supernatural light. His expression changes visibly but with restraint: wounded disappointment settles into absolute, self-justified conviction. His lower eyelids tighten slightly, his brow draws subtly inward and his jaw sets. He does not smile, sneer, speak, look sideways or perform like a theatrical villain. 2.3–3.0 s: hold a steady tight close-up for one short emotional beat. Frame his face almost at eye level, ending only very slightly below his eyeline to give quiet strength without making him heroic or monstrous. His face remains calm, hurt and unnervingly certain, as if he has already justified the theft to himself. End before he reaches the exterior door or begins checking the forecourt, so the next shot mistrz-wychodzi owns the cautious look to either side. Preserve exact facial identity, young age, facial structure, stocky proportions, civilian wardrobe, bag, dice pouch, bracelet, corridor geometry and warm-back/cold-front lighting. The K20 remains completely hidden and non-glowing throughout. No dialogue or lipsync, exaggerated anger, head turn, ritual costume, helmet, magic, new person, extra limbs, warped hands, morphing, sudden zoom, camera cut, captions, text or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "character:mistrz-konca",
+        "shot:przyzwanie-01-kradziez-k20",
+        "shot:mistrz-wychodzi",
+        "place:klub-fantastyki-zniszczony"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/mistrz-konca-w-korytarzu/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/mistrz-konca-w-korytarzu/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "place:klub-kanapa-po-imprezie",
+  "type": "places",
+  "id": "klub-kanapa-po-imprezie",
+  "name": "Klub — kanapa po imprezie",
+  "description": "Kanoniczna lokacja cutsceny Złotego Emoji Tygodnia #10, zaczerpnięta bezpośrednio z końcówki klipu Mai i LAIdy Pipy. W centrum stoi szeroka, mocno zużyta czerwonobrązowa skórzana kanapa z grubymi podłokietnikami. Za nią znajduje się niewielka klubowa scena: czarna kurtyna, czerwony zestaw perkusyjny, monitory sceniczne i ciemne ściany z graffiti. Nad sceną wiszą kule lustrzane, a po lewej świeci barowy neon. Na kanapie i w jej pobliżu mogą pozostać pojedyncze butelki oraz ślady zakończonej imprezy. Atmosfera nad ranem: klub jest pusty, muzyka ucichła, światło ciepłe i przygaszone. Referencja utrwala układ kanapy, sceny, perkusji, kurtyny, ścian i perspektywę frontalnego szerokiego kadru; nie utrwala obecnych na zdjęciu osób, które w nowych shotach muszą zostać zastąpione przez kanoniczne postacie Maia Melodies v2 i LAIdy Pipa v2.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/klub-kanapa-po-imprezie/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/klub-kanapa-po-imprezie/image-001-thumb.webp",
+      "width": 1762,
+      "height": 927,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-08-23T01:10:42+02:00"
+}

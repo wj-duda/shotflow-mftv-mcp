@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:cc-rolka/zosia-autobus-noc",
+  "id": "zosia-autobus-noc",
+  "title": "Zosia - nocny autobus",
+  "description": "Prosty plan piersiowy z wnętrza nocnego autobusu: Zosia siedzi przy mokrej szybie, a dolna część sylwetki pozostaje poza kadrem.",
+  "project": {
+    "id": "cc-rolka",
+    "name": "CC-Rolka"
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "zosia"
+    }
+  ],
+  "prompts": {
+    "image": "Native vertical 9:16 physically correct interior bus portrait. Exact petite Zosia sits beside the wet window, shown only in a strict bust shot from mid-chest upward with a flat eye-level 70 mm lens. No hands, lap, hips, thighs, legs or feet. She occupies lower-right; rain-covered window fills left; a seat edge and yellow pole establish conventional bus geometry. Exact youthful oval face, gray eyes, long black hair with blue streaks, oversized black shirt neckline, necklaces and wired headphones. Photoreal bleak late-1990s Central-European music video, amber/cyan practical light and subtle 16 mm/S-VHS softness. No exterior viewpoint, impossible geometry, wide-angle distortion, broad shoulders, tears, singing, text or artifacts.",
+    "endFrameDescription": "",
+    "animation": "4-second continuous interior establishing shot. Camera stays at eye level and makes one very slow straight push toward Zosia. Outside amber and cyan lights drift horizontally across the wet window while rain moves downward. Zosia remains seated and silent with closed lips; only natural breathing, slight bus vibration and loose hair movement occur. Preserve exact petite identity, narrow shoulders, clothes, headphones, seat and screen-left gaze. Keep the crop above her waist throughout; no hands, lap or legs enter frame. No orbit, cuts, new people, morphing, text or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 4,
+      "source": "generated",
+      "referenceKeys": [
+        "character:zosia"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/zosia-autobus-noc/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/zosia-autobus-noc/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:halloween-konkurs/hw-07-blizniaki-unik",
+  "id": "hw-07-blizniaki-unik",
+  "title": "07 — Bliźniaki nurkują przy kanapie",
+  "description": "Gotowy Start Frame 1080×1920. Bez take’a. Planowany montaż: 7–8 s; 24 klatek / 24 fps. Planowany take: 3 s, wykorzystanie od początku. Krótki wspólny unik rodzeństwa w lewo od kanapy, ku komodzie i fotelowi, poza prawym przejściem. Oboje naprawdę przestraszeni. Bez okrzyków. Ten shot ustala ich pozycję na resztę walki. Kamera: Niski kadr od frontu kanapy, krótki ruch w lewo za ich zejściem. Dialog do osobnego nagrania: brak. Start Frame wygenerowany wbudowanym generatorem i zweryfikowany. Animacja bez natywnego audio; wypowiedzi, lipsync i SFX opracować osobno. Wstawiono na V1 timeline: sekwencja 25 sekund, 24 fps. Bliźniaki zachowują książki w prawej dłoni podczas uniku; druga ręka wolna. Chronią się po lewej stronie kanapy.",
+  "project": {
+    "id": "halloween-konkurs",
+    "name": "Halloween Konkurs"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "hw-01-wilkolaki-ogrod"
+    },
+    {
+      "type": "shot",
+      "id": "hw-04-wampiry-mocniej"
+    }
+  ],
+  "prompts": {
+    "image": "Single photorealistic vertical 9:16 film still. Image 1 supplies exact adult twin faces, costumes and their books. Image 2 supplies living room set. NEW LOW CAMERA at floor near LEFT side of olive sofa, 35mm medium full two-shot. Both twins are halfway ducking down beside LEFT sofa arm, using it as shelter, Mańka white long hair black cardigan dress closest left, Marcel white short hair glasses brown cardigan beside her to right. Both faces recognizable, surprised and scared looking toward offscreen RIGHT; no comedic faces. Both keep their respective book clutched one-handed close to body (Vampire woman, Werewolf man); free hands brace near knees or sofa, no extra limbs. Burgundy armchair and sideboard in LEFT protected area form background. Sofa occupies frame right, clearly shielding them from offscreen right attack aisle. Crop excludes terrace and all zombies. Physically plausible crouching, separately readable legs, same warm practical light as previous frames, modest Polish family home. No new people, generic replacement books, added captions or watermark.",
+    "endFrameDescription": "",
+    "animation": "0.0–1.0s: the already crouched twins lower their heads and shoulders another 15 cm toward screen left behind the sofa arm, gripping their existing books in their right hands. Camera: one short leftward track following the duck. Secondary motion: hair and knit clothing settle. 1.0–3.0s: both stay low, looking toward offscreen right, free hands braced near floor. Preserve both identities, clothing, correct book covers, furniture and anatomy. No standing up, swapped books, new people, extra limbs, morphing, cut, captions or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:hw-01-wilkolaki-ogrod",
+        "shot:hw-04-wampiry-mocniej"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-07-blizniaki-unik/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-07-blizniaki-unik/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

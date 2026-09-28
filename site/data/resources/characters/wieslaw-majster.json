@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "character:wieslaw-majster",
+  "type": "characters",
+  "id": "wieslaw-majster",
+  "name": "Wiesław — majster remontu",
+  "description": "Majster pracujący przy remoncie Domu Kultury. Około 62 lat, 168 cm, krępy i silny, krótka szyja, szerokie barki, mocne przedramiona. Rozpoznawalna szeroka głowa z łysiną i resztką siwych włosów po bokach oraz na karku; ciężkie powieki, lekko nierówne brwi, duży zaokrąglony nos, pokaźny opadający siworudy wąs, ogolony podbródek, rumiana twarz z głębokimi bruzdami. Sprane niebieskie ogrodniczki z czerwonym ołówkiem w kieszeni napierśnika, musztardowy wełniany sweter, rozpięta oliwkowa pikowana kamizelka, czarne robocze buty; ciemna prostokątna łata na kolanie i stare ślady zaprawy.\n\nKompetentny, praktyczny i oszczędny w słowach. Nie ekscytuje się nadnaturalnymi incydentami: widzi w nich dodatkowe roboty, zmarnowany materiał i przesunięty termin. Humor wynika ze zmęczonej rzeczowości oraz tego, że mimo wszystkiego dalej pracuje. Mówi pod nosem, bez szerokich min i popisywania się puentą. W debiucie ZE12 wywozi gruz na taczce podczas oględzin KKN. Głos jeszcze nieprzypisany. Referencje i prompty: output/imagegen/zlote-emoji-12/worker-epilogue/generation-record.json.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "portrait",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/wieslaw-majster/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/wieslaw-majster/image-001-thumb.webp",
+      "width": 1122,
+      "height": 1402,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-002",
+      "role": "silhouette",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/wieslaw-majster/image-002.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/wieslaw-majster/image-002-thumb.webp",
+      "width": 1122,
+      "height": 1402,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-12T12:03:58.004056+00:00"
+}

@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-14/ze14-mozna-odebrac",
+  "id": "ze14-mozna-odebrac",
+  "title": "06 — Można odebrać / Wiem",
+  "description": "Sirock stoi po stronie petentów przy prawym przednim narożniku jednego biurka. Czesław nadal z tyłu po lewej, Halinka po prawej. Sirock: Dzień dobry. Halinka: Jeżeli chodzi o Złote Emoji, można odebrać. Sirock: Wiem. Ciągłość ulewy: Sirock przemoczona, mokre blond włosy i czarne ubranie, krople na skórze; bez kurtki i parasola. Wnętrze oraz pozostali ludzie suchi; deszcz tylko na zewnątrz.",
+  "project": {
+    "id": "zlote-emoji-14",
+    "name": "Złote Emoji #14"
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "sirock-blond"
+    },
+    {
+      "type": "character",
+      "id": "halinka"
+    },
+    {
+      "type": "character",
+      "id": "czeslaw"
+    },
+    {
+      "type": "note",
+      "id": "movie-shot"
+    },
+    {
+      "type": "place",
+      "id": "lokal-zastepczy-domu-kultury"
+    },
+    {
+      "type": "note",
+      "id": "ze14-plan-baraku"
+    },
+    {
+      "type": "shot",
+      "id": "ze14-barak-zwykly-dzien"
+    },
+    {
+      "type": "shot",
+      "id": "ze14-mozna-odebrac"
+    },
+    {
+      "type": "shot",
+      "id": "seed"
+    },
+    {
+      "type": "shot",
+      "id": "ze14-sirock-weszy"
+    }
+  ],
+  "prompts": {
+    "image": "Use case: identity-preserve, surgical facial likeness correction. Image1 is the exact film still EDIT TARGET. Image2 is the definitive canonical portrait of HALINKA. Change ONLY the seated red-haired woman's FACE and hairline in the middle of image1 to match the exact woman in image2, keeping her existing head tilt and gaze upward toward the standing woman at screen right. Her current face is too youthful and pointed: replace with portrait2's mature face, fuller cheeks, distinctive broader nose, eye spacing and eyelids, natural under-eye texture, smile lines, softly rounded chin and exact mouth shape. Reproduce this specific woman's likeness, not a generic attractive redhead. Preserve her age and natural wrinkles; no beautification or smoothing. Keep her mild administrative expression and existing body/hand pose. Match the face to the room's soft overcast lighting. Do NOT modify Czeslaw at left or the wet blonde Sirock at right. Preserve absolutely the original camera, framing, architecture, wardrobe, red cardigan, tea glasses, hands, ledger, paper, pen, trophy design/size/orientation and plaque text 'ZŁOTE EMOJI', rain outside and wetness on Sirock. No new people, props, fantasy effects or text. A localized face correction, not a restaging. 1920x1080 16:9 photoreal cinematic still.",
+    "endFrameDescription": "",
+    "animation": "0.0–1.5s: Halinka, seated in red, makes one small matter-of-fact chin dip while looking up at the standing woman on screen right. 1.5–3.0s: Sirock responds with a barely perceptible downward chin movement; Czeslaw keeps his attention on the ledger. Camera: locked-off. Secondary motion: a drop falls from Sirock's wet hair. @Image1 anchors only Halinka's face; @Image2 anchors only Sirock's face and wet blonde hair, not the exterior setting. Preserve all three positions, dry staff, desk and trophy. Avoid broad gestures, extra people, facial morph, indoor rainfall, glowing jewelry or cuts."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 5,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze14-mozna-odebrac",
+        "character:halinka"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-mozna-odebrac/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-mozna-odebrac/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

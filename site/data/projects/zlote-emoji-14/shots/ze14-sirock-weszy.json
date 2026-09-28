@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-14/ze14-sirock-weszy",
+  "id": "ze14-sirock-weszy",
+  "title": "02 — Sirock węszy",
+  "description": "Sirock blond subtelnie węszy przy ogrodzeniu. Zachowane rysy, strój i spojrzenie w prawo. Tło według seed v005: nowa szeroka bryła z centralnym wejściem i schodami, bocznymi skrzydłami oraz bezdachową salą. Wczesna odbudowa według rzutów użytkownika, uporządkowane materiały, biały paczkomat wolnostojący przed lewą częścią elewacji. Pochmurna jesień. Bez pracowników, jawnych efektów i skoku. Aktualny wariant: ulewa, Sirock całkowicie przemoczona, mokre blond pasma przylegają do twarzy i szyi, krople na skórze i ubraniu. Bez kurtki, parasola i reakcji na zimno; zwykłe oczy. Budynek bez zmiany.",
+  "project": {
+    "id": "zlote-emoji-14",
+    "name": "Złote Emoji #14"
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "sirock-blond"
+    },
+    {
+      "type": "note",
+      "id": "movie-shot"
+    },
+    {
+      "type": "shot",
+      "id": "seed"
+    },
+    {
+      "type": "shot",
+      "id": "ze14-sirock-weszy"
+    }
+  ],
+  "prompts": {
+    "image": "Precise weather/wetness edit of EXACT reference1 movie frame. Preserve composition, lens, all identity/face/body anatomy, poses, hands, gaze direction, furniture, architecture proportions, signs/text, door opening/hinge direction, trophy design/rotation and all props. No redesign or mirror. 16:9 photoreal cinematic, grey overcast daytime with readable faces. Heavy DOWNPOUR, visible rain streaks across depth, pavement puddles and splashes. Sirock walks bare-armed without any protection, calm unsettling indifference. Preserve EXACT new building and separate white parcel locker behind fence. Sirock is visibly SOAKED THROUGH after walking in a downpour without coat or umbrella, entirely indifferent to the rain. Preserve her BLONDE hair color and length but make it genuinely saturated: darker wet blonde strand bundles flattened to scalp, stringy dripping lengths stuck against neck/shoulders, wet fringe against forehead. Visible droplets and water trails on bare shoulders, arms and face; heavy eye makeup slightly damp/smudged but EXACT facial features intact. Black corset/trousers dark wet fabric with restrained water sheen, stays fully OPAQUE and same cut; same silver jewellery. No added jacket/hood/umbrella/towel, no shivering or cold gesture, no supernatural eyes.",
+    "endFrameDescription": "",
+    "animation": "0.0–1.8s: Already looking upward toward screen right, Sirock lifts her chin a few millimeters and takes one restrained nasal inhalation, with a slight nostril and upper-chest movement. 1.8–4.0s: She fixes her gaze slightly farther right and holds, indifferent to the rain. Camera: very slow straight push-in, less than five percent framing change. Secondary motion: water runs down her skin and heavy wet strands cling to her neck. Preserve her exact face, ordinary eyes, wet blonde hair, corset and jewelry. Avoid shivering, wiping water, walking, jacket, umbrella, magic, facial morph or cuts."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 6,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze14-sirock-weszy"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-sirock-weszy/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-sirock-weszy/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

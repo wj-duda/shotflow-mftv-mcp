@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-sezon-1/final-07a-czeslaw-w-drzwiach-dachu",
+  "id": "final-07a-czeslaw-w-drzwiach-dachu",
+  "title": "Final 07A — Czesław wychodzi na dach",
+  "description": "Filmowe wejście Czesława pomiędzy materializacją Belicosy a zajęciem platformy. Start Frame pokazuje zamknięte techniczne drzwi na mokrym dachu w szerokim, niskim kadrze; fragment ogromnej Belicosy i burzowe niebo budują skalę. Drzwi otwierają się, ciepłe światło starego korytarza ujawnia Czesława, a kamera wykonuje zdecydowany fizyczny najazd od szerokiego planu do niskiego planu bliskiego. End Frame jest kulminacją wejścia: Czesław w autentycznym polskim hełmie wz. 31 wypełnia kadr od piersi w górę. Wiatr i deszcz uderzają go w twarz; oczy za mokrymi okularami przechodzą od strachu i oszołomienia do cichej decyzji. Epickość wynika wyłącznie z tego, że zwyczajny, przemoczony gospodarz Domu Kultury mimo lęku postanawia wejść do walki. Ujęcie pozostaje surowe, bezpośrednie i ludzkie, prowadząc emocjonalnie do final-07b.",
+  "project": {
+    "id": "zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "final-07-belicosa-materializuje-sie"
+    },
+    {
+      "type": "place",
+      "id": "dach-domu-kultury-obrona"
+    },
+    {
+      "type": "prop",
+      "id": "belicosa"
+    },
+    {
+      "type": "character",
+      "id": "czeslaw"
+    },
+    {
+      "type": "prop",
+      "id": "helm-czeslawa-wz31"
+    }
+  ],
+  "prompts": {
+    "image": "Photorealistic cinematic 16:9 Start Frame after Belicosa has materialized and before Czesław emerges. Locked low roof-level 35 mm camera 5–7 metres in front of the small rear-right rooftop stairwell. Its old green metal door is fully closed, with coherent frame, hinges and handle. Wet black roofing felt and a shallow puddle lead toward it. One old industrial exterior lamp above is nearly dead; only a thin warm amber line leaks beneath the door and through the keyhole. A cropped dark fragment of the enormous canonical Belicosa intrudes at the far left, establishing scale without blocking the doorway. Storm clouds, driving rain, distant cold flashes and a few sparks. No person, open door, bright corridor, firing, steam, warped architecture, text, UI, logos or watermark.",
+    "endFrameDescription": "Docelowy kadr jest emocjonalną kulminacją wejścia Czesława. Po otwarciu drzwi kamera wykonała już zdecydowany fizyczny najazd i znajduje się nisko oraz blisko niego: plan od połowy klatki piersiowej w górę. Ciemna framuga pozostaje czytelna po obu stronach i nad hełmem, ale nie ma budować westernowej ani pomnikowej pozy. Za Czesławem pojedyncza stara żarówka korytarza daje wyłącznie ciepły bursztynowy kontur na hełmie i ramionach; zimne, miękkie światło burzy odsłania mokrą twarz i oboje oczu za zalanymi deszczem okularami. Dach oraz Belicosa są tylko fragmentami na obrzeżach i nie odciągają uwagi od twarzy. Czesław pozostaje przemoczonym, zwyczajnym gospodarzem Domu Kultury w pogniecionym czarnym garniturze, brudnobeżowej koszuli, poluzowanym krawacie i autentycznym polskim hełmie wz. 31. Nie patrzy w kamerę i nie przyjmuje pozy bohatera. Deszcz właśnie uderzył go w twarz; barki są napięte, usta zamknięte, a szczęka jedynie lekko się zaciska. W oczach nadal widać strach i oszołomienie, lecz niezdecydowanie właśnie znika. Kadr ma być surowy, intymny i ludzki: zwyczajny człowiek boi się, ale mimo tego postanawia wejść do walki.",
+    "animation": "One continuous 3-second cinematic shot from the supplied wide closed-door Start Frame to the supplied close End Frame, with no cut. 0.0–0.6 s: the low wide camera holds on the closed green door while rain lashes the roof, distant impacts flicker, and the thin amber line beneath the door strengthens. 0.6–1.35 s: the handle turns once and the heavy door opens outward toward screen-right on its existing hinges; warm corridor light spills across the wet roof and exact Czesław appears as a backlit silhouette. 1.25–3.0 s: as Czesław takes one deliberate step to the threshold, the camera performs one fast but controlled physical dolly-in along the same axis, changing from the wide roof view to the exact low-angle chest-up End Frame. This is a real camera move with natural parallax, not a digital zoom. During the push-in his face becomes readable: he flinches slightly at wind and a nearby blast, scans the battle just off-camera, then his frightened eyes settle and his jaw firms into quiet resolve as the music would rise. Finish perfectly still on that look. Preserve exact Czesław identity, wet glasses, wz. 31 helmet, rumpled civilian suit, correct anatomy, door geometry, hinge direction, corridor lamp, Belicosa-side geography, rain and lighting continuity. No dialogue, lip movement, heroic pose, weapon, platform harness, second step onto the roof, firing, projectile, added people, extra limbs, morphing, camera cut, orbit, shake that hides the face, text or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:final-07-belicosa-materializuje-sie",
+        "place:dach-domu-kultury-obrona",
+        "prop:belicosa",
+        "shot:final-07b-czeslaw-zajmuje-platforme"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-07a-czeslaw-w-drzwiach-dachu/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-07a-czeslaw-w-drzwiach-dachu/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:final-07-belicosa-materializuje-sie",
+        "place:dach-domu-kultury-obrona",
+        "prop:belicosa",
+        "character:czeslaw",
+        "prop:helm-czeslawa-wz31",
+        "shot:final-07b-czeslaw-zajmuje-platforme"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-07a-czeslaw-w-drzwiach-dachu/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-07a-czeslaw-w-drzwiach-dachu/frame-end-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ]
+}

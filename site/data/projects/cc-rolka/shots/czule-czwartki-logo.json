@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:cc-rolka/czule-czwartki-logo",
+  "id": "czule-czwartki-logo",
+  "title": "Nieczule to Czule Czwartki",
+  "description": "Zimna pionowa plansza NIECZUŁE CZWARTKI morfuje w ciepłą tortową planszę CZUŁE CZWARTKI.",
+  "project": {
+    "id": "cc-rolka",
+    "name": "CC-Rolka"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "nieczule-czwartki-otwarcie"
+    },
+    {
+      "type": "prop",
+      "id": "ciasto-dariusza"
+    }
+  ],
+  "prompts": {
+    "image": "Native vertical 9:16 television title card. Near-black charcoal field with subtle horizontal CRT wear. One large incomplete hand-drawn graphite circle is vertically centered and fully within safe margins. Center exactly two bold condensed uppercase pale-gray lines inside it: NIECZUŁE / CZWARTKI. The Polish Ł is correct and clear. Cold black, graphite gray and dirty off-white only; late-1990s underground TV ident with photocopied texture. No cake, food, warm colors, logos, people, extra text or watermark.",
+    "endFrameDescription": "Zimny grafitowy okrąg zamienia się w różowy tort, a z napisu znika wyłącznie prefiks NIE.",
+    "animation": "3-second continuous first-to-last-frame morph synchronized to the snare fill. Camera remains locked and frontal. The broken gray circular arcs rotate a few degrees and close into one complete ring. On successive snare hits the ring gains thickness and physical texture, then transforms into the round pink cake with cream piping and cherries. At the same time only the three-letter prefix NIE breaks into black analog particles and is pulled into the rotating ring; CZULE and CZWARTKI remain readable, warm from gray to cream, and smoothly recenter into the exact End Frame. Use one continuous transformation with no cut or explosion. Preserve exact spelling and the Polish L-stroke. No extra letters, letter scramble, food before the transformation, people, camera move or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 4,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:nieczule-czwartki-otwarcie"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/czule-czwartki-logo/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/czule-czwartki-logo/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "prop:ciasto-dariusza"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/czule-czwartki-logo/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/czule-czwartki-logo/frame-end-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

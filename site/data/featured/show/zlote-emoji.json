@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "show",
+  "key": "show:zlote-emoji",
+  "type": "brand",
+  "id": "zlote-emoji",
+  "name": "Złote Emoji",
+  "description": "Złote Emoji to rankingowa formuła MFTV, w której utwory zbierają reakcje emoji podczas emisji.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "show-board",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/show/zlote-emoji.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/show/zlote-emoji-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

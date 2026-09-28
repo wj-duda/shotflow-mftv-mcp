@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:halloween-konkurs/hw-13-fala-opada",
+  "id": "hw-13-fala-opada",
+  "title": "13 — Fala zombie załamuje się przy tarasie",
+  "description": "Dwa czytelne upadki po kolei: granatowa bluza pada przy kanapie, potem beżowy sweter przy progu. Szara kurtka pozostaje na prawym boku. Cztery pozostałe ofiary już leżą lub siedzą bezwładnie; rdzawa kurtka zostaje na nogach. Widoczny zakres źródła: 0–2 s, 24 fps, 1080×1920. Gotowe kadry; animacja do wygenerowania. Natywne audio wyłączone, dialog i SFX osobno.",
+  "project": {
+    "id": "halloween-konkurs",
+    "name": "Halloween Konkurs"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "hw-06-wtargniecie"
+    },
+    {
+      "type": "character",
+      "id": "horda-zombie-halloween"
+    },
+    {
+      "type": "shot",
+      "id": "hw-13-fala-opada"
+    },
+    {
+      "type": "shot",
+      "id": "hw-10-zombie-pierwszy-upadek"
+    }
+  ],
+  "prompts": {
+    "image": "Precise continuity edit of fictional zombie movie START FRAME, vertical 9:16. Image1 is edit target: preserve exactly its camera, all eight identities, wardrobe, body poses, positions and lighting. Image2 is damage reference ONLY. Grey-jacket zombie already lies foreground right: transfer his SAME modest superficial red shoulder injury and small torn fabric from image2. Navy hoodie woman is still falling beside sofa, beige sweater man still advancing, rust-jacket woman still standing, four others already down outside. Keep navy woman's visible shoulder injury tiny and just beginning at the existing dust impact; beige man and rust woman have NO injuries yet. No new wounds elsewhere. Transfer image2 environmental damage exactly to the same physical objects and positions: two star-shaped cracks high and midway in LEFT windowpane, two small dents in leaning RIGHT metal sash, single splintered chip in coffee-table edge. Landmarks may be occluded by standing characters; do not reposition them to make visible. Preserve intact dark sofa cushion, original floor debris and warm Polish salon / cool blue garden. Small non-graphic movie makeup only, no open tissue, no sprays, pools or dismemberment. Preserve image1 poses NOT image2 fallen poses. No added people or text.",
+    "endFrameDescription": "End13: rdzawa kurtka wykonuje krótki krok i zmienia ułożenie rąk; siedem powalonych postaci zachowuje układ, rany i otoczenie.",
+    "animation": "The navy-clad zombie recoils from a bullet hit to her shoulder and drops beside the sofa. Then a bullet hits the beige-sweater zombie in the shoulder, tearing the fabric and leaving a bloody wound; his knees buckle and he collapses sideways at the threshold. The rust-jacket woman keeps advancing. Fallen bodies stay down. Slight handheld camera shake, real-time motion. No glowing bullet trails."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 3,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:hw-13-fala-opada"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-13-fala-opada/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-13-fala-opada/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "revision": 3,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:hw-13-fala-opada"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-13-fala-opada/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-13-fala-opada/frame-end-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-14/ze14-drzwi-cisza",
+  "id": "ze14-drzwi-cisza",
+  "title": "Zamkniete drzwi - cisza",
+  "description": "Sekundowa przebitka na zamknięte szare drzwi baraku. Korekta ciągłości: od wnętrza zawiasy po PRAWEJ przy ścianie z włącznikiem, klamka po LEWEJ przy regale; skrzydło otwiera się w prawo jak przy wejściu Sirock. Układ pokoju i oś kamery bez odbicia lustrzanego. Bez ludzi, sylwetek i cieni. Pochmurne światło. Statyczny Start Frame; montaż i audio bez zmian.",
+  "project": {
+    "id": "zlote-emoji-14",
+    "name": "Złote Emoji #14"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "ze14-sirock-wchodzi"
+    },
+    {
+      "type": "shot",
+      "id": "ze14-drzwi-cisza"
+    }
+  ],
+  "prompts": {
+    "image": "Precise-object-edit, surgical continuity correction. Image1 is the EXACT target closed-door frame. Image2 is context ONLY showing subsequent entrance; do NOT copy woman or open door. Change ONLY handedness of closed grey door hardware in image1: REMOVE ALL hinges from LEFT jamb and put hinges on RIGHT jamb, next to wall with light switch. REMOVE handle/keyhole/backplate from RIGHT side of leaf and place them on LEFT side of leaf, next to shelving-side jamb. Lever anchored near LEFT edge extends RIGHT into door center. Door remains fully CLOSED, solid grey unglazed sheet metal in same opening. This door will swing toward screen-right on its RIGHT hinges in following shot. Do not mirror the whole image or the room! Shelf, helmet, jacket, binders and desk stay LEFT; light switch and wall map stay RIGHT. Preserve exact camera composition, door size, perspective, textures, exposure, cloudy daylight and all other pixels. NO person, shadow, added text, new props or open gap. 16:9 photoreal film still.",
+    "endFrameDescription": "",
+    "animation": ""
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze14-drzwi-cisza",
+        "shot:ze14-sirock-wchodzi"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-drzwi-cisza/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-drzwi-cisza/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

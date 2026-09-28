@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:cc-rolka/maka-w-powietrzu",
+  "id": "maka-w-powietrzu",
+  "title": "Mąka jak brokat",
+  "description": "Na akcent muzyczny Dariusz wyrzuca mąkę jak estradowy brokat i nuci do łyżki.",
+  "project": {
+    "id": "cc-rolka",
+    "name": "CC-Rolka"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "maslo-taniec"
+    },
+    {
+      "type": "character",
+      "id": "grimskald"
+    }
+  ],
+  "prompts": {
+    "image": "Native vertical 9:16 rhythmic climax in the same kitchen. Exact Dariusz flicks one small handful of flour upward like stage glitter while holding one wooden spoon near his mouth as a mock microphone. A warm backlit vertical flour plume rises above his hand without hiding his face. Identical thick opaque pale-pink heart apron covers collarbone through chest and stomach to mid-thigh, with opaque high-waisted red satin athletic shorts fully covering waist, crotch, hips and buttocks; no shirt. Hairy shoulders and arms visible, chest front and nipples covered. Exact photoreal late-1990s Polish TV music-comedy, warm S-VHS/16 mm texture. No nudity, white T-shirt, huge explosion, extra limbs, text or artifacts.",
+    "endFrameDescription": "",
+    "animation": "First 1.5 seconds only: Dariusz makes one smooth, controlled half-turn of about 180 degrees to his left, pivoting on the floor without jumping. He keeps the wooden spoon in the same hand and the raised hand follows the turn softly. The flour already visible in the start frame only settles slowly downward; no new flour appears and nothing falls from the ceiling. His beard braid and apron lag gently behind the turn. Camera stays locked and level. After the half-turn he holds the finishing pose. No fast spinning, frantic gestures, new objects, lip movement, cuts, zooms, morphing, extra limbs, text or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:maslo-taniec",
+        "character:grimskald"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/maka-w-powietrzu/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/maka-w-powietrzu/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

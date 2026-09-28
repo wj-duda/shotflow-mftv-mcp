@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "character:filip-koza",
+  "type": "characters",
+  "id": "filip-koza",
+  "name": "Filip",
+  "description": "CHARACTER [age=18-29; presentation=masculine; height=average; build=very-slim; body=straight; chest=small; skin=olive; face=oblong; eyes=hazel; hair-color=black; hair-length=medium; hair-texture=wavy]\r\n\r\nOkoło 176 cm, chudy, lekko przygarbiony, z za długimi rękami i młodzieńczą twarzą. Ciemne, niesforne włosy i delikatny trądzik. Cecha charakterystyczna: wyraźnie odstające uszy.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "portrait",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/filip-koza/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/filip-koza/image-001-thumb.webp",
+      "width": 1254,
+      "height": 1254,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-002",
+      "role": "silhouette",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/filip-koza/image-002.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/filip-koza/image-002-thumb.webp",
+      "width": 1254,
+      "height": 1254,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-08-01T01:34:19.5541925+00:00"
+}

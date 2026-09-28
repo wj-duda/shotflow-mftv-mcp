@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-sezon-1/final-08b-1-czeslaw-komenda-srodek",
+  "id": "final-08b-1-czeslaw-komenda-srodek",
+  "title": "Final 08B 1 Czesław — komenda środkowy cel",
+  "description": "Początek drugiej salwy otrzymuje własny kadr, wyraźnie inny od sekwencji A. Kamera stoi po przeciwnej stronie platformy, tuż za obudową auspeksu: widzimy napięty profil Czesława oraz częściowe odbicie jego oczu w zielonkawym szkle urządzenia. Spust znajduje się głębiej w kadrze, a ciężka mechanika lufy zamyka tło nad jego głową. Deszcz spływa po hełmie i okularach, postawa jest wymuszona uprzężą, a twarz zdradza zmęczenie po pierwszym odrzucie.\n\nCzesław przenosi wzrok ze wskazania auspeksu na środkowy cel, łapie krótki oddech i wykrzykuje drugą komendę z większym wysiłkiem. Kontrolowany strach miesza się z wojenną koncentracją: nie staje się bohaterem akcji, tylko coraz bardziej zużytym człowiekiem konsekwentnie wykonującym zadanie. To osobna kotwica drugiej salwy; niebieski błysk pojawia się dopiero przy uruchomieniu spustu, a final-08b-3 wraca właśnie do tego profilowego ustawienia.",
+  "project": {
+    "id": "zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1"
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "czeslaw"
+    },
+    {
+      "type": "prop",
+      "id": "belicosa"
+    },
+    {
+      "type": "shot",
+      "id": "final-08a-1-czeslaw-komenda-lewo"
+    },
+    {
+      "type": "place",
+      "id": "dach-domu-kultury"
+    },
+    {
+      "type": "prop",
+      "id": "auspex-belicosy"
+    },
+    {
+      "type": "place",
+      "id": "dach-domu-kultury-obrona"
+    },
+    {
+      "type": "prop",
+      "id": "helm-czeslawa-wz31"
+    },
+    {
+      "type": "shot",
+      "id": "final-08a-3-powrot-na-czeslawa"
+    }
+  ],
+  "prompts": {
+    "image": "Photorealistic cinematic 16:9 battle anchor for the second firing sequence, with a camera clearly different from salwa A. Tight 50 mm side-profile shot positioned immediately behind the canonical auspex housing. Its blackened metal edge and dark green glass fill the near-left foreground; exact Czesław's tense right-facing profile is sharp at center, with a coherent partial reflection of his eyes and wet crooked glasses in the screen. Heavy Belicosa machinery compresses the background above his authentic olive Polish wz. 31 helmet, while one correct hand waits deeper on the trigger. He is soaked, dirty and exhausted after the first recoil, breathing through parted lips and shifting his eyes from auspex toward the central target. Controlled fear, ringing ears and duty. Rain, dust and small sparks cross the depth. No blue muzzle reflection yet, no pose, front three-quarter framing, extra anatomy, text, readable UI, logos or watermark.",
+    "endFrameDescription": "",
+    "animation": "One continuous 2-second side-profile command shot with no cut. From the tense auspex-side anchor, Czesław reads the central contact in the dark screen, shifts his reflected eyes from the glass toward the sky and shouts one short Polish command: Środek! He braces harder in the fastened harness and presses the firing control exactly once at the final beat. Only then does the first restrained blue reflection appear in the screen, glasses and helmet edge. Rain moves across both the real face and its reflection, machinery trembles, dust and small sparks drift through the background. Preserve the exact profile camera, reflection geometry, identity, glasses, wz. 31 helmet, suit, auspex and single trigger hand. No second pull, yellow or pink-red light, cut, morphing, extra limbs, subtitles or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 2,
+      "source": "reference",
+      "referenceKeys": [
+        "shot:final-08a-3-powrot-na-czeslawa",
+        "character:czeslaw",
+        "prop:helm-czeslawa-wz31",
+        "prop:auspex-belicosy",
+        "prop:belicosa"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-08b-1-czeslaw-komenda-srodek/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-08b-1-czeslaw-komenda-srodek/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

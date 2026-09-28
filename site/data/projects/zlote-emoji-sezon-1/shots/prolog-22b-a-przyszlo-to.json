@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-sezon-1/prolog-22b-a-przyszlo-to",
+  "id": "prolog-22b-a-przyszlo-to",
+  "title": "Dariusz — A przyszło to?",
+  "description": "Cięcie na ciasny close-up Dariusza. Spogląda w dół na niewidoczną w kadrze K20 i z całkowitą dezorientacją puentuje: A przyszło to? To zamyka prolog; następne ujęcie przenosi tę samą kostkę do ruin klubu jakiś czas później, już po wydarzeniach pokazanych w recapitulacji.",
+  "project": {
+    "id": "zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "prolog-22a-dariusz-gwatemalska-yerba"
+    },
+    {
+      "type": "character",
+      "id": "grimskald"
+    },
+    {
+      "type": "place",
+      "id": "klub-fantastyki"
+    }
+  ],
+  "prompts": {
+    "image": "Use case: identity-preserve. Intentional clean cut from the preceding medium shot to a tight eye-level close-up of Dariusz in the same warm Klub Fantastyki lighting. Exact face, black rectangular glasses, reddish braided beard, blue shirt, dark vest and leather straps. He looks slightly down toward the K20 below frame, about to speak, with restrained disbelief. No extra people, text or watermark.",
+    "endFrameDescription": "Same locked close-up after the question. Dariusz keeps looking down; one eyebrow rises minimally, the other remains knitted, and his mouth has just closed in complete disorientation.",
+    "animation": "One continuous 2.5-second close-up performance from the supplied Start Frame to the supplied End Frame. Camera is completely locked: no pan, tilt, zoom, dolly, reframing or cut. Dariusz keeps his gaze slightly downward toward the K20 outside the frame. 0.0-0.5 s: a short thoughtful pause and one natural blink. 0.5-1.6 s: while quietly asking the short Polish question A przyszlo to?, he makes one small, natural two-handed shrug of helpless confusion: both forearms lift briefly, open palms rise only into the lower corners of frame, shoulders rise slightly, then the hands fall back out of view. The gesture is restrained and synchronized with the question, not theatrical. 1.6-2.5 s: his shoulders settle, lips close, one eyebrow rises by a trace while the other stays knitted, and the confusion deepens into the supplied End Frame. Preserve exact facial identity, rectangular black glasses, eyes, hair, enormous braided reddish beard, shirt, vest, leather straps, badges, warm amber Klub Fantastyki lighting and shallow background. Exactly one person with exactly two anatomically correct hands. No looking into camera, smile, broad surprise, head turn, waving, pointing, camera movement, cuts, morphing, extra limbs, captions, subtitles, logos or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:prolog-22a-dariusz-gwatemalska-yerba",
+        "character:grimskald",
+        "place:klub-fantastyki"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-22b-a-przyszlo-to/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-22b-a-przyszlo-to/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:prolog-22b-a-przyszlo-to",
+        "character:grimskald"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-22b-a-przyszlo-to/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-22b-a-przyszlo-to/frame-end-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

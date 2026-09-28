@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "place:iquitos-dzungla",
+  "type": "places",
+  "id": "iquitos-dzungla",
+  "name": "Iquitos — dżungla Allpahuayo-Mishana",
+  "description": "DRAFT / research prologu. Gęsty, wilgotny las amazoński pod Iquitos: wąska ścieżka, wielopiętrowa zieleń, splątane liany, miękkie światło przebijające przez koronę drzew i ograniczona widoczność. Referencja dla odnalezienia artefaktu K20 przez Van Sabe; postać na zdjęciu nie jest elementem kanonu. Źródło komercyjne, wyłącznie jako referencja produkcyjna: https://www.cumaceba.com/en/que-hacer-en-iquitos/ (zdjęcie Allpahuayo-Mishana).",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/iquitos-dzungla/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/iquitos-dzungla/image-001-thumb.webp",
+      "width": 1200,
+      "height": 712,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-08-17T15:21:20+02:00"
+}

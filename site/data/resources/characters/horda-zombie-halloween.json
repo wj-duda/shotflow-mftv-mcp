@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "character:horda-zombie-halloween",
+  "type": "characters",
+  "id": "horda-zombie-halloween",
+  "name": "Horda zombie — ośmioro sąsiadów",
+  "description": "POSTAĆ ZBIOROWA: dokładnie osiem różnych dorosłych zombie do rolki „Halloween Konkurs”. Nie jest pojedynczym człowiekiem. Polski klimat, zwykli mieszkańcy małego miasta / sąsiedzi z Łazów, współczesne codzienne ubrania. Żadnego amerykańskiego suburbium, cheerleaderek, baseballowych strojów, amerykańskiej policji, mundurów wojskowych ani kostiumów z parku rozrywki. Salon i ogród pozostają polskim domem rodzinnym.\n\nObraz silhouette to cała ósemka w jednym szeregu, od lewej do prawej. Obraz portrait to plansza 4 kolumny × 2 rzędy: górny rząd osoby 1–4, dolny 5–8. Plansze służą tożsamości i strojom; układu planszy, studyjnego tła i szeregowego ustawienia nie kopiować do scen filmu.\n\n1. Mężczyzna około 45 lat, krótkie brązowe włosy, szara kurtka na suwak, grafitowy T-shirt, ciemne jeansy, czarne sportowe buty. Prowadzi grupę, pierwszy kontakt z szybą.\n2. Kobieta około 30 lat, szczupła, czarne włosy w kucyku, granatowa bluza z kapturem, czarne jeansy, szare sportowe buty.\n3. Łysy krępy mężczyzna około 55 lat, beżowy sweter z warkoczowym splotem, brązowe spodnie, ciemne buty.\n4. Kobieta około 40 lat, krótki kasztanowy bob, grafitowy T-shirt, sprane czarne jeansy, czarne botki.\n5. Wysoki szczupły mężczyzna około 60 lat, krótkie siwe włosy, duży siwy wąs, oliwkowy płaszcz do ud, ciemne spodnie, brązowe buty.\n6. Kobieta około 60 lat, krępa, krótki siwy kręcony bob, rdzawobrązowa kurtka, kremowa bluzka, ciemne spodnie, niskie brązowe buty. Roboczo ostatnia pozostająca na nogach.\n7. Wysoki szeroki mężczyzna około 35 lat, ciemne kręcone włosy i krótka broda, sprana czerwona koszula w kratę, ciemny T-shirt, niebieskie jeansy, ciężkie czarne buty.\n8. Kobieta około 35 lat, szczupła, długie proste ciemne włosy, sprana kurtka jeansowa, szara koszulka, ciemnooliwkowe spodnie, znoszone białe sportowe buty.\n\nWszyscy mają bladą popielatą cerę, podkrążone oczy, lekko zmętniałe tęczówki i martwe spojrzenia. Naturalne ludzkie proporcje, różne twarze i sylwetki. Bez graficznych ran. Zachować każdą twarz, fryzurę, płeć, strój i liczbę postaci. Nie powielać tej samej osoby. W szerokim otwarciu obecna cała ósemka od pierwszej klatki, kolejne kadry mogą pokazywać podzbiór. W animacji użyć Start Frame jako głównej kotwicy kompozycji. Kolaż portretowy nie jest standardowym pojedynczym frontalnym Elementem: nie wybierać automatycznie tej postaci zbiorowej jako Element do Kling; dobór Image/wycinków po przygotowaniu kadrów. Referencje wygenerowane wbudowanym image_gen.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "portrait",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/horda-zombie-halloween/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/horda-zombie-halloween/image-001-thumb.webp",
+      "width": 1536,
+      "height": 1024,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-002",
+      "role": "silhouette",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/horda-zombie-halloween/image-002.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/horda-zombie-halloween/image-002-thumb.webp",
+      "width": 1536,
+      "height": 1024,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-20T15:09:55.048133+00:00"
+}

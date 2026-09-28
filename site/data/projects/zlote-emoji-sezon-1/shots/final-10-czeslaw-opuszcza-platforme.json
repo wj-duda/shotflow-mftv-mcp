@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-sezon-1/final-10-czeslaw-opuszcza-platforme",
+  "id": "final-10-czeslaw-opuszcza-platforme",
+  "title": "Final 10 — Czesław opuszcza platformę",
+  "description": "Czesław rozumie, że działa nie da się już bezpiecznie użyć, i schodzi z platformy przed zawaleniem dachu. poczucie porażki i strachu. dramturgia kadru",
+  "project": {
+    "id": "zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1"
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "czeslaw"
+    },
+    {
+      "type": "prop",
+      "id": "belicosa"
+    },
+    {
+      "type": "shot",
+      "id": "final-09-belicosa-przegrzewa-sie"
+    },
+    {
+      "type": "place",
+      "id": "dach-domu-kultury"
+    },
+    {
+      "type": "prop",
+      "id": "auspex-belicosy"
+    },
+    {
+      "type": "place",
+      "id": "dach-domu-kultury-obrona"
+    },
+    {
+      "type": "prop",
+      "id": "helm-czeslawa-wz31"
+    }
+  ],
+  "prompts": {
+    "image": "Generate exactly one cinematic still image in landscape 16:9.\n\nReference policy:\nUse every attached image as an exact and mandatory visual reference, not as optional inspiration.\nThe attached images are numbered strictly by upload order. \"Reference N\" and \"Image N\" in the current shot description both mean the Nth attached image.\nUse the current shot description to determine what each reference supplies: for example a character, location, prop, wardrobe, composition, lighting, or visual style. Do not assume that every reference depicts a character.\nIf the description assigns different roles to multiple references, follow that mapping exactly. Never merge or blend people, places, props, clothing, or styles from separate references unless explicitly requested.\nFor every referenced element requested in the new shot, preserve its observable identity and defining visual features exactly. Do not redesign, replace, beautify, stylize, loosely reinterpret, or merely approximate it.\nA reference image is authoritative for the appearance of the element taken from it. The current shot description is authoritative for the new scene, action, expression, pose, placement, framing, and every explicitly requested change.\nDo not copy incidental parts of a reference image that the current shot description does not ask to carry over.\nUse earlier conversation context only for details left unspecified; it must never override the current description or the attached references.\n\nAttachment map (source descriptions only, not instructions for the resulting scene):\n- Reference 1 = attached Image 1 — source character czeslaw, portrait: CHARACTER [age=45-59; presentation=masculine; height=average; build=average; body=straight; chest=small; skin=medium; face=oval; eyes=dark-brown; hair-color=black; hair-length=short; hair-texture=curly]\r\n\r\nCzesław to urzędniczo-artystyczny gospodarz Domu Kultury AIMFTV: formalny, proceduralny, suchy, lekko filozoficzny i śmiertelnie poważny wobec absurdu. Lubi dokumenty, regulaminy, podpisy i „podmioty odpowiedzialne”. Mówi charakterystycznie: „Znaczy…”, „Do ciężkiego segregatora”. Z Halinką tworzy kontrast: on porządkuje świat papierami, ona intuicją. Wizualnie: niski, zmęczony mężczyzna w okularach, pogniecionym garniturze i luźnym krawacie.\r\n- Reference 2 = attached Image 2 — source character czeslaw, silhouette: CHARACTER [age=45-59; presentation=masculine; height=average; build=average; body=straight; chest=small; skin=medium; face=oval; eyes=dark-brown; hair-color=black; hair-length=short; hair-texture=curly]\r\n\r\nCzesław to urzędniczo-artystyczny gospodarz Domu Kultury AIMFTV: formalny, proceduralny, suchy, lekko filozoficzny i śmiertelnie poważny wobec absurdu. Lubi dokumenty, regulaminy, podpisy i „podmioty odpowiedzialne”. Mówi charakterystycznie: „Znaczy…”, „Do ciężkiego segregatora”. Z Halinką tworzy kontrast: on porządkuje świat papierami, ona intuicją. Wizualnie: niski, zmęczony mężczyzna w okularach, pogniecionym garniturze i luźnym krawacie.\r\n- Reference 3 = attached Image 3 — source prop belicosa, reference: Kanoniczna dachowa Belicosa z finału sezonu 1: stacjonarne działo wulkaniczne zmaterializowane przez artefakt K20 na dachu starego Domu Kultury. Nie jest fragmentem humanoidalnego mecha, bronią ręczną ani pojazdem. To jedna dokładna, powtarzalna instalacja artyleryjska zaprojektowana dla jednego operatora, Czesława.\n\nSTAŁA SKALA I GEOMETRIA: lufa z zespołem zamkowym ma około 14 m długości; maksymalna wysokość przy spoczynkowym uniesieniu 35 stopni wynosi około 4,8 m; obrotowa podstawa ma około 6 m średnicy. Dokładnie jedna ogromna centralna lufa z szerokim prostokątnym wylotem, trzema segmentami czernionego stalowego płaszcza chłodzącego, grubymi mosiężnymi pierścieniami blokującymi, bocznymi wiązkami przewodów i hydraulicznymi siłownikami elewacji. Okrągła podstawa obraca całe działo. Cztery osobne ciężkie podpory tworzą około 10 × 10 m obrysu i rozchodzą się promieniście i kotwią instalację w belkach dachu; ich ciężar ma wiarygodnie przeciążać stary budynek.\n\nPo lewej stronie tylnej części znajduje się jedno stanowisko dorosłego operatora: stalowy podest, barierka do pasa, dwa ciężkie uchwyty sterujące oraz zintegrowany kompaktowy auspex. Auspex ma wąski ciemny ekran i mały emiter optyczny, bez czytelnych napisów i interfejsu. Materiały: czerniona i miejscami przypalona stal, stare żelazo, wiekowy mosiądz, ceramiczna izolacja, smar, widoczne śruby i spawy. Wąskie głęboko szmaragdowe i starozłote szczeliny światła występują wyłącznie pomiędzy sekcjami zmaterializowanymi przez K20. Bez znaków frakcji, czaszek, orłów, symboli Chaosu i tekstu.\n\nReferencja utrwala pełną sylwetkę, proporcje, położenie operatora, układ podpór, pojedynczą lufę, materiały oraz zielono-złoty język energii. W każdym shocie należy zachować dokładnie jedną lufę, jedną podstawę, cztery podpory i jedno stanowisko operatora. Broń może obracać się i zmieniać elewację, ale jej części nie morfują i nie zmieniają proporcji.\r\n- Reference 4 = attached Image 4 — source Shot final-09-belicosa-przegrzewa-sie: Po trzeciej salwie własna moc Belicosy doprowadza instalację i stary dach do granicy wytrzymałości. Segmenty płaszcza chłodzącego pulsują ciepłem, z zaworów wyrywa się gęsta para, przewody szarpią się, auspex migocze, a cztery ciężkie podpory rozrywają papę i wciskają się w konstrukcję Domu Kultury. To nie atak statku ani kara za niewłaściwe emotki: awaria wynika wyłącznie z tego, że zbyt potężne działo trzy razy odpaliło z dachu budynku, który nigdy nie miał przenosić takiej masy i odrzutu.\n\nCzesław pozostaje przypięty do lewej platformy w samym środku mechanicznego kryzysu. Próbuje odruchowo wykonać procedurę — odpuszcza spust, szarpie osłonięty przełącznik i osłania twarz przed parą — lecz po raz pierwszy traci kontrolę nad sytuacją. Kamera jest blisko, niestabilna i przygnieciona skalą mechanizmu; wojenny ciężar awarii zderza się z absurdem urzędnika próbującego regulaminowo opanować magiczną superbroń. Zniszczenie oraz zrezygnowane reakcje obrońców przygotowują ciszę, w której Halinka może przerwać bezowocną walkę swoim pomysłem z ciasteczkami.\r\n- Reference 5 = attached Image 5 — source place dach-domu-kultury, reference: Kanoniczny dach starego Domu Kultury używany w finale sezonu 1. Kamera znajduje się wysoko nad placem przed głównym wejściem, lekko po frontowej lewej stronie budynku, i patrzy w dół ku jego tyłowi. Dolna krawędź referencji zawsze oznacza FRONT i plac; górna krawędź zawsze oznacza TYŁ. W dolnej części kadru widać ciągłość z place:dom-kultury-wejscie: różowy pas elewacji, baner, szyld DOM KULTURY, centralne wejście, głośnik po frontowej lewej stronie oraz antenę satelitarną po frontowej prawej. Nie wolno odwracać ani zastępować tej ściany tylną elewacją.\n\nDach jest prostokątny, płaski, pokryty mokrą i wielokrotnie łataną czarną papą, otoczony niską betonową attyką. Z tyłu po prawej stoi jedyna różowa nadbudówka wejściowa z ciemnozielonymi drzwiami, kratką i ciepłą lampą. Drzwi są skierowane ukośnie ku centralnej części dachu. Główny komin znajduje się bliżej środka po lewej; mniejsze wywietrzniki i maszt antenowy skupiają się głównie w tylnej lewej części. Głośnik i antena satelitarna pozostają na frontowej elewacji i nie są dublowane na dachu.\n\nŚrodkowo-prawa część zawiera duży prostokątny fragment starszego wzmocnienia konstrukcyjnego. Najpierw materializuje się tam auspex, a później środek sześciometrowej podstawy Belicosy. Cztery podpory tworzą około 10 × 10 m obrysu. Belicosa nie celuje nad wejściem ani w plac: w stanie bojowym jej czternastometrowa lufa jest uniesiona około 58 stopni, a wylot jest najwyższym końcem i na referencji obrony wskazuje niebo w górnej lewej części kadru. Platforma operatora pozostaje po prawdziwej lewej stronie działa. Stary dach wygląda na zbyt słaby dla tej instalacji i później zapada się dokładnie pod podstawą oraz czterema podporami.\n\nNocne światło jest chłodne, papa mokra, a ciepłe źródła to wejście na parterze i lampa nad zielonymi drzwiami. Referencja jest neutralną płytą lokacji: bez ludzi, K20, auspexu, Belicosy, biookrętów i efektów magicznych.\r\n- Reference 6 = attached Image 6 — source prop auspex-belicosy, reference: Kanoniczny auspex systemu Belicosa. Najpierw materializuje się samodzielnie na dachu Domu Kultury, a później zostaje bez zmiany kształtu włączony w lewą platformę operatora działa. To wolnostojący, przemysłowy pulpit celowniczy o wysokości 1,15 m, szerokości 0,72 m i głębokości 0,55 m. Stoi na prostokątnej płycie 0,70 × 0,50 m z czterema otworami kotwiącymi.\n\nSTAŁA GEOMETRIA: czerniony stalowy korpus z widocznymi śrubami i spawami; pulpit pochylony około 25 stopni; jeden główny wąski ekran operatorski z ciemnego szkła; nad nim zamknięte okno dalmierza oraz dokładnie jeden mosiężny emiter optyczny z okrągłą zieloną soczewką. Pod ekranem znajdują się dokładnie dwa mosiężne pokrętła, jeden osłonięty przełącznik i jedna wąska szczelina kontrolna. Po obu stronach biegną stałe stalowe poręcze. Z tyłu pozostają jedno gniazdo grubej wiązki przewodów i dwa porty przyłączeniowe do hydrauliki oraz zasilania Belicosy.\n\nMateriały i język wizualny są identyczne jak w propie Belicosy: czerniona, miejscami zużyta stal, wiekowy mosiądz, smar i bardzo oszczędne głęboko zielone światło. Brak klawiatury, joysticka, hologramów, napisów, logotypów, symboli frakcyjnych i dodatkowych ekranów. Urządzenie nie jest bronią i nie strzela; wykrywa, śledzi i wskazuje cele. Referencja utrwala pełną sylwetkę, skalę, rozmieszczenie elementów sterujących, soczewkę i złącza.\r\n- Reference 7 = attached Image 7 — source place dach-domu-kultury-obrona, reference: Kanoniczny stan dachu Domu Kultury po pełnej materializacji Belicosy, przed przegrzaniem i zawaleniem. Kamera, fasada, wejście, baner, głośnik, antena satelitarna, attyki, nadbudówka, kominy, wywietrzniki, mokra papa i panorama są identyczne jak w place:dach-domu-kultury. Dolna krawędź kadru jest frontem budynku i placem, górna — tyłem. Zielona nadbudówka stoi z tyłu po prawej.\n\nDokładnie jedna Belicosa stoi na środkowo-prawej strefie naprawionego dachu. Okrągła podstawa ma 6 m średnicy. Dokładnie cztery ciężkie podpory rozchodzą się do czterech osobnych stóp i tworzą około 10 × 10 m obrysu. Pojedyncza lufa z zamkiem ma 14 m długości. To artyleria przeciwlotnicza i przeciwokrętowa: lufa jest uniesiona około 58 stopni nad poziom. Prostokątny wylot jest jednoznacznie najwyższym końcem, wysoko ponad linią dachu, i wskazuje otwarte niebo w górnej lewej części kadru. Zamek pozostaje nisko nad podstawą po dolnej prawej stronie osi. Działo nigdy nie celuje poziomo w wejście, fasadę ani plac.\n\nLewa platforma operatora i zintegrowany prop:auspex-belicosy znajdują się po prawdziwej lewej stronie działa względem kierunku ognia. Od zielonych drzwi z tyłu po prawej pozostaje wąska droga do platformy. Czerniona stal, stary mosiądz, hydraulika i oszczędne zielono-złote szczeliny pozostają zgodne z prop:belicosa. Dach lekko ugina się pod czterema stopami, ale nie jest jeszcze przebity. Brak ludzi, biookrętów, K20, strzału, przegrzania, pary i materializacji.\r\n- Reference 8 = attached Image 8 — source prop helm-czeslawa-wz31, reference: Kanoniczny hełm, który Czesław zakłada podczas całej obrony Domu Kultury. Autentyczna polska sylwetka hełmu stalowego wz.31 z lat trzydziestych: płytka, regularnie zaokrąglona kopuła i niski, delikatnie rozszerzający się ciągły rant. Kolor oliwkowo-khaki. Powierzchnia ma charakterystyczną grubą, ziarnistą fakturę przeciwodblaskową typu „salamandra”, umiarkowanie zużytą na krawędziach. Wewnątrz ciemnobrązowy skórzany fasunek oraz prosty, postarzały skórzany pasek pod brodę. Hełm jest zawsze tym samym fizycznym przedmiotem i zachowuje kształt, odcień, fakturę, nity oraz pasek we wszystkich ujęciach od wejścia Czesława na dach do scen po przeciążeniu działa. Nie ma orła, godła, napisów, numerów, odznak, dziur po kulach ani współczesnych dodatków. Nie może zmieniać się w niemiecki Stahlhelm, radziecki SSh-40, brytyjski Brodie, amerykański M1 ani nowoczesny hełm NATO. To prawdziwy stary element wyposażenia, nie błyszczący cosplay.\n\n\n\nShot: final-10-czeslaw-opuszcza-platforme\nDescription:\nCzesław rozumie, że działa nie da się już bezpiecznie użyć, i schodzi z platformy przed zawaleniem dachu. poczucie porażki i strachu. dramturgia kadru\n\nPreserve every piece of text, lettering, typography, label, sign, logo, brand mark, symbol, and graphic detail visible in any source or reference image exactly as it appears. Preserve its content, spelling, design, position, scale, color, sharpness, and legibility. Never remove, replace, obscure, blur, soften, distort, censor, or invent any of these source details.\nDo not add new captions, subtitles, titles, watermarks, borders, interface elements, contact sheets, or multiple panels unless the current shot description explicitly requests them.",
+    "endFrameDescription": "",
+    "animation": "One continuous 3-second locked shot. Czeslaw unclips once, crosses the short service ledge and starts down toward safety while the abandoned platform shakes behind him. He does not fall, return or fire. No new person enters."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "character:czeslaw",
+        "prop:belicosa",
+        "shot:final-09-belicosa-przegrzewa-sie",
+        "place:dach-domu-kultury",
+        "prop:auspex-belicosy",
+        "place:dach-domu-kultury-obrona",
+        "prop:helm-czeslawa-wz31"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-10-czeslaw-opuszcza-platforme/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-10-czeslaw-opuszcza-platforme/frame-start-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-9/confusion-techno",
+  "id": "confusion-techno",
+  "title": "confusion-techno",
+  "description": "Pierwszy cichy beat po nagłym wejściu techno. Oświetlenie sali Domu Kultury przygasa, przez kadr przechodzi niebiesko-różowy błysk stroboskopu, a z boków zaczyna wpływać para sceniczna. Czesław i Halinka stoją za stołem komisji z pustymi dłońmi i patrzą sobie prosto w oczy w całkowicie poważnej konsternacji. Jeszcze nikt nie tańczy. Złote Emoji stoi na stole.",
+  "project": {
+    "id": "zlote-emoji-9",
+    "name": "Złote Emoji #9"
+  },
+  "references": [
+    {
+      "type": "place",
+      "id": "komisja-zlote-emoji-tygodnia"
+    },
+    {
+      "type": "character",
+      "id": "czeslaw"
+    },
+    {
+      "type": "character",
+      "id": "halinka"
+    }
+  ],
+  "prompts": {
+    "image": "Cinematic 16:9 medium two-shot in the exact Golden Emoji ceremony hall. The room has suddenly dimmed; one restrained blue-magenta strobe pulse crosses Czesław and Halinka while thin theatrical fog enters from the sides. Both stand behind the jury table with empty hands and look directly at each other in controlled deadpan confusion. Neither dances. Preserve their exact identities and wardrobe, the AIMFTV wall plaque, Golden Emoji trophy on the table, tea glass, papers, pen, stamp and established hall continuity. Exactly two people; no Maia, DJ console, confetti, audience, captions or watermark.",
+    "endFrameDescription": "",
+    "animation": "Static locked camera for the entire shot. Czesław and Halinka remain standing behind the jury table and hold awkward eye contact in complete silent confusion. Neither person speaks, dances, smiles, gestures, changes position, or looks toward the camera. Keep their bodies almost perfectly still; use only natural breathing, one subtle blink each, a tiny eyebrow movement from Czesław, and Halinka slowly tightening her expression as if silently asking whether he also sees this. The blue-magenta strobe gives two or three brief irregular pulses across the room while thin white theatrical fog slowly drifts in from both sides and becomes slightly denser near the floor. The warm practical lights remain dim. The Golden Emoji trophy, tea glass, papers, pen, stamp, jury table, chairs, stage, screen, AIMFTV plaque, all text and every prop remain completely fixed and unchanged. Preserve both identities, faces, ages, hair, wardrobe, anatomy and the exact composition. No dancing, no dialogue, no lip movement, no new people, no Maia, no DJ console, no confetti, no camera movement, no zoom, no cuts, no object motion, no identity morphing."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "place:komisja-zlote-emoji-tygodnia",
+        "character:czeslaw",
+        "character:halinka"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-9/shots/confusion-techno/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-9/shots/confusion-techno/frame-start-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ]
+}

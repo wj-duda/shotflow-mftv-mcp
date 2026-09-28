@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-14/ze14-odbicie-halinki",
+  "id": "ze14-odbicie-halinki",
+  "title": "Odbicie Halinki - blysk",
+  "description": "Pierwsza przebitka ping-pong, 12 klatek / 0,5 s. Makro złotej kuli: wyłącznie odbita Halinka w kanonicznym stroju. Mały ciepły błysk przy odbiciu jej naszyjnika, Halinka nieświadoma. Bez bezpośredniego rozbłysku na realnej postaci; po tym cięcie na czarną Sirock w drugim odbiciu.",
+  "project": {
+    "id": "zlote-emoji-14",
+    "name": "Złote Emoji #14"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "ze14-nagroda-naszyjnik"
+    }
+  ],
+  "prompts": {
+    "image": "Single cinematic photoreal 16:9 EXTREME MACRO insert of the polished gold spherical smiley trophy from input1 during handover. Input1 is mandatory identity of Halinka, burgundy cardigan, black top, small round gold compass pendant AND the exact trophy material and existing small office. Camera on the BACK SIDE of gold sphere facing toward seated Halinka via its curved mirror surface. Crop so gold curved surface fills 85 percent of frame, a rounded rim on one side and tiny out of focus pedestal edge make it an actual metal sphere, not portal or flat mirror. Because this is back of trophy the engraved smiley face is on opposite unseen side, do not redesign trophy. ONLY Halinka's reflected head and upper torso appear recognizable in the convex gold surface, naturally compressed and gently barrel-distorted, all skin and clothing tinted by warm gold reflection. Her expression calm mundane unaware. At reflected pendant on reflected chest there is ONE tiny intense warm white-gold glint with short restrained star rays, 5 percent frame maximum, a hint of inner light; no glow anywhere else, no visible real Halinka outside reflection. Reflected office window light strips and fine metallic micro-scratches convincingly establish curved polished metal. Real surrounding desk/office is just soft abstract bokeh at edges. Do NOT include Sirock, Czeslaw, extra faces, figures trapped inside sphere, crystal glass, magic smoke, sparks, runes, halos, captions or text. The effect exists ONLY within mirror reflection on opaque GOLD METAL. Film macro optics shallow depth of field, face and tiny pendant glint readable in half-second insert. Single frame.",
+    "endFrameDescription": "",
+    "animation": "0.0–0.25s: The tiny reflected pendant glint already visible in the first frame brightens only slightly. 0.25–0.8s: It fades back to an ordinary metallic highlight. 0.8–3.0s: Halinka's reflection holds the same calm, unaware expression with minimal breathing. Camera: locked extreme macro. @Image1 anchors only the reflected woman's facial identity; keep the starting jewelry, clothing and convex reflection. Preserve the gold sphere's rigid shape and surrounding exposure. The light event stays confined to the reflected pendant. Avoid a second pulse, full-frame flare, halos, facial reaction, new reflected people, liquid gold or cuts."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze14-nagroda-naszyjnik"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-odbicie-halinki/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-odbicie-halinki/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

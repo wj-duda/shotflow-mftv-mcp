@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:prezent-dla-halinki-1/stolik-pusty",
+  "id": "stolik-pusty",
+  "title": "stolik-pusty",
+  "description": "",
+  "project": {
+    "id": "prezent-dla-halinki-1",
+    "name": "Prezent Dla Halinki 1"
+  },
+  "references": [],
+  "prompts": {
+    "image": "",
+    "endFrameDescription": "",
+    "animation": "Static shot. Preserve the exact same room, table, lace doily, furniture, and cardboard package.\n\nAbsolutely no person visible at any time — no hand, no arm, no sleeve, no body, no shadow, no reflection.\n\nThe only motion: the package is thrown from off-screen into frame onto the table. It lands realistically, slides slightly, gives a small bounce, and settles naturally. Realistic gravity, inertia, and weight.\n\nCamera locked. No camera movement. No new objects. No extra package. No morphing. No deformation. No person entering frame."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/prezent-dla-halinki-1/shots/stolik-pusty/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/prezent-dla-halinki-1/shots/stolik-pusty/frame-start-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "revision": 1,
+      "source": "reference",
+      "referenceKeys": [],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/prezent-dla-halinki-1/shots/stolik-pusty/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/prezent-dla-halinki-1/shots/stolik-pusty/frame-end-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ]
+}

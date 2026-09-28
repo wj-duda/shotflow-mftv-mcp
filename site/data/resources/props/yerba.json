@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "prop:yerba",
+  "type": "props",
+  "id": "yerba",
+  "name": "Tykwa Pana Darka",
+  "description": "Tykwa Pana Darka, kubek ma dwa napisy w zaleźnosci od humoru Pana Dareczka\r\nspokojny - Bajarz\r\nGniewny - Zabójca",
+  "images": [
+    {
+      "id": "image-002",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/yerba/image-002.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/yerba/image-002-thumb.webp",
+      "width": 1254,
+      "height": 1254,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-08-01T20:06:47.9943038+00:00"
+}

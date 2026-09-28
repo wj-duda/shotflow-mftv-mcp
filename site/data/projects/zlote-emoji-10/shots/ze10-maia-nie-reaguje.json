@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-10/ze10-maia-nie-reaguje",
+  "id": "ze10-maia-nie-reaguje",
+  "title": "Maia nie reaguje",
+  "description": "Twarde kontrujęcie: ciasne zbliżenie śpiącej Mai po kwestii Pipy. Maia nie otwiera oczu, nie podnosi głowy i nie daje normalnej odpowiedzi. Po małym szturchnięciu jej twarz tylko minimalnie zapada się głębiej w poduszkę lub ramię Pipy; wydaje jeden niezrozumiały, senny pomruk i znów nieruchomieje. Komedia wynika z prawie całkowitego braku reakcji.",
+  "project": {
+    "id": "zlote-emoji-10",
+    "name": "Złote Emoji #10"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "pipa-wake"
+    },
+    {
+      "type": "shot",
+      "id": "ze10-pipa-miala-jechac"
+    },
+    {
+      "type": "character",
+      "id": "maia-melodies-v2"
+    },
+    {
+      "type": "place",
+      "id": "mieszkanie-po-afterze"
+    }
+  ],
+  "prompts": {
+    "image": "Create a cinematic photorealistic 16:9 close-up continuing directly from the Pipa dialogue shot. Use the established wide shot and Maia Melodies v2 as mandatory continuity and identity references. Frame Maia's sleeping face tightly on the right side of the same sofa. Her eyes are fully closed, platinum-lavender bob slightly disordered, cheek resting heavily against a cushion or Pipa's shoulder. A soft edge of Pipa's purple braids may enter one side, but Maia is the sole focus. Keep Maia's black leather biker jacket and pale collared shirt visible at the lower edge. Match the late-morning daylight, warm lamp and shallow-focus afterparty background. Her expression is completely unresponsive, not posed or smiling. Preserve face, age, hair, proportions and wardrobe. No open eyes, phone, extra people, nightclub, text, subtitles, logos, watermark or malformed anatomy.",
+    "endFrameDescription": "",
+    "animation": "One continuous static two-second close-up with no cut. @Element1 is Maia Melodies v2, deeply asleep in the same position and lighting established by @Image1. 0.0–0.5 s: the tiny off-screen nudge from Pipa reaches Maia; only her cheek and hair shift a few millimeters. 0.5–1.2 s: without opening her eyes, Maia releases one short unintelligible sleepy murmur. 1.2–2.0 s: her face settles slightly deeper and becomes still again, with only quiet breathing. Make the non-reaction the punchline. Preserve identity, closed eyes, hair, clothing, sofa contact and screen direction. No intelligible words, waking, head lift, smile, broad gesture, camera movement, zoom, morphing, extra limbs, subtitles, text or transition."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:pipa-wake",
+        "shot:ze10-pipa-miala-jechac",
+        "character:maia-melodies-v2"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-10/shots/ze10-maia-nie-reaguje/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-10/shots/ze10-maia-nie-reaguje/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

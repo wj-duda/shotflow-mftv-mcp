@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:prezent-dla-halinki-1/dostawa-kolo",
+  "id": "dostawa-kolo",
+  "title": "dostawa-kolo",
+  "description": "",
+  "project": {
+    "id": "prezent-dla-halinki-1",
+    "name": "Prezent Dla Halinki 1"
+  },
+  "references": [],
+  "prompts": {
+    "image": "",
+    "endFrameDescription": "",
+    "animation": "Use the provided start frame and end frame as exact visual anchors. Create only a smooth, realistic transition between them.\n\nThere is only one vehicle in the entire shot: one single black KOM POST delivery van.\nThe van visible in the start frame and the van visible in the end frame are the same exact physical vehicle.\nDo not introduce, reveal, replace, uncover, or imply any second van.\nDo not let the van exit frame and reveal another van behind it.\nDo not treat the end frame van as a separate parked vehicle.\nThe vehicle must remain the same continuous object throughout the whole shot.\n\nThe exact same black KOM POST van slowly rolls forward into the final stopping position shown in the end frame. Preserve its exact model, body shape, size, proportions, matte black finish, tinted windows, wheel design, wheel positions, KOM POST logo, lettering, and all visible details throughout the entire shot.\n\nThe motion is a single continuous approach of that one van only. The van stays visible the whole time and moves naturally from the start-frame position into the end-frame position. The wheels rotate naturally and consistently with the forward motion. The van has believable weight and inertia, with only subtle suspension movement as it slows and settles into place.\n\nThe Dom Kultury building, parcel locker, pavement, lighting, night sky, and all background elements remain completely fixed and unchanged. The camera stays locked in the exact same low position. No camera movement, no zoom, no pan, no reframing.\n\nNo people appear. Nothing new enters the frame. No second vehicle. No hidden vehicle. No parked duplicate. No reveal of another van. No extra lights, no smoke, no mist, no rain change, no environmental motion, no morphing, no deformation, no duplicated wheels, no duplicated body panels, no changing logo, no changing text, no flicker, no warped geometry.\n\nThe motion must be grounded, slow, heavy, physically realistic, and continuous from the start frame to the exact end frame, with one and only one KOM POST van present in the scene."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/prezent-dla-halinki-1/shots/dostawa-kolo/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/prezent-dla-halinki-1/shots/dostawa-kolo/frame-start-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "revision": 1,
+      "source": "reference",
+      "referenceKeys": [],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/prezent-dla-halinki-1/shots/dostawa-kolo/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/prezent-dla-halinki-1/shots/dostawa-kolo/frame-end-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ]
+}

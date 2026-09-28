@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-11/lacznik-flakon-perfumy",
+  "id": "lacznik-flakon-perfumy",
+  "title": "Łącznik: flakon perfum",
+  "description": "Makro dłoni Mai chwytającej przejrzysty flakon na toaletce; prowadzi od kolczyka do aplikacji perfum.",
+  "project": {
+    "id": "zlote-emoji-11",
+    "name": "Złote Emoji #11"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "maia-zaklada-kolczyk"
+    },
+    {
+      "type": "shot",
+      "id": "maia-perfumy"
+    },
+    {
+      "type": "place",
+      "id": "mieszkanie-po-afterze"
+    },
+    {
+      "type": "note",
+      "id": "movie-shot"
+    }
+  ],
+  "prompts": {
+    "image": "Fotorealistyczne filmowe makro 16:9 z wysokiego kąta nad drewnianą toaletką. Jedna dłoń Mai w czarnym skórzanym mankiecie obejmuje szyjkę małego przejrzystego flakonu i zaczyna go unosić; zamknięte pudełko biżuterii jest nieostre z tyłu. Twarz poza kadrem, ciepłe światło, realistyczne szkło i skóra. Zachować flakon i manicure z ujęcia maia-perfumy; bez rozpylania, etykiety, logotypu, duplikatu flakonu, dodatkowych palców i napisów.",
+    "endFrameDescription": "",
+    "animation": "Single continuous 3-second macro insert with a locked camera. The action begins immediately: Maia's hand closes naturally around the neck of the existing clear perfume bottle and lifts it from the vanity. Complete the useful lift within the first second, then hold it just above the surface. Do not spray. The closed jewelry box remains still and softly out of focus. Preserve the exact bottle shape, hand, manicure, black leather cuff, wooden surface, mirror reflection, and warm light. No duplicate bottle, warped glass, extra fingers, malformed anatomy, new object, morphing, camera move, cut, label, text, or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:maia-zaklada-kolczyk",
+        "shot:maia-perfumy",
+        "place:mieszkanie-po-afterze",
+        "note:movie-shot"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-11/shots/lacznik-flakon-perfumy/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-11/shots/lacznik-flakon-perfumy/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

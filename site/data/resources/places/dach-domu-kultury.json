@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "place:dach-domu-kultury",
+  "type": "places",
+  "id": "dach-domu-kultury",
+  "name": "Dach Domu Kultury",
+  "description": "Kanoniczny dach starego Domu Kultury używany w finale sezonu 1. Kamera znajduje się wysoko nad placem przed głównym wejściem, lekko po frontowej lewej stronie budynku, i patrzy w dół ku jego tyłowi. Dolna krawędź referencji zawsze oznacza FRONT i plac; górna krawędź zawsze oznacza TYŁ. W dolnej części kadru widać ciągłość z place:dom-kultury-wejscie: różowy pas elewacji, baner, szyld DOM KULTURY, centralne wejście, głośnik po frontowej lewej stronie oraz antenę satelitarną po frontowej prawej. Nie wolno odwracać ani zastępować tej ściany tylną elewacją.\n\nDach jest prostokątny, płaski, pokryty mokrą i wielokrotnie łataną czarną papą, otoczony niską betonową attyką. Z tyłu po prawej stoi jedyna różowa nadbudówka wejściowa z ciemnozielonymi drzwiami, kratką i ciepłą lampą. Drzwi są skierowane ukośnie ku centralnej części dachu. Główny komin znajduje się bliżej środka po lewej; mniejsze wywietrzniki i maszt antenowy skupiają się głównie w tylnej lewej części. Głośnik i antena satelitarna pozostają na frontowej elewacji i nie są dublowane na dachu.\n\nŚrodkowo-prawa część zawiera duży prostokątny fragment starszego wzmocnienia konstrukcyjnego. Najpierw materializuje się tam auspex, a później środek sześciometrowej podstawy Belicosy. Cztery podpory tworzą około 10 × 10 m obrysu. Belicosa nie celuje nad wejściem ani w plac: w stanie bojowym jej czternastometrowa lufa jest uniesiona około 58 stopni, a wylot jest najwyższym końcem i na referencji obrony wskazuje niebo w górnej lewej części kadru. Platforma operatora pozostaje po prawdziwej lewej stronie działa. Stary dach wygląda na zbyt słaby dla tej instalacji i później zapada się dokładnie pod podstawą oraz czterema podporami.\n\nNocne światło jest chłodne, papa mokra, a ciepłe źródła to wejście na parterze i lampa nad zielonymi drzwiami. Referencja jest neutralną płytą lokacji: bez ludzi, K20, auspexu, Belicosy, biookrętów i efektów magicznych.",
+  "images": [
+    {
+      "id": "image-002",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/dach-domu-kultury/image-002.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/dach-domu-kultury/image-002-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-08-19T08:30:00+02:00"
+}

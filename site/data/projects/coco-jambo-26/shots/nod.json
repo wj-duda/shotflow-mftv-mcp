@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:coco-jambo-26/nod",
+  "id": "nod",
+  "title": "nod",
+  "description": "Halinka i Czeslaw naturalnie przytakuja podczas nieruchomego ujecia przeznaczonego do zapetlenia.",
+  "project": {
+    "id": "coco-jambo-26",
+    "name": "Coco Jambo 26"
+  },
+  "references": [],
+  "prompts": {
+    "image": "",
+    "endFrameDescription": "",
+    "animation": "4-second natural silent reaction. Halinka, seated left, gives one small slow nod. Then Czeslaw, seated right, subtly adjusts his posture and gives one small nod. Both breathe naturally, blink occasionally and finish relaxed, close to the starting pose. Completely locked camera: no movement, zoom, shake, reframing or focus change. Preserve faces, clothes, anatomy, seating, lighting and background. No talking, lip movement, large gestures, new people, morphing, cuts, text or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "timeline",
+      "referenceKeys": [],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/coco-jambo-26/shots/nod/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/coco-jambo-26/shots/nod/frame-start-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ]
+}

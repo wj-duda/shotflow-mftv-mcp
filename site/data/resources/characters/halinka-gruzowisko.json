@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "character:halinka-gruzowisko",
+  "type": "characters",
+  "id": "halinka-gruzowisko",
+  "name": "Halinka — gruzowisko",
+  "description": "CHARACTER [age=45-59; presentation=feminine; height=short; build=average; body=pear; chest=medium; skin=light; face=round; eyes=brown; hair-color=red; hair-length=medium; hair-texture=curly]\r\n\r\nHalinka jest ciepłą, swojską i życzliwą pracownicą prowincjonalnego Domu Kultury. Działa intuicyjnie i emocjonalnie, bywa roztargniona oraz lekko chaotyczna, ale dobrze wyczuwa ludzi i atmosferę. Lubi ceremoniał, symboliczne gesty i organizacyjne rytuały. Wobec dziwnych i absurdalnych zdarzeń zachowuje zaskakujący spokój. Dyskretnie interesuje się ezoteryką, znakami i niewytłumaczalnymi zjawiskami, lecz ujawnia to jedynie w drobnych komentarzach i reakcjach. Pod spokojną codziennością skrywa barwną, artystyczną i bardziej przygodową przeszłość.\n\nWARIANT STROJU tej samej Halinki, bazowa postać: halinka. ZE13, wizyta w gruzowisku Domu Kultury. Niska 162 cm, naturalna przeciętna sylwetka gruszki, wąskie opadające ramiona, bez poszerzania klatki. Sprana śliwkowa miękka kurtka płócienna z lekkim zebraniem w talii, podwinięte rękawy, kremowy T-shirt V, cienki szal paisley turkusowo-miedziany, grafitowe proste dżinsy, brązowe płaskie sznurowane botki z pyłem. Te same rude loki, złote kolczyki i wisiorek słoneczny. Bez cekinów, poduszek ramion i odzieży budowlanej. To wariant, nie nowa osoba.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "portrait",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/halinka-gruzowisko/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/halinka-gruzowisko/image-001-thumb.webp",
+      "width": 1254,
+      "height": 1254,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-002",
+      "role": "silhouette",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/halinka-gruzowisko/image-002.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/halinka-gruzowisko/image-002-thumb.webp",
+      "width": 1024,
+      "height": 1536,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-20T09:43:53.881590+00:00"
+}

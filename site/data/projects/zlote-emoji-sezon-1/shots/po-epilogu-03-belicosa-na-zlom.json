@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-sezon-1/po-epilogu-03-belicosa-na-zlom",
+  "id": "po-epilogu-03-belicosa-na-zlom",
+  "title": "Po epilogu 03 — Belicosa jedzie na złom",
+  "description": "Szeroka wizualna puenta ujawnia źródło drgań z dwóch wcześniejszych zbliżeń. Niski, krępy Zenek, w zużytej czarnej skórzanej kurtce, ciemnogranatowej koszuli i prostokątnych przydymionych okularach, prowadzi maleńkiego Ursusa z chłodną pewnością prowincjonalnego bossa. Wysoki, chudy Mietek jedzie bokiem na tylnym błotniku, niewzruszenie prezentując malinowo-różowy sweter z dużą ręcznie doszytą gruszką. Za nimi prowizoryczna platforma z dwóch połączonych podwozi starych przyczep ugina się pod całą gigantyczną Belicosą. Obaj traktują kosmiczne działo jak zwykły dobry kawałek złomu; komizm wynika z różnicy skali, zderzenia dwóch rozpoznawalnych kodów kostiumowych z prowincjonalną codziennością i ich absolutnego profesjonalizmu.",
+  "project": {
+    "id": "zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "po-epilogu-01-zlomiarz-chwali-zenka"
+    },
+    {
+      "type": "shot",
+      "id": "po-epilogu-02-zenek-odpowiada"
+    },
+    {
+      "type": "place",
+      "id": "dom-kultury-ruina-po-belicosie"
+    },
+    {
+      "type": "prop",
+      "id": "belicosa"
+    }
+  ],
+  "prompts": {
+    "image": "Photorealistic live-action 16:9, the very wide reveal and visual punchline of the same three-shot deadpan Polish comedy stinger at early dawn. Preserve the exact original identities, opposite body silhouettes and fixed signature garments established in shot:po-epilogu-01-zlomiarz-chwali-zenka and shot:po-epilogu-02-zenek-odpowiada. Never swap, merge or average the two men.\n\nMIETEK CONTINUITY: the tall wiry passenger with the narrow weathered face, prominent ears, patchy gray stubble and faded black knitted cap. He wears the exact faded raspberry-pink, slightly short acrylic crew-neck sweater from shot 1. The same complete 25 cm crocheted pear applique remains centered on his chest: pale yellow-green rounded body, short brown stem, exactly one dark-green leaf leaning to his right and visible uneven dark-raspberry attachment stitches. No vest or jacket may cover the pear. Mietek sits sideways on the right rear fender with the complete pear motif readable to camera.\n\nZENEK CONTINUITY: the short powerfully stocky driver with the broad ruddy original face, large drooping gray moustache and thinning steel-gray hair combed straight back with too much pomade. He wears the exact narrow rectangular black-framed glasses with lightly smoke-tinted transparent lenses, dark navy matte button-up shirt and short waist-length black leather jacket established in shot 2. Preserve its plain fold-down collar, straight zipper, simple slash pockets, dulled surface, elbow creases, cracked cuffs and faint tractor-grease marks. It is restrained late-1990s gangster styling adapted into genuine provincial workwear, not a costume and not the likeness of any known actor. Zenek never wears a cap, overalls, tie, weapon, pink garment or pear motif.\n\nPreserve the exact ruined front and roof geometry from place:dom-kultury-ruina-po-belicosie and the exact one-and-only prop:belicosa. On the wet cracked road in front of the ruined Dom Kultury, a tiny faded brick-red Polish Ursus C-330 farm tractor from the 1970s crawls left to right. Preserve authentic simple geometry: narrow front axle, two small front wheels, two much larger worn rear wheels, exposed engine, vertical black exhaust stack, faded rounded hood and plain gray rear fenders. No modern cabin. Zenek drives with calm concentration. Mietek sits slightly cramped on the right rear fender, holding a safe metal handhold and looking pleased with the operation.\n\nBehind the tractor is one coherent but alarmingly homemade low transporter constructed from exactly two mismatched stripped agricultural flatbed trailer chassis rigidly joined side by side with dark welded I-beams. Exactly four axles and eight visibly compressed worn tires in total. A crude triangular drawbar made from welded scaffolding pipe, heavy chains, mismatched faded straps and rough wooden cribbing connect and secure the load. It looks ingenious, locally fabricated and barely adequate, never like a professional military low-loader.\n\nThe single complete Belicosa dwarfs the tractor, both men and transporter to a ridiculous degree while preserving its canonical circular base, exactly one fourteen-meter barrel, exactly four supports, one operator platform, blackened steel, aged brass and restrained green details. Its barrel points diagonally upward and backward, safely away from the tractor and building. The platform bows slightly and every tire flattens under the mass. The tractor's lightly loaded front end sits only a little high, not in a wheelie.\n\nThe ruined Dom Kultury fills the middle background with only the collapsed roof hole where the cannon stood; there is no second cannon on the roof. Static slightly low roadside master shot containing the full tractor, both men, full transporter and full Belicosa. Grounded documentary realism and absolute deadpan behavior. Mietek's cheerful handmade pear sweater and Zenek's formal tie-overalls combination are clearly readable but never presented to camera as a joke. Exactly two men, one tractor, one transporter and one Belicosa. No club members, Mistrz Konca, K20, fleet, cookies, extra vehicles, professional low-loader, duplicated wheels or cannon, firing, magic, captions, logos, UI or watermark.",
+    "endFrameDescription": "",
+    "animation": "One continuous 4-second locked very wide roadside shot with no cut, matching the 96-frame timeline clip at 24 fps. The tiny old Ursus C-330 crawls slowly from left to right under an obviously impossible load. Its uneven two-cylinder diesel shakes the hood, the vertical exhaust emits one brief dark puff and the lightly loaded front wheels bounce once by only a few centimeters without lifting into a wheelie. Zenek steers steadily and remains completely unbothered. His short worn black leather jacket, dark navy shirt, lightly tinted rectangular glasses and slicked-back gray hair remain recognizable and unchanged; there is no cap, tie or overalls.\n\nMietek rides the right rear fender, absorbs the vibration through his long narrow body and briefly looks back at the load with satisfied approval. His raspberry-pink sweater shifts naturally, but the full crocheted pear remains visible and unchanged: pale yellow-green body, brown stem, one dark-green leaf and crooked attachment stitches. The pear never morphs, detaches, gains a face, changes color or becomes a logo.\n\nAll eight trailer tires rotate slowly and remain visibly compressed. The welded double-trailer platform flexes a little, chains rattle, one loose strap end flutters and the enormous Belicosa gives one slow heavy realistic sway while remaining fully secured. The cannon stays inert and never fires. Wet-road reflections slide beneath the wheels; faint dust and steam drift from the roof hole behind them.\n\nPreserve the exact Zenek and Mietek identities, their opposite silhouettes and signature outfits, the authentic tiny tractor geometry, coherent four-axle platform, single canonical Belicosa, ruined facade, enormous scale contrast and dawn lighting. No extra people or vehicles, detached cargo, collapse, duplicated wheels, morphing machinery, camera movement, text, subtitles, logos or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:po-epilogu-01-zlomiarz-chwali-zenka",
+        "shot:po-epilogu-02-zenek-odpowiada",
+        "place:dom-kultury-ruina-po-belicosie",
+        "prop:belicosa"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/po-epilogu-03-belicosa-na-zlom/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/po-epilogu-03-belicosa-na-zlom/frame-start-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ]
+}

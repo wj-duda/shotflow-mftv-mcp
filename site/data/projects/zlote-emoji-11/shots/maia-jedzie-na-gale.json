@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-11/maia-jedzie-na-gale",
+  "id": "maia-jedzie-na-gale",
+  "title": "Maia jedzie na super galę",
+  "description": "W pełnym galowym looku Maia prowadzi ciemny kompakt przez Łazy w stronę Domu Kultury. Jest spokojna i przekonana, że wieczór potoczy się zgodnie z planem.",
+  "project": {
+    "id": "zlote-emoji-11",
+    "name": "Złote Emoji #11"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "maia-gotowa-na-gale"
+    },
+    {
+      "type": "character",
+      "id": "maia-melodies-v2"
+    },
+    {
+      "type": "place",
+      "id": "lazy"
+    },
+    {
+      "type": "note",
+      "id": "movie-shot"
+    }
+  ],
+  "prompts": {
+    "image": "Dokładne poziome lustrzane odbicie aktywnej klatki frame-v001.png. Zachować pikselowo całą kompozycję, twarz i tożsamość Mai, platynowo-lawendowy bob, makijaż, ramoneskę, kremową koszulę, pas bezpieczeństwa, dłonie, kierownicę, wnętrze auta, ulicę i oświetlenie; zmienić wyłącznie orientację lewo-prawo, bez generatywnych zmian, napisów i watermarku.",
+    "endFrameDescription": "",
+    "animation": "Single continuous 3-second shot from the fixed interior camera. The car drives smoothly forward through the existing street in Łazy; buildings, trees, road markings, and sunlight move naturally past the windows with correct parallax. Maia keeps both hands naturally controlling the steering wheel, makes one small steering correction, blinks once, and stays focused on the road with calm confidence. Add only subtle suspension vibration, tiny hair movement, and realistic moving reflections on the glass and leather. Preserve the exact mirrored Start Frame orientation, Maia's identity, face, makeup, platinum-lavender bob, outfit, seat belt, hands, steering wheel, car interior, and one-person occupancy. No passenger, phone, headphones, hand deformation, changing road geometry, morphing, camera move, cut, text, or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:maia-gotowa-na-gale",
+        "character:maia-melodies-v2",
+        "place:lazy",
+        "note:movie-shot"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-11/shots/maia-jedzie-na-gale/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-11/shots/maia-jedzie-na-gale/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

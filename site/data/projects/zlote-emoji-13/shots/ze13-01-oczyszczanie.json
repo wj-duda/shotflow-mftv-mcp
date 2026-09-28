@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-13/ze13-01-oczyszczanie",
+  "id": "ze13-01-oczyszczanie",
+  "title": "ZE13 01 — od żaru do twarzy",
+  "description": "5,583 s bez dialogu pod instrumental. Jedno płynne uniesienie kamery od lewej dłoni Halinki ze szałwią do twarzy. Spodek pozostaje stabilny; delikatny przeciąg prowadzi smugę dymu w lewo przez stały ukośny snop słońca. Ciepłe krawędzie włosów, chłodne cienie gruzowiska. Twarz odsłaniana stopniowo; bez innych osób w kadrze. Klatki generowane bezpośrednio przez agenta; take nie został uruchomiony. Wariant stroju: halinka-gruzowisko, śliwkowa miękka kurtka, szal paisley; naturalne wąskie ramiona. Nowa wersja obrazu: dym niesiony lekko w lewo, pył w świetle, przygaszone tło i filmowa głębia.",
+  "project": {
+    "id": "zlote-emoji-13",
+    "name": "Złote Emoji #13"
+  },
+  "references": [
+    {
+      "type": "note",
+      "id": "ze13-ruina-po-ze12"
+    },
+    {
+      "type": "character",
+      "id": "halinka-gruzowisko"
+    }
+  ],
+  "prompts": {
+    "image": "Use case: identity-preserve. Redesign input1 film still. Input1 supplies ONLY ruined hall layout and exact small cream saucer, tied 12cm sage and black phone, NOT old clothing/body/flat bright light. Input2 is mandatory new Halinka full-body proportion and outfit; input3 facial identity. Halinka is the SAME SHORT 162cm woman, average pear-shaped body, narrow naturally sloping shoulders, modest upper torso, larger hips. Exact new outfit from wardrobe reference, unpadded soft plum cotton jacket, thin teal/copper paisley scarf, cream shirt, gold sun pendant. Never broaden shoulders, enlarge chest, inflate arms or use old red sequined cardigan. Visual language: atmospheric 35mm cinema still, gentle diffusion and halation ONLY on highlights, natural grain, muted colors, deep cool grey-teal shadows and selective warm amber backlight from upper-right rear through missing roof. Expose for light so background falls 1.5 stops darker, NOT evenly lit HDR or orange glossy commercial. Layers of translucent sage smoke drift in delicate serpentine filaments across foreground, tiny airborne plaster dust sparkles ONLY inside sun shaft, no glitter or magical particles. Slightly unreal suspended-time mood produced by optics, smoke and dust, but physically real ruin. Background soft and partially obscured, strong depth, off-center human composition, natural skin. Composition 1920x1080 16:9 without borders: intimate 65mm waist-height view from slightly oblique front (15 degrees), crop hips to collarbones, FACE ENTIRELY ABOVE frame. Halinka body on right half, not filling frame; saucer held level in her anatomical LEFT hand toward image right at waist height, right-hand black phone low image left near hip. Smoke is the visual protagonist: exquisite layered translucent curls rising from same glowing sage tip, swept gently toward screen left into large dark negative space. A diagonal narrow sunshaft behind curls reveals dancing dust in multiple focus planes, subtle near-lens blurred wisps. Background ochre/green walls, broken timbers, burgundy curtain only glimpsed in soft shadow. No face, other people, extra limbs, flame, restored roof, text, sparkles, fantasy glow or glitter.",
+    "endFrameDescription": "Po pionowym uniesieniu kamery o około 65 cm twarz Halinki pojawia się po prawej stronie kadru. Nowy strój, wąskie ramiona, oczy przymknięte, ta sama pozycja ciała i rekwizytów. Smugi dymu kierują się w lewo, drobny pył płynie w nieruchomym świetle. Telefon nadal w prawej poniżej kadru; spodek w lewej.",
+    "animation": "0–4.8s: camera cranes UP 65cm at constant distance, following smoke from saucer to Halinka’s face on screen right. Halinka holds the saucer level in LEFT hand; RIGHT retains phone. 4.8–5.3s: arrive at supplied End Frame; 5.3–6s hold, first 5.583s used. Secondary motion: sage smoke already rises from its glowing tip, a gentle roof-gap draft bends it into loose curls toward screen LEFT; existing plaster dust slowly tumbles through the stationary sunshaft with that draft, then settles. @Element1 is existing Halinka in the new outfit. Preserve face, narrow natural shoulders, hands, costume, props, ruined geometry and fixed exposure. No orbit, zoom, cuts, morphing, extra limbs, new people, magical particles, captions or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze13-01-oczyszczanie",
+        "character:halinka-gruzowisko"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-13/shots/ze13-01-oczyszczanie/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-13/shots/ze13-01-oczyszczanie/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze13-01-oczyszczanie",
+        "character:halinka-gruzowisko"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-13/shots/ze13-01-oczyszczanie/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-13/shots/ze13-01-oczyszczanie/frame-end-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

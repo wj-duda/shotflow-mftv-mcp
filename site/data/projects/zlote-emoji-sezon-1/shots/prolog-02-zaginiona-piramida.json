@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-sezon-1/prolog-02-zaginiona-piramida",
+  "id": "prolog-02-zaginiona-piramida",
+  "title": "Prolog 02 - Zaginiona piramida",
+  "description": "Jedno nieruchome bardzo szerokie ujęcie z lekko podwyższonego punktu: niewielka kamienna piramida niemal znika pod korzeniami, mchem i koroną drzew. Van Sabe jest maleńką sylwetką w dolnym lewym obszarze, a schodkowa bryła dominuje nad kadrem. Kompozycja celowo odcina się od poprzedniego niskiego trackingu; kamera nie zbliża się ani nie pokazuje wnętrza.",
+  "project": {
+    "id": "zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "prolog-01-van-w-dzungli"
+    },
+    {
+      "type": "character",
+      "id": "van-sabe"
+    },
+    {
+      "type": "place",
+      "id": "iquitos-dzungla"
+    }
+  ],
+  "prompts": {
+    "image": "Revised hyperrealistic cinematic live-action 16:9 frame continuing from prolog-01. Preserve the same lost dark-stone pyramid, narrow entrance, enormous roots, moss, vines, wet Amazon rainforest, humid late-afternoon light and restrained adventure-noir grade from revision 1. Move the static camera substantially farther back and slightly higher so the stepped pyramid silhouette clearly dominates the center and right thirds. Van Sabe is a very small figure in the extreme lower-left area, no more than about eight percent of frame height; preserve his exact identity, shoulder-length curly black hair, worn all-black explorer outfit, rugged boots, brown leather strap and weathered satchel. Strong foreground leaves and elevated distance must make this a visibly new setup after the low rear tracking shot. No artifact or K20, other people, torches, weapons, statues, skulls, treasure, writing, glyphs, text, logos, watermark, collage or multiple views.",
+    "endFrameDescription": "",
+    "animation": "Duration 3 seconds, one continuous static wide shot. Van Sabe emerges only one cautious step farther from the foliage at frame left and stops when he recognizes the overgrown pyramid. His posture settles, his satchel sways once and becomes still. Leaves disturbed by his passage move lightly, with subtle natural canopy and vine motion. The camera remains locked: no dolly, pan, zoom, angle change or cut. Preserve the exact Van identity, body, black outfit, leather strap and satchel; preserve the pyramid dimensions, entrance, roots, vegetation and lighting. Do not reveal the artifact and do not let Van enter the pyramid. No new people, morphing, anatomy errors, extra limbs, text, logo or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:prolog-01-van-w-dzungli",
+        "character:van-sabe",
+        "place:iquitos-dzungla"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-02-zaginiona-piramida/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-02-zaginiona-piramida/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

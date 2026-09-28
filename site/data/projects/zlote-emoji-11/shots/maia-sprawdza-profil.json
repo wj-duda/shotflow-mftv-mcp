@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-11/maia-sprawdza-profil",
+  "id": "maia-sprawdza-profil",
+  "title": "Maia sprawdza profil",
+  "description": "Maia wygładza linię boba, unosi brodę i z lekko egocentryczną miną ocenia własny profil.",
+  "project": {
+    "id": "zlote-emoji-11",
+    "name": "Złote Emoji #11"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "maia-perfumy"
+    },
+    {
+      "type": "shot",
+      "id": "maia-gotowa-na-gale"
+    },
+    {
+      "type": "character",
+      "id": "maia-melodies-v2"
+    },
+    {
+      "type": "note",
+      "id": "movie-shot"
+    }
+  ],
+  "prompts": {
+    "image": "Filmowe zbliżenie 16:9 z punktu widzenia lustra. Maia v2 w ramonesce i kremowej koszuli ustawia twarz w profilu, unosi brodę i dwoma palcami wygładza linię platynowo-lawendowego boba przy szczęce. Małe srebrne kółko, identyczny eyeliner i ciemna szminka. Minimalny modelowy dzióbek, jedna brew lekko uniesiona, szczere zadowolenie z własnego wyglądu. Bez drugiego odbicia, dodatkowych osób, tekstu i watermarku.",
+    "endFrameDescription": "",
+    "animation": "Single continuous 3-second close-up from the mirror viewpoint. Maia is alone and performs a silent, meticulous audit of her own face. She turns her profile only a few degrees. Her lips tighten briefly and her brows draw together slightly when the angle is not perfect. With two fingers she smooths the line of her platinum-lavender bob, then turns back a little. The brow tension disappears, her chin rises slightly, one eyebrow lifts, and her lips soften into a controlled pout. A flash of private self-admiration appears, then she masks it with neutrality. Keep the camera stable. Preserve her exact face, hair, makeup, outfit, hands, mirror, and apartment. No theatrical pose, broad smile, eye contact with camera, duplicate reflection, morphing, cut, text, or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:maia-perfumy",
+        "shot:maia-gotowa-na-gale",
+        "character:maia-melodies-v2",
+        "note:movie-shot"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-11/shots/maia-sprawdza-profil/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-11/shots/maia-sprawdza-profil/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

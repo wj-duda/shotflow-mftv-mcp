@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "prop:kkn-sygnet",
+  "type": "props",
+  "id": "kkn-sygnet",
+  "name": "KKN — sygnet Komisji Kultury Najwyższej",
+  "description": "Monochromatyczny znak Komisji Kultury Najwyższej: trzy geometryczne filary pod wspólnym łukiem, środkowy najwyższy, wspólna pozioma podstawa. Bez liter. Kanoniczny wzór czarny na przezroczystym tle; na identyfikatorach biały symbol na fioletowym tle. Zachowywać dokładny układ i proporcje znaku. Mała pionowa plakietka z metalowym klipsem zawsze na ANATOMICZNIE LEWEJ piersi noszącej osoby, nigdy na prawej. W widoku frontalnym lewa pierś znajduje się po prawej stronie obrazu. Plakietka może być zasłonięta, nie przenosić jej dla widoczności. Prompty i pochodzenie: output/imagegen/zlote-emoji-12/kkn-emblem/generation-record.json.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/kkn-sygnet/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/kkn-sygnet/image-001-thumb.webp",
+      "width": 1254,
+      "height": 1254,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-12T01:22:34.098466+00:00"
+}

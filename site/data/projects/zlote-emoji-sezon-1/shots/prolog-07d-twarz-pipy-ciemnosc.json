@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-sezon-1/prolog-07d-twarz-pipy-ciemnosc",
+  "id": "prolog-07d-twarz-pipy-ciemnosc",
+  "title": "Prolog 07D - twarz Pipy w ciemnosci",
+  "description": "Kontrzblizenie Pipy stojacej nieruchomo w drzwiach. Swiatlo pokoju jest zgaszone, a jej twarz modeluje tylko waski odblask z korytarza.",
+  "project": {
+    "id": "zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "prolog-07b-pipa-w-drzwiach"
+    },
+    {
+      "type": "shot",
+      "id": "prolog-07c-reakcja-vana"
+    },
+    {
+      "type": "shot",
+      "id": "prolog-07-wtargniecie-pipy"
+    },
+    {
+      "type": "character",
+      "id": "laidy-pipa"
+    }
+  ],
+  "prompts": {
+    "image": "Use case: photorealistic-natural. Asset type: cinematic 16:9 start frame for a reaction shot. Reverse close-up of Lady Pipa in the doorway immediately after Van's reaction. Character laidy-pipa is the exact facial identity, hair, makeup and costume reference. Shot prolog-07-wtargniecie-pipy supplies the exact cheap doorway, rifle, costume and screen geography. Shot prolog-07b-pipa-w-drzwiach is the direct preceding appearance reference for broken door, corridor, exposure and moment. Shot prolog-07c-reakcja-vana is the matching reverse-shot reference for lens intimacy, grade and eyeline. Night; room light completely off. Pipa stands still just inside threshold. Restrained warm corridor rim and faint illumination reveal her face while the room side stays in deep shadow. One tight close-up at eye level from Van's side. Pipa looks strongly SCREEN LEFT at Van, matching his screen-right eyeline. Hint of doorway and blurred corridor; a small dark rifle or shoulder edge may appear low, but gaze is sole focus. Expression is cold fury and contained confidence. Exact identity, realistic skin, hair and anatomy, hyperrealistic live action, shallow depth of field. Avoid Van, duplicate people, wrong eyeline, bright room, firing, magic, distortion, text, logo and watermark.",
+    "endFrameDescription": "",
+    "animation": "One continuous 1.5-second close-up. Lady Pipa remains almost perfectly still in the doorway; only her breathing, a tiny jaw tension and a slow narrowing of the eyes reveal anger. Corridor rim light trembles subtly as the damaged door settles behind her. The room stays completely unlit. Preserve exact identity, hair, makeup, costume and weapon. No dialogue, firing, new people, morphing, cuts, captions, logos or watermark. She is saying \"Witaj Van\""
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:prolog-07b-pipa-w-drzwiach",
+        "shot:prolog-07c-reakcja-vana",
+        "shot:prolog-07-wtargniecie-pipy",
+        "character:laidy-pipa"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-07d-twarz-pipy-ciemnosc/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-07d-twarz-pipy-ciemnosc/frame-start-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ]
+}

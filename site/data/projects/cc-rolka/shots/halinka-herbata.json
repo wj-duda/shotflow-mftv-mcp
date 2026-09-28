@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:cc-rolka/halinka-herbata",
+  "id": "halinka-herbata",
+  "title": "Halinka przynosi herbatę",
+  "description": "Halinka siada na skraju łóżka i podaje Czesławowi parującą herbatę.",
+  "project": {
+    "id": "cc-rolka",
+    "name": "CC-Rolka"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "czeslaw-konajacy"
+    },
+    {
+      "type": "character",
+      "id": "halinka"
+    },
+    {
+      "type": "character",
+      "id": "czeslaw"
+    }
+  ],
+  "prompts": {
+    "image": "Native vertical 9:16 continuation in the same late-1990s Polish TV bedroom. Exact Halinka sits at the left edge of the mattress and offers one steaming transparent glass mug of tea on a saucer. Exact Czeslaw remains sick under the same duvet with the thermometer at one mouth corner. Camera close to foot of bed, 40 mm lens; Czeslaw lower-right, Halinka upper-left, tea centered. Halinka wears her canonical burgundy textured cardigan, black top, gold earrings and layered necklaces. Exact photorealism, restrained Polish television comedy, cold window left and warm lamp right, realistic hands, steam, glass and bedding. Exactly two people, one mug, no text or artifacts.",
+    "endFrameDescription": "",
+    "animation": "2-second gentle handheld settle. Halinka enters the last half-step, sits beside the bed and steadies the steaming tea. Czesław follows the cup with exhausted eyes while the thermometer stays in his mouth. Preserve both identities, wardrobe and room. No dialogue mouth movement, cuts, morphing, extra people, text or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:czeslaw-konajacy",
+        "character:halinka",
+        "character:czeslaw"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/halinka-herbata/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/halinka-herbata/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

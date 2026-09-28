@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-sezon-1/epilog-04-czeslaw-czyta-decyzje",
+  "id": "epilog-04-czeslaw-czyta-decyzje",
+  "title": "Epilog 04 Czeslaw Czyta Decyzje",
+  "description": "napięcie zmienia się w bardzo ostrożną nadzieję.",
+  "project": {
+    "id": "zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1"
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "czeslaw"
+    },
+    {
+      "type": "character",
+      "id": "halinka"
+    },
+    {
+      "type": "shot",
+      "id": "epilog-03-list-polecony"
+    },
+    {
+      "type": "place",
+      "id": "dom-kultury-ruina-po-belicosie"
+    }
+  ],
+  "prompts": {
+    "image": "Edit the supplied frame using only the frame itself and Pani Halinka's canonical portrait and silhouette references. Correct only the woman behind Czeslaw on frame right, matching Halinka's exact middle-aged face, copper-red curls, short pear-shaped proportions, red textured cardigan, black top and gold jewelry. Preserve her grave attentive gaze at the letter and preserve Czeslaw, the paper, all scenery, rain, framing and lighting exactly.",
+    "endFrameDescription": "",
+    "animation": "One continuous 4-second static shot. Czeslaw reads silently,\nblinks, then says in Polish with dry disbelief: Znaczy... dotacja została\nprzyznana. Halinka's eyes brighten behind him."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "character:halinka"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/epilog-04-czeslaw-czyta-decyzje/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/epilog-04-czeslaw-czyta-decyzje/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

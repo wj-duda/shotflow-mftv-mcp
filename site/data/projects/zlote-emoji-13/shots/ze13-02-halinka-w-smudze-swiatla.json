@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-13/ze13-02-halinka-w-smudze-swiatla",
+  "id": "ze13-02-halinka-w-smudze-swiatla",
+  "title": "ZE13 02 — Halinka w smudze światła",
+  "description": "3 s bez dialogu. Nieco szersze ujęcie Halinki od bioder, wolny fizyczny przejazd kamery w prawo o 20 cm. Podświetlony dym przesuwa się względem twarzy i odsłania gruz przez paralaksę. Halinka pozostaje spokojna, szałwia w lewej dłoni i telefon w prawej. Światło i pora identyczne jak w otwarciu. Klatki generowane bezpośrednio przez agenta; take nie został uruchomiony. Wariant stroju: halinka-gruzowisko, śliwkowa miękka kurtka, szal paisley; naturalne wąskie ramiona. Nowa wersja obrazu: dym niesiony lekko w lewo, pył w świetle, przygaszone tło i filmowa głębia.",
+  "project": {
+    "id": "zlote-emoji-13",
+    "name": "Złote Emoji #13"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "ze13-01-oczyszczanie"
+    },
+    {
+      "type": "note",
+      "id": "ze13-ruina-po-ze12"
+    },
+    {
+      "type": "character",
+      "id": "halinka-gruzowisko"
+    }
+  ],
+  "prompts": {
+    "image": "One new 16:9 1920x1080 film still. Image1 OLD target fixes geography ONLY: wooden table on screen left with closed burgundy wallet and grey folder, stage back left, clear aisle screen right. REPLACE old wardrobe, bulky body and lighting. Image2 fixes NEW cinematic light/smoke/color/time; image3 exact new costume and body size; image4 exact face. Halinka is the SAME SHORT 162cm woman, average pear-shaped body, narrow naturally sloping shoulders, modest upper torso, larger hips. Exact new outfit from wardrobe reference, unpadded soft plum cotton jacket, thin teal/copper paisley scarf, cream shirt, gold sun pendant. Never broaden shoulders, enlarge chest, inflate arms or use old red sequined cardigan. Visual language: atmospheric 35mm cinema still, gentle diffusion and halation ONLY on highlights, natural grain, muted colors, deep cool grey-teal shadows and selective warm amber backlight from upper-right rear through missing roof. Expose for light so background falls 1.5 stops darker, NOT evenly lit HDR or orange glossy commercial. Layers of translucent sage smoke drift in delicate serpentine filaments across foreground, tiny airborne plaster dust sparkles ONLY inside sun shaft, no glitter or magical particles. Slightly unreal suspended-time mood produced by optics, smoke and dust, but physically real ruin. Background soft and partially obscured, strong depth, off-center human composition, natural skin. 50mm medium-wide view from knees up with MORE breathing room around short Halinka, standing just right of center at table's right end, body only 25% frame width, eyes peacefully closed. Small cream saucer and tied sage level in anatomical LEFT hand image right at waist; black phone anatomical RIGHT hand image left low hip. Small source plume unfurls in elegant translucent sideways wisps across dark space at left, fine dust flecks in rear diagonal sunshaft. An out-of-focus broken beam edge clips extreme left foreground creating depth. No other people, repaired roof, particles outside light, flames, giant smoke wall, text, watermark, broad shoulders or anatomical errors.",
+    "endFrameDescription": "",
+    "animation": "0–3s: camera tracks slowly 20cm toward screen RIGHT at fixed height and distance. Near-lens beam edge, sage smoke and distant ruins separate through parallax. Halinka remains quietly still with softly closed eyes, LEFT hand holding level saucer, RIGHT holding phone low. Secondary motion: smoke from the sage tip curls upward and toward screen LEFT in a gentle draft; existing dust drifts through the fixed rear sunshaft and settles, never covering her whole face. @Element1 is existing Halinka; preserve identity, narrow shoulders, plum jacket, scarf, hands and props. Preserve 35mm diffusion, shadows and stable sunlight. No zoom, orbit, lighting pulses, cuts, new people, magic, extra limbs, text or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze13-02-halinka-w-smudze-swiatla",
+        "shot:ze13-01-oczyszczanie",
+        "character:halinka-gruzowisko"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-13/shots/ze13-02-halinka-w-smudze-swiatla/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-13/shots/ze13-02-halinka-w-smudze-swiatla/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

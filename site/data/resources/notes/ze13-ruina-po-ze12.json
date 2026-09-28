@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "note:ze13-ruina-po-ze12",
+  "type": "notes",
+  "id": "ze13-ruina-po-ze12",
+  "name": "ZE13 — ciągłość bezdachowej ruiny po ZE12",
+  "description": "Zamrożona referencja architektury z aktywnego Start Frame v003 shota ze12-08-wieslaw-remont w projekcie zlote-emoji-12. Źródło: projects/zlote-emoji-12/shots/ze12-08-wieslaw-remont/frames/frame-start/frame-v003.png. Obraz dostarcza wyłącznie ruinę: sala niemal bez dachu, otwarte niebo, poszarpane ściany, ochrowy tynk i zielona lamperia, scena z bordową kurtyną. Postacie KKN i Wiesław na zdjęciu nie są obowiązkową obsadą nowych kadrów. ZE13 dzieje się później: KKN i anioł poza sceną. Na oczyszczonym fragmencie podłogi stoją prowizoryczny stół i taczka. Budynek nie zostaje odbudowany. To referencja lokacji, nie nowa scena ani nowa klatka ZE13.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/ze13-ruina-po-ze12/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/ze13-ruina-po-ze12/image-001-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-18T23:30:36.822666+00:00"
+}

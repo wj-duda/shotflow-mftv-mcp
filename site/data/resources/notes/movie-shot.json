@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "note:movie-shot",
+  "type": "notes",
+  "id": "movie-shot",
+  "name": "Movie",
+  "description": "Create a naturalistic, photorealistic cinematic film still filling the entire 16:9 frame. Use believable practical lighting, authentic lens optics, realistic anatomy and materials, subtle 35 mm film grain, and restrained cinematic color grading. Preserve all text, lettering, labels, signs, logos, brand marks and graphic details present in source materials exactly as they appear, including their spelling, design, placement, sharpness and legibility. Never remove, blur, obscure, distort or replace them. No illustration. No painting. No CGI look. No plastic skin. No exaggerated color grading. No newly added captions, subtitles, titles, watermarks, borders or letterboxing.",
+  "images": [],
+  "updatedAt": "2026-08-01T00:24:24.0973986+00:00"
+}

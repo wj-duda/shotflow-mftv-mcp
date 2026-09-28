@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-sezon-1/prolog-19b-dariusz-wychodzi-po-paczke",
+  "id": "prolog-19b-dariusz-wychodzi-po-paczke",
+  "title": "Dariusz wychodzi po paczkę",
+  "description": "Jedno ciągłe ujęcie z nieruchomej kamery. Dariusz wychodzi z Domu Kultury, podchodzi do paczkomatu, wprowadza kod i otwiera skrytkę. Kończy dokładnie w nowym Start Frame shota 20: skrytka otwarta, ręce puste, paczka nadal w środku.",
+  "project": {
+    "id": "zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "prolog-20-dariusz-paczkomat"
+    },
+    {
+      "type": "character",
+      "id": "grimskald"
+    },
+    {
+      "type": "place",
+      "id": "dom-kultury-wejscie"
+    }
+  ],
+  "prompts": {
+    "image": "Photorealistic cinematic live-action 16:9 frame immediately before prolog 20. Preserve the exact locked camera, lens, crop, wet nighttime pavement, parcel-locker geometry and lighting from shot prolog-20-dariusz-paczkomat. Preserve Dariusz exact identity and wardrobe from character grimskald. The locker stands closed in the extreme left foreground; Dariusz is farther away, just stepping out of the warmly lit Dom Kultury entrance and looking toward the locker, hands empty. No parcel, van, vehicle lights or reflections, extra people, K20, new text, artifacts or watermark.",
+    "endFrameDescription": "Dokładnie aktywny Start Frame prolog-20-dariusz-paczkomat revision 4: Dariusz przy otwartej skrytce, obie ręce puste, paczka niewidoczna wewnątrz.",
+    "animation": "One continuous 5-second cinematic shot between the provided Start Frame and End Frame, with no cuts and a completely locked camera. 0.0-1.7 s: Dariusz exits the warm Dom Kultury entrance, walks down the final steps and crosses the wet pavement toward the parcel locker, hands empty and eyes fixed on its control panel. 1.7-2.5 s: he arrives at the locker, turns naturally toward the panel and raises his right hand. 2.5-3.5 s: he presses a short sequence of buttons deliberately with one index finger; no readable interface text appears. 3.5-4.1 s: a small indicator changes to green and he pauses for the mechanism. 4.1-5.0 s: the correct locker door unlatches and swings open; Dariusz steadies the door with his right hand, keeps his left hand empty near his torso and leans his gaze into the dark compartment, arriving precisely at the supplied End Frame. The parcel stays completely inside and invisible throughout this shot; he does not remove it. Preserve exact Dariusz identity, large body proportions, braided red beard, glasses, blue shirt, dark embroidered vest, canonical badges, keys, locker geometry, architecture, wet pavement, night lighting and every reflection. Natural walking weight, cloth movement and beard motion only. No camera movement, zoom, package visible, vehicle, headlights, taillights, extra people, extra limbs, morphing, magic, K20, cuts, captions, logos or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:prolog-20-dariusz-paczkomat",
+        "character:grimskald",
+        "place:dom-kultury-wejscie"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-19b-dariusz-wychodzi-po-paczke/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-19b-dariusz-wychodzi-po-paczke/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "revision": 1,
+      "source": "reference",
+      "referenceKeys": [
+        "shot:prolog-20-dariusz-paczkomat"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-19b-dariusz-wychodzi-po-paczke/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-19b-dariusz-wychodzi-po-paczke/frame-end-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

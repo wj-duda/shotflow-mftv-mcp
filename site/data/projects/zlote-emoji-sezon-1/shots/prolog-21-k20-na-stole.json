@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-sezon-1/prolog-21-k20-na-stole",
+  "id": "prolog-21-k20-na-stole",
+  "title": "K20 na stole",
+  "description": "Widok z góry na stół Klubu Fantastyki. Ręce Dariusza otwierają paczkę i odsłaniają zakamuflowaną K20; kamera zatrzymuje się na rozpoznawalnym artefakcie i przygotowuje bezpośrednią kontynuację dialogową w shotach 22A i 22B. Nie wracamy tutaj do materiału ZE5.",
+  "project": {
+    "id": "zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1"
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "grimskald"
+    },
+    {
+      "type": "prop",
+      "id": "artefakt-k20"
+    },
+    {
+      "type": "place",
+      "id": "klub-fantastyki"
+    },
+    {
+      "type": "shot",
+      "id": "prolog-20-dariusz-paczkomat"
+    }
+  ],
+  "prompts": {
+    "image": "Final cinematic prologue frame in the exact Klub Fantastyki. Exact Dariusz leans over the opened parcel; the inert emerald-and-gold K20 rests among packing paper. Canonical size is exactly 3.0 cm vertex-to-vertex and about 2.5 cm face-to-face, slightly larger than a normal D20 and small relative to his fingers, miniatures and mugs. No glow.",
+    "endFrameDescription": "",
+    "animation": "One continuous 4-second cinematic live-action take. The supplied Start Frame already shows the parcel open and the inert K20 visible among the packing paper; do not reopen the box and do not repeat the reveal. The camera remains completely locked so Dariusz's face, hovering hands, open parcel and K20 stay readable together. 0.0-0.8 s, generated lead-in before the visible timeline segment: Dariusz has just pulled the paper apart. A faint trace of pleased anticipation remains in his eyes and closed mouth because he expects his long-awaited yerba mate from Guatemala. His hands finish one tiny natural settling motion above the parcel, then stop. 0.8-1.5 s: his eyes land on the K20; the small satisfied smile drains away gradually rather than snapping off. His gaze makes a quick, precise search across the empty packing paper and both corners of the box, as if his brain is still looking for bags of yerba. One natural blink. 1.5-2.4 s: comprehension fails. His eyebrows first rise by a few millimetres, then draw together asymmetrically; the skin between them tightens, his nostrils flare subtly, and his head retracts and tilts a fraction. His mouth remains silent: the lips part only one or two millimetres for a confused breath, then press together unevenly. 2.4-3.3 s: his eyes move K20 -> empty paper -> K20, slower on the return. His jaw loosens slightly, one corner of the moustache twitches, and his shoulders become rigid. The hands remain suspended in mismatched half-gestures, fingers making only tiny uncertain flexes, as if he has forgotten what action should come next. 3.3-4.0 s: total silent confusion and disorientation settles in. He freezes, staring at the impossible object with unfocused disbelief, then makes one minuscule backward head movement without touching it. Performance must be psychologically natural, restrained and driven by readable microexpressions, not theatrical mugging. No dialogue, no words, no lip-sync and no broad gesture. The K20 remains exactly 3.0 cm vertex-to-vertex, inert, dark and motionless in the same place. Preserve exact Dariusz identity, braided red beard, black glasses, anatomy, clothing, badges, hands, open parcel, packing paper, tabletop, miniatures, room, lighting, composition, K20 geometry and correct numerals. No glow, magic, rolling die, reaching for the die, new objects, yerba appearing, extra people, extra fingers, morphing, camera movement, cuts, captions, logos or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "character:grimskald",
+        "prop:artefakt-k20",
+        "place:klub-fantastyki",
+        "shot:prolog-20-dariusz-paczkomat"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-21-k20-na-stole/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-21-k20-na-stole/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

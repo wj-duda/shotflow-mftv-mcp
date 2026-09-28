@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-10/ze10-czeslaw-w-telewizorze",
+  "id": "ze10-czeslaw-w-telewizorze",
+  "title": "Czesław w telewizorze",
+  "description": "Dwusekundowy most montażowy pomiędzy ogłoszeniem wyniku w Domu Kultury a porankiem po afterze. Czesław nadal kończy odczytywać wynik, lecz teraz widzimy go na telewizorze stojącym w zabałaganionym mieszkaniu Mai. Telewizor pozostaje dominującym elementem kadru, dzięki czemu zmiana skali i lokacji jest płynna. W pomieszczeniu nie widać jeszcze Mai ani Pipy; po tym ujęciu następuje cięcie na detal pustej butelki Don Quetzal.",
+  "project": {
+    "id": "zlote-emoji-10",
+    "name": "Złote Emoji #10"
+  },
+  "references": [
+    {
+      "type": "place",
+      "id": "mieszkanie-po-afterze"
+    }
+  ],
+  "prompts": {
+    "image": "Create a realistic cinematic 16:9 Start Frame inside Maia's apartment after an all-night party. Preserve the exact ordinary apartment from the place reference: parquet, warm forgotten floor lamp, late-morning blinds and believable afterparty clutter. A modest flat-screen television on a low wooden cabinet is the dominant subject, occupying roughly 55–65 percent of the frame width and viewed almost straight-on. On its screen, preserve the supplied preceding broadcast image exactly: Czesław in glasses and a worn dark suit reads the result from a sheet of paper in the MF TV studio. Keep his face, clothing, pose, paper and studio framing recognizable. Show the full television bezel and enough surrounding clutter to reveal that we have moved into a private apartment. No people are visible in the room; the sofa may appear only as a cropped dark edge, never as a prominent empty subject. Keep the kitchenette and dining corner outside the frame because the following shot cuts there. Natural cool morning daylight mixed with warm lamp light and subtle television glow. No invented captions, subtitles, extra screens, new people, altered identity, warped hands, changed glasses, watermark or text beyond the existing studio mark.",
+    "endFrameDescription": "",
+    "animation": "One continuous two-second cinematic bridge with no cut.\n\nBegin exactly on the supplied Start Frame, with Czesław already visible on the television, silently waiting for the finalist to arrive.\n\nMake only a very slow, subtle camera pull-back of a few percent so the television bezel and nearby afterparty clutter become slightly more apparent. Do not pan toward the sofa and do not reveal Maia or Pipa.\n\nInside the television screen, Czesław does not speak and does not move his mouth. He remains almost completely still, maintaining formal composure while waiting. Show only extremely restrained natural micro-movements suggesting mild impatience: one natural blink, a barely perceptible tightening of the lips or jaw, a tiny shift of his gaze as if checking whether the finalist is finally coming, and at most a minimal adjustment of the paper.\n\nNo gestures, no head turn, no speaking, no exaggerated acting.\n\nThe physical apartment remains still except for faint changing television light and barely perceptible curtain movement.\n\nPreserve Czesław's exact face, glasses, clothing, paper and studio image, and preserve the television, cabinet, room layout, lamp and clutter.\n\nNo new people, no face morphing, no changed broadcast content, no subtitles, no invented text, no extra screens, no large camera move, no zoom-in, no transition effect and no watermark.\n\nEnd cleanly for a hard cut to the bottle insert."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "place:mieszkanie-po-afterze"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-10/shots/ze10-czeslaw-w-telewizorze/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-10/shots/ze10-czeslaw-w-telewizorze/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

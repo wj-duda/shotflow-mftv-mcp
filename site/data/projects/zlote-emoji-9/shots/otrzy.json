@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-9/otrzy",
+  "id": "otrzy",
+  "title": "otrzy",
+  "description": "",
+  "project": {
+    "id": "zlote-emoji-9",
+    "name": "Złote Emoji #9"
+  },
+  "references": [],
+  "prompts": {
+    "image": "",
+    "endFrameDescription": "",
+    "animation": ""
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "video-ready",
+  "images": []
+}

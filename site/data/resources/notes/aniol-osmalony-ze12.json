@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "note:aniol-osmalony-ze12",
+  "type": "notes",
+  "id": "aniol-osmalony-ze12",
+  "name": "Anioł ZE12 — stan po osmaleniu",
+  "description": "Migawka End Frame ze12-01-upadek-aniola. Referencja dokładnej tożsamości, stroju oraz czarnych skrzydeł i włosów po osmaleniu. Służy ciągłości przy uderzeniu w budynek. Projekt oryginalny oparty na opisie autora, nie rekonstrukcja nieobejrzanego teledysku.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/aniol-osmalony-ze12/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/aniol-osmalony-ze12/image-001-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-11T23:11:37.531790+00:00"
+}

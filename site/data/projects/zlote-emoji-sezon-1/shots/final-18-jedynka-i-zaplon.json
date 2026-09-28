@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-sezon-1/final-18-jedynka-i-zaplon",
+  "id": "final-18-jedynka-i-zaplon",
+  "title": "Final 18 — Jedynka i zapłon K20",
+  "description": "K20 zatrzymuje się na jedynce, przez moment pozostaje martwa, a następnie uruchamia się mimo pozornie fatalnego wyniku.",
+  "project": {
+    "id": "zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1"
+  },
+  "references": [
+    {
+      "type": "prop",
+      "id": "artefakt-k20"
+    },
+    {
+      "type": "shot",
+      "id": "final-17-halinka-rzuca-k20"
+    },
+    {
+      "type": "place",
+      "id": "dom-kultury-ruina-po-belicosie"
+    }
+  ],
+  "prompts": {
+    "image": "Photorealistic live-action 16:9 extreme locked 100 mm macro at concrete level, continuous with Halinka's release. The tiny canonical 3 cm regular icosahedral K20 is tilted on one edge near center-right, just finishing its roll. Exactly one numeral is readable: a single gold 1 on the triangular face rotating upward. Every other face is turned away, in deep shadow or outside razor-thin focus; face 20 is hidden on the underside. The die is inert dark emerald with aged-gold edges and no internal glow. A faint dust wisp trails the rolling edge; distant shoes remain soft. No hand, cookie, levitation, giant die, second readable numeral, visible 20, magic, UI, captions or watermark.",
+    "endFrameDescription": "",
+    "animation": "One continuous 3-second macro. The K20 stops with 1 clearly up and remains completely dark for one tense beat. Then a deep green and old-gold light ignites inside it and spreads through the engraved edges. The die stays still after stopping. No explosion or camera cut."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "prop:artefakt-k20",
+        "shot:final-17-halinka-rzuca-k20",
+        "place:dom-kultury-ruina-po-belicosie"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-18-jedynka-i-zaplon/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-18-jedynka-i-zaplon/frame-start-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ]
+}

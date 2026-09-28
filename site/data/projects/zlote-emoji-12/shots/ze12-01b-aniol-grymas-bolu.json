@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-12/ze12-01b-aniol-grymas-bolu",
+  "id": "ze12-01b-aniol-grymas-bolu",
+  "title": "01B — Grymas bólu anioła",
+  "description": "Profil twarzy i górnego tułowia podczas pionowego upadku głową w dół. Naturalne połączenie szyi z barkami, głowa bez odginania do pleców. Zaciśnięte powieki, brwi ściągnięte bólem, usta otwarte w mimowolnym grymasie. Czarne włosy i zwęglone skrzydła płoną.",
+  "project": {
+    "id": "zlote-emoji-12",
+    "name": "Złote Emoji #12"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "ze12-01-upadek-aniola"
+    },
+    {
+      "type": "character",
+      "id": "aniol-wygnany"
+    }
+  ],
+  "prompts": {
+    "image": "Use case: identity-preserve. ONE photorealistic cinematic 16:9 closer coverage of reference1 fictional winged man descending vertically in night clouds. Reference1 locks exact SIDE PROFILE orientation, naturally INVERTED head with forehead below mouth in screen coordinates, anatomically coherent neck and torso, ivory suit, black hair, burning charcoal wings and blue moonlit setting. Reference2 is exact facial identity only, do not copy its upright orientation. Frame head, neck and upper chest from exactly same side as reference1. Head at lower center, shoulders above it, crown toward screen bottom; nose points screen RIGHT. Neck remains neutral following torso, NO backward arch or twist to face viewer. Side profile face, eyelids closed tightly, brows knitted, lips parted in pained expression, natural jaw proportions. Show vulnerability through expression, not joint distortion. Black hair and small orange ember flame tips stream upward toward chest; black feather edges behind shoulders frame upper left. Keep whole face visible. Detailed natural skin with soot, no wounds. Camera level, matching light, shallow background cloud focus, no moon necessary in crop. No front-facing reinterpretation, extra limbs, people, text or watermark.",
+    "endFrameDescription": "",
+    "animation": "0–0.54s: Already track alongside the naturally inverted profile during vertical headfirst freefall. 0.54–3.54s: eyelids squeeze slightly tighter and the open jaw trembles subtly with pain; head stays naturally aligned with neck and shoulders, no head turn or neck jerk. Camera tracks vertically downward at fixed distance and level roll; clouds flow upward. Singed black hair and flame tips stream upward without obscuring the face. 3.54–4s: continue unchanged. Preserve exact identity, facial proportions, anatomy, ivory collar, black feathers and lighting. No backward neck bend, facial contortion, speaking, recovery, gliding, new people, extra limbs, morphing, cuts, text or watermarks."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 4,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze12-01-upadek-aniola",
+        "character:aniol-wygnany"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-01b-aniol-grymas-bolu/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-01b-aniol-grymas-bolu/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

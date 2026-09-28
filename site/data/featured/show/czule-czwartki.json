@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "show",
+  "key": "show:czule-czwartki",
+  "type": "brand",
+  "id": "czule-czwartki",
+  "name": "Czułe Czwartki",
+  "description": "Czułe Czwartki to audycja MFTV dla utworów ciepłych, bliskich i emocjonalnych: ballad, melancholii, miłości i tęsknoty.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "show-board",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/show/czule-czwartki.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/show/czule-czwartki-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

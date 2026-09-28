@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "character:takajedna",
+  "type": "characters",
+  "id": "takajedna",
+  "name": "@Taka Jedna",
+  "description": "CHARACTER [age=18-29; presentation=feminine; height=average; build=slim; body=hourglass; chest=medium; skin=tan; face=heart; eyes=hazel; hair-color=black; hair-length=long; hair-texture=wavy]\r\n\r\nOkoło 170 cm wzrostu, smukła, kobieca sylwetka z zaznaczoną talią i proporcjonalnymi biodrami. Ciepła, lekko oliwkowo-opalona skóra, piwno-zielone oczy, długie niemal czarne włosy z grzywką, zwykle częściowo splecione w luźny warkocz. Twarz sercowata z wyraźnymi kośćmi policzkowymi, mocnymi brwiami, migdałowymi oczami i pełnymi ustami. Typowy strój: lekka biała bluzka w stylu boho, dopasowane jasne jeansy, duże kolczyki-koła i prosta biżuteria. Wygląda pogodnie, pewnie i naturalnie; ma ciepłą sceniczną charyzmę bez przesadnej stylizacji.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "portrait",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/takajedna/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/takajedna/image-001-thumb.webp",
+      "width": 1254,
+      "height": 1254,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-002",
+      "role": "silhouette",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/takajedna/image-002.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/takajedna/image-002-thumb.webp",
+      "width": 1254,
+      "height": 1254,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-08-01T15:23:40.725325+00:00"
+}

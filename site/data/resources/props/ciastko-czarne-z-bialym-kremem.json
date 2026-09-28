@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "prop:ciastko-czarne-z-bialym-kremem",
+  "type": "props",
+  "id": "ciastko-czarne-z-bialym-kremem",
+  "name": "Czarne ciastko z białym kremem",
+  "description": "Kanoniczne ciastko, na którym Halinka każe wszystkim skupić myśli i które pojawia się podczas finałowej aktywacji K20 oraz deszczu ciastek. To całkowicie fikcyjny, niemarkowy czarny herbatnik kanapkowy o średnicy 4,6 cm i całkowitej grubości 1,25 cm. Składa się z dwóch niemal czarnych kakaowych wafli o realistycznej drobnej strukturze okruszków oraz jednej równej warstwy matowobiałego kremu waniliowego grubości 5 mm. Na waflach znajduje się zawsze ten sam oryginalny ornament: koncentryczne okręgi, kropki i niewielkie liściaste formy, bez liter i znaków. Ciastko zachowuje stałe proporcje, wzór i materiały zarówno jako pojedynczy przedmiot, myśl/emotka reprezentująca cel głosowania, jak i fizyczne ciastka spadające po dematerializacji floty. Nie dodawać nazwy marki, logotypu, opakowania ani rozpoznawalnego wzoru handlowego. Nie zmieniać kremu na kolorowy, nie dodawać ugryzienia, polewy, posypki ani kolejnych warstw.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/ciastko-czarne-z-bialym-kremem/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/ciastko-czarne-z-bialym-kremem/image-001-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-08-19T07:55:00+02:00"
+}

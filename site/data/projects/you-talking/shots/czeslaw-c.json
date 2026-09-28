@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:you-talking/czeslaw-c",
+  "id": "czeslaw-c",
+  "title": "czeslaw-c",
+  "description": "Static cinematic shot, identical framing and composition to the source image. Czesław stands at the bathroom mirror during shaving. He is preparing to deliver an intense, confrontational monologue to his own reflection, but this pass is only for later lip-sync.\n\nHis lips remain fully closed for the entire shot. No speaking, no mouth opening, no visible articulation, no smiling with parted lips.\n\nUse only subtle facial acting: his eyes slowly harden, his brows tighten slightly, and his gaze locks onto his own reflection with growing suspicion and restrained challenge. A tiny shift of the jaw under closed lips, a faint narrowing of the eyes, minimal nostril tension, and very small changes in posture. He briefly pauses the shaving motion, studies himself, then slightly tilts his head as if silently asking a provocative question.\n\nKeep the performance controlled, serious and psychologically tense, not exaggerated, not comedic in expression. The humor comes from Czesław treating the moment with complete sincerity.\n\nThe razor and shaving brush remain naturally in his hands. Very small hand movement only. No sudden gestures. No camera movement. No zoom. No morphing, no face distortion, no changing glasses, no extra fingers, no object deformation. Warm realistic bathroom lighting, natural mirror physics, hyperrealistic cinematic motion, 16:9.",
+  "project": {
+    "id": "you-talking",
+    "name": "You Talking"
+  },
+  "references": [],
+  "prompts": {
+    "image": "Generate exactly one cinematic still image in landscape 16:9.\n\nSelf-reference policy:\nThe attached image is the previous start frame of this same shot.\nUse it as the exact and mandatory visual baseline for the next frame, not as optional inspiration.\nPreserve every observable element that the new description does not explicitly change, including identity, environment, wardrobe, props, composition, lighting, and visual style.\nChange only what the new shot description explicitly requests.\n\n\n\nShot: czeslaw-c\nDescription:\nStatic cinematic shot, identical framing and composition to the source image. Czesław stands at the bathroom mirror during shaving. He is preparing to deliver an intense, confrontational monologue to his own reflection, but this pass is only for later lip-sync.\n\nHis lips remain fully closed for the entire shot. No speaking, no mouth opening, no visible articulation, no smiling with parted lips.\n\nUse only subtle facial acting: his eyes slowly harden, his brows tighten slightly, and his gaze locks onto his own reflection with growing suspicion and restrained challenge. A tiny shift of the jaw under closed lips, a faint narrowing of the eyes, minimal nostril tension, and very small changes in posture. He briefly pauses the shaving motion, studies himself, then slightly tilts his head as if silently asking a provocative question.\n\nKeep the performance controlled, serious and psychologically tense, not exaggerated, not comedic in expression. The humor comes from Czesław treating the moment with complete sincerity.\n\nThe razor and shaving brush remain naturally in his hands. Very small hand movement only. No sudden gestures. No camera movement. No zoom. No morphing, no face distortion, no changing glasses, no extra fingers, no object deformation. Warm realistic bathroom lighting, natural mirror physics, hyperrealistic cinematic motion, 16:9.\n\nPreserve every piece of text, lettering, typography, label, sign, logo, brand mark, symbol, and graphic detail visible in any source or reference image exactly as it appears. Preserve its content, spelling, design, position, scale, color, sharpness, and legibility. Never remove, replace, obscure, blur, soften, distort, censor, or invent any of these source details.\nDo not add new captions, subtitles, titles, watermarks, borders, interface elements, contact sheets, or multiple panels unless the current shot description explicitly requests them.",
+    "endFrameDescription": "",
+    "animation": "Static cinematic shot, identical framing and composition to the source image. Czesław stands at the bathroom mirror during shaving. He is preparing to deliver an intense, confrontational monologue to his own reflection, but this pass is only for later lip-sync.\n\nHis lips remain fully closed for the entire shot. No speaking, no mouth opening, no visible articulation, no smiling with parted lips.\n\nUse only subtle facial acting: his eyes slowly harden, his brows tighten slightly, and his gaze locks onto his own reflection with growing suspicion and restrained challenge. A tiny shift of the jaw under closed lips, a faint narrowing of the eyes, minimal nostril tension, and very small changes in posture. He briefly pauses the shaving motion, studies himself, then slightly tilts his head as if silently asking a provocative question.\n\nKeep the performance controlled, serious and psychologically tense, not exaggerated, not comedic in expression. The humor comes from Czesław treating the moment with complete sincerity.\n\nThe razor and shaving brush remain naturally in his hands. Very small hand movement only. No sudden gestures. No camera movement. No zoom. No morphing, no face distortion, no changing glasses, no extra fingers, no object deformation. Warm realistic bathroom lighting, natural mirror physics, hyperrealistic cinematic motion, 16:9."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 2,
+      "source": "reference",
+      "referenceKeys": [],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/you-talking/shots/czeslaw-c/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/you-talking/shots/czeslaw-c/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

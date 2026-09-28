@@ -1,0 +1,16 @@
+{
+  "name": "shotflow-mftv-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-world.mjs",
+    "dev": "node scripts/serve.mjs"
+  },
+  "dependencies": {
+    "sharp": "^0.35.5"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

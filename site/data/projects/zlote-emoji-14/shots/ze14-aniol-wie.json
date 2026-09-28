@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-14/ze14-aniol-wie",
+  "id": "ze14-aniol-wie",
+  "title": "09 — Anioł wie",
+  "description": "Anioł nadal obserwuje z oddali spod drzewa po drugiej stronie ulicy, lecz kamera używa długiego obiektywu do czytelnego półzbliżenia. Twarz z kanonicznego portretu: pociągła, krzywy orli nos, szare oczy, ciemne włosy. Parasol i ciemny płaszcz, pod nim jasna klapa ze srebrną spinką. Bez skrzydeł, ognia i aureoli. Ulewa. Bez fizycznego zbliżenia do Sirock.",
+  "project": {
+    "id": "zlote-emoji-14",
+    "name": "Złote Emoji #14"
+  },
+  "references": [
+    {
+      "type": "place",
+      "id": "lazy-kts-spoldzielcza-2"
+    },
+    {
+      "type": "note",
+      "id": "movie-shot"
+    },
+    {
+      "type": "character",
+      "id": "aniol-wygnany"
+    },
+    {
+      "type": "shot",
+      "id": "ze14-aniol-wie"
+    },
+    {
+      "type": "shot",
+      "id": "seed"
+    }
+  ],
+  "prompts": {
+    "image": "Identity-preserve correction. Image1 is ABSOLUTE facial identity reference: same specific 42-year-old thin man, long narrow tired face, crooked aquiline nose, grey eyes, thin lips, shoulder-length black hair, clean shaven. Reproduce facial bone structure precisely, do not replace with generic attractive man. Remove soot/fire only, preserve natural wrinkles. Image2 supplies current rainy location across street, plain charcoal raincoat, dark umbrella and tree. NEW CAMERA: long telephoto lens from distant office across road, tight WAIST-UP shot of observer at far sidewalk; physical position does NOT move closer to Sirock. His FACE should occupy about 25 percent image height and be tack-sharp unobstructed below umbrella, 3/4 toward SCREEN RIGHT, wary knowing glance. Left frame edge a slim strip of tree; behind him blurred pale municipal building and autumn foliage. Lower frame may include defocused wet street edge to suggest separation. Modest raincoat slightly open over clean ivory shirt and small visible ivory lapel with canonical rectangular silver pin, human disguise not fantasy. One ordinary black umbrella overhead held by one hand, canopy upper frame, does NOT shadow face into invisibility. Soft cloudy daylight lights eyes and face clearly. Visible heavy rain outside canopy, droplets along rim. No soot, wings, halo, glowing eyes, Sirock nearby, extra people, text or collage. Cinematic realistic 16:9. The same recognizable canonical man, now readable rather than tiny distant figure.",
+    "endFrameDescription": "",
+    "animation": "0.0–0.9s: The man maintains his existing watchful gaze offscreen right beneath the umbrella. 0.9–2.3s: He narrows his eyes slightly and lowers his chin a few millimeters, changing from neutral attention to restrained recognition. 2.3–4.0s: He holds that look without approaching. Camera: locked telephoto close view from a distance. Secondary motion: water runs off the umbrella rim; his grip makes a tiny stabilizing adjustment. Preserve his exact face, dark hair, coat, pale inner lapel, silver pin and background. Keep him an ordinary concealed observer. Avoid wings, halo, fire, new soot, smile, magical eyes, another person or cuts."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 5,
+      "source": "generated",
+      "referenceKeys": [
+        "character:aniol-wygnany",
+        "shot:ze14-aniol-wie"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-aniol-wie/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-aniol-wie/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

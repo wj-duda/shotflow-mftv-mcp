@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-13/ze13-07-telefon-platnosc",
+  "id": "ze13-07-telefon-platnosc",
+  "title": "ZE13 06 — dostęp wygasł",
+  "description": "Insert telefonu w prawej dłoni Halinki podczas komunikatu o opłacie. Żart niesie głos i przerwanie medytacji; nie potrzebujemy generowanego interfejsu ani czytelnych liter. Dialog: Komunikat aplikacji: „Twój dostęp wygasł. Aby kontynuować, dokonaj płatności.” Klatki generowane bezpośrednio przez agenta; take nie został uruchomiony. Wariant stroju: halinka-gruzowisko, śliwkowa miękka kurtka, szal paisley; naturalne wąskie ramiona. Nowa wersja obrazu: dym niesiony lekko w lewo, pył w świetle, przygaszone tło i filmowa głębia. Istniejący komunikat na A1: klatki 579–765 włącznie. Bez ponownego nagrywania; Czesław od klatki 766.",
+  "project": {
+    "id": "zlote-emoji-13",
+    "name": "Złote Emoji #13"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "ze13-05-halinka-ustepuje"
+    },
+    {
+      "type": "character",
+      "id": "halinka-gruzowisko"
+    }
+  ],
+  "prompts": {
+    "image": "Create ONE 1920x1080 16:9 photorealistic cinema still. Input1 OLD target locks action and prop state ONLY, REPLACE its old outfit, broad build and lighting. Input2 NEW continuity locks actual costume/light/location/props. Input3 exact face; input4 exact body and outfit. Halinka is the SAME SHORT 162cm woman, average pear-shaped body, narrow naturally sloping shoulders, modest upper torso, larger hips. Exact new outfit from wardrobe reference, unpadded soft plum cotton jacket, thin teal/copper paisley scarf, cream shirt, gold sun pendant. Never broaden shoulders, enlarge chest, inflate arms or use old red sequined cardigan. Visual language: atmospheric 35mm cinema still, gentle diffusion and halation ONLY on highlights, natural grain, muted colors, deep cool grey-teal shadows and selective warm amber backlight from upper-right rear through missing roof. Expose for light so background falls 1.5 stops darker, NOT evenly lit HDR or orange glossy commercial. Layers of translucent sage smoke drift in delicate serpentine filaments across foreground, tiny airborne plaster dust sparkles ONLY inside sun shaft, no glitter or magical particles. Slightly unreal suspended-time mood produced by optics, smoke and dust, but physically real ruin. Background soft and partially obscured, strong depth, off-center human composition, natural skin. TIGHT 85mm insert of matte black phone BACK held upright in Halinka anatomical RIGHT hand. Keep exact black phone vertical dual-camera design from input1, phone fills 55% image height. Natural small hand, plum cotton rolled sleeve, cream shirt partly at right edge, no sequins. ALL head and hips cropped out. Behind at screen LEFT table, closed burgundy wallet, grey folder and sage saucer NOW ON TABLE, completed previous action. Only a fine wisp curls left from stationary sage on table, shallow depth of field, modest airborne plaster dust. No phone screen, UI or readable brand. No other hands or people. No extra people, extra limbs, new captions, watermarks, roof repair, sparkle effects or sequined cardigan.",
+    "endFrameDescription": "",
+    "animation": "0–1s: phone stays upright in Halinka’s RIGHT hand. 1–2s: her thumb pauses against its side without pressing. 2–8s: hold that grip with tiny natural hand tremor. First 7.792s visible. Back of the phone faces camera throughout; never reveal a screen. Camera: locked, one continuous shot. Secondary motion: natural breathing and minor fabric settling. Preserve exact identities, anatomy, wardrobe, props, ruined set, light and visible lettering. No new people, duplicates, morphing, extra limbs, cuts, captions or watermark.\nPreserve the new plum cotton sleeve and natural hand proportions from Start Frame."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze13-07-telefon-platnosc",
+        "shot:ze13-05-halinka-ustepuje",
+        "character:halinka-gruzowisko"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-13/shots/ze13-07-telefon-platnosc/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-13/shots/ze13-07-telefon-platnosc/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-sezon-1/prolog-18a-pomylona-etykieta",
+  "id": "prolog-18a-pomylona-etykieta",
+  "title": "Prolog 18A - pomylona etykieta",
+  "description": "Na chaotycznym zapleczu SERPOST odrealniony, skrajnie chudy pracownik w czapce BOSS myli dwa kody i nakleja etykietę sąsiedniej przesyłki na paczkę Vana.",
+  "project": {
+    "id": "zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "prolog-18-nadanie-paczki"
+    },
+    {
+      "type": "place",
+      "id": "iquitos-poczta-serpost"
+    }
+  ],
+  "prompts": {
+    "image": "Use case: photorealistic-natural. Cinematic 16:9 start frame for a 4.29-second image-to-video comedy insert. Create a grotesque but believable live-action shot in the cluttered back room of the same SERPOST office immediately after Van hands over his parcel. Shot prolog-18-nadanie-paczki is the primary exact continuity reference for Van's small rectangular package: preserve its dimensions, brown paper, transparent tape, folds, wear and small plain white label; Van must not appear. Place iquitos-poczta-serpost is the primary reference for the modest Peruvian post-office materials, blue-and-white fixtures, fluorescent institutional lighting and regional realism. A cramped chaotic postal sorting room in Iquitos is filled with parcels, padded envelopes, loose forms, label rolls, tape dispensers and battered crates. Van's parcel lies prominently in the foreground beside one different parcel. One extremely skinny adult male worker sits slouched behind the desk with hollow cheeks, red tired eyes, an absent expression, poor posture, a washed-out sleeveless undershirt and an oversized cap bearing the exact readable word BOSS. An empty unlabeled clear alcohol bottle stands incidentally beside the clutter. He holds one barcode label in each hand above the two parcels, staring between them with one eye partly closed. His face, both labels and Van's package are readable in the same static medium-wide, slightly off-kilter 35mm composition. Harsh fluorescent light mixes with weak warm daylight; muted blue, beige and nicotine-yellow palette; hyperrealistic live action and dry absurdist comedy. Exactly one worker, two parcels and two loose labels. Avoid Van, Pipa, fantasy objects, K20, active drinking, smoking, extra people, malformed hands, readable addresses, magic, subtitles, logo overlays and watermark.",
+    "endFrameDescription": "",
+    "animation": "One continuous 4.29-second shot, no cuts. During the first second the skinny worker sways almost imperceptibly and stares between the two barcode labels, then slowly closes one eye to focus. From 1.0 to 2.2 seconds he compares the labels, hesitates and confidently chooses the wrong one. From 2.2 to 3.4 seconds he places that wrong barcode label crookedly over the existing plain label on Van's exact brown-paper parcel in the LEFT foreground. During the final beat he presses it down with both fingertips, gives the parcel one satisfied slap and nudges it toward the outgoing pile; an offscreen scanner answers with a brief green confirmation reflection and a single implied beep. Preserve the exact worker, readable BOSS cap, two parcels, desk clutter, empty bottle, SERPOST back room, Van parcel scale and all hand anatomy. The second parcel stays on the desk. Static camera with only a very subtle slow push-in. No drinking, smoking, new people, extra arms, label duplication, text morphing, readable destination, fantasy object, visible K20, cuts, captions, logos or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:prolog-18-nadanie-paczki",
+        "place:iquitos-poczta-serpost"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-18a-pomylona-etykieta/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-18a-pomylona-etykieta/frame-start-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-11/maia-makijaz",
+  "id": "maia-makijaz",
+  "title": "Maia robi makijaż",
+  "description": "W mieszkaniu po afterze Maia kończy mocny makijaż na super galę. Nakłada ciemną szminkę, a skórzana kurtka czeka na krześle.",
+  "project": {
+    "id": "zlote-emoji-11",
+    "name": "Złote Emoji #11"
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "maia-melodies-v2"
+    },
+    {
+      "type": "place",
+      "id": "mieszkanie-po-afterze"
+    },
+    {
+      "type": "note",
+      "id": "movie-shot"
+    }
+  ],
+  "prompts": {
+    "image": "Fotorealistyczny filmowy kadr 16:9. Maia Melodies v2 w zwykłym mieszkaniu po afterze, przy małym lustrze, kończy przygotowania na galę. Zachować dokładną twarz, zielono-piwne oczy, krótkiego prostego platynowo-lawendowego boba i kremową koszulę z kołnierzykiem z referencji postaci. Maia nakłada ciemną jagodowo-czerwoną szminkę; ostry czarny eyeliner jest już gotowy. Czarna skórzana ramoneska wisi na krześle. Ciepłe światło lampy miesza się z chłodnym późnym popołudniem. Jedna osoba, realistyczne dłonie i odbicie, bez słuchawek, tekstu, napisów i watermarku.",
+    "endFrameDescription": "",
+    "animation": "Single continuous 3-second close shot. Maia is alone at the vanity and slowly finishes applying lipstick to her lower lip. She stops her hand, checks the lip edge, then shifts her gaze to her whole reflection. Her eyelids narrow slightly, her chin rises a few millimeters, and one corner of her mouth almost forms a self-satisfied smile before she suppresses it and returns to cool neutrality. Very subtle nasal exhale. Keep the camera nearly locked. Preserve Maia's exact face, platinum-lavender bob, makeup, black leather jacket, cream shirt, hand anatomy, lipstick, mirror, and apartment. No looking into the camera, broad smile, exaggerated expression, extra person, extra limb, morphing, cut, text, or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "character:maia-melodies-v2",
+        "place:mieszkanie-po-afterze",
+        "note:movie-shot"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-11/shots/maia-makijaz/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-11/shots/maia-makijaz/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

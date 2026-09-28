@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-12/ze12-03c-czeslaw-rower",
+  "id": "ze12-03c-czeslaw-rower",
+  "title": "Czesław — damką przez Łazy",
+  "description": "Po telefonie i przerażonej reakcji Czesław jedzie z lokalu zastępczego do Domu Kultury przez Łazy. Stara bordowa damka, bez kasku, ten sam garnitur. Zatroskany wizytacją, nadal nieświadomy upadku anioła. Miasto na podstawie referencji place:lazy; ulica jest filmową interpretacją, nie rekonstrukcją konkretnego adresu. 4 s.",
+  "project": {
+    "id": "zlote-emoji-12",
+    "name": "Złote Emoji #12"
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "czeslaw"
+    },
+    {
+      "type": "place",
+      "id": "lazy"
+    },
+    {
+      "type": "note",
+      "id": "czeslaw-lokal-zastepczy-ze12"
+    }
+  ],
+  "prompts": {
+    "image": "Use case: identity-preserve. ONE photorealistic cinematic 16:9 shot: Czeslaw is already cycling briskly FROM SCREEN LEFT TO RIGHT on a quiet residential street through Łazy, Poland, on his way from an off-site temporary office to Dom Kultury. Reference1 exact face, curly dark hair and rectangular glasses; reference2 exact full ordinary rumpled dark suit, beige shirt, loose tie, trousers and shoes, 171cm average build. Reference3 is Łazy town location reference: use its distinctive pale church tower with dark onion-shaped cap as a distant recognizable landmark, modest low-rise houses and pastel apartment blocks, small Polish railway-town scale, adapt to STREET LEVEL autumn morning. Do not copy aerial camera or claim exact documented street layout. Medium-wide low side three-quarter tracking composition with whole rider and entire bicycle visible, cyclist left of center, room toward right. Old worn dark burgundy steel DAMKA step-through city bicycle, low curved frame with NO high top tube, two normal spoked wheels, full metal mudguards, rear rack, swept-back chrome handlebars, classic saddle, chain connected properly to rear wheel. He wears NO HELMET, bare curly head, no sportswear. Both hands on grips, one foot on each pedal at opposite crank positions, seated natural upright posture leaning slightly forward, focused worried expression after ominous call. Jacket hem and loose tie slightly lifted by movement. Morning warm sunlight, autumn leaves, background softly receding, quiet road no nearby cars or other riders. No angel, ruined building, new signs, text overlay, watermark or anatomy distortion.",
+    "endFrameDescription": "",
+    "animation": "0–4s: Czeslaw is already cycling steadily toward screen right, seated with both hands on handlebars. Feet pedal smoothly on opposite crank positions; both wheels roll clockwise at matching road speed without sliding. Camera tracks right alongside him at fixed distance; buildings and church drift toward screen left. Jacket hem and loose tie flutter lightly backward. Preserve exact identity, bare curly head without helmet, glasses, ordinary suit, two-wheel burgundy step-through frame, fork, chain and street architecture. No standing, stopping, wheel deformation, extra limbs, new riders, cars entering frame, morphing, cuts, captions or watermark. his face express worry and he is rushing"
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "character:czeslaw",
+        "place:lazy"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-03c-czeslaw-rower/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-03c-czeslaw-rower/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

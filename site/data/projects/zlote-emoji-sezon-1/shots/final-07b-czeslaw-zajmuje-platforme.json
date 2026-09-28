@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-sezon-1/final-07b-czeslaw-zajmuje-platforme",
+  "id": "final-07b-czeslaw-zajmuje-platforme",
+  "title": "Final 07B — Czesław zajmuje platformę",
+  "description": "Moment przejścia od klubowego planu do realnej walki. Czesław w autentycznym polskim hełmie wz. 31 wspina się na lewą platformę świeżo zmaterializowanej Belicosy, chwyta mokrą barierkę i zapina ciężką uprząż operatora. Nie pozuje przy dziale: wokół niego już trwa atak, dach drży od odległych uderzeń, wiatr niesie deszcz i pył, a ogromna lufa oraz mechanizmy przytłaczają zwykłego człowieka w pogniecionym garniturze.\n\nKadr ma zbudować fizyczny respekt przed bronią i pierwszy emocjonalny punkt Czesława: krótkie oszołomienie przechodzi w urzędniczą, niemal absurdalną determinację — skoro ktoś musi obsłużyć urządzenie, on bierze odpowiedzialność. Kamera znajduje się nisko i blisko platformy, w duchu ciężkich scen załogi pojazdu z Fury i ciasnoty Das Boot, ale Czesław nadal wygląda jak gospodarz Domu Kultury, nie zawodowy żołnierz. To ostatnia chwila przed pierwszą komendą i strzałem; auspex działa, lecz Belicosa jeszcze nie otworzyła ognia.",
+  "project": {
+    "id": "zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1"
+  },
+  "references": [
+    {
+      "type": "place",
+      "id": "dach-domu-kultury"
+    },
+    {
+      "type": "prop",
+      "id": "auspex-belicosy"
+    },
+    {
+      "type": "place",
+      "id": "dach-domu-kultury-obrona"
+    },
+    {
+      "type": "prop",
+      "id": "helm-czeslawa-wz31"
+    },
+    {
+      "type": "character",
+      "id": "czeslaw"
+    }
+  ],
+  "prompts": {
+    "image": "Photorealistic cinematic 16:9 Start Frame during an active rooftop attack. Low, close 28–35 mm camera beside the wet grated steps, slightly canted. Exact Czesław in his soaked rumpled civilian suit and authentic olive Polish wz. 31 helmet is caught mid-climb onto the left operator platform of the canonical Belicosa. One shoe is planted on a grated step, the other leg hauls his weight upward; one hand grips the wet waist rail while the other pulls the heavy unfastened leather safety belt toward him. His face changes from shock to duty: eyes wide behind rain-spattered glasses, mouth tense on a breath, attention fixed on the controls rather than the viewer. The enormous single-barrel Belicosa crowds the upper-right. Wind-driven rain, fine roof dust, tiny sparks and distant cold battle flashes create war-film immediacy. The gun has not fired yet: no muzzle flash, projectile, steam or overheating. Preserve exact identity, correct hands, one helmet, one barrel, one platform and the canonical auspex. No hero pose, military uniform, extra people or limbs, text, UI, logos or watermark.",
+    "endFrameDescription": "",
+    "animation": "One continuous 4-second tense handheld-feel shot with no cut. Czesław climbs the final grated step while the platform vibrates under distant impacts. He keeps one hand on the wet rail, pulls the heavy leather safety belt across his waist with the other, seats himself against the operator position and clips the buckle once. He gives the fastening one urgent tug, plants both feet, then reaches toward the controls and fixes his frightened but determined gaze on the auspex. Rain lashes diagonally, his loosened tie and jacket move in the wind, tiny dust and sparks pass behind him, and the enormous Belicosa remains mechanically still before its first shot. Preserve exact face, glasses, wz. 31 helmet, suit, anatomy, platform, belt geometry, auspex and single-barrel gun. No firing, colored flash, projectile, steam, overheating, extra people, morphing, new limbs, camera cut, text or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "character:czeslaw",
+        "prop:helm-czeslawa-wz31",
+        "prop:belicosa",
+        "place:dach-domu-kultury-obrona"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-07b-czeslaw-zajmuje-platforme/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-07b-czeslaw-zajmuje-platforme/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

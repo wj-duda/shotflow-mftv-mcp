@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:you-talking/d5f08913-4bde-4878-8db6-66c27cda69be",
+  "id": "d5f08913-4bde-4878-8db6-66c27cda69be",
+  "title": "d5f08913-4bde-4878-8db6-66c27cda69be",
+  "description": "",
+  "project": {
+    "id": "you-talking",
+    "name": "You Talking"
+  },
+  "references": [],
+  "prompts": {
+    "image": "",
+    "endFrameDescription": "",
+    "animation": "sunrise in the polish city, statci shot of the room, the wind is silght lightly moving light \ncurtain"
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "timeline",
+      "referenceKeys": [],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/you-talking/shots/d5f08913-4bde-4878-8db6-66c27cda69be/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/you-talking/shots/d5f08913-4bde-4878-8db6-66c27cda69be/frame-start-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ]
+}

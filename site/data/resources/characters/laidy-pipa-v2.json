@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "character:laidy-pipa-v2",
+  "type": "characters",
+  "id": "laidy-pipa-v2",
+  "name": "LAIdy Pipa v2",
+  "description": "CHARACTER [age=25-34; presentation=feminine; height=tall; build=athletic; body=hourglass; chest=medium; skin=light; face=oval; eyes=blue-gray; hair-color=purple; hair-length=very-long; hair-texture=braided]\r\n\r\nLAIdy Pipa v2 — wariant postaci przygotowany dla Złotego Emoji Tygodnia #10 na podstawie materiałów źródłowych z klipu. Zachowuje twarz, wiek, proporcje, chłodne niebieskoszare oczy, mocny śliwkowo-czarny makijaż, precyzyjną czerwoną szminkę oraz spokojną, dumną i dominującą obecność wcześniejszej LAIdy Pipy.\r\n\r\nKanoniczna fryzura tej wersji to bardzo długie, intensywnie fioletowe boxer braids: dwa grube warkocze prowadzone od ciasno zaplecionego czubka głowy oraz dwa cienkie pasma kadrujące twarz. Kanoniczny strój to czarny gotycko-klubowy kostium sceniczny: zabudowany dopasowany top ze skóry, konstrukcyjny gorset w talii z metalowymi haftkami i ćwiekami, siateczkowe rękawy, nabijane opaski na ramionach i karwasze, szeroki nabijany choker oraz mały srebrny wisiorek w kształcie serca. Dolna część stroju składa się z czarnych skórzanych szortów o wysokim stanie, kryjących czarnych rajstop oraz ciężkich, sznurowanych kozaków do kolan na niskim stabilnym obcasie. To współczesny sceniczny outfit muzyczno-klubowy, nie nordycka zbroja ani kostium fantasy. Postawa neutralna i pewna siebie; groźna bez agresywnej pozy i bez podnoszenia głosu.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "portrait",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/laidy-pipa-v2/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/laidy-pipa-v2/image-001-thumb.webp",
+      "width": 1023,
+      "height": 1537,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-002",
+      "role": "silhouette",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/laidy-pipa-v2/image-002.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/laidy-pipa-v2/image-002-thumb.webp",
+      "width": 1023,
+      "height": 1537,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-08-23T00:41:31+02:00"
+}

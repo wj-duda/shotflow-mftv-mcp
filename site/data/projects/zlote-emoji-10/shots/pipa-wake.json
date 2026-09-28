@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-10/pipa-wake",
+  "id": "pipa-wake",
+  "title": "Maja i Pipa po afterze",
+  "description": "Szeroki plan otwierający czteroshotowy gag. Po ogłoszeniu zwyciężczyni następuje twarde cięcie do zwykłego prywatnego mieszkania po całonocnym afterze. Pipa śpi po lewej, a Maia po prawej stronie szerokiej kanapy. Wokół leżą zmięte koce, ubrania, kubki, opakowania po jedzeniu, konfetti, chusteczki po makijażu, balony i pojedynczy but; przez żaluzje wpada światło późnego poranka, a zapomniana lampa nadal się świeci. Po chwili poza kadrem zaczyna wibrować telefon. Pipa bardzo powoli otwiera jedno oko. Shot kończy się przed dialogiem i twardo przechodzi do zbliżenia na jej twarz.",
+  "project": {
+    "id": "zlote-emoji-10",
+    "name": "Złote Emoji #10"
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "laidy-pipa-v2"
+    },
+    {
+      "type": "character",
+      "id": "maia-melodies-v2"
+    },
+    {
+      "type": "place",
+      "id": "mieszkanie-po-afterze"
+    }
+  ],
+  "prompts": {
+    "image": "Create one cinematic photorealistic landscape frame in 16:9 for a four-second comedy cutaway. Use LAIdy Pipa v2, Maia Melodies v2 and the apartment-afterparty location as exact mandatory references. Recreate the apartment's wide eye-level view with the dark sofa centered, kitchenette behind it and hard late-morning daylight passing through half-closed blinds while one forgotten warm lamp remains on. The home must unmistakably show the aftermath of an all-night party: rumpled blankets and pillows, scattered clothes, one high-heeled shoe, paper cups, empty takeaway boxes and snack wrappers, drooping balloons, confetti, makeup tissues, glasses and generic empty bottles. Keep the clutter realistic and incidental rather than arranged. LAIdy Pipa v2 sleeps on the left in her canonical black gothic outfit, long vivid-purple boxer braids falling naturally across her torso. Maia Melodies v2 sleeps on the right in her canonical black leather biker jacket, pale collared shirt and black leather trousers, her platinum-lavender bob resting against Pipa. Their heads lean together naturally; their bodies look heavy and exhausted, never posed for camera. Pipa is just beginning to crack one eye open while Maia remains fully asleep. Grounded mundane comedy, natural anatomy, realistic hands, skin and fabric. Preserve both faces, hairstyles, body proportions and wardrobes exactly. No other people, no nightclub, no stage, no red club couch, no active party, no phone visible, no readable brands, subtitles, logos, watermark, duplicated limbs or sexualized posing.",
+    "endFrameDescription": "",
+    "animation": "One continuous static-camera four-second establishing shot with no cut. @Element1 is LAIdy Pipa v2 asleep on the left side of the apartment sofa. @Element2 is Maia Melodies v2 asleep on the right. @Image1 defines the apartment, sofa, kitchenette, late-morning light and afterparty clutter; preserve its layout. 0.0–2.2 s: both remain heavily asleep with only quiet breathing while the viewer reads the blankets, clothes, cups, takeaway boxes, balloons and confetti. 2.2–2.8 s: an off-screen phone vibrates, but no phone appears. 2.8–4.0 s: @Element1 reluctantly cracks one eye open without lifting her head; @Element2 remains asleep. End before dialogue or a nudge for a hard cut to Pipa's close-up. Preserve identities, hair, outfits, sofa, room and clutter. No dialogue, lip movement, camera movement, zoom, new people, visible phone, standing up, smiling, morphing, duplicated limbs, subtitles, text or transition."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "place:mieszkanie-po-afterze",
+        "character:laidy-pipa-v2",
+        "character:maia-melodies-v2"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-10/shots/pipa-wake/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-10/shots/pipa-wake/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

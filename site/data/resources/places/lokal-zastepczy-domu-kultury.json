@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "place:lokal-zastepczy-domu-kultury",
+  "type": "places",
+  "id": "lokal-zastepczy-domu-kultury",
+  "name": "Lokal zastępczy Domu Kultury",
+  "description": "Lokal zastępczy Domu Kultury w Łazach, poza zniszczonym Domem Kultury. Źródło istniejącego kanonu: note:czeslaw-lokal-zastepczy-ze12 oraz Start Frame shota ze12-03-telefon-czeslawa w projekcie zlote-emoji-12. Czesław dojeżdża stąd do Domu Kultury rowerem. Dokładny adres i odległość nie zostały ustalone. Nowe założenie scenograficzne na potrzeby rolki Dołącz: udostępniony kontener biurowy na zapleczu miejskiej bazy technicznej w innej części Łaz; nie jest kanciapą ani kontenerem na placu remontu Domu Kultury. Widok wnętrza jest główną referencją wyglądu. Geometria: note:plan-lokalu-zastepczego. Jasne metalowe ściany, szara wykładzina, jedno okno z żaluzjami na lewej ścianie i grzejnik pod nim. Jedne drzwi na prawej ścianie przy przednim końcu pokoju. Stare drewniane biurko pośrodku, dwa różne krzesła pracowników za nim oraz dwa krzesła dla gości przed nim. Beżowy telefon po lewej stronie blatu, otwarty segregator pośrodku, stosy dokumentów po obu stronach. Szara niska szafka z białym kaskiem z tyłu po prawej, kamizelka odblaskowa nad nią, regał i kartony przy prawej ścianie. Brak osób w referencji. W rolce Czesław siedzi za biurkiem po lewej obrazu, Halinka po prawej. Zachować przejście do drzwi. Bez widoku ruin przez okno. Rysunki i fotografie na ścianach są częścią scenografii. Wymiary pomieszczenia orientacyjne; obrazy wyznaczają układ, nie dokumentację budowlaną.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/lokal-zastepczy-domu-kultury/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/lokal-zastepczy-domu-kultury/image-001-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-21T23:53:55.011738+00:00"
+}

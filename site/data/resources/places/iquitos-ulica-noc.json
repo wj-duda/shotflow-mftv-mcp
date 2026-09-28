@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "place:iquitos-ulica-noc",
+  "type": "places",
+  "id": "iquitos-ulica-noc",
+  "name": "Iquitos — Jirón Próspero nocą",
+  "description": "DRAFT / research prologu. Ruchliwa nocna ulica Iquitos: ciepłe latarnie, ciemne niebo, małe jaskrawe sklepy, motocykle i charakterystyczne mototaksówki. Może służyć jako krótki establishing shot lub przejście między pokojem hotelowym a pocztą, podkreślające realne miasto bez dokładania ekspozycji słownej. Wikimedia Commons, autor Percy Meza, CC BY-SA 3.0: https://commons.wikimedia.org/wiki/File:Jir%C3%B3n_Pr%C3%B3spero_de_Iquitos.JPG.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/iquitos-ulica-noc/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/iquitos-ulica-noc/image-001-thumb.webp",
+      "width": 800,
+      "height": 450,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-08-17T15:21:20+02:00"
+}

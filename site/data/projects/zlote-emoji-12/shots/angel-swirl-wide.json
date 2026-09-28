@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-12/angel-swirl-wide",
+  "id": "angel-swirl-wide",
+  "title": "angel-swirl-wide",
+  "description": "Wypchnięcie przez niewidoczną zewnętrzną siłę. Kamera niemal pionowo z góry, z perspektywy niebios, patrzy w ogromną przestrzeń chmur. Anioł mały pośrodku, wyciąga ręce bezradnie i powoli obraca się. Oba skrzydła płoną na całej powierzchni i czernieją; włosy również. Start przedstawia chwilę tuż po wyrzuceniu.",
+  "project": {
+    "id": "zlote-emoji-12",
+    "name": "Złote Emoji #12"
+  },
+  "references": [
+    {
+      "type": "note",
+      "id": "aniol-przed-wygnaniem"
+    },
+    {
+      "type": "character",
+      "id": "aniol-wygnany"
+    },
+    {
+      "type": "shot",
+      "id": "angel-swirl-wide"
+    }
+  ],
+  "prompts": {
+    "image": "Edit only supernatural flame coverage on this tiny winged character. Add clearly visible orange tongues of magical fire over the ENTIRE surface of BOTH wings, roots to tips. Feathers stay predominantly charcoal BLACK, only a few last pale tips currently blackening. A small orange flame in his blackening hair ends. Preserve EXACT tiny center scale, overhead camera, helpless reaching posture, face, ivory suit, cloud depth, all composition. Do not enlarge character or fire halo. Fire is localized to wing feathers and hair ends, no bodily injury. 16:9 photorealistic supernatural movie still, no other objects, text or watermark.",
+    "endFrameDescription": "",
+    "animation": "0–4.17s: Already moving away from the overhead camera after an external push, the small central angel slowly recedes and rotates clockwise about 35 degrees. One hand reaches upward once, then loosens; the wings cannot flap. Camera remains fixed above the cloud opening. Fire spreads through the last pale feather patches and hair, leaving black charcoal and red embers by 3s; a few burnt feathers trail toward camera. 4.17–5s: continue the same drift. Preserve human identity, ivory suit, exactly two attached wings and normal limbs. Keep cloud geometry and lighting stable. No powered flight, new people, ground, morphing, cuts, captions or watermarks."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 3,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:angel-swirl-wide"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/angel-swirl-wide/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/angel-swirl-wide/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

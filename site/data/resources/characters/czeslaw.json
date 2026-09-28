@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "character:czeslaw",
+  "type": "characters",
+  "id": "czeslaw",
+  "name": "Czesław",
+  "description": "CHARACTER [age=45-59; presentation=masculine; height=average; build=average; body=straight; chest=small; skin=medium; face=oval; eyes=dark-brown; hair-color=black; hair-length=short; hair-texture=curly]\r\n\r\nCzesław to urzędniczo-artystyczny gospodarz Domu Kultury AIMFTV: formalny, proceduralny, suchy, lekko filozoficzny i śmiertelnie poważny wobec absurdu. Lubi dokumenty, regulaminy, podpisy i „podmioty odpowiedzialne”. Mówi charakterystycznie: „Znaczy…”, „Do ciężkiego segregatora”. Z Halinką tworzy kontrast: on porządkuje świat papierami, ona intuicją. Wizualnie: niski, zmęczony mężczyzna w okularach, pogniecionym garniturze i luźnym krawacie.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "portrait",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/czeslaw/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/czeslaw/image-001-thumb.webp",
+      "width": 1254,
+      "height": 1254,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-002",
+      "role": "silhouette",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/czeslaw/image-002.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/czeslaw/image-002-thumb.webp",
+      "width": 1254,
+      "height": 1254,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-08-01T16:29:13.2392329+00:00"
+}

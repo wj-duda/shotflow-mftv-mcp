@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-9/maja-box-blow",
+  "id": "maja-box-blow",
+  "title": "maja-box-blow",
+  "description": "Dokładnie ten sam magazyn i ta sama ogromna skrzynia co w shocie maja-box. Karton właśnie rozrywa się na duże kawałki, a całe pomieszczenie wypełnia fala kolorowego konfetti. Ze środka wyłania się Maia Melodies za pełną profesjonalną konsolą DJ-ską: dwa gramofony po bokach i centralny mikser. To efekt sceniczny bez ognia, dymu i niebezpiecznego wybuchu.",
+  "project": {
+    "id": "zlote-emoji-9",
+    "name": "Złote Emoji #9"
+  },
+  "references": [
+    {
+      "type": "place",
+      "id": "dom-kultury"
+    },
+    {
+      "type": "place",
+      "id": "dom-kultury-sala"
+    }
+  ],
+  "prompts": {
+    "image": "Use maja-box as exact visual continuity. Preserve the same camera, storage room, door, lamp, walls, floor and warm lighting. Freeze the theatrical reveal as the giant compost crate bursts into torn cardboard panels and dense colorful confetti. Maia Melodies appears behind a full-width professional DJ flight-case console with two clearly visible turntables and a central mixer. Preserve her exact face, lavender-platinum bob, black headphones, white shirt and black trousers. No fire, smoke, audience, chairs, ceremony, stage, text or watermark.",
+    "endFrameDescription": "",
+    "animation": "Static locked camera and exact first-to-last-frame continuity. Structure the four-second shot as one clean theatrical reveal. During the first half-second Maia stays low inside the huge crate, presses one headphone earcup and gives a small anticipatory look. On a single strong beat, the cardboard tears from the existing seams and the four walls burst outward in large believable panels, falling away from the centre without fire, smoke or a dangerous blast. At the same instant a dense cannon-like wave of colorful paper confetti shoots upward and outward, revealing the full professional DJ flight-case console that was concealed inside: two turntables and the central mixer. Maia rises naturally into the exact final position behind the console, changes from focused anticipation to a confident joyful smile, places her hands on the mixer and right turntable, and begins one small controlled DJ movement. After the main burst, the large cardboard pieces settle on the floor while lighter confetti continues to flutter down, arriving precisely at the supplied end frame. Preserve Maia's exact face, lavender-platinum bob, black headphones, white shirt, black trousers, body proportions and identity throughout. Preserve the exact camera, room, door, wall lamp, walls, green lower paint, wooden floor, crate dimensions and green leaf symbol. The console must be revealed from inside the crate, not appear through morphing or teleportation. No camera movement, no zoom, no cuts, no extra people, no duplicated Maia, no extra limbs, no facial morphing, no wardrobe changes, no text changes, no flames, no smoke and no watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-end",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "place:dom-kultury",
+        "place:dom-kultury-sala",
+        "character:maia-melodies"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-9/shots/maja-box-blow/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-9/shots/maja-box-blow/frame-end-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "reference",
+      "referenceKeys": [],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-9/shots/maja-box-blow/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-9/shots/maja-box-blow/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

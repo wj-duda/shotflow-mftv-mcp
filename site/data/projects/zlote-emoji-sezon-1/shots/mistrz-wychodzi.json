@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-sezon-1/mistrz-wychodzi",
+  "id": "mistrz-wychodzi",
+  "title": "Mistrz wychodzi z Domu Kultury",
+  "description": "Po zabraniu K20 i komentarzu Halinki Mistrz Końca wychodzi z Domu Kultury. W pół kroku czujnie rozgląda się po pustym placu, upewniając się, że nikt nie zauważył kradzieży; kostkę dyskretnie ukrywa przy kieszeni.",
+  "project": {
+    "id": "zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1"
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "mistrz-konca"
+    },
+    {
+      "type": "place",
+      "id": "dom-kultury-wejscie"
+    }
+  ],
+  "prompts": {
+    "image": "Use case: photorealistic-natural. Asset type: cinematic Start Frame for a 1920x1080 live-action comedy-fantasy film shot. Image 1 is the mandatory facial identity reference for Mistrz Końca; Image 2 is the mandatory full-body proportions, everyday clothing, bag and silhouette reference for the same character; Image 3 is the mandatory architectural reference for the front entrance of Dom Kultury. Mistrz Końca has just quietly left the Dom Kultury after secretly taking a twenty-sided die. He is caught mid-step on the entrance landing, cautiously looking to one side to check whether anyone saw him. His behavior is furtive and controlled, not theatrical and not villain cosplay. One hand holds the brown shoulder-bag strap; the other stays close to a trouser pocket, subtly concealing the stolen die rather than displaying it. The same recognizable Polish Dom Kultury front and entrance at blue-hour night, but several weeks after the event shown in the reference: remove the large event banner completely. Keep the DOM KULTURY building sign. Glass entrance door partly open behind him with warm old fluorescent interior light spilling onto the steps. Quiet empty paved forecourt. Exactly one Mistrz Końca, age 27, matching the identity references precisely: same young adult face, short dark-brown hair, light stubble, stocky broad-shouldered 184 cm build; same faded charcoal dungeon-map T-shirt, open dark-olive overshirt, black cargo trousers, heavy boots, brown shoulder bag, dice pouch and red-black bracelet. Grounded photorealistic Polish live-action cinema. Cinematic 16:9 medium-wide shot from the forecourt, camera near chest height and slightly off-axis; show the entrance, steps and character from head to boots. Cold blue dusk outside and warm doorway light. Preserve identity, age, proportions, clothing, bag and facade. Exactly one person, correct anatomy. Die concealed or barely glimpsed, never enlarged or glowing. No event banner, crowd, villain pose, weapons, magic, costume, destroyed facade, duplicated limbs, captions, logos or watermark.",
+    "endFrameDescription": "",
+    "animation": "Four-second continuous shot. Mistrz Końca walks one cautious step farther away from the open entrance, slows, turns his head to check one side of the empty forecourt and then begins a smaller glance the other way. His shoulders stay tense; one hand remains on the bag strap while the other guards the pocket containing the stolen K20. The open glass door behind him settles slightly and warm interior light remains steady. Camera performs only a very subtle grounded lateral follow, with no cuts or zoom. Preserve his exact young face, stocky proportions, everyday clothing, bag, hands and the architecture and DOM KULTURY sign. The die must remain concealed and non-glowing. No new people, no costume change, no magic, no morphing, no extra limbs, no text changes, no random cuts, subtitles or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "character:mistrz-konca",
+        "place:dom-kultury-wejscie"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/mistrz-wychodzi/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/mistrz-wychodzi/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

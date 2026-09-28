@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "prop:helm-czeslawa-wz31",
+  "type": "props",
+  "id": "helm-czeslawa-wz31",
+  "name": "Hełm Czesława wz.31",
+  "description": "Kanoniczny hełm, który Czesław zakłada podczas całej obrony Domu Kultury. Autentyczna polska sylwetka hełmu stalowego wz.31 z lat trzydziestych: płytka, regularnie zaokrąglona kopuła i niski, delikatnie rozszerzający się ciągły rant. Kolor oliwkowo-khaki. Powierzchnia ma charakterystyczną grubą, ziarnistą fakturę przeciwodblaskową typu „salamandra”, umiarkowanie zużytą na krawędziach. Wewnątrz ciemnobrązowy skórzany fasunek oraz prosty, postarzały skórzany pasek pod brodę. Hełm jest zawsze tym samym fizycznym przedmiotem i zachowuje kształt, odcień, fakturę, nity oraz pasek we wszystkich ujęciach od wejścia Czesława na dach do scen po przeciążeniu działa. Nie ma orła, godła, napisów, numerów, odznak, dziur po kulach ani współczesnych dodatków. Nie może zmieniać się w niemiecki Stahlhelm, radziecki SSh-40, brytyjski Brodie, amerykański M1 ani nowoczesny hełm NATO. To prawdziwy stary element wyposażenia, nie błyszczący cosplay.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/helm-czeslawa-wz31/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/helm-czeslawa-wz31/image-001-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-08-19T07:47:00+02:00"
+}

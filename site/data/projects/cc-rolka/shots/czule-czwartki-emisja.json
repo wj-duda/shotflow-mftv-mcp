@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:cc-rolka/czule-czwartki-emisja",
+  "id": "czule-czwartki-emisja",
+  "title": "Czułe Czwartki — emisja",
+  "description": "Końcowa pionowa plansza podaje emisję Czułych Czwartków: czwartki 20:15.",
+  "project": {
+    "id": "cc-rolka",
+    "name": "CC-Rolka"
+  },
+  "references": [
+    {
+      "type": "prop",
+      "id": "logo-aimftv-kolor"
+    },
+    {
+      "type": "shot",
+      "id": "czule-czwartki-final"
+    },
+    {
+      "type": "prop",
+      "id": "ciasto-dariusza"
+    }
+  ],
+  "prompts": {
+    "image": "Native vertical 9:16 final station schedule card. Deep burgundy-to-black analog background. Complete exact AI MFTV logo is small at top. A simplified complete round pink cake medallion with red heart fills the middle. Over it, exactly two large cream condensed lines read CZUŁE / CZWARTKI with correct Polish Ł. Below, very large centered text reads exactly CZWARTKI 20:15. Flamboyant late-1990s Polish cable-TV promo, warm red halation, subtle CRT wear and generous mobile-safe margins. No extra words, different time, altered logo, people or artifacts.",
+    "endFrameDescription": "",
+    "animation": ""
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "prop:logo-aimftv-kolor",
+        "shot:czule-czwartki-final",
+        "prop:ciasto-dariusza"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/czule-czwartki-emisja/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/czule-czwartki-emisja/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

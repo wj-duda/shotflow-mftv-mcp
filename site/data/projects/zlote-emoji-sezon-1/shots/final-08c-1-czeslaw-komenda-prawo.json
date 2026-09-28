@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-sezon-1/final-08c-1-czeslaw-komenda-prawo",
+  "id": "final-08c-1-czeslaw-komenda-prawo",
+  "title": "Final 08C 1 Czesław — komenda prawą flankę",
+  "description": "Początek trzeciej salwy ponownie zmienia skalę i oś. Kamera znajduje się bardzo nisko pod barierką platformy i patrzy szerzej ku górze: na pierwszym planie widać napięte pasy uprzęży oraz obie pracujące ręce, wyżej twarz Czesława pod hełmem, a nad nim monumentalny zamek lufy i burzowe niebo. To najbardziej przytłaczający kadr człowieka wobec maszyny, wyraźnie różny od ujęcia trzy czwarte w A i profilu przez auspex w B.\n\nCzesław jest przemoczony, ogłuszony i zmęczony; dostrzega prawy cel i wydaje trzecią komendę przez zaciśnięte zęby. Nie ma w nim pewności filmowego żołnierza — jest zwyczajny, przerażony i skupiony na dokończeniu procedury. Drżą przewody, auspex migocze, spod platformy podnosi się pył. Różowo-czerwone światło pojawia się dopiero przy naciśnięciu spustu. To własna kotwica trzeciej salwy, do której może wrócić wyłącznie final-08c-3.",
+  "project": {
+    "id": "zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1"
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "czeslaw"
+    },
+    {
+      "type": "prop",
+      "id": "belicosa"
+    },
+    {
+      "type": "shot",
+      "id": "final-08a-1-czeslaw-komenda-lewo"
+    },
+    {
+      "type": "place",
+      "id": "dach-domu-kultury"
+    },
+    {
+      "type": "prop",
+      "id": "auspex-belicosy"
+    },
+    {
+      "type": "place",
+      "id": "dach-domu-kultury-obrona"
+    },
+    {
+      "type": "prop",
+      "id": "helm-czeslawa-wz31"
+    },
+    {
+      "type": "shot",
+      "id": "final-08b-1-czeslaw-komenda-srodek"
+    }
+  ],
+  "prompts": {
+    "image": "Photorealistic cinematic 16:9 third-volley command frame from an oppressive worm's-eye camera under the operator-platform railing. A 24 mm lens almost touches the wet grated floor and looks sharply upward through diagonal rail bars. Fastened leather harness straps and BOTH anatomically correct hands fighting separate heavy brass controls dominate the extreme foreground; exact exhausted Czeslaw's readable face sits above them beneath one authentic olive Polish wz.31 helmet while the monumental Belicosa breech and recoil cylinders crush the top of frame. After two shots his shoulders shake, wet crooked glasses slide down, rain and soot streak his face and teeth bare as he draws breath to shout toward the RIGHT. His eyes show real fear that the roof is failing and the decision to fire once more. Violent rain, vibrating cables, suspended roof grit, tiny sparks and dirty green instrument spill. No pink-red flash yet, neutral expression, repeated eye-level framing, extra hands, duplicated controls, text, UI or watermark.",
+    "endFrameDescription": "",
+    "animation": "One continuous two-second worm's-eye command shot with no cut. Czeslaw fights the vibrating controls with both hands, sucks in one ragged breath, snaps his eyes hard toward the right flank and shouts: Prawy! His harness and shoulders tremble while roof grit rises through the platform. He then commits his full weight to the right-hand firing control exactly once. Only on the final beat does the first pink-red ammunition reflection reach the underside of his helmet and glasses. Preserve the radical low camera, two correct hands on separate controls, exact identity, suit, harness, wz.31 helmet and Belicosa geometry. No second pull, calm pose, color change, extra limbs, cut, subtitles or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:final-08a-1-czeslaw-komenda-lewo",
+        "shot:final-08b-1-czeslaw-komenda-srodek",
+        "character:czeslaw",
+        "prop:helm-czeslawa-wz31",
+        "prop:belicosa"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-08c-1-czeslaw-komenda-prawo/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-08c-1-czeslaw-komenda-prawo/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

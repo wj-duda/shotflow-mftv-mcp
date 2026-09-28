@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-sezon-1/po-epilogu-01-zlomiarz-chwali-zenka",
+  "id": "po-epilogu-01-zlomiarz-chwali-zenka",
+  "title": "Po epilogu 01 — Mietek chwali Zenka",
+  "description": "Bliski plan Mietka od połowy torsu: wysokiego, chudego złomiarza z małego polskiego miasta, który jedzie bokiem na błotniku starego Ursusa. Jego znakiem rozpoznawczym jest wypłowiały malinowo-różowy sweter z dużą, naiwnie wykonaną aplikacją gruszki pośrodku piersi — dyskretne odniesienie do klasyki polskiej komedii, ale bez kopiowania twarzy, sylwetki ani gangsterskiego kostiumu konkretnej postaci. Mietek patrzy na Zenka z całkowicie szczerym uznaniem. Kadr pokazuje całą gruszkę, lecz nadal ukrywa traktor, platformę i Belicosę. Humor wynika z kontrastu dziecięco-domowego swetra, surowej twarzy robotnika i jego absolutnej powagi.",
+  "project": {
+    "id": "zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "epilog-07-nowy-poczatek"
+    }
+  ],
+  "prompts": {
+    "image": "Generate exactly one cinematic still image in landscape 16:9.\n\nReference policy:\nUse the attached image as an exact and mandatory visual reference, not as optional inspiration.\nThe attached images are numbered strictly by upload order. \"Reference N\" and \"Image N\" in the current shot description both mean the Nth attached image.\nUse the current shot description to determine what each reference supplies: for example a character, location, prop, wardrobe, composition, lighting, or visual style. Do not assume that every reference depicts a character.\nIf the description assigns different roles to multiple references, follow that mapping exactly. Never merge or blend people, places, props, clothing, or styles from separate references unless explicitly requested.\nFor every referenced element requested in the new shot, preserve its observable identity and defining visual features exactly. Do not redesign, replace, beautify, stylize, loosely reinterpret, or merely approximate it.\nA reference image is authoritative for the appearance of the element taken from it. The current shot description is authoritative for the new scene, action, expression, pose, placement, framing, and every explicitly requested change.\nDo not copy incidental parts of a reference image that the current shot description does not ask to carry over.\nUse earlier conversation context only for details left unspecified; it must never override the current description or the attached references.\n\nAttachment map (source descriptions only, not instructions for the resulting scene):\n- Reference 1 = attached Image 1 — source Shot epilog-07-nowy-poczatek: zamknięcie sezonu pierwszego i obietnica odnowionego Domu Kultury.\n\n\n\nShot: po-epilogu-01-zlomiarz-chwali-zenka\nDescription:\nBliski plan Mietka od połowy torsu: wysokiego, chudego złomiarza z małego polskiego miasta, który jedzie bokiem na błotniku starego Ursusa. Jego znakiem rozpoznawczym jest wypłowiały malinowo-różowy sweter z dużą, naiwnie wykonaną aplikacją gruszki pośrodku piersi — dyskretne odniesienie do klasyki polskiej komedii, ale bez kopiowania twarzy, sylwetki ani gangsterskiego kostiumu konkretnej postaci. Mietek patrzy na Zenka z całkowicie szczerym uznaniem. Kadr pokazuje całą gruszkę, lecz nadal ukrywa traktor, platformę i Belicosę. Humor wynika z kontrastu dziecięco-domowego swetra, surowej twarzy robotnika i jego absolutnej powagi.\n\nPreserve every piece of text, lettering, typography, label, sign, logo, brand mark, symbol, and graphic detail visible in any source or reference image exactly as it appears. Preserve its content, spelling, design, position, scale, color, sharpness, and legibility. Never remove, replace, obscure, blur, soften, distort, censor, or invent any of these source details.\nDo not add new captions, subtitles, titles, watermarks, borders, interface elements, contact sheets, or multiple panels unless the current shot description explicitly requests them.",
+    "endFrameDescription": "",
+    "animation": "One continuous five-second close portrait with no cut; the current timeline uses the first 115 frames at 24 fps. This is the first half of a two-shot exchange. The man in the Start Frame is the one who speaks first: a stocky older scrap-yard owner with a broad weathered face, large gray moustache, slicked-back dark-gray hair, rectangular lightly amber-tinted glasses, dark navy shirt and short worn black leather jacket.\n\nSubtle uneven vibration from the unseen old Ursus passes through his shoulders, moustache, glasses and leather collar. He turns toward the other man off-camera with genuine alarm and disbelief, trying to understand why they are moving at all, and says in Polish: “Słuchaj, co ty robisz? Przecież mówiłeś, że się nie zmieści.” The delivery is urgent but grounded: a practical warning from a man who can already feel that the load is absurdly oversized. He does not yet know that the other man will answer in the following shot: “No, nie zmieściło się, ale jedziemy.” Do not make him sound confident, proud or pleased. No smile to camera and no theatrical punchline.\n\nPreserve the exact face, hairstyle, moustache, glasses, body proportions, navy shirt and black leather jacket visible in the Start Frame. Do not introduce the other man's raspberry-pink sweater or pear motif. Keep the background strongly defocused and reveal no tractor, trailer, cannon, cargo or other person. No camera pull-back, reframing, new objects, subtitles, on-screen text, morphing, facial distortion, exaggerated lip movement, added teeth or cut."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 3,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:epilog-07-nowy-poczatek"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/po-epilogu-01-zlomiarz-chwali-zenka/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/po-epilogu-01-zlomiarz-chwali-zenka/frame-start-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ]
+}

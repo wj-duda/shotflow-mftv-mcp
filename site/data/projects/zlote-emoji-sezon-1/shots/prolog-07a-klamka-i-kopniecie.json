@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-sezon-1/prolog-07a-klamka-i-kopniecie",
+  "id": "prolog-07a-klamka-i-kopniecie",
+  "title": "Prolog 07A - klamka i kopniecie",
+  "description": "Wnetrze tego samego ciemnego pokoju. Strzal z korytarza rozrywa klamke, po czym but Pipy wywaza drzwi do srodka; samej Pipy jeszcze nie widac.",
+  "project": {
+    "id": "zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "prolog-06-pokoj-cisza"
+    },
+    {
+      "type": "shot",
+      "id": "prolog-07-wtargniecie-pipy"
+    },
+    {
+      "type": "place",
+      "id": "iquitos-tani-pensjonat-belen"
+    }
+  ],
+  "prompts": {
+    "image": "Use case: photorealistic-natural. Asset type: cinematic 16:9 start frame for an image-to-video shot. Create the first frame immediately before an unseen attacker shoots the door lock, using a new cinematic angle inside the exact same cheap Belen hotel room. The shot prolog-06-pokoj-cisza is the primary continuity reference for room geometry, dark wooden door, dirty off-white wall, tiled floor, night exposure and color grade. The shot prolog-07-wtargniecie-pipy supports the exact door opening direction and warm corridor beyond it, but the output door remains CLOSED. The place iquitos-tani-pensjonat-belen supplies real cheap-room materials. Interior room lights are completely off. The closed door occupies the right two-thirds of frame; intact metal knob and lock are the sharp focal point. No person, hand, boot or gun is visible. Low medium-close insert from inside the room, camera at knee height, slight oblique angle. Preserve screen direction: corridor behind the door, which will later swing inward. Subtle cool night ambience from left and an extremely faint warm leak beneath the door. Hyperrealistic cinematic live action, natural worn wood, imperfect plaster and tile, restrained film grain. Avoid visible people, weapons, muzzle flash, damage, open door, extra doors, redesigned room, text, logo and watermark.",
+    "endFrameDescription": "",
+    "animation": "One continuous 3-second shot, no cuts. First, a gunshot from the unseen corridor blasts through the lock and handle with a brief flash, splinters and metal fragments flying inward. A short beat later, only Lady Pipa's heavy boot enters frame and kicks the damaged door violently open toward camera; her body and face remain completely unseen behind the wall and doorframe. The door continues swinging to motivate the next cut. Static camera, realistic recoil of the door, dust and secondary debris. Preserve exact room geometry and furniture. No visible shooter, no Van, no extra people, no morphing, no captions, logos or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:prolog-06-pokoj-cisza",
+        "shot:prolog-07-wtargniecie-pipy",
+        "place:iquitos-tani-pensjonat-belen"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-07a-klamka-i-kopniecie/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-07a-klamka-i-kopniecie/frame-start-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ]
+}

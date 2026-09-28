@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "prop:logo-aimftv-kolor",
+  "type": "props",
+  "id": "logo-aimftv-kolor",
+  "name": "Logo AI MFTV - kolor",
+  "description": "Canonical full-color AI MFTV logo. Cyan AI, yellow MF and hot-pink handwritten TV, all with heavy black outlines. Preserve exact lettering, proportions, colors and transparency/background treatment; do not redraw or restyle.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/logo-aimftv-kolor/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/logo-aimftv-kolor/image-001-thumb.webp",
+      "width": 1920,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-05T12:35:04.6421617+00:00"
+}

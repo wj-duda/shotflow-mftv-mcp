@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:cc-rolka/czeslaw-konajacy",
+  "id": "czeslaw-konajacy",
+  "title": "Człowiek umiera na katar",
+  "description": "Czesław leży w łóżku przekonany, że zwykłe przeziębienie jest śmiertelne.",
+  "project": {
+    "id": "cc-rolka",
+    "name": "CC-Rolka"
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "czeslaw"
+    }
+  ],
+  "prompts": {
+    "image": "Native vertical 9:16 late-1990s Polish television comedy. Exact Czeslaw lies propped high against floral pillows in a kitschy modest bedroom with pale floral wallpaper, lace-curtain window and warm bedside lamp. He wears striped button-up pajamas and black rectangular glasses. One real glass thermometer sits safely at one corner of his closed mouth. Patterned brown duvet rises toward camera; one crumpled tissue and burgundy hot-water bottle are visible. Camera near foot of bed, slightly low 40 mm lens. Exact photorealism, realistic pores and fabric, subtle 16 mm/S-VHS grain, cold window left and dirty warm lamp right. One person only, no text, no cigarette, no modern objects or AI artifacts.",
+    "endFrameDescription": "",
+    "animation": "2-second locked-off late-1990s TV shot. Czesław breathes heavily through his nose, blinks slowly and sinks one centimeter deeper into the pillow; the thermometer trembles slightly. Curtains move faintly. Keep his identity, glasses, pajamas, bed and room unchanged. No speech, cuts, new objects, morphing, text or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "character:czeslaw"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/czeslaw-konajacy/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/czeslaw-konajacy/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

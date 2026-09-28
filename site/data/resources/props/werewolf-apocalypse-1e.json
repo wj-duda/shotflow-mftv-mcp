@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "prop:werewolf-apocalypse-1e",
+  "type": "props",
+  "id": "werewolf-apocalypse-1e",
+  "name": "Werewolf: The Apocalypse — pierwsze wydanie (1992)",
+  "description": "Autentyczna okładka papierowego podręcznika RPG, pierwsze wydanie angielskie White Wolf, 1992, WW3000. Ciemna brązowo-czerwona faktura, zielony tytuł i ślady pazurów. Biały margines to tło zdjęcia sklepowego, nie część okładki. Rekwizyt do Halloween Konkurs: Marcel trzyma jeden zamknięty podręcznik w JEDNEJ ręce, przednią okładką do kamery, druga ręka wolna. Zachować oryginalną grafikę, kolory, liternictwo i proporcje okładki; bez lustrzanego odbicia, wymyślonych napisów i zastępowania późniejszym wydaniem. Pełnowymiarowy miękko oprawiony podręcznik, nie kieszonkowa książka. Referencja przedstawia przednią okładkę; tył i grzbiet nie są udokumentowane. Źródło: sources/provenance.json.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/werewolf-apocalypse-1e/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/werewolf-apocalypse-1e/image-001-thumb.webp",
+      "width": 500,
+      "height": 500,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-20T15:23:30.788624+00:00"
+}

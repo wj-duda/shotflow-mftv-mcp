@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:halloween-konkurs/hw-08b-zombie-na-wprost",
+  "id": "hw-08b-zombie-na-wprost",
+  "title": "08b - Zombie na wprost",
+  "description": "Ciasny kontrplan wchodzącej hordy tuż przed pierwszą serią Zosi. Twarz i barki zombie w szarej kurtce dominują; po bokach granatowa bluza i fragmenty reszty hordy. Drzwi już wyłamane, brak szyby między kamerą i twarzami. Luka V1 273–285, 13 klatek przy 24 fps; bez przesuwania muzyki.",
+  "project": {
+    "id": "halloween-konkurs",
+    "name": "Halloween Konkurs"
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "horda-zombie-halloween"
+    },
+    {
+      "type": "shot",
+      "id": "hw-06-wtargniecie"
+    }
+  ],
+  "prompts": {
+    "image": "Single vertical9:16 photoreal cinematic action CLOSE-UP, matching Halloween Polish living room sequence. IMAGE1 is canonical zombie identity reference, NOT a collage layout: main character is man TOP LEFT with short tousled brown hair, narrow weathered face, light stubble, grey zip jacket and charcoal tee; woman TOP SECOND navy hoodie ponytail is closest companion. IMAGE2 defines exact current room, warm amber interior against cool dusk garden, positions, shattered terrace door with RIGHT sash ripped from upper track leaning inward against RIGHT jamb. Shot takes place AFTER entry through broken door, BEFORE anyone shot. Camera INSIDE living room chest height, close frontal countershot looking back toward terrace. Main grey-jacket zombie has advanced inside and is lunging toward camera, his recognizable FACE fills central upper half, shoulders fill width, mouth half open snarling, eyes aimed just off camera toward Zosia; forward neck and diagonal shoulder convey real momentum, head sharp, slight motion blur on lower sleeve. Crop at mid chest; NO huge foreground hands. Navy hoodie woman's recognizable face partly visible behind his SCREEN LEFT shoulder, further behind screen right one partial rust-jacket or red-plaid companion face; remaining horde occluded naturally, never duplicate. At far RIGHT background retain narrow sliver of dislodged broken door and cool garden to anchor geography. There is NO glass or reflection between main face and camera, he has crossed threshold, no intact barrier reappearing. Tight layered faces, shallow depth of field but lead face identity precise. Natural grimy skin, no wounds or blood; not yet hit, no impact dust, no fallen bodies. Photographic practical horror makeup, believable anatomy, cinematic grain, no blue studio backdrop, no lineup, no panels, text or watermark.",
+    "endFrameDescription": "",
+    "animation": "0.0–0.5s: the grey-jacket zombie is already taking one quick step toward the lens, bringing his face and shoulders closer. The navy-clad woman behind his screen-left shoulder follows immediately; all other visible standing zombies keep pressing forward with independent head and shoulder movement. 0.5–3.0s: the same group continues advancing without reversing or stopping to pose. Camera: short backward handheld tracking, retaining the lead face in focus. Secondary: hair and jacket edges lag behind the step. @Image1 identifies the existing zombies only. Preserve faces and clothing; the broken entrance remains open. Nobody is hit yet. No frozen background figures, merged faces, new bodies, restored glass, slow motion or cut."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "character:horda-zombie-halloween",
+        "shot:hw-06-wtargniecie"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-08b-zombie-na-wprost/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-08b-zombie-na-wprost/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-9/maja-widzi-statuetke",
+  "id": "maja-widzi-statuetke",
+  "title": "Maja widzi statuetkę",
+  "description": "Trzysekundowy most przestrzenny między reakcją Mai a zbliżeniem Halinki. Maia staje w progu sali, nadal lekko odsuwa jedną muszlę słuchawek i widzi Halinkę wyciągającą w jej stronę Złote Emoji; ustanowiona oś spojrzeń przygotowuje bezpośrednie cięcie do słów «proszę przyjąć».",
+  "project": {
+    "id": "zlote-emoji-9",
+    "name": "Złote Emoji #9"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "maja-ogar"
+    },
+    {
+      "type": "character",
+      "id": "halinka"
+    },
+    {
+      "type": "place",
+      "id": "komisja-zlote-emoji-tygodnia"
+    }
+  ],
+  "prompts": {
+    "image": "Use the maja-ogar Start Frame as the exact mandatory continuity, facial identity, hair, headphones, white shirt, pose and warm reaction reference for Maia; use both Halinka character images for her exact identity and wardrobe; use the komisja-zlote-emoji-tygodnia place image for the exact hall and Golden Emoji trophy. Create a cinematic photorealistic 16:9 over-the-shoulder medium-wide shot from just behind Maia as she steps from the dim backstage doorway into the warm community-centre hall. Maia remains in the foreground in three-quarter profile, one black headphone earcup still slightly lifted by one natural hand. Across the hall, Halinka warmly faces Maia and holds the exact spherical golden smiling-face trophy forward with both hands, preparing to present it. Make their eyeline and physical geography instantly clear. Exactly two people. Preserve identities, wardrobe, correct anatomy, natural hands, trophy proportions, stage, chairs and warm practical lighting. Settled confetti only. No Czesław, audience, duplicates, extra limbs, second trophy, DJ console in the hall, flying confetti, dancing, dialogue mouth shapes, direct-to-camera gaze, captions or watermark.",
+    "endFrameDescription": "",
+    "animation": "Single continuous three-second spatial bridge with a locked camera and an extremely subtle slow push-in. Maia stands in the doorway foreground, keeps her gaze on Halinka, gently lowers the lifted headphone earcup toward her ear and takes one small natural half-step into the hall. Halinka remains across the room, gives a restrained warm smile and extends the Golden Emoji trophy only a few centimetres farther toward Maia, ending ready for the next close-up; the handoff is not completed in this shot. Use only natural breathing, one blink each and minimal secondary motion in Maia’s bob and Halinka’s cardigan. Preserve the exact eyeline, identities, faces, ages, hair, headphones, white shirt, burgundy cardigan, black outfits, anatomy, trophy, hall, stage, chairs, doorway, lighting, signage and settled confetti for the entire shot. Exactly two people. No Czesław, audience, new person, duplicate body part, malformed hands, second trophy, dialogue, lip-sync, dancing, flying confetti, strobe, camera shake, zoom jump, cut, morphing, text change or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:maja-ogar",
+        "character:halinka",
+        "place:komisja-zlote-emoji-tygodnia"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-9/shots/maja-widzi-statuetke/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-9/shots/maja-widzi-statuetke/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-sezon-1/po-napisach-mistrz-konca-znajduje-k20",
+  "id": "po-napisach-mistrz-konca-znajduje-k20",
+  "title": "Po Napisach Mistrz Konca Znajduje K20",
+  "description": "zapowiedź Nemezisa bez objaśniania sezonu 2.",
+  "project": {
+    "id": "zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1"
+  },
+  "references": [
+    {
+      "type": "prop",
+      "id": "artefakt-k20"
+    },
+    {
+      "type": "character",
+      "id": "mistrz-konca"
+    },
+    {
+      "type": "place",
+      "id": "dom-kultury-ruina-po-belicosie"
+    }
+  ],
+  "prompts": {
+    "image": "Photorealistic live-action 16:9 locked low night post-credits shot among the exact dark Dom Kultury rubble after everyone leaves. The tiny inert canonical 3 cm K20 lies half-buried near center. One battered dark work glove and dark green overshirt sleeve belonging to exact younger Mistrz Konca reaches from upper-right, fingers still several centimeters away. His tall stocky body is only a looming soft edge silhouette; a narrow fragment of jaw and watchful hazel eye may be caught in shadow. His clothing is ordinary practical RPG-player fieldwear, explicitly not Chaos cosplay; a folded scrap of plain dark fabric lies nearby with no symbol. Moon-blue light and faint natural green reflection from the die. No transformation, pulse, smile, villain pose, robes, helmet, extra hand, duplicate die, other person, text, UI, captions or watermark.",
+    "endFrameDescription": "",
+    "animation": "One continuous 5-second static shot. The battered glove lifts\nthe K20 from the dust. The die gives one faint green pulse; at the edge of frame\nhis shadow no longer follows the hand correctly. Cut to black before revealing\nhis face or full transformation."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "prop:artefakt-k20",
+        "character:mistrz-konca",
+        "place:dom-kultury-ruina-po-belicosie"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/po-napisach-mistrz-konca-znajduje-k20/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/po-napisach-mistrz-konca-znajduje-k20/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

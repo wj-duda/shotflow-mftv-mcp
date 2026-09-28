@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-sezon-1/final-02c-filip-napiecie",
+  "id": "final-02c-filip-napiecie",
+  "title": "Final 02C — napięcie Filipa",
+  "description": "Krótki ciasny portret Filipa. Najbardziej młodzieńcza i ludzka reakcja na rozpoznanie floty: strach, przyspieszony oddech i spojrzenie ku zniszczonemu sufitowi, po czym powrót wzroku do grupy. Naturalna skóra i twarz, bez lalkowatości.",
+  "project": {
+    "id": "zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1"
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "filip-koza"
+    },
+    {
+      "type": "shot",
+      "id": "final-02-dariusz-rozpoznaje-flote"
+    },
+    {
+      "type": "place",
+      "id": "klub-fantastyki-zniszczony"
+    }
+  ],
+  "prompts": {
+    "image": "Photorealistic live-action 16:9 tight 85 mm close-up of Filip during the same planning-table moment as final-02. Preserve his exact long narrow youthful face, hazel eyes, messy dark wavy hair, prominent ears, natural olive skin, very slim build, black hoodie and faded fantasy T-shirt. Preserve the exact destroyed Klub Fantastyki, warm practical lighting and storm-blue window light. Frame upper chest to just above his hair. Filip is the youngest and most visibly frightened: breath held, lips slightly parted, eyes lifted toward the damaged ceiling and threat outside, poised to look back toward the group. Fear is restrained and human, not horror acting. Only Filip is in focus; the club and group remain soft background continuity. No doll skin, rubber face, smile, screaming, tears, magic, K20, new person, text, UI, captions, watermark or malformed anatomy.",
+    "endFrameDescription": "",
+    "animation": "One continuous 3-second locked close-up, with the decisive beat completed inside the first 0.75 seconds because only the first second is used on the timeline. 0.00-0.30 s: Filip holds a frightened upward glance, lips parted by a shallow breath. 0.30-0.70 s: his gaze returns toward the group below eye line; fear remains but he regains enough control to listen. 0.70-3.00 s: hold with minimal breathing and one natural blink. Preserve exact identity, natural skin, hair, hoodie, shirt, lighting and club background. No dialogue, broad head turn, smile, scream, camera movement, cut, morphing, new person, text or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "character:filip-koza",
+        "shot:final-02-dariusz-rozpoznaje-flote",
+        "place:klub-fantastyki-zniszczony"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-02c-filip-napiecie/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-02c-filip-napiecie/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

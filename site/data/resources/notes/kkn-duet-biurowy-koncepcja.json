@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "note:kkn-duet-biurowy-koncepcja",
+  "type": "notes",
+  "id": "kkn-duet-biurowy-koncepcja",
+  "name": "KKN — dwie urzędniczki, propozycja stroju",
+  "description": "Propozycja rozwoju kostiumów: przewodnicząca i inspektorka. Twarze z istniejących Characters. Lenonki, fiolet i czerń zostają. Przewodnicząca: bardzo długi płaszcz, wysoki golf, cienki łańcuszek do okularów, płaska teczka. Inspektorka: krótka pudełkowa kurtka, szerokie spodnie nad kostkę, fioletowe skarpety, ciężkie loafersy, ołówek za uchem i teczka harmonijkowa. Obie mają mały fioletowy identyfikator KKN na metalowym klipsie. Groteska wynika z proporcji i urzędowej powagi. Obraz jest propozycją kostiumu do dalszej rozmowy, nie nową sceną w ZE12.\n\nAktualizacja kanonu identyfikatorów: używać prop:kkn-sygnet. Biały geometryczny symbol trzech filarów pod łukiem na fioletowej plakietce, bez liter KKN. Plakietka na klipsie zawsze na anatomicznie lewej piersi. Obraz tej noty dokumentuje wcześniejszą propozycję stroju; jego napisy i położenie plakietek nie są wzorcem nowych identyfikatorów. Aktualne zastosowanie pokazują ZE12-05 i ZE12-07.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/kkn-duet-biurowy-koncepcja/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/kkn-duet-biurowy-koncepcja/image-001-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-12T01:22:34.098466+00:00"
+}

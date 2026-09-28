@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:halloween-konkurs/hw-08-zosia-wejscie",
+  "id": "hw-08-zosia-wejscie",
+  "title": "08 — Wejście Zosi z korytarza",
+  "description": "Gotowy Start Frame 1080×1920. Bez take’a. Planowany montaż: 8–10 s; 48 klatek / 24 fps. Planowany take: 3 s, wykorzystanie od początku. Niski półpełny plan od strony salonu na drzwi korytarza. Zosia już pojawia się w progu z jednym karabinem typu M16; jeden krok do prawego przejścia. Jej zwyczajny metalowy strój, chłodna twarz i brak zaskoczenia. Bez kwestii. Pochodzenie broni pozostaje świadomie otwartym elementem koncepcji. Kamera: Niski krótki najazd; na końcu rozpoznawalna twarz i broń w jednym pionowym kadrze. Dialog do osobnego nagrania: brak. Start Frame wygenerowany wbudowanym generatorem i zweryfikowany. Animacja bez natywnego audio; wypowiedzi, lipsync i SFX opracować osobno. Wstawiono na V1 timeline: sekwencja 25 sekund, 24 fps. Ustalona referencja M16 Zosi; wejście przez drzwi korytarza na przeciwnym końcu prawego przejścia niż taras.",
+  "project": {
+    "id": "halloween-konkurs",
+    "name": "Halloween Konkurs"
+  },
+  "references": [
+    {
+      "type": "place",
+      "id": "pokoj-manki-i-marcela"
+    },
+    {
+      "type": "character",
+      "id": "zosia"
+    },
+    {
+      "type": "prop",
+      "id": "m16-zosi"
+    },
+    {
+      "type": "shot",
+      "id": "hw-04-wampiry-mocniej"
+    }
+  ],
+  "prompts": {
+    "image": "Single photorealistic vertical 9:16 film frame. Image 1 exact Zosia adult woman facial identity, image 2 same short slim 161cm woman full everyday metal outfit and proportions (ignore chart/text), image 3 ONE exact black M16 film prop rifle (fixed stock, carry handle, straight short magazine, no optics), image 4 overhead floorplan for room spatial layout ONLY, image 5 exact living room photographic materials/lighting. New low-angle full-body shot from sofa side looking toward OPEN ordinary wooden hallway door at opposite end from terrace. Zosia stands at threshold already starting one step into living room, facing three-quarter screen RIGHT toward offscreen terrace. Her exact black-and-blue long hair, dark makeup, oversized faded black metal graphic tee, black jeans, worn lace-up black boots, necklaces and wristbands. Holds the single rifle in two hands at low-ready across torso, muzzle diagonally toward screen RIGHT and slightly down, away from camera, no firing. Face calm matter-of-fact, no smile or superhero stance. Behind her modest Polish hallway with coat hooks, shoes on shelf, pale walls; warm hall lamp, parquet living room floor, cool edge light from terrace offscreen right. Include full boots and floor for step. No zombies or twins in crop, no tactical vest, no American decor, no text labels/captions/watermark. Translate plan into realistic human-height view, not dollhouse.",
+    "endFrameDescription": "",
+    "animation": "0.0–1.4s: Zosia takes one brisk step from the visible hallway threshold into the right-hand living-room aisle and plants her feet. 1.4–2.0s: she settles facing the off-screen terrace threat. Camera: one short low push-in. Secondary motion: her hair and loose shirt follow the step and settle. 2.0–3.0s: hold her planted position. The existing rifle stays in both hands with fixed geometry; no firing in this shot. Continuity: preserve the supplied Start Frame identities, anatomy, clothing, prop geometry, furniture, lighting and existing lettering. No new people, duplicate bodies or props, extra limbs, morphing, cut, fade, captions or watermark. One continuous shot at normal speed."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "place:pokoj-manki-i-marcela",
+        "character:zosia",
+        "prop:m16-zosi",
+        "shot:hw-04-wampiry-mocniej"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-08-zosia-wejscie/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-08-zosia-wejscie/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

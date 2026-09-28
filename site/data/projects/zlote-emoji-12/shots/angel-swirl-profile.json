@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-12/angel-swirl-profile",
+  "id": "angel-swirl-profile",
+  "title": "angel-swirl-profile",
+  "description": "Gwałtowne pikowanie głową w dół przez nieruchomy kadr, zakończone wyjściem anioła dolną krawędzią. Obrót całego ciała to ruch wtórny podczas spadku. Mocno płonące skrzydła zostawiają smugę ognia i żaru skierowaną ku górze. Kamera nie śledzi postaci. Daleki profil; najpierw przechylenie głową w dół z pozycji startowej.",
+  "project": {
+    "id": "zlote-emoji-12",
+    "name": "Złote Emoji #12"
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "aniol-wygnany"
+    },
+    {
+      "type": "shot",
+      "id": "angel-swirl-profile"
+    }
+  ],
+  "prompts": {
+    "image": "Edit only the supernatural orange FLAME EFFECTS on this winged character: strong visible orange tongues of magical fire now cover the surfaces of BOTH BLACK FEATHERED WINGS from shoulder roots to outer tips, not just glowing edges. Keep black feather shapes readable between flame tongues. Add a small distinct orange flame effect among his black hair tips, with face unaltered. Preserve everything else EXACTLY: tiny character scale at center, sideways horizontal awkward pose, ordinary ivory suit, hands, face, vast dark blue cloud composition, 16:9 camera. Light from fire softly illuminates nearby sleeves. No fire elsewhere, no injury, no new people, no zoom, no text or watermark.",
+    "endFrameDescription": "",
+    "animation": "0–0.7s: Already dropping toward SCREEN BOTTOM, the small angel pitches headfirst: head on screen right swings downward while feet on screen left rise. His torso and pelvis turn together. 0.7–2.8s: He accelerates vertically downward, head leading, rolls half a turn around his head-to-feet axis and disappears completely below the bottom edge by 2.8s. 2.8–4s: lingering embers fade above his exit. Camera: locked distant side view; clouds remain fixed, no following, recentering or zoom. Secondary motion: turbulent flames stream upward from both burning wings; glowing feather fragments detach and trail behind. Preserve small figure scale, identity, ivory suit, two attached wings and natural joints. No hovering, slow drift, controlled flight, wingbeats, twisted torso, extra limbs, morphing, cuts, new people, text or watermarks."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 3,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:angel-swirl-profile"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/angel-swirl-profile/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/angel-swirl-profile/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

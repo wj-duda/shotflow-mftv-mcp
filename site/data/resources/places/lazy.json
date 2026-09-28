@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "place:lazy",
+  "type": "places",
+  "id": "lazy",
+  "name": "Łazy",
+  "description": "To są realne Łazy w województwie śląskim — małe miasto o spokojnym, lekko melancholijnym klimacie, wyrastające wokół swojej kolejowej tożsamości. W panoramie najmocniej wybijają się tory i infrastruktura stacyjna, które nadają temu miejscu rytm i charakter, a także kościół dominujący nad zabudową niczym naturalny punkt orientacyjny. Między blokami, domami jednorodzinnymi i pasami zieleni czuć zwykłe, codzienne życie, a całość otacza łagodny, zielony krajobraz, który daje temu miastu cichy, bardzo polski i filmowy wymiar. Czas jakby się trochę zatrzymał w latach 70 ale tez jest zmikoswany z obecnymi Łazami.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/lazy/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/lazy/image-001-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-08-03T12:01:18.061391+00:00"
+}

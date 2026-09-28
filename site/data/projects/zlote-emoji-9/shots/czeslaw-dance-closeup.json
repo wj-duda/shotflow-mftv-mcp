@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-9/czeslaw-dance-closeup",
+  "id": "czeslaw-dance-closeup",
+  "title": "czeslaw-dance-closeup",
+  "description": "Dynamiczne półzbliżenie Czesława podczas jego sztywnego urzędniczego tańca techno. Ten sam moment, strój, sala, niebiesko-różowe światło i mgła co w czeslaw-halinka-dance. Czesław wypełnia kadr od pasa w górę, układa przedramiona pod kątem prostym i zachowuje śmiertelnie poważną twarz.",
+  "project": {
+    "id": "zlote-emoji-9",
+    "name": "Złote Emoji #9"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "czeslaw-halinka-dance"
+    },
+    {
+      "type": "character",
+      "id": "czeslaw"
+    }
+  ],
+  "prompts": {
+    "image": "Continue directly from czeslaw-halinka-dance with exact visual continuity. Create a cinematic 16:9 medium close-up of Czesław alone, framed from approximately the waist or lower chest upward with both hands visible. He performs the same stiff bureaucratic techno dance, holding one forearm vertically beside his head and the other horizontally across his chest at a precise right angle. Preserve his exact identity, curly dark hair, heavy eyebrows, stubble, rectangular glasses, wrinkled beige shirt, dark speckled jacket and loose tie. Preserve the same community-centre hall, AIMFTV plaque, blue-magenta strobe light and thin haze in the softly focused background. His expression remains completely stern and concentrated. Exactly one person; no Halinka, audience, Maia, DJ, captions or watermark.",
+    "endFrameDescription": "",
+    "animation": "Close cinematic camera with a subtle controlled handheld energy, never losing Czesław's face or hands. Czesław performs an intensely serious, stiff mechanical techno dance in place: his vertical palm and horizontal forearm switch positions in two slow precise right-angle movements, his shoulders make small rigid pulses, and his upper body leans a few centimetres side to side. His loose tie swings naturally from the movement. He maintains the same deadpan bureaucratic expression throughout, never smiles, speaks or lip-syncs, and looks slightly past the camera rather than into it. Blue and magenta strobe light alternates across his face and jacket while thin stage haze drifts behind him. Preserve his exact facial identity, glasses, hair, stubble, age, anatomy, wardrobe and the established hall for the entire shot. Exactly one person. No Halinka, no new people, no duplicated hands, no extra limbs, no face morphing, no camera orbit, no rapid zoom, no cuts, no confetti and no text changes."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:czeslaw-halinka-dance",
+        "character:czeslaw"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-9/shots/czeslaw-dance-closeup/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-9/shots/czeslaw-dance-closeup/frame-start-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ]
+}

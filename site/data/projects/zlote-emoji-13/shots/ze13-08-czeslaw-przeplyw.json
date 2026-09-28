@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-13/ze13-08-czeslaw-przeplyw",
+  "id": "ze13-08-czeslaw-przeplyw",
+  "title": "ZE13 07 — przepływ jednostronny",
+  "description": "Powrót na Czesława. Krótko patrzy w kierunku telefonu, potem na Halinkę. Sucha uwaga, bez triumfalnego uśmiechu. Dialog: Czesław: „W jedną stronę płynie bardzo sprawnie.” Klatki generowane bezpośrednio przez agenta; take nie został uruchomiony. Wariant ZE13: biały lekko zakurzony kask budowlany, dotychczasowy garnitur i okulary. Nowa wersja obrazu: dym niesiony lekko w lewo, pył w świetle, przygaszone tło i filmowa głębia. Dym to wyłącznie resztka szałwii Halinki spoza kadru: obecne smugi rozwiewają się w lewo i stopniowo zanikają w ciągu 4 s. Żaden przedmiot ani Czesław nie dymi i nie zaczyna się palić; bez nowego dymu, płomieni, iskier lub żaru.",
+  "project": {
+    "id": "zlote-emoji-13",
+    "name": "Złote Emoji #13"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "ze13-02-halinka-w-smudze-swiatla"
+    },
+    {
+      "type": "character",
+      "id": "czeslaw"
+    },
+    {
+      "type": "prop",
+      "id": "kask-budowlany-czeslawa"
+    }
+  ],
+  "prompts": {
+    "image": "Use case: identity-preserve. Edit image1 into a more atmospheric cinematic 1920x1080 16:9 film still. Keep Czeslaw SAME rumpled dark suit, beige wrinkled shirt, loosened brown tie, glasses, face, seated posture and both hands on cost estimate/grey folder. ADD the exact WHITE CONSTRUCTION HARD HAT from image2, properly fitted, short brim forward above eyebrows, natural adult scale, curls visible at sides, no chinstrap. Image3 locks face, image4 clothes only ignore sheet annotations. Image5 supplies new scene light/color/dust ONLY, do not add Halinka. Visual language: atmospheric 35mm cinema still, gentle diffusion and halation ONLY on highlights, natural grain, muted colors, deep cool grey-teal shadows and selective warm amber backlight from upper-right rear through missing roof. Expose for light so background falls 1.5 stops darker, NOT evenly lit HDR or orange glossy commercial. Layers of translucent sage smoke drift in delicate serpentine filaments across foreground, tiny airborne plaster dust sparkles ONLY inside sun shaft, no glitter or magical particles. Slightly unreal suspended-time mood produced by optics, smoke and dust, but physically real ruin. Background soft and partially obscured, strong depth, off-center human composition, natural skin. Czeslaw sits LEFT of frame and looks offscreen RIGHT, deadpan solemn bureaucratic expression. Frame includes entire helmet and hands. Restrained dark cinematic medium closeup, thinner dust in backlight, no dense smoke beside his face. Single burgundy wallet may remain far right table edge as source. No extra person, costume replacement, uniform, new writing, giant helmet, head deformation, added limbs or repaired building.",
+    "endFrameDescription": "",
+    "animation": "0–0.5s: Czeslaw shifts his eyes from lower screen right to Halinka off-screen right. 0.5–2.4s: hold a dry neutral expression, lips relaxed for later synchronization. 2.4–2.8s: one blink. 2.8–3s: hold; first 2.917s visible. Camera locked. Secondary motion: gentle breathing; the residual sage smoke ALREADY present drifts screen LEFT in a light draft, spreads and steadily thins, nearly clearing by 2.8s. It previously drifted from Halinka’s off-screen sage; no fresh smoke enters or forms. Hands, paper, folder and wallet stay still. @Element1 preserves existing Czeslaw’s identity; @Image1 preserves his fitted white helmet. Preserve suit, glasses, anatomy, ruined set, steady sunlight and lettering. Nothing in frame emits smoke or burns: no flames, embers, sparks, glowing surfaces or firelight. No new people, extra limbs, morphing, cuts, captions or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze13-08-czeslaw-przeplyw",
+        "shot:ze13-02-halinka-w-smudze-swiatla",
+        "character:czeslaw",
+        "prop:kask-budowlany-czeslawa"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-13/shots/ze13-08-czeslaw-przeplyw/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-13/shots/ze13-08-czeslaw-przeplyw/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

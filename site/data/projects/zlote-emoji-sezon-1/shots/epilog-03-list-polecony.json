@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-sezon-1/epilog-03-list-polecony",
+  "id": "epilog-03-list-polecony",
+  "title": "Epilog 03 List Polecony",
+  "description": "absurd codzienności wraca do zrujnowanego świata i uruchamia ostatni zwrot.",
+  "project": {
+    "id": "zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "epilog-02-wszyscy-przed-ruina"
+    },
+    {
+      "type": "character",
+      "id": "czeslaw"
+    },
+    {
+      "type": "character",
+      "id": "halinka"
+    },
+    {
+      "type": "place",
+      "id": "dom-kultury-ruina-po-belicosie"
+    }
+  ],
+  "prompts": {
+    "image": "Edit the supplied frame using only the frame itself and Pani Halinka's canonical portrait and silhouette references. Correct only the woman at far right beside Czeslaw, replacing her incorrect identity with Halinka's exact middle-aged face, warm brown eyes, copper-red curls, short pear-shaped proportions, red textured cardigan, black top and gold jewelry. Preserve her concerned gaze toward the envelope and preserve the postal worker, Czeslaw, envelope, background, rain, framing and light exactly.",
+    "endFrameDescription": "",
+    "animation": "One continuous 3-second static shot. The postal worker holds\nout the envelope; Czeslaw stares once at the ruin, signs mechanically and takes\nthe letter. No dialogue needed."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "character:halinka"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/epilog-03-list-polecony/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/epilog-03-list-polecony/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

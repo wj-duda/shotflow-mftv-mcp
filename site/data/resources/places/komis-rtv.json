@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "place:komis-rtv",
+  "type": "places",
+  "id": "komis-rtv",
+  "name": "KOMIS RTV",
+  "description": "Małomiasteczkowy polski komis używanej elektroniki i osobliwości, prowadzony przez character:komisant. Ciasny lokal w zaadaptowanym parterze: nikotynowokremowe i sprane zielone ściany, jarzeniówki, kraty w bocznym oknie, tanie regały, plątanina przedłużaczy i niska porysowana szklana lada. Na półkach stoją kineskopy, magnetowidy, kaseciaki, radia samochodowe, niedobrane kolumny, aparaty, wiertarki, lampy, zegary, porcelanowe figurki, przewody i piloty. Wśród zwykłych fantów komis przechowuje materialne łupy powstające z reakcji widzów: czaszkę, ucho, serce, gem i runę. List do redakcji leży w przezroczystej koszulce pod ladą. Miejsce jest podejrzane i absurdalne, lecz nie przestępcze ani groźne. Skrót RTV można w świecie odczytywać jako „Reakcje, Towary, Wymiana”.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/komis-rtv/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/komis-rtv/image-001-thumb.webp",
+      "width": 1920,
+      "height": 640,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-27T13:13:52+02:00"
+}

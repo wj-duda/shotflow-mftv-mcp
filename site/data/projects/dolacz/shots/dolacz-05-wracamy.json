@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:dolacz/dolacz-05-wracamy",
+  "id": "dolacz-05-wracamy",
+  "title": "05 — Wracamy do papierów",
+  "description": "19-sekundowa pętla Dołącz: widz zagląda do świata AI MFTV. Czesław po lewej, Halinka po prawej, przy biurku pełnym papierów w lokalu zastępczym. W tle realna elewacja KTS w Łazach przy Spółdzielczej 2. Bez mówienia i świadomego kontaktu z kamerą. Ruch uspokojony, zoom pozostawiony playerowi.\n\nCzesław spokojnie przesuwa lewą dłoń na stronę otwartego segregatora. Halinka go obserwuje. Szklanki nieruchome.\n\nStart: dokładna kopia ostatniej widocznej klatki wybranego take’a poprzedniego shota. Aktualna reżyseria i czas mikrogestów: prompts.animation; rzeczywisty wynik: take-1.",
+  "project": {
+    "id": "dolacz",
+    "name": "Dołącz"
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "halinka"
+    },
+    {
+      "type": "character",
+      "id": "czeslaw"
+    },
+    {
+      "type": "place",
+      "id": "lokal-zastepczy-domu-kultury"
+    },
+    {
+      "type": "prop",
+      "id": "szklanka-czeslawa"
+    },
+    {
+      "type": "note",
+      "id": "movie-shot"
+    },
+    {
+      "type": "note",
+      "id": "plan-lokalu-zastepczego"
+    },
+    {
+      "type": "take",
+      "id": "dolacz-04-lyk/take-1"
+    }
+  ],
+  "prompts": {
+    "image": "Dokładna kopia ostatniej widocznej klatki 71 z take:dolacz-04-lyk/take-1, bez generacji.",
+    "endFrameDescription": "Bez zadanego End Frame. Ostatnia widoczna klatka gotowego take’a przekazana do Start następnego shota.",
+    "animation": "0–2.5s: @Element1, Czeslaw seated left, slowly slides his left hand a few centimetres toward screen right, from beside his saucer to the near left page of the open binder. His fingers relax onto the page without moving it; his eyes remain on the paperwork. 2.5–3s: he rests quietly. @Element2, Halinka seated right, keeps watching him, holding her glass motionless on its saucer. Camera rigidly locked. Only subtle breathing and sleeve settling. Preserve both identities, clothing and room geometry. @Image1 preserves Czeslaw's stationary glass, holder and saucer. Keep his right hand, both glasses, papers, window and lighting unchanged. No camera gaze, speech, nodding, page turn, cup lifting, extra people or limbs, morphing, cuts, captions or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "reference",
+      "referenceKeys": [
+        "take:dolacz-04-lyk/take-1"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dolacz/shots/dolacz-05-wracamy/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dolacz/shots/dolacz-05-wracamy/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

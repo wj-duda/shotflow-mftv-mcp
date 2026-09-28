@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-14/seed",
+  "id": "seed",
+  "title": "01 — Pusty Dom Kultury",
+  "description": "Pochmurny dzień, podwyższony plan Domu Kultury we wczesnej odbudowie według dwóch nowych rzutów użytkownika. Szeroka centralna sala, wąskie boczne skrzydła, przedni hol i wysunięty środkowy przedsionek ze schodami. Stare fragmenty elewacji połączone z nowym murem, uprzątnięta posadzka, materiały, brak dachu i pracowników. Biały paczkomat wolnostojący przed lewą częścią elewacji, oddzielony od ściany przejściem. Nowa geometria zastępuje wcześniejszą błędną bryłę ruin; wymiary przybliżone z dostarczonych widoków, nie pomiar budowlany. Aktualizacja: intensywna ulewa, mokre powierzchnie i kałuże; bryła i wolnostojący paczkomat bez zmian.",
+  "project": {
+    "id": "zlote-emoji-14",
+    "name": "Złote Emoji #14"
+  },
+  "references": [
+    {
+      "type": "note",
+      "id": "ciaglosc-remont-ze11"
+    },
+    {
+      "type": "note",
+      "id": "dom-kultury-po-upadku-ze12"
+    },
+    {
+      "type": "note",
+      "id": "movie-shot"
+    },
+    {
+      "type": "note",
+      "id": "ze14-kanon-domu-kultury"
+    },
+    {
+      "type": "shot",
+      "id": "seed"
+    },
+    {
+      "type": "note",
+      "id": "ze13-ruina-po-ze12"
+    }
+  ],
+  "prompts": {
+    "image": "Precise weather/wetness edit of EXACT reference1 movie frame. Preserve composition, lens, all identity/face/body anatomy, poses, hands, gaze direction, furniture, architecture proportions, signs/text, door opening/hinge direction, trophy design/rotation and all props. No redesign or mirror. 16:9 photoreal cinematic, grey overcast daytime with readable faces. Add a real HEAVY steady autumn DOWNPOUR visible as rain streaks across depth, puddle rings/splashes and running water on paving and steps, soaked construction materials, darkened brick/plaster. EXACT new building footprint and renovation state preserved; freestanding parcel locker LEFT of entrance remains separate from wall, no moved walls or fencing. No people, fog, lightning, flooding, roof rebuilding or giant ruins.",
+    "endFrameDescription": "",
+    "animation": "0.0–3.0s: Heavy rain continues over the empty construction site; droplets strike the paving and expand into small overlapping puddle rings. 3.0–4.0s: Maintain the same activity without introducing an event. Camera: locked elevated establishing view. Secondary motion: slight movement of the existing autumn leaves. Continuity: preserve the roofless building footprint, central entrance, stairs, fencing, material stacks and freestanding white parcel locker with its gap from the wall. The existing sign remains unchanged and readable. Avoid workers, vehicles, rebuilding walls, moving pallets, lightning, camera orbit, cuts or new text."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 6,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:seed"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/seed/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/seed/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

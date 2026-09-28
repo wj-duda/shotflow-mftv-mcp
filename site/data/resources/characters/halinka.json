@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "character:halinka",
+  "type": "characters",
+  "id": "halinka",
+  "name": "Halinka",
+  "description": "CHARACTER [age=45-59; presentation=feminine; height=short; build=average; body=pear; chest=medium; skin=light; face=round; eyes=brown; hair-color=red; hair-length=medium; hair-texture=curly]\r\n\r\nHalinka jest ciepłą, swojską i życzliwą pracownicą prowincjonalnego Domu Kultury. Działa intuicyjnie i emocjonalnie, bywa roztargniona oraz lekko chaotyczna, ale dobrze wyczuwa ludzi i atmosferę. Lubi ceremoniał, symboliczne gesty i organizacyjne rytuały. Wobec dziwnych i absurdalnych zdarzeń zachowuje zaskakujący spokój. Dyskretnie interesuje się ezoteryką, znakami i niewytłumaczalnymi zjawiskami, lecz ujawnia to jedynie w drobnych komentarzach i reakcjach. Pod spokojną codziennością skrywa barwną, artystyczną i bardziej przygodową przeszłość.",
+  "images": [
+    {
+      "id": "image-003",
+      "role": "portrait",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/halinka/image-003.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/halinka/image-003-thumb.webp",
+      "width": 1254,
+      "height": 1254,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-004",
+      "role": "silhouette",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/halinka/image-004.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/halinka/image-004-thumb.webp",
+      "width": 1254,
+      "height": 1254,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-08-01T16:50:34.2070029+00:00"
+}

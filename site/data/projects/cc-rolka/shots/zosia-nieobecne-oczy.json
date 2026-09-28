@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:cc-rolka/zosia-nieobecne-oczy",
+  "id": "zosia-nieobecne-oczy",
+  "title": "Zosia - nieobecne oczy",
+  "description": "Sekwencję zamyka wierny, zimny close-up nieobecnych oczu Zosi, bez utraty likeness i bez sztucznego wygładzania twarzy.",
+  "project": {
+    "id": "cc-rolka",
+    "name": "CC-Rolka"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "zosia-deszcz-na-szybie"
+    },
+    {
+      "type": "character",
+      "id": "zosia"
+    }
+  ],
+  "prompts": {
+    "image": "Native vertical 9:16 final close-up in the same night bus. Preserve exact canonical Zosia identity: youthful oval narrow face, small jaw, gray eyes, natural fair skin with fine pores and faint under-eye darkness, long black hair with blue streaks and black wired headphones. Flat 100 mm eye-level perspective, face center-right looking screen-left, narrow rain-covered window strip far left and cold empty band above. Cold cyan-gray light dominates with one dying amber edge. Exact photoreal late-1990s Central-European music video with subtle 16 mm/S-VHS softness. No scars, pockmarks, plastic skin, broad jaw, aged face, reflected face, tears, singing, text or artifacts.",
+    "endFrameDescription": "",
+    "animation": "5-second continuous extreme close-up. Camera is nearly locked with only tiny bus vibration. Zosia remains silent and still; after two seconds her pupils refocus once from passing streetlight to a distant point beyond the glass, followed by one natural blink and a barely visible jaw release. Rain continues downward at far left. During the final half-second the last amber edge fades, leaving cold cyan-gray light for the cut to the monochrome title. Preserve exact youthful oval face, gray eyes, natural skin, hair and headphones. No singing, tears, head turn, facial deformation, cuts, morphing, text or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 4,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:zosia-deszcz-na-szybie",
+        "character:zosia"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/zosia-nieobecne-oczy/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/zosia-nieobecne-oczy/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:halloween-konkurs/hw-01-wilkolaki-ogrod",
+  "id": "hw-01-wilkolaki-ogrod",
+  "title": "01 — Wilkołaki / zombie już w ogrodzie",
+  "description": "Gotowy Start Frame 1080×1920. Bez take’a. Planowany montaż: 0–1.75 s; 42 klatek / 24 fps. Planowany take: 3 s, wykorzystanie od początku. Otwarcie bez wstępu. Mańka po lewej i Marcel po prawej siedzą na kanapie. Za ich plecami od PIERWSZEJ KLATKI wyraźnie widać osiem zombie idących przez ogród ku tarasowi. Rodzeństwo patrzy na siebie, nie dostrzega tła. W pionie twarze w dolnej połowie, sylwetki zombie czytelne w górnej; dostateczna głębia ostrości. Marcel rozpoczyna spór. Kamera: Krótki fizyczny najazd od strony telewizora, bez utraty ogrodu w górnej części kadru. Dialog do osobnego nagrania: Marcel: „Wilkołaki”. Start Frame wygenerowany wbudowanym generatorem i zweryfikowany. Animacja bez natywnego audio; wypowiedzi, lipsync i SFX opracować osobno. Wstawiono na V1 timeline: sekwencja 25 sekund, 24 fps. Tożsamości, salon i horda zachowane z wcześniejszego niepublikowanego kadru wejściowego; ścieżka źródła w zapisie generacji. Mańka trzyma Vampire, Marcel Werewolf, każde jedną ręką.",
+  "project": {
+    "id": "halloween-konkurs",
+    "name": "Halloween Konkurs"
+  },
+  "references": [
+    {
+      "type": "prop",
+      "id": "vampire-masquerade-1e"
+    },
+    {
+      "type": "prop",
+      "id": "werewolf-apocalypse-1e"
+    }
+  ],
+  "prompts": {
+    "image": "Use case: precise-object-edit. Edit image 1, a photoreal Polish Halloween film opening, preserving exact vertical 9:16 composition, faces, costumes, olive sofa, intact glazing, warm interior and cool garden, all exactly eight distinct zombies outside. Image 2 is the authentic Vampire first-edition front cover; image 3 is authentic Werewolf first-edition front cover (ignore its white photographic margin). Change only the books and twins' hand poses: remove both generic books on the coffee table. Marianna, the white-haired woman on the LEFT, holds ONE full-size thin softcover Vampire RPG rulebook in ONE hand, upright in front of her lower torso with entire original green marble/red rose front cover facing camera. Marcel, white-haired man with glasses on RIGHT, holds ONE full-size thin softcover Werewolf RPG book in ONE hand in front of his lower torso with original dark brown cover, green title and claw marks facing camera. Each free hand rests naturally on their lap. Anatomically credible one-handed grip at lower edge of each book, no extra fingers, no duplicated books. Keep both looking at each other, not camera. Preserve original cover artwork and typography exactly, realistic perspective, no captions or added lettering. Single vertical film frame, 9:16.",
+    "endFrameDescription": "",
+    "animation": "0.0–1.75s: Marcel on screen right makes one firm small chin lift toward Marianna. Marianna holds his gaze. The eight already visible garden zombies continue walking toward the glass, remaining outside. Camera: one smooth 20 cm push-in, keeping the garden legible above the twins. Secondary motion: restrained breathing and natural walking clothes. 1.75–3.0s: hold the twins’ positions while the same zombies continue approaching; no contact with glass yet. Continuity: preserve the supplied Start Frame identities, anatomy, clothing, prop geometry, furniture, lighting and existing lettering. No new people, duplicate bodies or props, extra limbs, morphing, cut, fade, captions or watermark. One continuous shot at normal speed."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "prop:vampire-masquerade-1e",
+        "prop:werewolf-apocalypse-1e"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-01-wilkolaki-ogrod/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-01-wilkolaki-ogrod/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

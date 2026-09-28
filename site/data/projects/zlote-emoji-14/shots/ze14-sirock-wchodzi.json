@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-14/ze14-sirock-wchodzi",
+  "id": "ze14-sirock-wchodzi",
+  "title": "05 — Sirock wchodzi",
+  "description": "First/Last 96 klatek / 4 s. Start v006: zamknięte drzwi, lewe zawiasy i prawa klamka. End: skrzydło otwarte na zewnątrz na lewych zawiasach, niemal krawędzią do kamery przy lewym ościeżu; prawa część przejścia wolna. Sirock po puszczeniu klamki stoi w progu z rękami opuszczonymi. Mokre blond włosy, strój i barak zachowane. Animacja niewygenerowana.",
+  "project": {
+    "id": "zlote-emoji-14",
+    "name": "Złote Emoji #14"
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "sirock-blond"
+    },
+    {
+      "type": "character",
+      "id": "czeslaw"
+    },
+    {
+      "type": "character",
+      "id": "halinka"
+    },
+    {
+      "type": "note",
+      "id": "movie-shot"
+    },
+    {
+      "type": "note",
+      "id": "ze14-plan-baraku"
+    },
+    {
+      "type": "shot",
+      "id": "ze14-barak-zwykly-dzien"
+    },
+    {
+      "type": "shot",
+      "id": "ze14-sirock-wchodzi"
+    },
+    {
+      "type": "shot",
+      "id": "seed"
+    },
+    {
+      "type": "shot",
+      "id": "ze14-sirock-weszy"
+    },
+    {
+      "type": "shot",
+      "id": "ze14-drzwi-cisza"
+    }
+  ],
+  "prompts": {
+    "image": "Use case: precise-object-edit. Create the CLOSED-door first frame matching the supplied OPEN-door final frame. Image1 is the closed-door edit target; Image2 is the authoritative open-door continuity reference, NOT to be changed. Preserve image1's entire office, locked camera, framing, lighting, shelving, binders, helmet, jacket, desk, wall switch and floor. Correct ONLY door hardware handedness: in the CLOSED state place the handle/backplate/keyhole on the RIGHT side of the grey leaf near the wall switch, and the hinges on the LEFT side near the shelf. Remove the old left-side handle and right-side hinges completely. The lever on the right extends LEFT toward the middle of the panel. Door fully closed in exactly the same opening, same solid grey metal, no glass. This is before the woman enters: NO person, silhouette, reflection, shadow or visible rain inside. Use image2 for exact door material and hardware design/height. Do not mirror the room. 1920x1080 16:9 photoreal cinematic still. Localized door correction only.",
+    "endFrameDescription": "Drzwi otwarte na zewnątrz na lewych zawiasach, skrzydło przy lewym ościeżu widziane niemal od krawędzi. Sirock puściła klamkę i zrobiła krok przez próg, obie ręce opuszczone. Ta sama kamera i wnętrze. Deszcz tylko na zewnątrz.",
+    "animation": "0.0–0.4s: The closed door's right-side lever depresses. 0.4–2.0s: Sirock pulls the door outward from outside; the rigid leaf rotates away from camera around its fixed LEFT-jamb hinges, progressively revealing her behind it. 2.0–3.4s: She releases the exterior handle, lowers her arm and takes one measured step through the clear threshold. 3.4–4.0s: Settle into the supplied End Frame with both arms down. Camera: locked throughout. Secondary motion: rain continues outside and water drips from her wet hair. Preserve her exact identity, blonde hair, clothing and all room geometry. The open leaf remains nearly edge-on at the left jamb. Avoid sliding doors, hinge swaps, disappearing panels, extra hands, indoor rainfall, cuts, dissolves or teleportation."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 6,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze14-sirock-wchodzi"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-sirock-wchodzi/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-sirock-wchodzi/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze14-sirock-wchodzi"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-sirock-wchodzi/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-sirock-wchodzi/frame-end-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

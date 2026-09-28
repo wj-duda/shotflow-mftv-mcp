@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:cc-rolka/kuchnia-odjazd",
+  "id": "kuchnia-odjazd",
+  "title": "Odjazd do kuchni Dariusza",
+  "description": "",
+  "project": {
+    "id": "cc-rolka",
+    "name": "CC-Rolka"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "ciasto-zoom"
+    },
+    {
+      "type": "character",
+      "id": "grimskald"
+    },
+    {
+      "type": "prop",
+      "id": "ciasto-dariusza"
+    }
+  ],
+  "prompts": {
+    "image": "Identical native vertical 9:16 extreme top-down macro inherited from the previous shot: one complete red buttercream heart surrounded by cream rosettes, pink frosting, chocolate shavings and nuts. This is the locked optical-axis start for a rapid pull-back. Exact photoreal food macro, subtle late-1990s analog softness. No text, hands, face or artifacts.",
+    "endFrameDescription": "Odjazd odsłania pełny tort i Dariusza w różowym fartuchu oraz czerwonych spodenkach.",
+    "animation": "0.0-3.6s: In one continuous shot, the camera is already pulling rapidly away from the exact cake macro from the first frame. It follows one smooth crane-back path, rising and tilting from the perpendicular top-down cake view into the supplied frontal End Frame composition, with the cake anchored in the lower center as the kitchen and @Element1 are progressively revealed. Arrive precisely at the End Frame by 3.6s. @Image1 is only the exact same cake: preserve every cream rosette, chocolate detail, red heart and every cherry throughout the move; nothing disappears or changes position. @Element1 remains still in the final pose with only natural breathing. Preserve photoreal anatomy, apron, red shorts, kitchen geometry and warm late-1990s analog texture. No cut, fade, dissolve, morph, duplicate cake, new decoration, costume change, extra person, text or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 3,
+      "source": "reference",
+      "referenceKeys": [],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/kuchnia-odjazd/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/kuchnia-odjazd/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ciasto-zoom",
+        "character:grimskald",
+        "prop:ciasto-dariusza"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/kuchnia-odjazd/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/kuchnia-odjazd/frame-end-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

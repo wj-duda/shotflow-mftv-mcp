@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-11/maia-pozuje-do-lustra",
+  "id": "maia-pozuje-do-lustra",
+  "title": "Maia pozuje do lustra",
+  "description": "W pełnym stroju Maia przyjmuje przed lustrem lekko narcystyczną pozę: ręka na biodrze, uniesiona broda i mina mówiąca, że znowu wygra.",
+  "project": {
+    "id": "zlote-emoji-11",
+    "name": "Złote Emoji #11"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "maia-sprawdza-profil"
+    },
+    {
+      "type": "shot",
+      "id": "maia-gotowa-na-gale"
+    },
+    {
+      "type": "character",
+      "id": "maia-melodies-v2"
+    },
+    {
+      "type": "note",
+      "id": "movie-shot"
+    }
+  ],
+  "prompts": {
+    "image": "Filmowy kadr 16:9 z perspektywy lustra, którego miękka okrągła rama otacza kompozycję. Maia v2 w pełnym kanonicznym looku stoi od pasa w górę: jedna ręka na biodrze, druga trzyma klapę ramoneski. Broda uniesiona, jedna brew wyżej, oczy podziwiają własne odbicie, usta w drobnym kontrolowanym dzióbku: oczywiście znowu wygram. Bez telefonu, selfie, drugiego odbicia, dodatkowych osób, tekstu i watermarku.",
+    "endFrameDescription": "",
+    "animation": "Single continuous 4-second shot from the mirror viewpoint. Maia is completely alone and privately confirms her own status. She shifts her weight onto one hip and smooths one lapel of her black leather jacket. She tests two restrained pose variations: first, chin slightly raised, eyelids gently lowered, lips in a cool model-like pout; second, one eyebrow lifts and a tiny patronizing smile flashes at one corner of her mouth as if the competition has no chance. She immediately hides the smile, blinks slowly, and gives herself an almost microscopic approving nod. Camera remains stable. Preserve her exact identity, proportions, hair, makeup, outfit, boots, hands, reflection, and apartment. No influencer performance, broad duck face, looking into the real camera, extra person, duplicate reflection, morphing, cut, text, or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:maia-sprawdza-profil",
+        "shot:maia-gotowa-na-gale",
+        "character:maia-melodies-v2",
+        "note:movie-shot"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-11/shots/maia-pozuje-do-lustra/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-11/shots/maia-pozuje-do-lustra/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

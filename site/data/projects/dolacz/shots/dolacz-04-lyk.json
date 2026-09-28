@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:dolacz/dolacz-04-lyk",
+  "id": "dolacz-04-lyk",
+  "title": "04 — Spojrzenie Halinki",
+  "description": "19-sekundowa pętla Dołącz: widz zagląda do świata AI MFTV. Czesław po lewej, Halinka po prawej, przy biurku pełnym papierów w lokalu zastępczym. W tle realna elewacja KTS w Łazach przy Spółdzielczej 2. Bez mówienia i świadomego kontaktu z kamerą. Ruch uspokojony, zoom pozostawiony playerowi.\n\nHalinka kieruje spojrzenie na Czesława, on opuszcza wzrok do dokumentów. Obie szklanki na blacie.\n\nStart: dokładna kopia ostatniej widocznej klatki wybranego take’a poprzedniego shota. Aktualna reżyseria i czas mikrogestów: prompts.animation; rzeczywisty wynik: take-1.",
+  "project": {
+    "id": "dolacz",
+    "name": "Dołącz"
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "halinka"
+    },
+    {
+      "type": "character",
+      "id": "czeslaw"
+    },
+    {
+      "type": "place",
+      "id": "lokal-zastepczy-domu-kultury"
+    },
+    {
+      "type": "prop",
+      "id": "szklanka-czeslawa"
+    },
+    {
+      "type": "note",
+      "id": "movie-shot"
+    },
+    {
+      "type": "note",
+      "id": "plan-lokalu-zastepczego"
+    },
+    {
+      "type": "take",
+      "id": "dolacz-03-maly-toast/take-3"
+    }
+  ],
+  "prompts": {
+    "image": "Dokładna kopia ostatniej widocznej klatki 95 z take:dolacz-03-maly-toast/take-3, bez generacji.",
+    "endFrameDescription": "Bez zadanego End Frame. Ostatnia widoczna klatka gotowego take’a przekazana do Start następnego shota.",
+    "animation": "0–2s: @Element2, Halinka seated right, slowly turns her head a few degrees toward screen left and raises her eyes to Czeslaw's face. Her expression stays quietly attentive, lips closed. 2–3s: she holds this small look. @Element1, Czeslaw seated left, lowers only his eyes toward the open binder. Both keep their hands and tea glasses resting on the desk. Camera locked, no zoom or drift. Only quiet breathing and one natural blink. Preserve both identities, clothes and exact hand positions. @Image1 preserves Czeslaw's glass, holder and saucer. All glassware, paperwork, office and window stay fixed. No camera gaze, speech, nodding, raised cups, extra people, extra limbs, morphing, cuts, text or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "reference",
+      "referenceKeys": [
+        "take:dolacz-03-maly-toast/take-3"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dolacz/shots/dolacz-04-lyk/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dolacz/shots/dolacz-04-lyk/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

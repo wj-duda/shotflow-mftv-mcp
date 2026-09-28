@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-sezon-1/final-02a-marcel-napiecie",
+  "id": "final-02a-marcel-napiecie",
+  "title": "Final 02A — napięcie Marcela",
+  "description": "Pierwszy krótki portret po naradzie. Marcel w ciszy przetwarza informację o flocie Dzieci Gwiazd: analityczne skupienie miesza się z realnym strachem, a lekko przyciemnione okulary odbijają światło stołu i burzę za oknem.",
+  "project": {
+    "id": "zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1"
+  },
+  "references": [],
+  "prompts": {
+    "image": "Generate exactly one cinematic still image in landscape 16:9.\n\nUse established context from this conversation for visual continuity, but let the current shot description control the requested scene and changes.\n\n\n\nShot: final-02a-marcel-napiecie\nDescription:\nPierwszy krótki portret po naradzie. Marcel w ciszy przetwarza informację o flocie Dzieci Gwiazd: analityczne skupienie miesza się z realnym strachem, a lekko przyciemnione okulary odbijają światło stołu i burzę za oknem.\n\nPreserve every piece of text, lettering, typography, label, sign, logo, brand mark, symbol, and graphic detail visible in any source or reference image exactly as it appears. Preserve its content, spelling, design, position, scale, color, sharpness, and legibility. Never remove, replace, obscure, blur, soften, distort, censor, or invent any of these source details.\nDo not add new captions, subtitles, titles, watermarks, borders, interface elements, contact sheets, or multiple panels unless the current shot description explicitly requests them.",
+    "endFrameDescription": "",
+    "animation": "One continuous 3-second locked close-up, with the complete dramatic beat occurring inside the first 0.75 seconds because only the first second is used on the timeline. 0.00-0.25 s: Marcel silently studies the papers just below frame; only his eyes make one small, precise scanning movement behind the lightly tinted glasses. 0.25-0.60 s: his eyes stop abruptly as he understands the scale of the approaching hive fleet; his breath catches, the muscles around his mouth tighten and he makes one restrained swallow. Analytical concentration remains dominant, but real fear becomes visible underneath it. A brief natural pulse of cold storm light passes across the lenses without obscuring his eyes or changing the room lighting dramatically. 0.60-3.00 s: he holds the realization almost motionless, breathing shallowly, with at most one natural blink after the first second. Preserve the exact Marcel identity, albinism, short white hair, tinted glasses, facial anatomy, dark hoodie, necklace, warm table light, stormy window and destroyed club interior. No dialogue, lip movement suggesting speech, smile, exaggerated panic, head turn, upward glance, hand gesture, new person, camera movement, zoom, rack focus, cut, morphing, lightning flash filling the frame, text or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-02a-marcel-napiecie/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-02a-marcel-napiecie/frame-start-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ]
+}

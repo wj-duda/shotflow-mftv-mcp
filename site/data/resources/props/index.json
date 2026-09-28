@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "type": "props",
+  "label": "Rekwizyty",
+  "items": [
+    {
+      "key": "prop:artefakt-k20",
+      "kind": "resource",
+      "type": "props",
+      "id": "artefakt-k20",
+      "name": "Artefakt K20",
+      "summary": "Canonical reference for the magical K20 from the season 1 finale. FIXED SIZE IN EVERY SHOT: exactly 3.0 cm from one vertex to the opposite vertex and approximately 2.5 cm between parallel faces. It is only slightly larger and heavier than a typical tabletop D20; it fits easily b…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/artefakt-k20/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/artefakt-k20.json"
+    },
+    {
+      "key": "prop:auspex-belicosy",
+      "kind": "resource",
+      "type": "props",
+      "id": "auspex-belicosy",
+      "name": "Auspex Belicosy",
+      "summary": "Kanoniczny auspex systemu Belicosa. Najpierw materializuje się samodzielnie na dachu Domu Kultury, a później zostaje bez zmiany kształtu włączony w lewą platformę operatora działa. To wolnostojący, przemysłowy pulpit celowniczy o wysokości 1,15 m, szerokości 0,72 m i głębokości…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/auspex-belicosy/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/auspex-belicosy.json"
+    },
+    {
+      "key": "prop:banknot-100-pln",
+      "kind": "resource",
+      "type": "props",
+      "id": "banknot-100-pln",
+      "name": "Banknot 100 zł — polski złoty",
+      "summary": "Banknot 100 polskich złotych, awers z Władysławem II Jagiełłą. Referencja pobrana z oficjalnego serwisu NBP, niegenerowana; oryginalny materiał edukacyjny z nadrukiem WZÓR. Źródło: https://static.nbp.pl/strony/bezpiecznepieniadze/100.html ; plik: https://static.nbp.pl/strony/bez…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/banknot-100-pln/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/banknot-100-pln.json"
+    },
+    {
+      "key": "prop:belicosa",
+      "kind": "resource",
+      "type": "props",
+      "id": "belicosa",
+      "name": "Belicosa",
+      "summary": "Kanoniczna dachowa Belicosa z finału sezonu 1: stacjonarne działo wulkaniczne zmaterializowane przez artefakt K20 na dachu starego Domu Kultury. Nie jest fragmentem humanoidalnego mecha, bronią ręczną ani pojazdem. To jedna dokładna, powtarzalna instalacja artyleryjska zaprojekt…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/belicosa/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/belicosa.json"
+    },
+    {
+      "key": "prop:kask-budowlany-czeslawa",
+      "kind": "resource",
+      "type": "props",
+      "id": "kask-budowlany-czeslawa",
+      "name": "Biały kask budowlany Czesława",
+      "summary": "Osobny rekwizyt ZE13: biały zwykły kask budowlany, matowa zaokrąglona skorupa z podłużnym żebrem i krótkim daszkiem, czarna regulowana więźba. Lekko przykurzony, drobne rysy, bez logotypów i napisów. Standardowy rozmiar dorosłego, noszony prawidłowo daszkiem do przodu. Czesław n…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/kask-budowlany-czeslawa/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/kask-budowlany-czeslawa.json"
+    },
+    {
+      "key": "prop:ciastko-czarne-z-bialym-kremem",
+      "kind": "resource",
+      "type": "props",
+      "id": "ciastko-czarne-z-bialym-kremem",
+      "name": "Czarne ciastko z białym kremem",
+      "summary": "Kanoniczne ciastko, na którym Halinka każe wszystkim skupić myśli i które pojawia się podczas finałowej aktywacji K20 oraz deszczu ciastek. To całkowicie fikcyjny, niemarkowy czarny herbatnik kanapkowy o średnicy 4,6 cm i całkowitej grubości 1,25 cm. Składa się z dwóch niemal cz…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/ciastko-czarne-z-bialym-kremem/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/ciastko-czarne-z-bialym-kremem.json"
+    },
+    {
+      "key": "prop:delicja-pomaranczowa",
+      "kind": "resource",
+      "type": "props",
+      "id": "delicja-pomaranczowa",
+      "name": "Delicja pomarańczowa",
+      "summary": "Kanoniczne polskie ciastko typu Delicja, używane jako bardziej swojski odpowiednik czarnej markizy w komediowym finale. Pojedynczy egzemplarz jest cienkim, okrągłym ciastkiem o średnicy około 5,5 cm: na jasnym, złocistym biszkopcie znajduje się krążek pomarańczowej galaretki, a…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/delicja-pomaranczowa/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/delicja-pomaranczowa.json"
+    },
+    {
+      "key": "prop:ciasto-dariusza",
+      "kind": "resource",
+      "type": "props",
+      "id": "ciasto-dariusza",
+      "name": "Domowy tort Dariusza",
+      "summary": "Kanoniczny domowy tort przygotowywany przez pana Dariusza dla audycji Czułe Czwartki. Okrągły tort o średnicy 24 cm i wysokości 14 cm na kremowej ceramicznej paterze. Pokryty lekko nierównym jasnoróżowym kremem maślanym. Na środku znajduje się duże czerwone serce wyciśnięte z kr…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/ciasto-dariusza/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/ciasto-dariusza.json"
+    },
+    {
+      "key": "prop:pusta-butelka-tequili",
+      "kind": "resource",
+      "type": "props",
+      "id": "pusta-butelka-tequili",
+      "name": "Don Quetzal — pusta tequila z Gwatemali",
+      "summary": "Całkowicie opróżniona, normalna wysoka butelka alkoholu 0,7 l z przezroczystego szkła. Ma prostokątne ramiona, długą wąską szyjkę, grube dno i metalową zakrętkę. Fikcyjna kremowo-złota etykieta przedstawia ptaka kwezala i zawiera dokładne napisy DON QUETZAL oraz TEQUILA DE GUATE…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/pusta-butelka-tequili/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/pusta-butelka-tequili.json"
+    },
+    {
+      "key": "prop:helm-czeslawa-wz31",
+      "kind": "resource",
+      "type": "props",
+      "id": "helm-czeslawa-wz31",
+      "name": "Hełm Czesława wz.31",
+      "summary": "Kanoniczny hełm, który Czesław zakłada podczas całej obrony Domu Kultury. Autentyczna polska sylwetka hełmu stalowego wz.31 z lat trzydziestych: płytka, regularnie zaokrąglona kopuła i niski, delikatnie rozszerzający się ciągły rant. Kolor oliwkowo-khaki. Powierzchnia ma charakt…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/helm-czeslawa-wz31/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/helm-czeslawa-wz31.json"
+    },
+    {
+      "key": "prop:kkn-sygnet",
+      "kind": "resource",
+      "type": "props",
+      "id": "kkn-sygnet",
+      "name": "KKN — sygnet Komisji Kultury Najwyższej",
+      "summary": "Monochromatyczny znak Komisji Kultury Najwyższej: trzy geometryczne filary pod wspólnym łukiem, środkowy najwyższy, wspólna pozioma podstawa. Bez liter. Kanoniczny wzór czarny na przezroczystym tle; na identyfikatorach biały symbol na fioletowym tle. Zachowywać dokładny układ i…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/kkn-sygnet/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/kkn-sygnet.json"
+    },
+    {
+      "key": "prop:leica-m3",
+      "kind": "resource",
+      "type": "props",
+      "id": "leica-m3",
+      "name": "Leica M3 — aparat protokolanta",
+      "summary": "Analogowy aparat dalmierzowy Leica M3 do dokumentacji Komisji Kultury Najwyższej. Srebrny chromowany korpus z czarną fakturowaną okleiną, niewielki srebrny obiektyw 50 mm i wąski przetarty brązowy skórzany pasek. Zadbany, używany instrument z delikatną patyną. Zachowywać płaski…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/leica-m3/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/leica-m3.json"
+    },
+    {
+      "key": "prop:logo-aimftv-kolor",
+      "kind": "resource",
+      "type": "props",
+      "id": "logo-aimftv-kolor",
+      "name": "Logo AI MFTV - kolor",
+      "summary": "Canonical full-color AI MFTV logo. Cyan AI, yellow MF and hot-pink handwritten TV, all with heavy black outlines. Preserve exact lettering, proportions, colors and transparency/background treatment; do not redraw or restyle.",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/logo-aimftv-kolor/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/logo-aimftv-kolor.json"
+    },
+    {
+      "key": "prop:logo-aimftv-mono",
+      "kind": "resource",
+      "type": "props",
+      "id": "logo-aimftv-mono",
+      "name": "Logo AI MFTV - kontur",
+      "summary": "Canonical sparse outline variant of the AI MFTV logo on a transparent background. Preserve exact lettering, proportions, thin cyan/yellow/pink contours and alpha channel; intended for overlays, traces and subtle station idents.",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/logo-aimftv-mono/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/logo-aimftv-mono.json"
+    },
+    {
+      "key": "prop:m16-zosi",
+      "kind": "resource",
+      "type": "props",
+      "id": "m16-zosi",
+      "name": "M16 Zosi — Halloween",
+      "summary": "Stały rekwizyt filmowy do rolki Halloween Konkurs: jeden klasyczny czarny karabin typu M16, stała kolba, integralny uchwyt transportowy, długie czarne łoże i krótki prosty magazynek. Zużyta matowa powierzchnia. Zachować dokładny wygląd referencji we wszystkich ujęciach, bez opty…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/m16-zosi/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/m16-zosi.json"
+    },
+    {
+      "key": "prop:roj-dzieci-gwiazd",
+      "kind": "resource",
+      "type": "props",
+      "id": "roj-dzieci-gwiazd",
+      "name": "Rój Dzieci Gwiazd",
+      "summary": "Kanoniczna plansza konstrukcyjna roju atakującego Dom Kultury. Rój ma dokładnie cztery rozpoznawalne jednostki: jeden kolosalny statek-matkę oraz trzy mniejsze statki szturmowe o identycznej geometrii, różniące się wyłącznie kolorem pojedynczego organu słabego punktu. Wszystkie…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/roj-dzieci-gwiazd/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/roj-dzieci-gwiazd.json"
+    },
+    {
+      "key": "prop:szklanka-czeslawa",
+      "kind": "resource",
+      "type": "props",
+      "id": "szklanka-czeslawa",
+      "name": "Szklanka Czesława",
+      "summary": "Szklanka w szklanym koszyczku z PRLu,",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/szklanka-czeslawa/image-004-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/szklanka-czeslawa.json"
+    },
+    {
+      "key": "prop:yerba",
+      "kind": "resource",
+      "type": "props",
+      "id": "yerba",
+      "name": "Tykwa Pana Darka",
+      "summary": "Tykwa Pana Darka, kubek ma dwa napisy w zaleźnosci od humoru Pana Dareczka spokojny - Bajarz Gniewny - Zabójca",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/yerba/image-002-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/yerba.json"
+    },
+    {
+      "key": "prop:vampire-masquerade-1e",
+      "kind": "resource",
+      "type": "props",
+      "id": "vampire-masquerade-1e",
+      "name": "Vampire: The Masquerade — pierwsze wydanie (1991)",
+      "summary": "Autentyczna okładka papierowego podręcznika RPG, pierwsze wydanie angielskie White Wolf, 1991, WW2000. Zielony marmur, czerwona róża i oryginalny tytuł. Rekwizyt do Halloween Konkurs: Mańka (Marianna) trzyma jeden zamknięty podręcznik w JEDNEJ ręce, przednią okładką do kamery, d…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/vampire-masquerade-1e/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/vampire-masquerade-1e.json"
+    },
+    {
+      "key": "prop:werewolf-apocalypse-1e",
+      "kind": "resource",
+      "type": "props",
+      "id": "werewolf-apocalypse-1e",
+      "name": "Werewolf: The Apocalypse — pierwsze wydanie (1992)",
+      "summary": "Autentyczna okładka papierowego podręcznika RPG, pierwsze wydanie angielskie White Wolf, 1992, WW3000. Ciemna brązowo-czerwona faktura, zielony tytuł i ślady pazurów. Biały margines to tło zdjęcia sklepowego, nie część okładki. Rekwizyt do Halloween Konkurs: Marcel trzyma jeden…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/werewolf-apocalypse-1e/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/werewolf-apocalypse-1e.json"
+    }
+  ]
+}

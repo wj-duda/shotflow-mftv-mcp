@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "place:mieszkanie-po-afterze",
+  "type": "places",
+  "id": "mieszkanie-po-afterze",
+  "name": "Mieszkanie po afterze",
+  "description": "Prywatne, zwyczajne mieszkanie po całonocnym afterze. Centrum salonu zajmuje szeroka ciemna kanapa, na której mogą spać dwie osoby. W tle widać mały aneks kuchenny i typowe wyposażenie niedużego wynajmowanego mieszkania. Poranek wpada przez częściowo zasłonięte okno, podczas gdy zapomniana lampa nadal świeci ciepłym światłem. Ślady imprezy są wyraźne, ale realistyczne: zmięte koce, poduszki i ubrania, pojedynczy but na obcasie, papierowe kubki, puste opakowania po jedzeniu, balony tracące powietrze, konfetti, chusteczki po makijażu, kieliszki i butelki bez czytelnych marek. Lokacja ma wyglądać jak prawdziwy dom po nieprzespanej nocy, nigdy jak klub, scena albo luksusowy loft.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/mieszkanie-po-afterze/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/mieszkanie-po-afterze/image-001-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-08-23T01:22:00+02:00"
+}

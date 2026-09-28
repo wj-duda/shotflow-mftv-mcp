@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-14/ze14-pytanie-czeslawa",
+  "id": "ze14-pytanie-czeslawa",
+  "title": "ze14-pytanie-czeslawa",
+  "description": "Zbliżenie na kanoniczną twarz Czesława przy biurku. Podnosi wzrok na stojącą po stronie petentów Sirock, ekranowo w prawo, i pyta: „Pani Sirock, tak?”. Zwyczajny urzędowy ton, bez strachu i patrzenia w sufit. Suchy strój i twarz, rozmyta mapa i okno z deszczem. Wypełnienie placeholdera użytkownika, długość 96 klatek / 4 s bez zmian. Obecnie statyczna klatka; nie wygenerowano głosu ani lipsyncu.",
+  "project": {
+    "id": "zlote-emoji-14",
+    "name": "Złote Emoji #14"
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "czeslaw"
+    },
+    {
+      "type": "shot",
+      "id": "ze14-mozna-odebrac"
+    }
+  ],
+  "prompts": {
+    "image": "Use case identity-preserve new cinematic closeup. Image1 canonical Czeslaw EXACT face identity: middle-aged tired man curly dark hair, strong eyebrows, brown eyes, rectangular black tortoiseshell glasses, salt and pepper stubble, wrinkled beige shirt loose brown tie and dark worn suit. Image2 is EXACT location, wardrobe, seating and dialogue eyeline continuity. Make a new single CLOSE-UP on Czeslaw face and upper shoulders seated at the SAME desk LEFT seat in that office. Camera visitor side same axis, slightly to his left, his face 3/4 directed toward SCREEN RIGHT where standing Sirock is offscreen. He has just raised eyes from register, one eyebrow subtly raised, lips slightly parted about to ask matter-of-factly 'Pani Sirock, tak?' No captions or written dialogue. Calm procedural dry questioning, NOT frightened, NOT looking at ceiling or into lens. Face fills ~55% frame height, glasses and eyes sharp. Shallow depth of field, existing wall map softly behind; window with rain droplets blurred at extreme left edge if in frame. Keep light soft cool overcast, indoor DRY face/hair/suit, no rain falling inside. Only Czeslaw visible, NO Halinka face/extra person/Sirock body or trophy added. Photoreal 16:9 film still, no glam smoothing, no different identity, no new office layout, no text, watermark or split screen.",
+    "endFrameDescription": "",
+    "animation": "0.0–1.0s: Czeslaw raises one eyebrow slightly and inclines his chin toward the standing visitor offscreen right. 1.0–2.5s: Maintain his attentive, ordinary administrative expression and a stable three-quarter face. 2.5–4.0s: He gives one natural blink and holds the same eyeline. Camera: locked close-up. Secondary motion: gentle breathing and faint rain movement behind the window. @Image1 anchors only the existing man's facial identity. Preserve glasses, curls, stubble, tie and dry skin. Keep the mouth relaxed with minimal motion. Avoid ceiling glances, alarm, large head turns, lens looks, facial morph or cuts."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "character:czeslaw",
+        "shot:ze14-mozna-odebrac"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-pytanie-czeslawa/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-pytanie-czeslawa/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

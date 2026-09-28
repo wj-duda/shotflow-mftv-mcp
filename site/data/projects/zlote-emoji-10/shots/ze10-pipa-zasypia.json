@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-10/ze10-pipa-zasypia",
+  "id": "ze10-pipa-zasypia",
+  "title": "Pipa zasypia z powrotem",
+  "description": "Twardy powrót do tego samego szerokiego planu mieszkania. Pipa przez ułamek sekundy patrzy na kompletnie nieprzytomną Maję, natychmiast uznaje sprawę za przegraną, zamyka oko i ciężko opada z powrotem na jej ramię. Maia nawet się nie budzi. Obie wracają niemal dokładnie do początkowego układu na kanapie, otoczone czytelnymi śladami afteru. Statyczne domknięcie pozwala na twarde cięcie do komisji nadal czekającej w Domu Kultury.",
+  "project": {
+    "id": "zlote-emoji-10",
+    "name": "Złote Emoji #10"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "pipa-wake"
+    },
+    {
+      "type": "shot",
+      "id": "ze10-pipa-miala-jechac"
+    },
+    {
+      "type": "shot",
+      "id": "ze10-maia-nie-reaguje"
+    },
+    {
+      "type": "place",
+      "id": "mieszkanie-po-afterze"
+    }
+  ],
+  "prompts": {
+    "image": "Create a cinematic photorealistic 16:9 wide shot returning exactly to the composition of pipa-wake. Use that shot as the primary continuity reference, with LAIdy Pipa v2 and Maia Melodies v2 as mandatory identity references and the apartment-afterparty place for the set. Static eye-level view of the dark sofa centered in the ordinary apartment. Pipa remains on the left with one exhausted eye barely open, leaning against Maia. Maia remains asleep on the right. Keep the kitchenette, blinds, late-morning light, warm lamp, blankets, clothes, cups, takeaway boxes, balloons, confetti, tissues, glasses, generic bottles and lone high heel in the same believable positions. Preserve faces, hairstyles, proportions, outfits, screen positions and lighting. No new people, phone, nightclub, cleaned room, text, subtitles, logos, watermark or malformed anatomy.",
+    "endFrameDescription": "",
+    "animation": "One continuous static-camera two-and-a-half-second wide shot with no cut. @Element1 is LAIdy Pipa v2 on the left and @Element2 is Maia Melodies v2 on the right; @Image1 fixes the apartment, sofa and afterparty clutter. 0.0–0.6 s: Pipa gives sleeping Maia one brief unfocused look without lifting her head. 0.6–1.4 s: Pipa silently gives up, closes her eye and lets the tension leave her shoulders. Her head settles heavily back onto Maia, who does not wake. 1.4–2.5 s: both are again asleep and nearly motionless while the camera holds on the ruined-afterparty room. End on stable stillness for a hard cut to the Dom Kultury. Preserve identities, hair, clothing, sofa, props and screen direction. No dialogue, camera movement, zoom, broad gesture, smile, waking Maia, new people, morphing, extra limbs, subtitles, text or transition."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:pipa-wake",
+        "shot:ze10-pipa-miala-jechac",
+        "shot:ze10-maia-nie-reaguje",
+        "place:mieszkanie-po-afterze"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-10/shots/ze10-pipa-zasypia/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-10/shots/ze10-pipa-zasypia/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

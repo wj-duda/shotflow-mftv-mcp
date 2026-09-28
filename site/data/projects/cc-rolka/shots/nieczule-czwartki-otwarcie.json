@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:cc-rolka/nieczule-czwartki-otwarcie",
+  "id": "nieczule-czwartki-otwarcie",
+  "title": "NIECZUŁE CZWARTKI — otwarcie",
+  "description": "Zimna pionowa plansza NIECZUŁE CZWARTKI otwiera fragment Zosi.",
+  "project": {
+    "id": "cc-rolka",
+    "name": "CC-Rolka"
+  },
+  "references": [],
+  "prompts": {
+    "image": "Native vertical 9:16 television title card. Near-black charcoal field with subtle horizontal CRT wear. One large incomplete hand-drawn graphite circle is vertically centered and fully within safe margins. Center exactly two bold condensed uppercase pale-gray lines inside it: NIECZUŁE / CZWARTKI. The Polish Ł is correct and clear. Cold black, graphite gray and dirty off-white only; late-1990s underground TV ident with photocopied texture. No cake, food, warm colors, logos, people, extra text or watermark.",
+    "endFrameDescription": "",
+    "animation": "2-second static title hold. Camera locked. Only subtle CRT line drift and fine analog grain move; the incomplete graphite circle and exact title remain completely stable and readable. No spelling change, new letters, flicker blackout, cut, people or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/nieczule-czwartki-otwarcie/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/nieczule-czwartki-otwarcie/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

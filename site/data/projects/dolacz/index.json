@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "project",
+  "key": "project:dolacz",
+  "type": "projects",
+  "id": "dolacz",
+  "name": "Dołącz",
+  "description": "Dołącz: 6 shotów w archiwum ShotFlow.",
+  "createdAt": "2026-09-22T00:10:17.171Z",
+  "images": [
+    {
+      "id": "representative-frame",
+      "role": "representative-frame",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dolacz/shots/dolacz-04-lyk/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dolacz/shots/dolacz-04-lyk/frame-start-thumb.webp"
+    }
+  ],
+  "shots": [
+    {
+      "key": "shot:dolacz/dolacz-01-spojrzenie",
+      "kind": "shot",
+      "type": "shots",
+      "id": "dolacz-01-spojrzenie",
+      "name": "01 — Spojrzenie",
+      "projectId": "dolacz",
+      "projectName": "Dołącz",
+      "summary": "19-sekundowa pętla Dołącz: widz zagląda do świata AI MFTV. Czesław po lewej, Halinka po prawej, przy biurku pełnym papierów w lokalu zastępczym. W tle realna elewacja KTS w Łazach przy Spółdzielczej 2. Bez mówienia i świadomego kontaktu z kamerą. Ruch uspokojony, zoom pozostawio…",
+      "imageCount": 1,
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dolacz/shots/dolacz-01-spojrzenie/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dolacz/shots/dolacz-01-spojrzenie/frame-start-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/dolacz/shots/dolacz-01-spojrzenie.json"
+    },
+    {
+      "key": "shot:dolacz/dolacz-02-najpierw-herbata",
+      "kind": "shot",
+      "type": "shots",
+      "id": "dolacz-02-najpierw-herbata",
+      "name": "02 — Najpierw herbata",
+      "projectId": "dolacz",
+      "projectName": "Dołącz",
+      "summary": "19-sekundowa pętla Dołącz: widz zagląda do świata AI MFTV. Czesław po lewej, Halinka po prawej, przy biurku pełnym papierów w lokalu zastępczym. W tle realna elewacja KTS w Łazach przy Spółdzielczej 2. Bez mówienia i świadomego kontaktu z kamerą. Ruch uspokojony, zoom pozostawio…",
+      "imageCount": 1,
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dolacz/shots/dolacz-02-najpierw-herbata/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dolacz/shots/dolacz-02-najpierw-herbata/frame-start-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/dolacz/shots/dolacz-02-najpierw-herbata.json"
+    },
+    {
+      "key": "shot:dolacz/dolacz-03-maly-toast",
+      "kind": "shot",
+      "type": "shots",
+      "id": "dolacz-03-maly-toast",
+      "name": "03 — Przerwa na herbatę",
+      "projectId": "dolacz",
+      "projectName": "Dołącz",
+      "summary": "19-sekundowa pętla Dołącz: widz zagląda do świata AI MFTV. Czesław po lewej, Halinka po prawej, przy biurku pełnym papierów w lokalu zastępczym. W tle realna elewacja KTS w Łazach przy Spółdzielczej 2. Bez mówienia i świadomego kontaktu z kamerą. Ruch uspokojony, zoom pozostawio…",
+      "imageCount": 1,
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dolacz/shots/dolacz-03-maly-toast/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dolacz/shots/dolacz-03-maly-toast/frame-start-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/dolacz/shots/dolacz-03-maly-toast.json"
+    },
+    {
+      "key": "shot:dolacz/dolacz-04-lyk",
+      "kind": "shot",
+      "type": "shots",
+      "id": "dolacz-04-lyk",
+      "name": "04 — Spojrzenie Halinki",
+      "projectId": "dolacz",
+      "projectName": "Dołącz",
+      "summary": "19-sekundowa pętla Dołącz: widz zagląda do świata AI MFTV. Czesław po lewej, Halinka po prawej, przy biurku pełnym papierów w lokalu zastępczym. W tle realna elewacja KTS w Łazach przy Spółdzielczej 2. Bez mówienia i świadomego kontaktu z kamerą. Ruch uspokojony, zoom pozostawio…",
+      "imageCount": 1,
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dolacz/shots/dolacz-04-lyk/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dolacz/shots/dolacz-04-lyk/frame-start-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/dolacz/shots/dolacz-04-lyk.json"
+    },
+    {
+      "key": "shot:dolacz/dolacz-05-wracamy",
+      "kind": "shot",
+      "type": "shots",
+      "id": "dolacz-05-wracamy",
+      "name": "05 — Wracamy do papierów",
+      "projectId": "dolacz",
+      "projectName": "Dołącz",
+      "summary": "19-sekundowa pętla Dołącz: widz zagląda do świata AI MFTV. Czesław po lewej, Halinka po prawej, przy biurku pełnym papierów w lokalu zastępczym. W tle realna elewacja KTS w Łazach przy Spółdzielczej 2. Bez mówienia i świadomego kontaktu z kamerą. Ruch uspokojony, zoom pozostawio…",
+      "imageCount": 1,
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dolacz/shots/dolacz-05-wracamy/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dolacz/shots/dolacz-05-wracamy/frame-start-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/dolacz/shots/dolacz-05-wracamy.json"
+    },
+    {
+      "key": "shot:dolacz/dolacz-06-powrot",
+      "kind": "shot",
+      "type": "shots",
+      "id": "dolacz-06-powrot",
+      "name": "06 — Powrót do początku",
+      "projectId": "dolacz",
+      "projectName": "Dołącz",
+      "summary": "19-sekundowa pętla Dołącz: widz zagląda do świata AI MFTV. Czesław po lewej, Halinka po prawej, przy biurku pełnym papierów w lokalu zastępczym. W tle realna elewacja KTS w Łazach przy Spółdzielczej 2. Bez mówienia i świadomego kontaktu z kamerą. Ruch uspokojony, zoom pozostawio…",
+      "imageCount": 2,
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dolacz/shots/dolacz-06-powrot/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dolacz/shots/dolacz-06-powrot/frame-start-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/dolacz/shots/dolacz-06-powrot.json"
+    }
+  ]
+}

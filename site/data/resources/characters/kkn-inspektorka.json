@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "character:kkn-inspektorka",
+  "type": "characters",
+  "id": "kkn-inspektorka",
+  "name": "KKN — Inspektorka",
+  "description": "Inspektorka terenowa Komisji Kultury Najwyższej. Niższa z pary przyjeżdżającej w ZE12, krępa i niewzruszona. Nie lubi długich wywodów; podchodzi, ogląda i sprawdza. Komediowa obsesja: praktyczna użyteczność — podczas nadnaturalnej katastrofy najpierw zauważa zastawione przejście, źle zabezpieczony dach albo niemożliwy sposób transportu obiektu. Drobna miarka jest zwyczajnym narzędziem, nie magicznym gadżetem. Pozostaje odważna i skuteczna; groźne znaleziska traktuje z zawodowym spokojem. Wobec paniki Czesława bywa bezpośrednia, lecz pomocna. Jej oszczędność ruchu kontrastuje z formalizmem pozostałych.\n\nOkoło 45 lat, 156 cm, niska i krępa, stabilna szeroka postawa. Szeroka twarz, ciemne włosy gładko związane w niski kok, małe okrągłe czarne lenonki. Fioletowy gładki golf, czarny pudełkowy płaszcz do kolan o geometrycznych ramionach, proste czarne spodnie i cięższe płaskie sznurowane buty. Niewielka zwykła metalowa miarka przy pasie; dłonie swobodne. Groteska: zwarta, niemal nieruchoma sylwetka i skrajny pragmatyzm.\n\nWspólna zasada KKN: elitarna Komisja Kultury Najwyższej ocenia muzykę i obsługuje niezwykłe incydenty w obszarze kultury, w tym zgłoszenia z kurii. Jej członkowie są skuteczni, spokojni i budzą respekt. Humor wynika z zawodowych obsesji, kontrastu skali i absolutnej powagi, nie z niekompetencji ani slapsticku. Fiolet, czerń i okrągłe lenonki są wspólnym kodem wizualnym. Nazwy funkcji są obecnymi nazwami postaci; imiona i głosy pozostają nieustalone.\n\nReferencje: portret i sylwetka stanowią rozwinięcie wyglądu z ZE12, shot ze12-04-przyjazd-komisji, Start Frame v001. Nowe rekwizyty i drobne zmiany kroju nie występują jeszcze we wszystkich klatkach ZE12. Pełne prompty i pochodzenie obrazów zapisano w repozytorium: output/imagegen/kkn-characters/generation-record.json.\n\nZE12: przyjeżdżają przewodnicząca i inspektorka. Wariant biurowy stroju pokazuje note:kkn-duet-biurowy-koncepcja i nowe klatki ZE12: identyfikatory KKN, łańcuszek do lenonek przewodniczącej, krótka pudełkowa kurtka i teczka harmonijkowa inspektorki. Obecne portret i sylwetka zachowują bazową tożsamość i wcześniejszy strój; dla obecnego kostiumu użyj również tej noty.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "portrait",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/kkn-inspektorka/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/kkn-inspektorka/image-001-thumb.webp",
+      "width": 1254,
+      "height": 1254,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-002",
+      "role": "silhouette",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/kkn-inspektorka/image-002.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/kkn-inspektorka/image-002-thumb.webp",
+      "width": 1024,
+      "height": 1536,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-12T00:39:07.411729+00:00"
+}

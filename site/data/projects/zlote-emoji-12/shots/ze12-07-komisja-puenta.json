@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-12/ze12-07-komisja-puenta",
+  "id": "ze12-07-komisja-puenta",
+  "title": "07 — Trzeci w tym miesiącu",
+  "description": "Kontrplan przewodniczącej, w tle wyłącznie niższa inspektorka, Czesław nieostry po prawej. Biurowe identyfikatory, lenonki i fiolet. Wyjaśnienie zgłoszenia kurii; „Niestety. To już trzeci w tym miesiącu” zostaje ostatnią puentą. Identyfikatory z białym sygnetem KKN na fioletowym tle, zawsze na anatomicznie lewej piersi; zasłonięte plakietki pozostają zasłonięte.",
+  "project": {
+    "id": "zlote-emoji-12",
+    "name": "Złote Emoji #12"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "ze12-05-ogledziny"
+    },
+    {
+      "type": "shot",
+      "id": "ze12-04-przyjazd-komisji"
+    },
+    {
+      "type": "shot",
+      "id": "ze12-07-komisja-puenta"
+    },
+    {
+      "type": "note",
+      "id": "kkn-duet-biurowy-koncepcja"
+    },
+    {
+      "type": "character",
+      "id": "kkn-przewodniczaca"
+    },
+    {
+      "type": "character",
+      "id": "kkn-inspektorka"
+    },
+    {
+      "type": "prop",
+      "id": "kkn-sygnet"
+    }
+  ],
+  "prompts": {
+    "image": "Use case: precise-object-edit. Edit ONLY the tiny commissioner identification badges in reference1; preserve every face, anatomy, expression, hair, glasses, clothing folds, pose, hands, camera, depth of field, lighting and background exactly. Reference2 is the exact monochrome KKN emblem (three architectural pillars under arch). Reproduce its silhouette in WHITE ink on a small VIOLET vertical rectangular badge with thin silver rim and metal clip; no letters. Badge always on wearer's anatomical LEFT chest. Keep physically realistic badge scale around 3x4cm, not a giant emblem or graphic overlay. No other changes, no new people, no text, no watermark. 16:9 photorealism. Foreground silver-bob chairwoman existing badge screen x=900 y=840 stays exactly there on her anatomical LEFT lapel; replace KKN lettering with white emblem. IMPORTANT FIX: background dark-haired inspector currently has a WRONG badge near image LEFT EDGE x=50 y=750 on her anatomical RIGHT chest. REMOVE that whole wrong badge and clip seamlessly restoring black wool. Her correct anatomical LEFT chest is hidden behind foreground chairwoman, so do NOT draw a visible replacement badge for inspector. Do not shift the foreground woman to reveal it.",
+    "endFrameDescription": "",
+    "animation": "0–2.5s: The silver-bob chairwoman looks calmly toward Czeslaw at screen right, barely lowering her chin once. 2.5–4s: she listens without changing posture. 4–7s: a small exhale and slight lip tension suggest routine fatigue. 7–8s: hold her dry expression. Camera locked; the short dark-bun female inspector stays still and blurred in the background. Preserve both female faces, Czeslaw foreground, glasses chain, violet knits, black coats and KKN badges. Mouth relaxed for later dialogue work. No spontaneous speaking, new people, male clerk, smile, morphing, extra limbs, cuts, captions or watermarks. Keep each badge fixed to the wearer’s anatomical LEFT chest, with its exact white arch-and-three-pillars emblem on violet; never mirror, relocate or duplicate a badge.\n\n@Image1 identifies the foreground silver-bob chairwoman; @Image2 identifies the background inspector at screen left; @Image3 identifies the blurred foreground Czeslaw at screen right. Use portraits for identity only, retaining Start Frame clothing, glasses chain, exact badges, occlusion and depth of field."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 4,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze12-07-komisja-puenta",
+        "prop:kkn-sygnet"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-07-komisja-puenta/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-07-komisja-puenta/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

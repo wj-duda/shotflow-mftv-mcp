@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-12/ze12-02d-czeslaw-kawa",
+  "id": "ze12-02d-czeslaw-kawa",
+  "title": "Czesław — spokojny poranek",
+  "description": "Czesław w lokalu zastępczym poza Domem Kultury spokojnie pije czarną kawę ze swojej szklanki w metalowym koszyczku. Lekki zadowolony uśmiech, nie wie o upadku anioła. Telefon jeszcze milczy. 3 s.",
+  "project": {
+    "id": "zlote-emoji-12",
+    "name": "Złote Emoji #12"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "ze12-03-telefon-czeslawa"
+    },
+    {
+      "type": "prop",
+      "id": "szklanka-czeslawa"
+    },
+    {
+      "type": "note",
+      "id": "czeslaw-lokal-zastepczy-ze12"
+    }
+  ],
+  "prompts": {
+    "image": "Use case: identity-preserve. ONE cinematic photorealistic 16:9 medium close-up just BEFORE the phone call in reference1. Reference1 locks exact Czeslaw face, curly hair, rectangular glasses, dark rumpled suit, beige shirt, loose tie, same desk, beige corded telephone and light from left blinds. Reference2 is mandatory exact glass prop: clear etched cylindrical glass in intricate tarnished silver metal basket with loop handle, clear glass saucer. Czeslaw calmly sits in this OFF-SITE TEMPORARY OFFICE, content and unaware of anything happening at the distant Dom Kultury. Mild genuine relaxed smile and soft brows. Right hand naturally holds metal holder HANDLE, raising glass of black coffee just below lips ready for one small sip, face unobscured. Left hand relaxed on folder. The same beige telephone is HUNG UP on cradle at desk left, quiet. Saucer and teaspoon on desk. Preserve modest white paneled office and morning light; small blurred cardboard archive boxes may sit at back, no visible cultural hall, no roof damage, no falling plaster, no dust cloud, no scene of an impact. Tight enough not to imply this office is at construction site. Natural five-finger grip, same exact etched glass and basket as ref2, no ceramic cup. No text, captions or watermark.",
+    "endFrameDescription": "",
+    "animation": "0–1.5s: Czeslaw raises the glass the last few centimetres and takes one small relaxed sip. 1.5–3s: lowers it slightly to chest height, keeping his gentle contented smile. Right hand keeps the metal-holder handle, left hand stays on folder. Camera locked. Preserve exact face, glasses, clothes, glass etching, silver basket, natural hand anatomy, saucer, quiet hung-up beige telephone and fixed daylight. No stirring, startled reaction, phone pickup, falling dust, new people, duplicate glass, morphing, cuts, captions or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze12-03-telefon-czeslawa",
+        "prop:szklanka-czeslawa"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-02d-czeslaw-kawa/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-02d-czeslaw-kawa/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

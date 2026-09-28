@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-14/ze14-wejscie-po-reakcji",
+  "id": "ze14-wejscie-po-reakcji",
+  "title": "Sirock — już w progu",
+  "description": "36 klatek / 1,5 s. Sirock już w otwartych drzwiach po przebitce na reakcję. Mokra blond postać z opuszczonymi rękami, skrzydło otwarte na zewnątrz. Nie pokazujemy samego otwierania. Osobny Start, bez End.",
+  "project": {
+    "id": "zlote-emoji-14",
+    "name": "Złote Emoji #14"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "ze14-sirock-wchodzi"
+    }
+  ],
+  "prompts": {
+    "image": "Reuse exact approved open-door End v002 as standalone Start; no image generation.",
+    "endFrameDescription": "",
+    "animation": "0.0–1.1s: Already standing in the open doorway, Sirock shifts her weight slightly forward onto her leading boot and settles, looking into the room toward screen left. 1.1–3.0s: Hold the same composed stance with both arms lowered. Camera: locked-off. Secondary motion: drops fall from her wet blonde hair while rain continues outside. Preserve her exact identity, ordinary eyes, black clothing and the existing open-door geometry. The door stays stationary. Avoid repeating the opening, touching a handle, extra steps, indoor rainfall, dry hair, new people, anatomical distortion or cuts."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "reference",
+      "referenceKeys": [
+        "shot:ze14-sirock-wchodzi"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-wejscie-po-reakcji/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-wejscie-po-reakcji/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

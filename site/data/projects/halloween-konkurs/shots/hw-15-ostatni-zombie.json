@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:halloween-konkurs/hw-15-ostatni-zombie",
+  "id": "hw-15-ostatni-zombie",
+  "title": "15 — Ostatni zombie pada",
+  "description": "Ostatnie trafienie: kobieta w rdzawej kurtce gwałtownie traci równowagę i pada w środkowym przejściu. End pokazuje całą ósemkę pokonaną. Po upadku krótki bezruch przed cichym „Zombie” Zosi. Widoczny zakres źródła: 0–2.5 s, 24 fps, 1080×1920. Gotowe kadry; animacja do wygenerowania. Natywne audio wyłączone, dialog i SFX osobno.",
+  "project": {
+    "id": "halloween-konkurs",
+    "name": "Halloween Konkurs"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "hw-13-fala-opada"
+    },
+    {
+      "type": "character",
+      "id": "horda-zombie-halloween"
+    },
+    {
+      "type": "shot",
+      "id": "hw-15-ostatni-zombie"
+    }
+  ],
+  "prompts": {
+    "image": "Precise continuity edit, restrained non-graphic fictional zombie movie, vertical 9:16. Image1 is START edit target: retain its camera and ALL original poses. Older rust-jacket zombie still upright in central passage recoiling, seven others already down, grey man front-right, navy woman left floor, bald beige man at right threshold, four outside. Image2 is previous END damage master: transfer exact same small superficial dark-red shoulder marks and torn fabric on those THREE grounded foreground zombies. Transfer the exact two star cracks in left pane, two dents in right metal sash and chipped coffee-table edge. Image3 is this shot's END for future injury placement only: on standing rust woman's cream blouse begin the same tiny red upper-chest injury mark at collar level as image3, with a little dust from the same point; remove conflicting large dust burst over outer jacket shoulder. Keep every other character's pose unchanged from image1, preserve grounded bodies and their recognizable faces. Restrained small makeup injury marks, no exposed tissue, gore, blood sprays or pools. Keep original warm lamp, olive sofa, glass debris, cool Polish garden. No extra people, no replacing standing woman with fallen pose, no text. Same photorealistic shot.",
+    "endFrameDescription": "End15: osiem postaci; ostatnia kobieta leży w przejściu, szara kurtka zachowuje pozycję ze Start. Przywrócona czerwona krata w poprzednim ułożeniu na tarasie.",
+    "animation": "A bullet impact jolts the rust-jacket zombie at her chest wound. Her blouse jerks and a few blood droplets fall. Her knees immediately buckle and she falls heavily onto her side in the gap between the bodies, then settles. The other bodies stay in place. Slight handheld camera shake, real-time motion. No glowing bullet trails or slow motion."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 3,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:hw-15-ostatni-zombie"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-15-ostatni-zombie/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-15-ostatni-zombie/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "revision": 3,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:hw-15-ostatni-zombie"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-15-ostatni-zombie/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-15-ostatni-zombie/frame-end-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

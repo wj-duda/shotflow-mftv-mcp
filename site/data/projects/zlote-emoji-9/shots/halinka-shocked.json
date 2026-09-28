@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-9/halinka-shocked",
+  "id": "halinka-shocked",
+  "title": "halinka-shocked",
+  "description": "Bardzo ciasny close-up twarzy Halinki patrzącej poza kadr w głębokim, kontrolowanym niedowierzaniu. Oczy ma szeroko otwarte, brwi uniesione i lekko ściągnięte, a usta minimalnie rozchylone. To nieruchoma reakcja człowieka, który nie potrafi przetworzyć tego, co właśnie widzi — bez krzyku i groteski.",
+  "project": {
+    "id": "zlote-emoji-9",
+    "name": "Złote Emoji #9"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "confusion-techno"
+    },
+    {
+      "type": "character",
+      "id": "halinka"
+    }
+  ],
+  "prompts": {
+    "image": "Use confusion-techno for exact scene continuity and the Halinka character reference for exact identity. Create a very tight cinematic 16:9 close-up of Halinka's face as she looks sharply offscreen left in profound silent disbelief. Her brown eyes are opened very wide, eyebrows raised and slightly drawn together, forehead tense, lips parted only a few millimetres and jaw held still. Preserve her exact age, face, skin texture, red curly updo, gold earrings, layered necklaces, sparkly burgundy cardigan and black dress. Match the dim hall with blue rim light, magenta strobe accent, warm skin tones and thin haze in a softly blurred background. Controlled shock, not a scream, smile or caricature. Exactly one person; no captions or watermark.",
+    "endFrameDescription": "",
+    "animation": "Locked extreme close-up for this short reaction shot. Halinka remains almost completely still and keeps looking offscreen left. Over roughly one and a half seconds, her eyes widen only a fraction more, her eyebrows lift by a few millimetres, and she takes one small silent inhale that parts her lips slightly further and creates a barely visible movement in her throat. She does not blink before the end of the shot. Her expression deepens from stunned attention into profound controlled disbelief, never becoming a scream, comic mugging or fear-horror performance. One soft blue-magenta strobe pulse moves across her face and curls while the blurred haze behind her drifts almost imperceptibly. Preserve Halinka's exact facial identity, natural age, eye shape and color, hair, earrings, necklaces, burgundy cardigan, skin texture and anatomy throughout. No head turn, no speech, no lip-sync, no tears, no smile, no teeth, no camera movement, no zoom, no cuts, no face morphing, no extra person, no text changes and no watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:confusion-techno",
+        "character:halinka"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-9/shots/halinka-shocked/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-9/shots/halinka-shocked/frame-start-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ]
+}

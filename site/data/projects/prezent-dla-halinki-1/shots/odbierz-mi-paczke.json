@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:prezent-dla-halinki-1/odbierz-mi-paczke",
+  "id": "odbierz-mi-paczke",
+  "title": "odbierz-mi-paczke",
+  "description": "",
+  "project": {
+    "id": "prezent-dla-halinki-1",
+    "name": "Prezent Dla Halinki 1"
+  },
+  "references": [],
+  "prompts": {
+    "image": "",
+    "endFrameDescription": "",
+    "animation": "The woman turns her head and upper body slightly toward someone off-screen, as if calling them from another room. She clearly prepares to call out, but her lips remain fully closed for the entire shot. No speaking motion, no lip opening, no visible teeth.\n\nUse natural calling microexpressions in the rest of her face: eyebrows lift slightly, eyes focus toward the off-screen person, cheeks and jaw tense subtly, nostrils react, and her expression becomes more intent and projecting, as if raising her voice without moving her mouth. She may lean forward a little and make one small, natural gesture with the hand holding the cup.\n\nPreserve her exact face, age, hairstyle, outfit, jewelry, body proportions, kitchen, lighting, cup, refrigerator, and all background details. Keep the motion restrained and realistic. The camera remains fixed.\n\nNo lip movement, no mouth opening, no exaggerated acting, no new people, no extra hands, no changing objects, no morphing, no camera movement, no text or background deformation.\n\nkeep head posistion exaclty as it is\nkeep head posistion exaclty as it is\nkeep head posistion exaclty as it is\nno head turning, no new persons in the frame"
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/prezent-dla-halinki-1/shots/odbierz-mi-paczke/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/prezent-dla-halinki-1/shots/odbierz-mi-paczke/frame-start-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "place:komisja-zlote-emoji-tygodnia",
+  "type": "places",
+  "id": "komisja-zlote-emoji-tygodnia",
+  "name": "Komisja Złote Emoji Tygodnia",
+  "description": "Stolik w domu kultury stoją przy nim Halinka i Czesław w dniu rozdania Złotego Emoji Tygodnia",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/komisja-zlote-emoji-tygodnia/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/komisja-zlote-emoji-tygodnia/image-001-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-08-01T21:34:51.0366827+00:00"
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:cc-rolka/z-pradem",
+  "id": "z-pradem",
+  "title": "Z prądem?",
+  "description": "Czesław pyta wzrokiem, czy herbata jest z prądem.",
+  "project": {
+    "id": "cc-rolka",
+    "name": "CC-Rolka"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "halinka-herbata"
+    },
+    {
+      "type": "character",
+      "id": "czeslaw"
+    }
+  ],
+  "prompts": {
+    "image": "Native vertical 9:16 shot/reverse close-up in the same late-1990s Polish TV bedroom. Exact Czeslaw lies propped in bed with one real glass thermometer at the corner of his closed mouth. He gives off-screen Halinka a hopeful conspiratorial sideways glance, one eyebrow raised, as if asking whether the tea contains alcohol. Tight head-and-shoulders close-up; Czeslaw occupies the right two-thirds and looks up-left, with negative space left. Same striped pajamas, black rectangular glasses, floral pillow, faint warm lamp bokeh, cold window fill and tungsten rim. Exact photorealism, natural older skin, subtle 16 mm/S-VHS softness. One person, no text, no cigarette, no open mouth or AI artifacts.",
+    "endFrameDescription": "",
+    "animation": "Single continuous 3-second close-up. Czeslaw remains propped in bed with the glass thermometer held firmly at the left corner of his mouth. He clearly and visibly mumbles the short Polish question 'Z pradem?' without removing or dropping the thermometer. Make the speech unmistakable: two distinct syllabic jaw pulses, visible cheek movement, and clear movement in the unobstructed center and right side of his lips. The thermometer stays rigidly anchored at one mouth corner while the jaw and free side of the mouth articulate around it. His eyes brighten and one eyebrow rises with hopeful comic anticipation. Keep the camera locked. Preserve Czeslaw's exact face, glasses, hair, striped pajamas, anatomy, bedding and late-1990s photorealistic TV look. One person only. No cut, no camera move, no extra dialogue, no new objects, no text, no watermark, no facial warping, no disappearing thermometer."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:halinka-herbata",
+        "character:czeslaw"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/z-pradem/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/z-pradem/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

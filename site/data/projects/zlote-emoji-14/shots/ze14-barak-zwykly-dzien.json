@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-14/ze14-barak-zwykly-dzien",
+  "id": "ze14-barak-zwykly-dzien",
+  "title": "03 — Barak, zwykły dzień",
+  "description": "Zwykły dzień w kanonicznym lokalu z dolacz. Jedno biurko, Czesław po lewej, Halinka po prawej, dwa krzesła petentów z przodu, drzwi po prawej od strony wejściowej. Nagroda na prawej części biurka.",
+  "project": {
+    "id": "zlote-emoji-14",
+    "name": "Złote Emoji #14"
+  },
+  "references": [
+    {
+      "type": "place",
+      "id": "lokal-zastepczy-domu-kultury"
+    },
+    {
+      "type": "character",
+      "id": "czeslaw"
+    },
+    {
+      "type": "character",
+      "id": "halinka"
+    },
+    {
+      "type": "note",
+      "id": "movie-shot"
+    },
+    {
+      "type": "place",
+      "id": "komisja-zlote-emoji-tygodnia"
+    },
+    {
+      "type": "note",
+      "id": "ze14-plan-baraku"
+    },
+    {
+      "type": "shot",
+      "id": "ze14-barak-zwykly-dzien"
+    },
+    {
+      "type": "shot",
+      "id": "seed"
+    }
+  ],
+  "prompts": {
+    "image": "Precise lighting/weather edit of reference 1, the EXACT target film frame. Preserve framing, lens, all faces/identity/hair/makeup, poses, gaze, hands, costume, objects, architecture, furniture, text and spatial geometry pixel-faithfully. Change ONLY illumination and weather atmosphere. Fully OVERCAST late-autumn afternoon, diffuse cool-neutral grey skylight, no direct golden sun, no directional hard sun shadows or hot sun patches, no blue-sky glow. Muted yellow ochre autumn leaves remain colored. Natural readable midtones, gentle contrast, no excessive darkening, no blue horror grade, no rain, fog, storm, new people or new objects. Reference 2 is ONLY the approved cloudy daylight color/softness guide, NEVER copy its buildings or objects into the target scene. Gold trophy if present remains warm metallic gold. Real people normal human eyes. Exact same 16:9 composition. Ordinary bright temporary office. Czeslaw left, Halinka right. Remove hard sun/blind stripes from desk/floor, replace with soft diffused daylight from same window. Office remains readable and mundane. No special glow.",
+    "endFrameDescription": "",
+    "animation": "0.0–2.3s: Czeslaw, seated left, slowly lifts his existing tea glass a few centimeters above its saucer without drinking. Halinka, seated right, watches him with her existing mild expression. 2.3–3.0s: His hand pauses with the glass raised; both remain relaxed. Camera: locked-off. Secondary motion: a small natural ripple in his tea. @Image1 anchors only Czeslaw's facial identity; @Image2 anchors only Halinka's facial identity. Preserve the starting wardrobe, dry interior, desk arrangement and trophy lettering. Avoid extra gestures, spills, moving furniture, duplicated cups, new people, glow or cuts."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 3,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze14-barak-zwykly-dzien",
+        "shot:seed"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-barak-zwykly-dzien/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-barak-zwykly-dzien/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

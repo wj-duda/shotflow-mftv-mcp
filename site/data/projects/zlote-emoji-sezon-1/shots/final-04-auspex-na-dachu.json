@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-sezon-1/final-04-auspex-na-dachu",
+  "id": "final-04-auspex-na-dachu",
+  "title": "Final 04 Auspex Na Dachu",
+  "description": "Potwierdza sukces pierwszego rzutu i ustanawia wizualny język materializacji.",
+  "project": {
+    "id": "zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1"
+  },
+  "references": [
+    {
+      "type": "place",
+      "id": "dom-kultury-wejscie"
+    },
+    {
+      "type": "place",
+      "id": "dach-domu-kultury"
+    },
+    {
+      "type": "prop",
+      "id": "auspex-belicosy"
+    },
+    {
+      "type": "place",
+      "id": "dach-domu-kultury-obrona"
+    }
+  ],
+  "prompts": {
+    "image": "Photorealistic 16:9 Start Frame on the authoritative front-oriented place:dach-domu-kultury. Preserve the exact elevated camera above the forecourt, visible front facade at the bottom, entrance, banner, loudspeaker, satellite dish, wet black roofing, repaired center-right slab, chimney, vents, antenna and rear-right green access hut. Use place:dach-domu-kultury-obrona only to locate the future operator position; no cannon component is visible. On the repaired slab, the exact canonical prop:auspex-belicosy is approximately 75 percent materialized at its future operator location. Its rectangular base and main 1.15 m tall blackened-steel body are solid; the top rangefinder, single round green lens and portions of the side rails are still condensing from thin translucent green-gold geometric planes, angular fragments and restrained light particles. Preserve one tilted screen, exactly two brass dials, one guarded switch, rails and correct human scale. The dim screen has no readable interface or projected reticle yet. Wet roof reflects the restrained light. Exactly one auspex; no Belicosa barrel, circular base, supports, platform, cannon fragments, people, visible K20, ships, portal, damage, changed building orientation, invented text, subtitles, UI overlay or watermark.",
+    "endFrameDescription": "",
+    "animation": "One continuous 3-second static shot. The compact auspex finishes materializing from green-gold planes, powers on and projects one narrow targeting reticle into the sky. It remains fixed at the future left operator position of Belicosa. All rooftop architecture remains still; no cannon parts appear yet."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "place:dach-domu-kultury",
+        "place:dach-domu-kultury-obrona",
+        "prop:auspex-belicosy"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-04-auspex-na-dachu/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-04-auspex-na-dachu/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

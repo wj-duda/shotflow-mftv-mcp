@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-10/ze10-tequila-intro",
+  "id": "ze10-tequila-intro",
+  "title": "Pusta tequila — Don Quetzal",
+  "description": "Dwusekundowy intro shot gagu. Na pierwszym planie kuchennej części mieszkania leży całkowicie opróżniona butelka DON QUETZAL z etykietą TEQUILA DE GUATEMALA. Kamera stoi bardzo nisko przy małym stole i jest skierowana wyłącznie w stronę białych szafek aneksu kuchennego. W kadrze widać nogi stołu i krzeseł, parkiet, zgnieciony kubek, karton po jedzeniu, konfetti oraz późnoporanne światło. Kanapa, stolik kawowy i cała część wypoczynkowa znajdują się za kamerą i nie mogą pojawić się nawet w nieostrym tle. Bohaterki pozostają poza kadrem; następny shot po raz pierwszy ujawnia śpiące Pipę i Maję.",
+  "project": {
+    "id": "zlote-emoji-10",
+    "name": "Złote Emoji #10"
+  },
+  "references": [
+    {
+      "type": "place",
+      "id": "mieszkanie-po-afterze"
+    },
+    {
+      "type": "prop",
+      "id": "pusta-butelka-tequili"
+    }
+  ],
+  "prompts": {
+    "image": "Create replacement Start Frame revision 3 for ze10-tequila-intro, cinematic photorealistic 16:9. Image 1 is the mandatory exact apartment geography and materials. Use ONLY its kitchenette and dining corner on the LEFT: parquet, small round dining table, chair legs, white lower kitchen cabinets, tiled backsplash and the same late-morning light. Image 2 defines ONLY the exact normal tall 700 ml bottle, cream-and-gold quetzal label, metal screw cap and exact readable fictional text DON QUETZAL and TEQUILA DE GUATEMALA. Do not reuse Image 2's background or camera direction. Very low camera beside the small dining table, pointed TOWARD the kitchenette cabinets and AWAY FROM the living-room seating area. The sofa, coffee table and lounge area are entirely behind the camera and MUST NOT appear anywhere, not even blurred or at an edge. Tight insert on the completely empty DON QUETZAL bottle lying on its side near one wooden table leg; metal cap beside its neck. Keep enough recognizable kitchen background to establish the same apartment: cabinet toe-kick, chair legs, a paper cup and a takeaway carton on the floor, sparse confetti, morning light on parquet. Ordinary believable tall rectangular clear-glass 0.7 l bottle, long narrow neck, thick base, empty interior. Label text correctly spelled and readable: large DON QUETZAL, smaller TEQUILA DE GUATEMALA, original golden quetzal-bird emblem. No people, body parts, sofa, couch, cushions, coffee table, living room, extra hero bottle, liquid, cork, lime, salt, shot glass, malformed glass, changed label, subtitles, watermark or any text outside the bottle label.",
+    "endFrameDescription": "",
+    "animation": "One continuous static two-second kitchen-floor insert with no cut. The empty DON QUETZAL bottle remains on its side beside the metal cap in the supplied Start Frame. The camera faces the kitchenette throughout; the sofa and lounge area must never enter frame. Hold almost still: a tiny natural focus settle onto the label during the first 0.5 seconds, then remain locked so DON QUETZAL and TEQUILA DE GUATEMALA stay readable. One loose piece of confetti may shift slightly; everything else remains motionless. Preserve bottle geometry, empty interior, label spelling, cap position, cabinets, chair legs, parquet and lighting. No people, hands, camera pan, zoom, rolling bottle, liquid, new objects, sofa, changed text, subtitles, morphing or transition effect."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 3,
+      "source": "generated",
+      "referenceKeys": [
+        "place:mieszkanie-po-afterze",
+        "prop:pusta-butelka-tequili"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-10/shots/ze10-tequila-intro/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-10/shots/ze10-tequila-intro/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

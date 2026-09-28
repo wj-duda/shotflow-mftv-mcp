@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "character:mistrz-konca",
+  "type": "characters",
+  "id": "mistrz-konca",
+  "name": "Mistrz Końca",
+  "description": "CHARACTER [age=18-29; presentation=masculine; height=tall; build=stocky; body=inverted-triangle; chest=large; skin=light; face=oblong; eyes=hazel; hair-color=dark-brown; hair-length=short; hair-texture=straight]\r\n\r\nMistrz Końca, robocza ksywa 27-letniego członka Klubu Fantastyki i dawnego mistrza gry. Około 184 cm, szerokie barki, mocny ciężki tułów, solidne nogi i charakterystyczna szeroka, ugruntowana postawa odpowiadająca sylwetce rytualisty z kanonicznego ujęcia na dachu. Twarz pociągła w kontraście do masywnej budowy: głęboko osadzone piwno-zielone oczy, ciężkie proste brwi, lekko krzywy nos po dawnym złamaniu, krótko i nierówno ostrzyżone ciemnobrązowe włosy bez śladów siwizny, lekki nierówny jednodniowy zarost i zaciśnięte usta. Wygląda na inteligentnego, kontrolującego, społecznie niezręcznego i intensywnego, ale nie na jawnego złoczyńcę. Jest wyraźnie młodym dorosłym i rówieśnikiem starszych członków klubu, nie drugim opiekunem placówki.\r\n\r\nZwykły strój klubowy, bez cosplayu: sprana grafitowa koszulka z abstrakcyjnym planem lochu bez tekstu i logo, rozpięta ciemno-oliwkowa gruba koszula z podwiniętymi rękawami, czarne bojówki, ciężkie sznurowane buty, brązowa płócienna torba na podręczniki, skórzany woreczek i kilka kości przy pasie. Cienka czerwono-czarna pleciona bransoletka jest dyskretnym wizualnym zalążkiem późniejszego kostiumu, ale w codziennym stroju nie nosi symboli Chaosu, pancerza, maski ani rytualnych rekwizytów.\r\n\r\nByły mistrz gry odsunięty przez Pana Dariusza za prowadzenie sesji jak osobistego pojedynku z graczami. Uważa, że fantastyka bez ryzyka i konsekwencji staje się pustą zabawą. Ma talent do budowania makiet, rekwizytów i scenografii, silną potrzebę kontroli oraz pragnienie uznania go za autora wielkiej historii. Pełna motywacja i cywilne imię pozostają do zatwierdzenia. Portret i sylwetka są kanoniczną referencją jego wyglądu bez kostiumu; obraz miejsca dach-bloku-dzieci-gwiazd pokazuje tę samą budowę ciała w późniejszym rytualnym przebraniu z zasłoniętą twarzą.",
+  "images": [
+    {
+      "id": "image-003",
+      "role": "portrait",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/mistrz-konca/image-003.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/mistrz-konca/image-003-thumb.webp",
+      "width": 1254,
+      "height": 1254,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-004",
+      "role": "silhouette",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/mistrz-konca/image-004.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/mistrz-konca/image-004-thumb.webp",
+      "width": 1254,
+      "height": 1254,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-08-19T20:00:48.8611447+00:00"
+}

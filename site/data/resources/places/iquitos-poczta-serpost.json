@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "place:iquitos-poczta-serpost",
+  "type": "places",
+  "id": "iquitos-poczta-serpost",
+  "name": "Iquitos — poczta Serpost",
+  "description": "DRAFT / research prologu. Zwyczajna peruwiańska placówka pocztowa, w której przerażony i nerwowy Van Sabe stoi w kolejce z paczką zawierającą K20. Image-001 pokazuje autentyczną fasadę oddziału Serpost w Iquitos: kraty, niebiesko-czerwone barwy i duży szyld. Image-002 pokazuje typowe wnętrze Serpost z niebieską ladą, stanowiskami i identyfikacją marki; nie musi przedstawiać dokładnie tego samego oddziału. Fasada: Wikimedia Commons, autor Cuando lo desees Maria, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Agencia_de_Serpost_Per%C3%BA_en_Iquitos.JPG. Wnętrze: komercyjna referencja produkcyjna z Diario del Exportador, https://www.diariodelexportador.com/2017/11/exporta-facil-definicion-beneficios.html.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/iquitos-poczta-serpost/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/iquitos-poczta-serpost/image-001-thumb.webp",
+      "width": 1440,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-002",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/iquitos-poczta-serpost/image-002.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/iquitos-poczta-serpost/image-002-thumb.webp",
+      "width": 775,
+      "height": 445,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-08-17T15:21:20+02:00"
+}

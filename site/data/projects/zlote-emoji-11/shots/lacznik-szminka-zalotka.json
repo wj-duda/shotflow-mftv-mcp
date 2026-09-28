@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-11/lacznik-szminka-zalotka",
+  "id": "lacznik-szminka-zalotka",
+  "title": "Łącznik: szminka i zalotka",
+  "description": "Krótki detal dłoni Mai odkładającej zamkniętą szminkę i sięgającej ku zalotce; maskuje cięcie między makijażem ust a podkręcaniem rzęs.",
+  "project": {
+    "id": "zlote-emoji-11",
+    "name": "Złote Emoji #11"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "maia-makijaz"
+    },
+    {
+      "type": "shot",
+      "id": "maia-podkreca-rzesy"
+    },
+    {
+      "type": "place",
+      "id": "mieszkanie-po-afterze"
+    },
+    {
+      "type": "note",
+      "id": "movie-shot"
+    }
+  ],
+  "prompts": {
+    "image": "Fotorealistyczny filmowy detal 16:9 przy drewnianej toaletce w kanonicznym mieszkaniu. Dłoń Mai w czarnym skórzanym mankiecie odkłada zamkniętą szminkę, a obok czeka zalotka. Świeży boczny kąt kamery, twarz poza kadrem, ciepłe światło, płytka głębia ostrości. Zachować manicure i ciągłość stroju z ujęć maia-makijaz oraz maia-podkreca-rzesy; bez napisów, logotypów, dodatkowych dłoni i przypadkowych rekwizytów.",
+    "endFrameDescription": "",
+    "animation": "Single continuous 3-second macro insert with a locked camera. The action begins immediately: Maia's fingers finish placing the closed lipstick on the wooden vanity and move naturally toward the eyelash curler. Complete the useful movement within the first second, then hold with only tiny natural finger motion and shifting light reflections. Preserve the exact hand, manicure, black leather cuff, lipstick, curler, tabletop, and warm lighting from the Start Frame. Keep Maia's face outside the frame. No new objects, extra fingers, malformed anatomy, object duplication, morphing, camera move, cut, text, or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:maia-makijaz",
+        "shot:maia-podkreca-rzesy",
+        "place:mieszkanie-po-afterze",
+        "note:movie-shot"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-11/shots/lacznik-szminka-zalotka/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-11/shots/lacznik-szminka-zalotka/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

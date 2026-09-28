@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-sezon-1/prolog-06-pokoj-cisza",
+  "id": "prolog-06-pokoj-cisza",
+  "title": "Pokój — cisza",
+  "description": "Statyczny szeroki plan taniego pokoju w Belen nocą. Van śpi niespokojnie, zakamuflowana K20 leży na stoliku na pierwszym planie. Trzy sekundy ciszy i bezruchu przed wtargnięciem.",
+  "project": {
+    "id": "zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1"
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "van-sabe"
+    },
+    {
+      "type": "prop",
+      "id": "artefakt-k20"
+    },
+    {
+      "type": "place",
+      "id": "iquitos-tani-pensjonat-belen"
+    }
+  ],
+  "prompts": {
+    "image": "Exact edit of revision 1: preserve the complete room shot and reduce only the K20 on the table to canonical size, exactly 3.0 cm vertex-to-vertex and about 2.5 cm face-to-face, slightly larger than a normal tabletop D20. Keep exact position, material, numerals, contact shadow and no glow.",
+    "endFrameDescription": "",
+    "animation": "One continuous 3-second static shot. Van breathes slowly in sleep, the curtain and humid night air barely move, and a faint corridor shadow passes under the closed door. The small canonical 3 cm K20 remains completely still and dark. Preserve identity, anatomy, room layout, prop scale and numerals. No new people, magic, morphing, cuts, captions, logos or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "character:van-sabe",
+        "prop:artefakt-k20",
+        "place:iquitos-tani-pensjonat-belen"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-06-pokoj-cisza/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-06-pokoj-cisza/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

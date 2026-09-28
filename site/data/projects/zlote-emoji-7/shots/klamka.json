@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-7/klamka",
+  "id": "klamka",
+  "title": "klamka",
+  "description": "",
+  "project": {
+    "id": "zlote-emoji-7",
+    "name": "Złote Emoji #7"
+  },
+  "references": [],
+  "prompts": {
+    "image": "",
+    "endFrameDescription": "",
+    "animation": "Cinematic close-up of an old metal door handle on a closed beige door, 16:9. Only the handle and the door are in frame. No people, no hands, no body parts, no reflections. The door starts fully closed and then slowly swings OPEN TOWARD THE CAMERA / TOWARD THE VIEWER, into camera space, not away from it. The handle and the front edge of the door move closer to the camera as the door opens slightly. The door opens by itself, gently and naturally. Keep the handle on the correct side exactly as in the reference shot. Subtle realistic movement, moody cinematic lighting, no glitches, no morphing, no extra objects.\n\nImportant: the door must swing toward the viewer, not into the room depth. The door leaf moves forward, toward the lens. The handle gets slightly closer to camera during the motion."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "timeline",
+      "referenceKeys": [],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-7/shots/klamka/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-7/shots/klamka/frame-start-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ]
+}

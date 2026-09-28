@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "prop:leica-m3",
+  "type": "props",
+  "id": "leica-m3",
+  "name": "Leica M3 — aparat protokolanta",
+  "description": "Analogowy aparat dalmierzowy Leica M3 do dokumentacji Komisji Kultury Najwyższej. Srebrny chromowany korpus z czarną fakturowaną okleiną, niewielki srebrny obiektyw 50 mm i wąski przetarty brązowy skórzany pasek. Zadbany, używany instrument z delikatną patyną. Zachowywać płaski korpus z oknami dalmierza, bez garbu pryzmatu, dużej czerwonej kropki i cyfrowego ekranu. Protokolant fotografuje nim zdarzenia z niewzruszoną urzędową powagą. W ZE12 pojawia się wyłącznie w krótkiej przebitce po oględzinach. Referencja jest interpretacją generowaną, nie dokumentacją techniczną egzemplarza. Prompt: output/imagegen/zlote-emoji-12/entry-and-inserts/generation-record.json.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/leica-m3/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/leica-m3/image-001-thumb.webp",
+      "width": 1536,
+      "height": 1024,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-12T01:06:00.502798+00:00"
+}

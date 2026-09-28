@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "prop:delicja-pomaranczowa",
+  "type": "props",
+  "id": "delicja-pomaranczowa",
+  "name": "Delicja pomarańczowa",
+  "description": "Kanoniczne polskie ciastko typu Delicja, używane jako bardziej swojski odpowiednik czarnej markizy w komediowym finale. Pojedynczy egzemplarz jest cienkim, okrągłym ciastkiem o średnicy około 5,5 cm: na jasnym, złocistym biszkopcie znajduje się krążek pomarańczowej galaretki, a wierzch pokrywa cienka warstwa mlecznej czekolady o delikatnie pofalowanej powierzchni. Dolny jasny rant biszkoptu pozostaje dobrze widoczny. Ciastko ma zawsze niski profil i proporcje typowego herbatnika, nigdy tortu, tarty ani grubej markizy. Załączone zdjęcie użytkownika jest wiążącą referencją wyglądu, koloru, polewy, proporcji i faktury; pokazuje kilka identycznych egzemplarzy wyłącznie jako materiał poglądowy, natomiast sam prop oznacza jedną Delicję. W shotach nie dodawać opakowania ani napisów i nie zmieniać jej w czarne ciastko kanapkowe z białym kremem.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/delicja-pomaranczowa/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/delicja-pomaranczowa/image-001-thumb.webp",
+      "width": 547,
+      "height": 365,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-08-21T11:35:00+02:00"
+}

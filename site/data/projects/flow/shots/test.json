@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:flow/test",
+  "id": "test",
+  "title": "Test ShotFlow",
+  "description": "zosia śpi w namiocie",
+  "project": {
+    "id": "flow",
+    "name": "Flow"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "winopodnamiotem"
+    }
+  ],
+  "prompts": {
+    "image": "Generate exactly one cinematic still image in landscape 16:9.\n\nMaintain visual continuity with the characters, location, lighting, and style established earlier in this conversation.\n\nShot: test\nDescription:\nzosia śpi w namiocie\n\nDo not include text, captions, borders, contact sheets, or multiple panels.",
+    "endFrameDescription": "",
+    "animation": "girl sleeps in the tent"
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/flow/shots/test/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/flow/shots/test/frame-start-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ]
+}

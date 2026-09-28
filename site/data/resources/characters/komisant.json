@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "character:komisant",
+  "type": "characters",
+  "id": "komisant",
+  "name": "Komisant",
+  "description": "CHARACTER [age=45-59; presentation=masculine; height=average; build=average; body=oval; chest=medium; skin=light; face=oblong; eyes=brown; hair-color=gray; hair-length=short; hair-texture=straight]\n\nBezimienny właściciel małomiasteczkowego KOMISU RTV. Czujny, oszczędny w słowach, wycenia człowieka szybciej niż przyniesiony przez niego przedmiot. Nie jest gangsterem ani złoczyńcą; ma suchy humor, wieloletnią praktykę za ladą i odporność na każde dziwactwo. Jego prawdziwe imię, pochodzenie towaru i związek komisu z zasobami powstającymi podczas audycji pozostają celowo nieustalone.\n\nOkoło 55–62 lat, przeciętny wzrost, lekko miękka sylwetka i delikatne przygarbienie. Ciemnosiwe, przerzedzone włosy starannie zaczesane na bok, wąskie brązowe oczy o wyceniającym spojrzeniu, dłuższy nos, cienki tytoniowosiwy wąs i prostokątne okulary z lekko bursztynowymi szkłami. Kanoniczny strój: beżowo-brązowa koszula w drobną kratkę z nierówno podwiniętymi rękawami, sprana butelkowozielona kamizelka z akrylu, wysoko noszone ciemne spodnie z kantem, wąski popękany pasek, ciemne skarpety i brązowe skórzane pantofle. Nosi tani złoty zegarek, sygnet oraz klucze na zwijanej lince. W kieszeni ma długopisy, mały śrubokręt i złożone paragony. Zwykle trzyma duży kalkulator z lat 90. i papierową zawieszkę cenową. Do jednego rękawa przypadkowo przykleił mu się kawałek przezroczystej taśmy.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "portrait",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/komisant/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/komisant/image-001-thumb.webp",
+      "width": 1254,
+      "height": 1254,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-002",
+      "role": "silhouette",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/komisant/image-002.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/komisant/image-002-thumb.webp",
+      "width": 1024,
+      "height": 1536,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-27T13:13:52+02:00"
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-sezon-1/przyzwanie-03-k20-aktywuje-rytual",
+  "id": "przyzwanie-03-k20-aktywuje-rytual",
+  "title": "Przyzwanie 03 K20 Aktywuje Rytual",
+  "description": "pokazuje konkretną przyczynę inwazji oraz rozpoczyna powrót kostki do klubu.",
+  "project": {
+    "id": "zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1"
+  },
+  "references": [
+    {
+      "type": "prop",
+      "id": "artefakt-k20"
+    },
+    {
+      "type": "place",
+      "id": "dach-bloku-dzieci-gwiazd"
+    },
+    {
+      "type": "shot",
+      "id": "przyzwanie-02-dach-przed-rytualem"
+    }
+  ],
+  "prompts": {
+    "image": "Photorealistic static low macro on the wet scratched metal ritual stand on the same stormy rooftop. The canonical tiny 3 cm emerald-and-aged-gold K20 is rolling naturally on one edge, face 20 beginning to rotate toward camera. One rough dark ritual glove withdraws above it. Cold storm-blue moonlight and restrained warm lamp reflection. One die and one gloved hand, no glow yet, no creatures, duplicate objects, text or watermark.",
+    "endFrameDescription": "",
+    "animation": "One continuous 3-second macro. The K20 slows, stops with 20\nlegible, ignites green-gold, and a single expanding pressure pulse throws the \ndie sharply out of frame toward the lower neighboring cultural center. Camera\ndoes not follow it. Preserve die size and geometry until motion blur hides it."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "prop:artefakt-k20",
+        "place:dach-bloku-dzieci-gwiazd",
+        "shot:przyzwanie-02-dach-przed-rytualem"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/przyzwanie-03-k20-aktywuje-rytual/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/przyzwanie-03-k20-aktywuje-rytual/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

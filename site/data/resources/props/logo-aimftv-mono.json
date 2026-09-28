@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "prop:logo-aimftv-mono",
+  "type": "props",
+  "id": "logo-aimftv-mono",
+  "name": "Logo AI MFTV - kontur",
+  "description": "Canonical sparse outline variant of the AI MFTV logo on a transparent background. Preserve exact lettering, proportions, thin cyan/yellow/pink contours and alpha channel; intended for overlays, traces and subtle station idents.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/logo-aimftv-mono/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/logo-aimftv-mono/image-001-thumb.webp",
+      "width": 1024,
+      "height": 1024,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-05T12:35:04.6421617+00:00"
+}

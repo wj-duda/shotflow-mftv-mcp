@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "prop:belicosa",
+  "type": "props",
+  "id": "belicosa",
+  "name": "Belicosa",
+  "description": "Kanoniczna dachowa Belicosa z finału sezonu 1: stacjonarne działo wulkaniczne zmaterializowane przez artefakt K20 na dachu starego Domu Kultury. Nie jest fragmentem humanoidalnego mecha, bronią ręczną ani pojazdem. To jedna dokładna, powtarzalna instalacja artyleryjska zaprojektowana dla jednego operatora, Czesława.\n\nSTAŁA SKALA I GEOMETRIA: lufa z zespołem zamkowym ma około 14 m długości; maksymalna wysokość przy spoczynkowym uniesieniu 35 stopni wynosi około 4,8 m; obrotowa podstawa ma około 6 m średnicy. Dokładnie jedna ogromna centralna lufa z szerokim prostokątnym wylotem, trzema segmentami czernionego stalowego płaszcza chłodzącego, grubymi mosiężnymi pierścieniami blokującymi, bocznymi wiązkami przewodów i hydraulicznymi siłownikami elewacji. Okrągła podstawa obraca całe działo. Cztery osobne ciężkie podpory tworzą około 10 × 10 m obrysu i rozchodzą się promieniście i kotwią instalację w belkach dachu; ich ciężar ma wiarygodnie przeciążać stary budynek.\n\nPo lewej stronie tylnej części znajduje się jedno stanowisko dorosłego operatora: stalowy podest, barierka do pasa, dwa ciężkie uchwyty sterujące oraz zintegrowany kompaktowy auspex. Auspex ma wąski ciemny ekran i mały emiter optyczny, bez czytelnych napisów i interfejsu. Materiały: czerniona i miejscami przypalona stal, stare żelazo, wiekowy mosiądz, ceramiczna izolacja, smar, widoczne śruby i spawy. Wąskie głęboko szmaragdowe i starozłote szczeliny światła występują wyłącznie pomiędzy sekcjami zmaterializowanymi przez K20. Bez znaków frakcji, czaszek, orłów, symboli Chaosu i tekstu.\n\nReferencja utrwala pełną sylwetkę, proporcje, położenie operatora, układ podpór, pojedynczą lufę, materiały oraz zielono-złoty język energii. W każdym shocie należy zachować dokładnie jedną lufę, jedną podstawę, cztery podpory i jedno stanowisko operatora. Broń może obracać się i zmieniać elewację, ale jej części nie morfują i nie zmieniają proporcji.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/belicosa/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/belicosa/image-001-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-08-19T08:10:00+02:00"
+}

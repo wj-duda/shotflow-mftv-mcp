@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "character:zosia",
+  "type": "characters",
+  "id": "zosia",
+  "name": "Zosia",
+  "description": "CHARACTER [age=18-29; presentation=feminine; height=very-short; build=slim; body=hourglass; chest=small; skin=fair; face=oval; eyes=gray; hair-color=dyed; hair-length=long; hair-texture=wavy]\r\n\r\nZosia jest córką Halinki. Niska, szczupła młoda dziewczyna o jasnej cerze, z bardzo długimi czarnymi włosami z niebieskimi pasmami, ciemnym makijażem oczu i chłodnym, ironicznym spojrzeniem. Styl grunge/metal, ciemne luźne ubrania, festiwalowy klimat, naturalna i autentyczna, lekko zmęczona, ale wyrazista.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "portrait",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/zosia/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/zosia/image-001-thumb.webp",
+      "width": 1122,
+      "height": 1402,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-002",
+      "role": "silhouette",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/zosia/image-002.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/zosia/image-002-thumb.webp",
+      "width": 1122,
+      "height": 1402,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-08-01T02:37:48.5782588+00:00"
+}

@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-sezon-1/final-08a-3-powrot-na-czeslawa",
+  "id": "final-08a-3-powrot-na-czeslawa",
+  "title": "Final 08A 3 — powrót na Czesława",
+  "description": "Natychmiastowy powrót do tego samego ciasnego kadru trzy czwarte co w final-08a-1. Żółty poblask wystrzału przesuwa się po mokrym hełmie, szkłach i jednej stronie twarzy; uprząż wbija się w tułów, szczęka jest zaciśnięta, a oddech na moment ucieka pod wpływem huku. Czesław nie triumfuje i nie zachowuje kamiennej obojętności — jest przestraszony mocą urządzenia, lecz nie puszcza sterowania i natychmiast odzyskuje koncentrację.\n\nDrobny pył i żółte światło wygasają, okulary oraz głowa wracają na miejsce, ale emocja pozostaje napięta. Ostatnia klatka może dokładnie odtworzyć kotwicę final-08a-1, aby zapętlić wyłącznie pierwszą salwę. Następna salwa zmienia ustawienie kamery; nie wraca do tego samego portretu.",
+  "project": {
+    "id": "zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1"
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "czeslaw"
+    },
+    {
+      "type": "prop",
+      "id": "belicosa"
+    },
+    {
+      "type": "shot",
+      "id": "final-08a-1-czeslaw-komenda-lewo"
+    },
+    {
+      "type": "shot",
+      "id": "final-08a-2-pocisk-i-trafienie-lewo"
+    },
+    {
+      "type": "place",
+      "id": "dach-domu-kultury"
+    },
+    {
+      "type": "prop",
+      "id": "auspex-belicosy"
+    },
+    {
+      "type": "place",
+      "id": "dach-domu-kultury-obrona"
+    },
+    {
+      "type": "prop",
+      "id": "helm-czeslawa-wz31"
+    }
+  ],
+  "prompts": {
+    "image": "Photorealistic cinematic 16:9 opening reaction frame immediately after the first yellow shot. Return to the exact tight 35 mm trigger-side three-quarter camera of final-08a-1 revision 2. Exact Czesław is displaced a few centimeters by recoil: fastened harness bites into his torso, shoulders and head jerk back, one correct hand still crushes the same brass control, wet glasses sit crooked and his eyes squeeze partly shut against pressure and grit. His mouth loses one sharp breath; fear and pain replace triumph. Strong localized yellow residual light crosses one side of his rain-covered glasses, cheek and authentic olive wz. 31 helmet. Dust, droplets and tiny sparks cross the foreground while Belicosa machinery vibrates. Preserve exact identity, suit, dirty shirt, loose tie, helmet, hand, auspex corner and platform geometry. Must be able to settle precisely into final-08a-1 revision 2. No blue or pink-red light, projectile, blood, smile, pose, extra anatomy, text, UI, logos or watermark.",
+    "endFrameDescription": "Dokładny pikselowo powrót do własnej napiętej kotwicy salwy A z final-08a-1 revision 2; nie do kadrów salwy B ani C.",
+    "animation": "One continuous 2-second trigger-side reaction close-up with no cut. Starting at peak recoil, Czesław exhales involuntarily, shoulders settle against the fastened harness, his head and wet crooked glasses recover position, and his grip remains locked on the same firing control. Yellow reflection, airborne dust and tiny sparks fade progressively while rain continues and the machinery's vibration decreases. His eyes reopen and refocus on the left-side battle space; controlled fear remains visible. The final frame must match the supplied final-08a-1 revision 2 battle anchor exactly for a seamless loop of salwa A only. Preserve identity, helmet, suit, anatomy, camera and controls. No calm reset, second trigger pull, blue or pink-red light, cut, morphing, extra limbs, text or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:final-08a-1-czeslaw-komenda-lewo",
+        "shot:final-08a-2-pocisk-i-trafienie-lewo",
+        "character:czeslaw",
+        "prop:helm-czeslawa-wz31"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-08a-3-powrot-na-czeslawa/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-08a-3-powrot-na-czeslawa/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "revision": 2,
+      "source": "reference",
+      "referenceKeys": [
+        "shot:final-08a-1-czeslaw-komenda-lewo"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-08a-3-powrot-na-czeslawa/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-08a-3-powrot-na-czeslawa/frame-end-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

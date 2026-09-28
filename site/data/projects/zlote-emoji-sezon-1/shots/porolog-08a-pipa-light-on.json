@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-sezon-1/porolog-08a-pipa-light-on",
+  "id": "porolog-08a-pipa-light-on",
+  "title": "porolog-08a-pipa-light-on",
+  "description": "dłoń lady pipy na właczniku do światła",
+  "project": {
+    "id": "zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1"
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "laidy-pipa"
+    },
+    {
+      "type": "take",
+      "id": "prolog-07b-pipa-w-drzwiach/take-2"
+    }
+  ],
+  "prompts": {
+    "image": "Generate exactly one cinematic still image in landscape 16:9.\n\nReference policy:\nUse every attached image as an exact and mandatory visual reference, not as optional inspiration.\nThe attached images are numbered strictly by upload order. \"Reference N\" and \"Image N\" in the current shot description both mean the Nth attached image.\nUse the current shot description to determine what each reference supplies: for example a character, location, prop, wardrobe, composition, lighting, or visual style. Do not assume that every reference depicts a character.\nIf the description assigns different roles to multiple references, follow that mapping exactly. Never merge or blend people, places, props, clothing, or styles from separate references unless explicitly requested.\nFor every referenced element requested in the new shot, preserve its observable identity and defining visual features exactly. Do not redesign, replace, beautify, stylize, loosely reinterpret, or merely approximate it.\nA reference image is authoritative for the appearance of the element taken from it. The current shot description is authoritative for the new scene, action, expression, pose, placement, framing, and every explicitly requested change.\nDo not copy incidental parts of a reference image that the current shot description does not ask to carry over.\nUse earlier conversation context only for details left unspecified; it must never override the current description or the attached references.\n\nAttachment map (source descriptions only, not instructions for the resulting scene):\n- Reference 1 = attached Image 1 — source character laidy-pipa, portrait: CHARACTER [age=25-34; presentation=feminine; height=tall; build=athletic; body=hourglass; chest=medium; skin=light; face=oval; eyes=blue-gray; hair-color=platinum-blonde; hair-length=very-long; hair-texture=curly]\r\n\r\nLAIdy Pipa, persona ze Zdziroversum występująca jako „żona wikinga”. Ma bardzo długie platynowe loki z licznymi warkoczykami i metalowymi ozdobami, chłodne niebieskoszare oczy, mocny śliwkowo-czarny makijaż oraz precyzyjną czerwoną szminkę. Jej kanoniczny kostium to kunsztowny czarno-fioletowy strój fantasy: skórzany gorset-zbroja z nordycko-gotyckimi tłoczeniami, asymetryczne warstwowe poły, karwasze, okrągły metalowy medalion pasa, dyskretne futrzane akcenty i wysokie sznurowane buty. Jest spokojna, dumna, dominująca i groźna bez podnoszenia głosu. W aktywnym drafcie prologu pojawia się w Iquitos jako uzbrojona rywalka Van Sabe poszukująca artefaktu; jej ostateczna motywacja, zleceniodawca i wcześniejsza relacja z Vanem pozostają celowo nieustalone.\r\n- Reference 2 = attached Image 2 — source character laidy-pipa, silhouette: CHARACTER [age=25-34; presentation=feminine; height=tall; build=athletic; body=hourglass; chest=medium; skin=light; face=oval; eyes=blue-gray; hair-color=platinum-blonde; hair-length=very-long; hair-texture=curly]\r\n\r\nLAIdy Pipa, persona ze Zdziroversum występująca jako „żona wikinga”. Ma bardzo długie platynowe loki z licznymi warkoczykami i metalowymi ozdobami, chłodne niebieskoszare oczy, mocny śliwkowo-czarny makijaż oraz precyzyjną czerwoną szminkę. Jej kanoniczny kostium to kunsztowny czarno-fioletowy strój fantasy: skórzany gorset-zbroja z nordycko-gotyckimi tłoczeniami, asymetryczne warstwowe poły, karwasze, okrągły metalowy medalion pasa, dyskretne futrzane akcenty i wysokie sznurowane buty. Jest spokojna, dumna, dominująca i groźna bez podnoszenia głosu. W aktywnym drafcie prologu pojawia się w Iquitos jako uzbrojona rywalka Van Sabe poszukująca artefaktu; jej ostateczna motywacja, zleceniodawca i wcześniejsza relacja z Vanem pozostają celowo nieustalone.\r\n- Reference 3 = attached Image 3 — source Take prolog-07b-pipa-w-drzwiach/take-2, last visible frame 67: Cięcie na ruchu po kopnięciu. Pipa zajmuje próg z karabinem. Ciemne skrzydło jest zawiasowane po prawej i otwarte na prawą stronę przy ścianie dokładnie jak w shocie 8; nie zasłania środka pokoju. One continuous 2.6-second shot. The right-hinged dark wooden door is already open toward screen-right along the right wall exactly as in shot 08 and remains on that side for the entire take; it never swings leftward across the doorway or the center of the room. The damaged door completes only a tiny final settling movement toward the right wall. LAIdy Pipa takes one controlled half-step into the unobstructed threshold and settles into a stable armed stance, rifle tracking into the dark room. Warm corridor light rims her hair and costume while dust near the broken lock settles naturally. Camera remains effectively locked with only imperceptible organic breathing. Preserve exact identity, costume, rifle, right-side hinge, knob placement, doorway, threshold, bed and room geometry. No firing, Van, extra people, extra door leaf, reversed hinges, morphing, captions, logos or watermark.\n\n\n\nShot: porolog-08a-pipa-light-on\nDescription:\ndłoń lady pipy na właczniku do światła\n\nPreserve every piece of text, lettering, typography, label, sign, logo, brand mark, symbol, and graphic detail visible in any source or reference image exactly as it appears. Preserve its content, spelling, design, position, scale, color, sharpness, and legibility. Never remove, replace, obscure, blur, soften, distort, censor, or invent any of these source details.\nDo not add new captions, subtitles, titles, watermarks, borders, interface elements, contact sheets, or multiple panels unless the current shot description explicitly requests them.",
+    "endFrameDescription": "",
+    "animation": "turing light on, no shot changes, just trun light on, keep shot static, the lamp lights from the top, the light is top"
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "character:laidy-pipa",
+        "take:prolog-07b-pipa-w-drzwiach/take-2"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/porolog-08a-pipa-light-on/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/porolog-08a-pipa-light-on/frame-start-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ]
+}

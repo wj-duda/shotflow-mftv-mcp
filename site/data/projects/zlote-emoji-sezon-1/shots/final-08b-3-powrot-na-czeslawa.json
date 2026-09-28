@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-sezon-1/final-08b-3-powrot-na-czeslawa",
+  "id": "final-08b-3-powrot-na-czeslawa",
+  "title": "Final 08B 3 — powrót na Czesława",
+  "description": "Powrót na profil Czesława przez obudowę auspeksu, zgodny wyłącznie z kompozycją final-08b-1. Niebieskie światło odbija się jednocześnie w mokrych szkłach i ciemnym ekranie, twarz na ułamek sekundy wykrzywia wysiłek, a barki szarpią się w napiętej uprzęży. Czesław mruży oczy przed pyłem i falą ciśnienia, lecz dłoń nie odrywa się od sterowania. Czytelne są strach, ból od huku i decyzja, że jeszcze nie może zejść z platformy.\n\nPara oraz niebieski poblask znikają, a profil wraca do własnej kotwicy drugiej salwy, umożliwiając jej osobne zapętlenie. Emocja się nie zeruje: oddech jest cięższy, garnitur bardziej mokry, a spojrzenie w auspex sugeruje, że Czesław zaczyna rozumieć, jak niebezpieczna dla dachu jest moc Belicosy.",
+  "project": {
+    "id": "zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1"
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "czeslaw"
+    },
+    {
+      "type": "prop",
+      "id": "belicosa"
+    },
+    {
+      "type": "shot",
+      "id": "final-08a-1-czeslaw-komenda-lewo"
+    },
+    {
+      "type": "shot",
+      "id": "final-08b-2-pocisk-i-trafienie-srodek"
+    },
+    {
+      "type": "place",
+      "id": "dach-domu-kultury"
+    },
+    {
+      "type": "prop",
+      "id": "auspex-belicosy"
+    },
+    {
+      "type": "place",
+      "id": "dach-domu-kultury-obrona"
+    },
+    {
+      "type": "prop",
+      "id": "helm-czeslawa-wz31"
+    },
+    {
+      "type": "shot",
+      "id": "final-08a-3-powrot-na-czeslawa"
+    },
+    {
+      "type": "shot",
+      "id": "final-08b-1-czeslaw-komenda-srodek"
+    }
+  ],
+  "prompts": {
+    "image": "Photorealistic cinematic 16:9 immediate reaction after the second volley. Preserve the exact tight 50 mm auspex-side profile camera from final-08b-1, pushed slightly lower and closer. The near-left auspex housing blocks one third of frame like armored cover; exact Czeslaw is caught in hard right-facing profile, violently yanked backward by the harness. His jaw compresses, mouth opens on an involuntary breath, eyes squeeze against pressure and grit, and wet crooked glasses slip but remain on his face. One correct hand stays locked around the brass firing control with white knuckles. Saturated BLUE residual light tears across helmet rim, glasses, cheek and partial reflection in the dark green auspex glass. Sideways rain, dust and tiny sparks cross the focal plane. Fear, pain and refusal to release control; no calm determination, front-facing portrait, yellow or pink light, extra anatomy, text, UI or watermark.",
+    "endFrameDescription": "Dokładny powrót do profilowej kotwicy drugiej salwy z final-08b-1 revision 2: Czesław nadal zmęczony i spięty, ale bez odrzutu i niebieskiego poblasku.",
+    "animation": "One continuous two-second auspex-side reaction with no cut. Start at peak recoil: Czeslaw's harness is taut, glasses displaced, jaw open and blue residual light burns across his profile and reflection. His involuntary breath ends, shoulders settle only partly, glasses remain wet, grip never leaves the control, and his eyes reopen toward the auspex with heavier fear than before. Blue light, dust and sparks fade while rain continues. Finish exactly on the supplied final-08b-1 revision 2 profile anchor for a salwa-B-only loop. Preserve identity, helmet, auspex geometry, single hand and camera. No calm reset, new trigger pull, color change, morphing, text or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:final-08b-1-czeslaw-komenda-srodek",
+        "shot:final-08a-3-powrot-na-czeslawa",
+        "character:czeslaw",
+        "prop:helm-czeslawa-wz31",
+        "prop:auspex-belicosy"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-08b-3-powrot-na-czeslawa/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-08b-3-powrot-na-czeslawa/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "revision": 2,
+      "source": "reference",
+      "referenceKeys": [
+        "shot:final-08b-1-czeslaw-komenda-srodek"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-08b-3-powrot-na-czeslawa/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-08b-3-powrot-na-czeslawa/frame-end-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

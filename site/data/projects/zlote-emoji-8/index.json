@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "project",
+  "key": "project:zlote-emoji-8",
+  "type": "projects",
+  "id": "zlote-emoji-8",
+  "name": "Złote Emoji #8",
+  "description": "Złote Emoji #8: 7 shotów w archiwum ShotFlow.",
+  "createdAt": "2026-08-03T15:31:08.817Z",
+  "images": [
+    {
+      "id": "representative-frame",
+      "role": "representative-frame",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-8/shots/halinka-odpowiedz/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-8/shots/halinka-odpowiedz/frame-start-thumb.webp"
+    }
+  ],
+  "shots": [
+    {
+      "key": "shot:zlote-emoji-8/czeslaw-konsternacja",
+      "kind": "shot",
+      "type": "shots",
+      "id": "czeslaw-konsternacja",
+      "name": "czeslaw-konsternacja",
+      "projectId": "zlote-emoji-8",
+      "projectName": "Złote Emoji #8",
+      "summary": "zoom na twarz skonsternowawonego czesława tematem jest jego twarz, zachowaj odpoweidnie otocznie oraz relacje w którą stornę patrzy",
+      "imageCount": 1,
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-8/shots/czeslaw-konsternacja/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-8/shots/czeslaw-konsternacja/frame-start-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-8/shots/czeslaw-konsternacja.json"
+    },
+    {
+      "key": "shot:zlote-emoji-8/czeslaw-pyta",
+      "kind": "shot",
+      "type": "shots",
+      "id": "czeslaw-pyta",
+      "name": "czeslaw-pyta",
+      "projectId": "zlote-emoji-8",
+      "projectName": "Złote Emoji #8",
+      "summary": "",
+      "imageCount": 1,
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-8/shots/czeslaw-pyta/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-8/shots/czeslaw-pyta/frame-start-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-8/shots/czeslaw-pyta.json"
+    },
+    {
+      "key": "shot:zlote-emoji-8/halinka-konsternacja",
+      "kind": "shot",
+      "type": "shots",
+      "id": "halinka-konsternacja",
+      "name": "halinka-konsternacja",
+      "projectId": "zlote-emoji-8",
+      "projectName": "Złote Emoji #8",
+      "summary": "zoom na twarz skonsternowawonej Halinki tematem jest jej twarz, zachowaj odpoweidnie otocznie oraz relacje w którą stornę patrzy, Halinka z anelską cieprlowścią tłuamczyć coś będzie czesławowi i z lekkim politowaniem",
+      "imageCount": 1,
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-8/shots/halinka-konsternacja/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-8/shots/halinka-konsternacja/frame-start-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-8/shots/halinka-konsternacja.json"
+    },
+    {
+      "key": "shot:zlote-emoji-8/halinka-odpowiedz",
+      "kind": "shot",
+      "type": "shots",
+      "id": "halinka-odpowiedz",
+      "name": "halinka-odpowiedz",
+      "projectId": "zlote-emoji-8",
+      "projectName": "Złote Emoji #8",
+      "summary": "",
+      "imageCount": 1,
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-8/shots/halinka-odpowiedz/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-8/shots/halinka-odpowiedz/frame-start-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-8/shots/halinka-odpowiedz.json"
+    },
+    {
+      "key": "shot:zlote-emoji-8/konsternacja",
+      "kind": "shot",
+      "type": "shots",
+      "id": "konsternacja",
+      "name": "konsternacja",
+      "projectId": "zlote-emoji-8",
+      "projectName": "Złote Emoji #8",
+      "summary": "czesław z halinką są sknosternowanie patrzą ku sobie ze zdziwniem że nikt nie przyszełd, halinka nic nie trzma, emoji leży na stolki, cześław trzma kartkę ale opszuczone dłoie ma, tematem jest ich spojrzenie na siebie w zaskoczeniu i skonsternowaniu",
+      "imageCount": 1,
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-8/shots/konsternacja/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-8/shots/konsternacja/frame-start-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-8/shots/konsternacja.json"
+    },
+    {
+      "key": "shot:zlote-emoji-8/paczkomat",
+      "kind": "shot",
+      "type": "shots",
+      "id": "paczkomat",
+      "name": "paczkomat",
+      "projectId": "zlote-emoji-8",
+      "projectName": "Złote Emoji #8",
+      "summary": "shot an packzomat przed domem kultury tematem jest paczkomat możesz umieścić na nim usbtelne logo kompost",
+      "imageCount": 1,
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-8/shots/paczkomat/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-8/shots/paczkomat/frame-start-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-8/shots/paczkomat.json"
+    },
+    {
+      "key": "shot:zlote-emoji-8/pusta-sala",
+      "kind": "shot",
+      "type": "shots",
+      "id": "pusta-sala",
+      "name": "pusta-sala",
+      "projectId": "zlote-emoji-8",
+      "projectName": "Złote Emoji #8",
+      "summary": "sala jest pust nikt nie przyszedł, ten sam shot ale krzesłka są ładnie pukładane równo i nikogo nie ma",
+      "imageCount": 1,
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-8/shots/pusta-sala/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-8/shots/pusta-sala/frame-start-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-8/shots/pusta-sala.json"
+    }
+  ]
+}

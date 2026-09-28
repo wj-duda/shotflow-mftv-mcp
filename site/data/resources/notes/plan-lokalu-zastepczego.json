@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "note:plan-lokalu-zastepczego",
+  "type": "notes",
+  "id": "plan-lokalu-zastepczego",
+  "name": "Lokal zastępczy — rzut z góry",
+  "description": "Referencja geometrii tej samej lokacji place:lokal-zastepczy-domu-kultury. Obraz z góry, nie docelowy kadr filmu. Góra obrazu to tylna ściana, dół to strona kamery głównego widoku. Okno po lewej; jedyne drzwi po prawej blisko dolnego narożnika. Biurko pośrodku, dokładnie cztery krzesła: dwa pracowników powyżej biurka i dwa gości poniżej. Niska szara szafka przy tylnej ścianie po prawej, wysoki regał przy prawej ścianie. Położenia przedmiotów według głównego widoku wnętrza; otwarte drzwi na planie pokazują kierunek otwarcia, w głównym widoku są przymknięte. Nie przenosić kamery rzutu z góry do docelowej pętli. Wymiary orientacyjne; to obraz ciągłości przestrzennej, nie plan techniczny. Nową lokalizację bazy technicznej traktować jako założenie tej produkcji; historyczny kanon potwierdza wyłącznie lokal poza Domem Kultury i dojazd rowerem.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/plan-lokalu-zastepczego/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/plan-lokalu-zastepczego/image-001-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-21T23:53:55.011738+00:00"
+}

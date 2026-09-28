@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "prop:ciasto-dariusza",
+  "type": "props",
+  "id": "ciasto-dariusza",
+  "name": "Domowy tort Dariusza",
+  "description": "Kanoniczny domowy tort przygotowywany przez pana Dariusza dla audycji Czułe Czwartki. Okrągły tort o średnicy 24 cm i wysokości 14 cm na kremowej ceramicznej paterze. Pokryty lekko nierównym jasnoróżowym kremem maślanym. Na środku znajduje się duże czerwone serce wyciśnięte z kremu, wokół niego koncentryczne kręgi ręcznie robionych rozetek w kolorach ciepłej bieli i różu z nielicznymi miętowozielonymi akcentami. Górny brzeg zdobią ciemnoczerwone wiśnie koktajlowe, wiórki gorzkiej czekolady i posiekane orzechy laskowe. Boki mają pionowe żłobienia i widoczne ślady szpatułki. Tort ma pozostać czuły, kiczowaty, przesadny i wyraźnie amatorski; bez napisów, świeczek, figurek, marki i fabrycznej perfekcji.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/ciasto-dariusza/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/ciasto-dariusza/image-001-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-04T21:44:12.5882061+00:00"
+}

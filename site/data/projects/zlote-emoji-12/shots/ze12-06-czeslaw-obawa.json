@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-12/ze12-06-czeslaw-obawa",
+  "id": "ze12-06-czeslaw-obawa",
+  "title": "06 — To… zamykacie nas?",
+  "description": "Czesław: „To… zamykacie nas?”. Członkini spoza kadru: „Słucham?”. Czesław: „Dom Kultury. A mnie odwołujecie?”. Plan bliski przez lewe ramię przewodniczącej. Niemy materiał pod późniejszy dialog/lipsync.",
+  "project": {
+    "id": "zlote-emoji-12",
+    "name": "Złote Emoji #12"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "ze12-05-ogledziny"
+    },
+    {
+      "type": "character",
+      "id": "czeslaw"
+    }
+  ],
+  "prompts": {
+    "image": "Use case: identity-preserve. Generate single photorealistic 16:9 cinematic START FRAME, a closer dialogue coverage shot of the EXACT scene in input 1. Input 1 locks staging, morning light from left, construction fence and all wardrobe. Input 2 is primary exact facial identity reference for Czeslaw, input 3 locks full costume and body. Camera stays SAME SIDE of dialogue axis: over silver-haired female leader's shoulder, her black wool shoulder and small edge of silver bob out of focus in extreme LEFT foreground. Czeslaw is screen RIGHT, chest-up at 65mm, looking left to her, not at viewer. His mouth closed before speaking, shallow breath, tight jaw, anxious eyes behind exact rectangular glasses; fear that she will close his workplace and remove him. Strong dimensional morning sidelight, realistic skin and curly hair, 35mm grain. Same beige shirt and loose black tie, no redesign. Background softly blurred lateral construction fence, bricks, autumn apartment block. Other officials outside crop, no extra visible people, no angel or evidence. Do not reverse axis, do not move him inside a building, no text or watermark. Attractive restrained dramatic composition, not extreme close-up or caricature.",
+    "endFrameDescription": "",
+    "animation": "0–1.5s: Czeslaw on screen right holds an anxious leftward eyeline and takes one shallow breath. 1.5–2.5s: he briefly freezes as if listening. 2.5–4s: his eyebrows lift slightly and his chin lowers with restrained apprehension. 4–5s: he holds the tense questioning expression. Camera stays locked. The blurred silver-haired shoulder at extreme left stays still. Keep his face mostly frontal three-quarter, lips relaxed and closed for later dialogue work, exact glasses, suit and morning light unchanged. No large head turn, gestures, spontaneous speech or smile. Preserve exact identities, anatomy, clothing and set geometry. No new people, extra limbs, morphing, cuts, captions or watermarks.\n\n@Image1 supplies only the identity of Czeslaw already on screen right. Preserve his current costume and the blurred silver-haired shoulder at screen left from Start Frame; do not reveal or add another face."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze12-05-ogledziny",
+        "character:czeslaw"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-06-czeslaw-obawa/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-06-czeslaw-obawa/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

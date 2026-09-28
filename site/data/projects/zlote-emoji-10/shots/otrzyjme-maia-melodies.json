@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-10/otrzyjme-maia-melodies",
+  "id": "otrzyjme-maia-melodies",
+  "title": "otrzyjme-maia-melodies",
+  "description": "",
+  "project": {
+    "id": "zlote-emoji-10",
+    "name": "Złote Emoji #10"
+  },
+  "references": [],
+  "prompts": {
+    "image": "",
+    "endFrameDescription": "",
+    "animation": "man is reading the award winner, man is a bit frustrated but still calm and profesionll, only micorexpressions, no overaction, static camera"
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "reference",
+      "referenceKeys": [],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-10/shots/otrzyjme-maia-melodies/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-10/shots/otrzyjme-maia-melodies/frame-start-thumb.webp",
+      "width": 1280,
+      "height": 720,
+      "contentType": "image/webp"
+    }
+  ]
+}

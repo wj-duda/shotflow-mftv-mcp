@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "character:kkn-protokolant",
+  "type": "characters",
+  "id": "kkn-protokolant",
+  "name": "KKN — Protokolant",
+  "description": "Protokolant Komisji Kultury Najwyższej. Wysoki, łysy i poważny jak urzędnik prowadzący rejestr końca świata. Mówi rzadko, słucha bardzo uważnie. Komediowa obsesja: dosłowność zapisu. Notuje westchnienia, niefortunne sformułowania i uwagi rzucone pod nosem; bez ironii pyta, czy dopisać je jako stanowisko oficjalne. Miniaturowy notes w jego wielkich dłoniach kontrastuje z monumentalnym wyglądem. Jest kompetentnym archiwistą, pamięta precedensy i potrafi uratować grupę jednym suchym sprostowaniem. Nigdy nie potyka się dla żartu ani nie robi głupich min.\n\nOkoło 60 lat, 195 cm, bardzo wysoki i szczupły. Łysa głowa, długa wąska ogolona twarz, małe okrągłe czarne lenonki. Gładki fioletowy golf, bardzo długi wąski czarny wełniany płaszcz, odrobinę za krótkie rękawy z widocznymi fioletowymi mankietami. Czarne proste spodnie i duże czarne sznurowane półbuty. Maleńki czarny notes w lewej dłoni, ołówek w prawej. Groteska: monumentalnie poważna, wydłużona sylwetka obsługująca miniaturowy notes.\n\nWspólna zasada KKN: elitarna Komisja Kultury Najwyższej ocenia muzykę i obsługuje niezwykłe incydenty w obszarze kultury, w tym zgłoszenia z kurii. Jej członkowie są skuteczni, spokojni i budzą respekt. Humor wynika z zawodowych obsesji, kontrastu skali i absolutnej powagi, nie z niekompetencji ani slapsticku. Fiolet, czerń i okrągłe lenonki są wspólnym kodem wizualnym. Nazwy funkcji są obecnymi nazwami postaci; imiona i głosy pozostają nieustalone.\n\nReferencje: portret i sylwetka stanowią rozwinięcie wyglądu z ZE12, shot ze12-04-przyjazd-komisji, Start Frame v001. Nowe rekwizyty i drobne zmiany kroju nie występują jeszcze we wszystkich klatkach ZE12. Pełne prompty i pochodzenie obrazów zapisano w repozytorium: output/imagegen/kkn-characters/generation-record.json.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "portrait",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/kkn-protokolant/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/kkn-protokolant/image-001-thumb.webp",
+      "width": 1254,
+      "height": 1254,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-002",
+      "role": "silhouette",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/kkn-protokolant/image-002.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/kkn-protokolant/image-002-thumb.webp",
+      "width": 1024,
+      "height": 1536,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-11T23:41:58.833411+00:00"
+}

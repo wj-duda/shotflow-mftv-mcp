@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:halloween-konkurs/hw-12-zosia-przejazd",
+  "id": "hw-12-zosia-przejazd",
+  "title": "12 — Zosia / druga seria",
+  "description": "Bliższy kontrplan Zosi: szybka korekta celu oczami i bronią, kolejna krótka seria. Lufa poza kadrem — na twarzy wyłącznie odbite światło, bez błysku na komorze zamkowej. Widoczny zakres źródła: 0–2 s, 24 fps, 1080×1920. Gotowe kadry; animacja do wygenerowania. Natywne audio wyłączone, dialog i SFX osobno.",
+  "project": {
+    "id": "halloween-konkurs",
+    "name": "Halloween Konkurs"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "hw-09-zosia-pierwsza-seria"
+    },
+    {
+      "type": "character",
+      "id": "zosia"
+    }
+  ],
+  "prompts": {
+    "image": "Single photorealistic vertical 9:16 film still. Reference1 exact Zosia position, M16, shirt/jewellery, hallway and warm light. Reference2 exact face. CUT TO CLOSER camera setup: tight chest-up three-quarter side view of Zosia aiming same single black rifle offscreen RIGHT, camera remains on SOFA SIDE of axis. Her FACE much larger than preceding medium shot, black hair blue streaks framing cheek, both eyes visible, focused calm gaze to right. Rifle receiver, carry handle and her gripping right hand across lower third, muzzle beyond right crop, supporting forearm partly cropped naturally; gun still shouldered, fixed geometry and same short straight magazine if visible. Very faint haze from preceding burst near right edge only, no thick smoke. Same wooden door and pale wall soft in background, no change of costume, same natural skin texture. No extra people, new weapons, severed hands, captions or watermark. Strong change of scale for fast action montage, not same medium full shot. Mouth unobstructed, no theatrical expression.",
+    "endFrameDescription": "",
+    "animation": "0.0–0.25s: Zosia turns her aim a few degrees toward screen right while keeping the stock planted. 0.25–1.5s: she fires two short bursts separated by one brief aim correction; small recoil pulses travel through the rifle and shoulder. 1.5–3.0s: her eyes and aim continue tracking the next target. Camera: short lateral slide, remaining on the same side of the firing axis. Secondary: the offscreen muzzle casts brief warm pulses onto her cheek; hair tips and pendant twitch from recoil. @Image1 preserves Zosia's identity; @Image2 preserves the M16. Preserve hands, shirt print and anatomy. No flashes on the visible receiver, static posed firing, large weapon jumps, slow motion or cut."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:hw-09-zosia-pierwsza-seria",
+        "character:zosia"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-12-zosia-przejazd/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-12-zosia-przejazd/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

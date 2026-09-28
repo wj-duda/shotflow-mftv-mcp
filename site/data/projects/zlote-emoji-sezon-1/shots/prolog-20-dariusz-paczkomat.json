@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-sezon-1/prolog-20-dariusz-paczkomat",
+  "id": "prolog-20-dariusz-paczkomat",
+  "title": "Dariusz odbiera paczkę",
+  "description": "Kontynuacja End Frame 19b. Dariusz stoi przy świeżo otwartej skrytce, wkłada pustą dłoń do środka i fizycznie wyciąga wyczekiwaną paczkę. Trzyma ją nisko przy brzuchu i patrzy na nią z cichą, autentyczną radością. Nie mówi.",
+  "project": {
+    "id": "zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1"
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "grimskald"
+    },
+    {
+      "type": "place",
+      "id": "dom-kultury-wejscie"
+    },
+    {
+      "type": "shot",
+      "id": "prolog-19b-dariusz-wychodzi-po-paczke"
+    }
+  ],
+  "prompts": {
+    "image": "Use case: identity-preserve. Exact continuity edit of the previous active Start Frame. Preserve the locked camera, lens, crop, wet nighttime pavement, Dom Kultury entrance, open parcel locker, Dariusz identity, long braided red beard, black glasses, blue shirt, dark embroidered vest, canonical badges, leather straps, keys, lighting and grade. Remove the parcel from his hands. Both hands are empty: his right hand has just steadied the open locker door and his left hand rests near his torso. He looks into the dark compartment; the parcel remains unseen inside. Exactly one Dariusz, two correct empty hands and one open locker. No package visible, vehicle, extra people, K20, magic, new text or watermark.",
+    "endFrameDescription": "Ta sama nieruchoma kamera: Dariusz przy otwartej skrytce trzyma niewielką brązową paczkę obiema rękami nisko przy brzuchu, patrzy na nią z ciepłym zamkniętym uśmiechem i wyraźnym zadowoleniem. Nie prezentuje jej kamerze.",
+    "animation": "One continuous 3-second live-action shot from the supplied Start Frame, which is exactly the End Frame of prolog-19b, to the supplied new End Frame. ABSOLUTELY LOCKED CAMERA: no pan, tilt, dolly, zoom, push-in, reframing or cut. 0.0-0.6 s: Dariusz stands beside the already open locker with both hands empty. Eager and pleased, he looks directly into the visible rectangular compartment and clearly inserts his nearer empty hand through its opening, deep inside. 0.6-1.4 s: while that hand remains visibly inside, he grips one modest brown kraft-paper parcel hidden within the locker. He pulls it outward along one continuous physical path: first one corner appears exactly at the compartment threshold, then the parcel visibly passes through the open locker doorway in his hand. The parcel originates only inside the locker and never appears from behind his body, clothing, waist, below frame or thin air. 1.4-2.1 s: once the parcel is fully outside, his second hand naturally supports it from underneath and he lowers it to abdomen level. 2.1-3.0 s: he looks down at the parcel with warm anticipation and satisfied relief, forming a genuine small closed-mouth smile and arriving precisely at the supplied End Frame. He keeps the parcel angled toward himself, never toward the camera. His mouth remains closed and still throughout: no speaking and no lip movement. Preserve exact Dariusz identity, braided red beard, black glasses, large body proportions, blue shirt, dark embroidered vest, canonical badges, keys, parcel scale, open locker geometry, architecture, wet pavement, night lighting and reflections. Exactly one Dariusz, one parcel and two correct hands. No surprise, confusion, suspicion, label close-up, parcel presentation, rotation toward camera, product shot, camera movement, spawning object, hidden handoff, extra package, extra people, extra limbs, morphing, K20, magic, vehicle lights, captions, logos or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 4,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:prolog-19b-dariusz-wychodzi-po-paczke",
+        "character:grimskald"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-20-dariusz-paczkomat/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-20-dariusz-paczkomat/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "revision": 3,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:prolog-20-dariusz-paczkomat",
+        "character:grimskald"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-20-dariusz-paczkomat/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-20-dariusz-paczkomat/frame-end-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-sezon-1/final-08c-3-powrot-na-czeslawa",
+  "id": "final-08c-3-powrot-na-czeslawa",
+  "title": "Final 08C 3 — powrót na Czesława",
+  "description": "Powrót do niskiego, szerszego kadru spod barierki ustanowionego w final-08c-1. Różowo-czerwony poblask zalewa twarz, hełm i okulary; fala uderzeniowa wciska Czesława w uprząż, a obie ręce walczą ze sterowaniem na pierwszym planie. Na moment widać autentyczny strach, że platforma razem z dachem zaraz się zapadnie. Nie próbuje wyglądać heroicznie — łapie oddech i sprawdza, czy mechanizm nadal reaguje.\n\nDla opcjonalnej pętli ostatnia klatka może wrócić do własnej kotwicy final-08c-1, nigdy do kadrów A lub B. W liniowym montażu końcówka nie daje jednak ulgi: spod platformy dobiega metaliczny jęk, auspex pulsuje, a z mechanizmu wchodzi para. Zawieszenie bezpośrednio przechodzi do final-09.",
+  "project": {
+    "id": "zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1"
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "czeslaw"
+    },
+    {
+      "type": "prop",
+      "id": "belicosa"
+    },
+    {
+      "type": "shot",
+      "id": "final-08a-1-czeslaw-komenda-lewo"
+    },
+    {
+      "type": "shot",
+      "id": "final-08c-2-pocisk-i-trafienie-prawo"
+    },
+    {
+      "type": "place",
+      "id": "dach-domu-kultury"
+    },
+    {
+      "type": "prop",
+      "id": "auspex-belicosy"
+    },
+    {
+      "type": "place",
+      "id": "dach-domu-kultury-obrona"
+    },
+    {
+      "type": "prop",
+      "id": "helm-czeslawa-wz31"
+    },
+    {
+      "type": "shot",
+      "id": "final-08b-3-powrot-na-czeslawa"
+    },
+    {
+      "type": "shot",
+      "id": "final-08c-1-czeslaw-komenda-prawo"
+    },
+    {
+      "type": "shot",
+      "id": "final-08a-3-powrot-na-czeslawa"
+    }
+  ],
+  "prompts": {
+    "image": "Photorealistic cinematic 16:9 peak reaction immediately after the third shot. Preserve the radical 24 mm worm's-eye camera under the wet platform railing from final-08c-1, now at a stronger Dutch angle. The platform has dropped and twisted a few centimeters. Exact Czeslaw is slammed sideways and backward into his fastened harness; one shoulder falls, torso folds against the belts and BOTH correct hands desperately retain separate controls. Wet glasses are strongly crooked, mouth open in a raw involuntary gasp, forehead knotted, eyes wide and looking DOWN toward the groaning roof rather than at camera. Saturated PINK-RED residual light flashes across one side of helmet, glasses and cheek. Wet roof grit, concrete dust and droplets erupt through the platform, one cable snaps taut and a small steam jet begins. Genuine terror that the building is collapsing, no hero pose, neutral portrait, extra hands, blue or yellow light, text, UI or watermark.",
+    "endFrameDescription": "Dla opcjonalnej pętli dokładny powrót do własnej niskiej kotwicy final-08c-1 revision 2. W montażu liniowym końcowa chwila nadal zawiera narastający metaliczny jęk i pierwszą parę prowadzącą do przegrzania.",
+    "animation": "One continuous two-second worm's-eye reaction with no cut. Begin at peak third recoil: platform twisted, harness taut, Czeslaw gasping, both hands fighting the controls and pink-red residual light cutting through grit. The platform shudders and drops a final fraction; he looks down in sudden fear as metal groans, then forces both controls steady without firing again. Pink-red light fades but a small steam leak and pulsing mechanism remain, leading directly into overheating. If looped, settle spatially into the supplied final-08c-1 revision 2 anchor while preserving exhaustion and rain. Keep exact identity, two hands, helmet, harness, camera and machinery. No calm reset, new trigger pull, morphing, cut, text or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:final-08c-1-czeslaw-komenda-prawo",
+        "shot:final-08c-2-pocisk-i-trafienie-prawo",
+        "character:czeslaw",
+        "prop:helm-czeslawa-wz31",
+        "shot:final-08a-3-powrot-na-czeslawa"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-08c-3-powrot-na-czeslawa/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-08c-3-powrot-na-czeslawa/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "revision": 2,
+      "source": "reference",
+      "referenceKeys": [
+        "shot:final-08c-1-czeslaw-komenda-prawo"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-08c-3-powrot-na-czeslawa/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-08c-3-powrot-na-czeslawa/frame-end-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

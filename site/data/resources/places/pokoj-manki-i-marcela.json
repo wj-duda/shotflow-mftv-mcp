@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "place:pokoj-manki-i-marcela",
+  "type": "places",
+  "id": "pokoj-manki-i-marcela",
+  "name": "Salon domu bliźniaków — plan z góry",
+  "description": "AKTUALNA KONCEPCJA v003 do rolki „Halloween Konkurs”: klasyczny rodzinny salon domu Mańki i Marcela, zamiast wcześniejszej sypialni. Zmiana na wyraźne życzenie autora. ID pokoj-manki-i-marcela zachowane dla ciągłości zasobu; nazwa i aktywny obraz przedstawiają salon. Parter domu jednorodzinnego z ogrodem w Łazach, niezależna lokacja od Domu Kultury. Obraz referencyjny to fotograficzny plan zdjęciowy z góry z usuniętym sufitem, nie dokładny rzut budowlany ani docelowy kadr filmu.\n\nUKŁAD: góra obrazu to ogród i taras na poziomie podłogi. Szerokie czteropanelowe przeszklenie od podłogi do sufitu w górnej ścianie, ze środkowymi przesuwnymi skrzydłami, prowadzi bezpośrednio na taras i trawnik. Meble tarasowe stoją z boku po lewej. Na dole po prawej zwykłe drewniane drzwi prowadzą z domowego korytarza; w korytarzu wieszaki i buty. To droga wejścia Zosi. Po prawej pozostaje przejście od korytarza do przeszklenia. Okno po lewej.\n\nWYPOSAŻENIE: jedna oliwkowa trzyosobowa kanapa w lewej części salonu, tyłem do ogrodu, przodem do telewizora na dole obrazu. Przed nią drewniany stolik kawowy na dywanie, obok jeden bordowy fotel. Telewizor na niskiej szafce RTV przy dolnej ścianie, drewniana komoda pod lewym oknem, regał z książkami, planszówkami i figurkami przy prawej ścianie. Lampy, rośliny, rodzinne zdjęcia, poduszki, pled, kubki, pilot i kilka podręczników RPG tworzą zwyczajny zamieszkany salon. Brak łóżek, stref sypialnych, biurek i stanowisk komputerowych. Hobby bliźniaków obecne w drobiazgach; nie jest to klub ani sala do gier. Ciepłe światło wnętrza i chłodny zmierzch w ogrodzie, parkiet w jodełkę.\n\nINSCENIZACJA: kamera od strony telewizora może pokazać rodzeństwo na kanapie z przeszkleniem i ogrodem za nimi. W docelowej scenie zombie mają być wyraźnie widoczne, zbliżając się do szyby OD PIERWSZEJ KLATKI. Bliźniaki ignorują zagrożenie, zajęte kłótnią. Jedyny dialog: Marcel „Wilkołaki”, Mańka „Wampiry”, Marcel mocniej „Wilkołaki!”, Mańka mocniej „Wampiry!”. Potem wtargnięcie i akcja, a na koniec Zosia cicho „Zombie”. Bez dodatkowych kwestii, ripost ani głosu Zosi z korytarza. Zosia wchodzi od korytarza, zombie od tarasu; bliźniaki mogą uskoczyć w lewo poza prawą osią akcji. Pochodzenie broni Zosi pozostaje nieustalone. Sam obraz Place jest pustą, nienaruszoną lokacją przed sceną, bez ludzi, zombie, broni i zniszczeń.\n\nPoprzednie koncepcje sypialni zachowano na dysku i w generation-history. Pełny prompt edycji: generation-history/prompt-v003.txt. Wygenerowano wbudowanym image_gen.",
+  "images": [
+    {
+      "id": "image-003",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/pokoj-manki-i-marcela/image-003.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/pokoj-manki-i-marcela/image-003-thumb.webp",
+      "width": 1536,
+      "height": 1024,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-20T14:59:53.864428+00:00"
+}

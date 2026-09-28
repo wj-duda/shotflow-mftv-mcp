@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-14/ze14-drzwi-zamkniete",
+  "id": "ze14-drzwi-zamkniete",
+  "title": "Drzwi — przed reakcją",
+  "description": "Zamknięte drzwi, osobny shot 24 klatki / 1 s. Następnie cięcie na reakcję pracowników. Otwarcie poza kadrem, bez First/Last.",
+  "project": {
+    "id": "zlote-emoji-14",
+    "name": "Złote Emoji #14"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "ze14-sirock-wchodzi"
+    }
+  ],
+  "prompts": {
+    "image": "Reuse exact approved closed-door Start v006; no image generation.",
+    "endFrameDescription": "",
+    "animation": "0.0–1.0s: The closed door remains completely still, with its handle level and no visible gap. 1.0–3.0s: Continue the same unchanged hold. Camera: locked-off. Maintain the fixed framing, overcast interior light and crisp door edges. All binders, papers, furniture and wall fixtures remain stationary. The opening happens outside this shot, not within it. Avoid handle movement, opening, moving shadows, entering people, flickering light, camera movement, cuts or dissolves."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "reference",
+      "referenceKeys": [
+        "shot:ze14-sirock-wchodzi"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-drzwi-zamkniete/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-drzwi-zamkniete/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

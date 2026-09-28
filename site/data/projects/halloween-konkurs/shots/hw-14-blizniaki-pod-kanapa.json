@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:halloween-konkurs/hw-14-blizniaki-pod-kanapa",
+  "id": "hw-14-blizniaki-pod-kanapa",
+  "title": "14 — Bliźniaki milkną",
+  "description": "Gotowy Start Frame 1080×1920. Bez take’a. Planowany montaż: 18–19 s; 24 klatek / 24 fps. Planowany take: 3 s, wykorzystanie od początku. Reakcja rodzeństwa nadal skulonego obok LEWEGO podłokietnika kanapy. Zerkają w prawo ku Zosi; żadne już nie broni swojego stanowiska. Bez dodatkowego żartu i dialogu. Kamera: Niski nieruchomy wspólny kadr, nieco ciaśniejszy niż unik. Dialog do osobnego nagrania: brak. Start Frame wygenerowany wbudowanym generatorem i zweryfikowany. Animacja bez natywnego audio; wypowiedzi, lipsync i SFX opracować osobno. Wstawiono na V1 timeline: sekwencja 25 sekund, 24 fps. Ciasna reakcja obojga z tego samego schronienia po lewej stronie kanapy. Książki pozostają w dłoniach poniżej kadru.",
+  "project": {
+    "id": "halloween-konkurs",
+    "name": "Halloween Konkurs"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "hw-07-blizniaki-unik"
+    },
+    {
+      "type": "prop",
+      "id": "vampire-masquerade-1e"
+    },
+    {
+      "type": "prop",
+      "id": "werewolf-apocalypse-1e"
+    }
+  ],
+  "prompts": {
+    "image": "Precise edit: image 1 is target film still. Keep both faces, hands, camera, poses, hair, clothes, room and light COMPLETELY unchanged. Correct only printed artwork of the two existing handheld book FRONT covers. Left woman's book must match image 2 EXACTLY in its normal NON-MIRRORED orientation: large VAMPIRE readable left-to-right at top, The Masquerade beneath, green marble and red rose. Right man's partly cropped book must match image 3 green WEREWOLF The Apocalypse title and claw-mark dark brown artwork, ignore white margins. Keep existing book positions and perspective and same fingers occluding them. One book per person, don't add objects. Never mirror or invent lettering. Single vertical 9:16 photograph.",
+    "endFrameDescription": "",
+    "animation": "0.0–1.0s: Marcel raises his eyes toward off-screen right; Marianna beside him holds her gaze in the same direction and takes one shallow breath. Both stay crouched. Camera: locked low two-shot. Secondary motion: subtle breathing only. 1.0–3.0s: hold their quiet stunned reaction. No smile, speech, standing up or new gestures. Continuity: preserve the supplied Start Frame identities, anatomy, clothing, prop geometry, furniture, lighting and existing lettering. No new people, duplicate bodies or props, extra limbs, morphing, cut, fade, captions or watermark. One continuous shot at normal speed."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:hw-07-blizniaki-unik",
+        "prop:vampire-masquerade-1e",
+        "prop:werewolf-apocalypse-1e"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-14-blizniaki-pod-kanapa/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-14-blizniaki-pod-kanapa/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

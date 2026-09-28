@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:cc-rolka/czule-czwartki-final",
+  "id": "czule-czwartki-final",
+  "title": "Czułe Czwartki — finał",
+  "description": "Powrót do tej samej pionowej planszy CZUŁE CZWARTKI zamyka teaser.",
+  "project": {
+    "id": "cc-rolka",
+    "name": "CC-Rolka"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "czule-czwartki-logo"
+    },
+    {
+      "type": "prop",
+      "id": "ciasto-dariusza"
+    }
+  ],
+  "prompts": {
+    "image": "Native vertical 9:16 warm television title card. Deep burgundy analog field with black falloff. The exact round pink homemade cake is one complete centered circle, seen almost from above. Over it appear exactly two large cream condensed uppercase lines: CZUŁE / CZWARTKI, with correct Polish Ł and restrained black shadow. Photoreal cake, flamboyant late-1990s TV ident, subtle CRT grain and red halation. No prefix NIE, extra text, people, sliced cake or artifacts.",
+    "endFrameDescription": "",
+    "animation": "2.5-second final title hold. The burgundy glow breathes once, analog grain crawls subtly and the cake-edge cherries catch a tiny warm sparkle. Keep the exact title 'CZUŁE CZWARTKI' perfectly stable and legible. No spelling changes, extra text, camera move or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:czule-czwartki-logo",
+        "prop:ciasto-dariusza"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/czule-czwartki-final/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/czule-czwartki-final/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-14/ze14-lup-na-dachu",
+  "id": "ze14-lup-na-dachu",
+  "title": "04 — Łup na dachu",
+  "description": "Reakcja Czesława i Halinki na pojedynczy ciężki łup na dachu. Kadr, biurko, rekwizyty, stroje, pozy ciał i scenografia są zgodne dokładnie z ujęciem ze14-wzrok-ku-drzwiom; zmienia się wyłącznie zwrot głów i oczu wysoko w lewo. Nie pokazujemy źródła, skoku, dachu, wgniecenia ani pyłu.",
+  "project": {
+    "id": "zlote-emoji-14",
+    "name": "Złote Emoji #14"
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "czeslaw"
+    },
+    {
+      "type": "character",
+      "id": "halinka"
+    },
+    {
+      "type": "note",
+      "id": "movie-shot"
+    },
+    {
+      "type": "place",
+      "id": "lokal-zastepczy-domu-kultury"
+    },
+    {
+      "type": "shot",
+      "id": "ze14-barak-zwykly-dzien"
+    },
+    {
+      "type": "shot",
+      "id": "ze14-lup-na-dachu"
+    },
+    {
+      "type": "shot",
+      "id": "seed"
+    },
+    {
+      "type": "shot",
+      "id": "ze14-wzrok-ku-drzwiom"
+    }
+  ],
+  "prompts": {
+    "image": "Precise localized edit of the supplied EXACT 16:9 film frame. Preserve the source frame pixel-faithfully everywhere except the two people's head direction and eye direction. Keep EXACTLY the same camera, crop, lens, perspective, lighting, rain outside, office walls, map, construction photo, schedule, safety sign, cabinet, helmet, vest, shelf, desk, ledger, telephone, pencil cup, paper, pen, tea glasses and saucers. Keep both characters' exact identities, faces, ages, hair, eyeglasses, jewelry, clothes, bodies, shoulders, arms, hands, fingers, seated positions and expressions. Do not move, add, remove, redesign or replace any prop. ONLY rotate Czeslaw's and Halinka's heads/chins and redirect their eyes so both look sharply upward toward the upper-left of the frame, reacting to a single heavy thump on the roof above them. Their bodies and hands remain frozen exactly as in the source. Subtle startled concern, no screaming. Their tea and every object remain perfectly still. Do not show the ceiling, roof, source of the sound, damage, dust, intruder, fantasy effect, new text, new object or third person. Photorealistic cinematic still, exact same visual quality and full-frame 1920x1080 composition.",
+    "endFrameDescription": "Oboje kończą śledzenie: głowy opuszczone, wzrok w prawo ku drzwiom, lekki przestrach. Dokładnie ten sam obraz co Start ze14-wzrok-ku-drzwiom v004.",
+    "animation": "0.0–0.3s: Already looking up-left, both seated people make a small startled flinch without moving their tea glasses. 0.3–1.6s: Their eyes and then chins smoothly track an unseen point across the ceiling toward upper screen right. 1.6–2.7s: Both lower their chins and gaze toward the offscreen door on screen right, arriving at the exact supplied End Frame. 2.7–3.0s: Hold that mildly frightened pose. Camera: locked-off, one continuous shot. Secondary motion: shallow breathing and a tiny tea ripple. @Image1 anchors Czeslaw already on the left; @Image2 anchors Halinka already on the right. Preserve exact identities, hands, dry clothing, desk geometry and lettering. Avoid profile turns, spills, extra people, visible intruder, morphing or cuts."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 4,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze14-wzrok-ku-drzwiom"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-lup-na-dachu/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-lup-na-dachu/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze14-lup-na-dachu",
+        "character:czeslaw",
+        "character:halinka"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-lup-na-dachu/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-lup-na-dachu/frame-end-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

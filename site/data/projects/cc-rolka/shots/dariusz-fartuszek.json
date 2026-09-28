@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:cc-rolka/dariusz-fartuszek",
+  "id": "dariusz-fartuszek",
+  "title": "Dariusz piecze z czułością",
+  "description": "Dariusz nuci z zamkniętymi oczami, mieszając masę w groteskowo delikatnym stroju.",
+  "project": {
+    "id": "cc-rolka",
+    "name": "CC-Rolka"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "kuchnia-odjazd"
+    },
+    {
+      "type": "character",
+      "id": "grimskald"
+    }
+  ],
+  "prompts": {
+    "image": "Native vertical 9:16 frame in the same late-1990s Polish kitchen. Exact Dariusz blissfully stirs thick cake batter in one large ceramic bowl, eyes almost closed. He wears the identical thick opaque pale-pink bib apron with one red heart covering collarbone, chest, stomach and front to mid-thigh, plus opaque high-waisted red satin athletic shorts fully covering waist, crotch, hips and buttocks; no shirt. Hairy shoulders and arms are visible but nipples and chest front remain covered. Medium shot from mid-thigh to head, bowl and hands lower-middle, face upper-middle, cake tins and pastry bag foreground. Exact photorealism, warm tungsten and subtle S-VHS/16 mm texture. No white T-shirt, nudity, text or artifacts.",
+    "endFrameDescription": "",
+    "animation": "2.5-second medium shot. Dariusz stirs the thick batter in a steady circle, gently sways one hip and hums with eyes half closed; his braid moves naturally. Keep the camera almost static and preserve identity, clothes, bowl, tools and kitchen. No new objects, cuts, morphing, text or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:kuchnia-odjazd",
+        "character:grimskald"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/dariusz-fartuszek/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/dariusz-fartuszek/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-11/maia-przejazd-przez-lazy",
+  "id": "maia-przejazd-przez-lazy",
+  "title": "Przejazd przez Łazy",
+  "description": "Zewnętrzny tracking ciemnego hatchbacka Mai jadącego przez Łazy na super galę.",
+  "project": {
+    "id": "zlote-emoji-11",
+    "name": "Złote Emoji #11"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "maia-jedzie-na-gale"
+    },
+    {
+      "type": "shot",
+      "id": "maia-przed-remontem"
+    },
+    {
+      "type": "place",
+      "id": "lazy"
+    },
+    {
+      "type": "note",
+      "id": "movie-shot"
+    }
+  ],
+  "prompts": {
+    "image": "Zewnętrzny filmowy tracking 16:9 tego samego ciemnego hatchbacka co w shocie przy Domu Kultury. Auto jedzie spokojną ulicą Łazów w późnym popołudniu. Ujęcie trzy czwarte z boku; Maia v2 widoczna jako jedyna osoba za kierownicą, platynowo-lawendowy bob, ramoneska i kremowa koszula. Naturalne rozmycie kół i tła, realistyczne szkło, lakier i droga. Bez dominujących innych aut, tłumu, czytelnej tablicy rejestracyjnej, napisów i watermarku.",
+    "endFrameDescription": "",
+    "animation": "Single continuous 3-second exterior tracking shot. The camera moves smoothly parallel to the existing dark hatchback and keeps the car in the same part of the frame. The wheels rotate realistically, the street and trees travel backward with natural motion blur, and reflections slide continuously across the bodywork and windows. Maia remains the only visible occupant, looks at the road, and makes one small steering correction. Preserve the exact car model, wheel geometry, Maia's identity and outfit, the Polish small-town street, traffic direction, and late-afternoon light. No wheel deformation, floating car, changing vehicle, new passenger, new pedestrian, morphing, abrupt camera move, cut, text, or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:maia-jedzie-na-gale",
+        "shot:maia-przed-remontem",
+        "place:lazy",
+        "note:movie-shot"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-11/shots/maia-przejazd-przez-lazy/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-11/shots/maia-przejazd-przez-lazy/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

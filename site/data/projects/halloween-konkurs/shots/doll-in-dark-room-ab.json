@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:halloween-konkurs/doll-in-dark-room-ab",
+  "id": "doll-in-dark-room-ab",
+  "title": "AB — Spokojna lalka / światło przygasa",
+  "description": "Tło ogłoszenia konkursu, 1080×1920, 24 fps, 3 s. Układ AB/BA/AB/BA/AC: 15 s według bieżącego timeline. Górne 25% oraz dolne 25% ciemne, przeznaczone pod napisy dodawane w montażu; marginesy tekstu 10% po bokach. Wyłącznie łagodna zmiana światła poza kadrem, lalka nieruchoma. Ziarno jako wspólny efekt montażowy po złożeniu. Gotowe Start/End Frames i prompt; animacja niegenerowana.",
+  "project": {
+    "id": "halloween-konkurs",
+    "name": "Halloween Konkurs"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "doll-in-dark-room-ab"
+    }
+  ],
+  "prompts": {
+    "image": "Single vertical9:16 cinematic photoreal horror background plate for announcement text to be overlaid later, NO text in generated image. Modest old Polish house room at night, muted plaster wall with subtle worn texture, dark brown wooden floor, quiet restrained eerie mood, not an American haunted mansion. A small antique porcelain DOLL with aged ivory face, dark glass eyes, shoulder-length faded brown hair, faded simple cream dress sits on an old modest wooden chair centred in image. Doll is inanimate, head turned 15 degrees toward SCREEN LEFT, eyes looking off-camera left, both small hands resting motionless on lap. Doll and chair concentrated in CENTRAL VERTICAL BAND between y=30% and y=72%; enough scale to read face but NOT filling entire frame. TOP25% is uninterrupted near-black matte plaster wall, low contrast, no lamps or windows or props. BOTTOM25% is deep shadow on empty floor, no bright objects, smooth quiet low-contrast space for white typography later. Left and right 10% also unobtrusive. A weak warm lamp OUTSIDE frame left softly grazes doll cheek, small cool moonlight edge from offscreen right, deep shadows with subtle detail, tasteful restrained film grain, natural photographic materials. Camera fixed frontal, straight verticals, 50mm lens, no dutch angle. Simple composition: one doll one chair, no humans, no extra toys, no gore, no glowing eyes, no lettering, logos, watermark, borders or graphic panels. Fine-art psychological horror still, silence and negative space.",
+    "endFrameDescription": "B: dokładnie ta sama nieruchoma lalka i kamera; ciepłe światło z lewej łagodnie przygasło, chłodna krawędź minimalnie mocniejsza. Bez zmiany pozy i kompozycji.",
+    "animation": "Over 3 seconds, the offscreen warm light on the left gradually dims slightly while the cool light on the right gently strengthens, matching the supplied End Frame. The doll and chair remain motionless. Camera locked. Preserve the doll face, head direction, hands, dress and room geometry. Keep the upper and lower areas dark and empty. No blinking, breathing, camera movement, new objects or cuts."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/doll-in-dark-room-ab/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/doll-in-dark-room-ab/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:doll-in-dark-room-ab"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/doll-in-dark-room-ab/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/doll-in-dark-room-ab/frame-end-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

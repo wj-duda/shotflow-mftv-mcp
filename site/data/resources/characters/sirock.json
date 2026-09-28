@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "character:sirock",
+  "type": "characters",
+  "id": "sirock",
+  "name": "Sirock",
+  "description": "CHARACTER [age=30-38; presentation=feminine; height=average; build=slim; body=straight; chest=small; skin=pale; face=elongated-heart-oval; eyes=gray-green; hair-color=black; hair-length=long; hair-texture=straight-wet]\n\nKanoniczna czarnowłosa wersja Sirock w świecie AIMFTV. Dorosła wokalistka metalowa / nu-metalowa o szczupłej, żylastej sylwetce i spokojnej, zamkniętej postawie. Jej stabilne rysy są syntezą awatarów z klipu „A Little Unbalanced”, ze szczególnym uwzględnieniem ujęć za skorodowanymi prętami: wąska, wydłużona twarz o lekko sercowatym owalu, blade szczupłe policzki, duże migdałowe zielonoszare oczy lekko opadające ku zewnętrznym kącikom, cienkie łukowate brwi, zwarty wąski nos z miękko zaokrąglonym czubkiem, mocny łuk Kupidyna, pełna dolna warga i delikatnie spiczasty podbródek. Nie może przypominać Zośki. Długie czarne włosy są mokre i rozdzielone na cienkie pasma, z nieregularną grzywką opadającą na oczy. Makijaż jest brudny i ciężki, grafitowoczarny, rozmazany pod dolnymi powiekami; usta ciemne, winno-czarne. Opętanie sygnalizuje wyłącznie włosowata, przygaszona żarowa obręcz na skraju tęczówek — detal łatwy do przeoczenia. Bez rogów, kłów, ran i jawnie potwornych deformacji. Strój bazowy: czarny dopasowany top gorsetowy, czarne jeansy, ciężkie sznurowane buty, wąski choker i kilka cienkich srebrnych łańcuszków. `character:sirock-blond` przedstawia dokładnie tę samą osobę z popielatym blondem i ciemnymi odrostami. W historii finału sezonu 2 Sirock jest ofiarą bytu związanego ze sługami Diablo, nie właściwą antagonistką.",
+  "images": [
+    {
+      "id": "image-005",
+      "role": "portrait",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/sirock/image-005.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/sirock/image-005-thumb.webp",
+      "width": 1149,
+      "height": 1369,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-006",
+      "role": "silhouette",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/sirock/image-006.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/sirock/image-006-thumb.webp",
+      "width": 1149,
+      "height": 1369,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-26T18:45:00+02:00"
+}

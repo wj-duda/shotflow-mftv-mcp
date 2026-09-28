@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "prop:artefakt-k20",
+  "type": "props",
+  "id": "artefakt-k20",
+  "name": "Artefakt K20",
+  "description": "Canonical reference for the magical K20 from the season 1 finale. FIXED SIZE IN EVERY SHOT: exactly 3.0 cm from one vertex to the opposite vertex and approximately 2.5 cm between parallel faces. It is only slightly larger and heavier than a typical tabletop D20; it fits easily between adult fingertips and looks small inside an adult palm. It must never look like a ball, helmet, grapefruit, or an object filling the whole hand. Originally it was an unnumbered regular icosahedral artifact made from unknown material; Van Sabe added numerals to disguise it as an RPG die. Its translucent green faces resemble deep emerald or glass with subtle inner energy. Edges and numerals are aged gold or brass. Face 20 is the main activation motif and glows green-gold when active. Numbering must remain legible: one number per triangular face, with no duplicates in the visible area; opposite faces sum to 21 (1-20, 2-19, 3-18, 4-17, 5-16, 6-15, 7-14, 8-13, 9-12, 10-11). The reference image shows only 20, 9, 14, 2, 17 and 6.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/artefakt-k20/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/artefakt-k20/image-001-thumb.webp",
+      "width": 1254,
+      "height": 1254,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-08-17T22:52:15.3821704+00:00"
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-sezon-1/prolog-13b-pipa-cmoka-ze-zlosci",
+  "id": "prolog-13b-pipa-cmoka-ze-zlosci",
+  "title": "Pipa rozumie moc artefaktu",
+  "description": "Bezpośrednia reakcja po uderzeniu. Pipa siedzi osunięta pod ścianą przy wejściu, oszołomiona, ale wściekła; karabin leży kilka metrów dalej poza jej zasięgiem. Zielone światło portalu pada na jej twarz, gdy ze złością cmoka i rozumie, że Van ma drogę ucieczki.",
+  "project": {
+    "id": "zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1"
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "laidy-pipa"
+    },
+    {
+      "type": "prop",
+      "id": "artefakt-k20"
+    },
+    {
+      "type": "place",
+      "id": "iquitos-tani-pensjonat-belen"
+    },
+    {
+      "type": "shot",
+      "id": "prolog-13-drzwi-w-scianie"
+    }
+  ],
+  "prompts": {
+    "image": "Bezpośrednia kontynuacja shota 13. Dokładna Pipa jest osunięta pod prawą ścianą po uderzeniu falą K20, potargana i wściekła. Nie trzyma broni; karabin leży rozmyty kilka metrów dalej. Zielone światło portalu pada na jej twarz, gdy cmoka ze złością.",
+    "endFrameDescription": "",
+    "animation": "One continuous locked-camera aftermath close-up lasting about 2.5 seconds. Pipa is already half-seated and slumped against the wall after the impact, dazed and barely conscious. She takes one shallow breath. Without lifting her head, she slowly raises only her gaze and gives one very brief, resentful look from beneath heavy, half-closed eyelids toward Van's escape route; her eyes struggle to focus and she makes a faint irritated tongue click. Immediately afterward the focus leaves her eyes, her eyelids close fully, the tension drains from her face, her chin drops and her head rolls gently to one side against the wall. Her shoulders and arms go completely limp and she remains motionless, clearly unconscious but breathing. Her loose braids settle naturally while emerald portal light flickers softly across her face. The rifle stays on the floor several feet away and out of reach. Preserve her exact identity, facial anatomy, costume, body position, wall, lighting and continuity. The loss of consciousness must be subtle and physically realistic, not theatrical: no sudden snap, seizure, pain scream, death, injury transformation or exaggerated eye roll. No standing up, reaching for the weapon, weapon in hands, firing, Van entering frame, magic emitted by her, morphing, extra limbs, camera movement, cuts, captions, logos or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "character:laidy-pipa",
+        "prop:artefakt-k20",
+        "place:iquitos-tani-pensjonat-belen",
+        "shot:prolog-13-drzwi-w-scianie"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-13b-pipa-cmoka-ze-zlosci/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-13b-pipa-cmoka-ze-zlosci/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

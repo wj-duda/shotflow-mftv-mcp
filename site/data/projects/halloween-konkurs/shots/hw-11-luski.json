@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:halloween-konkurs/hw-11-luski",
+  "id": "hw-11-luski",
+  "title": "11 — Przebitka / łuski na parkiecie",
+  "description": "Gotowy Start Frame 1080×1920. Bez take’a. Planowany montaż: 13.25–14 s; 18 klatek / 24 fps. Planowany take: 3 s, wykorzystanie od początku. Mikroprzebitka przy butach Zosi. Kilka łusek z poprzedniej serii odbija się od parkietu. Bez twarzy i bez nowej czynności bohaterki. Eliptyczna wstawka z końcówki strzelania; montaż nie wymaga dodatkowego strzału. Kamera: Nieruchomy detal podłogi; cięcie na metaliczny akcent. Dialog do osobnego nagrania: brak. Start Frame wygenerowany wbudowanym generatorem i zweryfikowany. Animacja bez natywnego audio; wypowiedzi, lipsync i SFX opracować osobno. Wstawiono na V1 timeline: sekwencja 25 sekund, 24 fps. ",
+  "project": {
+    "id": "halloween-konkurs",
+    "name": "Halloween Konkurs"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "hw-08-zosia-wejscie"
+    }
+  ],
+  "prompts": {
+    "image": "Single photorealistic vertical 9:16 cinematic INSERT, camera almost on parquet floor. Reference supplies exact worn black lace-up boot, black jean cuff, warm herringbone parquet and hallway doorway lighting. Very close shot of just ONE Zosia black boot in upper left third, planted on same floor, jeans cut off above ankle. Exactly THREE small realistic empty brass spent rifle cartridge CASES (hollow cases, NO bullets attached) caught tumbling a few centimetres above parquet foreground, each separately visible and correctly small relative to boot. Floor in crisp focus beneath casings, warm lamp reflections, cool subtle edge light, shallow background. No face, rifle, other shoes or persons. Cinematic photographic freeze of tiny descending objects, no long motion trails. No blood, text, logos, watermark, collage. This is a brief low detail cut within the same action, preserve location materials, not studio.",
+    "endFrameDescription": "",
+    "animation": "0.0–0.75s: the three existing descending brass casings hit the parquet, bounce once and roll a short distance away from the stationary boot. Camera: locked floor insert. Secondary motion: only their moving reflections. 0.75–3.0s: the casings finish rolling and settle. No new casings spawn, no foot movement, no floating metal or reversed gravity. Continuity: preserve the supplied Start Frame identities, anatomy, clothing, prop geometry, furniture, lighting and existing lettering. No new people, duplicate bodies or props, extra limbs, morphing, cut, fade, captions or watermark. One continuous shot at normal speed."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:hw-08-zosia-wejscie"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-11-luski/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-11-luski/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

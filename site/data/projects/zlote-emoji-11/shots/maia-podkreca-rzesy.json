@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-11/maia-podkreca-rzesy",
+  "id": "maia-podkreca-rzesy",
+  "title": "Maia podkręca rzęsy",
+  "description": "Maia używa zalotki i z pełnym skupieniem dopracowuje rzęsy przed galą. W jej minie pojawia się pierwsze przekonanie, że wieczór znowu należy do niej.",
+  "project": {
+    "id": "zlote-emoji-11",
+    "name": "Złote Emoji #11"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "maia-makijaz"
+    },
+    {
+      "type": "character",
+      "id": "maia-melodies-v2"
+    },
+    {
+      "type": "place",
+      "id": "mieszkanie-po-afterze"
+    },
+    {
+      "type": "note",
+      "id": "movie-shot"
+    }
+  ],
+  "prompts": {
+    "image": "Filmowe zbliżenie 16:9 w mieszkaniu. Ta sama Maia v2 po nałożeniu ciemnej szminki używa prawidłowo ustawionej metalowej zalotki na górnych rzęsach jednego oka. Kremowa koszula, ramoneska nadal odłożona. Dokładna twarz, platynowo-lawendowy bob, mocny eyeliner, ciepłe światło toaletki i chłodne okno. Skupiona, lekko samouwielbiająca mina. Jedna osoba, realistyczna dłoń i narzędzie, bez uszkodzenia oka, duplikacji, słuchawek, tekstu i watermarku.",
+    "endFrameDescription": "",
+    "animation": "Single continuous 3-second close-up. Maia is alone and watches only her mirror. She gently squeezes the eyelash curler once, holds briefly, then releases it without pulling the eyelid. A tiny perfectionist tension appears between her brows. She opens that eye slightly wider, compares both lashes with a quick eye movement, and blinks once. One eyebrow lifts almost imperceptibly and a restrained asymmetric smile appears for an instant, then her mouth returns to neutral. Camera remains almost locked. Preserve her exact identity, eye anatomy, makeup, hair, clothing, curler geometry, mirror, and apartment. No eye deformation, theatrical smile, looking into camera, extra hand, extra person, morphing, cut, text, or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:maia-makijaz",
+        "character:maia-melodies-v2",
+        "place:mieszkanie-po-afterze",
+        "note:movie-shot"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-11/shots/maia-podkreca-rzesy/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-11/shots/maia-podkreca-rzesy/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

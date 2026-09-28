@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-12/ze12-02-uderzenie-w-remont",
+  "id": "ze12-02-uderzenie-w-remont",
+  "title": "02 — Uderzenie w remont",
+  "description": "Noc. Anioł w skali dorosłego człowieka, na głębokości budynku, tuż nad prawą wyrwą w dachu. Czarne płonące skrzydła i włosy, jasny garnitur. Trafia w istniejącą strefę remontu i znika wewnątrz. Gwałtowny lokalny wyrzut pyłu budowlanego, drobnego gruzu i rozdarcie plandeki; reszta budynku zachowana.",
+  "project": {
+    "id": "zlote-emoji-12",
+    "name": "Złote Emoji #12"
+  },
+  "references": [
+    {
+      "type": "note",
+      "id": "ciaglosc-remont-ze11"
+    },
+    {
+      "type": "shot",
+      "id": "ze12-02-uderzenie-w-remont"
+    },
+    {
+      "type": "shot",
+      "id": "ze12-01-upadek-aniola"
+    },
+    {
+      "type": "character",
+      "id": "aniol-wygnany"
+    }
+  ],
+  "prompts": {
+    "image": "Use case: precise-object-edit. Edit this exact 16:9 cinematic building shot. CORRECT ONLY the airborne angel scale and placement. Remove the existing gigantic foreground angel and its giant flame trail, restoring the night clouds seamlessly. Place the SAME ivory-suited black-haired angel with two black burning wings much farther away directly above the right roof repair opening. A real 1.8-metre adult AT THE BUILDING'S DEPTH: head-to-shoes length in image approximately 65 pixels on a 1920px-wide frame, comparable to the height of a single entrance door at that distance and less than half the height of the upper pink parapet. Entire angel including trailing folded wings and small flame wake must fit within about 95 pixels, only FIVE PERCENT of image width. He is NOT nearer to the camera. His head points down and slightly right toward roof opening, feet up-left. Head only about one body-length above the roof edge, just before impact. Keep ivory business suit, BLACK charred wings, BLACK hair and small orange flames; exact face need not be visible at this physically correct distance. Preserve ALL building pixels as closely as possible: camera perspective, size, roof renovation state BEFORE impact, lettering DOM KULTURY, REMONT ZAMKNIĘTE DO ODWOŁANIA, scaffolding, blue tarp, lamps, satellite, fence, moon and pavement. No dust or new damage yet, no camera reframing, no big fireball, no extra people, text or watermark.",
+    "endFrameDescription": "Anioł wewnątrz budynku. Nad prawą wyrwą gęsty, turbulentny obłok pyłu, drobny gruz w powietrzu i pył opadający przy rusztowaniu. Lokalnie powiększony otwór, zgięte górne rusztowanie, rozdarta opadająca plandeka.",
+    "animation": "0–0.7s: The small human-sized angel already descends head first down and right into the nearby roof repair opening, maintaining his physical scale relative to the building; he disappears inside. Camera remains locked at the same focal length. 0.7–1.5s: impact drives a forceful burst of pale masonry dust upward and sideways from this opening, tears the blue tarp and bends one upper scaffold bay inward. 1.5–3s: turbulent dust lobes expand over the right roof, fine powder tumbles down behind the fence and small brick fragments arc then fall, reaching the End Frame. Preserve the remaining facade, lamps, signs, satellite, fence and moon. No growing angel, fireball, total collapse, new people, extra limbs, morphing, cuts, captions or watermarks."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 4,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze12-02-uderzenie-w-remont"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-02-uderzenie-w-remont/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-02-uderzenie-w-remont/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze12-02-uderzenie-w-remont"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-02-uderzenie-w-remont/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-02-uderzenie-w-remont/frame-end-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

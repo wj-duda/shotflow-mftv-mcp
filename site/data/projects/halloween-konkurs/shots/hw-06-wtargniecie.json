@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:halloween-konkurs/hw-06-wtargniecie",
+  "id": "hw-06-wtargniecie",
+  "title": "06 — Zombie wpadają do salonu",
+  "description": "Drzwi puściły pod naporem. Prawe skrzydło wypadło z prowadnicy i opiera się krzywo o prawą ościeżnicę. Szara kurtka i granatowa bluza wpadają rozpędem; dokładnie osiem zombie. Widoczny zakres źródła: 0–1.5 s, 24 fps, 1080×1920. Gotowe kadry; animacja do wygenerowania. Natywne audio wyłączone, dialog i SFX osobno.",
+  "project": {
+    "id": "halloween-konkurs",
+    "name": "Halloween Konkurs"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "hw-04-wampiry-mocniej"
+    },
+    {
+      "type": "shot",
+      "id": "hw-05-szyba"
+    },
+    {
+      "type": "character",
+      "id": "horda-zombie-halloween"
+    },
+    {
+      "type": "shot",
+      "id": "hw-06-wtargniecie"
+    }
+  ],
+  "prompts": {
+    "image": "Edit this exact single vertical 9:16 action film frame. Keep exact eight zombie identities, clothes, Polish living room, sofa on left, dusk lighting and garden. Make entry a VIOLENT DOOR FAILURE under crowd pressure, not polite walking: central RIGHT sliding glazed door leaf has just broken its latch and pulled out of top rail. Its dark rectangular sash is knocked INWARD and to far RIGHT, leaning diagonally against right jamb, lower corner on threshold; shattered glazing remnants stay in that dislodged leaf. Clearly show displaced FRAME and bent latch, not merely a missing pane. The resulting gap stays clear. Grey jacket male pitches forward through opening, feet stumbling at threshold, arms thrown forward to catch himself, mouth open, jacket flying. Navy hoodie woman pressed immediately behind him bursting through same gap, other six crowded outside behind them, no new people. Strong low angle, camera retreat, controlled motion blur on hands and coat edges, sharp lead face. Glass granules scattering low over floor. All limbs physically plausible, no levitation, blood, text or watermark. Preserve other fixed panes intact. Camera and room geography match original.",
+    "endFrameDescription": "",
+    "animation": "0.0–1.5s: the grey-jacket man is already rushing through the broken doorway, taking two quick grounded steps toward camera. The navy-clad woman follows through the space behind him. Throughout 0.0–3.0s, every remaining standing zombie advances with short uneven steps and alternating shoulder movement; the back row feeds into the opening rather than holding a group pose. Camera: brisk backward tracking, maintaining the lead man's size. Secondary: loose glass falls to parquet; jacket hems lag behind bodies. @Image1 supplies identities only. Keep the dislodged right panel against the jamb and furniture fixed. Separate bodies negotiate the narrow opening. No frozen extras, synchronized marching, floating feet, restored glass, slow motion or cut."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:hw-06-wtargniecie"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-06-wtargniecie/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-06-wtargniecie/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

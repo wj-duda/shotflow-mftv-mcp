@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-13/ze13-02-czeslaw-pyta",
+  "id": "ze13-02-czeslaw-pyta",
+  "title": "Archiwum 60 s — ZE13 02 — co pani robi?",
+  "description": "Poza timeline’em wersji 42 s. Zachowany projekt wcześniejszego wariantu. Plan bliski Czesława przy kosztorysie. Patrzy znad kartki na Halinkę po prawej. Pytanie jest rzeczowe, bez kpin. Dialog do nagrania: Czesław: „Pani Halinko, co pani robi?” Etap projektu: zaprojektowany placeholder; Start Frame i take nie zostały wygenerowane.",
+  "project": {
+    "id": "zlote-emoji-13",
+    "name": "Złote Emoji #13"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "ze13-01-oczyszczanie"
+    },
+    {
+      "type": "character",
+      "id": "czeslaw"
+    }
+  ],
+  "prompts": {
+    "image": "Create exactly one photorealistic cinematic 16:9 START FRAME, target 1920x1080. Natural diffuse daylight through the missing roof, restrained 35mm texture, real skin and materials. Mandatory references in attachment order:\nImage 1: shot:ze13-01-oczyszczanie, established scene geography, props, light and costume continuity; change the framing/action only as specified below.\nImages 2 and 3: character:czeslaw, exact facial identity and full-body wardrobe/proportions. Reference-sheet labels and white studio backgrounds are not scene elements.\n\n65mm chest-up coverage of Czeslaw seated at the LEFT end of the exact master table. He occupies screen left and looks toward Halinka off-screen RIGHT. Both hands rest at the lower edge on the same paper and folder. No other person visible. Ruined wall and open daylight remain softly behind; preserve the dialogue axis. Start gaze just lifted from the paper, face clearly readable for later lip sync.\nKeep the hall roofless and ruined. Preserve all existing visible source lettering and logos on included scene objects; do not transplant reference-sheet annotations. No added people, repaired roof, supernatural light, oversized smoke, illustration, captions, watermark, montage or malformed anatomy. Mouths rest naturally before dialogue. No End Frame is required.",
+    "endFrameDescription": "",
+    "animation": "0–0.5s: Czeslaw lifts his eyes from the paper toward screen right. 0.5–3s: he holds an attentive questioning expression with one slight eyebrow lift. Keep his head almost still and lips relaxed for later synchronization. Camera: locked-off, one continuous shot. Secondary motion: natural breathing and minor fabric settling only. Continuity: preserve the exact identities, anatomy, costumes, props, ruined architecture, daylight and any visible lettering from Start Frame. Avoid new people, duplicate objects, extra limbs, face morphing, cuts, fades, captions and watermarks.\n@Element1 is czeslaw, already present; identity only, preserve the Start Frame pose, staging and wardrobe, and do not add a duplicate."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "placeholder",
+  "images": []
+}

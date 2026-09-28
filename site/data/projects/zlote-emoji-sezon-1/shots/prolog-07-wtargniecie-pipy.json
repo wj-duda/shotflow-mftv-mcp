@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-sezon-1/prolog-07-wtargniecie-pipy",
+  "id": "prolog-07-wtargniecie-pipy",
+  "title": "Pipa blokuje drzwi",
+  "description": "Bezposrednia kontynuacja pokoju z shota 06. Pipa wpada przez te same drzwi z karabinem, a Van dopiero podnosi sie na tym samym lozku. Poslanie pozostaje wgniecione i pogniecione; ten sam okragly stolik oraz mala K20 stoja w niezmienionym miejscu na pierwszym planie.",
+  "project": {
+    "id": "zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1"
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "laidy-pipa"
+    },
+    {
+      "type": "place",
+      "id": "iquitos-tani-pensjonat-belen"
+    },
+    {
+      "type": "shot",
+      "id": "prolog-06-pokoj-cisza"
+    }
+  ],
+  "prompts": {
+    "image": "Direct continuity from shot 06 using its exact room layout. Lady Pipa bursts through the same right-hand door with rifle aimed while exact Van has only begun sitting up on the same bed. Bedding stays visibly compressed and rumpled. The same round table and small 3 cm K20 remain at the identical foreground position.",
+    "endFrameDescription": "",
+    "animation": "One continuous 2-second static wide shot continuing shot 06. The right-hand door slams open, Pipa steps into its frame and raises the rifle; Van jolts awake and starts sitting up on the same bed, leaving the bedding rumpled. The round table and small 3 cm K20 remain fixed in the foreground. Preserve exact identities, anatomy, room geometry, furniture, bedding and prop scale. No firing, extra people, morphing, cuts, captions, logos or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "character:laidy-pipa",
+        "place:iquitos-tani-pensjonat-belen",
+        "shot:prolog-06-pokoj-cisza"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-07-wtargniecie-pipy/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-07-wtargniecie-pipy/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

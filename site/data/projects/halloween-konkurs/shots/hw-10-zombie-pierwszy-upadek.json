@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:halloween-konkurs/hw-10-zombie-pierwszy-upadek",
+  "id": "hw-10-zombie-pierwszy-upadek",
+  "title": "10 — Pierwszy zombie pada",
+  "description": "Widoczny skutek pierwszej serii: szara kurtka skręca się od trafienia, traci podparcie i uderza prawym bokiem o parkiet. Start i End blokują pełny upadek; siedmioro zombie pozostaje za nim. Widoczny zakres źródła: 0–1.25 s, 24 fps, 1080×1920. Gotowe kadry; animacja do wygenerowania. Natywne audio wyłączone, dialog i SFX osobno.",
+  "project": {
+    "id": "halloween-konkurs",
+    "name": "Halloween Konkurs"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "hw-06-wtargniecie"
+    },
+    {
+      "type": "character",
+      "id": "horda-zombie-halloween"
+    },
+    {
+      "type": "shot",
+      "id": "hw-10-zombie-pierwszy-upadek"
+    }
+  ],
+  "prompts": {
+    "image": "Precise background-only continuity correction, vertical 9:16 cinematic still. Image1 is the edit target; preserve every person exactly, all eight identities, expressions, body poses, clothing, small existing shoulder mark, interior lighting, sofa, table, cracks and damaged doorway. Image2 is PATIO GEOMETRY reference only, not character positions. Remove the artificial dense waist-high leafy bushes and excessive fairy-light dots filling the doorway around and between the standing zombies in image1. Replace that obstructing vegetation with the same open grey stone-paved terrace from image2: flat believable paving visible through gaps between people's legs and continuing back into garden. Show standing zombies' existing lower legs naturally where foliage formerly hid them; normal anatomy, feet on paving, no extra people or limbs. Keep real shrubs and trees only at the far garden border, the rear fence, shed and distant potted plant consistent with image2. Distant greenery subdued, softly out of focus, sparse warm garden light; no bright sparkling foliage wall. Natural photographic depth and restrained dusk contrast. Preserve camera crop and room exposure, glass fragments and all bullet damage. Do NOT copy fallen bodies from image2. No text.",
+    "endFrameDescription": "End10: pierwszy zombie leży; pozostała siódemka zmienia ciężar ciała, gesty i wykonuje krótkie kroki zamiast zachowywać pozy Start.",
+    "animation": "The grey-jacket zombie recoils from a bullet hit to his wounded shoulder and immediately collapses onto his side on the parquet. His jacket jerks at the wound, releasing a few blood droplets. The seven zombies behind him keep advancing. Slight handheld camera shake, real-time motion. Preserve the room and characters. No glowing bullet trails or slow motion."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 4,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:hw-10-zombie-pierwszy-upadek"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-10-zombie-pierwszy-upadek/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-10-zombie-pierwszy-upadek/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "revision": 5,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:hw-10-zombie-pierwszy-upadek"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-10-zombie-pierwszy-upadek/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-10-zombie-pierwszy-upadek/frame-end-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

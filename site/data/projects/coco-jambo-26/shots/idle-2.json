@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:coco-jambo-26/idle-2",
+  "id": "idle-2",
+  "title": "idle-2",
+  "description": "Drugi naturalny wariant powrotu od ostatniej klatki nod do jego pierwszej klatki.",
+  "project": {
+    "id": "coco-jambo-26",
+    "name": "Coco Jambo 26"
+  },
+  "references": [
+    {
+      "type": "take",
+      "id": "nod/take-1"
+    },
+    {
+      "type": "shot",
+      "id": "nod"
+    }
+  ],
+  "prompts": {
+    "image": "",
+    "endFrameDescription": "Return naturally from the last visible frame of nod to the original Start Frame of nod.",
+    "animation": "4s natural silent return from Start to End Frame. Czeslaw makes a tiny weight shift and blinks; Halinka makes a subtle head adjustment and settles. Both breathe naturally. Camera completely locked. Preserve faces, clothes and background. No speech, large gestures, cuts or morphing."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "reference",
+      "referenceKeys": [
+        "take:nod/take-1"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/coco-jambo-26/shots/idle-2/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/coco-jambo-26/shots/idle-2/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "revision": 1,
+      "source": "reference",
+      "referenceKeys": [
+        "shot:nod"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/coco-jambo-26/shots/idle-2/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/coco-jambo-26/shots/idle-2/frame-end-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ]
+}

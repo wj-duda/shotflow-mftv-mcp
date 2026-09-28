@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "note:aniol-przed-wygnaniem",
+  "type": "notes",
+  "id": "aniol-przed-wygnaniem",
+  "name": "Anioł — wygląd przed wygnaniem",
+  "description": "Ten sam człowiek co character:aniol-wygnany, zanim skrzydła i włosy osmalono. Jasne włosy i pierzaste skrzydła. Źródło stroju, proporcji i stopniowej przemiany w pierwszym swirl. Nie zmienia ustalonego stanu osmalonego postaci.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/aniol-przed-wygnaniem/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/aniol-przed-wygnaniem/image-001-thumb.webp",
+      "width": 1536,
+      "height": 1024,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-12T00:28:41.641594+00:00"
+}

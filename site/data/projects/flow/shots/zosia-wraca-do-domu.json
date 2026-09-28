@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:flow/zosia-wraca-do-domu",
+  "id": "zosia-wraca-do-domu",
+  "title": "zosia-wraca-do-domu",
+  "description": "zosia pakuje się z przystanku pol and rock i wsiada na statcji do pociągu, zachowaj pełne podobieństwo tej postaic co wkleiłem",
+  "project": {
+    "id": "flow",
+    "name": "Flow"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "tomasz"
+    }
+  ],
+  "prompts": {
+    "image": "Generate exactly one cinematic still image in landscape 16:9.\n\nCreate a variation of the previously generated Shot: tomasz.\nTreat that shot as the exact visual reference.\nPreserve the same character identity, clothing, location, camera position, framing, lighting, lens, composition, and visual style.\nReference shot description:\nzosia swzczęśliwa\nChange only what is requested in the new shot description below.\n\nShot: zosia-wraca-do-domu\nDescription:\nzosia pakuje się z przystanku pol and rock i wsiada na statcji do pociągu, zachowaj pełne podobieństwo tej postaic co wkleiłem\n\nDo not include text, captions, borders, contact sheets, or multiple panels.",
+    "endFrameDescription": "",
+    "animation": ""
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/flow/shots/zosia-wraca-do-domu/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/flow/shots/zosia-wraca-do-domu/frame-start-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ]
+}

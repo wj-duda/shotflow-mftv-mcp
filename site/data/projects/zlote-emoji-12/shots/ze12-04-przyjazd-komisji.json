@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-12/ze12-04-przyjazd-komisji",
+  "id": "ze12-04-przyjazd-komisji",
+  "title": "04 — Komisja Kultury Najwyższej",
+  "description": "Poranek. Dwie komisarzki idą od ulicy w stronę Domu Kultury, widziane od tyłu i w trzech czwartych. Zachowane biurowe stroje, fiolet, lenonki i teczki. Zatrzymują się przed ogrodzeniem remontu.",
+  "project": {
+    "id": "zlote-emoji-12",
+    "name": "Złote Emoji #12"
+  },
+  "references": [
+    {
+      "type": "note",
+      "id": "dom-kultury-po-upadku-ze12"
+    },
+    {
+      "type": "shot",
+      "id": "ze12-04-przyjazd-komisji"
+    },
+    {
+      "type": "character",
+      "id": "kkn-przewodniczaca"
+    },
+    {
+      "type": "note",
+      "id": "kkn-duet-biurowy-koncepcja"
+    },
+    {
+      "type": "character",
+      "id": "kkn-inspektorka"
+    }
+  ],
+  "prompts": {
+    "image": "Use case: identity-preserve. Correct the walking direction in this exact cinematic 16:9 scene. Preserve the Dom Kultury facade, renovation damage, fence, signs, morning light and camera location looking from street toward building. Show the SAME TWO female commissioners from BEHIND in three-quarter REAR VIEW, walking AWAY FROM CAMERA FROM THE STREET TOWARD the building entrance and fence. They are foreground lower left/center with the entrance clearly ahead of their bodies; their feet, torsos, faces and gazes all point toward the building, never toward camera. Tall silver-bob chairwoman slightly ahead with long black coat and slim folio in left hand; shorter dark-bun inspector behind with short boxy black jacket, purple cuffs, wide trousers and accordion briefcase. Preserve exact identities, hair, heights, wardrobe and props despite rear view. Camera stays on street side; do not put building behind the women's direction of travel. Full or three-quarter body, clear spatial storytelling, quiet formidable approach. No third person, cars, new signs, changed architecture, watermark or collage.",
+    "endFrameDescription": "",
+    "animation": "5-second continuous shot. 0–4s: the two female officials walk away from the locked street camera toward the building entrance, taking two measured steps. The silver-bob chairwoman stays half a step ahead. 4–5s: they stop before the construction fence. Light natural coat and glasses-chain sway; folio and accordion briefcase remain closed in the same hands. Building, roof damage, fence and all sign lettering remain stationary and unchanged. Neither woman turns to face the camera. No male official or speech. Preserve exact identity, anatomy, clothing, props and set geometry. No new people, extra limbs, morphing, cuts, captions or watermarks.\n\n@Image1 identifies the silver-bob chairwoman already on screen right; @Image2 identifies the shorter dark-bun inspector already on screen left. Use portraits for identity only; retain the rear view, exact current clothing, bags and building from Start Frame."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 4,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze12-04-przyjazd-komisji"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-04-przyjazd-komisji/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-04-przyjazd-komisji/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

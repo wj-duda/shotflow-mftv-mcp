@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "type": "notes",
+  "label": "Notatki",
+  "items": [
+    {
+      "key": "note:aniol-przed-wygnaniem",
+      "kind": "resource",
+      "type": "notes",
+      "id": "aniol-przed-wygnaniem",
+      "name": "Anioł — wygląd przed wygnaniem",
+      "summary": "Ten sam człowiek co character:aniol-wygnany, zanim skrzydła i włosy osmalono. Jasne włosy i pierzaste skrzydła. Źródło stroju, proporcji i stopniowej przemiany w pierwszym swirl. Nie zmienia ustalonego stanu osmalonego postaci.",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/aniol-przed-wygnaniem/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/aniol-przed-wygnaniem.json"
+    },
+    {
+      "key": "note:aniol-osmalony-ze12",
+      "kind": "resource",
+      "type": "notes",
+      "id": "aniol-osmalony-ze12",
+      "name": "Anioł ZE12 — stan po osmaleniu",
+      "summary": "Migawka End Frame ze12-01-upadek-aniola. Referencja dokładnej tożsamości, stroju oraz czarnych skrzydeł i włosów po osmaleniu. Służy ciągłości przy uderzeniu w budynek. Projekt oryginalny oparty na opisie autora, nie rekonstrukcja nieobejrzanego teledysku.",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/aniol-osmalony-ze12/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/aniol-osmalony-ze12.json"
+    },
+    {
+      "key": "note:aniol-wejscie-w-atmosfere-ze12",
+      "kind": "resource",
+      "type": "notes",
+      "id": "aniol-wejscie-w-atmosfere-ze12",
+      "name": "Anioł ZE12 — upadek głową w dół",
+      "summary": "Referencja osmalonego anioła spadającego głową w dół jak statek w atmosferze. Migawka nowego End Frame; tożsamość i kierunek dla zbliżenia bólu oraz dolotu do dachu.",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/aniol-wejscie-w-atmosfere-ze12/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/aniol-wejscie-w-atmosfere-ze12.json"
+    },
+    {
+      "key": "note:ciaglosc-remont-ze11",
+      "kind": "resource",
+      "type": "notes",
+      "id": "ciaglosc-remont-ze11",
+      "name": "Ciągłość remontu z ZE11",
+      "summary": "Referencja architektury i stanu remontu z ZE11, maia-przed-remontem, frame-start rewizja 2. Zachować fasadę, szyldy, ogrodzenie i rusztowania. Maia i samochód nie są elementami lokacji dla ZE12. Źródło: projects/zlote-emoji-11/shots/maia-przed-remontem/frames/frame-start/frame-v…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/ciaglosc-remont-ze11/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ciaglosc-remont-ze11.json"
+    },
+    {
+      "key": "note:dom-kultury-po-upadku-ze12",
+      "kind": "resource",
+      "type": "notes",
+      "id": "dom-kultury-po-upadku-ze12",
+      "name": "Dom Kultury — szkody po upadku anioła",
+      "summary": "Migawka End Frame ze12-02-uderzenie-w-remont. Referencja lokalnej prawej wyrwy, wygiętego rusztowania i rozdartej niebieskiej plandeki. Rano pył opadł i ogień wygasł; zachować geometrię budynku oraz zniszczeń.",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/dom-kultury-po-upadku-ze12/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/dom-kultury-po-upadku-ze12.json"
+    },
+    {
+      "key": "note:finale-sezonu-2",
+      "kind": "resource",
+      "type": "notes",
+      "id": "finale-sezonu-2",
+      "name": "FINALE_SEZONU2",
+      "summary": "# Finał sezonu 2 — wnioski i powiązania ## Status dokumentu Notka rozwojowa dla świata AIMFTV. Rozdziela decyzje autora od roboczych propozycji. ZE 14 ma jedynie zasiać finałową historię i nie może odkryć wszystkich kart. ## Decyzje autora — obowiązujące - Sirock wygrywa Złote E…",
+      "imageCount": 0,
+      "thumbnailUrl": null,
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/finale-sezonu-2.json"
+    },
+    {
+      "key": "note:kkn-duet-biurowy-koncepcja",
+      "kind": "resource",
+      "type": "notes",
+      "id": "kkn-duet-biurowy-koncepcja",
+      "name": "KKN — dwie urzędniczki, propozycja stroju",
+      "summary": "Propozycja rozwoju kostiumów: przewodnicząca i inspektorka. Twarze z istniejących Characters. Lenonki, fiolet i czerń zostają. Przewodnicząca: bardzo długi płaszcz, wysoki golf, cienki łańcuszek do okularów, płaska teczka. Inspektorka: krótka pudełkowa kurtka, szerokie spodnie n…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/kkn-duet-biurowy-koncepcja/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/kkn-duet-biurowy-koncepcja.json"
+    },
+    {
+      "key": "note:kompost",
+      "kind": "resource",
+      "type": "notes",
+      "id": "kompost",
+      "name": "Kompost",
+      "summary": "Firma kurierska jest parodią inpostu ale ogólnie firm kurierskich. Kurierzu jeżdzą czarnymi furgontkami do paczkomatów i mało kto ich kiedykowliek widiął bo jeżdzą tylko nocą. Jak się pojawiają eny robią się gangsterko niekopojące choć w scenie nic się nie dzieje. Ujęcia na koła…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/kompost/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/kompost.json"
+    },
+    {
+      "key": "note:plan-lokalu-zastepczego",
+      "kind": "resource",
+      "type": "notes",
+      "id": "plan-lokalu-zastepczego",
+      "name": "Lokal zastępczy — rzut z góry",
+      "summary": "Referencja geometrii tej samej lokacji place:lokal-zastepczy-domu-kultury. Obraz z góry, nie docelowy kadr filmu. Góra obrazu to tylna ściana, dół to strona kamery głównego widoku. Okno po lewej; jedyne drzwi po prawej blisko dolnego narożnika. Biurko pośrodku, dokładnie cztery…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/plan-lokalu-zastepczego/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/plan-lokalu-zastepczego.json"
+    },
+    {
+      "key": "note:movie-shot",
+      "kind": "resource",
+      "type": "notes",
+      "id": "movie-shot",
+      "name": "Movie",
+      "summary": "Create a naturalistic, photorealistic cinematic film still filling the entire 16:9 frame. Use believable practical lighting, authentic lens optics, realistic anatomy and materials, subtle 35 mm film grain, and restrained cinematic color grading. Preserve all text, lettering, lab…",
+      "imageCount": 0,
+      "thumbnailUrl": null,
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/movie-shot.json"
+    },
+    {
+      "key": "note:czeslaw-lokal-zastepczy-ze12",
+      "kind": "resource",
+      "type": "notes",
+      "id": "czeslaw-lokal-zastepczy-ze12",
+      "name": "ZE12 — Czesław w lokalu zastępczym",
+      "summary": "Czesław pije kawę i odbiera telefon w osobnym lokalu zastępczym poza Domem Kultury. Nie widział upadku anioła i nie zna przyczyny wizytacji. Telefon wywołuje lęk przed odwołaniem i zamknięciem placówki. Po odłożeniu słuchawki jedzie starą damką przez Łazy do Domu Kultury. Upadek…",
+      "imageCount": 0,
+      "thumbnailUrl": null,
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/czeslaw-lokal-zastepczy-ze12.json"
+    },
+    {
+      "key": "note:ze13-ruina-po-ze12",
+      "kind": "resource",
+      "type": "notes",
+      "id": "ze13-ruina-po-ze12",
+      "name": "ZE13 — ciągłość bezdachowej ruiny po ZE12",
+      "summary": "Zamrożona referencja architektury z aktywnego Start Frame v003 shota ze12-08-wieslaw-remont w projekcie zlote-emoji-12. Źródło: projects/zlote-emoji-12/shots/ze12-08-wieslaw-remont/frames/frame-start/frame-v003.png. Obraz dostarcza wyłącznie ruinę: sala niemal bez dachu, otwarte…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/ze13-ruina-po-ze12/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze13-ruina-po-ze12.json"
+    },
+    {
+      "key": "note:ze14-plan-baraku",
+      "kind": "resource",
+      "type": "notes",
+      "id": "ze14-plan-baraku",
+      "name": "ZE14 — blocking baraku i osie kamer",
+      "summary": "Rzut produkcyjny na podstawie kanonicznego planu lokalu i ujęcia dolacz-01-spojrzenie. Jedno biurko: Czesław z tyłu po lewej, Halinka z tyłu po prawej. Dwa krzesła petentów przed biurkiem. Sirock wchodzi jedynymi drzwiami na prawej ścianie od strony przedniej i staje przy prawym…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/ze14-plan-baraku/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze14-plan-baraku.json"
+    },
+    {
+      "key": "note:ze14-kanon-domu-kultury",
+      "kind": "resource",
+      "type": "notes",
+      "id": "ze14-kanon-domu-kultury",
+      "name": "ZE14 — elewacja historyczna; skalę zniszczeń określa ZE13",
+      "summary": "Historyczna referencja FRONTU: projects/zlote-emoji-12/shots/ze12-04-przyjazd-komisji/frames/frame-start/frame-v004.png. Żółta dolna i łososiowa górna elewacja, wejście, rusztowanie i plandeka określają rozpoznawalność budynku, NIE kompletny stan dachu. Wiążąca skala zniszczeń p…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/ze14-kanon-domu-kultury/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze14-kanon-domu-kultury.json"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "character:grimskald",
+  "type": "characters",
+  "id": "grimskald",
+  "name": "Pan Dariusz",
+  "description": "CHARACTER [age=30-44; presentation=masculine; height=tall; build=stocky; body=pear; chest=large; skin=light; face=square; eyes=blue; hair-color=red; hair-length=long; hair-texture=straight]\r\n\r\nPan Dariusz, opiekun klubu fantastyki w domu kultury. Potężnie zbudowany, ok. 188 cm, masywny, z długą rudobrązową brodą splecioną w warkocz, zaczesanymi włosami i prostokątnymi okularami. Nosi niebieską koszulę, ciemną kamizelkę, skórzane szelki, jeansy, ciężkie buty, przypinki, zegarek kieszonkowy i klucze przy pasie. Surowy, spokojny i sprawiedliwy; opiekuńczy, praktyczny, staroświecki, z cichym autorytetem i sentymentem do fantastyki. Często z kubkieb Yerbamate (bombilla \"Keep Calm\")",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "portrait",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/grimskald/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/grimskald/image-001-thumb.webp",
+      "width": 1122,
+      "height": 1402,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-002",
+      "role": "silhouette",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/grimskald/image-002.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/grimskald/image-002-thumb.webp",
+      "width": 1254,
+      "height": 1254,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-08-22T18:03:36.2366234+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "prop:m16-zosi",
+  "type": "props",
+  "id": "m16-zosi",
+  "name": "M16 Zosi — Halloween",
+  "description": "Stały rekwizyt filmowy do rolki Halloween Konkurs: jeden klasyczny czarny karabin typu M16, stała kolba, integralny uchwyt transportowy, długie czarne łoże i krótki prosty magazynek. Zużyta matowa powierzchnia. Zachować dokładny wygląd referencji we wszystkich ujęciach, bez optyki, tłumika i dodatkowych akcesoriów. Obraz generowany jest wzorcem wizualnym rekwizytu, nie dokumentacją techniczną. Zosia zachowuje zwyczajny metalowy strój; broń nie zmienia polskiej lokacji w amerykańskie suburbium. Pochodzenie broni w fabule pozostaje niewyjaśnione. Prompt: generation-history/prompt-v001.txt.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/m16-zosi/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/m16-zosi/image-001-thumb.webp",
+      "width": 1536,
+      "height": 1024,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-20T15:14:15.358677+00:00"
+}

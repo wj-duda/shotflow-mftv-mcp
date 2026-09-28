@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-sezon-1/epilog-05-decyzja-o-dotacji",
+  "id": "epilog-05-decyzja-o-dotacji",
+  "title": "Epilog 05 Decyzja O Dotacji",
+  "description": "Ekstremalne zbliżenie suchej, lekko pogniecionej decyzji trzymanej przez Czesława. Czytelny nagłówek informuje o przyznaniu dotacji na rozbudowę, a wyróżniony akapit uzasadnia ją wybitnymi zasługami artystycznymi Domu Kultury AIMFTV i szczególnym wkładem w rozwój kultury lokalnej. Środki są przeznaczone na nową salę widowiskową, zaplecze techniczne i przestrzeń dla nowych inicjatyw kulturalnych — nie na odbudowę po zniszczeniach. Papier, dłoń i rękaw są całkowicie suche; nie pada i w kadrze nie ma żadnych śladów deszczu. Statyczny urzędowy insert potwierdza, że katastrofalny finał paradoksalnie doprowadził do oficjalnej decyzji o dalszym rozwoju instytucji.",
+  "project": {
+    "id": "zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1"
+  },
+  "references": [],
+  "prompts": {
+    "image": "Use case: precise-object-edit / lighting-weather. Asset type: Start Frame revision 3 for a photorealistic cinematic 16:9 film insert. Input image: frame-v002.png is the edit target.\n\nRemove only all water and every trace of rain. Make the document, hand, fingernails, cuff, black sleeve and surrounding scene completely dry. The paper remains naturally matte, slightly worn, folded and lightly crumpled, but has no droplets, beads, rivulets, wet patches, water stains, glossy moisture, smeared ink, damp translucency or rain damage. The skin and sleeve have no droplets or wet sheen. The blurred background is dry and contains no rain streaks, mist or wet reflections.\n\nPreserve exactly the complete composition, crop, camera angle, paper outline and tilt, folds and creases, single weathered male hand, finger placement and anatomy, black sleeve, gray blurred background geometry, neutral overcast daylight, exposure, muted palette, lens and depth of field. Preserve every printed character, line break, font, size, alignment, spacing and signature exactly as shown in frame-v002.png, including verbatim: “DECYZJA O PRZYZNANIU DOTACJI NA ROZBUDOWĘ”; “W uznaniu wybitnych zasług artystycznych oraz szczególnego wkładu w rozwój kultury lokalnej przyznaje się Domowi Kultury AIMFTV dotację celową na rozbudowę siedziby i poszerzenie działalności artystycznej.”; “Środki przeznacza się na budowę nowej sali widowiskowej, zaplecza technicznego oraz przestrzeni dla nowych inicjatyw kulturalnych.” Preserve the recipient block, legal filler, case number, date and signature area exactly.\n\nChange nothing except removal of moisture and rain evidence. Do not rewrite, reflow, distort, blur, add or remove any text. Do not remove the paper's dry physical creases or ordinary age. No new hands, pages, objects, seals, logos, captions, subtitles, borders, UI or watermark.",
+    "endFrameDescription": "",
+    "animation": "static shot of the letter, subtle zoom on the letter"
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 3,
+      "source": "generated",
+      "referenceKeys": [],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/epilog-05-decyzja-o-dotacji/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/epilog-05-decyzja-o-dotacji/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

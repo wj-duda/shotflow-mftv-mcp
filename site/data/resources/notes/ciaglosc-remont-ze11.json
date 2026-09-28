@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "note:ciaglosc-remont-ze11",
+  "type": "notes",
+  "id": "ciaglosc-remont-ze11",
+  "name": "Ciągłość remontu z ZE11",
+  "description": "Referencja architektury i stanu remontu z ZE11, maia-przed-remontem, frame-start rewizja 2. Zachować fasadę, szyldy, ogrodzenie i rusztowania. Maia i samochód nie są elementami lokacji dla ZE12. Źródło: projects/zlote-emoji-11/shots/maia-przed-remontem/frames/frame-start/frame-v002.png.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/ciaglosc-remont-ze11/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/ciaglosc-remont-ze11/image-001-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-11T23:11:37.531790+00:00"
+}

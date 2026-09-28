@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:cc-rolka/foremka-serce",
+  "id": "foremka-serce",
+  "title": "Czuła rozetka",
+  "description": "Ogromne dłonie Dariusza wyciskają jedną małą kremową rozetkę na torcie.",
+  "project": {
+    "id": "cc-rolka",
+    "name": "CC-Rolka"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "maslo-taniec"
+    },
+    {
+      "type": "prop",
+      "id": "ciasto-dariusza"
+    }
+  ],
+  "prompts": {
+    "image": "Native vertical 9:16 tabletop macro in the same late-1990s kitchen. Dariusz's enormous flour-dusted hands squeeze and guide one pastry bag, piping one half-formed warm-white rosette onto the exact pink cake. The cake fills the lower two-thirds and its central red heart remains visible. Both complete hands and nozzle are inside frame; a strip of opaque pink heart apron and reddish beard tip remain softly out of focus above. Exact photoreal tactile flour, frosting and skin with warm tungsten and restrained S-VHS grain. Two correct hands, one bag, one cake, no white T-shirt, nudity, extra fingers, text or artifacts.",
+    "endFrameDescription": "",
+    "animation": "2-second macro. Dariusz squeezes the pastry bag once and guides the nozzle in one controlled circle, completing exactly one small cream rosette, then releases pressure. The cake and decorations remain stable. Realistic fingers and frosting physics; no extra hands, cuts, morphing, text or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:maslo-taniec",
+        "prop:ciasto-dariusza"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/foremka-serce/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/foremka-serce/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

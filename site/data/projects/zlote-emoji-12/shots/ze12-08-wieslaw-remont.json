@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-12/ze12-08-wieslaw-remont",
+  "id": "ze12-08-wieslaw-remont",
+  "title": "Wiesław — wieczny remont",
+  "description": "Epilog wewnątrz niemal całkowicie pozbawionej dachu ruiny sali Domu Kultury. Nad gruzowiskiem otwarte niebo, pojedyncze resztki belek i poszarpane szczyty ścian. Bliższy kadr do piersi Wiesława: dominująca, ostra twarz ze zmęczoną miną; taczka głównie poniżej kadru. Trzy osoby KKN mniejsze i miękko rozmyte w tle: fioletowa taśma i oględziny. Anioła i Czesława nie ma. 8 s. Tekst Wiesława pod nosem: „Najpierw kosmici, potem anioły… W takim tempie nigdy nie skończymy tego remontu”. Dialog do późniejszego nagrania i lipsyncu.",
+  "project": {
+    "id": "zlote-emoji-12",
+    "name": "Złote Emoji #12"
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "wieslaw-majster"
+    },
+    {
+      "type": "note",
+      "id": "kkn-duet-biurowy-koncepcja"
+    },
+    {
+      "type": "shot",
+      "id": "ze12-05b-protokolant-fotografuje"
+    },
+    {
+      "type": "character",
+      "id": "kkn-przewodniczaca"
+    },
+    {
+      "type": "character",
+      "id": "kkn-inspektorka"
+    },
+    {
+      "type": "character",
+      "id": "kkn-protokolant"
+    },
+    {
+      "type": "prop",
+      "id": "kkn-sygnet"
+    },
+    {
+      "type": "prop",
+      "id": "leica-m3"
+    },
+    {
+      "type": "shot",
+      "id": "ze12-08-wieslaw-remont"
+    },
+    {
+      "type": "place",
+      "id": "dom-kultury-sala"
+    }
+  ],
+  "prompts": {
+    "image": "Use case: compositing. Edit image1 (current film frame), with image2 as the exact facial identity reference for Wieslaw. Two required changes: the hall is now practically a roofless RUIN, and the shot is much closer to Wieslaw's face. 16:9 photorealistic cinematic medium close-up, 50mm lens at his eye level. Wieslaw occupies left half, cropped around lower chest, his head from top margin to near vertical center, face sharply detailed, same exact balding grey hair, large drooping grey-rust moustache, bulbous nose, weathered ruddy skin and tired practical expression. Same mustard sweater, olive quilted vest, blue overalls/red pencil. Looking just down past camera, not posed for portrait, mouth unobstructed for later dialogue. He still handles wheelbarrow below frame; only tiny out-of-focus lip/handle may enter bottom edge, do not widen to show cart. Right half and upper background reveal the SAME former Dom Kultury hall but catastrophically wrecked: OVER NINETY PERCENT OF ROOF AND CEILING GONE, broad open pale morning sky across upper background, only two or three snapped beam stubs projecting from jagged standing wall tops, no continuous ceiling or surviving roof sheet overhead. Huge irregular piles of bricks, fractured plaster, shattered roof timbers cover former parquet. Remaining ochre walls with dark green dado establish we stand within building footprint, not exterior street. Damaged remnants of stage and torn burgundy curtains far behind, recognizable but subordinate. No neat usable auditorium, intact screen or lit wall lamps. Three existing KKN personnel smaller and softly out of focus on right, same two women and bald male photographer, same black/violet wardrobe, badges on anatomical left chest, violet-white barrier tape, silver-black Leica M3. Inspector securing tape, leader inspecting rubble, photographer photographing few burned black feathers. Preserve exact four people only. Face is dominant and tack sharp while background is gently soft but damage and commissioner activities legible; natural diffuse open-sky light, restrained film color. No angel, body, Czeslaw, additional people, text overlays, watermark. Single frame, no panels.",
+    "endFrameDescription": "",
+    "animation": "0–3s: Wieslaw slowly pushes the wheelbarrow one short step toward camera, hands remaining below the lower edge; his shoulders sway subtly with the effort. 3–8s: he settles, glances down once and exhales through his nose, maintaining a weary matter-of-fact expression. Camera tracks backward gently to keep the same chest-up framing and sharp face throughout. Background inspector draws a short length of violet tape; chairwoman remains studying rubble; photographer presses the Leica shutter once. Preserve all four identities, natural anatomy, clothing, left-chest badges and camera. Background remains softly focused. Ruined walls, broken beam remnants, open sky, rubble and curtains remain fixed in constant daylight. No roof reconstruction, further collapse, new people, angel, extra limbs, facial morph, cuts, captions or watermarks. @Image1 man is mumbilng with disgusted face expression."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 3,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze12-08-wieslaw-remont",
+        "character:wieslaw-majster"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-08-wieslaw-remont/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-08-wieslaw-remont/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "prop:roj-dzieci-gwiazd",
+  "type": "props",
+  "id": "roj-dzieci-gwiazd",
+  "name": "Rój Dzieci Gwiazd",
+  "description": "Kanoniczna plansza konstrukcyjna roju atakującego Dom Kultury. Rój ma dokładnie cztery rozpoznawalne jednostki: jeden kolosalny statek-matkę oraz trzy mniejsze statki szturmowe o identycznej geometrii, różniące się wyłącznie kolorem pojedynczego organu słabego punktu. Wszystkie należą do tej samej biologicznej linii: nie są metalowymi pojazdami, lecz ciemnymi, półorganicznymi istotami-statkami z niebieskoczarnym chitynowym pancerzem, żebrowaniem, krótkimi bocznymi płetwami i segmentowanym tyłem zakończonym pięcioma cienkimi witkami. Poruszają się bez silników, płomieni, dysz i machania skrzydłami.\n\nMAŁE STATKI: każdy ma 14 m długości, 6 m szerokości i 4 m grubości. Sylwetka przypomina spłaszczoną włócznię lub mantę: ostry dziób, symetryczne żebra pancerza, po jednej krótkiej płetwie z każdej strony i dokładnie pięć tylnych witek. Na spodzie przedniej części znajduje się jeden owalny, świecący organ celu o średnicy około 1,2 m. Statek lewy ma organ żółty, środkowy niebieski, a prawy różowo-czerwony. Nie mają innych kolorowych świateł. Każdy mały statek może zostać zniszczony wyłącznie pociskiem odpowiadającym kolorowi jego organu.\n\nSTATEK-MATKA: ma około 70 m długości, 28 m szerokości i 16 m grubości. Zachowuje tę samą spłaszczoną, żebrowaną anatomię, ale ma cięższe warstwy pancerza, większe boczne płaty oraz dłuższy, gęstszy ogon z witek. Nie ma widocznego kolorowego słabego punktu. Przetrzymuje trzy zwykłe trafienia Belicosy i dematerializuje się dopiero po uruchomieniu K20.\n\nReferencja utrwala proporcje, wspólną anatomię i kod kolorystyczny. Nie dodawać oczu, ust, kończyn, kabin, okien, napisów, logotypów, mechanicznych dział, interfejsu gry ani kolejnych statków. Kolorowe organy nie są emotkami ani pikselami — są organicznymi słabymi punktami.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/roj-dzieci-gwiazd/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/roj-dzieci-gwiazd/image-001-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-08-19T07:43:30+02:00"
+}

@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-14/ze14-kruk-przeczucie",
+  "id": "ze14-kruk-przeczucie",
+  "title": "Kruk - przeczucie",
+  "description": "Dwusekundowy detal naturalnego kruka na starej belce. W tle nowa szeroka bryła Domu Kultury we wczesnej odbudowie według seed v005 i dwóch rzutów użytkownika: centralny przedsionek ze schodami, niskie skrzydła, bezdachowa sala, wolnostojący paczkomat po lewej przed elewacją. Pochmurna jesień. Bez magicznych oczu, postaci i ujawniania związku kruka z Sirock. Tylko Start Frame; audio i animacja niezmienione. Aktualizacja: intensywna ulewa, mokre powierzchnie i kałuże; kruk przemoczony, pióra mokre i sklejone, krople na dziobie.",
+  "project": {
+    "id": "zlote-emoji-14",
+    "name": "Złote Emoji #14"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "seed"
+    },
+    {
+      "type": "shot",
+      "id": "ze14-sirock-weszy"
+    },
+    {
+      "type": "shot",
+      "id": "ze14-kruk-przeczucie"
+    }
+  ],
+  "prompts": {
+    "image": "Precise weather/wetness edit of EXACT reference1 movie frame. Preserve composition, lens, all identity/face/body anatomy, poses, hands, gaze direction, furniture, architecture proportions, signs/text, door opening/hinge direction, trophy design/rotation and all props. No redesign or mirror. 16:9 photoreal cinematic, grey overcast daytime with readable faces. Heavy rain at empty construction site. Raven is SOAKING WET: natural black feathers clumped in water-heavy pointed bundles, bead droplets on head and beak, drips from belly and tail, same healthy anatomy and normal eye, same pose/perch. Timber saturated dark brown, wet rubble and visible rain streaks. Preserve exact new building backdrop and freestanding locker; no magic, no extra birds, no lightning.",
+    "endFrameDescription": "",
+    "animation": "0.0–0.6s: The perched raven opens its beak distinctly, briefly extends its neck toward screen right with a visible throat pulse, then fully closes its beak. 0.6–1.0s: A short still pause. 1.0–1.6s: It repeats the same beak opening, throat pulse and complete closure once. 1.6–3.0s: It holds its watchful pose with restrained breathing. Camera: locked close view. Secondary motion: rain drips from the beak and clumped feathers. Continuity: exactly two distinct beak-opening cycles within the first two seconds; preserve natural anatomy, normal dark eye, folded wings, feet gripping the same timber and unchanged construction site. Avoid takeoff, wing spreading, extra birds, glowing eyes, beak distortion or cuts."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 4,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze14-kruk-przeczucie"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-kruk-przeczucie/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-kruk-przeczucie/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

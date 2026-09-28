@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "place:lazy-kts-spoldzielcza-2",
+  "type": "places",
+  "id": "lazy-kts-spoldzielcza-2",
+  "name": "Łazy — KTS, Spółdzielcza 2",
+  "description": "Rzeczywisty budynek KTS przy ul. Spółdzielczej 2, 42-450 Łazy, woj. śląskie, powiat zawierciański. Referencja prawdziwego miejskiego otoczenia dla lokalu zastępczego AI MFTV. Aktywny obraz jest autentyczną fotografią z serwisu Gminy Łazy: boczna jasna elewacja, dwa rzędy ciemnych okien, szary cokół i drzewo przy narożniku. Widok od przyległego placu ku elewacji stanowi kotwicę dla tła za oknem; nie kopiować robót ziemnych z historycznej fotografii jako bieżącego stanu. Kontener biurowy nie jest udokumentowany na tym terenie — pozostaje elementem scenografii opowieści. Nie twierdzić, że fotografia pokazuje stan z września 2026. W sources zapisano dodatkowy widok budynku, mapę adresową i satelitarną oraz pełne URL. Źródło zdjęć: https://www.lazy.pl/kategorie/rewitalizacja-zdegradowanego-budynku-kts-w . Mapa: https://mapa.targeo.pl/spoldzielcza-2--ul/lazy-42-450/ulica . Wnętrze biura pozostaje osobnym place:lokal-zastepczy-domu-kultury.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/lazy-kts-spoldzielcza-2/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/lazy-kts-spoldzielcza-2/image-001-thumb.webp",
+      "width": 1000,
+      "height": 750,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-22T00:25:23.267344+00:00"
+}

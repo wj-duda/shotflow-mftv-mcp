@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:halloween-konkurs/hw-04-wampiry-mocniej",
+  "id": "hw-04-wampiry-mocniej",
+  "title": "04 — Wampiry!",
+  "description": "Gotowy Start Frame 1080×1920. Bez take’a. Planowany montaż: 3.75–4.5 s; 18 klatek / 24 fps. Planowany take: 3 s, wykorzystanie od początku. Powrót do szerokiego planu salonu z obojgiem bliźniaków. Odrobinę pochyla się do Marcela, wzrok nadal w prawo. To ostatnia kwestia przed akcją. W szerokim tle osiem zombie dociera do przeszklenia. Kamera: Nieruchomy szeroki plan po zbliżeniu Marcela; twarde cięcie na uderzenie w szybę. Dialog do osobnego nagrania: Mańka, mocniej: „Wampiry!”. Start Frame wygenerowany wbudowanym generatorem i zweryfikowany. Animacja bez natywnego audio; wypowiedzi, lipsync i SFX opracować osobno. Wstawiono na V1 timeline: sekwencja 25 sekund, 24 fps. Korekta użytkownika: powrót do szerokiego planu zamiast ponownego zbliżenia Mańki. Zombie w szarej kurtce dochodzi do prawego panelu.",
+  "project": {
+    "id": "halloween-konkurs",
+    "name": "Halloween Konkurs"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "hw-01-wilkolaki-ogrod"
+    },
+    {
+      "type": "place",
+      "id": "pokoj-manki-i-marcela"
+    }
+  ],
+  "prompts": {
+    "image": "Precise object edit of supplied vertical film still. Preserve camera, twins and their two hand-held rulebooks, faces, costumes, light, all furniture. Correct TWO continuity mistakes only: REMOVE the extra grey-jacket male zombie at FAR LEFT edge of the garden group (behind the potted tree). Keep the grey-jacket man with raised palm beside central window mullion unchanged. This leaves exactly EIGHT zombies: grey jacket raised palm, navy hoodie woman, bald beige sweater man, auburn woman black tee, elderly moustache olive coat man, grey curly rust jacket woman, bearded plaid man, denim jacket woman. Fill removed duplicate with existing garden naturally. Also REMOVE ALL books lying on coffee table, remove snack bowl and remote newly introduced there. Preserve the original two mugs, runner and potted plant. No other alterations. Single 9:16 photoreal movie frame.",
+    "endFrameDescription": "",
+    "animation": "0.0–0.75s: Marianna on the left makes one short inclination toward Marcel, keeping her Vampire book steady in one hand. Marcel holds his Werewolf book and her gaze. Outside, the grey-jacket figure reaches the right glass panel, the same seven companions pressing closer. Camera: locked wide shot. Secondary motion: Marianna’s hair settles. 0.75–3.0s: hold the argument poses and intact glass, no impact yet. Preserve identities, costumes, eight distinct zombies, furniture and book lettering. No new people, duplicated props, extra limbs, morphing, cut, captions or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:hw-01-wilkolaki-ogrod",
+        "place:pokoj-manki-i-marcela"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-04-wampiry-mocniej/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-04-wampiry-mocniej/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

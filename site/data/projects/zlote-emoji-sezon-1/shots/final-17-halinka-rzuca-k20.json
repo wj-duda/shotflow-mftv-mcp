@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-sezon-1/final-17-halinka-rzuca-k20",
+  "id": "final-17-halinka-rzuca-k20",
+  "title": "Final 17 — Halinka rzuca K20",
+  "description": "Halinka rzuca K20 na płaski kawałek betonu przed ruiną, gdy wszyscy utrzymują ten sam konkretny obraz ciasteczka.",
+  "project": {
+    "id": "zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1"
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "halinka"
+    },
+    {
+      "type": "prop",
+      "id": "artefakt-k20"
+    },
+    {
+      "type": "shot",
+      "id": "final-16-wszyscy-sie-skupiaja"
+    },
+    {
+      "type": "place",
+      "id": "dom-kultury-ruina-po-belicosie"
+    },
+    {
+      "type": "shot",
+      "id": "final-12b-dariusz-podaje-k20-halince"
+    }
+  ],
+  "prompts": {
+    "image": "Photorealistic live-action 16:9 locked low close shot 12 cm above a flat dust-covered concrete step outside the exact ruined Dom Kultury. Preserve Halinka's identity and red sleeve from the handoff, and the canonical K20 at exactly 3 cm. Her anatomically correct right hand enters from upper-right, holding the tiny inert emerald-and-aged-gold die between thumb and first two fingers 8-10 cm above the surface with a clear air gap, poised for a gentle tabletop roll. Die and fingertips are razor sharp; the group's lower legs and shoes form a still distant semicircle with a clean rolling lane. Cold storm ambience and warm entrance spill. No final face, glow, levitation, giant die, second hand, duplicate die, extra fingers, visible faces, text, UI, captions or watermark.",
+    "endFrameDescription": "",
+    "animation": "One continuous 4-second locked low shot. Halinka releases one gentle roll. The K20 tumbles naturally across the flat concrete and slows near camera while everyone remains still in concentration. Do not reveal the final face until the next shot. No second throw or camera follow."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "character:halinka",
+        "prop:artefakt-k20",
+        "place:dom-kultury-ruina-po-belicosie",
+        "shot:final-12b-dariusz-podaje-k20-halince"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-17-halinka-rzuca-k20/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-17-halinka-rzuca-k20/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "note:ze14-kanon-domu-kultury",
+  "type": "notes",
+  "id": "ze14-kanon-domu-kultury",
+  "name": "ZE14 — elewacja historyczna; skalę zniszczeń określa ZE13",
+  "description": "Historyczna referencja FRONTU: projects/zlote-emoji-12/shots/ze12-04-przyjazd-komisji/frames/frame-start/frame-v004.png. Żółta dolna i łososiowa górna elewacja, wejście, rusztowanie i plandeka określają rozpoznawalność budynku, NIE kompletny stan dachu. Wiążąca skala zniszczeń pochodzi z note:ze13-ruina-po-ze12, finału ZE12 i kadrów ZE13: niemal cała sala bez dachu, poszarpane ściany, resztki belek. Decyzja użytkownika dla ZE14: można pokazać postęp porządkowania i przywiezione materiały, ale nie odbudowany dach. Poprawione seed v003 i ze14-sirock-weszy v003 pokazują uprzątnięty pas, pozostały gruz po bokach oraz palety cegieł, worki i drewno po prawej. Nie używać samego tego historycznego frontu do ustalania skali zniszczeń.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/ze14-kanon-domu-kultury/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/ze14-kanon-domu-kultury/image-001-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-27T01:00:55.238Z"
+}

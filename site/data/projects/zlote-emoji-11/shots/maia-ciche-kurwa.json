@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-11/maia-ciche-kurwa",
+  "id": "maia-ciche-kurwa",
+  "title": "Ciche kurwa",
+  "description": "Zbliżenie Mai po przeczytaniu tablicy. Całe przygotowanie na galę zderza się z remontem; Maia zaciska szczękę i przez prawie nieruchome usta mówi ciche: kurwa.",
+  "project": {
+    "id": "zlote-emoji-11",
+    "name": "Złote Emoji #11"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "maia-przed-remontem"
+    },
+    {
+      "type": "shot",
+      "id": "maia-ciche-kurwa"
+    },
+    {
+      "type": "character",
+      "id": "maia-melodies-v2"
+    },
+    {
+      "type": "place",
+      "id": "dom-kultury-ruina-po-belicosie"
+    },
+    {
+      "type": "note",
+      "id": "movie-shot"
+    }
+  ],
+  "prompts": {
+    "image": "Fotorealistyczne filmowe zbliżenie 16:9 kontynuujące nową kanoniczną rewizję shota przed Domem Kultury. Maia v2 stoi przed rozmytym, lecz przestrzennie zgodnym frontem prawdziwego Domu Kultury w Łazach: kremowa fakturowana ściana, ciemnoróżowy górny pas, rusztowania i mały fragment niebieskiej plandeki przy środkowo-prawej naprawie. Zachować dokładną twarz, zielono-piwne oczy, krótki platynowo-lawendowy bob, eyeliner, ciemną szminkę, ramoneskę i kremową koszulę. Patrzy na tablicę poza kadrem; szczęka napięta, usta mocno zaciśnięte i lekko podwinięte do środka. Bez napisu AIMFTV, innego budynku, otwartego krzyku, szerokiej miny, dodatkowych osób, tekstu i watermarku.",
+    "endFrameDescription": "",
+    "animation": "Single continuous 3-second locked close-up. Maia keeps looking at the closure notice just outside the frame. She takes one minimal breath through her nose, her jaw tightens, and through almost motionless clenched lips she very quietly mouths one short word: 'kurwa.' The lip movement is tiny and realistic. Afterward she holds the stare in frustrated self-control for a brief beat, blinks once, and a faint breeze moves only a few hair ends. Preserve her exact face, platinum-lavender bob, makeup, black leather gala outfit, skin texture, background reconstruction, and lighting. No audible dialogue or generated audio, no shout, broad mouth movement, exaggerated anger, new person, facial morphing, camera move, cut, captions, text, or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:maia-przed-remontem",
+        "shot:maia-ciche-kurwa"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-11/shots/maia-ciche-kurwa/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-11/shots/maia-ciche-kurwa/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

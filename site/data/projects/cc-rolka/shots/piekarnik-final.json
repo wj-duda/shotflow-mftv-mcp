@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:cc-rolka/piekarnik-final",
+  "id": "piekarnik-final",
+  "title": "Dariusz prezentuje tort",
+  "description": "Dariusz podaje gotowy tort w stronę kamery z ceremonialną powagą.",
+  "project": {
+    "id": "cc-rolka",
+    "name": "CC-Rolka"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "maka-w-powietrzu"
+    },
+    {
+      "type": "character",
+      "id": "grimskald"
+    },
+    {
+      "type": "prop",
+      "id": "ciasto-dariusza"
+    }
+  ],
+  "prompts": {
+    "image": "Native vertical 9:16 comic climax in the same kitchen. Exact Dariusz solemnly presents the exact finished pink heart cake on its cream stand like a sacred relic. Huge correct hands support the stand; cake dominates lower-middle and face fills upper-middle. Identical fully covering opaque pink heart apron and opaque high-waisted red satin athletic shorts; no shirt, hairy shoulders and arms visible, nipples and chest front covered. The red heart on cake and apron rhyme in one frame. Exact photoreal late-1990s Polish TV music-comedy, warm golden backlight and subtle S-VHS/16 mm texture. One person, one cake, no nudity, white T-shirt, text or artifacts.",
+    "endFrameDescription": "",
+    "animation": "3-second slow ceremonial push-in. Dariusz advances the cake stand a few centimeters toward camera, steadies it, opens his eyes and gives one proud tiny nod. The cake decorations remain fixed and intact. Preserve identity, hands, clothes and kitchen; no dropped cake, cuts, morphing, text or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:maka-w-powietrzu",
+        "character:grimskald",
+        "prop:ciasto-dariusza"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/piekarnik-final/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/piekarnik-final/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

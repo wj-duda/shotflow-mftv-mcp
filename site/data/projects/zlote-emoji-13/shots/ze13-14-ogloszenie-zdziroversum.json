@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-13/ze13-14-ogloszenie-zdziroversum",
+  "id": "ze13-14-ogloszenie-zdziroversum",
+  "title": "ZE13 10 — Złote Emoji dla Zdziroversum",
+  "description": "Krótki łącznik do prezentacji nagrodzonego utworu. Czesław odczytuje laureata przy tym samym prowizorycznym stole w ruinie. Zdziroversum jest laureatem; LAIdy Pipa i dawny animowany awatar nie pojawiają się jako postacie tej sceny. Po ujęciu miejsce na oryginalny teledysk. Dialog: Czesław: „Złote Emoji Tygodnia otrzymuje Zdziroversum.” Klatki generowane bezpośrednio przez agenta; take nie został uruchomiony. Wariant ZE13: biały lekko zakurzony kask budowlany, dotychczasowy garnitur i okulary. Nowa wersja obrazu: dym niesiony lekko w lewo, pył w świetle, przygaszone tło i filmowa głębia.",
+  "project": {
+    "id": "zlote-emoji-13",
+    "name": "Złote Emoji #13"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "ze13-08-czeslaw-przeplyw"
+    },
+    {
+      "type": "character",
+      "id": "czeslaw"
+    },
+    {
+      "type": "prop",
+      "id": "kask-budowlany-czeslawa"
+    }
+  ],
+  "prompts": {
+    "image": "Single 1920x1080 16:9 cinema still. Image1 old target establishes ONLY exact action: seated Czeslaw holds ONE cream award sheet in both hands, gazing down at it, estimate flat on grey folder below. Image2 locks CURRENT same Czeslaw with white construction helmet, actual camera angle, suit, table and new cinematic light. Image3 locks white helmet design, image4 face. Compose EXACT same framing and lens as image2, full helmet visible, Czeslaw LEFT screen, empty space right. Preserve unchanged rumpled dark suit, beige shirt, loose tie, glasses. Same properly fitted dusty white helmet with forward short brim, curls visible sides. Sheet blank reverse toward camera, no invented title. Wallet is NOW at Halinka's end out of frame, no wallet beside Czeslaw. Visual language: atmospheric 35mm cinema still, gentle diffusion and halation ONLY on highlights, natural grain, muted colors, deep cool grey-teal shadows and selective warm amber backlight from upper-right rear through missing roof. Expose for light so background falls 1.5 stops darker, NOT evenly lit HDR or orange glossy commercial. Layers of translucent sage smoke drift in delicate serpentine filaments across foreground, tiny airborne plaster dust sparkles ONLY inside sun shaft, no glitter or magical particles. Slightly unreal suspended-time mood produced by optics, smoke and dust, but physically real ruin. Background soft and partially obscured, strong depth, off-center human composition, natural skin. Reduce smoke to thin residual wisps across lower frame, maintain face clarity and shadow detail. No extra people, award statue, new text, building repair, huge helmet, floating props or extra fingers.",
+    "endFrameDescription": "",
+    "animation": "0–1.5s: Czeslaw looks at the award sheet. 1.5–5.5s: his gaze rises gently toward camera, lips relaxed for later synchronization and sober professional expression. 5.5–6.1s: one tiny concluding nod. 6.1–7s: hold; first 6.375s visible. Paper stays in the same hands. Camera: locked, one continuous shot. Secondary motion: natural breathing and minor fabric settling. Preserve exact identities, anatomy, wardrobe, props, ruined set, light and visible lettering. No new people, duplicates, morphing, extra limbs, cuts, captions or watermark.\n@Element1 is the existing czeslaw; identity only, keep Start Frame staging, do not add another instance.\n@Image1 locks the white construction helmet already worn by Czeslaw. It stays fitted on his head throughout, brim forward; retain his original suit and glasses. Do not remove, enlarge, duplicate or transform the helmet."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze13-14-ogloszenie-zdziroversum",
+        "shot:ze13-08-czeslaw-przeplyw",
+        "character:czeslaw",
+        "prop:kask-budowlany-czeslawa"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-13/shots/ze13-14-ogloszenie-zdziroversum/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-13/shots/ze13-14-ogloszenie-zdziroversum/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

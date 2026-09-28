@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-sezon-1/prolog-22a-dariusz-gwatemalska-yerba",
+  "id": "prolog-22a-dariusz-gwatemalska-yerba",
+  "title": "Dariusz — gwatemalska yerba",
+  "description": "Bezpośrednie przedłużenie końca prologu. Dariusz nad otwartą paczką próbuje zrozumieć, dlaczego zamiast zamówionej gwatemalskiej yerby dostał artefakt K20.",
+  "project": {
+    "id": "zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1"
+  },
+  "references": [
+    {
+      "type": "take",
+      "id": "prolog-21-k20-na-stole/take-1"
+    },
+    {
+      "type": "character",
+      "id": "grimskald"
+    },
+    {
+      "type": "place",
+      "id": "klub-fantastyki"
+    },
+    {
+      "type": "prop",
+      "id": "artefakt-k20"
+    }
+  ],
+  "prompts": {
+    "image": "Exact byte-for-byte continuation from the last visible frame of take prolog-21-k20-na-stole/take-1. Dariusz leans over the open parcel containing the inert small K20.",
+    "endFrameDescription": "Same locked camera. Dariusz raises his head only slightly, keeps both hands near the parcel, looks at the K20 and finishes the sentence about his Guatemalan yerba with restrained disbelief.",
+    "animation": "One continuous 4-second live-action shot beginning exactly on the supplied Start Frame and arriving naturally at the supplied End Frame. ABSOLUTELY LOCKED CAMERA: no pan, tilt, zoom, dolly, reframing or cut. 0.0-0.7 s: Dariusz remains bent over the parcel, staring at the small inert K20 in silence for a short beat. 0.7-3.3 s: without touching or lifting anything, he speaks quietly with natural restrained mouth movement as if saying in Polish: Nic nie rozumiem. Miala przyjsc moja gwatemalska yerba... His gaze briefly searches the empty packing paper, then returns to the die; one hand makes only a tiny confused palm movement. 3.3-4.0 s: he raises his head just slightly and settles into the supplied End Frame, still baffled. Preserve exact Dariusz identity, glasses, long braided reddish beard, blue shirt, dark vest, leather straps and badges; preserve exact table, miniatures, mugs, parcel, packing paper, warm lighting and composition. The K20 stays motionless, inert, only about 3 cm vertex-to-vertex and never glows. Exactly one person, two correct hands, one parcel and one die. No yerba appearing, no camera movement, no cuts, no object spawning, no touching the die, no broad gestures, no exaggerated comedy, no morphing, extra limbs, captions, subtitles, logos or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "reference",
+      "referenceKeys": [
+        "take:prolog-21-k20-na-stole/take-1"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-22a-dariusz-gwatemalska-yerba/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-22a-dariusz-gwatemalska-yerba/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "take:prolog-21-k20-na-stole/take-1",
+        "character:grimskald",
+        "place:klub-fantastyki",
+        "prop:artefakt-k20"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-22a-dariusz-gwatemalska-yerba/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-22a-dariusz-gwatemalska-yerba/frame-end-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

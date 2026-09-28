@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-11/lacznik-botek-poza",
+  "id": "lacznik-botek-poza",
+  "title": "Łącznik: krok do pozy",
+  "description": "Niski detal botków Mai podczas kontrolowanego przeniesienia ciężaru do pewnej siebie pozy przed lustrem.",
+  "project": {
+    "id": "zlote-emoji-11",
+    "name": "Złote Emoji #11"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "maia-sprawdza-profil"
+    },
+    {
+      "type": "shot",
+      "id": "maia-pozuje-do-lustra"
+    },
+    {
+      "type": "character",
+      "id": "maia-melodies-v2"
+    },
+    {
+      "type": "note",
+      "id": "movie-shot"
+    }
+  ],
+  "prompts": {
+    "image": "Fotorealistyczny filmowy detal 16:9 z poziomu podłogi. Kadr od połowy łydek: dopasowane czarne skórzane spodnie i kanoniczne czarne botki na niskim obcasie stoją na drewnianym parkiecie. Jedna stopa jest ustawiona szerzej i lekko na zewnątrz podczas kontrolowanego przeniesienia ciężaru w pewną siebie pozę. Dokładnie dwie nogi i dwa botki, twarz poza kadrem, ciepłe odbicia, miękkie tło mieszkania. Bez chodzenia, dodatkowej osoby, wysokich szpilek, napisów i deformacji.",
+    "endFrameDescription": "",
+    "animation": "Single continuous 3-second floor-level insert with a locked camera. The action begins immediately: one of Maia's black ankle boots makes a very small controlled adjustment outward and plants firmly while her weight shifts into a stable, confident stance; the other boot remains grounded. Complete the useful adjustment within the first second, then hold the final pose with only natural fabric settling. Preserve exactly two legs, two low-heeled black boots, the fitted black leather trousers, parquet floor, mirror edge, and warm apartment light. No walking, sliding feet, footwear change, extra limb, malformed leg, morphing, camera move, cut, text, or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:maia-sprawdza-profil",
+        "shot:maia-pozuje-do-lustra",
+        "character:maia-melodies-v2",
+        "note:movie-shot"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-11/shots/lacznik-botek-poza/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-11/shots/lacznik-botek-poza/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

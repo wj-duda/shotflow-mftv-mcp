@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-13/ze13-05-halinka-ustepuje",
+  "id": "ze13-05-halinka-ustepuje",
+  "title": "ZE13 05 — dosłowne usunięcie blokady",
+  "description": "Po niemym, sceptycznym spojrzeniu Wiesława Halinka jednym małym krokiem ustępuje w lewo do stolika i odstawia spodek lewą ręką. Telefon zostaje w prawej. 4 s, Wiesław i taczka nieruchomi. Ciepłe światło kontynuuje otwarcie. Klatki generowane bezpośrednio przez agenta; take nie został uruchomiony. Wariant stroju: halinka-gruzowisko, śliwkowa miękka kurtka, szal paisley; naturalne wąskie ramiona. Nowa wersja obrazu: dym niesiony lekko w lewo, pył w świetle, przygaszone tło i filmowa głębia.",
+  "project": {
+    "id": "zlote-emoji-13",
+    "name": "Złote Emoji #13"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "ze13-02-halinka-w-smudze-swiatla"
+    },
+    {
+      "type": "character",
+      "id": "halinka-gruzowisko"
+    },
+    {
+      "type": "character",
+      "id": "wieslaw-majster"
+    },
+    {
+      "type": "shot",
+      "id": "ze13-04-wieslaw-przejscie"
+    }
+  ],
+  "prompts": {
+    "image": "Create ONE 1920x1080 16:9 photorealistic cinema still. Input1 OLD target locks action and prop state ONLY, REPLACE its old outfit, broad build and lighting. Input2 NEW continuity locks actual costume/light/location/props. Input3 exact face; input4 exact body and outfit. Halinka is the SAME SHORT 162cm woman, average pear-shaped body, narrow naturally sloping shoulders, modest upper torso, larger hips. Exact new outfit from wardrobe reference, unpadded soft plum cotton jacket, thin teal/copper paisley scarf, cream shirt, gold sun pendant. Never broaden shoulders, enlarge chest, inflate arms or use old red sequined cardigan. Visual language: atmospheric 35mm cinema still, gentle diffusion and halation ONLY on highlights, natural grain, muted colors, deep cool grey-teal shadows and selective warm amber backlight from upper-right rear through missing roof. Expose for light so background falls 1.5 stops darker, NOT evenly lit HDR or orange glossy commercial. Layers of translucent sage smoke drift in delicate serpentine filaments across foreground, tiny airborne plaster dust sparkles ONLY inside sun shaft, no glitter or magical particles. Slightly unreal suspended-time mood produced by optics, smoke and dust, but physically real ruin. Background soft and partially obscured, strong depth, off-center human composition, natural skin. Two-shot medium-wide 50mm. EXACTLY TWO people: short Halinka left of center standing close to table at screen left, slightly taller Wieslaw behind single stationary loaded wheelbarrow at screen RIGHT. Before step: her LEFT hand still holds saucer level image right, RIGHT holds black phone low image left. Table has clear space for saucer, closed burgundy wallet and grey folder. Halinka eyes softly open looking toward table. Narrow soft shoulders, realistic short stature. Wieslaw watches her patiently, hands grip handles. Clear foreground aisle, all faces visible, Czeslaw outside frame. Smoke gently sweeps left from sage only. Natural dust in one rear sunshaft. No extra people, extra limbs, new captions, watermarks, roof repair, sparkle effects or sequined cardigan. Input5 locks Wieslaw exact identity, outfit, wheelbarrow and brick load. No other changes to him.",
+    "endFrameDescription": "",
+    "animation": "0–1.1s: Halinka takes one small step screen left toward the table. 1.1–3.2s: she lowers her LEFT hand and sets the sage saucer level on the empty tabletop patch, then releases it. 3.2–4s: hold. RIGHT hand keeps phone; Wieslaw silently watches Halinka with the same restrained skeptical expression, mouth closed; his hands and wheelbarrow remain stationary. Camera locked. Smoke rises only from sage and disperses in unchanged warm sunlight. Preserve exact identities, anatomy, costumes, props, ruined hall, cool shadow fill and lettering. No new people, duplicates, extra limbs, morphing, cuts, captions or watermark. @Element1 is existing Halinka; @Element2 is existing Wieslaw.\nKeep the new plum cotton jacket, paisley scarf and natural narrow shoulders from @Element1; do not restore the old sequined outfit."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze13-05-halinka-ustepuje",
+        "shot:ze13-02-halinka-w-smudze-swiatla",
+        "character:halinka-gruzowisko",
+        "shot:ze13-04-wieslaw-przejscie"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-13/shots/ze13-05-halinka-ustepuje/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-13/shots/ze13-05-halinka-ustepuje/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

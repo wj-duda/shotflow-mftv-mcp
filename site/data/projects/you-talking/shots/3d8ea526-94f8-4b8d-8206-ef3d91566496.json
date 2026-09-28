@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:you-talking/3d8ea526-94f8-4b8d-8206-ef3d91566496",
+  "id": "3d8ea526-94f8-4b8d-8206-ef3d91566496",
+  "title": "3d8ea526-94f8-4b8d-8206-ef3d91566496",
+  "description": "",
+  "project": {
+    "id": "you-talking",
+    "name": "You Talking"
+  },
+  "references": [],
+  "prompts": {
+    "image": "",
+    "endFrameDescription": "",
+    "animation": "Static cinematic shot. Keep the frame almost completely still. A dimly lit interior at dusk with a table in the foreground, documents, binder, stamp, keys and a half-finished coffee. In the background, an open balcony door and a light sheer curtain. A very gentle breeze softly moves the curtain only slightly — slow, natural, subtle swaying inward and back. No strong wind, no dramatic movement. Everything else remains nearly motionless. Warm indoor lamp light contrasts with the cool blue evening city outside. Realistic motion, quiet atmosphere, minimal animation, no camera movement, no zoom, no morphing."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "timeline",
+      "referenceKeys": [],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/you-talking/shots/3d8ea526-94f8-4b8d-8206-ef3d91566496/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/you-talking/shots/3d8ea526-94f8-4b8d-8206-ef3d91566496/frame-start-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ]
+}

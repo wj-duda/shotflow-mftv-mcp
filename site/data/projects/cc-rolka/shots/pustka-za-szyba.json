@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:cc-rolka/pustka-za-szyba",
+  "id": "pustka-za-szyba",
+  "title": "pustka-za-szyba",
+  "description": "Frontal view through a flat rain-covered bus window onto a completely empty street; Zosia appears only as a faint reflection in the glass.",
+  "project": {
+    "id": "cc-rolka",
+    "name": "CC-Rolka"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "zosia-deszcz-na-szybie"
+    },
+    {
+      "type": "character",
+      "id": "zosia"
+    }
+  ],
+  "prompts": {
+    "image": "Vertical 9:16 frontal view through a rain-covered night-bus window. The optical axis is perpendicular to the flat glass pane; the rectangular window edges remain parallel to the image edges, with no oblique perspective or view along the bus. Directly across the completely empty wet Polish street are a deserted shelter and old apartment facade, seen almost frontally. Zosia is not physically visible and appears only as a subtle low-opacity reflection of her exact face and black hair with blue streaks in the right-center of the pane. Sharp droplets and vertical trails, amber sodium and restrained cyan light, photoreal late-1990s alternative-music television look, fine 16 mm grain and subtle S-VHS softness. No people, vehicles, ghost effect, text, logo, watermark or artifacts.",
+    "endFrameDescription": "",
+    "animation": "Two-second continuous shot from inside the moving night bus. Camera remains nearly locked on the rain-covered window. Street-lamp reflections drift slowly across the wet glass while several droplets crawl downward. The completely empty street moves gently past outside. Zosia remains invisible except for one faint stable reflection of part of her face, which shifts only naturally with the glass reflections. No people or vehicles enter, no cuts, zooms, morphing, text, logo or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:zosia-deszcz-na-szybie",
+        "character:zosia"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/pustka-za-szyba/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/pustka-za-szyba/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

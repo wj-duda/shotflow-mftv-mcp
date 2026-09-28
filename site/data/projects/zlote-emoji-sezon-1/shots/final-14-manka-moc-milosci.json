@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-sezon-1/final-14-manka-moc-milosci",
+  "id": "final-14-manka-moc-milosci",
+  "title": "Final 14 — Mańka: mocy miłości?",
+  "description": "Mańka dopowiada najbardziej oczekiwany patetyczny finał: „mocy miłości?”.",
+  "project": {
+    "id": "zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1"
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "marianna"
+    },
+    {
+      "type": "shot",
+      "id": "final-13-halinka-skupcie-sie-na"
+    },
+    {
+      "type": "place",
+      "id": "dom-kultury-ruina-po-belicosie"
+    },
+    {
+      "type": "shot",
+      "id": "final-12b-dariusz-podaje-k20-halince"
+    }
+  ],
+  "prompts": {
+    "image": "Photorealistic live-action 16:9 locked 85 mm close-up of exact Marianna outside the ruined Dom Kultury, continuous with Dariusz handing K20 to Halinka. Preserve her pale face, long white hair, blue eyes, tall slim proportions, black layered clothes and natural skin. She turns slightly toward Halinka off-screen after hearing 'skupcie się na...' and tentatively offers the expected grand answer. Her expression is half genuinely hopeful and half aware that 'moc miłości' sounds obvious: eyebrows lift by a trace, lips poised to ask a short question, eyes seeking confirmation. Sincere first, gently comic second. Cold storm-blue ambience with warm entrance edge light; club members only as indistinct silhouettes. No glow, visible K20, cookie, broad smile, glamour pose, extra focused person, text, subtitles, UI or watermark.",
+    "endFrameDescription": "",
+    "animation": "One continuous 2-second locked close-up. Marianna tilts her head slightly and offers in Polish: ...mocy miłości? Play it as a plausible hopeful guess with a trace of affectionate irony, not a broad punchline. no overacting only microexpressions"
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "character:marianna",
+        "place:dom-kultury-ruina-po-belicosie",
+        "shot:final-12b-dariusz-podaje-k20-halince"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-14-manka-moc-milosci/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-14-manka-moc-milosci/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "place:klub-fantastyki-zniszczony",
+  "type": "places",
+  "id": "klub-fantastyki-zniszczony",
+  "name": "Zniszczony Klub Fantastyki",
+  "description": "Sala klubu fantastyki po zarwaniu podłogi i przbicu sufitu do kanciapy\r\n\r\nKlub fantastyki w domu kultury, Klub fantastyki mieści się w dzikiej, półlegalnej PRL-owskiej nadbudówce nad bocznym skrzydłem domu kultury. To niskie, prowizorycznie zaadaptowane pomieszczenie z belkami, rurami, małymi oknami od tyłu i wejściem po wąskich schodach z zaplecza. Oficjalnie miało być magazynem, ale z czasem przejął je klub, a dziś nikt już nie wie, kto i na jakiej podstawie je dobudował.Prowadzą do niego wąskie schody z zaplecza przy magazynie, dlatego jest odseparowany od widowni i sceny. Od strony sali prób sąsiaduje z boczną częścią domu kultury, ale funkcjonuje jako osobne, ukryte pomieszczenie klubowe.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/klub-fantastyki-zniszczony/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/klub-fantastyki-zniszczony/image-001-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-08-01T15:31:02.3328199+00:00"
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "character:maia-melodies",
+  "type": "characters",
+  "id": "maia-melodies",
+  "name": "Maia Melodies",
+  "description": "CHARACTER [age=18-29; presentation=feminine; height=average; build=slim; body=hourglass; chest=medium; skin=fair; face=heart; eyes=green; hair-color=dyed; hair-length=short; hair-texture=straight]\n\nPubliczna persona kanału Maia Melodies: wirtualna DJ-ka, producentka i pogodna gospodyni muzycznych światów. Ma krótki asymetryczny platynowo-lawendowy bob, duże czarne słuchawki, białą koszulę, czarne skórzane spodnie i prosty klubowy styl. Jest bezpośrednia, serdeczna, energiczna i autentycznie entuzjastyczna; zwraca się do publiczności przez „Hello Guys!” i „Dear friends”, traktuje każdy utwór jak premierę i zaprasza widzów do wspólnej zabawy. Jej muzyczny rdzeń to eurodance, trance, rave i klubowa nostalgia lat 90. oraz początku lat 2000. Nie jest chłodną diwą ani cyniczną celebrytką — pełni rolę przewodniczki, która uruchamia kolejne muzyczne światy. To opis wyłącznie jej publicznej persony, bez dopisywania prywatnej biografii twórcy kanału.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "portrait",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/maia-melodies/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/maia-melodies/image-001-thumb.webp",
+      "width": 900,
+      "height": 900,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-002",
+      "role": "silhouette",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/maia-melodies/image-002.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/maia-melodies/image-002-thumb.webp",
+      "width": 1254,
+      "height": 1254,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-08-15T21:37:30.9615746+00:00"
+}

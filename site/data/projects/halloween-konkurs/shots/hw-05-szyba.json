@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:halloween-konkurs/hw-05-szyba",
+  "id": "hw-05-szyba",
+  "title": "05 — Uderzenie / pęka szyba",
+  "description": "Filmowy ciasny detal z wnętrza salonu, pod skosem do zamkniętej szyby. Zombie w szarej kurtce wbija bark w taflę; twarz w półprofilu, obie ręce przy tułowiu, zamek na pierwszym planie po lewej. Rdzawa kurtka i czerwona krata napierają nieostro w tle. Drzwi jeszcze zamknięte; puszczają pod kolejnym naporem. 1080×1920, 24 fps; ujęcie 1 s. Nowy Start Frame, zachowany prompt animacji.",
+  "project": {
+    "id": "halloween-konkurs",
+    "name": "Halloween Konkurs"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "hw-04-wampiry-mocniej"
+    },
+    {
+      "type": "shot",
+      "id": "hw-05-szyba"
+    }
+  ],
+  "prompts": {
+    "image": "Use case: identity-preserve. Recompose supplied image into a genuinely cinematic horror action insert, SINGLE vertical 9:16 film still. Reference defines the EXACT three zombie identities, grey zip jacket and dark shirt of lead man, older curly grey woman in rust jacket, dark curly bearded man in red plaid, same dark sliding terrace-door frame and bronze latch, Polish garden dusk, warm interior. Camera is INSIDE, close to LEFT latch looking OBLIQUELY along glass at roughly 35 degrees, 50mm film lens, tight chest-up composition. Lead zombie is OUTSIDE, aggressively driving his shoulder into CLOSED glass, body rotated three-quarter, cheek in tense half profile near shoulder, gaze into room rather than posing for camera. Both his arms are anatomically attached and bent LOW near torso, one clenched fist near chest; NO raised overhead arm, NO huge foreground hand. Shoulder contact and exact recognizable strained face dominate centre-right; dark jamb and bronze latch occupy narrow near-left foreground. Older woman and plaid man behind remain softly defocused, their shoulders and partial faces communicate pressure of crowd, no giant palms. Clear solid glass plane separates all bodies from camera: restrained reflections of warm salon lamp, faint smears at shoulder contact, no plastic wrinkling, no shattered hole or broken door yet. Shallow depth of field, face and shoulder sharp, soft background, subtly handheld 3-degree cant, restrained motion blur jacket edge, tactile natural skin and fabric, warm amber edge light from interior versus cool blue garden, deep cinematic shadows with readable eyes. No gore, extra limbs, duplicate faces, text, watermark, collage, borders. Match exact wardrobe and lighting continuity, make the physical strain believable.",
+    "endFrameDescription": "",
+    "animation": "0.0–0.65s: the grey-jacket man already pressed against the glass drives his shoulder into it once, pushing from his planted feet without pulling away for a wind-up. The visible zombies behind him crowd forward, shoulders rocking independently. 0.65–1.0s: the latch gives and the door edge jolts inward a few centimetres. 1.0–3.0s: their weight keeps the damaged panel flexing; nobody crosses yet. Camera: restrained handheld responding briefly to the impact. Secondary: cracks spread from the contact area; loosened latch fragments fall. @Image1 identifies existing zombies only. Preserve faces, clothing and door geometry. No passage through intact glass, crowd retreat, oversized arm swing, frozen standing extras, slow motion or cut."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 3,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:hw-05-szyba"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-05-szyba/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/hw-05-szyba/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

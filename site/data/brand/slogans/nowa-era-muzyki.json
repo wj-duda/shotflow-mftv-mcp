@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "slogan",
+  "type": "brand",
+  "brandKey": "brand:aimftv",
+  "id": "nowa-era-muzyki",
+  "key": "slogan:nowa-era-muzyki",
+  "purpose": "platforma",
+  "text": "Nowa Era muzyki — tworzona z AI, wybrana przez ludzi",
+  "preserveExactText": true,
+  "rationale": "Hasło wyjaśnia pełną ideę platformy: AI uczestniczy w tworzeniu muzyki, ale to ludzie słuchają, reagują i wybierają utwory. Łączy technologiczną nowość z ludzkim werdyktem.",
+  "whereToUse": [
+    "główne materiały promujące platformę",
+    "prezentacje i opisy MF TV",
+    "kampanie pozyskujące twórców i widzów",
+    "grafiki wizerunkowe i materiały partnerskie"
+  ],
+  "whenToUse": "Gdy materiał przedstawia MF TV jako platformę, wyjaśnia jej misję albo zaprasza twórców i widzów do udziału.",
+  "howToReference": "W promptach i danych używaj klucza slogan:nowa-era-muzyki. Zachowaj pełne brzmienie, kolejność zdań i sens rozdzielenia części o AI od części o wyborze ludzi.",
+  "promotionalRequirement": "Hasło powinno pojawiać się na głównych materiałach promocyjnych i wizerunkowych platformy MF TV.",
+  "relatedAssets": {
+    "officialLogo": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/brand/aimftv.webp",
+    "showBoards": [
+      {
+        "key": "show:lekkie-poniedzialki",
+        "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/show/lekkie-poniedzialki.webp"
+      },
+      {
+        "key": "show:szarpane-srody",
+        "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/show/szarpane-srody.webp"
+      },
+      {
+        "key": "show:czule-czwartki",
+        "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/show/czule-czwartki.webp"
+      },
+      {
+        "key": "show:wolne-piatki",
+        "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/show/wolne-piatki.webp"
+      },
+      {
+        "key": "show:zlote-emoji",
+        "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/show/zlote-emoji.webp"
+      }
+    ]
+  }
+}

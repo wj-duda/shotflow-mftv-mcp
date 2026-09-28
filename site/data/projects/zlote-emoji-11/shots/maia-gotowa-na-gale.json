@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-11/maia-gotowa-na-gale",
+  "id": "maia-gotowa-na-gale",
+  "title": "Maia gotowa na galę",
+  "description": "Maia prezentuje gotowy galowy look: pełny strój v2, mocny makijaż i kluczyki do samochodu. Jest pewna, że jedzie po kolejne zwycięstwo.",
+  "project": {
+    "id": "zlote-emoji-11",
+    "name": "Złote Emoji #11"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "maia-makijaz"
+    },
+    {
+      "type": "character",
+      "id": "maia-melodies-v2"
+    },
+    {
+      "type": "place",
+      "id": "mieszkanie-po-afterze"
+    },
+    {
+      "type": "note",
+      "id": "movie-shot"
+    }
+  ],
+  "prompts": {
+    "image": "Fotorealistyczny filmowy kadr 16:9 kontynuujący poprzedni shot. Ta sama Maia v2, identyczna twarz, platynowo-lawendowy bob, eyeliner i ciemna szminka, stoi gotowa przy drzwiach tego samego mieszkania. Ma dokładny kanoniczny strój: czarną skórzaną ramoneskę, kremową koszulę z kołnierzykiem, czarne skórzane spodnie z wysokim stanem i czarne botki na niskim obcasie. Jedną dłonią poprawia klapę kurtki, w drugiej trzyma małe kluczyki. Spokojna, pewna siebie energia bad bitch bez karykatury. Jedna osoba, bez słuchawek, napisów i watermarku.",
+    "endFrameDescription": "",
+    "animation": "Single continuous 4-second shot from the fixed camera inside the apartment. Maia acts immediately with no introductory glance and no pause. Timing is mandatory: during 0.0-0.5 seconds she pivots toward the existing front door and grips the existing handle; during 0.5-1.2 seconds she opens that same door on its existing hinges; during 1.2-2.2 seconds she steps completely through the real doorway into the corridor; during 2.2-3.2 seconds, now outside the apartment, she pulls the same door firmly closed behind her until it contacts the frame and fully latches. During the final 0.8 seconds Maia is no longer visible and the closed door remains still. Her movement is brisk, natural, controlled, and confident. Preserve Maias exact identity, platinum-lavender bob, makeup, black leather jacket, cream shirt, leather trousers, boots, keys, proportions, and hand anatomy. Preserve the door, frame, lock, handle, hinges, walls, intercom, bench, coats, furniture, lighting, and apartment geometry. She passes only through the doorway, never through the wall. No extra person, duplicate Maia, extra limb, clothing change, warped door, teleportation, morphing, camera move, cut, text, or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:maia-makijaz",
+        "character:maia-melodies-v2",
+        "place:mieszkanie-po-afterze",
+        "note:movie-shot"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-11/shots/maia-gotowa-na-gale/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-11/shots/maia-gotowa-na-gale/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Publiczna przeglądarka postaci, miejsc, rekwizytów i shotów świata MF TV." />
+    <title>{{WORLD_NAME}}</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="app.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.9/dist/cdn.min.js"></script>
+  </head>
+  <body x-data="worldBrowser('{{WORLD_ID}}')" x-init="init()">
+    <header class="hero">
+      <button class="brand-mark" type="button" x-show="logoEntry" @click="open(logoEntry)">
+        <img :src="localUrl(logoEntry?.imageUrl)" alt="Oficjalne logo AI Music Future TV" />
+      </button>
+      <div class="hero-copy">
+        <p class="eyebrow">SHOTFLOW · PUBLICZNE ARCHIWUM</p>
+        <h1>{{WORLD_NAME}}</h1>
+        <p class="lead">Postacie, miejsca, rekwizyty, notatki i aktualne kadry projektów.</p>
+      </div>
+      <a class="api-link" href="index.json">Indeks JSON dla MCP</a>
+    </header>
+
+    <main>
+      <section class="timeline-section" x-show="timeline.length">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">OD NAJSTARSZYCH DO NAJNOWSZYCH</p>
+            <h2>Odcinki i rolki</h2>
+          </div>
+          <span class="timeline-count" x-text="`${timeline.length} projektów`"></span>
+        </div>
+        <div class="timeline">
+          <template x-for="entry in timeline" :key="entry.key">
+            <button class="timeline-card" :class="{ selected: activeProjectId === entry.id }" type="button" @click="filterProject(entry)">
+              <span class="timeline-dot"></span>
+              <img :src="localUrl(entry.thumbnailUrl)" :alt="`Klatka z ${entry.name}`" loading="lazy" />
+              <span class="timeline-copy">
+                <time x-text="formatDate(entry.createdAt)"></time>
+                <strong x-text="entry.name"></strong>
+                <small x-text="`${entry.shotCount} shotów`"></small>
+              </span>
+            </button>
+          </template>
+        </div>
+      </section>
+
+      <section class="toolbar" aria-label="Wyszukiwanie i filtry">
+        <label class="search">
+          <span>Szukaj</span>
+          <input x-model.debounce.150ms="query" type="search" placeholder="np. Czesław, deszcz lub project:zlote-emoji-14" />
+        </label>
+        <label>
+          <span>Rodzaj</span>
+          <select x-model="filter">
+            <option value="all">Wszystko</option>
+            <template x-for="option in filters" :key="option.value">
+              <option :value="option.value" x-text="`${option.label} (${option.count})`"></option>
+            </template>
+          </select>
+        </label>
+        <p class="result-count"><strong x-text="filteredEntries.length"></strong> elementów</p>
+      </section>
+
+      <p class="status" x-show="loading">Ładuję katalog świata…</p>
+      <p class="status error" x-show="error" x-text="error"></p>
+
+      <section class="grid" x-show="!loading && !error">
+        <template x-for="entry in visibleEntries" :key="entry.key">
+          <button class="card" type="button" @click="open(entry)">
+            <span class="thumb-wrap">
+              <img x-show="entry.thumbnailUrl" :src="localUrl(entry.thumbnailUrl)" :alt="entry.name" loading="lazy" />
+              <span x-show="!entry.thumbnailUrl" class="no-image">Brak obrazu</span>
+            </span>
+            <span class="card-body">
+              <span class="badge" x-text="labelFor(entry)"></span>
+              <strong x-text="entry.name"></strong>
+              <small x-show="entry.projectName" x-text="entry.projectName"></small>
+              <span class="summary" x-text="entry.summary || 'Bez opisu.'"></span>
+            </span>
+          </button>
+        </template>
+      </section>
+
+      <button class="more" x-show="visibleEntries.length < filteredEntries.length" @click="limit += 60">
+        Pokaż więcej
+      </button>
+      <p class="empty" x-show="!loading && !error && filteredEntries.length === 0">Nic nie pasuje do tego wyszukiwania.</p>
+    </main>
+
+    <div class="backdrop" x-cloak x-show="selected" x-transition.opacity @click.self="close()" @keydown.escape.window="close()">
+      <article class="detail" x-show="selected" x-transition>
+        <button class="close" type="button" aria-label="Zamknij" @click="close()">×</button>
+        <p class="eyebrow" x-text="selected ? labelFor(selected) : ''"></p>
+        <h2 x-text="selected?.name"></h2>
+        <p class="key" x-text="selected?.key"></p>
+        <p class="status" x-show="detailLoading">Ładuję szczegóły…</p>
+
+        <template x-if="detail">
+          <div>
+            <p class="description" x-text="detail.description || 'Bez opisu.'"></p>
+            <button class="copy" type="button" @click="copy(detail.description)">Kopiuj opis</button>
+
+            <template x-if="detail.kind === 'brand'">
+              <section class="brand-detail">
+                <div class="brand-lines">
+                  <template x-for="slogan in detail.slogans" :key="slogan.id">
+                    <p>
+                      <span x-text="slogan.purpose"></span>
+                      <strong x-text="slogan.text"></strong>
+                    </p>
+                  </template>
+                </div>
+                <div class="palette" aria-label="Najważniejsze kolory marki">
+                  <template x-for="color in detail.colors" :key="color.id">
+                    <div class="swatch" :title="color.usage">
+                      <i :style="`background: ${color.hex}`"></i>
+                      <span><strong x-text="color.name"></strong><code x-text="color.hex"></code></span>
+                    </div>
+                  </template>
+                </div>
+                <section class="prompt">
+                  <h3>Instrukcja marki do promptu</h3>
+                  <ul>
+                    <template x-for="rule in detail.generationGuidance.requiredRules" :key="rule">
+                      <li x-text="rule"></li>
+                    </template>
+                  </ul>
+                  <button class="copy" type="button" @click="copy(detail.generationGuidance.promptBlock)">Kopiuj instrukcję</button>
+                </section>
+                <section>
+                  <h3>Plansze audycji</h3>
+                  <div class="brand-show-grid">
+                    <template x-for="show in detail.showBoards" :key="show.key">
+                      <figure>
+                        <a :href="localUrl(show.imageUrl)" target="_blank" rel="noopener">
+                          <img :src="localUrl(show.thumbnailUrl)" :alt="`Plansza audycji ${show.name}`" loading="lazy" />
+                        </a>
+                        <figcaption><span x-text="show.name"></span><a :href="localUrl(show.imageUrl)" download>Pobierz</a></figcaption>
+                      </figure>
+                    </template>
+                  </div>
+                </section>
+              </section>
+            </template>
+
+            <template x-if="detail.kind === 'slogan'">
+              <section class="slogan-detail">
+                <blockquote x-text="detail.text"></blockquote>
+                <dl>
+                  <div><dt>Dlaczego takie hasło</dt><dd x-text="detail.rationale"></dd></div>
+                  <div><dt>Kiedy używać</dt><dd x-text="detail.whenToUse"></dd></div>
+                  <div><dt>Jak się odwoływać</dt><dd x-text="detail.howToReference"></dd></div>
+                  <div><dt>Materiały promocyjne</dt><dd x-text="detail.promotionalRequirement"></dd></div>
+                </dl>
+                <div>
+                  <h3>Gdzie używać</h3>
+                  <ul><template x-for="place in detail.whereToUse" :key="place"><li x-text="place"></li></template></ul>
+                </div>
+                <button class="copy" type="button" @click="copy(detail.text)">Kopiuj dokładne hasło</button>
+              </section>
+            </template>
+
+            <template x-if="detail.prompts?.image">
+              <section class="prompt">
+                <h3>Prompt obrazu</h3>
+                <p x-text="detail.prompts.image"></p>
+                <button class="copy" type="button" @click="copy(detail.prompts.image)">Kopiuj prompt</button>
+              </section>
+            </template>
+
+            <section class="images" x-show="detail.images?.length">
+              <template x-for="image in detail.images" :key="image.id">
+                <figure>
+                  <a :href="localUrl(image.imageUrl)" target="_blank" rel="noopener">
+                    <img :src="localUrl(image.imageUrl)" :alt="`${selected.name} — ${image.role || image.id}`" loading="lazy" />
+                  </a>
+                  <figcaption>
+                    <span x-text="image.role || image.id"></span>
+                    <a :href="localUrl(image.imageUrl)" :download="`${selected.id}-${image.id}.webp`">Pobierz</a>
+                  </figcaption>
+                </figure>
+              </template>
+            </section>
+          </div>
+        </template>
+      </article>
+    </div>
+
+    <footer>
+      <span>Wygenerowano z aktualnych manifestów ShotFlow.</span>
+      <a href="data/search.json">Katalog wyszukiwania JSON</a>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:coco-jambo-26/halinka-warm-smile",
+  "id": "halinka-warm-smile",
+  "title": "halinka-warm-smile",
+  "description": "Szesci sekund: Halinka na moment ociepla usmiech i naturalnie wraca do bazowej pozy.",
+  "project": {
+    "id": "coco-jambo-26",
+    "name": "Coco Jambo 26"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "nod"
+    }
+  ],
+  "prompts": {
+    "image": "",
+    "endFrameDescription": "Return naturally to the exact same base frame A.",
+    "animation": "6s natural silent A-to-A loop. Halinka's smile slowly becomes slightly warmer, with a gentle softening around her eyes, then naturally returns to the exact base expression. Czeslaw remains relaxed with only subtle breathing and one blink. Camera completely locked. Preserve faces, clothing and background. No speech, broad gestures, cuts or morphing."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "reference",
+      "referenceKeys": [
+        "shot:nod"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/coco-jambo-26/shots/halinka-warm-smile/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/coco-jambo-26/shots/halinka-warm-smile/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "revision": 1,
+      "source": "reference",
+      "referenceKeys": [
+        "shot:nod"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/coco-jambo-26/shots/halinka-warm-smile/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/coco-jambo-26/shots/halinka-warm-smile/frame-end-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-sezon-1/prolog-11-pipa-wyjscia",
+  "id": "prolog-11-pipa-wyjscia",
+  "title": "Pipa — wyjścia",
+  "description": "Powrót do dokładnie tego samego ciasnego zbliżenia twarzy LAIdy Pipy, tej samej pozycji i światła. Przy słyszalnym poza kadrem toczeniu kostki kończy zdanie jednym słowem: „…wyjścia”.",
+  "project": {
+    "id": "zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1"
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "laidy-pipa"
+    },
+    {
+      "type": "place",
+      "id": "iquitos-tani-pensjonat-belen"
+    },
+    {
+      "type": "shot",
+      "id": "prolog-09-pipa-nie-masz"
+    }
+  ],
+  "prompts": {
+    "image": "Exact continuation of shot 09 close-up, using it as the base frame. Same Lady Pipa, 85mm crop, eyeline, rifle, hair, makeup, costume and room lighting; only a tiny hardened expression and lips forming the final spoken word wyjścia. No rendered dialogue.",
+    "endFrameDescription": "",
+    "animation": "One continuous 1.5-second matching close-up. Lady Pipa completes the Polish word wyjścia without changing posture or eyeline. The die-roll sound continues underneath from the preceding insert. Preserve exact face, lip anatomy, crop, rifle, hair, costume and lighting. No cuts, magic, firing, extra people, captions, logos or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "character:laidy-pipa",
+        "place:iquitos-tani-pensjonat-belen",
+        "shot:prolog-09-pipa-nie-masz"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-11-pipa-wyjscia/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-11-pipa-wyjscia/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

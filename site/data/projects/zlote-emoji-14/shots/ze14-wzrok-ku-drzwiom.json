@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-14/ze14-wzrok-ku-drzwiom",
+  "id": "ze14-wzrok-ku-drzwiom",
+  "title": "Wzrok ku drzwiom",
+  "description": "Kontynuacja faktycznej ostatniej klatki (71 przy 24 fps) filmu ze14-lup-na-dachu/take-2. Start v005 to bezpośrednio wyodrębniona klatka MP4, bez regenerowania wyglądu. Czesław po lewej i Halinka po prawej nadal patrzą ku drzwiom z lekkim przestrachem; nie resetują głów ani mimiki. Referencje Take: kanoniczne portrety obu postaci. Istniejące filmy i montaż zachowane.",
+  "project": {
+    "id": "zlote-emoji-14",
+    "name": "Złote Emoji #14"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "ze14-lup-na-dachu"
+    },
+    {
+      "type": "shot",
+      "id": "ze14-wzrok-ku-drzwiom"
+    },
+    {
+      "type": "character",
+      "id": "czeslaw"
+    },
+    {
+      "type": "character",
+      "id": "halinka"
+    },
+    {
+      "type": "take",
+      "id": "ze14-lup-na-dachu/take-2"
+    }
+  ],
+  "prompts": {
+    "image": "Use reference: exact decoded frame 71 of ze14-lup-na-dachu/take-2/video-v001-edit.mp4, 24 fps, 1920x1080. No image generation or alteration.",
+    "endFrameDescription": "",
+    "animation": "0.0–0.5s: Czeslaw on the left and Halinka on the right remain fixed on the offscreen door toward screen right, continuing the supplied starting pose without resetting their heads. 0.5–1.5s: Czeslaw's fingers tighten almost imperceptibly around the tea holder; Halinka takes one shallow breath, lips tense. 1.5–3.0s: Both hold their mildly frightened gaze. Camera: locked-off. @Image1 anchors Czeslaw's exact identity; @Image2 anchors Halinka's exact identity, both already present. Preserve their near-frontal faces, dry clothing, jewelry, hand positions, tea levels, desk, room geometry and all lettering. Avoid looking back at the ceiling, smiles, exaggerated terror, speaking, spills, new people, morphing or cuts."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 5,
+      "source": "reference",
+      "referenceKeys": [
+        "take:ze14-lup-na-dachu/take-2"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-wzrok-ku-drzwiom/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-wzrok-ku-drzwiom/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

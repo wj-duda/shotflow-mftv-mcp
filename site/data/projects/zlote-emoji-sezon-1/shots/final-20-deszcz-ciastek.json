@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-sezon-1/final-20-deszcz-ciastek",
+  "id": "final-20-deszcz-ciastek",
+  "title": "Final 20 — Deszcz ciastek",
+  "description": "Po zniknięciu floty K20 nadmiernie dosłownie realizuje wspólny obraz i zsyła nad ruinę deszcz Delicji.",
+  "project": {
+    "id": "zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1"
+  },
+  "references": [
+    {
+      "type": "place",
+      "id": "dom-kultury-ruina-po-belicosie"
+    },
+    {
+      "type": "prop",
+      "id": "delicja-pomaranczowa"
+    },
+    {
+      "type": "character",
+      "id": "grimskald"
+    },
+    {
+      "type": "character",
+      "id": "marianna"
+    },
+    {
+      "type": "character",
+      "id": "marcel"
+    },
+    {
+      "type": "character",
+      "id": "filip-koza"
+    },
+    {
+      "type": "character",
+      "id": "czeslaw"
+    },
+    {
+      "type": "character",
+      "id": "halinka"
+    }
+  ],
+  "prompts": {
+    "image": "Two-pass likeness correction. First pass used the active final-20 frame plus only the canonical full-body silhouettes of Dariusz, Mańka and Marcel, correcting the three leftmost people while locking the rest of the image. Second pass used that corrected intermediate frame plus only the canonical full-body silhouettes of Filip, Czesław and Halinka, correcting the three rightmost people while locking the corrected left trio.\n\nFinal-pass prompt:\n\nUse case: identity-preserve\nAsset type: second and final likeness-correction pass for the cinematic final-20 Start Frame, landscape 16:9\n\nInput mapping:\n- Image 1 is the exact edit target. It already contains the corrected Dariusz, Mańka and Marcel as the three leftmost people; those corrections are final and must remain unchanged.\n- Image 2 is the mandatory full-body silhouette reference for Filip \"Koza\".\n- Image 3 is the mandatory full-body silhouette reference for Czesław.\n- Image 4 is the mandatory full-body silhouette reference for Halinka.\n\nCorrect ONLY the likeness, body proportions and canonical wardrobe of the THREE RIGHTMOST people in the six-person line at the bottom of Image 1, one by one:\n1. FOURTH FROM LEFT = Filip \"Koza\". Make him unmistakably Image 2: young, very slim and slightly hunched with long limbs, olive skin, narrow oblong youthful face, messy wavy black hair, prominent ears, dark fantasy graphic T-shirt under a worn black zip hoodie, dark narrow jeans and worn shoes. Preserve his exact existing spot, upward gaze and stance.\n2. FIFTH FROM LEFT = Czesław. Make him unmistakably Image 3: approximately 171 cm, average straight build, tired middle-aged face, short unruly curly black hair, rectangular dark glasses, stubble, rumpled dark suit, wrinkled beige shirt and loose dark tie. Preserve his exact existing spot, open-handed upward-looking pose and stance. Do not add a helmet in this shot.\n3. RIGHTMOST = Halinka. Make her unmistakably Image 4: short, approximately 162 cm, warm round mature face, copper-red curly updo with loose strands, brown eyes, short pear-shaped build, red textured cardigan over a subtly sparkling black top, loose black trousers, layered gold necklaces and earrings. Preserve her exact existing spot, upward gaze and stance.\n\nThe supplied silhouettes are identity and full-body proportion authorities. Match recognizable faces, height relationships, builds, hair, glasses, jewelry and clothing; adapt only wetness, rain, night lighting and the existing upward-looking expressions.\n\nHARD LOCK: Do not alter the three leftmost corrected people at all — Dariusz, Mańka and Marcel must remain exactly as in Image 1. Do not move, add, delete or reorder anyone. Preserve all six poses, spacing, scale in perspective and occlusion.\n\nPreserve every Delicja exactly as in Image 1: one pale sponge base and smooth chocolate cap, no Oreo structure, same count, position, scale and motion blur. Preserve the ruined Dom Kultury, collapsed Belicosa, rubble, banner text \"Finał Złotego Emoji Tygodnia\", sign \"DOM KULTURY\", windows, rain, lighting, camera and framing exactly.\n\nAvoid: generic or blended faces; swapping identities; changing the wrong person; duplicated person; extra limbs; malformed hands; altered left trio; helmet on Czesław; Oreo cookies; changed biscuits; changed building or cannon; repaired damage; new text; subtitle; watermark; collage or split screen.\n",
+    "endFrameDescription": "",
+    "animation": "Create one continuous 4-second locked wide shot based strictly on the supplied Start Frame. The six exact characters remain standing in their established positions for the entire take. They must not walk, change places, turn their bodies, raise or lower their arms, shield their heads, gesture, speak, celebrate or perform any other significant movement. Allow only nearly imperceptible natural breathing, tiny eye movement and minimal wet-clothing or hair response to the weather. Preserve every face, pose, hand position, body proportion, wardrobe, spacing and silhouette exactly as shown in the Start Frame.\n\nAnimate ONLY the individual Delicje that are already visibly present in the supplied Start Frame. Every existing biscuit continues falling downward from its exact starting position, tumbling gently with realistic lightweight biscuit physics and its existing motion direction. Maintain strict object conservation: the number of biscuits at the beginning of the take must equal the number visible in the Start Frame. ABSOLUTELY NO NEW BISCUITS MAY APPEAR ANYWHERE AT ANY TIME. Do not spawn biscuits above the frame, in the sky, behind the building, between characters, near the lens or after an existing biscuit leaves the image. Do not duplicate, multiply, replace or transform any biscuit. As the already visible biscuits fall below the bottom edge or land out of view, the air naturally becomes emptier; the rain of biscuits does not intensify and does not continue.\n\nKeep the camera completely locked with no pan, tilt, zoom, dolly, crane, reframing, shake or cut. Preserve the ruined Dom Kultury, collapsed Belicosa, rubble, signs, rain, lighting and background exactly. No returning fleet, new destruction, repair, magic pulse or environmental change. All biscuits remain the exact referenced Delicje with one pale sponge base and one smooth chocolate cap: no black sandwich cookies, white cream, packages, logos, morphing, subtitles or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 5,
+      "source": "generated",
+      "referenceKeys": [
+        "self:final-20-deszcz-ciastek",
+        "character:grimskald",
+        "character:marianna",
+        "character:marcel",
+        "character:filip-koza",
+        "character:czeslaw",
+        "character:halinka"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-20-deszcz-ciastek/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-20-deszcz-ciastek/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

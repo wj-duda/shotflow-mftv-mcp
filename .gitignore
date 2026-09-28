@@ -1,0 +1,26 @@
+# Local dependencies and build caches
+node_modules/
+.cache/
+.tmp/
+*.log
+
+# Secrets and machine-local configuration
+.env
+.env.*
+!.env.example
+.npmrc
+credentials*.json
+service-account*.json
+*.pem
+*.key
+*.pfx
+*.p12
+
+# The source ShotFlow DataRoot is external and must never be copied here
+.shotflow-source/
+ShotFlowData/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*:Zone.Identifier

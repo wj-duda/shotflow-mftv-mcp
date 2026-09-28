@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-sezon-1/final-08c-2-pocisk-i-trafienie-prawo",
+  "id": "final-08c-2-pocisk-i-trafienie-prawo",
+  "title": "Final 08C 2 — pocisk i trafienie prawą flankę",
+  "description": "Najbardziej gwałtowny strzał otrzymuje najszerszy kadr całego bloku. Kamera stoi przed Domem Kultury na wysokości sąsiednich dachów, obejmując fasadę, pełną sylwetkę Belicosy, wszystkie cztery podpory i prawą część nieba. Dokładnie jeden pocisk z różowo-czerwonym rdzeniem przecina szeroki obraz ku biookrętowi na prawej flance i trafia odpowiadający mu organ. Statek-matka oraz pozostałe cele nie zostają przypadkowo uszkodzone.\n\nSzerokość kadru pozwala po raz pierwszy zobaczyć pełną cenę odrzutu: cztery stopy uderzają w dach, papa pęka promieniście, pył wydostaje się także spod gzymsu, a ciężka podstawa osiada o kilka centymetrów. Kamera dostaje krótkie fizyczne szarpnięcie, lecz zachowuje geografię frontu budynku. To skuteczne trafienie, ale obraz jasno komunikuje, że Belicosa niszczy Dom Kultury własną mocą i po tej salwie nie może już bezpiecznie kontynuować ognia.",
+  "project": {
+    "id": "zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1"
+  },
+  "references": [
+    {
+      "type": "prop",
+      "id": "belicosa"
+    },
+    {
+      "type": "shot",
+      "id": "final-08c-1-czeslaw-komenda-prawo"
+    },
+    {
+      "type": "place",
+      "id": "dach-domu-kultury"
+    },
+    {
+      "type": "place",
+      "id": "dach-domu-kultury-obrona"
+    },
+    {
+      "type": "prop",
+      "id": "roj-dzieci-gwiazd"
+    },
+    {
+      "type": "shot",
+      "id": "final-08b-2-pocisk-i-trafienie-srodek"
+    },
+    {
+      "type": "shot",
+      "id": "final-08a-2-pocisk-i-trafienie-lewo"
+    }
+  ],
+  "prompts": {
+    "image": "Photorealistic cinematic 16:9 third-volley Start Frame from a neighboring rooftop at parapet height, not a clean aerial postcard. A blurred wet vent pipe blocks the extreme foreground and the camera carries a six-degree Dutch tilt. The exact FRONT facade of Dom Kultury fills the lower third; full canonical Belicosa and all four supports remain readable. Exactly one compact white-hot projectile with a saturated PINK-RED core has just left the single rectangular muzzle and travels toward only the right-flank small bio-ship's pink-red organ; it is discrete ammunition, not a laser. The third recoil visibly destroys the building: four feet hammer the roof, roofing felt splits radially, one support punches lower, water and black aggregate erupt, a crack reaches the front parapet and dust with small facade fragments blasts beneath the cornice. Exactly four biological ships remain. War-correspondent wide frame, rain-black night, dirty warm windows and concussive chaos. No impact yet, extra barrel, extra projectile, extra ships, total collapse, UI, text or watermark.",
+    "endFrameDescription": "",
+    "animation": "One continuous two-second chaotic wide battle shot with no cut. The single pink-red projectile visible in the Start Frame is already moving at extreme speed. It immediately continues forward from its exact position, crosses the remaining distance in one smooth path and strikes only the right-flank small ship within the first second. It never pauses, hovers or hangs between the cannon and target. Its short luminous trail follows the moving projectile with natural motion blur and vanishes behind it; the trail is never a fixed laser beam or a line held in the sky. On impact the target tears open at one point with a brief organic flash and debris, not a giant fireball.\n\nAt the same moment Belicosa completes one violent recoil cycle: the camera jolts, all four supports hammer downward, one foot settles several centimeters, wet roofing felt tears, and water, dust and black grit burst across the roof with fast imperfect motion blur. Keep the building geography readable through the chaos. Preserve one cannon, one barrel, four supports, one projectile and exactly four ships. The brood ship and surviving yellow and blue attackers remain untouched. No second projectile, repeated shot, continuous beam, suspended energy, total collapse, camera teleport, UI, text or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:final-08b-2-pocisk-i-trafienie-srodek",
+        "place:dach-domu-kultury-obrona",
+        "prop:belicosa",
+        "prop:roj-dzieci-gwiazd",
+        "shot:final-08a-2-pocisk-i-trafienie-lewo"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-08c-2-pocisk-i-trafienie-prawo/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-08c-2-pocisk-i-trafienie-prawo/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

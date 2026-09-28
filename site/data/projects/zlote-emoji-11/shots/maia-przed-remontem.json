@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-11/maia-przed-remontem",
+  "id": "maia-przed-remontem",
+  "title": "Dom Kultury zamknięty",
+  "description": "Maia wysiada przy Domu Kultury i zamiera. Po katastrofie z Belicosą budynek jest nadal odbudowywany, a na ogrodzeniu wisi tablica: REMONT — ZAMKNIĘTE DO ODWOŁANIA.",
+  "project": {
+    "id": "zlote-emoji-11",
+    "name": "Złote Emoji #11"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "maia-gotowa-na-gale"
+    },
+    {
+      "type": "shot",
+      "id": "maia-przejazd-przez-lazy"
+    },
+    {
+      "type": "place",
+      "id": "dom-kultury-wejscie"
+    },
+    {
+      "type": "place",
+      "id": "dom-kultury-ruina-po-belicosie"
+    },
+    {
+      "type": "note",
+      "id": "movie-shot"
+    }
+  ],
+  "prompts": {
+    "image": "Kanoniczny front Domu Kultury w Łazach kilka tygodni po finale sezonu. Zachować dokładną niską parterową bryłę: ciemnoróżowy górny pas, kremową fakturowaną fasadę, bordowy cokół, centralne szklane wejście, szerokie schody z czarnymi poręczami, okna, głośnik po lewej, antenę po prawej, iglak oraz szary paczkomat po lewej. Lokalna środkowo-prawa część dachu i górnej fasady jest odbudowywana po zapadnięciu Belicosy: rusztowania, podpory, częściowa niebieska plandeka, uporządkowany gruz i materiały. Belicosa całkowicie usunięta. Maia v2 stoi obok ciemnego hatchbacka i patrzy na ogrodzenie. Stały szyld brzmi dokładnie DOM KULTURY. Biała tablica ma dokładnie dwie linie: REMONT / ZAMKNIĘTE DO ODWOŁANIA. Bez napisu AIMFTV, starego baneru gali, ludzi, fantastycznych maszyn i dodatkowych tekstów.",
+    "endFrameDescription": "",
+    "animation": "Single continuous 3-second wide shot with a very slow push toward Maia and the closure notice. Maia takes half a step, stops, and her shoulders stiffen slightly as she reads. A light breeze moves only the ends of her platinum-lavender hair, a small loose edge of the blue construction tarp, and one corner of the paper notice. The parked car, scaffolding, building materials, entrance steps, speaker, antenna, parcel locker, and the canonical pink-and-cream Dom Kultury building in Lasy remain stable. Preserve Maia's exact identity, gala outfit, body proportions, and the local reconstruction damage. Keep all existing sign shapes unchanged; the permanent sign remains DOM KULTURY and the white notice remains REMONT / ZAMKNIETE DO ODWOLANIA. Never add AIMFTV or any new lettering. No new people, machinery, object deformation, morphing, cut, text replacement, or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:maia-gotowa-na-gale",
+        "shot:maia-przejazd-przez-lazy",
+        "place:dom-kultury-wejscie",
+        "place:dom-kultury-ruina-po-belicosie",
+        "note:movie-shot"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-11/shots/maia-przed-remontem/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-11/shots/maia-przed-remontem/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-12/ze12-05b-protokolant-fotografuje",
+  "id": "ze12-05b-protokolant-fotografuje",
+  "title": "Protokolant — dokumentacja",
+  "description": "Dwusekundowa przebitka po oględzinach: protokolant KKN z absolutną powagą robi jedno zdjęcie uszkodzonego dachu poza kadrem, używając Leiki M3. Protokolant pojawia się także w tle późniejszego epilogu Wiesława. Identyfikatory z białym sygnetem KKN na fioletowym tle, zawsze na anatomicznie lewej piersi; zasłonięte plakietki pozostają zasłonięte.",
+  "project": {
+    "id": "zlote-emoji-12",
+    "name": "Złote Emoji #12"
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "kkn-protokolant"
+    },
+    {
+      "type": "prop",
+      "id": "leica-m3"
+    },
+    {
+      "type": "shot",
+      "id": "ze12-05b-protokolant-fotografuje"
+    },
+    {
+      "type": "prop",
+      "id": "kkn-sygnet"
+    }
+  ],
+  "prompts": {
+    "image": "Use case: precise-object-edit. Edit ONLY the tiny commissioner identification badges in reference1; preserve every face, anatomy, expression, hair, glasses, clothing folds, pose, hands, camera, depth of field, lighting and background exactly. Reference2 is the exact monochrome KKN emblem (three architectural pillars under arch). Reproduce its silhouette in WHITE ink on a small VIOLET vertical rectangular badge with thin silver rim and metal clip; no letters. Badge always on wearer's anatomical LEFT chest. Keep physically realistic badge scale around 3x4cm, not a giant emblem or graphic overlay. No other changes, no new people, no text, no watermark. 16:9 photorealism. Replace male photographer's tiny horizontal KKN pin at screen x=1258 y=859 on his anatomical LEFT lapel with the small violet clipped vertical badge carrying white reference2 emblem, same center position and modest real size. Preserve exact Leica M3, fingers, camera strap, all wardrobe and face. Do not change the camera or his pose.",
+    "endFrameDescription": "",
+    "animation": "3-second continuous locked shot, first 2 seconds used on timeline. Camera is already held at the right eye, lens aimed slightly upward toward the roof off-screen left. 0–0.8s: right index finger gently presses the shutter once. 0.8–2s: finger releases, man holds his framing with absolute bureaucratic composure. 2–3s: hold for trim. Left palm keeps supporting lens, leather neck strap hangs with minimal breathing motion. Preserve Leica M3 rangefinder geometry, single lens, optical windows, silver finish and black leather. No flash, film advance, camera lowering or second photograph. Street and fence stay stationary. Preserve exact identity, anatomy, clothing, props and set geometry. No new people, extra limbs, morphing, cuts, captions or watermarks. Keep each badge fixed to the wearer’s anatomical LEFT chest, with its exact white arch-and-three-pillars emblem on violet; never mirror, relocate or duplicate a badge.\n\n@Image1 supplies the identity of the sole bald photographer already present; @Image2 locks the geometry of the single Leica M3 already in his hands. Keep Start Frame framing, pose, current costume and badge."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze12-05b-protokolant-fotografuje",
+        "prop:kkn-sygnet"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-05b-protokolant-fotografuje/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-12/shots/ze12-05b-protokolant-fotografuje/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "character:kkn-przewodniczaca",
+  "type": "characters",
+  "id": "kkn-przewodniczaca",
+  "name": "KKN — Przewodnicząca",
+  "description": "Przewodnicząca Komisji Kultury Najwyższej. Mówi cicho i uprzejmie; nigdy nie musi podnosić głosu. Jej autorytet wynika z pewności, że procedura zostanie wykonana. Komediowa obsesja: precyzyjne nazewnictwo — nawet w środku katastrofy spokojnie poprawia niewłaściwy termin i czeka, aż rozmówca użyje właściwego. Rzadko reaguje na samą grozę zdarzenia; uchybienie formalne wywołuje u niej większe poruszenie. Nie jest bezmyślna ani okrutna, umie podejmować trafne decyzje. Jedno krótkie spojrzenie wystarcza, żeby pozostali wrócili do zadania. Sucha puenta o trzecim aniele w miesiącu wynika ze zmęczenia pracą, nie z chęci dowcipkowania.\n\nOkoło 55 lat, 174 cm, szczupła wyprostowana sylwetka. Siwy bob do żuchwy, drobne okrągłe czarne lenonki, wysoki gładki fioletowy golf niemal pod brodę. Czarny wełniany płaszcz do kostek z wyraźną linią ramion, czarne proste spodnie i wypolerowane płaskie półbuty. W lewej dłoni cienka zamknięta czarna teczka. Groteska: przesadnie poprawna postawa i nienaganny porządek stroju.\n\nWspólna zasada KKN: elitarna Komisja Kultury Najwyższej ocenia muzykę i obsługuje niezwykłe incydenty w obszarze kultury, w tym zgłoszenia z kurii. Jej członkowie są skuteczni, spokojni i budzą respekt. Humor wynika z zawodowych obsesji, kontrastu skali i absolutnej powagi, nie z niekompetencji ani slapsticku. Fiolet, czerń i okrągłe lenonki są wspólnym kodem wizualnym. Nazwy funkcji są obecnymi nazwami postaci; imiona i głosy pozostają nieustalone.\n\nReferencje: portret i sylwetka stanowią rozwinięcie wyglądu z ZE12, shot ze12-04-przyjazd-komisji, Start Frame v001. Nowe rekwizyty i drobne zmiany kroju nie występują jeszcze we wszystkich klatkach ZE12. Pełne prompty i pochodzenie obrazów zapisano w repozytorium: output/imagegen/kkn-characters/generation-record.json.\n\nZE12: przyjeżdżają przewodnicząca i inspektorka. Wariant biurowy stroju pokazuje note:kkn-duet-biurowy-koncepcja i nowe klatki ZE12: identyfikatory KKN, łańcuszek do lenonek przewodniczącej, krótka pudełkowa kurtka i teczka harmonijkowa inspektorki. Obecne portret i sylwetka zachowują bazową tożsamość i wcześniejszy strój; dla obecnego kostiumu użyj również tej noty.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "portrait",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/kkn-przewodniczaca/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/kkn-przewodniczaca/image-001-thumb.webp",
+      "width": 1254,
+      "height": 1254,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-002",
+      "role": "silhouette",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/kkn-przewodniczaca/image-002.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/kkn-przewodniczaca/image-002-thumb.webp",
+      "width": 1024,
+      "height": 1536,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-12T00:39:07.411729+00:00"
+}

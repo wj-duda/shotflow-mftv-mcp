@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:flow/zosia-smile",
+  "id": "zosia-smile",
+  "title": "zosia-smile",
+  "description": "zosia swzczęśliwa, napraw wszystkie AI glitche na tym obrazku",
+  "project": {
+    "id": "flow",
+    "name": "Flow"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "zosia-wraca-do-domu"
+    },
+    {
+      "type": "shot",
+      "id": "zosia-jump"
+    }
+  ],
+  "prompts": {
+    "image": "Generate exactly one cinematic still image in landscape 16:9.\n\nMaintain visual continuity with the characters, location, lighting, and style established earlier in this conversation.\n\nShot: zosia-smile\nDescription:\nzosia swzczęśliwa, napraw wszystkie AI glitche na tym obrazku\n\nDo not include text, captions, borders, contact sheets, or multiple panels.",
+    "endFrameDescription": "",
+    "animation": "girl-smiles"
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/flow/shots/zosia-smile/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/flow/shots/zosia-smile/frame-start-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ]
+}

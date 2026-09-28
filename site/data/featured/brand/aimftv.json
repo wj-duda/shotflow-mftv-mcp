@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "brand",
+  "key": "brand:aimftv",
+  "type": "brand",
+  "id": "aimftv",
+  "name": "AI Music Future TV",
+  "description": "Kanoniczne logo AI Music Future TV: błękitne AI, żółte MF i różowe, odręczne TV z mocnymi czarnymi obrysami.",
+  "slogans": [
+    {
+      "id": "emocje-na-zywo",
+      "key": "slogan:emocje-na-zywo",
+      "purpose": "audycje",
+      "text": "Emocje na Żywo",
+      "preserveExactText": true,
+      "rationale": "Hasło podkreśla, że istotą audycji MF TV są prawdziwe reakcje widzów, głosowanie na czacie i emocje powstające podczas wspólnej transmisji, a nie samo bierne odtwarzanie muzyki.",
+      "whereToUse": [
+        "plansze promujące audycje",
+        "miniatury i zapowiedzi transmisji",
+        "posty społecznościowe o głosowaniu",
+        "materiały zachęcające do oglądania na żywo"
+      ],
+      "whenToUse": "Gdy materiał promuje konkretną audycję, transmisję na żywo, głosowanie widzów albo wspólne przeżywanie premiery.",
+      "howToReference": "W promptach i danych używaj klucza slogan:emocje-na-zywo. Tekst pokazuj dokładnie jako „Emocje na Żywo” i łącz z właściwą planszą audycji lub oficjalnym logo.",
+      "promotionalRequirement": "Hasło powinno pojawiać się na materiałach promocyjnych dotyczących audycji, transmisji na żywo i głosowania widzów."
+    },
+    {
+      "id": "nowa-era-muzyki",
+      "key": "slogan:nowa-era-muzyki",
+      "purpose": "platforma",
+      "text": "Nowa Era muzyki — tworzona z AI, wybrana przez ludzi",
+      "preserveExactText": true,
+      "rationale": "Hasło wyjaśnia pełną ideę platformy: AI uczestniczy w tworzeniu muzyki, ale to ludzie słuchają, reagują i wybierają utwory. Łączy technologiczną nowość z ludzkim werdyktem.",
+      "whereToUse": [
+        "główne materiały promujące platformę",
+        "prezentacje i opisy MF TV",
+        "kampanie pozyskujące twórców i widzów",
+        "grafiki wizerunkowe i materiały partnerskie"
+      ],
+      "whenToUse": "Gdy materiał przedstawia MF TV jako platformę, wyjaśnia jej misję albo zaprasza twórców i widzów do udziału.",
+      "howToReference": "W promptach i danych używaj klucza slogan:nowa-era-muzyki. Zachowaj pełne brzmienie, kolejność zdań i sens rozdzielenia części o AI od części o wyborze ludzi.",
+      "promotionalRequirement": "Hasło powinno pojawiać się na głównych materiałach promocyjnych i wizerunkowych platformy MF TV."
+    }
+  ],
+  "colors": [
+    {
+      "id": "gold",
+      "name": "Gold",
+      "hex": "#FFC400",
+      "usage": "Wyróżnienia i najważniejsze akcenty"
+    },
+    {
+      "id": "cyan",
+      "name": "Cyan",
+      "hex": "#00D5FF",
+      "usage": "Główny akcent cyfrowy i stany pozytywne"
+    },
+    {
+      "id": "magenta",
+      "name": "Magenta",
+      "hex": "#FF2F75",
+      "usage": "Emocje i akcent marki"
+    },
+    {
+      "id": "coral",
+      "name": "Coral",
+      "hex": "#FF4324",
+      "usage": "Ostrzeżenia i silny kontrast"
+    },
+    {
+      "id": "cream",
+      "name": "Cream",
+      "hex": "#F5F5F2",
+      "usage": "Główny kolor tekstu"
+    },
+    {
+      "id": "night",
+      "name": "Night",
+      "hex": "#0D0F12",
+      "usage": "Główne tło strony"
+    }
+  ],
+  "images": [
+    {
+      "id": "image-001",
+      "role": "logo",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/brand/aimftv.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/brand/aimftv-thumb.webp",
+      "width": 1920,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

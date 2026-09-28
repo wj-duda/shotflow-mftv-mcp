@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:you-talking/ea0aef7c-15a6-48af-af02-945816b7fd9b",
+  "id": "ea0aef7c-15a6-48af-af02-945816b7fd9b",
+  "title": "ea0aef7c-15a6-48af-af02-945816b7fd9b",
+  "description": "",
+  "project": {
+    "id": "you-talking",
+    "name": "You Talking"
+  },
+  "references": [],
+  "prompts": {
+    "image": "",
+    "endFrameDescription": "",
+    "animation": "Static cinematic close shot of an old bathroom sink and mirror shelf. Keep the composition almost completely still. A worn ceramic sink, chrome taps, shaving brush with foam, safety razor, soap dish, toothbrush in a cup, glass shelf, and bottle near the mirror. Very subtle ambient life only: maybe a tiny shimmer in reflections and an almost imperceptible natural stillness of the room. Add an extremely gentle slow push-in / micro zoom toward the sink and shaving tools. No object movement, no human presence, no hand entering frame. No morphing, no glitches, no deformation. Warm realistic bathroom lighting, quiet intimate atmosphere, hyperrealistic cinematic look."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "timeline",
+      "referenceKeys": [],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/you-talking/shots/ea0aef7c-15a6-48af-af02-945816b7fd9b/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/you-talking/shots/ea0aef7c-15a6-48af-af02-945816b7fd9b/frame-start-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ]
+}

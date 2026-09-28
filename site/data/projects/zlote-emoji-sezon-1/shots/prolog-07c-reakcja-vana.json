@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-sezon-1/prolog-07c-reakcja-vana",
+  "id": "prolog-07c-reakcja-vana",
+  "title": "Prolog 07C - reakcja Vana",
+  "description": "Krotkie zblizenie reakcji Vana, wyrwanego ze snu i oslepionego swiatlem wpadajacym przez wybite drzwi.",
+  "project": {
+    "id": "zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "prolog-07b-pipa-w-drzwiach"
+    },
+    {
+      "type": "shot",
+      "id": "prolog-07-wtargniecie-pipy"
+    },
+    {
+      "type": "shot",
+      "id": "prolog-06-pokoj-cisza"
+    },
+    {
+      "type": "character",
+      "id": "van-sabe"
+    }
+  ],
+  "prompts": {
+    "image": "Use case: photorealistic-natural. Asset type: cinematic 16:9 start frame for a reaction shot. Immediate reverse reaction after Lady Pipa bursts through the hotel-room door. Character van-sabe is the exact facial identity reference: preserve his dark shoulder-length curly hair, stubble, age and proportions, but not outdoor gear. Shot prolog-07-wtargniecie-pipy is the primary continuity reference for Van's position on the rumpled bed, simple dark sleep clothing, room and doorway direction. Shot prolog-06-pokoj-cisza supplies the same bedding and pre-intrusion darkness. Shot prolog-07b-pipa-w-drzwiach supplies current exposure and warm light entering from screen right. Van has snapped awake, frightened and alert, eyes fixed toward Pipa outside frame. One tight close-up of face and upper shoulders, half-risen on bed, looking strongly SCREEN RIGHT. Warm corridor light grazes that side of face and curls; other side falls into cool darkness. Genuine fear and recognition, controlled realism. Exact identity, simple black sleep shirt, hyperrealistic live action, shallow depth of field and restrained grain. Avoid Pipa, weapon, die, table, daylight, lit room, wrong eyeline, adventure gear, distorted anatomy, text, logo and watermark.",
+    "endFrameDescription": "",
+    "animation": "One continuous 1.5-second reaction close-up. Van recoils slightly, blinks against the corridor light, then his eyes lock screen-right in recognition and fear. Minimal handheld breath, realistic facial micro-expression and breathing. Keep the room dark and the background soft. Preserve exact identity and anatomy. No dialogue, no new people, no morphing, cuts, captions, logos or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:prolog-07b-pipa-w-drzwiach",
+        "shot:prolog-07-wtargniecie-pipy",
+        "shot:prolog-06-pokoj-cisza",
+        "character:van-sabe"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-07c-reakcja-vana/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/prolog-07c-reakcja-vana/frame-start-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ]
+}

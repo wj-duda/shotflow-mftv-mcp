@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-13/ze13-11-halinka-na-cement",
+  "id": "ze13-11-halinka-na-cement",
+  "title": "ZE13 09 — to jednak na cement",
+  "description": "Ciągłość last-to-first: Start Frame jest dokładną ostatnią widoczną klatką (71) take’a ze13-09-halinka-wylacza/take-1. Halinka puszcza telefon na środku blatu; prawą ręką sięga w lewo do istniejącego burgundowego portfela, otwiera go na miejscu i wyjmuje jeden złożony banknot 100 zł. Podnosi go przy piersi i patrzy na Wiesława poza kadrem po prawej. Lewa dłoń pozostaje na stole. Dialog z istniejącego nagrania: „Panie Wiesiu, to jednak na cement.” Portfel nie przeskakuje pod lewą rękę; telefon zachowuje rzeczywistą pozycję i orientację z take’a 09. Bez przekazania pieniędzy w tym krótkim ujęciu. Start v004, End v001 wygenerowany z tego Startu. Widoczne 93 klatki / 24 fps = 3,875 s; planowany take 4 s, bez audio. Referencje animacji: Halinka-gruzowisko jako Element, banknot-100-pln jako Image.",
+  "project": {
+    "id": "zlote-emoji-13",
+    "name": "Złote Emoji #13"
+  },
+  "references": [
+    {
+      "type": "take",
+      "id": "ze13-09-halinka-wylacza/take-1"
+    },
+    {
+      "type": "character",
+      "id": "halinka-gruzowisko"
+    },
+    {
+      "type": "prop",
+      "id": "banknot-100-pln"
+    }
+  ],
+  "prompts": {
+    "image": "Exact copied last visible frame 71 of ze13-09-halinka-wylacza/take-1, no image generation or modification. This is the first frame of the continuous next action.",
+    "endFrameDescription": "Ta sama kamera i układ stołu co Start. Halinka trzyma jeden złożony banknot 100 zł w prawej dłoni przy piersi, patrzy na Wiesława poza kadrem po prawej. Lewa dłoń nadal na stole po prawej. Burgundowy portfel otwarty w swoim pierwotnym miejscu daleko po lewej; telefon nieruchomo na środku blatu, spodek i teczka bez zmiany położenia.",
+    "animation": "0–0.25s: Halinka releases the resting phone; her RIGHT hand lifts away EMPTY. 0.25–1.4s: that hand reaches screen LEFT, clearing the saucer, and opens the burgundy wallet flap. 1.4–2.6s: only then, thumb and index finger pinch ONE folded 100 PLN note INSIDE the compartment and pull it through the opening. The note emerges progressively; keep extraction visible. 2.6–3.4s: she raises that same note to her chest and looks off-screen RIGHT, matching End Frame. 3.4–4s: hold; first 3.875s visible.\nCamera: locked, continuous natural brisk motion.\nSecondary motion: breathing; existing sage smoke drifts left in a light draft and thins.\nContinuity: @Element1 is Halinka already seated in Start Frame; preserve identity, proportions and outfit. @Image1 specifies ONLY the folded banknote’s design and scale, initially concealed inside the wallet. Preserve its visible 100 and printed markings. LEFT hand, phone, wallet base, saucer and folder stay fixed; retain set and lighting.\nAvoid: no money before extraction, teleportation, phone-to-money morph, passage through wallet walls, duplicate props, extra limbs or people, fire, cuts, fades, captions or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 4,
+      "source": "reference",
+      "referenceKeys": [
+        "take:ze13-09-halinka-wylacza/take-1"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-13/shots/ze13-11-halinka-na-cement/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-13/shots/ze13-11-halinka-na-cement/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze13-11-halinka-na-cement",
+        "prop:banknot-100-pln",
+        "character:halinka-gruzowisko"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-13/shots/ze13-11-halinka-na-cement/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-13/shots/ze13-11-halinka-na-cement/frame-end-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

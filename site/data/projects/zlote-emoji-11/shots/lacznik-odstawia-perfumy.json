@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-11/lacznik-odstawia-perfumy",
+  "id": "lacznik-odstawia-perfumy",
+  "title": "Łącznik: odkłada perfumy",
+  "description": "Maia odstawia flakon, a w lustrze druga dłoń unosi się ku włosom i kołnierzowi; prowadzi do narcystycznego sprawdzenia profilu.",
+  "project": {
+    "id": "zlote-emoji-11",
+    "name": "Złote Emoji #11"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "maia-perfumy"
+    },
+    {
+      "type": "shot",
+      "id": "maia-sprawdza-profil"
+    },
+    {
+      "type": "place",
+      "id": "mieszkanie-po-afterze"
+    },
+    {
+      "type": "note",
+      "id": "movie-shot"
+    }
+  ],
+  "prompts": {
+    "image": "Fotorealistyczny filmowy detal 16:9 z niskiego bocznego kąta wzdłuż toaletki. W ostrym pierwszym planie dłoń Mai właśnie stawia ten sam przejrzysty flakon i puszcza go. W miękkim odbiciu lustra widać tylko fragment skórzanego ramienia, dolnej szczęki i platynowo-lawendowego boba; druga dłoń zaczyna wznosić się do włosów lub kołnierza. Ciepłe światło, płytka głębia. Bez pełnego portretu, duplikatu flakonu, etykiet, napisów, dodatkowych palców i zdeformowanego lustra.",
+    "endFrameDescription": "",
+    "animation": "Single continuous 3-second detail insert with a locked low side camera. The action begins immediately: the foreground hand finishes placing the existing clear perfume bottle upright and gently releases it. At the same time, in the softly focused mirror reflection, Maia's other hand starts rising toward her platinum-lavender bob and jacket collar. Complete both useful motions within the first second, then settle. Preserve the exact bottle, hands, manicure, jacket, cropped reflection, mirror, wooden vanity, and warm light. Do not reveal a new full face. No duplicate bottle, extra fingers, malformed reflection, new object, morphing, camera move, cut, text, or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:maia-perfumy",
+        "shot:maia-sprawdza-profil",
+        "place:mieszkanie-po-afterze",
+        "note:movie-shot"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-11/shots/lacznik-odstawia-perfumy/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-11/shots/lacznik-odstawia-perfumy/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

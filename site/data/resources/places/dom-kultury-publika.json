@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "place:dom-kultury-publika",
+  "type": "places",
+  "id": "dom-kultury-publika",
+  "name": "Publika Domu Kultury",
+  "description": "Publika domu kultury w momencie wręczania nagorody Złotego Emoji Tygodnia",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/dom-kultury-publika/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/dom-kultury-publika/image-001-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-08-01T18:31:16.4598891+00:00"
+}

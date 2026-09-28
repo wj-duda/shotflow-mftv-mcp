@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "prop:vampire-masquerade-1e",
+  "type": "props",
+  "id": "vampire-masquerade-1e",
+  "name": "Vampire: The Masquerade — pierwsze wydanie (1991)",
+  "description": "Autentyczna okładka papierowego podręcznika RPG, pierwsze wydanie angielskie White Wolf, 1991, WW2000. Zielony marmur, czerwona róża i oryginalny tytuł. Rekwizyt do Halloween Konkurs: Mańka (Marianna) trzyma jeden zamknięty podręcznik w JEDNEJ ręce, przednią okładką do kamery, druga ręka wolna. Zachować oryginalną grafikę, kolory, liternictwo i proporcje okładki; bez lustrzanego odbicia, wymyślonych napisów i zastępowania późniejszym wydaniem. Pełnowymiarowy miękko oprawiony podręcznik, nie kieszonkowa książka. Referencja przedstawia przednią okładkę; tył i grzbiet nie są udokumentowane. Źródło: sources/provenance.json.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/vampire-masquerade-1e/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/vampire-masquerade-1e/image-001-thumb.webp",
+      "width": 599,
+      "height": 774,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-20T15:23:30.788624+00:00"
+}

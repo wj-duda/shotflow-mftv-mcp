@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "place:mala-lazienka",
+  "type": "places",
+  "id": "mala-lazienka",
+  "name": "Mała łazienka",
+  "description": "Niewielka, ciasna i wyraźnie użytkowana łazienka. Jasne płytki ceramiczne, mała umywalka, lustro, półki oraz dużo codziennych drobiazgów: ręczniki, kosmetyki, środki czystości i kosz na pranie. Pomieszczenie jest zagracone, ale wiarygodne i funkcjonalne; wyposażenie lekko zużyte, bez katalogowej sterylności.",
+  "images": [],
+  "updatedAt": "2026-08-02T12:00:00+02:00"
+}

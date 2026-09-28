@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-10/zespol-piesni",
+  "id": "zespol-piesni",
+  "title": "Łazowanki — finał tańca",
+  "description": "Kontynuacyjne, frontalne ujęcie sceny. Te same pięć Łazowanek kończy ostatni fragment ludowego tańca: kilka prostych kroków prowadzi je do wspólnej finałowej figury. Kamera pozostaje statyczna, a skromna skala występu Domu Kultury jest częścią suchego gagu o przeciągającym się oczekiwaniu na laureatkę.",
+  "project": {
+    "id": "zlote-emoji-10",
+    "name": "Złote Emoji #10"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "ze10-dom-kultury-czeka"
+    },
+    {
+      "type": "place",
+      "id": "komisja-zlote-emoji-tygodnia"
+    }
+  ],
+  "prompts": {
+    "image": "Cinematic photorealistic 16:9 continuation shot based on ze10-dom-kultury-czeka. Static audience-eye-level frontal medium-wide view of the same Dom Kultury stage. Preserve exactly the same five elderly women of the Lazowanki ensemble, including faces, ages, hair, body proportions, individual skirt colors, embroidered waistcoats, white blouses, red beads and black shoes. Show all five head to toe as they arrive in a shallow curved final folk-dance formation, outside dancers turned slightly inward, skirts settling after the last step, hands naturally at their waists. Preserve the modest warm stage lighting and hall architecture. Cheerful concentration, not mugging. No committee, extra dancers, men, audience crowd, malformed anatomy, modern dance pose, text, subtitles or watermark.",
+    "endFrameDescription": "",
+    "animation": "One continuous static-camera 5.6-second stage shot with no cut. The same five Lazowanki perform the final short phrase of their folk dance: two restrained synchronized side steps, one small inward turn by the outside dancers, then all five bring their feet together and settle into the supplied formation. Skirts and aprons sway naturally and settle; shoes stay grounded on the wooden stage. During the final second they hold the completed pose with small breathing and satisfied restrained smiles. Preserve every dancer's identity, age, anatomy, costume and screen position, plus the stage and lighting. No jumping, spins, broad waving, extra people, morphing, duplicated limbs, camera movement, subtitles or transition."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze10-dom-kultury-czeka",
+        "place:komisja-zlote-emoji-tygodnia"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-10/shots/zespol-piesni/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-10/shots/zespol-piesni/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:prezent-dla-halinki-1/halinka-budzi-sie",
+  "id": "halinka-budzi-sie",
+  "title": "halinka-budzi-sie",
+  "description": "",
+  "project": {
+    "id": "prezent-dla-halinki-1",
+    "name": "Prezent Dla Halinki 1"
+  },
+  "references": [],
+  "prompts": {
+    "image": "",
+    "endFrameDescription": "",
+    "animation": "woman is wkaing up and turing off the radio alarm clock"
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/prezent-dla-halinki-1/shots/halinka-budzi-sie/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/prezent-dla-halinki-1/shots/halinka-budzi-sie/frame-start-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ]
+}

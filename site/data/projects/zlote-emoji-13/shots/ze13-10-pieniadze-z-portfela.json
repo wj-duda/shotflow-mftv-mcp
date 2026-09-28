@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-13/ze13-10-pieniadze-z-portfela",
+  "id": "ze13-10-pieniadze-z-portfela",
+  "title": "Archiwum 60 s — ZE13 10 — rzeczywiste środki",
+  "description": "Poza timeline’em wersji 42 s. Zachowany projekt wcześniejszego wariantu. Detal dłoni. Po eliptycznym cięciu portfel jest już otwarty; Halinka wyciąga jeden złożony banknot. Telefon leży ekranem do dołu. Nie pokazujemy czytelnego nominału. Etap projektu: zaprojektowany placeholder; Start Frame i take nie zostały wygenerowane.",
+  "project": {
+    "id": "zlote-emoji-13",
+    "name": "Złote Emoji #13"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "ze13-09-halinka-wylacza"
+    },
+    {
+      "type": "character",
+      "id": "halinka"
+    }
+  ],
+  "prompts": {
+    "image": "Create exactly one photorealistic cinematic 16:9 START FRAME, target 1920x1080. Natural diffuse daylight through the missing roof, restrained 35mm texture, real skin and materials. Mandatory references in attachment order:\nImage 1: shot:ze13-09-halinka-wylacza, established scene geography, props, light and costume continuity; change the framing/action only as specified below.\nImages 2 and 3: character:halinka, exact facial identity and full-body wardrobe/proportions. Reference-sheet labels and white studio backgrounds are not scene elements.\n\nClose tabletop insert, no faces. Same table patch as ze13-09, black phone screen DOWN and sage saucer fixed farther back. One small burgundy leather wallet is NOW OPEN after an elliptical cut. Halinka’s LEFT hand holds it steady; RIGHT thumb and index finger already grip the exposed edge of ONE folded banknote inside. Burgundy sleeves, natural hands, clear separation of fingers. Most of the note is concealed by folding and grip; no legible amount is required. No new cash pile, coins or payment terminal.\nKeep the hall roofless and ruined. Preserve all existing visible source lettering and logos on included scene objects; do not transplant reference-sheet annotations. No added people, repaired roof, supernatural light, oversized smoke, illustration, captions, watermark, montage or malformed anatomy. Mouths rest naturally before dialogue. No End Frame is required.",
+    "endFrameDescription": "",
+    "animation": "0–1.5s: Halinka’s right thumb and index finger draw the single folded banknote smoothly out of the wallet toward upper screen right. 1.5–3s: she holds the note still above the table. Her left hand keeps the wallet stationary. The phone and saucer never move; the note stays one continuous folded object. Camera: locked-off, one continuous shot. Secondary motion: natural breathing and minor fabric settling only. Continuity: preserve the exact identities, anatomy, costumes, props, ruined architecture, daylight and any visible lettering from Start Frame. Avoid new people, duplicate objects, extra limbs, face morphing, cuts, fades, captions and watermarks."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "placeholder",
+  "images": []
+}

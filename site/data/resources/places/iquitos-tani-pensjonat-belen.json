@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "place:iquitos-tani-pensjonat-belen",
+  "type": "places",
+  "id": "iquitos-tani-pensjonat-belen",
+  "name": "Iquitos — tani pensjonat w Belén",
+  "description": "DRAFT / research prologu. Fikcyjny, tani i anonimowy pensjonat w górnej części dzielnicy Belén, w którym Van Sabe ukrywa się po odnalezieniu K20. To nie luksus: wąski pokój z białymi, lekko zużytymi ścianami, prostym drewnianym łóżkiem, płytkami, małym metalowym stolikiem, taboretem, tanimi pomarańczowymi zasłonami i czarnym żaluzjowym oknem. Do projektowanego shota dodać stojący wentylator, plecak Vana gotowy do ucieczki i K20 zawiniętą w materiał na stoliku; nie dodawać telewizora, klimatyzacji ani eleganckich dekoracji. Układ ma umożliwiać wtargnięcie LAIdy Pipy przez cienkie drzwi i ucieczkę Vana przez okno na niski blaszany dach. Image-001 jest wzorcem wnętrza z realnego taniego hospedaje w Iquitos; image-002 określa miejskie otoczenie i materiały Belén, ale nie jest widokiem z konkretnego okna pensjonatu. Obie fotografie służą wyłącznie jako komercyjne referencje researchowe. Wnętrze: https://www.booking.com/hotel/pe/casa-amazonica-iquitos.es.html. Otoczenie: https://kamaleon.viajes/el-barrio-del-amazonas/.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/iquitos-tani-pensjonat-belen/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/iquitos-tani-pensjonat-belen/image-001-thumb.webp",
+      "width": 1024,
+      "height": 768,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-002",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/iquitos-tani-pensjonat-belen/image-002.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/iquitos-tani-pensjonat-belen/image-002-thumb.webp",
+      "width": 643,
+      "height": 427,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-08-17T15:32:27+02:00"
+}

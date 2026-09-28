@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-14/ze14-sirock-wychodzi",
+  "id": "ze14-sirock-wychodzi",
+  "title": "Sirock wychodzi - obserwator",
+  "description": "Sirock blond wychodzi z baraku w padającym deszczu, z dotychczasową złotą statuetką w obu dłoniach. Spojrzenie w prawo. Anioł usunięty z pierwszego planu: nie stoi blisko niej. Niezasłonięty kadr na próg, mokry żwir i liście. Bez pokazania dachu lub akrobacji. Ciągłość: Sirock całkowicie przemoczona już od przyjścia — mokre blond pasma przylegają do twarzy i ramion, krople na skórze i czarnym ubraniu. Bez kurtki, parasola i bliskiego obserwatora.",
+  "project": {
+    "id": "zlote-emoji-14",
+    "name": "Złote Emoji #14"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "ze14-sirock-wychodzi"
+    },
+    {
+      "type": "shot",
+      "id": "seed"
+    },
+    {
+      "type": "shot",
+      "id": "ze14-sirock-weszy"
+    }
+  ],
+  "prompts": {
+    "image": "Precise weather/wetness edit of EXACT reference1 movie frame. Preserve composition, lens, all identity/face/body anatomy, poses, hands, gaze direction, furniture, architecture proportions, signs/text, door opening/hinge direction, trophy design/rotation and all props. No redesign or mirror. 16:9 photoreal cinematic, grey overcast daytime with readable faces. Continue heavy rain outside at same container doorway. Sirock already drenched from earlier arrival, not merely a few drops. No observer foreground or near her. Preserve same trophy and hands, same rightward gaze, same doorway, wet gravel and rain. Sirock is visibly SOAKED THROUGH after walking in a downpour without coat or umbrella, entirely indifferent to the rain. Preserve her BLONDE hair color and length but make it genuinely saturated: darker wet blonde strand bundles flattened to scalp, stringy dripping lengths stuck against neck/shoulders, wet fringe against forehead. Visible droplets and water trails on bare shoulders, arms and face; heavy eye makeup slightly damp/smudged but EXACT facial features intact. Black corset/trousers dark wet fabric with restrained water sheen, stays fully OPAQUE and same cut; same silver jewellery. No added jacket/hood/umbrella/towel, no shivering or cold gesture, no supernatural eyes. Image2 supplies saturated hair continuity only. Preserve image1 exact exit pose, gold trophy and rightward gaze.",
+    "endFrameDescription": "",
+    "animation": "0.0–1.6s: Already outside the threshold, Sirock takes one measured step diagonally forward toward screen right, carrying the trophy steadily in both hands at waist height. 1.6–3.0s: She settles her weight and maintains her rightward gaze. Camera: locked-off; keep her within the frame. Secondary motion: her boot displaces a little surface water and rain drips from her hair. @Image1 anchors only Sirock's facial identity and wet blonde hair. Preserve her black clothes and the trophy's starting design, size and orientation. Avoid a nearby observer, coat, umbrella, extra steps, dropped trophy, changing door geometry or cuts."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 4,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze14-sirock-wychodzi",
+        "shot:ze14-sirock-weszy"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-sirock-wychodzi/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-14/shots/ze14-sirock-wychodzi/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

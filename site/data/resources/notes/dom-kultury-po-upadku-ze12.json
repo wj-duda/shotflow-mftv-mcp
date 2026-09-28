@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "note:dom-kultury-po-upadku-ze12",
+  "type": "notes",
+  "id": "dom-kultury-po-upadku-ze12",
+  "name": "Dom Kultury — szkody po upadku anioła",
+  "description": "Migawka End Frame ze12-02-uderzenie-w-remont. Referencja lokalnej prawej wyrwy, wygiętego rusztowania i rozdartej niebieskiej plandeki. Rano pył opadł i ogień wygasł; zachować geometrię budynku oraz zniszczeń.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/dom-kultury-po-upadku-ze12/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/dom-kultury-po-upadku-ze12/image-001-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-11T23:11:37.531790+00:00"
+}

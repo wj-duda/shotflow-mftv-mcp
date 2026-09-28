@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "place:dom-kultury-ruina-po-belicosie",
+  "type": "places",
+  "id": "dom-kultury-ruina-po-belicosie",
+  "name": "Dom Kultury — ruina po Belicosie",
+  "description": "Kanoniczny stan Domu Kultury po trzech strzałach i przeciążeniu Belicosy. To dokładnie ten sam front budynku, kamera i dach co w place:dach-domu-kultury-obrona. Dolna krawędź kadru pozostaje FRONTEM z głównym wejściem i placem, górna krawędź pozostaje TYŁEM. Zielona nadbudówka stoi z tyłu po prawej. Budynek nie może zostać obrócony ani pokazany jako tylna elewacja.\n\nZniszczenie pochodzi wyłącznie od masy, odrzutu i przegrzanych podpór Belicosy. Sześciometrowa okrągła podstawa zapada się niemal pionowo przez środkowo-prawą strefę dachu, w tym samym miejscu co przed awarią. Cztery podpory wyrywają cztery osobne otwory kotwiące w około 10 × 10 m obrysie. Zamek opada razem z podstawą, ale działo nie obraca się w poziomie i nie odwraca kierunku. Czternastometrowa lufa zmniejsza elewację z około 58 do około 42–45 stopni, lecz nadal celuje w niebo ku górnej lewej części kadru. Prostokątny wylot pozostaje najwyższym końcem. Lufa nigdy nie opada na wejście, fasadę, plac ani ziemię.\n\nZapada się lokalna środkowo-prawa część stropu i fragment górnej fasady. Widoczne są płyty żelbetowe, cegły, tynk, zbrojenie, pył i lekka para. Główne wejście, schody i wystarczająca część placu pozostają bezpieczne dla późniejszej rozmowy bohaterów. Zielona nadbudówka zachowuje rozpoznawalność i ma uszkodzony tylko jeden narożnik. Brak bomb, ostrzału roju, krateru z nieba, wiązki energetycznej, wielkiego pożaru i całkowitego zrównania budynku. Neutralna plansza nie zawiera ludzi, statków, K20, ciastek ani emotek.",
+  "images": [
+    {
+      "id": "image-003",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/dom-kultury-ruina-po-belicosie/image-003.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/dom-kultury-ruina-po-belicosie/image-003-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-08-19T08:30:00+02:00"
+}

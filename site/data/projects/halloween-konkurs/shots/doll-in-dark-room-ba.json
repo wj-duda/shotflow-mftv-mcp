@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:halloween-konkurs/doll-in-dark-room-ba",
+  "id": "doll-in-dark-room-ba",
+  "title": "BA — Spokojna lalka / światło wraca",
+  "description": "Tło ogłoszenia konkursu, 1080×1920, 24 fps, 3 s. Układ AB/BA/AB/BA/AC: 15 s według bieżącego timeline. Górne 25% oraz dolne 25% ciemne, przeznaczone pod napisy dodawane w montażu; marginesy tekstu 10% po bokach. Wyłącznie łagodna zmiana światła poza kadrem, lalka nieruchoma. Ziarno jako wspólny efekt montażowy po złożeniu. Gotowe Start/End Frames i prompt; animacja niegenerowana.",
+  "project": {
+    "id": "halloween-konkurs",
+    "name": "Halloween Konkurs"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "doll-in-dark-room-ab"
+    },
+    {
+      "type": "shot",
+      "id": "doll-in-dark-room-ba"
+    }
+  ],
+  "prompts": {
+    "image": "Dokładna kopia istniejącej wygenerowanej klatki B z AB; bez ponownej generacji, wspólna klatka na szwie pętli.",
+    "endFrameDescription": "A — dokładnie ta sama klatka co Start AB, koniec powrotu światła.",
+    "animation": "Over 3 seconds, the offscreen warm light on the left gradually brightens slightly while the cool light on the right gently dims, matching the supplied End Frame. The doll and chair remain motionless. Camera locked. Preserve the doll face, head direction, hands, dress and room geometry. Keep the upper and lower areas dark and empty. No blinking, breathing, camera movement, new objects or cuts."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:doll-in-dark-room-ab"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/doll-in-dark-room-ba/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/doll-in-dark-room-ba/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:doll-in-dark-room-ba",
+        "shot:doll-in-dark-room-ab"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/doll-in-dark-room-ba/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween-konkurs/shots/doll-in-dark-room-ba/frame-end-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

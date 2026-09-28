@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-sezon-1/final-02d-dariusz-decyzja",
+  "id": "final-02d-dariusz-decyzja",
+  "title": "Final 02D — Dariusz podejmuje decyzję",
+  "description": "Krótki ciasny portret Dariusza zamykający montaż napięcia. Widzi strach młodszych członków klubu, bierze odpowiedzialność i podejmuje decyzję o sprawdzeniu niezwykłej K20 na papierowym schemacie auspeksu. Bez magii i bez ujawniania mocy kostki.",
+  "project": {
+    "id": "zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1"
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "grimskald"
+    },
+    {
+      "type": "shot",
+      "id": "final-02-dariusz-rozpoznaje-flote"
+    },
+    {
+      "type": "place",
+      "id": "klub-fantastyki-zniszczony"
+    },
+    {
+      "type": "prop",
+      "id": "artefakt-k20"
+    }
+  ],
+  "prompts": {
+    "image": "Photorealistic live-action 16:9 tight 85 mm close-up of Dariusz at the same planning table as final-02. Preserve his exact blue eyes behind rectangular black glasses, enormous braided reddish beard, swept-back hair, tall massive build, blue shirt, dark waistcoat, leather suspenders and badges. Preserve the exact destroyed Klub Fantastyki, warm practical light, storm-blue window light and paper auspex diagram continuity. Frame upper chest to just above his head. He has registered the fear of the younger members and made a responsible decision: jaw firms, brows stop wavering and gaze drops toward the paper auspex diagram below frame. Restrained protective authority, never a heroic pose. Only Dariusz is sharp. No visible K20, magic, glow, smile, shouting, weapon, new person, text, captions, watermark or malformed anatomy.",
+    "endFrameDescription": "",
+    "animation": "One continuous 3-second locked close-up, with the decisive beat completed inside the first 0.75 seconds because only the first second is used on the timeline. 0.00-0.25 s: Dariusz watches the frightened younger members just off-screen. 0.25-0.70 s: his gaze drops to the paper auspex diagram, jaw firms and shoulders settle into quiet responsibility. 0.70-3.00 s: hold the decision with one subtle breath and blink. Preserve exact identity, glasses, beard, clothes, lighting and club background. No dialogue, visible K20, magic, gesture, camera movement, cut, morphing, text or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "character:grimskald",
+        "shot:final-02-dariusz-rozpoznaje-flote",
+        "place:klub-fantastyki-zniszczony"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-02d-dariusz-decyzja/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/final-02d-dariusz-decyzja/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

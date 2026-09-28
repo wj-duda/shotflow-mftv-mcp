@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-11/maia-perfumy",
+  "id": "maia-perfumy",
+  "title": "Maia używa perfum",
+  "description": "Maia zakłada ramoneskę i z celebracją spryskuje szyję perfumami, coraz mocniej wchodząc w rolę gwiazdy wieczoru.",
+  "project": {
+    "id": "zlote-emoji-11",
+    "name": "Złote Emoji #11"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "maia-zaklada-kolczyk"
+    },
+    {
+      "type": "shot",
+      "id": "maia-gotowa-na-gale"
+    },
+    {
+      "type": "character",
+      "id": "maia-melodies-v2"
+    },
+    {
+      "type": "note",
+      "id": "movie-shot"
+    }
+  ],
+  "prompts": {
+    "image": "Filmowy kadr 16:9 w tym samym mieszkaniu. Maia v2 ma już czarną ramoneskę na kremowej koszuli i małe srebrne kółko. Trzyma mały bezmarkowy flakon perfum przy szyi, palec na atomizerze, drugą dłonią odsuwa kołnierz. Oczy półprzymknięte, broda lekko uniesiona, spokojna próżność i bad-bitch pewność siebie. Realistyczne szkło, skóra i delikatna mgiełka; bez dodatkowych osób, butelek, napisów i watermarku.",
+    "endFrameDescription": "",
+    "animation": "Single continuous 4-second shot. Maia is alone and treats the perfume as a private ceremonial finishing touch. She presses the atomizer exactly once; a small realistic mist appears beside her neck and quickly dissipates. She briefly closes her eyes, raises her chin, and exhales calmly through her nose. When her eyes reopen, she gives her own reflection a half-second look of cool superiority; one corner of her mouth barely rises, then she suppresses it and releases her collar. Keep the camera stable. Preserve her exact identity, hair, makeup, black leather jacket, cream shirt, hands, perfume bottle, mirror, and apartment. No large perfume cloud, sensual exaggeration, broad smile, looking into camera, extra person, morphing, cut, text, or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:maia-zaklada-kolczyk",
+        "shot:maia-gotowa-na-gale",
+        "character:maia-melodies-v2",
+        "note:movie-shot"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-11/shots/maia-perfumy/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-11/shots/maia-perfumy/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

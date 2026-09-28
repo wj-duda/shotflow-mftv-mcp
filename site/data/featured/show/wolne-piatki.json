@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "show",
+  "key": "show:wolne-piatki",
+  "type": "brand",
+  "id": "wolne-piatki",
+  "name": "Wolne Piątki",
+  "description": "Wolne Piątki to audycja MFTV z większą swobodą gatunkową: utwory nastrojowe, dziwne, wolniejsze i eksperymentalne.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "show-board",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/show/wolne-piatki.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/show/wolne-piatki-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

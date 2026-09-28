@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-sezon-1/epilog-01-cisza-po-zawaleniu",
+  "id": "epilog-01-cisza-po-zawaleniu",
+  "title": "Epilog 01 Cisza Po Zawaleniu",
+  "description": "Krótka cisza po absurdalnym zwycięstwie: flota zniknęła, ostatnia Delicja opada, a Dom Kultury nadal pozostaje ruiną.",
+  "project": {
+    "id": "zlote-emoji-sezon-1",
+    "name": "Złote Emoji Sezon #1"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "final-21-ciastko-na-helmie-czeslawa"
+    },
+    {
+      "type": "prop",
+      "id": "delicja-pomaranczowa"
+    }
+  ],
+  "prompts": {
+    "image": "Generate exactly one cinematic still image in landscape 16:9.\n\nReference policy:\nUse every attached image as an exact and mandatory visual reference, not as optional inspiration.\nThe attached images are numbered strictly by upload order. \"Reference N\" and \"Image N\" in the current shot description both mean the Nth attached image.\nUse the current shot description to determine what each reference supplies: for example a character, location, prop, wardrobe, composition, lighting, or visual style. Do not assume that every reference depicts a character.\nIf the description assigns different roles to multiple references, follow that mapping exactly. Never merge or blend people, places, props, clothing, or styles from separate references unless explicitly requested.\nFor every referenced element requested in the new shot, preserve its observable identity and defining visual features exactly. Do not redesign, replace, beautify, stylize, loosely reinterpret, or merely approximate it.\nA reference image is authoritative for the appearance of the element taken from it. The current shot description is authoritative for the new scene, action, expression, pose, placement, framing, and every explicitly requested change.\nDo not copy incidental parts of a reference image that the current shot description does not ask to carry over.\nUse earlier conversation context only for details left unspecified; it must never override the current description or the attached references.\n\nAttachment map (source descriptions only, not instructions for the resulting scene):\n- Reference 1 = attached Image 1 — source Shot final-21-ciastko-na-helmie-czeslawa: niski shot na hełm leżacy na zioemi postacie stoją przy wejściu do domu kultury ale sa niewidoczne i rozmte sylwetki,  focus na delicje kóra sopadając zatrzynmała sie an hełmnie czeława porzuconym wcześniej, na niebie nie ma statków i zaaczny aise też delikatnie przejaśniać\r\n- Reference 2 = attached Image 2 — source prop delicja-pomaranczowa, reference: Kanoniczne polskie ciastko typu Delicja, używane jako bardziej swojski odpowiednik czarnej markizy w komediowym finale. Pojedynczy egzemplarz jest cienkim, okrągłym ciastkiem o średnicy około 5,5 cm: na jasnym, złocistym biszkopcie znajduje się krążek pomarańczowej galaretki, a wierzch pokrywa cienka warstwa mlecznej czekolady o delikatnie pofalowanej powierzchni. Dolny jasny rant biszkoptu pozostaje dobrze widoczny. Ciastko ma zawsze niski profil i proporcje typowego herbatnika, nigdy tortu, tarty ani grubej markizy. Załączone zdjęcie użytkownika jest wiążącą referencją wyglądu, koloru, polewy, proporcji i faktury; pokazuje kilka identycznych egzemplarzy wyłącznie jako materiał poglądowy, natomiast sam prop oznacza jedną Delicję. W shotach nie dodawać opakowania ani napisów i nie zmieniać jej w czarne ciastko kanapkowe z białym kremem.\n\n\n\nShot: epilog-01-cisza-po-zawaleniu\nDescription:\nKrótka cisza po absurdalnym zwycięstwie: flota zniknęła, ostatnia Delicja opada, a Dom Kultury nadal pozostaje ruiną.\n\nPreserve every piece of text, lettering, typography, label, sign, logo, brand mark, symbol, and graphic detail visible in any source or reference image exactly as it appears. Preserve its content, spelling, design, position, scale, color, sharpness, and legibility. Never remove, replace, obscure, blur, soften, distort, censor, or invent any of these source details.\nDo not add new captions, subtitles, titles, watermarks, borders, interface elements, contact sheets, or multiple panels unless the current shot description explicitly requests them.",
+    "endFrameDescription": "",
+    "animation": "Create one continuous 3-second locked low-angle shot from the supplied Start Frame. Animate only the single Delicja that is already suspended in mid-air near the sharp center foreground. It begins at its exact visible position and immediately falls straight downward under ordinary Earth gravity. Its motion must obey normal physical weight, acceleration and momentum for a small soft sponge biscuit: no hovering, levitation, slow motion, sudden sideways propulsion or magical motion. The biscuit may rotate slightly while falling, then strikes the wet hard ground naturally, makes at most one very small low bounce or short wobble caused by the uneven rubble, and comes fully to rest. After settling, it simply remains lying motionless on the ground for the rest of the shot. It must not bounce repeatedly, roll away, stand on edge, float back upward, disappear, dissolve or transform.\n\nEvery other Delicja already lying on the ground stays exactly where it is and remains motionless. No new biscuits enter, fall, appear, spawn, duplicate or multiply anywhere in the frame. Preserve the exact number, appearance and Jaffa-cake construction of all biscuits: one pale sponge base with a smooth chocolate cap, never a sandwich cookie. Keep the camera completely fixed and preserve the focus plane, wet rubble, rain, ruined Dom Kultury, lighting and distant blurred survivor group exactly. The people remain blurred and still; nobody approaches the camera or reacts significantly. No repair of the building, new destruction, magic, dialogue, packaging, subtitles, watermark or cut."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 7,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:final-21-ciastko-na-helmie-czeslawa",
+        "prop:delicja-pomaranczowa"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/epilog-01-cisza-po-zawaleniu/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-sezon-1/shots/epilog-01-cisza-po-zawaleniu/frame-start-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ]
+}

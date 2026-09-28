@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T11:13:26.849Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:cc-rolka/maslo-taniec",
+  "id": "maslo-taniec",
+  "title": "Taniec z mikserem",
+  "description": "Dariusz miesza masę i wykonuje jeden przesadnie delikatny krok taneczny.",
+  "project": {
+    "id": "cc-rolka",
+    "name": "CC-Rolka"
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "dariusz-fartuszek"
+    },
+    {
+      "type": "character",
+      "id": "grimskald"
+    }
+  ],
+  "prompts": {
+    "image": "Native vertical 9:16 energetic dance frame in the same kitchen. Exact Dariusz stirs batter while performing one delicate theatrical step: left heel lifted behind, knees soft, hips shifted, free wrist raised, braid swinging. Full body and bare feet stay inside the tall frame at a slight Dutch angle. Identical fully covering opaque pink heart apron and opaque high-waisted red satin athletic shorts; no shirt, hairy shoulders and arms visible, chest front and nipples covered. Exact photoreal late-1990s Polish TV music-comedy with warm tungsten and S-VHS texture. One person, physically possible pose, no nudity, white T-shirt, extra limbs, text or artifacts.",
+    "endFrameDescription": "",
+    "animation": "0.0-2.3s: @Element1 is already moving in one slow, gentle, physically balanced gesture from the first frame. The raised foot on screen left gradually lowers toward the floor while his torso makes one small relaxed sway toward screen right and returns to center. The raised hand on screen left unfurls the wrist once in a tiny lazy flourish; the hand on screen right keeps the wooden spoon inside the bowl and stirs only one slow half-circle. 2.3-3.0s: he settles naturally and holds. Camera: locked-off at the existing Dutch angle, with no shake or reframing. Secondary motion: the apron and beard braid follow the sway with soft delayed movement. Preserve @Element1's exact face, body proportions, hair, glasses, apron, red shorts, bare feet, bowl and kitchen. His eyes remain closed with calm, self-serious contentment; no speaking. Avoid fast dancing, bouncing, hopping, spinning, large gestures, extra limbs, dropped spoon, cut, fade, morph, new person, text or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:dariusz-fartuszek",
+        "character:grimskald"
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/maslo-taniec/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/cc-rolka/shots/maslo-taniec/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}
