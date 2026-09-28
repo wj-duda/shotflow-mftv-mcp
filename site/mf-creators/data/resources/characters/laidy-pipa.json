@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T16:01:07.873Z",
+  "worldId": "mf-creators",
+  "kind": "resource",
+  "key": "character:laidy-pipa",
+  "type": "characters",
+  "id": "laidy-pipa",
+  "name": "LAIdy Pipa",
+  "description": "CHARACTER [age=25-34; presentation=feminine; height=tall; build=athletic; body=hourglass; chest=medium; skin=light; face=oval; eyes=blue-gray; hair-color=purple; hair-length=very-long; hair-texture=braided]\n\nLAIdy Pipa to wysoka, atletyczna kobieta o jasnej cerze, chłodnych niebieskoszarych oczach, mocnym śliwkowo-czarnym makijażu i precyzyjnej ciemnoczerwonej szmince. Ma bardzo długie, intensywnie fioletowe boxer braids: dwa grube warkocze oraz dwa cieńsze pasma przy twarzy. Nosi czarny gotycko-klubowy strój sceniczny: dopasowany skórzany top z konstrukcyjnym gorsetem i metalowymi klamrami, siateczkowe rękawy, szeroki ćwiekowany choker, nabijane karwasze, skórzane szorty z wysokim stanem, czarne rajstopy i wysokie sznurowane kozaki na platformie. Charakterystyczne są gest rogów, czaszkowe pierścienie, koła w uszach oraz spokojna, dumna i dominująca postawa. Rysuj ją w półrealistycznym heroicznym rock-comic z mocnym tuszem, kreskowaniem, połyskiem czarnej skóry i fioletowo-czarną paletą.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "portrait",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/laidy-pipa/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/laidy-pipa/image-001-thumb.webp",
+      "width": 1536,
+      "height": 1024,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-002",
+      "role": "silhouette",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/laidy-pipa/image-002.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/laidy-pipa/image-002-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-28T17:59:30+02:00"
+}
