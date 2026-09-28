@@ -46,6 +46,16 @@ main { padding: 28px 0 60px; }
 .swatch span { display: grid; gap: 3px; padding: 8px; }
 .swatch strong { overflow: hidden; font-size: .7rem; text-overflow: ellipsis; white-space: nowrap; }
 .swatch code { color: var(--muted); font-size: .7rem; }
+.brand-show-definitions { display: grid; gap: 12px; }
+.brand-show-definitions article { padding: 18px; border: 1px solid var(--line); border-radius: 13px; background: #101416; }
+.brand-show-definitions header { display: flex; align-items: start; justify-content: space-between; gap: 18px; }
+.brand-show-definitions header div { display: grid; gap: 4px; }
+.brand-show-definitions header strong { font-size: 1.1rem; }
+.brand-show-definitions header span, .brand-show-definitions time, .brand-shows > small { color: var(--muted); }
+.brand-show-definitions time { flex: 0 0 auto; color: var(--gold); font-size: .78rem; font-weight: 800; text-transform: capitalize; }
+.brand-show-definitions p { line-height: 1.55; }
+.brand-show-definitions .show-audience { color: var(--muted); }
+.brand-show-definitions ul { margin-bottom: 0; padding-left: 1.2rem; color: var(--muted); line-height: 1.5; }
 .brand-show-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 14px; }
 .slogan-detail { display: grid; gap: 22px; margin-top: 30px; padding-top: 28px; border-top: 1px solid var(--line); }
 .slogan-detail blockquote { margin: 0; padding: 22px; border-left: 4px solid var(--gold); background: rgba(255,196,0,.07); font-size: clamp(1.5rem, 4vw, 2.8rem); font-weight: 850; line-height: 1.1; }
@@ -120,6 +130,7 @@ footer { display: flex; justify-content: space-between; gap: 20px; padding: 24px
   .universe-switcher { justify-content: flex-start; }
   .toolbar { grid-template-columns: 1fr; }
   .brand-detail .brand-lines { grid-template-columns: 1fr; }
+  .brand-show-definitions header { display: grid; gap: 8px; }
   .slogan-detail dl div { grid-template-columns: 1fr; gap: 6px; }
   .result-count { text-align: left; }
   .grid { grid-template-columns: repeat(auto-fill, minmax(165px, 1fr)); gap: 10px; }

@@ -136,19 +136,38 @@
                   </ul>
                   <button class="copy" type="button" @click="copy(detail.generationGuidance.promptBlock)">Kopiuj instrukcję</button>
                 </section>
-                <section>
-                  <h3>Plansze audycji</h3>
-                  <div class="brand-show-grid">
-                    <template x-for="show in detail.showBoards" :key="show.key">
-                      <figure>
-                        <a :href="localUrl(show.imageUrl)" target="_blank" rel="noopener">
-                          <img :src="localUrl(show.thumbnailUrl)" :alt="`Plansza audycji ${show.name}`" loading="lazy" />
-                        </a>
-                        <figcaption><span x-text="show.name"></span><a :href="localUrl(show.imageUrl)" download>Pobierz</a></figcaption>
-                      </figure>
+                <section class="brand-shows" x-show="detail.shows?.length">
+                  <h3>Audycje i ich zasady</h3>
+                  <div class="brand-show-definitions">
+                    <template x-for="show in (detail.shows || [])" :key="show.key">
+                      <article>
+                        <header>
+                          <div><strong x-text="show.name"></strong><span x-text="show.summary"></span></div>
+                          <time x-text="`${show.schedule.day}, ${show.schedule.time}`"></time>
+                        </header>
+                        <p x-text="show.description"></p>
+                        <p class="show-audience"><strong>Dla kogo:</strong> <span x-text="show.audience"></span></p>
+                        <ul><template x-for="rule in show.rules" :key="rule"><li x-text="rule"></li></template></ul>
+                      </article>
                     </template>
                   </div>
+                  <small x-text="detail.showInformation?.scheduleNote"></small>
                 </section>
+                <template x-if="detail.showBoards?.length">
+                  <section>
+                    <h3>Plansze audycji</h3>
+                    <div class="brand-show-grid">
+                      <template x-for="show in detail.showBoards" :key="show.key">
+                        <figure>
+                          <a :href="localUrl(show.imageUrl)" target="_blank" rel="noopener">
+                            <img :src="localUrl(show.thumbnailUrl)" :alt="`Plansza audycji ${show.name}`" loading="lazy" />
+                          </a>
+                          <figcaption><span x-text="show.name"></span><a :href="localUrl(show.imageUrl)" download>Pobierz</a></figcaption>
+                        </figure>
+                      </template>
+                    </div>
+                  </section>
+                </template>
               </section>
             </template>
 

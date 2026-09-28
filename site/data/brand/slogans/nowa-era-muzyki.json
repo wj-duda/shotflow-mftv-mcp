@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:56:12.545Z",
+  "generatedAt": "2026-09-28T14:16:35.690Z",
   "worldId": "aimftv",
   "kind": "slogan",
   "type": "brand",
@@ -21,28 +21,6 @@
   "howToReference": "W promptach i danych używaj klucza slogan:nowa-era-muzyki. Zachowaj pełne brzmienie, kolejność zdań i sens rozdzielenia części o AI od części o wyborze ludzi.",
   "promotionalRequirement": "Hasło powinno pojawiać się na głównych materiałach promocyjnych i wizerunkowych platformy MF TV.",
   "relatedAssets": {
-    "officialLogo": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/brand/aimftv.webp",
-    "showBoards": [
-      {
-        "key": "show:lekkie-poniedzialki",
-        "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/show/lekkie-poniedzialki.webp"
-      },
-      {
-        "key": "show:szarpane-srody",
-        "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/show/szarpane-srody.webp"
-      },
-      {
-        "key": "show:czule-czwartki",
-        "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/show/czule-czwartki.webp"
-      },
-      {
-        "key": "show:wolne-piatki",
-        "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/show/wolne-piatki.webp"
-      },
-      {
-        "key": "show:zlote-emoji",
-        "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/show/zlote-emoji.webp"
-      }
-    ]
+    "officialLogo": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/brand/aimftv.webp"
   }
 }

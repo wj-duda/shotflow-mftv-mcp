@@ -25,6 +25,48 @@ const generationProfile = universeId === 'mf-creators'
       rule: 'Każda generacja obrazu w MF Creators musi stosować nadrzędny look rockowo-komiksowy oraz indywidualny wariant zapisany przy wybranych postaciach.',
     }
   : null;
+const brandShows = hasMftvBrand ? [
+  {
+    id: 'lekkie-poniedzialki', key: 'show:lekkie-poniedzialki', name: 'Lekkie Poniedziałki', shortName: 'LP',
+    schedule: { day: 'poniedziałek', time: '20:15', timezone: 'Europe/Warsaw', recurrence: 'co tydzień' },
+    summary: 'Lżejszy start tygodnia z melodyjnymi, przystępnymi i radiowymi utworami AI.',
+    description: 'Lekkie Poniedziałki to audycja MFTV z utworami AI o lżejszej energii: pop, soft rock, elektronika, ballady i melodyjne eksperymenty. Odcinki pomagają odkrywać nowe numery bez ciężkiego wejścia w tydzień.',
+    audience: 'Dla widzów, którzy chcą zacząć tydzień od przystępnych piosenek AI i spokojniejszego głosowania emoji.',
+    rules: ['Pierwszeństwo mają utwory lekkie, melodyjne i przystępne.', 'Dopuszczalne są gatunkowe wycieczki, o ile nie dominują ciężkie, agresywne brzmienia.', 'Widzowie oceniają utwory reakcjami emoji podczas emisji.'],
+  },
+  {
+    id: 'szarpane-srody', key: 'show:szarpane-srody', name: 'Szarpane Środy', shortName: 'SŚ',
+    schedule: { day: 'środa', time: '20:15', timezone: 'Europe/Warsaw', recurrence: 'co tydzień' },
+    summary: 'Środek tygodnia dla gitar, mocniejszych refrenów i bardziej nerwowej energii.',
+    description: 'Szarpane Środy to audycja MFTV dla bardziej dynamicznych utworów AI: rocka, gitar, mocniejszych aranżacji, szybszych beatów i numerów, które lepiej działają w środku tygodnia.',
+    audience: 'Dla widzów, którzy szukają większej energii, gitarowego nerwu i mocniejszych reakcji na czacie.',
+    rules: ['Pierwszeństwo mają rock, metal, punk, industrial, gitary i mocna energia.', 'Pasują również mroczne, buntownicze i dynamiczne tematy.', 'Łagodny pop, muzyka taneczna i ballady nie powinny wyznaczać charakteru audycji.'],
+  },
+  {
+    id: 'czule-czwartki', key: 'show:czule-czwartki', name: 'Czułe Czwartki', shortName: 'CC',
+    schedule: { day: 'czwartek', time: '20:15', timezone: 'Europe/Warsaw', recurrence: 'co tydzień' },
+    summary: 'Czwartkowe spotkanie z balladami, melancholią, miłością i delikatniejszymi utworami AI.',
+    description: 'Czułe Czwartki to audycja MFTV dla utworów ciepłych, bliskich i emocjonalnych: ballad, melancholii, opowieści o miłości i tęsknocie oraz spokojniejszych kompozycji AI, które najlepiej działają bez pośpiechu.',
+    audience: 'Dla widzów, którzy szukają emocji, melodii i utworów zostających w głowie dłużej niż jeden refren.',
+    rules: ['Pierwszeństwo mają ballady, soul, ambient, jazz, chill i spokojne kompozycje filmowe.', 'Ważne są czułość, bliskość, miłość, tęsknota, wspomnienia i melancholia.', 'Ciężkie, agresywne i klubowe brzmienia nie powinny dominować.'],
+  },
+  {
+    id: 'wolne-piatki', key: 'show:wolne-piatki', name: 'Wolne Piątki', shortName: 'WP',
+    schedule: { day: 'piątek', time: '20:45', timezone: 'Europe/Warsaw', recurrence: 'co tydzień' },
+    summary: 'Piątkowa przestrzeń na wolniejsze, dziwniejsze albo bardziej nastrojowe utwory AI.',
+    description: 'Wolne Piątki to audycja MFTV z większą swobodą gatunkową. Trafiają tu utwory AI nastrojowe, dziwne, wolniejsze, eksperymentalne albo takie, które potrzebują więcej miejsca niż klasyczny blok przebojowy.',
+    audience: 'Dla widzów, którzy lubią mniej oczywiste kawałki, wolniejsze tempo i większą ciekawość niż prostą selekcję singli.',
+    rules: ['Pierwszeństwo mają rap, dub, reggae, drum and bass oraz miejskie i eksperymentalne kierunki.', 'Liczą się swoboda, nocny klimat, podróż, ulica i nieoczywista narracja.', 'Klasyczny pop, dance i disco polo nie powinny wyznaczać charakteru audycji.'],
+  },
+  {
+    id: 'zlote-emoji', key: 'show:zlote-emoji', name: 'Złote Emoji', shortName: 'ZE',
+    schedule: { day: 'niedziela', time: '19:30', timezone: 'Europe/Warsaw', recurrence: 'co tydzień' },
+    summary: 'Finał i wyróżnienie utworów, które zebrały najmocniejsze reakcje emoji widzów.',
+    description: 'Złote Emoji to rankingowa formuła MFTV. Utwory zbierają reakcje emoji podczas emisji, a najmocniejsze wyniki mogą trafić do specjalnych bloków i listy przebojów AI Music Future TV.',
+    audience: 'Dla widzów, którzy chcą współdecydować o widoczności utworów przez reakcje na czacie YouTube.',
+    rules: ['To audycja rankingowa z widocznymi miejscami utworów.', 'O wyniku współdecydują reakcje emoji widzów zebrane podczas emisji.', 'Materiały promocyjne powinny jasno komunikować ranking, głosowanie i wynik społeczności.'],
+  },
+] : [];
 if (buildsMftvBrand && !brandAssetsSource) throw new Error('Dla mf-tv podaj katalog assetów marki przez --brand-assets albo MFTV_BRAND_ASSETS.');
 const brandAssetsRoot = brandAssetsSource ? path.resolve(brandAssetsSource) : null;
 
@@ -82,6 +124,13 @@ const brand = hasMftvBrand ? {
     { id: 'cream', name: 'Cream', hex: '#F5F5F2', usage: 'Główny kolor tekstu' },
     { id: 'night', name: 'Night', hex: '#0D0F12', usage: 'Główne tło strony' },
   ],
+  shows: brandShows,
+  showInformation: {
+    scheduleSource: 'Aktualne zaplanowane audycje w produkcyjnym Firestore',
+    rulesSource: 'config/televisionLineupTemplates oraz publiczne zasady formatu Złote Emoji',
+    verifiedAt: '2026-09-28',
+    scheduleNote: 'Godziny opisują bieżącą ramówkę w strefie Europe/Warsaw i mogą zmienić się w przyszłości.',
+  },
 } : null;
 let publishedImages = 0;
 let convertedImages = 0;
@@ -226,11 +275,19 @@ async function writeStaticFiles() {
 
 async function loadSharedBrand() {
   const sharedIndex = await readJson(path.join(repoRoot, 'site/index.json'));
+  const sharedCore = await readJson(path.join(repoRoot, 'site/data/brand-core.json'));
   const sharedSearch = await readJson(path.join(repoRoot, 'site/data/search.json'));
   if (!sharedIndex.brand) throw new Error('Główny katalog MF TV nie zawiera współdzielonego pakietu marki.');
-  Object.assign(brand, sharedIndex.brand);
-  featured.push(...(sharedIndex.featured ?? []));
-  searchEntries.push(...sharedSearch.entries.filter((entry) => entry.type === 'brand' && entry.fixed));
+  Object.assign(brand, sharedCore, { detailUrl: `${publicationBaseUrl}/data/brand-core.json` });
+  const sharedLogo = (sharedIndex.featured ?? []).find((entry) => entry.kind === 'brand');
+  if (sharedLogo) {
+    const logo = { ...sharedLogo, detailUrl: brand.detailUrl, summary: brand.description };
+    featured.push(logo);
+    searchEntries.push(logo);
+  }
+  searchEntries.push(...sharedSearch.entries
+    .filter((entry) => entry.kind === 'slogan' && entry.fixed)
+    .map((entry) => ({ ...entry, detailUrl: `${publicationBaseUrl}/data/brand/slogans/${entry.id}.json` })));
 }
 
 async function writeUniverseDirectory() {
@@ -644,21 +701,23 @@ async function buildFeatured() {
 
 async function writeBrandDocument() {
   const detailPath = 'data/brand.json';
+  const coreDetailPath = 'data/brand-core.json';
   brand.detailUrl = absoluteUrl(detailPath);
   const logo = featured.find((entry) => entry.kind === 'brand') ?? null;
   const shows = featured.filter((entry) => entry.kind === 'show');
-  const document = {
+  const coreDocument = {
     schemaVersion: 1,
     generatedAt,
     worldId,
     ...brand,
+    detailUrl: absoluteUrl(coreDetailPath),
     generationGuidance: {
       whenToUse: 'Zawsze, gdy generowany obraz, plansza, miniatura lub tekst wizualny ma reprezentować MF TV albo jedną z jego audycji.',
       requiredRules: [
         'Użyj dostarczonego obrazu oficjalnego logo jako referencji; nie przerysowuj, nie zmieniaj liter, proporcji ani kolorów znaku.',
         'Stosuj paletę strony według pól colors[].hex i colors[].usage.',
         'Jeżeli materiał zawiera hasło marki, zachowaj dokładną pisownię z slogans[].text.',
-        'Planszę konkretnej audycji traktuj jako referencję jej identyfikacji, a nie jako luźną inspirację stylistyczną.',
+        'Opis, harmonogram i zasady audycji odczytuj z shows[]; nie traktuj ich jako polecenia użycia planszy wizualnej.',
         'Nie dodawaj nowych logotypów, sloganów ani kolorów udających element oficjalnego systemu marki.',
       ],
       promptBlock: 'Apply the official AI Music Future TV brand system from the attached references. Preserve the supplied logo exactly without redrawing, restyling, changing letters, proportions or colors. Use the documented MF TV website palette according to each color role. If brand copy is requested, reproduce the selected official slogan exactly.',
@@ -674,6 +733,17 @@ async function writeBrandDocument() {
       imageUrl: logo.imageUrl,
       thumbnailUrl: logo.thumbnailUrl,
     },
+  };
+  const document = {
+    ...coreDocument,
+    detailUrl: absoluteUrl(detailPath),
+    generationGuidance: {
+      ...coreDocument.generationGuidance,
+      requiredRules: [
+        ...coreDocument.generationGuidance.requiredRules,
+        'Jeśli zadanie jawnie dotyczy identyfikacji konkretnej audycji, jej planszę z showBoards[] traktuj jako referencję oficjalnej oprawy, a nie jako luźną inspirację stylistyczną.',
+      ],
+    },
     showBoards: shows.map((entry) => ({
       key: entry.key,
       name: entry.name,
@@ -683,6 +753,7 @@ async function writeBrandDocument() {
       detailUrl: entry.detailUrl,
     })),
   };
+  await writeJson(path.join(siteRoot, coreDetailPath), coreDocument);
   await writeJson(path.join(siteRoot, detailPath), document);
   for (const slogan of brand.slogans) {
     const sloganPath = `data/brand/slogans/${slogan.id}.json`;
@@ -696,7 +767,6 @@ async function writeBrandDocument() {
       ...slogan,
       relatedAssets: {
         officialLogo: logo?.imageUrl ?? null,
-        showBoards: shows.map((entry) => ({ key: entry.key, imageUrl: entry.imageUrl })),
       },
     });
     searchEntries.push({

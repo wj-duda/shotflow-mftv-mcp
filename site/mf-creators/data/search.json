@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T14:10:08.072Z",
+  "generatedAt": "2026-09-28T14:17:15.042Z",
   "worldId": "mf-creators",
   "entries": [
     {
@@ -13,20 +13,7 @@
       "imageCount": 1,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/brand/aimftv-thumb.webp",
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/brand/aimftv.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/brand.json",
-      "fixed": true
-    },
-    {
-      "key": "show:czule-czwartki",
-      "kind": "show",
-      "type": "brand",
-      "id": "czule-czwartki",
-      "name": "Czułe Czwartki",
-      "summary": "Czwartkowe spotkanie z balladami, melancholią, miłością i delikatniejszymi utworami AI.",
-      "imageCount": 1,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/show/czule-czwartki-thumb.webp",
-      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/show/czule-czwartki.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/featured/show/czule-czwartki.json",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/brand-core.json",
       "fixed": true
     },
     {
@@ -42,19 +29,6 @@
       "fixed": true
     },
     {
-      "key": "show:lekkie-poniedzialki",
-      "kind": "show",
-      "type": "brand",
-      "id": "lekkie-poniedzialki",
-      "name": "Lekkie Poniedziałki",
-      "summary": "Lżejszy start tygodnia z melodyjnymi, przystępnymi i radiowymi utworami AI.",
-      "imageCount": 1,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/show/lekkie-poniedzialki-thumb.webp",
-      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/show/lekkie-poniedzialki.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/featured/show/lekkie-poniedzialki.json",
-      "fixed": true
-    },
-    {
       "key": "slogan:nowa-era-muzyki",
       "kind": "slogan",
       "type": "brand",
@@ -64,45 +38,6 @@
       "imageCount": 0,
       "thumbnailUrl": null,
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/brand/slogans/nowa-era-muzyki.json",
-      "fixed": true
-    },
-    {
-      "key": "show:szarpane-srody",
-      "kind": "show",
-      "type": "brand",
-      "id": "szarpane-srody",
-      "name": "Szarpane Środy",
-      "summary": "Środek tygodnia dla gitar, mocniejszych refrenów i bardziej nerwowej energii.",
-      "imageCount": 1,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/show/szarpane-srody-thumb.webp",
-      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/show/szarpane-srody.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/featured/show/szarpane-srody.json",
-      "fixed": true
-    },
-    {
-      "key": "show:wolne-piatki",
-      "kind": "show",
-      "type": "brand",
-      "id": "wolne-piatki",
-      "name": "Wolne Piątki",
-      "summary": "Piątkowa przestrzeń na wolniejsze, dziwniejsze albo bardziej nastrojowe utwory AI.",
-      "imageCount": 1,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/show/wolne-piatki-thumb.webp",
-      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/show/wolne-piatki.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/featured/show/wolne-piatki.json",
-      "fixed": true
-    },
-    {
-      "key": "show:zlote-emoji",
-      "kind": "show",
-      "type": "brand",
-      "id": "zlote-emoji",
-      "name": "Złote Emoji",
-      "summary": "Finał i wyróżnienie utworów, które zebrały najmocniejsze reakcje emoji widzów.",
-      "imageCount": 1,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/show/zlote-emoji-thumb.webp",
-      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/show/zlote-emoji.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/featured/show/zlote-emoji.json",
       "fixed": true
     },
     {

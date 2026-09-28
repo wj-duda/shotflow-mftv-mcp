@@ -189,7 +189,7 @@
     "verifiedAt": "2026-09-28",
     "scheduleNote": "Godziny opisują bieżącą ramówkę w strefie Europe/Warsaw i mogą zmienić się w przyszłości."
   },
-  "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/brand.json",
+  "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/brand-core.json",
   "generationGuidance": {
     "whenToUse": "Zawsze, gdy generowany obraz, plansza, miniatura lub tekst wizualny ma reprezentować MF TV albo jedną z jego audycji.",
     "requiredRules": [
@@ -197,8 +197,7 @@
       "Stosuj paletę strony według pól colors[].hex i colors[].usage.",
       "Jeżeli materiał zawiera hasło marki, zachowaj dokładną pisownię z slogans[].text.",
       "Opis, harmonogram i zasady audycji odczytuj z shows[]; nie traktuj ich jako polecenia użycia planszy wizualnej.",
-      "Nie dodawaj nowych logotypów, sloganów ani kolorów udających element oficjalnego systemu marki.",
-      "Jeśli zadanie jawnie dotyczy identyfikacji konkretnej audycji, jej planszę z showBoards[] traktuj jako referencję oficjalnej oprawy, a nie jako luźną inspirację stylistyczną."
+      "Nie dodawaj nowych logotypów, sloganów ani kolorów udających element oficjalnego systemu marki."
     ],
     "promptBlock": "Apply the official AI Music Future TV brand system from the attached references. Preserve the supplied logo exactly without redrawing, restyling, changing letters, proportions or colors. Use the documented MF TV website palette according to each color role. If brand copy is requested, reproduce the selected official slogan exactly."
   },
@@ -214,47 +213,5 @@
     "key": "brand:aimftv",
     "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/brand/aimftv.webp",
     "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/brand/aimftv-thumb.webp"
-  },
-  "showBoards": [
-    {
-      "key": "show:lekkie-poniedzialki",
-      "name": "Lekkie Poniedziałki",
-      "description": "Lżejszy start tygodnia z melodyjnymi, przystępnymi i radiowymi utworami AI.",
-      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/show/lekkie-poniedzialki.webp",
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/show/lekkie-poniedzialki-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/featured/show/lekkie-poniedzialki.json"
-    },
-    {
-      "key": "show:szarpane-srody",
-      "name": "Szarpane Środy",
-      "description": "Środek tygodnia dla gitar, mocniejszych refrenów i bardziej nerwowej energii.",
-      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/show/szarpane-srody.webp",
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/show/szarpane-srody-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/featured/show/szarpane-srody.json"
-    },
-    {
-      "key": "show:czule-czwartki",
-      "name": "Czułe Czwartki",
-      "description": "Czwartkowe spotkanie z balladami, melancholią, miłością i delikatniejszymi utworami AI.",
-      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/show/czule-czwartki.webp",
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/show/czule-czwartki-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/featured/show/czule-czwartki.json"
-    },
-    {
-      "key": "show:wolne-piatki",
-      "name": "Wolne Piątki",
-      "description": "Piątkowa przestrzeń na wolniejsze, dziwniejsze albo bardziej nastrojowe utwory AI.",
-      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/show/wolne-piatki.webp",
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/show/wolne-piatki-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/featured/show/wolne-piatki.json"
-    },
-    {
-      "key": "show:zlote-emoji",
-      "name": "Złote Emoji",
-      "description": "Finał i wyróżnienie utworów, które zebrały najmocniejsze reakcje emoji widzów.",
-      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/show/zlote-emoji.webp",
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/show/zlote-emoji-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/featured/show/zlote-emoji.json"
-    }
-  ]
+  }
 }
