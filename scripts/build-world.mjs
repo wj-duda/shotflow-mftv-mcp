@@ -146,12 +146,12 @@ await writeJson(path.join(siteRoot, 'data/projects/index.json'), {
 });
 const timeline = projectCatalog
   .filter((project) => project.createdAt && project.thumbnailUrl)
-  .sort((a, b) => a.createdAt.localeCompare(b.createdAt));
+  .sort(compareProjectsNewestFirst);
 await writeJson(path.join(siteRoot, 'data/timeline.json'), {
   schemaVersion: 1,
   generatedAt,
   worldId,
-  order: 'oldest-first',
+  order: 'newest-first',
   projects: timeline,
 });
 await writeJson(path.join(siteRoot, 'data/events.json'), {
