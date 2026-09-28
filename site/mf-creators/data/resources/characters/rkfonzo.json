@@ -1,23 +1,32 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T18:15:24.033Z",
+  "generatedAt": "2026-09-28T20:11:15.103Z",
   "worldId": "mf-creators",
   "kind": "resource",
   "key": "character:rkfonzo",
   "type": "characters",
   "id": "rkfonzo",
   "name": "rkFonzo",
-  "description": "CHARACTER [age=45-64; presentation=masculine; height=178cm; build=athletic; body=rectangle; chest=medium; skin=medium; face=angular; eyes=dark-brown; hair-color=silver-gray; hair-length=short; hair-texture=spiky]\n\nTwórca kanału rkFonzo (@rkfonzo, YouTube UC_OFjUpeMOY_6wydhhoPlLA). Kanoniczny wzrost: 178 cm. Aktualny kanon to dojrzały rockowy mężczyzna o krótkich, mocno nastroszonych srebrnych włosach z ciemnymi bokami, kanciastej twarzy i czarnych okularach przeciwsłonecznych. Nosi czarny T-shirt z czaszką, skórzaną ramoneskę, podarte czarne jeansy z łańcuchem, masywne botki, zegarek, bransolety i naszyjnik z czaszką. Charakterystyczna jest spokojna poza z rękami w kieszeniach i uniesioną brodą. Rysuj go proporcjonalnie w półrealistycznym heroicznym rock-comic z ostrym czarnym tuszem, wyraźnym połyskiem skóry i fioletowym akcentem.\n\nPERSONA KOMIKSOWA (fikcyjna)\nZnak zodiaku: Byk.\nCechy charakteru: niewzruszony, konkretny, wytrwały, oszczędny w słowach i wierny własnym zasadom; jego spokój ma ciężar wzmacniacza.\nLubi: klasyczne rockowe brzmienie, solidny sprzęt, skórzane kurtki, punktualność, długie trasy i rzeczy z historią.\nNie lubi: zbędnego gadania, chwilowych mód, niedbałego wykonania, zmiany planu w ostatniej chwili i naciskania go bez argumentów.\nMocne strony: niezawodność, cierpliwość, odporność, praktyczne doświadczenie.\nSłabe strony: upór, niechęć do eksperymentu bez dowodów, powolne wybaczanie i zamykanie emocji za ciemnymi okularami.\nPowiedzonka: „Bez zbędnych słów. Odpalamy.”; „Dobre brzmienie nie potrzebuje wymówek.”",
+  "description": "CHARACTER [age=45-64; presentation=masculine; height=178cm; build=athletic; body=rectangle; chest=medium; skin=medium; face=angular; eyes=dark-brown; hair-color=silver-gray; hair-length=short; hair-texture=spiky]\n\nTwórca kanału rkFonzo (@rkfonzo, YouTube UC_OFjUpeMOY_6wydhhoPlLA). Kanoniczny wzrost: 178 cm. Aktualny kanon to dojrzały mężczyzna o krótkich, mocno nastroszonych srebrno-platynowych włosach z ciemnymi bokami, kanciastej twarzy i czarnych okularach przeciwsłonecznych. Nie jest klasycznym rockmanem: łączy rockową skórzaną ramoneskę z czarnym T-shirtem o neonowej grafice inspirowanej elektroniką, synthwave, klawiaturą i falą dźwiękową, ciemnymi jeansami oraz masywnymi botkami. Nosi prosty metalowy łańcuszek bez zawieszki, skórzane lub plecione bransoletki i wyrazisty zegarek. Obecnie nie nosi kolczyków ani piercingu. Charakterystyczne są spokojna poza z rękami w kieszeniach, uniesiona broda, gest wskazujący widza oraz fioletowo-błękitno-różowe akcenty łączące różne style muzyczne. Rysuj go proporcjonalnie w półrealistycznym heroicznym rock-comic z ostrym czarnym tuszem, wyraźnym połyskiem skóry i neonowym światłem.\n\nPERSONA KOMIKSOWA (fikcyjna)\nZnak zodiaku: Ryby.\nCechy charakteru: konkretny, wrażliwy, ugodowy, szczery i wierny własnym zasadom; unika eskalowania konfliktów, a nawet pod presją stara się dostrzec pozytywną stronę sytuacji.\nLubi: łączenie różnych stylów muzycznych, solidne wykonanie, punktualność, szczerość, niezawodny sprzęt i ludzi, którzy angażują się na serio.\nNie lubi: pracy na pół gwizdka, spóźnień, nieszczerości, pustych deklaracji i bezsensownego zaostrzania konfliktów.\nMocne strony: otwartość na różne brzmienia, punktualność, szczerość, dostrzeganie pozytywów w trudnych sytuacjach i zdolność do deeskalacji.\nSłabe strony: uleganie presji, wycofywanie się zamiast obrony własnego zdania, szybkie wybuchy złości zakończone żalem i pesymistyczne nastawienie.\nPowiedzonka: „Bez zbędnych słów. Odpalamy.”; „Dobre brzmienie nie potrzebuje wymówek.”",
   "images": [
     {
-      "id": "image-004",
+      "id": "image-005",
+      "role": "portrait",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/rkfonzo/image-005.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/rkfonzo/image-005-thumb.webp",
+      "width": 1536,
+      "height": 1024,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-006",
       "role": "silhouette",
-      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/rkfonzo/image-004.webp",
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/rkfonzo/image-004-thumb.webp",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/rkfonzo/image-006.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/rkfonzo/image-006-thumb.webp",
       "width": 1672,
       "height": 941,
       "contentType": "image/webp"
     }
   ],
-  "updatedAt": "2026-09-28T18:07:10+02:00"
+  "updatedAt": "2026-09-28T22:10:21+02:00"
 }
