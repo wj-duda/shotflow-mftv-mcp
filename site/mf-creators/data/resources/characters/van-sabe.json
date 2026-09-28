@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T15:22:27.047Z",
+  "generatedAt": "2026-09-28T15:30:43.175Z",
   "worldId": "mf-creators",
   "kind": "resource",
   "key": "character:van-sabe",
   "type": "characters",
   "id": "van-sabe",
   "name": "Van Sabe",
-  "description": "CHARACTER [age=30-44; presentation=masculine; height=185cm; build=athletic; body=rectangle; chest=medium; skin=medium; face=oblong; eyes=dark-brown; hair-color=black; hair-length=medium; hair-texture=curly]\n\nTwórca kanału Van Sabe (@vansabe.official, YouTube UCcRkrSCsaN7NVW5qsopkF9A). Kanoniczny wzrost: 185 cm. Aktualny kanon zastępuje dawny wizerunek w koronie i aviatorach: Van Sabe jest wysokim, atletycznym mężczyzną o średniej długości czarnych lokach opadających na czoło, wyrazistej szczęce i lekkim zaroście. Nosi cały czarny zestaw: rozpiętą koszulę, dopasowaną marynarkę, spodnie z paskiem i ciężkie buty; na szyi ma metalowe nieśmiertelniki, a na dłoniach sygnety i bransolety. Charakterystyczne są dumnie uniesiona głowa, bezpośredni gest dłoni i chłodna czarno-błękitna paleta. Rysuj go proporcjonalnie w półrealistycznym heroicznym rock-comic z mocnym tuszem i filmowym modelowaniem twarzy.",
+  "description": "CHARACTER [age=30-44; presentation=masculine; height=185cm; build=athletic; body=rectangle; chest=medium; skin=medium; face=oblong; eyes=dark-brown; hair-color=black; hair-length=medium; hair-texture=curly]\n\nTwórca kanału Van Sabe (@vansabe.official, YouTube UCcRkrSCsaN7NVW5qsopkF9A). Kanoniczny wzrost: 185 cm. Van Sabe jest wysokim, atletycznym mężczyzną o średniej długości czarnych lokach opadających na czoło, wyrazistej szczęce i lekkim zaroście. Nosi cały czarny zestaw: rozpiętą koszulę, dopasowaną marynarkę, spodnie z paskiem i ciężkie buty; na szyi ma metalowe nieśmiertelniki, a na dłoniach sygnety i bransolety. Charakterystyczne są dumnie uniesiona głowa, bezpośredni gest dłoni i chłodna czarno-błękitna paleta. Rysuj go proporcjonalnie w półrealistycznym heroicznym rock-comic z mocnym tuszem i filmowym modelowaniem twarzy.",
   "images": [
     {
       "id": "image-004",
