@@ -1,32 +1,32 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T15:30:43.175Z",
+  "generatedAt": "2026-09-28T15:44:58.385Z",
   "worldId": "mf-creators",
   "kind": "resource",
   "key": "character:aleksandra-ross",
   "type": "characters",
   "id": "aleksandra-ross",
   "name": "Aleksandra Ross",
-  "description": "CHARACTER [age=30-44; presentation=feminine; height=168cm; build=curvy; body=hourglass; chest=medium; skin=fair; face=heart; eyes=hazel; hair-color=copper-red; hair-length=very-long; hair-texture=curly]\n\nTwórczyni kanału Aleksandra Ross (@aleksandraross6, YouTube UCVVZiC2RVqz4s2nXtTFuX9A). Kanoniczny wzrost: 168 cm. Aktualny kanon to pewna siebie kobieta o ogromnej masie bardzo długich, intensywnie miedziano-rudych loków, mocnych brwiach, pełnych ustach i czarnych paznokciach. Nosi krótki czarny rockowy sweatshirt, podarte czarne jeansy z łańcuchem i ciężkie sznurowane botki. Charakterystyczne są bezczelny uśmiech, mrugnięcie oraz kubek kawy; terenowy samochód i mały kudłaty pies należą do jej świata, ale nie muszą pojawiać się w każdej scenie. Rysuj ją w półrealistycznym, heroicznym rock-comic: proporcjonalne ciało, wyidealizowana twarz, mocny tusz, widoczne kreskowanie i filmowy kontrast.",
+  "description": "CHARACTER [age=18-29; presentation=feminine; height=168cm; build=slim; body=rectangle; chest=small; skin=fair; face=heart; eyes=green; hair-color=black-red; hair-length=long; hair-texture=wavy]\n\nTwórczyni kanału Aleksandra Ross (@aleksandraross6, YouTube UCVVZiC2RVqz4s2nXtTFuX9A), nazywana Olą. Kanoniczny wzrost: 168 cm. Aktualny kanon to młoda kobieta o jasnej, piegowatej cerze, intensywnie zielonych migdałowych oczach i długich, niedbale falowanych czarnych włosach z mocnymi karminowoczerwonymi pasmami przy twarzy. Ma kilka drobnych kolczyków w uszach, srebrny wiszący krzyżyk oraz wąski czarny choker ze srebrnym półksiężycem. Nosi obszerny czarny sweatshirt, bardzo szerokie szare jeansy i czarno-białe niskie sneakersy. Charakterystyczne są spokojne, lekko wyzywające spojrzenie, dłonie schowane w kieszeniach i czarno-karminowa paleta. Rysuj ją w półrealistycznym heroicznym rock-comic: proporcjonalna dorosła sylwetka, mocny czarny tusz, kontrolowane kreskowanie, filmowe światło i dynamiczne rozpryski farby; bez estetyki anime i chibi.",
   "images": [
     {
-      "id": "image-004",
+      "id": "image-006",
       "role": "portrait",
-      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/aleksandra-ross/image-004.webp",
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/aleksandra-ross/image-004-thumb.webp",
-      "width": 1672,
-      "height": 941,
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/aleksandra-ross/image-006.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/aleksandra-ross/image-006-thumb.webp",
+      "width": 1536,
+      "height": 1024,
       "contentType": "image/webp"
     },
     {
-      "id": "image-005",
+      "id": "image-007",
       "role": "silhouette",
-      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/aleksandra-ross/image-005.webp",
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/aleksandra-ross/image-005-thumb.webp",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/aleksandra-ross/image-007.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/aleksandra-ross/image-007-thumb.webp",
       "width": 1672,
       "height": 941,
       "contentType": "image/webp"
     }
   ],
-  "updatedAt": "2026-09-28T17:17:51+02:00"
+  "updatedAt": "2026-09-28T17:41:48+02:00"
 }
