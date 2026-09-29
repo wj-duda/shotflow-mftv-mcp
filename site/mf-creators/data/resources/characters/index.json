@@ -1,10 +1,22 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T20:11:15.103Z",
+  "generatedAt": "2026-09-29T07:58:48.343Z",
   "worldId": "mf-creators",
   "type": "characters",
   "label": "Postacie",
   "items": [
+    {
+      "key": "character:admin",
+      "kind": "resource",
+      "type": "characters",
+      "id": "admin",
+      "name": "Admin",
+      "summary": "CHARACTER [age=30-44; presentation=masculine; height=average; build=average; body=rectangle; chest=medium; skin=light-medium; face=oval; eyes=brown; hair-color=dark-brown; hair-length=medium; hair-texture=wavy] Admin, znany też jako Szef Wszystkich Szefów, to dojrzały mężczyzna…",
+      "imageCount": 2,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/admin/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/admin.json",
+      "updatedAt": "2026-09-29T09:57:30+02:00"
+    },
     {
       "key": "character:aleksandra-ross",
       "kind": "resource",
@@ -35,11 +47,11 @@
       "type": "characters",
       "id": "darkvondagar",
       "name": "DarkVondagar",
-      "summary": "CHARACTER [age=45-64; presentation=masculine; height=190cm; build=lean; body=rectangle; chest=medium; skin=deep-brown; face=long; eyes=dark-brown; hair-color=dark-brown; hair-length=long; hair-texture=braided] Twórca kanału DarkVondagar (@darkvondagar, YouTube UCZs5v9cslCrZIs4zC…",
-      "imageCount": 1,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/darkvondagar/image-004-thumb.webp",
+      "summary": "CHARACTER [age=45-64; presentation=masculine; height=190cm; species=anunnaki-inspired-humanoid; build=lean; body=rectangle; chest=medium; skin=bronze-brown; face=long; eyes=amber-red; hair-color=dark-bronze; hair-length=long; hair-texture=biomechanical-braids] Twórca kanału Dark…",
+      "imageCount": 2,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/darkvondagar/image-005-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/darkvondagar.json",
-      "updatedAt": "2026-09-28T18:07:10+02:00"
+      "updatedAt": "2026-09-29T09:57:30+02:00"
     },
     {
       "key": "character:laidy-pipa",

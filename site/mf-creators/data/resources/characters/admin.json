@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-29T07:58:48.343Z",
+  "worldId": "mf-creators",
+  "kind": "resource",
+  "key": "character:admin",
+  "type": "characters",
+  "id": "admin",
+  "name": "Admin",
+  "description": "CHARACTER [age=30-44; presentation=masculine; height=average; build=average; body=rectangle; chest=medium; skin=light-medium; face=oval; eyes=brown; hair-color=dark-brown; hair-length=medium; hair-texture=wavy]\n\nAdmin, znany też jako Szef Wszystkich Szefów, to dojrzały mężczyzna o falowanych ciemnobrązowych włosach zaczesanych do tyłu, prostokątnych czarnych okularach, zmęczonych brązowych oczach oraz krótko przystrzyżonej brodzie i wąsach. Lekko się garbi, szczególnie gdy wpada w hiperfokus przy komputerze. Nosi rozpiętą pod szyją kolorową hawajską koszulę w czerwone, pomarańczowe i białe kwiaty, czarne krótkie spodnie oraz japonki; uzupełniają go zegarek, czarne bransoletki i mały naszyjnik z koroną. Jego stałe otoczenie to laptop, monitory z kodem, płytki elektroniczne, kable, notatki, zgniecione pomysły i naczynie z yerba mate. Charakterystyczne są ręka oparta o czoło, długopis gotowy do zapisania kolejnej idei oraz kontrast tropikalnego luzu z technologicznym chaosem. Rysuj go proporcjonalnie w półrealistycznym heroicznym rock-comic z mocnym tuszem, ciepłym światłem, nasyconymi barwami hawajskiej koszuli i żółtymi symbolami korony.\n\nPERSONA KOMIKSOWA (fikcyjna)\nZnak zodiaku: Rak.\nCechy charakteru: twórczo nieogarnięty, wizjonerski, opiekuńczy, neuroatypowo skupiony i hiperfokusowany na kodowaniu; pozornie siedzi w chaosie, lecz jako mastermind często planuje dwa ruchy przed wszystkimi.\nLubi: kodowanie bez przerw, ambitne systemy, dobre pomysły, pracę z utalentowanymi ludźmi, rozwiązywanie niemożliwych problemów, hawajskie koszule i chwilę spokoju, której prawie nigdy nie ma.\nNie lubi: marnowania potencjału, zbędnej biurokracji, przeszkadzania w hiperfokusie, małych planów bez wizji, gaszenia cudzych pomysłów i pytań zaczynających się od „masz minutkę?”.\nMocne strony: myślenie strategiczne, przewidywanie kolejnych ruchów, łączenie ludzi z pomysłami, szybkie rozumienie złożonych systemów i całkowite skupienie na kodzie.\nSłabe strony: chroniczny brak czasu, organizacyjny chaos, lekko zgarbiona postawa od pracy, zaniedbywanie odpoczynku, tunelowe widzenie w hiperfokusie oraz przesadnie emocjonalna reakcja, gdy przeciążenie w końcu przebije jego spokój.\nPowiedzonka: „Dobre pomysły, lepsi ludzie, największe rzeczy!”; „Jestem dwa ruchy do przodu, tylko nie pytaj, gdzie położyłem plan.”",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "portrait",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/admin/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/admin/image-001-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-002",
+      "role": "silhouette",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/admin/image-002.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/admin/image-002-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-29T09:57:30+02:00"
+}
