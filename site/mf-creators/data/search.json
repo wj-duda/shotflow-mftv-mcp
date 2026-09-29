@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T08:03:29.774Z",
+  "generatedAt": "2026-09-29T08:05:14.630Z",
   "worldId": "mf-creators",
   "entries": [
     {
@@ -46,11 +46,11 @@
       "type": "looks",
       "id": "rock-comic",
       "name": "MF Creators — heroiczny rock-comic",
-      "summary": "NADRZĘDNY KANON WIZUALNY MF CREATORS Estetyka łączy współczesny amerykański komiks superbohaterski, rockowy plakat koncertowy i uliczny mural. Obraz ma wyglądać jak ręcznie tuszowana, bogato kolorowana plansza komiksowa: półrealistyczna i filmowa, lecz wyraźnie ilustracyjna. Pie…",
+      "summary": "NADRZĘDNY KANON WIZUALNY MF CREATORS Styl łączy współczesny amerykański komiks, rockowy plakat i uliczny mural. Ma być półrealistyczny, filmowy i wyraźnie ręcznie tuszowany. Image-001 określa atmosferę, energię grupy i nasycenie światła. Image-002 jest głównym wzorcem kreski, an…",
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/looks/rock-comic/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/looks/rock-comic.json",
-      "updatedAt": "2026-09-29T10:01:32+02:00"
+      "updatedAt": "2026-09-29T10:08:00+02:00"
     },
     {
       "key": "character:admin",
