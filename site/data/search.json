@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T20:28:57.964Z",
+  "generatedAt": "2026-09-29T21:10:16.402Z",
   "worldId": "aimftv",
   "entries": [
     {
@@ -6129,11 +6129,11 @@
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-7/shots/klamka.json"
     },
     {
-      "key": "shot:zlote-emoji-7/klubowicze",
+      "key": "shot:zlote-emoji-7/marianna-hihot",
       "kind": "shot",
       "type": "shots",
-      "id": "klubowicze",
-      "name": "klubowicze",
+      "id": "marianna-hihot",
+      "name": "marianna-hihot",
       "projectId": "zlote-emoji-7",
       "projectName": "Złote Emoji #7",
       "projectCreatedAt": "2026-08-01T18:56:27.457Z",
@@ -6141,11 +6141,11 @@
       "sequence": null,
       "lastSequence": null,
       "sequenceTotal": 13,
-      "summary": "Klubowicze zklubu fantastyki w trakice naprawy zarwanej podłogi przed momentem coś im spadło i teraz są lekko zmieszani i mają miny jakby co narobili i odsuwają sie od dziry temat głwny pokazać te trzy postacie",
-      "imageCount": 1,
-      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-7/shots/klubowicze/frame-start.webp",
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-7/shots/klubowicze/frame-start-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-7/shots/klubowicze.json"
+      "summary": "",
+      "imageCount": 0,
+      "imageUrl": null,
+      "thumbnailUrl": null,
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-7/shots/marianna-hihot.json"
     },
     {
       "key": "shot:zlote-emoji-7/takajedna-enters-c",
@@ -6395,11 +6395,11 @@
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-7/shots/czeslaw.json"
     },
     {
-      "key": "shot:zlote-emoji-7/marianna-hihot",
+      "key": "shot:zlote-emoji-7/klubowicze",
       "kind": "shot",
       "type": "shots",
-      "id": "marianna-hihot",
-      "name": "marianna-hihot",
+      "id": "klubowicze",
+      "name": "klubowicze",
       "projectId": "zlote-emoji-7",
       "projectName": "Złote Emoji #7",
       "projectCreatedAt": "2026-08-01T18:56:27.457Z",
@@ -6407,11 +6407,11 @@
       "sequence": null,
       "lastSequence": null,
       "sequenceTotal": 13,
-      "summary": "",
-      "imageCount": 0,
-      "imageUrl": null,
-      "thumbnailUrl": null,
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-7/shots/marianna-hihot.json"
+      "summary": "Klubowicze zklubu fantastyki w trakice naprawy zarwanej podłogi przed momentem coś im spadło i teraz są lekko zmieszani i mają miny jakby co narobili i odsuwają sie od dziry temat głwny pokazać te trzy postacie",
+      "imageCount": 1,
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-7/shots/klubowicze/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-7/shots/klubowicze/frame-start-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-7/shots/klubowicze.json"
     },
     {
       "key": "shot:flow/flow-shot-001",
@@ -6699,6 +6699,30 @@
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/flow/shots/zosianakacu.json"
     },
     {
+      "key": "note:wtorki-powtorki",
+      "kind": "resource",
+      "type": "notes",
+      "id": "wtorki-powtorki",
+      "name": "Wtorki Powtórki — zasady audycji",
+      "summary": "STATUS I TERMIN: Wtorki Powtórki są nieregularną audycją MFTV. Mogą odbyć się w wybrany wtorek o 20:15, ale tylko wtedy, gdy w kolejce znajduje się łącznie co najmniej 30 minut materiału. Jeśli materiału jest mniej, wydanie zostaje pominięte i utwory nadal czekają na następny mo…",
+      "imageCount": 0,
+      "thumbnailUrl": null,
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/wtorki-powtorki.json",
+      "updatedAt": "2026-09-29T23:04:53+02:00"
+    },
+    {
+      "key": "prop:formularz-a38",
+      "kind": "resource",
+      "type": "props",
+      "id": "formularz-a38",
+      "name": "Formularz A-38 — podanie o powtórkę",
+      "summary": "Rzadki, zużywalny fant sprzedawany spod lady w place:komis-rtv. Wygląda jak gruba, sfatygowana teczka lub koperta z ciemnoczerwonej skóry: przetarcia na krawędziach, złoty napis «PODANIE O POWTÓRKĘ A-38», tłoczony polski orzeł, urzędowe znaczki i czerwony lak z pieczęcią. Ma być…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/formularz-a38/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/formularz-a38.json",
+      "updatedAt": "2026-09-29T23:04:53+02:00"
+    },
+    {
       "key": "prop:waluta-runa",
       "kind": "resource",
       "type": "props",
@@ -6804,18 +6828,6 @@
       "imageCount": 3,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/komis-rtv/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/komis-rtv.json",
-      "updatedAt": "2026-09-29T11:03:17+02:00"
-    },
-    {
-      "key": "prop:formularz-a38",
-      "kind": "resource",
-      "type": "props",
-      "id": "formularz-a38",
-      "name": "Formularz A-38 — podanie o powtórkę",
-      "summary": "Rzadki, zużywalny fant sprzedawany spod lady w place:komis-rtv. Wygląda jak gruba, sfatygowana teczka lub koperta z ciemnoczerwonej skóry: przetarcia na krawędziach, złoty napis «PODANIE O POWTÓRKĘ A-38», tłoczony polski orzeł, urzędowe znaczki i czerwony lak z pieczęcią. Ma być…",
-      "imageCount": 1,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/formularz-a38/image-001-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/formularz-a38.json",
       "updatedAt": "2026-09-29T11:03:17+02:00"
     },
     {

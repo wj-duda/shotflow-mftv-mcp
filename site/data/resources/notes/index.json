@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T20:28:57.964Z",
+  "generatedAt": "2026-09-29T21:10:16.402Z",
   "worldId": "aimftv",
   "type": "notes",
   "label": "Notatki",
@@ -124,6 +124,18 @@
       "thumbnailUrl": null,
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/movie-shot.json",
       "updatedAt": "2026-08-01T00:24:24.0973986+00:00"
+    },
+    {
+      "key": "note:wtorki-powtorki",
+      "kind": "resource",
+      "type": "notes",
+      "id": "wtorki-powtorki",
+      "name": "Wtorki Powtórki — zasady audycji",
+      "summary": "STATUS I TERMIN: Wtorki Powtórki są nieregularną audycją MFTV. Mogą odbyć się w wybrany wtorek o 20:15, ale tylko wtedy, gdy w kolejce znajduje się łącznie co najmniej 30 minut materiału. Jeśli materiału jest mniej, wydanie zostaje pominięte i utwory nadal czekają na następny mo…",
+      "imageCount": 0,
+      "thumbnailUrl": null,
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/wtorki-powtorki.json",
+      "updatedAt": "2026-09-29T23:04:53+02:00"
     },
     {
       "key": "note:czeslaw-lokal-zastepczy-ze12",

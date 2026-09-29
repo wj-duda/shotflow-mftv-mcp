@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T20:28:57.964Z",
+  "generatedAt": "2026-09-29T21:10:16.402Z",
   "universe": {
     "id": "mf-tv",
     "name": "Świat MF TV"
@@ -22,7 +22,7 @@
     ]
   },
   "counts": {
-    "resources": 94,
+    "resources": 95,
     "projects": 20,
     "shots": 347,
     "images": 509
@@ -137,10 +137,10 @@
           "day": "wtorek",
           "time": "20:15",
           "timezone": "Europe/Warsaw",
-          "recurrence": "wybrane wtorki, gdy zbierze się wystarczająco dużo zgłoszeń"
+          "recurrence": "wybrane wtorki, gdy kolejka zawiera co najmniej 30 minut materiału"
         },
         "summary": "Nieregularna audycja na życzenie, w której zaakceptowane utwory wracają na antenę dzięki Formularzowi A-38.",
-        "description": "Wtorki Powtórki to audycja MFTV budowana z kolejki utworów wskazanych przez twórców za pomocą Formularza A-38 kupowanego w komisie Włodka. Wybrany utwór może być prawdziwą powtórką albo utworem zaakceptowanym, który jeszcze nie miał pierwszej emisji. Audycja pojawia się w wybrane wtorki o 20:15, gdy operator uzna, że zgłoszeń wystarcza na odcinek. Widzowie ponownie głosują emoji, więc samo użycie formularza zapewnia miejsce w kolejce i jedną emisję w tym formacie, ale nie gwarantuje wyniku, nagrody ani łagodniejszej oceny.",
+        "description": "Wtorki Powtórki to audycja MFTV budowana z kolejki utworów wskazanych przez twórców za pomocą Formularza A-38 kupowanego w komisie Włodka. Wybrany utwór może być prawdziwą powtórką albo utworem zaakceptowanym, który jeszcze nie miał pierwszej emisji. Audycja może pojawić się w wybrany wtorek o 20:15, jeśli kolejka zawiera co najmniej 30 minut materiału; przy krótszej kolejce wydanie jest pomijane, a zgłoszenia czekają dalej. Widzowie ponownie głosują emoji na istniejący, skumulowany wynik utworu. Powrót może więc poprawić jego pozycję albo ją pogorszyć, jeśli odbiorcy zmienią lub wycofają wcześniejsze reakcje.",
         "audience": "Dla twórców chcących wskazać konkretny zaakceptowany utwór oraz dla widzów, którzy chcą ponownie ocenić zapamiętane lub przeoczone numery.",
         "rules": [
           "Do kolejki trafia wyłącznie utwór zaakceptowany w MFTV i należący do zalogowanego, zweryfikowanego kanału.",
@@ -149,8 +149,11 @@
           "Tego samego utworu nie można zgłosić ponownie, dopóki już czeka w kolejce.",
           "Kolejka obejmuje aktywne, nieukryte utwory oznaczone tagiem wtorki-powtorki; najstarsze zgłoszenia są ustawiane przed nowszymi, a przy remisie rozstrzyga tytuł.",
           "W jednym odcinku może wystąpić kilka utworów tego samego twórcy. Format nie zużywa miejsca kanału w zwykłym cyklu rankingowym.",
-          "O uruchomieniu odcinka decyduje operator na podstawie liczby zgłoszeń; kod nie narzuca publicznego, stałego progu minimalnego.",
-          "Czat głosuje od nowa. Powrót nie daje dodatkowych punktów, taryfy ulgowej ani gwarancji wejścia do rankingu.",
+          "Odcinek odbywa się tylko wtedy, gdy oczekujące utwory dają łącznie co najmniej 30 minut materiału. Przy krótszej kolejce operator pomija wtorkową audycję, a zgłoszenia zachowują miejsce na kolejny termin.",
+          "Głosowanie nie tworzy osobnego wyniku powtórki. Nowe głosy, zmiany i wycofania reakcji aktualizują skumulowany wynik utworu używany przez listę Złotego Emoji.",
+          "Wynik nie jest zerowany na początku Wtorków. Ponowny głos jednego widza zastępuje jego wcześniejszy zestaw reakcji; mniejszy zestaw obniża sumę, a słabsze emoji mogą pogorszyć punktację jakościową rozstrzygającą remisy. Brak nowego głosu nie usuwa automatycznie poprzedniego.",
+          "Powrót może podnieść utwór, ale zirytowani widzowie mogą również obniżyć jego wynik, zepchnąć go na dalsze miejsce lub pozbawić kwalifikacji do Złotego Emoji.",
+          "Spadek wyniku nie odbiera twórcy łupów wypłaconych wcześniej; ekonomia dopisuje tylko dodatnie przyrosty nowych reakcji.",
           "Po co najmniej 10 sekundach odtworzenia emisja jest uznawana za wykonaną i znacznik oczekiwania znika. Utwór pominięty wcześniej pozostaje w kolejce."
         ],
         "userGuide": {
@@ -162,7 +165,7 @@
             "Po zakupie poczekaj, aż A-38 pojawi się w Twoich łupach, następnie otwórz ekwipunek i wybierz jego użycie.",
             "Wklej link YouTube do własnego, zaakceptowanego utworu. System odrzuci cudzy, niezaakceptowany, nieobecny w bibliotece lub już oczekujący numer.",
             "Potwierdź użycie. Formularz zostanie zużyty, a utwór otrzyma znacznik Powtórka? i trafi do kolejki Wtorków Powtórek.",
-            "Poczekaj na zaplanowanie odcinka. Samo zebranie zgłoszeń nie wyznacza automatycznie daty; decyzję o emisji podejmuje operator."
+            "Poczekaj, aż kolejka osiągnie co najmniej 30 minut materiału i operator zaplanuje jeden z wybranych wtorków o 20:15. Przy krótszej kolejce wydanie zostaje pominięte, ale zgłoszenie nie przepada."
           ],
           "important": "A-38 jest zużywalny i po użyciu znika z ekwipunku. Jednocześnie sklep odzyskuje dokładnie jedną sztukę stanu: jest to nowy pusty formularz/zwolniony slot, nie powrót wypełnionego dokumentu do właściciela."
         },
@@ -213,9 +216,12 @@
         "broadcastMechanics": {
           "queueTagId": "wtorki-powtorki",
           "queueLabel": "Powtórka?",
+          "minimumMaterialDurationSec": 1800,
+          "scheduling": "Audycja może zostać zaplanowana na wybrany wtorek o 20:15 dopiero przy co najmniej 30 minutach materiału. Próg jest decyzją operatorską sprawdzaną przy planowaniu, a nie automatycznym startem transmisji.",
           "selection": "Builder pobiera wszystkie pasujące aktywne i nieukryte zgłoszenia, pomija utwory już ręcznie dodane do bieżącego składu i porządkuje pozostałe od najstarszego zgłoszenia.",
           "completion": "Odtworzenie przez co najmniej 10 sekund kończy realizację zgłoszenia: zwiększa licznik emisji i usuwa tag kolejki z utworu oraz zgłoszenia kanału. Krótsze odtworzenie jest pominięciem i nie usuwa zgłoszenia.",
-          "repeatability": "Po prawidłowo zakończonej emisji ten sam utwór może w przyszłości zostać wskazany ponownie innym Formularzem A-38, ponieważ nie ma już aktywnego znacznika oczekiwania."
+          "repeatability": "Po prawidłowo zakończonej emisji ten sam utwór może w przyszłości zostać wskazany ponownie innym Formularzem A-38, ponieważ nie ma już aktywnego znacznika oczekiwania.",
+          "goldenEmojiImpact": "Wtorkowa emisja pracuje na dotychczasowym Chatvibe utworu i nie zeruje wcześniejszych głosów. Ponowny głos widza zastępuje jego poprzedni zestaw: większy może podnieść sumę, mniejszy ją obniżyć, a słabszy zestaw tej samej wielkości pogorszyć punktację jakościową rozstrzygającą remisy. Widz, który nie głosuje ponownie, zachowuje wcześniejszy głos. W efekcie utwór może awansować, spaść lub utracić kwalifikację do Złotego Emoji. Sama audycja nie pokazuje miejsc, nie zamyka rankingu i nie przyznaje nagród."
         },
         "lore": {
           "premise": "Włodek traktuje emocje publiczności jak fizyczny towar. Twórca przynosi do jego komisu sakiewkę reakcji, wykupuje ciężki urzędowy druk A-38 i składa podanie o jeszcze jeden wieczór na antenie. Po użyciu podstemplowany dokument trafia do rejestru, a Włodek odkłada pod ladę nowy pusty egzemplarz.",
@@ -626,7 +632,7 @@
       {
         "type": "notes",
         "label": "Notatki",
-        "count": 14,
+        "count": 15,
         "url": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/index.json"
       },
       {
