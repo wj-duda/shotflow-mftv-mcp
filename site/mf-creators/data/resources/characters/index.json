@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T13:47:16.297Z",
+  "generatedAt": "2026-09-29T14:15:15.080Z",
   "worldId": "mf-creators",
   "type": "characters",
   "label": "Postacie",
@@ -83,11 +83,11 @@
       "type": "characters",
       "id": "maia-melodies",
       "name": "Maia Melodies",
-      "summary": "CHARACTER [age=18-29; presentation=feminine; height=165cm; build=slim; body=hourglass; chest=medium; skin=fair; face=heart; eyes=brown; hair-color=platinum-blonde; hair-length=medium; hair-texture=straight] Twórczyni kanału Maia Melodies (@maiamelodies, YouTube UCSqRnFlVAhRQSkiz…",
-      "imageCount": 1,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/maia-melodies/image-004-thumb.webp",
+      "summary": "CHARACTER [age=18-29; presentation=feminine; height=165cm; build=slim; body=hourglass; chest=medium; skin=fair; face=heart; eyes=dark-navy-blue; hair-color=platinum-blonde; hair-length=medium; hair-texture=straight] Twórczyni kanału Maia Melodies (@maiamelodies, YouTube UCSqRnFl…",
+      "imageCount": 2,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/maia-melodies/image-005-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/maia-melodies.json",
-      "updatedAt": "2026-09-29T10:18:16+02:00"
+      "updatedAt": "2026-09-29T16:14:15+02:00"
     },
     {
       "key": "character:pan-czeslaw",
