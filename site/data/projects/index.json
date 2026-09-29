@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T15:21:41.216Z",
+  "generatedAt": "2026-09-29T09:09:24.196Z",
   "worldId": "aimftv",
   "order": "newest-first",
   "projects": [
@@ -258,6 +258,21 @@
       "thumbnailUrl": null,
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/default/index.json",
       "url": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/default/index.json"
+    },
+    {
+      "key": "project:pw-rolka",
+      "kind": "project",
+      "type": "projects",
+      "id": "pw-rolka",
+      "name": "PW-Rolka",
+      "summary": "PW-Rolka: 1 shotów w archiwum ShotFlow.",
+      "createdAt": null,
+      "shotCount": 1,
+      "imageCount": 0,
+      "imageUrl": null,
+      "thumbnailUrl": null,
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/index.json",
+      "url": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/index.json"
     },
     {
       "key": "project:skits-komisja-ep2",

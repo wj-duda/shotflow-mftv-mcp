@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-29T09:09:24.196Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "prop:gwiazda-pierwszej-wielkosci",
+  "type": "props",
+  "id": "gwiazda-pierwszej-wielkosci",
+  "name": "Gwiazda Pierwszej Wielkości",
+  "description": "Legendarny, trwały fant z place:komis-rtv. Ciężka złota pięcioramienna gwiazda z szerokim schodkowym rantem i pustą prostokątną tabliczką na nazwę. Metal jest wypolerowany na froncie, ale w zagłębieniach widać wiek i ciemną patynę; z tyłu pozostał pył, zaprawa i ślady wyrwania z czyjegoś chodnika. Gwiazda musi wyglądać jak prawdziwa płyta lub masywny medalion architektoniczny, nie mała odznaka ani świecąca ikona.\n\nMECHANIKA W ŚWIECIE: zakup otwiera twórcy stałe miejsce w Alei Gwiazd MFTV — profil z polską i angielską biografią, katalogiem utworów oraz wyróżnieniami. Jeden kanał może posiadać tylko jedną Gwiazdę. Nie zużywa się, nie wraca do sklepu i pozostaje trwałym znakiem statusu. Typowa cena wywoławcza character:komisant to 1000 prop:waluta-serce, 100 prop:waluta-gem i 50 prop:waluta-runa.\n\nHAK FABULARNY: Włodek natychmiast zmienia temat, kiedy ktoś pyta, z czyjego chodnika pochodzi Gwiazda. Nie przesądza to kradzieży; może być początkiem historii o starej, zapomnianej Alei. Tabliczka pozostaje pusta do chwili przypisania jej konkretnemu twórcy.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/gwiazda-pierwszej-wielkosci/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/gwiazda-pierwszej-wielkosci/image-001-thumb.webp",
+      "width": 512,
+      "height": 512,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-29T11:03:17+02:00"
+}

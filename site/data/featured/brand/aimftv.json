@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T15:21:41.216Z",
+  "generatedAt": "2026-09-29T09:09:24.196Z",
   "worldId": "aimftv",
   "kind": "brand",
   "key": "brand:aimftv",
@@ -88,8 +88,8 @@
       "role": "logo",
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/brand/aimftv.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/brand/aimftv-thumb.webp",
-      "width": 1920,
-      "height": 1920,
+      "width": 3200,
+      "height": 3200,
       "contentType": "image/webp"
     }
   ]

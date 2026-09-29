@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-29T09:09:24.196Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "prop:waluta-gem",
+  "type": "props",
+  "id": "waluta-gem",
+  "name": "Gem — waluta reakcji",
+  "description": "Skondensowany entuzjazm: mały fasetowany zielony kamień o szmaragdowym świetle wewnątrz, wielkości mieszczącej się w dłoni. Powstaje z mocnych reakcji widzów, takich jak ogień, zachwyt, zakochanie, siła i gest «dobrze». Jest twardy, chłodny i załamuje światło, ale nie lewituje. W kantorze place:komis-rtv 10 prop:waluta-serce daje 1 gem; 4 gemy dają 1 prop:waluta-runa; rozbicie 1 gema zwraca tylko 5 serc. To niekonsekwencja celowa — character:komisant zarabia na kierunku wymiany. Nie mylić gema z runą ani zwykłym zielonym szkłem z półki.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/waluta-gem/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/waluta-gem/image-001-thumb.webp",
+      "width": 96,
+      "height": 96,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-29T11:03:17+02:00"
+}

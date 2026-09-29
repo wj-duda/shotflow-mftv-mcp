@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T15:21:41.216Z",
+  "generatedAt": "2026-09-29T09:09:24.196Z",
   "worldId": "aimftv",
   "type": "places",
   "label": "Miejsca",
@@ -154,12 +154,12 @@
       "kind": "resource",
       "type": "places",
       "id": "komis-rtv",
-      "name": "KOMIS RTV",
-      "summary": "Małomiasteczkowy polski komis używanej elektroniki i osobliwości, prowadzony przez character:komisant. Ciasny lokal w zaadaptowanym parterze: nikotynowokremowe i sprane zielone ściany, jarzeniówki, kraty w bocznym oknie, tanie regały, plątanina przedłużaczy i niska porysowana sz…",
-      "imageCount": 1,
+      "name": "KOMIS RTV — kantor Włodka",
+      "summary": "KANON FABULARNY: małomiasteczkowy polski komis używanej elektroniki i osobliwości prowadzony przez character:komisant. Oficjalne rozwinięcie szyldu brzmi «Reakcje, Towary, Wymiana». To miejsce, w którym niematerialny odzew publiczności staje się czymś policzalnym, ciężkim i możl…",
+      "imageCount": 3,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/komis-rtv/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/komis-rtv.json",
-      "updatedAt": "2026-09-27T13:13:52+02:00"
+      "updatedAt": "2026-09-29T11:03:17+02:00"
     },
     {
       "key": "place:komisja-zlote-emoji-tygodnia",

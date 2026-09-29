@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T15:21:41.216Z",
+  "generatedAt": "2026-09-29T09:09:24.196Z",
   "worldId": "aimftv",
   "type": "characters",
   "label": "Postacie",
@@ -124,18 +124,6 @@
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/kkn-przewodniczaca/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/kkn-przewodniczaca.json",
       "updatedAt": "2026-09-12T00:39:07.411729+00:00"
-    },
-    {
-      "key": "character:komisant",
-      "kind": "resource",
-      "type": "characters",
-      "id": "komisant",
-      "name": "Komisant",
-      "summary": "CHARACTER [age=45-59; presentation=masculine; height=average; build=average; body=oval; chest=medium; skin=light; face=oblong; eyes=brown; hair-color=gray; hair-length=short; hair-texture=straight] Bezimienny właściciel małomiasteczkowego KOMISU RTV. Czujny, oszczędny w słowach,…",
-      "imageCount": 2,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/komisant/image-001-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/komisant.json",
-      "updatedAt": "2026-09-27T13:13:52+02:00"
     },
     {
       "key": "character:laidy-pipa",
@@ -280,6 +268,18 @@
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/wieslaw-majster/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/wieslaw-majster.json",
       "updatedAt": "2026-09-12T12:03:58.004056+00:00"
+    },
+    {
+      "key": "character:komisant",
+      "kind": "resource",
+      "type": "characters",
+      "id": "komisant",
+      "name": "Włodek — Komisant",
+      "summary": "CHARACTER [age=55-64; presentation=masculine; height=average; build=average; body=oval; chest=medium; skin=light; face=oblong; eyes=brown; hair-color=gray; hair-length=short; hair-texture=straight] Włodek jest właścicielem małomiasteczkowego place:komis-rtv i jedynym człowiekiem…",
+      "imageCount": 5,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/komisant/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/komisant.json",
+      "updatedAt": "2026-09-29T11:03:17+02:00"
     },
     {
       "key": "character:zosia",

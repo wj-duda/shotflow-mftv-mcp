@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T15:21:41.216Z",
+  "generatedAt": "2026-09-29T09:09:24.196Z",
   "worldId": "aimftv",
   "order": "projects-newest-first; canonical timeline clips oldest-to-newest inside each project; off-timeline project materials last",
   "currentStateRule": "For current canon, use only canonicalEvent=true: select the newest matching project and then the matching event with the greatest lastSequence. Off-timeline materials cannot override saved timeline events. Older events remain valid only for their historical story moment.",
@@ -34274,6 +34274,28 @@
         }
       ],
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/flow/shots/zosianakacu.json"
+    },
+    {
+      "key": "shot:pw-rolka/seed",
+      "kind": "story-event",
+      "projectKey": "project:pw-rolka",
+      "projectId": "pw-rolka",
+      "projectName": "PW-Rolka",
+      "projectCreatedAt": null,
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 1,
+      "lastSequence": 1,
+      "occurrences": [
+        1
+      ],
+      "sequenceTotal": 1,
+      "title": "seed",
+      "description": "",
+      "declaredReferences": [],
+      "activeFrameReferences": [],
+      "images": [],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/seed.json"
     }
   ]
 }

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-29T09:09:24.196Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "prop:waluta-ucho",
+  "type": "props",
+  "id": "waluta-ucho",
+  "name": "Ucho — waluta uczestnictwa",
+  "description": "Mały złocisto-mosiężny fant w kształcie stylizowanego ludzkiego ucha, mieszczący się w dłoni. Jest materialnym śladem aktywnego udziału widza w głosowaniu — widz dosłownie «rzuca uchem». Nie jest częścią ciała, lecz ciężkim odlewem z drobną patyną i połyskiem na wypukłościach. W kantorze place:komis-rtv można otrzymać 1 ucho za 100 prop:waluta-czaszka albo rozbić 1 prop:waluta-serce na 5 uszu. character:komisant chętnie używa kwestii «Psst… Rzuć uchem na moje towary». Nie pokazywać jako żywego ucha, ikony ani unoszącego się symbolu.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/waluta-ucho/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/waluta-ucho/image-001-thumb.webp",
+      "width": 96,
+      "height": 96,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-29T11:03:17+02:00"
+}

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T15:21:41.216Z",
+  "generatedAt": "2026-09-29T09:09:24.196Z",
   "worldId": "aimftv",
   "kind": "resource",
   "key": "place:dom-kultury",
@@ -14,8 +14,8 @@
       "role": "reference",
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/dom-kultury/image-001.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/dom-kultury/image-001-thumb.webp",
-      "width": 1920,
-      "height": 1897,
+      "width": 2650,
+      "height": 2618,
       "contentType": "image/webp"
     }
   ],

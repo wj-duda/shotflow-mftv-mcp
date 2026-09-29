@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-29T09:09:24.196Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "prop:sakiewka-tworcy",
+  "type": "props",
+  "id": "sakiewka-tworcy",
+  "name": "Sakiewka twórcy",
+  "description": "Fizyczny odpowiednik portfela reakcji. Mała, zużyta sakiewka z brązowej skóry ściągana rzemieniem, mieszcząca pięć odrębnych rodzajów fantów: prop:waluta-czaszka, prop:waluta-ucho, prop:waluta-serce, prop:waluta-gem i prop:waluta-runa. Nie tworzy waluty i nie zwiększa jej wartości; służy tylko do przenoszenia oraz czytelnego pokazania zasobów twórcy w scenie. Przy otwarciu różne fanty zachowują swój kształt i materiał — nie zamieniają się w jednolitą stertę monet. W place:komis-rtv Włodek każe wysypać należność na szklaną ladę i liczy każdy rodzaj osobno.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/sakiewka-tworcy/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/sakiewka-tworcy/image-001-thumb.webp",
+      "width": 144,
+      "height": 144,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-29T11:03:17+02:00"
+}

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-29T09:09:24.196Z",
+  "worldId": "aimftv",
+  "kind": "project",
+  "key": "project:pw-rolka",
+  "type": "projects",
+  "id": "pw-rolka",
+  "name": "PW-Rolka",
+  "description": "PW-Rolka: 1 shotów w archiwum ShotFlow.",
+  "createdAt": null,
+  "images": [],
+  "shotOrder": "canonical timeline order first; off-timeline project materials last",
+  "timeline": [
+    {
+      "position": 1,
+      "shotKey": "shot:pw-rolka/seed",
+      "shotId": "seed",
+      "title": "seed"
+    }
+  ],
+  "shots": [
+    {
+      "key": "shot:pw-rolka/seed",
+      "kind": "shot",
+      "type": "shots",
+      "id": "seed",
+      "name": "seed",
+      "projectId": "pw-rolka",
+      "projectName": "PW-Rolka",
+      "projectCreatedAt": null,
+      "onTimeline": true,
+      "sequence": 1,
+      "lastSequence": 1,
+      "sequenceTotal": 1,
+      "summary": "",
+      "imageCount": 0,
+      "imageUrl": null,
+      "thumbnailUrl": null,
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/seed.json"
+    }
+  ]
+}

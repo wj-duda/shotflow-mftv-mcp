@@ -1,23 +1,41 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T15:21:41.216Z",
+  "generatedAt": "2026-09-29T09:09:24.196Z",
   "worldId": "aimftv",
   "kind": "resource",
   "key": "place:komis-rtv",
   "type": "places",
   "id": "komis-rtv",
-  "name": "KOMIS RTV",
-  "description": "Małomiasteczkowy polski komis używanej elektroniki i osobliwości, prowadzony przez character:komisant. Ciasny lokal w zaadaptowanym parterze: nikotynowokremowe i sprane zielone ściany, jarzeniówki, kraty w bocznym oknie, tanie regały, plątanina przedłużaczy i niska porysowana szklana lada. Na półkach stoją kineskopy, magnetowidy, kaseciaki, radia samochodowe, niedobrane kolumny, aparaty, wiertarki, lampy, zegary, porcelanowe figurki, przewody i piloty. Wśród zwykłych fantów komis przechowuje materialne łupy powstające z reakcji widzów: czaszkę, ucho, serce, gem i runę. List do redakcji leży w przezroczystej koszulce pod ladą. Miejsce jest podejrzane i absurdalne, lecz nie przestępcze ani groźne. Skrót RTV można w świecie odczytywać jako „Reakcje, Towary, Wymiana”.",
+  "name": "KOMIS RTV — kantor Włodka",
+  "description": "KANON FABULARNY: małomiasteczkowy polski komis używanej elektroniki i osobliwości prowadzony przez character:komisant. Oficjalne rozwinięcie szyldu brzmi «Reakcje, Towary, Wymiana». To miejsce, w którym niematerialny odzew publiczności staje się czymś policzalnym, ciężkim i możliwym do wymiany. Komis jest podejrzany i absurdalny, ale nie jest przestępczą meliną ani miejscem grozy. Włodek prowadzi go jak całkowicie zwyczajny punkt usługowy. Motto zakładu: «Pochodzenie? To komis, nie prokuratura.»\n\nWYGLĄD I ATMOSFERA: ciasny lokal w zaadaptowanym parterze pamiętającym przełom lat 80. i 90. Nikotynowokremowe oraz sprane zielone ściany, jarzeniówki, krata w bocznym oknie, stare lampki warsztatowe, tanie metalowe i drewniane regały, plątanina przedłużaczy i porysowane szklane gabloty. Na półkach stoją kineskopy, magnetowidy, kaseciaki, radia samochodowe, niedobrane kolumny, aparaty, wiertarki, lampy, zegary, porcelanowe figurki, przewody i piloty. Bazowe światło jest brudno-ciepłe i jarzeniowe, ale aktualna oprawa handlowa dodaje cyjanowe i magentowe neony odbijające się w szybach. Powietrze jest suche, lekko zakurzone; słychać brzęczenie jarzeniówki, tykanie kilku niesynchronizowanych zegarów, trzask przekaźnika i szelest papierowych kwitów.\n\nKANONICZNA GEOMETRIA — image-003: prostokątny lokal oglądany od frontu od strony południowej. Pośrodku południowej ściany są drzwi wejściowe, po obu stronach witryny. Między wejściem a ladą znajduje się publiczna strefa klienta. Długa, niska szklana lada biegnie poprzecznie przez środek i ma krótkie boczne odcinki, tworząc płytkie U; przejście personelu pozostaje po stronie zachodniej. Północna połowa to strefa Włodka. Przy zachodniej ścianie stoi stanowisko napraw z lampą, narzędziami, przewodami i rozebranym sprzętem. Północną ścianę zajmują wysokie regały z RTV, a w północno-zachodnim narożniku są drzwi do małego zaplecza. Wschodnia ściana ma dodatkowe gabloty, regały i okno z kratą. Nie wolno przestawiać wejścia, lady, przejścia za ladę, zaplecza ani stanowiska napraw między ujęciami.\n\nLADA I PIĘĆ WALUT: pod szkłem zawsze można rozpoznać pięć osobnych materialnych fantów: prop:waluta-czaszka, prop:waluta-ucho, prop:waluta-serce, prop:waluta-gem i prop:waluta-runa. Nie są ikonami interfejsu, hologramami ani unoszącymi się symbolami. Są niewielkimi, dotykalnymi przedmiotami, które można zważyć, przesunąć po ladzie, policzyć i schować do prop:sakiewka-tworcy. Czaszki powstają z reakcji negatywnych lub odrzucających; serca ze zwykłych reakcji; gemy z reakcji mocnych i entuzjastycznych; runy z reakcji najwyższej rangi, kojarzących się ze zwycięstwem i wyróżnieniem. Uszy są śladem aktywnego udziału widza w głosowaniu — dosłownym «rzuceniem uchem». Konkretna emotka może się zmieniać, ale jej siła decyduje o rodzaju materializującego się fantu.\n\nKANTOR U WŁODKA — KURSY KANONICZNE: 100 czaszek za 1 ucho; 10 serc za 1 gem; 4 gemy za 1 runę; 1 runa za 2 gemy; 1 gem za 5 serc; 1 serce za 5 uszu. Kursy są celowo asymetryczne: wymiana wstecz oddaje mniej i tworzy marżę Włodka. Włodek zawsze pokazuje kurs przed transakcją, wymienia tylko pełne pakiety i kończy interes dopiero po przeliczeniu obu stron. Handel odbywa się atomowo w logice świata: albo znika cała należność i pojawia się cały zakup, albo nie dzieje się nic. Fabularnym odpowiednikiem są kalkulator, papierowy kwit i zamykana kasetka pod ladą.\n\nASORTYMENT SPOD LADY: prop:formularz-a38 to rzadki, zużywalny dokument pozwalający właścicielowi skierować wybrany zaakceptowany utwór — nawet przed jego pierwszą emisją — do jednego z najbliższych wydań Wtorków Powtórek. Po użyciu formularz znika, a zgłoszenie pozostaje w rejestrze; liczba egzemplarzy jest ograniczona. Typowa cena wywoławcza Włodka to 100 uszu, 100 serc, 10 gemów i 10 run, lecz stan i cena mogą być zmieniane przez operatora sklepu. prop:gwiazda-pierwszej-wielkosci to legendarny, trwały fant otwierający twórcy stałe miejsce w Alei Gwiazd MFTV wraz z biografią, utworami i wyróżnieniami; jeden kanał może posiadać tylko jedną. Typowa cena wywoławcza: 1000 serc, 100 gemów i 50 run. Włodek nie tłumaczy, dlaczego na odwrocie Gwiazdy są resztki cudzego chodnika.\n\nREGUŁY SCEN: zakup odbiera pełną cenę z sakiewki, zmniejsza stan półki i przenosi fant do własności twórcy. Brak choć jednego składnika kończy rozmowę odmową; Włodek nie daje na zeszyt. Towar wykupiony fizycznie znika spod lady. Nie ma zwrotów. Formularz A-38 nie wraca automatycznie do sklepu po użyciu. Gwiazda pozostaje trwałym znakiem statusu, a nie materiałem eksploatacyjnym. Kategorie, których Włodek może używać przy ocenie fantów, to: Zwykły, Magiczny, Rzadki, Zestawowy, Unikatowy, Wytworzony i Legendarny.\n\nREFERENCJE: image-001 pokazuje bazowe, brudne wnętrze od frontu; image-002 aktualną barwną oprawę lady i kanoniczny układ pięciu walut; image-003 jest nadrzędną referencją przestrzenną — rzutem z góry bez ludzi. W razie konfliktu image-003 rozstrzyga geometrię, a image-002 kolor światła, ekspozycję i zagęszczenie asortymentu.",
   "images": [
     {
       "id": "image-001",
       "role": "reference",
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/komis-rtv/image-001.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/komis-rtv/image-001-thumb.webp",
-      "width": 1920,
-      "height": 640,
+      "width": 2172,
+      "height": 724,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-002",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/komis-rtv/image-002.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/komis-rtv/image-002-thumb.webp",
+      "width": 2172,
+      "height": 724,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-003",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/komis-rtv/image-003.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/komis-rtv/image-003-thumb.webp",
+      "width": 1672,
+      "height": 941,
       "contentType": "image/webp"
     }
   ],
-  "updatedAt": "2026-09-27T13:13:52+02:00"
+  "updatedAt": "2026-09-29T11:03:17+02:00"
 }

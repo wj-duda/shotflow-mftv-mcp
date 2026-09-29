@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T15:21:41.216Z",
+  "generatedAt": "2026-09-29T09:09:24.196Z",
   "worldId": "aimftv",
   "kind": "resource",
   "key": "character:komisant",
   "type": "characters",
   "id": "komisant",
-  "name": "Komisant",
-  "description": "CHARACTER [age=45-59; presentation=masculine; height=average; build=average; body=oval; chest=medium; skin=light; face=oblong; eyes=brown; hair-color=gray; hair-length=short; hair-texture=straight]\n\nBezimienny właściciel małomiasteczkowego KOMISU RTV. Czujny, oszczędny w słowach, wycenia człowieka szybciej niż przyniesiony przez niego przedmiot. Nie jest gangsterem ani złoczyńcą; ma suchy humor, wieloletnią praktykę za ladą i odporność na każde dziwactwo. Jego prawdziwe imię, pochodzenie towaru i związek komisu z zasobami powstającymi podczas audycji pozostają celowo nieustalone.\n\nOkoło 55–62 lat, przeciętny wzrost, lekko miękka sylwetka i delikatne przygarbienie. Ciemnosiwe, przerzedzone włosy starannie zaczesane na bok, wąskie brązowe oczy o wyceniającym spojrzeniu, dłuższy nos, cienki tytoniowosiwy wąs i prostokątne okulary z lekko bursztynowymi szkłami. Kanoniczny strój: beżowo-brązowa koszula w drobną kratkę z nierówno podwiniętymi rękawami, sprana butelkowozielona kamizelka z akrylu, wysoko noszone ciemne spodnie z kantem, wąski popękany pasek, ciemne skarpety i brązowe skórzane pantofle. Nosi tani złoty zegarek, sygnet oraz klucze na zwijanej lince. W kieszeni ma długopisy, mały śrubokręt i złożone paragony. Zwykle trzyma duży kalkulator z lat 90. i papierową zawieszkę cenową. Do jednego rękawa przypadkowo przykleił mu się kawałek przezroczystej taśmy.",
+  "name": "Włodek — Komisant",
+  "description": "CHARACTER [age=55-64; presentation=masculine; height=average; build=average; body=oval; chest=medium; skin=light; face=oblong; eyes=brown; hair-color=gray; hair-length=short; hair-texture=straight]\n\nWłodek jest właścicielem małomiasteczkowego place:komis-rtv i jedynym człowiekiem, który potrafi nadać cenę reakcji publiczności. Szyld mówi KOMIS RTV, a on rozwija skrót jako «Reakcje, Towary, Wymiana». Za ladą działa jak rzeczoznawca, kantorowiec i kustosz rzeczy, których pochodzenia lepiej nie dociekać. Wycenia człowieka szybciej niż przyniesiony przedmiot. Nie jest gangsterem, złoczyńcą ani czarownikiem: jego przewaga bierze się z praktyki, pamięci do kursów, spokoju i umiejętności rozpoznania, kiedy klient czegoś chce bardziej, niż powinien.\n\nCHARAKTER I ZACHOWANIE: czujny, cierpliwy, oszczędny w gestach i słowach, odporny na dziwactwa. Ma suchy, urzędowo-bazarowy humor i satysfakcję z dobrze domkniętego interesu. Nie podnosi głosu; odmowa brzmi u niego jak prawomocna decyzja. Kursy ustala sam i bywają bezczelne, lecz zawsze podaje je przed wymianą. Nie daje na zeszyt, nie przyjmuje zwrotów i nie negocjuje już po przybiciu transakcji. Asymetrię kursu uważa nie za oszustwo, lecz za koszt tego, że to on zawsze ma drobne. Zna ciężar każdej reakcji na oko, liczy na dużym kalkulatorze z lat 90., a wynik i tak zna wcześniej. Pytany o pochodzenie niezwykłego towaru zmienia temat, poprawia cenówkę albo mówi: «Pochodzenie? To komis, nie prokuratura.»\n\nRELACJA Z KLIENTEM: Włodek nie próbuje nikogo skrzywdzić; chce, by klient sam uznał złą ofertę za rozsądny kompromis. Przy zakupie jest rzeczowy i lekko rozbawiony. Przy udanej wymianie pojawia się u niego dyskretny, zwycięski półuśmiech. Gdy komuś brakuje środków, spojrzenie twardnieje, a uprzejmość staje się ostateczna. Potrafi zwabić przechodnia półgłosem: «Psst… Rzuć uchem na moje towary.» Jego inne kanoniczne kwestie to: «Kurs? Przecież ja do tego dokładam.»; «Tego nawet na zeszyt nie puszczę. Wróć, jak uzbierasz.»; «Ubite. Włodek nie przyjmuje zwrotów. Szczególnie korzystnych.»\n\nWIEDZA I TAJEMNICE: rozpoznaje pięć materialnych walut świata — prop:waluta-czaszka, prop:waluta-ucho, prop:waluta-serce, prop:waluta-gem i prop:waluta-runa — oraz wie, z jakiego rodzaju reakcji każda powstaje. Prowadzi papierowy rejestr transakcji i nie wydaje towaru, dopóki liczba fantów się nie zgadza. Wie więcej o prop:formularz-a38 i prop:gwiazda-pierwszej-wielkosci, niż ujawnia. Szczególnie pytany o chodnik, z którego odkręcono Gwiazdę, natychmiast zmienia temat. To pozostaje hakiem fabularnym, nie dowodem przestępstwa.\n\nWYGLĄD: około sześćdziesięciu lat, przeciętny wzrost, lekko miękka sylwetka i delikatne przygarbienie człowieka stale pochylonego nad ladą. Ciemnosiwe, przerzedzone włosy starannie zaczesane na bok, wąskie brązowe oczy o wyceniającym spojrzeniu, dłuższy nos, cienki tytoniowosiwy wąs i prostokątne okulary z lekko bursztynowymi szkłami. Kanoniczny strój: beżowo-brązowa koszula w drobną kratkę z nierówno podwiniętymi rękawami, sprana butelkowozielona kamizelka z akrylu, wysoko noszone ciemne spodnie z kantem, wąski popękany pasek, ciemne skarpety i brązowe skórzane pantofle. Nosi tani złoty zegarek, sygnet oraz klucze na zwijanej lince. W kieszeni ma długopisy, mały śrubokręt i złożone paragony. Zwykle trzyma kalkulator i papierową zawieszkę cenową. Do jednego rękawa przypadkowo przykleił mu się kawałek przezroczystej taśmy.\n\nREFERENCJE AKTORSKIE: image-001 to portret kanoniczny, image-002 pełna sylwetka. image-003 pokazuje jego zapraszający, lisio-uprzejmy wyraz twarzy; image-004 półuśmiech po korzystnej dla niego wymianie; image-005 surową odmowę przy braku środków. Nie należy robić z niego demonicznego handlarza, mafiosa ani groteskowego skąpca. Komizm płynie z absolutnej normalności Włodka wobec niemożliwego asortymentu.",
   "images": [
     {
       "id": "image-001",
@@ -26,7 +26,34 @@
       "width": 1024,
       "height": 1536,
       "contentType": "image/webp"
+    },
+    {
+      "id": "image-003",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/komisant/image-003.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/komisant/image-003-thumb.webp",
+      "width": 256,
+      "height": 256,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-004",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/komisant/image-004.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/komisant/image-004-thumb.webp",
+      "width": 512,
+      "height": 512,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-005",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/komisant/image-005.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/komisant/image-005-thumb.webp",
+      "width": 720,
+      "height": 720,
+      "contentType": "image/webp"
     }
   ],
-  "updatedAt": "2026-09-27T13:13:52+02:00"
+  "updatedAt": "2026-09-29T11:03:17+02:00"
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T15:21:41.216Z",
+  "generatedAt": "2026-09-29T09:09:24.196Z",
   "worldId": "aimftv",
   "type": "props",
   "label": "Rekwizyty",
@@ -78,6 +78,18 @@
       "updatedAt": "2026-08-19T07:55:00+02:00"
     },
     {
+      "key": "prop:waluta-czaszka",
+      "kind": "resource",
+      "type": "props",
+      "id": "waluta-czaszka",
+      "name": "Czaszka — waluta reakcji",
+      "summary": "Najniższy materialny osad reakcji publiczności: mała czaszka w kolorze starej kości, wielkości mieszczącej się w dłoni. Powstaje z reakcji negatywnych, odrzucających lub szyderczych — kanoniczne przykłady to pomidor, smutek, kupa, mdłości i kciuk w dół. Nie jest ludzką kością an…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/waluta-czaszka/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-czaszka.json",
+      "updatedAt": "2026-09-29T11:03:17+02:00"
+    },
+    {
       "key": "prop:delicja-pomaranczowa",
       "kind": "resource",
       "type": "props",
@@ -112,6 +124,42 @@
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/pusta-butelka-tequili/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/pusta-butelka-tequili.json",
       "updatedAt": "2026-08-23T02:16:28+02:00"
+    },
+    {
+      "key": "prop:formularz-a38",
+      "kind": "resource",
+      "type": "props",
+      "id": "formularz-a38",
+      "name": "Formularz A-38 — podanie o powtórkę",
+      "summary": "Rzadki, zużywalny fant sprzedawany spod lady w place:komis-rtv. Wygląda jak gruba, sfatygowana teczka lub koperta z ciemnoczerwonej skóry: przetarcia na krawędziach, złoty napis «PODANIE O POWTÓRKĘ A-38», tłoczony polski orzeł, urzędowe znaczki i czerwony lak z pieczęcią. Ma być…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/formularz-a38/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/formularz-a38.json",
+      "updatedAt": "2026-09-29T11:03:17+02:00"
+    },
+    {
+      "key": "prop:waluta-gem",
+      "kind": "resource",
+      "type": "props",
+      "id": "waluta-gem",
+      "name": "Gem — waluta reakcji",
+      "summary": "Skondensowany entuzjazm: mały fasetowany zielony kamień o szmaragdowym świetle wewnątrz, wielkości mieszczącej się w dłoni. Powstaje z mocnych reakcji widzów, takich jak ogień, zachwyt, zakochanie, siła i gest «dobrze». Jest twardy, chłodny i załamuje światło, ale nie lewituje.…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/waluta-gem/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-gem.json",
+      "updatedAt": "2026-09-29T11:03:17+02:00"
+    },
+    {
+      "key": "prop:gwiazda-pierwszej-wielkosci",
+      "kind": "resource",
+      "type": "props",
+      "id": "gwiazda-pierwszej-wielkosci",
+      "name": "Gwiazda Pierwszej Wielkości",
+      "summary": "Legendarny, trwały fant z place:komis-rtv. Ciężka złota pięcioramienna gwiazda z szerokim schodkowym rantem i pustą prostokątną tabliczką na nazwę. Metal jest wypolerowany na froncie, ale w zagłębieniach widać wiek i ciemną patynę; z tyłu pozostał pył, zaprawa i ślady wyrwania z…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/gwiazda-pierwszej-wielkosci/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/gwiazda-pierwszej-wielkosci.json",
+      "updatedAt": "2026-09-29T11:03:17+02:00"
     },
     {
       "key": "prop:helm-czeslawa-wz31",
@@ -198,6 +246,42 @@
       "updatedAt": "2026-08-19T07:43:30+02:00"
     },
     {
+      "key": "prop:waluta-runa",
+      "kind": "resource",
+      "type": "props",
+      "id": "waluta-runa",
+      "name": "Runa — waluta reakcji",
+      "summary": "Najwyższa kategoria materialnej reakcji: jasny kamienny lub kościany żeton z wyrytym znakiem, delikatnie podświetlonym od środka. Powstaje z reakcji najwyższej rangi, związanych ze zwycięstwem, perfekcją i wyróżnieniem — kanoniczne przykłady to medal, sto punktów, gwiazdy i puch…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/waluta-runa/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-runa.json",
+      "updatedAt": "2026-09-29T11:03:17+02:00"
+    },
+    {
+      "key": "prop:sakiewka-tworcy",
+      "kind": "resource",
+      "type": "props",
+      "id": "sakiewka-tworcy",
+      "name": "Sakiewka twórcy",
+      "summary": "Fizyczny odpowiednik portfela reakcji. Mała, zużyta sakiewka z brązowej skóry ściągana rzemieniem, mieszcząca pięć odrębnych rodzajów fantów: prop:waluta-czaszka, prop:waluta-ucho, prop:waluta-serce, prop:waluta-gem i prop:waluta-runa. Nie tworzy waluty i nie zwiększa jej wartoś…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/sakiewka-tworcy/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/sakiewka-tworcy.json",
+      "updatedAt": "2026-09-29T11:03:17+02:00"
+    },
+    {
+      "key": "prop:waluta-serce",
+      "kind": "resource",
+      "type": "props",
+      "id": "waluta-serce",
+      "name": "Serce — waluta reakcji",
+      "summary": "Podstawowa waluta jakości reakcji: niewielkie, czerwone, stylizowane serce o wyglądzie emaliowanego lub lakierowanego odlewu, mieszczące się w dłoni. Powstaje ze zwykłych reakcji widzów — tych, które nie należą ani do grupy wyraźnie negatywnej, ani do najwyższych poziomów entuzj…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/waluta-serce/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-serce.json",
+      "updatedAt": "2026-09-29T11:03:17+02:00"
+    },
+    {
       "key": "prop:szklanka-czeslawa",
       "kind": "resource",
       "type": "props",
@@ -220,6 +304,18 @@
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/yerba/image-002-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/yerba.json",
       "updatedAt": "2026-08-01T20:06:47.9943038+00:00"
+    },
+    {
+      "key": "prop:waluta-ucho",
+      "kind": "resource",
+      "type": "props",
+      "id": "waluta-ucho",
+      "name": "Ucho — waluta uczestnictwa",
+      "summary": "Mały złocisto-mosiężny fant w kształcie stylizowanego ludzkiego ucha, mieszczący się w dłoni. Jest materialnym śladem aktywnego udziału widza w głosowaniu — widz dosłownie «rzuca uchem». Nie jest częścią ciała, lecz ciężkim odlewem z drobną patyną i połyskiem na wypukłościach. W…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/waluta-ucho/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-ucho.json",
+      "updatedAt": "2026-09-29T11:03:17+02:00"
     },
     {
       "key": "prop:vampire-masquerade-1e",
