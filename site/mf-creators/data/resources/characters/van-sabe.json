@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T08:16:03.325Z",
+  "generatedAt": "2026-09-29T08:18:37.836Z",
   "worldId": "mf-creators",
   "kind": "resource",
   "key": "character:van-sabe",
   "type": "characters",
   "id": "van-sabe",
   "name": "Van Sabe",
-  "description": "CHARACTER [age=30-44; presentation=masculine; height=185cm; build=athletic; body=rectangle; chest=medium; skin=medium; face=oblong; eyes=dark-brown; hair-color=black; hair-length=medium; hair-texture=curly]\n\nTwórca kanału Van Sabe (@vansabe.official, YouTube UCcRkrSCsaN7NVW5qsopkF9A). Kanoniczny wzrost: 185 cm. Van Sabe jest wysokim, atletycznym mężczyzną o średniej długości czarnych lokach opadających na czoło, wyrazistej szczęce i lekkim zaroście. Nosi cały czarny zestaw: rozpiętą koszulę, dopasowaną marynarkę, spodnie z paskiem i ciężkie buty; na szyi ma metalowe nieśmiertelniki, a na dłoniach sygnety i bransolety. Charakterystyczne są dumnie uniesiona głowa, bezpośredni gest dłoni i chłodna czarno-błękitna paleta. Rysuj go proporcjonalnie w półrealistycznym heroicznym rock-comic z mocnym tuszem i filmowym modelowaniem twarzy.\n\nPERSONA KOMIKSOWA (fikcyjna)\nZnak zodiaku: Baran.\nCechy charakteru: pewny siebie, intensywny, ambitny, honorowy i prowokacyjnie szczery; najlepiej czuje się w centrum działania.\nNiuanse charakteru: 1) rusza do działania, zanim grupa zdąży zamknąć dyskusję; 2) instynktownie staje między zagrożeniem a osobą, którą uważa za słabszą; 3) zaufanie mierzy konkretnymi czynami, a nie deklaracjami; 4) po osiągnięciu celu szybko potrzebuje kolejnego wyzwania, inaczej traci impet.\nLubi: mocne wejścia, nocne miasto, czystą czerń, fizyczne wyzwania, zdecydowane decyzje i ludzi dotrzymujących kroku.\nNie lubi: bierności, półśrodków, wymijających odpowiedzi, publicznego podważania jego słowa i przeciągania prostych spraw.\nMocne strony: odwaga, determinacja, sceniczna charyzma, branie odpowiedzialności w kryzysie.\nSłabe strony: porywczość, rywalizacyjność, niechęć do wycofania się i mylenie ostrożności ze słabością.\nPowiedzonka: „Mniej gadania. Więcej sceny.”; „Jeśli wchodzę, to na pełnej mocy.”",
+  "description": "CHARACTER [age=30-44; presentation=masculine; height=185cm; build=athletic; body=rectangle; chest=medium; skin=medium; face=oblong; eyes=dark-brown; hair-color=black; hair-length=medium; hair-texture=curly]\n\nTwórca kanału Van Sabe (@vansabe.official, YouTube UCcRkrSCsaN7NVW5qsopkF9A). Kanoniczny wzrost: 185 cm. Van Sabe jest wysokim, atletycznym mężczyzną o średniej długości czarnych lokach opadających na czoło, wyrazistej szczęce i lekkim zaroście. Nosi cały czarny zestaw: rozpiętą koszulę, dopasowaną marynarkę, spodnie z paskiem i ciężkie buty; na szyi ma metalowe nieśmiertelniki, a na dłoniach sygnety i bransolety. Charakterystyczne są dumnie uniesiona głowa, bezpośredni gest dłoni i chłodna czarno-błękitna paleta. Rysuj go proporcjonalnie w półrealistycznym heroicznym rock-comic z mocnym tuszem i filmowym modelowaniem twarzy.\n\nPERSONA KOMIKSOWA (fikcyjna)\nZnak zodiaku: Baran.\nCechy charakteru: pewny siebie, intensywny, ambitny, honorowy i prowokacyjnie szczery; najlepiej czuje się w centrum działania.\nNiuanse charakteru: 1) rusza do działania, zanim grupa zdąży zamknąć dyskusję; 2) instynktownie staje między zagrożeniem a osobą, którą uważa za słabszą; 3) zaufanie mierzy konkretnymi czynami, a nie deklaracjami; 4) po osiągnięciu celu szybko potrzebuje kolejnego wyzwania, inaczej traci impet.\nLubi: mocne wejścia, nocne miasto, czystą czerń, fizyczne wyzwania, zdecydowane decyzje i ludzi dotrzymujących kroku.\nNie lubi: bierności, półśrodków, wymijających odpowiedzi, publicznego podważania jego słowa i przeciągania prostych spraw.\nMocne strony: odwaga, determinacja, sceniczna charyzma, branie odpowiedzialności w kryzysie.\nSłabe strony: porywczość, rywalizacyjność, niechęć do wycofania się i mylenie ostrożności ze słabością.\nRockowy nerw i nostalgia: Nosi w sobie nocne ulice, deszcz na skórzanej kurtce i energię kina akcji oglądanego z przegrywanej kasety. Pod twardym wejściem ma słabość do jednego starego numeru, który natychmiast odbiera mu pancerz, ale nigdy nie przyzna który to.\nPowiedzonka: „Mniej gadania. Więcej sceny.”; „Jeśli wchodzę, to na pełnej mocy.”",
   "images": [
     {
       "id": "image-004",
@@ -28,5 +28,5 @@
       "contentType": "image/webp"
     }
   ],
-  "updatedAt": "2026-09-29T10:15:41+02:00"
+  "updatedAt": "2026-09-29T10:18:16+02:00"
 }
