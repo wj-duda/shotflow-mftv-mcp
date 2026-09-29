@@ -1,51 +1,233 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-29T09:09:24.196Z",
+  "generatedAt": "2026-09-29T20:28:57.964Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:pw-rolka/seed",
   "id": "seed",
-  "title": "seed",
-  "description": "",
+  "title": "Hook przy ladzie",
+  "description": "Plan take'a pod montaż muzyczny: aktualny slot 18f / 0.750s, obecne in=54f. Dla slotów krótszych niż 3s użytkownik wybierze najlepszy moment shiftem z pełnego take'a 3s; nie traktować obecnego in jako obowiązkowego timingu reakcji. Prompty opisują czas źródłowy i pozostawiają zapas do wyboru. Transformacje mają zwarty, kompletny przebieg. Cięcia i muzyka bez zmian, bez generacji audio.\n\nPOV przy ladzie, Włodek patrzy na twórcę. Bez dialogu; emocję przekazują wyłącznie mikroekspresje i gesty.",
   "project": {
     "id": "pw-rolka",
     "key": "project:pw-rolka",
     "name": "PW-Rolka",
-    "createdAt": null
+    "createdAt": "2026-09-29T09:56:30.689Z"
   },
   "chronology": {
     "projectKey": "project:pw-rolka",
-    "projectCreatedAt": null,
+    "projectCreatedAt": "2026-09-29T09:56:30.689Z",
     "projectOrder": "newest-first outside the project",
     "onTimeline": true,
     "canonicalEvent": true,
-    "sequence": 1,
-    "lastSequence": 1,
+    "sequence": 2,
+    "lastSequence": 2,
     "occurrences": [
-      1
+      2
     ],
-    "sequenceTotal": 1,
-    "uniqueShotCount": 1,
+    "sequenceTotal": 16,
+    "uniqueShotCount": 16,
     "sequenceOrder": "oldest-to-newest timeline clip order",
     "sequenceSource": "workspace timeline",
     "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
-  "references": [],
+  "references": [
+    {
+      "type": "character",
+      "id": "komisant"
+    },
+    {
+      "type": "place",
+      "id": "komis-rtv"
+    },
+    {
+      "type": "prop",
+      "id": "sakiewka-tworcy"
+    }
+  ],
   "referenceUsage": {
-    "declared": [],
-    "activeFrames": [],
+    "declared": [
+      {
+        "sourceKey": "character:komisant",
+        "key": "character:komisant",
+        "type": "character",
+        "id": "komisant",
+        "name": "Włodek — Komisant",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/komisant.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:komis-rtv",
+        "key": "place:komis-rtv",
+        "type": "place",
+        "id": "komis-rtv",
+        "name": "KOMIS RTV — kantor Włodka",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/komis-rtv.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:sakiewka-tworcy",
+        "key": "prop:sakiewka-tworcy",
+        "type": "prop",
+        "id": "sakiewka-tworcy",
+        "name": "Sakiewka twórcy",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/sakiewka-tworcy.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "character:komisant",
+          "place:komis-rtv",
+          "prop:sakiewka-tworcy"
+        ],
+        "references": [
+          {
+            "sourceKey": "character:komisant",
+            "key": "character:komisant",
+            "type": "character",
+            "id": "komisant",
+            "name": "Włodek — Komisant",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/komisant.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "place:komis-rtv",
+            "key": "place:komis-rtv",
+            "type": "place",
+            "id": "komis-rtv",
+            "name": "KOMIS RTV — kantor Włodka",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/komis-rtv.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:sakiewka-tworcy",
+            "key": "prop:sakiewka-tworcy",
+            "type": "prop",
+            "id": "sakiewka-tworcy",
+            "name": "Sakiewka twórcy",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/sakiewka-tworcy.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
     "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
   },
   "prompts": {
-    "image": "",
+    "image": "Use case: photorealistic-natural. Generate one vertical 9:16 film start frame, ideally 1080x1920. Strict first-person customer POV inside a small Polish secondhand electronics pawn shop. Image 1 is mandatory Wlodek facial identity, clothing brown check shirt and worn dark green knitted vest and amber glasses. Image 2 gives shop lighting and clutter, image 3 is floor-plan geometry only, image 4 is the small brown leather pouch design. Camera on customer south side of low glass counter looking north. Wlodek medium shot, leaning slightly forward behind counter looking straight at lens with impatient sharp appraising look, mouth closed before speaking, not smiling. Empty open brown pouch held at bottom of frame by two natural adult light-skinned hands in plain charcoal jacket sleeves, no jewelry. One person visible only Wlodek; never show customer body or face or reflection. Warm dusty practical lamps plus cyan/magenta accents, northern wall filled with old CRTs and stereos; matching reference, documentary pawnshop reality show cinematography. No subtitles, no graphics, no invented text, no watermark. Keep counter clear near hands, currencies can be out of frame; no green gems. Natural anatomy, strong immediately readable face and empty pouch. Single scene not collage.",
     "endFrameDescription": "",
-    "animation": ""
+    "animation": "0.00–0.50s: Wlodek examines the customer's visibly empty open pouch. 0.50–1.40s: his eyes rise to the customer over his glasses, his brow tightens and his lips compress in unmistakable contempt. 1.40–2.40s: hold the strongest unimpressed stare with a slight chin lift. 2.40–3.00s: settle naturally without smiling. Camera: restrained customer-eye handheld drift. Both customer hands hold the pouch steadily; Wlodek's hands stay braced. Preserve exact face, moustache, glasses, wardrobe, empty pouch and shop geometry. No money appears, no pointing yet, no speech, extra fingers, cuts or captions. Leave a clean reaction plateau for selecting a short editorial excerpt.\n@Image1 locks only the identity of Wlodek already behind the counter; retain Start Frame pose and expression, not the reference pose."
   },
   "media": {
     "fps": 24,
     "width": 1080,
     "height": 1920
   },
-  "frameStatus": "placeholder",
-  "images": []
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "character:komisant",
+        "place:komis-rtv",
+        "prop:sakiewka-tworcy"
+      ],
+      "references": [
+        {
+          "sourceKey": "character:komisant",
+          "key": "character:komisant",
+          "type": "character",
+          "id": "komisant",
+          "name": "Włodek — Komisant",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/komisant.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "place:komis-rtv",
+          "key": "place:komis-rtv",
+          "type": "place",
+          "id": "komis-rtv",
+          "name": "KOMIS RTV — kantor Włodka",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/komis-rtv.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:sakiewka-tworcy",
+          "key": "prop:sakiewka-tworcy",
+          "type": "prop",
+          "id": "sakiewka-tworcy",
+          "name": "Sakiewka twórcy",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/sakiewka-tworcy.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-29T09:56:30.689059+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:komisant",
+            "place:komis-rtv",
+            "prop:sakiewka-tworcy"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:komisant",
+              "key": "character:komisant",
+              "type": "character",
+              "id": "komisant",
+              "name": "Włodek — Komisant",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/komisant.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:komis-rtv",
+              "key": "place:komis-rtv",
+              "type": "place",
+              "id": "komis-rtv",
+              "name": "KOMIS RTV — kantor Włodka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/komis-rtv.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:sakiewka-tworcy",
+              "key": "prop:sakiewka-tworcy",
+              "type": "prop",
+              "id": "sakiewka-tworcy",
+              "name": "Sakiewka twórcy",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/sakiewka-tworcy.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/seed/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/seed/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
 }

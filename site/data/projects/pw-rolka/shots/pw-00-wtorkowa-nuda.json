@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-29T20:28:57.964Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:pw-rolka/pw-00-wtorkowa-nuda",
+  "id": "pw-00-wtorkowa-nuda",
+  "title": "A we wtorki… — znudzone palce",
+  "description": "Plan take'a pod montaż muzyczny: aktualny slot 45f / 1.875s, obecne in=0f. Dla slotów krótszych niż 3s użytkownik wybierze najlepszy moment shiftem z pełnego take'a 3s; nie traktować obecnego in jako obowiązkowego timingu reakcji. Prompty opisują czas źródłowy i pozostawiają zapas do wyboru. Transformacje mają zwarty, kompletny przebieg. Cięcia i muzyka bez zmian, bez generacji audio.\n\nPierwsze 45f na V2, bez ripple muzyki. Ciasne POV biurka, prawa dłoń w grafitowym rękawie w całości w kadrze, czytelny kalendarz WTOREK po lewej, pusta puszka po coli i papier po kebabie po prawej. Jeden przebieg stukania palcami w pierwszych 42f/1,75s, następnie 3f spokojnego przytrzymania. Generacja Kling min. 3s: końcówka to wyłącznie podtrzymanie. Wokal z istniejącej muzyki, nie generować dialogu.",
+  "project": {
+    "id": "pw-rolka",
+    "key": "project:pw-rolka",
+    "name": "PW-Rolka",
+    "createdAt": "2026-09-29T09:56:30.689Z"
+  },
+  "chronology": {
+    "projectKey": "project:pw-rolka",
+    "projectCreatedAt": "2026-09-29T09:56:30.689Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 1,
+    "lastSequence": 1,
+    "occurrences": [
+      1
+    ],
+    "sequenceTotal": 16,
+    "uniqueShotCount": 16,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "pw-04-reakcje"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:pw-04-reakcje",
+        "key": "shot:pw-rolka/pw-04-reakcje",
+        "type": "shot",
+        "id": "pw-04-reakcje",
+        "name": "Telefon poziomo — pod animację",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-04-reakcje.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:pw-04-reakcje"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:pw-04-reakcje",
+            "key": "shot:pw-rolka/pw-04-reakcje",
+            "type": "shot",
+            "id": "pw-04-reakcje",
+            "name": "Telefon poziomo — pod animację",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-04-reakcje.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Create ONE photorealistic vertical 9:16 1080x1920 film START FRAME, bored Tuesday evening at a modest Polish home desk. Supplied image is ONLY a continuity reference for adult light-skinned customer's natural hand and charcoal jacket cuff; do NOT copy street, phone or pouch. First-person seated eye POV tilted downward about 55 degrees toward a worn wooden desk, close shot, fixed camera. MAIN SUBJECT: one anatomically correct RIGHT hand fully visible from wrist to ALL five fingertips, occupying lower-middle half of frame with generous clear desk around every finger. Wrist enters from bottom-center under charcoal sleeve and rests comfortably on desk; back of hand faces camera, four fingers extend diagonally toward upper-left in a relaxed slightly spread curve, fingertips hovering just 5-8mm above wood ready for a short bored finger-drumming ripple. Thumb rests naturally on wood at hand's left side. Fingers clearly separated in projection, not stacked/occluded; no fist, no pointing, no large lifted arm, no exaggerated claws, no second hand. A small desk flip-calendar stands upper LEFT, facing camera enough to clearly read one large bold Polish word 'WTOREK' on off-white page; no other letters, numbers or dates. Calendar does not overlap the hand or finger working area. Upper RIGHT near frame edge: one empty slightly dented red cola can with opened pull-tab, no legible brand lettering; beside it crumpled grease-stained takeaway kebab wrapping paper, only a few crumbs, no big meal, no clutter covering fingers. Warm subdued evening desk lamp illumination from outside frame, ordinary quiet domestic surroundings softly blurred, mundane boredom, no dramatic neon or magic. Hand and calendar both readable in focus, realistic skin and wood texture, restrained natural colors. No face, no phone, no pouch, no captions except calendar WTOREK, no watermark, no collage.",
+    "endFrameDescription": "",
+    "animation": "0.0–0.25s: The four fingers of the visible right hand lift just a few millimeters while its wrist, palm heel and thumb remain planted. 0.25–1.45s: perform one brief bored finger-drumming ripple, tapping the wooden desktop once with the little, ring, middle and index fingertips in that order. Each finger flexes naturally and returns close to the surface. 1.45–1.75s: the hand relaxes into its original resting position. 1.75–3.0s: hold with only tiny natural settling. Camera: locked first-person downward view, no zoom. Preserve five-finger anatomy, sleeve, calendar lettering WTOREK, can, wrapper and lighting. All props stay still. No hand translation, fist, palm slap, extra fingers, new text, cuts or camera shake."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:pw-04-reakcje"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:pw-04-reakcje",
+          "key": "shot:pw-rolka/pw-04-reakcje",
+          "type": "shot",
+          "id": "pw-04-reakcje",
+          "name": "Telefon poziomo — pod animację",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-04-reakcje.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-29T13:49:50.423518+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:pw-04-reakcje"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:pw-04-reakcje",
+              "key": "shot:pw-rolka/pw-04-reakcje",
+              "type": "shot",
+              "id": "pw-04-reakcje",
+              "name": "Telefon poziomo — pod animację",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-04-reakcje.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-00-wtorkowa-nuda/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-00-wtorkowa-nuda/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

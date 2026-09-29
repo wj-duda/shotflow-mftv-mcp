@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-29T20:28:57.964Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:pw-rolka/pw-06b-pekata-sakwa",
+  "id": "pw-06b-pekata-sakwa",
+  "title": "Pękata sakwa — teraz możemy rozmawiać",
+  "description": "Plan take'a pod montaż muzyczny: aktualny slot 37f / 1.542s, obecne in=0f. Dla slotów krótszych niż 3s użytkownik wybierze najlepszy moment shiftem z pełnego take'a 3s; nie traktować obecnego in jako obowiązkowego timingu reakcji. Prompty opisują czas źródłowy i pozostawiają zapas do wyboru. Transformacje mają zwarty, kompletny przebieg. Cięcia i muzyka bez zmian, bez generacji audio.\n\n37f / 1,542s. POV przy ladzie: lewa dłoń twórcy w ciemnym rękawie energicznie stawia ciężką, pękatą sakiewkę; Włodek reaguje chytrą satysfakcją z nadchodzącego zarobku. Nie serdeczne powitanie, nie wysypywanie pieniędzy. Sakwa w dolnej lewej części, twarz Włodka u góry; po szerokim wejściu 06 średni plan, przed ukośnym detalem wysypywania 07. Zachowana strona klienta, lewa ręka i brązowa skóra ze złotym sznurkiem. Zawartość pozostaje ukryta do 07. Montaż pomija otwieranie sakiewki między ujęciami.",
+  "project": {
+    "id": "pw-rolka",
+    "key": "project:pw-rolka",
+    "name": "PW-Rolka",
+    "createdAt": "2026-09-29T09:56:30.689Z"
+  },
+  "chronology": {
+    "projectKey": "project:pw-rolka",
+    "projectCreatedAt": "2026-09-29T09:56:30.689Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 10,
+    "lastSequence": 10,
+    "occurrences": [
+      10
+    ],
+    "sequenceTotal": 16,
+    "uniqueShotCount": 16,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "pw-07-wymiana"
+    },
+    {
+      "type": "shot",
+      "id": "pw-06-powrot"
+    },
+    {
+      "type": "prop",
+      "id": "sakiewka-tworcy"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:pw-07-wymiana",
+        "key": "shot:pw-rolka/pw-07-wymiana",
+        "type": "shot",
+        "id": "pw-07-wymiana",
+        "name": "Wymiana — wysypanie na ladę",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-07-wymiana.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:pw-06-powrot",
+        "key": "shot:pw-rolka/pw-06-powrot",
+        "type": "shot",
+        "id": "pw-06-powrot",
+        "name": "Powrót do komisu",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-06-powrot.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:sakiewka-tworcy",
+        "key": "prop:sakiewka-tworcy",
+        "type": "prop",
+        "id": "sakiewka-tworcy",
+        "name": "Sakiewka twórcy",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/sakiewka-tworcy.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:pw-07-wymiana",
+          "shot:pw-06-powrot",
+          "prop:sakiewka-tworcy"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:pw-07-wymiana",
+            "key": "shot:pw-rolka/pw-07-wymiana",
+            "type": "shot",
+            "id": "pw-07-wymiana",
+            "name": "Wymiana — wysypanie na ladę",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-07-wymiana.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:pw-06-powrot",
+            "key": "shot:pw-rolka/pw-06-powrot",
+            "type": "shot",
+            "id": "pw-06-powrot",
+            "name": "Powrót do komisu",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-06-powrot.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:sakiewka-tworcy",
+            "key": "prop:sakiewka-tworcy",
+            "type": "prop",
+            "id": "sakiewka-tworcy",
+            "name": "Sakiewka twórcy",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/sakiewka-tworcy.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Create ONE photoreal vertical 9:16 1080x1920 film START FRAME for a quick money-on-the-counter beat. Image1 fixes exact Wlodek identity, clothes, customer's LEFT hand with charcoal sleeve, brown leather pouch with golden drawcord, glass counter. Image2 fixes same shop geography: public side south, Wlodek behind counter, CRT shelves behind him. Image3 fixes pouch design only. New camera composition: customer eye POV frontal medium-close at counter, slightly downward, not the steep oblique close-up of image1. Wlodek's WHOLE head upper center-right, upper body behind counter, both of his forearms naturally connected to visible hands braced on counter, exact moustache and amber glasses. His eyes are fixed greedily on the pouch lower left, one brow lifted and a pronounced crooked satisfied CLOSED-mouth smile as he realizes this customer has serious buying power; opportunistic delight, not warm greeting. Foreground hero object: the same brown leather pouch but packed bulging round with chunky valuables, about 20cm tall, NOT a giant sack. Its gathered neck loosely cinched with gold cord; contents hidden, no coins or banknotes. Customer's single LEFT hand enters from bottom left, naturally grips the gathered upper leather neck, holding the heavy pouch upright JUST 4cm above the glass, at lower-left center ready to thump down. Sagging weight, taut leather around uneven contents, tiny clear air gap and matching shadow beneath base. Entire pouch and holding fingers fully inside frame with margins. Bare landing area center-left, shop display stock only at distant edges, cameras under glass. Wlodek and pouch both readable in focus. Same warm/cyan/magenta lighting, face unobstructed. This is arrival of wealth, not pouring yet. No released flying bag, no extra people/hands, no missing forearms, no duplicate bag, no text, sparks or watermark.",
+    "endFrameDescription": "",
+    "animation": "0.00–0.35s: the customer's left hand holds the bulging pouch just above the counter. 0.35–0.65s: firmly lower it onto the glass; its heavy base compresses once and the drawcord swings. 0.65–1.55s: Wlodek glances at the pouch, raises one eyebrow and deepens his crooked smile with greedy satisfaction, then looks at the customer. 1.55–3.00s: hold that pleased look naturally. Camera: restrained customer-eye handheld drift. The customer retains the neck grip and Wlodek's hands stay braced. Preserve identities, connected arms, pouch size and glass geometry. No pouring, floating bag, new coins, breakage, friendly broad grin or cuts. Provide clean handles around impact and reaction for a shifted short excerpt.\n@Image1 locks the existing Wlodek's identity; @Image2 locks the pouch leather and drawcord only. Preserve its bulging Start Frame volume, not the reference's smaller fill."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:pw-07-wymiana",
+        "shot:pw-06-powrot",
+        "prop:sakiewka-tworcy"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:pw-07-wymiana",
+          "key": "shot:pw-rolka/pw-07-wymiana",
+          "type": "shot",
+          "id": "pw-07-wymiana",
+          "name": "Wymiana — wysypanie na ladę",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-07-wymiana.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:pw-06-powrot",
+          "key": "shot:pw-rolka/pw-06-powrot",
+          "type": "shot",
+          "id": "pw-06-powrot",
+          "name": "Powrót do komisu",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-06-powrot.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:sakiewka-tworcy",
+          "key": "prop:sakiewka-tworcy",
+          "type": "prop",
+          "id": "sakiewka-tworcy",
+          "name": "Sakiewka twórcy",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/sakiewka-tworcy.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-29T15:29:57.203735+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:pw-07-wymiana",
+            "shot:pw-06-powrot",
+            "prop:sakiewka-tworcy"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:pw-07-wymiana",
+              "key": "shot:pw-rolka/pw-07-wymiana",
+              "type": "shot",
+              "id": "pw-07-wymiana",
+              "name": "Wymiana — wysypanie na ladę",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-07-wymiana.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:pw-06-powrot",
+              "key": "shot:pw-rolka/pw-06-powrot",
+              "type": "shot",
+              "id": "pw-06-powrot",
+              "name": "Powrót do komisu",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-06-powrot.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:sakiewka-tworcy",
+              "key": "prop:sakiewka-tworcy",
+              "type": "prop",
+              "id": "sakiewka-tworcy",
+              "name": "Sakiewka twórcy",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/sakiewka-tworcy.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-06b-pekata-sakwa/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-06b-pekata-sakwa/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

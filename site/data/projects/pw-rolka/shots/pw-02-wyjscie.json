@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-29T20:28:57.964Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:pw-rolka/pw-02-wyjscie",
+  "id": "pw-02-wyjscie",
+  "title": "Wyjście — dzwonek",
+  "description": "Plan take'a pod montaż muzyczny: aktualny slot 31f / 1.292s, obecne in=1f. Dla slotów krótszych niż 3s użytkownik wybierze najlepszy moment shiftem z pełnego take'a 3s; nie traktować obecnego in jako obowiązkowego timingu reakcji. Prompty opisują czas źródłowy i pozostawiają zapas do wyboru. Transformacje mają zwarty, kompletny przebieg. Cięcia i muzyka bez zmian, bez generacji audio.\n\nPOV na zewnątrz, prawa dłoń puszcza drzwi; dzwonek zamyka hook.",
+  "project": {
+    "id": "pw-rolka",
+    "key": "project:pw-rolka",
+    "name": "PW-Rolka",
+    "createdAt": "2026-09-29T09:56:30.689Z"
+  },
+  "chronology": {
+    "projectKey": "project:pw-rolka",
+    "projectCreatedAt": "2026-09-29T09:56:30.689Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 4,
+    "lastSequence": 4,
+    "occurrences": [
+      4
+    ],
+    "sequenceTotal": 16,
+    "uniqueShotCount": 16,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "prop",
+      "id": "waluta-gem"
+    },
+    {
+      "type": "prop",
+      "id": "waluta-serce"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "prop:waluta-gem",
+        "key": "prop:waluta-gem",
+        "type": "prop",
+        "id": "waluta-gem",
+        "name": "Gem — waluta reakcji",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-gem.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:waluta-serce",
+        "key": "prop:waluta-serce",
+        "type": "prop",
+        "id": "waluta-serce",
+        "name": "Serce — waluta reakcji",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-serce.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "prop:waluta-gem",
+          "prop:waluta-serce"
+        ],
+        "references": [
+          {
+            "sourceKey": "prop:waluta-gem",
+            "key": "prop:waluta-gem",
+            "type": "prop",
+            "id": "waluta-gem",
+            "name": "Gem — waluta reakcji",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-gem.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:waluta-serce",
+            "key": "prop:waluta-serce",
+            "type": "prop",
+            "id": "waluta-serce",
+            "name": "Serce — waluta reakcji",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-serce.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Edit first image ONLY correct the little display objects on the distant glass counter: replace its green gem with a PURPLE faceted gem matching image2, replace its symbolic red heart with a miniature anatomical red heart matching image3. Keep exact shot, door, brass bell, foreground right hand, lighting, all room geometry unchanged. Objects remain small in distance, tangible trinkets not UI, nothing else changes. Vertical 9:16.",
+    "endFrameDescription": "",
+    "animation": "0.00–0.35s: the hand holds the partly open door briefly. 0.35–1.20s: the customer's right hand pulls the partly open door toward its closed position while the viewpoint stays outside. The door rotates on its existing hinges; the wrist follows the handle naturally. 1.20–1.50s: fingers release as the door settles shut; the overhead brass bell makes one small residual swing. 1.50–3.00s: door remains shut and hand lowers out of view. Camera: slight first-person backward drift, never passing through glass. Preserve door dimensions, handle, bell attachment, shop and sleeve. No new people, duplicate hand, disappearing glass, geometry warping, cuts or text. Provide a compact closure and residual bell swing for a shifted short excerpt."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "prop:waluta-gem",
+        "prop:waluta-serce"
+      ],
+      "references": [
+        {
+          "sourceKey": "prop:waluta-gem",
+          "key": "prop:waluta-gem",
+          "type": "prop",
+          "id": "waluta-gem",
+          "name": "Gem — waluta reakcji",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-gem.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:waluta-serce",
+          "key": "prop:waluta-serce",
+          "type": "prop",
+          "id": "waluta-serce",
+          "name": "Serce — waluta reakcji",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-serce.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-29T10:01:31.012578+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "prop:waluta-gem",
+            "prop:waluta-serce"
+          ],
+          "references": [
+            {
+              "sourceKey": "prop:waluta-gem",
+              "key": "prop:waluta-gem",
+              "type": "prop",
+              "id": "waluta-gem",
+              "name": "Gem — waluta reakcji",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-gem.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:waluta-serce",
+              "key": "prop:waluta-serce",
+              "type": "prop",
+              "id": "waluta-serce",
+              "name": "Serce — waluta reakcji",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-serce.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-02-wyjscie/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-02-wyjscie/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

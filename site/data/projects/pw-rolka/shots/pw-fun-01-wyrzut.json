@@ -1,0 +1,270 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-29T20:28:57.964Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:pw-rolka/pw-fun-01-wyrzut",
+  "id": "pw-fun-01-wyrzut",
+  "title": "Fun 01 — emotki poza ekranem",
+  "description": "FUN 01 — korekta po odrzuceniu take-2: emotki mają latać W POPRZEK obrazu, nie rosnąć ku obiektywowi ani unosić się na świetlnych linkach. 0–0,15 s odczepienie od telefonu; 0,15–0,50 s przelot w lewo; 0,50–1,05 s zwrot i przelot przez większość szerokości w prawo; 1,05–1,40 s wylot górą. Kamera nieruchoma, żeby nie kasować ruchu ekranowego. Generacja 3 s, useEndFrame=false. Aktualny slot 34f / 1,417 s; wybór fragmentu shiftem. Bez audio. Stare take'i i klatki pozostają zachowane.",
+  "project": {
+    "id": "pw-rolka",
+    "key": "project:pw-rolka",
+    "name": "PW-Rolka",
+    "createdAt": "2026-09-29T09:56:30.689Z"
+  },
+  "chronology": {
+    "projectKey": "project:pw-rolka",
+    "projectCreatedAt": "2026-09-29T09:56:30.689Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 5,
+    "lastSequence": 5,
+    "occurrences": [
+      5
+    ],
+    "sequenceTotal": 16,
+    "uniqueShotCount": 16,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "pw-04-reakcje"
+    },
+    {
+      "type": "prop",
+      "id": "mftv-emotki-reakcji"
+    },
+    {
+      "type": "shot",
+      "id": "pw-fun-01-wyrzut"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:pw-04-reakcje",
+        "key": "shot:pw-rolka/pw-04-reakcje",
+        "type": "shot",
+        "id": "pw-04-reakcje",
+        "name": "Telefon poziomo — pod animację",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-04-reakcje.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:mftv-emotki-reakcji",
+        "key": "prop:mftv-emotki-reakcji",
+        "type": "prop",
+        "id": "mftv-emotki-reakcji",
+        "name": "MFTV — emotki reakcji",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/mftv-emotki-reakcji.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:pw-fun-01-wyrzut",
+        "key": "shot:pw-rolka/pw-fun-01-wyrzut",
+        "type": "shot",
+        "id": "pw-fun-01-wyrzut",
+        "name": "Fun 01 — emotki poza ekranem",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-fun-01-wyrzut.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:pw-04-reakcje",
+          "prop:mftv-emotki-reakcji"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:pw-04-reakcje",
+            "key": "shot:pw-rolka/pw-04-reakcje",
+            "type": "shot",
+            "id": "pw-04-reakcje",
+            "name": "Telefon poziomo — pod animację",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-04-reakcje.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:mftv-emotki-reakcji",
+            "key": "prop:mftv-emotki-reakcji",
+            "type": "prop",
+            "id": "mftv-emotki-reakcji",
+            "name": "MFTV — emotki reakcji",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/mftv-emotki-reakcji.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      },
+      {
+        "frameId": "frame-end",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:pw-fun-01-wyrzut"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:pw-fun-01-wyrzut",
+            "key": "shot:pw-rolka/pw-fun-01-wyrzut",
+            "type": "shot",
+            "id": "pw-fun-01-wyrzut",
+            "name": "Fun 01 — emotki poza ekranem",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-fun-01-wyrzut.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Create ONE vertical 9:16 cinematic photorealistic VFX Start Frame, 1080x1920. Reference 1 fixes the seated creator eye-POV, light-skinned hands charcoal sleeves, black horizontal phone, brown leather pouch on dark trouser knees, autumn Polish street. Reference 2 is exact neon emoji design only, NOT a grid composition. Reference 3 supplies club music video playback only inside the phone; omit its UI and all usernames. Change to lively closer low-angle eye-POV, phone in lower third, open pouch visible at bottom. Exactly THREE small reaction graphics are halfway protruding above the physical screen surface on short cyan-magenta light trails: surprised yellow face on left, smiling yellow face on right, pink double-underlined 100 above center. They are just lifting off, so there is generous air above for flying toward the camera. They are flat luminous designs in real 3D space, not physical currency yet. Slight 8-degree dutch angle, energetic diagonal composition and colored light grazing hands; background realistic and softly defocused, no smoke obscuring anything. Human creator remains unseen except two anatomically correct hands and knees. No new text, no app interface panels, no extra devices, no extra people outside phone, no collage. Distinct clear start of one continuous outward flight.",
+    "endFrameDescription": "Emotki bliżej obiektywu, telefon niżej w tle; te same trzy motywy i ta sama przestrzeń.",
+    "animation": "0.00–0.15s: the three existing icons snap free; their straight connections to the phone break into fading sparks. 0.15–0.50s: the icons race together toward screen left, travelling across half the image width. 0.50–1.05s: they bank sharply and streak across to screen right, traversing most of the image width in staggered formation, smile leading and 100 trailing. 1.05–1.40s: they whip upward and leave through the top edge. 1.40–3.00s: only their curved trails fade above the steady phone. Camera: fixed customer-eye framing, no tracking, tilt or zoom. Movement is across the image, not toward the lens. Preserve phone, hands, street and icon designs. No hovering, bobbing, stationary light beams, slow motion, duplication or cuts.\n@Image1 supplies only the upper-row surprised face, smile and 100 designs."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:pw-04-reakcje",
+        "prop:mftv-emotki-reakcji"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:pw-04-reakcje",
+          "key": "shot:pw-rolka/pw-04-reakcje",
+          "type": "shot",
+          "id": "pw-04-reakcje",
+          "name": "Telefon poziomo — pod animację",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-04-reakcje.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:mftv-emotki-reakcji",
+          "key": "prop:mftv-emotki-reakcji",
+          "type": "prop",
+          "id": "mftv-emotki-reakcji",
+          "name": "MFTV — emotki reakcji",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/mftv-emotki-reakcji.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-29T11:55:08.892531+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:pw-04-reakcje",
+            "prop:mftv-emotki-reakcji"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:pw-04-reakcje",
+              "key": "shot:pw-rolka/pw-04-reakcje",
+              "type": "shot",
+              "id": "pw-04-reakcje",
+              "name": "Telefon poziomo — pod animację",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-04-reakcje.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:mftv-emotki-reakcji",
+              "key": "prop:mftv-emotki-reakcji",
+              "type": "prop",
+              "id": "mftv-emotki-reakcji",
+              "name": "MFTV — emotki reakcji",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/mftv-emotki-reakcji.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-fun-01-wyrzut/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-fun-01-wyrzut/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "role": "frame-end",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:pw-fun-01-wyrzut"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:pw-fun-01-wyrzut",
+          "key": "shot:pw-rolka/pw-fun-01-wyrzut",
+          "type": "shot",
+          "id": "pw-fun-01-wyrzut",
+          "name": "Fun 01 — emotki poza ekranem",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-fun-01-wyrzut.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-29T11:59:17.990297+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:pw-fun-01-wyrzut"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:pw-fun-01-wyrzut",
+              "key": "shot:pw-rolka/pw-fun-01-wyrzut",
+              "type": "shot",
+              "id": "pw-fun-01-wyrzut",
+              "name": "Fun 01 — emotki poza ekranem",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-fun-01-wyrzut.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-fun-01-wyrzut/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-fun-01-wyrzut/frame-end-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

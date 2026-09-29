@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-29T20:28:57.964Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "prop:mftv-super-combo",
+  "type": "props",
+  "id": "mftv-super-combo",
+  "name": "MFTV — Super Combo",
+  "description": "Oczyszczona i odtworzona generatywnie referencja banera ze screenu: złote obramowanie, emblemat S, napis SUPER COMBO. MONSTERSOUND1000 to przykładowy nick zachowany ze źródła, nie zatwierdzony finalny tekst rolki. Referencja wyglądu, nie oryginalny eksport UI.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/mftv-super-combo/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/mftv-super-combo/image-001-thumb.webp",
+      "width": 2161,
+      "height": 728,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-29T11:32:35.988Z"
+}

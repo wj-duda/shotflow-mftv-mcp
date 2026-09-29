@@ -1,10 +1,2283 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T09:09:24.196Z",
+  "generatedAt": "2026-09-29T20:28:57.964Z",
   "worldId": "aimftv",
   "order": "projects-newest-first; canonical timeline clips oldest-to-newest inside each project; off-timeline project materials last",
   "currentStateRule": "For current canon, use only canonicalEvent=true: select the newest matching project and then the matching event with the greatest lastSequence. Off-timeline materials cannot override saved timeline events. Older events remain valid only for their historical story moment.",
   "events": [
+    {
+      "key": "shot:pw-rolka/pw-00-wtorkowa-nuda",
+      "kind": "story-event",
+      "projectKey": "project:pw-rolka",
+      "projectId": "pw-rolka",
+      "projectName": "PW-Rolka",
+      "projectCreatedAt": "2026-09-29T09:56:30.689Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 1,
+      "lastSequence": 1,
+      "occurrences": [
+        1
+      ],
+      "sequenceTotal": 16,
+      "title": "A we wtorki… — znudzone palce",
+      "description": "Plan take'a pod montaż muzyczny: aktualny slot 45f / 1.875s, obecne in=0f. Dla slotów krótszych niż 3s użytkownik wybierze najlepszy moment shiftem z pełnego take'a 3s; nie traktować obecnego in jako obowiązkowego timingu reakcji. Prompty opisują czas źródłowy i pozostawiają zapas do wyboru. Transformacje mają zwarty, kompletny przebieg. Cięcia i muzyka bez zmian, bez generacji audio.\n\nPierwsze 45f na V2, bez ripple muzyki. Ciasne POV biurka, prawa dłoń w grafitowym rękawie w całości w kadrze, czytelny kalendarz WTOREK po lewej, pusta puszka po coli i papier po kebabie po prawej. Jeden przebieg stukania palcami w pierwszych 42f/1,75s, następnie 3f spokojnego przytrzymania. Generacja Kling min. 3s: końcówka to wyłącznie podtrzymanie. Wokal z istniejącej muzyki, nie generować dialogu.",
+      "declaredReferences": [
+        {
+          "sourceKey": "shot:pw-04-reakcje",
+          "key": "shot:pw-rolka/pw-04-reakcje",
+          "type": "shot",
+          "id": "pw-04-reakcje",
+          "name": "Telefon poziomo — pod animację",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-04-reakcje.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 1,
+          "referenceKeys": [
+            "shot:pw-04-reakcje"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:pw-04-reakcje",
+              "key": "shot:pw-rolka/pw-04-reakcje",
+              "type": "shot",
+              "id": "pw-04-reakcje",
+              "name": "Telefon poziomo — pod animację",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-04-reakcje.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 1,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:pw-04-reakcje"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-00-wtorkowa-nuda/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-00-wtorkowa-nuda/frame-start-thumb.webp",
+          "width": 1080,
+          "height": 1920,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-00-wtorkowa-nuda.json"
+    },
+    {
+      "key": "shot:pw-rolka/seed",
+      "kind": "story-event",
+      "projectKey": "project:pw-rolka",
+      "projectId": "pw-rolka",
+      "projectName": "PW-Rolka",
+      "projectCreatedAt": "2026-09-29T09:56:30.689Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 2,
+      "lastSequence": 2,
+      "occurrences": [
+        2
+      ],
+      "sequenceTotal": 16,
+      "title": "Hook przy ladzie",
+      "description": "Plan take'a pod montaż muzyczny: aktualny slot 18f / 0.750s, obecne in=54f. Dla slotów krótszych niż 3s użytkownik wybierze najlepszy moment shiftem z pełnego take'a 3s; nie traktować obecnego in jako obowiązkowego timingu reakcji. Prompty opisują czas źródłowy i pozostawiają zapas do wyboru. Transformacje mają zwarty, kompletny przebieg. Cięcia i muzyka bez zmian, bez generacji audio.\n\nPOV przy ladzie, Włodek patrzy na twórcę. Bez dialogu; emocję przekazują wyłącznie mikroekspresje i gesty.",
+      "declaredReferences": [
+        {
+          "sourceKey": "character:komisant",
+          "key": "character:komisant",
+          "type": "character",
+          "id": "komisant",
+          "name": "Włodek — Komisant",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/komisant.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "place:komis-rtv",
+          "key": "place:komis-rtv",
+          "type": "place",
+          "id": "komis-rtv",
+          "name": "KOMIS RTV — kantor Włodka",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/komis-rtv.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:sakiewka-tworcy",
+          "key": "prop:sakiewka-tworcy",
+          "type": "prop",
+          "id": "sakiewka-tworcy",
+          "name": "Sakiewka twórcy",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/sakiewka-tworcy.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 1,
+          "referenceKeys": [
+            "character:komisant",
+            "place:komis-rtv",
+            "prop:sakiewka-tworcy"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:komisant",
+              "key": "character:komisant",
+              "type": "character",
+              "id": "komisant",
+              "name": "Włodek — Komisant",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/komisant.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:komis-rtv",
+              "key": "place:komis-rtv",
+              "type": "place",
+              "id": "komis-rtv",
+              "name": "KOMIS RTV — kantor Włodka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/komis-rtv.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:sakiewka-tworcy",
+              "key": "prop:sakiewka-tworcy",
+              "type": "prop",
+              "id": "sakiewka-tworcy",
+              "name": "Sakiewka twórcy",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/sakiewka-tworcy.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 1,
+          "source": "generated",
+          "referenceKeys": [
+            "character:komisant",
+            "place:komis-rtv",
+            "prop:sakiewka-tworcy"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/seed/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/seed/frame-start-thumb.webp",
+          "width": 1080,
+          "height": 1920,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/seed.json"
+    },
+    {
+      "key": "shot:pw-rolka/pw-01-wlodek-wyprasza",
+      "kind": "story-event",
+      "projectKey": "project:pw-rolka",
+      "projectId": "pw-rolka",
+      "projectName": "PW-Rolka",
+      "projectCreatedAt": "2026-09-29T09:56:30.689Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 3,
+      "lastSequence": 3,
+      "occurrences": [
+        3
+      ],
+      "sequenceTotal": 16,
+      "title": "Włodek wyprasza — tam są drzwi",
+      "description": "Plan take'a pod montaż muzyczny: aktualny slot 19f / 0.792s, obecne in=0f. Dla slotów krótszych niż 3s użytkownik wybierze najlepszy moment shiftem z pełnego take'a 3s; nie traktować obecnego in jako obowiązkowego timingu reakcji. Prompty opisują czas źródłowy i pozostawiają zapas do wyboru. Transformacje mają zwarty, kompletny przebieg. Cięcia i muzyka bez zmian, bez generacji audio.\n\nKrótki, ciasny kontrapunkt do średniego planu seed: lekko boczne zbliżenie od strony klienta, bez przejścia za ladę. Zniesmaczony Włodek z zaciśniętymi ustami wskazuje palcem w lewo poza kadr, ku wyjściu po stronie klienta. Dłoń już uniesiona; w 19 klatkach mieści się tylko krótkie ponaglenie gestem. Bez uśmiechu, bez wskazywania widza i bez nowych drzwi za regałami.",
+      "declaredReferences": [
+        {
+          "sourceKey": "shot:seed",
+          "key": "shot:pw-rolka/seed",
+          "type": "shot",
+          "id": "seed",
+          "name": "Hook przy ladzie",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/seed.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:komisant",
+          "key": "character:komisant",
+          "type": "character",
+          "id": "komisant",
+          "name": "Włodek — Komisant",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/komisant.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:pw-01-wlodek-wyprasza",
+          "key": "shot:pw-rolka/pw-01-wlodek-wyprasza",
+          "type": "shot",
+          "id": "pw-01-wlodek-wyprasza",
+          "name": "Włodek wyprasza — tam są drzwi",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-01-wlodek-wyprasza.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 2,
+          "referenceKeys": [
+            "shot:pw-01-wlodek-wyprasza"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:pw-01-wlodek-wyprasza",
+              "key": "shot:pw-rolka/pw-01-wlodek-wyprasza",
+              "type": "shot",
+              "id": "pw-01-wlodek-wyprasza",
+              "name": "Włodek wyprasza — tam są drzwi",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-01-wlodek-wyprasza.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 2,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:pw-01-wlodek-wyprasza"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-01-wlodek-wyprasza/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-01-wlodek-wyprasza/frame-start-thumb.webp",
+          "width": 1080,
+          "height": 1920,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-01-wlodek-wyprasza.json"
+    },
+    {
+      "key": "shot:pw-rolka/pw-02-wyjscie",
+      "kind": "story-event",
+      "projectKey": "project:pw-rolka",
+      "projectId": "pw-rolka",
+      "projectName": "PW-Rolka",
+      "projectCreatedAt": "2026-09-29T09:56:30.689Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 4,
+      "lastSequence": 4,
+      "occurrences": [
+        4
+      ],
+      "sequenceTotal": 16,
+      "title": "Wyjście — dzwonek",
+      "description": "Plan take'a pod montaż muzyczny: aktualny slot 31f / 1.292s, obecne in=1f. Dla slotów krótszych niż 3s użytkownik wybierze najlepszy moment shiftem z pełnego take'a 3s; nie traktować obecnego in jako obowiązkowego timingu reakcji. Prompty opisują czas źródłowy i pozostawiają zapas do wyboru. Transformacje mają zwarty, kompletny przebieg. Cięcia i muzyka bez zmian, bez generacji audio.\n\nPOV na zewnątrz, prawa dłoń puszcza drzwi; dzwonek zamyka hook.",
+      "declaredReferences": [
+        {
+          "sourceKey": "prop:waluta-gem",
+          "key": "prop:waluta-gem",
+          "type": "prop",
+          "id": "waluta-gem",
+          "name": "Gem — waluta reakcji",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-gem.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:waluta-serce",
+          "key": "prop:waluta-serce",
+          "type": "prop",
+          "id": "waluta-serce",
+          "name": "Serce — waluta reakcji",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-serce.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 1,
+          "referenceKeys": [
+            "prop:waluta-gem",
+            "prop:waluta-serce"
+          ],
+          "references": [
+            {
+              "sourceKey": "prop:waluta-gem",
+              "key": "prop:waluta-gem",
+              "type": "prop",
+              "id": "waluta-gem",
+              "name": "Gem — waluta reakcji",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-gem.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:waluta-serce",
+              "key": "prop:waluta-serce",
+              "type": "prop",
+              "id": "waluta-serce",
+              "name": "Serce — waluta reakcji",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-serce.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 1,
+          "source": "generated",
+          "referenceKeys": [
+            "prop:waluta-gem",
+            "prop:waluta-serce"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-02-wyjscie/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-02-wyjscie/frame-start-thumb.webp",
+          "width": 1080,
+          "height": 1920,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-02-wyjscie.json"
+    },
+    {
+      "key": "shot:pw-rolka/pw-fun-01-wyrzut",
+      "kind": "story-event",
+      "projectKey": "project:pw-rolka",
+      "projectId": "pw-rolka",
+      "projectName": "PW-Rolka",
+      "projectCreatedAt": "2026-09-29T09:56:30.689Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 5,
+      "lastSequence": 5,
+      "occurrences": [
+        5
+      ],
+      "sequenceTotal": 16,
+      "title": "Fun 01 — emotki poza ekranem",
+      "description": "FUN 01 — korekta po odrzuceniu take-2: emotki mają latać W POPRZEK obrazu, nie rosnąć ku obiektywowi ani unosić się na świetlnych linkach. 0–0,15 s odczepienie od telefonu; 0,15–0,50 s przelot w lewo; 0,50–1,05 s zwrot i przelot przez większość szerokości w prawo; 1,05–1,40 s wylot górą. Kamera nieruchoma, żeby nie kasować ruchu ekranowego. Generacja 3 s, useEndFrame=false. Aktualny slot 34f / 1,417 s; wybór fragmentu shiftem. Bez audio. Stare take'i i klatki pozostają zachowane.",
+      "declaredReferences": [
+        {
+          "sourceKey": "shot:pw-04-reakcje",
+          "key": "shot:pw-rolka/pw-04-reakcje",
+          "type": "shot",
+          "id": "pw-04-reakcje",
+          "name": "Telefon poziomo — pod animację",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-04-reakcje.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:mftv-emotki-reakcji",
+          "key": "prop:mftv-emotki-reakcji",
+          "type": "prop",
+          "id": "mftv-emotki-reakcji",
+          "name": "MFTV — emotki reakcji",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/mftv-emotki-reakcji.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:pw-fun-01-wyrzut",
+          "key": "shot:pw-rolka/pw-fun-01-wyrzut",
+          "type": "shot",
+          "id": "pw-fun-01-wyrzut",
+          "name": "Fun 01 — emotki poza ekranem",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-fun-01-wyrzut.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 1,
+          "referenceKeys": [
+            "shot:pw-04-reakcje",
+            "prop:mftv-emotki-reakcji"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:pw-04-reakcje",
+              "key": "shot:pw-rolka/pw-04-reakcje",
+              "type": "shot",
+              "id": "pw-04-reakcje",
+              "name": "Telefon poziomo — pod animację",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-04-reakcje.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:mftv-emotki-reakcji",
+              "key": "prop:mftv-emotki-reakcji",
+              "type": "prop",
+              "id": "mftv-emotki-reakcji",
+              "name": "MFTV — emotki reakcji",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/mftv-emotki-reakcji.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "frameId": "frame-end",
+          "revision": 1,
+          "referenceKeys": [
+            "shot:pw-fun-01-wyrzut"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:pw-fun-01-wyrzut",
+              "key": "shot:pw-rolka/pw-fun-01-wyrzut",
+              "type": "shot",
+              "id": "pw-fun-01-wyrzut",
+              "name": "Fun 01 — emotki poza ekranem",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-fun-01-wyrzut.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 1,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:pw-04-reakcje",
+            "prop:mftv-emotki-reakcji"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-fun-01-wyrzut/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-fun-01-wyrzut/frame-start-thumb.webp",
+          "width": 1080,
+          "height": 1920,
+          "contentType": "image/webp"
+        },
+        {
+          "id": "frame-end",
+          "role": "frame-end",
+          "revision": 1,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:pw-fun-01-wyrzut"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-fun-01-wyrzut/frame-end.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-fun-01-wyrzut/frame-end-thumb.webp",
+          "width": 1080,
+          "height": 1920,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-fun-01-wyrzut.json"
+    },
+    {
+      "key": "shot:pw-rolka/pw-fun-02-serce-gem",
+      "kind": "story-event",
+      "projectKey": "project:pw-rolka",
+      "projectId": "pw-rolka",
+      "projectName": "PW-Rolka",
+      "projectCreatedAt": "2026-09-29T09:56:30.689Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 6,
+      "lastSequence": 6,
+      "occurrences": [
+        6
+      ],
+      "sequenceTotal": 16,
+      "title": "Fun 02 — reakcje stają się łupem",
+      "description": "Korekta dynamiki: szybki przelot przez kadr, bez zawisania i prezentacyjnych pauz. Następna generacja 3 s, useEndFrame=false; zachowany End Frame jest tylko archiwum wyglądu, nie celem ruchu.\n\nPlan take'a pod montaż muzyczny: aktualny slot 33f / 1.375s, obecne in=0f. Dla slotów krótszych niż 3s użytkownik wybierze najlepszy moment shiftem z pełnego take'a 3s; nie traktować obecnego in jako obowiązkowego timingu reakcji. Prompty opisują czas źródłowy i pozostawiają zapas do wyboru. Transformacje mają zwarty, kompletny przebieg. Cięcia i muzyka bez zmian, bez generacji audio.\n\nMakro POV/VFX: żółta zdziwiona emotka po lewej kondensuje się w fioletowy gem, uśmiech po prawej w czerwony anatomiczny fant-serce. To magiczna wizualizacja przyznania zasobów, nie zmiana kursów sklepu. ",
+      "declaredReferences": [
+        {
+          "sourceKey": "shot:pw-fun-01-wyrzut",
+          "key": "shot:pw-rolka/pw-fun-01-wyrzut",
+          "type": "shot",
+          "id": "pw-fun-01-wyrzut",
+          "name": "Fun 01 — emotki poza ekranem",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-fun-01-wyrzut.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:mftv-emotki-reakcji",
+          "key": "prop:mftv-emotki-reakcji",
+          "type": "prop",
+          "id": "mftv-emotki-reakcji",
+          "name": "MFTV — emotki reakcji",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/mftv-emotki-reakcji.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:pw-fun-02-serce-gem",
+          "key": "shot:pw-rolka/pw-fun-02-serce-gem",
+          "type": "shot",
+          "id": "pw-fun-02-serce-gem",
+          "name": "Fun 02 — reakcje stają się łupem",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-fun-02-serce-gem.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:waluta-gem",
+          "key": "prop:waluta-gem",
+          "type": "prop",
+          "id": "waluta-gem",
+          "name": "Gem — waluta reakcji",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-gem.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:waluta-serce",
+          "key": "prop:waluta-serce",
+          "type": "prop",
+          "id": "waluta-serce",
+          "name": "Serce — waluta reakcji",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-serce.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 1,
+          "referenceKeys": [
+            "shot:pw-fun-01-wyrzut",
+            "prop:mftv-emotki-reakcji"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:pw-fun-01-wyrzut",
+              "key": "shot:pw-rolka/pw-fun-01-wyrzut",
+              "type": "shot",
+              "id": "pw-fun-01-wyrzut",
+              "name": "Fun 01 — emotki poza ekranem",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-fun-01-wyrzut.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:mftv-emotki-reakcji",
+              "key": "prop:mftv-emotki-reakcji",
+              "type": "prop",
+              "id": "mftv-emotki-reakcji",
+              "name": "MFTV — emotki reakcji",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/mftv-emotki-reakcji.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "frameId": "frame-end",
+          "revision": 1,
+          "referenceKeys": [
+            "shot:pw-fun-02-serce-gem",
+            "prop:waluta-gem",
+            "prop:waluta-serce"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:pw-fun-02-serce-gem",
+              "key": "shot:pw-rolka/pw-fun-02-serce-gem",
+              "type": "shot",
+              "id": "pw-fun-02-serce-gem",
+              "name": "Fun 02 — reakcje stają się łupem",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-fun-02-serce-gem.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:waluta-gem",
+              "key": "prop:waluta-gem",
+              "type": "prop",
+              "id": "waluta-gem",
+              "name": "Gem — waluta reakcji",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-gem.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:waluta-serce",
+              "key": "prop:waluta-serce",
+              "type": "prop",
+              "id": "waluta-serce",
+              "name": "Serce — waluta reakcji",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-serce.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 1,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:pw-fun-01-wyrzut",
+            "prop:mftv-emotki-reakcji"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-fun-02-serce-gem/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-fun-02-serce-gem/frame-start-thumb.webp",
+          "width": 1080,
+          "height": 1920,
+          "contentType": "image/webp"
+        },
+        {
+          "id": "frame-end",
+          "role": "frame-end",
+          "revision": 1,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:pw-fun-02-serce-gem",
+            "prop:waluta-gem",
+            "prop:waluta-serce"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-fun-02-serce-gem/frame-end.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-fun-02-serce-gem/frame-end-thumb.webp",
+          "width": 1080,
+          "height": 1920,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-fun-02-serce-gem.json"
+    },
+    {
+      "key": "shot:pw-rolka/pw-fun-03-combo-runa",
+      "kind": "story-event",
+      "projectKey": "project:pw-rolka",
+      "projectId": "pw-rolka",
+      "projectName": "PW-Rolka",
+      "projectCreatedAt": "2026-09-29T09:56:30.689Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 7,
+      "lastSequence": 7,
+      "occurrences": [
+        7
+      ],
+      "sequenceTotal": 16,
+      "title": "Fun 03 — sto punktów staje się runą",
+      "description": "Korekta dynamiki: szybki przelot przez kadr, bez zawisania i prezentacyjnych pauz. Następna generacja 3 s, useEndFrame=false; zachowany End Frame jest tylko archiwum wyglądu, nie celem ruchu.\n\nPlan take'a pod montaż muzyczny: aktualny slot 55f / 2.292s, obecne in=0f. Dla slotów krótszych niż 3s użytkownik wybierze najlepszy moment shiftem z pełnego take'a 3s; nie traktować obecnego in jako obowiązkowego timingu reakcji. Prompty opisują czas źródłowy i pozostawiają zapas do wyboru. Transformacje mają zwarty, kompletny przebieg. Cięcia i muzyka bez zmian, bez generacji audio.\n\nOsobny makro insert: neonowe 100 zmienia się w jasną kamienną runę zgodną z lore. Mały złoty znak S / SUPER COMBO bez przykładowego nicku jest efektem reakcji, nie ekranem formularza. ",
+      "declaredReferences": [
+        {
+          "sourceKey": "shot:pw-fun-01-wyrzut",
+          "key": "shot:pw-rolka/pw-fun-01-wyrzut",
+          "type": "shot",
+          "id": "pw-fun-01-wyrzut",
+          "name": "Fun 01 — emotki poza ekranem",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-fun-01-wyrzut.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:mftv-emotki-reakcji",
+          "key": "prop:mftv-emotki-reakcji",
+          "type": "prop",
+          "id": "mftv-emotki-reakcji",
+          "name": "MFTV — emotki reakcji",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/mftv-emotki-reakcji.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:mftv-super-combo",
+          "key": "prop:mftv-super-combo",
+          "type": "prop",
+          "id": "mftv-super-combo",
+          "name": "MFTV — Super Combo",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/mftv-super-combo.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:pw-fun-03-combo-runa",
+          "key": "shot:pw-rolka/pw-fun-03-combo-runa",
+          "type": "shot",
+          "id": "pw-fun-03-combo-runa",
+          "name": "Fun 03 — sto punktów staje się runą",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-fun-03-combo-runa.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:waluta-runa",
+          "key": "prop:waluta-runa",
+          "type": "prop",
+          "id": "waluta-runa",
+          "name": "Runa — waluta reakcji",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-runa.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 1,
+          "referenceKeys": [
+            "shot:pw-fun-01-wyrzut",
+            "prop:mftv-emotki-reakcji",
+            "prop:mftv-super-combo"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:pw-fun-01-wyrzut",
+              "key": "shot:pw-rolka/pw-fun-01-wyrzut",
+              "type": "shot",
+              "id": "pw-fun-01-wyrzut",
+              "name": "Fun 01 — emotki poza ekranem",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-fun-01-wyrzut.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:mftv-emotki-reakcji",
+              "key": "prop:mftv-emotki-reakcji",
+              "type": "prop",
+              "id": "mftv-emotki-reakcji",
+              "name": "MFTV — emotki reakcji",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/mftv-emotki-reakcji.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:mftv-super-combo",
+              "key": "prop:mftv-super-combo",
+              "type": "prop",
+              "id": "mftv-super-combo",
+              "name": "MFTV — Super Combo",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/mftv-super-combo.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "frameId": "frame-end",
+          "revision": 1,
+          "referenceKeys": [
+            "shot:pw-fun-03-combo-runa",
+            "prop:waluta-runa"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:pw-fun-03-combo-runa",
+              "key": "shot:pw-rolka/pw-fun-03-combo-runa",
+              "type": "shot",
+              "id": "pw-fun-03-combo-runa",
+              "name": "Fun 03 — sto punktów staje się runą",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-fun-03-combo-runa.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:waluta-runa",
+              "key": "prop:waluta-runa",
+              "type": "prop",
+              "id": "waluta-runa",
+              "name": "Runa — waluta reakcji",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-runa.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 1,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:pw-fun-01-wyrzut",
+            "prop:mftv-emotki-reakcji",
+            "prop:mftv-super-combo"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-fun-03-combo-runa/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-fun-03-combo-runa/frame-start-thumb.webp",
+          "width": 1080,
+          "height": 1920,
+          "contentType": "image/webp"
+        },
+        {
+          "id": "frame-end",
+          "role": "frame-end",
+          "revision": 1,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:pw-fun-03-combo-runa",
+            "prop:waluta-runa"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-fun-03-combo-runa/frame-end.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-fun-03-combo-runa/frame-end-thumb.webp",
+          "width": 1080,
+          "height": 1920,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-fun-03-combo-runa.json"
+    },
+    {
+      "key": "shot:pw-rolka/pw-fun-04-do-sakiewki",
+      "kind": "story-event",
+      "projectKey": "project:pw-rolka",
+      "projectId": "pw-rolka",
+      "projectName": "PW-Rolka",
+      "projectCreatedAt": "2026-09-29T09:56:30.689Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 8,
+      "lastSequence": 8,
+      "occurrences": [
+        8
+      ],
+      "sequenceTotal": 16,
+      "title": "Fun 04 — łup wpada do sakiewki",
+      "description": "Korekta dynamiki: szybki opad i twarde lądowanie, bez lewitacji. Następna generacja 3 s, useEndFrame=true.\n\nPlan take'a pod montaż muzyczny: aktualny slot 47f / 1.958s, obecne in=0f. Dla slotów krótszych niż 3s użytkownik wybierze najlepszy moment shiftem z pełnego take'a 3s; nie traktować obecnego in jako obowiązkowego timingu reakcji. Prompty opisują czas źródłowy i pozostawiają zapas do wyboru. Transformacje mają zwarty, kompletny przebieg. Cięcia i muzyka bez zmian, bez generacji audio.\n\nDynamiczny nurek POV za trzema gotowymi fantami: fioletowy gem, czerwone anatomiczne serce i jasna runa spadają do tej samej brązowej sakiewki na kolanach. Dwa mosiężne uszy są już w środku, z wcześniejszego głosowania. ",
+      "declaredReferences": [
+        {
+          "sourceKey": "shot:pw-fun-01-wyrzut",
+          "key": "shot:pw-rolka/pw-fun-01-wyrzut",
+          "type": "shot",
+          "id": "pw-fun-01-wyrzut",
+          "name": "Fun 01 — emotki poza ekranem",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-fun-01-wyrzut.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:waluta-gem",
+          "key": "prop:waluta-gem",
+          "type": "prop",
+          "id": "waluta-gem",
+          "name": "Gem — waluta reakcji",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-gem.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:waluta-serce",
+          "key": "prop:waluta-serce",
+          "type": "prop",
+          "id": "waluta-serce",
+          "name": "Serce — waluta reakcji",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-serce.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:waluta-runa",
+          "key": "prop:waluta-runa",
+          "type": "prop",
+          "id": "waluta-runa",
+          "name": "Runa — waluta reakcji",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-runa.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:waluta-ucho",
+          "key": "prop:waluta-ucho",
+          "type": "prop",
+          "id": "waluta-ucho",
+          "name": "Ucho — waluta uczestnictwa",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-ucho.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:pw-fun-04-do-sakiewki",
+          "key": "shot:pw-rolka/pw-fun-04-do-sakiewki",
+          "type": "shot",
+          "id": "pw-fun-04-do-sakiewki",
+          "name": "Fun 04 — łup wpada do sakiewki",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-fun-04-do-sakiewki.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 1,
+          "referenceKeys": [
+            "shot:pw-fun-01-wyrzut",
+            "prop:waluta-gem",
+            "prop:waluta-serce",
+            "prop:waluta-runa",
+            "prop:waluta-ucho"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:pw-fun-01-wyrzut",
+              "key": "shot:pw-rolka/pw-fun-01-wyrzut",
+              "type": "shot",
+              "id": "pw-fun-01-wyrzut",
+              "name": "Fun 01 — emotki poza ekranem",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-fun-01-wyrzut.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:waluta-gem",
+              "key": "prop:waluta-gem",
+              "type": "prop",
+              "id": "waluta-gem",
+              "name": "Gem — waluta reakcji",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-gem.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:waluta-serce",
+              "key": "prop:waluta-serce",
+              "type": "prop",
+              "id": "waluta-serce",
+              "name": "Serce — waluta reakcji",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-serce.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:waluta-runa",
+              "key": "prop:waluta-runa",
+              "type": "prop",
+              "id": "waluta-runa",
+              "name": "Runa — waluta reakcji",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-runa.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:waluta-ucho",
+              "key": "prop:waluta-ucho",
+              "type": "prop",
+              "id": "waluta-ucho",
+              "name": "Ucho — waluta uczestnictwa",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-ucho.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "frameId": "frame-end",
+          "revision": 1,
+          "referenceKeys": [
+            "shot:pw-fun-04-do-sakiewki"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:pw-fun-04-do-sakiewki",
+              "key": "shot:pw-rolka/pw-fun-04-do-sakiewki",
+              "type": "shot",
+              "id": "pw-fun-04-do-sakiewki",
+              "name": "Fun 04 — łup wpada do sakiewki",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-fun-04-do-sakiewki.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 1,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:pw-fun-01-wyrzut",
+            "prop:waluta-gem",
+            "prop:waluta-serce",
+            "prop:waluta-runa",
+            "prop:waluta-ucho"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-fun-04-do-sakiewki/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-fun-04-do-sakiewki/frame-start-thumb.webp",
+          "width": 1080,
+          "height": 1920,
+          "contentType": "image/webp"
+        },
+        {
+          "id": "frame-end",
+          "role": "frame-end",
+          "revision": 1,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:pw-fun-04-do-sakiewki"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-fun-04-do-sakiewki/frame-end.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-fun-04-do-sakiewki/frame-end-thumb.webp",
+          "width": 1080,
+          "height": 1920,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-fun-04-do-sakiewki.json"
+    },
+    {
+      "key": "shot:pw-rolka/pw-06-powrot",
+      "kind": "story-event",
+      "projectKey": "project:pw-rolka",
+      "projectId": "pw-rolka",
+      "projectName": "PW-Rolka",
+      "projectCreatedAt": "2026-09-29T09:56:30.689Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 9,
+      "lastSequence": 9,
+      "occurrences": [
+        9
+      ],
+      "sequenceTotal": 16,
+      "title": "Powrót do komisu",
+      "description": "Plan take'a pod montaż muzyczny: aktualny slot 33f / 1.375s, obecne in=3f. Dla slotów krótszych niż 3s użytkownik wybierze najlepszy moment shiftem z pełnego take'a 3s; nie traktować obecnego in jako obowiązkowego timingu reakcji. Prompty opisują czas źródłowy i pozostawiają zapas do wyboru. Transformacje mają zwarty, kompletny przebieg. Cięcia i muzyka bez zmian, bez generacji audio.\n\nPOV otwierania tych samych drzwi; dzwonek powraca, Włodek w głębi.",
+      "declaredReferences": [
+        {
+          "sourceKey": "shot:pw-02-wyjscie",
+          "key": "shot:pw-rolka/pw-02-wyjscie",
+          "type": "shot",
+          "id": "pw-02-wyjscie",
+          "name": "Wyjście — dzwonek",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-02-wyjscie.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:seed",
+          "key": "shot:pw-rolka/seed",
+          "type": "shot",
+          "id": "seed",
+          "name": "Hook przy ladzie",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/seed.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 1,
+          "referenceKeys": [
+            "shot:pw-02-wyjscie",
+            "shot:seed"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:pw-02-wyjscie",
+              "key": "shot:pw-rolka/pw-02-wyjscie",
+              "type": "shot",
+              "id": "pw-02-wyjscie",
+              "name": "Wyjście — dzwonek",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-02-wyjscie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:seed",
+              "key": "shot:pw-rolka/seed",
+              "type": "shot",
+              "id": "seed",
+              "name": "Hook przy ladzie",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/seed.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 1,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:pw-02-wyjscie",
+            "shot:seed"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-06-powrot/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-06-powrot/frame-start-thumb.webp",
+          "width": 1080,
+          "height": 1920,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-06-powrot.json"
+    },
+    {
+      "key": "shot:pw-rolka/pw-06b-pekata-sakwa",
+      "kind": "story-event",
+      "projectKey": "project:pw-rolka",
+      "projectId": "pw-rolka",
+      "projectName": "PW-Rolka",
+      "projectCreatedAt": "2026-09-29T09:56:30.689Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 10,
+      "lastSequence": 10,
+      "occurrences": [
+        10
+      ],
+      "sequenceTotal": 16,
+      "title": "Pękata sakwa — teraz możemy rozmawiać",
+      "description": "Plan take'a pod montaż muzyczny: aktualny slot 37f / 1.542s, obecne in=0f. Dla slotów krótszych niż 3s użytkownik wybierze najlepszy moment shiftem z pełnego take'a 3s; nie traktować obecnego in jako obowiązkowego timingu reakcji. Prompty opisują czas źródłowy i pozostawiają zapas do wyboru. Transformacje mają zwarty, kompletny przebieg. Cięcia i muzyka bez zmian, bez generacji audio.\n\n37f / 1,542s. POV przy ladzie: lewa dłoń twórcy w ciemnym rękawie energicznie stawia ciężką, pękatą sakiewkę; Włodek reaguje chytrą satysfakcją z nadchodzącego zarobku. Nie serdeczne powitanie, nie wysypywanie pieniędzy. Sakwa w dolnej lewej części, twarz Włodka u góry; po szerokim wejściu 06 średni plan, przed ukośnym detalem wysypywania 07. Zachowana strona klienta, lewa ręka i brązowa skóra ze złotym sznurkiem. Zawartość pozostaje ukryta do 07. Montaż pomija otwieranie sakiewki między ujęciami.",
+      "declaredReferences": [
+        {
+          "sourceKey": "shot:pw-07-wymiana",
+          "key": "shot:pw-rolka/pw-07-wymiana",
+          "type": "shot",
+          "id": "pw-07-wymiana",
+          "name": "Wymiana — wysypanie na ladę",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-07-wymiana.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:pw-06-powrot",
+          "key": "shot:pw-rolka/pw-06-powrot",
+          "type": "shot",
+          "id": "pw-06-powrot",
+          "name": "Powrót do komisu",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-06-powrot.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:sakiewka-tworcy",
+          "key": "prop:sakiewka-tworcy",
+          "type": "prop",
+          "id": "sakiewka-tworcy",
+          "name": "Sakiewka twórcy",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/sakiewka-tworcy.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 1,
+          "referenceKeys": [
+            "shot:pw-07-wymiana",
+            "shot:pw-06-powrot",
+            "prop:sakiewka-tworcy"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:pw-07-wymiana",
+              "key": "shot:pw-rolka/pw-07-wymiana",
+              "type": "shot",
+              "id": "pw-07-wymiana",
+              "name": "Wymiana — wysypanie na ladę",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-07-wymiana.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:pw-06-powrot",
+              "key": "shot:pw-rolka/pw-06-powrot",
+              "type": "shot",
+              "id": "pw-06-powrot",
+              "name": "Powrót do komisu",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-06-powrot.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:sakiewka-tworcy",
+              "key": "prop:sakiewka-tworcy",
+              "type": "prop",
+              "id": "sakiewka-tworcy",
+              "name": "Sakiewka twórcy",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/sakiewka-tworcy.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 1,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:pw-07-wymiana",
+            "shot:pw-06-powrot",
+            "prop:sakiewka-tworcy"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-06b-pekata-sakwa/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-06b-pekata-sakwa/frame-start-thumb.webp",
+          "width": 1080,
+          "height": 1920,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-06b-pekata-sakwa.json"
+    },
+    {
+      "key": "shot:pw-rolka/pw-07-wymiana",
+      "kind": "story-event",
+      "projectKey": "project:pw-rolka",
+      "projectId": "pw-rolka",
+      "projectName": "PW-Rolka",
+      "projectCreatedAt": "2026-09-29T09:56:30.689Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 11,
+      "lastSequence": 11,
+      "occurrences": [
+        11
+      ],
+      "sequenceTotal": 16,
+      "title": "Wymiana — wysypanie na ladę",
+      "description": "Plan take'a pod montaż muzyczny: aktualny slot 96f / 4.000s, obecne in=25f. Dla slotów krótszych niż 3s użytkownik wybierze najlepszy moment shiftem z pełnego take'a 3s; nie traktować obecnego in jako obowiązkowego timingu reakcji. Prompty opisują czas źródłowy i pozostawiają zapas do wyboru. Transformacje mają zwarty, kompletny przebieg. Cięcia i muzyka bez zmian, bez generacji audio.\n\nUkośne POV wysypywania łupu na ladę. Włodek reaguje satysfakcją z nadchodzącego zarobku: brew lekko w górę, chytry zamknięty półuśmiech, na koniec spojrzenie znad okularów na klienta. Dłoń zatrzymuje ostatnie ucho. Start v002 / End v002; źródło 6s, akcja po in=25. Bez dialogu; emocję przekazują wyłącznie mikroekspresje i gesty.",
+      "declaredReferences": [
+        {
+          "sourceKey": "shot:seed",
+          "key": "shot:pw-rolka/seed",
+          "type": "shot",
+          "id": "seed",
+          "name": "Hook przy ladzie",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/seed.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:waluta-ucho",
+          "key": "prop:waluta-ucho",
+          "type": "prop",
+          "id": "waluta-ucho",
+          "name": "Ucho — waluta uczestnictwa",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-ucho.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:waluta-serce",
+          "key": "prop:waluta-serce",
+          "type": "prop",
+          "id": "waluta-serce",
+          "name": "Serce — waluta reakcji",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-serce.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:waluta-gem",
+          "key": "prop:waluta-gem",
+          "type": "prop",
+          "id": "waluta-gem",
+          "name": "Gem — waluta reakcji",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-gem.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:waluta-runa",
+          "key": "prop:waluta-runa",
+          "type": "prop",
+          "id": "waluta-runa",
+          "name": "Runa — waluta reakcji",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-runa.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:pw-07-wymiana",
+          "key": "shot:pw-rolka/pw-07-wymiana",
+          "type": "shot",
+          "id": "pw-07-wymiana",
+          "name": "Wymiana — wysypanie na ladę",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-07-wymiana.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:komisant",
+          "key": "character:komisant",
+          "type": "character",
+          "id": "komisant",
+          "name": "Włodek — Komisant",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/komisant.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 2,
+          "referenceKeys": [
+            "shot:pw-07-wymiana",
+            "character:komisant"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:pw-07-wymiana",
+              "key": "shot:pw-rolka/pw-07-wymiana",
+              "type": "shot",
+              "id": "pw-07-wymiana",
+              "name": "Wymiana — wysypanie na ladę",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-07-wymiana.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:komisant",
+              "key": "character:komisant",
+              "type": "character",
+              "id": "komisant",
+              "name": "Włodek — Komisant",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/komisant.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "frameId": "frame-end",
+          "revision": 2,
+          "referenceKeys": [
+            "shot:pw-07-wymiana"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:pw-07-wymiana",
+              "key": "shot:pw-rolka/pw-07-wymiana",
+              "type": "shot",
+              "id": "pw-07-wymiana",
+              "name": "Wymiana — wysypanie na ladę",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-07-wymiana.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 2,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:pw-07-wymiana",
+            "character:komisant"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-07-wymiana/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-07-wymiana/frame-start-thumb.webp",
+          "width": 1080,
+          "height": 1920,
+          "contentType": "image/webp"
+        },
+        {
+          "id": "frame-end",
+          "role": "frame-end",
+          "revision": 2,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:pw-07-wymiana"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-07-wymiana/frame-end.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-07-wymiana/frame-end-thumb.webp",
+          "width": 1080,
+          "height": 1920,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-07-wymiana.json"
+    },
+    {
+      "key": "shot:pw-rolka/pw-08-formularz",
+      "kind": "story-event",
+      "projectKey": "project:pw-rolka",
+      "projectId": "pw-rolka",
+      "projectName": "PW-Rolka",
+      "projectCreatedAt": "2026-09-29T09:56:30.689Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 12,
+      "lastSequence": 12,
+      "occurrences": [
+        12
+      ],
+      "sequenceTotal": 16,
+      "title": "Zakup A-38",
+      "description": "Plan take'a pod montaż muzyczny: aktualny slot 117f / 4.875s, obecne in=1f. Dla slotów krótszych niż 3s użytkownik wybierze najlepszy moment shiftem z pełnego take'a 3s; nie traktować obecnego in jako obowiązkowego timingu reakcji. Prompty opisują czas źródłowy i pozostawiają zapas do wyboru. Transformacje mają zwarty, kompletny przebieg. Cięcia i muzyka bez zmian, bez generacji audio.\n\nDyskretne podanie A-38: formularz płasko na ladzie, prawa dłoń Włodka częściowo osłania boczny margines. Krótkie spojrzenie w lewo, potem w prawo; następnie przesunięcie dokumentu do klienta i chytry półuśmiech znad okularów. Nie strach ani gangsterska paranoja, tylko towar nie dla każdego. Start v002 / End v001; źródło 5s. Bez dialogu; emocję przekazują wyłącznie mikroekspresje i gesty.",
+      "declaredReferences": [
+        {
+          "sourceKey": "shot:seed",
+          "key": "shot:pw-rolka/seed",
+          "type": "shot",
+          "id": "seed",
+          "name": "Hook przy ladzie",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/seed.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:formularz-a38",
+          "key": "prop:formularz-a38",
+          "type": "prop",
+          "id": "formularz-a38",
+          "name": "Formularz A-38 — podanie o powtórkę",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/formularz-a38.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:pw-08-formularz",
+          "key": "shot:pw-rolka/pw-08-formularz",
+          "type": "shot",
+          "id": "pw-08-formularz",
+          "name": "Zakup A-38",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-08-formularz.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 2,
+          "referenceKeys": [
+            "shot:pw-08-formularz"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:pw-08-formularz",
+              "key": "shot:pw-rolka/pw-08-formularz",
+              "type": "shot",
+              "id": "pw-08-formularz",
+              "name": "Zakup A-38",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-08-formularz.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "frameId": "frame-end",
+          "revision": 1,
+          "referenceKeys": [
+            "shot:pw-08-formularz"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:pw-08-formularz",
+              "key": "shot:pw-rolka/pw-08-formularz",
+              "type": "shot",
+              "id": "pw-08-formularz",
+              "name": "Zakup A-38",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-08-formularz.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 2,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:pw-08-formularz"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-08-formularz/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-08-formularz/frame-start-thumb.webp",
+          "width": 1080,
+          "height": 1920,
+          "contentType": "image/webp"
+        },
+        {
+          "id": "frame-end",
+          "role": "frame-end",
+          "revision": 1,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:pw-08-formularz"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-08-formularz/frame-end.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-08-formularz/frame-end-thumb.webp",
+          "width": 1080,
+          "height": 1920,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-08-formularz.json"
+    },
+    {
+      "key": "shot:pw-rolka/pw-09-zgloszenie",
+      "kind": "story-event",
+      "projectKey": "project:pw-rolka",
+      "projectId": "pw-rolka",
+      "projectName": "PW-Rolka",
+      "projectCreatedAt": "2026-09-29T09:56:30.689Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 13,
+      "lastSequence": 13,
+      "occurrences": [
+        13
+      ],
+      "sequenceTotal": 16,
+      "title": "Użycie A-38 — wciągnięcie do telefonu",
+      "description": "Plan take'a pod montaż muzyczny: aktualny slot 59f / 2.458s, obecne in=0f. Dla slotów krótszych niż 3s użytkownik wybierze najlepszy moment shiftem z pełnego take'a 3s; nie traktować obecnego in jako obowiązkowego timingu reakcji. Prompty opisują czas źródłowy i pozostawiają zapas do wyboru. Transformacje mają zwarty, kompletny przebieg. Cięcia i muzyka bez zmian, bez generacji audio.\n\nPOV nad ladą: lewa dłoń trzyma telefon, prawa A-38. Złota poświata z pieczęci prowadzi narożnik do małego wiru na ekranie. Cały dokument wraz z teczką zwija się w spiralę i zostaje wciągnięty; palce puszczają przedmiot i pozostają naturalne. End: pusta prawa dłoń, pieczęć z orłem wewnątrz wyświetlacza, ostatnie iskry gasną. Start v002 / End v001; timing zgodny z bieżącym montażem. To wyłącznie zużycie przedmiotu, nie wybór ani potwierdzenie konkretnego utworu. Osobny ekran wyboru wymaga prawdziwej referencji UI.",
+      "declaredReferences": [
+        {
+          "sourceKey": "shot:seed",
+          "key": "shot:pw-rolka/seed",
+          "type": "shot",
+          "id": "seed",
+          "name": "Hook przy ladzie",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/seed.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:pw-03-glosowanie",
+          "key": "shot:pw-rolka/pw-03-glosowanie",
+          "type": "shot",
+          "id": "pw-03-glosowanie",
+          "name": "Zgłoszenie utworu — MFTV",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-03-glosowanie.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:formularz-a38",
+          "key": "prop:formularz-a38",
+          "type": "prop",
+          "id": "formularz-a38",
+          "name": "Formularz A-38 — podanie o powtórkę",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/formularz-a38.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:pw-09-zgloszenie",
+          "key": "shot:pw-rolka/pw-09-zgloszenie",
+          "type": "shot",
+          "id": "pw-09-zgloszenie",
+          "name": "Użycie A-38 — wciągnięcie do telefonu",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-09-zgloszenie.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 2,
+          "referenceKeys": [
+            "shot:pw-09-zgloszenie",
+            "prop:formularz-a38"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:pw-09-zgloszenie",
+              "key": "shot:pw-rolka/pw-09-zgloszenie",
+              "type": "shot",
+              "id": "pw-09-zgloszenie",
+              "name": "Użycie A-38 — wciągnięcie do telefonu",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-09-zgloszenie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:formularz-a38",
+              "key": "prop:formularz-a38",
+              "type": "prop",
+              "id": "formularz-a38",
+              "name": "Formularz A-38 — podanie o powtórkę",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/formularz-a38.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "frameId": "frame-end",
+          "revision": 1,
+          "referenceKeys": [
+            "shot:pw-09-zgloszenie"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:pw-09-zgloszenie",
+              "key": "shot:pw-rolka/pw-09-zgloszenie",
+              "type": "shot",
+              "id": "pw-09-zgloszenie",
+              "name": "Użycie A-38 — wciągnięcie do telefonu",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-09-zgloszenie.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 2,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:pw-09-zgloszenie",
+            "prop:formularz-a38"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-09-zgloszenie/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-09-zgloszenie/frame-start-thumb.webp",
+          "width": 1080,
+          "height": 1920,
+          "contentType": "image/webp"
+        },
+        {
+          "id": "frame-end",
+          "role": "frame-end",
+          "revision": 1,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:pw-09-zgloszenie"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-09-zgloszenie/frame-end.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-09-zgloszenie/frame-end-thumb.webp",
+          "width": 1080,
+          "height": 1920,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-09-zgloszenie.json"
+    },
+    {
+      "key": "shot:pw-rolka/pw-09b-radosc-po-zgloszeniu",
+      "kind": "story-event",
+      "projectKey": "project:pw-rolka",
+      "projectId": "pw-rolka",
+      "projectName": "PW-Rolka",
+      "projectCreatedAt": "2026-09-29T09:56:30.689Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 14,
+      "lastSequence": 14,
+      "occurrences": [
+        14
+      ],
+      "sequenceTotal": 16,
+      "title": "Jest! — radość w POV",
+      "description": "Plan take'a pod montaż muzyczny: aktualny slot 70f / 2.917s, obecne in=0f. Dla slotów krótszych niż 3s użytkownik wybierze najlepszy moment shiftem z pełnego take'a 3s; nie traktować obecnego in jako obowiązkowego timingu reakcji. Prompty opisują czas źródłowy i pozostawiają zapas do wyboru. Transformacje mają zwarty, kompletny przebieg. Cięcia i muzyka bez zmian, bez generacji audio.\n\n70f / 2,917s. Po detalu zużycia A-38: szersze POV z podniesioną osią spojrzenia w lewo ku CRT. Ta sama lewa dłoń trzyma telefon ze złotą pieczęcią; pusta prawa robi pojedynczy triumfalny gest. Twórcy nie pokazujemy. Telefon zostaje po lewej, brak powrotu dokumentu. CRT w górnej lewej części przygotowuje cięcie na pw-10-emisja. Zmiana skali i kąta, bez przekraczania lady. Po wygenerowaniu wybrać shiftem zakończoną absorpcję z 09 przed reakcją radości.",
+      "declaredReferences": [
+        {
+          "sourceKey": "shot:pw-09-zgloszenie",
+          "key": "shot:pw-rolka/pw-09-zgloszenie",
+          "type": "shot",
+          "id": "pw-09-zgloszenie",
+          "name": "Użycie A-38 — wciągnięcie do telefonu",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-09-zgloszenie.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:pw-10-emisja",
+          "key": "shot:pw-rolka/pw-10-emisja",
+          "type": "shot",
+          "id": "pw-10-emisja",
+          "name": "Miejsce we Wtorkach",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-10-emisja.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 1,
+          "referenceKeys": [
+            "shot:pw-09-zgloszenie",
+            "shot:pw-10-emisja"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:pw-09-zgloszenie",
+              "key": "shot:pw-rolka/pw-09-zgloszenie",
+              "type": "shot",
+              "id": "pw-09-zgloszenie",
+              "name": "Użycie A-38 — wciągnięcie do telefonu",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-09-zgloszenie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:pw-10-emisja",
+              "key": "shot:pw-rolka/pw-10-emisja",
+              "type": "shot",
+              "id": "pw-10-emisja",
+              "name": "Miejsce we Wtorkach",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-10-emisja.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 1,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:pw-09-zgloszenie",
+            "shot:pw-10-emisja"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-09b-radosc-po-zgloszeniu/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-09b-radosc-po-zgloszeniu/frame-start-thumb.webp",
+          "width": 1080,
+          "height": 1920,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-09b-radosc-po-zgloszeniu.json"
+    },
+    {
+      "key": "shot:pw-rolka/pw-10-emisja",
+      "kind": "story-event",
+      "projectKey": "project:pw-rolka",
+      "projectId": "pw-rolka",
+      "projectName": "PW-Rolka",
+      "projectCreatedAt": "2026-09-29T09:56:30.689Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 15,
+      "lastSequence": 15,
+      "occurrences": [
+        15
+      ],
+      "sequenceTotal": 16,
+      "title": "Miejsce we Wtorkach",
+      "description": "Plan take'a pod montaż muzyczny: aktualny slot 91f / 3.792s, obecne in=5f. Dla slotów krótszych niż 3s użytkownik wybierze najlepszy moment shiftem z pełnego take'a 3s; nie traktować obecnego in jako obowiązkowego timingu reakcji. Prompty opisują czas źródłowy i pozostawiają zapas do wyboru. Transformacje mają zwarty, kompletny przebieg. Cięcia i muzyka bez zmian, bez generacji audio.\n\nPOV spojrzenia na CRT po lewej od Włodka, ekran pod oprawę WTORKI POWTÓRKI. Bez dodatkowego VO; obraz pod istniejącą muzykę.",
+      "declaredReferences": [
+        {
+          "sourceKey": "shot:seed",
+          "key": "shot:pw-rolka/seed",
+          "type": "shot",
+          "id": "seed",
+          "name": "Hook przy ladzie",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/seed.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 1,
+          "referenceKeys": [
+            "shot:seed"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:seed",
+              "key": "shot:pw-rolka/seed",
+              "type": "shot",
+              "id": "seed",
+              "name": "Hook przy ladzie",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/seed.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 1,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:seed"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-10-emisja/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-10-emisja/frame-start-thumb.webp",
+          "width": 1080,
+          "height": 1920,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-10-emisja.json"
+    },
+    {
+      "key": "shot:pw-rolka/pw-11-sekret",
+      "kind": "story-event",
+      "projectKey": "project:pw-rolka",
+      "projectId": "pw-rolka",
+      "projectName": "PW-Rolka",
+      "projectCreatedAt": "2026-09-29T09:56:30.689Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 16,
+      "lastSequence": 16,
+      "occurrences": [
+        16
+      ],
+      "sequenceTotal": 16,
+      "title": "Możemy się dogadać",
+      "description": "Plan take'a pod montaż muzyczny: aktualny slot 82f / 3.417s, obecne in=0f. Dla slotów krótszych niż 3s użytkownik wybierze najlepszy moment shiftem z pełnego take'a 3s; nie traktować obecnego in jako obowiązkowego timingu reakcji. Prompty opisują czas źródłowy i pozostawiają zapas do wyboru. Transformacje mają zwarty, kompletny przebieg. Cięcia i muzyka bez zmian, bez generacji audio.\n\nPOV przy ladzie, spojrzenie na zamkniętą szafkę od zachodniego przejścia, Włodek trzyma klucz i patrzy porozumiewawczo. Bez dialogu; emocję przekazują wyłącznie mikroekspresje i gesty. Szafka pozostaje zamknięta, bez ujawnienia zawartości.",
+      "declaredReferences": [
+        {
+          "sourceKey": "shot:seed",
+          "key": "shot:pw-rolka/seed",
+          "type": "shot",
+          "id": "seed",
+          "name": "Hook przy ladzie",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/seed.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "place:komis-rtv",
+          "key": "place:komis-rtv",
+          "type": "place",
+          "id": "komis-rtv",
+          "name": "KOMIS RTV — kantor Włodka",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/komis-rtv.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 1,
+          "referenceKeys": [
+            "shot:seed",
+            "place:komis-rtv"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:seed",
+              "key": "shot:pw-rolka/seed",
+              "type": "shot",
+              "id": "seed",
+              "name": "Hook przy ladzie",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/seed.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:komis-rtv",
+              "key": "place:komis-rtv",
+              "type": "place",
+              "id": "komis-rtv",
+              "name": "KOMIS RTV — kantor Włodka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/komis-rtv.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 1,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:seed",
+            "place:komis-rtv"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-11-sekret/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-11-sekret/frame-start-thumb.webp",
+          "width": 1080,
+          "height": 1920,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-11-sekret.json"
+    },
+    {
+      "key": "shot:pw-rolka/pw-08b-radosc-po-zakupie",
+      "kind": "story-event",
+      "projectKey": "project:pw-rolka",
+      "projectId": "pw-rolka",
+      "projectName": "PW-Rolka",
+      "projectCreatedAt": "2026-09-29T09:56:30.689Z",
+      "onTimeline": false,
+      "canonicalEvent": false,
+      "sequence": null,
+      "lastSequence": null,
+      "occurrences": [],
+      "sequenceTotal": 16,
+      "title": "pw-08b-radosc-po-zakupie",
+      "description": "",
+      "declaredReferences": [],
+      "activeFrameReferences": [],
+      "images": [],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-08b-radosc-po-zakupie.json"
+    },
+    {
+      "key": "shot:pw-rolka/pw-04-reakcje",
+      "kind": "story-event",
+      "projectKey": "project:pw-rolka",
+      "projectId": "pw-rolka",
+      "projectName": "PW-Rolka",
+      "projectCreatedAt": "2026-09-29T09:56:30.689Z",
+      "onTimeline": false,
+      "canonicalEvent": false,
+      "sequence": null,
+      "lastSequence": null,
+      "occurrences": [],
+      "sequenceTotal": 16,
+      "title": "Telefon poziomo — pod animację",
+      "description": "Osobne ujęcie POV: telefon już w pozycji landscape, trzymany oburącz za krótkie krawędzie. Palce poza ekranem, ekran pusty pod animację użytkownika. Założenie przyszłego take: przez pełne 3 s utrzymać poziom, rozmiar i perspektywę ekranu; brak obracania, dotykania lub opuszczania telefonu. Ruch wymaga weryfikacji po generacji.",
+      "declaredReferences": [
+        {
+          "sourceKey": "shot:pw-03-glosowanie",
+          "key": "shot:pw-rolka/pw-03-glosowanie",
+          "type": "shot",
+          "id": "pw-03-glosowanie",
+          "name": "Zgłoszenie utworu — MFTV",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-03-glosowanie.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 2,
+          "referenceKeys": [
+            "shot:pw-03-glosowanie"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:pw-03-glosowanie",
+              "key": "shot:pw-rolka/pw-03-glosowanie",
+              "type": "shot",
+              "id": "pw-03-glosowanie",
+              "name": "Zgłoszenie utworu — MFTV",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-03-glosowanie.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 2,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:pw-03-glosowanie"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-04-reakcje/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-04-reakcje/frame-start-thumb.webp",
+          "width": 1080,
+          "height": 1920,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-04-reakcje.json"
+    },
+    {
+      "key": "shot:pw-rolka/pw-05-lup",
+      "kind": "story-event",
+      "projectKey": "project:pw-rolka",
+      "projectId": "pw-rolka",
+      "projectName": "PW-Rolka",
+      "projectCreatedAt": "2026-09-29T09:56:30.689Z",
+      "onTimeline": false,
+      "canonicalEvent": false,
+      "sequence": null,
+      "lastSequence": null,
+      "occurrences": [],
+      "sequenceTotal": 16,
+      "title": "Zasób staje się łupem",
+      "description": "POV w dół na otwartą sakiewkę; fioletowy gem w prawej dłoni nad otworem. Match cut z przyznanego zasobu na ekranie.",
+      "declaredReferences": [
+        {
+          "sourceKey": "shot:seed",
+          "key": "shot:pw-rolka/seed",
+          "type": "shot",
+          "id": "seed",
+          "name": "Hook przy ladzie",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/seed.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:sakiewka-tworcy",
+          "key": "prop:sakiewka-tworcy",
+          "type": "prop",
+          "id": "sakiewka-tworcy",
+          "name": "Sakiewka twórcy",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/sakiewka-tworcy.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:waluta-gem",
+          "key": "prop:waluta-gem",
+          "type": "prop",
+          "id": "waluta-gem",
+          "name": "Gem — waluta reakcji",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-gem.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:waluta-ucho",
+          "key": "prop:waluta-ucho",
+          "type": "prop",
+          "id": "waluta-ucho",
+          "name": "Ucho — waluta uczestnictwa",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-ucho.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 1,
+          "referenceKeys": [
+            "shot:seed",
+            "prop:sakiewka-tworcy",
+            "prop:waluta-gem",
+            "prop:waluta-ucho"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:seed",
+              "key": "shot:pw-rolka/seed",
+              "type": "shot",
+              "id": "seed",
+              "name": "Hook przy ladzie",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/seed.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:sakiewka-tworcy",
+              "key": "prop:sakiewka-tworcy",
+              "type": "prop",
+              "id": "sakiewka-tworcy",
+              "name": "Sakiewka twórcy",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/sakiewka-tworcy.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:waluta-gem",
+              "key": "prop:waluta-gem",
+              "type": "prop",
+              "id": "waluta-gem",
+              "name": "Gem — waluta reakcji",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-gem.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:waluta-ucho",
+              "key": "prop:waluta-ucho",
+              "type": "prop",
+              "id": "waluta-ucho",
+              "name": "Ucho — waluta uczestnictwa",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-ucho.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 1,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:seed",
+            "prop:sakiewka-tworcy",
+            "prop:waluta-gem",
+            "prop:waluta-ucho"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-05-lup/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-05-lup/frame-start-thumb.webp",
+          "width": 1080,
+          "height": 1920,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-05-lup.json"
+    },
+    {
+      "key": "shot:pw-rolka/pw-03-glosowanie",
+      "kind": "story-event",
+      "projectKey": "project:pw-rolka",
+      "projectId": "pw-rolka",
+      "projectName": "PW-Rolka",
+      "projectCreatedAt": "2026-09-29T09:56:30.689Z",
+      "onTimeline": false,
+      "canonicalEvent": false,
+      "sequence": null,
+      "lastSequence": null,
+      "occurrences": [],
+      "sequenceTotal": 16,
+      "title": "Zgłoszenie utworu — MFTV",
+      "description": "POV pionowego telefonu z rzeczywistym zrzutem submit.png (formularz zgłoszenia utworu, nie głosowanie). Prawy palec przy przycisku Zgłoś utwór. Nowy Start v002; istniejący take-1 nadal przedstawia pusty ekran ze Start v001. Dialog mechaniki wymaga dostosowania do zmiany przebitki.",
+      "declaredReferences": [
+        {
+          "sourceKey": "shot:seed",
+          "key": "shot:pw-rolka/seed",
+          "type": "shot",
+          "id": "seed",
+          "name": "Hook przy ladzie",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/seed.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:pw-03-glosowanie",
+          "key": "shot:pw-rolka/pw-03-glosowanie",
+          "type": "shot",
+          "id": "pw-03-glosowanie",
+          "name": "Zgłoszenie utworu — MFTV",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-03-glosowanie.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:mftv-ekran-zgloszenia",
+          "key": "prop:mftv-ekran-zgloszenia",
+          "type": "prop",
+          "id": "mftv-ekran-zgloszenia",
+          "name": "MFTV — ekran zgłoszenia utworu",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/mftv-ekran-zgloszenia.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 2,
+          "referenceKeys": [
+            "shot:pw-03-glosowanie",
+            "prop:mftv-ekran-zgloszenia"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:pw-03-glosowanie",
+              "key": "shot:pw-rolka/pw-03-glosowanie",
+              "type": "shot",
+              "id": "pw-03-glosowanie",
+              "name": "Zgłoszenie utworu — MFTV",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-03-glosowanie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:mftv-ekran-zgloszenia",
+              "key": "prop:mftv-ekran-zgloszenia",
+              "type": "prop",
+              "id": "mftv-ekran-zgloszenia",
+              "name": "MFTV — ekran zgłoszenia utworu",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/mftv-ekran-zgloszenia.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 2,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:pw-03-glosowanie",
+            "prop:mftv-ekran-zgloszenia"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-03-glosowanie/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-03-glosowanie/frame-start-thumb.webp",
+          "width": 1080,
+          "height": 1920,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-03-glosowanie.json"
+    },
     {
       "key": "shot:zlote-emoji-14/seed",
       "kind": "story-event",
@@ -34274,28 +36547,6 @@
         }
       ],
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/flow/shots/zosianakacu.json"
-    },
-    {
-      "key": "shot:pw-rolka/seed",
-      "kind": "story-event",
-      "projectKey": "project:pw-rolka",
-      "projectId": "pw-rolka",
-      "projectName": "PW-Rolka",
-      "projectCreatedAt": null,
-      "onTimeline": true,
-      "canonicalEvent": true,
-      "sequence": 1,
-      "lastSequence": 1,
-      "occurrences": [
-        1
-      ],
-      "sequenceTotal": 1,
-      "title": "seed",
-      "description": "",
-      "declaredReferences": [],
-      "activeFrameReferences": [],
-      "images": [],
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/seed.json"
     }
   ]
 }

@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-29T20:28:57.964Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:pw-rolka/pw-11-sekret",
+  "id": "pw-11-sekret",
+  "title": "Możemy się dogadać",
+  "description": "Plan take'a pod montaż muzyczny: aktualny slot 82f / 3.417s, obecne in=0f. Dla slotów krótszych niż 3s użytkownik wybierze najlepszy moment shiftem z pełnego take'a 3s; nie traktować obecnego in jako obowiązkowego timingu reakcji. Prompty opisują czas źródłowy i pozostawiają zapas do wyboru. Transformacje mają zwarty, kompletny przebieg. Cięcia i muzyka bez zmian, bez generacji audio.\n\nPOV przy ladzie, spojrzenie na zamkniętą szafkę od zachodniego przejścia, Włodek trzyma klucz i patrzy porozumiewawczo. Bez dialogu; emocję przekazują wyłącznie mikroekspresje i gesty. Szafka pozostaje zamknięta, bez ujawnienia zawartości.",
+  "project": {
+    "id": "pw-rolka",
+    "key": "project:pw-rolka",
+    "name": "PW-Rolka",
+    "createdAt": "2026-09-29T09:56:30.689Z"
+  },
+  "chronology": {
+    "projectKey": "project:pw-rolka",
+    "projectCreatedAt": "2026-09-29T09:56:30.689Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 16,
+    "lastSequence": 16,
+    "occurrences": [
+      16
+    ],
+    "sequenceTotal": 16,
+    "uniqueShotCount": 16,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "seed"
+    },
+    {
+      "type": "place",
+      "id": "komis-rtv"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:seed",
+        "key": "shot:pw-rolka/seed",
+        "type": "shot",
+        "id": "seed",
+        "name": "Hook przy ladzie",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/seed.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:komis-rtv",
+        "key": "place:komis-rtv",
+        "type": "place",
+        "id": "komis-rtv",
+        "name": "KOMIS RTV — kantor Włodka",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/komis-rtv.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:seed",
+          "place:komis-rtv"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:seed",
+            "key": "shot:pw-rolka/seed",
+            "type": "shot",
+            "id": "seed",
+            "name": "Hook przy ladzie",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/seed.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "place:komis-rtv",
+            "key": "place:komis-rtv",
+            "type": "place",
+            "id": "komis-rtv",
+            "name": "KOMIS RTV — kantor Włodka",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/komis-rtv.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Use case: photorealistic-natural. Generate exactly ONE photorealistic vertical 9:16 film Start Frame, ideally 1080x1920. Documentary pawnshop reality show style, realistic cinematic detail. No collage, no watermark, no subtitles. Strict first-person customer POV still in PUBLIC south side of pawnshop near WEST end of glass U counter, looking slightly down and across at Wlodek. Same identity face clothing and shop lighting as ref1; ref2 defines geometry only. Wlodek leans toward lens from staff side, face upper middle with a restrained sly knowing half-smile and raised eyebrow. His right hand holds a small brass key at the lock of a completely CLOSED scuffed wooden undercounter cabinet visible at west end through staff passage, customer remains outside staff area. Cabinet contents entirely unseen, zero magic glow, no treasure reveal. Wlodek stays human gritty mildly rude crafty pawnbroker not sinister wizard. Slightly closer intimate framing to imply private deal, no other people, no text. Keep purple gem only if any currency visible; no green gems.",
+    "endFrameDescription": "",
+    "animation": "0.00–0.85s: Wlodek glances down at the key already in the cabinet lock, his fingers making one tiny deliberate adjustment without unlocking it. 0.85–2.40s: he raises his eyes toward the customer over his glasses, lifts one eyebrow and forms a restrained crooked conspiratorial smile. 2.40–3.15s: hold the look as his key hand becomes still. Hold naturally through 4.00s. Camera: subtle customer-eye handheld drift, no approach into the cabinet. His other hand stays braced. Preserve identity, clothing, key, lock, hands and shop. The cabinet remains fully closed with no light escaping and no contents revealed. No speech, broad friendly grin, new people, extra fingers, cuts or captions.\n@Image1 locks the identity of Wlodek already at the cabinet only; keep his Start Frame posture, key and closed cabinet, with no duplicate person."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:seed",
+        "place:komis-rtv"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:seed",
+          "key": "shot:pw-rolka/seed",
+          "type": "shot",
+          "id": "seed",
+          "name": "Hook przy ladzie",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/seed.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "place:komis-rtv",
+          "key": "place:komis-rtv",
+          "type": "place",
+          "id": "komis-rtv",
+          "name": "KOMIS RTV — kantor Włodka",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/komis-rtv.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-29T10:09:53.851298+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:seed",
+            "place:komis-rtv"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:seed",
+              "key": "shot:pw-rolka/seed",
+              "type": "shot",
+              "id": "seed",
+              "name": "Hook przy ladzie",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/seed.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:komis-rtv",
+              "key": "place:komis-rtv",
+              "type": "place",
+              "id": "komis-rtv",
+              "name": "KOMIS RTV — kantor Włodka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/komis-rtv.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-11-sekret/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-11-sekret/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-29T20:28:57.964Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:pw-rolka/pw-06-powrot",
+  "id": "pw-06-powrot",
+  "title": "Powrót do komisu",
+  "description": "Plan take'a pod montaż muzyczny: aktualny slot 33f / 1.375s, obecne in=3f. Dla slotów krótszych niż 3s użytkownik wybierze najlepszy moment shiftem z pełnego take'a 3s; nie traktować obecnego in jako obowiązkowego timingu reakcji. Prompty opisują czas źródłowy i pozostawiają zapas do wyboru. Transformacje mają zwarty, kompletny przebieg. Cięcia i muzyka bez zmian, bez generacji audio.\n\nPOV otwierania tych samych drzwi; dzwonek powraca, Włodek w głębi.",
+  "project": {
+    "id": "pw-rolka",
+    "key": "project:pw-rolka",
+    "name": "PW-Rolka",
+    "createdAt": "2026-09-29T09:56:30.689Z"
+  },
+  "chronology": {
+    "projectKey": "project:pw-rolka",
+    "projectCreatedAt": "2026-09-29T09:56:30.689Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 9,
+    "lastSequence": 9,
+    "occurrences": [
+      9
+    ],
+    "sequenceTotal": 16,
+    "uniqueShotCount": 16,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "pw-02-wyjscie"
+    },
+    {
+      "type": "shot",
+      "id": "seed"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:pw-02-wyjscie",
+        "key": "shot:pw-rolka/pw-02-wyjscie",
+        "type": "shot",
+        "id": "pw-02-wyjscie",
+        "name": "Wyjście — dzwonek",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-02-wyjscie.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:seed",
+        "key": "shot:pw-rolka/seed",
+        "type": "shot",
+        "id": "seed",
+        "name": "Hook przy ladzie",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/seed.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:pw-02-wyjscie",
+          "shot:seed"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:pw-02-wyjscie",
+            "key": "shot:pw-rolka/pw-02-wyjscie",
+            "type": "shot",
+            "id": "pw-02-wyjscie",
+            "name": "Wyjście — dzwonek",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-02-wyjscie.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:seed",
+            "key": "shot:pw-rolka/seed",
+            "type": "shot",
+            "id": "seed",
+            "name": "Hook przy ladzie",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/seed.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Use case: photorealistic-natural. Generate exactly ONE photorealistic vertical 9:16 film Start Frame, ideally 1080x1920. Documentary pawnshop reality show style, realistic cinematic detail. No collage, no watermark, no subtitles. First reference exact doorway/bell/room, second exact Wlodek identity and wardrobe. Strict first-person POV RETURNING to shop through same central south entrance. Right hand in charcoal sleeve pushes same dark green glass door wider OPEN toward shop interior, door edge along right frame, same brass bell above. Clear path to glass U counter, Wlodek now visible centered behind counter in middle distance, same northern shelves, same warm cyan/magenta light. Wlodek appraises arriving customer, no other people. Customer never visible except right hand. On counter small PURPLE gem and miniature anatomical red heart, no green gems. Camera slightly further through doorway than exit shot. Natural consistent architecture, documentary realism.",
+    "endFrameDescription": "",
+    "animation": "0.00–1.10s: the customer's right hand pushes the already partly open door farther inward, clearing the view of Wlodek behind the counter. Camera: one short forward step across the threshold with restrained eye-level bob, stopping well before the counter. The wrist follows the handle and the attached bell sways slightly. 1.10–3.00s: settle; Wlodek watches the approaching customer without greeting or waving. Preserve his identity, wardrobe, door hinges, handle, hand anatomy, shelf positions and counter stock. Do not add people, change props, teleport to the counter, move through glass or cut. Keep the opening and forward step compact, with a stable ending for editorial selection.\n@Image1 locks the identity of the existing distant shopkeeper only; keep him behind the counter at Start Frame scale, never bring him into close-up."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:pw-02-wyjscie",
+        "shot:seed"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:pw-02-wyjscie",
+          "key": "shot:pw-rolka/pw-02-wyjscie",
+          "type": "shot",
+          "id": "pw-02-wyjscie",
+          "name": "Wyjście — dzwonek",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-02-wyjscie.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:seed",
+          "key": "shot:pw-rolka/seed",
+          "type": "shot",
+          "id": "seed",
+          "name": "Hook przy ladzie",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/seed.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-29T10:06:51.124153+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:pw-02-wyjscie",
+            "shot:seed"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:pw-02-wyjscie",
+              "key": "shot:pw-rolka/pw-02-wyjscie",
+              "type": "shot",
+              "id": "pw-02-wyjscie",
+              "name": "Wyjście — dzwonek",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-02-wyjscie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:seed",
+              "key": "shot:pw-rolka/seed",
+              "type": "shot",
+              "id": "seed",
+              "name": "Hook przy ladzie",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/seed.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-06-powrot/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-06-powrot/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

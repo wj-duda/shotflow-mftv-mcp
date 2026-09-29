@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T09:09:24.196Z",
+  "generatedAt": "2026-09-29T20:28:57.964Z",
   "worldId": "aimftv",
   "type": "props",
   "label": "Rekwizyty",
@@ -143,11 +143,11 @@
       "type": "props",
       "id": "waluta-gem",
       "name": "Gem — waluta reakcji",
-      "summary": "Skondensowany entuzjazm: mały fasetowany zielony kamień o szmaragdowym świetle wewnątrz, wielkości mieszczącej się w dłoni. Powstaje z mocnych reakcji widzów, takich jak ogień, zachwyt, zakochanie, siła i gest «dobrze». Jest twardy, chłodny i załamuje światło, ale nie lewituje.…",
+      "summary": "Skondensowany entuzjazm: mały, intensywnie fioletowy klejnot o brylantowym, zwężającym się ku dołowi kształcie, wielkości mieszczącej się w dłoni. Liczne ostre fasety przechodzą od ciemnego ametystu na krawędziach do jasnych purpurowych refleksów wewnątrz. Powstaje z mocnych rea…",
       "imageCount": 1,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/waluta-gem/image-001-thumb.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/waluta-gem/image-002-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-gem.json",
-      "updatedAt": "2026-09-29T11:03:17+02:00"
+      "updatedAt": "2026-09-29T16:42:18.793Z"
     },
     {
       "key": "prop:gwiazda-pierwszej-wielkosci",
@@ -234,6 +234,42 @@
       "updatedAt": "2026-09-20T15:14:15.358677+00:00"
     },
     {
+      "key": "prop:mftv-ekran-zgloszenia",
+      "kind": "resource",
+      "type": "props",
+      "id": "mftv-ekran-zgloszenia",
+      "name": "MFTV — ekran zgłoszenia utworu",
+      "summary": "Oryginalny submit.png użytkownika: ekran formularza zgłoszenia utworu MFTV. Referencja wyłącznie zawartości istniejącego ekranu telefonu: układ, polskie etykiety, kolory i przycisk „Zgłoś utwór”. Nie przedstawia głosowania. Nie dodawać drugiego urządzenia.",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/mftv-ekran-zgloszenia/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/mftv-ekran-zgloszenia.json",
+      "updatedAt": "2026-09-29T11:13:17.684Z"
+    },
+    {
+      "key": "prop:mftv-emotki-reakcji",
+      "kind": "resource",
+      "type": "props",
+      "id": "mftv-emotki-reakcji",
+      "name": "MFTV — emotki reakcji",
+      "summary": "Oczyszczona i odtworzona generatywnie plansza sześciu motywów ze screenów użytkownika: zdziwienie, uśmiech, 100, maski teatralne, kieliszek i klaps. Neonowy żółty, magenta, cyjan i fiolet. Referencja wyglądu do PW-Rolka, nie oryginalny eksport assetów UI. Układ planszy nie jest…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/mftv-emotki-reakcji/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/mftv-emotki-reakcji.json",
+      "updatedAt": "2026-09-29T11:32:35.988Z"
+    },
+    {
+      "key": "prop:mftv-super-combo",
+      "kind": "resource",
+      "type": "props",
+      "id": "mftv-super-combo",
+      "name": "MFTV — Super Combo",
+      "summary": "Oczyszczona i odtworzona generatywnie referencja banera ze screenu: złote obramowanie, emblemat S, napis SUPER COMBO. MONSTERSOUND1000 to przykładowy nick zachowany ze źródła, nie zatwierdzony finalny tekst rolki. Referencja wyglądu, nie oryginalny eksport UI.",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/mftv-super-combo/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/mftv-super-combo.json",
+      "updatedAt": "2026-09-29T11:32:35.988Z"
+    },
+    {
       "key": "prop:roj-dzieci-gwiazd",
       "kind": "resource",
       "type": "props",
@@ -253,9 +289,9 @@
       "name": "Runa — waluta reakcji",
       "summary": "Najwyższa kategoria materialnej reakcji: jasny kamienny lub kościany żeton z wyrytym znakiem, delikatnie podświetlonym od środka. Powstaje z reakcji najwyższej rangi, związanych ze zwycięstwem, perfekcją i wyróżnieniem — kanoniczne przykłady to medal, sto punktów, gwiazdy i puch…",
       "imageCount": 1,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/waluta-runa/image-001-thumb.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/waluta-runa/image-002-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-runa.json",
-      "updatedAt": "2026-09-29T11:03:17+02:00"
+      "updatedAt": "2026-09-29T16:42:19.046Z"
     },
     {
       "key": "prop:sakiewka-tworcy",
@@ -265,9 +301,9 @@
       "name": "Sakiewka twórcy",
       "summary": "Fizyczny odpowiednik portfela reakcji. Mała, zużyta sakiewka z brązowej skóry ściągana rzemieniem, mieszcząca pięć odrębnych rodzajów fantów: prop:waluta-czaszka, prop:waluta-ucho, prop:waluta-serce, prop:waluta-gem i prop:waluta-runa. Nie tworzy waluty i nie zwiększa jej wartoś…",
       "imageCount": 1,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/sakiewka-tworcy/image-001-thumb.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/sakiewka-tworcy/image-002-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/sakiewka-tworcy.json",
-      "updatedAt": "2026-09-29T11:03:17+02:00"
+      "updatedAt": "2026-09-29T16:42:18.660Z"
     },
     {
       "key": "prop:waluta-serce",
@@ -275,11 +311,11 @@
       "type": "props",
       "id": "waluta-serce",
       "name": "Serce — waluta reakcji",
-      "summary": "Podstawowa waluta jakości reakcji: niewielkie, czerwone, stylizowane serce o wyglądzie emaliowanego lub lakierowanego odlewu, mieszczące się w dłoni. Powstaje ze zwykłych reakcji widzów — tych, które nie należą ani do grupy wyraźnie negatywnej, ani do najwyższych poziomów entuzj…",
+      "summary": "Podstawowa waluta jakości reakcji: niewielki, czerwony fant w kształcie realistycznego anatomicznego serca, mieszczący się w dłoni. Ma mięsistą, lekko połyskującą powierzchnię oraz wyraźnie wyrzeźbione komory i naczynia, ale pozostaje trwałym, nieruchomym przedmiotem — nie jest…",
       "imageCount": 1,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/waluta-serce/image-001-thumb.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/waluta-serce/image-002-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-serce.json",
-      "updatedAt": "2026-09-29T11:03:17+02:00"
+      "updatedAt": "2026-09-29T16:42:18.919Z"
     },
     {
       "key": "prop:szklanka-czeslawa",

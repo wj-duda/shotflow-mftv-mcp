@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-29T20:28:57.964Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:pw-rolka/pw-10-emisja",
+  "id": "pw-10-emisja",
+  "title": "Miejsce we Wtorkach",
+  "description": "Plan take'a pod montaż muzyczny: aktualny slot 91f / 3.792s, obecne in=5f. Dla slotów krótszych niż 3s użytkownik wybierze najlepszy moment shiftem z pełnego take'a 3s; nie traktować obecnego in jako obowiązkowego timingu reakcji. Prompty opisują czas źródłowy i pozostawiają zapas do wyboru. Transformacje mają zwarty, kompletny przebieg. Cięcia i muzyka bez zmian, bez generacji audio.\n\nPOV spojrzenia na CRT po lewej od Włodka, ekran pod oprawę WTORKI POWTÓRKI. Bez dodatkowego VO; obraz pod istniejącą muzykę.",
+  "project": {
+    "id": "pw-rolka",
+    "key": "project:pw-rolka",
+    "name": "PW-Rolka",
+    "createdAt": "2026-09-29T09:56:30.689Z"
+  },
+  "chronology": {
+    "projectKey": "project:pw-rolka",
+    "projectCreatedAt": "2026-09-29T09:56:30.689Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 15,
+    "lastSequence": 15,
+    "occurrences": [
+      15
+    ],
+    "sequenceTotal": 16,
+    "uniqueShotCount": 16,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "seed"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:seed",
+        "key": "shot:pw-rolka/seed",
+        "type": "shot",
+        "id": "seed",
+        "name": "Hook przy ladzie",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/seed.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:seed"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:seed",
+            "key": "shot:pw-rolka/seed",
+            "type": "shot",
+            "id": "seed",
+            "name": "Hook przy ladzie",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/seed.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Use case: photorealistic-natural. Generate exactly ONE photorealistic vertical 9:16 film Start Frame, ideally 1080x1920. Documentary pawnshop reality show style, realistic cinematic detail. No collage, no watermark, no subtitles. Strict first-person customer POV looking slightly LEFT and up from same counter to the old CRT television on northern shelf, left of Wlodek in ref1. Close insert shot television framed almost straight-on filling 80 percent of width, surrounding stacked vintage stereos plants dusty wood and warm/cyan practical glow consistent with ref. Television displays an elegant simple broadcast title card with EXACT large readable Polish words on TWO lines: WTORKI / POWTÓRKI. Dark charcoal background, warm cream bold clean letters, very subtle analog scanlines, no extra text icons or channel logos, no premiere date, no footage of unknown contestants. Keep television physically realistic 4:3 glass screen within vertical 9:16 image. No people, no hands.",
+    "endFrameDescription": "",
+    "animation": "0.00–3.40s: camera makes one restrained five-centimeter push toward the CRT, keeping the entire screen and both title lines readable. The existing scanlines shimmer gently without rolling or interrupting the image; the disco ball catches a few small changing reflections. 3.40–4.00s: settle on the title. Preserve the exact television, shelf layout, plants, lamp and unchanged lettering WTORKI POWTÓRKI throughout. No new footage, added channel logos, new words, screen blackout, flickering letters, people, cuts or dramatic zoom. This is a clear breathing space after the fist-pump, not another transformation. The edit uses source frames 5–95 at 24 fps."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:seed"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:seed",
+          "key": "shot:pw-rolka/seed",
+          "type": "shot",
+          "id": "seed",
+          "name": "Hook przy ladzie",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/seed.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-29T10:09:52.230069+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:seed"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:seed",
+              "key": "shot:pw-rolka/seed",
+              "type": "shot",
+              "id": "seed",
+              "name": "Hook przy ladzie",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/seed.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-10-emisja/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-10-emisja/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

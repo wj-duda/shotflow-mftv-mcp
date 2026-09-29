@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-29T20:28:57.964Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:pw-rolka/pw-09b-radosc-po-zgloszeniu",
+  "id": "pw-09b-radosc-po-zgloszeniu",
+  "title": "Jest! — radość w POV",
+  "description": "Plan take'a pod montaż muzyczny: aktualny slot 70f / 2.917s, obecne in=0f. Dla slotów krótszych niż 3s użytkownik wybierze najlepszy moment shiftem z pełnego take'a 3s; nie traktować obecnego in jako obowiązkowego timingu reakcji. Prompty opisują czas źródłowy i pozostawiają zapas do wyboru. Transformacje mają zwarty, kompletny przebieg. Cięcia i muzyka bez zmian, bez generacji audio.\n\n70f / 2,917s. Po detalu zużycia A-38: szersze POV z podniesioną osią spojrzenia w lewo ku CRT. Ta sama lewa dłoń trzyma telefon ze złotą pieczęcią; pusta prawa robi pojedynczy triumfalny gest. Twórcy nie pokazujemy. Telefon zostaje po lewej, brak powrotu dokumentu. CRT w górnej lewej części przygotowuje cięcie na pw-10-emisja. Zmiana skali i kąta, bez przekraczania lady. Po wygenerowaniu wybrać shiftem zakończoną absorpcję z 09 przed reakcją radości.",
+  "project": {
+    "id": "pw-rolka",
+    "key": "project:pw-rolka",
+    "name": "PW-Rolka",
+    "createdAt": "2026-09-29T09:56:30.689Z"
+  },
+  "chronology": {
+    "projectKey": "project:pw-rolka",
+    "projectCreatedAt": "2026-09-29T09:56:30.689Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 14,
+    "lastSequence": 14,
+    "occurrences": [
+      14
+    ],
+    "sequenceTotal": 16,
+    "uniqueShotCount": 16,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "pw-09-zgloszenie"
+    },
+    {
+      "type": "shot",
+      "id": "pw-10-emisja"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:pw-09-zgloszenie",
+        "key": "shot:pw-rolka/pw-09-zgloszenie",
+        "type": "shot",
+        "id": "pw-09-zgloszenie",
+        "name": "Użycie A-38 — wciągnięcie do telefonu",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-09-zgloszenie.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:pw-10-emisja",
+        "key": "shot:pw-rolka/pw-10-emisja",
+        "type": "shot",
+        "id": "pw-10-emisja",
+        "name": "Miejsce we Wtorkach",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-10-emisja.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:pw-09-zgloszenie",
+          "shot:pw-10-emisja"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:pw-09-zgloszenie",
+            "key": "shot:pw-rolka/pw-09-zgloszenie",
+            "type": "shot",
+            "id": "pw-09-zgloszenie",
+            "name": "Użycie A-38 — wciągnięcie do telefonu",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-09-zgloszenie.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:pw-10-emisja",
+            "key": "shot:pw-rolka/pw-10-emisja",
+            "type": "shot",
+            "id": "pw-10-emisja",
+            "name": "Miejsce we Wtorkach",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-10-emisja.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Create ONE photoreal vertical 9:16 1080x1920 film START frame. Image1 continuity: exact first-person customer's two hands, charcoal sleeves, black upright smartphone held in LEFT hand with small GOLD EAGLE SEAL on dark display, glass counter and pawnshop. Image2 fixes exact television on north shelf LEFT of Wlodek, surrounding disco ball, plants and stereo. Show JOY AFTER submission strictly from customer's eyes, no visible customer face or reverse shot. Change from image1 steep downward close insert to noticeably WIDER eye-level view tilted only slightly down, looking 30 degrees toward LEFT side of shop while remaining customer side of counter. Left hand holds SAME phone low in lower-left third, screen and gold eagle visible, smaller than previous insert. Right hand near lower-right center has JUST closed into a celebratory fist, thumb outside naturally over fingers, entire fist and wrist with generous margins, forearm connected to bottom right edge. Ready for one small upward fist pump, not aggression or punching anyone. No form exists anymore. Familiar TV of image2 visible upper left middle distance with same exact words WTORKI POWTÓRKI; soft but recognizable, not filling frame yet. Wlodek only partly visible at far right background behind counter, not central, in green vest, no new people. Warm gold and cyan practical light, grounded joyful energy through raised fist and lively POV. Clear composition for subsequent cut into TV closeup, no duplicate phones, extra fingers, confetti or invented UI.",
+    "endFrameDescription": "",
+    "animation": "0.00–1.10s: the customer's already-closed right fist makes one compact celebratory upward pump, rising fifteen centimeters and settling back halfway. The left hand keeps the same phone upright, its gold eagle seal unchanged. 1.10–2.70s: both hands settle slightly lower as attention rests on the television upper left. Camera: subtle eye-level handheld drift, no orbit or abrupt reframing. Sleeve folds follow the wrist; the phone stays secure. Hold through 3.00s. Preserve exactly two anatomically connected hands, charcoal sleeves, phone, shop layout and television lettering WTORKI POWTÓRKI. Wlodek stays peripheral and still. No document reappears, no punching, extra fists, confetti, new UI, cuts or facial reveal of the customer.\n@Image1 locks only the existing background television casing and WTORKI POWTÓRKI lettering. Keep the wide Start Frame POV and hands; do not cut into the reference close-up."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:pw-09-zgloszenie",
+        "shot:pw-10-emisja"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:pw-09-zgloszenie",
+          "key": "shot:pw-rolka/pw-09-zgloszenie",
+          "type": "shot",
+          "id": "pw-09-zgloszenie",
+          "name": "Użycie A-38 — wciągnięcie do telefonu",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-09-zgloszenie.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:pw-10-emisja",
+          "key": "shot:pw-rolka/pw-10-emisja",
+          "type": "shot",
+          "id": "pw-10-emisja",
+          "name": "Miejsce we Wtorkach",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-10-emisja.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-29T15:05:47.706742+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:pw-09-zgloszenie",
+            "shot:pw-10-emisja"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:pw-09-zgloszenie",
+              "key": "shot:pw-rolka/pw-09-zgloszenie",
+              "type": "shot",
+              "id": "pw-09-zgloszenie",
+              "name": "Użycie A-38 — wciągnięcie do telefonu",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-09-zgloszenie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:pw-10-emisja",
+              "key": "shot:pw-rolka/pw-10-emisja",
+              "type": "shot",
+              "id": "pw-10-emisja",
+              "name": "Miejsce we Wtorkach",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-10-emisja.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-09b-radosc-po-zgloszeniu/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-09b-radosc-po-zgloszeniu/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

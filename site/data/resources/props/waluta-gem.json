@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T09:09:24.196Z",
+  "generatedAt": "2026-09-29T20:28:57.964Z",
   "worldId": "aimftv",
   "kind": "resource",
   "key": "prop:waluta-gem",
   "type": "props",
   "id": "waluta-gem",
   "name": "Gem — waluta reakcji",
-  "description": "Skondensowany entuzjazm: mały fasetowany zielony kamień o szmaragdowym świetle wewnątrz, wielkości mieszczącej się w dłoni. Powstaje z mocnych reakcji widzów, takich jak ogień, zachwyt, zakochanie, siła i gest «dobrze». Jest twardy, chłodny i załamuje światło, ale nie lewituje. W kantorze place:komis-rtv 10 prop:waluta-serce daje 1 gem; 4 gemy dają 1 prop:waluta-runa; rozbicie 1 gema zwraca tylko 5 serc. To niekonsekwencja celowa — character:komisant zarabia na kierunku wymiany. Nie mylić gema z runą ani zwykłym zielonym szkłem z półki.",
+  "description": "Skondensowany entuzjazm: mały, intensywnie fioletowy klejnot o brylantowym, zwężającym się ku dołowi kształcie, wielkości mieszczącej się w dłoni. Liczne ostre fasety przechodzą od ciemnego ametystu na krawędziach do jasnych purpurowych refleksów wewnątrz. Powstaje z mocnych reakcji widzów, takich jak ogień, zachwyt, zakochanie, siła i gest «dobrze». Jest twardy, chłodny i silnie załamuje światło, ale nie lewituje ani nie świeci jak hologram. W kantorze place:komis-rtv 10 prop:waluta-serce daje 1 gem; 4 gemy dają 1 prop:waluta-runa; rozbicie 1 gema zwraca tylko 5 serc. To niekonsekwencja celowa — character:komisant zarabia na kierunku wymiany. Zachować fioletową barwę i szlif z referencji; nie mylić gema z runą ani zwykłym szkłem z półki.",
   "images": [
     {
-      "id": "image-001",
+      "id": "image-002",
       "role": "reference",
-      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/waluta-gem/image-001.webp",
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/waluta-gem/image-001-thumb.webp",
-      "width": 96,
-      "height": 96,
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/waluta-gem/image-002.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/waluta-gem/image-002-thumb.webp",
+      "width": 320,
+      "height": 320,
       "contentType": "image/webp"
     }
   ],
-  "updatedAt": "2026-09-29T11:03:17+02:00"
+  "updatedAt": "2026-09-29T16:42:18.793Z"
 }

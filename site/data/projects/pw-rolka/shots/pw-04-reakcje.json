@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-29T20:28:57.964Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:pw-rolka/pw-04-reakcje",
+  "id": "pw-04-reakcje",
+  "title": "Telefon poziomo — pod animację",
+  "description": "Osobne ujęcie POV: telefon już w pozycji landscape, trzymany oburącz za krótkie krawędzie. Palce poza ekranem, ekran pusty pod animację użytkownika. Założenie przyszłego take: przez pełne 3 s utrzymać poziom, rozmiar i perspektywę ekranu; brak obracania, dotykania lub opuszczania telefonu. Ruch wymaga weryfikacji po generacji.",
+  "project": {
+    "id": "pw-rolka",
+    "key": "project:pw-rolka",
+    "name": "PW-Rolka",
+    "createdAt": "2026-09-29T09:56:30.689Z"
+  },
+  "chronology": {
+    "projectKey": "project:pw-rolka",
+    "projectCreatedAt": "2026-09-29T09:56:30.689Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": false,
+    "canonicalEvent": false,
+    "sequence": null,
+    "lastSequence": null,
+    "occurrences": [],
+    "sequenceTotal": 16,
+    "uniqueShotCount": 16,
+    "sequenceOrder": null,
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This project material is not present on the saved timeline, so it must not override canonical timeline events by date alone."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "pw-03-glosowanie"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:pw-03-glosowanie",
+        "key": "shot:pw-rolka/pw-03-glosowanie",
+        "type": "shot",
+        "id": "pw-03-glosowanie",
+        "name": "Zgłoszenie utworu — MFTV",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-03-glosowanie.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "shot:pw-03-glosowanie"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:pw-03-glosowanie",
+            "key": "shot:pw-rolka/pw-03-glosowanie",
+            "type": "shot",
+            "id": "pw-03-glosowanie",
+            "name": "Zgłoszenie utworu — MFTV",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-03-glosowanie.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Create the NEXT separate film shot from reference image 1, same seated first-person person's eyes, identical autumn Polish street/bench/pouch, light-skinned hands and charcoal sleeves, same black smartphone. Change pose: phone is now held in LANDSCAPE orientation firmly with BOTH hands at left and right short edges. Both thumbs rest entirely on bezel/outer edges, fingers wrap behind device; no finger anywhere over active screen. The phone display plane is exactly parallel to camera sensor, absolutely level horizontal top and bottom edges, no tilt yaw roll, symmetric front-on rectangle, all four corners visible with generous border, perfect for simple rectangular video overlay later. Phone fills 85 percent of portrait frame WIDTH, centered at 45 percent image height; hands support relaxed stable grip, elbows supported out of view. Active screen empty uniform matte dark charcoal gray, no interface no symbols no glare no reflections no markers. Hardware earpiece on left short end corresponds to rotating original phone counterclockwise. Keep realistic phone proportions wide 2:1 display, do not make tablet. Open brown pouch lower foreground below hands. Vertical 9:16 1080x1920 composition; horizontal PHONE inside vertical video. No other people, no faces, no added text. Natural anatomy, two hands only. This is a still starting pose already horizontal, not a rotation action.",
+    "endFrameDescription": "",
+    "animation": "0.0–3.0s: Both hands maintain the initial landscape grip for the entire continuous take, supporting the phone at its short edges. Keep the device level, centered, at constant size and distance, with its screen plane parallel to the camera. Camera: locked first-person eye POV, no sway, tilt, roll or zoom. Secondary: barely perceptible sleeve settling without moving the wrists or phone. Preserve rigid phone geometry, natural hand anatomy, clothing and street. All four screen corners remain visible; thumbs and fingers stay outside the active display. Keep the screen uniformly dark gray, unchanged, without graphics or moving reflections. Avoid tapping, rotating, lowering, perspective drift, extra fingers, morphing, cuts or watermarks."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:pw-03-glosowanie"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:pw-03-glosowanie",
+          "key": "shot:pw-rolka/pw-03-glosowanie",
+          "type": "shot",
+          "id": "pw-03-glosowanie",
+          "name": "Zgłoszenie utworu — MFTV",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-03-glosowanie.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-29T10:01:32.846478+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:pw-03-glosowanie"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:pw-03-glosowanie",
+              "key": "shot:pw-rolka/pw-03-glosowanie",
+              "type": "shot",
+              "id": "pw-03-glosowanie",
+              "name": "Zgłoszenie utworu — MFTV",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-03-glosowanie.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-09-29T11:07:21.86+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:pw-03-glosowanie"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:pw-03-glosowanie",
+              "key": "shot:pw-rolka/pw-03-glosowanie",
+              "type": "shot",
+              "id": "pw-03-glosowanie",
+              "name": "Zgłoszenie utworu — MFTV",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-03-glosowanie.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-04-reakcje/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-04-reakcje/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

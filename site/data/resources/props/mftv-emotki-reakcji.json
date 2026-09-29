@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-29T20:28:57.964Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "prop:mftv-emotki-reakcji",
+  "type": "props",
+  "id": "mftv-emotki-reakcji",
+  "name": "MFTV — emotki reakcji",
+  "description": "Oczyszczona i odtworzona generatywnie plansza sześciu motywów ze screenów użytkownika: zdziwienie, uśmiech, 100, maski teatralne, kieliszek i klaps. Neonowy żółty, magenta, cyjan i fiolet. Referencja wyglądu do PW-Rolka, nie oryginalny eksport assetów UI. Układ planszy nie jest kompozycją shota; wybierać potrzebne motywy, nie kopiować całej siatki.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/mftv-emotki-reakcji/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/mftv-emotki-reakcji/image-001-thumb.webp",
+      "width": 1536,
+      "height": 1024,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-29T11:32:35.988Z"
+}

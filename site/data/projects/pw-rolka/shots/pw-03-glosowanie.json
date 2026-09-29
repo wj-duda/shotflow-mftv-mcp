@@ -1,0 +1,219 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-29T20:28:57.964Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:pw-rolka/pw-03-glosowanie",
+  "id": "pw-03-glosowanie",
+  "title": "Zgłoszenie utworu — MFTV",
+  "description": "POV pionowego telefonu z rzeczywistym zrzutem submit.png (formularz zgłoszenia utworu, nie głosowanie). Prawy palec przy przycisku Zgłoś utwór. Nowy Start v002; istniejący take-1 nadal przedstawia pusty ekran ze Start v001. Dialog mechaniki wymaga dostosowania do zmiany przebitki.",
+  "project": {
+    "id": "pw-rolka",
+    "key": "project:pw-rolka",
+    "name": "PW-Rolka",
+    "createdAt": "2026-09-29T09:56:30.689Z"
+  },
+  "chronology": {
+    "projectKey": "project:pw-rolka",
+    "projectCreatedAt": "2026-09-29T09:56:30.689Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": false,
+    "canonicalEvent": false,
+    "sequence": null,
+    "lastSequence": null,
+    "occurrences": [],
+    "sequenceTotal": 16,
+    "uniqueShotCount": 16,
+    "sequenceOrder": null,
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This project material is not present on the saved timeline, so it must not override canonical timeline events by date alone."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "seed"
+    },
+    {
+      "type": "shot",
+      "id": "pw-03-glosowanie"
+    },
+    {
+      "type": "prop",
+      "id": "mftv-ekran-zgloszenia"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:seed",
+        "key": "shot:pw-rolka/seed",
+        "type": "shot",
+        "id": "seed",
+        "name": "Hook przy ladzie",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/seed.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:pw-03-glosowanie",
+        "key": "shot:pw-rolka/pw-03-glosowanie",
+        "type": "shot",
+        "id": "pw-03-glosowanie",
+        "name": "Zgłoszenie utworu — MFTV",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-03-glosowanie.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:mftv-ekran-zgloszenia",
+        "key": "prop:mftv-ekran-zgloszenia",
+        "type": "prop",
+        "id": "mftv-ekran-zgloszenia",
+        "name": "MFTV — ekran zgłoszenia utworu",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/mftv-ekran-zgloszenia.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "shot:pw-03-glosowanie",
+          "prop:mftv-ekran-zgloszenia"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:pw-03-glosowanie",
+            "key": "shot:pw-rolka/pw-03-glosowanie",
+            "type": "shot",
+            "id": "pw-03-glosowanie",
+            "name": "Zgłoszenie utworu — MFTV",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-03-glosowanie.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:mftv-ekran-zgloszenia",
+            "key": "prop:mftv-ekran-zgloszenia",
+            "type": "prop",
+            "id": "mftv-ekran-zgloszenia",
+            "name": "MFTV — ekran zgłoszenia utworu",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/mftv-ekran-zgloszenia.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Edit image 1, preserve the entire photographic scene exactly: seated first-person POV, black portrait smartphone in left hand, right index finger, charcoal sleeves, autumn Polish street and brown leather pouch. Image 2 is the ACTUAL user supplied MFTV screenshot and must be inserted faithfully onto the phone display, fitted to its perspective and bounded by the inner screen bezel. Preserve screenshot layout, Polish lettering, dark panels, colored icons and cyan bottom button 'Zgłoś utwór'. No invented UI, no rewritten labels. Make the screen naturally luminous but perfectly legible, minimal reflections. Adjust ONLY the right index finger position slightly downward so its fingertip is poised just outside the lower-right edge beside the 'Zgłoś utwór' button, ready to tap it; do not obscure that label. Screen content must be upright readable to the camera, use full supplied screenshot except tiny overflow at bottom if necessary. Preserve phone shape and location, hand anatomy, surroundings and lighting. Vertical 9:16 single film frame 1080x1920. No added captions or watermark.",
+    "endFrameDescription": "",
+    "animation": "0.0–1.2s: The right index finger moves inward, taps the cyan 'Zgłoś utwór' button once, then withdraws toward screen right. 1.2–3.0s: the left hand holds the portrait phone steady. Camera: seated first-person eye POV with very gentle breathing drift, no zoom. Secondary: small sleeve creases follow the tapping wrist. Use @Image1 only for the existing screen interface; preserve its layout, colors and Polish lettering, unchanged, sharp and readable, attached rigidly to the display. Keep the same page after the tap. Preserve phone geometry, hands, clothing and street. Avoid scrolling, invented confirmation screens, changing letters, duplicated devices, extra fingers, strong tilt, motion blur, cuts or watermarks."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:pw-03-glosowanie",
+        "prop:mftv-ekran-zgloszenia"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:pw-03-glosowanie",
+          "key": "shot:pw-rolka/pw-03-glosowanie",
+          "type": "shot",
+          "id": "pw-03-glosowanie",
+          "name": "Zgłoszenie utworu — MFTV",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-03-glosowanie.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:mftv-ekran-zgloszenia",
+          "key": "prop:mftv-ekran-zgloszenia",
+          "type": "prop",
+          "id": "mftv-ekran-zgloszenia",
+          "name": "MFTV — ekran zgłoszenia utworu",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/mftv-ekran-zgloszenia.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-29T09:58:25.841371+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:seed"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:seed",
+              "key": "shot:pw-rolka/seed",
+              "type": "shot",
+              "id": "seed",
+              "name": "Hook przy ladzie",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/seed.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-09-29T11:07:21.209+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:pw-03-glosowanie",
+            "prop:mftv-ekran-zgloszenia"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:pw-03-glosowanie",
+              "key": "shot:pw-rolka/pw-03-glosowanie",
+              "type": "shot",
+              "id": "pw-03-glosowanie",
+              "name": "Zgłoszenie utworu — MFTV",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-03-glosowanie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:mftv-ekran-zgloszenia",
+              "key": "prop:mftv-ekran-zgloszenia",
+              "type": "prop",
+              "id": "mftv-ekran-zgloszenia",
+              "name": "MFTV — ekran zgłoszenia utworu",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/mftv-ekran-zgloszenia.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-03-glosowanie/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-03-glosowanie/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

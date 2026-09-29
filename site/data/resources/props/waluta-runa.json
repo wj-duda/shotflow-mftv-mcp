@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T09:09:24.196Z",
+  "generatedAt": "2026-09-29T20:28:57.964Z",
   "worldId": "aimftv",
   "kind": "resource",
   "key": "prop:waluta-runa",
@@ -10,14 +10,14 @@
   "description": "Najwyższa kategoria materialnej reakcji: jasny kamienny lub kościany żeton z wyrytym znakiem, delikatnie podświetlonym od środka. Powstaje z reakcji najwyższej rangi, związanych ze zwycięstwem, perfekcją i wyróżnieniem — kanoniczne przykłady to medal, sto punktów, gwiazdy i puchar. Runa jest niewielka, mieści się w dłoni i ma wyczuwalny ciężar; nie jest kartą, hologramem ani czarem rzucanym w powietrzu. W kantorze place:komis-rtv 4 prop:waluta-gem dają 1 runę, ale rozbicie 1 runy zwraca tylko 2 gemy. Jest kluczowym składnikiem najrzadszych zakupów u character:komisant.",
   "images": [
     {
-      "id": "image-001",
+      "id": "image-002",
       "role": "reference",
-      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/waluta-runa/image-001.webp",
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/waluta-runa/image-001-thumb.webp",
-      "width": 96,
-      "height": 96,
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/waluta-runa/image-002.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/waluta-runa/image-002-thumb.webp",
+      "width": 320,
+      "height": 320,
       "contentType": "image/webp"
     }
   ],
-  "updatedAt": "2026-09-29T11:03:17+02:00"
+  "updatedAt": "2026-09-29T16:42:19.046Z"
 }

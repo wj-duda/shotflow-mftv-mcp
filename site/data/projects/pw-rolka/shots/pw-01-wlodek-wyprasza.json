@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-29T20:28:57.964Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:pw-rolka/pw-01-wlodek-wyprasza",
+  "id": "pw-01-wlodek-wyprasza",
+  "title": "Włodek wyprasza — tam są drzwi",
+  "description": "Plan take'a pod montaż muzyczny: aktualny slot 19f / 0.792s, obecne in=0f. Dla slotów krótszych niż 3s użytkownik wybierze najlepszy moment shiftem z pełnego take'a 3s; nie traktować obecnego in jako obowiązkowego timingu reakcji. Prompty opisują czas źródłowy i pozostawiają zapas do wyboru. Transformacje mają zwarty, kompletny przebieg. Cięcia i muzyka bez zmian, bez generacji audio.\n\nKrótki, ciasny kontrapunkt do średniego planu seed: lekko boczne zbliżenie od strony klienta, bez przejścia za ladę. Zniesmaczony Włodek z zaciśniętymi ustami wskazuje palcem w lewo poza kadr, ku wyjściu po stronie klienta. Dłoń już uniesiona; w 19 klatkach mieści się tylko krótkie ponaglenie gestem. Bez uśmiechu, bez wskazywania widza i bez nowych drzwi za regałami.",
+  "project": {
+    "id": "pw-rolka",
+    "key": "project:pw-rolka",
+    "name": "PW-Rolka",
+    "createdAt": "2026-09-29T09:56:30.689Z"
+  },
+  "chronology": {
+    "projectKey": "project:pw-rolka",
+    "projectCreatedAt": "2026-09-29T09:56:30.689Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 3,
+    "lastSequence": 3,
+    "occurrences": [
+      3
+    ],
+    "sequenceTotal": 16,
+    "uniqueShotCount": 16,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "seed"
+    },
+    {
+      "type": "character",
+      "id": "komisant"
+    },
+    {
+      "type": "shot",
+      "id": "pw-01-wlodek-wyprasza"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:seed",
+        "key": "shot:pw-rolka/seed",
+        "type": "shot",
+        "id": "seed",
+        "name": "Hook przy ladzie",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/seed.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:komisant",
+        "key": "character:komisant",
+        "type": "character",
+        "id": "komisant",
+        "name": "Włodek — Komisant",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/komisant.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:pw-01-wlodek-wyprasza",
+        "key": "shot:pw-rolka/pw-01-wlodek-wyprasza",
+        "type": "shot",
+        "id": "pw-01-wlodek-wyprasza",
+        "name": "Włodek wyprasza — tam są drzwi",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-01-wlodek-wyprasza.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "shot:pw-01-wlodek-wyprasza"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:pw-01-wlodek-wyprasza",
+            "key": "shot:pw-rolka/pw-01-wlodek-wyprasza",
+            "type": "shot",
+            "id": "pw-01-wlodek-wyprasza",
+            "name": "Włodek wyprasza — tam są drzwi",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-01-wlodek-wyprasza.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Edit the supplied image (the sole reference and edit target). Repair framing of the pointing arm: pull camera back about 20 percent while keeping this same slight side angle, same man, exact disgusted face, glasses, moustache, checked shirt, green vest, shop and lighting. Show the COMPLETE bent pointing arm from shoulder through elbow to wrist and all fingertips, with a clear unbroken anatomically natural connection. His left arm crosses his chest and index points horizontally screen left, toward the offscreen exit. The elbow on screen right must be fully INSIDE the frame with at least 8 percent image-width of background beyond it. The left-pointing fingertip must also have at least 10 percent image-width of free space before the left border. Do not crop at shoulder, elbow, wrist or fingertips. Keep face large and expression readable, upper-body portrait not full body; top of head with modest headroom, lower edge below waist behind the glass counter. Natural five-finger hand, one straight index and curled remaining fingers. Preserve cyan-magenta pawnshop background with CRTs, no new people or doors, no captions. Photoreal vertical 9:16. Only change framing and adjust arm inward as needed to fit it comfortably, preserving identity and dismissive gesture.\n\nSecond local repair:\nPrecise anatomical repair of the supplied image. The man's NON-POINTING RIGHT ARM on SCREEN LEFT is missing its forearm below the rolled shirt sleeve. Restore that missing right forearm and right hand. His right upper arm descends along the screen-left side of his torso; the elbow sits at the bottom of the rolled sleeve at screen left. From that elbow a natural bare right forearm must visibly continue DOWNWARD, slightly toward screen left, ending in a relaxed right hand resting palm-down on the glass counter at LOWER LEFT. Show a continuous anatomical connection elbow -> bare forearm -> wrist -> whole hand, all within frame. The pointing LEFT arm already crossing his chest is a DIFFERENT arm: keep that pointing hand and forearm exactly as they are. There must be exactly two arms and two hands: one points left at chest height, one rests lower on the counter. No amputated stumps, no merged elbows, no extra limbs. Preserve exact face, disgusted expression, glasses, moustache, green vest, checked shirt, camera angle, framing, shop and lighting. This is a local repair of the missing non-pointing forearm and hand, not a redesign. Photoreal vertical 9:16.",
+    "endFrameDescription": "",
+    "animation": "0.00–0.55s: Wlodek holds his already-raised sideways pointing hand and disgusted stare. 0.55–1.10s: he makes one short dismissive three-centimeter jab toward screen left, never toward the lens; his brow tightens and lips compress. 1.10–3.00s: hold the emphatic pose with subtle breathing, no repeated gesture. Camera: locked close customer POV. His other hand remains resting on the counter. Preserve both connected arms, exact face, glasses, moustache, outfit, hand anatomy and shop lighting. No speech, extra fingers, new people, cuts or captions. Keep the jab compact with stable poses on either side so the editor can select a strong sub-second excerpt.\n@Image1 locks Wlodek's face, moustache and glasses only; retain the Start Frame disgust and pointing arm, no duplicate person."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:pw-01-wlodek-wyprasza"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:pw-01-wlodek-wyprasza",
+          "key": "shot:pw-rolka/pw-01-wlodek-wyprasza",
+          "type": "shot",
+          "id": "pw-01-wlodek-wyprasza",
+          "name": "Włodek wyprasza — tam są drzwi",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-01-wlodek-wyprasza.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-29T14:50:57.480723+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:seed",
+            "character:komisant"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:seed",
+              "key": "shot:pw-rolka/seed",
+              "type": "shot",
+              "id": "seed",
+              "name": "Hook przy ladzie",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/seed.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:komisant",
+              "key": "character:komisant",
+              "type": "character",
+              "id": "komisant",
+              "name": "Włodek — Komisant",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/komisant.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-09-29T15:00:40.888516+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:pw-01-wlodek-wyprasza"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:pw-01-wlodek-wyprasza",
+              "key": "shot:pw-rolka/pw-01-wlodek-wyprasza",
+              "type": "shot",
+              "id": "pw-01-wlodek-wyprasza",
+              "name": "Włodek wyprasza — tam są drzwi",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-01-wlodek-wyprasza.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-01-wlodek-wyprasza/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-01-wlodek-wyprasza/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-29T20:28:57.964Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "prop:mftv-ekran-zgloszenia",
+  "type": "props",
+  "id": "mftv-ekran-zgloszenia",
+  "name": "MFTV — ekran zgłoszenia utworu",
+  "description": "Oryginalny submit.png użytkownika: ekran formularza zgłoszenia utworu MFTV. Referencja wyłącznie zawartości istniejącego ekranu telefonu: układ, polskie etykiety, kolory i przycisk „Zgłoś utwór”. Nie przedstawia głosowania. Nie dodawać drugiego urządzenia.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/mftv-ekran-zgloszenia/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/mftv-ekran-zgloszenia/image-001-thumb.webp",
+      "width": 490,
+      "height": 996,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-29T11:13:17.684Z"
+}

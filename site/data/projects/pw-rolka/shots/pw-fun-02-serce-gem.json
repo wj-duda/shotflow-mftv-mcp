@@ -1,0 +1,364 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-29T20:28:57.964Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:pw-rolka/pw-fun-02-serce-gem",
+  "id": "pw-fun-02-serce-gem",
+  "title": "Fun 02 — reakcje stają się łupem",
+  "description": "Korekta dynamiki: szybki przelot przez kadr, bez zawisania i prezentacyjnych pauz. Następna generacja 3 s, useEndFrame=false; zachowany End Frame jest tylko archiwum wyglądu, nie celem ruchu.\n\nPlan take'a pod montaż muzyczny: aktualny slot 33f / 1.375s, obecne in=0f. Dla slotów krótszych niż 3s użytkownik wybierze najlepszy moment shiftem z pełnego take'a 3s; nie traktować obecnego in jako obowiązkowego timingu reakcji. Prompty opisują czas źródłowy i pozostawiają zapas do wyboru. Transformacje mają zwarty, kompletny przebieg. Cięcia i muzyka bez zmian, bez generacji audio.\n\nMakro POV/VFX: żółta zdziwiona emotka po lewej kondensuje się w fioletowy gem, uśmiech po prawej w czerwony anatomiczny fant-serce. To magiczna wizualizacja przyznania zasobów, nie zmiana kursów sklepu. ",
+  "project": {
+    "id": "pw-rolka",
+    "key": "project:pw-rolka",
+    "name": "PW-Rolka",
+    "createdAt": "2026-09-29T09:56:30.689Z"
+  },
+  "chronology": {
+    "projectKey": "project:pw-rolka",
+    "projectCreatedAt": "2026-09-29T09:56:30.689Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 6,
+    "lastSequence": 6,
+    "occurrences": [
+      6
+    ],
+    "sequenceTotal": 16,
+    "uniqueShotCount": 16,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "pw-fun-01-wyrzut"
+    },
+    {
+      "type": "prop",
+      "id": "mftv-emotki-reakcji"
+    },
+    {
+      "type": "shot",
+      "id": "pw-fun-02-serce-gem"
+    },
+    {
+      "type": "prop",
+      "id": "waluta-gem"
+    },
+    {
+      "type": "prop",
+      "id": "waluta-serce"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:pw-fun-01-wyrzut",
+        "key": "shot:pw-rolka/pw-fun-01-wyrzut",
+        "type": "shot",
+        "id": "pw-fun-01-wyrzut",
+        "name": "Fun 01 — emotki poza ekranem",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-fun-01-wyrzut.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:mftv-emotki-reakcji",
+        "key": "prop:mftv-emotki-reakcji",
+        "type": "prop",
+        "id": "mftv-emotki-reakcji",
+        "name": "MFTV — emotki reakcji",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/mftv-emotki-reakcji.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:pw-fun-02-serce-gem",
+        "key": "shot:pw-rolka/pw-fun-02-serce-gem",
+        "type": "shot",
+        "id": "pw-fun-02-serce-gem",
+        "name": "Fun 02 — reakcje stają się łupem",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-fun-02-serce-gem.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:waluta-gem",
+        "key": "prop:waluta-gem",
+        "type": "prop",
+        "id": "waluta-gem",
+        "name": "Gem — waluta reakcji",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-gem.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:waluta-serce",
+        "key": "prop:waluta-serce",
+        "type": "prop",
+        "id": "waluta-serce",
+        "name": "Serce — waluta reakcji",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-serce.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:pw-fun-01-wyrzut",
+          "prop:mftv-emotki-reakcji"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:pw-fun-01-wyrzut",
+            "key": "shot:pw-rolka/pw-fun-01-wyrzut",
+            "type": "shot",
+            "id": "pw-fun-01-wyrzut",
+            "name": "Fun 01 — emotki poza ekranem",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-fun-01-wyrzut.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:mftv-emotki-reakcji",
+            "key": "prop:mftv-emotki-reakcji",
+            "type": "prop",
+            "id": "mftv-emotki-reakcji",
+            "name": "MFTV — emotki reakcji",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/mftv-emotki-reakcji.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      },
+      {
+        "frameId": "frame-end",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:pw-fun-02-serce-gem",
+          "prop:waluta-gem",
+          "prop:waluta-serce"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:pw-fun-02-serce-gem",
+            "key": "shot:pw-rolka/pw-fun-02-serce-gem",
+            "type": "shot",
+            "id": "pw-fun-02-serce-gem",
+            "name": "Fun 02 — reakcje stają się łupem",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-fun-02-serce-gem.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:waluta-gem",
+            "key": "prop:waluta-gem",
+            "type": "prop",
+            "id": "waluta-gem",
+            "name": "Gem — waluta reakcji",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-gem.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:waluta-serce",
+            "key": "prop:waluta-serce",
+            "type": "prop",
+            "id": "waluta-serce",
+            "name": "Serce — waluta reakcji",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-serce.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Create a NEW tighter shot in the exact same scene as image 1. Image 1 is continuity for street, daylight, phone, charcoal sleeves and pouch; image 2 defines exact graphic emoji designs only. Single vertical 9:16 1080x1920 photographic VFX macro composition: camera is now close to TWO airborne reaction graphics, surprised yellow face on left at 40 percent frame height, happy yellow face on right slightly lower at 50 percent height, separated cleanly. Faces each about 28 percent frame width, cyan/magenta edges matching reference, suspended just after launch. Thin neon trails curl down behind them toward a softly defocused phone at lower-left, pouch on knees a small blurred anchor bottom center, same autumn street bokeh behind. Tight macro viewpoint from creator position; no visible face or new person. Leave empty lower-middle room for a downward trajectory. The pink 100 is outside this tight shot, not erased from the world. No currency in this Start Frame, no UI panels, no labels, no new text. Keep both faces fully visible and stable, flat graphic surfaces, not spheres. A restrained 8 degree dutch angle and short streaks suggest fast movement, subject edges crisp.",
+    "endFrameDescription": "Dokładnie dwie emotki zastąpione materialnymi fantami: po lewej fioletowy gem, po prawej czerwone anatomiczne serce; zaczynają opadać.",
+    "animation": "0.00–0.25s: both existing emojis streak diagonally downward across the image, surprised face in the left lane, smile in the right; motion starts immediately. 0.25–0.85s: without losing speed, the left face snaps inward into purple crystalline facets and the right face folds into the rigid red heart token. Brief cyan-magenta sparks trail behind, leaving the transformations visible. 0.85–1.35s: the completed tokens tumble downward past the lower lens edge toward the pouch. 1.35–3.00s: camera follows their continuing descent, never returning to a floating display. Camera: fast downward handheld tilt, lagging the objects enough for clear screen-space travel. Preserve hands, phone, street and left-right assignment. No midair hold, slow motion, blood, duplicates or cuts.\n@Image1 locks the gem; @Image2 locks the rigid heart. Each replaces its existing emoji."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:pw-fun-01-wyrzut",
+        "prop:mftv-emotki-reakcji"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:pw-fun-01-wyrzut",
+          "key": "shot:pw-rolka/pw-fun-01-wyrzut",
+          "type": "shot",
+          "id": "pw-fun-01-wyrzut",
+          "name": "Fun 01 — emotki poza ekranem",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-fun-01-wyrzut.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:mftv-emotki-reakcji",
+          "key": "prop:mftv-emotki-reakcji",
+          "type": "prop",
+          "id": "mftv-emotki-reakcji",
+          "name": "MFTV — emotki reakcji",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/mftv-emotki-reakcji.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-29T11:59:20.120342+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:pw-fun-01-wyrzut",
+            "prop:mftv-emotki-reakcji"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:pw-fun-01-wyrzut",
+              "key": "shot:pw-rolka/pw-fun-01-wyrzut",
+              "type": "shot",
+              "id": "pw-fun-01-wyrzut",
+              "name": "Fun 01 — emotki poza ekranem",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-fun-01-wyrzut.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:mftv-emotki-reakcji",
+              "key": "prop:mftv-emotki-reakcji",
+              "type": "prop",
+              "id": "mftv-emotki-reakcji",
+              "name": "MFTV — emotki reakcji",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/mftv-emotki-reakcji.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-fun-02-serce-gem/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-fun-02-serce-gem/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "role": "frame-end",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:pw-fun-02-serce-gem",
+        "prop:waluta-gem",
+        "prop:waluta-serce"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:pw-fun-02-serce-gem",
+          "key": "shot:pw-rolka/pw-fun-02-serce-gem",
+          "type": "shot",
+          "id": "pw-fun-02-serce-gem",
+          "name": "Fun 02 — reakcje stają się łupem",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-fun-02-serce-gem.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:waluta-gem",
+          "key": "prop:waluta-gem",
+          "type": "prop",
+          "id": "waluta-gem",
+          "name": "Gem — waluta reakcji",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-gem.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:waluta-serce",
+          "key": "prop:waluta-serce",
+          "type": "prop",
+          "id": "waluta-serce",
+          "name": "Serce — waluta reakcji",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-serce.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-29T12:01:35.804649+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:pw-fun-02-serce-gem",
+            "prop:waluta-gem",
+            "prop:waluta-serce"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:pw-fun-02-serce-gem",
+              "key": "shot:pw-rolka/pw-fun-02-serce-gem",
+              "type": "shot",
+              "id": "pw-fun-02-serce-gem",
+              "name": "Fun 02 — reakcje stają się łupem",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-fun-02-serce-gem.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:waluta-gem",
+              "key": "prop:waluta-gem",
+              "type": "prop",
+              "id": "waluta-gem",
+              "name": "Gem — waluta reakcji",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-gem.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:waluta-serce",
+              "key": "prop:waluta-serce",
+              "type": "prop",
+              "id": "waluta-serce",
+              "name": "Serce — waluta reakcji",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-serce.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-fun-02-serce-gem/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-fun-02-serce-gem/frame-end-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

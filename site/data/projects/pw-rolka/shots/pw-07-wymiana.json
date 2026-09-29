@@ -1,0 +1,423 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-29T20:28:57.964Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:pw-rolka/pw-07-wymiana",
+  "id": "pw-07-wymiana",
+  "title": "Wymiana — wysypanie na ladę",
+  "description": "Plan take'a pod montaż muzyczny: aktualny slot 96f / 4.000s, obecne in=25f. Dla slotów krótszych niż 3s użytkownik wybierze najlepszy moment shiftem z pełnego take'a 3s; nie traktować obecnego in jako obowiązkowego timingu reakcji. Prompty opisują czas źródłowy i pozostawiają zapas do wyboru. Transformacje mają zwarty, kompletny przebieg. Cięcia i muzyka bez zmian, bez generacji audio.\n\nUkośne POV wysypywania łupu na ladę. Włodek reaguje satysfakcją z nadchodzącego zarobku: brew lekko w górę, chytry zamknięty półuśmiech, na koniec spojrzenie znad okularów na klienta. Dłoń zatrzymuje ostatnie ucho. Start v002 / End v002; źródło 6s, akcja po in=25. Bez dialogu; emocję przekazują wyłącznie mikroekspresje i gesty.",
+  "project": {
+    "id": "pw-rolka",
+    "key": "project:pw-rolka",
+    "name": "PW-Rolka",
+    "createdAt": "2026-09-29T09:56:30.689Z"
+  },
+  "chronology": {
+    "projectKey": "project:pw-rolka",
+    "projectCreatedAt": "2026-09-29T09:56:30.689Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 11,
+    "lastSequence": 11,
+    "occurrences": [
+      11
+    ],
+    "sequenceTotal": 16,
+    "uniqueShotCount": 16,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "seed"
+    },
+    {
+      "type": "prop",
+      "id": "waluta-ucho"
+    },
+    {
+      "type": "prop",
+      "id": "waluta-serce"
+    },
+    {
+      "type": "prop",
+      "id": "waluta-gem"
+    },
+    {
+      "type": "prop",
+      "id": "waluta-runa"
+    },
+    {
+      "type": "shot",
+      "id": "pw-07-wymiana"
+    },
+    {
+      "type": "character",
+      "id": "komisant"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:seed",
+        "key": "shot:pw-rolka/seed",
+        "type": "shot",
+        "id": "seed",
+        "name": "Hook przy ladzie",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/seed.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:waluta-ucho",
+        "key": "prop:waluta-ucho",
+        "type": "prop",
+        "id": "waluta-ucho",
+        "name": "Ucho — waluta uczestnictwa",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-ucho.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:waluta-serce",
+        "key": "prop:waluta-serce",
+        "type": "prop",
+        "id": "waluta-serce",
+        "name": "Serce — waluta reakcji",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-serce.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:waluta-gem",
+        "key": "prop:waluta-gem",
+        "type": "prop",
+        "id": "waluta-gem",
+        "name": "Gem — waluta reakcji",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-gem.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:waluta-runa",
+        "key": "prop:waluta-runa",
+        "type": "prop",
+        "id": "waluta-runa",
+        "name": "Runa — waluta reakcji",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-runa.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:pw-07-wymiana",
+        "key": "shot:pw-rolka/pw-07-wymiana",
+        "type": "shot",
+        "id": "pw-07-wymiana",
+        "name": "Wymiana — wysypanie na ladę",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-07-wymiana.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:komisant",
+        "key": "character:komisant",
+        "type": "character",
+        "id": "komisant",
+        "name": "Włodek — Komisant",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/komisant.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "shot:pw-07-wymiana",
+          "character:komisant"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:pw-07-wymiana",
+            "key": "shot:pw-rolka/pw-07-wymiana",
+            "type": "shot",
+            "id": "pw-07-wymiana",
+            "name": "Wymiana — wysypanie na ladę",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-07-wymiana.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:komisant",
+            "key": "character:komisant",
+            "type": "character",
+            "id": "komisant",
+            "name": "Włodek — Komisant",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/komisant.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      },
+      {
+        "frameId": "frame-end",
+        "revision": 2,
+        "referenceKeys": [
+          "shot:pw-07-wymiana"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:pw-07-wymiana",
+            "key": "shot:pw-rolka/pw-07-wymiana",
+            "type": "shot",
+            "id": "pw-07-wymiana",
+            "name": "Wymiana — wysypanie na ladę",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-07-wymiana.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Create ONE new photorealistic vertical 9:16 1080x1920 START FRAME for a five-second real physical pouring action. Image 1 is continuity ONLY for Wlodek's pawnshop, glass counter, lamps and clothing, NOT its frontal camera angle or arranged display. Image 2 locks Wlodek's identity. Image 3 is the exact customer's brown leather pouch and its five small collectibles: two brass ears, one purple faceted gem, one red anatomical heart trinket, one ivory engraved rune. Radically change framing to a tight oblique first-person customer's downward glance from the LEFT end of the public side of the same counter, looking diagonally along glass at a 45-degree angle. Do not cross behind counter. Counter edge recedes diagonally lower-left to upper-right. Main focus is customer's LEFT hand in charcoal sleeve gripping pouch base and tipping it mouth-down toward center-right, pouch about 10cm above glass, just beginning to pour. Its round opening angled down-right visibly contains the first brass ear at its lip, all other loot still INSIDE pouch. Tabletop pouring area EMPTY, no already arranged tokens. Customer's right hand OUT OF FRAME. Wlodek cropped at upper-right/background: part of same skeptical face and green vest, not a centered portrait; his RIGHT hand rests palm down beyond landing area, ready to stop rolling loot, no reaching across yet. Physical leather folds obey gravity, dangling gold drawcord, clean five-finger anatomy. Jewelry and cameras remain BELOW the glass, not confused with poured loot. Warm dusty shop light, restrained cyan/magenta reflections, realistic worn glass and small scratches, no sparkles or magic beams. Clear negative landing space. No flat lay, no neatly sorted objects, no symmetrical tableau, no extra hands, no text or watermark.",
+    "endFrameDescription": "Po wysypaniu łupu Włodek zerka znad okularów na klienta z uniesioną brwią i chytrym, zamkniętym półuśmiechem; dłoń pilnuje ucha.",
+    "animation": "0.00–1.04s: hold the tipped pouch with tokens still inside; only a slight wrist adjustment. 1.04–2.70s: the customer's left hand tips farther, releasing the five existing tokens in one gravity-driven cascade onto the glass. 2.70–3.65s: they bounce into an irregular pile; Wlodek's visible hand stops the last brass ear. 3.65–4.65s: he looks over his glasses at the customer with a raised eyebrow and sly closed-mouth smile. Reach End composition by 4.65s and hold naturally through 6.00s. Camera: short eight-centimeter push toward the landing area during pouring. Preserve identity, hands, token designs and glass. No friendly grin, duplicated loot, levitation, cuts or text. Edit uses source 1.042–5.042s. Wlodek stays silent with lips closed; no speaking or lip-sync.\n@Image1 locks the existing Wlodek's identity only; @Image2 locks the existing rune's engraving and silhouette. Preserve all five tokens and their Start/End scale, no additions."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:pw-07-wymiana",
+        "character:komisant"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:pw-07-wymiana",
+          "key": "shot:pw-rolka/pw-07-wymiana",
+          "type": "shot",
+          "id": "pw-07-wymiana",
+          "name": "Wymiana — wysypanie na ladę",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-07-wymiana.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:komisant",
+          "key": "character:komisant",
+          "type": "character",
+          "id": "komisant",
+          "name": "Włodek — Komisant",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/komisant.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-29T10:06:54.783087+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:seed",
+            "prop:waluta-ucho",
+            "prop:waluta-serce",
+            "prop:waluta-gem",
+            "prop:waluta-runa"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:seed",
+              "key": "shot:pw-rolka/seed",
+              "type": "shot",
+              "id": "seed",
+              "name": "Hook przy ladzie",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/seed.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:waluta-ucho",
+              "key": "prop:waluta-ucho",
+              "type": "prop",
+              "id": "waluta-ucho",
+              "name": "Ucho — waluta uczestnictwa",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-ucho.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:waluta-serce",
+              "key": "prop:waluta-serce",
+              "type": "prop",
+              "id": "waluta-serce",
+              "name": "Serce — waluta reakcji",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-serce.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:waluta-gem",
+              "key": "prop:waluta-gem",
+              "type": "prop",
+              "id": "waluta-gem",
+              "name": "Gem — waluta reakcji",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-gem.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:waluta-runa",
+              "key": "prop:waluta-runa",
+              "type": "prop",
+              "id": "waluta-runa",
+              "name": "Runa — waluta reakcji",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-runa.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-09-29T12:21:14.337407+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:pw-07-wymiana",
+            "character:komisant"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:pw-07-wymiana",
+              "key": "shot:pw-rolka/pw-07-wymiana",
+              "type": "shot",
+              "id": "pw-07-wymiana",
+              "name": "Wymiana — wysypanie na ladę",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-07-wymiana.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:komisant",
+              "key": "character:komisant",
+              "type": "character",
+              "id": "komisant",
+              "name": "Włodek — Komisant",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/komisant.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-07-wymiana/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-07-wymiana/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "role": "frame-end",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:pw-07-wymiana"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:pw-07-wymiana",
+          "key": "shot:pw-rolka/pw-07-wymiana",
+          "type": "shot",
+          "id": "pw-07-wymiana",
+          "name": "Wymiana — wysypanie na ladę",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-07-wymiana.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-29T12:24:14.206987+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:pw-07-wymiana",
+            "prop:waluta-runa"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:pw-07-wymiana",
+              "key": "shot:pw-rolka/pw-07-wymiana",
+              "type": "shot",
+              "id": "pw-07-wymiana",
+              "name": "Wymiana — wysypanie na ladę",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-07-wymiana.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:waluta-runa",
+              "key": "prop:waluta-runa",
+              "type": "prop",
+              "id": "waluta-runa",
+              "name": "Runa — waluta reakcji",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-runa.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-09-29T13:58:19.86984+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:pw-07-wymiana"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:pw-07-wymiana",
+              "key": "shot:pw-rolka/pw-07-wymiana",
+              "type": "shot",
+              "id": "pw-07-wymiana",
+              "name": "Wymiana — wysypanie na ladę",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-07-wymiana.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-07-wymiana/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-07-wymiana/frame-end-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

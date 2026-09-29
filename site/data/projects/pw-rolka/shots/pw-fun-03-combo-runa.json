@@ -1,0 +1,364 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-29T20:28:57.964Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:pw-rolka/pw-fun-03-combo-runa",
+  "id": "pw-fun-03-combo-runa",
+  "title": "Fun 03 — sto punktów staje się runą",
+  "description": "Korekta dynamiki: szybki przelot przez kadr, bez zawisania i prezentacyjnych pauz. Następna generacja 3 s, useEndFrame=false; zachowany End Frame jest tylko archiwum wyglądu, nie celem ruchu.\n\nPlan take'a pod montaż muzyczny: aktualny slot 55f / 2.292s, obecne in=0f. Dla slotów krótszych niż 3s użytkownik wybierze najlepszy moment shiftem z pełnego take'a 3s; nie traktować obecnego in jako obowiązkowego timingu reakcji. Prompty opisują czas źródłowy i pozostawiają zapas do wyboru. Transformacje mają zwarty, kompletny przebieg. Cięcia i muzyka bez zmian, bez generacji audio.\n\nOsobny makro insert: neonowe 100 zmienia się w jasną kamienną runę zgodną z lore. Mały złoty znak S / SUPER COMBO bez przykładowego nicku jest efektem reakcji, nie ekranem formularza. ",
+  "project": {
+    "id": "pw-rolka",
+    "key": "project:pw-rolka",
+    "name": "PW-Rolka",
+    "createdAt": "2026-09-29T09:56:30.689Z"
+  },
+  "chronology": {
+    "projectKey": "project:pw-rolka",
+    "projectCreatedAt": "2026-09-29T09:56:30.689Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 7,
+    "lastSequence": 7,
+    "occurrences": [
+      7
+    ],
+    "sequenceTotal": 16,
+    "uniqueShotCount": 16,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "pw-fun-01-wyrzut"
+    },
+    {
+      "type": "prop",
+      "id": "mftv-emotki-reakcji"
+    },
+    {
+      "type": "prop",
+      "id": "mftv-super-combo"
+    },
+    {
+      "type": "shot",
+      "id": "pw-fun-03-combo-runa"
+    },
+    {
+      "type": "prop",
+      "id": "waluta-runa"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:pw-fun-01-wyrzut",
+        "key": "shot:pw-rolka/pw-fun-01-wyrzut",
+        "type": "shot",
+        "id": "pw-fun-01-wyrzut",
+        "name": "Fun 01 — emotki poza ekranem",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-fun-01-wyrzut.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:mftv-emotki-reakcji",
+        "key": "prop:mftv-emotki-reakcji",
+        "type": "prop",
+        "id": "mftv-emotki-reakcji",
+        "name": "MFTV — emotki reakcji",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/mftv-emotki-reakcji.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:mftv-super-combo",
+        "key": "prop:mftv-super-combo",
+        "type": "prop",
+        "id": "mftv-super-combo",
+        "name": "MFTV — Super Combo",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/mftv-super-combo.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:pw-fun-03-combo-runa",
+        "key": "shot:pw-rolka/pw-fun-03-combo-runa",
+        "type": "shot",
+        "id": "pw-fun-03-combo-runa",
+        "name": "Fun 03 — sto punktów staje się runą",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-fun-03-combo-runa.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:waluta-runa",
+        "key": "prop:waluta-runa",
+        "type": "prop",
+        "id": "waluta-runa",
+        "name": "Runa — waluta reakcji",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-runa.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:pw-fun-01-wyrzut",
+          "prop:mftv-emotki-reakcji",
+          "prop:mftv-super-combo"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:pw-fun-01-wyrzut",
+            "key": "shot:pw-rolka/pw-fun-01-wyrzut",
+            "type": "shot",
+            "id": "pw-fun-01-wyrzut",
+            "name": "Fun 01 — emotki poza ekranem",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-fun-01-wyrzut.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:mftv-emotki-reakcji",
+            "key": "prop:mftv-emotki-reakcji",
+            "type": "prop",
+            "id": "mftv-emotki-reakcji",
+            "name": "MFTV — emotki reakcji",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/mftv-emotki-reakcji.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:mftv-super-combo",
+            "key": "prop:mftv-super-combo",
+            "type": "prop",
+            "id": "mftv-super-combo",
+            "name": "MFTV — Super Combo",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/mftv-super-combo.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      },
+      {
+        "frameId": "frame-end",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:pw-fun-03-combo-runa",
+          "prop:waluta-runa"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:pw-fun-03-combo-runa",
+            "key": "shot:pw-rolka/pw-fun-03-combo-runa",
+            "type": "shot",
+            "id": "pw-fun-03-combo-runa",
+            "name": "Fun 03 — sto punktów staje się runą",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-fun-03-combo-runa.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:waluta-runa",
+            "key": "prop:waluta-runa",
+            "type": "prop",
+            "id": "waluta-runa",
+            "name": "Runa — waluta reakcji",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-runa.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Create a NEW separate extreme-close insert in the exact real-world street scene from image 1; image 2 defines the pink 100 reaction design, image 3 defines gold S and SUPER COMBO visual style only. Single vertical 9:16 1080x1920 film frame. A single large hot-pink double-underlined 100 floats centrally, about 45 percent frame width, sharp cyan edge and magenta rim. This is the untransformed START state. Shallow focus autumn street and dark knees below, same phone a very small blurred sliver near lower-left, open brown pouch partly visible along bottom. A small golden celebratory S badge with EXACT words 'SUPER COMBO' sits upper-left in the background, one compact graphic WITHOUT a username, no long scoreboard panel; use faithful yellow-white-gold and pink accents from image 3. Badge should not overlap the hero 100. Three sparse gold particles circle around the 100, ready for transformation, no full flash, no stone yet. Use macro lens depth and a dynamic slight diagonal, no humans except edge of same charcoal sleeve. No new props, no other reaction faces, no extra text, no collage. All elements physically share the same street lighting.",
+    "endFrameDescription": "100 skondensowane w jedną jasną, fizyczną runę z kanonicznym grawerunkiem; Super Combo zachowane, iskry gasną.",
+    "animation": "0.00–0.35s: the existing pink 100 shoots diagonally toward screen right, moving one symbol-width while retaining its exact rigid shape. 0.35–0.50s: the entire 100 vanishes inside one compact gold spark burst at its moving position. The burst briefly conceals only the symbol, never the whole frame. 0.50–1.25s: exactly one fully formed solid rune emerges from that same burst, already moving diagonally downward toward the pouch; its engraved face stays toward camera. No intermediate shape is visible. 1.25–3.00s: the rune continues down and exits the lower edge; sparks fade behind it. Camera: steady customer-eye framing with minimal handheld drift, no tracking. Preserve street, knees, pouch and unchanged SUPER COMBO badge. No melting, stretching numerals, hybrid number-stone shapes, gradual morph, hovering, duplicate objects, cuts or full-screen flash.\n@Image1 defines the complete final rune and exact engraving."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:pw-fun-01-wyrzut",
+        "prop:mftv-emotki-reakcji",
+        "prop:mftv-super-combo"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:pw-fun-01-wyrzut",
+          "key": "shot:pw-rolka/pw-fun-01-wyrzut",
+          "type": "shot",
+          "id": "pw-fun-01-wyrzut",
+          "name": "Fun 01 — emotki poza ekranem",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-fun-01-wyrzut.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:mftv-emotki-reakcji",
+          "key": "prop:mftv-emotki-reakcji",
+          "type": "prop",
+          "id": "mftv-emotki-reakcji",
+          "name": "MFTV — emotki reakcji",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/mftv-emotki-reakcji.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:mftv-super-combo",
+          "key": "prop:mftv-super-combo",
+          "type": "prop",
+          "id": "mftv-super-combo",
+          "name": "MFTV — Super Combo",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/mftv-super-combo.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-29T11:59:22.460336+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:pw-fun-01-wyrzut",
+            "prop:mftv-emotki-reakcji",
+            "prop:mftv-super-combo"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:pw-fun-01-wyrzut",
+              "key": "shot:pw-rolka/pw-fun-01-wyrzut",
+              "type": "shot",
+              "id": "pw-fun-01-wyrzut",
+              "name": "Fun 01 — emotki poza ekranem",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-fun-01-wyrzut.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:mftv-emotki-reakcji",
+              "key": "prop:mftv-emotki-reakcji",
+              "type": "prop",
+              "id": "mftv-emotki-reakcji",
+              "name": "MFTV — emotki reakcji",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/mftv-emotki-reakcji.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:mftv-super-combo",
+              "key": "prop:mftv-super-combo",
+              "type": "prop",
+              "id": "mftv-super-combo",
+              "name": "MFTV — Super Combo",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/mftv-super-combo.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-fun-03-combo-runa/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-fun-03-combo-runa/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "role": "frame-end",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:pw-fun-03-combo-runa",
+        "prop:waluta-runa"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:pw-fun-03-combo-runa",
+          "key": "shot:pw-rolka/pw-fun-03-combo-runa",
+          "type": "shot",
+          "id": "pw-fun-03-combo-runa",
+          "name": "Fun 03 — sto punktów staje się runą",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-fun-03-combo-runa.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:waluta-runa",
+          "key": "prop:waluta-runa",
+          "type": "prop",
+          "id": "waluta-runa",
+          "name": "Runa — waluta reakcji",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-runa.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-29T12:01:38.382711+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:pw-fun-03-combo-runa",
+            "prop:waluta-runa"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:pw-fun-03-combo-runa",
+              "key": "shot:pw-rolka/pw-fun-03-combo-runa",
+              "type": "shot",
+              "id": "pw-fun-03-combo-runa",
+              "name": "Fun 03 — sto punktów staje się runą",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/pw-fun-03-combo-runa.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:waluta-runa",
+              "key": "prop:waluta-runa",
+              "type": "prop",
+              "id": "waluta-runa",
+              "name": "Runa — waluta reakcji",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-runa.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-fun-03-combo-runa/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-fun-03-combo-runa/frame-end-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

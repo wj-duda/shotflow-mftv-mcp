@@ -1,0 +1,278 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-29T20:28:57.964Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:pw-rolka/pw-05-lup",
+  "id": "pw-05-lup",
+  "title": "Zasób staje się łupem",
+  "description": "POV w dół na otwartą sakiewkę; fioletowy gem w prawej dłoni nad otworem. Match cut z przyznanego zasobu na ekranie.",
+  "project": {
+    "id": "pw-rolka",
+    "key": "project:pw-rolka",
+    "name": "PW-Rolka",
+    "createdAt": "2026-09-29T09:56:30.689Z"
+  },
+  "chronology": {
+    "projectKey": "project:pw-rolka",
+    "projectCreatedAt": "2026-09-29T09:56:30.689Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": false,
+    "canonicalEvent": false,
+    "sequence": null,
+    "lastSequence": null,
+    "occurrences": [],
+    "sequenceTotal": 16,
+    "uniqueShotCount": 16,
+    "sequenceOrder": null,
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This project material is not present on the saved timeline, so it must not override canonical timeline events by date alone."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "seed"
+    },
+    {
+      "type": "prop",
+      "id": "sakiewka-tworcy"
+    },
+    {
+      "type": "prop",
+      "id": "waluta-gem"
+    },
+    {
+      "type": "prop",
+      "id": "waluta-ucho"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:seed",
+        "key": "shot:pw-rolka/seed",
+        "type": "shot",
+        "id": "seed",
+        "name": "Hook przy ladzie",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/seed.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:sakiewka-tworcy",
+        "key": "prop:sakiewka-tworcy",
+        "type": "prop",
+        "id": "sakiewka-tworcy",
+        "name": "Sakiewka twórcy",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/sakiewka-tworcy.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:waluta-gem",
+        "key": "prop:waluta-gem",
+        "type": "prop",
+        "id": "waluta-gem",
+        "name": "Gem — waluta reakcji",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-gem.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:waluta-ucho",
+        "key": "prop:waluta-ucho",
+        "type": "prop",
+        "id": "waluta-ucho",
+        "name": "Ucho — waluta uczestnictwa",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-ucho.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:seed",
+          "prop:sakiewka-tworcy",
+          "prop:waluta-gem",
+          "prop:waluta-ucho"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:seed",
+            "key": "shot:pw-rolka/seed",
+            "type": "shot",
+            "id": "seed",
+            "name": "Hook przy ladzie",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/seed.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:sakiewka-tworcy",
+            "key": "prop:sakiewka-tworcy",
+            "type": "prop",
+            "id": "sakiewka-tworcy",
+            "name": "Sakiewka twórcy",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/sakiewka-tworcy.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:waluta-gem",
+            "key": "prop:waluta-gem",
+            "type": "prop",
+            "id": "waluta-gem",
+            "name": "Gem — waluta reakcji",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-gem.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:waluta-ucho",
+            "key": "prop:waluta-ucho",
+            "type": "prop",
+            "id": "waluta-ucho",
+            "name": "Ucho — waluta uczestnictwa",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-ucho.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Use case: photorealistic-natural. Generate exactly ONE photorealistic vertical 9:16 film Start Frame, ideally 1080x1920. Documentary pawnshop reality show style, realistic cinematic detail. No collage, no watermark, no subtitles. Strict first-person POV looking down outside in soft overcast daylight. Same adult light-skinned hands and charcoal jacket sleeves as ref1. LEFT hand holds small open worn brown drawstring pouch matching ref2. RIGHT thumb and index finger hold a small intense purple faceted gem matching ref3 exactly, immediately above opening, poised to release it. Two tiny golden brass ear tokens matching ref4 visible inside pouch, no coins. Extreme close-up on gemstone and pouch, gem centered at 50% width 48% height for match cut from phone screen. Physical weighted tactile materials, no floating symbols, no magic smoke, no glow beams. No text or UI. No body face or other people.",
+    "endFrameDescription": "",
+    "animation": ""
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:seed",
+        "prop:sakiewka-tworcy",
+        "prop:waluta-gem",
+        "prop:waluta-ucho"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:seed",
+          "key": "shot:pw-rolka/seed",
+          "type": "shot",
+          "id": "seed",
+          "name": "Hook przy ladzie",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/seed.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:sakiewka-tworcy",
+          "key": "prop:sakiewka-tworcy",
+          "type": "prop",
+          "id": "sakiewka-tworcy",
+          "name": "Sakiewka twórcy",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/sakiewka-tworcy.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:waluta-gem",
+          "key": "prop:waluta-gem",
+          "type": "prop",
+          "id": "waluta-gem",
+          "name": "Gem — waluta reakcji",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-gem.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:waluta-ucho",
+          "key": "prop:waluta-ucho",
+          "type": "prop",
+          "id": "waluta-ucho",
+          "name": "Ucho — waluta uczestnictwa",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-ucho.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-09-29T10:01:34.757103+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:seed",
+            "prop:sakiewka-tworcy",
+            "prop:waluta-gem",
+            "prop:waluta-ucho"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:seed",
+              "key": "shot:pw-rolka/seed",
+              "type": "shot",
+              "id": "seed",
+              "name": "Hook przy ladzie",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/pw-rolka/shots/seed.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:sakiewka-tworcy",
+              "key": "prop:sakiewka-tworcy",
+              "type": "prop",
+              "id": "sakiewka-tworcy",
+              "name": "Sakiewka twórcy",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/sakiewka-tworcy.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:waluta-gem",
+              "key": "prop:waluta-gem",
+              "type": "prop",
+              "id": "waluta-gem",
+              "name": "Gem — waluta reakcji",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-gem.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:waluta-ucho",
+              "key": "prop:waluta-ucho",
+              "type": "prop",
+              "id": "waluta-ucho",
+              "name": "Ucho — waluta uczestnictwa",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-ucho.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-05-lup/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/pw-rolka/shots/pw-05-lup/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}
