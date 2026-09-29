@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T08:18:37.836Z",
+  "generatedAt": "2026-09-29T13:47:16.297Z",
   "worldId": "mf-creators",
   "type": "characters",
   "label": "Postacie",
@@ -27,7 +27,7 @@
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/aleksandra-ross/image-006-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/aleksandra-ross.json",
-      "updatedAt": "2026-09-29T10:18:16+02:00"
+      "updatedAt": "2026-09-29T15:46:40+02:00"
     },
     {
       "key": "character:baju-the-aigorhythms",

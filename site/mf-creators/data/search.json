@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T08:18:37.836Z",
+  "generatedAt": "2026-09-29T13:47:16.297Z",
   "worldId": "mf-creators",
   "entries": [
     {
@@ -41,18 +41,6 @@
       "fixed": true
     },
     {
-      "key": "character:admin",
-      "kind": "resource",
-      "type": "characters",
-      "id": "admin",
-      "name": "Admin",
-      "summary": "CHARACTER [age=30-44; presentation=masculine; height=average; build=average; body=rectangle; chest=medium; skin=light-medium; face=oval; eyes=brown; hair-color=dark-brown; hair-length=medium; hair-texture=wavy] Admin, znany też jako Szef Wszystkich Szefów, to dojrzały mężczyzna…",
-      "imageCount": 2,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/admin/image-001-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/admin.json",
-      "updatedAt": "2026-09-29T10:18:16+02:00"
-    },
-    {
       "key": "character:aleksandra-ross",
       "kind": "resource",
       "type": "characters",
@@ -62,6 +50,18 @@
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/aleksandra-ross/image-006-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/aleksandra-ross.json",
+      "updatedAt": "2026-09-29T15:46:40+02:00"
+    },
+    {
+      "key": "character:admin",
+      "kind": "resource",
+      "type": "characters",
+      "id": "admin",
+      "name": "Admin",
+      "summary": "CHARACTER [age=30-44; presentation=masculine; height=average; build=average; body=rectangle; chest=medium; skin=light-medium; face=oval; eyes=brown; hair-color=dark-brown; hair-length=medium; hair-texture=wavy] Admin, znany też jako Szef Wszystkich Szefów, to dojrzały mężczyzna…",
+      "imageCount": 2,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/admin/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/admin.json",
       "updatedAt": "2026-09-29T10:18:16+02:00"
     },
     {
