@@ -348,7 +348,7 @@ for (const warning of warnings) console.warn(`OSTRZEŻENIE: ${warning}`);
 
 async function cleanOutput() {
   const generatedNames = ['data', 'app.js', 'styles.css', 'index.html'];
-  if (!args.onlyNew) generatedNames.unshift('assets');
+  if (args.fullRebuild) generatedNames.unshift('assets');
   for (const name of generatedNames) {
     await rm(path.join(siteRoot, name), { recursive: true, force: true });
   }
@@ -918,7 +918,10 @@ async function publishImage(source, targetBase) {
   const sourceStats = await stat(source);
   const cached = imageCache[source];
   const cacheMatches = cached?.mtimeMs === sourceStats.mtimeMs && cached?.size === sourceStats.size;
-  const canReuse = args.onlyNew && (cacheMatches || await outputsAreFresh(sourceStats, [fullTarget, thumbnailTarget]));
+  const outputs = [fullTarget, thumbnailTarget];
+  const canReuse = !args.fullRebuild && (
+    cacheMatches ? await outputsExist(outputs) : await outputsAreFresh(sourceStats, outputs)
+  );
   let metadata;
   if (canReuse) {
     metadata = cacheMatches ? cached : await sharp(fullTarget, { failOn: 'none' }).metadata();
@@ -1163,7 +1166,7 @@ function parseArgs(values) {
     const value = values[index];
     if (!value.startsWith('--')) throw new Error(`Nieznany argument: ${value}`);
     const key = value.slice(2).replace(/-([a-z])/g, (_, letter) => letter.toUpperCase());
-    if (key === 'onlyNew') {
+    if (key === 'onlyNew' || key === 'fullRebuild') {
       parsed[key] = true;
       continue;
     }
@@ -1185,6 +1188,15 @@ async function outputsAreFresh(sourceStats, outputs) {
   try {
     const outputStats = await Promise.all(outputs.map((output) => stat(output)));
     return outputStats.every((output) => output.isFile() && output.size > 0 && output.mtimeMs >= sourceStats.mtimeMs);
+  } catch {
+    return false;
+  }
+}
+
+async function outputsExist(outputs) {
+  try {
+    const outputStats = await Promise.all(outputs.map((output) => stat(output)));
+    return outputStats.every((output) => output.isFile() && output.size > 0);
   } catch {
     return false;
   }
