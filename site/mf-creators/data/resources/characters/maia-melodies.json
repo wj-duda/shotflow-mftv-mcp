@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T08:05:14.630Z",
+  "generatedAt": "2026-09-29T08:16:03.325Z",
   "worldId": "mf-creators",
   "kind": "resource",
   "key": "character:maia-melodies",
   "type": "characters",
   "id": "maia-melodies",
   "name": "Maia Melodies",
-  "description": "CHARACTER [age=18-29; presentation=feminine; height=165cm; build=slim; body=hourglass; chest=medium; skin=fair; face=heart; eyes=brown; hair-color=platinum-blonde; hair-length=medium; hair-texture=straight]\n\nTwórczyni kanału Maia Melodies (@maiamelodies, YouTube UCSqRnFlVAhRQSkiz0K7GKTQ). Kanoniczny wzrost: 165 cm. Aktualny kanon to młoda kobieta o jasnej cerze, dużych brązowych oczach i asymetrycznym platynowym bobie z ciemniejszym odrostem. Ma pogodny uśmiech i czarne słuchawki nauszne. Nosi biały krótki top z czarną lamówką, bardzo luźne czarne spodnie cargo z łańcuchem, czarną bransoletę i biało-czarne sneakersy. Słuchawki i gest dotykania muszli są jej charakterystycznym znakiem. Rysuj ją proporcjonalnie w półrealistycznym heroicznym rock-comic, z mocnym tuszem, ciepłym światłem studyjnym i akcentami różu.\n\nPERSONA KOMIKSOWA (fikcyjna)\nZnak zodiaku: Waga.\nCechy charakteru: pogodna, empatyczna, ciekawa świata, ugodowa i kreatywna; słyszy emocje innych, zanim zostaną nazwane.\nLubi: odkrywanie nowych melodii, dobre słuchawki, taniec między próbami, ciepłe światło, harmonijne współprace i drobne niespodzianki.\nNie lubi: kłótni bez sensu, fałszywych nut, cynizmu, wykluczania kogokolwiek i podejmowania decyzji pod presją.\nMocne strony: muzyczna intuicja, łagodzenie konfliktów, otwartość, szybkie wychwytywanie nastroju grupy.\nSłabe strony: niezdecydowanie, unikanie konfrontacji, zbyt łatwe branie cudzych emocji na siebie i rozpraszanie się nowymi pomysłami.\nPowiedzonka: „Słyszysz? To jest ten moment.”; „Każdy chaos ma swoją melodię.”",
+  "description": "CHARACTER [age=18-29; presentation=feminine; height=165cm; build=slim; body=hourglass; chest=medium; skin=fair; face=heart; eyes=brown; hair-color=platinum-blonde; hair-length=medium; hair-texture=straight]\n\nTwórczyni kanału Maia Melodies (@maiamelodies, YouTube UCSqRnFlVAhRQSkiz0K7GKTQ). Kanoniczny wzrost: 165 cm. Aktualny kanon to młoda kobieta o jasnej cerze, dużych brązowych oczach i asymetrycznym platynowym bobie z ciemniejszym odrostem. Ma pogodny uśmiech i czarne słuchawki nauszne. Nosi biały krótki top z czarną lamówką, bardzo luźne czarne spodnie cargo z łańcuchem, czarną bransoletę i biało-czarne sneakersy. Słuchawki i gest dotykania muszli są jej charakterystycznym znakiem. Rysuj ją proporcjonalnie w półrealistycznym heroicznym rock-comic, z mocnym tuszem, ciepłym światłem studyjnym i akcentami różu.\n\nPERSONA KOMIKSOWA (fikcyjna)\nZnak zodiaku: Waga.\nCechy charakteru: pogodna, empatyczna, ciekawa świata, ugodowa i kreatywna; słyszy emocje innych, zanim zostaną nazwane.\nNiuanse charakteru: 1) naturalnie zmienia ton rozmowy, kiedy trzeba przywrócić grupie harmonię; 2) pierwsza zauważa osobę pozostawioną poza wspólnym kręgiem; 3) najbardziej twórcza bywa w duecie lub zespole, gdzie pomysły mogą odpowiadać sobie jak melodie; 4) czasem odkłada własną potrzebę na później, aby utrzymać pokój między innymi.\nLubi: odkrywanie nowych melodii, dobre słuchawki, taniec między próbami, ciepłe światło, harmonijne współprace i drobne niespodzianki.\nNie lubi: kłótni bez sensu, fałszywych nut, cynizmu, wykluczania kogokolwiek i podejmowania decyzji pod presją.\nMocne strony: muzyczna intuicja, łagodzenie konfliktów, otwartość, szybkie wychwytywanie nastroju grupy.\nSłabe strony: niezdecydowanie, unikanie konfrontacji, zbyt łatwe branie cudzych emocji na siebie i rozpraszanie się nowymi pomysłami.\nPowiedzonka: „Słyszysz? To jest ten moment.”; „Każdy chaos ma swoją melodię.”",
   "images": [
     {
       "id": "image-004",
@@ -19,5 +19,5 @@
       "contentType": "image/webp"
     }
   ],
-  "updatedAt": "2026-09-28T18:07:10+02:00"
+  "updatedAt": "2026-09-29T10:15:41+02:00"
 }

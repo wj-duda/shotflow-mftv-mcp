@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T08:05:14.630Z",
+  "generatedAt": "2026-09-29T08:16:03.325Z",
   "worldId": "mf-creators",
   "kind": "resource",
   "key": "character:zdziroversum",
   "type": "characters",
   "id": "zdziroversum",
   "name": "ZDZIROVERSUM",
-  "description": "CHARACTER [age=30-44; presentation=feminine; height=172cm; build=curvy; body=hourglass; chest=medium; skin=medium; face=oval; eyes=dark-brown; hair-color=copper-red; hair-length=very-long; hair-texture=braided]\n\nTwórczyni kanału ZDZIROVERSUM (@zdziroversum, YouTube UCGZ72y5I6pcEM8JkV4Deuhw). Kanoniczny wzrost: 172 cm. Aktualny kanon to pewna siebie kobieta o bardzo długich miedziano-rudych warkoczach i dredach z jasnymi pasmami oraz kolorowymi koralikami. Nosi czapkę z folii aluminiowej, duże czarne okulary, czerwony krótki top, czarną skórzaną ramoneskę, luźne podarte spodnie cargo z łańcuchem i ciężkie platformowe botki. Charakterystyczne są foliowa czapka, okulary i spokojna poza z rękami w kieszeniach; czarny klasyczny samochód, nocne miasto i UFO są opcjonalnym otoczeniem. Rysuj ją proporcjonalnie w półrealistycznym heroicznym rock-comic, z mocnym tuszem, neonowym nocnym światłem i miedziano-zielonym akcentem.\n\nPERSONA KOMIKSOWA (fikcyjna)\nZnak zodiaku: Bliźnięta.\nCechy charakteru: błyskotliwa, nieprzewidywalna, dociekliwa, buntownicza i komunikatywna; każdą teorię potrafi zamienić w fascynującą opowieść.\nLubi: miejskie legendy, nocne przejażdżki, dziwne zbiegi okoliczności, stare samochody, rozmowy do świtu i pytania bez prostych odpowiedzi.\nNie lubi: cenzurowania pomysłów, nudy, ślepego posłuszeństwa, zbyt łatwych wyjaśnień i ludzi mówiących „to niemożliwe”.\nMocne strony: improwizacja, kojarzenie odległych faktów, odwaga w zadawaniu pytań, zaraźliwa ciekawość.\nSłabe strony: chaos myśli, przeskakiwanie między tematami, prowokowanie dla zabawy i trudność w kończeniu jednej rzeczy przed rozpoczęciem następnej.\nPowiedzonka: „Przypadek? Nie w tym uniwersum.”; „Folia jest opcjonalna. Czujność — nie.”",
+  "description": "CHARACTER [age=30-44; presentation=feminine; height=172cm; build=curvy; body=hourglass; chest=medium; skin=medium; face=oval; eyes=dark-brown; hair-color=copper-red; hair-length=very-long; hair-texture=braided]\n\nTwórczyni kanału ZDZIROVERSUM (@zdziroversum, YouTube UCGZ72y5I6pcEM8JkV4Deuhw). Kanoniczny wzrost: 172 cm. Aktualny kanon to pewna siebie kobieta o bardzo długich miedziano-rudych warkoczach i dredach z jasnymi pasmami oraz kolorowymi koralikami. Nosi czapkę z folii aluminiowej, duże czarne okulary, czerwony krótki top, czarną skórzaną ramoneskę, luźne podarte spodnie cargo z łańcuchem i ciężkie platformowe botki. Charakterystyczne są foliowa czapka, okulary i spokojna poza z rękami w kieszeniach; czarny klasyczny samochód, nocne miasto i UFO są opcjonalnym otoczeniem. Rysuj ją proporcjonalnie w półrealistycznym heroicznym rock-comic, z mocnym tuszem, neonowym nocnym światłem i miedziano-zielonym akcentem.\n\nPERSONA KOMIKSOWA (fikcyjna)\nZnak zodiaku: Bliźnięta.\nCechy charakteru: błyskotliwa, nieprzewidywalna, dociekliwa, buntownicza i komunikatywna; każdą teorię potrafi zamienić w fascynującą opowieść.\nNiuanse charakteru: 1) świadomie zmienia punkt widzenia, żeby sprawdzić, czy teoria wytrzyma próbę; 2) kolekcjonuje zasłyszane zwroty, fakty i drobiazgi, a później łączy je w zaskakującą całość; 3) humorem rozszczelnia rozmowę, gdy robi się zbyt sztywna lub przewidywalna; 4) nowość błyskawicznie ją napędza, natomiast długa rutyna odbiera jej koncentrację.\nLubi: miejskie legendy, nocne przejażdżki, dziwne zbiegi okoliczności, stare samochody, rozmowy do świtu i pytania bez prostych odpowiedzi.\nNie lubi: cenzurowania pomysłów, nudy, ślepego posłuszeństwa, zbyt łatwych wyjaśnień i ludzi mówiących „to niemożliwe”.\nMocne strony: improwizacja, kojarzenie odległych faktów, odwaga w zadawaniu pytań, zaraźliwa ciekawość.\nSłabe strony: chaos myśli, przeskakiwanie między tematami, prowokowanie dla zabawy i trudność w kończeniu jednej rzeczy przed rozpoczęciem następnej.\nPowiedzonka: „Przypadek? Nie w tym uniwersum.”; „Folia jest opcjonalna. Czujność — nie.”",
   "images": [
     {
       "id": "image-004",
@@ -19,5 +19,5 @@
       "contentType": "image/webp"
     }
   ],
-  "updatedAt": "2026-09-28T18:07:10+02:00"
+  "updatedAt": "2026-09-29T10:15:41+02:00"
 }

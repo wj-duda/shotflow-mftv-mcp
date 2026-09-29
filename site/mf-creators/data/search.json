@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T08:05:14.630Z",
+  "generatedAt": "2026-09-29T08:16:03.325Z",
   "worldId": "mf-creators",
   "entries": [
     {
@@ -41,18 +41,6 @@
       "fixed": true
     },
     {
-      "key": "look:rock-comic",
-      "kind": "resource",
-      "type": "looks",
-      "id": "rock-comic",
-      "name": "MF Creators — heroiczny rock-comic",
-      "summary": "NADRZĘDNY KANON WIZUALNY MF CREATORS Styl łączy współczesny amerykański komiks, rockowy plakat i uliczny mural. Ma być półrealistyczny, filmowy i wyraźnie ręcznie tuszowany. Image-001 określa atmosferę, energię grupy i nasycenie światła. Image-002 jest głównym wzorcem kreski, an…",
-      "imageCount": 2,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/looks/rock-comic/image-001-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/looks/rock-comic.json",
-      "updatedAt": "2026-09-29T10:08:00+02:00"
-    },
-    {
       "key": "character:admin",
       "kind": "resource",
       "type": "characters",
@@ -62,43 +50,7 @@
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/admin/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/admin.json",
-      "updatedAt": "2026-09-29T09:57:30+02:00"
-    },
-    {
-      "key": "character:darkvondagar",
-      "kind": "resource",
-      "type": "characters",
-      "id": "darkvondagar",
-      "name": "DarkVondagar",
-      "summary": "CHARACTER [age=45-64; presentation=masculine; height=190cm; species=anunnaki-inspired-humanoid; build=lean; body=rectangle; chest=medium; skin=bronze-brown; face=long; eyes=amber-red; hair-color=dark-bronze; hair-length=long; hair-texture=biomechanical-braids] Twórca kanału Dark…",
-      "imageCount": 2,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/darkvondagar/image-005-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/darkvondagar.json",
-      "updatedAt": "2026-09-29T09:57:30+02:00"
-    },
-    {
-      "key": "character:rkfonzo",
-      "kind": "resource",
-      "type": "characters",
-      "id": "rkfonzo",
-      "name": "rkFonzo",
-      "summary": "CHARACTER [age=45-64; presentation=masculine; height=178cm; build=athletic; body=rectangle; chest=medium; skin=medium; face=angular; eyes=dark-brown; hair-color=silver-gray; hair-length=short; hair-texture=spiky] Twórca kanału rkFonzo (@rkfonzo, YouTube UC_OFjUpeMOY_6wydhhoPlLA)…",
-      "imageCount": 2,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/rkfonzo/image-005-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/rkfonzo.json",
-      "updatedAt": "2026-09-28T22:10:21+02:00"
-    },
-    {
-      "key": "character:livaihen",
-      "kind": "resource",
-      "type": "characters",
-      "id": "livaihen",
-      "name": "Livaihen",
-      "summary": "CHARACTER [age=30-44; presentation=feminine; height=170cm; build=curvy; body=hourglass; chest=medium; skin=fair; face=oval; eyes=brown; hair-color=burgundy-red; hair-length=very-long; hair-texture=wavy] Twórczyni kanału Livaihen (@ewaduda-livaihen, YouTube UCgK0hHeDmi_8rhmz5-lKr…",
-      "imageCount": 2,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/livaihen/image-004-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/livaihen.json",
-      "updatedAt": "2026-09-28T20:14:44+02:00"
+      "updatedAt": "2026-09-29T10:15:41+02:00"
     },
     {
       "key": "character:aleksandra-ross",
@@ -110,7 +62,7 @@
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/aleksandra-ross/image-006-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/aleksandra-ross.json",
-      "updatedAt": "2026-09-28T18:07:10+02:00"
+      "updatedAt": "2026-09-29T10:15:41+02:00"
     },
     {
       "key": "character:baju-the-aigorhythms",
@@ -122,7 +74,19 @@
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/baju-the-aigorhythms/image-004-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/baju-the-aigorhythms.json",
-      "updatedAt": "2026-09-28T18:07:10+02:00"
+      "updatedAt": "2026-09-29T10:15:41+02:00"
+    },
+    {
+      "key": "character:darkvondagar",
+      "kind": "resource",
+      "type": "characters",
+      "id": "darkvondagar",
+      "name": "DarkVondagar",
+      "summary": "CHARACTER [age=45-64; presentation=masculine; height=190cm; species=anunnaki-inspired-humanoid; build=lean; body=rectangle; chest=medium; skin=bronze-brown; face=long; eyes=amber-red; hair-color=dark-bronze; hair-length=long; hair-texture=biomechanical-braids] Twórca kanału Dark…",
+      "imageCount": 2,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/darkvondagar/image-005-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/darkvondagar.json",
+      "updatedAt": "2026-09-29T10:15:41+02:00"
     },
     {
       "key": "character:laidy-pipa",
@@ -134,7 +98,19 @@
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/laidy-pipa/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/laidy-pipa.json",
-      "updatedAt": "2026-09-28T18:07:10+02:00"
+      "updatedAt": "2026-09-29T10:15:41+02:00"
+    },
+    {
+      "key": "character:livaihen",
+      "kind": "resource",
+      "type": "characters",
+      "id": "livaihen",
+      "name": "Livaihen",
+      "summary": "CHARACTER [age=30-44; presentation=feminine; height=170cm; build=curvy; body=hourglass; chest=medium; skin=fair; face=oval; eyes=brown; hair-color=burgundy-red; hair-length=very-long; hair-texture=wavy] Twórczyni kanału Livaihen (@ewaduda-livaihen, YouTube UCgK0hHeDmi_8rhmz5-lKr…",
+      "imageCount": 2,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/livaihen/image-004-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/livaihen.json",
+      "updatedAt": "2026-09-29T10:15:41+02:00"
     },
     {
       "key": "character:maia-melodies",
@@ -146,7 +122,7 @@
       "imageCount": 1,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/maia-melodies/image-004-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/maia-melodies.json",
-      "updatedAt": "2026-09-28T18:07:10+02:00"
+      "updatedAt": "2026-09-29T10:15:41+02:00"
     },
     {
       "key": "character:pan-czeslaw",
@@ -158,7 +134,7 @@
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/pan-czeslaw/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/pan-czeslaw.json",
-      "updatedAt": "2026-09-28T18:07:10+02:00"
+      "updatedAt": "2026-09-29T10:15:41+02:00"
     },
     {
       "key": "character:pani-halinka",
@@ -170,7 +146,19 @@
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/pani-halinka/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/pani-halinka.json",
-      "updatedAt": "2026-09-28T18:07:10+02:00"
+      "updatedAt": "2026-09-29T10:15:41+02:00"
+    },
+    {
+      "key": "character:rkfonzo",
+      "kind": "resource",
+      "type": "characters",
+      "id": "rkfonzo",
+      "name": "rkFonzo",
+      "summary": "CHARACTER [age=45-64; presentation=masculine; height=178cm; build=athletic; body=rectangle; chest=medium; skin=medium; face=angular; eyes=dark-brown; hair-color=silver-gray; hair-length=short; hair-texture=spiky] Twórca kanału rkFonzo (@rkfonzo, YouTube UC_OFjUpeMOY_6wydhhoPlLA)…",
+      "imageCount": 2,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/rkfonzo/image-005-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/rkfonzo.json",
+      "updatedAt": "2026-09-29T10:15:41+02:00"
     },
     {
       "key": "character:van-sabe",
@@ -182,7 +170,7 @@
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/van-sabe/image-004-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/van-sabe.json",
-      "updatedAt": "2026-09-28T18:07:10+02:00"
+      "updatedAt": "2026-09-29T10:15:41+02:00"
     },
     {
       "key": "character:zdziroversum",
@@ -194,7 +182,19 @@
       "imageCount": 1,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/zdziroversum/image-004-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/zdziroversum.json",
-      "updatedAt": "2026-09-28T18:07:10+02:00"
+      "updatedAt": "2026-09-29T10:15:41+02:00"
+    },
+    {
+      "key": "look:rock-comic",
+      "kind": "resource",
+      "type": "looks",
+      "id": "rock-comic",
+      "name": "MF Creators — heroiczny rock-comic",
+      "summary": "NADRZĘDNY KANON WIZUALNY MF CREATORS Styl łączy współczesny amerykański komiks, rockowy plakat i uliczny mural. Ma być półrealistyczny, filmowy i wyraźnie ręcznie tuszowany. Image-001 określa atmosferę, energię grupy i nasycenie światła. Image-002 jest głównym wzorcem kreski, an…",
+      "imageCount": 2,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/looks/rock-comic/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/looks/rock-comic.json",
+      "updatedAt": "2026-09-29T10:08:00+02:00"
     },
     {
       "key": "prop:ikona-usta-jezyk",

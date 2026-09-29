@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T08:05:14.630Z",
+  "generatedAt": "2026-09-29T08:16:03.325Z",
   "worldId": "mf-creators",
   "kind": "resource",
   "key": "character:laidy-pipa",
   "type": "characters",
   "id": "laidy-pipa",
   "name": "LAIdy Pipa",
-  "description": "CHARACTER [age=25-34; presentation=feminine; height=tall; build=athletic; body=hourglass; chest=medium; skin=light; face=oval; eyes=blue-gray; hair-color=purple; hair-length=very-long; hair-texture=braided]\n\nLAIdy Pipa to wysoka, atletyczna kobieta o jasnej cerze, chłodnych niebieskoszarych oczach, mocnym śliwkowo-czarnym makijażu i precyzyjnej ciemnoczerwonej szmince. Ma bardzo długie, intensywnie fioletowe boxer braids: dwa grube warkocze oraz dwa cieńsze pasma przy twarzy. Nosi czarny gotycko-klubowy strój sceniczny: dopasowany skórzany top z konstrukcyjnym gorsetem i metalowymi klamrami, siateczkowe rękawy, szeroki ćwiekowany choker, nabijane karwasze, skórzane szorty z wysokim stanem, czarne rajstopy i wysokie sznurowane kozaki na platformie. Charakterystyczne są gest rogów, czaszkowe pierścienie, koła w uszach oraz spokojna, dumna i dominująca postawa. Rysuj ją w półrealistycznym heroicznym rock-comic z mocnym tuszem, kreskowaniem, połyskiem czarnej skóry i fioletowo-czarną paletą.\n\nPERSONA KOMIKSOWA (fikcyjna)\nZnak zodiaku: Lew.\nCechy charakteru: charyzmatyczna, dumna, odważna, teatralna i bardzo lojalna; wchodzi do pomieszczenia tak, jakby właśnie zaczynał się koncert.\nLubi: sceniczne światła, fiolet, mocne wejścia, precyzyjny makijaż, ciężkie brzmienie i ludzi, którzy dotrzymują słowa.\nNie lubi: lekceważenia, nijakości, zdrady zaufania, źle przygotowanych występów i prób odbierania jej kontroli.\nMocne strony: magnetyczna obecność, odwaga, mobilizowanie grupy, panowanie nad emocjami w kryzysie.\nSłabe strony: duma utrudnia jej przeprosiny, źle znosi ignorowanie, bywa dominująca i bierze krytykę zbyt osobiście.\nPowiedzonka: „Fiolet to nie kolor. To ostrzeżenie.”; „Korona nie spada, kiedy głowa jest wysoko.”",
+  "description": "CHARACTER [age=25-34; presentation=feminine; height=tall; build=athletic; body=hourglass; chest=medium; skin=light; face=oval; eyes=blue-gray; hair-color=purple; hair-length=very-long; hair-texture=braided]\n\nLAIdy Pipa to wysoka, atletyczna kobieta o jasnej cerze, chłodnych niebieskoszarych oczach, mocnym śliwkowo-czarnym makijażu i precyzyjnej ciemnoczerwonej szmince. Ma bardzo długie, intensywnie fioletowe boxer braids: dwa grube warkocze oraz dwa cieńsze pasma przy twarzy. Nosi czarny gotycko-klubowy strój sceniczny: dopasowany skórzany top z konstrukcyjnym gorsetem i metalowymi klamrami, siateczkowe rękawy, szeroki ćwiekowany choker, nabijane karwasze, skórzane szorty z wysokim stanem, czarne rajstopy i wysokie sznurowane kozaki na platformie. Charakterystyczne są gest rogów, czaszkowe pierścienie, koła w uszach oraz spokojna, dumna i dominująca postawa. Rysuj ją w półrealistycznym heroicznym rock-comic z mocnym tuszem, kreskowaniem, połyskiem czarnej skóry i fioletowo-czarną paletą.\n\nPERSONA KOMIKSOWA (fikcyjna)\nZnak zodiaku: Lew.\nCechy charakteru: charyzmatyczna, dumna, odważna, teatralna i bardzo lojalna; wchodzi do pomieszczenia tak, jakby właśnie zaczynał się koncert.\nNiuanse charakteru: 1) chętnie oddaje komuś część sceny, jeśli sama czuje się zauważona i szanowana; 2) swoich ludzi broni publicznie, nawet gdy prywatnie zamierza ich później skrytykować; 3) krytyka dotyka ją mocniej, niż pozwala po sobie poznać; 4) zwykłe wydarzenie instynktownie zamienia w widowisko z wyraźnym początkiem i finałem.\nLubi: sceniczne światła, fiolet, mocne wejścia, precyzyjny makijaż, ciężkie brzmienie i ludzi, którzy dotrzymują słowa.\nNie lubi: lekceważenia, nijakości, zdrady zaufania, źle przygotowanych występów i prób odbierania jej kontroli.\nMocne strony: magnetyczna obecność, odwaga, mobilizowanie grupy, panowanie nad emocjami w kryzysie.\nSłabe strony: duma utrudnia jej przeprosiny, źle znosi ignorowanie, bywa dominująca i bierze krytykę zbyt osobiście.\nPowiedzonka: „Fiolet to nie kolor. To ostrzeżenie.”; „Korona nie spada, kiedy głowa jest wysoko.”",
   "images": [
     {
       "id": "image-001",
@@ -28,5 +28,5 @@
       "contentType": "image/webp"
     }
   ],
-  "updatedAt": "2026-09-28T18:07:10+02:00"
+  "updatedAt": "2026-09-29T10:15:41+02:00"
 }
