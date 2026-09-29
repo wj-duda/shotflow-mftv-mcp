@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T22:36:27.085Z",
+  "generatedAt": "2026-09-29T23:27:50.053Z",
   "universe": {
     "id": "mf-creators",
     "name": "MF Creators"
@@ -25,10 +25,10 @@
     ]
   },
   "counts": {
-    "resources": 14,
+    "resources": 15,
     "projects": 0,
     "shots": 0,
-    "images": 26
+    "images": 28
   },
   "brand": {
     "key": "brand:aimftv",
@@ -609,7 +609,7 @@
       }
     },
     "schemaVersion": 1,
-    "generatedAt": "2026-09-29T22:36:27.085Z",
+    "generatedAt": "2026-09-29T23:27:50.053Z",
     "worldId": "mf-creators",
     "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/brand.json",
     "generationGuidance": {
@@ -658,7 +658,7 @@
       {
         "type": "characters",
         "label": "Postacie",
-        "count": 12,
+        "count": 13,
         "url": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/index.json"
       },
       {

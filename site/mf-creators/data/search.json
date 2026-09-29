@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T22:36:27.085Z",
+  "generatedAt": "2026-09-29T23:27:50.053Z",
   "worldId": "mf-creators",
   "entries": [
     {
@@ -63,6 +63,18 @@
       "thumbnailUrl": null,
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/brand/slogans/zagraj-z-nami.json",
       "fixed": true
+    },
+    {
+      "key": "character:tom",
+      "kind": "resource",
+      "type": "characters",
+      "id": "tom",
+      "name": "Tom",
+      "summary": "CHARACTER [age=30-44; presentation=masculine; height=average; build=muscular; body=inverted-triangle; chest=broad; skin=medium; face=square; eyes=brown; hair-color=black; hair-length=short; hair-texture=spiky] Tom, nazywany w komiksowej ekipie Szefem Szefów, jest umięśnionym męż…",
+      "imageCount": 2,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/tom/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/tom.json",
+      "updatedAt": "2026-09-30T01:31:00+02:00"
     },
     {
       "key": "character:admin",

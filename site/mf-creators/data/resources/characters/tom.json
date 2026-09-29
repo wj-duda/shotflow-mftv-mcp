@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-29T23:27:50.053Z",
+  "worldId": "mf-creators",
+  "kind": "resource",
+  "key": "character:tom",
+  "type": "characters",
+  "id": "tom",
+  "name": "Tom",
+  "description": "CHARACTER [age=30-44; presentation=masculine; height=average; build=muscular; body=inverted-triangle; chest=broad; skin=medium; face=square; eyes=brown; hair-color=black; hair-length=short; hair-texture=spiky]\n\nTom, nazywany w komiksowej ekipie Szefem Szefów, jest umięśnionym mężczyzną o szerokich barkach, kanciastej twarzy, brązowych oczach i krótkich czarnych włosach ułożonych w sterczący fauxhawk z wygolonymi bokami. Ma lekki zarost. Nosi dopasowany fioletowy T-shirt, luźne ciemne jeansy, gruby złoty łańcuch z medalionem „SZEF SZEFÓW”, czarny sportowy zegarek oraz biało-fioletowe sneakersy. Charakterystyczne są bezpośrednie spojrzenie, wskazujący gest i swobodna postawa z dłonią w kieszeni. Jego naturalnym otoczeniem są konsoleta DJ-ska, syntezatory, potężne zestawy głośnikowe, lasery, neony, skrzynie transportowe, kula dyskotekowa i mokra podłoga odbijająca światła. W portrecie może siedzieć z niską szklanką bursztynowego napoju. Rysuj go w półrealistycznym heroicznym rock-comic, z mocnym tuszem oraz paletą fioletu, magenty, elektrycznego błękitu, złota i pomarańczu.\n\nRELACJA KANONICZNA: Tom odpowiada za Music Future Radio, a Admin za Music Future TV. Podpisali porozumienie, dzięki któremu oba przedsięwzięcia działają pod wspólnym szyldem Music Future, pozostając odrębnymi projektami z własnym charakterem, zespołem i obszarem decyzji. Łączy ich wspólna wizja, lecz każdy pilnuje własnego podwórka.\n\nKANON OBUWIA: Air Jordan 4 Retro „Metallic Purple” — białe skórzane sneakersy o charakterystycznej sylwetce Jordan 4, z boczną siatką, skrzydełkami sznurowania, fioletowymi metalicznymi akcentami, czarnymi detalami i widoczną poduszką Air. Nie myl ich z niebiesko-czarnymi Jordan 1 Baju, Air Force 1 ani ogólnymi butami koszykarskimi.\n\nPERSONA KOMIKSOWA (fikcyjna)\nZnak zodiaku: Lew.\nCechy charakteru: charyzmatyczny, strategiczny, przedsiębiorczy, bezpośredni i opiekuńczo wymagający; nadaje kierunek, ale lubi, gdy inni błyszczą na scenie.\nNiuanse charakteru: 1) dostrzega potencjał w ludziach i utworach wcześniej niż większość; 2) woli podjąć decyzję z niepełnymi danymi niż przedłużać rozmowę, aż okazja zniknie; 3) lojalność okazuje otwieraniem drzwi, drugą szansą i konkretną pomocą; 4) nawet podczas zabawy kontroluje światła, sprzęt, reakcję publiczności i to, czy nikt nie został z tyłu.\nLubi: trance — szczególnie uplifting i progressive, rozbudowane syntezatorowe melodie, długie narastanie napięcia, przestrzenne breakdowny, euforyczne wejścia basu, precyzyjnie zsynchronizowane lasery, nocne sety oraz moment, gdy cała sala jednocześnie rozpoznaje nadchodzący drop. Lubi też niedocenione utwory z potencjałem, ludzi biorących odpowiedzialność za własne pomysły i odważne kampanie.\nNie lubi: przypadkowych przejść, płaskiego brzmienia, setów pozbawionych dramaturgii, chowania talentu, paraliżu decyzyjnego, kopiowania bez własnej tożsamości, marnowania cudzej pracy, obietnic bez wykonania i traktowania muzyki jak jednorazowego pliku.\nMocne strony: wyczuwanie potencjału, nadawanie kierunku, budowanie opowieści i marki, szybkie decyzje, mobilizowanie ludzi oraz łączenie twórców z publicznością.\nSłabe strony: niecierpliwość, potrzeba kontroli, trudność z wyłączeniem trybu zadaniowego, czasem mylenie własnej pewności z pełną zgodą grupy i dokładanie kolejnego planu, zanim poprzedni zdąży wybrzmieć.\nMuzyczny nerw i nostalgia: Najbardziej ufa hipnotycznemu pulsowi, szerokim padom i melodii budowanej tak długo, aż wejście stopy staje się wydarzeniem. Ma słabość do trance'owych setów granych głęboko w nocy, starych syntezatorów, laserów przecinających dym oraz utworów, które po kilku minutach cierpliwego budowania unoszą cały parkiet. Dobrego numeru nie uważa za martwy tylko dlatego, że świat jeszcze go nie zauważył.\nPowiedzonka: „Dobry numer nie może leżeć w szufladzie.”; „Nie czekaj, aż ktoś da ci scenę. Zbuduj ją.”",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "portrait",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/tom/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/tom/image-001-thumb.webp",
+      "width": 1671,
+      "height": 941,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-002",
+      "role": "silhouette",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/tom/image-002.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/tom/image-002-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-30T01:31:00+02:00"
+}
