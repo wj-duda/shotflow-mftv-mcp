@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T19:53:11.201Z",
+  "generatedAt": "2026-09-29T22:36:27.085Z",
   "worldId": "mf-creators",
   "entries": [
     {
@@ -38,6 +38,30 @@
       "imageCount": 0,
       "thumbnailUrl": null,
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/brand/slogans/nowa-era-muzyki.json",
+      "fixed": true
+    },
+    {
+      "key": "slogan:u-nas-utwory-nie-gina",
+      "kind": "slogan",
+      "type": "brand",
+      "id": "u-nas-utwory-nie-gina",
+      "name": "U nas utwory nie giną. U nas się GRA!",
+      "summary": "Hasło przeciwstawia jednorazowe publikowanie muzyki aktywnemu obiegowi utworów w MFTV. „GRA” oznacza zarówno realną emisję, jak i system, w którym powroty, głosowanie i gamifikacja mogą ponownie uruchomić historię numeru.",
+      "imageCount": 0,
+      "thumbnailUrl": null,
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/brand/slogans/u-nas-utwory-nie-gina.json",
+      "fixed": true
+    },
+    {
+      "key": "slogan:zagraj-z-nami",
+      "kind": "slogan",
+      "type": "brand",
+      "id": "zagraj-z-nami",
+      "name": "Zagraj z nami",
+      "summary": "Krótkie wezwanie łączy emisję utworu, wspólne przeżywanie audycji i gamingową warstwę MFTV. „Zagraj” może znaczyć zarówno „pozwól nam zagrać swój numer”, „wystąp z nami”, jak i „wejdź do gry” poprzez głosowanie, łupy i przedmioty.",
+      "imageCount": 0,
+      "thumbnailUrl": null,
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/brand/slogans/zagraj-z-nami.json",
       "fixed": true
     },
     {

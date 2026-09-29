@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-29T22:35:35.001Z",
+  "worldId": "aimftv",
+  "kind": "slogan",
+  "type": "brand",
+  "brandKey": "brand:aimftv",
+  "id": "zagraj-z-nami",
+  "key": "slogan:zagraj-z-nami",
+  "purpose": "główne CTA marki",
+  "text": "Zagraj z nami",
+  "preserveExactText": true,
+  "rationale": "Krótkie wezwanie łączy emisję utworu, wspólne przeżywanie audycji i gamingową warstwę MFTV. „Zagraj” może znaczyć zarówno „pozwól nam zagrać swój numer”, „wystąp z nami”, jak i „wejdź do gry” poprzez głosowanie, łupy i przedmioty.",
+  "whereToUse": [
+    "zakończenia postów i reklam",
+    "zaproszenia dla twórców i widzów",
+    "materiały kierujące na stronę",
+    "plansze końcowe i opisy audycji",
+    "kampanie całej platformy MF TV oraz MF Creators"
+  ],
+  "whenToUse": "Jako domyślne CTA wszędzie tam, gdzie odbiorca ma przejść od oglądania do udziału: zgłosić utwór, wejść na audycję, zagłosować albo poznać platformę.",
+  "howToReference": "W promptach i danych używaj klucza slogan:zagraj-z-nami. Samo hasło zapisuj dokładnie jako „Zagraj z nami”. Przy odsyłaniu na stronę często stosuj pełny wiersz: „Zagraj z nami - https://aimusicfuture.tv”.",
+  "linkedForm": "Zagraj z nami - https://aimusicfuture.tv",
+  "promotionalRequirement": "To główne wezwanie do działania marki. Powinno być pierwszym wyborem na końcu materiałów rekrutujących twórców, zapraszających na audycję albo prowadzących na aimusicfuture.tv.",
+  "relatedAssets": {
+    "officialLogo": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/brand/aimftv.webp"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-29T22:35:35.001Z",
+  "worldId": "aimftv",
+  "kind": "slogan",
+  "type": "brand",
+  "brandKey": "brand:aimftv",
+  "id": "u-nas-utwory-nie-gina",
+  "key": "slogan:u-nas-utwory-nie-gina",
+  "purpose": "kampania Wtorków Powtórek i dalszego życia utworów",
+  "text": "U nas utwory nie giną. U nas się GRA!",
+  "preserveExactText": true,
+  "rationale": "Hasło przeciwstawia jednorazowe publikowanie muzyki aktywnemu obiegowi utworów w MFTV. „GRA” oznacza zarówno realną emisję, jak i system, w którym powroty, głosowanie i gamifikacja mogą ponownie uruchomić historię numeru.",
+  "whereToUse": [
+    "kampanie Wtorków Powtórek",
+    "materiały o powracających utworach",
+    "promocja biblioteki i odkrywania starszych numerów",
+    "komunikacja rankingu, głosowania i dalszego życia utworu po pierwszej emisji"
+  ],
+  "whenToUse": "Gdy przekaz ma podkreślić, że utwór może zostać ponownie odkryty, oceniony lub wyemitowany, a jego historia w MFTV nie kończy się na jednym pokazie.",
+  "howToReference": "W promptach i danych używaj klucza slogan:u-nas-utwory-nie-gina. Zachowuj dokładnie dwa zdania i wersaliki w słowie „GRA!”. Jako końcowy wiersz kampanii można dodać osobno „Zagraj z nami - https://aimusicfuture.tv”.",
+  "guardrail": "Nie przedstawiaj hasła jako gwarancji przyjęcia każdego zgłoszenia, automatycznej powtórki, nieusuwalności materiału ani sukcesu w rankingu.",
+  "promotionalRequirement": "To podstawowe hasło kampanii Wtorków Powtórek i zalecane hasło materiałów o ponownym odkrywaniu utworów.",
+  "relatedAssets": {
+    "officialLogo": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/brand/aimftv.webp"
+  }
+}
