@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-30T10:00:01.833Z",
+  "worldId": "mf-creators",
+  "kind": "resource",
+  "key": "note:music-battle-05-laidy-win",
+  "type": "notes",
+  "id": "music-battle-05-laidy-win",
+  "name": "Music Battle — 05 — LAIdy Pipa: WIN",
+  "description": "MATERIAŁ KONCEPCYJNY Music Battle, nie nowa kanoniczna referencja wyglądu postaci i nie gotowy film.\n\nKońcowa plansza zwycięstwa. Zbliżenie pewnej siebie LAIdy Pipy po prawej; po lewej LAIDY PIPA, WIN i kwestia: „Fiolet to nie kolor. To ostrzeżenie.” Tekst jest zamierzoną częścią planszy użytkowej i należy go zachować. Pokazywać wyłącznie po wygranej tej postaci; to wariant wyniku, nie przesądzony wynik meczu. Źródłowy SVG z osobną warstwą typografii pozostaje w input/Music Battle/wektor/LAIdy_WIN.svg; MCP udostępnia raster przez standardowy eksport obrazów.\n\nPowiązania: note:music-battle; character:laidy-pipa; look:rock-comic.\nŹródło: input/Music Battle/plansze/05_LAIdy_WIN.png.\nStan: nieruchoma plansza do przygotowania filmu lub użycia jako ekran skita. Bez wygenerowanej animacji, audio, głosowania ani wdrożonej mechaniki.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/notes/music-battle-05-laidy-win/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/notes/music-battle-05-laidy-win/image-001-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-30T09:59:42.346Z"
+}

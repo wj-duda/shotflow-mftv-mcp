@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-30T10:00:01.833Z",
+  "worldId": "mf-creators",
+  "kind": "resource",
+  "key": "note:music-battle-06-baju-lose",
+  "type": "notes",
+  "id": "music-battle-06-baju-lose",
+  "name": "Music Battle — 06 — Baju: LOSE",
+  "description": "MATERIAŁ KONCEPCYJNY Music Battle, nie nowa kanoniczna referencja wyglądu postaci i nie gotowy film.\n\nKońcowa plansza porażki. Zbliżenie Baju z opuszczonym wzrokiem i dłonią przy czole po lewej; po prawej BAJU, LOSE i kwestia: „Jeszcze raz — tym razem z mocą.” Tekst jest zamierzoną częścią planszy użytkowej i należy go zachować. Pokazywać wyłącznie po porażce tej postaci; to wariant wyniku, nie przesądzony wynik meczu. Źródłowy SVG z osobną warstwą typografii pozostaje w input/Music Battle/wektor/Baju_LOSE.svg; MCP udostępnia raster przez standardowy eksport obrazów.\n\nPowiązania: note:music-battle; character:baju-the-aigorhythms; look:rock-comic.\nŹródło: input/Music Battle/plansze/06_Baju_LOSE.png.\nStan: nieruchoma plansza do przygotowania filmu lub użycia jako ekran skita. Bez wygenerowanej animacji, audio, głosowania ani wdrożonej mechaniki.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/notes/music-battle-06-baju-lose/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/notes/music-battle-06-baju-lose/image-001-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-30T09:59:42.346Z"
+}

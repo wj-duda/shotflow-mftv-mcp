@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T09:36:49.458Z",
+  "generatedAt": "2026-09-30T10:00:01.833Z",
   "universe": {
     "id": "mf-creators",
     "name": "MF Creators"
@@ -25,10 +25,10 @@
     ]
   },
   "counts": {
-    "resources": 15,
+    "resources": 22,
     "projects": 0,
     "shots": 0,
-    "images": 28
+    "images": 34
   },
   "brand": {
     "key": "brand:aimftv",
@@ -609,7 +609,7 @@
       }
     },
     "schemaVersion": 1,
-    "generatedAt": "2026-09-30T09:36:49.458Z",
+    "generatedAt": "2026-09-30T10:00:01.833Z",
     "worldId": "mf-creators",
     "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/brand.json",
     "generationGuidance": {
@@ -666,6 +666,12 @@
         "label": "Style",
         "count": 1,
         "url": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/looks/index.json"
+      },
+      {
+        "type": "notes",
+        "label": "Notatki",
+        "count": 7,
+        "url": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/notes/index.json"
       },
       {
         "type": "props",

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-30T10:00:01.833Z",
+  "worldId": "mf-creators",
+  "kind": "resource",
+  "key": "note:music-battle-01-vs",
+  "type": "notes",
+  "id": "music-battle-01-vs",
+  "name": "Music Battle — 01 — VS Baju / LAIdy Pipa",
+  "description": "MATERIAŁ KONCEPCYJNY Music Battle, nie nowa kanoniczna referencja wyglądu postaci i nie gotowy film.\n\nPlansza zapowiedzi pojedynku: Baju po lewej z niebieskimi falami i nutami, LAIdy Pipa po prawej z fioletową energią; pośrodku VS. Wspólna scena koncertowa z głośnikami i neonami. To przykład konkretnej pary, nie uniwersalny klip dla wszystkich zestawień. Emotki głosowania i liczniki ma nakładać skit.\n\nPowiązania: note:music-battle; character:baju-the-aigorhythms; character:laidy-pipa; look:rock-comic.\nŹródło: input/Music Battle/plansze/01_VS_Baju_LAIdy_Pipa.png.\nStan: nieruchoma plansza do przygotowania filmu lub użycia jako ekran skita. Bez wygenerowanej animacji, audio, głosowania ani wdrożonej mechaniki.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/notes/music-battle-01-vs/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/notes/music-battle-01-vs/image-001-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-30T09:59:42.346Z"
+}

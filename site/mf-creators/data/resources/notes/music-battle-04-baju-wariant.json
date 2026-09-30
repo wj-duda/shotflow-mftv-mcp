@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-30T10:00:01.833Z",
+  "worldId": "mf-creators",
+  "kind": "resource",
+  "key": "note:music-battle-04-baju-wariant",
+  "type": "notes",
+  "id": "music-battle-04-baju-wariant",
+  "name": "Music Battle — 04 — Baju: wariant eskalacji",
+  "description": "MATERIAŁ KONCEPCYJNY Music Battle, nie nowa kanoniczna referencja wyglądu postaci i nie gotowy film.\n\nBaju widziany od tyłu w trzech czwartych, z szeroko rozłożonymi rękami i niebieskimi smugami energii; w głębi scena. Drugi solowy kadr do filmu akcji lub eskalacji muzycznej. Nie przedstawia wyniku rundy ani trafienia konkretnego rywala.\n\nPowiązania: note:music-battle; character:baju-the-aigorhythms; look:rock-comic.\nŹródło: input/Music Battle/plansze/04_Atak_solo_Baju_wariant.png.\nStan: nieruchoma plansza do przygotowania filmu lub użycia jako ekran skita. Bez wygenerowanej animacji, audio, głosowania ani wdrożonej mechaniki.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/notes/music-battle-04-baju-wariant/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/notes/music-battle-04-baju-wariant/image-001-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-30T09:59:42.346Z"
+}

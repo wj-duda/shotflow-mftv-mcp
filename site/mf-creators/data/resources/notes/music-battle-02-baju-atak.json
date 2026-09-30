@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-30T10:00:01.833Z",
+  "worldId": "mf-creators",
+  "kind": "resource",
+  "key": "note:music-battle-02-baju-atak",
+  "type": "notes",
+  "id": "music-battle-02-baju-atak",
+  "name": "Music Battle — 02 — Baju: akcja solo",
+  "description": "MATERIAŁ KONCEPCYJNY Music Battle, nie nowa kanoniczna referencja wyglądu postaci i nie gotowy film.\n\nDynamiczny bliski kadr z niskiej perspektywy; Baju wyciąga dłoń do kamery, otoczony niebieskimi pierścieniami dźwięku i nutami. Materiał do wcześniej przygotowanego filmu muzycznej akcji. Rywal jest poza kadrem, więc film może działać w wielu pojedynkach.\n\nPowiązania: note:music-battle; character:baju-the-aigorhythms; look:rock-comic.\nŹródło: input/Music Battle/plansze/02_Atak_solo_Baju.png.\nStan: nieruchoma plansza do przygotowania filmu lub użycia jako ekran skita. Bez wygenerowanej animacji, audio, głosowania ani wdrożonej mechaniki.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/notes/music-battle-02-baju-atak/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/notes/music-battle-02-baju-atak/image-001-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-09-30T09:59:42.346Z"
+}

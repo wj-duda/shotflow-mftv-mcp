@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-30T10:00:01.833Z",
+  "worldId": "mf-creators",
+  "type": "notes",
+  "label": "Notatki",
+  "items": [
+    {
+      "key": "note:music-battle-01-vs",
+      "kind": "resource",
+      "type": "notes",
+      "id": "music-battle-01-vs",
+      "name": "Music Battle — 01 — VS Baju / LAIdy Pipa",
+      "summary": "MATERIAŁ KONCEPCYJNY Music Battle, nie nowa kanoniczna referencja wyglądu postaci i nie gotowy film. Plansza zapowiedzi pojedynku: Baju po lewej z niebieskimi falami i nutami, LAIdy Pipa po prawej z fioletową energią; pośrodku VS. Wspólna scena koncertowa z głośnikami i neonami.…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/notes/music-battle-01-vs/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/notes/music-battle-01-vs.json",
+      "updatedAt": "2026-09-30T09:59:42.346Z"
+    },
+    {
+      "key": "note:music-battle-02-baju-atak",
+      "kind": "resource",
+      "type": "notes",
+      "id": "music-battle-02-baju-atak",
+      "name": "Music Battle — 02 — Baju: akcja solo",
+      "summary": "MATERIAŁ KONCEPCYJNY Music Battle, nie nowa kanoniczna referencja wyglądu postaci i nie gotowy film. Dynamiczny bliski kadr z niskiej perspektywy; Baju wyciąga dłoń do kamery, otoczony niebieskimi pierścieniami dźwięku i nutami. Materiał do wcześniej przygotowanego filmu muzyczn…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/notes/music-battle-02-baju-atak/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/notes/music-battle-02-baju-atak.json",
+      "updatedAt": "2026-09-30T09:59:42.346Z"
+    },
+    {
+      "key": "note:music-battle-03-laidy-atak",
+      "kind": "resource",
+      "type": "notes",
+      "id": "music-battle-03-laidy-atak",
+      "name": "Music Battle — 03 — LAIdy Pipa: akcja solo",
+      "summary": "MATERIAŁ KONCEPCYJNY Music Battle, nie nowa kanoniczna referencja wyglądu postaci i nie gotowy film. Ujęcie z góry i ukośna kompozycja: LAIdy Pipa rozkłada ręce, wokół niej i dłoni krążą fioletowe fale energii. Materiał do wcześniej przygotowanego filmu muzycznej akcji; bez wido…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/notes/music-battle-03-laidy-atak/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/notes/music-battle-03-laidy-atak.json",
+      "updatedAt": "2026-09-30T09:59:42.346Z"
+    },
+    {
+      "key": "note:music-battle-04-baju-wariant",
+      "kind": "resource",
+      "type": "notes",
+      "id": "music-battle-04-baju-wariant",
+      "name": "Music Battle — 04 — Baju: wariant eskalacji",
+      "summary": "MATERIAŁ KONCEPCYJNY Music Battle, nie nowa kanoniczna referencja wyglądu postaci i nie gotowy film. Baju widziany od tyłu w trzech czwartych, z szeroko rozłożonymi rękami i niebieskimi smugami energii; w głębi scena. Drugi solowy kadr do filmu akcji lub eskalacji muzycznej. Nie…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/notes/music-battle-04-baju-wariant/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/notes/music-battle-04-baju-wariant.json",
+      "updatedAt": "2026-09-30T09:59:42.346Z"
+    },
+    {
+      "key": "note:music-battle-05-laidy-win",
+      "kind": "resource",
+      "type": "notes",
+      "id": "music-battle-05-laidy-win",
+      "name": "Music Battle — 05 — LAIdy Pipa: WIN",
+      "summary": "MATERIAŁ KONCEPCYJNY Music Battle, nie nowa kanoniczna referencja wyglądu postaci i nie gotowy film. Końcowa plansza zwycięstwa. Zbliżenie pewnej siebie LAIdy Pipy po prawej; po lewej LAIDY PIPA, WIN i kwestia: „Fiolet to nie kolor. To ostrzeżenie.” Tekst jest zamierzoną częścią…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/notes/music-battle-05-laidy-win/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/notes/music-battle-05-laidy-win.json",
+      "updatedAt": "2026-09-30T09:59:42.346Z"
+    },
+    {
+      "key": "note:music-battle-06-baju-lose",
+      "kind": "resource",
+      "type": "notes",
+      "id": "music-battle-06-baju-lose",
+      "name": "Music Battle — 06 — Baju: LOSE",
+      "summary": "MATERIAŁ KONCEPCYJNY Music Battle, nie nowa kanoniczna referencja wyglądu postaci i nie gotowy film. Końcowa plansza porażki. Zbliżenie Baju z opuszczonym wzrokiem i dłonią przy czole po lewej; po prawej BAJU, LOSE i kwestia: „Jeszcze raz — tym razem z mocą.” Tekst jest zamierzo…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/notes/music-battle-06-baju-lose/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/notes/music-battle-06-baju-lose.json",
+      "updatedAt": "2026-09-30T09:59:42.346Z"
+    },
+    {
+      "key": "note:music-battle",
+      "kind": "resource",
+      "type": "notes",
+      "id": "music-battle",
+      "name": "Music Battle — format, mechanika i integracja skita",
+      "summary": "MATERIAŁ KONCEPCYJNY / SPECYFIKACJA PRODUKCYJNA. To projekt minigry opartej na wcześniej przygotowanych filmikach, nie gotowa gra ani zmiana kanonu postaci. Powiązania: character:baju-the-aigorhythms; character:laidy-pipa; look:rock-comic. # MF Creators — muzyczna bitwa widzów #…",
+      "imageCount": 0,
+      "thumbnailUrl": null,
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/notes/music-battle.json",
+      "updatedAt": "2026-09-30T09:59:42.346Z"
+    }
+  ]
+}
