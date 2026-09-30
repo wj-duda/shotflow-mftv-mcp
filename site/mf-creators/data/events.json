@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T08:16:58.621Z",
+  "generatedAt": "2026-09-30T09:36:49.458Z",
   "worldId": "mf-creators",
   "order": "projects-newest-first; canonical timeline clips oldest-to-newest inside each project; off-timeline project materials last",
   "currentStateRule": "For current canon, use only canonicalEvent=true: select the newest matching project and then the matching event with the greatest lastSequence. Off-timeline materials cannot override saved timeline events. Older events remain valid only for their historical story moment.",

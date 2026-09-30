@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T08:16:58.621Z",
+  "generatedAt": "2026-09-30T09:36:49.458Z",
   "worldId": "mf-creators",
   "entries": [
     {
@@ -65,16 +65,28 @@
       "fixed": true
     },
     {
-      "key": "character:rkfonzo",
+      "key": "character:van-sabe",
       "kind": "resource",
       "type": "characters",
-      "id": "rkfonzo",
-      "name": "rkFonzo",
-      "summary": "CHARACTER [age=45-64; presentation=masculine; height=178cm; build=athletic; body=rectangle; chest=medium; skin=medium; face=angular; eyes=dark-brown; hair-color=silver-gray; hair-length=short; hair-texture=spiky] Twórca kanału rkFonzo (@rkfonzo, YouTube UC_OFjUpeMOY_6wydhhoPlLA)…",
+      "id": "van-sabe",
+      "name": "Van Sabe",
+      "summary": "CHARACTER [age=30-44; presentation=masculine; height=185cm; build=athletic; body=rectangle; chest=medium; skin=medium; face=oblong; eyes=dark-brown; hair-color=black; hair-length=medium; hair-texture=curly] Twórca kanału Van Sabe (@vansabe.official, YouTube UCcRkrSCsaN7NVW5qsopk…",
       "imageCount": 2,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/rkfonzo/image-005-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/rkfonzo.json",
-      "updatedAt": "2026-09-30T10:14:44+02:00"
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/van-sabe/image-004-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/van-sabe.json",
+      "updatedAt": "2026-09-30T09:33:25.878Z"
+    },
+    {
+      "key": "character:zdziroversum",
+      "kind": "resource",
+      "type": "characters",
+      "id": "zdziroversum",
+      "name": "ZDZIROVERSUM",
+      "summary": "CHARACTER [age=30-44; presentation=feminine; height=172cm; build=curvy; body=hourglass; chest=medium; skin=medium; face=oval; eyes=dark-brown; hair-color=copper-red; hair-length=very-long; hair-texture=braided] Twórczyni kanału ZDZIROVERSUM (@zdziroversum, YouTube UCGZ72y5I6pcEM…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/zdziroversum/image-004-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/zdziroversum.json",
+      "updatedAt": "2026-09-30T09:32:34.836Z"
     },
     {
       "key": "character:tom",
@@ -86,7 +98,55 @@
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/tom/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/tom.json",
-      "updatedAt": "2026-09-30T01:31:00+02:00"
+      "updatedAt": "2026-09-30T09:30:37.294Z"
+    },
+    {
+      "key": "character:baju-the-aigorhythms",
+      "kind": "resource",
+      "type": "characters",
+      "id": "baju-the-aigorhythms",
+      "name": "Baju & The AIgorhythms",
+      "summary": "CHARACTER [age=30-44; presentation=masculine; height=178cm; species=human; build=muscular; body=rectangle; skin=medium; face=square; eyes=brown; hair-color=black; hair-length=short; hair-texture=mohawk] Twórca kanału Baju & The AIgorhythms (@bajutheaigorhythms, YouTube UCxgSjAx9…",
+      "imageCount": 2,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/baju-the-aigorhythms/image-004-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/baju-the-aigorhythms.json",
+      "updatedAt": "2026-09-30T09:29:54.287Z"
+    },
+    {
+      "key": "character:rkfonzo",
+      "kind": "resource",
+      "type": "characters",
+      "id": "rkfonzo",
+      "name": "rkFonzo",
+      "summary": "CHARACTER [age=45-64; presentation=masculine; height=178cm; build=athletic; body=rectangle; chest=medium; skin=medium; face=angular; eyes=dark-brown; hair-color=silver-gray; hair-length=short; hair-texture=spiky] Twórca kanału rkFonzo (@rkfonzo, YouTube UC_OFjUpeMOY_6wydhhoPlLA)…",
+      "imageCount": 2,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/rkfonzo/image-005-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/rkfonzo.json",
+      "updatedAt": "2026-09-30T09:29:21.310Z"
+    },
+    {
+      "key": "character:pani-halinka",
+      "kind": "resource",
+      "type": "characters",
+      "id": "pani-halinka",
+      "name": "Pani Halinka",
+      "summary": "CHARACTER [age=45-64; presentation=feminine; height=average; build=curvy; body=hourglass; chest=medium; skin=fair; face=round; eyes=brown; hair-color=copper-red; hair-length=medium; hair-texture=curly] Pani Halinka to dojrzała, pewna siebie kobieta o gęstych miedziano-rudych lok…",
+      "imageCount": 2,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/pani-halinka/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/pani-halinka.json",
+      "updatedAt": "2026-09-30T09:27:53.432Z"
+    },
+    {
+      "key": "character:pan-czeslaw",
+      "kind": "resource",
+      "type": "characters",
+      "id": "pan-czeslaw",
+      "name": "Pan Czesław",
+      "summary": "CHARACTER [age=45-64; presentation=masculine; height=average; build=lean; body=rectangle; chest=medium; skin=medium; face=oblong; eyes=brown; hair-color=black-gray; hair-length=medium; hair-texture=curly] Pan Czesław to dojrzały, szczupły mężczyzna o gęstych czarnych lokach z wy…",
+      "imageCount": 2,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/pan-czeslaw/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/pan-czeslaw.json",
+      "updatedAt": "2026-09-30T09:27:52.868Z"
     },
     {
       "key": "character:admin",
@@ -98,7 +158,43 @@
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/admin/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/admin.json",
-      "updatedAt": "2026-09-29T17:02:00+02:00"
+      "updatedAt": "2026-09-30T09:27:42.503Z"
+    },
+    {
+      "key": "character:livaihen",
+      "kind": "resource",
+      "type": "characters",
+      "id": "livaihen",
+      "name": "Livaihen",
+      "summary": "CHARACTER [age=30-44; presentation=feminine; height=170cm; build=curvy; body=hourglass; chest=medium; skin=fair; face=oval; eyes=brown; hair-color=burgundy-red; hair-length=very-long; hair-texture=wavy] Twórczyni kanału Livaihen (@ewaduda-livaihen, YouTube UCgK0hHeDmi_8rhmz5-lKr…",
+      "imageCount": 2,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/livaihen/image-004-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/livaihen.json",
+      "updatedAt": "2026-09-30T09:27:27.757Z"
+    },
+    {
+      "key": "character:darkvondagar",
+      "kind": "resource",
+      "type": "characters",
+      "id": "darkvondagar",
+      "name": "DarkVondagar",
+      "summary": "CHARACTER [age=45-64; presentation=masculine; height=190cm; species=anunnaki-inspired-humanoid; build=lean; body=rectangle; chest=medium; skin=bronze-brown; face=long; eyes=amber-red; hair-color=dark-bronze; hair-length=long; hair-texture=biomechanical-braids] Twórca kanału Dark…",
+      "imageCount": 2,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/darkvondagar/image-005-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/darkvondagar.json",
+      "updatedAt": "2026-09-30T09:27:11.234Z"
+    },
+    {
+      "key": "character:laidy-pipa",
+      "kind": "resource",
+      "type": "characters",
+      "id": "laidy-pipa",
+      "name": "LAIdy Pipa",
+      "summary": "CHARACTER [age=25-34; presentation=feminine; height=tall; build=athletic; body=hourglass; chest=medium; skin=light; face=oval; eyes=blue-gray; hair-color=purple; hair-length=very-long; hair-texture=braided] LAIdy Pipa to wysoka, atletyczna kobieta o jasnej cerze, chłodnych niebi…",
+      "imageCount": 2,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/laidy-pipa/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/laidy-pipa.json",
+      "updatedAt": "2026-09-30T09:26:30.436Z"
     },
     {
       "key": "character:aleksandra-ross",
@@ -113,54 +209,6 @@
       "updatedAt": "2026-09-29T17:02:00+02:00"
     },
     {
-      "key": "character:baju-the-aigorhythms",
-      "kind": "resource",
-      "type": "characters",
-      "id": "baju-the-aigorhythms",
-      "name": "Baju & The AIgorhythms",
-      "summary": "CHARACTER [age=30-44; presentation=masculine; height=178cm; species=human; build=muscular; body=rectangle; skin=medium; face=square; eyes=brown; hair-color=black; hair-length=short; hair-texture=mohawk] Twórca kanału Baju & The AIgorhythms (@bajutheaigorhythms, YouTube UCxgSjAx9…",
-      "imageCount": 2,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/baju-the-aigorhythms/image-004-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/baju-the-aigorhythms.json",
-      "updatedAt": "2026-09-29T17:02:00+02:00"
-    },
-    {
-      "key": "character:darkvondagar",
-      "kind": "resource",
-      "type": "characters",
-      "id": "darkvondagar",
-      "name": "DarkVondagar",
-      "summary": "CHARACTER [age=45-64; presentation=masculine; height=190cm; species=anunnaki-inspired-humanoid; build=lean; body=rectangle; chest=medium; skin=bronze-brown; face=long; eyes=amber-red; hair-color=dark-bronze; hair-length=long; hair-texture=biomechanical-braids] Twórca kanału Dark…",
-      "imageCount": 2,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/darkvondagar/image-005-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/darkvondagar.json",
-      "updatedAt": "2026-09-29T17:02:00+02:00"
-    },
-    {
-      "key": "character:laidy-pipa",
-      "kind": "resource",
-      "type": "characters",
-      "id": "laidy-pipa",
-      "name": "LAIdy Pipa",
-      "summary": "CHARACTER [age=25-34; presentation=feminine; height=tall; build=athletic; body=hourglass; chest=medium; skin=light; face=oval; eyes=blue-gray; hair-color=purple; hair-length=very-long; hair-texture=braided] LAIdy Pipa to wysoka, atletyczna kobieta o jasnej cerze, chłodnych niebi…",
-      "imageCount": 2,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/laidy-pipa/image-001-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/laidy-pipa.json",
-      "updatedAt": "2026-09-29T17:02:00+02:00"
-    },
-    {
-      "key": "character:livaihen",
-      "kind": "resource",
-      "type": "characters",
-      "id": "livaihen",
-      "name": "Livaihen",
-      "summary": "CHARACTER [age=30-44; presentation=feminine; height=170cm; build=curvy; body=hourglass; chest=medium; skin=fair; face=oval; eyes=brown; hair-color=burgundy-red; hair-length=very-long; hair-texture=wavy] Twórczyni kanału Livaihen (@ewaduda-livaihen, YouTube UCgK0hHeDmi_8rhmz5-lKr…",
-      "imageCount": 2,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/livaihen/image-004-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/livaihen.json",
-      "updatedAt": "2026-09-29T17:02:00+02:00"
-    },
-    {
       "key": "character:maia-melodies",
       "kind": "resource",
       "type": "characters",
@@ -170,54 +218,6 @@
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/maia-melodies/image-005-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/maia-melodies.json",
-      "updatedAt": "2026-09-29T17:02:00+02:00"
-    },
-    {
-      "key": "character:pan-czeslaw",
-      "kind": "resource",
-      "type": "characters",
-      "id": "pan-czeslaw",
-      "name": "Pan Czesław",
-      "summary": "CHARACTER [age=45-64; presentation=masculine; height=average; build=lean; body=rectangle; chest=medium; skin=medium; face=oblong; eyes=brown; hair-color=black-gray; hair-length=medium; hair-texture=curly] Pan Czesław to dojrzały, szczupły mężczyzna o gęstych czarnych lokach z wy…",
-      "imageCount": 2,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/pan-czeslaw/image-001-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/pan-czeslaw.json",
-      "updatedAt": "2026-09-29T17:02:00+02:00"
-    },
-    {
-      "key": "character:pani-halinka",
-      "kind": "resource",
-      "type": "characters",
-      "id": "pani-halinka",
-      "name": "Pani Halinka",
-      "summary": "CHARACTER [age=45-64; presentation=feminine; height=average; build=curvy; body=hourglass; chest=medium; skin=fair; face=round; eyes=brown; hair-color=copper-red; hair-length=medium; hair-texture=curly] Pani Halinka to dojrzała, pewna siebie kobieta o gęstych miedziano-rudych lok…",
-      "imageCount": 2,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/pani-halinka/image-001-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/pani-halinka.json",
-      "updatedAt": "2026-09-29T17:02:00+02:00"
-    },
-    {
-      "key": "character:van-sabe",
-      "kind": "resource",
-      "type": "characters",
-      "id": "van-sabe",
-      "name": "Van Sabe",
-      "summary": "CHARACTER [age=30-44; presentation=masculine; height=185cm; build=athletic; body=rectangle; chest=medium; skin=medium; face=oblong; eyes=dark-brown; hair-color=black; hair-length=medium; hair-texture=curly] Twórca kanału Van Sabe (@vansabe.official, YouTube UCcRkrSCsaN7NVW5qsopk…",
-      "imageCount": 2,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/van-sabe/image-004-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/van-sabe.json",
-      "updatedAt": "2026-09-29T17:02:00+02:00"
-    },
-    {
-      "key": "character:zdziroversum",
-      "kind": "resource",
-      "type": "characters",
-      "id": "zdziroversum",
-      "name": "ZDZIROVERSUM",
-      "summary": "CHARACTER [age=30-44; presentation=feminine; height=172cm; build=curvy; body=hourglass; chest=medium; skin=medium; face=oval; eyes=dark-brown; hair-color=copper-red; hair-length=very-long; hair-texture=braided] Twórczyni kanału ZDZIROVERSUM (@zdziroversum, YouTube UCGZ72y5I6pcEM…",
-      "imageCount": 1,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/zdziroversum/image-004-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/zdziroversum.json",
       "updatedAt": "2026-09-29T17:02:00+02:00"
     },
     {

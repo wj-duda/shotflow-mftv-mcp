@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T08:16:58.621Z",
+  "generatedAt": "2026-09-30T09:36:49.458Z",
   "worldId": "mf-creators",
   "type": "characters",
   "label": "Postacie",
@@ -15,7 +15,7 @@
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/admin/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/admin.json",
-      "updatedAt": "2026-09-29T17:02:00+02:00"
+      "updatedAt": "2026-09-30T09:27:42.503Z"
     },
     {
       "key": "character:aleksandra-ross",
@@ -39,7 +39,7 @@
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/baju-the-aigorhythms/image-004-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/baju-the-aigorhythms.json",
-      "updatedAt": "2026-09-29T17:02:00+02:00"
+      "updatedAt": "2026-09-30T09:29:54.287Z"
     },
     {
       "key": "character:darkvondagar",
@@ -51,7 +51,7 @@
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/darkvondagar/image-005-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/darkvondagar.json",
-      "updatedAt": "2026-09-29T17:02:00+02:00"
+      "updatedAt": "2026-09-30T09:27:11.234Z"
     },
     {
       "key": "character:laidy-pipa",
@@ -63,7 +63,7 @@
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/laidy-pipa/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/laidy-pipa.json",
-      "updatedAt": "2026-09-29T17:02:00+02:00"
+      "updatedAt": "2026-09-30T09:26:30.436Z"
     },
     {
       "key": "character:livaihen",
@@ -75,7 +75,7 @@
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/livaihen/image-004-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/livaihen.json",
-      "updatedAt": "2026-09-29T17:02:00+02:00"
+      "updatedAt": "2026-09-30T09:27:27.757Z"
     },
     {
       "key": "character:maia-melodies",
@@ -99,7 +99,7 @@
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/pan-czeslaw/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/pan-czeslaw.json",
-      "updatedAt": "2026-09-29T17:02:00+02:00"
+      "updatedAt": "2026-09-30T09:27:52.868Z"
     },
     {
       "key": "character:pani-halinka",
@@ -111,7 +111,7 @@
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/pani-halinka/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/pani-halinka.json",
-      "updatedAt": "2026-09-29T17:02:00+02:00"
+      "updatedAt": "2026-09-30T09:27:53.432Z"
     },
     {
       "key": "character:rkfonzo",
@@ -123,7 +123,7 @@
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/rkfonzo/image-005-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/rkfonzo.json",
-      "updatedAt": "2026-09-30T10:14:44+02:00"
+      "updatedAt": "2026-09-30T09:29:21.310Z"
     },
     {
       "key": "character:tom",
@@ -135,7 +135,7 @@
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/tom/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/tom.json",
-      "updatedAt": "2026-09-30T01:31:00+02:00"
+      "updatedAt": "2026-09-30T09:30:37.294Z"
     },
     {
       "key": "character:van-sabe",
@@ -147,7 +147,7 @@
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/van-sabe/image-004-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/van-sabe.json",
-      "updatedAt": "2026-09-29T17:02:00+02:00"
+      "updatedAt": "2026-09-30T09:33:25.878Z"
     },
     {
       "key": "character:zdziroversum",
@@ -159,7 +159,7 @@
       "imageCount": 1,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/zdziroversum/image-004-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/zdziroversum.json",
-      "updatedAt": "2026-09-29T17:02:00+02:00"
+      "updatedAt": "2026-09-30T09:32:34.836Z"
     }
   ]
 }
