@@ -5,13 +5,14 @@ import sharp from 'sharp';
 
 const args = parseArgs(process.argv.slice(2));
 const repoRoot = path.resolve(import.meta.dirname, '..');
-const siteRoot = path.resolve(repoRoot, args.output ?? 'site');
 const worldSource = args.world ?? process.env.SHOTFLOW_WORLD;
 const brandAssetsSource = args.brandAssets ?? process.env.MFTV_BRAND_ASSETS;
 if (!worldSource) throw new Error('Podaj katalog świata przez --world albo SHOTFLOW_WORLD.');
 const worldRoot = path.resolve(worldSource);
 const worldId = path.basename(worldRoot);
 const universeId = args.universeId ?? (worldId === 'aimftv' ? 'mf-tv' : worldId);
+const defaultOutput = universeId === 'mf-tv' ? 'site' : path.join('site', universeId);
+const siteRoot = path.resolve(repoRoot, args.output ?? defaultOutput);
 const publicationBaseUrl = (args.publicationBaseUrl ?? 'https://wj-duda.github.io/shotflow-mftv-mcp').replace(/\/$/, '');
 const baseUrl = (args.baseUrl ?? (universeId === 'mf-tv' ? publicationBaseUrl : `${publicationBaseUrl}/${universeId}`)).replace(/\/$/, '');
 const imageCachePath = path.join(repoRoot, '.cache/image-metadata.json');
@@ -19,6 +20,9 @@ const imageCache = await readOptionalJson(imageCachePath, {});
 const buildsMftvBrand = universeId === 'mf-tv';
 const sharesMftvBrand = universeId === 'mf-creators';
 const hasMftvBrand = buildsMftvBrand || sharesMftvBrand;
+if (sharesMftvBrand && siteRoot === path.join(repoRoot, 'site')) {
+  throw new Error('Świat mf-creators musi być budowany do osobnego katalogu, np. site/mf-creators. Usuń --output site albo podaj bezpieczny podkatalog.');
+}
 const generationProfile = universeId === 'mf-creators'
   ? {
       requiredLookKey: 'look:rock-comic',
