@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T22:14:02.450Z",
+  "generatedAt": "2026-09-30T22:17:01.223Z",
   "worldId": "aimftv",
   "entries": [
     {
@@ -6723,16 +6723,28 @@
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/flow/shots/zosianakacu.json"
     },
     {
+      "key": "character:kkn-protokolant",
+      "kind": "resource",
+      "type": "characters",
+      "id": "kkn-protokolant",
+      "name": "KKN — Protokolant",
+      "summary": "Protokolant Komisji Kultury Najwyższej. Wysoki, łysy i poważny jak urzędnik prowadzący rejestr końca świata. Mówi rzadko, słucha bardzo uważnie. Komediowa obsesja: dosłowność zapisu. Notuje westchnienia, niefortunne sformułowania i uwagi rzucone pod nosem; bez ironii pyta, czy d…",
+      "imageCount": 2,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/kkn-protokolant/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/kkn-protokolant.json",
+      "updatedAt": "2026-09-30T22:16:59.028Z"
+    },
+    {
       "key": "note:kkn-straznicy-rownowagi",
       "kind": "resource",
       "type": "notes",
       "id": "kkn-straznicy-rownowagi",
       "name": "KKN — strażnicy równowagi świata",
-      "summary": "KKN — strażnicy równowagi świata KANON USTALONY 2026-10-01: Komisja Kultury Najwyższej jest archetypiczną formacją arbitrów i strażników równowagi świata. Jej działalność w kulturze oraz interwencje przy zjawiskach nadnaturalnych wynikają z tej samej misji. KKN strzeże przepływu…",
+      "summary": "KKN — strażnicy równowagi świata KANON USTALONY 2026-10-01: Komisja Kultury Najwyższej jest globalną organizacją z licznym personelem, archetypiczną formacją arbitrów i strażników równowagi świata. Jej działalność w kulturze oraz interwencje przy zjawiskach nadnaturalnych wynika…",
       "imageCount": 0,
       "thumbnailUrl": null,
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/kkn-straznicy-rownowagi.json",
-      "updatedAt": "2026-09-30T22:13:53.538Z"
+      "updatedAt": "2026-09-30T22:16:59.028Z"
     },
     {
       "key": "character:kkn-inspektorka",
@@ -6744,19 +6756,7 @@
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/kkn-inspektorka/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/kkn-inspektorka.json",
-      "updatedAt": "2026-09-30T22:13:53.537Z"
-    },
-    {
-      "key": "character:kkn-protokolant",
-      "kind": "resource",
-      "type": "characters",
-      "id": "kkn-protokolant",
-      "name": "KKN — Protokolant",
-      "summary": "Protokolant Komisji Kultury Najwyższej. Wysoki, łysy i poważny jak urzędnik prowadzący rejestr końca świata. Mówi rzadko, słucha bardzo uważnie. Komediowa obsesja: dosłowność zapisu. Notuje westchnienia, niefortunne sformułowania i uwagi rzucone pod nosem; bez ironii pyta, czy d…",
-      "imageCount": 2,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/kkn-protokolant/image-001-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/kkn-protokolant.json",
-      "updatedAt": "2026-09-30T22:13:53.537Z"
+      "updatedAt": "2026-09-30T22:16:59.027Z"
     },
     {
       "key": "character:kkn-przewodniczaca",
@@ -6768,7 +6768,7 @@
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/kkn-przewodniczaca/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/kkn-przewodniczaca.json",
-      "updatedAt": "2026-09-30T22:13:53.537Z"
+      "updatedAt": "2026-09-30T22:16:59.027Z"
     },
     {
       "key": "note:finale-sezonu-2",

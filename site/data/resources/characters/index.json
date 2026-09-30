@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T22:14:02.450Z",
+  "generatedAt": "2026-09-30T22:17:01.223Z",
   "worldId": "aimftv",
   "type": "characters",
   "label": "Postacie",
@@ -99,7 +99,7 @@
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/kkn-inspektorka/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/kkn-inspektorka.json",
-      "updatedAt": "2026-09-30T22:13:53.537Z"
+      "updatedAt": "2026-09-30T22:16:59.027Z"
     },
     {
       "key": "character:kkn-protokolant",
@@ -111,7 +111,7 @@
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/kkn-protokolant/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/kkn-protokolant.json",
-      "updatedAt": "2026-09-30T22:13:53.537Z"
+      "updatedAt": "2026-09-30T22:16:59.028Z"
     },
     {
       "key": "character:kkn-przewodniczaca",
@@ -123,7 +123,7 @@
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/kkn-przewodniczaca/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/kkn-przewodniczaca.json",
-      "updatedAt": "2026-09-30T22:13:53.537Z"
+      "updatedAt": "2026-09-30T22:16:59.027Z"
     },
     {
       "key": "character:laidy-pipa",
