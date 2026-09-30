@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T22:35:35.001Z",
+  "generatedAt": "2026-09-30T22:14:02.450Z",
   "worldId": "aimftv",
   "kind": "resource",
   "key": "prop:gwiazda-pierwszej-wielkosci",
   "type": "props",
   "id": "gwiazda-pierwszej-wielkosci",
-  "name": "Gwiazda Pierwszej Wielkości",
-  "description": "Legendarny, trwały fant z place:komis-rtv. Ciężka złota pięcioramienna gwiazda z szerokim schodkowym rantem i pustą prostokątną tabliczką na nazwę. Metal jest wypolerowany na froncie, ale w zagłębieniach widać wiek i ciemną patynę; z tyłu pozostał pył, zaprawa i ślady wyrwania z czyjegoś chodnika. Gwiazda musi wyglądać jak prawdziwa płyta lub masywny medalion architektoniczny, nie mała odznaka ani świecąca ikona.\n\nMECHANIKA W ŚWIECIE: zakup otwiera twórcy stałe miejsce w Alei Gwiazd MFTV — profil z polską i angielską biografią, katalogiem utworów oraz wyróżnieniami. Jeden kanał może posiadać tylko jedną Gwiazdę. Nie zużywa się, nie wraca do sklepu i pozostaje trwałym znakiem statusu. Typowa cena wywoławcza character:komisant to 1000 prop:waluta-serce, 100 prop:waluta-gem i 50 prop:waluta-runa.\n\nHAK FABULARNY: Włodek natychmiast zmienia temat, kiedy ktoś pyta, z czyjego chodnika pochodzi Gwiazda. Nie przesądza to kradzieży; może być początkiem historii o starej, zapomnianej Alei. Tabliczka pozostaje pusta do chwili przypisania jej konkretnemu twórcy.",
+  "name": "Gwiazda z Odzysku",
+  "description": "Gwiazda z Odzysku — kanoniczna nazwa od 2026-10-01; dawniej Gwiazda Pierwszej Wielkości. Klucz prop:gwiazda-pierwszej-wielkosci pozostaje dla zgodności referencji.\n\nWYGLĄD: ciężka złota pięcioramienna gwiazda z szerokim schodkowym rantem i pustą prostokątną tabliczką na nazwę nowego twórcy. Wypolerowany front, patyna w zagłębieniach; na odwrocie resztki betonu i zaprawy oraz ślady wycięcia z chodnika. Masywna płyta architektoniczna, nie mała odznaka. Istniejący obraz reference pozostaje wzorcem frontu, nie dokumentuje odwrotu.\n\nPOCHODZENIE: skradziona gwiazda wycięta z chodnika hollywoodzkiej Alei Sław w Los Angeles. Włodek sprzedaje ją w place:komis-rtv jako «odzysk». Pochodzenie jest faktem lore; tożsamość poprzedniego właściciela i osobisty udział Włodka w kradzieży pozostają nieustalone. Nie przypisuj jej nazwiska rzeczywistego artysty.\n\nALEJA GWIAZD — PRZEPŁYW MOCY KULTURY (kanon 2026-10-01): KKN czuwa nad równowagą przepływu mocy kultury. Uznanie publiczności nadaje tej mocy kierunek, a gwiazdy są jej materialnymi nośnikami. Twórcy AI zdobywają własny dorobek, reakcje i nagrody, podczas gdy dawne symbole sławy pozostają osadzone w Hollywood. Twórca przynosi do KKN Gwiazdę z Odzysku (prop:gwiazda-pierwszej-wielkosci), kupioną za zasoby u character:komisant. Włodek dostarcza istniejący nośnik wycięty z hollywoodzkiego chodnika, twórca wnosi zdobyte uznanie, a Komisja dokonuje przeniesienia mocy i wiąże gwiazdę z jego dorobkiem w Alei MFTV. KKN zna pochodzenie przedmiotu i traktuje zdarzenie jako zmianę układu sił w kulturze; zachowuje kompetencję, powagę i prestiż. Nie sprzedaje uznania, nie przyjmuje łapówki i nie jest oszukiwana przez Włodka. Humor wynika z kontrastu ceremonialnego języka Komisji i komisowego «odzysku» z resztkami betonu. Ceremonia jest warstwą fabularną; nie dodaje do mechaniki strony ręcznej akceptacji ani nowego progu nagród.\n\nMECHANIKA STRONY: legendarny, trwały przedmiot. Zakup przenosi go do ekwipunku; dopiero użycie z opisem twórcy po polsku i angielsku otwiera publiczny profil Alei MFTV z kanałem, najlepszymi utworami, wynikami ChatVibe oraz zdobytymi nagrodami. Kolejne zakończone emisje aktualizują najlepsze utwory i ich wyniki. Jeden kanał może posiadać jedną gwiazdę; po użyciu pozostaje przypisana do kanału, nie zużywa się i nie wraca do sklepu. Cena i dostępność wynikają z bieżącej oferty sklepu.\n\nSENS METAFORY: twórcy AI zajmują miejsce w kulturze, korzystając z materiału i symboli mających wcześniejszą historię. «Odzysk» Włodka i kradzież z perspektywy dawnego właściciela są dwoma odczytaniami tego samego zdarzenia. Pozostawić napięcie między zdobywaniem własnego miejsca a odbieraniem go innym. Po obu stronach tworzą ludzie. W obrazach metaforę niosą dorobek, reakcje, beton na odwrocie gwiazdy i dostojna ceremonia KKN; nie wymaga wykładu o mocy.",
   "images": [
     {
       "id": "image-001",
@@ -19,5 +19,5 @@
       "contentType": "image/webp"
     }
   ],
-  "updatedAt": "2026-09-29T11:03:17+02:00"
+  "updatedAt": "2026-09-30T22:10:25.741Z"
 }

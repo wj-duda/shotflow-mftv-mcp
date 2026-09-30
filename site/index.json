@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T22:35:35.001Z",
+  "generatedAt": "2026-09-30T22:14:02.450Z",
   "universe": {
     "id": "mf-tv",
     "name": "Świat MF TV"
@@ -22,7 +22,7 @@
     ]
   },
   "counts": {
-    "resources": 95,
+    "resources": 96,
     "projects": 20,
     "shots": 347,
     "images": 509
@@ -681,7 +681,7 @@
       {
         "type": "notes",
         "label": "Notatki",
-        "count": 15,
+        "count": 16,
         "url": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/index.json"
       },
       {

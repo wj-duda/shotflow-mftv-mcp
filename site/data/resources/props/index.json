@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T22:35:35.001Z",
+  "generatedAt": "2026-09-30T22:14:02.450Z",
   "worldId": "aimftv",
   "type": "props",
   "label": "Rekwizyty",
@@ -154,12 +154,12 @@
       "kind": "resource",
       "type": "props",
       "id": "gwiazda-pierwszej-wielkosci",
-      "name": "Gwiazda Pierwszej Wielkości",
-      "summary": "Legendarny, trwały fant z place:komis-rtv. Ciężka złota pięcioramienna gwiazda z szerokim schodkowym rantem i pustą prostokątną tabliczką na nazwę. Metal jest wypolerowany na froncie, ale w zagłębieniach widać wiek i ciemną patynę; z tyłu pozostał pył, zaprawa i ślady wyrwania z…",
+      "name": "Gwiazda z Odzysku",
+      "summary": "Gwiazda z Odzysku — kanoniczna nazwa od 2026-10-01; dawniej Gwiazda Pierwszej Wielkości. Klucz prop:gwiazda-pierwszej-wielkosci pozostaje dla zgodności referencji. WYGLĄD: ciężka złota pięcioramienna gwiazda z szerokim schodkowym rantem i pustą prostokątną tabliczką na nazwę now…",
       "imageCount": 1,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/gwiazda-pierwszej-wielkosci/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/gwiazda-pierwszej-wielkosci.json",
-      "updatedAt": "2026-09-29T11:03:17+02:00"
+      "updatedAt": "2026-09-30T22:10:25.741Z"
     },
     {
       "key": "prop:helm-czeslawa-wz31",

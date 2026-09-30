@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T22:35:35.001Z",
+  "generatedAt": "2026-09-30T22:14:02.450Z",
   "worldId": "aimftv",
   "entries": [
     {
@@ -5963,6 +5963,25 @@
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/prezent-dla-halinki-1/shots/stolik-paczka.json"
     },
     {
+      "key": "shot:you-talking/15226fdb-0dbb-43f7-bc19-c5b29191627f",
+      "kind": "shot",
+      "type": "shots",
+      "id": "15226fdb-0dbb-43f7-bc19-c5b29191627f",
+      "name": "15226fdb-0dbb-43f7-bc19-c5b29191627f",
+      "projectId": "you-talking",
+      "projectName": "You Talking",
+      "projectCreatedAt": "2026-08-02T20:09:25.290Z",
+      "onTimeline": false,
+      "sequence": null,
+      "lastSequence": null,
+      "sequenceTotal": 7,
+      "summary": "",
+      "imageCount": 1,
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/you-talking/shots/15226fdb-0dbb-43f7-bc19-c5b29191627f/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/you-talking/shots/15226fdb-0dbb-43f7-bc19-c5b29191627f/frame-start-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/you-talking/shots/15226fdb-0dbb-43f7-bc19-c5b29191627f.json"
+    },
+    {
       "key": "shot:you-talking/a3115482-56b1-4aaa-a85d-f432302d268b",
       "kind": "shot",
       "type": "shots",
@@ -6018,25 +6037,6 @@
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/you-talking/shots/3d8ea526-94f8-4b8d-8206-ef3d91566496/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/you-talking/shots/3d8ea526-94f8-4b8d-8206-ef3d91566496/frame-start-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/you-talking/shots/3d8ea526-94f8-4b8d-8206-ef3d91566496.json"
-    },
-    {
-      "key": "shot:you-talking/15226fdb-0dbb-43f7-bc19-c5b29191627f",
-      "kind": "shot",
-      "type": "shots",
-      "id": "15226fdb-0dbb-43f7-bc19-c5b29191627f",
-      "name": "15226fdb-0dbb-43f7-bc19-c5b29191627f",
-      "projectId": "you-talking",
-      "projectName": "You Talking",
-      "projectCreatedAt": "2026-08-02T20:09:25.290Z",
-      "onTimeline": false,
-      "sequence": null,
-      "lastSequence": null,
-      "sequenceTotal": 7,
-      "summary": "",
-      "imageCount": 1,
-      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/you-talking/shots/15226fdb-0dbb-43f7-bc19-c5b29191627f/frame-start.webp",
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/you-talking/shots/15226fdb-0dbb-43f7-bc19-c5b29191627f/frame-start-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/you-talking/shots/15226fdb-0dbb-43f7-bc19-c5b29191627f.json"
     },
     {
       "key": "shot:you-talking/ea0aef7c-15a6-48af-af02-945816b7fd9b",
@@ -6151,25 +6151,6 @@
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-7/shots/klubowicze/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-7/shots/klubowicze/frame-start-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-7/shots/klubowicze.json"
-    },
-    {
-      "key": "shot:zlote-emoji-7/marianna-hihot",
-      "kind": "shot",
-      "type": "shots",
-      "id": "marianna-hihot",
-      "name": "marianna-hihot",
-      "projectId": "zlote-emoji-7",
-      "projectName": "Złote Emoji #7",
-      "projectCreatedAt": "2026-08-01T18:56:27.457Z",
-      "onTimeline": false,
-      "sequence": null,
-      "lastSequence": null,
-      "sequenceTotal": 13,
-      "summary": "",
-      "imageCount": 0,
-      "imageUrl": null,
-      "thumbnailUrl": null,
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-7/shots/marianna-hihot.json"
     },
     {
       "key": "shot:zlote-emoji-7/takajedna-enters-c",
@@ -6436,6 +6417,25 @@
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-7/shots/klamka/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-7/shots/klamka/frame-start-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-7/shots/klamka.json"
+    },
+    {
+      "key": "shot:zlote-emoji-7/marianna-hihot",
+      "kind": "shot",
+      "type": "shots",
+      "id": "marianna-hihot",
+      "name": "marianna-hihot",
+      "projectId": "zlote-emoji-7",
+      "projectName": "Złote Emoji #7",
+      "projectCreatedAt": "2026-08-01T18:56:27.457Z",
+      "onTimeline": false,
+      "sequence": null,
+      "lastSequence": null,
+      "sequenceTotal": 13,
+      "summary": "",
+      "imageCount": 0,
+      "imageUrl": null,
+      "thumbnailUrl": null,
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-7/shots/marianna-hihot.json"
     },
     {
       "key": "shot:flow/flow-shot-001",
@@ -6723,6 +6723,90 @@
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/flow/shots/zosianakacu.json"
     },
     {
+      "key": "note:kkn-straznicy-rownowagi",
+      "kind": "resource",
+      "type": "notes",
+      "id": "kkn-straznicy-rownowagi",
+      "name": "KKN — strażnicy równowagi świata",
+      "summary": "KKN — strażnicy równowagi świata KANON USTALONY 2026-10-01: Komisja Kultury Najwyższej jest archetypiczną formacją arbitrów i strażników równowagi świata. Jej działalność w kulturze oraz interwencje przy zjawiskach nadnaturalnych wynikają z tej samej misji. KKN strzeże przepływu…",
+      "imageCount": 0,
+      "thumbnailUrl": null,
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/kkn-straznicy-rownowagi.json",
+      "updatedAt": "2026-09-30T22:13:53.538Z"
+    },
+    {
+      "key": "character:kkn-inspektorka",
+      "kind": "resource",
+      "type": "characters",
+      "id": "kkn-inspektorka",
+      "name": "KKN — Inspektorka",
+      "summary": "Inspektorka terenowa Komisji Kultury Najwyższej. Niższa z pary przyjeżdżającej w ZE12, krępa i niewzruszona. Nie lubi długich wywodów; podchodzi, ogląda i sprawdza. Komediowa obsesja: praktyczna użyteczność — podczas nadnaturalnej katastrofy najpierw zauważa zastawione przejście…",
+      "imageCount": 2,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/kkn-inspektorka/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/kkn-inspektorka.json",
+      "updatedAt": "2026-09-30T22:13:53.537Z"
+    },
+    {
+      "key": "character:kkn-protokolant",
+      "kind": "resource",
+      "type": "characters",
+      "id": "kkn-protokolant",
+      "name": "KKN — Protokolant",
+      "summary": "Protokolant Komisji Kultury Najwyższej. Wysoki, łysy i poważny jak urzędnik prowadzący rejestr końca świata. Mówi rzadko, słucha bardzo uważnie. Komediowa obsesja: dosłowność zapisu. Notuje westchnienia, niefortunne sformułowania i uwagi rzucone pod nosem; bez ironii pyta, czy d…",
+      "imageCount": 2,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/kkn-protokolant/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/kkn-protokolant.json",
+      "updatedAt": "2026-09-30T22:13:53.537Z"
+    },
+    {
+      "key": "character:kkn-przewodniczaca",
+      "kind": "resource",
+      "type": "characters",
+      "id": "kkn-przewodniczaca",
+      "name": "KKN — Przewodnicząca",
+      "summary": "Przewodnicząca Komisji Kultury Najwyższej. Mówi cicho i uprzejmie; nigdy nie musi podnosić głosu. Jej autorytet wynika z pewności, że procedura zostanie wykonana. Komediowa obsesja: precyzyjne nazewnictwo — nawet w środku katastrofy spokojnie poprawia niewłaściwy termin i czeka,…",
+      "imageCount": 2,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/kkn-przewodniczaca/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/kkn-przewodniczaca.json",
+      "updatedAt": "2026-09-30T22:13:53.537Z"
+    },
+    {
+      "key": "note:finale-sezonu-2",
+      "kind": "resource",
+      "type": "notes",
+      "id": "finale-sezonu-2",
+      "name": "FINALE_SEZONU2",
+      "summary": "# Finał sezonu 2 — wnioski i powiązania ## Status dokumentu Notka rozwojowa dla świata AIMFTV. Rozdziela decyzje autora od roboczych propozycji. ZE 14 ma jedynie zasiać finałową historię i nie może odkryć wszystkich kart. ## Decyzje autora — obowiązujące - Sirock wygrywa Złote E…",
+      "imageCount": 0,
+      "thumbnailUrl": null,
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/finale-sezonu-2.json",
+      "updatedAt": "2026-09-30T22:13:53.537Z"
+    },
+    {
+      "key": "character:komisant",
+      "kind": "resource",
+      "type": "characters",
+      "id": "komisant",
+      "name": "Włodek — Komisant",
+      "summary": "CHARACTER [age=55-64; presentation=masculine; height=average; build=average; body=oval; chest=medium; skin=light; face=oblong; eyes=brown; hair-color=gray; hair-length=short; hair-texture=straight] Włodek jest właścicielem małomiasteczkowego place:komis-rtv i jedynym człowiekiem…",
+      "imageCount": 5,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/komisant/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/komisant.json",
+      "updatedAt": "2026-09-30T22:10:25.741Z"
+    },
+    {
+      "key": "prop:gwiazda-pierwszej-wielkosci",
+      "kind": "resource",
+      "type": "props",
+      "id": "gwiazda-pierwszej-wielkosci",
+      "name": "Gwiazda z Odzysku",
+      "summary": "Gwiazda z Odzysku — kanoniczna nazwa od 2026-10-01; dawniej Gwiazda Pierwszej Wielkości. Klucz prop:gwiazda-pierwszej-wielkosci pozostaje dla zgodności referencji. WYGLĄD: ciężka złota pięcioramienna gwiazda z szerokim schodkowym rantem i pustą prostokątną tabliczką na nazwę now…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/gwiazda-pierwszej-wielkosci/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/gwiazda-pierwszej-wielkosci.json",
+      "updatedAt": "2026-09-30T22:10:25.741Z"
+    },
+    {
       "key": "note:wtorki-powtorki",
       "kind": "resource",
       "type": "notes",
@@ -6795,18 +6879,6 @@
       "updatedAt": "2026-09-29T16:42:18.660Z"
     },
     {
-      "key": "character:komisant",
-      "kind": "resource",
-      "type": "characters",
-      "id": "komisant",
-      "name": "Włodek — Komisant",
-      "summary": "CHARACTER [age=55-64; presentation=masculine; height=average; build=average; body=oval; chest=medium; skin=light; face=oblong; eyes=brown; hair-color=gray; hair-length=short; hair-texture=straight] Włodek jest właścicielem małomiasteczkowego place:komis-rtv i jedynym człowiekiem…",
-      "imageCount": 5,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/komisant/image-001-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/komisant.json",
-      "updatedAt": "2026-09-29T11:34:42+02:00"
-    },
-    {
       "key": "prop:mftv-emotki-reakcji",
       "kind": "resource",
       "type": "props",
@@ -6852,18 +6924,6 @@
       "imageCount": 3,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/komis-rtv/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/komis-rtv.json",
-      "updatedAt": "2026-09-29T11:03:17+02:00"
-    },
-    {
-      "key": "prop:gwiazda-pierwszej-wielkosci",
-      "kind": "resource",
-      "type": "props",
-      "id": "gwiazda-pierwszej-wielkosci",
-      "name": "Gwiazda Pierwszej Wielkości",
-      "summary": "Legendarny, trwały fant z place:komis-rtv. Ciężka złota pięcioramienna gwiazda z szerokim schodkowym rantem i pustą prostokątną tabliczką na nazwę. Metal jest wypolerowany na froncie, ale w zagłębieniach widać wiek i ciemną patynę; z tyłu pozostał pył, zaprawa i ślady wyrwania z…",
-      "imageCount": 1,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/gwiazda-pierwszej-wielkosci/image-001-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/gwiazda-pierwszej-wielkosci.json",
       "updatedAt": "2026-09-29T11:03:17+02:00"
     },
     {
@@ -6937,18 +6997,6 @@
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/sirock/image-005-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/sirock.json",
       "updatedAt": "2026-09-26T18:45:00+02:00"
-    },
-    {
-      "key": "note:finale-sezonu-2",
-      "kind": "resource",
-      "type": "notes",
-      "id": "finale-sezonu-2",
-      "name": "FINALE_SEZONU2",
-      "summary": "# Finał sezonu 2 — wnioski i powiązania ## Status dokumentu Notka rozwojowa dla świata AIMFTV. Rozdziela decyzje autora od roboczych propozycji. ZE 14 ma jedynie zasiać finałową historię i nie może odkryć wszystkich kart. ## Decyzje autora — obowiązujące - Sirock wygrywa Złote E…",
-      "imageCount": 0,
-      "thumbnailUrl": null,
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/finale-sezonu-2.json",
-      "updatedAt": "2026-09-26T16:53:27+02:00"
     },
     {
       "key": "place:lazy-kts-spoldzielcza-2",
@@ -7167,30 +7215,6 @@
       "updatedAt": "2026-09-12T01:06:00.502798+00:00"
     },
     {
-      "key": "character:kkn-inspektorka",
-      "kind": "resource",
-      "type": "characters",
-      "id": "kkn-inspektorka",
-      "name": "KKN — Inspektorka",
-      "summary": "Inspektorka terenowa Komisji Kultury Najwyższej. Niższa z pary przyjeżdżającej w ZE12, krępa i niewzruszona. Nie lubi długich wywodów; podchodzi, ogląda i sprawdza. Komediowa obsesja: praktyczna użyteczność — podczas nadnaturalnej katastrofy najpierw zauważa zastawione przejście…",
-      "imageCount": 2,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/kkn-inspektorka/image-001-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/kkn-inspektorka.json",
-      "updatedAt": "2026-09-12T00:39:07.411729+00:00"
-    },
-    {
-      "key": "character:kkn-przewodniczaca",
-      "kind": "resource",
-      "type": "characters",
-      "id": "kkn-przewodniczaca",
-      "name": "KKN — Przewodnicząca",
-      "summary": "Przewodnicząca Komisji Kultury Najwyższej. Mówi cicho i uprzejmie; nigdy nie musi podnosić głosu. Jej autorytet wynika z pewności, że procedura zostanie wykonana. Komediowa obsesja: precyzyjne nazewnictwo — nawet w środku katastrofy spokojnie poprawia niewłaściwy termin i czeka,…",
-      "imageCount": 2,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/kkn-przewodniczaca/image-001-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/kkn-przewodniczaca.json",
-      "updatedAt": "2026-09-12T00:39:07.411729+00:00"
-    },
-    {
       "key": "character:aniol-wygnany",
       "kind": "resource",
       "type": "characters",
@@ -7225,18 +7249,6 @@
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/aniol-wejscie-w-atmosfere-ze12/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/aniol-wejscie-w-atmosfere-ze12.json",
       "updatedAt": "2026-09-11T23:55:17.461278+00:00"
-    },
-    {
-      "key": "character:kkn-protokolant",
-      "kind": "resource",
-      "type": "characters",
-      "id": "kkn-protokolant",
-      "name": "KKN — Protokolant",
-      "summary": "Protokolant Komisji Kultury Najwyższej. Wysoki, łysy i poważny jak urzędnik prowadzący rejestr końca świata. Mówi rzadko, słucha bardzo uważnie. Komediowa obsesja: dosłowność zapisu. Notuje westchnienia, niefortunne sformułowania i uwagi rzucone pod nosem; bez ironii pyta, czy d…",
-      "imageCount": 2,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/kkn-protokolant/image-001-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/kkn-protokolant.json",
-      "updatedAt": "2026-09-11T23:41:58.833411+00:00"
     },
     {
       "key": "note:aniol-osmalony-ze12",
