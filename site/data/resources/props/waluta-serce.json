@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T22:17:01.223Z",
+  "generatedAt": "2026-10-01T17:40:45.066Z",
   "worldId": "aimftv",
   "kind": "resource",
   "key": "prop:waluta-serce",
   "type": "props",
   "id": "waluta-serce",
   "name": "Serce — waluta reakcji",
-  "description": "Podstawowa waluta jakości reakcji: niewielki, czerwony fant w kształcie realistycznego anatomicznego serca, mieszczący się w dłoni. Ma mięsistą, lekko połyskującą powierzchnię oraz wyraźnie wyrzeźbione komory i naczynia, ale pozostaje trwałym, nieruchomym przedmiotem — nie jest żywym organem, nie krwawi i nie pulsuje. Powstaje ze zwykłych reakcji widzów, które nie należą ani do grupy wyraźnie negatywnej, ani do najwyższych poziomów entuzjazmu. W kantorze place:komis-rtv 10 serc daje 1 prop:waluta-gem, natomiast rozbicie 1 serca daje tylko 5 prop:waluta-ucho. Asymetria jest marżą Włodka. Zachować anatomiczną sylwetkę i głęboką czerwień z referencji; nie przedstawiać jako płaskiej ikony, hologramu ani prostego symbolu walentynkowego.",
+  "description": "Podstawowa waluta jakości reakcji: niewielki, czerwony fant w kształcie realistycznego anatomicznego serca, mieszczący się w dłoni. Ma mięsistą, lekko połyskującą powierzchnię oraz wyraźnie wyrzeźbione komory i naczynia, ale pozostaje trwałym, nieruchomym przedmiotem — nie jest żywym organem, nie krwawi i nie pulsuje. Powstaje ze zwykłych reakcji widzów, które nie należą ani do grupy wyraźnie negatywnej, ani do najwyższych poziomów entuzjazmu. W kantorze place:komis-rtv 10 serc daje 1 prop:waluta-gem, natomiast rozbicie 1 serca daje tylko 5 prop:waluta-ucho. Asymetria jest marżą Włodka. Zachować anatomiczną sylwetkę i głęboką czerwień z referencji; nie przedstawiać jako płaskiej ikony, hologramu ani prostego symbolu walentynkowego.\n\nMECHANIKA PLATFORMY (01.10.2026): hearts / serca. Za zwykłe reakcje na Twój utwór — 1 naliczona emotka = 1 serce. To kategoria domyślna, z wyjątkiem jawnie przypisanych grup czaszek, gemów i run. 1 serce można rozmienić na 5 uszu, a 10 serc na 1 gem.\nPrzy kolejnych emisjach rozliczane są dodatnie przyrosty, nie ponownie cała historia. Pełne zasady, pakiet powitalny, koszt zgłoszenia oraz obliczenia: note:ekonomia-zgloszen-i-zasobow.\nGRAFIKI: obraz ui-icon jest kanoniczną ikoną używaną w interfejsie MFTV i materiałach objaśniających zasoby. Pozostałe referencje opisują fizyczny rekwizyt do scen fabularnych; zakaz płaskich ikon w inscenizacji nie dotyczy używania ui-icon w UI i instrukcjach.",
   "images": [
     {
       "id": "image-002",
@@ -17,7 +17,16 @@
       "width": 320,
       "height": 320,
       "contentType": "image/webp"
+    },
+    {
+      "id": "ui-icon",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/waluta-serce/ui-icon.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/waluta-serce/ui-icon-thumb.webp",
+      "width": 96,
+      "height": 96,
+      "contentType": "image/webp"
     }
   ],
-  "updatedAt": "2026-09-29T16:42:18.919Z"
+  "updatedAt": "2026-10-01T17:40:28.002Z"
 }

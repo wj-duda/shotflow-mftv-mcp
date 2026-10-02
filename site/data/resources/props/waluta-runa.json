@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T22:17:01.223Z",
+  "generatedAt": "2026-10-01T17:40:45.066Z",
   "worldId": "aimftv",
   "kind": "resource",
   "key": "prop:waluta-runa",
   "type": "props",
   "id": "waluta-runa",
   "name": "Runa — waluta reakcji",
-  "description": "Najwyższa kategoria materialnej reakcji: jasny kamienny lub kościany żeton z wyrytym znakiem, delikatnie podświetlonym od środka. Powstaje z reakcji najwyższej rangi, związanych ze zwycięstwem, perfekcją i wyróżnieniem — kanoniczne przykłady to medal, sto punktów, gwiazdy i puchar. Runa jest niewielka, mieści się w dłoni i ma wyczuwalny ciężar; nie jest kartą, hologramem ani czarem rzucanym w powietrzu. W kantorze place:komis-rtv 4 prop:waluta-gem dają 1 runę, ale rozbicie 1 runy zwraca tylko 2 gemy. Jest kluczowym składnikiem najrzadszych zakupów u character:komisant.",
+  "description": "Najwyższa kategoria materialnej reakcji: jasny kamienny lub kościany żeton z wyrytym znakiem, delikatnie podświetlonym od środka. Powstaje z reakcji najwyższej rangi, związanych ze zwycięstwem, perfekcją i wyróżnieniem — kanoniczne przykłady to medal, sto punktów, gwiazdy i puchar. Runa jest niewielka, mieści się w dłoni i ma wyczuwalny ciężar; nie jest kartą, hologramem ani czarem rzucanym w powietrzu. W kantorze place:komis-rtv 4 prop:waluta-gem dają 1 runę, ale rozbicie 1 runy zwraca tylko 2 gemy. Jest kluczowym składnikiem najrzadszych zakupów u character:komisant.\n\nMECHANIKA PLATFORMY (01.10.2026): runes / runy. Za świetne reakcje na Twój utwór: 🥇 💯 ⭐ 🌟 🏆. Jedna naliczona emotka = 1 runa. 1 runę można rozmienić na 2 gemy, czyli dalej na 10 serc i 50 uszu.\nPrzy kolejnych emisjach rozliczane są dodatnie przyrosty, nie ponownie cała historia. Pełne zasady, pakiet powitalny, koszt zgłoszenia oraz obliczenia: note:ekonomia-zgloszen-i-zasobow.\nGRAFIKI: obraz ui-icon jest kanoniczną ikoną używaną w interfejsie MFTV i materiałach objaśniających zasoby. Pozostałe referencje opisują fizyczny rekwizyt do scen fabularnych; zakaz płaskich ikon w inscenizacji nie dotyczy używania ui-icon w UI i instrukcjach.",
   "images": [
     {
       "id": "image-002",
@@ -17,7 +17,16 @@
       "width": 320,
       "height": 320,
       "contentType": "image/webp"
+    },
+    {
+      "id": "ui-icon",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/waluta-runa/ui-icon.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/waluta-runa/ui-icon-thumb.webp",
+      "width": 96,
+      "height": 96,
+      "contentType": "image/webp"
     }
   ],
-  "updatedAt": "2026-09-29T16:42:19.046Z"
+  "updatedAt": "2026-10-01T17:40:28.482Z"
 }

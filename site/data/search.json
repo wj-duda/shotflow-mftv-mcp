@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T22:17:01.223Z",
+  "generatedAt": "2026-10-01T17:40:45.066Z",
   "worldId": "aimftv",
   "entries": [
     {
@@ -6837,10 +6837,10 @@
       "id": "waluta-runa",
       "name": "Runa — waluta reakcji",
       "summary": "Najwyższa kategoria materialnej reakcji: jasny kamienny lub kościany żeton z wyrytym znakiem, delikatnie podświetlonym od środka. Powstaje z reakcji najwyższej rangi, związanych ze zwycięstwem, perfekcją i wyróżnieniem — kanoniczne przykłady to medal, sto punktów, gwiazdy i puch…",
-      "imageCount": 1,
+      "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/waluta-runa/image-002-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-runa.json",
-      "updatedAt": "2026-09-29T16:42:19.046Z"
+      "updatedAt": "2026-10-01T17:40:28.482Z"
     },
     {
       "key": "prop:waluta-serce",
@@ -6849,10 +6849,10 @@
       "id": "waluta-serce",
       "name": "Serce — waluta reakcji",
       "summary": "Podstawowa waluta jakości reakcji: niewielki, czerwony fant w kształcie realistycznego anatomicznego serca, mieszczący się w dłoni. Ma mięsistą, lekko połyskującą powierzchnię oraz wyraźnie wyrzeźbione komory i naczynia, ale pozostaje trwałym, nieruchomym przedmiotem — nie jest…",
-      "imageCount": 1,
+      "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/waluta-serce/image-002-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-serce.json",
-      "updatedAt": "2026-09-29T16:42:18.919Z"
+      "updatedAt": "2026-10-01T17:40:28.002Z"
     },
     {
       "key": "prop:waluta-gem",
@@ -6861,10 +6861,10 @@
       "id": "waluta-gem",
       "name": "Gem — waluta reakcji",
       "summary": "Skondensowany entuzjazm: mały, intensywnie fioletowy klejnot o brylantowym, zwężającym się ku dołowi kształcie, wielkości mieszczącej się w dłoni. Liczne ostre fasety przechodzą od ciemnego ametystu na krawędziach do jasnych purpurowych refleksów wewnątrz. Powstaje z mocnych rea…",
-      "imageCount": 1,
+      "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/waluta-gem/image-002-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-gem.json",
-      "updatedAt": "2026-09-29T16:42:18.793Z"
+      "updatedAt": "2026-10-01T17:40:28.245Z"
     },
     {
       "key": "prop:sakiewka-tworcy",
@@ -6933,10 +6933,10 @@
       "id": "waluta-czaszka",
       "name": "Czaszka — waluta reakcji",
       "summary": "Najniższy materialny osad reakcji publiczności: mała czaszka w kolorze starej kości, wielkości mieszczącej się w dłoni. Powstaje z reakcji negatywnych, odrzucających lub szyderczych — kanoniczne przykłady to pomidor, smutek, kupa, mdłości i kciuk w dół. Nie jest ludzką kością an…",
-      "imageCount": 1,
+      "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/waluta-czaszka/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-czaszka.json",
-      "updatedAt": "2026-09-29T11:03:17+02:00"
+      "updatedAt": "2026-10-01T17:40:28.749Z"
     },
     {
       "key": "prop:waluta-ucho",
@@ -6945,10 +6945,10 @@
       "id": "waluta-ucho",
       "name": "Ucho — waluta uczestnictwa",
       "summary": "Mały złocisto-mosiężny fant w kształcie stylizowanego ludzkiego ucha, mieszczący się w dłoni. Jest materialnym śladem aktywnego udziału widza w głosowaniu — widz dosłownie «rzuca uchem». Nie jest częścią ciała, lecz ciężkim odlewem z drobną patyną i połyskiem na wypukłościach. W…",
-      "imageCount": 1,
+      "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/waluta-ucho/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-ucho.json",
-      "updatedAt": "2026-09-29T11:03:17+02:00"
+      "updatedAt": "2026-10-01T17:40:27.734Z"
     },
     {
       "key": "note:ze14-kanon-domu-kultury",
@@ -7873,6 +7873,18 @@
       "thumbnailUrl": null,
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/movie-shot.json",
       "updatedAt": "2026-08-01T00:24:24.0973986+00:00"
+    },
+    {
+      "key": "note:ekonomia-zgloszen-i-zasobow",
+      "kind": "resource",
+      "type": "notes",
+      "id": "ekonomia-zgloszen-i-zasobow",
+      "name": "Ekonomia MFTV — zgłoszenia za uszy, drop startowy, kantor i średnie zarobki",
+      "summary": "EKONOMIA MFTV — USZY, ZGŁASZANIE UTWORÓW, PAKIET POWITALNY I KANTOR Stan zasad i analizy: 1 października 2026. Słowa kluczowe: koszt zgłoszenia, 500 uszu, 1500 na start, drop, portfel, łupy, reakcje, payoutSent, wymiana, średnia za emisję. To dokumentacja działającego systemu, n…",
+      "imageCount": 0,
+      "thumbnailUrl": null,
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ekonomia-zgloszen-i-zasobow.json",
+      "updatedAt": "2026-10-01T17:39:46.600Z"
     }
   ]
 }

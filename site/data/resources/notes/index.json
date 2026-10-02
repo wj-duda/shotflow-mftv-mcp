@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T22:17:01.223Z",
+  "generatedAt": "2026-10-01T17:40:45.066Z",
   "worldId": "aimftv",
   "type": "notes",
   "label": "Notatki",
@@ -196,6 +196,18 @@
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/ze14-kanon-domu-kultury/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze14-kanon-domu-kultury.json",
       "updatedAt": "2026-09-27T01:00:55.238Z"
+    },
+    {
+      "key": "note:ekonomia-zgloszen-i-zasobow",
+      "kind": "resource",
+      "type": "notes",
+      "id": "ekonomia-zgloszen-i-zasobow",
+      "name": "Ekonomia MFTV — zgłoszenia za uszy, drop startowy, kantor i średnie zarobki",
+      "summary": "EKONOMIA MFTV — USZY, ZGŁASZANIE UTWORÓW, PAKIET POWITALNY I KANTOR Stan zasad i analizy: 1 października 2026. Słowa kluczowe: koszt zgłoszenia, 500 uszu, 1500 na start, drop, portfel, łupy, reakcje, payoutSent, wymiana, średnia za emisję. To dokumentacja działającego systemu, n…",
+      "imageCount": 0,
+      "thumbnailUrl": null,
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ekonomia-zgloszen-i-zasobow.json",
+      "updatedAt": "2026-10-01T17:39:46.600Z"
     }
   ]
 }
