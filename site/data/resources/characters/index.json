@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-04T02:05:41.063Z",
+  "generatedAt": "2026-10-04T15:00:16.717Z",
   "worldId": "aimftv",
   "type": "characters",
   "label": "Postacie",
@@ -40,6 +40,18 @@
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/czeslaw/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
       "updatedAt": "2026-08-01T16:29:13.2392329+00:00"
+    },
+    {
+      "key": "character:estebes",
+      "kind": "resource",
+      "type": "characters",
+      "id": "estebes",
+      "name": "Estebes — kierowca Betoniara Team",
+      "summary": "CHARACTER [age=34-38; presentation=masculine; height=181cm; build=sturdy-average-athletic; body=straight; skin=light; face=elongated-oval; eyes=blue-gray; hair-color=dark-brown; hair-length=medium-short; hair-texture=thick-wavy; beard=short-dark] Estebes jest właścicielem-kierow…",
+      "imageCount": 2,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/estebes/image-003-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/estebes.json",
+      "updatedAt": "2026-10-04T10:10:59.675Z"
     },
     {
       "key": "character:filip-koza",

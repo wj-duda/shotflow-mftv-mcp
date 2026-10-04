@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-04T15:00:16.717Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "prop:betoniara-team",
+  "type": "props",
+  "id": "betoniara-team",
+  "name": "Betoniara Team — tuningowana betonomieszarka",
+  "description": "Kanoniczny pojazd ekipy Betoniara Team używany od ZE15. Bazą konstrukcyjną jest realny Mercedes-Benz Arocs 4142 B 8x4 z krótką kabiną budowlaną ClassicSpace oraz zabudową mieszalnika w proporcjach Liebherr HTM 905 o nominalnej pojemności 9 m³. Pojazd ma dokładnie cztery osie: dwie przednie osie kierowane i dwie tylne osie napędowe. Musi pozostać sprawną betonomieszarką z pełnym bębnem, lejem zasypowym, tylną drabiną, rynną wyładowczą, zbiornikiem wody, instalacją hydrauliczną, lustrami, lampami i ogumieniem budowlanym.\n\nSTAŁY TUNING BETONIARA TEAM: kabina w głębokim wiśniowo-czarnym metaliku; kremowo-perłowy bęben; ręcznie malowane złote i bordowe ornamenty; duży, czytelny napis „BETONIARA TEAM” na boku bębna; chromowany zderzak, osłona przeciwsłoneczna, stopnie i zbiorniki; polerowane aluminiowe felgi ciężarowe ze stonowanymi złotymi dekielkami; cztery chromowane trąby na dachu; mała chromowana korona pośrodku dachu; ograniczone bursztynowe światła obrysowe i delikatne ciepłe podświetlenie podwozia. Za kabiną znajdują się dwie symetryczne pionowe kolumny, łącznie dokładnie osiem dużych, pogodoodpornych głośników. Nagłośnienie nie może zasłaniać bębna, drabiny, leja, rynny ani punktów serwisowych.\n\nJęzyk wizualny: ostentacyjny, jarmarczno-tuningowy maksymalizm na bazie prawdziwej ciężarówki roboczej — kosztowny, ręcznie dopieszczony i zabawnie przesadny, lecz mechanicznie wiarygodny. Dopuszczalny jest lekki pył drogowy i ślady pracy na oponach, błotnikach oraz dolnej części podwozia; lakier, chrom i ornament pozostają pokazowo zadbane. Bez symboli etnicznych, karykatur, płomieni, czaszek, flag, graffiti, dodatkowych napisów, dodatkowych osi, opon typu monster truck i fantastycznej przebudowy nadwozia.\n\nPodstawa techniczna: Mercedes-Benz Arocs, rodzina podwozi budowlanych 8x4; Liebherr HTM 905, nominalne napełnienie 9 m³, geometryczna objętość bębna 16 m³. Źródła: https://www.mercedes-benz-trucks.com/int/en/trucks/arocs.html oraz https://www.liebherr.com/en-ca/p/70959-4026927.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/betoniara-team/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/betoniara-team/image-001-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-10-04T11:38:53+02:00"
+}

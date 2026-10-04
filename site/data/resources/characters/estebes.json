@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-04T15:00:16.717Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "character:estebes",
+  "type": "characters",
+  "id": "estebes",
+  "name": "Estebes — kierowca Betoniara Team",
+  "description": "CHARACTER [age=34-38; presentation=masculine; height=181cm; build=sturdy-average-athletic; body=straight; skin=light; face=elongated-oval; eyes=blue-gray; hair-color=dark-brown; hair-length=medium-short; hair-texture=thick-wavy; beard=short-dark]\n\nEstebes jest właścicielem-kierowcą tuningowanej betonomieszarki `prop:betoniara-team` i scenicznym frontmanem całej ekipy Betoniara Team. Cała grupa po raz pierwszy wjechała na piątkową audycję AIMFTV; od ZE15 ten przyjazd jest podstawą jego wejścia do świata. Estebes traktuje dostawę betonu jak koncertowy wjazd: światła są gotowe, nagłośnienie gra, bęben trzyma rytm, a przybycie musi zostać zauważone. Jego naturalne hasło startowe brzmi: „Dobra! Lecimy z tym koksem”.\n\nNie jest przebierańcem ani niekompetentnym celebrytą. Naprawdę posiada uprawnienia i doświadczenie kierowcy ciężarowego, zna gabaryty Arocsa, potrafi precyzyjnie cofać, ustawić rynnę, ocenić dojazd oraz pilnować pracy bębna i czasu dostawy. Jest dumny z maszyny, sam dogląda chromu, nagłośnienia i ornamentów. Gdy pojawia się problem, najpierw rozwiązuje go fachowo, a dopiero potem robi z tego widowisko. Humor wynika z całkowicie szczerego przekonania, że plac budowy zasługuje na oprawę wielkiej sceny.\n\nCharakter: ekstrawertyczny, serdeczny, bezczelnie pewny siebie i hojny wobec swojej ekipy. Mówi szybko, konkretnie i z estradowym rozmachem, ale nie poniża ludzi i nie szuka bójki. Lubi wejścia z hukiem, mocny bas, wypolerowany chrom i reakcję publiczności. Źle znosi nijakość, natomiast regulaminy traktuje jako przeszkody techniczne do eleganckiego obejścia, nie jako osobistą obrazę. W kontakcie z Czesławem jego spontaniczny showmański temperament ma kontrastować z proceduralną powagą gospodarza Domu Kultury.\n\nSTAŁY WYGLĄD: wydłużona owalna twarz, niebieskoszare oczy, grube ciemne brwi, gęste wysoko uniesione falujące ciemnobrązowe włosy z luźnymi pasmami nad czołem oraz równy krótki ciemny zarost połączony z dyskretnym wąsem. Wyraz twarzy zwykle pewny i przyjazny: półuśmiech oraz lekko uniesiona brew. Bez siwizny, ciężkiego wąsa i postarzonej, mocno pooranej twarzy.\n\nSTAŁY STRÓJ: ciepłobiała robocza koszula z rękawami podwiniętymi poniżej łokci; czarna bezrękawna kamizelka z czerwonym lamowaniem i oszczędnym czerwono-niebiesko-zielonym haftem kwiatowym; czerwono-czarny haft przy rozpięciu koszuli i srebrny łańcuch, zgodnie z referencją użytkownika; bez apaszki; proste ciemnogranatowe jeansy robocze; szeroki ciemnobrązowy pasek z polerowaną owalną klamrą; ciężkie brązowe skórzane buty robocze. Klucze z brelokiem betonomieszarki przy prawym biodrze; brązowe rękawice robocze przy lewym biodrze. Drobne ślady pyłu cementowego są dopuszczalne na dolnej części spodni, butach i jednym brzegu kamizelki. Bez kasku, kamizelki odblaskowej, kapelusza, okularów przeciwsłonecznych, nadmiaru biżuterii i karykaturalnych symboli etnicznych.\n\nKOREKTA TOŻSAMOŚCI 2026-10-04: poprzednie obrazy image-001 i image-002 odrzucone przez użytkownika jako niepodobne. Obowiązują image-003 (portret bezpośrednio z ponownie załączonego kadru) i image-004 (sylwetka z poprawionego portretu). Priorytet: dokładne rysy twarzy, bardzo wysoka bujna fryzura, kształt oczu i krótki precyzyjnie przystrzyżony zarost z referencji. Wiek wizualny określa referencja, nie wcześniejszy opis kierowcy.",
+  "images": [
+    {
+      "id": "image-003",
+      "role": "portrait",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/estebes/image-003.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/estebes/image-003-thumb.webp",
+      "width": 1254,
+      "height": 1254,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-004",
+      "role": "silhouette",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/estebes/image-004.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/estebes/image-004-thumb.webp",
+      "width": 1024,
+      "height": 1536,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-10-04T10:10:59.675Z"
+}
