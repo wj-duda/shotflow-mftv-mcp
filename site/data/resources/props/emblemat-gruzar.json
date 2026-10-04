@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-04T23:08:09.582Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "prop:emblemat-gruzar",
+  "type": "props",
+  "id": "emblemat-gruzar",
+  "name": "GRUZAR — emblemat fikcyjnej marki ciężarówek",
+  "description": "Fikcyjna marka w świecie AIMFTV, zaprojektowana dla ZE15. Model betoniarki: GRUZAR G84, 8×4. Emblemat: chromowany sześciokąt z poziomą górną i dolną krawędzią, bordowa emalia, gruba kanciasta chromowana litera G. Bez gwiazdy i okręgu. Na grillu, kierownicy i dekielkach ten sam symbol dopasowany do perspektywy i skali. Napis GRUZAR, oznaczenie modelu G84. BETONIARA TEAM pozostaje nazwą ekipy. Projekt fikcyjny, bez twierdzenia o prawnej dostępności nazwy.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/emblemat-gruzar/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/emblemat-gruzar/image-001-thumb.webp",
+      "width": 1254,
+      "height": 1254,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-10-04T16:06:28.387Z"
+}

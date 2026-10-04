@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-04T23:08:09.582Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-15/ze15-beton",
+  "id": "ze15-beton",
+  "title": "03 — Beton w bębnie",
+  "description": "Przebitka z nocnego załadunku: mokry beton we wnętrzu gruchy, oświetlony zimną lampą roboczą.",
+  "project": {
+    "id": "zlote-emoji-15",
+    "key": "project:zlote-emoji-15",
+    "name": "Złote Emoji #15",
+    "createdAt": "2026-10-04T15:23:07.633Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-15",
+    "projectCreatedAt": "2026-10-04T15:23:07.633Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 2,
+    "lastSequence": 2,
+    "occurrences": [
+      2
+    ],
+    "sequenceTotal": 10,
+    "uniqueShotCount": 10,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "prop",
+      "id": "betoniara-team"
+    },
+    {
+      "type": "shot",
+      "id": "ze15-beton"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "prop:betoniara-team",
+        "key": "prop:betoniara-team",
+        "type": "prop",
+        "id": "betoniara-team",
+        "name": "Betoniara Team — GRUZAR G84",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/betoniara-team.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze15-beton",
+        "key": "shot:zlote-emoji-15/ze15-beton",
+        "type": "shot",
+        "id": "ze15-beton",
+        "name": "03 — Beton w bębnie",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-beton.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "shot:ze15-beton"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze15-beton",
+            "key": "shot:zlote-emoji-15/ze15-beton",
+            "type": "shot",
+            "id": "ze15-beton",
+            "name": "03 — Beton w bębnie",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-beton.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Use case: lighting-weather. Edit the supplied exact frame for a continuous music video sequence. Nighttime loading cutaway. Deep dark interior of mixing drum, wet grey concrete and steel blades lit by cold industrial LED worklight entering through opening, a restrained amber edge reflection. No sunlight or orange sunrise. Retain visible concrete texture. Preserve original composition, camera position, all identities, vehicle livery, lettering, objects, anatomy and architecture. Photorealistic physically motivated relighting, not a simple blue overlay; shadows, reflections and sky must match time of day. Retain readable important detail in cinematic shadows. Single landscape 16:9 1920x1080 frame, no text overlays or watermark.",
+    "endFrameDescription": "",
+    "animation": "0–6s: the drum rotates steadily around its longitudinal axis. Its steel mixing blades lift the existing wet concrete, which folds and falls back under gravity in thick heavy clumps. Camera: fixed inspection viewpoint looking into the drum, not rotating with it. Worklight glints shift over the wet mixture as blades pass. Keep the concrete dense and viscous, with no watery explosion. Preserve the cylindrical drum structure and blade shapes; no extra openings or objects. Continuity: preserve the supplied frame, exact geometry, lighting, lettering and identities. No new people, extra limbs, morphing, cuts, captions or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze15-beton"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze15-beton",
+          "key": "shot:zlote-emoji-15/ze15-beton",
+          "type": "shot",
+          "id": "ze15-beton",
+          "name": "03 — Beton w bębnie",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-beton.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-04T15:23:18.038203+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "prop:betoniara-team"
+          ],
+          "references": [
+            {
+              "sourceKey": "prop:betoniara-team",
+              "key": "prop:betoniara-team",
+              "type": "prop",
+              "id": "betoniara-team",
+              "name": "Betoniara Team — GRUZAR G84",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/betoniara-team.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-10-04T16:02:11.330369+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze15-beton"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze15-beton",
+              "key": "shot:zlote-emoji-15/ze15-beton",
+              "type": "shot",
+              "id": "ze15-beton",
+              "name": "03 — Beton w bębnie",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-beton.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-15/shots/ze15-beton/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-15/shots/ze15-beton/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

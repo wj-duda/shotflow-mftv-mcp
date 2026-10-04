@@ -1,0 +1,274 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-04T23:08:09.582Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-15/ze15-alusy",
+  "id": "ze15-alusy",
+  "title": "04 — Chrom i alusy",
+  "description": "Nocna jazda do Łazów: niski detal chromowanych kół GRUZAR G84. Widoczne cztery osie (dwie przednie i tylny tandem), bordowe sześciokątne dekielki G, refleksy bursztynowych obrysówek i mokry asfalt.",
+  "project": {
+    "id": "zlote-emoji-15",
+    "key": "project:zlote-emoji-15",
+    "name": "Złote Emoji #15",
+    "createdAt": "2026-10-04T15:23:07.633Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-15",
+    "projectCreatedAt": "2026-10-04T15:23:07.633Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 3,
+    "lastSequence": 3,
+    "occurrences": [
+      3
+    ],
+    "sequenceTotal": 10,
+    "uniqueShotCount": 10,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "prop",
+      "id": "betoniara-team"
+    },
+    {
+      "type": "shot",
+      "id": "ze15-alusy"
+    },
+    {
+      "type": "prop",
+      "id": "emblemat-gruzar"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "prop:betoniara-team",
+        "key": "prop:betoniara-team",
+        "type": "prop",
+        "id": "betoniara-team",
+        "name": "Betoniara Team — GRUZAR G84",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/betoniara-team.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze15-alusy",
+        "key": "shot:zlote-emoji-15/ze15-alusy",
+        "type": "shot",
+        "id": "ze15-alusy",
+        "name": "04 — Chrom i alusy",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-alusy.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:emblemat-gruzar",
+        "key": "prop:emblemat-gruzar",
+        "type": "prop",
+        "id": "emblemat-gruzar",
+        "name": "GRUZAR — emblemat fikcyjnej marki ciężarówek",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/emblemat-gruzar.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 4,
+        "referenceKeys": [
+          "shot:ze15-alusy",
+          "prop:betoniara-team"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze15-alusy",
+            "key": "shot:zlote-emoji-15/ze15-alusy",
+            "type": "shot",
+            "id": "ze15-alusy",
+            "name": "04 — Chrom i alusy",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-alusy.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:betoniara-team",
+            "key": "prop:betoniara-team",
+            "type": "prop",
+            "id": "betoniara-team",
+            "name": "Betoniara Team — GRUZAR G84",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/betoniara-team.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Use case: precise-object-edit. Image 1 is the edit target: low-angle close tracking shot of GRUZAR mixer truck driving at night. Image 2 is ONLY canonical truck geometry reference. Repair a mechanical error in Image 1: the TWO REAR AXLES and their wheels are missing. Preserve the two large existing front steering wheels exactly. Add the pair of rear drive axles with TWO smaller-in-perspective chrome wheels at the right, beneath the rear drum and rear ladder, with realistic tires, mudguards, suspension and road contact, matching the canonical four-axle 8x4 truck in Image 2. Reposition/shorten the erroneously long chrome tank behind second front wheel only as necessary to fit rear tandem; there should be the small tank between second front axle and first rear axle, not a tank replacing rear wheels. Total exactly FOUR near-side wheels representing FOUR axles. Correct perspective: added rear wheels recede into distance and are smaller than foreground wheels. Same burgundy hexagonal chrome G hub badges on added wheels, no real manufacturer stars. Preserve original foreground wheels, headlights, cherry/gold paint, speakers, drum ornaments, road sign Łazy, wet road, camera viewpoint and composition, night sky, amber marker lighting and motion blur. Do not switch to broadside or wide view. Photorealistic single landscape 16:9 frame, no watermark.",
+    "endFrameDescription": "",
+    "animation": "0–6s: all four truck wheels rotate continuously as the truck travels toward screen left. Camera: low parallel tracking beside the wheels at matching speed, maintaining the original composition. Asphalt and roadside move toward screen right. Tires flex slightly at their contact patches; amber and white reflections travel over chrome. Preserve exactly four axles including the rear tandem, firm road contact and rigid GRUZAR hub emblems. No sliding stationary tires, disappearing axles or reverse travel. Continuity: preserve the supplied frame, exact geometry, lighting, lettering and identities. No new people, extra limbs, morphing, cuts, captions or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 4,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze15-alusy",
+        "prop:betoniara-team"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze15-alusy",
+          "key": "shot:zlote-emoji-15/ze15-alusy",
+          "type": "shot",
+          "id": "ze15-alusy",
+          "name": "04 — Chrom i alusy",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-alusy.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:betoniara-team",
+          "key": "prop:betoniara-team",
+          "type": "prop",
+          "id": "betoniara-team",
+          "name": "Betoniara Team — GRUZAR G84",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/betoniara-team.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-04T15:23:21.397913+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "prop:betoniara-team"
+          ],
+          "references": [
+            {
+              "sourceKey": "prop:betoniara-team",
+              "key": "prop:betoniara-team",
+              "type": "prop",
+              "id": "betoniara-team",
+              "name": "Betoniara Team — GRUZAR G84",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/betoniara-team.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-10-04T16:02:13.108414+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze15-alusy"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze15-alusy",
+              "key": "shot:zlote-emoji-15/ze15-alusy",
+              "type": "shot",
+              "id": "ze15-alusy",
+              "name": "04 — Chrom i alusy",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-alusy.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 3,
+          "createdAt": "2026-10-04T16:20:03.373959+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze15-alusy",
+            "prop:emblemat-gruzar"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze15-alusy",
+              "key": "shot:zlote-emoji-15/ze15-alusy",
+              "type": "shot",
+              "id": "ze15-alusy",
+              "name": "04 — Chrom i alusy",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-alusy.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:emblemat-gruzar",
+              "key": "prop:emblemat-gruzar",
+              "type": "prop",
+              "id": "emblemat-gruzar",
+              "name": "GRUZAR — emblemat fikcyjnej marki ciężarówek",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/emblemat-gruzar.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 4,
+          "createdAt": "2026-10-04T16:29:55.394987+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze15-alusy",
+            "prop:betoniara-team"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze15-alusy",
+              "key": "shot:zlote-emoji-15/ze15-alusy",
+              "type": "shot",
+              "id": "ze15-alusy",
+              "name": "04 — Chrom i alusy",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-alusy.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:betoniara-team",
+              "key": "prop:betoniara-team",
+              "type": "prop",
+              "id": "betoniara-team",
+              "name": "Betoniara Team — GRUZAR G84",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/betoniara-team.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-15/shots/ze15-alusy/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-15/shots/ze15-alusy/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

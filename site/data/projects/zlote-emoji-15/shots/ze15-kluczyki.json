@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-04T23:08:09.582Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-15/ze15-kluczyki",
+  "id": "ze15-kluczyki",
+  "title": "05 — Dawaj penge",
+  "description": "Nocny detal kluczyków Estebesa w kabinie: dokładnie dwa metalowe klucze łącznie — jeden w stacyjce i jeden wiszący przy kółku. Srebrzysty brelok trzyosiowej betonomieszarki, karabińczyk i skórzana pętla zachowane. Chłodne światło instrumentów i delikatna ciepła poświata.",
+  "project": {
+    "id": "zlote-emoji-15",
+    "key": "project:zlote-emoji-15",
+    "name": "Złote Emoji #15",
+    "createdAt": "2026-10-04T15:23:07.633Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-15",
+    "projectCreatedAt": "2026-10-04T15:23:07.633Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 4,
+    "lastSequence": 4,
+    "occurrences": [
+      4
+    ],
+    "sequenceTotal": 10,
+    "uniqueShotCount": 10,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "prop",
+      "id": "kluczyki-estebesa"
+    },
+    {
+      "type": "shot",
+      "id": "ze15-kluczyki"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "prop:kluczyki-estebesa",
+        "key": "prop:kluczyki-estebesa",
+        "type": "prop",
+        "id": "kluczyki-estebesa",
+        "name": "Kluczyki Estebesa — brelok betonomieszarka",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/kluczyki-estebesa.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze15-kluczyki",
+        "key": "shot:zlote-emoji-15/ze15-kluczyki",
+        "type": "shot",
+        "id": "ze15-kluczyki",
+        "name": "05 — Dawaj penge",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-kluczyki.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 3,
+        "referenceKeys": [
+          "shot:ze15-kluczyki"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze15-kluczyki",
+            "key": "shot:zlote-emoji-15/ze15-kluczyki",
+            "type": "shot",
+            "id": "ze15-kluczyki",
+            "name": "05 — Dawaj penge",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-kluczyki.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Use case: precise-object-edit. Image 1 is the exact edit target. Fix ONLY the total key count: currently one key is inserted into the ignition and TWO metal keys hang together below the large ring. Remove the rear overlapping dangling key completely, leaving exactly ONE long toothed metal key hanging from its small ring and exactly ONE key inserted into ignition: TWO metal keys total in the entire image. Keep the front hanging key unchanged. Preserve all other details: original framing, silver snap clasp, stitched brown leather tab, large round ring and mechanically connected small attachment rings, miniature silver THREE-AXLE concrete mixer charm, cherry leather dashboard, cold nighttime instrument lighting and warm faint reflections. No extra objects, text, branding, or watermark. Photorealistic landscape 16:9.",
+    "endFrameDescription": "",
+    "animation": "0–8s: the hanging key and miniature mixer sway gently together in a small pendulum arc due to moving-truck vibration. Camera: locked macro framing. The ignition key stays fully seated and stationary; the ring connections articulate naturally. Metal highlights move subtly under the dim dashboard light. Keep exactly two keys total, one in the ignition and one hanging, plus the single three-axle miniature mixer and leather loop. No detachment, extra keys or changing miniature geometry. Continuity: preserve the supplied frame, exact geometry, lighting, lettering and identities. No new people, extra limbs, morphing, cuts, captions or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 3,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze15-kluczyki"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze15-kluczyki",
+          "key": "shot:zlote-emoji-15/ze15-kluczyki",
+          "type": "shot",
+          "id": "ze15-kluczyki",
+          "name": "05 — Dawaj penge",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-kluczyki.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-04T15:28:26.652776+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "prop:kluczyki-estebesa"
+          ],
+          "references": [
+            {
+              "sourceKey": "prop:kluczyki-estebesa",
+              "key": "prop:kluczyki-estebesa",
+              "type": "prop",
+              "id": "kluczyki-estebesa",
+              "name": "Kluczyki Estebesa — brelok betonomieszarka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/kluczyki-estebesa.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-10-04T16:02:17.630531+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze15-kluczyki"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze15-kluczyki",
+              "key": "shot:zlote-emoji-15/ze15-kluczyki",
+              "type": "shot",
+              "id": "ze15-kluczyki",
+              "name": "05 — Dawaj penge",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-kluczyki.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 3,
+          "createdAt": "2026-10-04T16:29:52.119963+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze15-kluczyki"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze15-kluczyki",
+              "key": "shot:zlote-emoji-15/ze15-kluczyki",
+              "type": "shot",
+              "id": "ze15-kluczyki",
+              "name": "05 — Dawaj penge",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-kluczyki.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-15/shots/ze15-kluczyki/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-15/shots/ze15-kluczyki/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

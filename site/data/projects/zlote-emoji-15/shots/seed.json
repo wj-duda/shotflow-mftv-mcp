@@ -1,51 +1,240 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-04T15:00:16.717Z",
+  "generatedAt": "2026-10-04T23:08:09.582Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:zlote-emoji-15/seed",
   "id": "seed",
-  "title": "seed",
-  "description": "",
+  "title": "01 — W drodze do Łazów",
+  "description": "Nocna jazda Betoniara Team w stronę Łazów. Reflektory i bursztynowe obrysówki oświetlają drogę; twarz kierowcy pozostaje niewidoczna.",
   "project": {
     "id": "zlote-emoji-15",
     "key": "project:zlote-emoji-15",
     "name": "Złote Emoji #15",
-    "createdAt": null
+    "createdAt": "2026-10-04T15:23:07.633Z"
   },
   "chronology": {
     "projectKey": "project:zlote-emoji-15",
-    "projectCreatedAt": null,
+    "projectCreatedAt": "2026-10-04T15:23:07.633Z",
     "projectOrder": "newest-first outside the project",
-    "onTimeline": true,
-    "canonicalEvent": true,
-    "sequence": 1,
-    "lastSequence": 1,
-    "occurrences": [
-      1
-    ],
-    "sequenceTotal": 1,
-    "uniqueShotCount": 1,
-    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "onTimeline": false,
+    "canonicalEvent": false,
+    "sequence": null,
+    "lastSequence": null,
+    "occurrences": [],
+    "sequenceTotal": 10,
+    "uniqueShotCount": 10,
+    "sequenceOrder": null,
     "sequenceSource": "workspace timeline",
-    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+    "stateRule": "This project material is not present on the saved timeline, so it must not override canonical timeline events by date alone."
   },
-  "references": [],
+  "references": [
+    {
+      "type": "prop",
+      "id": "betoniara-team"
+    },
+    {
+      "type": "shot",
+      "id": "seed"
+    },
+    {
+      "type": "prop",
+      "id": "emblemat-gruzar"
+    }
+  ],
   "referenceUsage": {
-    "declared": [],
-    "activeFrames": [],
+    "declared": [
+      {
+        "sourceKey": "prop:betoniara-team",
+        "key": "prop:betoniara-team",
+        "type": "prop",
+        "id": "betoniara-team",
+        "name": "Betoniara Team — GRUZAR G84",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/betoniara-team.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:seed",
+        "key": "shot:zlote-emoji-15/seed",
+        "type": "shot",
+        "id": "seed",
+        "name": "01 — W drodze do Łazów",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/seed.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:emblemat-gruzar",
+        "key": "prop:emblemat-gruzar",
+        "type": "prop",
+        "id": "emblemat-gruzar",
+        "name": "GRUZAR — emblemat fikcyjnej marki ciężarówek",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/emblemat-gruzar.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 3,
+        "referenceKeys": [
+          "shot:seed",
+          "prop:emblemat-gruzar"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:seed",
+            "key": "shot:zlote-emoji-15/seed",
+            "type": "shot",
+            "id": "seed",
+            "name": "01 — W drodze do Łazów",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/seed.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:emblemat-gruzar",
+            "key": "prop:emblemat-gruzar",
+            "type": "prop",
+            "id": "emblemat-gruzar",
+            "name": "GRUZAR — emblemat fikcyjnej marki ciężarówek",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/emblemat-gruzar.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
     "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
   },
   "prompts": {
-    "image": "",
+    "image": "Use case: precise-object-edit. Image 1 is the edit target: preserve its composition and EVERY detail except manufacturer branding. Image 2 is ONLY the canonical new GRUZAR emblem design reference. Replace EVERY three-pointed star, including tiny upper bonnet badge, main grille and all visible wheel hub centers, with a scaled chrome hexagonal badge, burgundy inset and angular chrome G matching reference. Replace ALL Mercedes/Arocs wording with GRUZAR or G84; replace 4142 number with G84; replace LIEBHERR label with GRUZAR. Remove any real tire manufacturer lettering leaving ordinary blank rubber. No surviving stars or real vehicle brand labels. Keep exact BETONIARA TEAM drum lettering, cherry/cream colors, gold ornaments, truck body geometry, axles, wheels, speakers, lights, all scenery, people, faces, poses and wardrobe. Keep exact original time of day, color grade, framing and resolution/aspect. Make no changes outside badges and labels. Photorealistic matched perspective, materials and lighting. No overlays.",
     "endFrameDescription": "",
-    "animation": ""
+    "animation": "0–4s: the truck is already driving toward screen left at steady road speed. Camera: low parallel tracking matching the truck speed; roadside trees and village drift toward screen right. Wheels rotate naturally and suspension moves subtly over the road. The drum rotates slowly around its longitudinal axis, carrying its painted lettering rigidly with the shell. Keep all four axles, GRUZAR badges and amber lamps unchanged. Driver stays entirely hidden. Continuity: preserve the supplied frame, exact geometry, lighting, lettering and identities. No new people, extra limbs, morphing, cuts, captions or watermark."
   },
   "media": {
     "fps": 24,
     "width": 1920,
     "height": 1080
   },
-  "frameStatus": "placeholder",
-  "images": []
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 3,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:seed",
+        "prop:emblemat-gruzar"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:seed",
+          "key": "shot:zlote-emoji-15/seed",
+          "type": "shot",
+          "id": "seed",
+          "name": "01 — W drodze do Łazów",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/seed.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:emblemat-gruzar",
+          "key": "prop:emblemat-gruzar",
+          "type": "prop",
+          "id": "emblemat-gruzar",
+          "name": "GRUZAR — emblemat fikcyjnej marki ciężarówek",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/emblemat-gruzar.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-04T15:23:07.633918+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "prop:betoniara-team"
+          ],
+          "references": [
+            {
+              "sourceKey": "prop:betoniara-team",
+              "key": "prop:betoniara-team",
+              "type": "prop",
+              "id": "betoniara-team",
+              "name": "Betoniara Team — GRUZAR G84",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/betoniara-team.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-10-04T16:02:07.575805+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:seed"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:seed",
+              "key": "shot:zlote-emoji-15/seed",
+              "type": "shot",
+              "id": "seed",
+              "name": "01 — W drodze do Łazów",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/seed.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 3,
+          "createdAt": "2026-10-04T16:19:58.32607+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:seed",
+            "prop:emblemat-gruzar"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:seed",
+              "key": "shot:zlote-emoji-15/seed",
+              "type": "shot",
+              "id": "seed",
+              "name": "01 — W drodze do Łazów",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/seed.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:emblemat-gruzar",
+              "key": "prop:emblemat-gruzar",
+              "type": "prop",
+              "id": "emblemat-gruzar",
+              "name": "GRUZAR — emblemat fikcyjnej marki ciężarówek",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/emblemat-gruzar.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-15/shots/seed/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-15/shots/seed/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
 }

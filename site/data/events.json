@@ -1,10 +1,1057 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-04T15:00:16.717Z",
+  "generatedAt": "2026-10-04T23:08:09.582Z",
   "worldId": "aimftv",
   "order": "projects-newest-first; canonical timeline clips oldest-to-newest inside each project; off-timeline project materials last",
   "currentStateRule": "For current canon, use only canonicalEvent=true: select the newest matching project and then the matching event with the greatest lastSequence. Off-timeline materials cannot override saved timeline events. Older events remain valid only for their historical story moment.",
   "events": [
+    {
+      "key": "shot:zlote-emoji-15/ze15-kierownica",
+      "kind": "story-event",
+      "projectKey": "project:zlote-emoji-15",
+      "projectId": "zlote-emoji-15",
+      "projectName": "Złote Emoji #15",
+      "projectCreatedAt": "2026-10-04T15:23:07.633Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 1,
+      "lastSequence": 1,
+      "occurrences": [
+        1
+      ],
+      "sequenceTotal": 10,
+      "title": "02 — Kierownica",
+      "description": "Nocna jazda GRUZAR G84: wyłącznie dłoń Estebesa na kierownicy, czarny mankiet ze złotą lamówką i bordowo-złoty rękaw szlafroka zgodny z finałem ZE15. Podświetlony kokpit, twarz i sylwetka niewidoczne.",
+      "declaredReferences": [
+        {
+          "sourceKey": "character:estebes",
+          "key": "character:estebes",
+          "type": "character",
+          "id": "estebes",
+          "name": "Estebes — kierowca Betoniara Team",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/estebes.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ze15-kierownica",
+          "key": "shot:zlote-emoji-15/ze15-kierownica",
+          "type": "shot",
+          "id": "ze15-kierownica",
+          "name": "02 — Kierownica",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-kierownica.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:emblemat-gruzar",
+          "key": "prop:emblemat-gruzar",
+          "type": "prop",
+          "id": "emblemat-gruzar",
+          "name": "GRUZAR — emblemat fikcyjnej marki ciężarówek",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/emblemat-gruzar.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 4,
+          "referenceKeys": [
+            "shot:ze15-kierownica"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze15-kierownica",
+              "key": "shot:zlote-emoji-15/ze15-kierownica",
+              "type": "shot",
+              "id": "ze15-kierownica",
+              "name": "02 — Kierownica",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-kierownica.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 4,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze15-kierownica"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-15/shots/ze15-kierownica/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-15/shots/ze15-kierownica/frame-start-thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-kierownica.json"
+    },
+    {
+      "key": "shot:zlote-emoji-15/ze15-beton",
+      "kind": "story-event",
+      "projectKey": "project:zlote-emoji-15",
+      "projectId": "zlote-emoji-15",
+      "projectName": "Złote Emoji #15",
+      "projectCreatedAt": "2026-10-04T15:23:07.633Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 2,
+      "lastSequence": 2,
+      "occurrences": [
+        2
+      ],
+      "sequenceTotal": 10,
+      "title": "03 — Beton w bębnie",
+      "description": "Przebitka z nocnego załadunku: mokry beton we wnętrzu gruchy, oświetlony zimną lampą roboczą.",
+      "declaredReferences": [
+        {
+          "sourceKey": "prop:betoniara-team",
+          "key": "prop:betoniara-team",
+          "type": "prop",
+          "id": "betoniara-team",
+          "name": "Betoniara Team — GRUZAR G84",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/betoniara-team.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ze15-beton",
+          "key": "shot:zlote-emoji-15/ze15-beton",
+          "type": "shot",
+          "id": "ze15-beton",
+          "name": "03 — Beton w bębnie",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-beton.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 2,
+          "referenceKeys": [
+            "shot:ze15-beton"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze15-beton",
+              "key": "shot:zlote-emoji-15/ze15-beton",
+              "type": "shot",
+              "id": "ze15-beton",
+              "name": "03 — Beton w bębnie",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-beton.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 2,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze15-beton"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-15/shots/ze15-beton/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-15/shots/ze15-beton/frame-start-thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-beton.json"
+    },
+    {
+      "key": "shot:zlote-emoji-15/ze15-alusy",
+      "kind": "story-event",
+      "projectKey": "project:zlote-emoji-15",
+      "projectId": "zlote-emoji-15",
+      "projectName": "Złote Emoji #15",
+      "projectCreatedAt": "2026-10-04T15:23:07.633Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 3,
+      "lastSequence": 3,
+      "occurrences": [
+        3
+      ],
+      "sequenceTotal": 10,
+      "title": "04 — Chrom i alusy",
+      "description": "Nocna jazda do Łazów: niski detal chromowanych kół GRUZAR G84. Widoczne cztery osie (dwie przednie i tylny tandem), bordowe sześciokątne dekielki G, refleksy bursztynowych obrysówek i mokry asfalt.",
+      "declaredReferences": [
+        {
+          "sourceKey": "prop:betoniara-team",
+          "key": "prop:betoniara-team",
+          "type": "prop",
+          "id": "betoniara-team",
+          "name": "Betoniara Team — GRUZAR G84",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/betoniara-team.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ze15-alusy",
+          "key": "shot:zlote-emoji-15/ze15-alusy",
+          "type": "shot",
+          "id": "ze15-alusy",
+          "name": "04 — Chrom i alusy",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-alusy.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:emblemat-gruzar",
+          "key": "prop:emblemat-gruzar",
+          "type": "prop",
+          "id": "emblemat-gruzar",
+          "name": "GRUZAR — emblemat fikcyjnej marki ciężarówek",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/emblemat-gruzar.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 4,
+          "referenceKeys": [
+            "shot:ze15-alusy",
+            "prop:betoniara-team"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze15-alusy",
+              "key": "shot:zlote-emoji-15/ze15-alusy",
+              "type": "shot",
+              "id": "ze15-alusy",
+              "name": "04 — Chrom i alusy",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-alusy.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:betoniara-team",
+              "key": "prop:betoniara-team",
+              "type": "prop",
+              "id": "betoniara-team",
+              "name": "Betoniara Team — GRUZAR G84",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/betoniara-team.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 4,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze15-alusy",
+            "prop:betoniara-team"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-15/shots/ze15-alusy/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-15/shots/ze15-alusy/frame-start-thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-alusy.json"
+    },
+    {
+      "key": "shot:zlote-emoji-15/ze15-kluczyki",
+      "kind": "story-event",
+      "projectKey": "project:zlote-emoji-15",
+      "projectId": "zlote-emoji-15",
+      "projectName": "Złote Emoji #15",
+      "projectCreatedAt": "2026-10-04T15:23:07.633Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 4,
+      "lastSequence": 4,
+      "occurrences": [
+        4
+      ],
+      "sequenceTotal": 10,
+      "title": "05 — Dawaj penge",
+      "description": "Nocny detal kluczyków Estebesa w kabinie: dokładnie dwa metalowe klucze łącznie — jeden w stacyjce i jeden wiszący przy kółku. Srebrzysty brelok trzyosiowej betonomieszarki, karabińczyk i skórzana pętla zachowane. Chłodne światło instrumentów i delikatna ciepła poświata.",
+      "declaredReferences": [
+        {
+          "sourceKey": "prop:kluczyki-estebesa",
+          "key": "prop:kluczyki-estebesa",
+          "type": "prop",
+          "id": "kluczyki-estebesa",
+          "name": "Kluczyki Estebesa — brelok betonomieszarka",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/kluczyki-estebesa.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ze15-kluczyki",
+          "key": "shot:zlote-emoji-15/ze15-kluczyki",
+          "type": "shot",
+          "id": "ze15-kluczyki",
+          "name": "05 — Dawaj penge",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-kluczyki.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 3,
+          "referenceKeys": [
+            "shot:ze15-kluczyki"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze15-kluczyki",
+              "key": "shot:zlote-emoji-15/ze15-kluczyki",
+              "type": "shot",
+              "id": "ze15-kluczyki",
+              "name": "05 — Dawaj penge",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-kluczyki.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 3,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze15-kluczyki"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-15/shots/ze15-kluczyki/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-15/shots/ze15-kluczyki/frame-start-thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-kluczyki.json"
+    },
+    {
+      "key": "shot:zlote-emoji-15/ze15-dawaj-penge",
+      "kind": "story-event",
+      "projectKey": "project:zlote-emoji-15",
+      "projectId": "zlote-emoji-15",
+      "projectName": "Złote Emoji #15",
+      "projectCreatedAt": "2026-10-04T15:23:07.633Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 5,
+      "lastSequence": 5,
+      "occurrences": [
+        5
+      ],
+      "sequenceTotal": 10,
+      "title": "Dawaj penge",
+      "description": "Nocna przebitka przy załadunku. Dłoń Estebesa w bordowo-złotym szlafroku, ze złotym zegarkiem i pierścieniami, wyciągnięta przez okno GRUZAR-a po zapłatę. Ręka w roboczej rękawicy podaje plik banknotów spięty zardzewiałym zaciskiem budowlanym. Twarz Estebesa niewidoczna. Akcent pod „Dawaj pengę”; 94 klatki przy 24 fps.",
+      "declaredReferences": [
+        {
+          "sourceKey": "shot:ze15-kierownica",
+          "key": "shot:zlote-emoji-15/ze15-kierownica",
+          "type": "shot",
+          "id": "ze15-kierownica",
+          "name": "02 — Kierownica",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-kierownica.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:seed",
+          "key": "shot:zlote-emoji-15/seed",
+          "type": "shot",
+          "id": "seed",
+          "name": "01 — W drodze do Łazów",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/seed.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 1,
+          "referenceKeys": [
+            "shot:ze15-kierownica",
+            "shot:seed"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze15-kierownica",
+              "key": "shot:zlote-emoji-15/ze15-kierownica",
+              "type": "shot",
+              "id": "ze15-kierownica",
+              "name": "02 — Kierownica",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-kierownica.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:seed",
+              "key": "shot:zlote-emoji-15/seed",
+              "type": "shot",
+              "id": "seed",
+              "name": "01 — W drodze do Łazów",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/seed.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 1,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze15-kierownica",
+            "shot:seed"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-15/shots/ze15-dawaj-penge/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-15/shots/ze15-dawaj-penge/frame-start-thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-dawaj-penge.json"
+    },
+    {
+      "key": "shot:zlote-emoji-15/ze15-taniec",
+      "kind": "story-event",
+      "projectKey": "project:zlote-emoji-15",
+      "projectId": "zlote-emoji-15",
+      "projectName": "Złote Emoji #15",
+      "projectCreatedAt": "2026-10-04T15:23:07.633Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 6,
+      "lastSequence": 6,
+      "occurrences": [
+        6
+      ],
+      "sequenceTotal": 10,
+      "title": "06 — Ruszaj gruchą",
+      "description": "Nocny załadunek w betonowni: trzy dorosłe tancerki tyłem do kamery, w spodniach roboczych, w pozie twerku przy betoniarce. Bazą jest załączony przez użytkownika kadr; edycje dotyczyły oznaczeń pojazdu na fikcyjne GRUZAR G84. Zachowana kompozycja, stroje i nocne światło. BETONIARA TEAM pozostaje na grusze.",
+      "declaredReferences": [
+        {
+          "sourceKey": "prop:betoniara-team",
+          "key": "prop:betoniara-team",
+          "type": "prop",
+          "id": "betoniara-team",
+          "name": "Betoniara Team — GRUZAR G84",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/betoniara-team.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ze15-taniec",
+          "key": "shot:zlote-emoji-15/ze15-taniec",
+          "type": "shot",
+          "id": "ze15-taniec",
+          "name": "06 — Ruszaj gruchą",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-taniec.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:emblemat-gruzar",
+          "key": "prop:emblemat-gruzar",
+          "type": "prop",
+          "id": "emblemat-gruzar",
+          "name": "GRUZAR — emblemat fikcyjnej marki ciężarówek",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/emblemat-gruzar.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 3,
+          "referenceKeys": [
+            "prop:emblemat-gruzar"
+          ],
+          "references": [
+            {
+              "sourceKey": "prop:emblemat-gruzar",
+              "key": "prop:emblemat-gruzar",
+              "type": "prop",
+              "id": "emblemat-gruzar",
+              "name": "GRUZAR — emblemat fikcyjnej marki ciężarówek",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/emblemat-gruzar.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 3,
+          "source": "generated",
+          "referenceKeys": [
+            "prop:emblemat-gruzar"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-15/shots/ze15-taniec/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-15/shots/ze15-taniec/frame-start-thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-taniec.json"
+    },
+    {
+      "key": "shot:zlote-emoji-15/ze15-grucha",
+      "kind": "story-event",
+      "projectKey": "project:zlote-emoji-15",
+      "projectId": "zlote-emoji-15",
+      "projectName": "Złote Emoji #15",
+      "projectCreatedAt": "2026-10-04T15:23:07.633Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 7,
+      "lastSequence": 7,
+      "occurrences": [
+        7
+      ],
+      "sequenceTotal": 10,
+      "title": "07 — Kręć beton",
+      "description": "Końcowy odcinek nocnej podróży: detal gruchy Betoniara Team, lampy robocze i bardzo słaba poświata nad horyzontem.",
+      "declaredReferences": [
+        {
+          "sourceKey": "shot:seed",
+          "key": "shot:zlote-emoji-15/seed",
+          "type": "shot",
+          "id": "seed",
+          "name": "01 — W drodze do Łazów",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/seed.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:betoniara-team",
+          "key": "prop:betoniara-team",
+          "type": "prop",
+          "id": "betoniara-team",
+          "name": "Betoniara Team — GRUZAR G84",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/betoniara-team.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ze15-grucha",
+          "key": "shot:zlote-emoji-15/ze15-grucha",
+          "type": "shot",
+          "id": "ze15-grucha",
+          "name": "07 — Kręć beton",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-grucha.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 2,
+          "referenceKeys": [
+            "shot:ze15-grucha"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze15-grucha",
+              "key": "shot:zlote-emoji-15/ze15-grucha",
+              "type": "shot",
+              "id": "ze15-grucha",
+              "name": "07 — Kręć beton",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-grucha.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 2,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze15-grucha"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-15/shots/ze15-grucha/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-15/shots/ze15-grucha/frame-start-thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-grucha.json"
+    },
+    {
+      "key": "shot:zlote-emoji-15/ze15-taniec-szeroko",
+      "kind": "story-event",
+      "projectKey": "project:zlote-emoji-15",
+      "projectId": "zlote-emoji-15",
+      "projectName": "Złote Emoji #15",
+      "projectCreatedAt": "2026-10-04T15:23:07.633Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 8,
+      "lastSequence": 8,
+      "occurrences": [
+        8
+      ],
+      "sequenceTotal": 10,
+      "title": "08 — Dojazd pod Dom Kultury",
+      "description": "Przyjazd betoniarki do Łazów o świcie. Dom Kultury zachowuje ostatni stan remontu z ZE14: niski szeroki budynek bez dachu nad główną salą, przedsionek, schody i białe paczkomaty.",
+      "declaredReferences": [
+        {
+          "sourceKey": "prop:betoniara-team",
+          "key": "prop:betoniara-team",
+          "type": "prop",
+          "id": "betoniara-team",
+          "name": "Betoniara Team — GRUZAR G84",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/betoniara-team.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ze15-taniec-szeroko",
+          "key": "shot:zlote-emoji-15/ze15-taniec-szeroko",
+          "type": "shot",
+          "id": "ze15-taniec-szeroko",
+          "name": "08 — Dojazd pod Dom Kultury",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-taniec-szeroko.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:emblemat-gruzar",
+          "key": "prop:emblemat-gruzar",
+          "type": "prop",
+          "id": "emblemat-gruzar",
+          "name": "GRUZAR — emblemat fikcyjnej marki ciężarówek",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/emblemat-gruzar.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 3,
+          "referenceKeys": [
+            "shot:ze15-taniec-szeroko",
+            "prop:emblemat-gruzar"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze15-taniec-szeroko",
+              "key": "shot:zlote-emoji-15/ze15-taniec-szeroko",
+              "type": "shot",
+              "id": "ze15-taniec-szeroko",
+              "name": "08 — Dojazd pod Dom Kultury",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-taniec-szeroko.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:emblemat-gruzar",
+              "key": "prop:emblemat-gruzar",
+              "type": "prop",
+              "id": "emblemat-gruzar",
+              "name": "GRUZAR — emblemat fikcyjnej marki ciężarówek",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/emblemat-gruzar.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 3,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze15-taniec-szeroko",
+            "prop:emblemat-gruzar"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-15/shots/ze15-taniec-szeroko/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-15/shots/ze15-taniec-szeroko/frame-start-thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-taniec-szeroko.json"
+    },
+    {
+      "key": "shot:zlote-emoji-15/ze15-czeslaw",
+      "kind": "story-event",
+      "projectKey": "project:zlote-emoji-15",
+      "projectId": "zlote-emoji-15",
+      "projectName": "Złote Emoji #15",
+      "projectCreatedAt": "2026-10-04T15:23:07.633Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 9,
+      "lastSequence": 9,
+      "occurrences": [
+        9
+      ],
+      "sequenceTotal": 10,
+      "title": "09 — Dostawa i nagroda",
+      "description": "Świt pod remontowanym Domem Kultury. Czesław w białym kasku obok Halinki ze Złotym Emoji mówi: „Zasadniczo to dostawy betonu razem z odbiorem Złotego Emoji jeszcze nie mieliśmy”.",
+      "declaredReferences": [
+        {
+          "sourceKey": "character:czeslaw",
+          "key": "character:czeslaw",
+          "type": "character",
+          "id": "czeslaw",
+          "name": "Czesław",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:halinka",
+          "key": "character:halinka",
+          "type": "character",
+          "id": "halinka",
+          "name": "Halinka",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:kask-budowlany-czeslawa",
+          "key": "prop:kask-budowlany-czeslawa",
+          "type": "prop",
+          "id": "kask-budowlany-czeslawa",
+          "name": "Biały kask budowlany Czesława",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/kask-budowlany-czeslawa.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ze15-taniec-szeroko",
+          "key": "shot:zlote-emoji-15/ze15-taniec-szeroko",
+          "type": "shot",
+          "id": "ze15-taniec-szeroko",
+          "name": "08 — Dojazd pod Dom Kultury",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-taniec-szeroko.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ze15-czeslaw",
+          "key": "shot:zlote-emoji-15/ze15-czeslaw",
+          "type": "shot",
+          "id": "ze15-czeslaw",
+          "name": "09 — Dostawa i nagroda",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-czeslaw.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 2,
+          "referenceKeys": [
+            "shot:ze15-czeslaw"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze15-czeslaw",
+              "key": "shot:zlote-emoji-15/ze15-czeslaw",
+              "type": "shot",
+              "id": "ze15-czeslaw",
+              "name": "09 — Dostawa i nagroda",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-czeslaw.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 2,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze15-czeslaw"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-15/shots/ze15-czeslaw/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-15/shots/ze15-czeslaw/frame-start-thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-czeslaw.json"
+    },
+    {
+      "key": "shot:zlote-emoji-15/ze15-estebes-wysiada",
+      "kind": "story-event",
+      "projectKey": "project:zlote-emoji-15",
+      "projectId": "zlote-emoji-15",
+      "projectName": "Złote Emoji #15",
+      "projectCreatedAt": "2026-10-04T15:23:07.633Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 10,
+      "lastSequence": 10,
+      "occurrences": [
+        10
+      ],
+      "sequenceTotal": 10,
+      "title": "10 — Estebes",
+      "description": "Świt w Łazach. Estebes po raz pierwszy ujawnia twarz, schodząc z betoniarki GRUZAR G84. Wariant ZE15: bordowo-złoty szlafrok z czarnym kołnierzem i mankietami, zawiązany pas, biały podkoszulek, srebrny łańcuch, kremowe perforowane kroksy. Obie stopy na stopniach, dłoń na uchwycie. Bez dodatkowej kwestii.",
+      "declaredReferences": [
+        {
+          "sourceKey": "character:estebes",
+          "key": "character:estebes",
+          "type": "character",
+          "id": "estebes",
+          "name": "Estebes — kierowca Betoniara Team",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/estebes.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:betoniara-team",
+          "key": "prop:betoniara-team",
+          "type": "prop",
+          "id": "betoniara-team",
+          "name": "Betoniara Team — GRUZAR G84",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/betoniara-team.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ze15-taniec-szeroko",
+          "key": "shot:zlote-emoji-15/ze15-taniec-szeroko",
+          "type": "shot",
+          "id": "ze15-taniec-szeroko",
+          "name": "08 — Dojazd pod Dom Kultury",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-taniec-szeroko.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ze15-estebes-wysiada",
+          "key": "shot:zlote-emoji-15/ze15-estebes-wysiada",
+          "type": "shot",
+          "id": "ze15-estebes-wysiada",
+          "name": "10 — Estebes",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-estebes-wysiada.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:emblemat-gruzar",
+          "key": "prop:emblemat-gruzar",
+          "type": "prop",
+          "id": "emblemat-gruzar",
+          "name": "GRUZAR — emblemat fikcyjnej marki ciężarówek",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/emblemat-gruzar.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 4,
+          "referenceKeys": [
+            "shot:ze15-estebes-wysiada",
+            "character:estebes"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze15-estebes-wysiada",
+              "key": "shot:zlote-emoji-15/ze15-estebes-wysiada",
+              "type": "shot",
+              "id": "ze15-estebes-wysiada",
+              "name": "10 — Estebes",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-estebes-wysiada.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:estebes",
+              "key": "character:estebes",
+              "type": "character",
+              "id": "estebes",
+              "name": "Estebes — kierowca Betoniara Team",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/estebes.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 4,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze15-estebes-wysiada",
+            "character:estebes"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-15/shots/ze15-estebes-wysiada/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-15/shots/ze15-estebes-wysiada/frame-start-thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-estebes-wysiada.json"
+    },
+    {
+      "key": "shot:zlote-emoji-15/seed",
+      "kind": "story-event",
+      "projectKey": "project:zlote-emoji-15",
+      "projectId": "zlote-emoji-15",
+      "projectName": "Złote Emoji #15",
+      "projectCreatedAt": "2026-10-04T15:23:07.633Z",
+      "onTimeline": false,
+      "canonicalEvent": false,
+      "sequence": null,
+      "lastSequence": null,
+      "occurrences": [],
+      "sequenceTotal": 10,
+      "title": "01 — W drodze do Łazów",
+      "description": "Nocna jazda Betoniara Team w stronę Łazów. Reflektory i bursztynowe obrysówki oświetlają drogę; twarz kierowcy pozostaje niewidoczna.",
+      "declaredReferences": [
+        {
+          "sourceKey": "prop:betoniara-team",
+          "key": "prop:betoniara-team",
+          "type": "prop",
+          "id": "betoniara-team",
+          "name": "Betoniara Team — GRUZAR G84",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/betoniara-team.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:seed",
+          "key": "shot:zlote-emoji-15/seed",
+          "type": "shot",
+          "id": "seed",
+          "name": "01 — W drodze do Łazów",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/seed.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:emblemat-gruzar",
+          "key": "prop:emblemat-gruzar",
+          "type": "prop",
+          "id": "emblemat-gruzar",
+          "name": "GRUZAR — emblemat fikcyjnej marki ciężarówek",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/emblemat-gruzar.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 3,
+          "referenceKeys": [
+            "shot:seed",
+            "prop:emblemat-gruzar"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:seed",
+              "key": "shot:zlote-emoji-15/seed",
+              "type": "shot",
+              "id": "seed",
+              "name": "01 — W drodze do Łazów",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/seed.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:emblemat-gruzar",
+              "key": "prop:emblemat-gruzar",
+              "type": "prop",
+              "id": "emblemat-gruzar",
+              "name": "GRUZAR — emblemat fikcyjnej marki ciężarówek",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/emblemat-gruzar.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 3,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:seed",
+            "prop:emblemat-gruzar"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-15/shots/seed/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-15/shots/seed/frame-start-thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/seed.json"
+    },
     {
       "key": "shot:ag-rolka/dorobek-emisja",
       "kind": "story-event",
@@ -38585,28 +39632,6 @@
         }
       ],
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/flow/shots/zosianakacu.json"
-    },
-    {
-      "key": "shot:zlote-emoji-15/seed",
-      "kind": "story-event",
-      "projectKey": "project:zlote-emoji-15",
-      "projectId": "zlote-emoji-15",
-      "projectName": "Złote Emoji #15",
-      "projectCreatedAt": null,
-      "onTimeline": true,
-      "canonicalEvent": true,
-      "sequence": 1,
-      "lastSequence": 1,
-      "occurrences": [
-        1
-      ],
-      "sequenceTotal": 1,
-      "title": "seed",
-      "description": "",
-      "declaredReferences": [],
-      "activeFrameReferences": [],
-      "images": [],
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/seed.json"
     }
   ]
 }

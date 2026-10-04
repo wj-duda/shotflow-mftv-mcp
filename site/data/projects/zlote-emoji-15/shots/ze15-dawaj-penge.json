@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-04T23:08:09.582Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-15/ze15-dawaj-penge",
+  "id": "ze15-dawaj-penge",
+  "title": "Dawaj penge",
+  "description": "Nocna przebitka przy załadunku. Dłoń Estebesa w bordowo-złotym szlafroku, ze złotym zegarkiem i pierścieniami, wyciągnięta przez okno GRUZAR-a po zapłatę. Ręka w roboczej rękawicy podaje plik banknotów spięty zardzewiałym zaciskiem budowlanym. Twarz Estebesa niewidoczna. Akcent pod „Dawaj pengę”; 94 klatki przy 24 fps.",
+  "project": {
+    "id": "zlote-emoji-15",
+    "key": "project:zlote-emoji-15",
+    "name": "Złote Emoji #15",
+    "createdAt": "2026-10-04T15:23:07.633Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-15",
+    "projectCreatedAt": "2026-10-04T15:23:07.633Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 5,
+    "lastSequence": 5,
+    "occurrences": [
+      5
+    ],
+    "sequenceTotal": 10,
+    "uniqueShotCount": 10,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "ze15-kierownica"
+    },
+    {
+      "type": "shot",
+      "id": "seed"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:ze15-kierownica",
+        "key": "shot:zlote-emoji-15/ze15-kierownica",
+        "type": "shot",
+        "id": "ze15-kierownica",
+        "name": "02 — Kierownica",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-kierownica.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:seed",
+        "key": "shot:zlote-emoji-15/seed",
+        "type": "shot",
+        "id": "seed",
+        "name": "01 — W drodze do Łazów",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/seed.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:ze15-kierownica",
+          "shot:seed"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze15-kierownica",
+            "key": "shot:zlote-emoji-15/ze15-kierownica",
+            "type": "shot",
+            "id": "ze15-kierownica",
+            "name": "02 — Kierownica",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-kierownica.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:seed",
+            "key": "shot:zlote-emoji-15/seed",
+            "type": "shot",
+            "id": "seed",
+            "name": "01 — W drodze do Łazów",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/seed.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Use case: photorealistic-natural. Create a 16:9 cinematic rap-video START FRAME, 1920x1080. Image 1 is ONLY the exact driver's hand skin and burgundy-gold baroque bathrobe sleeve reference, with wide black cuff and gold piping. Image 2 is ONLY the exact burgundy and gold GRUZAR concrete mixer cab design, amber lighting and chrome reference. New camera outside the parked cab at night in an industrial concrete loading yard: tight dramatic wide-angle closeup, slight Dutch angle, on the driver's left forearm extending out of the open driver's window, palm up waiting for payment. Gold chunky wristwatch and two gold rings. Driver's face and entire head completely outside the crop, including reflections. At lower right a second person's work-gloved hand holds a thick stack of generic banknotes secured together by one comically oversized rusty metal construction C-clamp, approaching the waiting palm but not touching yet. Two hands only, anatomically correct. Focus on cash and fingers, beautiful chrome and amber bokeh, burgundy door with gold scrollwork recognizable behind. Gangster swagger meets deadpan construction-site absurdity. Same robe fabric and cab trim as references. Truck stationary. No real automotive branding, no Mercedes stars. No captions or watermark. Do not copy the road composition or steering wheel from reference images.",
+    "endFrameDescription": "",
+    "animation": "0.0-0.7s: the bare hand curls its waiting fingers once toward the palm. 0.7-2.3s: the gloved hand moves the existing clamped bundle toward screen left and places it in the driver's open palm; the driver's fingers close around the bundle. 2.3-3.9s: the gloved hand releases and withdraws right while the driver holds the payment. Camera: a brisk short push-in toward the exchange, settling by 2.3s. Secondary: the heavy clamp tips slightly under gravity and the robe cuff creases. Continuity: preserve both hands, rings, watch, sleeve, cash, single rusty clamp and parked truck. Keep all faces outside the crop and reflections. No extra fingers, duplicated money, new people, cuts, morphing or captions. Use @Image1 only for the existing burgundy-gold robe sleeve and hand continuity; use @Image2 only for the existing truck paintwork, chrome and amber lighting. Do not import their camera angles, road or steering wheel."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze15-kierownica",
+        "shot:seed"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze15-kierownica",
+          "key": "shot:zlote-emoji-15/ze15-kierownica",
+          "type": "shot",
+          "id": "ze15-kierownica",
+          "name": "02 — Kierownica",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-kierownica.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:seed",
+          "key": "shot:zlote-emoji-15/seed",
+          "type": "shot",
+          "id": "seed",
+          "name": "01 — W drodze do Łazów",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/seed.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-04T17:17:52.174268+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze15-kierownica",
+            "shot:seed"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze15-kierownica",
+              "key": "shot:zlote-emoji-15/ze15-kierownica",
+              "type": "shot",
+              "id": "ze15-kierownica",
+              "name": "02 — Kierownica",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-kierownica.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:seed",
+              "key": "shot:zlote-emoji-15/seed",
+              "type": "shot",
+              "id": "seed",
+              "name": "01 — W drodze do Łazów",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/seed.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-15/shots/ze15-dawaj-penge/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-15/shots/ze15-dawaj-penge/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

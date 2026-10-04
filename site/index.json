@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-04T15:00:16.717Z",
+  "generatedAt": "2026-10-04T23:08:09.582Z",
   "universe": {
     "id": "mf-tv",
     "name": "Świat MF TV"
@@ -22,10 +22,10 @@
     ]
   },
   "counts": {
-    "resources": 102,
+    "resources": 103,
     "projects": 22,
-    "shots": 368,
-    "images": 541
+    "shots": 378,
+    "images": 553
   },
   "brand": {
     "key": "brand:aimftv",
@@ -693,7 +693,7 @@
       {
         "type": "props",
         "label": "Rekwizyty",
-        "count": 33,
+        "count": 34,
         "url": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/index.json"
       }
     ],

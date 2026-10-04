@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-04T15:00:16.717Z",
+  "generatedAt": "2026-10-04T23:08:09.582Z",
   "worldId": "aimftv",
   "kind": "resource",
   "key": "prop:kluczyki-estebesa",
   "type": "props",
   "id": "kluczyki-estebesa",
   "name": "Kluczyki Estebesa — brelok betonomieszarka",
-  "description": "Osobisty pęk kluczy Estebesa (character:estebes), kierowcy pojazdu prop:betoniara-team. Rozwinięcie detalu z zatwierdzonej sylwetki postaci, images/image-004.png. Noszony przy anatomicznie prawym biodrze.\n\nStała budowa: srebrzysty metalowy karabińczyk, krótka ciemnobrązowa skórzana pętla z przeszyciem i metalowym nitem, jedno główne okrągłe kółko, dokładnie dwa podłużne metalowe klucze oraz przestrzenny srebrzysty brelok w kształcie ciężarówki betonomieszarki. Brelok ma kabinę, zaokrąglony bęben, tylny lej i trzy osie z małymi okrągłymi kołami. Miniaturka jest dekoracyjnym symbolem betonomieszarki, nie wiernym modelem czteroosiowego Arocsa. Długość miniaturki około 4 cm; cały pęk mieści się w dłoni. Kółka rzeczywiście łączą wszystkie części. Metal lekko spatynowany, z jaśniejszymi wypolerowanymi krawędziami, drobnymi rysami i ciemniejszymi zagłębieniami; skóra używana. Bez napisów i emalii. W zbliżeniach zachować małą skalę, liczbę kluczy i czytelny bęben. Referencja makro pokazuje kompletny rekwizyt.",
+  "description": "Osobisty pęk kluczy Estebesa (character:estebes), kierowcy pojazdu prop:betoniara-team. Rozwinięcie detalu z zatwierdzonej sylwetki postaci, images/image-004.png. Noszony przy anatomicznie prawym biodrze.\n\nStała budowa: srebrzysty metalowy karabińczyk, krótka ciemnobrązowa skórzana pętla z przeszyciem i metalowym nitem, jedno główne okrągłe kółko, dokładnie dwa podłużne metalowe klucze oraz przestrzenny srebrzysty brelok w kształcie ciężarówki betonomieszarki. Brelok ma kabinę, zaokrąglony bęben, tylny lej i trzy osie z małymi okrągłymi kołami. Miniaturka jest dekoracyjnym symbolem betonomieszarki, nie wiernym modelem czteroosiowego GRUZARA G84. Długość miniaturki około 4 cm; cały pęk mieści się w dłoni. Kółka rzeczywiście łączą wszystkie części. Metal lekko spatynowany, z jaśniejszymi wypolerowanymi krawędziami, drobnymi rysami i ciemniejszymi zagłębieniami; skóra używana. Bez napisów i emalii. W zbliżeniach zachować małą skalę, liczbę kluczy i czytelny bęben. Referencja makro pokazuje kompletny rekwizyt.",
   "images": [
     {
       "id": "image-001",
@@ -19,5 +19,5 @@
       "contentType": "image/webp"
     }
   ],
-  "updatedAt": "2026-10-04T10:18:59.724Z"
+  "updatedAt": "2026-10-04T16:21:16.609Z"
 }

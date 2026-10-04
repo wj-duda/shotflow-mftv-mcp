@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-04T15:00:16.717Z",
+  "generatedAt": "2026-10-04T23:08:09.582Z",
   "worldId": "aimftv",
   "type": "props",
   "label": "Rekwizyty",
@@ -58,12 +58,12 @@
       "kind": "resource",
       "type": "props",
       "id": "betoniara-team",
-      "name": "Betoniara Team — tuningowana betonomieszarka",
-      "summary": "Kanoniczny pojazd ekipy Betoniara Team używany od ZE15. Bazą konstrukcyjną jest realny Mercedes-Benz Arocs 4142 B 8x4 z krótką kabiną budowlaną ClassicSpace oraz zabudową mieszalnika w proporcjach Liebherr HTM 905 o nominalnej pojemności 9 m³. Pojazd ma dokładnie cztery osie: dw…",
+      "name": "Betoniara Team — GRUZAR G84",
+      "summary": "Kanoniczny pojazd ekipy Betoniara Team używany od ZE15. Fikcyjna marka GRUZAR, model G84, podwozie 8×4 z krótką kabiną budowlaną i mieszalnikiem 9 m³. Emblemat prop:emblemat-gruzar — kanciasta chromowana litera G na bordowym tle w chromowanym sześciokącie. Ten sam znaczek na gri…",
       "imageCount": 1,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/betoniara-team/image-001-thumb.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/betoniara-team/image-002-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/betoniara-team.json",
-      "updatedAt": "2026-10-04T11:38:53+02:00"
+      "updatedAt": "2026-10-04T16:33:25.558Z"
     },
     {
       "key": "prop:kask-budowlany-czeslawa",
@@ -162,6 +162,18 @@
       "updatedAt": "2026-10-01T17:40:28.245Z"
     },
     {
+      "key": "prop:emblemat-gruzar",
+      "kind": "resource",
+      "type": "props",
+      "id": "emblemat-gruzar",
+      "name": "GRUZAR — emblemat fikcyjnej marki ciężarówek",
+      "summary": "Fikcyjna marka w świecie AIMFTV, zaprojektowana dla ZE15. Model betoniarki: GRUZAR G84, 8×4. Emblemat: chromowany sześciokąt z poziomą górną i dolną krawędzią, bordowa emalia, gruba kanciasta chromowana litera G. Bez gwiazdy i okręgu. Na grillu, kierownicy i dekielkach ten sam s…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/emblemat-gruzar/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/emblemat-gruzar.json",
+      "updatedAt": "2026-10-04T16:06:28.387Z"
+    },
+    {
       "key": "prop:gwiazda-pierwszej-wielkosci",
       "kind": "resource",
       "type": "props",
@@ -207,7 +219,7 @@
       "imageCount": 1,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/kluczyki-estebesa/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/kluczyki-estebesa.json",
-      "updatedAt": "2026-10-04T10:18:59.724Z"
+      "updatedAt": "2026-10-04T16:21:16.609Z"
     },
     {
       "key": "prop:leica-m3",

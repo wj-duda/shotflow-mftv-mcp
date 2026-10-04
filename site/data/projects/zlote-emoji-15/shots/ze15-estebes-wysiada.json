@@ -1,0 +1,324 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-04T23:08:09.582Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-15/ze15-estebes-wysiada",
+  "id": "ze15-estebes-wysiada",
+  "title": "10 — Estebes",
+  "description": "Świt w Łazach. Estebes po raz pierwszy ujawnia twarz, schodząc z betoniarki GRUZAR G84. Wariant ZE15: bordowo-złoty szlafrok z czarnym kołnierzem i mankietami, zawiązany pas, biały podkoszulek, srebrny łańcuch, kremowe perforowane kroksy. Obie stopy na stopniach, dłoń na uchwycie. Bez dodatkowej kwestii.",
+  "project": {
+    "id": "zlote-emoji-15",
+    "key": "project:zlote-emoji-15",
+    "name": "Złote Emoji #15",
+    "createdAt": "2026-10-04T15:23:07.633Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-15",
+    "projectCreatedAt": "2026-10-04T15:23:07.633Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 10,
+    "lastSequence": 10,
+    "occurrences": [
+      10
+    ],
+    "sequenceTotal": 10,
+    "uniqueShotCount": 10,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "estebes"
+    },
+    {
+      "type": "prop",
+      "id": "betoniara-team"
+    },
+    {
+      "type": "shot",
+      "id": "ze15-taniec-szeroko"
+    },
+    {
+      "type": "shot",
+      "id": "ze15-estebes-wysiada"
+    },
+    {
+      "type": "prop",
+      "id": "emblemat-gruzar"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:estebes",
+        "key": "character:estebes",
+        "type": "character",
+        "id": "estebes",
+        "name": "Estebes — kierowca Betoniara Team",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/estebes.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:betoniara-team",
+        "key": "prop:betoniara-team",
+        "type": "prop",
+        "id": "betoniara-team",
+        "name": "Betoniara Team — GRUZAR G84",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/betoniara-team.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze15-taniec-szeroko",
+        "key": "shot:zlote-emoji-15/ze15-taniec-szeroko",
+        "type": "shot",
+        "id": "ze15-taniec-szeroko",
+        "name": "08 — Dojazd pod Dom Kultury",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-taniec-szeroko.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze15-estebes-wysiada",
+        "key": "shot:zlote-emoji-15/ze15-estebes-wysiada",
+        "type": "shot",
+        "id": "ze15-estebes-wysiada",
+        "name": "10 — Estebes",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-estebes-wysiada.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:emblemat-gruzar",
+        "key": "prop:emblemat-gruzar",
+        "type": "prop",
+        "id": "emblemat-gruzar",
+        "name": "GRUZAR — emblemat fikcyjnej marki ciężarówek",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/emblemat-gruzar.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 4,
+        "referenceKeys": [
+          "shot:ze15-estebes-wysiada",
+          "character:estebes"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze15-estebes-wysiada",
+            "key": "shot:zlote-emoji-15/ze15-estebes-wysiada",
+            "type": "shot",
+            "id": "ze15-estebes-wysiada",
+            "name": "10 — Estebes",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-estebes-wysiada.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:estebes",
+            "key": "character:estebes",
+            "type": "character",
+            "id": "estebes",
+            "name": "Estebes — kierowca Betoniara Team",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/estebes.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Use case: identity-preserve. Image 1 is exact edit target, Estebes stepping out of GRUZAR truck at dawn. Image 2 is his mandatory facial identity reference ONLY, not wardrobe. Replace ONLY clothing with a swagger luxury bathrobe and foam clogs. An expensive deep burgundy satin bathrobe with large gold baroque scrolling pattern, broad black shawl collar with gold piping, matching belt firmly tied at waist, hem below knees. Opaque, securely closed; small white undershirt at neckline and same silver chain. Bare lower calves, bright cream foam Crocs-style perforated clogs with heel straps engaged, no visible logos. Remove jeans, work vest, work boots, work gloves and trouser belt. Keep his exact face matching reference, high tousled dark hair, short beard, confident half smile. Keep EXACT climbing-down pose: one hand gripping cab handle, other relaxed, both feet planted naturally on existing separate steps, no floating foot. Robe drapes around bent knee without hiding footwear. Preserve truck geometry, GRUZAR/G84 branding, speakers, camera, all lighting and dawn construction background. No sunglasses, hats, new people or text. Photorealistic 16:9.",
+    "endFrameDescription": "",
+    "animation": "0–2.3s: from the supplied mid-descent pose, Estebes lowers himself down the remaining truck steps, keeping the existing hand on the handle. His cream clogs land sequentially on the pavement. 2.3–3s: he straightens with his confident half-smile, looking toward the waiting hosts off-camera. Camera: a gentle downward tilt tracking the descent while retaining his face and feet. The tied robe hem swings naturally and settles. Preserve his exact face, burgundy-gold robe, closed belt, clogs and GRUZAR truck. No jumping, floating or wardrobe changes. Continuity: preserve the supplied frame, exact geometry, lighting, lettering and identities. No new people, extra limbs, morphing, cuts, captions or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 4,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze15-estebes-wysiada",
+        "character:estebes"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze15-estebes-wysiada",
+          "key": "shot:zlote-emoji-15/ze15-estebes-wysiada",
+          "type": "shot",
+          "id": "ze15-estebes-wysiada",
+          "name": "10 — Estebes",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-estebes-wysiada.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:estebes",
+          "key": "character:estebes",
+          "type": "character",
+          "id": "estebes",
+          "name": "Estebes — kierowca Betoniara Team",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/estebes.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-04T15:30:58.264519+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:estebes",
+            "prop:betoniara-team",
+            "shot:ze15-taniec-szeroko"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:estebes",
+              "key": "character:estebes",
+              "type": "character",
+              "id": "estebes",
+              "name": "Estebes — kierowca Betoniara Team",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/estebes.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:betoniara-team",
+              "key": "prop:betoniara-team",
+              "type": "prop",
+              "id": "betoniara-team",
+              "name": "Betoniara Team — GRUZAR G84",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/betoniara-team.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ze15-taniec-szeroko",
+              "key": "shot:zlote-emoji-15/ze15-taniec-szeroko",
+              "type": "shot",
+              "id": "ze15-taniec-szeroko",
+              "name": "08 — Dojazd pod Dom Kultury",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-taniec-szeroko.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-10-04T16:02:26.473078+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze15-estebes-wysiada"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze15-estebes-wysiada",
+              "key": "shot:zlote-emoji-15/ze15-estebes-wysiada",
+              "type": "shot",
+              "id": "ze15-estebes-wysiada",
+              "name": "10 — Estebes",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-estebes-wysiada.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 3,
+          "createdAt": "2026-10-04T16:20:10.085725+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze15-estebes-wysiada",
+            "prop:emblemat-gruzar"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze15-estebes-wysiada",
+              "key": "shot:zlote-emoji-15/ze15-estebes-wysiada",
+              "type": "shot",
+              "id": "ze15-estebes-wysiada",
+              "name": "10 — Estebes",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-estebes-wysiada.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:emblemat-gruzar",
+              "key": "prop:emblemat-gruzar",
+              "type": "prop",
+              "id": "emblemat-gruzar",
+              "name": "GRUZAR — emblemat fikcyjnej marki ciężarówek",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/emblemat-gruzar.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 4,
+          "createdAt": "2026-10-04T16:30:52.211597+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze15-estebes-wysiada",
+            "character:estebes"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze15-estebes-wysiada",
+              "key": "shot:zlote-emoji-15/ze15-estebes-wysiada",
+              "type": "shot",
+              "id": "ze15-estebes-wysiada",
+              "name": "10 — Estebes",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/ze15-estebes-wysiada.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:estebes",
+              "key": "character:estebes",
+              "type": "character",
+              "id": "estebes",
+              "name": "Estebes — kierowca Betoniara Team",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/estebes.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-15/shots/ze15-estebes-wysiada/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-15/shots/ze15-estebes-wysiada/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}
