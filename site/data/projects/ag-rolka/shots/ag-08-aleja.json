@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-04T02:05:41.063Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:ag-rolka/ag-08-aleja",
+  "id": "ag-08-aleja",
+  "title": "08 — Miejsce w Alei",
+  "description": "Szeroki pionowy kadr Alei zgodnej z grafiką strony, gwiazda w pierwszym planie. Czytelne miejsce na prezentację funkcji profilu w montażu. Napisy: Twój publiczny profil w Alei Gwiazd. Najlepsze utwory, wyniki ChatVibe, zdobyte nagrody.",
+  "project": {
+    "id": "ag-rolka",
+    "key": "project:ag-rolka",
+    "name": "AG-Rolka",
+    "createdAt": "2026-10-02T11:20:13.424Z"
+  },
+  "chronology": {
+    "projectKey": "project:ag-rolka",
+    "projectCreatedAt": "2026-10-02T11:20:13.424Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 17,
+    "lastSequence": 17,
+    "occurrences": [
+      17
+    ],
+    "sequenceTotal": 18,
+    "uniqueShotCount": 18,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "place",
+      "id": "aleja-gwiazd"
+    },
+    {
+      "type": "prop",
+      "id": "gwiazda-pierwszej-wielkosci"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "place:aleja-gwiazd",
+        "key": "place:aleja-gwiazd",
+        "type": "place",
+        "id": "aleja-gwiazd",
+        "name": "Aleja Gwiazd MFTV",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/aleja-gwiazd.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:gwiazda-pierwszej-wielkosci",
+        "key": "prop:gwiazda-pierwszej-wielkosci",
+        "type": "prop",
+        "id": "gwiazda-pierwszej-wielkosci",
+        "name": "Gwiazda z Odzysku",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/gwiazda-pierwszej-wielkosci.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "place:aleja-gwiazd",
+          "prop:gwiazda-pierwszej-wielkosci"
+        ],
+        "references": [
+          {
+            "sourceKey": "place:aleja-gwiazd",
+            "key": "place:aleja-gwiazd",
+            "type": "place",
+            "id": "aleja-gwiazd",
+            "name": "Aleja Gwiazd MFTV",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/aleja-gwiazd.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:gwiazda-pierwszej-wielkosci",
+            "key": "prop:gwiazda-pierwszej-wielkosci",
+            "type": "prop",
+            "id": "gwiazda-pierwszej-wielkosci",
+            "name": "Gwiazda z Odzysku",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/gwiazda-pierwszej-wielkosci.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Use case ads-marketing. One vertical 9:16 photoreal cinematic film still 1080x1920. Input1 is existing MFTV Hall of Fame architectural reference. Input2 is canonical gold five-point star prop with blank rectangular nameplate. Reframe this hall into a powerful vertical wide establishing shot, camera just above floor looking along glossy black marble avenue, warm golden brass trims, framed gold records, dark tall walls, stairs toward circular gold-rimmed architectural opening with cyan and magenta practical vertical lights behind it (not a magic portal). One new star exactly matching input2 sits flush inset into floor at lower center, complete shape visible with empty nameplate, small other inset stars recede far in background. Preserve realistic architectural proportions, believable stone reflections, luxurious yet physically real. No people. Keep upper-mid left darker clean architectural wall area suitable for captions added later. No readable words, no captions, no interface, no watermark, no floating star, no rays of supernatural power. This is the reveal of a place earned by a creator.",
+    "endFrameDescription": "",
+    "animation": "0.0–1.0s: the camera makes a short 10 cm forward glide along the gallery axis toward the distant circular architectural opening, keeping the foreground star fully visible. 1.0–3.0s: the camera settles and holds. Camera: straight low dolly movement only, no tilt or zoom. Secondary motion: realistic floor reflections shift with the viewpoint; background haze remains faint. Continuity: keep all floor stars flush and stationary, the blank foreground nameplate, gold records, staircase and cyan-magenta practical lights unchanged. Avoid new people, floating stars, supernatural portals, added letters, geometry changes, fast motion, cuts, fades or watermarks."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "place:aleja-gwiazd",
+        "prop:gwiazda-pierwszej-wielkosci"
+      ],
+      "references": [
+        {
+          "sourceKey": "place:aleja-gwiazd",
+          "key": "place:aleja-gwiazd",
+          "type": "place",
+          "id": "aleja-gwiazd",
+          "name": "Aleja Gwiazd MFTV",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/aleja-gwiazd.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:gwiazda-pierwszej-wielkosci",
+          "key": "prop:gwiazda-pierwszej-wielkosci",
+          "type": "prop",
+          "id": "gwiazda-pierwszej-wielkosci",
+          "name": "Gwiazda z Odzysku",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/gwiazda-pierwszej-wielkosci.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-02T11:26:55.732882+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "place:aleja-gwiazd",
+            "prop:gwiazda-pierwszej-wielkosci"
+          ],
+          "references": [
+            {
+              "sourceKey": "place:aleja-gwiazd",
+              "key": "place:aleja-gwiazd",
+              "type": "place",
+              "id": "aleja-gwiazd",
+              "name": "Aleja Gwiazd MFTV",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/aleja-gwiazd.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:gwiazda-pierwszej-wielkosci",
+              "key": "prop:gwiazda-pierwszej-wielkosci",
+              "type": "prop",
+              "id": "gwiazda-pierwszej-wielkosci",
+              "name": "Gwiazda z Odzysku",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/gwiazda-pierwszej-wielkosci.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-08-aleja/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-08-aleja/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

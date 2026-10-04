@@ -1,0 +1,303 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-04T02:05:41.063Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:ag-rolka/ag-ciag-dalszy",
+  "id": "ag-ciag-dalszy",
+  "title": "KKN — miejsce na ciąg dalszy",
+  "description": "72 klatki na istniejącym timeline. Przewodnicząca pokazuje pustą prawą kartę tej samej otwartej teczki. Cztery ślady utworów pozostają po lewej; obie pełne prostokątne karty leżą płasko i są trwale spięte z grzbietem. Domknięcie zasady KKN: «…rodzi się nowa.» Bez podnoszenia i przewracania strony.",
+  "project": {
+    "id": "ag-rolka",
+    "key": "project:ag-rolka",
+    "name": "AG-Rolka",
+    "createdAt": "2026-10-02T11:20:13.424Z"
+  },
+  "chronology": {
+    "projectKey": "project:ag-rolka",
+    "projectCreatedAt": "2026-10-02T11:20:13.424Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 11,
+    "lastSequence": 11,
+    "occurrences": [
+      11
+    ],
+    "sequenceTotal": 18,
+    "uniqueShotCount": 18,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "ag-05-kkn"
+    },
+    {
+      "type": "character",
+      "id": "kkn-przewodniczaca"
+    },
+    {
+      "type": "prop",
+      "id": "kkn-sygnet"
+    },
+    {
+      "type": "shot",
+      "id": "ag-ciag-dalszy"
+    },
+    {
+      "type": "shot",
+      "id": "ag-04-dorobek"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:ag-05-kkn",
+        "key": "shot:ag-rolka/ag-05-kkn",
+        "type": "shot",
+        "id": "ag-05-kkn",
+        "name": "05 — Pod opieką KKN",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-05-kkn.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:kkn-przewodniczaca",
+        "key": "character:kkn-przewodniczaca",
+        "type": "character",
+        "id": "kkn-przewodniczaca",
+        "name": "KKN — Przewodnicząca",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/kkn-przewodniczaca.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:kkn-sygnet",
+        "key": "prop:kkn-sygnet",
+        "type": "prop",
+        "id": "kkn-sygnet",
+        "name": "KKN — sygnet Komisji Kultury Najwyższej",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/kkn-sygnet.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ag-ciag-dalszy",
+        "key": "shot:ag-rolka/ag-ciag-dalszy",
+        "type": "shot",
+        "id": "ag-ciag-dalszy",
+        "name": "KKN — miejsce na ciąg dalszy",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-ciag-dalszy.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ag-04-dorobek",
+        "key": "shot:ag-rolka/ag-04-dorobek",
+        "type": "shot",
+        "id": "ag-04-dorobek",
+        "name": "04 — Dorobek własny",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-04-dorobek.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 3,
+        "referenceKeys": [
+          "shot:ag-ciag-dalszy",
+          "shot:ag-04-dorobek"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ag-ciag-dalszy",
+            "key": "shot:ag-rolka/ag-ciag-dalszy",
+            "type": "shot",
+            "id": "ag-ciag-dalszy",
+            "name": "KKN — miejsce na ciąg dalszy",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-ciag-dalszy.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:ag-04-dorobek",
+            "key": "shot:ag-rolka/ag-04-dorobek",
+            "type": "shot",
+            "id": "ag-04-dorobek",
+            "name": "04 — Dorobek własny",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-04-dorobek.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Create a photorealistic vertical 9:16 medium frontal film start frame of the KKN chairwoman in the established black-and-gold hall. Preserve her exact mature identity, silver bob, round dark glasses, purple turtleneck, black patterned coat and purple KKN badge. The gold architectural star is at viewer left and the round gold emoji medal is at viewer right. An open black leather portfolio lies at lower center: the left cream page has exactly four musical waveform rows, the right cream page is blank. Both pages are full rectangular sheets, completely flat and continuously attached to the central spine from top to bottom. Her anatomical left hand on viewer right hovers one centimetre above the blank page, palm down; her right hand rests beside the waveform page. Her mouth remains unobstructed. No page turn, lifted corner, loose sheet, extra fingers, new text, captions or watermark.",
+    "endFrameDescription": "",
+    "animation": "0.0–1.2s: the chairwoman's anatomical left hand on viewer right gently lowers about 1 cm until relaxed fingertips touch the center of the flat blank right page, clearly indicating the empty space; her right hand remains resting beside the left page. 1.2–3.0s: she holds the visitor's gaze with subtle natural breathing and keeps the hand still. Camera: locked medium frontal shot. Continuity: @Image1 locks her identity; @Image2 locks the badge emblem only. Both full rectangular pages remain flat and attached along the entire spine; four waveforms stay left and the right page stays blank. Keep her mouth clear for lipsync. Avoid page lifting, turning, bending or detaching, loose sheets, writing, extra fingers, prop movement, camera motion, cuts, morphs, captions or watermarks."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 3,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ag-ciag-dalszy",
+        "shot:ag-04-dorobek"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ag-ciag-dalszy",
+          "key": "shot:ag-rolka/ag-ciag-dalszy",
+          "type": "shot",
+          "id": "ag-ciag-dalszy",
+          "name": "KKN — miejsce na ciąg dalszy",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-ciag-dalszy.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ag-04-dorobek",
+          "key": "shot:ag-rolka/ag-04-dorobek",
+          "type": "shot",
+          "id": "ag-04-dorobek",
+          "name": "04 — Dorobek własny",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-04-dorobek.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-03T14:19:43.541179+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ag-05-kkn",
+            "character:kkn-przewodniczaca",
+            "prop:kkn-sygnet"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ag-05-kkn",
+              "key": "shot:ag-rolka/ag-05-kkn",
+              "type": "shot",
+              "id": "ag-05-kkn",
+              "name": "05 — Pod opieką KKN",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-05-kkn.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:kkn-przewodniczaca",
+              "key": "character:kkn-przewodniczaca",
+              "type": "character",
+              "id": "kkn-przewodniczaca",
+              "name": "KKN — Przewodnicząca",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/kkn-przewodniczaca.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:kkn-sygnet",
+              "key": "prop:kkn-sygnet",
+              "type": "prop",
+              "id": "kkn-sygnet",
+              "name": "KKN — sygnet Komisji Kultury Najwyższej",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/kkn-sygnet.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-10-03T15:22:47.855007+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ag-05-kkn",
+            "prop:kkn-sygnet"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ag-05-kkn",
+              "key": "shot:ag-rolka/ag-05-kkn",
+              "type": "shot",
+              "id": "ag-05-kkn",
+              "name": "05 — Pod opieką KKN",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-05-kkn.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:kkn-sygnet",
+              "key": "prop:kkn-sygnet",
+              "type": "prop",
+              "id": "kkn-sygnet",
+              "name": "KKN — sygnet Komisji Kultury Najwyższej",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/kkn-sygnet.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 3,
+          "createdAt": "2026-10-03T23:26:55.178722+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ag-ciag-dalszy",
+            "shot:ag-04-dorobek"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ag-ciag-dalszy",
+              "key": "shot:ag-rolka/ag-ciag-dalszy",
+              "type": "shot",
+              "id": "ag-ciag-dalszy",
+              "name": "KKN — miejsce na ciąg dalszy",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-ciag-dalszy.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ag-04-dorobek",
+              "key": "shot:ag-rolka/ag-04-dorobek",
+              "type": "shot",
+              "id": "ag-04-dorobek",
+              "name": "04 — Dorobek własny",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-04-dorobek.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-ciag-dalszy/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-ciag-dalszy/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

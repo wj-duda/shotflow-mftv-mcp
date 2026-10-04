@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-04T02:05:41.063Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "place:aleja-gwiazd",
+  "type": "places",
+  "id": "aleja-gwiazd",
+  "name": "Aleja Gwiazd MFTV",
+  "description": "Referencje wizualne istniejącej Alei ze strony MFTV, zaimportowane do AG-Rolka 2026-10-02. Źródła: /home/ojciech/atv/panel/static/assets/hall-of-fame/hero-v1.webp i kkn-hall-banner-v1.webp. Ciemny marmur, złote ramy i płyty, gwiazdy w posadzce, ciepłe światło galerii oraz akcenty cyjanu i magenty. Hero określa hall i okrągłe przejście na końcu; banner boczną galerię gablot. Osoby widoczne w bannerze nie są obowiązkową obsadą nowych scen; tożsamości i stroje rozstrzygają zasoby postaci i aktualne noty KKN. Plan produkcyjny AG-Rolka: przenośny czarny prostokątny stół ustawiony przy bocznej galerii, kamera po stronie twórcy, Przewodnicząca za stołem; gwiazda centralnie, dokumentacja po jej lewej ręce. To scenografia ceremonii w Alei, nie globalna siedziba KKN. KKN bez efektów nieustalonych mocy.\n\nLOKALIZACJA USTALONA 2026-10-02: Aleja jest publiczno-ceremonialnym skrzydłem polskiej siedziby KKN w Warszawie przy ul. Moliera, w rejonie wylotu na plac Teatralny. Wiążąca geometria dojścia: place:kkn-siedziba-polska. Ulica jest realna, oficyna KKN i jej brama fikcyjne, bez numeru istniejącej posesji. Scena ceremonii pozostaje w bocznej galerii, oddzielonej od wejścia przedsionkiem i holem.",
+  "images": [
+    {
+      "id": "hero-v1",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/aleja-gwiazd/hero-v1.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/aleja-gwiazd/hero-v1-thumb.webp",
+      "width": 2172,
+      "height": 724,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "kkn-hall-banner-v1",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/aleja-gwiazd/kkn-hall-banner-v1.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/aleja-gwiazd/kkn-hall-banner-v1-thumb.webp",
+      "width": 2160,
+      "height": 728,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-10-02T11:22:00+00:00"
+}

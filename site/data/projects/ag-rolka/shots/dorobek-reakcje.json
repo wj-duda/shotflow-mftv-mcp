@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-04T02:05:41.063Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:ag-rolka/dorobek-reakcje",
+  "id": "dorobek-reakcje",
+  "title": "02 — Ich reakcje",
+  "description": "2–3 s, 24f. Anonimowa słuchaczka, postać wyłącznie tej inscenizacji, reaguje krótkim skinieniem na muzykę. Bez prawdziwej opinii, konta lub statystyk. Jedna osoba w słuchawkach; brak UI. Napis: «Ich reakcje.»",
+  "project": {
+    "id": "ag-rolka",
+    "key": "project:ag-rolka",
+    "name": "AG-Rolka",
+    "createdAt": "2026-10-02T11:20:13.424Z"
+  },
+  "chronology": {
+    "projectKey": "project:ag-rolka",
+    "projectCreatedAt": "2026-10-02T11:20:13.424Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 2,
+    "lastSequence": 2,
+    "occurrences": [
+      2
+    ],
+    "sequenceTotal": 18,
+    "uniqueShotCount": 18,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "dorobek-emisja"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:dorobek-emisja",
+        "key": "shot:ag-rolka/dorobek-emisja",
+        "type": "shot",
+        "id": "dorobek-emisja",
+        "name": "01 — Twoja muzyka",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/dorobek-emisja.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:dorobek-emisja"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:dorobek-emisja",
+            "key": "shot:ag-rolka/dorobek-emisja",
+            "type": "shot",
+            "id": "dorobek-emisja",
+            "name": "01 — Twoja muzyka",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/dorobek-emisja.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Use case ads-marketing, fictional film scene. One photorealistic vertical9:16 START FRAME1080x1920. Input1 is reference for tactile photographic texture and restrained warm-left/cyan-right lighting ONLY; do not copy its hand, desk composition, musical equipment or imply same person. New unnamed listener, an ordinary adult woman about35, shoulder-length dark brown hair loosely tucked behind ears, simple muted olive sweatshirt, matte black over-ear headphones without logos. Medium close-up sitting comfortably in a modest home armchair, softly out-of-focus bookcase and warm reading lamp behind, no canonical MFTV host or celebrity identity. Face in upper-middle, eyes softly closed, head neutral poised for one small appreciative nod, corners of mouth barely lifted with genuine absorbed enjoyment, NOT beaming advertisement grin. Both hands rest naturally on lap below crop, no hands touching head. Headphones have two believable earcups linked by single headband over crown, hair conforms naturally, no headphone cable crossing face. Chest-up intimate35/50mm portrait, warm practical illumination with subtle cool bounce, real skin detail, no beauty retouching, quiet background and generous bottom safe area for editorial caption. This is a human responding to music, not a fake testimonial or actual user record. No screen, no phone, no interface, no emoji floating around head, no text, no logos, no watermark, one person only.",
+    "endFrameDescription": "",
+    "animation": "0.0–0.8s: the existing listener makes one small appreciative nod, dipping her chin only three degrees and gently returning to the starting position. 0.8–3.0s: hold her quiet expression with subtle breathing. Camera: locked medium close-up. Secondary motion: a few hair strands follow the nod and settle. Continuity: preserve the Start Frame woman's exact identity, closed eyes, slight smile, olive sweatshirt, black headphones and warm room. No talking or broad expression change. The first second is used in the edit. Avoid new people, extra headphone bands, facial morphing, excessive head movement, camera motion, cuts, text or watermarks."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:dorobek-emisja"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:dorobek-emisja",
+          "key": "shot:ag-rolka/dorobek-emisja",
+          "type": "shot",
+          "id": "dorobek-emisja",
+          "name": "01 — Twoja muzyka",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/dorobek-emisja.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-03T18:39:30.388678+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:dorobek-emisja"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:dorobek-emisja",
+              "key": "shot:ag-rolka/dorobek-emisja",
+              "type": "shot",
+              "id": "dorobek-emisja",
+              "name": "01 — Twoja muzyka",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/dorobek-emisja.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/dorobek-reakcje/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/dorobek-reakcje/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

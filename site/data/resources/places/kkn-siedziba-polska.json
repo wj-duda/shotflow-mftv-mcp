@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-04T02:05:41.063Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "place:kkn-siedziba-polska",
+  "type": "places",
+  "id": "kkn-siedziba-polska",
+  "name": "KKN — polska siedziba, Warszawa, ul. Moliera",
+  "description": "KANON LOKALIZACJI — AG-Rolka, 2026-10-02. Polska siedziba Komisji Kultury Najwyższej mieści się w Warszawie, przy rzeczywistej ulicy Moliera, w rejonie jej wylotu na plac Teatralny. Dojście od placu prowadzi w Moliera, następnie przez dyskretną bramę do wewnętrznej oficyny. Nie ustanawiamy numeru posesji. Brama, dziedziniec i budynek KKN są fikcyjną zabudową świata MFTV osadzoną w prawdziwym otoczeniu; nie są dokumentacją konkretnej istniejącej nieruchomości ani częścią Teatru Wielkiego.\n\nROLA: polska siedziba globalnej organizacji z licznym personelem. Obsługuje sprawy równowagi kultury i inne sprawy należące do misji KKN, również nadnaturalne. Znana Przewodnicząca i pozostali reprezentanci nie są całą organizacją, a ich obecność nie ustanawia szefostwa krajowego ani globalnego. Nie określamy daty założenia, historii własności budynku ani konkretnych mocy.\n\nCHARAKTER: z ulicy powściągliwa instytucja, w środku wysoka, reprezentacyjna galeria. Prestiż wynika z proporcji, jakości materiałów, ciszy i precyzji. Fasada stylizowana historyzująco na warszawskie otoczenie placu; nie twierdzimy, że budynek przetrwał wojnę. Jasny ciepły tynk, ciemny kamienny portal, dwuskrzydłowe drzwi z ciemnego drewna, mosiężne uchwyty. Mała fioletowa tablica po prawej od wejścia z białym prop:kkn-sygnet; bez godła państwowego. Pełna nazwa Komisji może być dodana typograficznie w montażu, nie jest konieczna do rozpoznania wejścia.\n\nGEOMETRIA KANONICZNA: po przejściu bramy ulicznej niewielki prostokątny dziedziniec; drzwi KKN na jego przeciwległej ścianie, na wprost osi dojścia. Za nimi przedsionek około 3 m szerokości i 4 m głębokości. Drzwi otwierają się do środka. Za przedsionkiem wysoki hol; na jego prawej ścianie zamknięte drzwi do części służbowej, prosto szerokie prostokątne przejście do skrzydła galerii — place:aleja-gwiazd. Z progu widoczne czarno-złote wnętrze galerii, bez widocznego od ulicy stołu ceremonii. Okrągłe obramowanie z cyjanem i magentą pozostaje dalej, wewnątrz Alei; nie jest drzwiami ulicznymi ani magicznym portalem. Kamera wejściowa patrzy z dziedzińca przez drzwi i przedsionek w głąb; tablica zawsze po prawej stronie patrzącego z zewnątrz. Nie odwracać osi między kadrami.\n\nCIĄGŁOŚĆ Z AG-ROLKA: place:aleja-gwiazd stanowi publiczno-ceremonialne skrzydło polskiej siedziby. Przenośny czarny stół z ag-04-dorobek i ag-05-kkn stoi w bocznej galerii, za holem; krótki skrót montażowy pomija drogę od drzwi do stołu. Ujęcie przejściowe 03 → wejście → 04 pokazuje przybycie twórcy z zakupioną Gwiazdą z Odzysku. Wejście nie wymaga magicznego klucza, nowej opłaty ani dodatkowego progu nagród. Ceremonia KKN jest warstwą fabularną aktywacji profilu.\n\nREALNE OTOCZENIE I ŹRÓDŁO: Wojewódzki Urząd Ochrony Zabytków opisuje Teatr Wielki i przebieg ulic Moliera, Senatorskiej i Wierzbowej jako elementy historycznej kompozycji placu Teatralnego. https://mwkz.pl/pelen-zabytkow-historyczny-uklad-urbanistyczny-placu-teatralnego-wpisany-do-rejestru-zabytkow-10446 (sprawdzone 2026-10-02). Źródło potwierdza otoczenie, nie fikcyjną siedzibę KKN.",
+  "images": [
+    {
+      "id": "reference-v001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/kkn-siedziba-polska/reference-v001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/kkn-siedziba-polska/reference-v001-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-10-02T12:00:00+00:00"
+}

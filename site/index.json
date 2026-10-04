@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T17:40:45.066Z",
+  "generatedAt": "2026-10-04T02:05:41.063Z",
   "universe": {
     "id": "mf-tv",
     "name": "Świat MF TV"
@@ -22,10 +22,10 @@
     ]
   },
   "counts": {
-    "resources": 97,
-    "projects": 20,
-    "shots": 347,
-    "images": 514
+    "resources": 99,
+    "projects": 22,
+    "shots": 368,
+    "images": 537
   },
   "brand": {
     "key": "brand:aimftv",
@@ -679,15 +679,15 @@
         "url": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/index.json"
       },
       {
-      "type": "notes",
-      "label": "Notatki",
-      "count": 17,
+        "type": "notes",
+        "label": "Notatki",
+        "count": 17,
         "url": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/index.json"
       },
       {
         "type": "places",
         "label": "Miejsca",
-        "count": 25,
+        "count": 27,
         "url": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/index.json"
       },
       {
@@ -698,7 +698,7 @@
       }
     ],
     "projects": {
-      "count": 20,
+      "count": 22,
       "url": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/index.json"
     },
     "brand": {

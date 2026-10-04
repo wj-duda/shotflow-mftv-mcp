@@ -1,9 +1,24 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T22:17:01.223Z",
+  "generatedAt": "2026-10-04T02:05:41.063Z",
   "worldId": "aimftv",
   "order": "newest-first",
   "projects": [
+    {
+      "key": "project:ag-rolka",
+      "kind": "project",
+      "type": "projects",
+      "id": "ag-rolka",
+      "name": "AG-Rolka",
+      "summary": "AG-Rolka: 20 shotów w archiwum ShotFlow.",
+      "createdAt": "2026-10-02T11:20:13.424Z",
+      "shotCount": 20,
+      "imageCount": 1,
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-ciag-dalszy/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-ciag-dalszy/frame-start-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/index.json",
+      "url": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/index.json"
+    },
     {
       "key": "project:pw-rolka",
       "kind": "project",

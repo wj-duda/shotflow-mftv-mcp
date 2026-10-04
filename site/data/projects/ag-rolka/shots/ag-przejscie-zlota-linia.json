@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-04T02:05:41.063Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:ag-rolka/ag-przejscie-zlota-linia",
+  "id": "ag-przejscie-zlota-linia",
+  "title": "Przejście — złota linia Alei",
+  "description": "9-klatkowa makroprzebitka: brzeg kremowej karty portfolio łączy się kompozycyjnie ze złotą linią czarnego marmuru i cyjanowo-magenta odbiciem, zapowiadając Aleję Gwiazd.",
+  "project": {
+    "id": "ag-rolka",
+    "key": "project:ag-rolka",
+    "name": "AG-Rolka",
+    "createdAt": "2026-10-02T11:20:13.424Z"
+  },
+  "chronology": {
+    "projectKey": "project:ag-rolka",
+    "projectCreatedAt": "2026-10-02T11:20:13.424Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 16,
+    "lastSequence": 16,
+    "occurrences": [
+      16
+    ],
+    "sequenceTotal": 18,
+    "uniqueShotCount": 18,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "ag-opis"
+    },
+    {
+      "type": "shot",
+      "id": "ag-08-aleja"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:ag-opis",
+        "key": "shot:ag-rolka/ag-opis",
+        "type": "shot",
+        "id": "ag-opis",
+        "name": "14 — Opis PL i EN",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-opis.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ag-08-aleja",
+        "key": "shot:ag-rolka/ag-08-aleja",
+        "type": "shot",
+        "id": "ag-08-aleja",
+        "name": "08 — Miejsce w Alei",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-08-aleja.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:ag-opis",
+          "shot:ag-08-aleja"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ag-opis",
+            "key": "shot:ag-rolka/ag-opis",
+            "type": "shot",
+            "id": "ag-opis",
+            "name": "14 — Opis PL i EN",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-opis.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:ag-08-aleja",
+            "key": "shot:ag-rolka/ag-08-aleja",
+            "type": "shot",
+            "id": "ag-08-aleja",
+            "name": "08 — Miejsce w Alei",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-08-aleja.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Use case: ads-marketing. Asset type: 9-frame cinematic match-cut insert for the vertical AG-Rolka edit. Input images: Image 1 is authoritative continuity for the cream portfolio paper, black stitched leather binding, warm KKN light and restrained gold accents. Image 2 is authoritative for the Hall of Stars materials and palette: glossy black veined marble, thin architectural gold inlay lines, warm gold practical lighting, restrained cyan and magenta reflections. Do not copy hands, pen, full portfolio, full star or the wide hall composition. Primary request: create a new photorealistic extreme macro material transition that visually turns the creator's portfolio into the avenue. In the lower-left foreground, one cropped corner and thin edge of the blank cream portfolio page rests inside its black leather cover. A narrow warm-gold highlight along the paper edge aligns perfectly across the center of the frame with a real thin brass inlay line embedded in glossy black marble, which continues diagonally toward the upper-right distance. Near the far end of that brass line, only subtle physically reflected cyan and magenta light appears on the marble, anticipating the Hall of Stars. This is a practical editorial match composition, not a magical transformation. Composition/framing: exact vertical 9:16, intended final size 1080x1920; extreme close low oblique macro; paper and leather occupy only the lower-left quarter, black marble and the continuing gold line dominate the image and lead the eye upward; shallow but controlled focus with the aligned junction sharp. Lighting/mood: refined KKN black-and-gold luxury, warm practical light, subtle cyan-magenta reflection only in the upper distance, cinematic realism. Materials/textures: fibrous blank cream paper, stitched black leather, polished black veined marble, narrow flush brass inlay. Constraints: one continuous visual axis from paper-edge highlight into brass floor line; instantly readable during a 9-frame beat insert; no supernatural effect; no people. Avoid: text, writing, letters, pen, hands, star shapes, medal, UI, logos, emblem, floating objects, glowing portal, energy beams, particles, smoke, watermark, split-screen effect, abstract graphic design.",
+    "endFrameDescription": "",
+    "animation": ""
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ag-opis",
+        "shot:ag-08-aleja"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ag-opis",
+          "key": "shot:ag-rolka/ag-opis",
+          "type": "shot",
+          "id": "ag-opis",
+          "name": "14 — Opis PL i EN",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-opis.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ag-08-aleja",
+          "key": "shot:ag-rolka/ag-08-aleja",
+          "type": "shot",
+          "id": "ag-08-aleja",
+          "name": "08 — Miejsce w Alei",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-08-aleja.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-03T23:06:07.295441+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ag-opis",
+            "shot:ag-08-aleja"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ag-opis",
+              "key": "shot:ag-rolka/ag-opis",
+              "type": "shot",
+              "id": "ag-opis",
+              "name": "14 — Opis PL i EN",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-opis.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ag-08-aleja",
+              "key": "shot:ag-rolka/ag-08-aleja",
+              "type": "shot",
+              "id": "ag-08-aleja",
+              "name": "08 — Miejsce w Alei",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-08-aleja.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-przejscie-zlota-linia/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-przejscie-zlota-linia/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-04T02:05:41.063Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:ag-rolka/ag-03-zakup",
+  "id": "ag-03-zakup",
+  "title": "03 — Transakcja",
+  "description": "Wersja 2. Krótka transakcja po puencie Włodka. Dłoń twórcy odsuwa się od sakiewki z lewej, Włodek przesuwa gwiazdę po szkle z prawej. Płatność zasobami, nie zakup uznania. Docelowo 9–11 s; informacja o zakupie osobną warstwą.",
+  "project": {
+    "id": "ag-rolka",
+    "key": "project:ag-rolka",
+    "name": "AG-Rolka",
+    "createdAt": "2026-10-02T11:20:13.424Z"
+  },
+  "chronology": {
+    "projectKey": "project:ag-rolka",
+    "projectCreatedAt": "2026-10-02T11:20:13.424Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 7,
+    "lastSequence": 7,
+    "occurrences": [
+      7
+    ],
+    "sequenceTotal": 18,
+    "uniqueShotCount": 18,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "ag-02-wlodek"
+    },
+    {
+      "type": "prop",
+      "id": "sakiewka-tworcy"
+    },
+    {
+      "type": "prop",
+      "id": "gwiazda-pierwszej-wielkosci"
+    },
+    {
+      "type": "shot",
+      "id": "ag-03-zakup"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:ag-02-wlodek",
+        "key": "shot:ag-rolka/ag-02-wlodek",
+        "type": "shot",
+        "id": "ag-02-wlodek",
+        "name": "02 — Pochodzenie?",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-02-wlodek.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:sakiewka-tworcy",
+        "key": "prop:sakiewka-tworcy",
+        "type": "prop",
+        "id": "sakiewka-tworcy",
+        "name": "Sakiewka twórcy",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/sakiewka-tworcy.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:gwiazda-pierwszej-wielkosci",
+        "key": "prop:gwiazda-pierwszej-wielkosci",
+        "type": "prop",
+        "id": "gwiazda-pierwszej-wielkosci",
+        "name": "Gwiazda z Odzysku",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/gwiazda-pierwszej-wielkosci.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ag-03-zakup",
+        "key": "shot:ag-rolka/ag-03-zakup",
+        "type": "shot",
+        "id": "ag-03-zakup",
+        "name": "03 — Transakcja",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-03-zakup.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 3,
+        "referenceKeys": [
+          "shot:ag-03-zakup",
+          "shot:ag-02-wlodek"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ag-03-zakup",
+            "key": "shot:ag-rolka/ag-03-zakup",
+            "type": "shot",
+            "id": "ag-03-zakup",
+            "name": "03 — Transakcja",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-03-zakup.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:ag-02-wlodek",
+            "key": "shot:ag-rolka/ag-02-wlodek",
+            "type": "shot",
+            "id": "ag-02-wlodek",
+            "name": "02 — Pochodzenie?",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-02-wlodek.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Reframe input1 as a wider 9:16 vertical live-action film shot, same customer-side camera axis looking down at glass counter. Input1 is exact purchase scene, preserve same two people's hands and sleeve identities, leather pouch LEFT, gold architectural star flat face-up RIGHT, all materials, warm light, glass reflections and blurred shop. Input2 is authoritative star scale and Wlodek outfit:55cm heavy five-point star, compared with hand and palm-sized pouch. Widen lens/reframe so the ENTIRE star including rightmost point and bottom tips fits inside picture with at least 8% clear glass margin on RIGHT and 12% margin BELOW for a 10cm slide toward customer. Do not make star miniature; expand visible counter, show more background instead. Wlodek's RIGHT hand with gold watch and black-stone gold ring holds upper star point, comes from upper right attached naturally to right checked-shirt arm. Customer's LEFT hand with plain charcoal sleeve enters bottom left just releasing pouch. Only those two hands, anatomically correct. Pouch stays separate left of star, preserve its golden drawstring. Star exact shape, blank nameplate, thin concrete underside, no new marks. No cash or extra coins, no lettering, no watermark.",
+    "endFrameDescription": "",
+    "animation": "0.0–1.5s: Wlodek's right hand, wearing the watch and ring, slides the heavy face-up star about 8 cm toward the bottom of the frame; the customer's left hand releases the pouch and withdraws slightly toward bottom left. 1.5–3.0s: both movements settle; the star stays on the glass. Camera: locked customer-side high angle. Secondary motion: the gold drawstring ends settle against the stationary pouch; reflections move only with the star. Continuity: preserve exactly two hands, the thin concrete backing, blank plate, five-point outline, pouch scale and clothing. Avoid levitation, rotation, extra coins, extra limbs, clipping through glass, cuts, text or watermarks."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 3,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ag-03-zakup",
+        "shot:ag-02-wlodek"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ag-03-zakup",
+          "key": "shot:ag-rolka/ag-03-zakup",
+          "type": "shot",
+          "id": "ag-03-zakup",
+          "name": "03 — Transakcja",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-03-zakup.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ag-02-wlodek",
+          "key": "shot:ag-rolka/ag-02-wlodek",
+          "type": "shot",
+          "id": "ag-02-wlodek",
+          "name": "02 — Pochodzenie?",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-02-wlodek.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-02T11:23:14.651309+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ag-02-wlodek",
+            "prop:sakiewka-tworcy",
+            "prop:gwiazda-pierwszej-wielkosci"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ag-02-wlodek",
+              "key": "shot:ag-rolka/ag-02-wlodek",
+              "type": "shot",
+              "id": "ag-02-wlodek",
+              "name": "02 — Pochodzenie?",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-02-wlodek.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:sakiewka-tworcy",
+              "key": "prop:sakiewka-tworcy",
+              "type": "prop",
+              "id": "sakiewka-tworcy",
+              "name": "Sakiewka twórcy",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/sakiewka-tworcy.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:gwiazda-pierwszej-wielkosci",
+              "key": "prop:gwiazda-pierwszej-wielkosci",
+              "type": "prop",
+              "id": "gwiazda-pierwszej-wielkosci",
+              "name": "Gwiazda z Odzysku",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/gwiazda-pierwszej-wielkosci.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-10-03T14:17:07.52356+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ag-03-zakup",
+            "shot:ag-02-wlodek",
+            "prop:sakiewka-tworcy",
+            "prop:gwiazda-pierwszej-wielkosci"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ag-03-zakup",
+              "key": "shot:ag-rolka/ag-03-zakup",
+              "type": "shot",
+              "id": "ag-03-zakup",
+              "name": "03 — Transakcja",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-03-zakup.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ag-02-wlodek",
+              "key": "shot:ag-rolka/ag-02-wlodek",
+              "type": "shot",
+              "id": "ag-02-wlodek",
+              "name": "02 — Pochodzenie?",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-02-wlodek.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:sakiewka-tworcy",
+              "key": "prop:sakiewka-tworcy",
+              "type": "prop",
+              "id": "sakiewka-tworcy",
+              "name": "Sakiewka twórcy",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/sakiewka-tworcy.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:gwiazda-pierwszej-wielkosci",
+              "key": "prop:gwiazda-pierwszej-wielkosci",
+              "type": "prop",
+              "id": "gwiazda-pierwszej-wielkosci",
+              "name": "Gwiazda z Odzysku",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/gwiazda-pierwszej-wielkosci.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 3,
+          "createdAt": "2026-10-03T15:25:32.361033+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ag-03-zakup",
+            "shot:ag-02-wlodek"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ag-03-zakup",
+              "key": "shot:ag-rolka/ag-03-zakup",
+              "type": "shot",
+              "id": "ag-03-zakup",
+              "name": "03 — Transakcja",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-03-zakup.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ag-02-wlodek",
+              "key": "shot:ag-rolka/ag-02-wlodek",
+              "type": "shot",
+              "id": "ag-02-wlodek",
+              "name": "02 — Pochodzenie?",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-02-wlodek.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-03-zakup/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-03-zakup/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

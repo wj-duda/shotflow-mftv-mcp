@@ -1,10 +1,2048 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T22:17:01.223Z",
+  "generatedAt": "2026-10-04T02:05:41.063Z",
   "worldId": "aimftv",
   "order": "projects-newest-first; canonical timeline clips oldest-to-newest inside each project; off-timeline project materials last",
   "currentStateRule": "For current canon, use only canonicalEvent=true: select the newest matching project and then the matching event with the greatest lastSequence. Off-timeline materials cannot override saved timeline events. Older events remain valid only for their historical story moment.",
   "events": [
+    {
+      "key": "shot:ag-rolka/dorobek-emisja",
+      "kind": "story-event",
+      "projectKey": "project:ag-rolka",
+      "projectId": "ag-rolka",
+      "projectName": "AG-Rolka",
+      "projectCreatedAt": "2026-10-02T11:20:13.424Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 1,
+      "lastSequence": 1,
+      "occurrences": [
+        1
+      ],
+      "sequenceTotal": 18,
+      "title": "01 — Twoja muzyka",
+      "description": "0–2 s, 48f. AI-assisted music: anonimowy twórca naciska raz Enter na zwykłej klawiaturze komputerowej. Bliski kadr prawej dłoni w grafitowym rękawie przy drewnianym biurku. Ekran całkowicie poza kadrem, brak interfejsu, padów i grania na instrumencie. Napis montażowy «Twoja muzyka.» pozostaje osobną warstwą.",
+      "declaredReferences": [
+        {
+          "sourceKey": "shot:ag-03-zakup",
+          "key": "shot:ag-rolka/ag-03-zakup",
+          "type": "shot",
+          "id": "ag-03-zakup",
+          "name": "03 — Transakcja",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-03-zakup.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:dorobek-emisja",
+          "key": "shot:ag-rolka/dorobek-emisja",
+          "type": "shot",
+          "id": "dorobek-emisja",
+          "name": "01 — Twoja muzyka",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/dorobek-emisja.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 2,
+          "referenceKeys": [
+            "shot:dorobek-emisja"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:dorobek-emisja",
+              "key": "shot:ag-rolka/dorobek-emisja",
+              "type": "shot",
+              "id": "dorobek-emisja",
+              "name": "01 — Twoja muzyka",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/dorobek-emisja.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 2,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:dorobek-emisja"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/dorobek-emisja/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/dorobek-emisja/frame-start-thumb.webp",
+          "width": 1080,
+          "height": 1920,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/dorobek-emisja.json"
+    },
+    {
+      "key": "shot:ag-rolka/dorobek-reakcje",
+      "kind": "story-event",
+      "projectKey": "project:ag-rolka",
+      "projectId": "ag-rolka",
+      "projectName": "AG-Rolka",
+      "projectCreatedAt": "2026-10-02T11:20:13.424Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 2,
+      "lastSequence": 2,
+      "occurrences": [
+        2
+      ],
+      "sequenceTotal": 18,
+      "title": "02 — Ich reakcje",
+      "description": "2–3 s, 24f. Anonimowa słuchaczka, postać wyłącznie tej inscenizacji, reaguje krótkim skinieniem na muzykę. Bez prawdziwej opinii, konta lub statystyk. Jedna osoba w słuchawkach; brak UI. Napis: «Ich reakcje.»",
+      "declaredReferences": [
+        {
+          "sourceKey": "shot:dorobek-emisja",
+          "key": "shot:ag-rolka/dorobek-emisja",
+          "type": "shot",
+          "id": "dorobek-emisja",
+          "name": "01 — Twoja muzyka",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/dorobek-emisja.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 1,
+          "referenceKeys": [
+            "shot:dorobek-emisja"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:dorobek-emisja",
+              "key": "shot:ag-rolka/dorobek-emisja",
+              "type": "shot",
+              "id": "dorobek-emisja",
+              "name": "01 — Twoja muzyka",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/dorobek-emisja.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 1,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:dorobek-emisja"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/dorobek-reakcje/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/dorobek-reakcje/frame-start-thumb.webp",
+          "width": 1080,
+          "height": 1920,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/dorobek-reakcje.json"
+    },
+    {
+      "key": "shot:ag-rolka/dorobek-nagroda",
+      "kind": "story-event",
+      "projectKey": "project:ag-rolka",
+      "projectId": "ag-rolka",
+      "projectName": "AG-Rolka",
+      "projectCreatedAt": "2026-10-02T11:20:13.424Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 3,
+      "lastSequence": 3,
+      "occurrences": [
+        3
+      ],
+      "sequenceTotal": 18,
+      "title": "03 — Zdobyte uznanie",
+      "description": "3–4 s, 24f. Prawa dłoń anonimowego twórcy z grafitowym rękawem trzyma okrągły medal Złotego Emoji. To fabularny symbol zdobytego wyróżnienia, pokazany PRZED zakupem gwiazdy; nie przypisuje osiągnięcia realnej osobie. Wzór medalu jak przy portfolio w KKN. Napis: «Zdobyte uznanie.»",
+      "declaredReferences": [
+        {
+          "sourceKey": "shot:dorobek-emisja",
+          "key": "shot:ag-rolka/dorobek-emisja",
+          "type": "shot",
+          "id": "dorobek-emisja",
+          "name": "01 — Twoja muzyka",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/dorobek-emisja.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ag-04-dorobek",
+          "key": "shot:ag-rolka/ag-04-dorobek",
+          "type": "shot",
+          "id": "ag-04-dorobek",
+          "name": "04 — Dorobek własny",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-04-dorobek.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 1,
+          "referenceKeys": [
+            "shot:dorobek-emisja",
+            "shot:ag-04-dorobek"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:dorobek-emisja",
+              "key": "shot:ag-rolka/dorobek-emisja",
+              "type": "shot",
+              "id": "dorobek-emisja",
+              "name": "01 — Twoja muzyka",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/dorobek-emisja.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ag-04-dorobek",
+              "key": "shot:ag-rolka/ag-04-dorobek",
+              "type": "shot",
+              "id": "ag-04-dorobek",
+              "name": "04 — Dorobek własny",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-04-dorobek.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 1,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:dorobek-emisja",
+            "shot:ag-04-dorobek"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/dorobek-nagroda/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/dorobek-nagroda/frame-start-thumb.webp",
+          "width": 1080,
+          "height": 1920,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/dorobek-nagroda.json"
+    },
+    {
+      "key": "shot:ag-rolka/ag-02-wlodek",
+      "kind": "story-event",
+      "projectKey": "project:ag-rolka",
+      "projectId": "ag-rolka",
+      "projectName": "AG-Rolka",
+      "projectCreatedAt": "2026-10-02T11:20:13.424Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 4,
+      "lastSequence": 4,
+      "occurrences": [
+        4
+      ],
+      "sequenceTotal": 18,
+      "title": "02 — Pochodzenie?",
+      "description": "4–6 s, 48 klatek. Włodek prezentuje ciężką gwiazdę: «Hollywood. Oryginał.» Czysta twarz i usta, spojrzenie znad okularów, beton u podstawy. Kling: krótki ruch głowy; dialog i lipsync osobno.",
+      "declaredReferences": [
+        {
+          "sourceKey": "character:komisant",
+          "key": "character:komisant",
+          "type": "character",
+          "id": "komisant",
+          "name": "Włodek — Komisant",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/komisant.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "place:komis-rtv",
+          "key": "place:komis-rtv",
+          "type": "place",
+          "id": "komis-rtv",
+          "name": "KOMIS RTV — kantor Włodka",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/komis-rtv.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:gwiazda-pierwszej-wielkosci",
+          "key": "prop:gwiazda-pierwszej-wielkosci",
+          "type": "prop",
+          "id": "gwiazda-pierwszej-wielkosci",
+          "name": "Gwiazda z Odzysku",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/gwiazda-pierwszej-wielkosci.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ag-02-wlodek",
+          "key": "shot:ag-rolka/ag-02-wlodek",
+          "type": "shot",
+          "id": "ag-02-wlodek",
+          "name": "02 — Pochodzenie?",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-02-wlodek.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 2,
+          "referenceKeys": [
+            "shot:ag-02-wlodek",
+            "character:komisant",
+            "prop:gwiazda-pierwszej-wielkosci"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ag-02-wlodek",
+              "key": "shot:ag-rolka/ag-02-wlodek",
+              "type": "shot",
+              "id": "ag-02-wlodek",
+              "name": "02 — Pochodzenie?",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-02-wlodek.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:komisant",
+              "key": "character:komisant",
+              "type": "character",
+              "id": "komisant",
+              "name": "Włodek — Komisant",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/komisant.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:gwiazda-pierwszej-wielkosci",
+              "key": "prop:gwiazda-pierwszej-wielkosci",
+              "type": "prop",
+              "id": "gwiazda-pierwszej-wielkosci",
+              "name": "Gwiazda z Odzysku",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/gwiazda-pierwszej-wielkosci.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 2,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ag-02-wlodek",
+            "character:komisant",
+            "prop:gwiazda-pierwszej-wielkosci"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-02-wlodek/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-02-wlodek/frame-start-thumb.webp",
+          "width": 1080,
+          "height": 1920,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-02-wlodek.json"
+    },
+    {
+      "key": "shot:ag-rolka/ag-01-beton",
+      "kind": "story-event",
+      "projectKey": "project:ag-rolka",
+      "projectId": "ag-rolka",
+      "projectName": "AG-Rolka",
+      "projectCreatedAt": "2026-10-02T11:20:13.424Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 5,
+      "lastSequence": 5,
+      "occurrences": [
+        5
+      ],
+      "sequenceTotal": 18,
+      "title": "01 — Gwiazda z przeszłością",
+      "description": "Wersja 2. Jednosekundowa makroprzebitka na odpadający okruch betonu po «Hollywood. Oryginał.». Gwiazda niemal pionowo podtrzymana dłonią Włodka; tylko dolne ramię, rant i szkło. Docelowo 6–7 s. Bez tekstu w obrazie.",
+      "declaredReferences": [
+        {
+          "sourceKey": "shot:ag-02-wlodek",
+          "key": "shot:ag-rolka/ag-02-wlodek",
+          "type": "shot",
+          "id": "ag-02-wlodek",
+          "name": "02 — Pochodzenie?",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-02-wlodek.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:gwiazda-pierwszej-wielkosci",
+          "key": "prop:gwiazda-pierwszej-wielkosci",
+          "type": "prop",
+          "id": "gwiazda-pierwszej-wielkosci",
+          "name": "Gwiazda z Odzysku",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/gwiazda-pierwszej-wielkosci.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ag-01-beton",
+          "key": "shot:ag-rolka/ag-01-beton",
+          "type": "shot",
+          "id": "ag-01-beton",
+          "name": "01 — Gwiazda z przeszłością",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-01-beton.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 3,
+          "referenceKeys": [
+            "shot:ag-01-beton",
+            "shot:ag-02-wlodek"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ag-01-beton",
+              "key": "shot:ag-rolka/ag-01-beton",
+              "type": "shot",
+              "id": "ag-01-beton",
+              "name": "01 — Gwiazda z przeszłością",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-01-beton.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ag-02-wlodek",
+              "key": "shot:ag-rolka/ag-02-wlodek",
+              "type": "shot",
+              "id": "ag-02-wlodek",
+              "name": "02 — Pochodzenie?",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-02-wlodek.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 3,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ag-01-beton",
+            "shot:ag-02-wlodek"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-01-beton/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-01-beton/frame-start-thumb.webp",
+          "width": 1080,
+          "height": 1920,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-01-beton.json"
+    },
+    {
+      "key": "shot:ag-rolka/ag-pochodzenie",
+      "kind": "story-event",
+      "projectKey": "project:ag-rolka",
+      "projectId": "ag-rolka",
+      "projectName": "AG-Rolka",
+      "projectCreatedAt": "2026-10-02T11:20:13.424Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 6,
+      "lastSequence": 6,
+      "occurrences": [
+        6
+      ],
+      "sequenceTotal": 18,
+      "title": "Pochodzenie — reakcja Włodka",
+      "description": "7–9 s, 48 klatek. Zbliżenie Włodka do puenty «Pochodzenie? To komis, nie prokuratura.»; końcówka głosu trwa do 10 s nad transakcją. Shot jest na zapisanym timeline. Bez wygenerowanego głosu lub lipsyncu.",
+      "declaredReferences": [
+        {
+          "sourceKey": "shot:ag-02-wlodek",
+          "key": "shot:ag-rolka/ag-02-wlodek",
+          "type": "shot",
+          "id": "ag-02-wlodek",
+          "name": "02 — Pochodzenie?",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-02-wlodek.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:komisant",
+          "key": "character:komisant",
+          "type": "character",
+          "id": "komisant",
+          "name": "Włodek — Komisant",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/komisant.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 1,
+          "referenceKeys": [
+            "shot:ag-02-wlodek",
+            "character:komisant"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ag-02-wlodek",
+              "key": "shot:ag-rolka/ag-02-wlodek",
+              "type": "shot",
+              "id": "ag-02-wlodek",
+              "name": "02 — Pochodzenie?",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-02-wlodek.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:komisant",
+              "key": "character:komisant",
+              "type": "character",
+              "id": "komisant",
+              "name": "Włodek — Komisant",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/komisant.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 1,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ag-02-wlodek",
+            "character:komisant"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-pochodzenie/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-pochodzenie/frame-start-thumb.webp",
+          "width": 1080,
+          "height": 1920,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-pochodzenie.json"
+    },
+    {
+      "key": "shot:ag-rolka/ag-03-zakup",
+      "kind": "story-event",
+      "projectKey": "project:ag-rolka",
+      "projectId": "ag-rolka",
+      "projectName": "AG-Rolka",
+      "projectCreatedAt": "2026-10-02T11:20:13.424Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 7,
+      "lastSequence": 7,
+      "occurrences": [
+        7
+      ],
+      "sequenceTotal": 18,
+      "title": "03 — Transakcja",
+      "description": "Wersja 2. Krótka transakcja po puencie Włodka. Dłoń twórcy odsuwa się od sakiewki z lewej, Włodek przesuwa gwiazdę po szkle z prawej. Płatność zasobami, nie zakup uznania. Docelowo 9–11 s; informacja o zakupie osobną warstwą.",
+      "declaredReferences": [
+        {
+          "sourceKey": "shot:ag-02-wlodek",
+          "key": "shot:ag-rolka/ag-02-wlodek",
+          "type": "shot",
+          "id": "ag-02-wlodek",
+          "name": "02 — Pochodzenie?",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-02-wlodek.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:sakiewka-tworcy",
+          "key": "prop:sakiewka-tworcy",
+          "type": "prop",
+          "id": "sakiewka-tworcy",
+          "name": "Sakiewka twórcy",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/sakiewka-tworcy.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:gwiazda-pierwszej-wielkosci",
+          "key": "prop:gwiazda-pierwszej-wielkosci",
+          "type": "prop",
+          "id": "gwiazda-pierwszej-wielkosci",
+          "name": "Gwiazda z Odzysku",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/gwiazda-pierwszej-wielkosci.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ag-03-zakup",
+          "key": "shot:ag-rolka/ag-03-zakup",
+          "type": "shot",
+          "id": "ag-03-zakup",
+          "name": "03 — Transakcja",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-03-zakup.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 3,
+          "referenceKeys": [
+            "shot:ag-03-zakup",
+            "shot:ag-02-wlodek"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ag-03-zakup",
+              "key": "shot:ag-rolka/ag-03-zakup",
+              "type": "shot",
+              "id": "ag-03-zakup",
+              "name": "03 — Transakcja",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-03-zakup.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ag-02-wlodek",
+              "key": "shot:ag-rolka/ag-02-wlodek",
+              "type": "shot",
+              "id": "ag-02-wlodek",
+              "name": "02 — Pochodzenie?",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-02-wlodek.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 3,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ag-03-zakup",
+            "shot:ag-02-wlodek"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-03-zakup/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-03-zakup/frame-start-thumb.webp",
+          "width": 1080,
+          "height": 1920,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-03-zakup.json"
+    },
+    {
+      "key": "shot:ag-rolka/ag-03b-wejscie-kkn",
+      "kind": "story-event",
+      "projectKey": "project:ag-rolka",
+      "projectId": "ag-rolka",
+      "projectName": "AG-Rolka",
+      "projectCreatedAt": "2026-10-02T11:20:13.424Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 8,
+      "lastSequence": 8,
+      "occurrences": [
+        8
+      ],
+      "sequenceTotal": 18,
+      "title": "03b — Wejście do KKN",
+      "description": "POV przybycia twórcy z Gwiazdą z Odzysku do polskiej siedziby KKN przy ul. Moliera w Warszawie. Drzwi otwarte do środka, tablica po prawej, przedsionek i galeria w głębi. Gwiazda w dolnej części kadru, dłonie w ciemnych rękawach. Łącznik między zakupem a przedstawieniem dorobku. 48f / 2s; bez efektów mocy.",
+      "declaredReferences": [
+        {
+          "sourceKey": "place:kkn-siedziba-polska",
+          "key": "place:kkn-siedziba-polska",
+          "type": "place",
+          "id": "kkn-siedziba-polska",
+          "name": "KKN — polska siedziba, Warszawa, ul. Moliera",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/kkn-siedziba-polska.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ag-03-zakup",
+          "key": "shot:ag-rolka/ag-03-zakup",
+          "type": "shot",
+          "id": "ag-03-zakup",
+          "name": "03 — Transakcja",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-03-zakup.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:gwiazda-pierwszej-wielkosci",
+          "key": "prop:gwiazda-pierwszej-wielkosci",
+          "type": "prop",
+          "id": "gwiazda-pierwszej-wielkosci",
+          "name": "Gwiazda z Odzysku",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/gwiazda-pierwszej-wielkosci.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 1,
+          "referenceKeys": [
+            "place:kkn-siedziba-polska",
+            "shot:ag-03-zakup",
+            "prop:gwiazda-pierwszej-wielkosci"
+          ],
+          "references": [
+            {
+              "sourceKey": "place:kkn-siedziba-polska",
+              "key": "place:kkn-siedziba-polska",
+              "type": "place",
+              "id": "kkn-siedziba-polska",
+              "name": "KKN — polska siedziba, Warszawa, ul. Moliera",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/kkn-siedziba-polska.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ag-03-zakup",
+              "key": "shot:ag-rolka/ag-03-zakup",
+              "type": "shot",
+              "id": "ag-03-zakup",
+              "name": "03 — Transakcja",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-03-zakup.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:gwiazda-pierwszej-wielkosci",
+              "key": "prop:gwiazda-pierwszej-wielkosci",
+              "type": "prop",
+              "id": "gwiazda-pierwszej-wielkosci",
+              "name": "Gwiazda z Odzysku",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/gwiazda-pierwszej-wielkosci.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 1,
+          "source": "generated",
+          "referenceKeys": [
+            "place:kkn-siedziba-polska",
+            "shot:ag-03-zakup",
+            "prop:gwiazda-pierwszej-wielkosci"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-03b-wejscie-kkn/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-03b-wejscie-kkn/frame-start-thumb.webp",
+          "width": 1080,
+          "height": 1920,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-03b-wejscie-kkn.json"
+    },
+    {
+      "key": "shot:ag-rolka/ag-05-kkn",
+      "kind": "story-event",
+      "projectKey": "project:ag-rolka",
+      "projectId": "ag-rolka",
+      "projectName": "AG-Rolka",
+      "projectCreatedAt": "2026-10-02T11:20:13.424Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 9,
+      "lastSequence": 9,
+      "occurrences": [
+        9
+      ],
+      "sequenceTotal": 18,
+      "title": "05 — Pod opieką KKN",
+      "description": "KKN ujawnia zasadę równowagi mocy i gwiazdorstwa. Przewodnicząca patrzy na odzyskaną gwiazdę i mówi: «Przetopimy ją.» Gwiazda pozostaje po lewej stronie obrazu, a zamknięte portfolio po prawej. Nie jest to werdykt selekcji twórcy.",
+      "declaredReferences": [
+        {
+          "sourceKey": "character:kkn-przewodniczaca",
+          "key": "character:kkn-przewodniczaca",
+          "type": "character",
+          "id": "kkn-przewodniczaca",
+          "name": "KKN — Przewodnicząca",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/kkn-przewodniczaca.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "place:aleja-gwiazd",
+          "key": "place:aleja-gwiazd",
+          "type": "place",
+          "id": "aleja-gwiazd",
+          "name": "Aleja Gwiazd MFTV",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/aleja-gwiazd.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "note:kkn-duet-biurowy-koncepcja",
+          "key": "note:kkn-duet-biurowy-koncepcja",
+          "type": "note",
+          "id": "kkn-duet-biurowy-koncepcja",
+          "name": "KKN — dwie urzędniczki, propozycja stroju",
+          "relationship": "story-and-continuity-context",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/kkn-duet-biurowy-koncepcja.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "note:kkn-straznicy-rownowagi",
+          "key": "note:kkn-straznicy-rownowagi",
+          "type": "note",
+          "id": "kkn-straznicy-rownowagi",
+          "name": "KKN — strażnicy równowagi świata",
+          "relationship": "story-and-continuity-context",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/kkn-straznicy-rownowagi.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:gwiazda-pierwszej-wielkosci",
+          "key": "prop:gwiazda-pierwszej-wielkosci",
+          "type": "prop",
+          "id": "gwiazda-pierwszej-wielkosci",
+          "name": "Gwiazda z Odzysku",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/gwiazda-pierwszej-wielkosci.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ag-02-wlodek",
+          "key": "shot:ag-rolka/ag-02-wlodek",
+          "type": "shot",
+          "id": "ag-02-wlodek",
+          "name": "02 — Pochodzenie?",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-02-wlodek.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:kkn-sygnet",
+          "key": "prop:kkn-sygnet",
+          "type": "prop",
+          "id": "kkn-sygnet",
+          "name": "KKN — sygnet Komisji Kultury Najwyższej",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/kkn-sygnet.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ag-05-kkn",
+          "key": "shot:ag-rolka/ag-05-kkn",
+          "type": "shot",
+          "id": "ag-05-kkn",
+          "name": "05 — Pod opieką KKN",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-05-kkn.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "place:kkn-siedziba-polska",
+          "key": "place:kkn-siedziba-polska",
+          "type": "place",
+          "id": "kkn-siedziba-polska",
+          "name": "KKN — polska siedziba, Warszawa, ul. Moliera",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/kkn-siedziba-polska.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 3,
+          "referenceKeys": [
+            "shot:ag-05-kkn",
+            "prop:kkn-sygnet",
+            "place:kkn-siedziba-polska"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ag-05-kkn",
+              "key": "shot:ag-rolka/ag-05-kkn",
+              "type": "shot",
+              "id": "ag-05-kkn",
+              "name": "05 — Pod opieką KKN",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-05-kkn.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:kkn-sygnet",
+              "key": "prop:kkn-sygnet",
+              "type": "prop",
+              "id": "kkn-sygnet",
+              "name": "KKN — sygnet Komisji Kultury Najwyższej",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/kkn-sygnet.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:kkn-siedziba-polska",
+              "key": "place:kkn-siedziba-polska",
+              "type": "place",
+              "id": "kkn-siedziba-polska",
+              "name": "KKN — polska siedziba, Warszawa, ul. Moliera",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/kkn-siedziba-polska.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 3,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ag-05-kkn",
+            "prop:kkn-sygnet",
+            "place:kkn-siedziba-polska"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-05-kkn/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-05-kkn/frame-start-thumb.webp",
+          "width": 1080,
+          "height": 1920,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-05-kkn.json"
+    },
+    {
+      "key": "shot:ag-rolka/ag-04-dorobek",
+      "kind": "story-event",
+      "projectKey": "project:ag-rolka",
+      "projectId": "ag-rolka",
+      "projectName": "AG-Rolka",
+      "projectCreatedAt": "2026-10-02T11:20:13.424Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 10,
+      "lastSequence": 10,
+      "occurrences": [
+        10
+      ],
+      "sequenceTotal": 18,
+      "title": "04 — Dorobek własny",
+      "description": "50 klatek na istniejącym timeline. Bliska przebitka otwartej teczki: cztery przebiegi muzyczne na lewej karcie, prawa karta pozostaje pusta. Obie pełne prostokątne karty leżą płasko i są trwale spięte z centralnym grzbietem. Druga część zasady KKN: «Gdy jedna gwiazda gaśnie…» Przewodnicząca nie podnosi ani nie przewraca żadnej strony.",
+      "declaredReferences": [
+        {
+          "sourceKey": "shot:ag-05-kkn",
+          "key": "shot:ag-rolka/ag-05-kkn",
+          "type": "shot",
+          "id": "ag-05-kkn",
+          "name": "05 — Pod opieką KKN",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-05-kkn.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ag-04-dorobek",
+          "key": "shot:ag-rolka/ag-04-dorobek",
+          "type": "shot",
+          "id": "ag-04-dorobek",
+          "name": "04 — Dorobek własny",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-04-dorobek.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ag-ciag-dalszy",
+          "key": "shot:ag-rolka/ag-ciag-dalszy",
+          "type": "shot",
+          "id": "ag-ciag-dalszy",
+          "name": "KKN — miejsce na ciąg dalszy",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-ciag-dalszy.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ag-opis",
+          "key": "shot:ag-rolka/ag-opis",
+          "type": "shot",
+          "id": "ag-opis",
+          "name": "14 — Opis PL i EN",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-opis.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 4,
+          "referenceKeys": [
+            "shot:ag-04-dorobek",
+            "shot:ag-opis",
+            "shot:ag-ciag-dalszy"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ag-04-dorobek",
+              "key": "shot:ag-rolka/ag-04-dorobek",
+              "type": "shot",
+              "id": "ag-04-dorobek",
+              "name": "04 — Dorobek własny",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-04-dorobek.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ag-opis",
+              "key": "shot:ag-rolka/ag-opis",
+              "type": "shot",
+              "id": "ag-opis",
+              "name": "14 — Opis PL i EN",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-opis.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ag-ciag-dalszy",
+              "key": "shot:ag-rolka/ag-ciag-dalszy",
+              "type": "shot",
+              "id": "ag-ciag-dalszy",
+              "name": "KKN — miejsce na ciąg dalszy",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-ciag-dalszy.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 4,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ag-04-dorobek",
+            "shot:ag-opis",
+            "shot:ag-ciag-dalszy"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-04-dorobek/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-04-dorobek/frame-start-thumb.webp",
+          "width": 1080,
+          "height": 1920,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-04-dorobek.json"
+    },
+    {
+      "key": "shot:ag-rolka/ag-ciag-dalszy",
+      "kind": "story-event",
+      "projectKey": "project:ag-rolka",
+      "projectId": "ag-rolka",
+      "projectName": "AG-Rolka",
+      "projectCreatedAt": "2026-10-02T11:20:13.424Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 11,
+      "lastSequence": 11,
+      "occurrences": [
+        11
+      ],
+      "sequenceTotal": 18,
+      "title": "KKN — miejsce na ciąg dalszy",
+      "description": "72 klatki na istniejącym timeline. Przewodnicząca pokazuje pustą prawą kartę tej samej otwartej teczki. Cztery ślady utworów pozostają po lewej; obie pełne prostokątne karty leżą płasko i są trwale spięte z grzbietem. Domknięcie zasady KKN: «…rodzi się nowa.» Bez podnoszenia i przewracania strony.",
+      "declaredReferences": [
+        {
+          "sourceKey": "shot:ag-05-kkn",
+          "key": "shot:ag-rolka/ag-05-kkn",
+          "type": "shot",
+          "id": "ag-05-kkn",
+          "name": "05 — Pod opieką KKN",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-05-kkn.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:kkn-przewodniczaca",
+          "key": "character:kkn-przewodniczaca",
+          "type": "character",
+          "id": "kkn-przewodniczaca",
+          "name": "KKN — Przewodnicząca",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/kkn-przewodniczaca.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:kkn-sygnet",
+          "key": "prop:kkn-sygnet",
+          "type": "prop",
+          "id": "kkn-sygnet",
+          "name": "KKN — sygnet Komisji Kultury Najwyższej",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/kkn-sygnet.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ag-ciag-dalszy",
+          "key": "shot:ag-rolka/ag-ciag-dalszy",
+          "type": "shot",
+          "id": "ag-ciag-dalszy",
+          "name": "KKN — miejsce na ciąg dalszy",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-ciag-dalszy.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ag-04-dorobek",
+          "key": "shot:ag-rolka/ag-04-dorobek",
+          "type": "shot",
+          "id": "ag-04-dorobek",
+          "name": "04 — Dorobek własny",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-04-dorobek.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 3,
+          "referenceKeys": [
+            "shot:ag-ciag-dalszy",
+            "shot:ag-04-dorobek"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ag-ciag-dalszy",
+              "key": "shot:ag-rolka/ag-ciag-dalszy",
+              "type": "shot",
+              "id": "ag-ciag-dalszy",
+              "name": "KKN — miejsce na ciąg dalszy",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-ciag-dalszy.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ag-04-dorobek",
+              "key": "shot:ag-rolka/ag-04-dorobek",
+              "type": "shot",
+              "id": "ag-04-dorobek",
+              "name": "04 — Dorobek własny",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-04-dorobek.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 3,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ag-ciag-dalszy",
+            "shot:ag-04-dorobek"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-ciag-dalszy/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-ciag-dalszy/frame-start-thumb.webp",
+          "width": 1080,
+          "height": 1920,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-ciag-dalszy.json"
+    },
+    {
+      "key": "shot:ag-rolka/ag-07-przypisanie",
+      "kind": "story-event",
+      "projectKey": "project:ag-rolka",
+      "projectId": "ag-rolka",
+      "projectName": "AG-Rolka",
+      "projectCreatedAt": "2026-10-02T11:20:13.424Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 12,
+      "lastSequence": 12,
+      "occurrences": [
+        12
+      ],
+      "sequenceTotal": 18,
+      "title": "12 — Miejsce na twoją historię",
+      "description": "22–23 s, 24f. Detal pustej tabliczki stojącej gwiazdy. Następny shot pokazuje już przedmiot leżący na stole, pod dłońmi twórcy. Cięcie fabularne; nie przejście do UI ani magiczne nadanie nazwiska. Tabliczka pozostaje bez tekstu.",
+      "declaredReferences": [
+        {
+          "sourceKey": "shot:ag-05-kkn",
+          "key": "shot:ag-rolka/ag-05-kkn",
+          "type": "shot",
+          "id": "ag-05-kkn",
+          "name": "05 — Pod opieką KKN",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-05-kkn.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:gwiazda-pierwszej-wielkosci",
+          "key": "prop:gwiazda-pierwszej-wielkosci",
+          "type": "prop",
+          "id": "gwiazda-pierwszej-wielkosci",
+          "name": "Gwiazda z Odzysku",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/gwiazda-pierwszej-wielkosci.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ag-ciag-dalszy",
+          "key": "shot:ag-rolka/ag-ciag-dalszy",
+          "type": "shot",
+          "id": "ag-ciag-dalszy",
+          "name": "KKN — miejsce na ciąg dalszy",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-ciag-dalszy.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ag-07-przypisanie",
+          "key": "shot:ag-rolka/ag-07-przypisanie",
+          "type": "shot",
+          "id": "ag-07-przypisanie",
+          "name": "12 — Miejsce na twoją historię",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-07-przypisanie.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 2,
+          "referenceKeys": [
+            "shot:ag-ciag-dalszy",
+            "prop:gwiazda-pierwszej-wielkosci",
+            "shot:ag-07-przypisanie"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ag-ciag-dalszy",
+              "key": "shot:ag-rolka/ag-ciag-dalszy",
+              "type": "shot",
+              "id": "ag-ciag-dalszy",
+              "name": "KKN — miejsce na ciąg dalszy",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-ciag-dalszy.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:gwiazda-pierwszej-wielkosci",
+              "key": "prop:gwiazda-pierwszej-wielkosci",
+              "type": "prop",
+              "id": "gwiazda-pierwszej-wielkosci",
+              "name": "Gwiazda z Odzysku",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/gwiazda-pierwszej-wielkosci.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ag-07-przypisanie",
+              "key": "shot:ag-rolka/ag-07-przypisanie",
+              "type": "shot",
+              "id": "ag-07-przypisanie",
+              "name": "12 — Miejsce na twoją historię",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-07-przypisanie.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 2,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ag-ciag-dalszy",
+            "prop:gwiazda-pierwszej-wielkosci",
+            "shot:ag-07-przypisanie"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-07-przypisanie/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-07-przypisanie/frame-start-thumb.webp",
+          "width": 1080,
+          "height": 1920,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-07-przypisanie.json"
+    },
+    {
+      "key": "shot:ag-rolka/ag-ekwipunek",
+      "kind": "story-event",
+      "projectKey": "project:ag-rolka",
+      "projectId": "ag-rolka",
+      "projectName": "AG-Rolka",
+      "projectCreatedAt": "2026-10-02T11:20:13.424Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 13,
+      "lastSequence": 13,
+      "occurrences": [
+        13
+      ],
+      "sequenceTotal": 18,
+      "title": "13 — Użyj gwiazdy",
+      "description": "23–26 s, 72f. Fabularny odpowiednik użycia przedmiotu: anonimowy twórca zwalnia chwyt własnej gwiazdy leżącej na czarnym stole KKN. Nie udaje ekranu aplikacji. Gwiazda po lewej, otwarte portfolio po prawej, medal za nim. Dwie dłonie w grafitowych rękawach. Napis montażowy: «Użyj gwiazdy w ekwipunku.» Bez dodatkowego warunku akceptacji.",
+      "declaredReferences": [
+        {
+          "sourceKey": "shot:ag-03-zakup",
+          "key": "shot:ag-rolka/ag-03-zakup",
+          "type": "shot",
+          "id": "ag-03-zakup",
+          "name": "03 — Transakcja",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-03-zakup.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ag-04-dorobek",
+          "key": "shot:ag-rolka/ag-04-dorobek",
+          "type": "shot",
+          "id": "ag-04-dorobek",
+          "name": "04 — Dorobek własny",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-04-dorobek.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:gwiazda-pierwszej-wielkosci",
+          "key": "prop:gwiazda-pierwszej-wielkosci",
+          "type": "prop",
+          "id": "gwiazda-pierwszej-wielkosci",
+          "name": "Gwiazda z Odzysku",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/gwiazda-pierwszej-wielkosci.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 1,
+          "referenceKeys": [
+            "shot:ag-03-zakup",
+            "shot:ag-04-dorobek",
+            "prop:gwiazda-pierwszej-wielkosci"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ag-03-zakup",
+              "key": "shot:ag-rolka/ag-03-zakup",
+              "type": "shot",
+              "id": "ag-03-zakup",
+              "name": "03 — Transakcja",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-03-zakup.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ag-04-dorobek",
+              "key": "shot:ag-rolka/ag-04-dorobek",
+              "type": "shot",
+              "id": "ag-04-dorobek",
+              "name": "04 — Dorobek własny",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-04-dorobek.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:gwiazda-pierwszej-wielkosci",
+              "key": "prop:gwiazda-pierwszej-wielkosci",
+              "type": "prop",
+              "id": "gwiazda-pierwszej-wielkosci",
+              "name": "Gwiazda z Odzysku",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/gwiazda-pierwszej-wielkosci.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 1,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ag-03-zakup",
+            "shot:ag-04-dorobek",
+            "prop:gwiazda-pierwszej-wielkosci"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-ekwipunek/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-ekwipunek/frame-start-thumb.webp",
+          "width": 1080,
+          "height": 1920,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-ekwipunek.json"
+    },
+    {
+      "key": "shot:ag-rolka/ag-przejscie-stalowka",
+      "kind": "story-event",
+      "projectKey": "project:ag-rolka",
+      "projectId": "ag-rolka",
+      "projectName": "AG-Rolka",
+      "projectCreatedAt": "2026-10-02T11:20:13.424Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 14,
+      "lastSequence": 14,
+      "occurrences": [
+        14
+      ],
+      "sequenceTotal": 18,
+      "title": "Przejście — stalówka i gwiazda",
+      "description": "10-klatkowa makroprzebitka: czarna stalówka między złotą gwiazdą a pustą kartą portfolio; wizualny most od użycia gwiazdy do opisu twórcy.",
+      "declaredReferences": [
+        {
+          "sourceKey": "shot:ag-ekwipunek",
+          "key": "shot:ag-rolka/ag-ekwipunek",
+          "type": "shot",
+          "id": "ag-ekwipunek",
+          "name": "13 — Użyj gwiazdy",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-ekwipunek.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ag-opis",
+          "key": "shot:ag-rolka/ag-opis",
+          "type": "shot",
+          "id": "ag-opis",
+          "name": "14 — Opis PL i EN",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-opis.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 1,
+          "referenceKeys": [
+            "shot:ag-ekwipunek",
+            "shot:ag-opis"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ag-ekwipunek",
+              "key": "shot:ag-rolka/ag-ekwipunek",
+              "type": "shot",
+              "id": "ag-ekwipunek",
+              "name": "13 — Użyj gwiazdy",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-ekwipunek.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ag-opis",
+              "key": "shot:ag-rolka/ag-opis",
+              "type": "shot",
+              "id": "ag-opis",
+              "name": "14 — Opis PL i EN",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-opis.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 1,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ag-ekwipunek",
+            "shot:ag-opis"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-przejscie-stalowka/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-przejscie-stalowka/frame-start-thumb.webp",
+          "width": 1080,
+          "height": 1920,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-przejscie-stalowka.json"
+    },
+    {
+      "key": "shot:ag-rolka/ag-opis",
+      "kind": "story-event",
+      "projectKey": "project:ag-rolka",
+      "projectId": "ag-rolka",
+      "projectName": "AG-Rolka",
+      "projectCreatedAt": "2026-10-02T11:20:13.424Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 15,
+      "lastSequence": 15,
+      "occurrences": [
+        15
+      ],
+      "sequenceTotal": 18,
+      "title": "14 — Opis PL i EN",
+      "description": "26–29 s, 72f. Twórca przykłada pióro do prawej strony portfolio. To fabularny gest uzupełniania opisu, nie ekran aplikacji ani generowanie napisów. Dwie dłonie w grafitowych rękawach; cztery przebiegi na lewej stronie, prawa bez tekstu. Gwiazda leży po lewej, medal poza portfolio u góry po prawej. Napis montażowy: «Dodaj opis po polsku i angielsku.»",
+      "declaredReferences": [
+        {
+          "sourceKey": "shot:ag-ekwipunek",
+          "key": "shot:ag-rolka/ag-ekwipunek",
+          "type": "shot",
+          "id": "ag-ekwipunek",
+          "name": "13 — Użyj gwiazdy",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-ekwipunek.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ag-04-dorobek",
+          "key": "shot:ag-rolka/ag-04-dorobek",
+          "type": "shot",
+          "id": "ag-04-dorobek",
+          "name": "04 — Dorobek własny",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-04-dorobek.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 1,
+          "referenceKeys": [
+            "shot:ag-ekwipunek",
+            "shot:ag-04-dorobek"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ag-ekwipunek",
+              "key": "shot:ag-rolka/ag-ekwipunek",
+              "type": "shot",
+              "id": "ag-ekwipunek",
+              "name": "13 — Użyj gwiazdy",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-ekwipunek.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ag-04-dorobek",
+              "key": "shot:ag-rolka/ag-04-dorobek",
+              "type": "shot",
+              "id": "ag-04-dorobek",
+              "name": "04 — Dorobek własny",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-04-dorobek.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 1,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ag-ekwipunek",
+            "shot:ag-04-dorobek"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-opis/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-opis/frame-start-thumb.webp",
+          "width": 1080,
+          "height": 1920,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-opis.json"
+    },
+    {
+      "key": "shot:ag-rolka/ag-przejscie-zlota-linia",
+      "kind": "story-event",
+      "projectKey": "project:ag-rolka",
+      "projectId": "ag-rolka",
+      "projectName": "AG-Rolka",
+      "projectCreatedAt": "2026-10-02T11:20:13.424Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 16,
+      "lastSequence": 16,
+      "occurrences": [
+        16
+      ],
+      "sequenceTotal": 18,
+      "title": "Przejście — złota linia Alei",
+      "description": "9-klatkowa makroprzebitka: brzeg kremowej karty portfolio łączy się kompozycyjnie ze złotą linią czarnego marmuru i cyjanowo-magenta odbiciem, zapowiadając Aleję Gwiazd.",
+      "declaredReferences": [
+        {
+          "sourceKey": "shot:ag-opis",
+          "key": "shot:ag-rolka/ag-opis",
+          "type": "shot",
+          "id": "ag-opis",
+          "name": "14 — Opis PL i EN",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-opis.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ag-08-aleja",
+          "key": "shot:ag-rolka/ag-08-aleja",
+          "type": "shot",
+          "id": "ag-08-aleja",
+          "name": "08 — Miejsce w Alei",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-08-aleja.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 1,
+          "referenceKeys": [
+            "shot:ag-opis",
+            "shot:ag-08-aleja"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ag-opis",
+              "key": "shot:ag-rolka/ag-opis",
+              "type": "shot",
+              "id": "ag-opis",
+              "name": "14 — Opis PL i EN",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-opis.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ag-08-aleja",
+              "key": "shot:ag-rolka/ag-08-aleja",
+              "type": "shot",
+              "id": "ag-08-aleja",
+              "name": "08 — Miejsce w Alei",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-08-aleja.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 1,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ag-opis",
+            "shot:ag-08-aleja"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-przejscie-zlota-linia/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-przejscie-zlota-linia/frame-start-thumb.webp",
+          "width": 1080,
+          "height": 1920,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-przejscie-zlota-linia.json"
+    },
+    {
+      "key": "shot:ag-rolka/ag-08-aleja",
+      "kind": "story-event",
+      "projectKey": "project:ag-rolka",
+      "projectId": "ag-rolka",
+      "projectName": "AG-Rolka",
+      "projectCreatedAt": "2026-10-02T11:20:13.424Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 17,
+      "lastSequence": 17,
+      "occurrences": [
+        17
+      ],
+      "sequenceTotal": 18,
+      "title": "08 — Miejsce w Alei",
+      "description": "Szeroki pionowy kadr Alei zgodnej z grafiką strony, gwiazda w pierwszym planie. Czytelne miejsce na prezentację funkcji profilu w montażu. Napisy: Twój publiczny profil w Alei Gwiazd. Najlepsze utwory, wyniki ChatVibe, zdobyte nagrody.",
+      "declaredReferences": [
+        {
+          "sourceKey": "place:aleja-gwiazd",
+          "key": "place:aleja-gwiazd",
+          "type": "place",
+          "id": "aleja-gwiazd",
+          "name": "Aleja Gwiazd MFTV",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/aleja-gwiazd.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:gwiazda-pierwszej-wielkosci",
+          "key": "prop:gwiazda-pierwszej-wielkosci",
+          "type": "prop",
+          "id": "gwiazda-pierwszej-wielkosci",
+          "name": "Gwiazda z Odzysku",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/gwiazda-pierwszej-wielkosci.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 1,
+          "referenceKeys": [
+            "place:aleja-gwiazd",
+            "prop:gwiazda-pierwszej-wielkosci"
+          ],
+          "references": [
+            {
+              "sourceKey": "place:aleja-gwiazd",
+              "key": "place:aleja-gwiazd",
+              "type": "place",
+              "id": "aleja-gwiazd",
+              "name": "Aleja Gwiazd MFTV",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/aleja-gwiazd.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:gwiazda-pierwszej-wielkosci",
+              "key": "prop:gwiazda-pierwszej-wielkosci",
+              "type": "prop",
+              "id": "gwiazda-pierwszej-wielkosci",
+              "name": "Gwiazda z Odzysku",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/gwiazda-pierwszej-wielkosci.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 1,
+          "source": "generated",
+          "referenceKeys": [
+            "place:aleja-gwiazd",
+            "prop:gwiazda-pierwszej-wielkosci"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-08-aleja/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-08-aleja/frame-start-thumb.webp",
+          "width": 1080,
+          "height": 1920,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-08-aleja.json"
+    },
+    {
+      "key": "shot:ag-rolka/ag-cta",
+      "kind": "story-event",
+      "projectKey": "project:ag-rolka",
+      "projectId": "ag-rolka",
+      "projectName": "AG-Rolka",
+      "projectCreatedAt": "2026-10-02T11:20:13.424Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 18,
+      "lastSequence": 18,
+      "occurrences": [
+        18
+      ],
+      "sequenceTotal": 18,
+      "title": "Finał — Zagraj z nami",
+      "description": "35–38 s. Gotowa statyczna plansza końcowa: oficjalne logo MF TV, dokładne CTA «Zagraj z nami» i aimusicfuture.tv. Natywnie złożona typografia Jost 800 / Noto Sans 600. Nie kierować do Klinga: brak ruchu, napisy i logo muszą pozostać bez zmian.",
+      "declaredReferences": [],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 1,
+          "referenceKeys": [],
+          "references": [],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 1,
+          "source": "generated",
+          "referenceKeys": [],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-cta/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-cta/frame-start-thumb.webp",
+          "width": 1080,
+          "height": 1920,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-cta.json"
+    },
+    {
+      "key": "shot:ag-rolka/ag-06-ogledziny",
+      "kind": "story-event",
+      "projectKey": "project:ag-rolka",
+      "projectId": "ag-rolka",
+      "projectName": "AG-Rolka",
+      "projectCreatedAt": "2026-10-02T11:20:13.424Z",
+      "onTimeline": false,
+      "canonicalEvent": false,
+      "sequence": null,
+      "lastSequence": null,
+      "occurrences": [],
+      "sequenceTotal": 18,
+      "title": "06 — Gwiazda z odzysku, dorobek własny",
+      "description": "Bliższy plan Przewodniczącej oglądającej krawędź gwiazdy z betonem. Wie, co widzi; bez zaskoczenia i dezaprobaty. Potem spojrzenie ku dokumentacji. Napis: Gwiazda z odzysku. Dorobek własny.",
+      "declaredReferences": [
+        {
+          "sourceKey": "shot:ag-05-kkn",
+          "key": "shot:ag-rolka/ag-05-kkn",
+          "type": "shot",
+          "id": "ag-05-kkn",
+          "name": "05 — Pod opieką KKN",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-05-kkn.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:kkn-przewodniczaca",
+          "key": "character:kkn-przewodniczaca",
+          "type": "character",
+          "id": "kkn-przewodniczaca",
+          "name": "KKN — Przewodnicząca",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/kkn-przewodniczaca.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:gwiazda-pierwszej-wielkosci",
+          "key": "prop:gwiazda-pierwszej-wielkosci",
+          "type": "prop",
+          "id": "gwiazda-pierwszej-wielkosci",
+          "name": "Gwiazda z Odzysku",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/gwiazda-pierwszej-wielkosci.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 1,
+          "referenceKeys": [
+            "shot:ag-05-kkn",
+            "character:kkn-przewodniczaca",
+            "prop:gwiazda-pierwszej-wielkosci"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ag-05-kkn",
+              "key": "shot:ag-rolka/ag-05-kkn",
+              "type": "shot",
+              "id": "ag-05-kkn",
+              "name": "05 — Pod opieką KKN",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-05-kkn.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:kkn-przewodniczaca",
+              "key": "character:kkn-przewodniczaca",
+              "type": "character",
+              "id": "kkn-przewodniczaca",
+              "name": "KKN — Przewodnicząca",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/kkn-przewodniczaca.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:gwiazda-pierwszej-wielkosci",
+              "key": "prop:gwiazda-pierwszej-wielkosci",
+              "type": "prop",
+              "id": "gwiazda-pierwszej-wielkosci",
+              "name": "Gwiazda z Odzysku",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/gwiazda-pierwszej-wielkosci.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 1,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ag-05-kkn",
+            "character:kkn-przewodniczaca",
+            "prop:gwiazda-pierwszej-wielkosci"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-06-ogledziny/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-06-ogledziny/frame-start-thumb.webp",
+          "width": 1080,
+          "height": 1920,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-06-ogledziny.json"
+    },
+    {
+      "key": "shot:ag-rolka/ag-09-uznanie",
+      "kind": "story-event",
+      "projectKey": "project:ag-rolka",
+      "projectId": "ag-rolka",
+      "projectName": "AG-Rolka",
+      "projectCreatedAt": "2026-10-02T11:20:13.424Z",
+      "onTimeline": false,
+      "canonicalEvent": false,
+      "sequence": null,
+      "lastSequence": null,
+      "occurrences": [],
+      "sequenceTotal": 18,
+      "title": "09 — Uznanie twoje",
+      "description": "Niski elegancki detal tej samej gwiazdy już osadzonej w Alei. Złoto, autentyczny materiał, spokojna głębia. Napis: Profil aktualizuje się po zakończonych audycjach. Puenta w końcowej planszy CTA.",
+      "declaredReferences": [
+        {
+          "sourceKey": "shot:ag-08-aleja",
+          "key": "shot:ag-rolka/ag-08-aleja",
+          "type": "shot",
+          "id": "ag-08-aleja",
+          "name": "08 — Miejsce w Alei",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-08-aleja.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:gwiazda-pierwszej-wielkosci",
+          "key": "prop:gwiazda-pierwszej-wielkosci",
+          "type": "prop",
+          "id": "gwiazda-pierwszej-wielkosci",
+          "name": "Gwiazda z Odzysku",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/gwiazda-pierwszej-wielkosci.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 1,
+          "referenceKeys": [
+            "shot:ag-08-aleja",
+            "prop:gwiazda-pierwszej-wielkosci"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ag-08-aleja",
+              "key": "shot:ag-rolka/ag-08-aleja",
+              "type": "shot",
+              "id": "ag-08-aleja",
+              "name": "08 — Miejsce w Alei",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-08-aleja.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:gwiazda-pierwszej-wielkosci",
+              "key": "prop:gwiazda-pierwszej-wielkosci",
+              "type": "prop",
+              "id": "gwiazda-pierwszej-wielkosci",
+              "name": "Gwiazda z Odzysku",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/gwiazda-pierwszej-wielkosci.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 1,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ag-08-aleja",
+            "prop:gwiazda-pierwszej-wielkosci"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-09-uznanie/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-09-uznanie/frame-start-thumb.webp",
+          "width": 1080,
+          "height": 1920,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-09-uznanie.json"
+    },
     {
       "key": "shot:pw-rolka/pw-00-wtorkowa-nuda",
       "kind": "story-event",
@@ -36547,6 +38585,28 @@
         }
       ],
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/flow/shots/zosianakacu.json"
+    },
+    {
+      "key": "shot:zlote-emoji-15/seed",
+      "kind": "story-event",
+      "projectKey": "project:zlote-emoji-15",
+      "projectId": "zlote-emoji-15",
+      "projectName": "Złote Emoji #15",
+      "projectCreatedAt": null,
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 1,
+      "lastSequence": 1,
+      "occurrences": [
+        1
+      ],
+      "sequenceTotal": 1,
+      "title": "seed",
+      "description": "",
+      "declaredReferences": [],
+      "activeFrameReferences": [],
+      "images": [],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-15/shots/seed.json"
     }
   ]
 }

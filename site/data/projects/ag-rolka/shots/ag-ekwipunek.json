@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-04T02:05:41.063Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:ag-rolka/ag-ekwipunek",
+  "id": "ag-ekwipunek",
+  "title": "13 — Użyj gwiazdy",
+  "description": "23–26 s, 72f. Fabularny odpowiednik użycia przedmiotu: anonimowy twórca zwalnia chwyt własnej gwiazdy leżącej na czarnym stole KKN. Nie udaje ekranu aplikacji. Gwiazda po lewej, otwarte portfolio po prawej, medal za nim. Dwie dłonie w grafitowych rękawach. Napis montażowy: «Użyj gwiazdy w ekwipunku.» Bez dodatkowego warunku akceptacji.",
+  "project": {
+    "id": "ag-rolka",
+    "key": "project:ag-rolka",
+    "name": "AG-Rolka",
+    "createdAt": "2026-10-02T11:20:13.424Z"
+  },
+  "chronology": {
+    "projectKey": "project:ag-rolka",
+    "projectCreatedAt": "2026-10-02T11:20:13.424Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 13,
+    "lastSequence": 13,
+    "occurrences": [
+      13
+    ],
+    "sequenceTotal": 18,
+    "uniqueShotCount": 18,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "ag-03-zakup"
+    },
+    {
+      "type": "shot",
+      "id": "ag-04-dorobek"
+    },
+    {
+      "type": "prop",
+      "id": "gwiazda-pierwszej-wielkosci"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:ag-03-zakup",
+        "key": "shot:ag-rolka/ag-03-zakup",
+        "type": "shot",
+        "id": "ag-03-zakup",
+        "name": "03 — Transakcja",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-03-zakup.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ag-04-dorobek",
+        "key": "shot:ag-rolka/ag-04-dorobek",
+        "type": "shot",
+        "id": "ag-04-dorobek",
+        "name": "04 — Dorobek własny",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-04-dorobek.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:gwiazda-pierwszej-wielkosci",
+        "key": "prop:gwiazda-pierwszej-wielkosci",
+        "type": "prop",
+        "id": "gwiazda-pierwszej-wielkosci",
+        "name": "Gwiazda z Odzysku",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/gwiazda-pierwszej-wielkosci.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:ag-03-zakup",
+          "shot:ag-04-dorobek",
+          "prop:gwiazda-pierwszej-wielkosci"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ag-03-zakup",
+            "key": "shot:ag-rolka/ag-03-zakup",
+            "type": "shot",
+            "id": "ag-03-zakup",
+            "name": "03 — Transakcja",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-03-zakup.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:ag-04-dorobek",
+            "key": "shot:ag-rolka/ag-04-dorobek",
+            "type": "shot",
+            "id": "ag-04-dorobek",
+            "name": "04 — Dorobek własny",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-04-dorobek.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:gwiazda-pierwszej-wielkosci",
+            "key": "prop:gwiazda-pierwszej-wielkosci",
+            "type": "prop",
+            "id": "gwiazda-pierwszej-wielkosci",
+            "name": "Gwiazda z Odzysku",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/gwiazda-pierwszej-wielkosci.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Use case ads-marketing, cinematic narrative. One photorealistic vertical9:16 START FRAME1080x1920. Input1 locks the anonymous creator's two light-skinned hands and charcoal knit sleeves ONLY; do not copy shop or shopkeeper or pouch. Input2 locks KKN black table, warm black/gold gallery lighting, star at viewerLEFT and open black leather portfolio at viewerRIGHT with cream pages, single small round golden emoji medallion beyond portfolio right edge. Input3 is exact canonical star front: heavy55cm FIVE-point gold plaque, stepped rim, granular surface, rectangular EMPTY nameplate, thin2cm concrete backing. A new close high oblique POV from creator's side: star now lies FLAT face up on LEFT two-thirds of table, top point toward back of table (top of screen), full outline fits frame with room around all five points. Two charcoal-sleeved hands enter from bottom corners and rest lightly against the lower side edges, ready to slide star8cm away from body toward screen top, keeping fingers off blank plate. Natural five-finger hands, physical weight, star rests on table not hovering. Open portfolio stays partly visible upper RIGHT, same four waveforms on left page and blank right page; no other person's hands or body in crop. Plenty of empty black table at top15% for separately typeset instruction. No UI, no activation glow, no new symbols, no name appearing, no magical energy, no letters, no coins, no watermark. Purpose physical gesture of choosing to use own acquired star, editorial copy will explain inventory action rather than pretending to show app.",
+    "endFrameDescription": "",
+    "animation": "0.0–1.5s: both charcoal-sleeved hands gently release the lower side edges of the heavy star, then withdraw about three centimetres toward the bottom of frame. 1.5–3.0s: the hands settle on the table near their original positions. Camera: locked high oblique angle. Secondary motion: small natural sleeve creases follow the wrists. Continuity: the star remains flat, face-up and motionless on the black table; preserve all five points, thin concrete backing and empty nameplate. Portfolio stays upper right, with four waveforms on its left page and a blank right page; medal stays outside it. Avoid extra fingers, new people, sliding props, magical activation, cuts, text or watermarks."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ag-03-zakup",
+        "shot:ag-04-dorobek",
+        "prop:gwiazda-pierwszej-wielkosci"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ag-03-zakup",
+          "key": "shot:ag-rolka/ag-03-zakup",
+          "type": "shot",
+          "id": "ag-03-zakup",
+          "name": "03 — Transakcja",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-03-zakup.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ag-04-dorobek",
+          "key": "shot:ag-rolka/ag-04-dorobek",
+          "type": "shot",
+          "id": "ag-04-dorobek",
+          "name": "04 — Dorobek własny",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-04-dorobek.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:gwiazda-pierwszej-wielkosci",
+          "key": "prop:gwiazda-pierwszej-wielkosci",
+          "type": "prop",
+          "id": "gwiazda-pierwszej-wielkosci",
+          "name": "Gwiazda z Odzysku",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/gwiazda-pierwszej-wielkosci.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-03T18:41:18.685876+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ag-03-zakup",
+            "shot:ag-04-dorobek",
+            "prop:gwiazda-pierwszej-wielkosci"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ag-03-zakup",
+              "key": "shot:ag-rolka/ag-03-zakup",
+              "type": "shot",
+              "id": "ag-03-zakup",
+              "name": "03 — Transakcja",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-03-zakup.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ag-04-dorobek",
+              "key": "shot:ag-rolka/ag-04-dorobek",
+              "type": "shot",
+              "id": "ag-04-dorobek",
+              "name": "04 — Dorobek własny",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-04-dorobek.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:gwiazda-pierwszej-wielkosci",
+              "key": "prop:gwiazda-pierwszej-wielkosci",
+              "type": "prop",
+              "id": "gwiazda-pierwszej-wielkosci",
+              "name": "Gwiazda z Odzysku",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/gwiazda-pierwszej-wielkosci.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-ekwipunek/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-ekwipunek/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

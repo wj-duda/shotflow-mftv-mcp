@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-04T02:05:41.063Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:ag-rolka/ag-pochodzenie",
+  "id": "ag-pochodzenie",
+  "title": "Pochodzenie — reakcja Włodka",
+  "description": "7–9 s, 48 klatek. Zbliżenie Włodka do puenty «Pochodzenie? To komis, nie prokuratura.»; końcówka głosu trwa do 10 s nad transakcją. Shot jest na zapisanym timeline. Bez wygenerowanego głosu lub lipsyncu.",
+  "project": {
+    "id": "ag-rolka",
+    "key": "project:ag-rolka",
+    "name": "AG-Rolka",
+    "createdAt": "2026-10-02T11:20:13.424Z"
+  },
+  "chronology": {
+    "projectKey": "project:ag-rolka",
+    "projectCreatedAt": "2026-10-02T11:20:13.424Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 6,
+    "lastSequence": 6,
+    "occurrences": [
+      6
+    ],
+    "sequenceTotal": 18,
+    "uniqueShotCount": 18,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "ag-02-wlodek"
+    },
+    {
+      "type": "character",
+      "id": "komisant"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:ag-02-wlodek",
+        "key": "shot:ag-rolka/ag-02-wlodek",
+        "type": "shot",
+        "id": "ag-02-wlodek",
+        "name": "02 — Pochodzenie?",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-02-wlodek.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:komisant",
+        "key": "character:komisant",
+        "type": "character",
+        "id": "komisant",
+        "name": "Włodek — Komisant",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/komisant.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:ag-02-wlodek",
+          "character:komisant"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ag-02-wlodek",
+            "key": "shot:ag-rolka/ag-02-wlodek",
+            "type": "shot",
+            "id": "ag-02-wlodek",
+            "name": "02 — Pochodzenie?",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-02-wlodek.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:komisant",
+            "key": "character:komisant",
+            "type": "character",
+            "id": "komisant",
+            "name": "Włodek — Komisant",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/komisant.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Use case: ads-marketing, identity-preserve. Make a new photorealistic vertical9:16 cinema START FRAME, preferably1080x1920, a distinctly TIGHT CLOSE-UP of Wlodek for a dry spoken punchline. Reference1 is authoritative scene continuity and current pose, lighting, green vest and checked shirt; reference2 locks facial identity, mustache, combed graying hair, low amber rectangular glasses. Move camera closer from same customer side, frame head and upper chest only, head fills upper half, no big empty space above, soft pawnshop background retains CRT on left and magenta light on right. A tiny blurred GOLD TIP at very bottom edge may suggest star, but no entire star and no hands in frame. Wlodek looks just above his glasses directly at customer, one eyebrow subtly raised, lips relaxed closed before speaking, restrained impatient expression as if obvious question is wasting his time. No broad grin, no caricature, no evil face, no head tilt exaggeration. Real skin pores, asymmetrical face, cinematic soft warm key, cyan/magenta practical bokeh only behind him. Natural portrait lens around85mm, shallow focus. Preserve screen direction and exact person. Absolutely no text, watermark, dialogue balloons, captions or invented accessories. This shot precedes his line Pochodzenie? To komis, nie prokuratura; don't print it.",
+    "endFrameDescription": "",
+    "animation": "0.0–1.0s: Wlodek lifts one eyebrow slightly and raises his chin a few degrees, keeping his gaze on the customer above the glasses. 1.0–3.0s: he holds the dry questioning expression with subtle breathing, without turning away. Camera: locked close-up. Secondary motion: one natural blink after the eyebrow lift. Continuity: @Image1 locks the existing man's face, age and hair; keep the Start Frame glasses, mustache, vest, checked collar and blurred star tip unchanged. Keep the mouth clear and head almost frontal for later lipsync. Avoid broad smiles, exaggerated expressions, new hands entering, sliding glasses, facial morphs, cuts, captions or watermarks."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ag-02-wlodek",
+        "character:komisant"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ag-02-wlodek",
+          "key": "shot:ag-rolka/ag-02-wlodek",
+          "type": "shot",
+          "id": "ag-02-wlodek",
+          "name": "02 — Pochodzenie?",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-02-wlodek.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:komisant",
+          "key": "character:komisant",
+          "type": "character",
+          "id": "komisant",
+          "name": "Włodek — Komisant",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/komisant.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-03T14:18:27.591728+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ag-02-wlodek",
+            "character:komisant"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ag-02-wlodek",
+              "key": "shot:ag-rolka/ag-02-wlodek",
+              "type": "shot",
+              "id": "ag-02-wlodek",
+              "name": "02 — Pochodzenie?",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-02-wlodek.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:komisant",
+              "key": "character:komisant",
+              "type": "character",
+              "id": "komisant",
+              "name": "Włodek — Komisant",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/komisant.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-pochodzenie/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-pochodzenie/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

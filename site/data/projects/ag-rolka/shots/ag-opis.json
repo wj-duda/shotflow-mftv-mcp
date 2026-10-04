@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-04T02:05:41.063Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:ag-rolka/ag-opis",
+  "id": "ag-opis",
+  "title": "14 — Opis PL i EN",
+  "description": "26–29 s, 72f. Twórca przykłada pióro do prawej strony portfolio. To fabularny gest uzupełniania opisu, nie ekran aplikacji ani generowanie napisów. Dwie dłonie w grafitowych rękawach; cztery przebiegi na lewej stronie, prawa bez tekstu. Gwiazda leży po lewej, medal poza portfolio u góry po prawej. Napis montażowy: «Dodaj opis po polsku i angielsku.»",
+  "project": {
+    "id": "ag-rolka",
+    "key": "project:ag-rolka",
+    "name": "AG-Rolka",
+    "createdAt": "2026-10-02T11:20:13.424Z"
+  },
+  "chronology": {
+    "projectKey": "project:ag-rolka",
+    "projectCreatedAt": "2026-10-02T11:20:13.424Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 15,
+    "lastSequence": 15,
+    "occurrences": [
+      15
+    ],
+    "sequenceTotal": 18,
+    "uniqueShotCount": 18,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "ag-ekwipunek"
+    },
+    {
+      "type": "shot",
+      "id": "ag-04-dorobek"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:ag-ekwipunek",
+        "key": "shot:ag-rolka/ag-ekwipunek",
+        "type": "shot",
+        "id": "ag-ekwipunek",
+        "name": "13 — Użyj gwiazdy",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-ekwipunek.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ag-04-dorobek",
+        "key": "shot:ag-rolka/ag-04-dorobek",
+        "type": "shot",
+        "id": "ag-04-dorobek",
+        "name": "04 — Dorobek własny",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-04-dorobek.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:ag-ekwipunek",
+          "shot:ag-04-dorobek"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ag-ekwipunek",
+            "key": "shot:ag-rolka/ag-ekwipunek",
+            "type": "shot",
+            "id": "ag-ekwipunek",
+            "name": "13 — Użyj gwiazdy",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-ekwipunek.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:ag-04-dorobek",
+            "key": "shot:ag-rolka/ag-04-dorobek",
+            "type": "shot",
+            "id": "ag-04-dorobek",
+            "name": "04 — Dorobek własny",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-04-dorobek.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Use case ads-marketing, identity/continuity preserve. One new photorealistic vertical9:16 cinematic START FRAME1080x1920. Input1 is AUTHORITATIVE immediate previous shot: same black table, creator's charcoal sleeves, star FLAT face-up at viewerLEFT, open black leather portfolio at viewerRIGHT, small gold emoji disk behind portfolio toward upper right, gallery lighting. Input2 locks close-up portfolio construction and page layout only: LEFT cream page four gray waveform lines; RIGHT cream page blank; central black binding. Replace the KKN woman's purple-cuffed hand of input2 with the anonymous creator's RIGHT hand in charcoal cuff from input1 entering from lower RIGHT, holding a simple matte black pen naturally between thumb/index/middle finger. Pen tip hovers 3mm above middle-lower area of blank RIGHT page, ready to touch paper. Creator's LEFT hand gently steadies lower-left corner of portfolio, also charcoal cuff, only TWO hands. Move camera closer and slightly right from input1 to an oblique overhead writing insert, preserve same side of table (no axis flip). Both pages visible, central binding clear. Star now only cropped FLAT edge at left, no upright star. Gold medallion remains outside portfolio at upper-right, not on paper. All paper remains unprinted except existing four waveforms on LEFT; no words or fake signature on RIGHT. Quiet warm physical materials, shallow background, readable action, correct five-finger hands and pen grip. No chairwoman hands, no purple sleeves, no UI, no giant pen, no new objects, no typography, no watermark. Keep top/bottom safe space for a separately typeset instruction about adding PL/EN description.",
+    "endFrameDescription": "",
+    "animation": "0.0–1.0s: the creator's right hand lowers the pen tip three millimetres until it gently touches the blank right page. 1.0–3.0s: pause thoughtfully with the tip stationary; the left hand keeps the portfolio steady. Camera: locked close insert. Secondary motion: subtle natural finger tension around the pen and a slight sleeve crease. Continuity: preserve exactly two charcoal-sleeved hands, natural five-finger anatomy, existing pen grip, four waveforms on the left page, blank right page and fixed binding. Star remains flat at left; emoji medal remains outside the portfolio at upper right. Avoid handwriting appearing, page turns, extra fingers, new props, camera movement, cuts, captions or watermarks."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ag-ekwipunek",
+        "shot:ag-04-dorobek"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ag-ekwipunek",
+          "key": "shot:ag-rolka/ag-ekwipunek",
+          "type": "shot",
+          "id": "ag-ekwipunek",
+          "name": "13 — Użyj gwiazdy",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-ekwipunek.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ag-04-dorobek",
+          "key": "shot:ag-rolka/ag-04-dorobek",
+          "type": "shot",
+          "id": "ag-04-dorobek",
+          "name": "04 — Dorobek własny",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-04-dorobek.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-03T18:48:17.249604+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ag-ekwipunek",
+            "shot:ag-04-dorobek"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ag-ekwipunek",
+              "key": "shot:ag-rolka/ag-ekwipunek",
+              "type": "shot",
+              "id": "ag-ekwipunek",
+              "name": "13 — Użyj gwiazdy",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-ekwipunek.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ag-04-dorobek",
+              "key": "shot:ag-rolka/ag-04-dorobek",
+              "type": "shot",
+              "id": "ag-04-dorobek",
+              "name": "04 — Dorobek własny",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-04-dorobek.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-opis/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-opis/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

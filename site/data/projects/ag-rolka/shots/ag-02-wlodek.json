@@ -1,0 +1,290 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-04T02:05:41.063Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:ag-rolka/ag-02-wlodek",
+  "id": "ag-02-wlodek",
+  "title": "02 — Pochodzenie?",
+  "description": "4–6 s, 48 klatek. Włodek prezentuje ciężką gwiazdę: «Hollywood. Oryginał.» Czysta twarz i usta, spojrzenie znad okularów, beton u podstawy. Kling: krótki ruch głowy; dialog i lipsync osobno.",
+  "project": {
+    "id": "ag-rolka",
+    "key": "project:ag-rolka",
+    "name": "AG-Rolka",
+    "createdAt": "2026-10-02T11:20:13.424Z"
+  },
+  "chronology": {
+    "projectKey": "project:ag-rolka",
+    "projectCreatedAt": "2026-10-02T11:20:13.424Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 4,
+    "lastSequence": 4,
+    "occurrences": [
+      4
+    ],
+    "sequenceTotal": 18,
+    "uniqueShotCount": 18,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "komisant"
+    },
+    {
+      "type": "place",
+      "id": "komis-rtv"
+    },
+    {
+      "type": "prop",
+      "id": "gwiazda-pierwszej-wielkosci"
+    },
+    {
+      "type": "shot",
+      "id": "ag-02-wlodek"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:komisant",
+        "key": "character:komisant",
+        "type": "character",
+        "id": "komisant",
+        "name": "Włodek — Komisant",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/komisant.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:komis-rtv",
+        "key": "place:komis-rtv",
+        "type": "place",
+        "id": "komis-rtv",
+        "name": "KOMIS RTV — kantor Włodka",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/komis-rtv.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:gwiazda-pierwszej-wielkosci",
+        "key": "prop:gwiazda-pierwszej-wielkosci",
+        "type": "prop",
+        "id": "gwiazda-pierwszej-wielkosci",
+        "name": "Gwiazda z Odzysku",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/gwiazda-pierwszej-wielkosci.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ag-02-wlodek",
+        "key": "shot:ag-rolka/ag-02-wlodek",
+        "type": "shot",
+        "id": "ag-02-wlodek",
+        "name": "02 — Pochodzenie?",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-02-wlodek.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "shot:ag-02-wlodek",
+          "character:komisant",
+          "prop:gwiazda-pierwszej-wielkosci"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ag-02-wlodek",
+            "key": "shot:ag-rolka/ag-02-wlodek",
+            "type": "shot",
+            "id": "ag-02-wlodek",
+            "name": "02 — Pochodzenie?",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-02-wlodek.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:komisant",
+            "key": "character:komisant",
+            "type": "character",
+            "id": "komisant",
+            "name": "Włodek — Komisant",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/komisant.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:gwiazda-pierwszej-wielkosci",
+            "key": "prop:gwiazda-pierwszej-wielkosci",
+            "type": "prop",
+            "id": "gwiazda-pierwszej-wielkosci",
+            "name": "Gwiazda z Odzysku",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/gwiazda-pierwszej-wielkosci.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Use case: ads-marketing. New cinematic live-action START FRAME for a vertical 9:16 MFTV reel, preferably 1080x1920. Reference 1 is the previous shot: preserve the exact pawnshop geography, glass counter, amber/cyan/magenta practical lighting and architectural star scale, but REFRAME for dialogue. Reference 2 locks Wlodek's exact face, mustache, thinning combed gray-brown hair, low rectangular amber glasses, beige checked shirt and dark green knitted vest. Reference 3 locks the single heavy five-point gold star: stepped border, granular metal front, EMPTY rectangular nameplate. Medium close shot from customer eye level, camera still south of counter facing north, slightly off center, natural 50mm lens. Wlodek's head occupies the upper third with modest headroom, clear unobstructed mouth ready to speak, mildly impatient shrewd appraising gaze directly toward customer, no broad smile. Single 55cm heavy star leans upright on glass in lower half supported by his two hands, bottom edge shows small rough concrete and saw-cut residue. More actor-focused than reference1, slightly angled shoulders but no crossing the counter axis. Real worn shop, CRT and shelves in soft focus, not showroom; warm key light on face, cyan/magenta only background practicals. Accurate anatomy, five fingers on each visible hand, hands support edges naturally. Filmic texture and restrained contrast, no beauty retouching. Reserve clean lower safe area for editorial subtitles but DO NOT generate lettering, captions, prices or watermark. No new people, no duplicated star, no magic. This frame supports the spoken lines Hollywood. Oryginal. and Pochodzenie? To komis, nie prokuratura. Do not render these words in the image.",
+    "endFrameDescription": "",
+    "animation": "0.0–1.2s: Wlodek raises his chin slightly toward the customer while maintaining eye contact above his glasses; both hands keep the heavy star upright on the counter. 1.2–3.0s: he holds this appraising pose with natural breathing. Camera: locked off. Secondary motion: minimal vest movement from breathing, physically stable reflections on glass. Continuity: @Image1 preserves the existing man's facial identity only; preserve the Start Frame costume, hand placement, star dimensions, concrete backing and blank nameplate. Keep his mouth unobscured and head nearly frontal for subsequent lipsync. Avoid extra fingers, sliding glasses, new people, duplicated stars, cuts, morphing, captions or watermarks."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ag-02-wlodek",
+        "character:komisant",
+        "prop:gwiazda-pierwszej-wielkosci"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ag-02-wlodek",
+          "key": "shot:ag-rolka/ag-02-wlodek",
+          "type": "shot",
+          "id": "ag-02-wlodek",
+          "name": "02 — Pochodzenie?",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-02-wlodek.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:komisant",
+          "key": "character:komisant",
+          "type": "character",
+          "id": "komisant",
+          "name": "Włodek — Komisant",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/komisant.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:gwiazda-pierwszej-wielkosci",
+          "key": "prop:gwiazda-pierwszej-wielkosci",
+          "type": "prop",
+          "id": "gwiazda-pierwszej-wielkosci",
+          "name": "Gwiazda z Odzysku",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/gwiazda-pierwszej-wielkosci.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-02T11:20:13.424168+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:komisant",
+            "place:komis-rtv",
+            "prop:gwiazda-pierwszej-wielkosci"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:komisant",
+              "key": "character:komisant",
+              "type": "character",
+              "id": "komisant",
+              "name": "Włodek — Komisant",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/komisant.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:komis-rtv",
+              "key": "place:komis-rtv",
+              "type": "place",
+              "id": "komis-rtv",
+              "name": "KOMIS RTV — kantor Włodka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/komis-rtv.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:gwiazda-pierwszej-wielkosci",
+              "key": "prop:gwiazda-pierwszej-wielkosci",
+              "type": "prop",
+              "id": "gwiazda-pierwszej-wielkosci",
+              "name": "Gwiazda z Odzysku",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/gwiazda-pierwszej-wielkosci.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-10-03T14:10:16.344134+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ag-02-wlodek",
+            "character:komisant",
+            "prop:gwiazda-pierwszej-wielkosci"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ag-02-wlodek",
+              "key": "shot:ag-rolka/ag-02-wlodek",
+              "type": "shot",
+              "id": "ag-02-wlodek",
+              "name": "02 — Pochodzenie?",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-02-wlodek.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:komisant",
+              "key": "character:komisant",
+              "type": "character",
+              "id": "komisant",
+              "name": "Włodek — Komisant",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/komisant.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:gwiazda-pierwszej-wielkosci",
+              "key": "prop:gwiazda-pierwszej-wielkosci",
+              "type": "prop",
+              "id": "gwiazda-pierwszej-wielkosci",
+              "name": "Gwiazda z Odzysku",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/gwiazda-pierwszej-wielkosci.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-02-wlodek/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-02-wlodek/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

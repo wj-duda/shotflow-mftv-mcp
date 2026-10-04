@@ -1,0 +1,264 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-04T02:05:41.063Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:ag-rolka/ag-01-beton",
+  "id": "ag-01-beton",
+  "title": "01 — Gwiazda z przeszłością",
+  "description": "Wersja 2. Jednosekundowa makroprzebitka na odpadający okruch betonu po «Hollywood. Oryginał.». Gwiazda niemal pionowo podtrzymana dłonią Włodka; tylko dolne ramię, rant i szkło. Docelowo 6–7 s. Bez tekstu w obrazie.",
+  "project": {
+    "id": "ag-rolka",
+    "key": "project:ag-rolka",
+    "name": "AG-Rolka",
+    "createdAt": "2026-10-02T11:20:13.424Z"
+  },
+  "chronology": {
+    "projectKey": "project:ag-rolka",
+    "projectCreatedAt": "2026-10-02T11:20:13.424Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 5,
+    "lastSequence": 5,
+    "occurrences": [
+      5
+    ],
+    "sequenceTotal": 18,
+    "uniqueShotCount": 18,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "ag-02-wlodek"
+    },
+    {
+      "type": "prop",
+      "id": "gwiazda-pierwszej-wielkosci"
+    },
+    {
+      "type": "shot",
+      "id": "ag-01-beton"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:ag-02-wlodek",
+        "key": "shot:ag-rolka/ag-02-wlodek",
+        "type": "shot",
+        "id": "ag-02-wlodek",
+        "name": "02 — Pochodzenie?",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-02-wlodek.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:gwiazda-pierwszej-wielkosci",
+        "key": "prop:gwiazda-pierwszej-wielkosci",
+        "type": "prop",
+        "id": "gwiazda-pierwszej-wielkosci",
+        "name": "Gwiazda z Odzysku",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/gwiazda-pierwszej-wielkosci.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ag-01-beton",
+        "key": "shot:ag-rolka/ag-01-beton",
+        "type": "shot",
+        "id": "ag-01-beton",
+        "name": "01 — Gwiazda z przeszłością",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-01-beton.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 3,
+        "referenceKeys": [
+          "shot:ag-01-beton",
+          "shot:ag-02-wlodek"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ag-01-beton",
+            "key": "shot:ag-rolka/ag-01-beton",
+            "type": "shot",
+            "id": "ag-01-beton",
+            "name": "01 — Gwiazda z przeszłością",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-01-beton.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:ag-02-wlodek",
+            "key": "shot:ag-rolka/ag-02-wlodek",
+            "type": "shot",
+            "id": "ag-02-wlodek",
+            "name": "02 — Pochodzenie?",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-02-wlodek.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Edit input1 macro shot, preserve vertical9:16 cinematic composition, fingers, gold ring, gold star position, gold material, scratched glass counter and blurred shop. Input2 is authoritative continuity: same star is a metal architectural plaque with only a THIN attached 2 cm rough gray concrete backing. In input1 concrete is erroneously 7cm thick, reduce it to a narrow 2cm rough layer hugging underside of the gold rim, as input2. Gold outline stays exactly unchanged. At bottom tip leave a SINGLE tiny cracked 6mm chip still attached by a hairline crack, with only two tiny crumbs lying on glass below. No floating chunks, no dripping foam, no thick block, no new fingers. Maintain gold rim's thickness, crisp engraved texture, physically real damaged pavement backing. Star point held approximately 2cm above counter, small space for chip to drop. Photoreal, no text or watermark.",
+    "endFrameDescription": "",
+    "animation": "0.0–0.7s: the single cracked chip at the lower concrete tip detaches, falls straight down under gravity onto the glass, and makes one tiny bounce. 0.7–3.0s: it settles beside the existing crumbs; the supporting hand and upright star remain steady. Camera: locked macro framing. Secondary motion: a few grains fall from the same fracture and stop on the counter. Continuity: preserve the thin backing, gold rim geometry, ring and skin anatomy; all other concrete remains attached. Avoid an explosion of debris, new cracks elsewhere, floating fragments, gold deformation, extra fingers, camera shake, cuts, text or watermarks."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 3,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ag-01-beton",
+        "shot:ag-02-wlodek"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ag-01-beton",
+          "key": "shot:ag-rolka/ag-01-beton",
+          "type": "shot",
+          "id": "ag-01-beton",
+          "name": "01 — Gwiazda z przeszłością",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-01-beton.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ag-02-wlodek",
+          "key": "shot:ag-rolka/ag-02-wlodek",
+          "type": "shot",
+          "id": "ag-02-wlodek",
+          "name": "02 — Pochodzenie?",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-02-wlodek.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-02T11:23:12.327539+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ag-02-wlodek",
+            "prop:gwiazda-pierwszej-wielkosci"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ag-02-wlodek",
+              "key": "shot:ag-rolka/ag-02-wlodek",
+              "type": "shot",
+              "id": "ag-02-wlodek",
+              "name": "02 — Pochodzenie?",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-02-wlodek.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:gwiazda-pierwszej-wielkosci",
+              "key": "prop:gwiazda-pierwszej-wielkosci",
+              "type": "prop",
+              "id": "gwiazda-pierwszej-wielkosci",
+              "name": "Gwiazda z Odzysku",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/gwiazda-pierwszej-wielkosci.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-10-03T14:14:30.504999+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ag-01-beton",
+            "shot:ag-02-wlodek"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ag-01-beton",
+              "key": "shot:ag-rolka/ag-01-beton",
+              "type": "shot",
+              "id": "ag-01-beton",
+              "name": "01 — Gwiazda z przeszłością",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-01-beton.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ag-02-wlodek",
+              "key": "shot:ag-rolka/ag-02-wlodek",
+              "type": "shot",
+              "id": "ag-02-wlodek",
+              "name": "02 — Pochodzenie?",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-02-wlodek.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 3,
+          "createdAt": "2026-10-03T15:25:29.824593+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ag-01-beton",
+            "shot:ag-02-wlodek"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ag-01-beton",
+              "key": "shot:ag-rolka/ag-01-beton",
+              "type": "shot",
+              "id": "ag-01-beton",
+              "name": "01 — Gwiazda z przeszłością",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-01-beton.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ag-02-wlodek",
+              "key": "shot:ag-rolka/ag-02-wlodek",
+              "type": "shot",
+              "id": "ag-02-wlodek",
+              "name": "02 — Pochodzenie?",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-02-wlodek.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-01-beton/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-01-beton/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-04T02:05:41.063Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:ag-rolka/ag-03b-wejscie-kkn",
+  "id": "ag-03b-wejscie-kkn",
+  "title": "03b — Wejście do KKN",
+  "description": "POV przybycia twórcy z Gwiazdą z Odzysku do polskiej siedziby KKN przy ul. Moliera w Warszawie. Drzwi otwarte do środka, tablica po prawej, przedsionek i galeria w głębi. Gwiazda w dolnej części kadru, dłonie w ciemnych rękawach. Łącznik między zakupem a przedstawieniem dorobku. 48f / 2s; bez efektów mocy.",
+  "project": {
+    "id": "ag-rolka",
+    "key": "project:ag-rolka",
+    "name": "AG-Rolka",
+    "createdAt": "2026-10-02T11:20:13.424Z"
+  },
+  "chronology": {
+    "projectKey": "project:ag-rolka",
+    "projectCreatedAt": "2026-10-02T11:20:13.424Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 8,
+    "lastSequence": 8,
+    "occurrences": [
+      8
+    ],
+    "sequenceTotal": 18,
+    "uniqueShotCount": 18,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "place",
+      "id": "kkn-siedziba-polska"
+    },
+    {
+      "type": "shot",
+      "id": "ag-03-zakup"
+    },
+    {
+      "type": "prop",
+      "id": "gwiazda-pierwszej-wielkosci"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "place:kkn-siedziba-polska",
+        "key": "place:kkn-siedziba-polska",
+        "type": "place",
+        "id": "kkn-siedziba-polska",
+        "name": "KKN — polska siedziba, Warszawa, ul. Moliera",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/kkn-siedziba-polska.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ag-03-zakup",
+        "key": "shot:ag-rolka/ag-03-zakup",
+        "type": "shot",
+        "id": "ag-03-zakup",
+        "name": "03 — Transakcja",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-03-zakup.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:gwiazda-pierwszej-wielkosci",
+        "key": "prop:gwiazda-pierwszej-wielkosci",
+        "type": "prop",
+        "id": "gwiazda-pierwszej-wielkosci",
+        "name": "Gwiazda z Odzysku",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/gwiazda-pierwszej-wielkosci.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "place:kkn-siedziba-polska",
+          "shot:ag-03-zakup",
+          "prop:gwiazda-pierwszej-wielkosci"
+        ],
+        "references": [
+          {
+            "sourceKey": "place:kkn-siedziba-polska",
+            "key": "place:kkn-siedziba-polska",
+            "type": "place",
+            "id": "kkn-siedziba-polska",
+            "name": "KKN — polska siedziba, Warszawa, ul. Moliera",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/kkn-siedziba-polska.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:ag-03-zakup",
+            "key": "shot:ag-rolka/ag-03-zakup",
+            "type": "shot",
+            "id": "ag-03-zakup",
+            "name": "03 — Transakcja",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-03-zakup.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:gwiazda-pierwszej-wielkosci",
+            "key": "prop:gwiazda-pierwszej-wielkosci",
+            "type": "prop",
+            "id": "gwiazda-pierwszej-wielkosci",
+            "name": "Gwiazda z Odzysku",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/gwiazda-pierwszej-wielkosci.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Generate one photoreal live-action narrative film still vertical9:16,1080x1920. Input1 is the exact canonical fictional KKN Polish headquarters courtyard entrance: reproduce doorway geometry, warm cream stone facade, black marble rectangular portal, dark wood double doors open inward, brass handles, purple emblem plaque on RIGHT of doorway, beige vestibule leading to gold lit black marble gallery. Input2 is continuity for creator's charcoal sleeves and light-skinned hands and heavy gold star with rough concrete underneath, NOT the shop or Wlodek. Input3 exact star face design, five points, stepped rim, empty rectangular gold plate. FIRST PERSON POV arriving in courtyard about 2m before threshold looking forward slightly down. Doorway and purple plaque occupy upper two thirds with clear view through vestibule into gallery; no people in distance. In bottom quarter, two natural hands in charcoal sleeves support same heavy55cm gold star at waist height, foreshortened face upward away from body so lower part cropped by bottom edge. Carrying weight convincingly with fingers around sides; star must NOT obscure entrance, no free floating prop. A little gray concrete visible on star edge links purchase to arrival. Soft overcast exterior daylight, warm interior golden light. Cinematic natural exposure, real leatherlike stone textures, preserve emblem design of input1. No Wlodek, no chairwoman visible yet, no bag, no documents, no added signage or readable captions, no street number, no magic or holograms, no watermark. This is a two-second spatial transition before showing dossier inside; viewer understands arrival at a new institution.",
+    "endFrameDescription": "",
+    "animation": "0.0–1.7s: the first-person viewpoint advances one short step, about 35 cm, toward the already-open doorway, stopping before the threshold. 1.7–3.0s: the viewpoint settles. Camera: one forward walking movement, no pan or zoom. Secondary motion: the carried star dips gently once with the step while both hands maintain their grip. Continuity: @Image1 fixes doorway architecture only; preserve the Start Frame plaque and exact emblem, inward-open doors, lighting, sleeves and heavy star scale. The star remains below the doorway view. Avoid entering another room, new people, changing facade, opening doors again, magic, floating props, cuts, added lettering or watermarks."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "place:kkn-siedziba-polska",
+        "shot:ag-03-zakup",
+        "prop:gwiazda-pierwszej-wielkosci"
+      ],
+      "references": [
+        {
+          "sourceKey": "place:kkn-siedziba-polska",
+          "key": "place:kkn-siedziba-polska",
+          "type": "place",
+          "id": "kkn-siedziba-polska",
+          "name": "KKN — polska siedziba, Warszawa, ul. Moliera",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/kkn-siedziba-polska.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ag-03-zakup",
+          "key": "shot:ag-rolka/ag-03-zakup",
+          "type": "shot",
+          "id": "ag-03-zakup",
+          "name": "03 — Transakcja",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-03-zakup.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:gwiazda-pierwszej-wielkosci",
+          "key": "prop:gwiazda-pierwszej-wielkosci",
+          "type": "prop",
+          "id": "gwiazda-pierwszej-wielkosci",
+          "name": "Gwiazda z Odzysku",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/gwiazda-pierwszej-wielkosci.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-02T16:33:51.015681+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "place:kkn-siedziba-polska",
+            "shot:ag-03-zakup",
+            "prop:gwiazda-pierwszej-wielkosci"
+          ],
+          "references": [
+            {
+              "sourceKey": "place:kkn-siedziba-polska",
+              "key": "place:kkn-siedziba-polska",
+              "type": "place",
+              "id": "kkn-siedziba-polska",
+              "name": "KKN — polska siedziba, Warszawa, ul. Moliera",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/kkn-siedziba-polska.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ag-03-zakup",
+              "key": "shot:ag-rolka/ag-03-zakup",
+              "type": "shot",
+              "id": "ag-03-zakup",
+              "name": "03 — Transakcja",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-03-zakup.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:gwiazda-pierwszej-wielkosci",
+              "key": "prop:gwiazda-pierwszej-wielkosci",
+              "type": "prop",
+              "id": "gwiazda-pierwszej-wielkosci",
+              "name": "Gwiazda z Odzysku",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/gwiazda-pierwszej-wielkosci.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-03b-wejscie-kkn/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-03b-wejscie-kkn/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

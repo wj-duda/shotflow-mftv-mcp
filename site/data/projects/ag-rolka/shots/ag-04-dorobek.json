@@ -1,0 +1,376 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-04T02:05:41.063Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:ag-rolka/ag-04-dorobek",
+  "id": "ag-04-dorobek",
+  "title": "04 — Dorobek własny",
+  "description": "50 klatek na istniejącym timeline. Bliska przebitka otwartej teczki: cztery przebiegi muzyczne na lewej karcie, prawa karta pozostaje pusta. Obie pełne prostokątne karty leżą płasko i są trwale spięte z centralnym grzbietem. Druga część zasady KKN: «Gdy jedna gwiazda gaśnie…» Przewodnicząca nie podnosi ani nie przewraca żadnej strony.",
+  "project": {
+    "id": "ag-rolka",
+    "key": "project:ag-rolka",
+    "name": "AG-Rolka",
+    "createdAt": "2026-10-02T11:20:13.424Z"
+  },
+  "chronology": {
+    "projectKey": "project:ag-rolka",
+    "projectCreatedAt": "2026-10-02T11:20:13.424Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 10,
+    "lastSequence": 10,
+    "occurrences": [
+      10
+    ],
+    "sequenceTotal": 18,
+    "uniqueShotCount": 18,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "ag-05-kkn"
+    },
+    {
+      "type": "shot",
+      "id": "ag-04-dorobek"
+    },
+    {
+      "type": "shot",
+      "id": "ag-ciag-dalszy"
+    },
+    {
+      "type": "shot",
+      "id": "ag-opis"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:ag-05-kkn",
+        "key": "shot:ag-rolka/ag-05-kkn",
+        "type": "shot",
+        "id": "ag-05-kkn",
+        "name": "05 — Pod opieką KKN",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-05-kkn.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ag-04-dorobek",
+        "key": "shot:ag-rolka/ag-04-dorobek",
+        "type": "shot",
+        "id": "ag-04-dorobek",
+        "name": "04 — Dorobek własny",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-04-dorobek.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ag-ciag-dalszy",
+        "key": "shot:ag-rolka/ag-ciag-dalszy",
+        "type": "shot",
+        "id": "ag-ciag-dalszy",
+        "name": "KKN — miejsce na ciąg dalszy",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-ciag-dalszy.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ag-opis",
+        "key": "shot:ag-rolka/ag-opis",
+        "type": "shot",
+        "id": "ag-opis",
+        "name": "14 — Opis PL i EN",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-opis.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 4,
+        "referenceKeys": [
+          "shot:ag-04-dorobek",
+          "shot:ag-opis",
+          "shot:ag-ciag-dalszy"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ag-04-dorobek",
+            "key": "shot:ag-rolka/ag-04-dorobek",
+            "type": "shot",
+            "id": "ag-04-dorobek",
+            "name": "04 — Dorobek własny",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-04-dorobek.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:ag-opis",
+            "key": "shot:ag-rolka/ag-opis",
+            "type": "shot",
+            "id": "ag-opis",
+            "name": "14 — Opis PL i EN",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-opis.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:ag-ciag-dalszy",
+            "key": "shot:ag-rolka/ag-ciag-dalszy",
+            "type": "shot",
+            "id": "ag-ciag-dalszy",
+            "name": "KKN — miejsce na ciąg dalszy",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-ciag-dalszy.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Create a photorealistic vertical 9:16 film start frame, close oblique overhead view from the visitor side. On the black KKN table lies one open black leather portfolio. The left cream page contains exactly four clean musical waveform rows with small play triangles; the right cream page is completely blank. Both pages are full rectangular sheets, lying completely flat, continuously and visibly attached to the central binding from top to bottom. The chairwoman's single left hand enters from above with a black patterned sleeve and purple cuff, pointing at a waveform on the left page. A cropped gold architectural star remains at viewer left and a small round gold emoji medal remains on the table at upper right. Preserve warm black-and-gold hall lighting. No loose sheet, lifted corner, triangular page, page turn, writing, extra hands, creator hands, captions or watermark.",
+    "endFrameDescription": "",
+    "animation": "0.0–1.4s: the chairwoman's left index finger moves slowly about 3 cm along the fourth waveform row, then stops above its end. 1.4–3.0s: she holds the pointing pose naturally. Camera: locked close insert. Secondary motion: only subtle finger tension and a small sleeve crease. Continuity: both full rectangular pages remain completely flat and visibly attached along the entire central binding; four waveforms stay on the left page, the right page stays blank, and the star and emoji medal remain stationary. Avoid any page lifting, turning, bending or detaching, loose sheets, writing, extra hands or fingers, changing graphics, camera motion, cuts, morphs, captions or watermarks."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 4,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ag-04-dorobek",
+        "shot:ag-opis",
+        "shot:ag-ciag-dalszy"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ag-04-dorobek",
+          "key": "shot:ag-rolka/ag-04-dorobek",
+          "type": "shot",
+          "id": "ag-04-dorobek",
+          "name": "04 — Dorobek własny",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-04-dorobek.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ag-opis",
+          "key": "shot:ag-rolka/ag-opis",
+          "type": "shot",
+          "id": "ag-opis",
+          "name": "14 — Opis PL i EN",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-opis.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ag-ciag-dalszy",
+          "key": "shot:ag-rolka/ag-ciag-dalszy",
+          "type": "shot",
+          "id": "ag-ciag-dalszy",
+          "name": "KKN — miejsce na ciąg dalszy",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-ciag-dalszy.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-02T11:31:54.679343+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ag-05-kkn",
+            "prop:waluta-serce",
+            "prop:waluta-gem",
+            "prop:gwiazda-pierwszej-wielkosci"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ag-05-kkn",
+              "key": "shot:ag-rolka/ag-05-kkn",
+              "type": "shot",
+              "id": "ag-05-kkn",
+              "name": "05 — Pod opieką KKN",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-05-kkn.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:waluta-serce",
+              "key": "prop:waluta-serce",
+              "type": "prop",
+              "id": "waluta-serce",
+              "name": "Serce — waluta reakcji",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-serce.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:waluta-gem",
+              "key": "prop:waluta-gem",
+              "type": "prop",
+              "id": "waluta-gem",
+              "name": "Gem — waluta reakcji",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-gem.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:gwiazda-pierwszej-wielkosci",
+              "key": "prop:gwiazda-pierwszej-wielkosci",
+              "type": "prop",
+              "id": "gwiazda-pierwszej-wielkosci",
+              "name": "Gwiazda z Odzysku",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/gwiazda-pierwszej-wielkosci.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-10-02T12:04:49.707149+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ag-04-dorobek",
+            "shot:ag-05-kkn"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ag-04-dorobek",
+              "key": "shot:ag-rolka/ag-04-dorobek",
+              "type": "shot",
+              "id": "ag-04-dorobek",
+              "name": "04 — Dorobek własny",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-04-dorobek.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ag-05-kkn",
+              "key": "shot:ag-rolka/ag-05-kkn",
+              "type": "shot",
+              "id": "ag-05-kkn",
+              "name": "05 — Pod opieką KKN",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-05-kkn.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 3,
+          "createdAt": "2026-10-03T14:22:32.172911+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ag-04-dorobek",
+            "shot:ag-05-kkn",
+            "shot:ag-ciag-dalszy"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ag-04-dorobek",
+              "key": "shot:ag-rolka/ag-04-dorobek",
+              "type": "shot",
+              "id": "ag-04-dorobek",
+              "name": "04 — Dorobek własny",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-04-dorobek.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ag-05-kkn",
+              "key": "shot:ag-rolka/ag-05-kkn",
+              "type": "shot",
+              "id": "ag-05-kkn",
+              "name": "05 — Pod opieką KKN",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-05-kkn.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ag-ciag-dalszy",
+              "key": "shot:ag-rolka/ag-ciag-dalszy",
+              "type": "shot",
+              "id": "ag-ciag-dalszy",
+              "name": "KKN — miejsce na ciąg dalszy",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-ciag-dalszy.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 4,
+          "createdAt": "2026-10-03T23:26:55.178722+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ag-04-dorobek",
+            "shot:ag-opis",
+            "shot:ag-ciag-dalszy"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ag-04-dorobek",
+              "key": "shot:ag-rolka/ag-04-dorobek",
+              "type": "shot",
+              "id": "ag-04-dorobek",
+              "name": "04 — Dorobek własny",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-04-dorobek.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ag-opis",
+              "key": "shot:ag-rolka/ag-opis",
+              "type": "shot",
+              "id": "ag-opis",
+              "name": "14 — Opis PL i EN",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-opis.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ag-ciag-dalszy",
+              "key": "shot:ag-rolka/ag-ciag-dalszy",
+              "type": "shot",
+              "id": "ag-ciag-dalszy",
+              "name": "KKN — miejsce na ciąg dalszy",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-ciag-dalszy.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-04-dorobek/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-04-dorobek/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

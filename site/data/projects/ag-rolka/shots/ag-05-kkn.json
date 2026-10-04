@@ -1,0 +1,403 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-04T02:05:41.063Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:ag-rolka/ag-05-kkn",
+  "id": "ag-05-kkn",
+  "title": "05 — Pod opieką KKN",
+  "description": "KKN ujawnia zasadę równowagi mocy i gwiazdorstwa. Przewodnicząca patrzy na odzyskaną gwiazdę i mówi: «Przetopimy ją.» Gwiazda pozostaje po lewej stronie obrazu, a zamknięte portfolio po prawej. Nie jest to werdykt selekcji twórcy.",
+  "project": {
+    "id": "ag-rolka",
+    "key": "project:ag-rolka",
+    "name": "AG-Rolka",
+    "createdAt": "2026-10-02T11:20:13.424Z"
+  },
+  "chronology": {
+    "projectKey": "project:ag-rolka",
+    "projectCreatedAt": "2026-10-02T11:20:13.424Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 9,
+    "lastSequence": 9,
+    "occurrences": [
+      9
+    ],
+    "sequenceTotal": 18,
+    "uniqueShotCount": 18,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "kkn-przewodniczaca"
+    },
+    {
+      "type": "place",
+      "id": "aleja-gwiazd"
+    },
+    {
+      "type": "note",
+      "id": "kkn-duet-biurowy-koncepcja"
+    },
+    {
+      "type": "note",
+      "id": "kkn-straznicy-rownowagi"
+    },
+    {
+      "type": "prop",
+      "id": "gwiazda-pierwszej-wielkosci"
+    },
+    {
+      "type": "shot",
+      "id": "ag-02-wlodek"
+    },
+    {
+      "type": "prop",
+      "id": "kkn-sygnet"
+    },
+    {
+      "type": "shot",
+      "id": "ag-05-kkn"
+    },
+    {
+      "type": "place",
+      "id": "kkn-siedziba-polska"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:kkn-przewodniczaca",
+        "key": "character:kkn-przewodniczaca",
+        "type": "character",
+        "id": "kkn-przewodniczaca",
+        "name": "KKN — Przewodnicząca",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/kkn-przewodniczaca.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:aleja-gwiazd",
+        "key": "place:aleja-gwiazd",
+        "type": "place",
+        "id": "aleja-gwiazd",
+        "name": "Aleja Gwiazd MFTV",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/aleja-gwiazd.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "note:kkn-duet-biurowy-koncepcja",
+        "key": "note:kkn-duet-biurowy-koncepcja",
+        "type": "note",
+        "id": "kkn-duet-biurowy-koncepcja",
+        "name": "KKN — dwie urzędniczki, propozycja stroju",
+        "relationship": "story-and-continuity-context",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/kkn-duet-biurowy-koncepcja.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "note:kkn-straznicy-rownowagi",
+        "key": "note:kkn-straznicy-rownowagi",
+        "type": "note",
+        "id": "kkn-straznicy-rownowagi",
+        "name": "KKN — strażnicy równowagi świata",
+        "relationship": "story-and-continuity-context",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/kkn-straznicy-rownowagi.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:gwiazda-pierwszej-wielkosci",
+        "key": "prop:gwiazda-pierwszej-wielkosci",
+        "type": "prop",
+        "id": "gwiazda-pierwszej-wielkosci",
+        "name": "Gwiazda z Odzysku",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/gwiazda-pierwszej-wielkosci.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ag-02-wlodek",
+        "key": "shot:ag-rolka/ag-02-wlodek",
+        "type": "shot",
+        "id": "ag-02-wlodek",
+        "name": "02 — Pochodzenie?",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-02-wlodek.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:kkn-sygnet",
+        "key": "prop:kkn-sygnet",
+        "type": "prop",
+        "id": "kkn-sygnet",
+        "name": "KKN — sygnet Komisji Kultury Najwyższej",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/kkn-sygnet.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ag-05-kkn",
+        "key": "shot:ag-rolka/ag-05-kkn",
+        "type": "shot",
+        "id": "ag-05-kkn",
+        "name": "05 — Pod opieką KKN",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-05-kkn.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:kkn-siedziba-polska",
+        "key": "place:kkn-siedziba-polska",
+        "type": "place",
+        "id": "kkn-siedziba-polska",
+        "name": "KKN — polska siedziba, Warszawa, ul. Moliera",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/kkn-siedziba-polska.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 3,
+        "referenceKeys": [
+          "shot:ag-05-kkn",
+          "prop:kkn-sygnet",
+          "place:kkn-siedziba-polska"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ag-05-kkn",
+            "key": "shot:ag-rolka/ag-05-kkn",
+            "type": "shot",
+            "id": "ag-05-kkn",
+            "name": "05 — Pod opieką KKN",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-05-kkn.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:kkn-sygnet",
+            "key": "prop:kkn-sygnet",
+            "type": "prop",
+            "id": "kkn-sygnet",
+            "name": "KKN — sygnet Komisji Kultury Najwyższej",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/kkn-sygnet.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "place:kkn-siedziba-polska",
+            "key": "place:kkn-siedziba-polska",
+            "type": "place",
+            "id": "kkn-siedziba-polska",
+            "name": "KKN — polska siedziba, Warszawa, ul. Moliera",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/kkn-siedziba-polska.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Edit input 1 surgically. Preserve this exact photorealistic vertical 9:16 film frame, same woman identity, face, hair, glasses, hands, clothing, gold star, portfolio, camera and gallery. Change ONLY the white emblem printed on her small purple badge on viewer RIGHT chest. Input 2 is the exact canonical emblem silhouette; input 3 shows its clear white-on-purple application on the doorway plaque, use only that plaque symbol as additional legibility reference, NOT the building. Emblem is an enclosing arch joined to a horizontal baseline, containing three geometric angular pillars: center pillar much taller with a pointed pentagonal top; side pillars shorter with diagonal sloped tops toward center, all joined to same horizontal baseline. Two negative-space slots between pillars, precisely copy shape from input2. NOT three equal round-topped bars, NOT headphones, NOT letters. Keep original small badge size, physical perspective and attachment chain; flat crisp ivory enamel print on purple. No other alterations, no new text, no watermark. Output one vertical frame.",
+    "endFrameDescription": "",
+    "animation": "0.0–1.2s: the chairwoman briefly lowers her gaze toward the star, then returns her gaze to the visitor by 2.0s. 2.0–4.0s: she holds the visitor's gaze, composed, with only natural breathing. Camera: locked medium shot. Secondary motion: a barely perceptible movement of her glasses chain with the breath. Continuity: @Image1 locks the existing woman's face; @Image2 locks the white badge emblem only. Preserve her clothing, badge on anatomical left chest, both hand contacts, upright star and closed portfolio. Keep the mouth unobscured and head nearly frontal for later lipsync. Avoid gestures of approval, stamps, new people, extra fingers, emblem distortion, cuts, text or watermarks."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 3,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ag-05-kkn",
+        "prop:kkn-sygnet",
+        "place:kkn-siedziba-polska"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ag-05-kkn",
+          "key": "shot:ag-rolka/ag-05-kkn",
+          "type": "shot",
+          "id": "ag-05-kkn",
+          "name": "05 — Pod opieką KKN",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-05-kkn.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:kkn-sygnet",
+          "key": "prop:kkn-sygnet",
+          "type": "prop",
+          "id": "kkn-sygnet",
+          "name": "KKN — sygnet Komisji Kultury Najwyższej",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/kkn-sygnet.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "place:kkn-siedziba-polska",
+          "key": "place:kkn-siedziba-polska",
+          "type": "place",
+          "id": "kkn-siedziba-polska",
+          "name": "KKN — polska siedziba, Warszawa, ul. Moliera",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/kkn-siedziba-polska.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-02T11:26:49.973294+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ag-02-wlodek",
+            "prop:kkn-sygnet"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ag-02-wlodek",
+              "key": "shot:ag-rolka/ag-02-wlodek",
+              "type": "shot",
+              "id": "ag-02-wlodek",
+              "name": "02 — Pochodzenie?",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-02-wlodek.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:kkn-sygnet",
+              "key": "prop:kkn-sygnet",
+              "type": "prop",
+              "id": "kkn-sygnet",
+              "name": "KKN — sygnet Komisji Kultury Najwyższej",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/kkn-sygnet.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-10-03T14:12:43.728186+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ag-05-kkn",
+            "character:kkn-przewodniczaca",
+            "prop:kkn-sygnet",
+            "prop:gwiazda-pierwszej-wielkosci"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ag-05-kkn",
+              "key": "shot:ag-rolka/ag-05-kkn",
+              "type": "shot",
+              "id": "ag-05-kkn",
+              "name": "05 — Pod opieką KKN",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-05-kkn.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:kkn-przewodniczaca",
+              "key": "character:kkn-przewodniczaca",
+              "type": "character",
+              "id": "kkn-przewodniczaca",
+              "name": "KKN — Przewodnicząca",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/kkn-przewodniczaca.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:kkn-sygnet",
+              "key": "prop:kkn-sygnet",
+              "type": "prop",
+              "id": "kkn-sygnet",
+              "name": "KKN — sygnet Komisji Kultury Najwyższej",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/kkn-sygnet.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:gwiazda-pierwszej-wielkosci",
+              "key": "prop:gwiazda-pierwszej-wielkosci",
+              "type": "prop",
+              "id": "gwiazda-pierwszej-wielkosci",
+              "name": "Gwiazda z Odzysku",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/gwiazda-pierwszej-wielkosci.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 3,
+          "createdAt": "2026-10-03T15:18:15.061949+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ag-05-kkn",
+            "prop:kkn-sygnet",
+            "place:kkn-siedziba-polska"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ag-05-kkn",
+              "key": "shot:ag-rolka/ag-05-kkn",
+              "type": "shot",
+              "id": "ag-05-kkn",
+              "name": "05 — Pod opieką KKN",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/ag-rolka/shots/ag-05-kkn.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:kkn-sygnet",
+              "key": "prop:kkn-sygnet",
+              "type": "prop",
+              "id": "kkn-sygnet",
+              "name": "KKN — sygnet Komisji Kultury Najwyższej",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/kkn-sygnet.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:kkn-siedziba-polska",
+              "key": "place:kkn-siedziba-polska",
+              "type": "place",
+              "id": "kkn-siedziba-polska",
+              "name": "KKN — polska siedziba, Warszawa, ul. Moliera",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/kkn-siedziba-polska.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-05-kkn/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/ag-rolka/shots/ag-05-kkn/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}
