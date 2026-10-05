@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "build": "node scripts/build-world.mjs",
+    "system-data": "node scripts/refresh-system.mjs",
+    "test": "node --test scripts/*.test.mjs",
     "dev": "node scripts/serve.mjs"
   },
   "dependencies": {

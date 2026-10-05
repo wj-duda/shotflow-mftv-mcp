@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-10-05",
+  "scope": "Podstawowe zasady i mapa serwisu, zweryfikowane w kodzie. Nie jest to pełna specyfikacja wszystkich reguł; bieżące liczby pochodzą z osobnej migawki.",
+  "sections": [
+    {
+      "id": "navigation",
+      "title": "Gdzie znaleźć informacje i funkcje",
+      "text": "MF TV prezentuje muzykę twórców AI. Publiczne strony pozwalają poznać audycje, utwory i zasady. Panel twórcy, sklep i ekwipunek wymagają zalogowania; publiczna wtyczka nie pokazuje prywatnych kont, sald ani zgłoszeń użytkownika.",
+      "links": ["https://aimusicfuture.tv/", "https://aimusicfuture.tv/jak-to-dziala", "https://aimusicfuture.tv/faq", "https://aimusicfuture.tv/ramowka", "https://aimusicfuture.tv/creator", "https://aimusicfuture.tv/creator/shop", "https://aimusicfuture.tv/creator/inventory"]
+    },
+    {
+      "id": "broadcasts",
+      "title": "Audycje, ramówka i przerwane transmisje",
+      "text": "Ramówka opisuje formaty audycji. Konkretne transmisje z datami, tytułami i linkami YouTube odczytuj z sekcji broadcasts. Eksport obejmuje poprzedni i bieżący tydzień kalendarzowy Europe/Warsaw według scheduledStartAt. Publikuje wyłącznie transmisje oznaczone jako publiczne. Części przerwanej audycji są osobnymi broadcastami: nie łącz ich wyników ani list na podstawie podobnego tytułu. Szczegóły broadcast zawierają ukończone odtworzenia, nie planowane utwory. atSec to czas ukończenia, nie początek rozdziału YouTube. Brak zapisanych ukończeń nie dowodzi braku emisji.",
+      "links": ["https://aimusicfuture.tv/ramowka"]
+    },
+    {
+      "id": "submissions",
+      "title": "Zgłoszenia, opłaty i zwroty",
+      "text": "Nowe zgłoszenie wymaga uszu. Aktualny koszt odczytaj z economy.submissionCostEars, nie z historycznego materiału promocyjnego. Zgłoszenia podlegają weryfikacji i zasadom publikacji. Przy odrzuceniu płatnego zgłoszenia istnieje mechanizm zwrotu faktycznie pobranej opłaty z ochroną przed ponownym zwrotem. Odrzucenie i cofnięcie zgody nie są tym samym stanem. Pakiet powitalny jest jednorazowy, a nie odnawiany co tydzień. Aktualny kod odejmuje koszt wcześniejszych unikalnych zgłoszeń, także odrzuconych: max(0, welcomeGrantEars - liczbaZgłoszeń * submissionCostEars). Historyczna naprawa sald nie oznacza zmiany tej reguły w przyszłości.",
+      "links": ["https://aimusicfuture.tv/creator", "https://aimusicfuture.tv/regulamin-zgloszen", "https://aimusicfuture.tv/poczekalnia"]
+    },
+    {
+      "id": "economy",
+      "title": "Zasoby, głosowanie i konto kanału",
+      "text": "Ekonomia rozróżnia uszy, czaszki, serca, klejnoty i runy. Zasoby są związane z kanałem YouTube. Aktywność podczas głosowania i reakcje na utwory twórców są rozliczane przez system ekonomii; samo zalogowanie nie oznacza ponownego naliczenia wcześniejszych nagród. Nie należy obiecywać dodatkowej wypłaty za samo podłączenie kanału. Migawka nie zawiera portfeli ani informacji, kto może obecnie głosować. Parametry economy opisują zgłoszenia i powitanie, a nie pełny cennik reakcji lub wymiany.",
+      "links": ["https://aimusicfuture.tv/jak-to-dziala", "https://aimusicfuture.tv/creator"]
+    },
+    {
+      "id": "shop",
+      "title": "Sklep, Formularz A-38 i Aleja Gwiazd",
+      "text": "Sklep i ekwipunek to odrębne miejsca: zakup przedmiotu nie oznacza jego wykorzystania. Sekcja shop zawiera migawkę ceny, aktywności oferty, zapasu i limitu posiadania dla Formularza A-38 oraz własnej gwiazdy. Formularz A-38 służy do zgłoszenia powtórki; nie traktuj samego zakupu jako potwierdzenia terminu emisji. Bieżący stan sklepu może się zmienić po eksporcie. Aleja Gwiazd prezentuje publicznie wyróżnionych twórców.",
+      "links": ["https://aimusicfuture.tv/creator/shop", "https://aimusicfuture.tv/creator/inventory", "https://aimusicfuture.tv/aleja-gwiazd"]
+    },
+    {
+      "id": "music",
+      "title": "Rankingi, poczekalnia, tagi i materiały promocyjne",
+      "text": "chart zawiera najwyżej 1000 pozycji z gotowej projekcji rankingu, bez ponownego przeliczania głosów. Zawsze podawaj datę migawki i, jeśli dostępna, datę aktualizacji rankingu. Poczekalnia to osobny etap życia utworu, nie ranking. Sekcja tags pozwala rozpoznać kategorie, gatunki i przypisania audycji; nie każdy tag jest gatunkiem. Oficjalne wyniki konkursu nie muszą odpowiadać późniejszemu rankingowi ogólnemu. Oprawę wizualną i opisy formatów wyszukuj w pakiecie marki, a postacie i fabułę w katalogu właściwego świata. Nie przenoś fabuły między MF TV i MF Creators tylko dlatego, że oba korzystają z tej samej mechaniki serwisu.",
+      "links": ["https://aimusicfuture.tv/lista", "https://aimusicfuture.tv/charts", "https://aimusicfuture.tv/zlote-emoji", "https://aimusicfuture.tv/poczekalnia", "https://aimusicfuture.tv/konkurs"]
+    }
+  ]
+}

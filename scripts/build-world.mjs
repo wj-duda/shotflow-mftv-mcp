@@ -2,6 +2,7 @@ import { mkdir, readFile, readdir, rm, stat, writeFile } from 'node:fs/promises'
 import path from 'node:path';
 import process from 'node:process';
 import sharp from 'sharp';
+import { prepareSystemData } from './system-data.mjs';
 
 const args = parseArgs(process.argv.slice(2));
 const repoRoot = path.resolve(import.meta.dirname, '..');
@@ -370,6 +371,8 @@ let publishedImages = 0;
 let convertedImages = 0;
 let reusedImages = 0;
 
+// Preflight before destructive cleanup. Shared data is outside per-world data/.
+const systemSnapshot = hasMftvBrand ? await prepareSystemData({ repoRoot, ...args }) : null;
 await cleanOutput();
 await writeStaticFiles();
 await buildResources();
@@ -393,6 +396,8 @@ const resourceTypes = [...resourceCatalogs.entries()]
 
 const index = {
   schemaVersion: 1,
+  ...(systemSnapshot ? { system: { url: `${publicationBaseUrl}/system/snapshot.json`, guideUrl: `${publicationBaseUrl}/system/guide.json`, generatedAt: systemSnapshot.generatedAt,
+    usage: 'Wspólna migawka MF TV i MF Creators. To nie są dane na żywo. Odświeżana wyłącznie przez --live-data.' } } : {}),
   generatedAt,
   universe: { id: universeId, name: worldDisplayName },
   world: { id: worldId, name: worldDisplayName },
@@ -400,6 +405,7 @@ const index = {
   usage: {
     purpose: 'Publiczny katalog świata ShotFlow dla ludzi i klientów MCP.',
     mcp: [
+      ...(hasMftvBrand ? ['Zasady serwisu i adresy stron wyszukuj przez get_system_guide; audycje, ranking, tagi i oferty przez get_last_data_snapshot. Dane są wspólne dla obu światów, ale nie łączą ich fabuły. Zawsze sprawdzaj generatedAt migawki.'] : []),
       ...(hasMftvBrand ? ['Pakiet marki pobieraj wyłącznie dla jawnych materiałów promocyjnych, plansz, logo, sloganów lub identyfikacji audycji.'] : []),
       'Pobierz searchUrl i wybierz tylko rekordy potrzebne do zadania.',
       'Przed ustaleniem wyglądu w danym momencie pobierz eventsUrl. Projekty są tam ułożone od najnowszych, a shoty wewnątrz projektu zgodnie z przebiegiem historii.',
@@ -1307,7 +1313,7 @@ function parseArgs(values) {
     const value = values[index];
     if (!value.startsWith('--')) throw new Error(`Nieznany argument: ${value}`);
     const key = value.slice(2).replace(/-([a-z])/g, (_, letter) => letter.toUpperCase());
-    if (key === 'onlyNew' || key === 'fullRebuild') {
+    if (key === 'onlyNew' || key === 'fullRebuild' || key === 'liveData') {
       parsed[key] = true;
       continue;
     }
