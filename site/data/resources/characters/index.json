@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-04T23:08:09.582Z",
+  "generatedAt": "2026-10-09T15:15:34.229Z",
   "worldId": "aimftv",
   "type": "characters",
   "label": "Postacie",
@@ -291,7 +291,7 @@
       "imageCount": 5,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/komisant/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/komisant.json",
-      "updatedAt": "2026-09-30T22:10:25.741Z"
+      "updatedAt": "2026-10-05T15:15:35+02:00"
     },
     {
       "key": "character:zosia",

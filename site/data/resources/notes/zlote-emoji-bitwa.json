@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-09T15:15:34.229Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "note:zlote-emoji-bitwa",
+  "type": "notes",
+  "id": "zlote-emoji-bitwa",
+  "name": "Złote Emoji — tryb bitwy i ceremonia nagród",
+  "description": "Złote Emoji w trybie bitwy pokazuje zmieniający się ranking wyłącznie utworów tej audycji, a nie ranking wszech czasów. Lista może liczyć np. 14, 15 lub 16 utworów. Głosy mogą powodować zarówno awans, jak i spadek; zmiany nie przestawiają kolejności odtwarzania. Po zakończeniu wszystkich utworów system utrwala końcowy wynik i lineup, następnie odbywa się ceremonia nagród i outro. Dopiero po nich audycja zostaje oznaczona jako zakończona. Nagrody wynikają z końcowych miejsc i konfiguracji audycji, nie z początkowej kolejności. Po awarii niedokończona ceremonia jest odtwarzana od początku.\n\nKWALIFIKACJA: najpierw zachowujemy najmocniejszego kandydata każdego kanału w całej puli, dopiero potem wybieramy TOP z każdej audycji źródłowej. Dla 5 audycji bierzemy po 3, dla 4 po 4, dla 3 po 5, dla 2 po 8, dla 1 do 15. Bez audycji źródłowych nie ma listy. Braki po deduplikacji uzupełniają najmocniejsi pozostali kandydaci niezależnie od dnia, o ile są dostępni. Wyniki wtorkowych powtórek pozostają skumulowane.\n\nKOLEJNOŚĆ I ZAPIS: ranking wynikowy jest uporządkowany 1→N. Lineup zachowuje konwencję N→1 (najsłabszy najpierw, zwycięzca ostatni). Po zakończeniu utworów tłumaczenie do lineupu odwraca kopię tablicy, nie bufor wyników wykorzystywany przez ceremonię. Wynik i zmiana kolejności są utrwalane wraz ze zdarzeniem battleFinalized; etapy ceremonii i outro także mają zdarzenia. Lokalny test bez zapisu symuluje ten przebieg i nie stanowi dowodu zapisu produkcyjnego.\n\nOPRAWA: kanoniczne referencje to prop:nagroda-zlote-emoji, prop:nagroda-bursztynowe-emoji i prop:nagroda-krysztalowe-emoji. Złota kołyska oznacza ramiona w geście zwycięstwa; czarny ekspozytor nie należy do nagrody. Kadry produktowe na jasnym tle pozostawiają miejsce na podpisy HTML: kanał największy, potem tytuł utworu, na końcu opis nagrody. Projekt Bitwa ma gotowe klatki Start/End; animowane filmy z tych nowych kadrów nie zostały jeszcze wygenerowane.",
+  "images": [],
+  "updatedAt": "2026-10-09T15:14:38Z"
+}

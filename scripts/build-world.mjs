@@ -166,7 +166,7 @@ const brandShows = hasMftvBrand ? [
     id: 'zlote-emoji', key: 'show:zlote-emoji', name: 'Złote Emoji', shortName: 'ZE',
     schedule: { day: 'niedziela', time: '19:30', timezone: 'Europe/Warsaw', recurrence: 'co tydzień' },
     summary: 'Finał i wyróżnienie utworów, które zebrały najmocniejsze reakcje emoji widzów.',
-    description: 'Złote Emoji to rankingowa formuła MFTV. Utwory zbierają reakcje emoji podczas emisji, a najmocniejsze wyniki mogą trafić do specjalnych bloków i listy przebojów AI Music Future TV.',
+    description: 'Złote Emoji w trybie bitwy pokazuje zmieniający się ranking wyłącznie utworów tej audycji, a nie ranking wszech czasów. Lista może liczyć np. 14, 15 lub 16 utworów. Głosy mogą powodować zarówno awans, jak i spadek; zmiany nie przestawiają kolejności odtwarzania. Po zakończeniu wszystkich utworów system utrwala końcowy wynik i lineup, następnie odbywa się ceremonia nagród i outro. Dopiero po nich audycja zostaje oznaczona jako zakończona. Nagrody wynikają z końcowych miejsc i konfiguracji audycji, nie z początkowej kolejności. Po awarii niedokończona ceremonia jest odtwarzana od początku.',
     audience: 'Dla widzów, którzy chcą współdecydować o widoczności utworów przez reakcje na czacie YouTube.',
     rules: ['To audycja rankingowa z widocznymi miejscami utworów.', 'O wyniku współdecydują reakcje emoji widzów zebrane podczas emisji.', 'Materiały promocyjne powinny jasno komunikować ranking, głosowanie i wynik społeczności.'],
   },

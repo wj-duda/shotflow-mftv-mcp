@@ -1,8 +1,14 @@
 {
   "schemaVersion": 1,
-  "verifiedAt": "2026-10-05",
+  "verifiedAt": "2026-10-09",
   "scope": "Podstawowe zasady i mapa serwisu, zweryfikowane w kodzie. Nie jest to pełna specyfikacja wszystkich reguł; bieżące liczby pochodzą z osobnej migawki.",
   "sections": [
+    {
+      "id": "battle",
+      "title": "Złote Emoji — tryb bitwy i nagrody",
+      "text": "Złote Emoji w trybie bitwy pokazuje zmieniający się ranking wyłącznie utworów tej audycji, a nie ranking wszech czasów. Lista może liczyć np. 14, 15 lub 16 utworów. Głosy mogą powodować zarówno awans, jak i spadek; zmiany nie przestawiają kolejności odtwarzania. Po zakończeniu wszystkich utworów system utrwala końcowy wynik i lineup, następnie odbywa się ceremonia nagród i outro. Dopiero po nich audycja zostaje oznaczona jako zakończona. Nagrody wynikają z końcowych miejsc i konfiguracji audycji, nie z początkowej kolejności. Po awarii niedokończona ceremonia jest odtwarzana od początku. Kanoniczne obrazy nagród znajdziesz w zasobach nagroda-zlote-emoji, nagroda-bursztynowe-emoji i nagroda-krysztalowe-emoji świata MF TV. Pełniejsze zasady kwalifikacji opisuje notatka zlote-emoji-bitwa. Tryb testowy bez zapisu nie utrwala wyników.",
+      "links": ["https://aimusicfuture.tv/zlote-emoji"]
+    },
     {
       "id": "navigation",
       "title": "Gdzie znaleźć informacje i funkcje",

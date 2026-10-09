@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-09T15:15:34.229Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:bitwa/czeslaw-tension",
+  "id": "czeslaw-tension",
+  "title": "czeslaw-tension",
+  "description": "",
+  "project": {
+    "id": "bitwa",
+    "key": "project:bitwa",
+    "name": "Bitwa",
+    "createdAt": "2026-10-09T15:09:55.335Z"
+  },
+  "chronology": {
+    "projectKey": "project:bitwa",
+    "projectCreatedAt": "2026-10-09T15:09:55.335Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 3,
+    "lastSequence": 6,
+    "occurrences": [
+      3,
+      6
+    ],
+    "sequenceTotal": 6,
+    "uniqueShotCount": 4,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [],
+  "referenceUsage": {
+    "declared": [],
+    "activeFrames": [],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "",
+    "endFrameDescription": "",
+    "animation": ""
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "placeholder",
+  "images": []
+}

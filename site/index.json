@@ -1,6 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-04T23:08:09.582Z",
+  "system": {
+    "url": "https://wj-duda.github.io/shotflow-mftv-mcp/system/snapshot.json",
+    "guideUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/system/guide.json",
+    "generatedAt": "2026-10-05T13:07:05.733Z",
+    "usage": "Wspólna migawka MF TV i MF Creators. To nie są dane na żywo. Odświeżana wyłącznie przez --live-data."
+  },
+  "generatedAt": "2026-10-09T15:15:34.229Z",
   "universe": {
     "id": "mf-tv",
     "name": "Świat MF TV"
@@ -13,6 +19,7 @@
   "usage": {
     "purpose": "Publiczny katalog świata ShotFlow dla ludzi i klientów MCP.",
     "mcp": [
+      "Zasady serwisu i adresy stron wyszukuj przez get_system_guide; audycje, ranking, tagi i oferty przez get_last_data_snapshot. Dane są wspólne dla obu światów, ale nie łączą ich fabuły. Zawsze sprawdzaj generatedAt migawki.",
       "Pakiet marki pobieraj wyłącznie dla jawnych materiałów promocyjnych, plansz, logo, sloganów lub identyfikacji audycji.",
       "Pobierz searchUrl i wybierz tylko rekordy potrzebne do zadania.",
       "Przed ustaleniem wyglądu w danym momencie pobierz eventsUrl. Projekty są tam ułożone od najnowszych, a shoty wewnątrz projektu zgodnie z przebiegiem historii.",
@@ -22,10 +29,10 @@
     ]
   },
   "counts": {
-    "resources": 103,
-    "projects": 22,
-    "shots": 378,
-    "images": 553
+    "resources": 107,
+    "projects": 23,
+    "shots": 385,
+    "images": 562
   },
   "brand": {
     "key": "brand:aimftv",
@@ -356,7 +363,7 @@
           "recurrence": "co tydzień"
         },
         "summary": "Finał i wyróżnienie utworów, które zebrały najmocniejsze reakcje emoji widzów.",
-        "description": "Złote Emoji to rankingowa formuła MFTV. Utwory zbierają reakcje emoji podczas emisji, a najmocniejsze wyniki mogą trafić do specjalnych bloków i listy przebojów AI Music Future TV.",
+        "description": "Złote Emoji w trybie bitwy pokazuje zmieniający się ranking wyłącznie utworów tej audycji, a nie ranking wszech czasów. Lista może liczyć np. 14, 15 lub 16 utworów. Głosy mogą powodować zarówno awans, jak i spadek; zmiany nie przestawiają kolejności odtwarzania. Po zakończeniu wszystkich utworów system utrwala końcowy wynik i lineup, następnie odbywa się ceremonia nagród i outro. Dopiero po nich audycja zostaje oznaczona jako zakończona. Nagrody wynikają z końcowych miejsc i konfiguracji audycji, nie z początkowej kolejności. Po awarii niedokończona ceremonia jest odtwarzana od początku.",
         "audience": "Dla widzów, którzy chcą współdecydować o widoczności utworów przez reakcje na czacie YouTube.",
         "rules": [
           "To audycja rankingowa z widocznymi miejscami utworów.",
@@ -681,7 +688,7 @@
       {
         "type": "notes",
         "label": "Notatki",
-        "count": 17,
+        "count": 18,
         "url": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/index.json"
       },
       {
@@ -693,12 +700,12 @@
       {
         "type": "props",
         "label": "Rekwizyty",
-        "count": 34,
+        "count": 37,
         "url": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/index.json"
       }
     ],
     "projects": {
-      "count": 22,
+      "count": 23,
       "url": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/index.json"
     },
     "brand": {

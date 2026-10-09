@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-09T15:15:34.229Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "prop:nagroda-zlote-emoji",
+  "type": "props",
+  "id": "nagroda-zlote-emoji",
+  "name": "Złote Emoji",
+  "description": "Kanoniczna statuetka zatwierdzona 2026-10-09: złoty medal, gwiezdne oczy i uśmiech, złota kołyska symbolizująca ramiona w geście zwycięstwa. Czarny ekspozytor NIE jest częścią statuetki. Kanoniczna referencja wizualna: zatwierdzony kadr produktowy image-002.png z projektu Bitwa (nagroda-zlote-petla, Start v001), 1920×1080. Jasne neutralne tło i pusta prawa połowa służą prezentacji z podpisami HTML; nie są elementami statuetki. Poprzedni wycięty obraz zachowano lokalnie jako images/image-001.png, poza aktywnym slotem.",
+  "images": [
+    {
+      "id": "image-002",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/nagroda-zlote-emoji/image-002.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/nagroda-zlote-emoji/image-002-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-10-09T15:14:38Z"
+}

@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-09T15:15:34.229Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:bitwa/nagroda-zlote-petla",
+  "id": "nagroda-zlote-petla",
+  "title": "Złote Emoji — prezentacja",
+  "description": "Nieruchoma nagroda po lewej na jasnym neutralnym tle; prawa połowa pod HTML. Start i End identyczne dla pętli samej poświaty. Planowana długość pojedynczej pętli: 72 klatki przy 24 fps; jeszcze poza timeline.",
+  "project": {
+    "id": "bitwa",
+    "key": "project:bitwa",
+    "name": "Bitwa",
+    "createdAt": "2026-10-09T15:09:55.335Z"
+  },
+  "chronology": {
+    "projectKey": "project:bitwa",
+    "projectCreatedAt": "2026-10-09T15:09:55.335Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": false,
+    "canonicalEvent": false,
+    "sequence": null,
+    "lastSequence": null,
+    "occurrences": [],
+    "sequenceTotal": 6,
+    "uniqueShotCount": 4,
+    "sequenceOrder": null,
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This project material is not present on the saved timeline, so it must not override canonical timeline events by date alone."
+  },
+  "references": [
+    {
+      "type": "prop",
+      "id": "nagroda-zlote-emoji"
+    },
+    {
+      "type": "shot",
+      "id": "nagroda-zlote-petla"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "prop:nagroda-zlote-emoji",
+        "key": "prop:nagroda-zlote-emoji",
+        "type": "prop",
+        "id": "nagroda-zlote-emoji",
+        "name": "Złote Emoji",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/nagroda-zlote-emoji.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:nagroda-zlote-petla",
+        "key": "shot:bitwa/nagroda-zlote-petla",
+        "type": "shot",
+        "id": "nagroda-zlote-petla",
+        "name": "Złote Emoji — prezentacja",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/bitwa/shots/nagroda-zlote-petla.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "prop:nagroda-zlote-emoji"
+        ],
+        "references": [
+          {
+            "sourceKey": "prop:nagroda-zlote-emoji",
+            "key": "prop:nagroda-zlote-emoji",
+            "type": "prop",
+            "id": "nagroda-zlote-emoji",
+            "name": "Złote Emoji",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/nagroda-zlote-emoji.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      },
+      {
+        "frameId": "frame-end",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:nagroda-zlote-petla"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:nagroda-zlote-petla",
+            "key": "shot:bitwa/nagroda-zlote-petla",
+            "type": "shot",
+            "id": "nagroda-zlote-petla",
+            "name": "Złote Emoji — prezentacja",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/bitwa/shots/nagroda-zlote-petla.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Create a cinematic 16:9 landscape product presentation frame, 1920x1080 composition, for a weekly award video with future HTML text overlays. Reference image is the binding canonical golden emoji TROPHY: circular thick gold medal, raised four-point star eyes, open smiling mouth and curved gold cradle resembling two victory arms. Preserve exact geometry, proportions and face; no black pedestal or additional base. Place the complete trophy on a seamless matte off-white studio floor/background, no horizon, positioned centered at x=28% of canvas width, bottom at y=83%, top near y=20%, entirely within left 47%. Right half is clean empty off-white negative space for channel name and song title added later. Near-frontal view with mild 10 degree angle, locked eye-level product camera and long lens. Premium realistic polished gold, broad softbox highlights, soft contact shadow directly beneath the gold cradle, restrained warm halo close to sculpture only. Neutral bright white-to-pale-grey backdrop, subtle depth, no architecture, no curtains, no people, no text, no logos, no extra objects, no particles, no sparkles floating around. Beauty still, physically believable and faithful to reference. Background must be opaque. Do not center the trophy across full canvas; preserve the large blank RIGHT half.",
+    "endFrameDescription": "Identyczny kadr końcowy. Kamera i bryła bez zmian; planowana zmiana poświaty wyłącznie wewnątrz przyszłej animacji.",
+    "animation": ""
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "prop:nagroda-zlote-emoji"
+      ],
+      "references": [
+        {
+          "sourceKey": "prop:nagroda-zlote-emoji",
+          "key": "prop:nagroda-zlote-emoji",
+          "type": "prop",
+          "id": "nagroda-zlote-emoji",
+          "name": "Złote Emoji",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/nagroda-zlote-emoji.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-09T15:09:55.335815+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "prop:nagroda-zlote-emoji"
+          ],
+          "references": [
+            {
+              "sourceKey": "prop:nagroda-zlote-emoji",
+              "key": "prop:nagroda-zlote-emoji",
+              "type": "prop",
+              "id": "nagroda-zlote-emoji",
+              "name": "Złote Emoji",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/nagroda-zlote-emoji.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/bitwa/shots/nagroda-zlote-petla/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/bitwa/shots/nagroda-zlote-petla/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "role": "frame-end",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:nagroda-zlote-petla"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:nagroda-zlote-petla",
+          "key": "shot:bitwa/nagroda-zlote-petla",
+          "type": "shot",
+          "id": "nagroda-zlote-petla",
+          "name": "Złote Emoji — prezentacja",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/bitwa/shots/nagroda-zlote-petla.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-09T15:09:56.437475+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:nagroda-zlote-petla"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:nagroda-zlote-petla",
+              "key": "shot:bitwa/nagroda-zlote-petla",
+              "type": "shot",
+              "id": "nagroda-zlote-petla",
+              "name": "Złote Emoji — prezentacja",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/bitwa/shots/nagroda-zlote-petla.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/bitwa/shots/nagroda-zlote-petla/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/bitwa/shots/nagroda-zlote-petla/frame-end-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

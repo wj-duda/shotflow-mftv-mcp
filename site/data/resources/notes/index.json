@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-04T23:08:09.582Z",
+  "generatedAt": "2026-10-09T15:15:34.229Z",
   "worldId": "aimftv",
   "type": "notes",
   "label": "Notatki",
@@ -208,6 +208,18 @@
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/ze14-kanon-domu-kultury/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze14-kanon-domu-kultury.json",
       "updatedAt": "2026-09-27T01:00:55.238Z"
+    },
+    {
+      "key": "note:zlote-emoji-bitwa",
+      "kind": "resource",
+      "type": "notes",
+      "id": "zlote-emoji-bitwa",
+      "name": "Złote Emoji — tryb bitwy i ceremonia nagród",
+      "summary": "Złote Emoji w trybie bitwy pokazuje zmieniający się ranking wyłącznie utworów tej audycji, a nie ranking wszech czasów. Lista może liczyć np. 14, 15 lub 16 utworów. Głosy mogą powodować zarówno awans, jak i spadek; zmiany nie przestawiają kolejności odtwarzania. Po zakończeniu w…",
+      "imageCount": 0,
+      "thumbnailUrl": null,
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/zlote-emoji-bitwa.json",
+      "updatedAt": "2026-10-09T15:14:38Z"
     }
   ]
 }
