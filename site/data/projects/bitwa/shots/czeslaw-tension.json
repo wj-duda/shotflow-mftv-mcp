@@ -1,12 +1,12 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-09T15:15:34.229Z",
+  "generatedAt": "2026-10-29T11:52:39.792Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:bitwa/czeslaw-tension",
   "id": "czeslaw-tension",
   "title": "czeslaw-tension",
-  "description": "",
+  "description": "Czesław trzyma kopertę, ujęcie z góry na ciemnej scenie ze złotym światłem. Budowanie napięcia.",
   "project": {
     "id": "bitwa",
     "key": "project:bitwa",
@@ -20,13 +20,14 @@
     "onTimeline": true,
     "canonicalEvent": true,
     "sequence": 3,
-    "lastSequence": 6,
+    "lastSequence": 17,
     "occurrences": [
       3,
-      6
+      10,
+      17
     ],
-    "sequenceTotal": 6,
-    "uniqueShotCount": 4,
+    "sequenceTotal": 27,
+    "uniqueShotCount": 7,
     "sequenceOrder": "oldest-to-newest timeline clip order",
     "sequenceSource": "workspace timeline",
     "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
@@ -34,11 +35,19 @@
   "references": [],
   "referenceUsage": {
     "declared": [],
-    "activeFrames": [],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [],
+        "references": [],
+        "sourceReference": null
+      }
+    ],
     "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
   },
   "prompts": {
-    "image": "",
+    "image": "Import wcześniej wygenerowanego i zaakceptowanego kadru z rozmowy (2026-10-08). Bez nowej generacji. Pierwotny prompt nie jest dostępny w manifeście. Normalizacja proporcjonalna do 1920x1080 z minimalnym centralnym przycięciem.",
     "endFrameDescription": "",
     "animation": ""
   },
@@ -47,6 +56,31 @@
     "width": 1920,
     "height": 1080
   },
-  "frameStatus": "placeholder",
-  "images": []
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [],
+      "references": [],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-11T11:03:56.823601+00:00",
+          "source": "generated",
+          "referenceKeys": [],
+          "references": [],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/bitwa/shots/czeslaw-tension/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/bitwa/shots/czeslaw-tension/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
 }

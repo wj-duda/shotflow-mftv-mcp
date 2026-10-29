@@ -55,8 +55,8 @@ Wymaga istniejącej sesji wskazanego konta Firebase CLI. Przy HTTP 401 odśwież
 komendą `npx firebase projects:list --account=wojtek.duda@gmail.com --json`
 z `atv/panel/functions`, a następnie ponów eksport. Sekrety nie są publikowane.
 
-Zakres: maks. 10 gotowych stron TOP1000, tagi, dwa parametry ekonomii, dwie
-oferty sklepu, publiczne transmisje z poprzedniego i bieżącego tygodnia
+Zakres: maks. 10 gotowych stron TOP1000, tagi, dwa parametry ekonomii, trzy
+oferty sklepu (A-38, Gwiazda z Odzysku, Paczka dla Mariana), publiczne transmisje z poprzedniego i bieżącego tygodnia
 kalendarzowego Europe/Warsaw według daty planowanej, ich ukończone odtworzenia.
 Limity: 64 kandydatów na transmisje, 300 ukończeń na transmisję, 2000 łącznie,
 84 żądania Firestore. Zapytania pobierają tylko wskazane pola. Przekroczenie

@@ -1,12 +1,12 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-09T15:15:34.229Z",
+  "generatedAt": "2026-10-29T11:52:39.792Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:bitwa/nagroda-zlote-petla",
   "id": "nagroda-zlote-petla",
   "title": "Złote Emoji — prezentacja",
-  "description": "Nieruchoma nagroda po lewej na jasnym neutralnym tle; prawa połowa pod HTML. Start i End identyczne dla pętli samej poświaty. Planowana długość pojedynczej pętli: 72 klatki przy 24 fps; jeszcze poza timeline.",
+  "description": "Siatka kompozycyjna 3×3: mniejsza nagroda w prawej 1/3 kadru, około środka wysokości; lewe 2/3 puste pod kanał i tytuł HTML. Neutralne jasne tło. Start i End identyczne pod przyszłą pętlę poświaty. Montaż, długości i audio bez zmian.",
   "project": {
     "id": "bitwa",
     "key": "project:bitwa",
@@ -17,16 +17,27 @@
     "projectKey": "project:bitwa",
     "projectCreatedAt": "2026-10-09T15:09:55.335Z",
     "projectOrder": "newest-first outside the project",
-    "onTimeline": false,
-    "canonicalEvent": false,
-    "sequence": null,
-    "lastSequence": null,
-    "occurrences": [],
-    "sequenceTotal": 6,
-    "uniqueShotCount": 4,
-    "sequenceOrder": null,
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 18,
+    "lastSequence": 27,
+    "occurrences": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "sequenceTotal": 27,
+    "uniqueShotCount": 7,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
     "sequenceSource": "workspace timeline",
-    "stateRule": "This project material is not present on the saved timeline, so it must not override canonical timeline events by date alone."
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
   },
   "references": [
     {
@@ -64,19 +75,19 @@
     "activeFrames": [
       {
         "frameId": "frame-start",
-        "revision": 1,
+        "revision": 2,
         "referenceKeys": [
-          "prop:nagroda-zlote-emoji"
+          "shot:nagroda-zlote-petla"
         ],
         "references": [
           {
-            "sourceKey": "prop:nagroda-zlote-emoji",
-            "key": "prop:nagroda-zlote-emoji",
-            "type": "prop",
-            "id": "nagroda-zlote-emoji",
-            "name": "Złote Emoji",
-            "relationship": "world-entity-identity",
-            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/nagroda-zlote-emoji.json",
+            "sourceKey": "shot:nagroda-zlote-petla",
+            "key": "shot:bitwa/nagroda-zlote-petla",
+            "type": "shot",
+            "id": "nagroda-zlote-petla",
+            "name": "Złote Emoji — prezentacja",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/bitwa/shots/nagroda-zlote-petla.json",
             "exists": true
           }
         ],
@@ -84,7 +95,7 @@
       },
       {
         "frameId": "frame-end",
-        "revision": 1,
+        "revision": 3,
         "referenceKeys": [
           "shot:nagroda-zlote-petla"
         ],
@@ -106,9 +117,9 @@
     "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
   },
   "prompts": {
-    "image": "Create a cinematic 16:9 landscape product presentation frame, 1920x1080 composition, for a weekly award video with future HTML text overlays. Reference image is the binding canonical golden emoji TROPHY: circular thick gold medal, raised four-point star eyes, open smiling mouth and curved gold cradle resembling two victory arms. Preserve exact geometry, proportions and face; no black pedestal or additional base. Place the complete trophy on a seamless matte off-white studio floor/background, no horizon, positioned centered at x=28% of canvas width, bottom at y=83%, top near y=20%, entirely within left 47%. Right half is clean empty off-white negative space for channel name and song title added later. Near-frontal view with mild 10 degree angle, locked eye-level product camera and long lens. Premium realistic polished gold, broad softbox highlights, soft contact shadow directly beneath the gold cradle, restrained warm halo close to sculpture only. Neutral bright white-to-pale-grey backdrop, subtle depth, no architecture, no curtains, no people, no text, no logos, no extra objects, no particles, no sparkles floating around. Beauty still, physically believable and faithful to reference. Background must be opaque. Do not center the trophy across full canvas; preserve the large blank RIGHT half.",
-    "endFrameDescription": "Identyczny kadr końcowy. Kamera i bryła bez zmian; planowana zmiana poświaty wyłącznie wewnątrz przyszłej animacji.",
-    "animation": ""
+    "image": "Use case: precise-object-edit. Edit the supplied 16:9 award presentation frame. Change ONLY scale and position of the existing trophy and its contact shadow. Preserve EXACT trophy geometry, star eyes, smile, gold cradle, viewpoint, materials, lighting, opaque seamless off-white background. New rule-of-thirds layout: the complete trophy must fit entirely in the RIGHT THIRD, with bounding box approximately x=73% to 94% and y=32% to 68%. Center at x=83.5%, y=50%. This is a much smaller trophy, roughly 36% of frame height, NOT a large closeup. All of the LEFT TWO THIRDS (x=0 to 67%) must remain absolutely empty seamless off-white, reserved for future channel name and song title. No writing, no guides or grid lines, no additional objects. Move the soft contact shadow with the trophy to its base at y=68%; no old shadow on the left. Keep 16:9 landscape. Do not mirror the trophy or change its design. No pedestal.",
+    "endFrameDescription": "Identyczny z nowym Start Frame: mniejsza nagroda w prawej kolumnie, lewe 2/3 puste.",
+    "animation": "0.0–1.5s: only the warm gold halo immediately around the stationary award slowly brightens in one smooth, restrained pulse; local reflections brighten with it. 1.5–3.0s: the halo smoothly returns to the exact starting illumination, matching the supplied End Frame for a seamless loop. Camera: completely locked, no zoom or drift. Secondary: a few pre-existing airborne microscopic dust motes drift gently within the halo, becoming barely visible in its light and invisible again as it dims; no particle emitter or bursts. Continuity: freeze the award's position, scale, star eyes, smile and gold cradle, contact shadow and framing. Keep the left two-thirds blank and the background exposure constant. Avoid new objects, text, glitter stars, smoke, sparks, morphing, rotation, cuts or whole-frame fading."
   },
   "media": {
     "fps": 24,
@@ -120,20 +131,20 @@
     {
       "id": "frame-start",
       "role": "frame-start",
-      "revision": 1,
+      "revision": 2,
       "source": "generated",
       "referenceKeys": [
-        "prop:nagroda-zlote-emoji"
+        "shot:nagroda-zlote-petla"
       ],
       "references": [
         {
-          "sourceKey": "prop:nagroda-zlote-emoji",
-          "key": "prop:nagroda-zlote-emoji",
-          "type": "prop",
-          "id": "nagroda-zlote-emoji",
-          "name": "Złote Emoji",
-          "relationship": "world-entity-identity",
-          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/nagroda-zlote-emoji.json",
+          "sourceKey": "shot:nagroda-zlote-petla",
+          "key": "shot:bitwa/nagroda-zlote-petla",
+          "type": "shot",
+          "id": "nagroda-zlote-petla",
+          "name": "Złote Emoji — prezentacja",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/bitwa/shots/nagroda-zlote-petla.json",
           "exists": true
         }
       ],
@@ -159,6 +170,27 @@
             }
           ],
           "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-10-11T11:21:34.868247+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:nagroda-zlote-petla"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:nagroda-zlote-petla",
+              "key": "shot:bitwa/nagroda-zlote-petla",
+              "type": "shot",
+              "id": "nagroda-zlote-petla",
+              "name": "Złote Emoji — prezentacja",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/bitwa/shots/nagroda-zlote-petla.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
         }
       ],
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/bitwa/shots/nagroda-zlote-petla/frame-start.webp",
@@ -170,7 +202,7 @@
     {
       "id": "frame-end",
       "role": "frame-end",
-      "revision": 1,
+      "revision": 3,
       "source": "generated",
       "referenceKeys": [
         "shot:nagroda-zlote-petla"
@@ -192,6 +224,27 @@
         {
           "revision": 1,
           "createdAt": "2026-10-09T15:09:56.437475+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:nagroda-zlote-petla"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:nagroda-zlote-petla",
+              "key": "shot:bitwa/nagroda-zlote-petla",
+              "type": "shot",
+              "id": "nagroda-zlote-petla",
+              "name": "Złote Emoji — prezentacja",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/bitwa/shots/nagroda-zlote-petla.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 3,
+          "createdAt": "2026-10-11T11:21:59.169164+00:00",
           "source": "generated",
           "referenceKeys": [
             "shot:nagroda-zlote-petla"

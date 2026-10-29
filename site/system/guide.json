@@ -1,49 +1,96 @@
 {
   "schemaVersion": 1,
-  "verifiedAt": "2026-10-09",
+  "verifiedAt": "2026-10-29",
   "scope": "Podstawowe zasady i mapa serwisu, zweryfikowane w kodzie. Nie jest to pełna specyfikacja wszystkich reguł; bieżące liczby pochodzą z osobnej migawki.",
   "sections": [
     {
       "id": "battle",
       "title": "Złote Emoji — tryb bitwy i nagrody",
       "text": "Złote Emoji w trybie bitwy pokazuje zmieniający się ranking wyłącznie utworów tej audycji, a nie ranking wszech czasów. Lista może liczyć np. 14, 15 lub 16 utworów. Głosy mogą powodować zarówno awans, jak i spadek; zmiany nie przestawiają kolejności odtwarzania. Po zakończeniu wszystkich utworów system utrwala końcowy wynik i lineup, następnie odbywa się ceremonia nagród i outro. Dopiero po nich audycja zostaje oznaczona jako zakończona. Nagrody wynikają z końcowych miejsc i konfiguracji audycji, nie z początkowej kolejności. Po awarii niedokończona ceremonia jest odtwarzana od początku. Kanoniczne obrazy nagród znajdziesz w zasobach nagroda-zlote-emoji, nagroda-bursztynowe-emoji i nagroda-krysztalowe-emoji świata MF TV. Pełniejsze zasady kwalifikacji opisuje notatka zlote-emoji-bitwa. Tryb testowy bez zapisu nie utrwala wyników.",
-      "links": ["https://aimusicfuture.tv/zlote-emoji"]
+      "links": [
+        "https://aimusicfuture.tv/zlote-emoji"
+      ]
     },
     {
       "id": "navigation",
       "title": "Gdzie znaleźć informacje i funkcje",
       "text": "MF TV prezentuje muzykę twórców AI. Publiczne strony pozwalają poznać audycje, utwory i zasady. Panel twórcy, sklep i ekwipunek wymagają zalogowania; publiczna wtyczka nie pokazuje prywatnych kont, sald ani zgłoszeń użytkownika.",
-      "links": ["https://aimusicfuture.tv/", "https://aimusicfuture.tv/jak-to-dziala", "https://aimusicfuture.tv/faq", "https://aimusicfuture.tv/ramowka", "https://aimusicfuture.tv/creator", "https://aimusicfuture.tv/creator/shop", "https://aimusicfuture.tv/creator/inventory"]
+      "links": [
+        "https://aimusicfuture.tv/",
+        "https://aimusicfuture.tv/jak-to-dziala",
+        "https://aimusicfuture.tv/faq",
+        "https://aimusicfuture.tv/ramowka",
+        "https://aimusicfuture.tv/creator",
+        "https://aimusicfuture.tv/creator/shop",
+        "https://aimusicfuture.tv/creator/inventory"
+      ]
     },
     {
       "id": "broadcasts",
       "title": "Audycje, ramówka i przerwane transmisje",
       "text": "Ramówka opisuje formaty audycji. Konkretne transmisje z datami, tytułami i linkami YouTube odczytuj z sekcji broadcasts. Eksport obejmuje poprzedni i bieżący tydzień kalendarzowy Europe/Warsaw według scheduledStartAt. Publikuje wyłącznie transmisje oznaczone jako publiczne. Części przerwanej audycji są osobnymi broadcastami: nie łącz ich wyników ani list na podstawie podobnego tytułu. Szczegóły broadcast zawierają ukończone odtworzenia, nie planowane utwory. atSec to czas ukończenia, nie początek rozdziału YouTube. Brak zapisanych ukończeń nie dowodzi braku emisji.",
-      "links": ["https://aimusicfuture.tv/ramowka"]
+      "links": [
+        "https://aimusicfuture.tv/ramowka"
+      ]
     },
     {
       "id": "submissions",
       "title": "Zgłoszenia, opłaty i zwroty",
       "text": "Nowe zgłoszenie wymaga uszu. Aktualny koszt odczytaj z economy.submissionCostEars, nie z historycznego materiału promocyjnego. Zgłoszenia podlegają weryfikacji i zasadom publikacji. Przy odrzuceniu płatnego zgłoszenia istnieje mechanizm zwrotu faktycznie pobranej opłaty z ochroną przed ponownym zwrotem. Odrzucenie i cofnięcie zgody nie są tym samym stanem. Pakiet powitalny jest jednorazowy, a nie odnawiany co tydzień. Aktualny kod odejmuje koszt wcześniejszych unikalnych zgłoszeń, także odrzuconych: max(0, welcomeGrantEars - liczbaZgłoszeń * submissionCostEars). Historyczna naprawa sald nie oznacza zmiany tej reguły w przyszłości.",
-      "links": ["https://aimusicfuture.tv/creator", "https://aimusicfuture.tv/regulamin-zgloszen", "https://aimusicfuture.tv/poczekalnia"]
+      "links": [
+        "https://aimusicfuture.tv/creator",
+        "https://aimusicfuture.tv/regulamin-zgloszen",
+        "https://aimusicfuture.tv/poczekalnia"
+      ]
     },
     {
       "id": "economy",
       "title": "Zasoby, głosowanie i konto kanału",
-      "text": "Ekonomia rozróżnia uszy, czaszki, serca, klejnoty i runy. Zasoby są związane z kanałem YouTube. Aktywność podczas głosowania i reakcje na utwory twórców są rozliczane przez system ekonomii; samo zalogowanie nie oznacza ponownego naliczenia wcześniejszych nagród. Nie należy obiecywać dodatkowej wypłaty za samo podłączenie kanału. Migawka nie zawiera portfeli ani informacji, kto może obecnie głosować. Parametry economy opisują zgłoszenia i powitanie, a nie pełny cennik reakcji lub wymiany.",
-      "links": ["https://aimusicfuture.tv/jak-to-dziala", "https://aimusicfuture.tv/creator"]
+      "text": "Ekonomia rozróżnia uszy, czaszki, serca, klejnoty i runy. Zasoby są związane z kanałem YouTube. Aktywność podczas głosowania i reakcje na utwory twórców są rozliczane przez system ekonomii; samo zalogowanie nie oznacza ponownego naliczenia wcześniejszych nagród. Nie należy obiecywać dodatkowej wypłaty za samo podłączenie kanału. Migawka nie zawiera portfeli ani informacji, kto może obecnie głosować. Parametry economy opisują zgłoszenia i powitanie, a nie pełny cennik reakcji lub wymiany. Przygotowane oceny pre-marian nie przyznają uszu za akt głosowania. Zastąpienie ich oceną oddaną na żywo jest zwykłym głosowaniem i podlega normalnemu naliczeniu uszu.",
+      "links": [
+        "https://aimusicfuture.tv/jak-to-dziala",
+        "https://aimusicfuture.tv/creator"
+      ]
     },
     {
       "id": "shop",
-      "title": "Sklep, Formularz A-38 i Aleja Gwiazd",
-      "text": "Sklep i ekwipunek to odrębne miejsca: zakup przedmiotu nie oznacza jego wykorzystania. Sekcja shop zawiera migawkę ceny, aktywności oferty, zapasu i limitu posiadania dla Formularza A-38 oraz własnej gwiazdy. Formularz A-38 służy do zgłoszenia powtórki; nie traktuj samego zakupu jako potwierdzenia terminu emisji. Bieżący stan sklepu może się zmienić po eksporcie. Aleja Gwiazd prezentuje publicznie wyróżnionych twórców.",
-      "links": ["https://aimusicfuture.tv/creator/shop", "https://aimusicfuture.tv/creator/inventory", "https://aimusicfuture.tv/aleja-gwiazd"]
+      "title": "Sklep, Formularz A-38, Paczka dla Mariana i Aleja Gwiazd",
+      "text": "Sklep i ekwipunek to odrębne miejsca: zakup przedmiotu nie oznacza jego wykorzystania. Sekcja shop zawiera migawkę ceny, aktywności oferty, zapasu i limitu posiadania dla Formularza A-38, Gwiazdy z Odzysku oraz Paczki dla Mariana. Formularz A-38 służy do zgłoszenia powtórki; nie traktuj samego zakupu jako potwierdzenia terminu emisji. Bieżący stan sklepu może się zmienić po eksporcie. Aleja Gwiazd prezentuje publicznie wyróżnionych twórców.",
+      "links": [
+        "https://aimusicfuture.tv/creator/shop",
+        "https://aimusicfuture.tv/creator/inventory",
+        "https://aimusicfuture.tv/aleja-gwiazd"
+      ]
     },
     {
       "id": "music",
       "title": "Rankingi, poczekalnia, tagi i materiały promocyjne",
       "text": "chart zawiera najwyżej 1000 pozycji z gotowej projekcji rankingu, bez ponownego przeliczania głosów. Zawsze podawaj datę migawki i, jeśli dostępna, datę aktualizacji rankingu. Poczekalnia to osobny etap życia utworu, nie ranking. Sekcja tags pozwala rozpoznać kategorie, gatunki i przypisania audycji; nie każdy tag jest gatunkiem. Oficjalne wyniki konkursu nie muszą odpowiadać późniejszemu rankingowi ogólnemu. Oprawę wizualną i opisy formatów wyszukuj w pakiecie marki, a postacie i fabułę w katalogu właściwego świata. Nie przenoś fabuły między MF TV i MF Creators tylko dlatego, że oba korzystają z tej samej mechaniki serwisu.",
-      "links": ["https://aimusicfuture.tv/lista", "https://aimusicfuture.tv/charts", "https://aimusicfuture.tv/zlote-emoji", "https://aimusicfuture.tv/poczekalnia", "https://aimusicfuture.tv/konkurs"]
+      "links": [
+        "https://aimusicfuture.tv/lista",
+        "https://aimusicfuture.tv/charts",
+        "https://aimusicfuture.tv/zlote-emoji",
+        "https://aimusicfuture.tv/poczekalnia",
+        "https://aimusicfuture.tv/konkurs"
+      ]
+    },
+    {
+      "id": "marian",
+      "title": "Paczka dla Mariana — wcześniejsze oceny i publiczny podpis",
+      "text": "Paczka dla Mariana pozwala przygotować oceny utworów na jedną przyszłą audycję z głosowaniem, poza trybem bitwy. Kupuje się ją u Włodka; cenę i dostępność odczytuj z oferty marian-package w aktualnej migawce shop, nie z lore. W rozmowie wybiera się audycję, odsłuchuje utwory i układa od 1 do 10 emotek na utwór albo go pomija. Własnych utworów nie można oceniać. Otwarcie rozmowy nie zużywa paczki. Dopiero końcowy zapis zapisuje całą rozpiskę i zużywa jedną paczkę; ponowne zapisy przed rozpoczęciem audycji zastępują wcześniejszą rozpiskę bez zużycia następnej. Pominięcie wcześniej ocenionego utworu czyści ocenę w edytowanej rozpisce; usunięcie z bazy następuje po końcowym zapisie. Przed zapisem zmiany nie są automatycznie utrwalane. Powrót odbywa się przez Moje rozpiski z Marianem w ekwipunku. Głosy mają znacznik pre-marian; podczas emisji wyświetlane są jako Marian, ale wewnętrznie należą do rzeczywistego konta i podlegają zwykłym limitom oraz zastępowaniu głosu. Nie przyznają uszu za przygotowanie. Późniejsza ocena na żywo normalnie zastępuje wcześniejszą i może naliczyć uszy. Pozycje przygotowanych głosów są przydzielane podczas zapisu dla wszystkich głosujących na dany utwór: kolejno 1/2, 1/4, 3/4, 1/8, 3/8, 5/8, 7/8 itd. Jedna rozpisana ocena utworu tworzy jeden pill, niezależnie od liczby emotek. Edycja zachowuje przydzieloną pozycję. Fabularnie paczka jest pomocą dla Mariana, który odwdzięcza się przysługą; nie mówi o cenniku i opłatach. Publiczna migawka MCP nie zawiera prywatnych rozpisek ani tożsamości głosujących.",
+      "links": [
+        "https://aimusicfuture.tv/creator/shop",
+        "https://aimusicfuture.tv/creator/inventory"
+      ]
+    },
+    {
+      "id": "mcp-data-tools",
+      "title": "Narzędzia MCP: przewodnik i migawka danych",
+      "text": "get_system_guide bez parametrów podaje indeks sekcji, z id zwraca sekcję, a query wyszukuje zasady i adresy. get_last_data_snapshot udostępnia sekcje overview, broadcasts, broadcast (wymaga id), chart, tags, economy i shop; query filtruje listy, limit wynosi maksymalnie 50, offset wybiera stronę. To wyłącznie odczyt opublikowanych plików, nie zapytanie na żywo do Firestore. Zawsze uwzględniaj generatedAt lub verifiedAt. Brak pozycji w ograniczonej migawce nie dowodzi jej nieistnienia. Źródła: system/guide.json i system/snapshot.json. Te dwa narzędzia współdzielą dane serwisu MF TV i MF Creators, ale nie łączą lore światów. Osobne, uwierzytelnione funkcje aplikacji listMarianBroadcasts, getMarianPreVoteSheet i saveMarianPreVotes działają dla zalogowanego kanału; nie są narzędziami publicznej wtyczki MCP i nie dają jej dostępu do prywatnych rozpisek.",
+      "links": [
+        "https://wj-duda.github.io/shotflow-mftv-mcp/system/guide.json",
+        "https://wj-duda.github.io/shotflow-mftv-mcp/system/snapshot.json"
+      ]
     }
   ]
 }

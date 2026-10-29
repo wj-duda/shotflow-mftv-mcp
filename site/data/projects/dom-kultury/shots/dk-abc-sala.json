@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-29T11:52:39.792Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:dom-kultury/dk-abc-sala",
+  "id": "dk-abc-sala",
+  "title": "ABC 2 - sala",
+  "description": "Sala — widok po skosie. Halinka i Czesław prezentują odbudowany dom kultury. A: render Blender; B: dodanie postaci i korekta skali; C: fotograficzne materiały i światło. Statyczne ujęcie 4 s. Źródła i pełna sekwencja promptów w generation-history.",
+  "project": {
+    "id": "dom-kultury",
+    "key": "project:dom-kultury",
+    "name": "Dom Kultury",
+    "createdAt": "2026-10-14T10:50:20.353Z"
+  },
+  "chronology": {
+    "projectKey": "project:dom-kultury",
+    "projectCreatedAt": "2026-10-14T10:50:20.353Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 5,
+    "lastSequence": 5,
+    "occurrences": [
+      5
+    ],
+    "sequenceTotal": 8,
+    "uniqueShotCount": 8,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [],
+  "referenceUsage": {
+    "declared": [],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [],
+        "references": [],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Stage C: turn this exact image B into a real documentary photograph by changing only surface texture and light response. Every object stays: same people, faces, poses, gesture, size, clothes and occlusion by seats; exactly the same chairs, armrests, aisle, stage, blank screen, trusses, two red chairs, award table and its three awards, poster lettering, tubes, doors and lights. Preserve every projected edge and the current 16:9 framing. No additions, removals, rearranging or resizing.\nNatural fine purple upholstery, pale oak grain, satin black metal, smooth matte charcoal painted plaster, restrained real aluminum highlights, natural skin and clothing. Do NOT invent panel seams, wood slats, extra lamps, signs, cables, decor, or screen content. Existing practical ceiling/stage light and soft room fill, realistic shadow gradients and highlight rolloff, no haze or beams.\nFull-frame 28mm rectilinear lens f/4, focus on the two people, mild existing foreground seat softness and gently softer stage background, 1/100s ISO1600 WB4000K, fine sensor grain. Camera settings describe appearance only: do not change the camera, lens projection or composition. Make it photographic rather than CG while keeping the actual scene intact.",
+    "endFrameDescription": "",
+    "animation": ""
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [],
+      "references": [],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-14T11:59:54.566026+00:00",
+          "source": "generated",
+          "referenceKeys": [],
+          "references": [],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dom-kultury/shots/dk-abc-sala/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dom-kultury/shots/dk-abc-sala/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

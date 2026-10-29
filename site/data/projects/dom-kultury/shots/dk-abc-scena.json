@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-29T11:52:39.792Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:dom-kultury/dk-abc-scena",
+  "id": "dk-abc-scena",
+  "title": "ABC 3 - scena",
+  "description": "Scena — prezentacja nagród. Halinka i Czesław prezentują odbudowany dom kultury. A: render Blender; B: dodanie postaci i korekta skali; C: fotograficzne materiały i światło. Statyczne ujęcie 4 s. Źródła i pełna sekwencja promptów w generation-history.",
+  "project": {
+    "id": "dom-kultury",
+    "key": "project:dom-kultury",
+    "name": "Dom Kultury",
+    "createdAt": "2026-10-14T10:50:20.353Z"
+  },
+  "chronology": {
+    "projectKey": "project:dom-kultury",
+    "projectCreatedAt": "2026-10-14T10:50:20.353Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 6,
+    "lastSequence": 6,
+    "occurrences": [
+      6
+    ],
+    "sequenceTotal": 8,
+    "uniqueShotCount": 8,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [],
+  "referenceUsage": {
+    "declared": [],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [],
+        "references": [],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Stage C: edit this exact image B into a hyperphotorealistic photograph. Change only material microtexture, optical response and light quality. Preserve all scene geometry and composition precisely. Keep the people identical in size, position, pose, face, clothes, gesture and gaze. Keep the exact low table and all THREE existing trophies with their same distinctive silhouettes and bases, in the same places. Keep two red swivel chairs, monitor, doors, poster lettering, speaker, screen and tubes unchanged. No additions/removals, no new seams or panels, no added scenery, no resizing.\nNatural matte charcoal walls, subtle real stage floor texture, aged satin wood table, real amber/gold/crystal responses on the existing awards without reshaping them, real fabric and skin. Existing stage/practical light with believable soft bounce, gentle highlights and natural shadows. No haze, beams or extra sources visible.\nFull-frame 40mm lens f/2.8, focus on presenters and award table, gently soften the distant red chairs and door while preserving their silhouettes. 1/125s ISO1250 white balance 4000K, natural photographic contrast and fine grain. Do not zoom or recrop. Exact same 16:9 photograph, no CG plastic finish.",
+    "endFrameDescription": "",
+    "animation": ""
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [],
+      "references": [],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-14T11:59:55.883766+00:00",
+          "source": "generated",
+          "referenceKeys": [],
+          "references": [],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dom-kultury/shots/dk-abc-scena/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dom-kultury/shots/dk-abc-scena/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

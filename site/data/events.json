@@ -1,10 +1,716 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-09T15:15:34.229Z",
+  "generatedAt": "2026-10-29T11:52:39.792Z",
   "worldId": "aimftv",
   "order": "projects-newest-first; canonical timeline clips oldest-to-newest inside each project; off-timeline project materials last",
   "currentStateRule": "For current canon, use only canonicalEvent=true: select the newest matching project and then the matching event with the greatest lastSequence. Off-timeline materials cannot override saved timeline events. Older events remain valid only for their historical story moment.",
   "events": [
+    {
+      "key": "shot:dom-kultury/dk-reportaz-01",
+      "kind": "story-event",
+      "projectKey": "project:dom-kultury",
+      "projectId": "dom-kultury",
+      "projectName": "Dom Kultury",
+      "projectCreatedAt": "2026-10-14T10:50:20.353Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 1,
+      "lastSequence": 1,
+      "occurrences": [
+        1
+      ],
+      "sequenceTotal": 8,
+      "title": "01 - Od sali do foyer",
+      "description": "Reportaż po odbudowie — kadr 1. Halinka po lewej i Czesław po prawej, trasa od widowni ku foyer, kamera cofa się. Architektura z DK.blend, bez manekinów roboczych.",
+      "declaredReferences": [
+        {
+          "sourceKey": "character:halinka",
+          "key": "character:halinka",
+          "type": "character",
+          "id": "halinka",
+          "name": "Halinka",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:czeslaw",
+          "key": "character:czeslaw",
+          "type": "character",
+          "id": "czeslaw",
+          "name": "Czesław",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:dk-reportaz-01",
+          "key": "shot:dom-kultury/dk-reportaz-01",
+          "type": "shot",
+          "id": "dk-reportaz-01",
+          "name": "01 - Od sali do foyer",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/dom-kultury/shots/dk-reportaz-01.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:dk-reportaz-02",
+          "key": "shot:dom-kultury/dk-reportaz-02",
+          "type": "shot",
+          "id": "dk-reportaz-02",
+          "name": "02 - Przejscie do foyer",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/dom-kultury/shots/dk-reportaz-02.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 1,
+          "referenceKeys": [
+            "character:halinka",
+            "character:czeslaw"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:halinka",
+              "key": "character:halinka",
+              "type": "character",
+              "id": "halinka",
+              "name": "Halinka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:czeslaw",
+              "key": "character:czeslaw",
+              "type": "character",
+              "id": "czeslaw",
+              "name": "Czesław",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "frameId": "frame-end",
+          "revision": 1,
+          "referenceKeys": [
+            "shot:dk-reportaz-01",
+            "shot:dk-reportaz-02"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:dk-reportaz-01",
+              "key": "shot:dom-kultury/dk-reportaz-01",
+              "type": "shot",
+              "id": "dk-reportaz-01",
+              "name": "01 - Od sali do foyer",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/dom-kultury/shots/dk-reportaz-01.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:dk-reportaz-02",
+              "key": "shot:dom-kultury/dk-reportaz-02",
+              "type": "shot",
+              "id": "dk-reportaz-02",
+              "name": "02 - Przejscie do foyer",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/dom-kultury/shots/dk-reportaz-02.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 1,
+          "source": "generated",
+          "referenceKeys": [
+            "character:halinka",
+            "character:czeslaw"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dom-kultury/shots/dk-reportaz-01/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dom-kultury/shots/dk-reportaz-01/frame-start-thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "contentType": "image/webp"
+        },
+        {
+          "id": "frame-end",
+          "role": "frame-end",
+          "revision": 1,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:dk-reportaz-01",
+            "shot:dk-reportaz-02"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dom-kultury/shots/dk-reportaz-01/frame-end.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dom-kultury/shots/dk-reportaz-01/frame-end-thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/dom-kultury/shots/dk-reportaz-01.json"
+    },
+    {
+      "key": "shot:dom-kultury/dk-reportaz-02",
+      "kind": "story-event",
+      "projectKey": "project:dom-kultury",
+      "projectId": "dom-kultury",
+      "projectName": "Dom Kultury",
+      "projectCreatedAt": "2026-10-14T10:50:20.353Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 2,
+      "lastSequence": 2,
+      "occurrences": [
+        2
+      ],
+      "sequenceTotal": 8,
+      "title": "02 - Przejscie do foyer",
+      "description": "Reportaż po odbudowie — kadr 2. Halinka po lewej i Czesław po prawej, trasa od widowni ku foyer, kamera cofa się. Architektura z DK.blend, bez manekinów roboczych.",
+      "declaredReferences": [
+        {
+          "sourceKey": "character:halinka",
+          "key": "character:halinka",
+          "type": "character",
+          "id": "halinka",
+          "name": "Halinka",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:czeslaw",
+          "key": "character:czeslaw",
+          "type": "character",
+          "id": "czeslaw",
+          "name": "Czesław",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:dk-reportaz-01",
+          "key": "shot:dom-kultury/dk-reportaz-01",
+          "type": "shot",
+          "id": "dk-reportaz-01",
+          "name": "01 - Od sali do foyer",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/dom-kultury/shots/dk-reportaz-01.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:dk-reportaz-02",
+          "key": "shot:dom-kultury/dk-reportaz-02",
+          "type": "shot",
+          "id": "dk-reportaz-02",
+          "name": "02 - Przejscie do foyer",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/dom-kultury/shots/dk-reportaz-02.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:dk-reportaz-03",
+          "key": "shot:dom-kultury/dk-reportaz-03",
+          "type": "shot",
+          "id": "dk-reportaz-03",
+          "name": "03 - Foyer, koniec testu",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/dom-kultury/shots/dk-reportaz-03.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 1,
+          "referenceKeys": [
+            "character:halinka",
+            "character:czeslaw",
+            "shot:dk-reportaz-01"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:halinka",
+              "key": "character:halinka",
+              "type": "character",
+              "id": "halinka",
+              "name": "Halinka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:czeslaw",
+              "key": "character:czeslaw",
+              "type": "character",
+              "id": "czeslaw",
+              "name": "Czesław",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:dk-reportaz-01",
+              "key": "shot:dom-kultury/dk-reportaz-01",
+              "type": "shot",
+              "id": "dk-reportaz-01",
+              "name": "01 - Od sali do foyer",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/dom-kultury/shots/dk-reportaz-01.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "frameId": "frame-end",
+          "revision": 1,
+          "referenceKeys": [
+            "shot:dk-reportaz-02",
+            "shot:dk-reportaz-03"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:dk-reportaz-02",
+              "key": "shot:dom-kultury/dk-reportaz-02",
+              "type": "shot",
+              "id": "dk-reportaz-02",
+              "name": "02 - Przejscie do foyer",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/dom-kultury/shots/dk-reportaz-02.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:dk-reportaz-03",
+              "key": "shot:dom-kultury/dk-reportaz-03",
+              "type": "shot",
+              "id": "dk-reportaz-03",
+              "name": "03 - Foyer, koniec testu",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/dom-kultury/shots/dk-reportaz-03.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 1,
+          "source": "generated",
+          "referenceKeys": [
+            "character:halinka",
+            "character:czeslaw",
+            "shot:dk-reportaz-01"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dom-kultury/shots/dk-reportaz-02/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dom-kultury/shots/dk-reportaz-02/frame-start-thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "contentType": "image/webp"
+        },
+        {
+          "id": "frame-end",
+          "role": "frame-end",
+          "revision": 1,
+          "source": "generated",
+          "referenceKeys": [
+            "shot:dk-reportaz-02",
+            "shot:dk-reportaz-03"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dom-kultury/shots/dk-reportaz-02/frame-end.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dom-kultury/shots/dk-reportaz-02/frame-end-thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/dom-kultury/shots/dk-reportaz-02.json"
+    },
+    {
+      "key": "shot:dom-kultury/dk-reportaz-03",
+      "kind": "story-event",
+      "projectKey": "project:dom-kultury",
+      "projectId": "dom-kultury",
+      "projectName": "Dom Kultury",
+      "projectCreatedAt": "2026-10-14T10:50:20.353Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 3,
+      "lastSequence": 3,
+      "occurrences": [
+        3
+      ],
+      "sequenceTotal": 8,
+      "title": "03 - Foyer, koniec testu",
+      "description": "Reportaż po odbudowie — kadr 3. Halinka po lewej i Czesław po prawej, trasa od widowni ku foyer, kamera cofa się. Architektura z DK.blend, bez manekinów roboczych.",
+      "declaredReferences": [
+        {
+          "sourceKey": "character:halinka",
+          "key": "character:halinka",
+          "type": "character",
+          "id": "halinka",
+          "name": "Halinka",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:czeslaw",
+          "key": "character:czeslaw",
+          "type": "character",
+          "id": "czeslaw",
+          "name": "Czesław",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:dk-reportaz-02",
+          "key": "shot:dom-kultury/dk-reportaz-02",
+          "type": "shot",
+          "id": "dk-reportaz-02",
+          "name": "02 - Przejscie do foyer",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/dom-kultury/shots/dk-reportaz-02.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:dk-reportaz-01",
+          "key": "shot:dom-kultury/dk-reportaz-01",
+          "type": "shot",
+          "id": "dk-reportaz-01",
+          "name": "01 - Od sali do foyer",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/dom-kultury/shots/dk-reportaz-01.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 1,
+          "referenceKeys": [
+            "character:halinka",
+            "character:czeslaw",
+            "shot:dk-reportaz-02",
+            "shot:dk-reportaz-01"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:halinka",
+              "key": "character:halinka",
+              "type": "character",
+              "id": "halinka",
+              "name": "Halinka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:czeslaw",
+              "key": "character:czeslaw",
+              "type": "character",
+              "id": "czeslaw",
+              "name": "Czesław",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:dk-reportaz-02",
+              "key": "shot:dom-kultury/dk-reportaz-02",
+              "type": "shot",
+              "id": "dk-reportaz-02",
+              "name": "02 - Przejscie do foyer",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/dom-kultury/shots/dk-reportaz-02.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:dk-reportaz-01",
+              "key": "shot:dom-kultury/dk-reportaz-01",
+              "type": "shot",
+              "id": "dk-reportaz-01",
+              "name": "01 - Od sali do foyer",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/dom-kultury/shots/dk-reportaz-01.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 1,
+          "source": "generated",
+          "referenceKeys": [
+            "character:halinka",
+            "character:czeslaw",
+            "shot:dk-reportaz-02",
+            "shot:dk-reportaz-01"
+          ],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dom-kultury/shots/dk-reportaz-03/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dom-kultury/shots/dk-reportaz-03/frame-start-thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/dom-kultury/shots/dk-reportaz-03.json"
+    },
+    {
+      "key": "shot:dom-kultury/dk-abc-wejscie",
+      "kind": "story-event",
+      "projectKey": "project:dom-kultury",
+      "projectId": "dom-kultury",
+      "projectName": "Dom Kultury",
+      "projectCreatedAt": "2026-10-14T10:50:20.353Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 4,
+      "lastSequence": 4,
+      "occurrences": [
+        4
+      ],
+      "sequenceTotal": 8,
+      "title": "ABC 1 - wejscie",
+      "description": "Foyer — powitanie. Halinka i Czesław prezentują odbudowany dom kultury. A: render Blender; B: dodanie postaci i korekta skali; C: fotograficzne materiały i światło. Statyczne ujęcie 4 s. Źródła i pełna sekwencja promptów w generation-history.",
+      "declaredReferences": [],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 1,
+          "referenceKeys": [],
+          "references": [],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 1,
+          "source": "generated",
+          "referenceKeys": [],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dom-kultury/shots/dk-abc-wejscie/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dom-kultury/shots/dk-abc-wejscie/frame-start-thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/dom-kultury/shots/dk-abc-wejscie.json"
+    },
+    {
+      "key": "shot:dom-kultury/dk-abc-sala",
+      "kind": "story-event",
+      "projectKey": "project:dom-kultury",
+      "projectId": "dom-kultury",
+      "projectName": "Dom Kultury",
+      "projectCreatedAt": "2026-10-14T10:50:20.353Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 5,
+      "lastSequence": 5,
+      "occurrences": [
+        5
+      ],
+      "sequenceTotal": 8,
+      "title": "ABC 2 - sala",
+      "description": "Sala — widok po skosie. Halinka i Czesław prezentują odbudowany dom kultury. A: render Blender; B: dodanie postaci i korekta skali; C: fotograficzne materiały i światło. Statyczne ujęcie 4 s. Źródła i pełna sekwencja promptów w generation-history.",
+      "declaredReferences": [],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 1,
+          "referenceKeys": [],
+          "references": [],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 1,
+          "source": "generated",
+          "referenceKeys": [],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dom-kultury/shots/dk-abc-sala/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dom-kultury/shots/dk-abc-sala/frame-start-thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/dom-kultury/shots/dk-abc-sala.json"
+    },
+    {
+      "key": "shot:dom-kultury/dk-abc-scena",
+      "kind": "story-event",
+      "projectKey": "project:dom-kultury",
+      "projectId": "dom-kultury",
+      "projectName": "Dom Kultury",
+      "projectCreatedAt": "2026-10-14T10:50:20.353Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 6,
+      "lastSequence": 6,
+      "occurrences": [
+        6
+      ],
+      "sequenceTotal": 8,
+      "title": "ABC 3 - scena",
+      "description": "Scena — prezentacja nagród. Halinka i Czesław prezentują odbudowany dom kultury. A: render Blender; B: dodanie postaci i korekta skali; C: fotograficzne materiały i światło. Statyczne ujęcie 4 s. Źródła i pełna sekwencja promptów w generation-history.",
+      "declaredReferences": [],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 1,
+          "referenceKeys": [],
+          "references": [],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 1,
+          "source": "generated",
+          "referenceKeys": [],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dom-kultury/shots/dk-abc-scena/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dom-kultury/shots/dk-abc-scena/frame-start-thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/dom-kultury/shots/dk-abc-scena.json"
+    },
+    {
+      "key": "shot:dom-kultury/dk-abc-hol-pietro",
+      "kind": "story-event",
+      "projectKey": "project:dom-kultury",
+      "projectId": "dom-kultury",
+      "projectName": "Dom Kultury",
+      "projectCreatedAt": "2026-10-14T10:50:20.353Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 7,
+      "lastSequence": 7,
+      "occurrences": [
+        7
+      ],
+      "sequenceTotal": 8,
+      "title": "ABC 4 - hol-pietro",
+      "description": "Hol na piętrze — przy tarasie. Halinka i Czesław prezentują odbudowany dom kultury. A: render Blender; B: dodanie postaci i korekta skali; C: fotograficzne materiały i światło. Statyczne ujęcie 4 s. Źródła i pełna sekwencja promptów w generation-history.",
+      "declaredReferences": [],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 1,
+          "referenceKeys": [],
+          "references": [],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 1,
+          "source": "generated",
+          "referenceKeys": [],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dom-kultury/shots/dk-abc-hol-pietro/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dom-kultury/shots/dk-abc-hol-pietro/frame-start-thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/dom-kultury/shots/dk-abc-hol-pietro.json"
+    },
+    {
+      "key": "shot:dom-kultury/dk-abc-klub",
+      "kind": "story-event",
+      "projectKey": "project:dom-kultury",
+      "projectId": "dom-kultury",
+      "projectName": "Dom Kultury",
+      "projectCreatedAt": "2026-10-14T10:50:20.353Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 8,
+      "lastSequence": 8,
+      "occurrences": [
+        8
+      ],
+      "sequenceTotal": 8,
+      "title": "ABC 5 - klub",
+      "description": "Klub fantastyki — przy stole. Halinka i Czesław prezentują odbudowany dom kultury. A: render Blender; B: dodanie postaci i korekta skali; C: fotograficzne materiały i światło. Statyczne ujęcie 4 s. Źródła i pełna sekwencja promptów w generation-history.",
+      "declaredReferences": [],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 1,
+          "referenceKeys": [],
+          "references": [],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 1,
+          "source": "generated",
+          "referenceKeys": [],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dom-kultury/shots/dk-abc-klub/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dom-kultury/shots/dk-abc-klub/frame-start-thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/dom-kultury/shots/dk-abc-klub.json"
+    },
+    {
+      "key": "shot:dom-kultury/seed",
+      "kind": "story-event",
+      "projectKey": "project:dom-kultury",
+      "projectId": "dom-kultury",
+      "projectName": "Dom Kultury",
+      "projectCreatedAt": "2026-10-14T10:50:20.353Z",
+      "onTimeline": false,
+      "canonicalEvent": false,
+      "sequence": null,
+      "lastSequence": null,
+      "occurrences": [],
+      "sequenceTotal": 8,
+      "title": "seed",
+      "description": "",
+      "declaredReferences": [],
+      "activeFrameReferences": [],
+      "images": [],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/dom-kultury/shots/seed.json"
+    },
     {
       "key": "shot:bitwa/czeslaw-wita",
       "kind": "story-event",
@@ -19,12 +725,33 @@
       "occurrences": [
         1
       ],
-      "sequenceTotal": 6,
+      "sequenceTotal": 27,
       "title": "czeslaw-wita",
-      "description": "",
+      "description": "Czesław przy pulpicie na tle czerwonej kurtyny i żarówek. Powitanie.",
       "declaredReferences": [],
-      "activeFrameReferences": [],
-      "images": [],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 1,
+          "referenceKeys": [],
+          "references": [],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 1,
+          "source": "generated",
+          "referenceKeys": [],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/bitwa/shots/czeslaw-wita/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/bitwa/shots/czeslaw-wita/frame-start-thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "contentType": "image/webp"
+        }
+      ],
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/bitwa/shots/czeslaw-wita.json"
     },
     {
@@ -41,12 +768,33 @@
       "occurrences": [
         2
       ],
-      "sequenceTotal": 6,
+      "sequenceTotal": 27,
       "title": "czeslaw-bursztynowe-emoji",
-      "description": "",
+      "description": "Czesław przy czerwonej kurtynie, otwartą dłonią zapowiada nagrodę.",
       "declaredReferences": [],
-      "activeFrameReferences": [],
-      "images": [],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 1,
+          "referenceKeys": [],
+          "references": [],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 1,
+          "source": "generated",
+          "referenceKeys": [],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/bitwa/shots/czeslaw-bursztynowe-emoji/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/bitwa/shots/czeslaw-bursztynowe-emoji/frame-start-thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "contentType": "image/webp"
+        }
+      ],
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/bitwa/shots/czeslaw-bursztynowe-emoji.json"
     },
     {
@@ -59,41 +807,40 @@
       "onTimeline": true,
       "canonicalEvent": true,
       "sequence": 3,
-      "lastSequence": 6,
+      "lastSequence": 17,
       "occurrences": [
         3,
-        6
+        10,
+        17
       ],
-      "sequenceTotal": 6,
+      "sequenceTotal": 27,
       "title": "czeslaw-tension",
-      "description": "",
+      "description": "Czesław trzyma kopertę, ujęcie z góry na ciemnej scenie ze złotym światłem. Budowanie napięcia.",
       "declaredReferences": [],
-      "activeFrameReferences": [],
-      "images": [],
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/bitwa/shots/czeslaw-tension.json"
-    },
-    {
-      "key": "shot:bitwa/czeslaw-krysztalowe-emoji",
-      "kind": "story-event",
-      "projectKey": "project:bitwa",
-      "projectId": "bitwa",
-      "projectName": "Bitwa",
-      "projectCreatedAt": "2026-10-09T15:09:55.335Z",
-      "onTimeline": true,
-      "canonicalEvent": true,
-      "sequence": 4,
-      "lastSequence": 5,
-      "occurrences": [
-        4,
-        5
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 1,
+          "referenceKeys": [],
+          "references": [],
+          "sourceReference": null
+        }
       ],
-      "sequenceTotal": 6,
-      "title": "czeslaw-krysztalowe-emoji",
-      "description": "",
-      "declaredReferences": [],
-      "activeFrameReferences": [],
-      "images": [],
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/bitwa/shots/czeslaw-krysztalowe-emoji.json"
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 1,
+          "source": "generated",
+          "referenceKeys": [],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/bitwa/shots/czeslaw-tension/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/bitwa/shots/czeslaw-tension/frame-start-thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/bitwa/shots/czeslaw-tension.json"
     },
     {
       "key": "shot:bitwa/nagroda-bursztynowe-petla",
@@ -102,14 +849,20 @@
       "projectId": "bitwa",
       "projectName": "Bitwa",
       "projectCreatedAt": "2026-10-09T15:09:55.335Z",
-      "onTimeline": false,
-      "canonicalEvent": false,
-      "sequence": null,
-      "lastSequence": null,
-      "occurrences": [],
-      "sequenceTotal": 6,
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 4,
+      "lastSequence": 8,
+      "occurrences": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "sequenceTotal": 27,
       "title": "Bursztynowe Emoji — prezentacja",
-      "description": "Nieruchoma nagroda po lewej na jasnym neutralnym tle; prawa połowa pod HTML. Start i End identyczne dla pętli samej poświaty. Planowana długość pojedynczej pętli: 72 klatki przy 24 fps; jeszcze poza timeline.",
+      "description": "Siatka kompozycyjna 3×3: mniejsza nagroda w prawej 1/3 kadru, około środka wysokości; lewe 2/3 puste pod kanał i tytuł HTML. Neutralne jasne tło. Start i End identyczne pod przyszłą pętlę poświaty. Montaż, długości i audio bez zmian.",
       "declaredReferences": [
         {
           "sourceKey": "shot:nagroda-zlote-petla",
@@ -145,12 +898,22 @@
       "activeFrameReferences": [
         {
           "frameId": "frame-start",
-          "revision": 1,
+          "revision": 2,
           "referenceKeys": [
-            "shot:nagroda-zlote-petla",
-            "prop:nagroda-bursztynowe-emoji"
+            "shot:nagroda-bursztynowe-petla",
+            "shot:nagroda-zlote-petla"
           ],
           "references": [
+            {
+              "sourceKey": "shot:nagroda-bursztynowe-petla",
+              "key": "shot:bitwa/nagroda-bursztynowe-petla",
+              "type": "shot",
+              "id": "nagroda-bursztynowe-petla",
+              "name": "Bursztynowe Emoji — prezentacja",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/bitwa/shots/nagroda-bursztynowe-petla.json",
+              "exists": true
+            },
             {
               "sourceKey": "shot:nagroda-zlote-petla",
               "key": "shot:bitwa/nagroda-zlote-petla",
@@ -160,23 +923,13 @@
               "relationship": "shot-continuity",
               "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/bitwa/shots/nagroda-zlote-petla.json",
               "exists": true
-            },
-            {
-              "sourceKey": "prop:nagroda-bursztynowe-emoji",
-              "key": "prop:nagroda-bursztynowe-emoji",
-              "type": "prop",
-              "id": "nagroda-bursztynowe-emoji",
-              "name": "Bursztynowe Emoji",
-              "relationship": "world-entity-identity",
-              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/nagroda-bursztynowe-emoji.json",
-              "exists": true
             }
           ],
           "sourceReference": null
         },
         {
           "frameId": "frame-end",
-          "revision": 1,
+          "revision": 2,
           "referenceKeys": [
             "shot:nagroda-bursztynowe-petla"
           ],
@@ -199,11 +952,11 @@
         {
           "id": "frame-start",
           "role": "frame-start",
-          "revision": 1,
+          "revision": 2,
           "source": "generated",
           "referenceKeys": [
-            "shot:nagroda-zlote-petla",
-            "prop:nagroda-bursztynowe-emoji"
+            "shot:nagroda-bursztynowe-petla",
+            "shot:nagroda-zlote-petla"
           ],
           "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/bitwa/shots/nagroda-bursztynowe-petla/frame-start.webp",
           "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/bitwa/shots/nagroda-bursztynowe-petla/frame-start-thumb.webp",
@@ -214,7 +967,7 @@
         {
           "id": "frame-end",
           "role": "frame-end",
-          "revision": 1,
+          "revision": 2,
           "source": "generated",
           "referenceKeys": [
             "shot:nagroda-bursztynowe-petla"
@@ -229,20 +982,70 @@
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/bitwa/shots/nagroda-bursztynowe-petla.json"
     },
     {
+      "key": "shot:bitwa/czeslaw-krysztalowe-emoji",
+      "kind": "story-event",
+      "projectKey": "project:bitwa",
+      "projectId": "bitwa",
+      "projectName": "Bitwa",
+      "projectCreatedAt": "2026-10-09T15:09:55.335Z",
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 9,
+      "lastSequence": 16,
+      "occurrences": [
+        9,
+        16
+      ],
+      "sequenceTotal": 27,
+      "title": "czeslaw-krysztalowe-emoji",
+      "description": "Czesław przy czerwonej kurtynie, zapowiedź nagrody; wspólny kadr dla istniejących zapowiedzi.",
+      "declaredReferences": [],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 1,
+          "referenceKeys": [],
+          "references": [],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 1,
+          "source": "generated",
+          "referenceKeys": [],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/bitwa/shots/czeslaw-krysztalowe-emoji/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/bitwa/shots/czeslaw-krysztalowe-emoji/frame-start-thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/bitwa/shots/czeslaw-krysztalowe-emoji.json"
+    },
+    {
       "key": "shot:bitwa/nagroda-krysztalowe-petla",
       "kind": "story-event",
       "projectKey": "project:bitwa",
       "projectId": "bitwa",
       "projectName": "Bitwa",
       "projectCreatedAt": "2026-10-09T15:09:55.335Z",
-      "onTimeline": false,
-      "canonicalEvent": false,
-      "sequence": null,
-      "lastSequence": null,
-      "occurrences": [],
-      "sequenceTotal": 6,
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 11,
+      "lastSequence": 15,
+      "occurrences": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "sequenceTotal": 27,
       "title": "Kryształowe Emoji — prezentacja",
-      "description": "Nieruchoma nagroda po lewej na jasnym neutralnym tle; prawa połowa pod HTML. Start i End identyczne dla pętli samej poświaty. Planowana długość pojedynczej pętli: 72 klatki przy 24 fps; jeszcze poza timeline.",
+      "description": "Siatka kompozycyjna 3×3: mniejsza nagroda w prawej 1/3 kadru, około środka wysokości; lewe 2/3 puste pod kanał i tytuł HTML. Neutralne jasne tło. Start i End identyczne pod przyszłą pętlę poświaty. Montaż, długości i audio bez zmian.",
       "declaredReferences": [
         {
           "sourceKey": "shot:nagroda-zlote-petla",
@@ -278,12 +1081,22 @@
       "activeFrameReferences": [
         {
           "frameId": "frame-start",
-          "revision": 1,
+          "revision": 2,
           "referenceKeys": [
-            "shot:nagroda-zlote-petla",
-            "prop:nagroda-krysztalowe-emoji"
+            "shot:nagroda-krysztalowe-petla",
+            "shot:nagroda-zlote-petla"
           ],
           "references": [
+            {
+              "sourceKey": "shot:nagroda-krysztalowe-petla",
+              "key": "shot:bitwa/nagroda-krysztalowe-petla",
+              "type": "shot",
+              "id": "nagroda-krysztalowe-petla",
+              "name": "Kryształowe Emoji — prezentacja",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/bitwa/shots/nagroda-krysztalowe-petla.json",
+              "exists": true
+            },
             {
               "sourceKey": "shot:nagroda-zlote-petla",
               "key": "shot:bitwa/nagroda-zlote-petla",
@@ -293,23 +1106,13 @@
               "relationship": "shot-continuity",
               "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/bitwa/shots/nagroda-zlote-petla.json",
               "exists": true
-            },
-            {
-              "sourceKey": "prop:nagroda-krysztalowe-emoji",
-              "key": "prop:nagroda-krysztalowe-emoji",
-              "type": "prop",
-              "id": "nagroda-krysztalowe-emoji",
-              "name": "Kryształowe Emoji",
-              "relationship": "world-entity-identity",
-              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/nagroda-krysztalowe-emoji.json",
-              "exists": true
             }
           ],
           "sourceReference": null
         },
         {
           "frameId": "frame-end",
-          "revision": 1,
+          "revision": 2,
           "referenceKeys": [
             "shot:nagroda-krysztalowe-petla"
           ],
@@ -332,11 +1135,11 @@
         {
           "id": "frame-start",
           "role": "frame-start",
-          "revision": 1,
+          "revision": 2,
           "source": "generated",
           "referenceKeys": [
-            "shot:nagroda-zlote-petla",
-            "prop:nagroda-krysztalowe-emoji"
+            "shot:nagroda-krysztalowe-petla",
+            "shot:nagroda-zlote-petla"
           ],
           "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/bitwa/shots/nagroda-krysztalowe-petla/frame-start.webp",
           "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/bitwa/shots/nagroda-krysztalowe-petla/frame-start-thumb.webp",
@@ -347,7 +1150,7 @@
         {
           "id": "frame-end",
           "role": "frame-end",
-          "revision": 1,
+          "revision": 2,
           "source": "generated",
           "referenceKeys": [
             "shot:nagroda-krysztalowe-petla"
@@ -368,14 +1171,25 @@
       "projectId": "bitwa",
       "projectName": "Bitwa",
       "projectCreatedAt": "2026-10-09T15:09:55.335Z",
-      "onTimeline": false,
-      "canonicalEvent": false,
-      "sequence": null,
-      "lastSequence": null,
-      "occurrences": [],
-      "sequenceTotal": 6,
+      "onTimeline": true,
+      "canonicalEvent": true,
+      "sequence": 18,
+      "lastSequence": 27,
+      "occurrences": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "sequenceTotal": 27,
       "title": "Złote Emoji — prezentacja",
-      "description": "Nieruchoma nagroda po lewej na jasnym neutralnym tle; prawa połowa pod HTML. Start i End identyczne dla pętli samej poświaty. Planowana długość pojedynczej pętli: 72 klatki przy 24 fps; jeszcze poza timeline.",
+      "description": "Siatka kompozycyjna 3×3: mniejsza nagroda w prawej 1/3 kadru, około środka wysokości; lewe 2/3 puste pod kanał i tytuł HTML. Neutralne jasne tło. Start i End identyczne pod przyszłą pętlę poświaty. Montaż, długości i audio bez zmian.",
       "declaredReferences": [
         {
           "sourceKey": "prop:nagroda-zlote-emoji",
@@ -401,19 +1215,19 @@
       "activeFrameReferences": [
         {
           "frameId": "frame-start",
-          "revision": 1,
+          "revision": 2,
           "referenceKeys": [
-            "prop:nagroda-zlote-emoji"
+            "shot:nagroda-zlote-petla"
           ],
           "references": [
             {
-              "sourceKey": "prop:nagroda-zlote-emoji",
-              "key": "prop:nagroda-zlote-emoji",
-              "type": "prop",
-              "id": "nagroda-zlote-emoji",
-              "name": "Złote Emoji",
-              "relationship": "world-entity-identity",
-              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/nagroda-zlote-emoji.json",
+              "sourceKey": "shot:nagroda-zlote-petla",
+              "key": "shot:bitwa/nagroda-zlote-petla",
+              "type": "shot",
+              "id": "nagroda-zlote-petla",
+              "name": "Złote Emoji — prezentacja",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/bitwa/shots/nagroda-zlote-petla.json",
               "exists": true
             }
           ],
@@ -421,7 +1235,7 @@
         },
         {
           "frameId": "frame-end",
-          "revision": 1,
+          "revision": 3,
           "referenceKeys": [
             "shot:nagroda-zlote-petla"
           ],
@@ -444,10 +1258,10 @@
         {
           "id": "frame-start",
           "role": "frame-start",
-          "revision": 1,
+          "revision": 2,
           "source": "generated",
           "referenceKeys": [
-            "prop:nagroda-zlote-emoji"
+            "shot:nagroda-zlote-petla"
           ],
           "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/bitwa/shots/nagroda-zlote-petla/frame-start.webp",
           "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/bitwa/shots/nagroda-zlote-petla/frame-start-thumb.webp",
@@ -458,7 +1272,7 @@
         {
           "id": "frame-end",
           "role": "frame-end",
-          "revision": 1,
+          "revision": 3,
           "source": "generated",
           "referenceKeys": [
             "shot:nagroda-zlote-petla"
@@ -471,6 +1285,98 @@
         }
       ],
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/bitwa/shots/nagroda-zlote-petla.json"
+    },
+    {
+      "key": "shot:bitwa/czeslaw-idle-ab",
+      "kind": "story-event",
+      "projectKey": "project:bitwa",
+      "projectId": "bitwa",
+      "projectName": "Bitwa",
+      "projectCreatedAt": "2026-10-09T15:09:55.335Z",
+      "onTimeline": false,
+      "canonicalEvent": false,
+      "sequence": null,
+      "lastSequence": null,
+      "occurrences": [],
+      "sequenceTotal": 27,
+      "title": "czeslaw-idle-ab",
+      "description": "",
+      "declaredReferences": [],
+      "activeFrameReferences": [],
+      "images": [],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/bitwa/shots/czeslaw-idle-ab.json"
+    },
+    {
+      "key": "shot:bitwa/czeslaw-idle-ba",
+      "kind": "story-event",
+      "projectKey": "project:bitwa",
+      "projectId": "bitwa",
+      "projectName": "Bitwa",
+      "projectCreatedAt": "2026-10-09T15:09:55.335Z",
+      "onTimeline": false,
+      "canonicalEvent": false,
+      "sequence": null,
+      "lastSequence": null,
+      "occurrences": [],
+      "sequenceTotal": 27,
+      "title": "czeslaw-idle-ba",
+      "description": "",
+      "declaredReferences": [],
+      "activeFrameReferences": [],
+      "images": [],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/bitwa/shots/czeslaw-idle-ba.json"
+    },
+    {
+      "key": "shot:bitwa/stol-nagrod-petla",
+      "kind": "story-event",
+      "projectKey": "project:bitwa",
+      "projectId": "bitwa",
+      "projectName": "Bitwa",
+      "projectCreatedAt": "2026-10-09T15:09:55.335Z",
+      "onTimeline": false,
+      "canonicalEvent": false,
+      "sequence": null,
+      "lastSequence": null,
+      "occurrences": [],
+      "sequenceTotal": 27,
+      "title": "Stół nagród — neutralna pętla",
+      "description": "Pierwszy odcinek A→B: 72 klatki / 3 s / 24 fps, wyłącznie Start Frame. Kamera i trzy nagrody nieruchome; powolna zmiana kąta miękkiego światła przesuwa refleksy, pod koniec łagodnie się zatrzymuje. Bez powrotu do początku. Po wygenerowaniu i audycie ostatnia klatka take'a będzie Start B drugiego odcinka, a pierwotny Start A jego End. Wcześniejszy identyczny End odłączony; PNG i manifest archiwalny zachowane. Brak użyć na zapisanym timeline.",
+      "declaredReferences": [
+        {
+          "sourceKey": "shot:stol-nagrod-petla",
+          "key": "shot:bitwa/stol-nagrod-petla",
+          "type": "shot",
+          "id": "stol-nagrod-petla",
+          "name": "Stół nagród — neutralna pętla",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/bitwa/shots/stol-nagrod-petla.json",
+          "exists": true
+        }
+      ],
+      "activeFrameReferences": [
+        {
+          "frameId": "frame-start",
+          "revision": 1,
+          "referenceKeys": [],
+          "references": [],
+          "sourceReference": null
+        }
+      ],
+      "images": [
+        {
+          "id": "frame-start",
+          "role": "frame-start",
+          "revision": 1,
+          "source": "generated",
+          "referenceKeys": [],
+          "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/bitwa/shots/stol-nagrod-petla/frame-start.webp",
+          "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/bitwa/shots/stol-nagrod-petla/frame-start-thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "contentType": "image/webp"
+        }
+      ],
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/bitwa/shots/stol-nagrod-petla.json"
     },
     {
       "key": "shot:zlote-emoji-15/ze15-kierownica",

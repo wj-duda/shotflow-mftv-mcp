@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-29T11:52:39.792Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:bitwa/stol-nagrod-petla",
+  "id": "stol-nagrod-petla",
+  "title": "Stół nagród — neutralna pętla",
+  "description": "Pierwszy odcinek A→B: 72 klatki / 3 s / 24 fps, wyłącznie Start Frame. Kamera i trzy nagrody nieruchome; powolna zmiana kąta miękkiego światła przesuwa refleksy, pod koniec łagodnie się zatrzymuje. Bez powrotu do początku. Po wygenerowaniu i audycie ostatnia klatka take'a będzie Start B drugiego odcinka, a pierwotny Start A jego End. Wcześniejszy identyczny End odłączony; PNG i manifest archiwalny zachowane. Brak użyć na zapisanym timeline.",
+  "project": {
+    "id": "bitwa",
+    "key": "project:bitwa",
+    "name": "Bitwa",
+    "createdAt": "2026-10-09T15:09:55.335Z"
+  },
+  "chronology": {
+    "projectKey": "project:bitwa",
+    "projectCreatedAt": "2026-10-09T15:09:55.335Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": false,
+    "canonicalEvent": false,
+    "sequence": null,
+    "lastSequence": null,
+    "occurrences": [],
+    "sequenceTotal": 27,
+    "uniqueShotCount": 7,
+    "sequenceOrder": null,
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This project material is not present on the saved timeline, so it must not override canonical timeline events by date alone."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "stol-nagrod-petla"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:stol-nagrod-petla",
+        "key": "shot:bitwa/stol-nagrod-petla",
+        "type": "shot",
+        "id": "stol-nagrod-petla",
+        "name": "Stół nagród — neutralna pętla",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/bitwa/shots/stol-nagrod-petla.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [],
+        "references": [],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Precision size correction to this exact still photograph, not a redesign. Reduce ONLY central GOLD emoji sculpture uniformly to 88% of its present width and height, keeping its bottom contact point fixed on the tabletop and horizontally centered. Keep left amber and right crystal COMPLETELY unchanged. This makes gold about 25% taller, a modest size advantage rather than dominant oversized gold. Preserve exact camera, framing, warm neutral table/background, all materials and the gold cradle, eyes, smile, openings. No new objects, text, particles or pedestals. Landscape 16:9.",
+    "endFrameDescription": "",
+    "animation": "A locked-off product shot of three freestanding award statuettes resting firmly on a tabletop.\n\nCenter: a solid polished gold-metal statuette, approximately 13 cm tall, consisting of a circular medallion permanently joined to a curved metal cradle. The star-shaped eyes and smiling mouth are embossed metal relief, integral parts of the casting.\n\nLeft: a smaller rigid amber-resin statuette with a diamond-shaped opening. Right: a smaller rigid optical-glass statuette with a triangular opening.\n\nAll three are stable, heavy display objects with fixed geometry and secure contact with the table. Their shapes, orientation, proportions and sculpted details remain identical to the reference image throughout the shot.\n\nOver 3 seconds, existing soft highlights on the polished surfaces gently brighten, then settle. Only reflected light changes, not the objects. The camera, lighting direction, background and contact shadows stay fixed.\n\nNo articulation, rocking, rotation, bending, facial expression changes, added objects or cuts."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [],
+      "references": [],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-11T13:47:56.345978+00:00",
+          "source": "generated",
+          "referenceKeys": [],
+          "references": [],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/bitwa/shots/stol-nagrod-petla/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/bitwa/shots/stol-nagrod-petla/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

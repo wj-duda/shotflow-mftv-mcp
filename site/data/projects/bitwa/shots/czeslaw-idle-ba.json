@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-29T11:52:39.792Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:bitwa/czeslaw-idle-ba",
+  "id": "czeslaw-idle-ba",
+  "title": "czeslaw-idle-ba",
+  "description": "",
+  "project": {
+    "id": "bitwa",
+    "key": "project:bitwa",
+    "name": "Bitwa",
+    "createdAt": "2026-10-09T15:09:55.335Z"
+  },
+  "chronology": {
+    "projectKey": "project:bitwa",
+    "projectCreatedAt": "2026-10-09T15:09:55.335Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": false,
+    "canonicalEvent": false,
+    "sequence": null,
+    "lastSequence": null,
+    "occurrences": [],
+    "sequenceTotal": 27,
+    "uniqueShotCount": 7,
+    "sequenceOrder": null,
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This project material is not present on the saved timeline, so it must not override canonical timeline events by date alone."
+  },
+  "references": [],
+  "referenceUsage": {
+    "declared": [],
+    "activeFrames": [],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "",
+    "endFrameDescription": "",
+    "animation": ""
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "placeholder",
+  "images": []
+}

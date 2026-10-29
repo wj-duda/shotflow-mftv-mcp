@@ -9,7 +9,7 @@ export function validateSnapshot(data) {
       !Array.isArray(data.broadcasts) || data.broadcasts.length > 64 ||
       !Array.isArray(data.chart?.tracks) || data.chart.tracks.length > 1000 ||
       !Array.isArray(data.tags) || data.tags.length > 1000 ||
-      !Array.isArray(data.shop) || data.shop.length > 2 ||
+      !Array.isArray(data.shop) || data.shop.length > 3 ||
       !['submissionCostEars', 'welcomeGrantEars'].every(k => Number.isSafeInteger(data.economy?.[k]) && data.economy[k] >= 0) ||
       data.window?.timeZone !== 'Europe/Warsaw' ||
       !['previousWeekStart', 'currentWeekStart', 'endExclusive'].every(k => Number.isFinite(Date.parse(data.window[k]))) ||

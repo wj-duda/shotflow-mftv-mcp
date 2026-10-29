@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-29T11:52:39.792Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:dom-kultury/dk-abc-klub",
+  "id": "dk-abc-klub",
+  "title": "ABC 5 - klub",
+  "description": "Klub fantastyki — przy stole. Halinka i Czesław prezentują odbudowany dom kultury. A: render Blender; B: dodanie postaci i korekta skali; C: fotograficzne materiały i światło. Statyczne ujęcie 4 s. Źródła i pełna sekwencja promptów w generation-history.",
+  "project": {
+    "id": "dom-kultury",
+    "key": "project:dom-kultury",
+    "name": "Dom Kultury",
+    "createdAt": "2026-10-14T10:50:20.353Z"
+  },
+  "chronology": {
+    "projectKey": "project:dom-kultury",
+    "projectCreatedAt": "2026-10-14T10:50:20.353Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 8,
+    "lastSequence": 8,
+    "occurrences": [
+      8
+    ],
+    "sequenceTotal": 8,
+    "uniqueShotCount": 8,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [],
+  "referenceUsage": {
+    "declared": [],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [],
+        "references": [],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Correct only two unwanted additions in image 1 using image 2 (B) as geometry reference: remove the newly invented dark skirting/baseboard strip along the right/back walls, restoring the original simple wall-floor junction; remove any newly invented floor tile/grid lines, keeping a seamless warm-gray matte floor. Preserve all people, identities, scale, poses, camera, furniture, paper, dice, signs, photographic lighting and texture elsewhere. Do not add any new objects, seams or decor. Image 1 is the photo edit target; image 2 supplies original wall/floor geometry only.",
+    "endFrameDescription": "",
+    "animation": ""
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [],
+      "references": [],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-14T11:59:57.944982+00:00",
+          "source": "generated",
+          "referenceKeys": [],
+          "references": [],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dom-kultury/shots/dk-abc-klub/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dom-kultury/shots/dk-abc-klub/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

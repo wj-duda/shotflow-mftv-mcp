@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-09T15:15:34.229Z",
+  "generatedAt": "2026-10-29T11:52:39.792Z",
   "worldId": "aimftv",
   "kind": "resource",
   "key": "place:aleja-gwiazd",
@@ -14,8 +14,8 @@
       "role": "reference",
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/aleja-gwiazd/hero-v1.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/aleja-gwiazd/hero-v1-thumb.webp",
-      "width": 2172,
-      "height": 724,
+      "width": 1920,
+      "height": 640,
       "contentType": "image/webp"
     },
     {
@@ -23,8 +23,8 @@
       "role": "reference",
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/aleja-gwiazd/kkn-hall-banner-v1.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/aleja-gwiazd/kkn-hall-banner-v1-thumb.webp",
-      "width": 2160,
-      "height": 728,
+      "width": 1920,
+      "height": 647,
       "contentType": "image/webp"
     }
   ],

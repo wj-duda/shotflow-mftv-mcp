@@ -1,0 +1,280 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-29T11:52:39.792Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:dom-kultury/dk-reportaz-03",
+  "id": "dk-reportaz-03",
+  "title": "03 - Foyer, koniec testu",
+  "description": "Reportaż po odbudowie — kadr 3. Halinka po lewej i Czesław po prawej, trasa od widowni ku foyer, kamera cofa się. Architektura z DK.blend, bez manekinów roboczych.",
+  "project": {
+    "id": "dom-kultury",
+    "key": "project:dom-kultury",
+    "name": "Dom Kultury",
+    "createdAt": "2026-10-14T10:50:20.353Z"
+  },
+  "chronology": {
+    "projectKey": "project:dom-kultury",
+    "projectCreatedAt": "2026-10-14T10:50:20.353Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 3,
+    "lastSequence": 3,
+    "occurrences": [
+      3
+    ],
+    "sequenceTotal": 8,
+    "uniqueShotCount": 8,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "halinka"
+    },
+    {
+      "type": "character",
+      "id": "czeslaw"
+    },
+    {
+      "type": "shot",
+      "id": "dk-reportaz-02"
+    },
+    {
+      "type": "shot",
+      "id": "dk-reportaz-01"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:halinka",
+        "key": "character:halinka",
+        "type": "character",
+        "id": "halinka",
+        "name": "Halinka",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:czeslaw",
+        "key": "character:czeslaw",
+        "type": "character",
+        "id": "czeslaw",
+        "name": "Czesław",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:dk-reportaz-02",
+        "key": "shot:dom-kultury/dk-reportaz-02",
+        "type": "shot",
+        "id": "dk-reportaz-02",
+        "name": "02 - Przejscie do foyer",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/dom-kultury/shots/dk-reportaz-02.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:dk-reportaz-01",
+        "key": "shot:dom-kultury/dk-reportaz-01",
+        "type": "shot",
+        "id": "dk-reportaz-01",
+        "name": "01 - Od sali do foyer",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/dom-kultury/shots/dk-reportaz-01.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "character:halinka",
+          "character:czeslaw",
+          "shot:dk-reportaz-02",
+          "shot:dk-reportaz-01"
+        ],
+        "references": [
+          {
+            "sourceKey": "character:halinka",
+            "key": "character:halinka",
+            "type": "character",
+            "id": "halinka",
+            "name": "Halinka",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:czeslaw",
+            "key": "character:czeslaw",
+            "type": "character",
+            "id": "czeslaw",
+            "name": "Czesław",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:dk-reportaz-02",
+            "key": "shot:dom-kultury/dk-reportaz-02",
+            "type": "shot",
+            "id": "dk-reportaz-02",
+            "name": "02 - Przejscie do foyer",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/dom-kultury/shots/dk-reportaz-02.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:dk-reportaz-01",
+            "key": "shot:dom-kultury/dk-reportaz-01",
+            "type": "shot",
+            "id": "dk-reportaz-01",
+            "name": "01 - Od sali do foyer",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/dom-kultury/shots/dk-reportaz-01.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Create keyframe C, another 3 seconds after reference image 2, end of a six-second documentary walk. Image 1 is the NEW authoritative Blender architecture/camera plate: preserve exactly its framing, white foreground lintel above the auditorium opening, perspective, chair blocks, central wood aisle, floor, stage, screen, posters, table and truss. Image 2 is preceding approved keyframe B and fixes both hosts, their costumes, light, body scale and placement. Image 3 locks Halinka face; image 4 locks Czeslaw face; image 5 is the original approved keyframe A, secondary continuity check only, not the camera composition. Camera has tracked BACKWARD another 1.45 metres toward the foyer; hosts have walked forward the same distance. Keep them approximately the same screen height and position as frame B, now just beyond the rear end of the seating blocks, near the auditorium-to-foyer threshold, with their shoes planted on the visible foreground wooden floor. Halinka screen LEFT, Czeslaw screen RIGHT; exactly two humans. Halinka returns her gaze to camera with a warm small smile, right hand relaxed near waist. Czeslaw glances gently toward Halinka with a reserved expression, arms down, a natural relaxed walking step. Match exact facial identity, 162/171cm height ratio, burgundy cardigan and black outfit and gold necklaces, dark suit/beige shirt/brown loose tie/glasses. Remove ONLY stage test mannequin and thin green floating strip, as in approved frames. Everything else retains original geometry. Photoreal eye-level 24mm documentary frame, neutral warm practical lighting, natural skin, detailed building. No new people, props, captions, remodeling, changing logos, fake doors, helmets or wounds. Keep frame B continuity without copying its background camera position.\n",
+    "endFrameDescription": "",
+    "animation": ""
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "character:halinka",
+        "character:czeslaw",
+        "shot:dk-reportaz-02",
+        "shot:dk-reportaz-01"
+      ],
+      "references": [
+        {
+          "sourceKey": "character:halinka",
+          "key": "character:halinka",
+          "type": "character",
+          "id": "halinka",
+          "name": "Halinka",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:czeslaw",
+          "key": "character:czeslaw",
+          "type": "character",
+          "id": "czeslaw",
+          "name": "Czesław",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:dk-reportaz-02",
+          "key": "shot:dom-kultury/dk-reportaz-02",
+          "type": "shot",
+          "id": "dk-reportaz-02",
+          "name": "02 - Przejscie do foyer",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/dom-kultury/shots/dk-reportaz-02.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:dk-reportaz-01",
+          "key": "shot:dom-kultury/dk-reportaz-01",
+          "type": "shot",
+          "id": "dk-reportaz-01",
+          "name": "01 - Od sali do foyer",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/dom-kultury/shots/dk-reportaz-01.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-14T10:50:33.772301+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:halinka",
+            "character:czeslaw",
+            "shot:dk-reportaz-02",
+            "shot:dk-reportaz-01"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:halinka",
+              "key": "character:halinka",
+              "type": "character",
+              "id": "halinka",
+              "name": "Halinka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:czeslaw",
+              "key": "character:czeslaw",
+              "type": "character",
+              "id": "czeslaw",
+              "name": "Czesław",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:dk-reportaz-02",
+              "key": "shot:dom-kultury/dk-reportaz-02",
+              "type": "shot",
+              "id": "dk-reportaz-02",
+              "name": "02 - Przejscie do foyer",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/dom-kultury/shots/dk-reportaz-02.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:dk-reportaz-01",
+              "key": "shot:dom-kultury/dk-reportaz-01",
+              "type": "shot",
+              "id": "dk-reportaz-01",
+              "name": "01 - Od sali do foyer",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/dom-kultury/shots/dk-reportaz-01.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dom-kultury/shots/dk-reportaz-03/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/dom-kultury/shots/dk-reportaz-03/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

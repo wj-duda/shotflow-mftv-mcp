@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-29T11:52:39.792Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "character:marian",
+  "type": "characters",
+  "id": "marian",
+  "name": "Marian",
+  "description": "CHARACTER [age=55-64; presentation=masculine; height=average; build=slim; body=lean; chest=small; skin=light; face=long-angular; eyes=gray-blue; hair-color=gray; hair-length=short; hair-texture=untidy]\n\nMARIAN — PIERWSZY DESIGN POSTACI, 2026-10-28.\nNowa postać świata AIMFTV tworzona w rozmowie z użytkownikiem. Znajomy spod małomiasteczkowego sklepu, który zagaduje „Kierowniku…”. Życiowo sfatygowany, sprytny i kontaktowy. Widz ma dostrzec konkretnego człowieka z własnymi zasadami i poczuciem humoru. Nie należy robić z niego potwora, agresywnego pijaka, bełkoczącej karykatury ani eleganckiego handlarza.\n\nWYGLĄD: około sześćdziesięciu lat, około 172 cm, szczupły, lekko przygarbiony, z wyraźnymi kośćmi policzkowymi. Długa, wąska, pomarszczona twarz; duży wydłużony zaczerwieniony nos, jasne szaroniebieskie oczy, krzaczaste nierówne brwi, krótki szpakowaty zarost i drobny wąs. Ciemny pieprzyk na prawym policzku, po lewej stronie referencyjnego portretu. Krzywy półuśmiech i przytomne, porozumiewawcze spojrzenie. Siwe włosy wystają spod znoszonej grafitowej czapki z dzianiny z wywinięciem.\n\nSTRÓJ REFERENCYJNY: obszerna sprana brązowa kurtka zapinana na zamek, z wytartym prążkowanym kołnierzem i mankietami. Pod spodem granatowa bluza dresowa na suwak z wąskimi jasnymi lamówkami; luźny bordowo-beżowy szalik w kratkę. Wytarte ciemnoszare proste spodnie i stare ciemne sznurowane sportowe buty z poszarzałymi podeszwami. Bez okularów, marek i ozdobnej biżuterii. Sylwetka ma wyglądać codziennie i wiarygodnie, bez teatralnego przebrania.\n\nREKWIZYTY I GESTY: prawa ręka pilnuje małego pliku złożonych kartek spiętych metalowym klipsem; lewa niesie pogniecioną jasną reklamówkę. Kartki są ważniejsze od jego własnego wyglądu. Nie miesza rozpisek klientów, może je sprawdzać, porządkować i poprawiać klips. Zwykle stoi swobodnie, z lekko opuszczonymi ramionami i jedną stopą zwróconą na zewnątrz. Zagadując, unosi brew, pochyla głowę i obniża głos.\n\nCHARAKTER: bezpośredni, rozmowny, dyskretny, z ulicznym sprytem i suchym humorem. Zaczyna od „Kierowniku”, zagaduje po swojemu i chce dokładnie wiedzieć, komu i w czym może pomóc. Może żartować z własnej pamięci i sytuacji, lecz do przyjętej rozpiski podchodzi skrupulatnie. Swoboda i nieporządek wyglądu kontrastują z rzetelnością w pilnowaniu cudzych instrukcji.\n\nROLA W SERWISIE — WDROŻONA, STAN NA 2026-10-29: „Paczka dla Mariana”, kupowana u Włodka (character:komisant), otwiera rozmowę z Marianem. Użytkownik wybiera przyszłą audycję z głosowaniem i przygotowuje emotki dla jej utworów. Końcowy zapis zużywa jedną paczkę; do rozpoczęcia audycji można wrócić do zapisanej rozpiski i ją zmienić. Głosy mają znacznik pre-marian i podczas emisji są prezentowane jako Marian, maskując publiczny podpis właściciela. Wewnętrznie należą do prawdziwego konta, zachowują jego limit i zakaz oceniania własnego utworu. Marian reprezentuje wiele osób, nie otrzymuje nieograniczonej liczby własnych głosów. Zwykła ocena na żywo zastępuje poprzednią, także przygotowaną; przygotowanie nie przyznaje uszu, natomiast późniejsza akcja na żywo jest rozliczana normalnie. Szczegóły techniczne, ceny i stan sklepu należy odczytywać z aktualnej dokumentacji i oferty serwisu, nie wyprowadzać z żartów postaci.\n\nHISTORIA I RODZINA — KANON: Marian jest bratem Włodka (character:komisant), właściciela komisu. Pracował w Domu Kultury jako człowiek od techniki, napraw i przygotowywania wydarzeń. Stracił pracę przez picie i powtarzające się zawiedzione zaufanie, nie przez likwidację etatu ani niesprawiedliwą decyzję. Dostawał kolejne szanse, aż zabrakło podstaw, żeby powierzać mu odpowiedzialność. Nadal zna ludzi, sprzęt i zakamarki tego miejsca; czasem wpada i podpowiada, jak coś naprawić. Pozostały mu fachowość, duma z dawnej pracy i potrzeba bycia przydatnym, choć nie dostaje już kluczy na noc. Problem alkoholowy jest częścią jego historii, nie puentą żartu ani całą osobowością. Zachowuje humor, własne zdanie i godność.\n\nRELACJA Z WŁODKIEM: brat narzeka na Mariana, ale pamięta o nim i przygotowuje mu paczkę z jedzeniem oraz codziennymi drobiazgami. Pomaga z wyraźnymi granicami; troskę ukrywa pod opryskliwością. Marian uważa, że Włodek za bardzo się rządzi, lecz przyjmuje jego pomoc. Włodek wszystko przelicza, Marian wiele spraw załatwia po znajomości. Ich historia powinna wychodzić stopniowo w krótkich dialogach, bez jednorazowego wykładu o przeszłości.\n\nPACZKA I PRZYSŁUGA: gracz kupuje u Włodka przygotowaną „Paczkę dla Mariana” i przynosi ją Marianowi. Marian przyjmuje pomoc z wdzięcznością i odwdzięcza się przypilnowaniem oraz dostarczeniem ocen na audycję. Fabularnie jest to wzajemna pomoc, nie zapłata za usługę ani handel głosami. Włodek zna potrzeby brata, dlatego właśnie u niego dostępny jest ten zestaw. Pełna zawartość paczki pozostaje niedopowiedziana; nie definiujemy jej jako flaszki ani zapłaty alkoholem. Nie wprowadzamy nocnej prohibicji ani sprzedaży alkoholu spod lady. Marian solidnie pilnuje cudzych rozpisek — to drobna odpowiedzialność, której potrafi sprostać. Znajomi z Domu Kultury przyjmują przekazywane oceny, ale nie nadają mu dodatkowych własnych głosów: działa w imieniu różnych osób, każdej z jej własnym limitem.\n\nPODTEKST POSTACI — KARTECZKI I ODZYSKIWANIE SPRAWCZOŚCI (kanon 2026-10-29): Noszenie cudzych rozpisek daje Marianowi drobną, konkretną odpowiedzialność i kontakt z miejscem, w którym kiedyś pracował. Ktoś powierza mu sprawę, a on może ją doprowadzić do końca. W głębi duszy cieszy go, że znowu jest komuś potrzebny. To wskazówka dla autora i aktora, nigdy dosłowna deklaracja w dialogu. Nie mówi „czuję się przydatny”, nie prosi o litość, nie wygłasza terapeutycznych monologów i nie staje się automatycznie człowiekiem, który rozwiązał problem alkoholowy.\n\nJAK TO POKAZYWAĆ: trochę prostuje plecy, gdy dostaje konkretną sprawę; sprawdza godzinę audycji, wyrównuje kartki, osłania je przed wilgocią, poprawia klips, czyta raz jeszcze nazwę utworu. Pamięta, która rozpiska jest czyja, i składa ją staranniej, niż wymagałaby tego zwykła czynność. Po przekazaniu głosów może krótko potwierdzić „Dotarło”, po czym schować satysfakcję za żartem. Dawna fachowość przebija przez konkrety, nie przez przechwałki. W dialogach tylko od czasu do czasu pojawia się drobny ślad tej troski; większość rozmowy pozostaje swobodna, potoczna i dowcipna.\n\nWDZIĘCZNOŚĆ ZAMIAST CENNIKA: paczka jest pomocą dla Mariana; cała jej zawartość pozostaje niedopowiedziana. Nie ustalamy, że zawiera alkohol. On odwzajemnia gest przysługą i traktuje powierzone głosy serio. Nie mówi o opłatach, dopłatach, bezpłatnych poprawkach, pakietach usług ani o tym, co zrobi „za paczkę”. Rzeczowe ograniczenia mechaniki mogą być opisane w interfejsie, ale nie wkładamy ich w usta postaci jako taryfikatora. Zmiana rozpiski brzmi naturalnie: „Daj, poprawię. Byle przed graniem, żebym miał właściwą kartkę”.\n\nPRZYKŁADY PODTEKSTU: „Godzinę mam, kolejność też. Ty spokojnie słuchaj, kierowniku. Karteczka dotrze gdzie trzeba.”; „Moment, poprawię ten tytuł. Żeby potem nikt nie musiał zgadywać.”; „O, twoja. Tu trzymam te na dzisiaj. Nic się nie pomiesza.”; „Dzięki, kierowniku. Postaw tu, pod ławką. A ja ci tych ocen przypilnuję.”\n\nPRZYKŁADOWY TON (teksty koncepcyjne): „Kierowniku… To jak mam ocenić?”; „Dziesięć od ciebie. Jak od każdego. Reszta kartek nie twoja sprawa.”; „To nie wszystko moje. Ja tu od kilku osób jestem.”; „Ja tu, kierowniku, wszystkie kable kładłem. Jeszcze parę rzeczy po mnie działa.”; „Co tam znowu napakował… Dobra, kierowniku, dawaj te kawałki. Jak mam ocenić?”\n\nREFERENCJE: image-001 — portret; image-002 — pełna sylwetka w tym samym stroju. Oba obrazy są pierwszym designem postaci. Pełne prompty i rzeczywiste wejścia zapisano w _system/design-v001/generation-record.json. Głos nieprzypisany. Nie powstały take, animacja, audio ani ujęcie na timeline.\n\nREFERENCJE DIALOGOWE: image-003 — zagadanie „Kierowniku?”, uniesiona brew, lekko rozchylone usta i uważne spojrzenie; image-004 — skupione słuchanie instrukcji, lekko ściągnięte brwi, powaga bez złości; image-005 — porozumiewawczy uśmiech po dogadaniu przysługi; image-006 — zaduma i dyskretny żal przy wspomnieniach o Domu Kultury, wzrok opuszczony w bok. Wszystkie cztery warianty zachowują tożsamość, strój i oświetlenie portretu image-001 oraz przezroczyste tło. Służą jako dodatkowe referencje aktorskie do scen dialogowych. Prompty i rzeczywiste wejścia: _system/expressions-v001/generation-record.json.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "portrait",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/marian/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/marian/image-001-thumb.webp",
+      "width": 1312,
+      "height": 1199,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-002",
+      "role": "silhouette",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/marian/image-002.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/marian/image-002-thumb.webp",
+      "width": 1024,
+      "height": 1536,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-003",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/marian/image-003.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/marian/image-003-thumb.webp",
+      "width": 1312,
+      "height": 1199,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-004",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/marian/image-004.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/marian/image-004-thumb.webp",
+      "width": 1312,
+      "height": 1199,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-005",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/marian/image-005.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/marian/image-005-thumb.webp",
+      "width": 1312,
+      "height": 1199,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-006",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/marian/image-006.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/marian/image-006-thumb.webp",
+      "width": 1312,
+      "height": 1199,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-10-29T11:51:47.100633+00:00"
+}

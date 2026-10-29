@@ -1,12 +1,12 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-09T15:15:34.229Z",
+  "generatedAt": "2026-10-29T11:52:39.792Z",
   "worldId": "aimftv",
   "kind": "shot",
   "key": "shot:bitwa/czeslaw-bursztynowe-emoji",
   "id": "czeslaw-bursztynowe-emoji",
   "title": "czeslaw-bursztynowe-emoji",
-  "description": "",
+  "description": "Czesław przy czerwonej kurtynie, otwartą dłonią zapowiada nagrodę.",
   "project": {
     "id": "bitwa",
     "key": "project:bitwa",
@@ -24,8 +24,8 @@
     "occurrences": [
       2
     ],
-    "sequenceTotal": 6,
-    "uniqueShotCount": 4,
+    "sequenceTotal": 27,
+    "uniqueShotCount": 7,
     "sequenceOrder": "oldest-to-newest timeline clip order",
     "sequenceSource": "workspace timeline",
     "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
@@ -33,11 +33,19 @@
   "references": [],
   "referenceUsage": {
     "declared": [],
-    "activeFrames": [],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [],
+        "references": [],
+        "sourceReference": null
+      }
+    ],
     "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
   },
   "prompts": {
-    "image": "",
+    "image": "Import wcześniej wygenerowanego i zaakceptowanego kadru z rozmowy (2026-10-08). Bez nowej generacji. Pierwotny prompt nie jest dostępny w manifeście. Normalizacja proporcjonalna do 1920x1080 z minimalnym centralnym przycięciem.",
     "endFrameDescription": "",
     "animation": ""
   },
@@ -46,6 +54,31 @@
     "width": 1920,
     "height": 1080
   },
-  "frameStatus": "placeholder",
-  "images": []
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [],
+      "references": [],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-11T11:03:55.227749+00:00",
+          "source": "generated",
+          "referenceKeys": [],
+          "references": [],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/bitwa/shots/czeslaw-bursztynowe-emoji/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/bitwa/shots/czeslaw-bursztynowe-emoji/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
 }

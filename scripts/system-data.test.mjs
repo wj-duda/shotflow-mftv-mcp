@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { mkdtemp, readFile, stat } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import path from 'node:path';
-import { prepareSystemData } from './system-data.mjs';
+import { prepareSystemData, validateSnapshot } from './system-data.mjs';
 const fixture = () => ({ schemaVersion: 1, generatedAt: '2026-10-05T12:00:00Z', broadcasts: [], chart: { tracks: [] }, tags: [], shop: [],
   economy: { submissionCostEars: 500, welcomeGrantEars: 1500 }, window: { timeZone: 'Europe/Warsaw',
     previousWeekStart: '2026-09-27T22:00:00Z', currentWeekStart: '2026-10-04T22:00:00Z', endExclusive: '2026-10-11T22:00:00Z' } });
@@ -33,4 +33,11 @@ test('nie publikuje migawki przekraczającej budżet ukończeń', async () => {
   const repoRoot = await mkdtemp(path.join(tmpdir(), 'mcp-snapshot-test-'));
   const data = fixture(); data.broadcasts = [{ id: 'a', tracks: Array.from({ length: 301 }, () => ({})) }];
   await assert.rejects(prepareSystemData({ repoRoot, liveData: true, collect: async () => data }), /Niepoprawna migawka/);
+});
+test('migawka mieści wszystkie trzy oferty, w tym paczkę Mariana', () => {
+  const data = fixture();
+  data.shop = ['repeat-request', 'named-star', 'marian-package'].map(id => ({ id }));
+  assert.equal(validateSnapshot(data).shop.length, 3);
+  data.shop.push({ id: 'unexpected' });
+  assert.throws(() => validateSnapshot(data), /Niepoprawna migawka/);
 });
