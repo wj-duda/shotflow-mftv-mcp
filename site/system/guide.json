@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "verifiedAt": "2026-10-29",
-  "scope": "Podstawowe zasady i mapa serwisu, zweryfikowane w kodzie. Nie jest to pełna specyfikacja wszystkich reguł; bieżące liczby pochodzą z osobnej migawki.",
+  "verifiedAt": "2026-11-05",
+  "scope": "Podstawowe zasady i mapa serwisu. Logowanie, label i łączenie Discorda zweryfikowano w opublikowanej wersji z 2026-11-05; pozostałe sekcje zachowują wcześniejszy zakres weryfikacji. Nie jest to pełna specyfikacja wszystkich reguł; bieżące liczby pochodzą z osobnej migawki.",
   "sections": [
     {
       "id": "battle",
@@ -14,15 +14,47 @@
     {
       "id": "navigation",
       "title": "Gdzie znaleźć informacje i funkcje",
-      "text": "MF TV prezentuje muzykę twórców AI. Publiczne strony pozwalają poznać audycje, utwory i zasady. Panel twórcy, sklep i ekwipunek wymagają zalogowania; publiczna wtyczka nie pokazuje prywatnych kont, sald ani zgłoszeń użytkownika.",
+      "text": "MF TV prezentuje muzykę twórców AI. Publiczne strony pozwalają poznać audycje, utwory i zasady. Panel twórcy, sklep i ekwipunek wymagają zalogowania; publiczna wtyczka nie pokazuje prywatnych kont, sald ani zgłoszeń użytkownika. Logowanie jest na /login, a Twój label na /label. Szczegóły metod logowania, dodawania kanałów i powiązania Discorda są w sekcjach login, labels i discord-linking.",
       "links": [
         "https://aimusicfuture.tv/",
         "https://aimusicfuture.tv/jak-to-dziala",
         "https://aimusicfuture.tv/faq",
         "https://aimusicfuture.tv/ramowka",
+        "https://aimusicfuture.tv/login",
+        "https://aimusicfuture.tv/label",
         "https://aimusicfuture.tv/creator",
         "https://aimusicfuture.tv/creator/shop",
         "https://aimusicfuture.tv/creator/inventory"
+      ]
+    },
+    {
+      "id": "login",
+      "title": "Logowanie przez YouTube lub Discord",
+      "text": "Ekran https://aimusicfuture.tv/login pokazuje najpierw wspólny checkbox z linkami do regulaminu zgłoszeń i polityki prywatności. Dopiero jego zaznaczenie odblokowuje obie metody. Każde nowe wejście na ekran logowania wymaga zaznaczenia zgody; powrót z formularza YouTube do wyboru metody zachowuje zgodę w tej samej próbie. Przycisk Użyj kanału YouTube otwiera formularz nicku lub adresu kanału. Dostęp potwierdza się jednorazowym kodem umieszczonym w opisie własnego kanału i sprawdzeniem go w panelu. Samo podanie nicku nie daje dostępu. Nie jest to logowanie kontem Google i nie udziela aplikacji dostępu do publikowania lub zmiany ustawień YouTube. Przycisk Zaloguj przez Discord od razu otwiera autoryzację Discorda; po sukcesie użytkownik wraca do /label. Ta metoda wymaga Discorda już połączonego z labelem. Niepowiązany Discord otrzymuje instrukcję zalogowania przez YouTube i połączenia konta w labelu. Samodzielne wejście niepowiązanym Discordem do pustego labelu jest planowane, ale jeszcze nie działa: nie przedstawiaj go jako dostępnego. Anulowanie autoryzacji nie łączy kont ani nie loguje użytkownika.",
+      "links": [
+        "https://aimusicfuture.tv/login",
+        "https://aimusicfuture.tv/label",
+        "https://aimusicfuture.tv/regulamin-zgloszen",
+        "https://aimusicfuture.tv/polityka-prywatnosci"
+      ]
+    },
+    {
+      "id": "labels",
+      "title": "Twój label — kanały YouTube i przełączanie kont",
+      "text": "Twój label pod adresem https://aimusicfuture.tv/label grupuje kanały YouTube, którymi zarządza zalogowana osoba. Można wejść przez pozycję Twój label w menu konta. Kafelki pokazują kanały; Przejdź do kanału otwiera panel wybranego kanału. Przełączenie zmienia aktywne konto w bieżącej przeglądarce. Każdy kanał zachowuje osobno swoje utwory, zgłoszenia, portfel i uprawnienia: label nie tworzy wspólnego salda ani nie przenosi własności materiałów. Dodaj kanał YouTube prowadzi do /label/add. Dodatkowy kanał wymaga potwierdzenia dostępu kodem w jego opisie. Jeśli kanał należy do innego labelu obejmującego dodatkowe konta, panel wymaga jawnego potwierdzenia połączenia i pokazuje jego zakres. Dostęp do jednego powiązanego kanału pozwala przełączać się na pozostałe w tym labelu. Jeden label może zawierać wiele kanałów YouTube i najwyżej jedno konto Discord. Próba połączenia labeli z dwoma różnymi Discordami jest odrzucana. Wylogowanie kończy sesję w danej przeglądarce, ale nie usuwa powiązań labelu. Publiczne wtyczki MCP nie odczytują prywatnego składu labelu, sesji ani sald i nie wykonują logowania lub przełączania kont za użytkownika.",
+      "links": [
+        "https://aimusicfuture.tv/label",
+        "https://aimusicfuture.tv/label/add",
+        "https://aimusicfuture.tv/creator"
+      ]
+    },
+    {
+      "id": "discord-linking",
+      "title": "Połącz Discord — powiązanie konta a logowanie",
+      "text": "Połącz Discord w górnym pasku strony /label służy do powiązania Discorda z obecnym labelem osoby już zalogowanej przez YouTube. To oddzielna czynność od Zaloguj przez Discord na /login. Discord potwierdza tożsamość; aplikacja pobiera minimalny profil: identyfikator, nazwę użytkownika, nazwę wyświetlaną i avatar. Nie wymaga dostępu do wiadomości ani listy serwerów i nie dodaje użytkownika do serwera. Powrót z Discorda otwiera osobne okno na tle labelu: użytkownik widzi konto Discord i kanały docelowego labelu, a następnie wybiera Potwierdź połączenie lub Anuluj. Sam powrót ani wcześniejszy podgląd nie tworzą powiązania. Po potwierdzeniu w pasku jest avatar i nazwa Discorda. Powiązanie nie zmienia aktualnej sesji kanału, jego uprawnień ani salda. Konto Discord należące już do innego labelu powoduje błąd; nie jest przenoszone ani używane do cichego połączenia labeli. Nie można podłączyć drugiego Discorda do labelu mającego już inny Discord. Późniejsze logowanie tym Discordem otwiera istniejące konto dostępnego kanału z labelu i prowadzi do /label. Role na serwerze Discord i uprawnienia bota nie nadają uprawnień w panelu. Publiczna wtyczka MCP nie łączy ani nie odłącza kont. Odłączenie może obecnie wykonać operator dedykowanym narzędziem; nie ma przycisku samoobsługowego. Usunięcie powiązania blokuje kolejne logowanie tą drogą, ale samo nie wylogowuje istniejących sesji.",
+      "links": [
+        "https://aimusicfuture.tv/label",
+        "https://aimusicfuture.tv/login"
       ]
     },
     {
