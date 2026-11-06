@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "verifiedAt": "2026-11-06",
-  "scope": "Podstawowe zasady i mapa serwisu. Logowanie, label i łączenie Discorda zweryfikowano w opublikowanej wersji z 2026-11-05. Publiczny ekran /login sprawdzono ponownie 2026-11-06. Audyt z 2026-11-06 uzupełnia zasady Mariana na podstawie implementacji i 61 testów mechaniki oraz logowania; nie obejmuje wykonania pełnego OAuth ani operacji na prywatnych kontach. Pozostałe sekcje zachowują wcześniejszy zakres weryfikacji. Nie jest to pełna specyfikacja wszystkich reguł; bieżące liczby pochodzą z osobnej migawki.",
+  "scope": "Podstawowe zasady i mapa serwisu. Logowanie, label i łączenie Discorda zweryfikowano w opublikowanej wersji z 2026-11-05. Publiczny ekran /login sprawdzono ponownie 2026-11-06. Audyt z 2026-11-06 uzupełnia zasady Mariana na podstawie implementacji i 61 testów mechaniki oraz logowania; nie obejmuje wykonania pełnego OAuth ani operacji na prywatnych kontach. Pozostałe sekcje zachowują wcześniejszy zakres weryfikacji. Nie jest to pełna specyfikacja wszystkich reguł; bieżące liczby pochodzą z osobnej migawki. Test publicznego ekranu logowania potwierdził blokadę obu metod bez zgody, ich odblokowanie po zaznaczeniu, zachowanie zgody przy powrocie do wyboru metody oraz jej reset po odświeżeniu. W mobilnym widoku 390 px nie stwierdzono poziomego przepełnienia ani błędów JavaScript podczas tej próby.",
   "sections": [
     {
       "id": "battle",
