@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "note:ze18-chwyt-dloni",
+  "type": "notes",
+  "id": "ze18-chwyt-dloni",
+  "name": "ZE18 — referencja ułożenia palców i dłoni",
+  "description": "Rzeczywista fotografia dłoni podpierających okrągłą nagrodę filmową od dołu i po bokach. Referencja wyłącznie anatomii oraz chwytu, nie stroju, osoby, liternictwa ani kształtu rekwizytu. Zachować naszą perspektywę finałowego detalu i prop:nagroda-zlote-emoji. Źródło: https://www.peterahern.com/news-index/2022/8/8/buzzkill-lesff-award ; zdjęcie z witryny Petera Aherna. Wcześniejszy talerz image-001 odrzucony przez autora jako niepasujący chwyt. Materiał zewnętrzny referencyjny.",
+  "images": [
+    {
+      "id": "image-002",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/ze18-chwyt-dloni/image-002.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/ze18-chwyt-dloni/image-002-thumb.webp",
+      "width": 2232,
+      "height": 2232,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-11-09T18:50:12.706721+00:00"
+}

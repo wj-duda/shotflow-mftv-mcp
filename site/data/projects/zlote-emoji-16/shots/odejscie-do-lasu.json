@@ -1,0 +1,348 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-16/odejscie-do-lasu",
+  "id": "odejscie-do-lasu",
+  "title": "08 — Rozstanie",
+  "description": "SCENOPIS v005; 33–37 s.\n\nSzeroki plan mastera. Halinka dołącza do koleżanki i odchodzi w lewo ku drzewom. Przed zejściem z pomostu jeszcze raz ogląda się na Fonza.\n\nGRA: Jeden krótki powrót spojrzenia, bez machania i łez. Pozostawia możliwość wzajemności, nie potwierdza wielkiej miłości.\n\nDŹWIĘK — PLAN: Oddalające się kroki. Bez mowy.\n\nStatyczna klatka; brak wygenerowanej animacji.",
+  "project": {
+    "id": "zlote-emoji-16",
+    "key": "project:zlote-emoji-16",
+    "name": "Złote Emoji #16",
+    "createdAt": "2026-11-06T18:54:57.286Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-16",
+    "projectCreatedAt": "2026-11-06T18:54:57.286Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 12,
+    "lastSequence": 12,
+    "occurrences": [
+      12
+    ],
+    "sequenceTotal": 16,
+    "uniqueShotCount": 16,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "fonzo-mlody"
+    },
+    {
+      "type": "character",
+      "id": "halinka-mloda"
+    },
+    {
+      "type": "character",
+      "id": "wyslanniczka-zakonu"
+    },
+    {
+      "type": "prop",
+      "id": "leica-m3"
+    },
+    {
+      "type": "shot",
+      "id": "seed"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:fonzo-mlody",
+        "key": "character:fonzo-mlody",
+        "type": "character",
+        "id": "fonzo-mlody",
+        "name": "Młody Fonzo",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/fonzo-mlody.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:halinka-mloda",
+        "key": "character:halinka-mloda",
+        "type": "character",
+        "id": "halinka-mloda",
+        "name": "Młoda Halinka",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka-mloda.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:wyslanniczka-zakonu",
+        "key": "character:wyslanniczka-zakonu",
+        "type": "character",
+        "id": "wyslanniczka-zakonu",
+        "name": "Wysłanniczka Zakonu Jutrzenki",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/wyslanniczka-zakonu.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:leica-m3",
+        "key": "prop:leica-m3",
+        "type": "prop",
+        "id": "leica-m3",
+        "name": "Leica M3 — aparat protokolanta",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/leica-m3.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:seed",
+        "key": "shot:zlote-emoji-16/seed",
+        "type": "shot",
+        "id": "seed",
+        "name": "01 — Letnie spotkanie",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/seed.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "shot:seed",
+          "character:wyslanniczka-zakonu",
+          "character:halinka-mloda",
+          "character:fonzo-mlody"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:seed",
+            "key": "shot:zlote-emoji-16/seed",
+            "type": "shot",
+            "id": "seed",
+            "name": "01 — Letnie spotkanie",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/seed.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:wyslanniczka-zakonu",
+            "key": "character:wyslanniczka-zakonu",
+            "type": "character",
+            "id": "wyslanniczka-zakonu",
+            "name": "Wysłanniczka Zakonu Jutrzenki",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/wyslanniczka-zakonu.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:halinka-mloda",
+            "key": "character:halinka-mloda",
+            "type": "character",
+            "id": "halinka-mloda",
+            "name": "Młoda Halinka",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka-mloda.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:fonzo-mlody",
+            "key": "character:fonzo-mlody",
+            "type": "character",
+            "id": "fonzo-mlody",
+            "name": "Młody Fonzo",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/fonzo-mlody.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Landscape16:9 1920x1080 return to exact WIDE MASTER of image1, SAME narrow wooden pier same wooded path on SCREEN LEFT, SAME side-on cream sailing yacht tied immediately BEHIND pier, bow right, same warm light. Change only blocking to departure. Exactly THREE physical people matching images2emissary,3Halinka,4Fonzo. Fonzo now at center-left part of pier turned to SCREEN LEFT watching women, camera hangs on neckstrap, ivory stripedshirt no jacket. Halinka has passed him and is just at shore end of pier SCREEN LEFT, body facing left ready to walk, face turning slightly back RIGHT toward him, red side braid charcoaljacket jeans white sneakers. Emissary ahead of Halinka near birch path on far LEFT, going LEFT into trees, ivory blouse navy skirt brown bag, urgent purposeful posture. Keep three separated bodies, visible feet on solid boards or dry path. Right half of pier empty emphasizes departure. Lake water should have modest wind ripples and broken highlights, near shore visible brown-green shallow bottom, NO coherent portraitlike reflections of people. Preserve boat geometry do not enlarge pier. No waving, no text.",
+    "endFrameDescription": "",
+    "animation": "0.0–0.8s: Halinka, already looking back toward Fonzo, holds the brief glance, then turns her face toward screen left. 0.8–4.6s: she follows the older woman left along the existing woodland path with purposeful natural steps. The older woman continues ahead without turning. Fonzo remains on the pier, watching them leave. 4.6–5.0s: the women continue away while he stays. Camera: locked wide master. Secondary motion: braid, skirt and bags sway; ordinary ripples break water reflections. Preserve three separate bodies, grounded feet, wooded path, pier and side-on yacht. No waving, new people, teleportation, speech or portrait-like water reflections."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:seed",
+        "character:wyslanniczka-zakonu",
+        "character:halinka-mloda",
+        "character:fonzo-mlody"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:seed",
+          "key": "shot:zlote-emoji-16/seed",
+          "type": "shot",
+          "id": "seed",
+          "name": "01 — Letnie spotkanie",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/seed.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:wyslanniczka-zakonu",
+          "key": "character:wyslanniczka-zakonu",
+          "type": "character",
+          "id": "wyslanniczka-zakonu",
+          "name": "Wysłanniczka Zakonu Jutrzenki",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/wyslanniczka-zakonu.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:halinka-mloda",
+          "key": "character:halinka-mloda",
+          "type": "character",
+          "id": "halinka-mloda",
+          "name": "Młoda Halinka",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka-mloda.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:fonzo-mlody",
+          "key": "character:fonzo-mlody",
+          "type": "character",
+          "id": "fonzo-mlody",
+          "name": "Młody Fonzo",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/fonzo-mlody.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-06T19:17:26.898937+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:seed",
+            "character:fonzo-mlody",
+            "character:halinka-mloda",
+            "character:wyslanniczka-zakonu"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:seed",
+              "key": "shot:zlote-emoji-16/seed",
+              "type": "shot",
+              "id": "seed",
+              "name": "01 — Letnie spotkanie",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/seed.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:fonzo-mlody",
+              "key": "character:fonzo-mlody",
+              "type": "character",
+              "id": "fonzo-mlody",
+              "name": "Młody Fonzo",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/fonzo-mlody.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:halinka-mloda",
+              "key": "character:halinka-mloda",
+              "type": "character",
+              "id": "halinka-mloda",
+              "name": "Młoda Halinka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka-mloda.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:wyslanniczka-zakonu",
+              "key": "character:wyslanniczka-zakonu",
+              "type": "character",
+              "id": "wyslanniczka-zakonu",
+              "name": "Wysłanniczka Zakonu Jutrzenki",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/wyslanniczka-zakonu.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-11-06T23:50:02.926019+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:seed",
+            "character:wyslanniczka-zakonu",
+            "character:halinka-mloda",
+            "character:fonzo-mlody"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:seed",
+              "key": "shot:zlote-emoji-16/seed",
+              "type": "shot",
+              "id": "seed",
+              "name": "01 — Letnie spotkanie",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/seed.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:wyslanniczka-zakonu",
+              "key": "character:wyslanniczka-zakonu",
+              "type": "character",
+              "id": "wyslanniczka-zakonu",
+              "name": "Wysłanniczka Zakonu Jutrzenki",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/wyslanniczka-zakonu.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:halinka-mloda",
+              "key": "character:halinka-mloda",
+              "type": "character",
+              "id": "halinka-mloda",
+              "name": "Młoda Halinka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka-mloda.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:fonzo-mlody",
+              "key": "character:fonzo-mlody",
+              "type": "character",
+              "id": "fonzo-mlody",
+              "name": "Młody Fonzo",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/fonzo-mlody.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-16/shots/odejscie-do-lasu/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-16/shots/odejscie-do-lasu/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

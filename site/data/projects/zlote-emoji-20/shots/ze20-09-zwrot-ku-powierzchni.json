@@ -1,0 +1,297 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-20/ze20-09-zwrot-ku-powierzchni",
+  "id": "ze20-09-zwrot-ku-powierzchni",
+  "title": "DIAXI — piruet przez wodną bramę",
+  "description": "Jedno przygotowane ujęcie first/last: Start 09, End 10. Docelowo 97 klatek / 4,04 s. Diaxi płynie w GÓRĘ i w PRAWO, oddala się i wykonuje jeden płynny piruet wokół osi ciała. Wodne drobinki zapalają się błękitnie, wir i gęste bąbelki częściowo osłaniają zmianę niebieskozielonej wody w oliwkowoszarą wodę zalewu. Energia wygasa przed End Frame. Magiczna transformacja otoczenia jest zamierzona, twarz i strój nie zmieniają się. Timeline: scalone pod ID 09, klatki 928–1024, 97 klatek przy 24 fps, wejście i shift 0. Historyczny shot 10 zachowany na dysku. Generacja: jeden łagodny odjazd kamery bez obrotu; błękitne nici energii w wodzie, lokalna transformacja otoczenia bez fade-in/fade-out/crossfade. Postać nie morfuje.",
+  "project": {
+    "id": "zlote-emoji-20",
+    "key": "project:zlote-emoji-20",
+    "name": "Złote Emoji #20",
+    "createdAt": "2026-11-12T06:49:40.532Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-20",
+    "projectCreatedAt": "2026-11-12T06:49:40.532Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 19,
+    "lastSequence": 19,
+    "occurrences": [
+      19
+    ],
+    "sequenceTotal": 27,
+    "uniqueShotCount": 27,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "ze20-07-wodna-ton"
+    },
+    {
+      "type": "character",
+      "id": "diaxi"
+    },
+    {
+      "type": "shot",
+      "id": "ze20-10-przejscie-pod-woda"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:ze20-07-wodna-ton",
+        "key": "shot:zlote-emoji-20/ze20-07-wodna-ton",
+        "type": "shot",
+        "id": "ze20-07-wodna-ton",
+        "name": "DIAXI opada w toń",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-07-wodna-ton.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:diaxi",
+        "key": "character:diaxi",
+        "type": "character",
+        "id": "diaxi",
+        "name": "DIAXI",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze20-10-przejscie-pod-woda",
+        "key": "shot:zlote-emoji-20/ze20-10-przejscie-pod-woda",
+        "type": "shot",
+        "id": "ze20-10-przejscie-pod-woda",
+        "name": "Przejście w wodzie — ku górze",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-10-przejscie-pod-woda.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:ze20-07-wodna-ton",
+          "character:diaxi"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze20-07-wodna-ton",
+            "key": "shot:zlote-emoji-20/ze20-07-wodna-ton",
+            "type": "shot",
+            "id": "ze20-07-wodna-ton",
+            "name": "DIAXI opada w toń",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-07-wodna-ton.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:diaxi",
+            "key": "character:diaxi",
+            "type": "character",
+            "id": "diaxi",
+            "name": "DIAXI",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      },
+      {
+        "frameId": "frame-end",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:ze20-10-przejscie-pod-woda"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze20-10-przejscie-pod-woda",
+            "key": "shot:zlote-emoji-20/ze20-10-przejscie-pod-woda",
+            "type": "shot",
+            "id": "ze20-10-przejscie-pod-woda",
+            "name": "Przejście w wodzie — ku górze",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-10-przejscie-pod-woda.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": {
+          "sourceKey": "shot:ze20-10-przejscie-pod-woda",
+          "key": "shot:zlote-emoji-20/ze20-10-przejscie-pod-woda",
+          "type": "shot",
+          "id": "ze20-10-przejscie-pod-woda",
+          "name": "Przejście w wodzie — ku górze",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-10-przejscie-pod-woda.json",
+          "exists": true
+        }
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Photorealistic cinematic 16:9 film still, SAME adult DIAXI and original opaque ivory embroidered offshoulder dress, brown ornate belt with cords, tall brown fur-cuff boots, branching forehead mark and highlighted braids as both references. Reference1 locks pool color and character continuity, reference2 exact identity and original costume. DIFFERENT underwater shot, medium 50mm SIDE PROFILE from waist up, DIAXI on left half looking UP toward upper right bright water surface. After the gateway has been opened elsewhere, she deliberately changes from sinking to swimming upward: eyes OPEN, focused, chin raised, torso tilted diagonally up-right, both arms at the start of an upward swimming reach with elbows slightly bent. Correct hands and anatomy. Wet hair drifts behind toward lower-left now rather than straight upward; a few tiny residual bubbles pass her cheek upward. Natural blue-green water, distant diffuse daylight at top right, no lake bottom, no magic ring or visible magical beam. This is purposeful movement, not limp floating. Keep all original costume details and opaque fabric, real underwater physics, moderate contrast, photographic skin, no smile, no text or watermark. No other people.",
+    "endFrameDescription": "Dokładny istniejący kadr 10: Diaxi po piruecie płynie ku górze i w prawo, dalej od kamery, w oliwkowoszarej wodzie. Błękitna energia już wygasła, pozostają zwykłe pęcherzyki.",
+    "animation": "One uninterrupted underwater shot, continuously visible from first to last frame. 0.0–0.5s: DIAXI is already swimming diagonally UP-RIGHT. 0.5–2.8s: she performs exactly one smooth 360-degree pirouette around her head-to-feet axis while continuing UP-RIGHT. Fine electric-blue energy threads form in the surrounding water, coil loosely around her wake without touching or binding her, and illuminate rising bubbles. A dense stream of bubbles releases from her hair and clothing and rises past the lens, only partially obscuring her. The moving energy progressively transforms blue-green water into turbid olive-gray water in physical space; her solid body remains continuously present. 2.8–4.0s: complete the rotation and reach the supplied End Frame pose and scale; threads extinguish into tiny blue sparks, leaving ordinary bubbles. 4.0–5.0s: retain End Frame composition with subtle buoyant motion. Camera: one gentle straight pull-back, no orbit, camera roll or zoom. Hair and fabric trail with water drag. @Element1 is the SAME existing DIAXI: preserve exact face, forehead mark, proportions and original costume throughout; only the surrounding water transforms. No fade-in, fade-out, crossfade, dissolve, cut, blackout, white flash, ghosting, disappearing body, face morph, extra limbs or direction reversal."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze20-07-wodna-ton",
+        "character:diaxi"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze20-07-wodna-ton",
+          "key": "shot:zlote-emoji-20/ze20-07-wodna-ton",
+          "type": "shot",
+          "id": "ze20-07-wodna-ton",
+          "name": "DIAXI opada w toń",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-07-wodna-ton.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:diaxi",
+          "key": "character:diaxi",
+          "type": "character",
+          "id": "diaxi",
+          "name": "DIAXI",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-12T18:21:28.89016+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze20-07-wodna-ton",
+            "character:diaxi"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze20-07-wodna-ton",
+              "key": "shot:zlote-emoji-20/ze20-07-wodna-ton",
+              "type": "shot",
+              "id": "ze20-07-wodna-ton",
+              "name": "DIAXI opada w toń",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-07-wodna-ton.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:diaxi",
+              "key": "character:diaxi",
+              "type": "character",
+              "id": "diaxi",
+              "name": "DIAXI",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-09-zwrot-ku-powierzchni/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-09-zwrot-ku-powierzchni/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "role": "frame-end",
+      "revision": 1,
+      "source": "reference",
+      "referenceKeys": [
+        "shot:ze20-10-przejscie-pod-woda"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze20-10-przejscie-pod-woda",
+          "key": "shot:zlote-emoji-20/ze20-10-przejscie-pod-woda",
+          "type": "shot",
+          "id": "ze20-10-przejscie-pod-woda",
+          "name": "Przejście w wodzie — ku górze",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-10-przejscie-pod-woda.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": {
+        "sourceKey": "shot:ze20-10-przejscie-pod-woda",
+        "key": "shot:zlote-emoji-20/ze20-10-przejscie-pod-woda",
+        "type": "shot",
+        "id": "ze20-10-przejscie-pod-woda",
+        "name": "Przejście w wodzie — ku górze",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-10-przejscie-pod-woda.json",
+        "exists": true
+      },
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-13T01:37:43.003205+00:00",
+          "source": "reference",
+          "referenceKeys": [
+            "shot:ze20-10-przejscie-pod-woda"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze20-10-przejscie-pod-woda",
+              "key": "shot:zlote-emoji-20/ze20-10-przejscie-pod-woda",
+              "type": "shot",
+              "id": "ze20-10-przejscie-pod-woda",
+              "name": "Przejście w wodzie — ku górze",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-10-przejscie-pod-woda.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": {
+            "sourceKey": "shot:ze20-10-przejscie-pod-woda",
+            "key": "shot:zlote-emoji-20/ze20-10-przejscie-pod-woda",
+            "type": "shot",
+            "id": "ze20-10-przejscie-pod-woda",
+            "name": "Przejście w wodzie — ku górze",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-10-przejscie-pod-woda.json",
+            "exists": true
+          }
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-09-zwrot-ku-powierzchni/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-09-zwrot-ku-powierzchni/frame-end-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

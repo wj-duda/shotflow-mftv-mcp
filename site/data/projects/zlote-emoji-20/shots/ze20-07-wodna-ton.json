@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-20/ze20-07-wodna-ton",
+  "id": "ze20-07-wodna-ton",
+  "title": "DIAXI opada w toń",
+  "description": "Szeroki boczny plan 40 mm. DIAXI opada przed otwarciem bramy; zamknięte oczy, bąble ku górze, powierzchnia oddala się. Dno niewidoczne. Nowa chronologia: dotyk dopiero po tym ujęciu. Aktualny montaż: start 654f, długość 60f (2.500 s), wejście źródła 0f.",
+  "project": {
+    "id": "zlote-emoji-20",
+    "key": "project:zlote-emoji-20",
+    "name": "Złote Emoji #20",
+    "createdAt": "2026-11-12T06:49:40.532Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-20",
+    "projectCreatedAt": "2026-11-12T06:49:40.532Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 14,
+    "lastSequence": 14,
+    "occurrences": [
+      14
+    ],
+    "sequenceTotal": 27,
+    "uniqueShotCount": 27,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "diaxi"
+    },
+    {
+      "type": "shot",
+      "id": "ze20-02-spadanie-przy-wodospadzie"
+    },
+    {
+      "type": "place",
+      "id": "wodospad-brama-diaxi"
+    },
+    {
+      "type": "shot",
+      "id": "ze20-07-wodna-ton"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:diaxi",
+        "key": "character:diaxi",
+        "type": "character",
+        "id": "diaxi",
+        "name": "DIAXI",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze20-02-spadanie-przy-wodospadzie",
+        "key": "shot:zlote-emoji-20/ze20-02-spadanie-przy-wodospadzie",
+        "type": "shot",
+        "id": "ze20-02-spadanie-przy-wodospadzie",
+        "name": "Spadanie — przejście między światami",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-02-spadanie-przy-wodospadzie.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:wodospad-brama-diaxi",
+        "key": "place:wodospad-brama-diaxi",
+        "type": "place",
+        "id": "wodospad-brama-diaxi",
+        "name": "XIAID — wodospad i kamień bramy",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/wodospad-brama-diaxi.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze20-07-wodna-ton",
+        "key": "shot:zlote-emoji-20/ze20-07-wodna-ton",
+        "type": "shot",
+        "id": "ze20-07-wodna-ton",
+        "name": "DIAXI opada w toń",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-07-wodna-ton.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "shot:ze20-07-wodna-ton",
+          "character:diaxi"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze20-07-wodna-ton",
+            "key": "shot:zlote-emoji-20/ze20-07-wodna-ton",
+            "type": "shot",
+            "id": "ze20-07-wodna-ton",
+            "name": "DIAXI opada w toń",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-07-wodna-ton.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:diaxi",
+            "key": "character:diaxi",
+            "type": "character",
+            "id": "diaxi",
+            "name": "DIAXI",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Create one 16:9 photorealistic underwater cinema still. Images 1 and 2 define exactly the SAME adult DIAXI identity and original opaque ivory embroidered offshoulder layered slit dress, wide ornate brown belt with cords, furcuffed tall laceup boots and highlighted braided brown hair. Change camera and depth from image1: WIDE SIDE VIEW, 40mm, woman only 45 percent of frame height in lower middle, full body suspended feet down with a slight diagonal, eyes CLOSED, arms loose, head inclined slightly forward. She is still slowly DESCENDING after entering the waterfall pool, before the gateway opens. Her hair and fabric and a broken narrow trail of bubbles drift UP, emphasizing downward momentum. Broad dark blue-green negative space below, NO visible bottom, distant bright disturbed surface high above, faint rocky wall at far left. Natural ambiguous stillness, alive and uninjured, no dramatic flailing or choking, no blood. This is fictional magical transport revealed in the next scene; no magic visible yet. Real physical underwater light falloff, tiny bubbles rather than opaque foam, subtle film grain, believable human proportions, no glossy illustration, no portrait pose, no extra people, no text, no border.",
+    "endFrameDescription": "",
+    "animation": "0.0–2.5s: DIAXI sinks slowly DOWN through the existing blue-green water, head above feet, arms relaxed and eyes closed. Remaining small bubbles escape from wet hair and clothing and rise UP toward the distant surface; her loose hair and skirt lag upward under drag. 2.5–3.0s: continue the slow descent. Camera: locked wide underwater view; the body gradually moves lower in frame without changing size abruptly. @Element1 preserves the existing DIAXI’s identity, proportions and original opaque costume. Keep surface light above and the bottom unseen. No upward stroke, pirouette, magical light, new objects, body morphing, extra limbs, cut, fade or text. Performance: eyes remain closed, face slackens from strain into exhausted stillness, not smiling."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze20-07-wodna-ton",
+        "character:diaxi"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze20-07-wodna-ton",
+          "key": "shot:zlote-emoji-20/ze20-07-wodna-ton",
+          "type": "shot",
+          "id": "ze20-07-wodna-ton",
+          "name": "DIAXI opada w toń",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-07-wodna-ton.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:diaxi",
+          "key": "character:diaxi",
+          "type": "character",
+          "id": "diaxi",
+          "name": "DIAXI",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-12T09:50:50.915875+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:diaxi",
+            "shot:ze20-02-spadanie-przy-wodospadzie",
+            "place:wodospad-brama-diaxi"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:diaxi",
+              "key": "character:diaxi",
+              "type": "character",
+              "id": "diaxi",
+              "name": "DIAXI",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ze20-02-spadanie-przy-wodospadzie",
+              "key": "shot:zlote-emoji-20/ze20-02-spadanie-przy-wodospadzie",
+              "type": "shot",
+              "id": "ze20-02-spadanie-przy-wodospadzie",
+              "name": "Spadanie — przejście między światami",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-02-spadanie-przy-wodospadzie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:wodospad-brama-diaxi",
+              "key": "place:wodospad-brama-diaxi",
+              "type": "place",
+              "id": "wodospad-brama-diaxi",
+              "name": "XIAID — wodospad i kamień bramy",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/wodospad-brama-diaxi.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-11-12T18:18:53.836244+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze20-07-wodna-ton",
+            "character:diaxi"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze20-07-wodna-ton",
+              "key": "shot:zlote-emoji-20/ze20-07-wodna-ton",
+              "type": "shot",
+              "id": "ze20-07-wodna-ton",
+              "name": "DIAXI opada w toń",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-07-wodna-ton.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:diaxi",
+              "key": "character:diaxi",
+              "type": "character",
+              "id": "diaxi",
+              "name": "DIAXI",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-07-wodna-ton/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-07-wodna-ton/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

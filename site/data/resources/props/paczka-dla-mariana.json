@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "prop:paczka-dla-mariana",
+  "type": "props",
+  "id": "paczka-dla-mariana",
+  "name": "Paczka dla Mariana",
+  "description": "Dokładny asset wdrożonej aplikacji, przeniesiony do biblioteki referencji: papierowa torba przewiązana sznurkiem, jasna pusta zawieszka. Widoczne pieczywo, puszka i materiał odpowiadają grafice produktu; nie wyliczają pełnej zawartości paczki. Pomoc dla Mariana, za którą odwdzięcza się przysługą. Nie zawiera wizualnego motywu alkoholu.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/paczka-dla-mariana/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/paczka-dla-mariana/image-001-thumb.webp",
+      "width": 1312,
+      "height": 1199,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-10-30T11:18:58.293383+00:00"
+}

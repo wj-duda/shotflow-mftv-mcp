@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-18/ze18-00a-final-wystepu",
+  "id": "ze18-00a-final-wystepu",
+  "title": "I — Olivia kończy występ",
+  "description": "Plan ogólny skrócony, 40 mm z poziomu widowni. Olivia przy mikrofonie na scenie muszli, pełna sylwetka w centrum, ciepłe światło sceniczne; nieostre głowy publiczności na dole. Start: ostatnia śpiewana fraza. Akcja: kończy występ i kłania się publiczności. Jawne wprowadzenie bohaterki jako śpiewaczki, przed spotkaniem z Czesławem. Długość robocza, montaż pod muzykę.\nCIĄGŁOŚĆ: zadbana muszla z całym jasnym tynkiem; gitarzysta i muzyk na cajónie za Olivią podczas występu, pozostają na scenie po jej zejściu. Referencja zespołu: note:ze18-akompaniament-marinera.\nTAKE — AUDYT: widoczne 72 klatek (3.000 s) przy 24 fps; zakres źródła 0.000–3.000 s; generacja 3 s. Natywne audio wyłączone w planie; montaż pozostaje bez zmian.",
+  "project": {
+    "id": "zlote-emoji-18",
+    "key": "project:zlote-emoji-18",
+    "name": "Złote Emoji #18",
+    "createdAt": "2026-11-09T15:18:48.889Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-18",
+    "projectCreatedAt": "2026-11-09T15:18:48.889Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 1,
+    "lastSequence": 1,
+    "occurrences": [
+      1
+    ],
+    "sequenceTotal": 18,
+    "uniqueShotCount": 18,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "olivia-dela-ossa"
+    },
+    {
+      "type": "place",
+      "id": "lublin-muszla-ogrod-saski-1985"
+    },
+    {
+      "type": "shot",
+      "id": "ze18-00a-final-wystepu"
+    },
+    {
+      "type": "note",
+      "id": "ze18-akompaniament-marinera"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:olivia-dela-ossa",
+        "key": "character:olivia-dela-ossa",
+        "type": "character",
+        "id": "olivia-dela-ossa",
+        "name": "Olivia Dela Ossa",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/olivia-dela-ossa.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:lublin-muszla-ogrod-saski-1985",
+        "key": "place:lublin-muszla-ogrod-saski-1985",
+        "type": "place",
+        "id": "lublin-muszla-ogrod-saski-1985",
+        "name": "Lublin — muszla Ogrodu Saskiego, 1985",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lublin-muszla-ogrod-saski-1985.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze18-00a-final-wystepu",
+        "key": "shot:zlote-emoji-18/ze18-00a-final-wystepu",
+        "type": "shot",
+        "id": "ze18-00a-final-wystepu",
+        "name": "I — Olivia kończy występ",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-00a-final-wystepu.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "note:ze18-akompaniament-marinera",
+        "key": "note:ze18-akompaniament-marinera",
+        "type": "note",
+        "id": "ze18-akompaniament-marinera",
+        "name": "ZE18 — akompaniament Marinera",
+        "relationship": "story-and-continuity-context",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze18-akompaniament-marinera.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "shot:ze18-00a-final-wystepu"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze18-00a-final-wystepu",
+            "key": "shot:zlote-emoji-18/ze18-00a-final-wystepu",
+            "type": "shot",
+            "id": "ze18-00a-final-wystepu",
+            "name": "I — Olivia kończy występ",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-00a-final-wystepu.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Edit this exact film still. Preserve Olivia central singer identity, face, hair, costume, pose, microphone, camera framing, audience silhouettes, dusk light and architecture geometry. TWO necessary corrections: (1) This is a maintained working festival venue in Poland1985, not an abandoned building. Repair ALL crumbling flaking stucco, stains and cracks on the curved concert shell arch and stage front. Make smooth intact warm off-white painted plaster with subtle normal use, maintained varnished wooden backdrop and floor, no decay. Keep original shape and old period construction, not modern luxury. (2) Add exactly TWO supporting adult Peruvian criollo musicians behind and to either side of Olivia, clearly separate silhouettes, not obscuring her: screen LEFT behind her a seated dark-haired guitarist about35 in cream long sleeve shirt sleeves rolled, charcoal trousers, playing a natural wood six-string NYLON classical guitar with round soundhole and slotted headstock, left fingers on fretboard, right hand above strings; screen RIGHT behind her an Afro-Peruvian male percussionist about35 in cream shirt charcoal trousers seated astride a simple wooden PERUVIAN CAJON box, his two hands at the top/front striking surface. Cajon is a plain rectangular wooden box, NO drum kit, no bongo, no sticks, no modern pedals. Both accompany her final phrase. Musicians modestly lit and slightly deeper than her, period1985 plausible clothing without stereotyped ponchos. Natural musician anatomy and instrument proportions. Preserve foreground audience and Olivia absolutely. No extra text, no LED screens, no other people added.",
+    "endFrameDescription": "",
+    "animation": "@Image1 identifies Olivia already present; face and hair only, never the reference shirt or vest. 0.0–0.5s: Olivia closes her mouth and lowers her extended hand. 0.5–2.5s: she eases her face slightly back from the fixed microphone, gives one shallow acknowledging bow and returns upright. 2.5–3.0s: she settles. Camera: locked-off. Secondary: her hair follows the bow; the seated guitarist finishes one small strum while the cajon player's hands settle on the box. Continuity: preserve her red blouse and black trousers, both musicians, instruments, stationary microphone with clear space from her face, seated audience and maintained stage. Avoid: no new performers, instrument swaps, exaggerated finger motion, face drift, cuts or subtitles."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze18-00a-final-wystepu"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze18-00a-final-wystepu",
+          "key": "shot:zlote-emoji-18/ze18-00a-final-wystepu",
+          "type": "shot",
+          "id": "ze18-00a-final-wystepu",
+          "name": "I — Olivia kończy występ",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-00a-final-wystepu.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-09T15:39:49.755757+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:olivia-dela-ossa",
+            "place:lublin-muszla-ogrod-saski-1985"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:olivia-dela-ossa",
+              "key": "character:olivia-dela-ossa",
+              "type": "character",
+              "id": "olivia-dela-ossa",
+              "name": "Olivia Dela Ossa",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/olivia-dela-ossa.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:lublin-muszla-ogrod-saski-1985",
+              "key": "place:lublin-muszla-ogrod-saski-1985",
+              "type": "place",
+              "id": "lublin-muszla-ogrod-saski-1985",
+              "name": "Lublin — muszla Ogrodu Saskiego, 1985",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lublin-muszla-ogrod-saski-1985.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-11-09T15:49:20.540034+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze18-00a-final-wystepu"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze18-00a-final-wystepu",
+              "key": "shot:zlote-emoji-18/ze18-00a-final-wystepu",
+              "type": "shot",
+              "id": "ze18-00a-final-wystepu",
+              "name": "I — Olivia kończy występ",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-00a-final-wystepu.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-18/shots/ze18-00a-final-wystepu/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-18/shots/ze18-00a-final-wystepu/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

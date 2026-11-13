@@ -1,0 +1,247 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-18/ze18-11-zbieranie-rzeczy",
+  "id": "ze18-11-zbieranie-rzeczy",
+  "title": "II — Zbieranie ubrania i koca",
+  "description": "Plan średni szerszy z boku, 35 mm. Czesław kuca przy kocu, goła klatka i te same spodnie; marynarka oraz koszula czytelne na kocu. Start: dłoń przy brzegu koca. Akcja: zgarnia koc z ubraniami w jeden pakunek. Unikać trzech równoległych czynności rąk. Kierunek wyjścia w lewo.\nTAKE — AUDYT: widoczne 78 klatek (3.250 s) przy 24 fps; zakres źródła 0.000–3.250 s; generacja 4 s. Natywne audio wyłączone w planie; montaż pozostaje bez zmian.",
+  "project": {
+    "id": "zlote-emoji-18",
+    "key": "project:zlote-emoji-18",
+    "name": "Złote Emoji #18",
+    "createdAt": "2026-11-09T15:18:48.889Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-18",
+    "projectCreatedAt": "2026-11-09T15:18:48.889Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 14,
+    "lastSequence": 14,
+    "occurrences": [
+      14
+    ],
+    "sequenceTotal": 18,
+    "uniqueShotCount": 18,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "czeslaw-mlody"
+    },
+    {
+      "type": "prop",
+      "id": "koc-czeslawa-1985"
+    },
+    {
+      "type": "place",
+      "id": "lasy-kozlowieckie-polana-1985"
+    },
+    {
+      "type": "shot",
+      "id": "ze18-07-przebudzenie"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:czeslaw-mlody",
+        "key": "character:czeslaw-mlody",
+        "type": "character",
+        "id": "czeslaw-mlody",
+        "name": "Czesław — 1985",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw-mlody.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:koc-czeslawa-1985",
+        "key": "prop:koc-czeslawa-1985",
+        "type": "prop",
+        "id": "koc-czeslawa-1985",
+        "name": "Koc Czesława — 1985",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/koc-czeslawa-1985.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:lasy-kozlowieckie-polana-1985",
+        "key": "place:lasy-kozlowieckie-polana-1985",
+        "type": "place",
+        "id": "lasy-kozlowieckie-polana-1985",
+        "name": "Lasy Kozłowieckie — droga i polana, 1985",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lasy-kozlowieckie-polana-1985.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze18-07-przebudzenie",
+        "key": "shot:zlote-emoji-18/ze18-07-przebudzenie",
+        "type": "shot",
+        "id": "ze18-07-przebudzenie",
+        "name": "II — Czesław budzi się",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-07-przebudzenie.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:ze18-07-przebudzenie",
+          "character:czeslaw-mlody",
+          "prop:koc-czeslawa-1985"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze18-07-przebudzenie",
+            "key": "shot:zlote-emoji-18/ze18-07-przebudzenie",
+            "type": "shot",
+            "id": "ze18-07-przebudzenie",
+            "name": "II — Czesław budzi się",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-07-przebudzenie.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:czeslaw-mlody",
+            "key": "character:czeslaw-mlody",
+            "type": "character",
+            "id": "czeslaw-mlody",
+            "name": "Czesław — 1985",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw-mlody.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:koc-czeslawa-1985",
+            "key": "prop:koc-czeslawa-1985",
+            "type": "prop",
+            "id": "koc-czeslawa-1985",
+            "name": "Koc Czesława — 1985",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/koc-czeslawa-1985.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Single16:9 photoreal cinematic still, medium-wide35mm side view low waistheight, 1985American suspense film style. Reference1 exact Czeslaw barechest trousers chain watch and clothes on blanket in forest; reference2 exact facialidentity only; reference3 blanket material and pattern. He is now crouching screen center-right beside olivebrown plaid blanket, barechested wearing same charcoal pleated trousers and black Chelsea boots. Plum blazer and cream tiny-pattern shirt lie loosely piled at center of blanket. He grips ONE near blanket corner with right hand, other hand rests naturally on his bent knee, poised to gather clothes into blanket in next motion. Alarmed face glances toward LEFT escape route. Realistic clear separated arms hands knees, no tangled limbs, no duplicated body. Strong compositional diagonal from blanket foregroundLEFT to crouching man RIGHT, blurred fern in extreme foreground corner. Same flat Polish oakpine forest silver moon rim deep shadow readableface, analogue35mmgrain. No cigarette in mouth, no wolf or woman, no added clothes on torso, no text no borders.",
+    "endFrameDescription": "",
+    "animation": "@Image1 identifies the existing Czeslaw, face and hair only; keep his torso bare and trousers on. @Image2 identifies the existing blanket weave, plaid and fringe, not its reference folding pose. 0.0–0.9s: Czeslaw pulls the blanket corner already in his right hand over the clothes. 0.9–2.0s: his left hand leaves his knee and scoops the opposite fabric edge underneath, gathering the clothes into a loose supported bundle. 2.0–3.0s: he rises, tucks the bundle under his left arm and shifts his gaze toward the escape route at screen left. 3.0–4.0s: settle upright, ready to move screen left. Camera: gently tilts upward with him. Secondary: the clothes sag inside the cloth and fringe swings downward under gravity. Continuity: keep his torso bare and trousers worn; only the loose jacket and shirt become enclosed in the blanket. Avoid: no disappearing clothes, instant knot, extra hands, duplicated bundle, morphing or cuts."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze18-07-przebudzenie",
+        "character:czeslaw-mlody",
+        "prop:koc-czeslawa-1985"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze18-07-przebudzenie",
+          "key": "shot:zlote-emoji-18/ze18-07-przebudzenie",
+          "type": "shot",
+          "id": "ze18-07-przebudzenie",
+          "name": "II — Czesław budzi się",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-07-przebudzenie.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:czeslaw-mlody",
+          "key": "character:czeslaw-mlody",
+          "type": "character",
+          "id": "czeslaw-mlody",
+          "name": "Czesław — 1985",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw-mlody.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:koc-czeslawa-1985",
+          "key": "prop:koc-czeslawa-1985",
+          "type": "prop",
+          "id": "koc-czeslawa-1985",
+          "name": "Koc Czesława — 1985",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/koc-czeslawa-1985.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-09T16:20:58.952502+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze18-07-przebudzenie",
+            "character:czeslaw-mlody",
+            "prop:koc-czeslawa-1985"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze18-07-przebudzenie",
+              "key": "shot:zlote-emoji-18/ze18-07-przebudzenie",
+              "type": "shot",
+              "id": "ze18-07-przebudzenie",
+              "name": "II — Czesław budzi się",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-07-przebudzenie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:czeslaw-mlody",
+              "key": "character:czeslaw-mlody",
+              "type": "character",
+              "id": "czeslaw-mlody",
+              "name": "Czesław — 1985",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw-mlody.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:koc-czeslawa-1985",
+              "key": "prop:koc-czeslawa-1985",
+              "type": "prop",
+              "id": "koc-czeslawa-1985",
+              "name": "Koc Czesława — 1985",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/koc-czeslawa-1985.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-18/shots/ze18-11-zbieranie-rzeczy/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-18/shots/ze18-11-zbieranie-rzeczy/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

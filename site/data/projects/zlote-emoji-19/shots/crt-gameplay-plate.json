@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-19/crt-gameplay-plate",
+  "id": "crt-gameplay-plate",
+  "title": "CRT — miejsce na 60 sekund capture",
+  "description": "Close view of the arcade CRT and physical bezel, no people. Preserve a clean rectangular screen area for separately composited gameplay. Existing game art may remain only inside the glass.",
+  "project": {
+    "id": "zlote-emoji-19",
+    "key": "project:zlote-emoji-19",
+    "name": "Złote Emoji #19",
+    "createdAt": "2026-11-10T23:04:15.573Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-19",
+    "projectCreatedAt": "2026-11-10T23:04:15.573Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 1,
+    "lastSequence": 1,
+    "occurrences": [
+      1
+    ],
+    "sequenceTotal": 17,
+    "uniqueShotCount": 17,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "note",
+      "id": "ze19-layout-crt-gameplay-plate"
+    },
+    {
+      "type": "shot",
+      "id": "seed"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "note:ze19-layout-crt-gameplay-plate",
+        "key": "note:ze19-layout-crt-gameplay-plate",
+        "type": "note",
+        "id": "ze19-layout-crt-gameplay-plate",
+        "name": "ZE19 — geometria: CRT — miejsce na 60 sekund capture",
+        "relationship": "story-and-continuity-context",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze19-layout-crt-gameplay-plate.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:seed",
+        "key": "shot:zlote-emoji-19/seed",
+        "type": "shot",
+        "id": "seed",
+        "name": "Przy automacie — najazd zza pleców",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-19/shots/seed.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "note:ze19-layout-crt-gameplay-plate"
+        ],
+        "references": [
+          {
+            "sourceKey": "note:ze19-layout-crt-gameplay-plate",
+            "key": "note:ze19-layout-crt-gameplay-plate",
+            "type": "note",
+            "id": "ze19-layout-crt-gameplay-plate",
+            "name": "ZE19 — geometria: CRT — miejsce na 60 sekund capture",
+            "relationship": "story-and-continuity-context",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze19-layout-crt-gameplay-plate.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Create a 16:9 photorealistic extreme close-up of the arcade SCREEN, matching the EXACT CAMERA AND CROP OF IMAGE 1. The illuminated rectangular gameplay picture must occupy approximately 75–85 percent of the image width and 70–80 percent of its height. Only a narrow dark physical CRT glass border and bezel around it. NO marquee, NO controls, NO joystick, NO room, NO wall sign, NO people. Image 1 is the authoritative Blender camera and crop, NOT the final material style; reconstruct its close framing as a real photograph. Image 2 is the perspective-only guide; discard every colored line and caption. Image 3 is a rejected WIDE view: use ONLY the worn black bezel surface, warm practical reflections and authentic glass material, never its wide composition. The result is a tight screen insert for 60 seconds of separately composited actual gameplay. Keep the screen a simple clear quadrilateral in nearly frontal perspective with no large reflections over the playable region. Preserve the game picture temporarily as shown in image 1, with crisp pixel structure. Do not make a poster or a collage. Camera extremely close to the glass, fixed 50mm-equivalent view, no perspective exaggeration. No plastic render appearance.",
+    "endFrameDescription": "",
+    "animation": ""
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "video-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "note:ze19-layout-crt-gameplay-plate"
+      ],
+      "references": [
+        {
+          "sourceKey": "note:ze19-layout-crt-gameplay-plate",
+          "key": "note:ze19-layout-crt-gameplay-plate",
+          "type": "note",
+          "id": "ze19-layout-crt-gameplay-plate",
+          "name": "ZE19 — geometria: CRT — miejsce na 60 sekund capture",
+          "relationship": "story-and-continuity-context",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze19-layout-crt-gameplay-plate.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-10T23:07:28.659683+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "note:ze19-layout-crt-gameplay-plate"
+          ],
+          "references": [
+            {
+              "sourceKey": "note:ze19-layout-crt-gameplay-plate",
+              "key": "note:ze19-layout-crt-gameplay-plate",
+              "type": "note",
+              "id": "ze19-layout-crt-gameplay-plate",
+              "name": "ZE19 — geometria: CRT — miejsce na 60 sekund capture",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze19-layout-crt-gameplay-plate.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-19/shots/crt-gameplay-plate/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-19/shots/crt-gameplay-plate/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

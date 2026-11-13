@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "character:marian-mlody",
+  "type": "characters",
+  "id": "marian-mlody",
+  "name": "Młody Marian",
+  "description": "WARIANT HISTORYCZNY: ta sama osoba co współczesna postać bazowa, przedstawiona w młodości, nie nowy członek rodziny ani osobny bohater. Realia retrospekcji: lata 80. Starsza moda inspirowana latami 60. jest świadomą decyzją kostiumową autora i nie zmienia daty wydarzeń. Rok urodzenia: 1963. Wiek w konkretnej scenie wynika z jej daty; dokładnego roku oddania kluczy nie ustalono. Nie przenosić wiedzy o przyszłych wydarzeniach do dialogów retrospekcji.\n\nBIO: Marian jest bratem Włodka (character:komisant). Pracuje w Domu Kultury jako człowiek od techniki, napraw i przygotowywania wydarzeń. Zna sprzęt, ludzi, zaplecze i zakamarki budynku. Ma fachowość, dumę z pracy, spryt, bezpośredniość i suche poczucie humoru. Mały brązowy notes służy mu do pilnowania sceny i rozpisek; nie jest gadżetem przypadkowo dodanym do portretu.\n\nUTRATA PRACY — USTALONA HISTORIA: picie i powtarzające się zawiedzione zaufanie prowadzą do utraty pracy. Dostaje kolejne szanse, aż nie można już powierzać mu odpowiedzialności. Nie jest to likwidacja etatu ani niesprawiedliwe zwolnienie. W retrospekcji rolki Mariana pilnuje sceny z notesem, pije ukradkiem na zapleczu, następnie oddaje klucze młodemu Czesławowi przy Halince przed historycznym DK. Notes pozostaje przy Marianie. Nie ustalono dokładnego roku sceny. Problem alkoholowy jest częścią historii, nie całą osobowością ani puentą żartu.\n\nWYGLĄD: zatwierdzona młoda twarz, brązowe włosy, cienki wąs, szaroniebieskie oczy, charakterystyczny długi nos i pieprzyk na prawym policzku. Szczupła naturalna sylwetka około 172 cm. Niebieska robocza koszula na granatowym podkoszulku, ciemnoszare proste spodnie, brązowy pasek i brązowe sznurowane buty robocze. Na referencji sylwetki trzyma notes z ołówkiem w prawej ręce; konkretna scena może wymagać innego chwytu. Bez współczesnej czapki, szalika i reklamówki.\n\nPÓŹNIEJSZE LOSY — KONTEKST AUTORSKI: współczesny Marian czasem pomaga przy naprawach, ale nie dostaje już kluczy na noc. Włodek troszczy się o brata, przygotowując paczkę z wyraźnymi granicami pomocy. Przekazywanie cudzych ocen pozwala Marianowi znów sprostać małej odpowiedzialności; nie oznacza wyleczenia ani powrotu na etat. Te późniejsze wydarzenia nie są wiedzą młodej postaci. Pełna współczesna biografia: character:marian.\n\nRELACJE: character:czeslaw-mlody, character:halinka-mloda, character:komisant. Zachować godność Mariana, nie przedstawiać go jako agresywnej lub bełkoczącej karykatury.\n\nŹRÓDŁA I STATUS: istniejący portret design-v009 i poprawiona sylwetka design-v010 z _system/retrospekcja-mariana, obejrzane i skopiowane bez regeneracji. Te sylwetki wykorzystano w scenie oddania kluczy. Biografia scalona z aktualnego character:marian, przyjętego bio młodego Czesława, note:marian-mlody-design i zapisów rolki Mariana. Poprzednie warianty i odrzucone stroje pozostają archiwalne.\n\nCHRONOLOGIA — UZUPEŁNIENIE NA POLECENIE AUTORA 2026-11-06: Rok urodzenia postaci w AIMFTV: 1963. Dzień i miesiąc urodzenia pozostają nieustalone. W 1985 kończy 22 lat; przed urodzinami ma 21. To punkt odniesienia do obsady retrospekcji, nie automatyczna data wszystkich dawnych scen. Rocznik dobrano redakcyjnie do istniejącego bio i wspólnej chronologii; dotyczy fikcyjnej postaci, nie danych osobowych twórcy lub osoby z referencji.\n\nCHRONOLOGIA BRACI: Włodek urodził się w 1962, Marian w 1963 roku. Włodek jest starszy o jeden rocznik. W 1985 kończą odpowiednio 23 i 22 lata. Dokładny rok utraty pracy Mariana i oddania kluczy pozostaje nieustalony.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "portrait",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/marian-mlody/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/marian-mlody/image-001-thumb.webp",
+      "width": 1312,
+      "height": 1199,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-002",
+      "role": "silhouette",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/marian-mlody/image-002.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/marian-mlody/image-002-thumb.webp",
+      "width": 1024,
+      "height": 1536,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-11-06T20:32:24.300Z"
+}

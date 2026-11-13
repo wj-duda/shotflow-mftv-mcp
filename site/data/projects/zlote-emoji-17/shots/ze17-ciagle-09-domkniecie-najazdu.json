@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-17/ze17-ciagle-09-domkniecie-najazdu",
+  "id": "ze17-ciagle-09-domkniecie-najazdu",
+  "title": "ze17-ciagle-09-domkniecie-najazdu",
+  "description": "Lokalna korekta wyłącznie końcowych klatek 70 i 71 oryginalnego shota 09, aby połączyć go z nowym shotem 10. Klatki 0–69 bez zmian; bez płatnej generacji i bez zmiany długości.",
+  "project": {
+    "id": "zlote-emoji-17",
+    "key": "project:zlote-emoji-17",
+    "name": "Złote Emoji #17",
+    "createdAt": "2026-11-08T21:24:33.398Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-17",
+    "projectCreatedAt": "2026-11-08T21:24:33.398Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 9,
+    "lastSequence": 9,
+    "occurrences": [
+      9
+    ],
+    "sequenceTotal": 24,
+    "uniqueShotCount": 24,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "take",
+      "id": "ze17-ciagle-09-most-do-torow/take-2"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "take:ze17-ciagle-09-most-do-torow/take-2",
+        "key": "take:zlote-emoji-17/ze17-ciagle-09-most-do-torow/take-2",
+        "type": "take",
+        "id": "ze17-ciagle-09-most-do-torow/take-2",
+        "name": "ZE17 09 — most do torow / take-2",
+        "relationship": "visible-state-from-take",
+        "shotKey": "shot:zlote-emoji-17/ze17-ciagle-09-most-do-torow",
+        "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-09-most-do-torow.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "take:ze17-ciagle-09-most-do-torow/take-2"
+        ],
+        "references": [
+          {
+            "sourceKey": "take:ze17-ciagle-09-most-do-torow/take-2",
+            "key": "take:zlote-emoji-17/ze17-ciagle-09-most-do-torow/take-2",
+            "type": "take",
+            "id": "ze17-ciagle-09-most-do-torow/take-2",
+            "name": "ZE17 09 — most do torow / take-2",
+            "relationship": "visible-state-from-take",
+            "shotKey": "shot:zlote-emoji-17/ze17-ciagle-09-most-do-torow",
+            "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-09-most-do-torow.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      },
+      {
+        "frameId": "frame-end",
+        "revision": 1,
+        "referenceKeys": [
+          "take:ze17-ciagle-09-most-do-torow/take-2"
+        ],
+        "references": [
+          {
+            "sourceKey": "take:ze17-ciagle-09-most-do-torow/take-2",
+            "key": "take:zlote-emoji-17/ze17-ciagle-09-most-do-torow/take-2",
+            "type": "take",
+            "id": "ze17-ciagle-09-most-do-torow/take-2",
+            "name": "ZE17 09 — most do torow / take-2",
+            "relationship": "visible-state-from-take",
+            "shotKey": "shot:zlote-emoji-17/ze17-ciagle-09-most-do-torow",
+            "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-09-most-do-torow.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Decoded first frame of the real imported, boundary-matched video; not a new image generation.",
+    "endFrameDescription": "",
+    "animation": "Three-second original approach above the railway. Preserve original frames 0-69; locally interpolate the last two frames into the actual next clip start. No speed change."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "video-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "imported",
+      "referenceKeys": [
+        "take:ze17-ciagle-09-most-do-torow/take-2"
+      ],
+      "references": [
+        {
+          "sourceKey": "take:ze17-ciagle-09-most-do-torow/take-2",
+          "key": "take:zlote-emoji-17/ze17-ciagle-09-most-do-torow/take-2",
+          "type": "take",
+          "id": "ze17-ciagle-09-most-do-torow/take-2",
+          "name": "ZE17 09 — most do torow / take-2",
+          "relationship": "visible-state-from-take",
+          "shotKey": "shot:zlote-emoji-17/ze17-ciagle-09-most-do-torow",
+          "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-09-most-do-torow.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-09T15:50:56.837466+00:00",
+          "source": "imported",
+          "referenceKeys": [
+            "take:ze17-ciagle-09-most-do-torow/take-2"
+          ],
+          "references": [
+            {
+              "sourceKey": "take:ze17-ciagle-09-most-do-torow/take-2",
+              "key": "take:zlote-emoji-17/ze17-ciagle-09-most-do-torow/take-2",
+              "type": "take",
+              "id": "ze17-ciagle-09-most-do-torow/take-2",
+              "name": "ZE17 09 — most do torow / take-2",
+              "relationship": "visible-state-from-take",
+              "shotKey": "shot:zlote-emoji-17/ze17-ciagle-09-most-do-torow",
+              "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-09-most-do-torow.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-ciagle-09-domkniecie-najazdu/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-ciagle-09-domkniecie-najazdu/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "role": "frame-end",
+      "revision": 1,
+      "source": "imported",
+      "referenceKeys": [
+        "take:ze17-ciagle-09-most-do-torow/take-2"
+      ],
+      "references": [
+        {
+          "sourceKey": "take:ze17-ciagle-09-most-do-torow/take-2",
+          "key": "take:zlote-emoji-17/ze17-ciagle-09-most-do-torow/take-2",
+          "type": "take",
+          "id": "ze17-ciagle-09-most-do-torow/take-2",
+          "name": "ZE17 09 — most do torow / take-2",
+          "relationship": "visible-state-from-take",
+          "shotKey": "shot:zlote-emoji-17/ze17-ciagle-09-most-do-torow",
+          "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-09-most-do-torow.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-09T15:50:56.837466+00:00",
+          "source": "imported",
+          "referenceKeys": [
+            "take:ze17-ciagle-09-most-do-torow/take-2"
+          ],
+          "references": [
+            {
+              "sourceKey": "take:ze17-ciagle-09-most-do-torow/take-2",
+              "key": "take:zlote-emoji-17/ze17-ciagle-09-most-do-torow/take-2",
+              "type": "take",
+              "id": "ze17-ciagle-09-most-do-torow/take-2",
+              "name": "ZE17 09 — most do torow / take-2",
+              "relationship": "visible-state-from-take",
+              "shotKey": "shot:zlote-emoji-17/ze17-ciagle-09-most-do-torow",
+              "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-09-most-do-torow.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-ciagle-09-domkniecie-najazdu/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-ciagle-09-domkniecie-najazdu/frame-end-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

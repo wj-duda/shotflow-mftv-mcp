@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-20/ze20-04b-przekroczenie-krawedzi",
+  "id": "ze20-04b-przekroczenie-krawedzi",
+  "title": "Diaxi - przekroczenie krawedzi",
+  "description": "Boczny plan pełny 50 mm według P04. Diaxi jeszcze stoi na skale i przenosi ciężar do przodu. Przekracza krawędź w pierwszej sekundzie; cięcie bezpośrednio do spadania. Aktualny montaż: start 570f, długość 24f (1.000 s), wejście źródła 0f.",
+  "project": {
+    "id": "zlote-emoji-20",
+    "key": "project:zlote-emoji-20",
+    "name": "Złote Emoji #20",
+    "createdAt": "2026-11-12T06:49:40.532Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-20",
+    "projectCreatedAt": "2026-11-12T06:49:40.532Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 11,
+    "lastSequence": 11,
+    "occurrences": [
+      11
+    ],
+    "sequenceTotal": 27,
+    "uniqueShotCount": 27,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "diaxi"
+    },
+    {
+      "type": "shot",
+      "id": "ze20-01g-droga-do-krawedzi"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:diaxi",
+        "key": "character:diaxi",
+        "type": "character",
+        "id": "diaxi",
+        "name": "DIAXI",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze20-01g-droga-do-krawedzi",
+        "key": "shot:zlote-emoji-20/ze20-01g-droga-do-krawedzi",
+        "type": "shot",
+        "id": "ze20-01g-droga-do-krawedzi",
+        "name": "Diaxi - droga do krawedzi",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-01g-droga-do-krawedzi.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "character:diaxi",
+          "shot:ze20-01g-droga-do-krawedzi"
+        ],
+        "references": [
+          {
+            "sourceKey": "character:diaxi",
+            "key": "character:diaxi",
+            "type": "character",
+            "id": "diaxi",
+            "name": "DIAXI",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:ze20-01g-droga-do-krawedzi",
+            "key": "shot:zlote-emoji-20/ze20-01g-droga-do-krawedzi",
+            "type": "shot",
+            "id": "ze20-01g-droga-do-krawedzi",
+            "name": "Diaxi - droga do krawedzi",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-01g-droga-do-krawedzi.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "ONE cinematic photorealistic 16:9 wide full-body film frame of adult fantasy traveler Diaxi at waterfall brink, poised to enter a magical water gateway. Ref1 Blender CAMERA/GEOGRAPHY only: 50mm side view, rock shelf extends from left, waterfall plunges at right, river recedes behind. Replace all primitives with enormous realistic weathered rock, flowing river, sheer gorge and natural forest, no toy shapes. Ref2 exact same weather natural set appearance and wardrobe, screen-right movement continuity. Ref3 face/hair/forehead marking identity only. Ref4 exact existing fantasy costume and boots, unchanged. Put Diaxi in side profile facing SCREEN RIGHT, at the lip with BOTH BOOTS STILL ON ROCK, rear heel raised and weight shifting forward at the beginning of one step toward the waterfall. Entire body visible, arms naturally low, wind pushes hair and cloth leftward, face quiet and serious. Her head must be above rock level, no feet embedded in stone; grounded anatomy, realistic 1.7m woman against huge cliff. Camera slightly below eye height across gorge, readable edge directly beneath boots, powerful falling water on right. This is the BEFORE frame for a short crossing-the-edge shot, not already midair. Moody overcast silver light, detailed rock strata and moss, water mist depth, natural photographic scale and texture. One person only; no visible magic yet, no text, watermark, gore or injury.",
+    "endFrameDescription": "",
+    "animation": "0.0–0.85s: DIAXI completes the forward step already underway toward screen RIGHT; her leading boot passes the rock lip and her weight carries her beyond the edge. 0.85–3.0s: her body accelerates DOWN beside the waterfall; the edit uses the first second. Camera: locked 50mm side view. Hair and skirt lag behind her downward acceleration while water falls continuously. @Element1 is the existing DIAXI: preserve exact identity, proportions and original dress, belt and boots. Keep rock geometry and overcast daylight fixed. No new run-up, hovering, upward flight, backwards step, portal glow, duplicate body, extra limbs, cut, fade or text. Performance: withdrawn and inwardly resolved, shoulders low, jaw tense; no exhilaration or triumphant expression."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "character:diaxi",
+        "shot:ze20-01g-droga-do-krawedzi"
+      ],
+      "references": [
+        {
+          "sourceKey": "character:diaxi",
+          "key": "character:diaxi",
+          "type": "character",
+          "id": "diaxi",
+          "name": "DIAXI",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ze20-01g-droga-do-krawedzi",
+          "key": "shot:zlote-emoji-20/ze20-01g-droga-do-krawedzi",
+          "type": "shot",
+          "id": "ze20-01g-droga-do-krawedzi",
+          "name": "Diaxi - droga do krawedzi",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-01g-droga-do-krawedzi.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-12T23:54:12.60961+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:diaxi",
+            "shot:ze20-01g-droga-do-krawedzi"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:diaxi",
+              "key": "character:diaxi",
+              "type": "character",
+              "id": "diaxi",
+              "name": "DIAXI",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ze20-01g-droga-do-krawedzi",
+              "key": "shot:zlote-emoji-20/ze20-01g-droga-do-krawedzi",
+              "type": "shot",
+              "id": "ze20-01g-droga-do-krawedzi",
+              "name": "Diaxi - droga do krawedzi",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-01g-droga-do-krawedzi.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-04b-przekroczenie-krawedzi/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-04b-przekroczenie-krawedzi/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

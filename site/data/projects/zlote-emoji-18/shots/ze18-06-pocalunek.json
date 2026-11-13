@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-18/ze18-06-pocalunek",
+  "id": "ze18-06-pocalunek",
+  "title": "II — Pocałunek i elipsa",
+  "description": "Zbliżenie profili, 85 mm, tło lasu miękkie, księżycowy kontur włosów. On lewo, ona prawo, lekko pochyla twarz ku niemu. Start: twarze tuż przed pocałunkiem. Akcja: jeden wzajemny pocałunek, w pełnym ubraniu. Cięcie eliptyczne do 07 pomija dalszą intymność, sen i całą przemianę. Bez rozbierania w kadrze.\nMONTAŻ: długość robocza 72 klatki; docelowe cięcia i czas trwania ustalamy pod muzykę.",
+  "project": {
+    "id": "zlote-emoji-18",
+    "key": "project:zlote-emoji-18",
+    "name": "Złote Emoji #18",
+    "createdAt": "2026-11-09T15:18:48.889Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-18",
+    "projectCreatedAt": "2026-11-09T15:18:48.889Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": false,
+    "canonicalEvent": false,
+    "sequence": null,
+    "lastSequence": null,
+    "occurrences": [],
+    "sequenceTotal": 18,
+    "uniqueShotCount": 18,
+    "sequenceOrder": null,
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This project material is not present on the saved timeline, so it must not override canonical timeline events by date alone."
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "czeslaw-mlody"
+    },
+    {
+      "type": "character",
+      "id": "olivia-dela-ossa"
+    },
+    {
+      "type": "place",
+      "id": "lasy-kozlowieckie-polana-1985"
+    },
+    {
+      "type": "shot",
+      "id": "ze18-05-magnetyzm"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:czeslaw-mlody",
+        "key": "character:czeslaw-mlody",
+        "type": "character",
+        "id": "czeslaw-mlody",
+        "name": "Czesław — 1985",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw-mlody.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:olivia-dela-ossa",
+        "key": "character:olivia-dela-ossa",
+        "type": "character",
+        "id": "olivia-dela-ossa",
+        "name": "Olivia Dela Ossa",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/olivia-dela-ossa.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:lasy-kozlowieckie-polana-1985",
+        "key": "place:lasy-kozlowieckie-polana-1985",
+        "type": "place",
+        "id": "lasy-kozlowieckie-polana-1985",
+        "name": "Lasy Kozłowieckie — droga i polana, 1985",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lasy-kozlowieckie-polana-1985.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze18-05-magnetyzm",
+        "key": "shot:zlote-emoji-18/ze18-05-magnetyzm",
+        "type": "shot",
+        "id": "ze18-05-magnetyzm",
+        "name": "II — Przyciąganie i pocałunek",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-05-magnetyzm.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:ze18-05-magnetyzm",
+          "character:czeslaw-mlody",
+          "character:olivia-dela-ossa"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze18-05-magnetyzm",
+            "key": "shot:zlote-emoji-18/ze18-05-magnetyzm",
+            "type": "shot",
+            "id": "ze18-05-magnetyzm",
+            "name": "II — Przyciąganie i pocałunek",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-05-magnetyzm.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:czeslaw-mlody",
+            "key": "character:czeslaw-mlody",
+            "type": "character",
+            "id": "czeslaw-mlody",
+            "name": "Czesław — 1985",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw-mlody.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:olivia-dela-ossa",
+            "key": "character:olivia-dela-ossa",
+            "type": "character",
+            "id": "olivia-dela-ossa",
+            "name": "Olivia Dela Ossa",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/olivia-dela-ossa.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Single 16:9 cinematic close-up film frame. Reference1 exact scene and people continuity, reference2 young man's exact face, reference3 woman's exact face hair red blouse. Same Polish moonlit forest1985. Tight 85mm close-up of two adult faces immediately before a tender mutual kiss, lips a few centimeters apart, eyes softly almost closed. Man LEFT facing right, woman RIGHT facing left. Olivia is slightly taller and tilts her head gently DOWN toward him, he tips face slightly UP. Crop from shoulders upward, hands completely outside picture. Fully clothed plum jacket patterned cream shirt and carmine blouse visible at lower edges. Silver moon rim through black wavy hair and his curls, dim softly shaped skin light, deep dark forest bokeh. Elegant intimate 1980s American film composition, rich blacks, subtle 35mm grain, natural skin texture, no glamorous advertising retouching. Faces distinct, noses do not fuse, anatomically normal. No other person, no supernatural glow, no text or borders.",
+    "endFrameDescription": "",
+    "animation": ""
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze18-05-magnetyzm",
+        "character:czeslaw-mlody",
+        "character:olivia-dela-ossa"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze18-05-magnetyzm",
+          "key": "shot:zlote-emoji-18/ze18-05-magnetyzm",
+          "type": "shot",
+          "id": "ze18-05-magnetyzm",
+          "name": "II — Przyciąganie i pocałunek",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-05-magnetyzm.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:czeslaw-mlody",
+          "key": "character:czeslaw-mlody",
+          "type": "character",
+          "id": "czeslaw-mlody",
+          "name": "Czesław — 1985",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw-mlody.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:olivia-dela-ossa",
+          "key": "character:olivia-dela-ossa",
+          "type": "character",
+          "id": "olivia-dela-ossa",
+          "name": "Olivia Dela Ossa",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/olivia-dela-ossa.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-09T16:14:15.164842+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze18-05-magnetyzm",
+            "character:czeslaw-mlody",
+            "character:olivia-dela-ossa"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze18-05-magnetyzm",
+              "key": "shot:zlote-emoji-18/ze18-05-magnetyzm",
+              "type": "shot",
+              "id": "ze18-05-magnetyzm",
+              "name": "II — Przyciąganie i pocałunek",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-05-magnetyzm.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:czeslaw-mlody",
+              "key": "character:czeslaw-mlody",
+              "type": "character",
+              "id": "czeslaw-mlody",
+              "name": "Czesław — 1985",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw-mlody.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:olivia-dela-ossa",
+              "key": "character:olivia-dela-ossa",
+              "type": "character",
+              "id": "olivia-dela-ossa",
+              "name": "Olivia Dela Ossa",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/olivia-dela-ossa.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-18/shots/ze18-06-pocalunek/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-18/shots/ze18-06-pocalunek/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

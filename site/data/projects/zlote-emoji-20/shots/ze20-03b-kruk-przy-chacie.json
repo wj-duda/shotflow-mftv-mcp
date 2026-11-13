@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-20/ze20-03b-kruk-przy-chacie",
+  "id": "ze20-03b-kruk-przy-chacie",
+  "title": "Kruk — świadek rytuału",
+  "description": "Kruk po LEWEJ, patrzy w PRAWO i w dół ku kamieniowi poza kadrem. Jedno przekrzywienie głowy, potem naturalny bezruch. Aktualny montaż: start 823f, długość 35f (1.458 s), wejście źródła 0f.",
+  "project": {
+    "id": "zlote-emoji-20",
+    "key": "project:zlote-emoji-20",
+    "name": "Złote Emoji #20",
+    "createdAt": "2026-11-12T06:49:40.532Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-20",
+    "projectCreatedAt": "2026-11-12T06:49:40.532Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 17,
+    "lastSequence": 17,
+    "occurrences": [
+      17
+    ],
+    "sequenceTotal": 27,
+    "uniqueShotCount": 27,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "ze20-01g-droga-do-krawedzi"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:ze20-01g-droga-do-krawedzi",
+        "key": "shot:zlote-emoji-20/ze20-01g-droga-do-krawedzi",
+        "type": "shot",
+        "id": "ze20-01g-droga-do-krawedzi",
+        "name": "Diaxi - droga do krawedzi",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-01g-droga-do-krawedzi.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:ze20-01g-droga-do-krawedzi"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze20-01g-droga-do-krawedzi",
+            "key": "shot:zlote-emoji-20/ze20-01g-droga-do-krawedzi",
+            "type": "shot",
+            "id": "ze20-01g-droga-do-krawedzi",
+            "name": "Diaxi - droga do krawedzi",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-01g-droga-do-krawedzi.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Create ONE photorealistic live-action 16:9 cinematic insert, 1920x1080. Reference image is the exact established location, weather, roof construction and the ONE raven already perched on the projecting branch above the hut at upper left. Cut to an intimate 85mm bird-eye-height close shot of that SAME ordinary black raven on that same crooked branch projecting from the mossy timber eave. Raven occupies LEFT half, body in side profile, beak points distinctly SCREEN RIGHT and slightly DOWN toward the elder and stone OFFSCREEN RIGHT below. Preserve this screen direction; never mirror. Closed beak, alert dark eye, slightly cocked head, folded wings, both claws naturally gripping the branch, realistic raven size and tactile layered black feathers with subtle blue sheen. Leave meaningful looking room on right. Hut edge and wet moss visible at left/bottom; defocused birch-spruce woodland beyond, same cloudy cold daylight. No humans in this close framing; elder/stone deliberately out of frame, no need to redesign their geometry. Restrained dark fantasy mood through real nature, not glowing eyes or magic. Natural 85mm f4 optics, delicate edge light on feathers, subtle film texture, photographic depth, not toy or CGI. One bird only, no flight, no extra feet, no symbols, no captions or watermark. This is a one-second silent witness reaction between the elder close-up and stone touch.",
+    "endFrameDescription": "",
+    "animation": "0.0–0.55s: the raven already perched on screen left tilts its head downward a few degrees while keeping its beak pointed screen RIGHT toward the offscreen stone. 0.55–1.46s: it holds that alert gaze. 1.46–3.0s: maintain the pose with natural breathing. Camera: locked 85mm close shot. Secondary: a light breeze shifts only the throat feathers. @Image1 preserves this existing raven, branch and roof edge; do not add another bird. Both feet stay gripping the same branch, wings folded, beak closed. Preserve cold daylight and background geometry. No head turn left, flight, glowing eyes, new animals, humans, cuts, morphing, text or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze20-01g-droga-do-krawedzi"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze20-01g-droga-do-krawedzi",
+          "key": "shot:zlote-emoji-20/ze20-01g-droga-do-krawedzi",
+          "type": "shot",
+          "id": "ze20-01g-droga-do-krawedzi",
+          "name": "Diaxi - droga do krawedzi",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-01g-droga-do-krawedzi.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-13T02:23:35.136922+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze20-01g-droga-do-krawedzi"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze20-01g-droga-do-krawedzi",
+              "key": "shot:zlote-emoji-20/ze20-01g-droga-do-krawedzi",
+              "type": "shot",
+              "id": "ze20-01g-droga-do-krawedzi",
+              "name": "Diaxi - droga do krawedzi",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-01g-droga-do-krawedzi.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-03b-kruk-przy-chacie/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-03b-kruk-przy-chacie/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

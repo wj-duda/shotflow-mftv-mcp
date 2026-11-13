@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "note:marian-ui-demo",
+  "type": "notes",
+  "id": "marian-ui-demo",
+  "name": "Marian — ekran roboczy UI z lokalnego demo",
+  "description": "Rzeczywiste screenshoty istniejącego komponentu /dev/marian w /home/ojciech/atv/panel. Dane przykładowe, bez zapisu produkcyjnych głosów. Materiał roboczy do planowania montażu; lista audycji ma przykładowe tytuły, a końcowy przycisk demo różni się od produkcyjnego Zapisz · 1 paczka. Przed finalnym eksportem trzeba przechwycić produkcyjny wariant komponentu z kontrolowanymi danymi demonstracyjnymi. Nie traktować UI demo jako dowodu nadania głosu. Pełne zrzuty i capture-record.json: projects/marian-rolka/_system/ui-captures-v002.",
+  "images": [],
+  "updatedAt": "2026-10-30T11:29:00.890596+00:00"
+}

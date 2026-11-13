@@ -1,0 +1,330 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-16/fotografia-po-latach",
+  "id": "fotografia-po-latach",
+  "title": "10 — Po latach: POV Fonza i mina Halinki",
+  "description": "SCENOPIS v002; 34–40 s.\n\nWspółczesność. Jedno ujęcie POV starszego Fonza od strony petenta przy biurku w tymczasowym biurze DK. Jego prawa dłoń wchodzi od dołu i kładzie na biurku postarzałą odbitkę zdjęcia wykonanego młodej Halince w ujęciu03, obrazem ku Halince. Nie pokazujemy twarzy, ciała ani odbicia Fonza. Po odłożeniu zdjęcia z jego pozycji pada pytanie po słowacku. Kamera płynnie przenosi uwagę ze zdjęcia na twarz Halinki siedzącej za biurkiem. Koniec na jej minie.\n\nGRA: 0–1,5 s lokalnie: dłoń kładzie fotografię i cofa się; Halinka spogląda w dół. 1,5–3,6 s: pada pytanie, kamera łagodnie unosi się ku twarzy. 3,6–6 s: Halinka podnosi wzrok w obiektyw, brwi lekko napięte, potem bezruch i cień rozpoznania. Cięcie zanim odpowie. Bez pełnego uśmiechu i łez.\n\nDŹWIĘK — PLAN: Jedyny dialog, starszy Fonzo spoza kadru, po słowacku: „Prepáčte… vy ste Halinka?” (Przepraszam… pani jest Halinką?). Naturalnie, nie komediowy akcent. Muzyka ściszona; nie nakładać wokalu na pytanie. Wersja robocza kwestii, nie nagrany głos.\n\nNowe klatki statyczne i prompt ruchu; brak wygenerowanego take.",
+  "project": {
+    "id": "zlote-emoji-16",
+    "key": "project:zlote-emoji-16",
+    "name": "Złote Emoji #16",
+    "createdAt": "2026-11-06T18:54:57.286Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-16",
+    "projectCreatedAt": "2026-11-06T18:54:57.286Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": false,
+    "canonicalEvent": false,
+    "sequence": null,
+    "lastSequence": null,
+    "occurrences": [],
+    "sequenceTotal": 16,
+    "uniqueShotCount": 16,
+    "sequenceOrder": null,
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This project material is not present on the saved timeline, so it must not override canonical timeline events by date alone."
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "halinka"
+    },
+    {
+      "type": "prop",
+      "id": "fotografia-halinki-fonza"
+    },
+    {
+      "type": "place",
+      "id": "lokal-zastepczy-domu-kultury"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:halinka",
+        "key": "character:halinka",
+        "type": "character",
+        "id": "halinka",
+        "name": "Halinka",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:fotografia-halinki-fonza",
+        "key": "prop:fotografia-halinki-fonza",
+        "type": "prop",
+        "id": "fotografia-halinki-fonza",
+        "name": "Fotografia młodej Halinki — pamiątka Fonza",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/fotografia-halinki-fonza.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:lokal-zastepczy-domu-kultury",
+        "key": "place:lokal-zastepczy-domu-kultury",
+        "type": "place",
+        "id": "lokal-zastepczy-domu-kultury",
+        "name": "Lokal zastępczy Domu Kultury",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lokal-zastepczy-domu-kultury.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 3,
+        "referenceKeys": [
+          "shot:fotografia-po-latach",
+          "prop:fotografia-halinki-fonza"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:fotografia-po-latach",
+            "key": "shot:zlote-emoji-16/fotografia-po-latach",
+            "type": "shot",
+            "id": "fotografia-po-latach",
+            "name": "10 — Po latach: POV Fonza i mina Halinki",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/fotografia-po-latach.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:fotografia-halinki-fonza",
+            "key": "prop:fotografia-halinki-fonza",
+            "type": "prop",
+            "id": "fotografia-halinki-fonza",
+            "name": "Fotografia młodej Halinki — pamiątka Fonza",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/fotografia-halinki-fonza.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      },
+      {
+        "frameId": "frame-end",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:fotografia-po-latach",
+          "character:halinka"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:fotografia-po-latach",
+            "key": "shot:zlote-emoji-16/fotografia-po-latach",
+            "type": "shot",
+            "id": "fotografia-po-latach",
+            "name": "10 — Po latach: POV Fonza i mina Halinki",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/fotografia-po-latach.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:halinka",
+            "key": "character:halinka",
+            "type": "character",
+            "id": "halinka",
+            "name": "Halinka",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Precise prop replacement in image1. Keep seated older Halinka face pose gaze hair clothes hands desk room and foreground man's hand EXACTLY unchanged. Replace ONLY small paper print in man's hand with exact aged photographic prop from image2, remove its studio background and preserve faded desaturated color fine grain weak contrast scratches worn yellowed border and corner crease. Fit the aged print into same perspective and physical dimensions as existing photograph in image1. CRITICAL orientation stays UPSIDE DOWN TO CAMERA as in image1, correct way up for woman opposite: young woman's head nearest bottom edge, her torso nearest top edge of paper. Do not brighten or resaturate photo, do not make new image content. Photo slightly lifted above desk by right hand. Everything outside paper unchanged. Landscape16:9 1920x1080 photorealistic film frame.",
+    "endFrameDescription": "Fotografia leży na biurku, dłoń Fonza poza kadrem. Halinka podnosi wzrok w obiektyw; cień rozpoznania, przed odpowiedzią. Kamera delikatnie uniesiona z tej samej pozycji POV.",
+    "animation": "0.0–1.4s: the foreground right hand lowers the aged photograph gently onto the desk, releases it and withdraws through the bottom right edge. 1.4–3.6s: Halinka looks down at the photograph with slight brow tension; the camera tilts gently upward from the same visitor viewpoint. 3.6–5.3s: she lifts her eyes directly into the lens, her brow subtly relaxes and her lips barely part in restrained recognition. 5.3–6.0s: hold her expression before any reply, arriving at the supplied End Frame. Preserve identity, office geometry, paper wear and upside-down-to-viewer print orientation. No speaking, male face, reflection, cut or dissolve."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 3,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:fotografia-po-latach",
+        "prop:fotografia-halinki-fonza"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:fotografia-po-latach",
+          "key": "shot:zlote-emoji-16/fotografia-po-latach",
+          "type": "shot",
+          "id": "fotografia-po-latach",
+          "name": "10 — Po latach: POV Fonza i mina Halinki",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/fotografia-po-latach.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:fotografia-halinki-fonza",
+          "key": "prop:fotografia-halinki-fonza",
+          "type": "prop",
+          "id": "fotografia-halinki-fonza",
+          "name": "Fotografia młodej Halinki — pamiątka Fonza",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/fotografia-halinki-fonza.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-06T19:21:44.319653+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:halinka-fotografia"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:halinka-fotografia",
+              "key": "shot:zlote-emoji-16/halinka-fotografia",
+              "type": "shot",
+              "id": "halinka-fotografia",
+              "name": "03 — Zgoda i uśmiech",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/halinka-fotografia.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-11-06T23:54:34.847018+00:00",
+          "source": "generated",
+          "referenceKeys": [],
+          "references": [],
+          "sourceReference": null
+        },
+        {
+          "revision": 3,
+          "createdAt": "2026-11-06T23:58:29.699855+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:fotografia-po-latach",
+            "prop:fotografia-halinki-fonza"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:fotografia-po-latach",
+              "key": "shot:zlote-emoji-16/fotografia-po-latach",
+              "type": "shot",
+              "id": "fotografia-po-latach",
+              "name": "10 — Po latach: POV Fonza i mina Halinki",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/fotografia-po-latach.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:fotografia-halinki-fonza",
+              "key": "prop:fotografia-halinki-fonza",
+              "type": "prop",
+              "id": "fotografia-halinki-fonza",
+              "name": "Fotografia młodej Halinki — pamiątka Fonza",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/fotografia-halinki-fonza.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-16/shots/fotografia-po-latach/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-16/shots/fotografia-po-latach/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "role": "frame-end",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:fotografia-po-latach",
+        "character:halinka"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:fotografia-po-latach",
+          "key": "shot:zlote-emoji-16/fotografia-po-latach",
+          "type": "shot",
+          "id": "fotografia-po-latach",
+          "name": "10 — Po latach: POV Fonza i mina Halinki",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/fotografia-po-latach.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:halinka",
+          "key": "character:halinka",
+          "type": "character",
+          "id": "halinka",
+          "name": "Halinka",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-07T00:01:30.090022+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:fotografia-po-latach",
+            "character:halinka"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:fotografia-po-latach",
+              "key": "shot:zlote-emoji-16/fotografia-po-latach",
+              "type": "shot",
+              "id": "fotografia-po-latach",
+              "name": "10 — Po latach: POV Fonza i mina Halinki",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/fotografia-po-latach.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:halinka",
+              "key": "character:halinka",
+              "type": "character",
+              "id": "halinka",
+              "name": "Halinka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-16/shots/fotografia-po-latach/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-16/shots/fotografia-po-latach/frame-end-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

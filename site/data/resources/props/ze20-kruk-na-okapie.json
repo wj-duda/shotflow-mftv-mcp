@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "prop:ze20-kruk-na-okapie",
+  "type": "props",
+  "id": "ze20-kruk-na-okapie",
+  "name": "ZE20 — kruk na okapie",
+  "description": "Referencja produkcyjna istniejącego kruka na gałęzi przy chacie. Dziób w prawo i w dół, bez magicznych oczu.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/ze20-kruk-na-okapie/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/ze20-kruk-na-okapie/image-001-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-11-13T11:42:37.427177+00:00"
+}

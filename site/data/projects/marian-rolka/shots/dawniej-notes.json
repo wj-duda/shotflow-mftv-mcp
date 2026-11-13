@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:marian-rolka/dawniej-notes",
+  "id": "dawniej-notes",
+  "title": "Kiedyś pilnował sceny",
+  "description": "Młody Marian przy stole na zapleczu DK sprawdza notes i przewód mikrofonowy. Dawna fachowość.\nKAMERA: 50 mm, półzbliżenie zza ramienia, notes na pierwszym planie; ciepłe żarowe światło.\nPLAN KLATEK: START: ołówek nad pozycją w notesie; END niewymagany.\nNAPIS MONTAŻOWY: Kiedyś pilnował całej sceny.\nMONTAŻ v003: 3.0–5.0 s. NARRACJA MARIANA: Wszystko miałem zapisane.. Aktualne napisy: _system/napisy-v003.srt; zastępują wcześniejsze wskazówki napisów.",
+  "project": {
+    "id": "marian-rolka",
+    "key": "project:marian-rolka",
+    "name": "MarianRolka",
+    "createdAt": "2026-10-30T11:23:31.351Z"
+  },
+  "chronology": {
+    "projectKey": "project:marian-rolka",
+    "projectCreatedAt": "2026-10-30T11:23:31.351Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 2,
+    "lastSequence": 2,
+    "occurrences": [
+      2
+    ],
+    "sequenceTotal": 16,
+    "uniqueShotCount": 16,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "note",
+      "id": "marian-mlody-design"
+    },
+    {
+      "type": "place",
+      "id": "kanciapa"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "note:marian-mlody-design",
+        "key": "note:marian-mlody-design",
+        "type": "note",
+        "id": "marian-mlody-design",
+        "name": "Marian młody — zatwierdzony design retrospekcji",
+        "relationship": "story-and-continuity-context",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/marian-mlody-design.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:kanciapa",
+        "key": "place:kanciapa",
+        "type": "place",
+        "id": "kanciapa",
+        "name": "Kanciapa",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/kanciapa.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "note:marian-mlody-design",
+          "place:kanciapa"
+        ],
+        "references": [
+          {
+            "sourceKey": "note:marian-mlody-design",
+            "key": "note:marian-mlody-design",
+            "type": "note",
+            "id": "marian-mlody-design",
+            "name": "Marian młody — zatwierdzony design retrospekcji",
+            "relationship": "story-and-continuity-context",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/marian-mlody-design.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "place:kanciapa",
+            "key": "place:kanciapa",
+            "type": "place",
+            "id": "kanciapa",
+            "name": "Kanciapa",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/kanciapa.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Vertical 9:16 cinematic photorealistic flashback frame, Polish cultural centre backstage in the 1980s. Reference 1 exact accepted YOUNG Marian facial identity (brown hair, thin brown moustache, long nose, light blue eyes, mole on his right cheek), reference 2 exact young outfit and small brown notebook, reference 3 room geometry and decor. Only ONE young man, do not age him up. He wears blue work overshirt over navy undershirt, charcoal trousers. Medium close three-quarter side view at table height, 50mm lens; young Marian at right middle of frame, head inclined with focused professional expression. He checks a small open brown pocket notebook lying on the wooden table, RIGHT hand holds ordinary short wooden pencil above a line, LEFT hand rests on a neatly coiled microphone cable. Natural hands, realistic five fingers each. Notebook has ordinary faint handwritten marks, not readable text. Back wall worn pale cream over dark green paint, closed manager door at back left, old jazz poster, metal filing cabinet rear right consistent with room reference. Remove tea service to make a practical work surface, keep era-appropriate functional clutter minimal. Warm tungsten desk lighting and subdued period color, shallow but plausible depth. No modern phone or screens, no alcohol in this frame, no other characters. Top 18 percent quiet for later caption, notebook and pencil central lower half. No rendered captions, watermarks or extra limbs. Normal photographic skin and cloth, not fractal noise.",
+    "endFrameDescription": "",
+    "animation": "0.0–1.5s: young Marian is already making one short pencil notation in the open notebook with his right hand, moving the pencil tip a few millimetres across the existing page. His left hand stays on the coiled cable. 1.5–3.0s: he stops writing and checks the same line with his eyes, remaining seated. Camera: locked off. Secondary motion: slight finger flex and quiet breathing. The Start Frame fixes this young man's exact identity and age. Continuity: preserve notebook geometry, hands, pencil, cable coil, blue shirt, warm room lighting and wall poster lettering. Avoid page turns, new objects, large head turns, speech, extra fingers, cuts or morphing."
+  },
+  "media": {
+    "fps": 60,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "note:marian-mlody-design",
+        "place:kanciapa"
+      ],
+      "references": [
+        {
+          "sourceKey": "note:marian-mlody-design",
+          "key": "note:marian-mlody-design",
+          "type": "note",
+          "id": "marian-mlody-design",
+          "name": "Marian młody — zatwierdzony design retrospekcji",
+          "relationship": "story-and-continuity-context",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/marian-mlody-design.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "place:kanciapa",
+          "key": "place:kanciapa",
+          "type": "place",
+          "id": "kanciapa",
+          "name": "Kanciapa",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/kanciapa.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-30T11:27:54.127359+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "note:marian-mlody-design",
+            "place:kanciapa"
+          ],
+          "references": [
+            {
+              "sourceKey": "note:marian-mlody-design",
+              "key": "note:marian-mlody-design",
+              "type": "note",
+              "id": "marian-mlody-design",
+              "name": "Marian młody — zatwierdzony design retrospekcji",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/marian-mlody-design.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:kanciapa",
+              "key": "place:kanciapa",
+              "type": "place",
+              "id": "kanciapa",
+              "name": "Kanciapa",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/kanciapa.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/marian-rolka/shots/dawniej-notes/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/marian-rolka/shots/dawniej-notes/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

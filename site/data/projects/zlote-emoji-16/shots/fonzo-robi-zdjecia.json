@@ -1,0 +1,253 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-16/fonzo-robi-zdjecia",
+  "id": "fonzo-robi-zdjecia",
+  "title": "04 — Fonzo fotografuje",
+  "description": "SCENOPIS v005; 12–15 s.\n\nZbliżenie Fonza z aparatem przy prawym oku. Wykonuje dwa zdjęcia, pomiędzy nimi przewija film kciukiem.\n\nGRA: Skupienie i delikatny uśmiech przy kąciku ust. Swobodna radość fotografowania Halinki, bez przesadnego grymasu.\n\nDŹWIĘK — PLAN: Dwa kliki migawki około12,5s i14,3s, między nimi przewinięcie filmu. Bez błysku i mowy.\n\nStatyczna klatka; brak wygenerowanej animacji.",
+  "project": {
+    "id": "zlote-emoji-16",
+    "key": "project:zlote-emoji-16",
+    "name": "Złote Emoji #16",
+    "createdAt": "2026-11-06T18:54:57.286Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-16",
+    "projectCreatedAt": "2026-11-06T18:54:57.286Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 6,
+    "lastSequence": 6,
+    "occurrences": [
+      6
+    ],
+    "sequenceTotal": 16,
+    "uniqueShotCount": 16,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "fonzo-zauroczenie"
+    },
+    {
+      "type": "prop",
+      "id": "leica-m3"
+    },
+    {
+      "type": "shot",
+      "id": "fonzo-robi-zdjecia"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:fonzo-zauroczenie",
+        "key": "shot:zlote-emoji-16/fonzo-zauroczenie",
+        "type": "shot",
+        "id": "fonzo-zauroczenie",
+        "name": "02 — Niema prośba o zdjęcie",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/fonzo-zauroczenie.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:leica-m3",
+        "key": "prop:leica-m3",
+        "type": "prop",
+        "id": "leica-m3",
+        "name": "Leica M3 — aparat protokolanta",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/leica-m3.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:fonzo-robi-zdjecia",
+        "key": "shot:zlote-emoji-16/fonzo-robi-zdjecia",
+        "type": "shot",
+        "id": "fonzo-robi-zdjecia",
+        "name": "04 — Fonzo fotografuje",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/fonzo-robi-zdjecia.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 3,
+        "referenceKeys": [
+          "shot:fonzo-zauroczenie",
+          "prop:leica-m3"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:fonzo-zauroczenie",
+            "key": "shot:zlote-emoji-16/fonzo-zauroczenie",
+            "type": "shot",
+            "id": "fonzo-zauroczenie",
+            "name": "02 — Niema prośba o zdjęcie",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/fonzo-zauroczenie.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:leica-m3",
+            "key": "prop:leica-m3",
+            "type": "prop",
+            "id": "leica-m3",
+            "name": "Leica M3 — aparat protokolanta",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/leica-m3.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Create a new photorealistic landscape16:9 film close-up of young Fonzo taking a photograph, using real photographer pose reference. Image1 supplies EXACT young man's identity hair age17 ivory striped shirt silver collar ornament brown straps and lakeside afternoon setting/color. Image2 supplies ONLY anatomically credible PHOTOGRAPHING POSE: copy the complete spatial relationship of head, eye, camera, right shutter hand and left lens-support hand from this real photograph, not the elderly man's identity, hat, glasses, clothing, black-white style or background. Image3 supplies our exact Leica M3 silver-black camera with small silver50mm lens. NO accessory viewfinder attached on top. Match image2's unified head-and-camera orientation and eye contact with rear optical eyepiece: rear camera against face, right eye directly behind rear finder, other eye lightly closed, nose beside camera; left hand cups lens underside rather than dangling fingers on camera front; right index poised on top shutter button. Do not make independent head/camera rotations. Young Fonzo from1 replaces photographer from2. Framing chest-up, Fonzo left of center, photographing Halinka just offscreen to right of filming camera, same side of scene axis; natural eye-level filming angle close to reference2. More face obstruction is fine, reliable camera-eye geometry is priority. Keep youthful relaxed focused expression, no wrinkled grimace. Summer lake and birch softly blurred as1. Real hand anatomy, realistic small camera scale. No flash no extra people no text overlays no borders.",
+    "endFrameDescription": "",
+    "animation": "0.0–0.35s: with the camera already firmly at his right eye, Fonzo presses and releases the top shutter button once. 0.35–1.35s: his right thumb advances the film with one short lever stroke and returns, while his left hand steadily supports the lens. 1.35–1.8s: his right index finger presses and releases the shutter once more. 1.8–3.0s: he holds the camera steady, a tiny smile at the visible corner of his mouth. Camera: locked close-up. Secondary motion: minute strap sway. Preserve eye-to-viewfinder contact, facial identity, fingers, silver rangefinder and lens geometry. No flash, extra fingers, repeated tapping, camera morphing, speech or cuts."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 3,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:fonzo-zauroczenie",
+        "prop:leica-m3"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:fonzo-zauroczenie",
+          "key": "shot:zlote-emoji-16/fonzo-zauroczenie",
+          "type": "shot",
+          "id": "fonzo-zauroczenie",
+          "name": "02 — Niema prośba o zdjęcie",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/fonzo-zauroczenie.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:leica-m3",
+          "key": "prop:leica-m3",
+          "type": "prop",
+          "id": "leica-m3",
+          "name": "Leica M3 — aparat protokolanta",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/leica-m3.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-07T00:59:45.710695+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:fonzo-zauroczenie",
+            "prop:leica-m3"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:fonzo-zauroczenie",
+              "key": "shot:zlote-emoji-16/fonzo-zauroczenie",
+              "type": "shot",
+              "id": "fonzo-zauroczenie",
+              "name": "02 — Niema prośba o zdjęcie",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/fonzo-zauroczenie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:leica-m3",
+              "key": "prop:leica-m3",
+              "type": "prop",
+              "id": "leica-m3",
+              "name": "Leica M3 — aparat protokolanta",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/leica-m3.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-11-07T01:05:40.373885+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:fonzo-robi-zdjecia"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:fonzo-robi-zdjecia",
+              "key": "shot:zlote-emoji-16/fonzo-robi-zdjecia",
+              "type": "shot",
+              "id": "fonzo-robi-zdjecia",
+              "name": "04 — Fonzo fotografuje",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/fonzo-robi-zdjecia.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 3,
+          "createdAt": "2026-11-07T01:09:02.290839+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:fonzo-zauroczenie",
+            "prop:leica-m3"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:fonzo-zauroczenie",
+              "key": "shot:zlote-emoji-16/fonzo-zauroczenie",
+              "type": "shot",
+              "id": "fonzo-zauroczenie",
+              "name": "02 — Niema prośba o zdjęcie",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/fonzo-zauroczenie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:leica-m3",
+              "key": "prop:leica-m3",
+              "type": "prop",
+              "id": "leica-m3",
+              "name": "Leica M3 — aparat protokolanta",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/leica-m3.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-16/shots/fonzo-robi-zdjecia/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-16/shots/fonzo-robi-zdjecia/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

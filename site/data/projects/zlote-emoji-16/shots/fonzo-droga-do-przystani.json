@@ -1,0 +1,330 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-16/fonzo-droga-do-przystani",
+  "id": "fonzo-droga-do-przystani",
+  "title": "00 — Droga do przystani",
+  "description": "0–5s: Fonzo idzie leśną ścieżką wzdłuż jeziora, zauważa Halinkę po prawej, skręca na pomost i zatrzymuje się przy niej. Kamera podąża w prawo do kadru spotkania. Last Frame jest identyczny z First Frame shota seed.",
+  "project": {
+    "id": "zlote-emoji-16",
+    "key": "project:zlote-emoji-16",
+    "name": "Złote Emoji #16",
+    "createdAt": "2026-11-06T18:54:57.286Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-16",
+    "projectCreatedAt": "2026-11-06T18:54:57.286Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 2,
+    "lastSequence": 2,
+    "occurrences": [
+      2
+    ],
+    "sequenceTotal": 16,
+    "uniqueShotCount": 16,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "seed"
+    },
+    {
+      "type": "shot",
+      "id": "fonzo-droga-do-przystani"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:seed",
+        "key": "shot:zlote-emoji-16/seed",
+        "type": "shot",
+        "id": "seed",
+        "name": "01 — Letnie spotkanie",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/seed.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:fonzo-droga-do-przystani",
+        "key": "shot:zlote-emoji-16/fonzo-droga-do-przystani",
+        "type": "shot",
+        "id": "fonzo-droga-do-przystani",
+        "name": "00 — Droga do przystani",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/fonzo-droga-do-przystani.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "shot:fonzo-droga-do-przystani"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:fonzo-droga-do-przystani",
+            "key": "shot:zlote-emoji-16/fonzo-droga-do-przystani",
+            "type": "shot",
+            "id": "fonzo-droga-do-przystani",
+            "name": "00 — Droga do przystani",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/fonzo-droga-do-przystani.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      },
+      {
+        "frameId": "frame-end",
+        "revision": 4,
+        "referenceKeys": [
+          "shot:fonzo-droga-do-przystani",
+          "shot:seed"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:fonzo-droga-do-przystani",
+            "key": "shot:zlote-emoji-16/fonzo-droga-do-przystani",
+            "type": "shot",
+            "id": "fonzo-droga-do-przystani",
+            "name": "00 — Droga do przystani",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/fonzo-droga-do-przystani.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:seed",
+            "key": "shot:zlote-emoji-16/seed",
+            "type": "shot",
+            "id": "seed",
+            "name": "01 — Letnie spotkanie",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/seed.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Precise localized edit ONLY the existing young man; keep every detail of landscape, path, pier, boat, camera framing, sunlight EXACTLY unchanged. This supplied image will be END of5second walk when he notices someone offscreen right. Generate START a few walking steps earlier: place same man about1.5meters FARTHER BACK on center of existing dirt path, feet farther up the path and naturally smaller perspective. His body and feet face along path TOWARD CAMERA, head aligned with body, chin relaxed slightly down and EYES LOOKING AT PATH AHEAD down-center, absolutely NOT turned screen right toward lake/pier. He is unaware of girl. Calm neutral face, mouth closed no recognition smile. Midstep strolling to foreground, right hand steadies camera, left arm relaxed. Preserve exact identity youth dark hair ivory stripe shirt ornament charcoalpants shoes satchel Leica. Do not rotate walking direction toward pier. Keep same environment unaltered. No new characters no text. Landscape16:9 photorealistic.",
+    "endFrameDescription": "Dokładnie First Frame seed: Fonzo po lewej na pomoście, Halinka po prawej, jacht w tle. Wspólna klatka łączy oba shoty.",
+    "animation": "0.0–1.3s: Fonzo is already walking toward the camera along the lakeside path, looking ahead. 1.3–1.8s: while walking, he notices Halinka offscreen right; his eyes shift, then his head turns with quiet interest. 1.8–4.7s: he follows the path to the adjoining pier, turns screen right and steps onto the boards, stopping at the supplied End position. Camera: one smooth rightward pan follows him and reveals Halinka already standing on the pier. 4.7–5.0s: they hold a tentative glance in the exact End composition. Secondary motion: straps swing then settle; gentle lake ripples. Preserve identities, wardrobe, boat and connected shore geometry. Natural walking speed and grounded feet; no running, cuts, dissolves, teleportation, morphing or additional people."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:fonzo-droga-do-przystani"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:fonzo-droga-do-przystani",
+          "key": "shot:zlote-emoji-16/fonzo-droga-do-przystani",
+          "type": "shot",
+          "id": "fonzo-droga-do-przystani",
+          "name": "00 — Droga do przystani",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/fonzo-droga-do-przystani.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-07T14:46:52.778413+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:seed"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:seed",
+              "key": "shot:zlote-emoji-16/seed",
+              "type": "shot",
+              "id": "seed",
+              "name": "01 — Letnie spotkanie",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/seed.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-11-07T15:04:12.566731+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:fonzo-droga-do-przystani"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:fonzo-droga-do-przystani",
+              "key": "shot:zlote-emoji-16/fonzo-droga-do-przystani",
+              "type": "shot",
+              "id": "fonzo-droga-do-przystani",
+              "name": "00 — Droga do przystani",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/fonzo-droga-do-przystani.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-16/shots/fonzo-droga-do-przystani/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-16/shots/fonzo-droga-do-przystani/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "role": "frame-end",
+      "revision": 4,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:fonzo-droga-do-przystani",
+        "shot:seed"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:fonzo-droga-do-przystani",
+          "key": "shot:zlote-emoji-16/fonzo-droga-do-przystani",
+          "type": "shot",
+          "id": "fonzo-droga-do-przystani",
+          "name": "00 — Droga do przystani",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/fonzo-droga-do-przystani.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:seed",
+          "key": "shot:zlote-emoji-16/seed",
+          "type": "shot",
+          "id": "seed",
+          "name": "01 — Letnie spotkanie",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/seed.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-07T14:47:42.132379+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:fonzo-droga-do-przystani",
+            "shot:seed"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:fonzo-droga-do-przystani",
+              "key": "shot:zlote-emoji-16/fonzo-droga-do-przystani",
+              "type": "shot",
+              "id": "fonzo-droga-do-przystani",
+              "name": "00 — Droga do przystani",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/fonzo-droga-do-przystani.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:seed",
+              "key": "shot:zlote-emoji-16/seed",
+              "type": "shot",
+              "id": "seed",
+              "name": "01 — Letnie spotkanie",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/seed.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 3,
+          "createdAt": "2026-11-07T15:05:29.754138+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:fonzo-droga-do-przystani"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:fonzo-droga-do-przystani",
+              "key": "shot:zlote-emoji-16/fonzo-droga-do-przystani",
+              "type": "shot",
+              "id": "fonzo-droga-do-przystani",
+              "name": "00 — Droga do przystani",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/fonzo-droga-do-przystani.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 4,
+          "createdAt": "2026-11-07T21:42:27.571968+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:fonzo-droga-do-przystani",
+            "shot:seed"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:fonzo-droga-do-przystani",
+              "key": "shot:zlote-emoji-16/fonzo-droga-do-przystani",
+              "type": "shot",
+              "id": "fonzo-droga-do-przystani",
+              "name": "00 — Droga do przystani",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/fonzo-droga-do-przystani.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:seed",
+              "key": "shot:zlote-emoji-16/seed",
+              "type": "shot",
+              "id": "seed",
+              "name": "01 — Letnie spotkanie",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/seed.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-16/shots/fonzo-droga-do-przystani/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-16/shots/fonzo-droga-do-przystani/frame-end-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

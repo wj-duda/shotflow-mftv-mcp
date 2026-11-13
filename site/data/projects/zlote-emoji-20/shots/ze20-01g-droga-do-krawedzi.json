@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-20/ze20-01g-droga-do-krawedzi",
+  "id": "ze20-01g-droga-do-krawedzi",
+  "title": "Diaxi - droga do krawedzi",
+  "description": "Po „Muszę stąd odejść” Diaxi kończy rozpoczęty krok, przyspiesza do krótkiego biegu i wychodzi poza prawą krawędź kadru w kierunku wodospadu. Kamera 40 mm według Blendera P01 pozostaje nieruchoma na babce przy ciemnym kamieniu. Babka śledzi Diaxi wzrokiem, nie ruszając z miejsca. 4 s, bez dialogu. Skok nie jest widoczny w tym ujęciu. Kolejny kadr musi zachować ciągłość kierunku i rozpędu.",
+  "project": {
+    "id": "zlote-emoji-20",
+    "key": "project:zlote-emoji-20",
+    "name": "Złote Emoji #20",
+    "createdAt": "2026-11-12T06:49:40.532Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-20",
+    "projectCreatedAt": "2026-11-12T06:49:40.532Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 7,
+    "lastSequence": 7,
+    "occurrences": [
+      7
+    ],
+    "sequenceTotal": 27,
+    "uniqueShotCount": 27,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "ze20-01-rozmowa-nad-wodospadem"
+    },
+    {
+      "type": "character",
+      "id": "diaxi"
+    },
+    {
+      "type": "character",
+      "id": "szamanka-rodu-diaxi"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:ze20-01-rozmowa-nad-wodospadem",
+        "key": "shot:zlote-emoji-20/ze20-01-rozmowa-nad-wodospadem",
+        "type": "shot",
+        "id": "ze20-01-rozmowa-nad-wodospadem",
+        "name": "Rozmowa nad wodospadem",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-01-rozmowa-nad-wodospadem.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:diaxi",
+        "key": "character:diaxi",
+        "type": "character",
+        "id": "diaxi",
+        "name": "DIAXI",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:szamanka-rodu-diaxi",
+        "key": "character:szamanka-rodu-diaxi",
+        "type": "character",
+        "id": "szamanka-rodu-diaxi",
+        "name": "Szamanka rodu DIAXI — matka",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/szamanka-rodu-diaxi.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:ze20-01-rozmowa-nad-wodospadem",
+          "character:diaxi",
+          "character:szamanka-rodu-diaxi"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze20-01-rozmowa-nad-wodospadem",
+            "key": "shot:zlote-emoji-20/ze20-01-rozmowa-nad-wodospadem",
+            "type": "shot",
+            "id": "ze20-01-rozmowa-nad-wodospadem",
+            "name": "Rozmowa nad wodospadem",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-01-rozmowa-nad-wodospadem.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:diaxi",
+            "key": "character:diaxi",
+            "type": "character",
+            "id": "diaxi",
+            "name": "DIAXI",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:szamanka-rodu-diaxi",
+            "key": "character:szamanka-rodu-diaxi",
+            "type": "character",
+            "id": "szamanka-rodu-diaxi",
+            "name": "Szamanka rodu DIAXI — matka",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/szamanka-rodu-diaxi.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Create ONE photorealistic cinematic 16:9 film still. Image1 Blender blocking is CAMERA AND SPATIAL LAYOUT ONLY: 40mm wide, elder and carved stone far left beside hut, young woman mid-right on rock platform walking screen-right toward ledge in foreground/right; river on right. Replace every primitive with fully real scale natural wet layered rock, moss, birch/spruce woodland, river and distant gorge, absolutely no miniature or toy look. Image2 is approved same location, weather, hut, stone carved Vegvisir DARK UNLIT, costumes and two characters. Image3 locks Diaxi face, hair, forehead marking ONLY (ignore its night setting). Image4 locks her exact ivory offshoulder deepV embroidered layered split dress, ornate brown belt hanging cords and tall fur cuff lace boots. Image5 locks elder identity, wrinkles and tattoos. Diaxi has turned away from elder and is taking a grounded natural walking step to screen right, full body, shoulders slightly collapsed after a painful conversation, eyes lowered, jaw tight; no smile or model pose. Elder remains still small in background, staff in her right hand; one black raven by hut. Cold overcast daylight, realistic 1.7m human scale, restrained desaturated dark fantasy, wind moving loose hair and hems, cinematic depth, real photographic textures. Retain plenty of ground between Diaxi and edge. Exactly two people, no glowing eyes or glowing stone, no captions, no watermark. This is a walking departure before a magical portal journey, not a leap.",
+    "endFrameDescription": "",
+    "animation": "0.0–0.7s: DIAXI completes her walking step toward screen right, shoulders slumped. 0.7–2.5s: she leans forward slightly, accelerates into a short run and exits through the right edge. 2.5–4.0s: hold on the elder and the vacated foreground. The elder stays beside the stone, following DIAXI with her eyes; her staff remains planted. Camera: locked 40mm wide; no pan, zoom or tracking. Secondary: DIAXI’s hair and skirt trail her acceleration; the river flows continuously. @Element1 preserves the existing DIAXI’s identity, proportions and costume; @Image1 preserves the elder’s identity. Retain Start Frame daylight, terrain and dark carving; raven stays perched. No smile, pause before exiting, visible jump, glow, duplicate people, cuts, morphing, extra limbs, captions or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze20-01-rozmowa-nad-wodospadem",
+        "character:diaxi",
+        "character:szamanka-rodu-diaxi"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze20-01-rozmowa-nad-wodospadem",
+          "key": "shot:zlote-emoji-20/ze20-01-rozmowa-nad-wodospadem",
+          "type": "shot",
+          "id": "ze20-01-rozmowa-nad-wodospadem",
+          "name": "Rozmowa nad wodospadem",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-01-rozmowa-nad-wodospadem.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:diaxi",
+          "key": "character:diaxi",
+          "type": "character",
+          "id": "diaxi",
+          "name": "DIAXI",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:szamanka-rodu-diaxi",
+          "key": "character:szamanka-rodu-diaxi",
+          "type": "character",
+          "id": "szamanka-rodu-diaxi",
+          "name": "Szamanka rodu DIAXI — matka",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/szamanka-rodu-diaxi.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-12T23:54:06.842274+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze20-01-rozmowa-nad-wodospadem",
+            "character:diaxi",
+            "character:szamanka-rodu-diaxi"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze20-01-rozmowa-nad-wodospadem",
+              "key": "shot:zlote-emoji-20/ze20-01-rozmowa-nad-wodospadem",
+              "type": "shot",
+              "id": "ze20-01-rozmowa-nad-wodospadem",
+              "name": "Rozmowa nad wodospadem",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-01-rozmowa-nad-wodospadem.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:diaxi",
+              "key": "character:diaxi",
+              "type": "character",
+              "id": "diaxi",
+              "name": "DIAXI",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:szamanka-rodu-diaxi",
+              "key": "character:szamanka-rodu-diaxi",
+              "type": "character",
+              "id": "szamanka-rodu-diaxi",
+              "name": "Szamanka rodu DIAXI — matka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/szamanka-rodu-diaxi.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-01g-droga-do-krawedzi/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-01g-droga-do-krawedzi/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

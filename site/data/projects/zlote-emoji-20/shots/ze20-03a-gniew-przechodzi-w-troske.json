@@ -1,0 +1,283 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-20/ze20-03a-gniew-przechodzi-w-troske",
+  "id": "ze20-03a-gniew-przechodzi-w-troske",
+  "title": "Szamanka - gniew przechodzi w troske",
+  "description": "First/last: gniew ustępuje trosce; ta sama kamera, laska i ciemny kamień. Pierwsza część dialogu. Aktualny montaż: start 714f, długość 72f (3.000 s), wejście źródła 0f.",
+  "project": {
+    "id": "zlote-emoji-20",
+    "key": "project:zlote-emoji-20",
+    "name": "Złote Emoji #20",
+    "createdAt": "2026-11-12T06:49:40.532Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-20",
+    "projectCreatedAt": "2026-11-12T06:49:40.532Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 15,
+    "lastSequence": 15,
+    "occurrences": [
+      15
+    ],
+    "sequenceTotal": 27,
+    "uniqueShotCount": 27,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "ze20-03-reakcja-szamanki"
+    },
+    {
+      "type": "character",
+      "id": "szamanka-rodu-diaxi"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:ze20-03-reakcja-szamanki",
+        "key": "shot:zlote-emoji-20/ze20-03-reakcja-szamanki",
+        "type": "shot",
+        "id": "ze20-03-reakcja-szamanki",
+        "name": "Szamanka — młode serce, troska pod surowością",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-03-reakcja-szamanki.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:szamanka-rodu-diaxi",
+        "key": "character:szamanka-rodu-diaxi",
+        "type": "character",
+        "id": "szamanka-rodu-diaxi",
+        "name": "Szamanka rodu DIAXI — matka",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/szamanka-rodu-diaxi.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:ze20-03-reakcja-szamanki",
+          "character:szamanka-rodu-diaxi"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze20-03-reakcja-szamanki",
+            "key": "shot:zlote-emoji-20/ze20-03-reakcja-szamanki",
+            "type": "shot",
+            "id": "ze20-03-reakcja-szamanki",
+            "name": "Szamanka — młode serce, troska pod surowością",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-03-reakcja-szamanki.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:szamanka-rodu-diaxi",
+            "key": "character:szamanka-rodu-diaxi",
+            "type": "character",
+            "id": "szamanka-rodu-diaxi",
+            "name": "Szamanka rodu DIAXI — matka",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/szamanka-rodu-diaxi.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      },
+      {
+        "frameId": "frame-end",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:ze20-03-reakcja-szamanki"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze20-03-reakcja-szamanki",
+            "key": "shot:zlote-emoji-20/ze20-03-reakcja-szamanki",
+            "type": "shot",
+            "id": "ze20-03-reakcja-szamanki",
+            "name": "Szamanka — młode serce, troska pod surowością",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-03-reakcja-szamanki.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": {
+          "sourceKey": "shot:ze20-03-reakcja-szamanki",
+          "key": "shot:zlote-emoji-20/ze20-03-reakcja-szamanki",
+          "type": "shot",
+          "id": "ze20-03-reakcja-szamanki",
+          "name": "Szamanka — młode serce, troska pod surowością",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-03-reakcja-szamanki.json",
+          "exists": true
+        }
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Edit image1 into the FIRST frame of a continuous 3-second facial-expression transition. Image1 will also be the exact final tender frame, so preserve its camera angle, crop, head location, body pose, gaze direction down screen RIGHT, staff and hand positions, gray braids, tattoos, costume, lighting and dark stone background exactly. Image2 identity reference only. Change ONLY facial expression to clearly ANGRY and resentfully worried: brow lowered and sharply knitted, deep tense vertical crease between eyebrows, eyelids narrowed, jaw tight, lips pressed firmly with slightly downturned corners. Controlled elderly woman's fury after an impulsive act; not a monster grimace, scream, smile, panic or theatrical teeth-baring. This must be visibly more furious than image1, with tenderness not yet present. Natural aged anatomy, same face and skin texture, no new wrinkles or different person. Keep normal gray-blue eyes, stone entirely dark. No raised fist or new gesture, no change to framing or background, no new props, people, glow, text or watermark. Photorealistic 16:9 cinematic frame.",
+    "endFrameDescription": "Gniew ustępuje trosce; dokładna czulsza klatka v004 z ze20-03-reakcja-szamanki, bez zmiany kamery.",
+    "animation": "In one continuous 3-second locked close-up, transition from the supplied angry Start Frame to the exact tender End Frame. 0.0–0.7s: the elder holds the tense jaw and deeply knitted brow, gaze down screen right. 0.7–2.5s: her jaw releases, brow gradually relaxes, lips part slightly and a restrained exhale softens her eyes into concern. 2.5–3.0s: settle into the exact End Frame expression and pose. Camera remains completely fixed. Secondary motion: minimal silver hair and feather movement in the breeze. @Image1 locks her exact elderly face and tattoos. Preserve head placement, costume, right hand and staff, background and normal eye color; stone remains dark. No smile, head turn, new people, glow, morphing, extra limbs, cuts, fades, captions or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze20-03-reakcja-szamanki",
+        "character:szamanka-rodu-diaxi"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze20-03-reakcja-szamanki",
+          "key": "shot:zlote-emoji-20/ze20-03-reakcja-szamanki",
+          "type": "shot",
+          "id": "ze20-03-reakcja-szamanki",
+          "name": "Szamanka — młode serce, troska pod surowością",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-03-reakcja-szamanki.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:szamanka-rodu-diaxi",
+          "key": "character:szamanka-rodu-diaxi",
+          "type": "character",
+          "id": "szamanka-rodu-diaxi",
+          "name": "Szamanka rodu DIAXI — matka",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/szamanka-rodu-diaxi.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-13T01:12:44.87545+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze20-03-reakcja-szamanki",
+            "character:szamanka-rodu-diaxi"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze20-03-reakcja-szamanki",
+              "key": "shot:zlote-emoji-20/ze20-03-reakcja-szamanki",
+              "type": "shot",
+              "id": "ze20-03-reakcja-szamanki",
+              "name": "Szamanka — młode serce, troska pod surowością",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-03-reakcja-szamanki.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:szamanka-rodu-diaxi",
+              "key": "character:szamanka-rodu-diaxi",
+              "type": "character",
+              "id": "szamanka-rodu-diaxi",
+              "name": "Szamanka rodu DIAXI — matka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/szamanka-rodu-diaxi.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-03a-gniew-przechodzi-w-troske/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-03a-gniew-przechodzi-w-troske/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "role": "frame-end",
+      "revision": 1,
+      "source": "reference",
+      "referenceKeys": [
+        "shot:ze20-03-reakcja-szamanki"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze20-03-reakcja-szamanki",
+          "key": "shot:zlote-emoji-20/ze20-03-reakcja-szamanki",
+          "type": "shot",
+          "id": "ze20-03-reakcja-szamanki",
+          "name": "Szamanka — młode serce, troska pod surowością",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-03-reakcja-szamanki.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": {
+        "sourceKey": "shot:ze20-03-reakcja-szamanki",
+        "key": "shot:zlote-emoji-20/ze20-03-reakcja-szamanki",
+        "type": "shot",
+        "id": "ze20-03-reakcja-szamanki",
+        "name": "Szamanka — młode serce, troska pod surowością",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-03-reakcja-szamanki.json",
+        "exists": true
+      },
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-13T01:13:19.706945+00:00",
+          "source": "reference",
+          "referenceKeys": [
+            "shot:ze20-03-reakcja-szamanki"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze20-03-reakcja-szamanki",
+              "key": "shot:zlote-emoji-20/ze20-03-reakcja-szamanki",
+              "type": "shot",
+              "id": "ze20-03-reakcja-szamanki",
+              "name": "Szamanka — młode serce, troska pod surowością",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-03-reakcja-szamanki.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": {
+            "sourceKey": "shot:ze20-03-reakcja-szamanki",
+            "key": "shot:zlote-emoji-20/ze20-03-reakcja-szamanki",
+            "type": "shot",
+            "id": "ze20-03-reakcja-szamanki",
+            "name": "Szamanka — młode serce, troska pod surowością",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-03-reakcja-szamanki.json",
+            "exists": true
+          }
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-03a-gniew-przechodzi-w-troske/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-03a-gniew-przechodzi-w-troske/frame-end-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

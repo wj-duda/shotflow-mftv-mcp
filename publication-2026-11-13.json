@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-13",
+  "scope": [
+    "MF TV: pełny eksport aktywnej biblioteki i projektów, XIAID, world walking, ZE16–20",
+    "MF Creators: osobny eksport własnego świata",
+    "Wspólny przewodnik: A-38, dogrywki, nowy planer i prognoza dostaw",
+    "Eksporter: pomijanie kopii zapasowych w bibliotece zasobów"
+  ],
+  "systemSnapshot": {
+    "status": "refresh-blocked-preserved-previous",
+    "generatedAt": "2026-10-29T11:52:07.127Z",
+    "reason": "Odczyt przekroczył limit 2000 ukończonych odtworzeń. Nie opublikowano częściowej migawki."
+  },
+  "deploymentScope": "GitHub Pages / dane MCP. Bez wdrożenia panelu lub Functions.",
+  "historicalUnresolvedReferences": [
+    "shot:cc-rolka/logo-ciasto-match",
+    "shot:prezent-dla-halinki-1/dostawa",
+    "shot:zlote-emoji-7/takajedna-enters",
+    "take:zlote-emoji-7/takajedna-enters/take-1",
+    "shot:zlote-emoji-sezon-1/prolog-19-kompost-noca"
+  ],
+  "loreAuditScope": "Uzupełniona ciągłość ZE16–20; eksport wcześniejszych materiałów nie oznacza pełnego audytu fabuły ZE1–15.",
+  "validation": {
+    "jsonFiles": 883,
+    "imageUrls": 2046,
+    "missingPublishedImages": 0,
+    "duplicateCatalogKeys": 0,
+    "offlineTestsPassed": 9
+  },
+  "catalogs": {
+    "aimftv": {
+      "resources": 181,
+      "projects": 31,
+      "shots": 557,
+      "images": 875
+    },
+    "mf-creators": {
+      "resources": 24,
+      "projects": 1,
+      "shots": 55,
+      "images": 148
+    }
+  }
+}

@@ -1,0 +1,541 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-20/ze20-03-reakcja-szamanki",
+  "id": "ze20-03-reakcja-szamanki",
+  "title": "Szamanka — młode serce, troska pod surowością",
+  "description": "Start Frame: ostatnia rzeczywista klatka lipsyncu 03a / take-1 / sync-1. End Frame zachowany bez zmian.",
+  "project": {
+    "id": "zlote-emoji-20",
+    "key": "project:zlote-emoji-20",
+    "name": "Złote Emoji #20",
+    "createdAt": "2026-11-12T06:49:40.532Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-20",
+    "projectCreatedAt": "2026-11-12T06:49:40.532Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 16,
+    "lastSequence": 16,
+    "occurrences": [
+      16
+    ],
+    "sequenceTotal": 27,
+    "uniqueShotCount": 27,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "szamanka-rodu-diaxi"
+    },
+    {
+      "type": "shot",
+      "id": "ze20-01-rozmowa-nad-wodospadem"
+    },
+    {
+      "type": "shot",
+      "id": "ze20-05-dotyk-kamienia"
+    },
+    {
+      "type": "shot",
+      "id": "ze20-03-reakcja-szamanki"
+    },
+    {
+      "type": "take",
+      "id": "ze20-03a-gniew-przechodzi-w-troske/take-1"
+    },
+    {
+      "type": "shot",
+      "id": "ze20-03a-gniew-przechodzi-w-troske"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:szamanka-rodu-diaxi",
+        "key": "character:szamanka-rodu-diaxi",
+        "type": "character",
+        "id": "szamanka-rodu-diaxi",
+        "name": "Szamanka rodu DIAXI — matka",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/szamanka-rodu-diaxi.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze20-01-rozmowa-nad-wodospadem",
+        "key": "shot:zlote-emoji-20/ze20-01-rozmowa-nad-wodospadem",
+        "type": "shot",
+        "id": "ze20-01-rozmowa-nad-wodospadem",
+        "name": "Rozmowa nad wodospadem",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-01-rozmowa-nad-wodospadem.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze20-05-dotyk-kamienia",
+        "key": "shot:zlote-emoji-20/ze20-05-dotyk-kamienia",
+        "type": "shot",
+        "id": "ze20-05-dotyk-kamienia",
+        "name": "Dotyk kamienia i rozbłysk Vegvísiru",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-05-dotyk-kamienia.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze20-03-reakcja-szamanki",
+        "key": "shot:zlote-emoji-20/ze20-03-reakcja-szamanki",
+        "type": "shot",
+        "id": "ze20-03-reakcja-szamanki",
+        "name": "Szamanka — młode serce, troska pod surowością",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-03-reakcja-szamanki.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "take:ze20-03a-gniew-przechodzi-w-troske/take-1",
+        "key": "take:zlote-emoji-20/ze20-03a-gniew-przechodzi-w-troske/take-1",
+        "type": "take",
+        "id": "ze20-03a-gniew-przechodzi-w-troske/take-1",
+        "name": "Szamanka - gniew przechodzi w troske / take-1",
+        "relationship": "visible-state-from-take",
+        "shotKey": "shot:zlote-emoji-20/ze20-03a-gniew-przechodzi-w-troske",
+        "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-03a-gniew-przechodzi-w-troske.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze20-03a-gniew-przechodzi-w-troske",
+        "key": "shot:zlote-emoji-20/ze20-03a-gniew-przechodzi-w-troske",
+        "type": "shot",
+        "id": "ze20-03a-gniew-przechodzi-w-troske",
+        "name": "Szamanka - gniew przechodzi w troske",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-03a-gniew-przechodzi-w-troske.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 7,
+        "referenceKeys": [
+          "take:ze20-03a-gniew-przechodzi-w-troske/take-1"
+        ],
+        "references": [
+          {
+            "sourceKey": "take:ze20-03a-gniew-przechodzi-w-troske/take-1",
+            "key": "take:zlote-emoji-20/ze20-03a-gniew-przechodzi-w-troske/take-1",
+            "type": "take",
+            "id": "ze20-03a-gniew-przechodzi-w-troske/take-1",
+            "name": "Szamanka - gniew przechodzi w troske / take-1",
+            "relationship": "visible-state-from-take",
+            "shotKey": "shot:zlote-emoji-20/ze20-03a-gniew-przechodzi-w-troske",
+            "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-03a-gniew-przechodzi-w-troske.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": {
+          "sourceKey": "take:ze20-03a-gniew-przechodzi-w-troske/take-1",
+          "key": "take:zlote-emoji-20/ze20-03a-gniew-przechodzi-w-troske/take-1",
+          "type": "take",
+          "id": "ze20-03a-gniew-przechodzi-w-troske/take-1",
+          "name": "Szamanka - gniew przechodzi w troske / take-1",
+          "relationship": "visible-state-from-take",
+          "shotKey": "shot:zlote-emoji-20/ze20-03a-gniew-przechodzi-w-troske",
+          "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-03a-gniew-przechodzi-w-troske.json",
+          "exists": true
+        }
+      },
+      {
+        "frameId": "frame-end",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:ze20-03-reakcja-szamanki"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze20-03-reakcja-szamanki",
+            "key": "shot:zlote-emoji-20/ze20-03-reakcja-szamanki",
+            "type": "shot",
+            "id": "ze20-03-reakcja-szamanki",
+            "name": "Szamanka — młode serce, troska pod surowością",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-03-reakcja-szamanki.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": {
+          "sourceKey": "shot:ze20-03-reakcja-szamanki",
+          "key": "shot:zlote-emoji-20/ze20-03-reakcja-szamanki",
+          "type": "shot",
+          "id": "ze20-03-reakcja-szamanki",
+          "name": "Szamanka — młode serce, troska pod surowością",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-03-reakcja-szamanki.json",
+          "exists": true
+        }
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Exact final decoded frame 71 of ze20-03a-gniew-przechodzi-w-troske/take-1/lipsync/sync-1/video-synced.mp4. No retouching.",
+    "endFrameDescription": "Dotychczasowy Start Frame v005 tego ujęcia zachowany jako End Frame.",
+    "animation": "0.0–3.0s: the elder maintains the tender expression of the Start Frame, with her eyes lowered toward screen RIGHT and quiet natural breathing. 3.0–3.25s: her shoulders settle after a restrained exhale. 3.25–4.3s: her eyes shift a few degrees farther right toward the dark stone, her head barely following; her free hand remains lowered. 4.3–5.0s: hold. The edit uses source seconds 3.0–4.54. Camera: locked 75mm close-up. Silver hair and feather tips stir gently. @Image1 preserves the existing elder’s exact age, face and tattoos. Staff remains in her right hand, eyes normal, stone dark. No renewed anger, smile, touching stone, new people, morph, cut or text. Lighting continuity: the warm window glow at the far screen-left background is completely steady and unchanging for the entire shot. Treat it as a constant diffuse light, not an animated flame. Lock window brightness, shape, color and spill on surrounding surfaces. Lock exposure, white balance, face illumination and shadows. No light flickering, pulsing, flashing, candle or fire animation, brightness breathing, moving light patches or automatic exposure changes."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 7,
+      "source": "reference",
+      "referenceKeys": [
+        "take:ze20-03a-gniew-przechodzi-w-troske/take-1"
+      ],
+      "references": [
+        {
+          "sourceKey": "take:ze20-03a-gniew-przechodzi-w-troske/take-1",
+          "key": "take:zlote-emoji-20/ze20-03a-gniew-przechodzi-w-troske/take-1",
+          "type": "take",
+          "id": "ze20-03a-gniew-przechodzi-w-troske/take-1",
+          "name": "Szamanka - gniew przechodzi w troske / take-1",
+          "relationship": "visible-state-from-take",
+          "shotKey": "shot:zlote-emoji-20/ze20-03a-gniew-przechodzi-w-troske",
+          "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-03a-gniew-przechodzi-w-troske.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": {
+        "sourceKey": "take:ze20-03a-gniew-przechodzi-w-troske/take-1",
+        "key": "take:zlote-emoji-20/ze20-03a-gniew-przechodzi-w-troske/take-1",
+        "type": "take",
+        "id": "ze20-03a-gniew-przechodzi-w-troske/take-1",
+        "name": "Szamanka - gniew przechodzi w troske / take-1",
+        "relationship": "visible-state-from-take",
+        "shotKey": "shot:zlote-emoji-20/ze20-03a-gniew-przechodzi-w-troske",
+        "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-03a-gniew-przechodzi-w-troske.json",
+        "exists": true
+      },
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-12T06:49:40.532523+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:szamanka-rodu-diaxi",
+            "shot:ze20-01-rozmowa-nad-wodospadem"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:szamanka-rodu-diaxi",
+              "key": "character:szamanka-rodu-diaxi",
+              "type": "character",
+              "id": "szamanka-rodu-diaxi",
+              "name": "Szamanka rodu DIAXI — matka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/szamanka-rodu-diaxi.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ze20-01-rozmowa-nad-wodospadem",
+              "key": "shot:zlote-emoji-20/ze20-01-rozmowa-nad-wodospadem",
+              "type": "shot",
+              "id": "ze20-01-rozmowa-nad-wodospadem",
+              "name": "Rozmowa nad wodospadem",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-01-rozmowa-nad-wodospadem.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-11-12T09:54:25.332752+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:szamanka-rodu-diaxi",
+            "shot:ze20-05-dotyk-kamienia",
+            "shot:ze20-01-rozmowa-nad-wodospadem"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:szamanka-rodu-diaxi",
+              "key": "character:szamanka-rodu-diaxi",
+              "type": "character",
+              "id": "szamanka-rodu-diaxi",
+              "name": "Szamanka rodu DIAXI — matka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/szamanka-rodu-diaxi.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ze20-05-dotyk-kamienia",
+              "key": "shot:zlote-emoji-20/ze20-05-dotyk-kamienia",
+              "type": "shot",
+              "id": "ze20-05-dotyk-kamienia",
+              "name": "Dotyk kamienia i rozbłysk Vegvísiru",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-05-dotyk-kamienia.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ze20-01-rozmowa-nad-wodospadem",
+              "key": "shot:zlote-emoji-20/ze20-01-rozmowa-nad-wodospadem",
+              "type": "shot",
+              "id": "ze20-01-rozmowa-nad-wodospadem",
+              "name": "Rozmowa nad wodospadem",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-01-rozmowa-nad-wodospadem.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 3,
+          "createdAt": "2026-11-12T18:33:17.175693+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze20-03-reakcja-szamanki",
+            "character:szamanka-rodu-diaxi"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze20-03-reakcja-szamanki",
+              "key": "shot:zlote-emoji-20/ze20-03-reakcja-szamanki",
+              "type": "shot",
+              "id": "ze20-03-reakcja-szamanki",
+              "name": "Szamanka — młode serce, troska pod surowością",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-03-reakcja-szamanki.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:szamanka-rodu-diaxi",
+              "key": "character:szamanka-rodu-diaxi",
+              "type": "character",
+              "id": "szamanka-rodu-diaxi",
+              "name": "Szamanka rodu DIAXI — matka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/szamanka-rodu-diaxi.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 4,
+          "createdAt": "2026-11-12T23:54:15.335204+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze20-03-reakcja-szamanki",
+            "character:szamanka-rodu-diaxi"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze20-03-reakcja-szamanki",
+              "key": "shot:zlote-emoji-20/ze20-03-reakcja-szamanki",
+              "type": "shot",
+              "id": "ze20-03-reakcja-szamanki",
+              "name": "Szamanka — młode serce, troska pod surowością",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-03-reakcja-szamanki.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:szamanka-rodu-diaxi",
+              "key": "character:szamanka-rodu-diaxi",
+              "type": "character",
+              "id": "szamanka-rodu-diaxi",
+              "name": "Szamanka rodu DIAXI — matka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/szamanka-rodu-diaxi.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 5,
+          "createdAt": "2026-11-13T12:13:40.467868+00:00",
+          "source": "reference",
+          "referenceKeys": [
+            "take:ze20-03a-gniew-przechodzi-w-troske/take-1"
+          ],
+          "references": [
+            {
+              "sourceKey": "take:ze20-03a-gniew-przechodzi-w-troske/take-1",
+              "key": "take:zlote-emoji-20/ze20-03a-gniew-przechodzi-w-troske/take-1",
+              "type": "take",
+              "id": "ze20-03a-gniew-przechodzi-w-troske/take-1",
+              "name": "Szamanka - gniew przechodzi w troske / take-1",
+              "relationship": "visible-state-from-take",
+              "shotKey": "shot:zlote-emoji-20/ze20-03a-gniew-przechodzi-w-troske",
+              "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-03a-gniew-przechodzi-w-troske.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": {
+            "sourceKey": "take:ze20-03a-gniew-przechodzi-w-troske/take-1",
+            "key": "take:zlote-emoji-20/ze20-03a-gniew-przechodzi-w-troske/take-1",
+            "type": "take",
+            "id": "ze20-03a-gniew-przechodzi-w-troske/take-1",
+            "name": "Szamanka - gniew przechodzi w troske / take-1",
+            "relationship": "visible-state-from-take",
+            "shotKey": "shot:zlote-emoji-20/ze20-03a-gniew-przechodzi-w-troske",
+            "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-03a-gniew-przechodzi-w-troske.json",
+            "exists": true
+          }
+        },
+        {
+          "revision": 6,
+          "createdAt": "2026-11-13T12:40:59.773047+00:00",
+          "source": "reference",
+          "referenceKeys": [
+            "shot:ze20-03a-gniew-przechodzi-w-troske"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze20-03a-gniew-przechodzi-w-troske",
+              "key": "shot:zlote-emoji-20/ze20-03a-gniew-przechodzi-w-troske",
+              "type": "shot",
+              "id": "ze20-03a-gniew-przechodzi-w-troske",
+              "name": "Szamanka - gniew przechodzi w troske",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-03a-gniew-przechodzi-w-troske.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": {
+            "sourceKey": "shot:ze20-03a-gniew-przechodzi-w-troske",
+            "key": "shot:zlote-emoji-20/ze20-03a-gniew-przechodzi-w-troske",
+            "type": "shot",
+            "id": "ze20-03a-gniew-przechodzi-w-troske",
+            "name": "Szamanka - gniew przechodzi w troske",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-03a-gniew-przechodzi-w-troske.json",
+            "exists": true
+          }
+        },
+        {
+          "revision": 7,
+          "createdAt": "2026-11-13T12:52:19.38413+00:00",
+          "source": "reference",
+          "referenceKeys": [
+            "take:ze20-03a-gniew-przechodzi-w-troske/take-1"
+          ],
+          "references": [
+            {
+              "sourceKey": "take:ze20-03a-gniew-przechodzi-w-troske/take-1",
+              "key": "take:zlote-emoji-20/ze20-03a-gniew-przechodzi-w-troske/take-1",
+              "type": "take",
+              "id": "ze20-03a-gniew-przechodzi-w-troske/take-1",
+              "name": "Szamanka - gniew przechodzi w troske / take-1",
+              "relationship": "visible-state-from-take",
+              "shotKey": "shot:zlote-emoji-20/ze20-03a-gniew-przechodzi-w-troske",
+              "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-03a-gniew-przechodzi-w-troske.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": {
+            "sourceKey": "take:ze20-03a-gniew-przechodzi-w-troske/take-1",
+            "key": "take:zlote-emoji-20/ze20-03a-gniew-przechodzi-w-troske/take-1",
+            "type": "take",
+            "id": "ze20-03a-gniew-przechodzi-w-troske/take-1",
+            "name": "Szamanka - gniew przechodzi w troske / take-1",
+            "relationship": "visible-state-from-take",
+            "shotKey": "shot:zlote-emoji-20/ze20-03a-gniew-przechodzi-w-troske",
+            "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-03a-gniew-przechodzi-w-troske.json",
+            "exists": true
+          }
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-03-reakcja-szamanki/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-03-reakcja-szamanki/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "role": "frame-end",
+      "revision": 1,
+      "source": "reference",
+      "referenceKeys": [
+        "shot:ze20-03-reakcja-szamanki"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze20-03-reakcja-szamanki",
+          "key": "shot:zlote-emoji-20/ze20-03-reakcja-szamanki",
+          "type": "shot",
+          "id": "ze20-03-reakcja-szamanki",
+          "name": "Szamanka — młode serce, troska pod surowością",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-03-reakcja-szamanki.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": {
+        "sourceKey": "shot:ze20-03-reakcja-szamanki",
+        "key": "shot:zlote-emoji-20/ze20-03-reakcja-szamanki",
+        "type": "shot",
+        "id": "ze20-03-reakcja-szamanki",
+        "name": "Szamanka — młode serce, troska pod surowością",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-03-reakcja-szamanki.json",
+        "exists": true
+      },
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-13T12:40:59.773047+00:00",
+          "source": "reference",
+          "referenceKeys": [
+            "shot:ze20-03-reakcja-szamanki"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze20-03-reakcja-szamanki",
+              "key": "shot:zlote-emoji-20/ze20-03-reakcja-szamanki",
+              "type": "shot",
+              "id": "ze20-03-reakcja-szamanki",
+              "name": "Szamanka — młode serce, troska pod surowością",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-03-reakcja-szamanki.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": {
+            "sourceKey": "shot:ze20-03-reakcja-szamanki",
+            "key": "shot:zlote-emoji-20/ze20-03-reakcja-szamanki",
+            "type": "shot",
+            "id": "ze20-03-reakcja-szamanki",
+            "name": "Szamanka — młode serce, troska pod surowością",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-03-reakcja-szamanki.json",
+            "exists": true
+          }
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-03-reakcja-szamanki/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-03-reakcja-szamanki/frame-end-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

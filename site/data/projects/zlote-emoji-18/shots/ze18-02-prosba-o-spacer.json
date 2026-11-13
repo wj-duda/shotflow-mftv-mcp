@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-18/ze18-02-prosba-o-spacer",
+  "id": "ze18-02-prosba-o-spacer",
+  "title": "I — Prośba i zdziwienie",
+  "description": "Zbliżenie Czesława, 70 mm, na tej samej stronie osi co 01. Twarz w lewej trzeciej, spojrzenie w prawo; miękki fragment włosów Olivii na prawym skraju. Początek: słucha jej prośby o spacer do lasu. Akcja: zdziwienie przechodzi w zgodę. Bez ustalonego tekstu dialogu. Cięcie na decyzji.\nTAKE — AUDYT: widoczne 92 klatek (3.833 s) przy 24 fps; zakres źródła 0.000–3.833 s; generacja 4 s. Natywne audio wyłączone w planie; montaż pozostaje bez zmian.",
+  "project": {
+    "id": "zlote-emoji-18",
+    "key": "project:zlote-emoji-18",
+    "name": "Złote Emoji #18",
+    "createdAt": "2026-11-09T15:18:48.889Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-18",
+    "projectCreatedAt": "2026-11-09T15:18:48.889Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 4,
+    "lastSequence": 4,
+    "occurrences": [
+      4
+    ],
+    "sequenceTotal": 18,
+    "uniqueShotCount": 18,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "ze18-01-pelnia-po-koncercie"
+    },
+    {
+      "type": "character",
+      "id": "czeslaw-mlody"
+    },
+    {
+      "type": "character",
+      "id": "olivia-dela-ossa"
+    },
+    {
+      "type": "place",
+      "id": "lublin-muszla-ogrod-saski-1985"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:ze18-01-pelnia-po-koncercie",
+        "key": "shot:zlote-emoji-18/ze18-01-pelnia-po-koncercie",
+        "type": "shot",
+        "id": "ze18-01-pelnia-po-koncercie",
+        "name": "Pełnia po koncercie",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-01-pelnia-po-koncercie.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:czeslaw-mlody",
+        "key": "character:czeslaw-mlody",
+        "type": "character",
+        "id": "czeslaw-mlody",
+        "name": "Czesław — 1985",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw-mlody.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:olivia-dela-ossa",
+        "key": "character:olivia-dela-ossa",
+        "type": "character",
+        "id": "olivia-dela-ossa",
+        "name": "Olivia Dela Ossa",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/olivia-dela-ossa.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:lublin-muszla-ogrod-saski-1985",
+        "key": "place:lublin-muszla-ogrod-saski-1985",
+        "type": "place",
+        "id": "lublin-muszla-ogrod-saski-1985",
+        "name": "Lublin — muszla Ogrodu Saskiego, 1985",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lublin-muszla-ogrod-saski-1985.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:ze18-01-pelnia-po-koncercie",
+          "character:czeslaw-mlody"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze18-01-pelnia-po-koncercie",
+            "key": "shot:zlote-emoji-18/ze18-01-pelnia-po-koncercie",
+            "type": "shot",
+            "id": "ze18-01-pelnia-po-koncercie",
+            "name": "Pełnia po koncercie",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-01-pelnia-po-koncercie.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:czeslaw-mlody",
+            "key": "character:czeslaw-mlody",
+            "type": "character",
+            "id": "czeslaw-mlody",
+            "name": "Czesław — 1985",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw-mlody.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Create a single photorealistic widescreen16:9 cinematic reverse-angle close-up for the scene in reference1. Reference1 is the exact scene continuity: Lublin1985 after concert, dusk, two adults, plum blazer and cream patterned shirt man left, woman right in carmine blouse. Reference2 locks the man's exact facial identity: Czeslaw age25, curly dark hair long nose thick eyebrows, natural skin, no glasses. Camera stays on same side of conversation axis, 70mm lens eye level, close head-and-shoulders portrait of Czeslaw in left third, turned three-quarter towards screen RIGHT. He listens to Olivia asking for forest walk, mild puzzled curiosity, one eyebrow subtly raised, lips relaxed not exaggerated comedy. Only blurred sliver of Olivia's black hair and red shoulder at extreme RIGHT foreground; she is slightly taller than him. Beautiful selective focus on his eyes, generous looking room right, warm blurred tungsten stage light and curved shell in left background, cool blue dusk fill. Keep exact clothes, age and identity, texture and lighting consistent with reference1. Hands and paper below frame, no extra people, no text, no collage, no watermark.",
+    "endFrameDescription": "",
+    "animation": "@Image1 identifies the existing man; exact face, curls and age. 0.0–1.2s: Czeslaw raises one eyebrow slightly while looking toward Olivia offscreen right. 1.2–2.8s: his expression softens and he gives one small accepting nod, ending with a restrained smile. 2.8–4.0s: hold his rightward gaze naturally. Camera: locked-off close-up. Secondary: one blink and relaxed breathing. Continuity: preserve his face, plum jacket, patterned shirt, chain and the blurred red shoulder at the right edge. Avoid: no speaking, exaggerated comedy, repeated nodding, new people, face morphing or cuts."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze18-01-pelnia-po-koncercie",
+        "character:czeslaw-mlody"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze18-01-pelnia-po-koncercie",
+          "key": "shot:zlote-emoji-18/ze18-01-pelnia-po-koncercie",
+          "type": "shot",
+          "id": "ze18-01-pelnia-po-koncercie",
+          "name": "Pełnia po koncercie",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-01-pelnia-po-koncercie.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:czeslaw-mlody",
+          "key": "character:czeslaw-mlody",
+          "type": "character",
+          "id": "czeslaw-mlody",
+          "name": "Czesław — 1985",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw-mlody.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-09T15:39:48.163259+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze18-01-pelnia-po-koncercie",
+            "character:czeslaw-mlody"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze18-01-pelnia-po-koncercie",
+              "key": "shot:zlote-emoji-18/ze18-01-pelnia-po-koncercie",
+              "type": "shot",
+              "id": "ze18-01-pelnia-po-koncercie",
+              "name": "Pełnia po koncercie",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-01-pelnia-po-koncercie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:czeslaw-mlody",
+              "key": "character:czeslaw-mlody",
+              "type": "character",
+              "id": "czeslaw-mlody",
+              "name": "Czesław — 1985",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw-mlody.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-18/shots/ze18-02-prosba-o-spacer/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-18/shots/ze18-02-prosba-o-spacer/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

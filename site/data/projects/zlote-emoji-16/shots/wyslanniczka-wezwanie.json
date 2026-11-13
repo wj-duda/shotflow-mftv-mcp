@@ -1,0 +1,289 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-16/wyslanniczka-wezwanie",
+  "id": "wyslanniczka-wezwanie",
+  "title": "04 — Dyskretne wezwanie",
+  "description": "SCENOPIS v005; 17–21 s.\n\nPlan amerykański: koleżanka wchodzi z lewego brzegu na początek pomostu, z wyraźnym pośpiechem zatrzymuje się i nawiązuje kontakt wzrokowy z Halinką. Przypinka na bluzce widoczna. To wejście następuje PO wykonaniu zdjęcia i PRZED alarmem zakonu.\n\nGRA: Wyraźne zaniepokojenie alarmem: ściągnięte brwi, napięte lekko rozchylone usta od szybkiego kroku, pilne spojrzenie ku Halince. Krótkie naglące skinienie, nie spokojne zaproszenie. Bez teatralnej paniki i bez mowy.\n\nDŹWIĘK — PLAN: Jeden krok na desce. Nie woła imienia i nie porusza ustami.\n\nStatyczna klatka; brak wygenerowanej animacji.",
+  "project": {
+    "id": "zlote-emoji-16",
+    "key": "project:zlote-emoji-16",
+    "name": "Złote Emoji #16",
+    "createdAt": "2026-11-06T18:54:57.286Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-16",
+    "projectCreatedAt": "2026-11-06T18:54:57.286Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 8,
+    "lastSequence": 8,
+    "occurrences": [
+      8
+    ],
+    "sequenceTotal": 16,
+    "uniqueShotCount": 16,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "wyslanniczka-zakonu"
+    },
+    {
+      "type": "shot",
+      "id": "seed"
+    },
+    {
+      "type": "prop",
+      "id": "przypinka-halinki"
+    },
+    {
+      "type": "shot",
+      "id": "wyslanniczka-wezwanie"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:wyslanniczka-zakonu",
+        "key": "character:wyslanniczka-zakonu",
+        "type": "character",
+        "id": "wyslanniczka-zakonu",
+        "name": "Wysłanniczka Zakonu Jutrzenki",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/wyslanniczka-zakonu.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:seed",
+        "key": "shot:zlote-emoji-16/seed",
+        "type": "shot",
+        "id": "seed",
+        "name": "01 — Letnie spotkanie",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/seed.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:przypinka-halinki",
+        "key": "prop:przypinka-halinki",
+        "type": "prop",
+        "id": "przypinka-halinki",
+        "name": "Przypinka Halinki — wschodzące słońce / Zakon Jutrzenki",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/przypinka-halinki.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:wyslanniczka-wezwanie",
+        "key": "shot:zlote-emoji-16/wyslanniczka-wezwanie",
+        "type": "shot",
+        "id": "wyslanniczka-wezwanie",
+        "name": "04 — Dyskretne wezwanie",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/wyslanniczka-wezwanie.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 3,
+        "referenceKeys": [
+          "shot:wyslanniczka-wezwanie",
+          "character:wyslanniczka-zakonu"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:wyslanniczka-wezwanie",
+            "key": "shot:zlote-emoji-16/wyslanniczka-wezwanie",
+            "type": "shot",
+            "id": "wyslanniczka-wezwanie",
+            "name": "04 — Dyskretne wezwanie",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/wyslanniczka-wezwanie.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:wyslanniczka-zakonu",
+            "key": "character:wyslanniczka-zakonu",
+            "type": "character",
+            "id": "wyslanniczka-zakonu",
+            "name": "Wysłanniczka Zakonu Jutrzenki",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/wyslanniczka-zakonu.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Precise acting correction of image1, same woman face locked by image2. Landscape16:9. Preserve location composition wardrobe pin bag lighting and identity exactly. She has arrived with urgent worrying news: make her VISIBLY CONCERNED, knitted inner eyebrows, slightly raised inner brow, tense lips parted a few millimeters for breath but not speaking, alert worried gaze sharply toward SCREEN RIGHT at Halinka offscreen. Not angry, not villainous, not calm neutral. Add slight forward lean from brisk arrival, right hand grips bag strap a little tighter, shoulders slightly tense, left hand subtly lifting near hip ready to beckon. Restrained believable alarm, no theatrical open mouth or bulging eyes. Same blouse navy skirt and tiny gold pin. No additional person, no glow, no text. Her concern must be legible even in medium-full framing. Everything else unchanged.",
+    "endFrameDescription": "",
+    "animation": "0.0–0.65s: the already worried woman finishes one brisk short step toward screen right onto the pier and stops. 0.65–1.5s: she fixes an urgent gaze on Halinka offscreen right, draws her brows together and tightens her hand around the bag strap; her lips close without forming words. 1.5–3.0s: she holds the concerned look, breathing lightly after her arrival. Camera: locked. Secondary motion: skirt and bag settle after the step. Preserve identity, cream blouse, navy skirt, shoulder bag, pin and foot contact. No anger, smile, running, additional people or altered pier geometry."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 3,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:wyslanniczka-wezwanie",
+        "character:wyslanniczka-zakonu"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:wyslanniczka-wezwanie",
+          "key": "shot:zlote-emoji-16/wyslanniczka-wezwanie",
+          "type": "shot",
+          "id": "wyslanniczka-wezwanie",
+          "name": "04 — Dyskretne wezwanie",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/wyslanniczka-wezwanie.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:wyslanniczka-zakonu",
+          "key": "character:wyslanniczka-zakonu",
+          "type": "character",
+          "id": "wyslanniczka-zakonu",
+          "name": "Wysłanniczka Zakonu Jutrzenki",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/wyslanniczka-zakonu.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-06T19:09:19.782404+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:seed",
+            "character:wyslanniczka-zakonu"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:seed",
+              "key": "shot:zlote-emoji-16/seed",
+              "type": "shot",
+              "id": "seed",
+              "name": "01 — Letnie spotkanie",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/seed.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:wyslanniczka-zakonu",
+              "key": "character:wyslanniczka-zakonu",
+              "type": "character",
+              "id": "wyslanniczka-zakonu",
+              "name": "Wysłanniczka Zakonu Jutrzenki",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/wyslanniczka-zakonu.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-11-06T23:35:59.646935+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:seed",
+            "character:wyslanniczka-zakonu",
+            "prop:przypinka-halinki"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:seed",
+              "key": "shot:zlote-emoji-16/seed",
+              "type": "shot",
+              "id": "seed",
+              "name": "01 — Letnie spotkanie",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/seed.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:wyslanniczka-zakonu",
+              "key": "character:wyslanniczka-zakonu",
+              "type": "character",
+              "id": "wyslanniczka-zakonu",
+              "name": "Wysłanniczka Zakonu Jutrzenki",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/wyslanniczka-zakonu.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:przypinka-halinki",
+              "key": "prop:przypinka-halinki",
+              "type": "prop",
+              "id": "przypinka-halinki",
+              "name": "Przypinka Halinki — wschodzące słońce / Zakon Jutrzenki",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/przypinka-halinki.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 3,
+          "createdAt": "2026-11-06T23:37:18.199255+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:wyslanniczka-wezwanie",
+            "character:wyslanniczka-zakonu"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:wyslanniczka-wezwanie",
+              "key": "shot:zlote-emoji-16/wyslanniczka-wezwanie",
+              "type": "shot",
+              "id": "wyslanniczka-wezwanie",
+              "name": "04 — Dyskretne wezwanie",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/wyslanniczka-wezwanie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:wyslanniczka-zakonu",
+              "key": "character:wyslanniczka-zakonu",
+              "type": "character",
+              "id": "wyslanniczka-zakonu",
+              "name": "Wysłanniczka Zakonu Jutrzenki",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/wyslanniczka-zakonu.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-16/shots/wyslanniczka-wezwanie/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-16/shots/wyslanniczka-wezwanie/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

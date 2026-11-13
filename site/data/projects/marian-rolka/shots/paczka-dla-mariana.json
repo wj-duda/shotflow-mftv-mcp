@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:marian-rolka/paczka-dla-mariana",
+  "id": "paczka-dla-mariana",
+  "title": "Mała przysługa",
+  "description": "Na ławce Marian przyjmuje paczkę od dłoni widza z lewego brzegu kadru. Kartki leżą bezpiecznie po jego prawej stronie. Wyprostowuje plecy i zerka z wdzięcznością.\nKAMERA: 50 mm, plan średni, światło lampy z prawej, paczka w centrum; bez obcej pełnej postaci.\nPLAN KLATEK: START: paczka trzymana przez podającego; END: Marian obejmuje paczkę.\nNAPIS MONTAŻOWY: Mały gest. Konkretna przysługa.\nMONTAŻ v003: 12.0–14.0 s. NARRACJA MARIANA: Przysługa za przysługę.. Aktualne napisy: _system/napisy-v003.srt; zastępują wcześniejsze wskazówki napisów.",
+  "project": {
+    "id": "marian-rolka",
+    "key": "project:marian-rolka",
+    "name": "MarianRolka",
+    "createdAt": "2026-10-30T11:23:31.351Z"
+  },
+  "chronology": {
+    "projectKey": "project:marian-rolka",
+    "projectCreatedAt": "2026-10-30T11:23:31.351Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 7,
+    "lastSequence": 7,
+    "occurrences": [
+      7
+    ],
+    "sequenceTotal": 16,
+    "uniqueShotCount": 16,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "seed"
+    },
+    {
+      "type": "place",
+      "id": "lawka-mariana"
+    },
+    {
+      "type": "prop",
+      "id": "paczka-dla-mariana"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:seed",
+        "key": "shot:marian-rolka/seed",
+        "type": "shot",
+        "id": "seed",
+        "name": "Wyślij Mariana",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/marian-rolka/shots/seed.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:lawka-mariana",
+        "key": "place:lawka-mariana",
+        "type": "place",
+        "id": "lawka-mariana",
+        "name": "Ławka Mariana — park osiedlowy",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lawka-mariana.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:paczka-dla-mariana",
+        "key": "prop:paczka-dla-mariana",
+        "type": "prop",
+        "id": "paczka-dla-mariana",
+        "name": "Paczka dla Mariana",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/paczka-dla-mariana.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:seed",
+          "place:lawka-mariana",
+          "prop:paczka-dla-mariana"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:seed",
+            "key": "shot:marian-rolka/seed",
+            "type": "shot",
+            "id": "seed",
+            "name": "Wyślij Mariana",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/marian-rolka/shots/seed.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "place:lawka-mariana",
+            "key": "place:lawka-mariana",
+            "type": "place",
+            "id": "lawka-mariana",
+            "name": "Ławka Mariana — park osiedlowy",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lawka-mariana.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:paczka-dla-mariana",
+            "key": "prop:paczka-dla-mariana",
+            "type": "prop",
+            "id": "paczka-dla-mariana",
+            "name": "Paczka dla Mariana",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/paczka-dla-mariana.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Photorealistic cinematic 9:16 vertical START FRAME 1080x1920 composition for the next scene of the same Polish promotional reel. Reference 1 previous hook frame fixes exact Marian identity, clothing, evening light and park. Reference 2 empty bench establishes full spatial layout. Reference 3 exact aid parcel. Change camera to a medium shot at seated chest height from a slight left three-quarter angle, 50mm. Marian sits on left half of the old wooden bench, body visible from knees upward. Keep his weathered long face, blue-gray eyes, mole on right cheek, red long nose, thin gray moustache, knit cap, brown jacket, navy track top and checked scarf exactly as reference. On the right half of the bench beside him rests his small off-white paper bundle with its single black-and-silver binder clip, protected from dirt. A single anonymous visitor's forearm enters from lower left, wearing a plain dark sleeve, hand SUPPORTING THE BOTTOM of the kraft grocery bag and offering it to Marian at waist level. Marian's own two hands just approach the bag from either side, not merged with visitor's hand. Three hands total, clear anatomy, five fingers per hand; no full second person. Bag exactly as reference: brown paper, pale string and blank tag, modest bread/tin/cloth showing, no bottle. Marian looks at the giver just off left of lens with a tiny grateful smile, beginning to straighten his back, believable dignity and restrained emotion. Warm streetlamp from right, cool evening greenery, wooden bench physically coherent. Leave upper 17 percent quieter for captions. No text, logos, interface or watermark. Natural photographic materials without AI texture patterns.",
+    "endFrameDescription": "",
+    "animation": "0.0–1.2s: Marian closes his two already-positioned hands around the parcel while the visitor's supporting hand releases its underside and withdraws toward the lower-left edge. 1.2–1.8s: Marian settles the parcel onto his lap and gives one small grateful nod toward the visitor. 1.8–3.0s: he holds the parcel securely. Camera: locked off. Secondary motion: the paper bag gently compresses beneath his grip and its tag settles. @Image1 fixes only the identity of seated Marian. Continuity: exactly Marian's two hands and the one departing visitor hand; unchanged parcel contents, wardrobe, clipped papers on the bench and evening light. Avoid new people, merged fingers, duplicate parcels, speech, cuts or morphing."
+  },
+  "media": {
+    "fps": 60,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:seed",
+        "place:lawka-mariana",
+        "prop:paczka-dla-mariana"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:seed",
+          "key": "shot:marian-rolka/seed",
+          "type": "shot",
+          "id": "seed",
+          "name": "Wyślij Mariana",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/marian-rolka/shots/seed.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "place:lawka-mariana",
+          "key": "place:lawka-mariana",
+          "type": "place",
+          "id": "lawka-mariana",
+          "name": "Ławka Mariana — park osiedlowy",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lawka-mariana.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:paczka-dla-mariana",
+          "key": "prop:paczka-dla-mariana",
+          "type": "prop",
+          "id": "paczka-dla-mariana",
+          "name": "Paczka dla Mariana",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/paczka-dla-mariana.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-30T11:27:55.381026+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:seed",
+            "place:lawka-mariana",
+            "prop:paczka-dla-mariana"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:seed",
+              "key": "shot:marian-rolka/seed",
+              "type": "shot",
+              "id": "seed",
+              "name": "Wyślij Mariana",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/marian-rolka/shots/seed.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:lawka-mariana",
+              "key": "place:lawka-mariana",
+              "type": "place",
+              "id": "lawka-mariana",
+              "name": "Ławka Mariana — park osiedlowy",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lawka-mariana.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:paczka-dla-mariana",
+              "key": "prop:paczka-dla-mariana",
+              "type": "prop",
+              "id": "paczka-dla-mariana",
+              "name": "Paczka dla Mariana",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/paczka-dla-mariana.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/marian-rolka/shots/paczka-dla-mariana/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/marian-rolka/shots/paczka-dla-mariana/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

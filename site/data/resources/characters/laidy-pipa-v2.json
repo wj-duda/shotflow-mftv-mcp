@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-29T11:52:39.792Z",
+  "generatedAt": "2026-11-13T15:07:31.302Z",
   "worldId": "aimftv",
   "kind": "resource",
   "key": "character:laidy-pipa-v2",
   "type": "characters",
   "id": "laidy-pipa-v2",
   "name": "LAIdy Pipa v2",
-  "description": "CHARACTER [age=25-34; presentation=feminine; height=tall; build=athletic; body=hourglass; chest=medium; skin=light; face=oval; eyes=blue-gray; hair-color=purple; hair-length=very-long; hair-texture=braided]\r\n\r\nLAIdy Pipa v2 — wariant postaci przygotowany dla Złotego Emoji Tygodnia #10 na podstawie materiałów źródłowych z klipu. Zachowuje twarz, wiek, proporcje, chłodne niebieskoszare oczy, mocny śliwkowo-czarny makijaż, precyzyjną czerwoną szminkę oraz spokojną, dumną i dominującą obecność wcześniejszej LAIdy Pipy.\r\n\r\nKanoniczna fryzura tej wersji to bardzo długie, intensywnie fioletowe boxer braids: dwa grube warkocze prowadzone od ciasno zaplecionego czubka głowy oraz dwa cienkie pasma kadrujące twarz. Kanoniczny strój to czarny gotycko-klubowy kostium sceniczny: zabudowany dopasowany top ze skóry, konstrukcyjny gorset w talii z metalowymi haftkami i ćwiekami, siateczkowe rękawy, nabijane opaski na ramionach i karwasze, szeroki nabijany choker oraz mały srebrny wisiorek w kształcie serca. Dolna część stroju składa się z czarnych skórzanych szortów o wysokim stanie, kryjących czarnych rajstop oraz ciężkich, sznurowanych kozaków do kolan na niskim stabilnym obcasie. To współczesny sceniczny outfit muzyczno-klubowy, nie nordycka zbroja ani kostium fantasy. Postawa neutralna i pewna siebie; groźna bez agresywnej pozy i bez podnoszenia głosu.",
+  "description": "CHARACTER [age=30-31; presentation=feminine; height=tall; build=athletic; body=hourglass; chest=medium; skin=light; face=oval; eyes=blue-gray; hair-color=purple; hair-length=very-long; hair-texture=braided]\r\n\r\nLAIdy Pipa v2 — wariant postaci przygotowany dla Złotego Emoji Tygodnia #10 na podstawie materiałów źródłowych z klipu. Zachowuje twarz, wiek, proporcje, chłodne niebieskoszare oczy, mocny śliwkowo-czarny makijaż, precyzyjną czerwoną szminkę oraz spokojną, dumną i dominującą obecność wcześniejszej LAIdy Pipy.\r\n\r\nKanoniczna fryzura tej wersji to bardzo długie, intensywnie fioletowe boxer braids: dwa grube warkocze prowadzone od ciasno zaplecionego czubka głowy oraz dwa cienkie pasma kadrujące twarz. Kanoniczny strój to czarny gotycko-klubowy kostium sceniczny: zabudowany dopasowany top ze skóry, konstrukcyjny gorset w talii z metalowymi haftkami i ćwiekami, siateczkowe rękawy, nabijane opaski na ramionach i karwasze, szeroki nabijany choker oraz mały srebrny wisiorek w kształcie serca. Dolna część stroju składa się z czarnych skórzanych szortów o wysokim stanie, kryjących czarnych rajstop oraz ciężkich, sznurowanych kozaków do kolan na niskim stabilnym obcasie. To współczesny sceniczny outfit muzyczno-klubowy, nie nordycka zbroja ani kostium fantasy. Postawa neutralna i pewna siebie; groźna bez agresywnej pozy i bez podnoszenia głosu.\n\nCHRONOLOGIA — UZUPEŁNIENIE NA POLECENIE AUTORA 2026-11-06: Rok urodzenia postaci w AIMFTV: 1995. Dzień i miesiąc urodzenia pozostają nieustalone. W 2026 kończy 31 lat; przed urodzinami ma 30. Zakres wieku w nagłówku odnosi się do 2026 roku. Rocznik dobrano redakcyjnie do istniejącego bio i wspólnej chronologii; dotyczy fikcyjnej postaci, nie danych osobowych twórcy lub osoby z referencji.",
   "images": [
     {
       "id": "image-001",
@@ -28,5 +28,5 @@
       "contentType": "image/webp"
     }
   ],
-  "updatedAt": "2026-08-23T00:41:31+02:00"
+  "updatedAt": "2026-11-06T20:32:24.300Z"
 }

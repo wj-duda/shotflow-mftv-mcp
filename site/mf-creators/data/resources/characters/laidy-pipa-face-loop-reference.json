@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T15:08:29.779Z",
+  "worldId": "mf-creators",
+  "kind": "resource",
+  "key": "character:laidy-pipa-face-loop-reference",
+  "type": "characters",
+  "id": "laidy-pipa-face-loop-reference",
+  "name": "LAIdy Pipa — face-only loop reference",
+  "description": "Technical face-only reference variant of existing adult character laidy-pipa. Same person, not a new character. Deterministic crops of canonical portrait and silhouette; no newly generated facial features. Used only for idle-creators loops. Role silhouette is required by the Element resolver but contains only an alternate head crop, NOT a full body.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "portrait",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/laidy-pipa-face-loop-reference/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/laidy-pipa-face-loop-reference/image-001-thumb.webp",
+      "width": 640,
+      "height": 640,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-002",
+      "role": "silhouette",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/laidy-pipa-face-loop-reference/image-002.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/laidy-pipa-face-loop-reference/image-002-thumb.webp",
+      "width": 640,
+      "height": 640,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-10-06T02:55:23.616Z"
+}

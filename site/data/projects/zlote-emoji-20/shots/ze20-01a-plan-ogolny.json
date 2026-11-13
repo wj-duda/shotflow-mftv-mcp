@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-20/ze20-01a-plan-ogolny",
+  "id": "ze20-01a-plan-ogolny",
+  "title": "Rozmowa — plan otwierający",
+  "description": "Otwarcie rozmowy: 0–2 s, plan obu postaci według Blender F01. Szamanka po lewej, DIAXI po prawej. Następnie cięcie do twarzy szamanki.",
+  "project": {
+    "id": "zlote-emoji-20",
+    "key": "project:zlote-emoji-20",
+    "name": "Złote Emoji #20",
+    "createdAt": "2026-11-12T06:49:40.532Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-20",
+    "projectCreatedAt": "2026-11-12T06:49:40.532Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 1,
+    "lastSequence": 1,
+    "occurrences": [
+      1
+    ],
+    "sequenceTotal": 27,
+    "uniqueShotCount": 27,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "ze20-01-rozmowa-nad-wodospadem"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:ze20-01-rozmowa-nad-wodospadem",
+        "key": "shot:zlote-emoji-20/ze20-01-rozmowa-nad-wodospadem",
+        "type": "shot",
+        "id": "ze20-01-rozmowa-nad-wodospadem",
+        "name": "Rozmowa nad wodospadem",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-01-rozmowa-nad-wodospadem.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:ze20-01-rozmowa-nad-wodospadem"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze20-01-rozmowa-nad-wodospadem",
+            "key": "shot:zlote-emoji-20/ze20-01-rozmowa-nad-wodospadem",
+            "type": "shot",
+            "id": "ze20-01-rozmowa-nad-wodospadem",
+            "name": "Rozmowa nad wodospadem",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-01-rozmowa-nad-wodospadem.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Reuse the approved establishing two-shot unchanged from ze20-01-rozmowa-nad-wodospadem revision 2.",
+    "endFrameDescription": "",
+    "animation": "0.0–1.8s: the elderly woman on screen left holds the younger woman’s gaze with a set jaw; DIAXI on screen right tightens her shoulders slightly. 1.8–3.0s: both hold their positions. Camera: locked eye-level two-shot. Secondary motion: loose hair and feather tips move gently in the breeze. @Image1 preserves DIAXI’s identity and @Image2 the elder’s identity. Preserve original costumes, staff in the same hand, dark carved stone and hut geometry. No glowing eyes at this stage, no new people, cuts, morphing, extra limbs, captions or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze20-01-rozmowa-nad-wodospadem"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze20-01-rozmowa-nad-wodospadem",
+          "key": "shot:zlote-emoji-20/ze20-01-rozmowa-nad-wodospadem",
+          "type": "shot",
+          "id": "ze20-01-rozmowa-nad-wodospadem",
+          "name": "Rozmowa nad wodospadem",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-01-rozmowa-nad-wodospadem.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-12T23:24:07.722357+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze20-01-rozmowa-nad-wodospadem"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze20-01-rozmowa-nad-wodospadem",
+              "key": "shot:zlote-emoji-20/ze20-01-rozmowa-nad-wodospadem",
+              "type": "shot",
+              "id": "ze20-01-rozmowa-nad-wodospadem",
+              "name": "Rozmowa nad wodospadem",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-01-rozmowa-nad-wodospadem.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-01a-plan-ogolny/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-01a-plan-ogolny/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

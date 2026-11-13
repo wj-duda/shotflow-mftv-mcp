@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-19/owczar-witryna",
+  "id": "owczar-witryna",
+  "title": "owczar-witryna",
+  "description": "Locked outside view through window to display counter: old Dawn Order box among retro games; adult face reflected in right third. Hold 2 seconds clean then start credits overlay. Long credits duration separate from 5-second base plate. Lens 50mm. Projekt epilogu Sour Faces; kadr gotowy, poza timeline; bez wygenerowanego take.",
+  "project": {
+    "id": "zlote-emoji-19",
+    "key": "project:zlote-emoji-19",
+    "name": "Złote Emoji #19",
+    "createdAt": "2026-11-10T23:04:15.573Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-19",
+    "projectCreatedAt": "2026-11-10T23:04:15.573Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 17,
+    "lastSequence": 17,
+    "occurrences": [
+      17
+    ],
+    "sequenceTotal": 17,
+    "uniqueShotCount": 17,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "note",
+      "id": "ze19-owczar-dorosly"
+    },
+    {
+      "type": "shot",
+      "id": "owczar-powrot"
+    },
+    {
+      "type": "note",
+      "id": "ze19-dawn-order-art"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "note:ze19-owczar-dorosly",
+        "key": "note:ze19-owczar-dorosly",
+        "type": "note",
+        "id": "ze19-owczar-dorosly",
+        "name": "ZE19 — dorosły Owczar, epilog",
+        "relationship": "story-and-continuity-context",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze19-owczar-dorosly.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:owczar-powrot",
+        "key": "shot:zlote-emoji-19/owczar-powrot",
+        "type": "shot",
+        "id": "owczar-powrot",
+        "name": "owczar-powrot",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-19/shots/owczar-powrot.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "note:ze19-dawn-order-art",
+        "key": "note:ze19-dawn-order-art",
+        "type": "note",
+        "id": "ze19-dawn-order-art",
+        "name": "ZE19 — Dawn Order, grafika pudełka w epilogu",
+        "relationship": "story-and-continuity-context",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze19-dawn-order-art.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "note:ze19-owczar-dorosly",
+          "shot:owczar-powrot",
+          "note:ze19-dawn-order-art"
+        ],
+        "references": [
+          {
+            "sourceKey": "note:ze19-owczar-dorosly",
+            "key": "note:ze19-owczar-dorosly",
+            "type": "note",
+            "id": "ze19-owczar-dorosly",
+            "name": "ZE19 — dorosły Owczar, epilog",
+            "relationship": "story-and-continuity-context",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze19-owczar-dorosly.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:owczar-powrot",
+            "key": "shot:zlote-emoji-19/owczar-powrot",
+            "type": "shot",
+            "id": "owczar-powrot",
+            "name": "owczar-powrot",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-19/shots/owczar-powrot.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "note:ze19-dawn-order-art",
+            "key": "note:ze19-dawn-order-art",
+            "type": "note",
+            "id": "ze19-dawn-order-art",
+            "name": "ZE19 — Dawn Order, grafika pudełka w epilogu",
+            "relationship": "story-and-continuity-context",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze19-dawn-order-art.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Create one photorealistic cinematic 16:9 final film still, outside looking THROUGH an actual shop window at a waist-high wooden display counter. Reference1 is mandatory adult Owczar facial identity and clothing. Reference2 is exact RETRO GRY shop/window/counter, warm interior and cool blue-hour street continuity. Reference3 is the exact DAWN ORDER artwork/logo to print on an old boxed home version of the game. Composition: camera almost square to the window, 50mm lens, close enough the glass and display fill the whole frame, no huge storefront sign. LOWER LEFT third: upright aged large cardboard 1990s videogame box around 25cm tall, facing camera, cover using ref3 gold DAWN ORDER lettering, werewolf left and dark-haired female fighter right, maroon background, slight corner wear, recognizable and legible. Nearby a few believable vintage game boxes and a cream console with controller, grounded on counter, not a floating oversized box, not a miniature arcade. Centre/upper LEFT has quieter dark out-of-focus interior shelves and glass for later film credits, but DO NOT draw any credits. RIGHT third of glass has a physically plausible faint reflection of the adult Owczar standing on pavement, head and upper torso clearly recognizable in correct perspective, softly attentive surprised face, charcoal coat and pale blue shirt. His real body is OUT OF FRAME behind camera offset right; this is a transparent reflection on the FRONT glass, not a man inside the shop, not a ghost and not a pasted opaque portrait. Reflection edges blend in real glass optics, the shelves remain visible through him. His gaze toward Dawn Order lower-left. Subtle street facades and cool sky reflected high in glass; warm shelf practical light behind. A single reflection of man, no duplicated faces. Window dust and fine scratches only subtle. Put his reflection on RIGHT so future credits on LEFT cannot cover it. Keep scene plausible from previous shop, actual final cinematic still, excellent natural materials, restrained nostalgic warm/cool contrast, realistic optical superposition. No captions, no credits, no watermarks. No gloomy horror or neon. The game and reflected recognition are both readable.",
+    "endFrameDescription": "",
+    "animation": "0.0–0.8s: Hold the display and Owczar's existing reflection on SCREEN RIGHT, gaze directed DOWN-LEFT toward Dawn Order. 0.8–1.8s: Only his reflected eyes soften and one corner of his mouth lifts almost imperceptibly. 1.8–3.0s: He settles into a still, thoughtful hold. Camera: rigidly locked; absolutely no pan, push-in, zoom or focus pull. @Image1 fixes the reflected man's facial identity only; do not add his physical body inside the shop. @Image2 fixes Dawn Order print design only, not framing. Preserve Start's reflection placement and transparency. Counter, boxes, console, plant, window frame, lighting and all lettering remain fixed and sharp. Only subtle reflected breathing. No new people, duplicate reflections, glass warping, moving products, text overlays, credits, cuts or fade."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "note:ze19-owczar-dorosly",
+        "shot:owczar-powrot",
+        "note:ze19-dawn-order-art"
+      ],
+      "references": [
+        {
+          "sourceKey": "note:ze19-owczar-dorosly",
+          "key": "note:ze19-owczar-dorosly",
+          "type": "note",
+          "id": "ze19-owczar-dorosly",
+          "name": "ZE19 — dorosły Owczar, epilog",
+          "relationship": "story-and-continuity-context",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze19-owczar-dorosly.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:owczar-powrot",
+          "key": "shot:zlote-emoji-19/owczar-powrot",
+          "type": "shot",
+          "id": "owczar-powrot",
+          "name": "owczar-powrot",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-19/shots/owczar-powrot.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "note:ze19-dawn-order-art",
+          "key": "note:ze19-dawn-order-art",
+          "type": "note",
+          "id": "ze19-dawn-order-art",
+          "name": "ZE19 — Dawn Order, grafika pudełka w epilogu",
+          "relationship": "story-and-continuity-context",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze19-dawn-order-art.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-12T09:27:55.749179+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "note:ze19-owczar-dorosly",
+            "shot:owczar-powrot",
+            "note:ze19-dawn-order-art"
+          ],
+          "references": [
+            {
+              "sourceKey": "note:ze19-owczar-dorosly",
+              "key": "note:ze19-owczar-dorosly",
+              "type": "note",
+              "id": "ze19-owczar-dorosly",
+              "name": "ZE19 — dorosły Owczar, epilog",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze19-owczar-dorosly.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:owczar-powrot",
+              "key": "shot:zlote-emoji-19/owczar-powrot",
+              "type": "shot",
+              "id": "owczar-powrot",
+              "name": "owczar-powrot",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-19/shots/owczar-powrot.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "note:ze19-dawn-order-art",
+              "key": "note:ze19-dawn-order-art",
+              "type": "note",
+              "id": "ze19-dawn-order-art",
+              "name": "ZE19 — Dawn Order, grafika pudełka w epilogu",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze19-dawn-order-art.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-19/shots/owczar-witryna/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-19/shots/owczar-witryna/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

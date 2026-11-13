@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-20/ze20-04-przepasc",
+  "id": "ze20-04-przepasc",
+  "title": "Przepaść pod wodospadem",
+  "description": "Spojrzenie znad krawędzi w dół około stumetrowego wodospadu. Kamera 24 mm według Blender F02; groźna skala bez znaków działania bramy. Widz nadal obawia się o DIAXI. Kadr bez postaci. Czas techniczny 72 klatki do montażu. Aktualny montaż: start 522f, długość 24f (1.000 s), wejście źródła 0f.",
+  "project": {
+    "id": "zlote-emoji-20",
+    "key": "project:zlote-emoji-20",
+    "name": "Złote Emoji #20",
+    "createdAt": "2026-11-12T06:49:40.532Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-20",
+    "projectCreatedAt": "2026-11-12T06:49:40.532Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 9,
+    "lastSequence": 9,
+    "occurrences": [
+      9
+    ],
+    "sequenceTotal": 27,
+    "uniqueShotCount": 27,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "place",
+      "id": "wodospad-brama-diaxi"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "place:wodospad-brama-diaxi",
+        "key": "place:wodospad-brama-diaxi",
+        "type": "place",
+        "id": "wodospad-brama-diaxi",
+        "name": "XIAID — wodospad i kamień bramy",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/wodospad-brama-diaxi.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "place:wodospad-brama-diaxi"
+        ],
+        "references": [
+          {
+            "sourceKey": "place:wodospad-brama-diaxi",
+            "key": "place:wodospad-brama-diaxi",
+            "type": "place",
+            "id": "wodospad-brama-diaxi",
+            "name": "XIAID — wodospad i kamień bramy",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/wodospad-brama-diaxi.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Use case sketch-to-render. One photoreal live-action cinematic 16:9 still, no bars. Image 1 is EXACT CAMERA ORIENTATION and spatial framing, not material: a vertiginous downward view from immediately over the left-bank lip of a 100m waterfall, wide 24mm perspective. Keep the camera high at the crest looking sharply down, close rock wall occupies left half, one waterfall drops diagonally from upper center toward a tiny foaming landing far below, deep pool to right. Image 2 defines the fictional location natural materials and atmosphere: dark weathered gneiss, patches of moss, cool overcast light, northern birch/conifer forest and low spray. Image 3 is actual Manafossen geology reference, use its natural cliff texture, irregular fracture strata and water detail. Replace ALL low-poly mesh, flat water, giant white foam discs and miniature appearance with full-size photographic terrain. The crest rock is near lens, the plunge basin is vastly far below; strong depth and scale, not an aerial drone view of a model. Fierce fine water strands, coherent gravity-driven cascade, mist and naturally irregular foam, river current in deep dark teal pool. Terrain continues beyond edges, forest barely visible at far gorge edge where geography permits. No people, no floating rune effects, no hut in this downward view, no subtitles, logos or watermark. This is the dangerous-looking threshold of a fantasy gateway, the water itself looks completely ordinary. Restrained realistic film grain, high dynamic range but not HDR oversharpening, cold natural palette, serious cinema.",
+    "endFrameDescription": "",
+    "animation": "0.0–1.0s: the waterfall is already pouring DOWN into the distant pool; spray rises from its impact and drifts across the base. 1.0–3.0s: continue the same natural flow. Camera: locked high-angle view over the existing rock edge, no forward flight or roll. @Image1 preserves the exact existing cliff, waterfall and pool geometry. Keep realistic scale, overcast daylight and water depth. The near ledge remains immobile; mist originates only from the falling water. No people, new ledges, rising waterfall, portal light, landscape morphing, cut, fade, text or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "place:wodospad-brama-diaxi"
+      ],
+      "references": [
+        {
+          "sourceKey": "place:wodospad-brama-diaxi",
+          "key": "place:wodospad-brama-diaxi",
+          "type": "place",
+          "id": "wodospad-brama-diaxi",
+          "name": "XIAID — wodospad i kamień bramy",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/wodospad-brama-diaxi.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-12T09:43:42.569195+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "place:wodospad-brama-diaxi"
+          ],
+          "references": [
+            {
+              "sourceKey": "place:wodospad-brama-diaxi",
+              "key": "place:wodospad-brama-diaxi",
+              "type": "place",
+              "id": "wodospad-brama-diaxi",
+              "name": "XIAID — wodospad i kamień bramy",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/wodospad-brama-diaxi.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-04-przepasc/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-04-przepasc/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

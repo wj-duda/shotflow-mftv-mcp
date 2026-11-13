@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "prop:naszyjnik-halinki",
+  "type": "props",
+  "id": "naszyjnik-halinki",
+  "name": "Naszyjnik Halinki — medalion Zakonu Jutrzenki",
+  "description": "OSOBISTY REKWIZYT HALINKI — opracowanie produkcyjne 2026-11-06 na polecenie autora. Wspólny motyw dawnych referencji młodej Halinki oraz współczesnej Halinki, także wariantu gruzowisko. Traktować jako ten sam osobisty naszyjnik zachowany przez lata. Nie wynika z tego data ani sposób jego otrzymania.\n\nGEOMETRIA DO ZBLIŻEŃ: ciepłozłoty okrągły ażurowy wisiorek. Dokładnie osiem prostych, zwężających się promieni łączy mały okrągły środek z obręczą: cztery w kierunkach głównych i cztery po przekątnych. Pomiędzy promieniami otwarte prześwity, bez pełnego dna. Na obwodzie drobny regularny perełkowany rant. Proste uszko zawieszenia na godzinie 12. Bez liter, run, kamieni, otwieranego schowka i dodatkowych zawieszek. Rewers: roboczo ta sama ażurowa konstrukcja z prostszym wykończeniem, bez ukrytego napisu; nie został osobno zobrazowany.\n\nSKALA PROJEKTOWA: średnica zawieszki około 22 mm, grubość około 1,5 mm, delikatny łańcuszek owalnych ogniw długości około 45 cm. To przyjęte wymiary projektowe, nie pomiar z dawnych obrazów. Wisiorek spoczywa pod obojczykami, nie sięga pasa; w szerokich kadrach jest drobnym detalem. Materiał wizualnie złoty, delikatnie satynowany, krawędzie wypolerowane; próba metalu nieustalona. U młodej Halinki niewielkie ślady noszenia, u starszej drobne rysy i wygładzenie, bez zmiany geometrii i liczby promieni. Dodatkowe łańcuszki starszej Halinki nie są częścią tego propsa.\n\nZNACZENIE — KANON ZAKONU JUTRZENKI: Ośmioramienny medalion jest znakiem Zakonu Jutrzenki po reformie i rozłamie. Halinka i Zosia należą do zakonu walczącego z Diablo i jego sługami. Ten props przedstawia osobisty egzemplarz Halinki, zachowany przez lata, nie jeden przedmiot współdzielony ze wszystkimi członkami. Historyczny radomski znak miał siedem ramion i siedem płomieni; obecnej ósemki nie poprawiać na siedem. Zmiana następuje po rozłamie, którego biznesową osłoną w fikcji jest podział z 1928 roku. Dokładnego momentu wprowadzenia nowego znaku nie ustalono.\n\nTAJEMNICA: Przyczyna ósmego ramienia pozostaje niewyjaśniona. Isztar/Inanna i Wenus to trop, nie ujawnione pochodzenie. Nie przypisywać ramionom ośmiu cnót, bram, demonów, stopni ani mocy; nie tłumaczyć ich siedmioma bramami mitu lub chrześcijańskim ósmym dniem. Nie zakładać, że obie gałęzie Jutrzenki i Carmel noszą identyczny znak. Medalion potwierdza przynależność, ale nie ustalono jego działania magicznego, odporności, aktywacji, darczyńcy ani daty otrzymania przez Halinkę. Brak podstaw do dodawania świecenia, run lub ukrytych napisów. Rewers pozostaje prostym opracowaniem produkcyjnym, nie sekretnym kluczem fabularnym.\n\nFUNKCJA FILMOWA: Można zestawić stary dokument z siedmioramienną odznaką i obecny naszyjnik, pozostawiając różnicę bez wyjaśnienia. Przedmiot łączy młodą i współczesną Halinkę oraz ujawnia fragment historii zakonu. Wymiary, łańcuszek i perełkowany rant są rozwinięciem referencji do produkcji, nie osobnymi dogmatami zakonu. Pełny kanon: note:zakon-jutrzenki.\n\nCIĄGŁOŚĆ: jeden wisiorek na jednym delikatnym łańcuszku. W zbliżeniach podawać tę referencję, a nie odtwarzać detalu wyłącznie z małego portretu. Nie mylić z prop:przypinka-halinki, która ma horyzont i pięć promieni nad nim. Prześwity ukazują skórę lub tkaninę. Położenie na lub pod koszulką ustalać dla sceny i zachowywać między ujęciami.\n\nSTATUS: wygenerowana referencja makro rozwija mały detal z historycznego portretu character:halinka-mloda i portretu character:halinka-gruzowisko. Naszyjnik dodano do aktywnej planszy młodej Halinki images/image-008.png. Dawnych klatek filmowych nie przebudowano.\n\nRETUSZ REFERENCJI: image-002.png zastępuje image-001.png jako aktywne makro po korekcie krawędzi i połączeń; symbol i liczba promieni pozostają bez zmian.",
+  "images": [
+    {
+      "id": "image-002",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/naszyjnik-halinki/image-002.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/naszyjnik-halinki/image-002-thumb.webp",
+      "width": 1254,
+      "height": 1254,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-11-06T22:28:46.395104+00:00"
+}

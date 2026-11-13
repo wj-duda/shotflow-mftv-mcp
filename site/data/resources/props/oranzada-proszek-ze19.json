@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "prop:oranzada-proszek-ze19",
+  "type": "props",
+  "id": "oranzada-proszek-ze19",
+  "name": "ZE19 — papierowa saszetka oranżady",
+  "description": "Fikcyjne opakowanie produkcyjne, papier 6 × 9 cm, kremowy z pomarańczowym i zielonym nadrukiem. ORANŻADA / W PROSZKU / SMAK POMARAŃCZOWY. Chłopcy kupują dokładnie dwie saszetki i jedzą proszek na sucho. Nie dodawać szklanek ani butelek.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/oranzada-proszek-ze19/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/oranzada-proszek-ze19/image-001-thumb.webp",
+      "width": 1024,
+      "height": 1536,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-11-10T23:01:21.953798+00:00"
+}

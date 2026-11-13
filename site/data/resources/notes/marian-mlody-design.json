@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "note:marian-mlody-design",
+  "type": "notes",
+  "id": "marian-mlody-design",
+  "name": "Marian młody — zatwierdzony design retrospekcji",
+  "description": "Referencja historycznej wersji Mariana do retrospekcji, nie współczesny wygląd. Portret zatwierdzony przez autora w rozmowie; sylwetka po korektach faktur. Brązowe włosy, cienki wąs, ten sam nos i pieprzyk na prawym policzku, niebieska koszula robocza, granatowy podkoszulek, szare spodnie, brązowe buty, mały brązowy notes. Pracownik techniczny DK, lata 80. Przy obrazie współczesnym obowiązuje character:marian. Pliki źródłowe zachowane w _system/retrospekcja-mariana.\n\nAKTUALIZACJA 2026-11-06: pełnoprawna postać historyczna z portretem, sylwetką i bio jest teraz dostępna jako character:marian-mlody (Młody Marian). Ta nota i jej obraz pozostają zachowane, aby dotychczasowe referencje shotów i historia generacji nadal działały. Dla nowych scen korzystać z postaci.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/marian-mlody-design/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/marian-mlody-design/image-001-thumb.webp",
+      "width": 1312,
+      "height": 1199,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-11-06T17:14:41.526662+00:00"
+}

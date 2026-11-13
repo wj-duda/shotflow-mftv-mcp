@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-16/halinka-rozpoznaje-znak",
+  "id": "halinka-rozpoznaje-znak",
+  "title": "06 — Powrót obowiązku",
+  "description": "SCENOPIS v005; 25–28 s.\n\nZbliżenie Halinki. Wzrok z koleżanki na jej przypinkę, następnie krótko ku Fonzowi.\n\nGRA: Uśmiech znika, delikatne napięcie dolnej powieki i zetknięcie warg. Zatrzymany wdech. Jedna zmiana emocji, bez grymasu.\n\nDŹWIĘK — PLAN: Muzyka przyciszona, woda. Bez dialogu.\n\nStatyczna klatka; brak wygenerowanej animacji.",
+  "project": {
+    "id": "zlote-emoji-16",
+    "key": "project:zlote-emoji-16",
+    "name": "Złote Emoji #16",
+    "createdAt": "2026-11-06T18:54:57.286Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-16",
+    "projectCreatedAt": "2026-11-06T18:54:57.286Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 10,
+    "lastSequence": 10,
+    "occurrences": [
+      10
+    ],
+    "sequenceTotal": 16,
+    "uniqueShotCount": 16,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "halinka-mloda"
+    },
+    {
+      "type": "shot",
+      "id": "halinka-fotografia"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:halinka-mloda",
+        "key": "character:halinka-mloda",
+        "type": "character",
+        "id": "halinka-mloda",
+        "name": "Młoda Halinka",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka-mloda.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:halinka-fotografia",
+        "key": "shot:zlote-emoji-16/halinka-fotografia",
+        "type": "shot",
+        "id": "halinka-fotografia",
+        "name": "03 — Zgoda i uśmiech",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/halinka-fotografia.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "shot:halinka-fotografia",
+          "character:halinka-mloda"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:halinka-fotografia",
+            "key": "shot:zlote-emoji-16/halinka-fotografia",
+            "type": "shot",
+            "id": "halinka-fotografia",
+            "name": "03 — Zgoda i uśmiech",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/halinka-fotografia.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:halinka-mloda",
+            "key": "character:halinka-mloda",
+            "type": "character",
+            "id": "halinka-mloda",
+            "name": "Młoda Halinka",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka-mloda.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Landscape16:9 1920x1080 cinematic tighter chest-up reaction of exact young Halinka in image1. Reference2 locks face (one woman multiple views), keep wardrobe and all jewelry from image1 not cardigan. Same pier boat sunlight. Halinka on right of composition looks toward SCREEN LEFT at worried colleague offscreen. Her gentle smile is just fading, lips softly touch, very slight tension between eyebrows, attentive eyes; no sadness melodrama no frightened grimace. Her hands stay below crop, do NOT touch necklace or pin. This is starting beat of recognition that she must leave. Background same cream yacht softly blurred in exactly coherent position, ordinary wind ripples on distant water not mirror water. Entire hair and head within frame, red side braid. Natural skin realistic light, no text no glow no extra people. Quiet restrained acting.",
+    "endFrameDescription": "",
+    "animation": "0.0–0.65s: Halinka lowers her eyes slightly toward the colleague’s pin offscreen left. 0.65–1.5s: the remainder of her smile disappears, her lips gently meet and she takes one small restrained breath. 1.5–2.2s: her eyes return a little closer to the lens toward Fonzo, her head almost still. 2.2–3.0s: she holds the quiet serious expression. Camera: locked close-up. Secondary motion: slight shoulder breathing and a loose strand in the breeze. Preserve young face, braid, jacket, necklace and separate pin. No dramatic fear, tears, speech, touching jewelry or glowing symbols."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:halinka-fotografia",
+        "character:halinka-mloda"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:halinka-fotografia",
+          "key": "shot:zlote-emoji-16/halinka-fotografia",
+          "type": "shot",
+          "id": "halinka-fotografia",
+          "name": "03 — Zgoda i uśmiech",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/halinka-fotografia.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:halinka-mloda",
+          "key": "character:halinka-mloda",
+          "type": "character",
+          "id": "halinka-mloda",
+          "name": "Młoda Halinka",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka-mloda.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-06T19:11:49.332935+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:halinka-fotografia",
+            "character:halinka-mloda"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:halinka-fotografia",
+              "key": "shot:zlote-emoji-16/halinka-fotografia",
+              "type": "shot",
+              "id": "halinka-fotografia",
+              "name": "03 — Zgoda i uśmiech",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/halinka-fotografia.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:halinka-mloda",
+              "key": "character:halinka-mloda",
+              "type": "character",
+              "id": "halinka-mloda",
+              "name": "Młoda Halinka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka-mloda.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-11-06T23:45:14.239169+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:halinka-fotografia",
+            "character:halinka-mloda"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:halinka-fotografia",
+              "key": "shot:zlote-emoji-16/halinka-fotografia",
+              "type": "shot",
+              "id": "halinka-fotografia",
+              "name": "03 — Zgoda i uśmiech",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/halinka-fotografia.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:halinka-mloda",
+              "key": "character:halinka-mloda",
+              "type": "character",
+              "id": "halinka-mloda",
+              "name": "Młoda Halinka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka-mloda.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-16/shots/halinka-rozpoznaje-znak/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-16/shots/halinka-rozpoznaje-znak/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

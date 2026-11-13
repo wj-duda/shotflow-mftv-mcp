@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-18/ze18-09-wilczyca",
+  "id": "ze18-09-wilczyca",
+  "title": "II — To, co zobaczył",
+  "description": "Plan pełny istoty w subiektywnym kierunku spojrzenia Czesława, 50 mm, nie dosłowny obraz z jego oczu. Gotowa wilcza forma Olivii w prawej trzeciej przy granicy polany, otwarta droga ucieczki w głąb po prawej. Start: już przemieniona, krótkie spojrzenie w jego stronę. Akcja: odwraca się i ucieka w las. Nie pokazujemy przemiany. Zatwierdzony kierunek autora: naturalna wilczyca na czterech łapach; referencja character:olivia-wilczyca. W starcie obserwuje polanę, następnie obraca się i ucieka w głąb po prawej.\nTAKE — AUDYT: widoczne 44 klatek (1.833 s) przy 24 fps; zakres źródła 0.000–1.833 s; generacja 3 s. Natywne audio wyłączone w planie; montaż pozostaje bez zmian.",
+  "project": {
+    "id": "zlote-emoji-18",
+    "key": "project:zlote-emoji-18",
+    "name": "Złote Emoji #18",
+    "createdAt": "2026-11-09T15:18:48.889Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-18",
+    "projectCreatedAt": "2026-11-09T15:18:48.889Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 12,
+    "lastSequence": 12,
+    "occurrences": [
+      12
+    ],
+    "sequenceTotal": 18,
+    "uniqueShotCount": 18,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "place",
+      "id": "lasy-kozlowieckie-polana-1985"
+    },
+    {
+      "type": "character",
+      "id": "olivia-dela-ossa"
+    },
+    {
+      "type": "shot",
+      "id": "ze18-04-wejscie-na-polane"
+    },
+    {
+      "type": "character",
+      "id": "olivia-wilczyca"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "place:lasy-kozlowieckie-polana-1985",
+        "key": "place:lasy-kozlowieckie-polana-1985",
+        "type": "place",
+        "id": "lasy-kozlowieckie-polana-1985",
+        "name": "Lasy Kozłowieckie — droga i polana, 1985",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lasy-kozlowieckie-polana-1985.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:olivia-dela-ossa",
+        "key": "character:olivia-dela-ossa",
+        "type": "character",
+        "id": "olivia-dela-ossa",
+        "name": "Olivia Dela Ossa",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/olivia-dela-ossa.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze18-04-wejscie-na-polane",
+        "key": "shot:zlote-emoji-18/ze18-04-wejscie-na-polane",
+        "type": "shot",
+        "id": "ze18-04-wejscie-na-polane",
+        "name": "II — Polana w pełni",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-04-wejscie-na-polane.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:olivia-wilczyca",
+        "key": "character:olivia-wilczyca",
+        "type": "character",
+        "id": "olivia-wilczyca",
+        "name": "Olivia — postać wilczycy",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/olivia-wilczyca.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:ze18-04-wejscie-na-polane",
+          "character:olivia-wilczyca"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze18-04-wejscie-na-polane",
+            "key": "shot:zlote-emoji-18/ze18-04-wejscie-na-polane",
+            "type": "shot",
+            "id": "ze18-04-wejscie-na-polane",
+            "name": "II — Polana w pełni",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-04-wejscie-na-polane.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:olivia-wilczyca",
+            "key": "character:olivia-wilczyca",
+            "type": "character",
+            "id": "olivia-wilczyca",
+            "name": "Olivia — postać wilczycy",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/olivia-wilczyca.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Single cinematic16:9 film still, photoreal1980s American supernatural suspense cinematography. Reference1 ONLY continuity of Polish oak pine forest clearing and moonlight, REMOVE all people car blanket. Reference2 EXACT Olivia fully animal female wolf design, charcoal black silver fur amberbrown eyes natural four-legged anatomy. Camera at seated man's eye level across clearing, 50mm medium-long shot. Wolf occupies RIGHT third, full body clearly readable, her body turned toward a narrow woodland path receding into deep RIGHT background, head turned back toward LEFT toward unseen Czeslaw/camera. Calm intelligent wistful gaze, mouth closed, one front paw just poised to step away, not attacking. Give wolf about45percent pictureheight, no tiny indistinct silhouette. Empty dark grass LEFT foreground, blurred nearby leaves edge frame, massive forked oak RIGHT, realistic flat Polish forest no mountains. Strong silver moon rim traces back muzzle ears tail, soft face fill keeps eyes readable, deep layered shadow. Already fully transformed; no morph, no woman, no human features, no clothing, no magical glow, no text or border. Subtle analog35mm grain and restrained blue night.",
+    "endFrameDescription": "",
+    "animation": "@Image1 identifies the single existing female wolf; preserve natural canine anatomy and fur markings. 0.0–0.7s: the wolf plants her raised forepaw, then turns head and shoulders away from camera toward the path at screen right. 0.7–1.7s: her hindquarters follow the turn and she accelerates into two short strides away along the path. 1.7–3.0s: continue retreating deeper into the forest. Camera: locked-off wide shot. Secondary: her tail counterbalances the turn and paws compress grass at each contact. Continuity: preserve the single wolf's size and four-legged anatomy, oak, path and moonlight. Avoid: no attack toward camera, sideways skating, extra legs, human transformation, duplicate wolf or cuts."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze18-04-wejscie-na-polane",
+        "character:olivia-wilczyca"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze18-04-wejscie-na-polane",
+          "key": "shot:zlote-emoji-18/ze18-04-wejscie-na-polane",
+          "type": "shot",
+          "id": "ze18-04-wejscie-na-polane",
+          "name": "II — Polana w pełni",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-04-wejscie-na-polane.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:olivia-wilczyca",
+          "key": "character:olivia-wilczyca",
+          "type": "character",
+          "id": "olivia-wilczyca",
+          "name": "Olivia — postać wilczycy",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/olivia-wilczyca.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-09T16:18:53.2819+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze18-04-wejscie-na-polane",
+            "character:olivia-wilczyca"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze18-04-wejscie-na-polane",
+              "key": "shot:zlote-emoji-18/ze18-04-wejscie-na-polane",
+              "type": "shot",
+              "id": "ze18-04-wejscie-na-polane",
+              "name": "II — Polana w pełni",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-04-wejscie-na-polane.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:olivia-wilczyca",
+              "key": "character:olivia-wilczyca",
+              "type": "character",
+              "id": "olivia-wilczyca",
+              "name": "Olivia — postać wilczycy",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/olivia-wilczyca.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-18/shots/ze18-09-wilczyca/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-18/shots/ze18-09-wilczyca/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

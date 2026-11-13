@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "note:ze19-owczar-dorosly",
+  "type": "notes",
+  "id": "ze19-owczar-dorosly",
+  "name": "ZE19 — dorosły Owczar, epilog",
+  "description": "Projekt fikcyjnego dorosłego Owczara, około 44 lat, inspirowany avatarem kanału Nalepiok (lokalna kopia research-owczar/avatar.jpg) i młodym Owczarem z noty ze19-mlodzi-owczar-dariusz. Krótkie ciemny blond włosy z siwizną na skroniach, krótki zarost, szczupły, zmęczony lecz życzliwy. Grafitowy wełniany płaszcz do kolan, jasnoniebieska koszula, ciemne spodnie, brązowe buty i torba: pasek z LEWEGO ramienia do PRAWEGO biodra. Nie jest dokumentalnym portretem właściciela kanału. Współczesny powrót z pracy, rozpoznaje Dawn Order w witrynie retro gaming. Źródło avatara: https://www.youtube.com/@Nalepiok . Plansza generowana wbudowanym image_gen; brak smug avatara jest zamierzony.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/ze19-owczar-dorosly/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/ze19-owczar-dorosly/image-001-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-11-12T09:21:20.983882+00:00"
+}

@@ -1,0 +1,276 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-16/fonzo-zauroczenie",
+  "id": "fonzo-zauroczenie",
+  "title": "02 — Niema prośba o zdjęcie",
+  "description": "SCENOPIS v005; 4–8 s.\n\nPółzbliżenie Fonza, spojrzenie w prawo. Unosi aparat do wysokości piersi i czeka z palcem poza spustem; pod koniec podnosi go do oka.\n\nGRA: Najpierw kontakt wzrokowy, delikatnie pytające uniesienie brwi, krótki półuśmiech. Gest jest pytaniem, nie pantomimą obcego języka.\n\nDŹWIĘK — PLAN: Muzyka; bez wypowiadanych i bez niemo artykułowanych słów.\n\nStatyczna klatka; brak wygenerowanej animacji.",
+  "project": {
+    "id": "zlote-emoji-16",
+    "key": "project:zlote-emoji-16",
+    "name": "Złote Emoji #16",
+    "createdAt": "2026-11-06T18:54:57.286Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-16",
+    "projectCreatedAt": "2026-11-06T18:54:57.286Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 4,
+    "lastSequence": 4,
+    "occurrences": [
+      4
+    ],
+    "sequenceTotal": 16,
+    "uniqueShotCount": 16,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "fonzo-mlody"
+    },
+    {
+      "type": "prop",
+      "id": "leica-m3"
+    },
+    {
+      "type": "shot",
+      "id": "seed"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:fonzo-mlody",
+        "key": "character:fonzo-mlody",
+        "type": "character",
+        "id": "fonzo-mlody",
+        "name": "Młody Fonzo",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/fonzo-mlody.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:leica-m3",
+        "key": "prop:leica-m3",
+        "type": "prop",
+        "id": "leica-m3",
+        "name": "Leica M3 — aparat protokolanta",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/leica-m3.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:seed",
+        "key": "shot:zlote-emoji-16/seed",
+        "type": "shot",
+        "id": "seed",
+        "name": "01 — Letnie spotkanie",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/seed.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "shot:seed",
+          "character:fonzo-mlody",
+          "prop:leica-m3"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:seed",
+            "key": "shot:zlote-emoji-16/seed",
+            "type": "shot",
+            "id": "seed",
+            "name": "01 — Letnie spotkanie",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/seed.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:fonzo-mlody",
+            "key": "character:fonzo-mlody",
+            "type": "character",
+            "id": "fonzo-mlody",
+            "name": "Młody Fonzo",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/fonzo-mlody.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:leica-m3",
+            "key": "prop:leica-m3",
+            "type": "prop",
+            "id": "leica-m3",
+            "name": "Leica M3 — aparat protokolanta",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/leica-m3.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Landscape16:9 1920x1080 live action film still, medium closeup waist up. Reference1 establishes same summer Polish lake pier, sunlight and geographical continuity. References2,3 exact Fonzo face age17 and outfit. Reference4 exact silver Leica. Fonzo occupies LEFT third looking screen RIGHT toward Halinka offscreen. Both hands lightly hold camera at lower chest, finger not yet pressing shutter. Face unobstructed, mouth closed, tentative barely visible half smile and attentive warm eyes before asking wordlessly for photograph. Ivory finely striped buttoned shirt with small silver collar ornament, rolled sleeves, separate brown neckstrap and bag strap from right shoulder. Dark natural hair, same ear hoop. Background softly blurred wooded shoreline on left and lake on right, near side of same pier axis. Nobody else in shot. No jacket no scarf no makeup no dramatic grin no text. Natural skin and hands, subtle depth of field, restrained warm cinematic color.",
+    "endFrameDescription": "",
+    "animation": "0.0–1.0s: Fonzo keeps looking toward screen right and forms a small closed-mouth smile. 1.0–2.3s: he raises his eyebrows slightly and lifts the camera a few centimeters toward chest height as a wordless request to take a photograph. 2.3–3.6s: he waits for her answer, keeping his face unobstructed and his gaze warm and questioning. 3.6–4.0s: hold naturally. Camera: locked medium shot. Secondary motion: neck strap slackens slightly as the camera rises. Preserve face, collar ornament, fingers, camera geometry and separate bag strap. No speech, flash, shutter press, raised camera at eye, exaggerated grin or facial morph."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:seed",
+        "character:fonzo-mlody",
+        "prop:leica-m3"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:seed",
+          "key": "shot:zlote-emoji-16/seed",
+          "type": "shot",
+          "id": "seed",
+          "name": "01 — Letnie spotkanie",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/seed.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:fonzo-mlody",
+          "key": "character:fonzo-mlody",
+          "type": "character",
+          "id": "fonzo-mlody",
+          "name": "Młody Fonzo",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/fonzo-mlody.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:leica-m3",
+          "key": "prop:leica-m3",
+          "type": "prop",
+          "id": "leica-m3",
+          "name": "Leica M3 — aparat protokolanta",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/leica-m3.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-06T18:57:56.806683+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:seed",
+            "character:fonzo-mlody",
+            "prop:leica-m3"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:seed",
+              "key": "shot:zlote-emoji-16/seed",
+              "type": "shot",
+              "id": "seed",
+              "name": "01 — Letnie spotkanie",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/seed.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:fonzo-mlody",
+              "key": "character:fonzo-mlody",
+              "type": "character",
+              "id": "fonzo-mlody",
+              "name": "Młody Fonzo",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/fonzo-mlody.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:leica-m3",
+              "key": "prop:leica-m3",
+              "type": "prop",
+              "id": "leica-m3",
+              "name": "Leica M3 — aparat protokolanta",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/leica-m3.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-11-06T23:33:06.705527+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:seed",
+            "character:fonzo-mlody",
+            "prop:leica-m3"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:seed",
+              "key": "shot:zlote-emoji-16/seed",
+              "type": "shot",
+              "id": "seed",
+              "name": "01 — Letnie spotkanie",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/seed.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:fonzo-mlody",
+              "key": "character:fonzo-mlody",
+              "type": "character",
+              "id": "fonzo-mlody",
+              "name": "Młody Fonzo",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/fonzo-mlody.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:leica-m3",
+              "key": "prop:leica-m3",
+              "type": "prop",
+              "id": "leica-m3",
+              "name": "Leica M3 — aparat protokolanta",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/leica-m3.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-16/shots/fonzo-zauroczenie/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-16/shots/fonzo-zauroczenie/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

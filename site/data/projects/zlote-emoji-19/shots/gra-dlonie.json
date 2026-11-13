@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-19/gra-dlonie",
+  "id": "gra-dlonie",
+  "title": "Przebitka — gałka i przyciski",
+  "description": "Tight view of Owczar hands at the LEFT player station. Left hand naturally grips the joystick, right hand poised over adjacent buttons. Burgundy sleeves with two cream stripes. Correct five fingers per hand, no Dariusz hands, preserve exact control arrangement.",
+  "project": {
+    "id": "zlote-emoji-19",
+    "key": "project:zlote-emoji-19",
+    "name": "Złote Emoji #19",
+    "createdAt": "2026-11-10T23:04:15.573Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-19",
+    "projectCreatedAt": "2026-11-10T23:04:15.573Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": false,
+    "canonicalEvent": false,
+    "sequence": null,
+    "lastSequence": null,
+    "occurrences": [],
+    "sequenceTotal": 17,
+    "uniqueShotCount": 17,
+    "sequenceOrder": null,
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This project material is not present on the saved timeline, so it must not override canonical timeline events by date alone."
+  },
+  "references": [
+    {
+      "type": "note",
+      "id": "ze19-layout-gra-dlonie"
+    },
+    {
+      "type": "note",
+      "id": "ze19-mlodzi-owczar-dariusz"
+    },
+    {
+      "type": "shot",
+      "id": "seed"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "note:ze19-layout-gra-dlonie",
+        "key": "note:ze19-layout-gra-dlonie",
+        "type": "note",
+        "id": "ze19-layout-gra-dlonie",
+        "name": "ZE19 — geometria: Przebitka — gałka i przyciski",
+        "relationship": "story-and-continuity-context",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze19-layout-gra-dlonie.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "note:ze19-mlodzi-owczar-dariusz",
+        "key": "note:ze19-mlodzi-owczar-dariusz",
+        "type": "note",
+        "id": "ze19-mlodzi-owczar-dariusz",
+        "name": "ZE19 — młodzi Owczar i Dariusz, ciągłość obrazu",
+        "relationship": "story-and-continuity-context",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze19-mlodzi-owczar-dariusz.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:seed",
+        "key": "shot:zlote-emoji-19/seed",
+        "type": "shot",
+        "id": "seed",
+        "name": "Przy automacie — najazd zza pleców",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-19/shots/seed.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "note:ze19-layout-gra-dlonie",
+          "note:ze19-mlodzi-owczar-dariusz"
+        ],
+        "references": [
+          {
+            "sourceKey": "note:ze19-layout-gra-dlonie",
+            "key": "note:ze19-layout-gra-dlonie",
+            "type": "note",
+            "id": "ze19-layout-gra-dlonie",
+            "name": "ZE19 — geometria: Przebitka — gałka i przyciski",
+            "relationship": "story-and-continuity-context",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze19-layout-gra-dlonie.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "note:ze19-mlodzi-owczar-dariusz",
+            "key": "note:ze19-mlodzi-owczar-dariusz",
+            "type": "note",
+            "id": "ze19-mlodzi-owczar-dariusz",
+            "name": "ZE19 — młodzi Owczar i Dariusz, ciągłość obrazu",
+            "relationship": "story-and-continuity-context",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze19-mlodzi-owczar-dariusz.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "EXTREME CLOSE-UP INSERT OF HANDS AND ARCADE CONTROLS ONLY. Match the EXACT close camera crop in image 1, NOT a view of the whole arcade machine. The red joystick at left and six buttons at right fill most of the 16:9 frame, seen diagonally from above at close range. Add only the teenage player hands: left hand grips the red ball joystick, right hand poised naturally over the buttons. Burgundy track jacket sleeves with TWO narrow cream stripes, as worn by the slim boy on the RIGHT of image 3. Image 3 is ONLY identity/wardrobe scale for his HANDS AND SLEEVES, not a composition to copy. No heads, no faces, no full bodies, no second boy, no marquee, no room, no full screen. Image 1 is a crude Blender composition blockout, NOT the final style: make the control panel a real photographed worn black arcade panel, real round injection-moulded buttons with circular collars, real steel joystick shaft, realistic adolescent hands and natural fabric folds. Preserve exact arrangement: one red ball stick left, two rows of three buttons right, top cream row, bottom red row. Image 2 supplies perspective orientation only; omit all guide lines and text. Moody early-1990s arcade light, gentle blue screen spill from outside the crop and subdued warm practical light. The hands enter from the bottom edge, have five fingers each and do not fuse with the controls. Photorealistic cinematic still, 1920x1080 or exact 16:9.",
+    "endFrameDescription": "",
+    "animation": "0.0–1.0s: Owczar left hand already rocks the red joystick briskly a short distance left, then back toward center, pivoting at its fixed base. His right index and middle fingers tap two existing buttons in quick succession, each button depressing slightly and springing back. 1.0–2.0s: He makes one short forward stick input and another two-button burst. 2.0–3.0s: His grip stays engaged as the stick returns near center, followed by one final tap. Camera: locked close-up. @Image1 fixes the existing cabinet material and Owczar sleeves only; retain the Start Frame crop and exact six-button layout. Preserve two hands, five fingers each, rigid controls and subtle screen light. No faces entering frame, extra hands, detached fingers, sliding button bases, cuts or slow motion."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "note:ze19-layout-gra-dlonie",
+        "note:ze19-mlodzi-owczar-dariusz"
+      ],
+      "references": [
+        {
+          "sourceKey": "note:ze19-layout-gra-dlonie",
+          "key": "note:ze19-layout-gra-dlonie",
+          "type": "note",
+          "id": "ze19-layout-gra-dlonie",
+          "name": "ZE19 — geometria: Przebitka — gałka i przyciski",
+          "relationship": "story-and-continuity-context",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze19-layout-gra-dlonie.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "note:ze19-mlodzi-owczar-dariusz",
+          "key": "note:ze19-mlodzi-owczar-dariusz",
+          "type": "note",
+          "id": "ze19-mlodzi-owczar-dariusz",
+          "name": "ZE19 — młodzi Owczar i Dariusz, ciągłość obrazu",
+          "relationship": "story-and-continuity-context",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze19-mlodzi-owczar-dariusz.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-10T23:11:18.927074+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "note:ze19-layout-gra-dlonie",
+            "note:ze19-mlodzi-owczar-dariusz"
+          ],
+          "references": [
+            {
+              "sourceKey": "note:ze19-layout-gra-dlonie",
+              "key": "note:ze19-layout-gra-dlonie",
+              "type": "note",
+              "id": "ze19-layout-gra-dlonie",
+              "name": "ZE19 — geometria: Przebitka — gałka i przyciski",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze19-layout-gra-dlonie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "note:ze19-mlodzi-owczar-dariusz",
+              "key": "note:ze19-mlodzi-owczar-dariusz",
+              "type": "note",
+              "id": "ze19-mlodzi-owczar-dariusz",
+              "name": "ZE19 — młodzi Owczar i Dariusz, ciągłość obrazu",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze19-mlodzi-owczar-dariusz.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-19/shots/gra-dlonie/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-19/shots/gra-dlonie/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

@@ -1,0 +1,458 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:08:29.779Z",
+  "worldId": "mf-creators",
+  "kind": "shot",
+  "key": "shot:idle-creators/a1a2",
+  "id": "a1a2",
+  "title": "a1a2",
+  "description": "Test idle loopa 3 s A1→A2 i planowanego powrotu 3 s A2→A1. Sześć postaci: od lewej Baju, LAIdy Pipa, Livaihen; po prawej Maia Melodies, rkFonzo, Van Sabe. Kanapa po obu stronach centralnego TV; widoczne profile. Ekran płaski i odsłonięty pod przyszły player WWW. Kamera, TV i scenografia nieruchome. Baju delikatnie pochyla głowę, LAIdy subtelnie zmienia pozę. Stan testowy, nie nowe wydarzenie kanonu.",
+  "project": {
+    "id": "idle-creators",
+    "key": "project:idle-creators",
+    "name": "IdleCreators",
+    "createdAt": "2026-10-05T20:23:26.754Z"
+  },
+  "chronology": {
+    "projectKey": "project:idle-creators",
+    "projectCreatedAt": "2026-10-05T20:23:26.754Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 1,
+    "lastSequence": 1,
+    "occurrences": [
+      1
+    ],
+    "sequenceTotal": 2,
+    "uniqueShotCount": 2,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "baju-the-aigorhythms"
+    },
+    {
+      "type": "character",
+      "id": "laidy-pipa"
+    },
+    {
+      "type": "character",
+      "id": "livaihen"
+    },
+    {
+      "type": "character",
+      "id": "maia-melodies"
+    },
+    {
+      "type": "character",
+      "id": "rkfonzo"
+    },
+    {
+      "type": "character",
+      "id": "van-sabe"
+    },
+    {
+      "type": "shot",
+      "id": "a1a2"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:baju-the-aigorhythms",
+        "key": "character:baju-the-aigorhythms",
+        "type": "character",
+        "id": "baju-the-aigorhythms",
+        "name": "Baju & The AIgorhythms",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/baju-the-aigorhythms.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:laidy-pipa",
+        "key": "character:laidy-pipa",
+        "type": "character",
+        "id": "laidy-pipa",
+        "name": "LAIdy Pipa",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/laidy-pipa.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:livaihen",
+        "key": "character:livaihen",
+        "type": "character",
+        "id": "livaihen",
+        "name": "Livaihen",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/livaihen.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:maia-melodies",
+        "key": "character:maia-melodies",
+        "type": "character",
+        "id": "maia-melodies",
+        "name": "Maia Melodies",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/maia-melodies.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:rkfonzo",
+        "key": "character:rkfonzo",
+        "type": "character",
+        "id": "rkfonzo",
+        "name": "rkFonzo",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/rkfonzo.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:van-sabe",
+        "key": "character:van-sabe",
+        "type": "character",
+        "id": "van-sabe",
+        "name": "Van Sabe",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/van-sabe.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:a1a2",
+        "key": "shot:idle-creators/a1a2",
+        "type": "shot",
+        "id": "a1a2",
+        "name": "a1a2",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/a1a2.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "character:baju-the-aigorhythms",
+          "character:laidy-pipa",
+          "character:livaihen",
+          "character:maia-melodies",
+          "character:rkfonzo",
+          "character:van-sabe"
+        ],
+        "references": [
+          {
+            "sourceKey": "character:baju-the-aigorhythms",
+            "key": "character:baju-the-aigorhythms",
+            "type": "character",
+            "id": "baju-the-aigorhythms",
+            "name": "Baju & The AIgorhythms",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/baju-the-aigorhythms.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:laidy-pipa",
+            "key": "character:laidy-pipa",
+            "type": "character",
+            "id": "laidy-pipa",
+            "name": "LAIdy Pipa",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/laidy-pipa.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:livaihen",
+            "key": "character:livaihen",
+            "type": "character",
+            "id": "livaihen",
+            "name": "Livaihen",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/livaihen.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:maia-melodies",
+            "key": "character:maia-melodies",
+            "type": "character",
+            "id": "maia-melodies",
+            "name": "Maia Melodies",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/maia-melodies.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:rkfonzo",
+            "key": "character:rkfonzo",
+            "type": "character",
+            "id": "rkfonzo",
+            "name": "rkFonzo",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/rkfonzo.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:van-sabe",
+            "key": "character:van-sabe",
+            "type": "character",
+            "id": "van-sabe",
+            "name": "Van Sabe",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/van-sabe.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      },
+      {
+        "frameId": "frame-end",
+        "revision": 2,
+        "referenceKeys": [
+          "shot:a1a2"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:a1a2",
+            "key": "shot:idle-creators/a1a2",
+            "type": "shot",
+            "id": "a1a2",
+            "name": "a1a2",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/a1a2.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "ROZWINIĘTY POMYSŁ ZGODNY Z LORE MF CREATORS\n\nRDZEŃ POMYSŁU UŻYTKOWNIKA — ZACHOWAJ BEZ ZMIANY\n\nPierwszy test IdleCreators: dokładnie sześć postaci MF Creators — Baju, LAIdy Pipa, Livaihen, Maia Melodies, rkFonzo i Van Sabe — siedzi na dużej wspólnej kanapie modułowej i spokojnie ogląda transmisję muzyczną. Ujęcie do idle loopa 3s A1→A2 + 3s A2→A1. Telewizor musi być w pełni widoczny na wprost jako płaski prostokąt 16:9 pod późniejsze nałożenie prawdziwego playera YouTube na stronie. Twarze wszystkich sześciu postaci muszą być czytelne, patrzą naturalnie ku TV, nie pozują do widza. Proponowane ustawienie kanapy wokół boków TV, otwarta środkowa przestrzeń, twarze w profilu/trzech czwartych; geometria ma być wiarygodna. Nieruchoma kamera, telewizor, meble i oświetlenie. Czysta ciemna powierzchnia ekranu, żadnych dłoni ani głów przed nim. Na pierwszej klatce spokojne neutralne oglądanie, na drugiej jedynie drobne zmiany pozycji głów/ramion. To scena testowa, nie nowe wydarzenie kanonu, bez brandingu i napisów.\n\nOSADZENIE W ŚWIECIE\n\nTo jest scena w obecnym stanie świata.\n\nMiejsce wynika z pomysłu użytkownika; nie wolno podmieniać go na lokalizację znalezioną przypadkiem w materiale referencyjnym.\n\nNie dodawaj charakterystycznych rekwizytów świata, jeśli użytkownik ich nie wskazał i nie są konieczne do czytelności sceny.\n\nPOSTACIE, CHARAKTER I MOTYWACJE\n\n- Baju & The AIgorhythms [character:baju-the-aigorhythms]: CHARACTER [age=30-44; presentation=masculine; height=178cm; species=human; build=muscular; body=rectangle; skin=medium; face=square; eyes=brown; hair-color=black; hair-length=short; hair-texture=mohawk]\n\nTwórca kanału Baju & The AIgorhythms (@bajutheaigorhythms, YouTube UCxgSjAx9oiXdvJBbPDn8UIg). Kanoniczny wzrost: 178 cm. Baju jest umięśnionym mężczyzną z krótkim czarnym irokezem i wygolonymi bokami, przystrzyżoną brodą, czarnym tunelem w uchu oraz dużym geometrycznym tatuażem na ramieniu. Nosi czarny T-shirt z motywem czaszki i sprzętu muzycznego, podarte luźne jeansy z łańcuchem, czarne bransolety, sygnet i biało-czarne sneakersy z niebieskim akcentem. Charakterystyczne są pewne spojrzenie, dłonie wysunięte w stronę widza i profesjonalne studio pełne gitar. Rysuj go w półrealistycznym heroicznym rock-comic z mocnym tuszem, dynamiczną perspektywą, czernią i elektrycznym błękitem.\n\nKANON OBUWIA: Air Jordan 1 Retro High OG „Royal Toe” — skórzane high-topy w blokach czerni, bieli i Game Royal, z białą podeszwą środkową oraz czarnym spodem. Muszą pozostać wysokie i niebiesko-czarne; to jedyne Jordany w ekipie.\n\nPERSONA KOMIKSOWA (fikcyjna)\nZnak zodiaku: Baran.\nCechy charakteru: energiczny, bezpośredni, pracowity, technicznie dociekliwy i opiekuńczy wobec zespołu; lubi przejmować inicjatywę.\nNiuanse charakteru: 1) jako pierwszy zgłasza się do uruchomienia nieprzetestowanego prototypu; 2) zdrowa rywalizacja podnosi mu energię zamiast odbierać pewność; 3) zapala się szybko, lecz równie szybko wraca do zadania bez pielęgnowania urazy; 4) największy szacunek ma do osób, które mówią wprost i potrafią dotrzymać mu tempa.\nLubi: potężne riffy, testowanie nowych brzmień, precyzyjny sprzęt, trening i konstruktywną rywalizację.\nNie lubi: wymówek, spóźnień, grania bez przygotowania, pustego efekciarstwa i pomysłów bez wykonania.\nMocne strony: przywództwo, dyscyplina, szybkie decyzje, łączenie technologii z muzycznym instynktem.\nSłabe strony: niecierpliwość, upór, branie zbyt wielu obowiązków i skłonność do poprawiania innych bez pytania.\nRockowy nerw i nostalgia: Technicznie idealny take bez potu i ryzyka znaczy dla niego mniej niż surowe demo, w którym zespół naprawdę walczy o utwór. Lubi zapach nagrzanego wzmacniacza, obtarte futerały i ten moment próby, gdy bezpiecznik jest blisko granicy, ale riff wreszcie żyje.\nPowiedzonka: „Algorytm algorytmem, riff musi się zgadzać.”; „Jeszcze raz — tym razem z mocą.”\n\n- LAIdy Pipa [character:laidy-pipa]: CHARACTER [age=25-34; presentation=feminine; height=tall; build=athletic; body=hourglass; chest=medium; skin=light; face=oval; eyes=blue-gray; hair-color=purple; hair-length=very-long; hair-texture=braided]\n\nLAIdy Pipa to wysoka, atletyczna kobieta o jasnej cerze, chłodnych niebieskoszarych oczach, mocnym śliwkowo-czarnym makijażu i precyzyjnej ciemnoczerwonej szmince. Ma bardzo długie, intensywnie fioletowe boxer braids: dwa grube warkocze oraz dwa cieńsze pasma przy twarzy. Nosi czarny gotycko-klubowy strój sceniczny: dopasowany skórzany top z konstrukcyjnym gorsetem i metalowymi klamrami, siateczkowe rękawy, szeroki ćwiekowany choker, nabijane karwasze, skórzane szorty z wysokim stanem, czarne rajstopy i wysokie sznurowane kozaki na platformie. Charakterystyczne są gest rogów, czaszkowe pierścienie, koła w uszach oraz spokojna, dumna i dominująca postawa. Rysuj ją w półrealistycznym heroicznym rock-comic z mocnym tuszem, kreskowaniem, połyskiem czarnej skóry i fioletowo-czarną paletą.\n\nKANON OBUWIA: Demonia Camel-300, czarne — wysokie do kolan sznurowane kozaki na grubej platformie i szerokim słupkowym obcasie, z paskami i klamrami przy cholewce. Zachowuj pełną wysokość, platformę oraz dominujący sceniczny charakter; to jedyne wysokie kozaki na obcasie w ekipie.\n\nPERSONA KOMIKSOWA (fikcyjna)\nZnak zodiaku: Lew.\nCechy charakteru: charyzmatyczna, dumna, odważna, teatralna i bardzo lojalna; wchodzi do pomieszczenia tak, jakby właśnie zaczynał się koncert.\nNiuanse charakteru: 1) chętnie oddaje komuś część sceny, jeśli sama czuje się zauważona i szanowana; 2) swoich ludzi broni publicznie, nawet gdy prywatnie zamierza ich później skrytykować; 3) krytyka dotyka ją mocniej, niż pozwala po sobie poznać; 4) zwykłe wydarzenie instynktownie zamienia w widowisko z wyraźnym początkiem i finałem.\nLubi: sceniczne światła, fiolet, mocne wejścia, precyzyjny makijaż, ciężkie brzmienie i ludzi, którzy dotrzymują słowa.\nNie lubi: lekceważenia, nijakości, zdrady zaufania, źle przygotowanych występów i prób odbierania jej kontroli.\nMocne strony: magnetyczna obecność, odwaga, mobilizowanie grupy, panowanie nad emocjami w kryzysie.\nSłabe strony: duma utrudnia jej przeprosiny, źle znosi ignorowanie, bywa dominująca i bierze krytykę zbyt osobiście.\nRockowy nerw i nostalgia: Scena powinna zostawić po sobie pot, rozmazaną kreskę makijażu i ciszę po ostatnim uderzeniu perkusji; perfekcja bez ryzyka ją nudzi. Ma słabość do mrocznego glamouru dawnych klubów, dymu scenicznego i kasetowych składanek nagrywanych komuś bez odwagi, by powiedzieć wprost, co się czuje.\nPowiedzonka: „Fiolet to nie kolor. To ostrzeżenie.”; „Korona nie spada, kiedy głowa jest wysoko.”\n\n- Livaihen [character:livaihen]: CHARACTER [age=30-44; presentation=feminine; height=170cm; build=curvy; body=hourglass; chest=medium; skin=fair; face=oval; eyes=brown; hair-color=burgundy-red; hair-length=very-long; hair-texture=wavy]\n\nTwórczyni kanału Livaihen (@ewaduda-livaihen, YouTube UCgK0hHeDmi_8rhmz5-lKrxQ). Kanoniczny wzrost: 170 cm. Aktualny kanon to rockowa kobieta o bardzo długich, gęstych, falowanych włosach w głębokim burgundzie z czerwonymi refleksami, czarnych kocich okularach, ciemnoczerwonej szmince i małym kolczyku w nosie. Nosi czarną koronkową bluzkę, dopasowane podarte czarne spodnie z podwójnym łańcuchem i ciężkie botki z klamrami. Charakterystyczne są spokojna pewność siebie, spojrzenie ponad oprawkami oraz karminowo-czarna paleta. Rysuj ją w półrealistycznym heroicznym rock-comic: proporcjonalna sylwetka, wyidealizowana twarz, tuszowe kreskowanie i plakatowe światło.\n\nKANON OBUWIA: Dr. Martens Jadon Max Hardware, czarna skóra Buttero — ośmiodziurkowe botki na bardzo wysokiej podeszwie Quad Max, z dodatkowymi paskami i metalowymi okuciami wokół kostki. Zachowuj satynowy połysk skóry, masywną platformę i elegancko-industrialne klamry.\n\nPERSONA KOMIKSOWA (fikcyjna)\nZnak zodiaku: Waga.\nCechy charakteru: opanowana, ambitna, elegancka, cierpliwa i cięta w słowach; rzadko podnosi głos, bo nie musi.\nNiuanse charakteru: 1) przed oceną potrafi uczciwie zobaczyć racje obu stron; 2) estetykę traktuje jako narzędzie porządkowania myśli, nie powierzchowną ozdobę; 3) negocjuje łagodnie, lecz stawia precyzyjne granice, których później pilnuje; 4) zwleka tylko wtedy, gdy dwa rozwiązania wydają się równie dobre — po znalezieniu równowagi działa natychmiast.\nLubi: dopracowany klimat, burgund, koronkowe detale, nocne rozmowy, porządek w planach i inteligentne poczucie humoru.\nNie lubi: chaosu organizacyjnego, nachalności, tanich skrótów, pustych obietnic i przerywania jej w połowie myśli.\nMocne strony: konsekwencja, dobry osąd ludzi, estetyczna precyzja, zachowanie zimnej krwi.\nSłabe strony: perfekcjonizm, trudność w odpuszczaniu kontroli, skrywanie zmęczenia i surowość wobec siebie.\nRockowy nerw i nostalgia: Jej elegancja potrzebuje jednej przetartej krawędzi: starej skóry, lekko zdartego lakieru albo głosu, który pęka w najlepszym wersie. Rockowa ballada z nocnej audycji potrafi na chwilę rozbroić jej kontrolę, choć następnego dnia będzie twierdzić, że to tylko dobrze napisany utwór.\nPowiedzonka: „Porządek to może mieć każdy, ale tylko geniusz zapanuje nad chaosem.”; „Nie gadajmy, tylko działajmy.”\n\n- Maia Melodies [character:maia-melodies]: CHARACTER [age=18-29; presentation=feminine; height=165cm; build=slim; body=hourglass; chest=medium; skin=fair; face=heart; eyes=dark-navy-blue; hair-color=platinum-blonde; hair-length=medium; hair-texture=straight]\n\nTwórczyni kanału Maia Melodies (@maiamelodies, YouTube UCSqRnFlVAhRQSkiz0K7GKTQ). Kanoniczny wzrost: 165 cm. Aktualny kanon to młoda kobieta o jasnej cerze, dużych ciemnoniebieskich oczach i asymetrycznym platynowym bobie z ciemniejszym odrostem. Ma pogodny uśmiech i czarne słuchawki nauszne. Nosi biały krótki top z czarną lamówką, bardzo luźne czarne spodnie cargo z pojedynczym srebrnym łańcuchem, czarną bransoletę i biało-czarne sneakersy. Słuchawki i gest dotykania muszli są jej charakterystycznym znakiem.\n\nINDYWIDUALNY WARIANT WIZUALNY — HEROICZNY POP/DANCE/TRANCE-COMIC: Maia należy do komiksowego świata MF Creators, lecz nie ma nic wspólnego z rockiem. Rysuj ją proporcjonalnie w półrealistycznym komiksie muzyki elektronicznej: mocny, pewny tusz, czytelne kontury, gładkie płaszczyzny cel-shadingu, ciepłe światło studyjne oraz akcenty różu, cyjanu i fioletu. Elektroniczny charakter budują miękkie pierścienie pulsu, zaokrąglone smugi światła, refleksy klubowe i dyskretna geometria equalizera. Formy pozostają melodyjne i rytmiczne. Bez gitar, rockowych gestów, ćwieków, ciężkiej skóry, czaszek, grunge’u, garażu i estetyki koncertu rockowego; bez anime i chibi.\n\nKANON OBUWIA: Nike Air Force 1 ’07, kolor White/Black — niskie skórzane sneakersy z białą perforowaną osłoną palców, białą podeszwą i czarnymi panelami. Bez kolorowego podświetlenia na samym bucie; elektroniczne barwy mogą pojawiać się wyłącznie jako odbite światło.\n\nPERSONA KOMIKSOWA (fikcyjna)\nZnak zodiaku: Byk.\nCechy charakteru: pogodna, empatyczna, ciekawa świata, ugodowa i kreatywna; słyszy emocje innych, zanim zostaną nazwane.\nNiuanse charakteru: 1) naturalnie zmienia ton rozmowy, kiedy trzeba przywrócić grupie harmonię; 2) pierwsza zauważa osobę pozostawioną poza wspólnym kręgiem; 3) najbardziej twórcza bywa solo, ale sprowokowana świetnie odnajduje się w duecie lub zespole, gdzie pomysły mogą odpowiadać sobie jak melodie; 4) czasem odkłada własną potrzebę na później, aby utrzymać pokój między innymi.\nLubi: odkrywanie nowych melodii, dobre słuchawki, taniec między próbami, ciepłe światło, harmonijne współprace i drobne niespodzianki.\nNie lubi: kłótni bez sensu, fałszywych nut, cynizmu, wykluczania kogokolwiek oraz podejmowania decyzji za nią lub pod presją.\nMocne strony: muzyczna intuicja, łagodzenie konfliktów, otwartość, szybkie wychwytywanie nastroju grupy, punktualność i rzetelność.\nSłabe strony: urocze roztargnienie, unikanie konfrontacji, zbyt łatwe branie cudzych emocji na siebie i rozpraszanie się nowymi pomysłami.\nPopowy puls i nostalgia: Najmocniej działają na nią jasne, pozytywne melodie skrywające ciekawy tekst — takie, które kiedyś przewijało się ołówkiem i znało z radia mimo słabego sygnału. Jej pogoda ducha nie usuwa nostalgii; raczej robi dla niej miejsce, żeby cały zespół mógł śpiewać refren bez wstydu.\nPowiedzonka: „Słyszysz? To jest ten moment.”; „Każdy chaos ma swoją melodię.”; „Tak jest!”; „O to to to to…”\n\n- rkFonzo [character:rkfonzo]: CHARACTER [age=45-64; presentation=masculine; height=178cm; build=athletic; body=rectangle; chest=medium; skin=medium; face=angular; eyes=dark-brown; hair-color=silver-gray; hair-length=short; hair-texture=spiky]\n\nTwórca kanału rkFonzo (@rkfonzo, YouTube UC_OFjUpeMOY_6wydhhoPlLA). Kanoniczny wzrost: 178 cm. Aktualny kanon to dojrzały mężczyzna o krótkich, mocno nastroszonych srebrno-platynowych włosach z ciemnymi bokami, kanciastej twarzy i czarnych okularach przeciwsłonecznych. Nie jest klasycznym rockmanem: łączy rockową skórzaną ramoneskę z czarnym T-shirtem o neonowej grafice inspirowanej elektroniką, synthwave, klawiaturą i falą dźwiękową, ciemnymi jeansami oraz masywnymi botkami. Nosi prosty metalowy łańcuszek bez zawieszki, skórzane lub plecione bransoletki i wyrazisty zegarek. Obecnie nie nosi kolczyków ani piercingu. Charakterystyczne są spokojna poza z rękami w kieszeniach, uniesiona broda, gest wskazujący widza oraz fioletowo-błękitno-różowe akcenty łączące różne style muzyczne. Rysuj go proporcjonalnie w półrealistycznym heroicznym rock-comic z ostrym czarnym tuszem, wyraźnym połyskiem skóry i neonowym światłem.\n\nKANON OBUWIA: Red Wing Iron Ranger 8084 Black Harness — czarne skórzane botki do kostki z charakterystycznym przeszywanym noskiem cap-toe, hakami szybkiego sznurowania i niskim obcasem. Mają wyglądać solidnie i użytkowo, bez platformy, ćwieków i rockowej przesady.\n\nPERSONA KOMIKSOWA (fikcyjna)\nZnak zodiaku: Ryby.\nCechy charakteru: konkretny, wrażliwy, ugodowy, szczery, dowcipny i wierny własnym zasadom; unika eskalowania konfliktów, a nawet pod presją stara się dostrzec pozytywną stronę sytuacji. Lubi śmiech i chętnie buduje kontakt żartem, ale nie używa humoru do ukrywania nieszczerości.\nNiuanse charakteru: 1) łatwo przejmuje nastrój pomieszczenia, nawet gdy nikt nie mówi o nim głośno; 2) naturalnie łączy odległe gatunki, bo granice stylów traktuje bardziej jak sugestię niż mur; 3) empatia pozwala mu szybko zrozumieć cudzy punkt widzenia i wybaczyć, a celny dowcip pomaga mu rozładować napięcie; 4) kiedy ktoś go zdenerwuje, reaguje od razu, zanim zdąży ochłonąć — nie szuka jednak awantury, szybko przychodzi refleksja i woli naprawić sytuację niż ją dalej zaostrzać.\nLubi: łączenie różnych stylów muzycznych, humor, żarty i dobre dowcipy, solidne wykonanie, punktualność, szczerość, niezawodny sprzęt i ludzi, którzy angażują się na serio.\nNie lubi: pracy na pół gwizdka, spóźnień, nieszczerości, pustych deklaracji i bezsensownego zaostrzania konfliktów.\nMocne strony: otwartość na różne brzmienia, punktualność, szczerość, poczucie humoru, dostrzeganie pozytywów w trudnych sytuacjach i zdolność do deeskalacji.\nSłabe strony: uleganie presji, wycofywanie się zamiast obrony własnego zdania, natychmiastowe reagowanie pod wpływem zdenerwowania bez chwili na uspokojenie, późniejszy żal z powodu zbyt szybkiej reakcji i pesymistyczne nastawienie. Nie są to wybuchy gniewu: problemem jest tempo odpowiedzi, nie dążenie do awantury.\nRockowy nerw i nostalgia: Ma słabość do ręcznie opisanych składanek, syntezatorów połączonych z gitarą i utworów, które nie mieszczą się w jednej szufladzie. Nagła, nieprzefiltrowana riposta brzmi u niego jak krótkie sprzężenie wzmacniacza — pojawia się natychmiast, szybko cichnie i zostawia potrzebę naprawienia sytuacji. Najlepiej odzyskuje równowagę przy muzyce i żarcie, który pozwala wszystkim znowu złapać wspólny rytm.\nPowiedzonka: „Bez zbędnych słów. Odpalamy.”; „Dobre brzmienie nie potrzebuje wymówek.”\n\n- Van Sabe [character:van-sabe]: CHARACTER [age=30-44; presentation=masculine; height=185cm; build=athletic; body=rectangle; chest=medium; skin=medium; face=oblong; eyes=dark-brown; hair-color=black; hair-length=medium; hair-texture=curly]\n\nTwórca kanału Van Sabe (@vansabe.official, YouTube UCcRkrSCsaN7NVW5qsopkF9A). Kanoniczny wzrost: 185 cm. Van Sabe jest wysokim, atletycznym mężczyzną o średniej długości czarnych lokach opadających na czoło, wyrazistej szczęce i lekkim zaroście. Nosi cały czarny zestaw: rozpiętą koszulę, dopasowaną marynarkę, spodnie z paskiem i ciężkie buty; na szyi ma metalowe nieśmiertelniki, a na dłoniach sygnety i bransolety. Charakterystyczne są dumnie uniesiona głowa, bezpośredni gest dłoni i chłodna czarno-błękitna paleta. Rysuj go proporcjonalnie w półrealistycznym heroicznym rock-comic z mocnym tuszem i filmowym modelowaniem twarzy.\n\nKANON OBUWIA: Timberland Premium 6-Inch Waterproof Boot w ciemnobrązowej skórze — sześciocalowe sznurowane trzewiki z wyściełanym kołnierzem, solidną podeszwą terenową i klasyczną roboczą sylwetką. Kolor może wpadać w czerń pod nocnym światłem, ale skóra pozostaje ciemnobrązowa.\n\nPERSONA KOMIKSOWA (fikcyjna)\nZnak zodiaku: Baran.\nCechy charakteru: pewny siebie, intensywny, ambitny, honorowy i prowokacyjnie szczery; najlepiej czuje się w centrum działania.\nNiuanse charakteru: 1) rusza do działania, zanim grupa zdąży zamknąć dyskusję; 2) instynktownie staje między zagrożeniem a osobą, którą uważa za słabszą; 3) zaufanie mierzy konkretnymi czynami, a nie deklaracjami; 4) po osiągnięciu celu szybko potrzebuje kolejnego wyzwania, inaczej traci impet.\nLubi: mocne wejścia, nocne miasto, czystą czerń, fizyczne wyzwania, zdecydowane decyzje i ludzi dotrzymujących kroku.\nNie lubi: bierności, półśrodków, wymijających odpowiedzi, publicznego podważania jego słowa i przeciągania prostych spraw.\nMocne strony: odwaga, determinacja, sceniczna charyzma, branie odpowiedzialności w kryzysie.\nSłabe strony: porywczość, rywalizacyjność, niechęć do wycofania się i mylenie ostrożności ze słabością.\nRockowy nerw i nostalgia: Nosi w sobie nocne ulice, deszcz na skórzanej kurtce i energię kina akcji oglądanego z przegrywanej kasety. Pod twardym wejściem ma słabość do jednego starego numeru, który natychmiast odbiera mu pancerz, ale nigdy nie przyzna który to.\nPowiedzonka: „Mniej gadania. Więcej sceny.”; „Jeśli wchodzę, to na pełnej mocy.”\n\nAKTUALNY STAN KANONU\n\n- Nie znaleziono późniejszego kanonicznego wydarzenia dla wybranych elementów. Zachowaj ich bazowe rekordy i nie wymyślaj transformacji.\n\nROZWINIĘCIE DRAMATYCZNE\n\nObraz pokazuje dokładnie sytuację opisaną przez użytkownika, ale zachowanie i reakcje Baju & The AIgorhythms i LAIdy Pipa i Livaihen i Maia Melodies i rkFonzo i Van Sabe wynikają z powyższych cech, relacji i motywacji. Wybierz jeden czytelny, zamrożony moment, w którym działanie użytkownika jest już rozpoznawalne, a różnice charakterów ujawniają się przez gest, postawę, kontakt wzrokowy i stosunek do sytuacji. Napięcie ma wypływać z podanego zdarzenia oraz zapisanych osobowości, bez dopisywania obcego antagonisty, pomocnika lub pobocznego wątku.\n\nDODATKOWY WYBRANY KONTEKST\n\n- MF Creators — heroiczny rock-comic [look:rock-comic]: NADRZĘDNY KANON WIZUALNY MF CREATORS\n\nStyl łączy współczesny amerykański komiks, rockowy plakat i uliczny mural. Ma być półrealistyczny, filmowy i wyraźnie ręcznie tuszowany. Image-001 określa atmosferę, energię grupy i nasycenie światła. Image-002 jest głównym wzorcem kreski, anatomii, pełnych sylwetek, materiałów i wspólnego kadru. Referencje nie narzucają konkretnych osób, napisów ani kompozycji.\n\nKRESKA\nStosuj trzy poziomy linii. Najgrubszy, zmienny kontur zamyka sylwetkę, główne masy włosów i buty; grubieje po stronie cienia, na styku form i w miejscach nakładania się postaci, a zwęża się lub zanika na mocno oświetlonej krawędzi. Linia średnia rozdziela ręce od tułowia, poły ubrań, nogawki i duże pasma włosów. Najcieńsza opisuje oczy, usta, zarost, palce, szwy, zamki i biżuterię. Pociągnięcia są ostre, lekko nieregularne i zwężane na końcach; nie mogą wyglądać jak równy wektorowy stroke.\n\nKreskowanie prowadź zgodnie z objętością: wokół kości policzkowych, ukośnie od szczęki ku szyi, łukiem po mięśniach oraz promieniście ku zgięciom bioder, kolan i kostek. Zagęszczaj je tylko pod brodą, przy włosach, pod pachami, między palcami, w głębokich fałdach i cieniach kontaktowych. Jasne płaszczyzny pozostaw czystsze. Szraf jest krótki i tuszowy; krzyżuj go oszczędnie wyłącznie w najciemniejszych półcieniach. Bez jednolitej siatki kresek na całym obrazie.\n\nWALOR I ŚWIATŁO\nBuduj formę czterema poziomami: niemal czarną okluzją, nasyconym cieniem lokalnego koloru, głównym półtonem i wąskim jasnym refleksem. Kluczowe cienie pod nosem, szczęką, kością policzkową i fałdą ubrania mają czytelną, graficzną granicę. Absolutną czerń rezerwuj dla konturu, szczelin i wnętrza najgłębszych fałd; czarne ubrania nadal muszą pokazywać grafitowe płaszczyzny i konstrukcję.\n\nGłówne światło jest ciepłe, górno-przednie lub boczne: podkreśla czoło, nos, policzki, barki, górne pasma włosów i czubki butów. Słabsza chłodna kontra w błękicie, fiolecie albo magencie pojawia się na zewnętrznych krawędziach włosów i czarnych ubrań, oddzielając postać od muralu. Środek bryły pozostaje w neutralnym grafitowym cieniu. Neon działa jako wąskie odbicie, nie kolorowa mgła zalewająca całą skórę.\n\nMATERIAŁY\nSkóra twarzy ma małe, łagodniejsze światła i ostrzejsze tuszowe cienie. Skórzana kurtka: długie, twarde i nieregularne smugi refleksu wzdłuż zagięć. Denim: krótkie łamane kreski, przetarcia i szerokie matowe rozjaśnienia. Metal, okulary i nity: małe punktowe bliki o twardej krawędzi. Włosy buduj dużymi pasmami obrysowanymi tuszem, z kilkoma cienkimi włóknami wewnątrz, nie setkami równych włosków.\n\nKOLOR I GŁĘBIA\nBazą są głęboka czerń, grafit, złamana biel i ciepłe pomarańczowo-brązowe tony skóry. Każda postać zachowuje jeden dominujący akcent: karmin, magentę, błękit, fiolet, pomarańcz albo zieleń. Korzystaj z kontrastów pomarańcz–błękit, magenta–zieleń i żółć–fiolet, ale spinaj kadr czarnym tuszem. Najostrzejsze krawędzie i najwyższy detal umieszczaj na oczach, ustach, dłoniach oraz charakterystycznym elemencie stroju. Dalszy bark, dolne nogawki i fragmenty w cieniu mogą mieć linię suchą, przerwaną lub częściowo zgubioną.\n\nANATOMIA I KOMPOZYCJA\nPostacie mają proporcje dorosłych ludzi z lekką heroiczną idealizacją: nieco dłuższe nogi, wyraźne barki i pewną linię ciężaru, lecz głowę bliską realistycznej wielkości. Twarze pozostają indywidualne, modelowane kanciastymi płaszczyznami światła i cienia. Dłonie muszą mieć czytelne palce i celowy gest.\n\nW grupie stosuj szeroki kadr na wysokości pasa lub klatki piersiowej, z kamerą skierowaną minimalnie ku górze i bez silnego rozciągania osób na brzegach. Stopy stoją na wspólnej płaszczyźnie, ale różnicuj wzrost, rozstaw nóg, nachylenie barków i gesty. Postacie mogą lekko na siebie zachodzić, lecz ich twarze i sylwetki muszą pozostać rozdzielone.\n\nTYPOGRAFIA I TEKST — ZASADA BEZWZGLĘDNA\nObowiązuje całkowity zakaz „AI slop font”. Tekst nie może być malowany ani improwizowany przez model jako część ilustracji. Jeśli użytkownik nie zażądał konkretnego napisu, obraz ma być całkowicie wolny od liter, słów, pseudotekstu, szyldów, etykiet, nazw marek, logotypów, znaków wodnych i graffiti udającego pismo. Nie dodawaj dekoracyjnych glifów ani przypadkowych symboli przypominających alfabet.\n\nJeśli tekst jest wymagany, najpierw wygeneruj ilustrację bez liter, pozostawiając świadomie zaplanowane czyste pole z bezpiecznym marginesem, a dokładny napis złóż później w programie graficznym. Zachowaj podaną treść znak w znak, włącznie z polskimi znakami. Nie wolno tworzyć fikcyjnych liter, ręcznie dorabianych znaków diakrytycznych, przypadkowych ligatur, pseudo-luksusowych lub pseudo-filmowych szeryfów, chromu, plastikowego 3D ani nadmiernej poświaty.\n\nDopuszczalne rodziny fontów: Barlow Condensed 900 dla głównych tytułów plakatowych i nazw twórców; Barlow Condensed 700–800 dla nagłówków; Noto Sans 400–600 dla opisów; Noto Sans 700–800 dla etykiet, dat i krótkich informacji. Bangers 400 wolno użyć najwyżej raz w kompozycji i wyłącznie dla jednego krótkiego słowa, onomatopei albo komiksowego okrzyku; nigdy dla nazwiska, harmonogramu, opisu ani długiego tytułu. Jeżeli Bangers nie ma poprawnego polskiego znaku, cały akcent składaj Barlow Condensed 900.\n\nRockową energię buduj skalą, rytmem, kontrastem i kontrolowaną asymetrią całego bloku, nigdy deformowaniem pojedynczych liter. Dopuszczalny jest prosty, kontrolowany obrys lub cień zwiększający czytelność. W jednej kompozycji używaj najwyżej trzech rodzin, przy czym Bangers pozostaje wyłącznie pojedynczym akcentem. Oficjalne logo zawsze wstawiaj jako dostarczony asset; nie przerysowuj ani nie rekonstruuj jego liter fontem.\n\nTŁO I OGRANICZENIA\nTło może być klubem, studiem, industrialnym wnętrzem albo betonowym muralem. Maluj je szerzej i grubszym suchym pędzlem niż postacie. Rozpryski, graffiti, korony, serca i szczotkowana typografia są osobną warstwą plakatu: nie mogą przecinać twarzy ani zrastać się z ciałem. Jeśli tekst nie jest wymagany, pomijaj go.\n\nPriorytet wykonania: 1) sylwetka i proporcje, 2) układ światła i czarnych plam, 3) twarz i dłonie, 4) materiały, 5) tło i mikrodetal. Bez chibi, anime, ogromnych głów, fotorealizmu, gładkiego 3D, plastikowej skóry, nadmiernego airbrushu, identycznych twarzy, zlewających się kończyn i przypadkowych napisów.\n\nGRANICE LORE\n\n- Zachowaj rdzeń, podmioty i działanie z pomysłu użytkownika; rozwinięcie nie może zastąpić jego intencji.\n\n- Późniejsze kanoniczne wydarzenia mają pierwszeństwo przed starszymi portretami i ujęciami.\n\n- Nie dodawaj żadnych współwystępujących elementów ani wątków, których użytkownik nie wybrał.\n\n- Cechy i motywacje postaci mają wpływać na ich zachowanie i reakcje, a nie być jedynie opisem wyglądu.\nEXECUTION FOR A1: Generate one finished landscape 16:9 frame (1920x1080 target), not a collage. TV upper center, large blank dark screen, exactly horizontal and vertical sides, no skew, a flat 16:9 rectangle for a later player. Locked camera sensor parallel to screen. A broad modular sofa with side wings: three characters to left and three to right, faces readable in profiles/three-quarter angles, all physically looking toward the TV, not camera. Bodies and heads never overlap the TV screen or bezel. Cozy contemporary viewing lounge, stationary furniture and warm ambient light with restrained cool highlights. Relaxed quiet viewing, hands down on own knees or cushions, closed mouths, eyes open. Preserve six distinct faces, outfits and shoes; no duplicate people. No text/logos, drinks, food, magical effects or extra props.\nACTUAL REFERENCE INPUTS: Image 1 contact sheet: Baju portrait/outfit TOP, LAIdy Pipa portrait/outfit BOTTOM. Image 2: Livaihen TOP, Maia BOTTOM. Image 3: rkFonzo TOP, Van Sabe BOTTOM. Image 4 STYLE ONLY: use ink, shading and anatomy, NOT its extra people, logos or posing. Six people total. Prioritize the front-facing flat TV and believable visible faces. Output just the image.",
+    "endFrameDescription": "A2: Baju lekko opuszcza brodę i pochyla barki; LAIdy Pipa subtelnie przechyla głowę i uśmiecha się z zamkniętymi ustami. Pozostali oglądają w tych samych pozycjach. Ekran TV odsłonięty; identyczny kadr. Generacja bazowała na oryginalnym A1 przed wspólną normalizacją do 1920×1080.",
+    "animation": "0.0–3.0s: the tattooed man at far left slowly lowers his chin a few degrees and leans his shoulders slightly forward. The purple-braided woman beside him subtly tilts her head and forms a faint closed-mouth smile. Both settle gently into the supplied End Frame by 3.0s. Camera: absolutely locked tripod, zero pan, tilt, zoom, shake or reframing. Secondary: all six seated viewers breathe gently with tiny asynchronous chest movement; occasional natural blinks away from boundaries. Hands and feet remain planted, mouths closed, gaze toward TV. Continuity: freeze television screen, bezel and all four corners at their exact image coordinates throughout; blank screen, unchanged furniture, room, lighting, identities and clothes. Motion is confined to people. Avoid screen wobble, camera drift, background flicker, gestures, cuts, fades or morphing."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "character:baju-the-aigorhythms",
+        "character:laidy-pipa",
+        "character:livaihen",
+        "character:maia-melodies",
+        "character:rkfonzo",
+        "character:van-sabe"
+      ],
+      "references": [
+        {
+          "sourceKey": "character:baju-the-aigorhythms",
+          "key": "character:baju-the-aigorhythms",
+          "type": "character",
+          "id": "baju-the-aigorhythms",
+          "name": "Baju & The AIgorhythms",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/baju-the-aigorhythms.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:laidy-pipa",
+          "key": "character:laidy-pipa",
+          "type": "character",
+          "id": "laidy-pipa",
+          "name": "LAIdy Pipa",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/laidy-pipa.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:livaihen",
+          "key": "character:livaihen",
+          "type": "character",
+          "id": "livaihen",
+          "name": "Livaihen",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/livaihen.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:maia-melodies",
+          "key": "character:maia-melodies",
+          "type": "character",
+          "id": "maia-melodies",
+          "name": "Maia Melodies",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/maia-melodies.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:rkfonzo",
+          "key": "character:rkfonzo",
+          "type": "character",
+          "id": "rkfonzo",
+          "name": "rkFonzo",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/rkfonzo.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:van-sabe",
+          "key": "character:van-sabe",
+          "type": "character",
+          "id": "van-sabe",
+          "name": "Van Sabe",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/van-sabe.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-05T20:23:26.754178+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:baju-the-aigorhythms",
+            "character:laidy-pipa",
+            "character:livaihen",
+            "character:maia-melodies",
+            "character:rkfonzo",
+            "character:van-sabe"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:baju-the-aigorhythms",
+              "key": "character:baju-the-aigorhythms",
+              "type": "character",
+              "id": "baju-the-aigorhythms",
+              "name": "Baju & The AIgorhythms",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/baju-the-aigorhythms.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:laidy-pipa",
+              "key": "character:laidy-pipa",
+              "type": "character",
+              "id": "laidy-pipa",
+              "name": "LAIdy Pipa",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/laidy-pipa.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:livaihen",
+              "key": "character:livaihen",
+              "type": "character",
+              "id": "livaihen",
+              "name": "Livaihen",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/livaihen.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:maia-melodies",
+              "key": "character:maia-melodies",
+              "type": "character",
+              "id": "maia-melodies",
+              "name": "Maia Melodies",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/maia-melodies.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:rkfonzo",
+              "key": "character:rkfonzo",
+              "type": "character",
+              "id": "rkfonzo",
+              "name": "rkFonzo",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/rkfonzo.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:van-sabe",
+              "key": "character:van-sabe",
+              "type": "character",
+              "id": "van-sabe",
+              "name": "Van Sabe",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/van-sabe.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/projects/idle-creators/shots/a1a2/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/projects/idle-creators/shots/a1a2/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "role": "frame-end",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:a1a2"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:a1a2",
+          "key": "shot:idle-creators/a1a2",
+          "type": "shot",
+          "id": "a1a2",
+          "name": "a1a2",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/a1a2.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 2,
+          "createdAt": "2026-10-05T20:23:51.936486+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:a1a2"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:a1a2",
+              "key": "shot:idle-creators/a1a2",
+              "type": "shot",
+              "id": "a1a2",
+              "name": "a1a2",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/a1a2.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/projects/idle-creators/shots/a1a2/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/projects/idle-creators/shots/a1a2/frame-end-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

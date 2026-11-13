@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-16/fonzo-wspomnienie",
+  "id": "fonzo-wspomnienie",
+  "title": "09 — Ostatnie spojrzenie",
+  "description": "SCENOPIS v005; 37–39 s.\n\nFonzo zostaje nad jeziorem. Opuszcza wzrok na aparat; cięcie zgodnie z kierunkiem spojrzenia do fotografii po latach.\n\nGRA: Subtelna reakcja i pauza; bez teatralności i mowy Halinki.\n\nDŹWIĘK — PLAN: Pytanie Fonza tylko po odłożeniu odbitki; przedtem bez dialogu.\n\nStatyczna klatka; brak wygenerowanej animacji.",
+  "project": {
+    "id": "zlote-emoji-16",
+    "key": "project:zlote-emoji-16",
+    "name": "Złote Emoji #16",
+    "createdAt": "2026-11-06T18:54:57.286Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-16",
+    "projectCreatedAt": "2026-11-06T18:54:57.286Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 13,
+    "lastSequence": 13,
+    "occurrences": [
+      13
+    ],
+    "sequenceTotal": 16,
+    "uniqueShotCount": 16,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "fonzo-zostaje"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:fonzo-zostaje",
+        "key": "shot:zlote-emoji-16/fonzo-zostaje",
+        "type": "shot",
+        "id": "fonzo-zostaje",
+        "name": "09 — To, co zostało",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/fonzo-zostaje.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:fonzo-zostaje"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:fonzo-zostaje",
+            "key": "shot:zlote-emoji-16/fonzo-zostaje",
+            "type": "shot",
+            "id": "fonzo-zostaje",
+            "name": "09 — To, co zostało",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/fonzo-zostaje.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Reuse approved Start Frame of fonzo-zostaje unchanged. Editorial split to2seconds; no new generation.",
+    "endFrameDescription": "",
+    "animation": "0.0–0.8s: Fonzo watches the women offscreen left; his faint smile slowly fades. 0.8–1.8s: he lowers his eyes toward the camera held at his abdomen, without lifting or turning the camera. 1.8–3.0s: he remains still with a quiet, thoughtful expression and relaxed closed mouth. Camera: locked medium shot. Secondary motion: subtle breathing and a slight settling of the camera strap. Preserve his youthful face, hair, clothes, hands, camera and lake setting. No tears, speech, camera operation, cuts, fading, aging or facial transformation."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:fonzo-zostaje"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:fonzo-zostaje",
+          "key": "shot:zlote-emoji-16/fonzo-zostaje",
+          "type": "shot",
+          "id": "fonzo-zostaje",
+          "name": "09 — To, co zostało",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/fonzo-zostaje.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-07T00:07:58.463974+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:fonzo-zostaje"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:fonzo-zostaje",
+              "key": "shot:zlote-emoji-16/fonzo-zostaje",
+              "type": "shot",
+              "id": "fonzo-zostaje",
+              "name": "09 — To, co zostało",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/fonzo-zostaje.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-16/shots/fonzo-wspomnienie/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-16/shots/fonzo-wspomnienie/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

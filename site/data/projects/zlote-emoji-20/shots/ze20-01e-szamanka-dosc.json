@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-20/ze20-01e-szamanka-dosc",
+  "id": "ze20-01e-szamanka-dosc",
+  "title": "Szamanka — Dość, błysk oczu",
+  "description": "10,67–11,88 s: ciasny portret 100 mm według Blender D04, dokładnie na Dość. Twarde spojrzenie w prawo, ściągnięte brwi, krótki akcent laską; obie tęczówki rozjarzone błękitną energią. Kamień za nią ciemny: nie jest to jeszcze otwarcie portalu. Korekta ruchu: błękit istnieje już w Start Frame; po akcencie laską narasta, następnie słabnie. Kamień pozostaje ciemny.",
+  "project": {
+    "id": "zlote-emoji-20",
+    "key": "project:zlote-emoji-20",
+    "name": "Złote Emoji #20",
+    "createdAt": "2026-11-12T06:49:40.532Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-20",
+    "projectCreatedAt": "2026-11-12T06:49:40.532Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 5,
+    "lastSequence": 5,
+    "occurrences": [
+      5
+    ],
+    "sequenceTotal": 27,
+    "uniqueShotCount": 27,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "ze20-01b-szamanka-surowa"
+    },
+    {
+      "type": "character",
+      "id": "szamanka-rodu-diaxi"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:ze20-01b-szamanka-surowa",
+        "key": "shot:zlote-emoji-20/ze20-01b-szamanka-surowa",
+        "type": "shot",
+        "id": "ze20-01b-szamanka-surowa",
+        "name": "Szamanka — surowa odpowiedź",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-01b-szamanka-surowa.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:szamanka-rodu-diaxi",
+        "key": "character:szamanka-rodu-diaxi",
+        "type": "character",
+        "id": "szamanka-rodu-diaxi",
+        "name": "Szamanka rodu DIAXI — matka",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/szamanka-rodu-diaxi.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:ze20-01b-szamanka-surowa",
+          "character:szamanka-rodu-diaxi"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze20-01b-szamanka-surowa",
+            "key": "shot:zlote-emoji-20/ze20-01b-szamanka-surowa",
+            "type": "shot",
+            "id": "ze20-01b-szamanka-surowa",
+            "name": "Szamanka — surowa odpowiedź",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-01b-szamanka-surowa.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:szamanka-rodu-diaxi",
+            "key": "character:szamanka-rodu-diaxi",
+            "type": "character",
+            "id": "szamanka-rodu-diaxi",
+            "name": "Szamanka rodu DIAXI — matka",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/szamanka-rodu-diaxi.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "ONE photoreal live-action dramatic fantasy film still, landscape16:9. Image1 is Blender D04 camera authority ONLY: tight100mm head/face close-up with the dark carved standing stone behind, staff at far left edge. Never copy mannequin materials. Image2 is primary continuity: EXACT same elderly shaman, face, costume, silver braids, tattoos, lighting and screen-right gaze from the previous stern shot. Image3 is absolute facial identity and age authority. The dramatic sharp interruption 'Enough!' captured as a powerful single close-up. Same woman, chin lowered, brows forcefully drawn together, gaze locked toward SCREEN RIGHT at DIAXI offscreen, lips parted with a short forceful word, not a wide scream. Both irises visibly blaze with icy BLUE MAGICAL ENERGY: fine intricate bright electric-blue filaments confined inside the irises, luminous cyan cores, slight reflected blue on lower lids and creased skin around eyes. Preserve eye anatomy, both eyes equally energized, retain iris detail, do not erase eyes with white blobs. The effect is powerful and clearly readable but photographic and localized: no lasers, no energy flying out, no floating runes, no flames. The stone behind stays COMPLETELY DARK AND UNLIT: this is her stern warning, not portal activation. One black-feather wooden staff remains partly visible at the far LEFT, held in the same hand offscreen; shoulder set firmly after one staff-stamp, no extra hands. Tight100mm framing face fills image vertically, entire forehead marking and mouth readable, wrinkles and pores tactile, dark feather mantle at lower corners, silver stray hairs. Cold overcast light and gentle contrast, fine film grain, actual human scale, controlled optical shallow depth. No new people, facial redesign, plastic CGI, captions, subtitles or watermark.",
+    "endFrameDescription": "",
+    "animation": "0.0–0.25s: the elder makes one short downward chin accent; the visible staff shaft drops a few centimeters and stops, its ground contact staying offscreen. 0.25–0.8s: the blue energy already visible in both irises briefly intensifies; her gaze remains fixed toward screen right. 0.8–1.2s: the existing glow weakens. 1.2–3.0s: hold, without another strike. Camera: locked. @Image1 preserves only the existing elder’s facial identity, age and tattoos; retain the Start Frame eye effect and lighting. Preserve the staff grip, eye anatomy and dark stone. No beams, new objects, extra limbs, cut, morph or captions."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze20-01b-szamanka-surowa",
+        "character:szamanka-rodu-diaxi"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze20-01b-szamanka-surowa",
+          "key": "shot:zlote-emoji-20/ze20-01b-szamanka-surowa",
+          "type": "shot",
+          "id": "ze20-01b-szamanka-surowa",
+          "name": "Szamanka — surowa odpowiedź",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-01b-szamanka-surowa.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:szamanka-rodu-diaxi",
+          "key": "character:szamanka-rodu-diaxi",
+          "type": "character",
+          "id": "szamanka-rodu-diaxi",
+          "name": "Szamanka rodu DIAXI — matka",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/szamanka-rodu-diaxi.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-12T23:31:17.675498+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze20-01b-szamanka-surowa",
+            "character:szamanka-rodu-diaxi"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze20-01b-szamanka-surowa",
+              "key": "shot:zlote-emoji-20/ze20-01b-szamanka-surowa",
+              "type": "shot",
+              "id": "ze20-01b-szamanka-surowa",
+              "name": "Szamanka — surowa odpowiedź",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-01b-szamanka-surowa.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:szamanka-rodu-diaxi",
+              "key": "character:szamanka-rodu-diaxi",
+              "type": "character",
+              "id": "szamanka-rodu-diaxi",
+              "name": "Szamanka rodu DIAXI — matka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/szamanka-rodu-diaxi.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-01e-szamanka-dosc/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-01e-szamanka-dosc/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

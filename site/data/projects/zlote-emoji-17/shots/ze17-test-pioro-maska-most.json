@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-17/ze17-test-pioro-maska-most",
+  "id": "ze17-test-pioro-maska-most",
+  "title": "ZE17 — pióro: maska → krawędź mostu",
+  "description": "Kolejny test ciągłości ZE17; f0337-v003 → f0385-v001. Pełne3s bez wymuszonego przyspieszenia. Bez zmian timeline. Źródła i prompty obrazów: _system/frame-studies-v002/jobs/.",
+  "project": {
+    "id": "zlote-emoji-17",
+    "key": "project:zlote-emoji-17",
+    "name": "Złote Emoji #17",
+    "createdAt": "2026-11-08T21:24:33.398Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-17",
+    "projectCreatedAt": "2026-11-08T21:24:33.398Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": false,
+    "canonicalEvent": false,
+    "sequence": null,
+    "lastSequence": null,
+    "occurrences": [],
+    "sequenceTotal": 24,
+    "uniqueShotCount": 24,
+    "sequenceOrder": null,
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This project material is not present on the saved timeline, so it must not override canonical timeline events by date alone."
+  },
+  "references": [
+    {
+      "type": "place",
+      "id": "poznan-most-dworcowy"
+    },
+    {
+      "type": "prop",
+      "id": "betoniara-team"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "place:poznan-most-dworcowy",
+        "key": "place:poznan-most-dworcowy",
+        "type": "place",
+        "id": "poznan-most-dworcowy",
+        "name": "Poznań — Most Dworcowy i tory",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/poznan-most-dworcowy.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:betoniara-team",
+        "key": "prop:betoniara-team",
+        "type": "prop",
+        "id": "betoniara-team",
+        "name": "Betoniara Team — GRUZAR G84",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/betoniara-team.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "prop:betoniara-team"
+        ],
+        "references": [
+          {
+            "sourceKey": "prop:betoniara-team",
+            "key": "prop:betoniara-team",
+            "type": "prop",
+            "id": "betoniara-team",
+            "name": "Betoniara Team — GRUZAR G84",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/betoniara-team.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      },
+      {
+        "frameId": "frame-end",
+        "revision": 1,
+        "referenceKeys": [],
+        "references": [],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Generate a NEW photorealistic frame. Images1 and4 repeat the exact Blender camera and geometry to preserve. Image2 gives canonical mixertruck finishes, image3 real Poznań materials. Do not change camera or crop.\nWhite feather at center is SMALL, bboxx44–54%,y47–53%. Its BARE QUILL is on LEFT, broad vaned TIP on RIGHT: copy the Blender silhouette, do not reverse it. Quill's thin bare shaft protrudes LEFTWARD. Feather nearlyhorizontal, floating above carhood.\nGrey cubic car foreground becomes a realistic silver sedan INSIDE same silhouette: hood frontleft cornerx20%,y68%; hood/cabin junctionx54%,y49%; car croppedbottom/right. Camera steeply fromABOVE, not carwindowheight. Windshield and roof must not expand into hood's space. Upper part shows ONLY cropped rear tandem truck wheels atx36%and50%,y20% and chrome tank upperright. Mixer front/cab OFFSCREEN RIGHT, drivingright, no leftfront bumper. Real tires/chassis, no additional wheels. Asphalt under them, dusk bluefill/warmstreetlight. No people, no text overlays. Projected sizes and object positions from image1 mandatory.",
+    "endFrameDescription": "ZE17 — pióro: maska → krawędź mostu",
+    "animation": "0–3s: The single feather is already hovering above the hood. It drifts clear of the car toward the bridge edge, passes over the edge through open air and descends outside the concrete fascia, reaching the End Frame above the railway. Camera: continuously follows the descending feather, keeping it visible as the road moves upward out of view and tracks appear below. Airflow gently rolls the feather upright and flexes its barbs. The car continues screen left and the truck screen right, leaving view without reversing. Use @Image1 only for bridge-over-railway structure and materials, not its aerial viewpoint or daylight. Use @Image2 for the departing truck's design. Preserve dusk, rigid infrastructure and feather identity. No cuts, morphing, duplicates or passage through concrete or vehicles."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "prop:betoniara-team"
+      ],
+      "references": [
+        {
+          "sourceKey": "prop:betoniara-team",
+          "key": "prop:betoniara-team",
+          "type": "prop",
+          "id": "betoniara-team",
+          "name": "Betoniara Team — GRUZAR G84",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/betoniara-team.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-08T21:39:29.137596+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "prop:betoniara-team"
+          ],
+          "references": [
+            {
+              "sourceKey": "prop:betoniara-team",
+              "key": "prop:betoniara-team",
+              "type": "prop",
+              "id": "betoniara-team",
+              "name": "Betoniara Team — GRUZAR G84",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/betoniara-team.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-test-pioro-maska-most/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-test-pioro-maska-most/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "role": "frame-end",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [],
+      "references": [],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-08T21:39:29.137596+00:00",
+          "source": "generated",
+          "referenceKeys": [],
+          "references": [],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-test-pioro-maska-most/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-test-pioro-maska-most/frame-end-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

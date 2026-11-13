@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "character:van-sabe-wilcze-odbicie",
+  "type": "characters",
+  "id": "van-sabe-wilcze-odbicie",
+  "name": "Van Sabe — wilcze odbicie",
+  "description": "Wariant Vana wyłącznie do nadnaturalnego odbicia w finale ZE18. Wilcza głowa, ciemne futro i brązowe oczy; zachowany czarny strój, wisiorek i skórzany pas torby. Nie ustanawia fizycznej przemiany w baraku. Matczyna forma: character:olivia-wilczyca.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "portrait",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/van-sabe-wilcze-odbicie/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/van-sabe-wilcze-odbicie/image-001-thumb.webp",
+      "width": 1254,
+      "height": 1254,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-11-09T16:26:20.672561+00:00"
+}

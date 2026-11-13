@@ -1,0 +1,256 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-17/ze17-ciagle-08-osobowka-do-mostu",
+  "id": "ze17-ciagle-08-osobowka-do-mostu",
+  "title": "ZE17 08 — osobowka do mostu",
+  "description": "Fragment 8/18 jednego ciągłego ujęcia. First f0337 → Last f0385. 3 s, 24 fps, normalne tempo 1×; bez przyspieszania. Pozycja w sekwencji: 21–24 s. Last jest identyczny plikowo z First następnego shota. Tło bez pióra; pióro będzie warstwą z Blendera. Wybrane obrazy zachowują różnice odnotowane w _system/clean-plates-v001/pair-audit-v003.json; przygotowanie shota nie oznacza zatwierdzenia wszystkich detali.",
+  "project": {
+    "id": "zlote-emoji-17",
+    "key": "project:zlote-emoji-17",
+    "name": "Złote Emoji #17",
+    "createdAt": "2026-11-08T21:24:33.398Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-17",
+    "projectCreatedAt": "2026-11-08T21:24:33.398Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 8,
+    "lastSequence": 8,
+    "occurrences": [
+      8
+    ],
+    "sequenceTotal": 24,
+    "uniqueShotCount": 24,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "prop",
+      "id": "betoniara-team"
+    },
+    {
+      "type": "place",
+      "id": "poznan-most-dworcowy"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "prop:betoniara-team",
+        "key": "prop:betoniara-team",
+        "type": "prop",
+        "id": "betoniara-team",
+        "name": "Betoniara Team — GRUZAR G84",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/betoniara-team.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:poznan-most-dworcowy",
+        "key": "place:poznan-most-dworcowy",
+        "type": "place",
+        "id": "poznan-most-dworcowy",
+        "name": "Poznań — Most Dworcowy i tory",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/poznan-most-dworcowy.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "prop:betoniara-team",
+          "place:poznan-most-dworcowy"
+        ],
+        "references": [
+          {
+            "sourceKey": "prop:betoniara-team",
+            "key": "prop:betoniara-team",
+            "type": "prop",
+            "id": "betoniara-team",
+            "name": "Betoniara Team — GRUZAR G84",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/betoniara-team.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "place:poznan-most-dworcowy",
+            "key": "place:poznan-most-dworcowy",
+            "type": "place",
+            "id": "poznan-most-dworcowy",
+            "name": "Poznań — Most Dworcowy i tory",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/poznan-most-dworcowy.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      },
+      {
+        "frameId": "frame-end",
+        "revision": 1,
+        "referenceKeys": [
+          "place:poznan-most-dworcowy"
+        ],
+        "references": [
+          {
+            "sourceKey": "place:poznan-most-dworcowy",
+            "key": "place:poznan-most-dworcowy",
+            "type": "place",
+            "id": "poznan-most-dworcowy",
+            "name": "Poznań — Most Dworcowy i tory",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/poznan-most-dworcowy.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Create a NEW photorealistic single 16:9 film frame, no edits of previous outputs. Image1 is the precise camera layout. Image2 explains the same camera with mixer hidden plus projected vanishing points; colored rectangles at its TOP LEFT are ACTUAL projected object bounds from Blender. Treat these bounds as composition constraints, not visible graphics. Generate one photographic frame, never a diagram or collage. Blue dusk. Burgundy/gold mixer on a ROAD VIADUCT 8.6 metres above railway ground. Use realistic architecture and materials instead of Blender primitive surfaces. No feather, captions, watermark or extra objects. Image3 supplies mixer materials ONLY, not direction or camera. Image4 supplies concrete/asphalt/railway textures only. This shot looks STEEPLY DOWN at road and the two vehicles. Horizon is 24.7% of image height ABOVE THE TOP EDGE, therefore NO SKY, NO SKYLINE, NO DISTANT BUILDINGS OR PANORAMIC RAILWAY VISTA are visible. Viaduct is established by concrete parapet barely at top, not by reframing. Truck FRONT points to RIGHT and is outside frame; REAR lies to LEFT and is mostly cropped. Do NOT reverse truck. Two rear wheels fit exactly the two colored boxes: LEFT WHEEL x30.2–43.4%, y5.8–29.6%; RIGHT WHEEL x43.5–57.7%, y7.6–32.7%. These are SMALL wheels near the TOP, not giant wheels occupying half the image. Chrome rectangular fuel tank is to their RIGHT, near x65–86%, y5–23%. Drum is almost completely ABOVE frame. Silver passenger car occupies lower-right; its forward hood reaches toward lower-left, frontmost hood corner around x20%,y68%, windshield base near x54%,y72%, roof near x68%,y28%. Replace its angular primitive with a natural sedan hood and windshield while preserving footprint. Maintain overhead-downward view from image1. Do not lower camera to wheel height or add station views.",
+    "endFrameDescription": "Wspólna klatka graniczna f0385; dokładne zakończenie segmentu i początek następnego.",
+    "animation": "0-3s: Glide outward beyond the roadway parapet and descend along its exterior face. The moving car and mixer leave above the frame; the stationary bridge fascia rises into the foreground, exposing tracks below. Traffic moves continuously nose-first along the lanes relative to the fixed road; visible wheels roll, lane spacing stays constant. No vehicle stops for the camera. Preserve truck fittings, lettering, lights and vehicle proportions. Camera motion continues through both boundaries, reaching the supplied End Frame at 3s. Keep architecture rigid and dusk exposure stable. No feather, cuts, dissolves, morphs or new people. @Image1: the same mixer design only; retain the Start/End crop and visible fittings. @Image2: railway materials only, not daylight or camera layout."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "video-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "prop:betoniara-team",
+        "place:poznan-most-dworcowy"
+      ],
+      "references": [
+        {
+          "sourceKey": "prop:betoniara-team",
+          "key": "prop:betoniara-team",
+          "type": "prop",
+          "id": "betoniara-team",
+          "name": "Betoniara Team — GRUZAR G84",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/betoniara-team.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "place:poznan-most-dworcowy",
+          "key": "place:poznan-most-dworcowy",
+          "type": "place",
+          "id": "poznan-most-dworcowy",
+          "name": "Poznań — Most Dworcowy i tory",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/poznan-most-dworcowy.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-09T00:22:05.587932+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "prop:betoniara-team",
+            "place:poznan-most-dworcowy"
+          ],
+          "references": [
+            {
+              "sourceKey": "prop:betoniara-team",
+              "key": "prop:betoniara-team",
+              "type": "prop",
+              "id": "betoniara-team",
+              "name": "Betoniara Team — GRUZAR G84",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/betoniara-team.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:poznan-most-dworcowy",
+              "key": "place:poznan-most-dworcowy",
+              "type": "place",
+              "id": "poznan-most-dworcowy",
+              "name": "Poznań — Most Dworcowy i tory",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/poznan-most-dworcowy.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-ciagle-08-osobowka-do-mostu/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-ciagle-08-osobowka-do-mostu/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "role": "frame-end",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "place:poznan-most-dworcowy"
+      ],
+      "references": [
+        {
+          "sourceKey": "place:poznan-most-dworcowy",
+          "key": "place:poznan-most-dworcowy",
+          "type": "place",
+          "id": "poznan-most-dworcowy",
+          "name": "Poznań — Most Dworcowy i tory",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/poznan-most-dworcowy.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-09T00:22:05.587932+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "place:poznan-most-dworcowy"
+          ],
+          "references": [
+            {
+              "sourceKey": "place:poznan-most-dworcowy",
+              "key": "place:poznan-most-dworcowy",
+              "type": "place",
+              "id": "poznan-most-dworcowy",
+              "name": "Poznań — Most Dworcowy i tory",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/poznan-most-dworcowy.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-ciagle-08-osobowka-do-mostu/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-ciagle-08-osobowka-do-mostu/frame-end-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

@@ -3,6 +3,7 @@ import path from 'node:path';
 import process from 'node:process';
 import sharp from 'sharp';
 import { prepareSystemData } from './system-data.mjs';
+import { resourceManifests } from './resource-manifests.mjs';
 
 const args = parseArgs(process.argv.slice(2));
 const repoRoot = path.resolve(import.meta.dirname, '..');
@@ -42,40 +43,33 @@ const brandShows = hasMftvBrand ? [
   {
     id: 'wtorki-powtorki', key: 'show:wtorki-powtorki', name: 'Wtorki Powtórki', shortName: 'WP+',
     schedule: {
-      day: 'wtorek',
-      time: '20:15',
+      recurrence: 'Format historyczny; aktualny planer rozdziela A-38 między poniedziałek, środę, czwartek i piątek. Termin potwierdza konkretna zaplanowana audycja.',
       timezone: 'Europe/Warsaw',
-      recurrence: 'wybrane wtorki, gdy kolejka zawiera co najmniej 30 minut materiału',
     },
-    summary: 'Nieregularna audycja na życzenie, w której zaakceptowane utwory wracają na antenę dzięki Formularzowi A-38.',
-    description: 'Wtorki Powtórki to audycja MFTV budowana z kolejki utworów wskazanych przez twórców za pomocą Formularza A-38 kupowanego w komisie Włodka. Wybrany utwór może być prawdziwą powtórką albo utworem zaakceptowanym, który jeszcze nie miał pierwszej emisji. Audycja może pojawić się w wybrany wtorek o 20:15, jeśli kolejka zawiera co najmniej 30 minut materiału; przy krótszej kolejce wydanie jest pomijane, a zgłoszenia czekają dalej. Widzowie ponownie głosują emoji na istniejący, skumulowany wynik utworu. Powrót może więc poprawić jego pozycję albo ją pogorszyć, jeśli odbiorcy zmienią lub wycofają wcześniejsze reakcje.',
-    audience: 'Dla twórców chcących wskazać konkretny zaakceptowany utwór oraz dla widzów, którzy chcą ponownie ocenić zapamiętane lub przeoczone numery.',
+    status: 'legacy-format',
+    verifiedAt: '2026-11-13',
+    verificationScope: 'Aktualny kod i NEWWEEK.md; eksport katalogu nie jest wdrożeniem planera.',
+    summary: 'Historyczna osobna audycja wtorkowa. Kolejka A-38 pozostaje, a nowy planer rezerwuje do jednej powtórki w każdym z czterech zwykłych dni.',
+    description: 'Wtorki Powtórki to dawna nazwa osobnej audycji. Obecny kod planera pomija osobny wtorek i najpierw przydziela najstarsze obsługiwalne podania A-38 do poniedziałku, środy, czwartku i piątku, maksymalnie jedno na dzień. Dopasowanie muzyczne jest preferencją, nie samodzielną blokadą podania. Archiwalne audycje i tag wtorki-powtorki pozostają. Publikacja tego katalogu nie potwierdza wdrożenia kodu; konkretną emisję potwierdza ramówka.',
     rules: [
-      'Do kolejki trafia wyłącznie utwór zaakceptowany w MFTV i należący do zalogowanego, zweryfikowanego kanału.',
-      'Jedno użycie Formularza A-38 zgłasza jeden utwór do jednej przyszłej emisji Wtorków Powtórek.',
-      'Utwór nie musi mieć wcześniejszej emisji; zaakceptowany numer może zadebiutować właśnie w tej audycji.',
-      'Tego samego utworu nie można zgłosić ponownie, dopóki już czeka w kolejce.',
-      'Kolejka obejmuje aktywne, nieukryte utwory oznaczone tagiem wtorki-powtorki; najstarsze zgłoszenia są ustawiane przed nowszymi, a przy remisie rozstrzyga tytuł.',
-      'W jednym odcinku może wystąpić kilka utworów tego samego twórcy. Format nie zużywa miejsca kanału w zwykłym cyklu rankingowym.',
-      'Odcinek odbywa się tylko wtedy, gdy oczekujące utwory dają łącznie co najmniej 30 minut materiału. Przy krótszej kolejce operator pomija wtorkową audycję, a zgłoszenia zachowują miejsce na kolejny termin.',
-      'Głosowanie nie tworzy osobnego wyniku powtórki. Nowe głosy, zmiany i wycofania reakcji aktualizują skumulowany wynik utworu używany przez listę Złotego Emoji.',
-      'Wynik nie jest zerowany na początku Wtorków. Ponowny głos jednego widza zastępuje jego wcześniejszy zestaw reakcji; mniejszy zestaw obniża sumę, a słabsze emoji mogą pogorszyć punktację jakościową rozstrzygającą remisy. Brak nowego głosu nie usuwa automatycznie poprzedniego.',
-      'Powrót może podnieść utwór, ale zirytowani widzowie mogą również obniżyć jego wynik, zepchnąć go na dalsze miejsce lub pozbawić kwalifikacji do Złotego Emoji.',
-      'Spadek wyniku nie odbiera twórcy łupów wypłaconych wcześniej; ekonomia dopisuje tylko dodatnie przyrosty nowych reakcji.',
-      'Po co najmniej 10 sekundach odtworzenia emisja jest uznawana za wykonaną i znacznik oczekiwania znika. Utwór pominięty wcześniej pozostaje w kolejce.',
+      'A-38 dotyczy własnego zaakceptowanego utworu w bibliotece; backend nie wymaga wcześniejszej emisji, mimo że część tekstów rozmowy opisuje powrót wcześniej granego kawałka.',
+      'Nie można zgłosić ponownie utworu, który już czeka w kolejce.',
+      'Nowy planer rezerwuje miejsca A-38 przed nowościami. Nowość i A-38 jednego autora mogą trafić do różnych dni cyklu, ale nie do tej samej audycji.',
+      'Po nowościach i wyrównaniu długości osobne dogrywki dopełniają krótsze dni do około 45 minut muzyki. To miękki cel, nie gwarantowane minimum; poniżej 30 minut pozostaje próg odwołania.',
+      'DOGRYWKA jest wcześniej granym teledyskiem z archiwum, a POWTÓRKA realizacją A-38. Oczekujące podania nie są zwykłymi wypełniaczami.',
+      'Zakup, użycie A-38 i zapis planu nie przywracają sztuki do sklepu. Dopiero rozliczona emisja z głosowaniem spalająca tag i ważną rezerwację zwalnia jedną sztukę. Daily bez głosowania nie realizuje podania.',
+      'Głosy aktualizują istniejący wynik utworu. Ponowny głos tego samego widza zastępuje wcześniejszy zestaw, więc wynik może wzrosnąć albo spaść. Wcześniej wypłacone łupy nie są odbierane.',
+      'A-38 nie rezerwuje konkretnego wieczoru. Prognoza Włodka dotyczy dostawy nowych druków po emisji, nie gwarancji terminu ani rezerwacji towaru.',
     ],
     userGuide: {
-      title: 'Jak zgłosić utwór krok po kroku',
+      title: 'Jak zgłosić utwór',
       steps: [
-        'Zaloguj się w MFTV zweryfikowanym kanałem YouTube.',
-        'Zbieraj łupy za udział w audycjach i reakcje widzów, a w razie potrzeby wymieniaj je w kantorze komisu Włodka.',
-        'Wejdź do sklepu Włodka i kup Formularz A-38. Oferta musi być aktywna, na stanie, a sakiewka musi zawierać pełną cenę wszystkich wymaganych walut.',
-        'Po zakupie poczekaj, aż A-38 pojawi się w Twoich łupach, następnie otwórz ekwipunek i wybierz jego użycie.',
-        'Wklej link YouTube do własnego, zaakceptowanego utworu. System odrzuci cudzy, niezaakceptowany, nieobecny w bibliotece lub już oczekujący numer.',
-        'Potwierdź użycie. Formularz zostanie zużyty, a utwór otrzyma znacznik Powtórka? i trafi do kolejki Wtorków Powtórek.',
-        'Poczekaj, aż kolejka osiągnie co najmniej 30 minut materiału i operator zaplanuje jeden z wybranych wtorków o 20:15. Przy krótszej kolejce wydanie zostaje pominięte, ale zgłoszenie nie przepada.',
+        'Zaloguj się zweryfikowanym kanałem YouTube i kup Formularz A-38 u Włodka, według aktualnej oferty.',
+        'Otwórz ekwipunek, użyj formularza i wskaż link do własnego zaakceptowanego utworu.',
+        'Potwierdź: przedmiot zostaje zużyty, a podanie czeka w kolejce do realizacji.',
+        'Sprawdzaj konkretną zaplanowaną audycję; nazwa historycznego tagu nie obiecuje wtorkowego terminu.',
       ],
-      important: 'A-38 jest zużywalny i po użyciu znika z ekwipunku. Jednocześnie sklep odzyskuje dokładnie jedną sztukę stanu: jest to nowy pusty formularz/zwolniony slot, nie powrót wypełnionego dokumentu do właściciela.',
+      important: 'Wypełniony formularz nie wraca do właściciela. Nowa sztuka do sprzedaży pojawia się po rozliczeniu ważnej rezerwacji przy emisji z głosowaniem.',
     },
     shopMechanics: {
       merchant: 'Włodek — character:komisant',
@@ -94,7 +88,7 @@ const brandShows = hasMftvBrand ? [
         'Zakup wymaga pełnej ceny; nie ma płatności częściowej ani sprzedaży na kredyt.',
         'Cena i stan są sprawdzane ponownie przy zatwierdzeniu. Jeśli oferta zmieniła się w międzyczasie, trzeba odświeżyć sklep.',
         'Udany zakup jednocześnie odejmuje komplet walut, zmniejsza stan sklepu o jeden i zapisuje nowy łup. Nie ma stanu pośredniego, w którym znika zapłata bez przedmiotu.',
-        'Po prawidłowym użyciu A-38 stan produktu rośnie o dokładnie jeden, dzięki czemu formularze krążą między sklepem a twórcami.',
+        'Stan produktu rośnie o jeden dopiero po rozliczonej emisji z głosowaniem i zwolnieniu ważnej rezerwacji A-38; samo użycie nie uzupełnia sklepu.',
       ],
     },
     lootAndVoting: {
@@ -592,10 +586,7 @@ async function writeUniverseDirectory() {
 }
 
 async function buildResources() {
-  const entries = await readdir(worldRoot, { withFileTypes: true });
-  for (const category of entries.filter((entry) => entry.isDirectory() && entry.name !== 'projects')) {
-    const categoryRoot = path.join(worldRoot, category.name);
-    for (const manifestPath of await findNamedFiles(categoryRoot, 'resource.json')) {
+    for (const manifestPath of await resourceManifests(worldRoot)) {
       const manifest = await readJson(manifestPath);
       if (!manifest?.id || !manifest?.type) continue;
 
@@ -651,7 +642,6 @@ async function buildResources() {
       resourceEntriesByKey.set(key, listing);
       searchEntries.push(listing);
     }
-  }
 }
 
 async function buildProjects() {

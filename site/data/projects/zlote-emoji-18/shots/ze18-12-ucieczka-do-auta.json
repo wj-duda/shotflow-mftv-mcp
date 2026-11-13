@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-18/ze18-12-ucieczka-do-auta",
+  "id": "ze18-12-ucieczka-do-auta",
+  "title": "II — Ucieczka do Poloneza",
+  "description": "Plan ogólny, powrót do geografii 03: auto po lewej, dąb po prawej. Start: Czesław po prawej z pakunkiem pod pachą. Akcja: biegnie prawo–lewo do auta. Odwrócenie wcześniejszego kierunku dojścia oznacza wycofanie. Bez pokazywania odjazdu i skomplikowanej obsługi drzwi w tym samym ujęciu.\nKOSTIUM PO ELIPSIE: biegnie nadal bez koszuli i marynarki, w tych samych grafitowych spodniach; oba ubrania niesie zawinięte w koc. Nie ubierać go automatycznie według pełnej sylwetki referencyjnej.\nTAKE — AUDYT: widoczne 107 klatek (4.458 s) przy 24 fps; zakres źródła 0.000–4.458 s; generacja 5 s. Natywne audio wyłączone w planie; montaż pozostaje bez zmian.",
+  "project": {
+    "id": "zlote-emoji-18",
+    "key": "project:zlote-emoji-18",
+    "name": "Złote Emoji #18",
+    "createdAt": "2026-11-09T15:18:48.889Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-18",
+    "projectCreatedAt": "2026-11-09T15:18:48.889Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 15,
+    "lastSequence": 15,
+    "occurrences": [
+      15
+    ],
+    "sequenceTotal": 18,
+    "uniqueShotCount": 18,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "czeslaw-mlody"
+    },
+    {
+      "type": "prop",
+      "id": "koc-czeslawa-1985"
+    },
+    {
+      "type": "prop",
+      "id": "polonez-czeslawa-1985"
+    },
+    {
+      "type": "place",
+      "id": "lasy-kozlowieckie-polana-1985"
+    },
+    {
+      "type": "shot",
+      "id": "ze18-03-polonez-przy-lesie"
+    },
+    {
+      "type": "shot",
+      "id": "ze18-07-przebudzenie"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:czeslaw-mlody",
+        "key": "character:czeslaw-mlody",
+        "type": "character",
+        "id": "czeslaw-mlody",
+        "name": "Czesław — 1985",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw-mlody.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:koc-czeslawa-1985",
+        "key": "prop:koc-czeslawa-1985",
+        "type": "prop",
+        "id": "koc-czeslawa-1985",
+        "name": "Koc Czesława — 1985",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/koc-czeslawa-1985.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:polonez-czeslawa-1985",
+        "key": "prop:polonez-czeslawa-1985",
+        "type": "prop",
+        "id": "polonez-czeslawa-1985",
+        "name": "Polonez Czesława — 1985",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/polonez-czeslawa-1985.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:lasy-kozlowieckie-polana-1985",
+        "key": "place:lasy-kozlowieckie-polana-1985",
+        "type": "place",
+        "id": "lasy-kozlowieckie-polana-1985",
+        "name": "Lasy Kozłowieckie — droga i polana, 1985",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lasy-kozlowieckie-polana-1985.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze18-03-polonez-przy-lesie",
+        "key": "shot:zlote-emoji-18/ze18-03-polonez-przy-lesie",
+        "type": "shot",
+        "id": "ze18-03-polonez-przy-lesie",
+        "name": "I — Przyjazd Polonezem",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-03-polonez-przy-lesie.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze18-07-przebudzenie",
+        "key": "shot:zlote-emoji-18/ze18-07-przebudzenie",
+        "type": "shot",
+        "id": "ze18-07-przebudzenie",
+        "name": "II — Czesław budzi się",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-07-przebudzenie.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:ze18-03-polonez-przy-lesie",
+          "shot:ze18-07-przebudzenie",
+          "character:czeslaw-mlody",
+          "prop:koc-czeslawa-1985"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze18-03-polonez-przy-lesie",
+            "key": "shot:zlote-emoji-18/ze18-03-polonez-przy-lesie",
+            "type": "shot",
+            "id": "ze18-03-polonez-przy-lesie",
+            "name": "I — Przyjazd Polonezem",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-03-polonez-przy-lesie.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:ze18-07-przebudzenie",
+            "key": "shot:zlote-emoji-18/ze18-07-przebudzenie",
+            "type": "shot",
+            "id": "ze18-07-przebudzenie",
+            "name": "II — Czesław budzi się",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-07-przebudzenie.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:czeslaw-mlody",
+            "key": "character:czeslaw-mlody",
+            "type": "character",
+            "id": "czeslaw-mlody",
+            "name": "Czesław — 1985",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw-mlody.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:koc-czeslawa-1985",
+            "key": "prop:koc-czeslawa-1985",
+            "type": "prop",
+            "id": "koc-czeslawa-1985",
+            "name": "Koc Czesława — 1985",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/koc-czeslawa-1985.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Single16:9 cinematic wide35mm film still, 1985 Polish forest. Reference1 strict spatial continuity parked plum early Polonez LEFT facingLEFT, sandy roadLEFT, giant forked oakRIGHT; reference2 exact barechested Czeslaw body trousers chainwatch; reference3 exact face; reference4 blanket. Remove Olivia entirely. Czeslaw alone at RIGHT third fullbody in first urgent running step toward LEFT where his car waits, body leaningLEFT face lookingLEFT towardcar. He wears charcoal pleated trousers and blackChelsea boots, bare chest, chainwatch. Firmly tucked under LEFT arm is compact bundled olivebrown plaid blanket containing plum blazer and cream patterned shirt, small cloth edges visible, opposite arm naturally poised to run. Feet believable grounded beginning stride, no exaggerated action jump. Keep parked car exact style four round headlights chrome/black trim small wheels plum paint blackwhite plate LUB 2486, headlightsOFF doorsCLOSED. Road and grass lead diagonally from man's feet to car. Dramatic low camera with dark fern foreground, moonrim on shoulders and car, layered forest depth deep shadows, subtle35mmgrain classic1980s American thriller staging. No wolf, woman, extra people, no shirt magically worn, no text or borders.",
+    "endFrameDescription": "",
+    "animation": "@Image1 identifies the existing Czeslaw, face and hair only; keep his torso bare and trousers on. @Image2 identifies the existing parked Polonez design and LUB 2486 plate, not daylight lighting. @Image3 identifies the existing blanket weave, plaid and fringe, not its reference folding pose. 0.0–3.5s: Czeslaw is already running from screen right to screen left toward the parked Polonez, holding the clothing bundle firmly under his left arm. 3.5–4.3s: he shortens his steps and stops beside the car. 4.3–5.0s: catch his balance, keeping the bundle. Camera: locked-off wide shot. Secondary: his free arm counter-swings and blanket fringe bounces with his stride. Continuity: preserve bare torso, trousers, car geometry, closed doors, lights off and unchanged LUB 2486 lettering. Avoid: no dressing, door opening, driving away, teleporting, sliding feet, extra limbs or cuts."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze18-03-polonez-przy-lesie",
+        "shot:ze18-07-przebudzenie",
+        "character:czeslaw-mlody",
+        "prop:koc-czeslawa-1985"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze18-03-polonez-przy-lesie",
+          "key": "shot:zlote-emoji-18/ze18-03-polonez-przy-lesie",
+          "type": "shot",
+          "id": "ze18-03-polonez-przy-lesie",
+          "name": "I — Przyjazd Polonezem",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-03-polonez-przy-lesie.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ze18-07-przebudzenie",
+          "key": "shot:zlote-emoji-18/ze18-07-przebudzenie",
+          "type": "shot",
+          "id": "ze18-07-przebudzenie",
+          "name": "II — Czesław budzi się",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-07-przebudzenie.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:czeslaw-mlody",
+          "key": "character:czeslaw-mlody",
+          "type": "character",
+          "id": "czeslaw-mlody",
+          "name": "Czesław — 1985",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw-mlody.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:koc-czeslawa-1985",
+          "key": "prop:koc-czeslawa-1985",
+          "type": "prop",
+          "id": "koc-czeslawa-1985",
+          "name": "Koc Czesława — 1985",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/koc-czeslawa-1985.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-09T16:22:57.845126+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze18-03-polonez-przy-lesie",
+            "shot:ze18-07-przebudzenie",
+            "character:czeslaw-mlody",
+            "prop:koc-czeslawa-1985"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze18-03-polonez-przy-lesie",
+              "key": "shot:zlote-emoji-18/ze18-03-polonez-przy-lesie",
+              "type": "shot",
+              "id": "ze18-03-polonez-przy-lesie",
+              "name": "I — Przyjazd Polonezem",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-03-polonez-przy-lesie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ze18-07-przebudzenie",
+              "key": "shot:zlote-emoji-18/ze18-07-przebudzenie",
+              "type": "shot",
+              "id": "ze18-07-przebudzenie",
+              "name": "II — Czesław budzi się",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-07-przebudzenie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:czeslaw-mlody",
+              "key": "character:czeslaw-mlody",
+              "type": "character",
+              "id": "czeslaw-mlody",
+              "name": "Czesław — 1985",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw-mlody.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:koc-czeslawa-1985",
+              "key": "prop:koc-czeslawa-1985",
+              "type": "prop",
+              "id": "koc-czeslawa-1985",
+              "name": "Koc Czesława — 1985",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/koc-czeslawa-1985.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-18/shots/ze18-12-ucieczka-do-auta/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-18/shots/ze18-12-ucieczka-do-auta/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

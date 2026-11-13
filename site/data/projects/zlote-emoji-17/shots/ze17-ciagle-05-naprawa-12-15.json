@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-17/ze17-ciagle-05-naprawa-12-15",
+  "id": "ze17-ciagle-05-naprawa-12-15",
+  "title": "ZE17 05 — naprawa przejścia 12–15 s",
+  "description": "Naprawa wyłącznie 12–15 s. Start: segment-02-144f.mp4 klatka 143. End: segment-03-144f.mp4 klatka 72. Referencja wideo: poprzedzające 3 s gotowego filmu. Pełny payload i audyt: _system/kling4-repair-12-15-v001. Część 15–18 s pozostaje w oryginalnym shocie, take-3, shift 72.",
+  "project": {
+    "id": "zlote-emoji-17",
+    "key": "project:zlote-emoji-17",
+    "name": "Złote Emoji #17",
+    "createdAt": "2026-11-08T21:24:33.398Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-17",
+    "projectCreatedAt": "2026-11-08T21:24:33.398Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 5,
+    "lastSequence": 5,
+    "occurrences": [
+      5
+    ],
+    "sequenceTotal": 24,
+    "uniqueShotCount": 24,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "take",
+      "id": "ze17-ciagle-03-najazd-na-kabine/take-3"
+    },
+    {
+      "type": "take",
+      "id": "ze17-ciagle-05-estebes-kabina-b/take-3"
+    },
+    {
+      "type": "character",
+      "id": "estebes"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "take:ze17-ciagle-03-najazd-na-kabine/take-3",
+        "key": "take:zlote-emoji-17/ze17-ciagle-03-najazd-na-kabine/take-3",
+        "type": "take",
+        "id": "ze17-ciagle-03-najazd-na-kabine/take-3",
+        "name": "ZE17 03 — najazd na kabine / take-3",
+        "relationship": "visible-state-from-take",
+        "shotKey": "shot:zlote-emoji-17/ze17-ciagle-03-najazd-na-kabine",
+        "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-03-najazd-na-kabine.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "take:ze17-ciagle-05-estebes-kabina-b/take-3",
+        "key": "take:zlote-emoji-17/ze17-ciagle-05-estebes-kabina-b/take-3",
+        "type": "take",
+        "id": "ze17-ciagle-05-estebes-kabina-b/take-3",
+        "name": "ZE17 05 — estebes kabina b / take-3",
+        "relationship": "visible-state-from-take",
+        "shotKey": "shot:zlote-emoji-17/ze17-ciagle-05-estebes-kabina-b",
+        "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-05-estebes-kabina-b.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:estebes",
+        "key": "character:estebes",
+        "type": "character",
+        "id": "estebes",
+        "name": "Estebes — kierowca Betoniara Team",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/estebes.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "",
+    "endFrameDescription": "",
+    "animation": "One continuous 3-second shot. Begin at the EXACT supplied Start Frame, already beside the driver-side cab. 0-3s: camera gently pushes closer toward the same closed cab window, reaching the EXACT End Frame composition; never pull back to a full-truck view. The mixer continues nose-first toward screen left; fixed distant scenery slides screen right. Driver stays seated facing the road, lips closed, hands steady on the same steering wheel. @Video1 is PRECEDING footage, only continuity context for this truck, robe, lighting and motion; continue AFTER its ending, do not replay its opening. @Image1 supplies only the existing driver's face and hair, not clothes or pose. Start and End control framing. Preserve rigid mirrors, window, speakers, lettering and natural photographic textures. No feather, cuts, dissolves, morphing, new objects or people. AUDIO: NO MUSIC, no speech; soft engine and city ambience only."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "video-ready",
+  "images": []
+}

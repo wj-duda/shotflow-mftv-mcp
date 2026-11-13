@@ -1,0 +1,276 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-20/ze20-02-spadanie-przy-wodospadzie",
+  "id": "ze20-02-spadanie-przy-wodospadzie",
+  "title": "Spadanie — przejście między światami",
+  "description": "Boczny plan spadania DIAXI przy wodospadzie. Portal jeszcze nie został otwarty; po zanurzeniu i opadaniu nastąpi dotyk szamanki. Aktualny montaż: start 594f, długość 36f (1.500 s), wejście źródła 0f.",
+  "project": {
+    "id": "zlote-emoji-20",
+    "key": "project:zlote-emoji-20",
+    "name": "Złote Emoji #20",
+    "createdAt": "2026-11-12T06:49:40.532Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-20",
+    "projectCreatedAt": "2026-11-12T06:49:40.532Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 12,
+    "lastSequence": 12,
+    "occurrences": [
+      12
+    ],
+    "sequenceTotal": 27,
+    "uniqueShotCount": 27,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "place",
+      "id": "wodospad-brama-diaxi"
+    },
+    {
+      "type": "shot",
+      "id": "ze20-01-rozmowa-nad-wodospadem"
+    },
+    {
+      "type": "character",
+      "id": "diaxi"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "place:wodospad-brama-diaxi",
+        "key": "place:wodospad-brama-diaxi",
+        "type": "place",
+        "id": "wodospad-brama-diaxi",
+        "name": "XIAID — wodospad i kamień bramy",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/wodospad-brama-diaxi.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze20-01-rozmowa-nad-wodospadem",
+        "key": "shot:zlote-emoji-20/ze20-01-rozmowa-nad-wodospadem",
+        "type": "shot",
+        "id": "ze20-01-rozmowa-nad-wodospadem",
+        "name": "Rozmowa nad wodospadem",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-01-rozmowa-nad-wodospadem.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:diaxi",
+        "key": "character:diaxi",
+        "type": "character",
+        "id": "diaxi",
+        "name": "DIAXI",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "place:wodospad-brama-diaxi",
+          "character:diaxi",
+          "shot:ze20-01-rozmowa-nad-wodospadem"
+        ],
+        "references": [
+          {
+            "sourceKey": "place:wodospad-brama-diaxi",
+            "key": "place:wodospad-brama-diaxi",
+            "type": "place",
+            "id": "wodospad-brama-diaxi",
+            "name": "XIAID — wodospad i kamień bramy",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/wodospad-brama-diaxi.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:diaxi",
+            "key": "character:diaxi",
+            "type": "character",
+            "id": "diaxi",
+            "name": "DIAXI",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:ze20-01-rozmowa-nad-wodospadem",
+            "key": "shot:zlote-emoji-20/ze20-01-rozmowa-nad-wodospadem",
+            "type": "shot",
+            "id": "ze20-01-rozmowa-nad-wodospadem",
+            "name": "Rozmowa nad wodospadem",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-01-rozmowa-nad-wodospadem.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "One cinematic photoreal live-action 16:9 film still. Image 1 is camera blocking ONLY: 65mm side view at the height of the falling woman, same framing with woman upper-left/left of center and huge waterfall curtain on the right. Extend vertical field for 16:9; no low-poly or mannequin appearance. Image 2 is the exact natural waterfall materials, height and forested gorge. Image 3 is DIAXI's exact adult identity, body, hair, forehead marking and ORIGINAL outfit. Image 4 is her exact face. Image 5 is clothing and daylight continuity from the preceding dialogue. DIAXI has stepped from the high ledge and is now descending beside the water; in story this is a magical journey through a water gateway, but that explanation has NOT yet been shown. At this instant she is alive and unharmed. Show only one DIAXI in air, FULL BODY about one-third of frame height, slightly tilted feet-down, knees softly bent, hands naturally away from torso for balance, eyes focused down, expression solemn and unreadable. NOT superhero flight or smiling swan dive. Her long highlighted hair and light original layered ivory skirt stream UPWARD in the relative wind while broad ornate brown belt and tall fur-cuffed brown boots remain stable and clearly match original reference. Preserve off-shoulder sleeves, original deep V embroidered lacing and split skirt, do not redesign or add clothing. Dark rock wall recedes behind, finely detailed giant cascade and spray on right, full-size natural physics and perspective. No visible ground, landing, impact, injury, blood, drowning, magic ring, glowing water, other people or duplications. The danger comes from scale and empty space below, leave significant falling space lower in frame. Cold overcast daylight matching dialogue, restrained film grain, realistic fabric and skin, no miniature tilt-shift, CGI or illustration. No captions or watermark.",
+    "endFrameDescription": "",
+    "animation": "0.0–1.5s: DIAXI is already falling feet-first DOWN beside the waterfall, accelerating with gravity and retaining a slight rightward drift from the step. Her head remains above her feet; arms stay loosely separated from her torso. 1.5–3.0s: continue downward without a new gesture. Camera: smooth vertical tracking DOWN, retaining the established side angle; cliff textures travel upward behind her. Hair and dress trail upward relative to her body; the waterfall continues downward. @Element1 preserves the existing DIAXI’s identity, proportions and original costume. No spin, upward flight, hovering, sudden scale change, portal glow, extra limbs, cut, fade or text. Performance: tense, inwardly absorbed, no smile or delighted expression; no exaggerated screaming."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "place:wodospad-brama-diaxi",
+        "character:diaxi",
+        "shot:ze20-01-rozmowa-nad-wodospadem"
+      ],
+      "references": [
+        {
+          "sourceKey": "place:wodospad-brama-diaxi",
+          "key": "place:wodospad-brama-diaxi",
+          "type": "place",
+          "id": "wodospad-brama-diaxi",
+          "name": "XIAID — wodospad i kamień bramy",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/wodospad-brama-diaxi.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:diaxi",
+          "key": "character:diaxi",
+          "type": "character",
+          "id": "diaxi",
+          "name": "DIAXI",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ze20-01-rozmowa-nad-wodospadem",
+          "key": "shot:zlote-emoji-20/ze20-01-rozmowa-nad-wodospadem",
+          "type": "shot",
+          "id": "ze20-01-rozmowa-nad-wodospadem",
+          "name": "Rozmowa nad wodospadem",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-01-rozmowa-nad-wodospadem.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-12T06:49:40.532523+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "place:wodospad-brama-diaxi",
+            "shot:ze20-01-rozmowa-nad-wodospadem",
+            "character:diaxi"
+          ],
+          "references": [
+            {
+              "sourceKey": "place:wodospad-brama-diaxi",
+              "key": "place:wodospad-brama-diaxi",
+              "type": "place",
+              "id": "wodospad-brama-diaxi",
+              "name": "XIAID — wodospad i kamień bramy",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/wodospad-brama-diaxi.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ze20-01-rozmowa-nad-wodospadem",
+              "key": "shot:zlote-emoji-20/ze20-01-rozmowa-nad-wodospadem",
+              "type": "shot",
+              "id": "ze20-01-rozmowa-nad-wodospadem",
+              "name": "Rozmowa nad wodospadem",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-01-rozmowa-nad-wodospadem.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:diaxi",
+              "key": "character:diaxi",
+              "type": "character",
+              "id": "diaxi",
+              "name": "DIAXI",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-11-12T09:45:14.522983+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "place:wodospad-brama-diaxi",
+            "character:diaxi",
+            "shot:ze20-01-rozmowa-nad-wodospadem"
+          ],
+          "references": [
+            {
+              "sourceKey": "place:wodospad-brama-diaxi",
+              "key": "place:wodospad-brama-diaxi",
+              "type": "place",
+              "id": "wodospad-brama-diaxi",
+              "name": "XIAID — wodospad i kamień bramy",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/wodospad-brama-diaxi.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:diaxi",
+              "key": "character:diaxi",
+              "type": "character",
+              "id": "diaxi",
+              "name": "DIAXI",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ze20-01-rozmowa-nad-wodospadem",
+              "key": "shot:zlote-emoji-20/ze20-01-rozmowa-nad-wodospadem",
+              "type": "shot",
+              "id": "ze20-01-rozmowa-nad-wodospadem",
+              "name": "Rozmowa nad wodospadem",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-01-rozmowa-nad-wodospadem.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-02-spadanie-przy-wodospadzie/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-02-spadanie-przy-wodospadzie/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

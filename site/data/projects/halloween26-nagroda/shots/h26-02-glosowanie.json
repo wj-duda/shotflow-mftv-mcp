@@ -1,0 +1,277 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:halloween26-nagroda/h26-02-glosowanie",
+  "id": "h26-02-glosowanie",
+  "title": "I — Głosowanie zamknięte",
+  "description": "Plan średni kamery B, referencja geometrii h26-barak-geometria. Czesław za lewą częścią biurka, koperta blisko ciała; nagroda przy prawej krawędzi obrazu nadal przed pustym krzesłem. Na końcu spojrzenie w dół-prawo.  Dialog: Znaczy… głosowanie zamknięte. Obecność pośmiertna nie daje dodatkowego głosu.\nTIMING Z NAGRANIEM: 5.000–11.208s; 149klatek/24fps, źródło Kling 7s. Głos Czesława nagrany i umieszczony na osobnej ścieżce A1; brak wygenerowanego lipsyncu. Natywne Sound Kling wyłączone.",
+  "project": {
+    "id": "halloween26-nagroda",
+    "key": "project:halloween26-nagroda",
+    "name": "Halloween26Nagroda",
+    "createdAt": "2026-10-29T16:28:27.269Z"
+  },
+  "chronology": {
+    "projectKey": "project:halloween26-nagroda",
+    "projectCreatedAt": "2026-10-29T16:28:27.269Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": false,
+    "canonicalEvent": false,
+    "sequence": null,
+    "lastSequence": null,
+    "occurrences": [],
+    "sequenceTotal": 3,
+    "uniqueShotCount": 3,
+    "sequenceOrder": null,
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This project material is not present on the saved timeline, so it must not override canonical timeline events by date alone."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "h26-01-barak"
+    },
+    {
+      "type": "character",
+      "id": "czeslaw"
+    },
+    {
+      "type": "note",
+      "id": "h26-barak-geometria"
+    },
+    {
+      "type": "prop",
+      "id": "nagroda-halloween-h26"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:h26-01-barak",
+        "key": "shot:halloween26-nagroda/h26-01-barak",
+        "type": "shot",
+        "id": "h26-01-barak",
+        "name": "I — Porządek w baraku",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween26-nagroda/shots/h26-01-barak.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:czeslaw",
+        "key": "character:czeslaw",
+        "type": "character",
+        "id": "czeslaw",
+        "name": "Czesław",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "note:h26-barak-geometria",
+        "key": "note:h26-barak-geometria",
+        "type": "note",
+        "id": "h26-barak-geometria",
+        "name": "H26 — barak: metry, blocking i kamery",
+        "relationship": "story-and-continuity-context",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/h26-barak-geometria.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:nagroda-halloween-h26",
+        "key": "prop:nagroda-halloween-h26",
+        "type": "prop",
+        "id": "nagroda-halloween-h26",
+        "name": "Statuetka H’26 — Halloween Finals",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/nagroda-halloween-h26.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "shot:h26-01-barak",
+          "note:h26-barak-geometria",
+          "prop:nagroda-halloween-h26"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:h26-01-barak",
+            "key": "shot:halloween26-nagroda/h26-01-barak",
+            "type": "shot",
+            "id": "h26-01-barak",
+            "name": "I — Porządek w baraku",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween26-nagroda/shots/h26-01-barak.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "note:h26-barak-geometria",
+            "key": "note:h26-barak-geometria",
+            "type": "note",
+            "id": "h26-barak-geometria",
+            "name": "H26 — barak: metry, blocking i kamery",
+            "relationship": "story-and-continuity-context",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/h26-barak-geometria.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:nagroda-halloween-h26",
+            "key": "prop:nagroda-halloween-h26",
+            "type": "prop",
+            "id": "nagroda-halloween-h26",
+            "name": "Statuetka H’26 — Halloween Finals",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/nagroda-halloween-h26.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Edit IMAGE1, preserving its exact camera, man, envelope pose, room, desk and existing objects. IMAGE2 is master continuity. IMAGE3 is top-view geometry ONLY. IMAGE4 is trophy identity. Correct missing objects on RIGHT side of this shot: on the visible right-hand desk area in front of the empty brown chair, include the same H’26 trophy35cm tall with gold pumpkin and purple base, positioned toward the RIGHT IMAGE EDGE, around x90% of frame width, its right handle partially cropped if necessary. Its base stays on wood around same projected depth as the open binder's front edge. The same small orange pumpkin candle and right document stack may be cropped beyond right edge. These items have NOT moved from master. Match perspective and relative scale: trophy about same height as man's head, not giant. Do not change empty chair, map, binder, phone, lamp or man. His anatomical right hand keeps the sealed cream envelope close to his lower chest, elbow tucked. Do not add monster. Photoreal cinematic16:9, warmleft/coolblueleft, no labels or diagram. Preserve readable exact H’26. No further changes.",
+    "endFrameDescription": "",
+    "animation": "0.0–5.5s: Czesław maintains his composed forward gaze with one restrained head inclination; his right hand holds the envelope near his chest. 5.5–5.9s: his eyes and head turn slightly down toward screen right. 5.9–6.208s: he tightens the protective grip, keeping his right elbow tucked. 6.208–7.0s: hold outside the edit. Camera: locked off. Secondary: subtle breathing and one natural blink. Continuity: @Image1 preserves only his existing face; retain glasses, wardrobe, hands and blank sealed envelope. Keep the mouth relaxed for later lip synchronization. Avoid reaching forward, adding a creature, mirrored movement, furniture shifts or cuts."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:h26-01-barak",
+        "note:h26-barak-geometria",
+        "prop:nagroda-halloween-h26"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:h26-01-barak",
+          "key": "shot:halloween26-nagroda/h26-01-barak",
+          "type": "shot",
+          "id": "h26-01-barak",
+          "name": "I — Porządek w baraku",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween26-nagroda/shots/h26-01-barak.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "note:h26-barak-geometria",
+          "key": "note:h26-barak-geometria",
+          "type": "note",
+          "id": "h26-barak-geometria",
+          "name": "H26 — barak: metry, blocking i kamery",
+          "relationship": "story-and-continuity-context",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/h26-barak-geometria.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:nagroda-halloween-h26",
+          "key": "prop:nagroda-halloween-h26",
+          "type": "prop",
+          "id": "nagroda-halloween-h26",
+          "name": "Statuetka H’26 — Halloween Finals",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/nagroda-halloween-h26.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-29T16:30:08.40896+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:h26-01-barak",
+            "character:czeslaw"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:h26-01-barak",
+              "key": "shot:halloween26-nagroda/h26-01-barak",
+              "type": "shot",
+              "id": "h26-01-barak",
+              "name": "I — Porządek w baraku",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween26-nagroda/shots/h26-01-barak.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:czeslaw",
+              "key": "character:czeslaw",
+              "type": "character",
+              "id": "czeslaw",
+              "name": "Czesław",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-10-29T17:23:09.789059+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:h26-01-barak",
+            "note:h26-barak-geometria",
+            "prop:nagroda-halloween-h26"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:h26-01-barak",
+              "key": "shot:halloween26-nagroda/h26-01-barak",
+              "type": "shot",
+              "id": "h26-01-barak",
+              "name": "I — Porządek w baraku",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/halloween26-nagroda/shots/h26-01-barak.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "note:h26-barak-geometria",
+              "key": "note:h26-barak-geometria",
+              "type": "note",
+              "id": "h26-barak-geometria",
+              "name": "H26 — barak: metry, blocking i kamery",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/h26-barak-geometria.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:nagroda-halloween-h26",
+              "key": "prop:nagroda-halloween-h26",
+              "type": "prop",
+              "id": "nagroda-halloween-h26",
+              "name": "Statuetka H’26 — Halloween Finals",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/nagroda-halloween-h26.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween26-nagroda/shots/h26-02-glosowanie/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/halloween26-nagroda/shots/h26-02-glosowanie/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

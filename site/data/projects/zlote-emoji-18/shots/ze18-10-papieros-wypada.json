@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-18/ze18-10-papieros-wypada",
+  "id": "ze18-10-papieros-wypada",
+  "title": "II — Reakcja Czesława",
+  "description": "Zbliżenie, 85 mm, ta sama strona osi i spojrzenie w prawo co 08. Start: papieros jeszcze przy ustach, oczy dopiero się rozszerzają. Akcja: z rozchylonych ust wypada papieros. Nie generować lewitującego papierosa w Start Frame. Bez przerysowanej komediowej miny.\nKOSTIUM PO ELIPSIE: goła klatka piersiowa, zachowane spodnie, zegarek i łańcuszek; koszula i marynarka nadal na kocu. Papieros ten sam co w ujęciu 08.\nTAKE — AUDYT: widoczne 66 klatek (2.750 s) przy 24 fps; zakres źródła 0.000–2.750 s; generacja 3 s. Natywne audio wyłączone w planie; montaż pozostaje bez zmian.",
+  "project": {
+    "id": "zlote-emoji-18",
+    "key": "project:zlote-emoji-18",
+    "name": "Złote Emoji #18",
+    "createdAt": "2026-11-09T15:18:48.889Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-18",
+    "projectCreatedAt": "2026-11-09T15:18:48.889Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 13,
+    "lastSequence": 13,
+    "occurrences": [
+      13
+    ],
+    "sequenceTotal": 18,
+    "uniqueShotCount": 18,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "czeslaw-mlody"
+    },
+    {
+      "type": "prop",
+      "id": "papieros-i-zapalniczka-czeslawa-1985"
+    },
+    {
+      "type": "place",
+      "id": "lasy-kozlowieckie-polana-1985"
+    },
+    {
+      "type": "shot",
+      "id": "ze18-08-zapalenie-papierosa"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:czeslaw-mlody",
+        "key": "character:czeslaw-mlody",
+        "type": "character",
+        "id": "czeslaw-mlody",
+        "name": "Czesław — 1985",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw-mlody.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:papieros-i-zapalniczka-czeslawa-1985",
+        "key": "prop:papieros-i-zapalniczka-czeslawa-1985",
+        "type": "prop",
+        "id": "papieros-i-zapalniczka-czeslawa-1985",
+        "name": "Papieros i zapalniczka Czesława — 1985",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/papieros-i-zapalniczka-czeslawa-1985.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:lasy-kozlowieckie-polana-1985",
+        "key": "place:lasy-kozlowieckie-polana-1985",
+        "type": "place",
+        "id": "lasy-kozlowieckie-polana-1985",
+        "name": "Lasy Kozłowieckie — droga i polana, 1985",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lasy-kozlowieckie-polana-1985.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze18-08-zapalenie-papierosa",
+        "key": "shot:zlote-emoji-18/ze18-08-zapalenie-papierosa",
+        "type": "shot",
+        "id": "ze18-08-zapalenie-papierosa",
+        "name": "II — Spokój przed odkryciem",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-08-zapalenie-papierosa.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:ze18-08-zapalenie-papierosa",
+          "character:czeslaw-mlody"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze18-08-zapalenie-papierosa",
+            "key": "shot:zlote-emoji-18/ze18-08-zapalenie-papierosa",
+            "type": "shot",
+            "id": "ze18-08-zapalenie-papierosa",
+            "name": "II — Spokój przed odkryciem",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-08-zapalenie-papierosa.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:czeslaw-mlody",
+            "key": "character:czeslaw-mlody",
+            "type": "character",
+            "id": "czeslaw-mlody",
+            "name": "Czesław — 1985",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw-mlody.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "One16:9 cinematic close-up85mm, 1985 American suspense film grammar. Reference1 exact seated barechested man, cigarette and moonlit forest continuity; reference2 exact face Czeslaw25 ONLY not clothing. Tight face and shoulders shot: Czeslaw occupies LEFT two thirds, has just turned head toward screen RIGHT, eyes fixed offscreen right and beginning to widen with stunned disbelief. Subtle serious shock not comic grimace. Same cigarette STILL held between lips by tan filter, tiny orange ember and faint thread smoke at outer end, not floating or falling yet. Hand and lighter lowered completely out of frame. Bare shoulders chest thin silver chain, no shirt or jacket. Hair silver rim from moon, strongly modeled face, deep forest shadow and right side look-room, fine35mmgrain, natural skin, not excessive texture. Preserve face nose eyebrows curls, no wolf in frame, no text or borders.",
+    "endFrameDescription": "",
+    "animation": "@Image1 anchors only the existing Czeslaw face and hair; preserve his bare shoulders. Real-time gravity, not slow motion. 0.0–0.2s: his eyes widen toward screen right and his lips part, releasing the cigarette immediately. 0.2–0.55s: the unsupported cigarette accelerates almost vertically DOWN and exits the BOTTOM edge completely. It stays nearly horizontal while falling; no deliberate spin or sideways travel. 0.55–3.0s: the cigarette stays permanently below frame; Czeslaw holds his stunned rightward gaze, lips slightly apart. Camera: fully locked. Secondary: one shallow breath; no new visible smoke plume. Preserve face, chain, lighting and background. No hovering, looping, upward motion, slow motion, returning or duplicate cigarette, extra limbs or cuts."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze18-08-zapalenie-papierosa",
+        "character:czeslaw-mlody"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze18-08-zapalenie-papierosa",
+          "key": "shot:zlote-emoji-18/ze18-08-zapalenie-papierosa",
+          "type": "shot",
+          "id": "ze18-08-zapalenie-papierosa",
+          "name": "II — Spokój przed odkryciem",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-08-zapalenie-papierosa.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:czeslaw-mlody",
+          "key": "character:czeslaw-mlody",
+          "type": "character",
+          "id": "czeslaw-mlody",
+          "name": "Czesław — 1985",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw-mlody.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-09T16:20:07.009677+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze18-08-zapalenie-papierosa",
+            "character:czeslaw-mlody"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze18-08-zapalenie-papierosa",
+              "key": "shot:zlote-emoji-18/ze18-08-zapalenie-papierosa",
+              "type": "shot",
+              "id": "ze18-08-zapalenie-papierosa",
+              "name": "II — Spokój przed odkryciem",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-08-zapalenie-papierosa.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:czeslaw-mlody",
+              "key": "character:czeslaw-mlody",
+              "type": "character",
+              "id": "czeslaw-mlody",
+              "name": "Czesław — 1985",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw-mlody.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-18/shots/ze18-10-papieros-wypada/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-18/shots/ze18-10-papieros-wypada/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

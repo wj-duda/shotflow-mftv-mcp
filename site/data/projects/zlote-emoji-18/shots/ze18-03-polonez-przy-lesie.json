@@ -1,0 +1,306 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-18/ze18-03-polonez-przy-lesie",
+  "id": "ze18-03-polonez-przy-lesie",
+  "title": "I — Przyjazd Polonezem",
+  "description": "Plan ogólny, 28 mm, kamera przy skraju piaszczystej drogi. Śliwkowy Polonez w lewej trzeciej, przód w lewo ku drodze powrotnej; polana i rozwidlony dąb po prawej. Para po wyjściu z auta kieruje się od lewej ku prawej, w głąb lasu. Start: oboje stoją obok zamkniętego auta. Akcja: ruszają na polanę. Bez złożonego otwierania drzwi.\nKOSTIUM: ta sama karminowa drapowana bluzka z szerokim tkanym panelem przy talii co na scenie. Brzuch zakryty, dół bluzki przy wysokim pasie spodni, bez wiązania w węzeł i bez tuniki. Czesław niesie złożony koc. Korekta v003: oczyszczone syntetyczne faktury roślinności, kory i lakieru, z zachowaniem kompozycji i ciągłości sceny.\nTAKE — AUDYT: widoczne 59 klatek (2.458 s) przy 24 fps; zakres źródła 0.250–2.708 s; generacja 3 s. Natywne audio wyłączone w planie; montaż pozostaje bez zmian.",
+  "project": {
+    "id": "zlote-emoji-18",
+    "key": "project:zlote-emoji-18",
+    "name": "Złote Emoji #18",
+    "createdAt": "2026-11-09T15:18:48.889Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-18",
+    "projectCreatedAt": "2026-11-09T15:18:48.889Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 6,
+    "lastSequence": 6,
+    "occurrences": [
+      6
+    ],
+    "sequenceTotal": 18,
+    "uniqueShotCount": 18,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "czeslaw-mlody"
+    },
+    {
+      "type": "character",
+      "id": "olivia-dela-ossa"
+    },
+    {
+      "type": "prop",
+      "id": "polonez-czeslawa-1985"
+    },
+    {
+      "type": "place",
+      "id": "lasy-kozlowieckie-polana-1985"
+    },
+    {
+      "type": "prop",
+      "id": "koc-czeslawa-1985"
+    },
+    {
+      "type": "shot",
+      "id": "ze18-03-polonez-przy-lesie"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:czeslaw-mlody",
+        "key": "character:czeslaw-mlody",
+        "type": "character",
+        "id": "czeslaw-mlody",
+        "name": "Czesław — 1985",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw-mlody.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:olivia-dela-ossa",
+        "key": "character:olivia-dela-ossa",
+        "type": "character",
+        "id": "olivia-dela-ossa",
+        "name": "Olivia Dela Ossa",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/olivia-dela-ossa.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:polonez-czeslawa-1985",
+        "key": "prop:polonez-czeslawa-1985",
+        "type": "prop",
+        "id": "polonez-czeslawa-1985",
+        "name": "Polonez Czesława — 1985",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/polonez-czeslawa-1985.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:lasy-kozlowieckie-polana-1985",
+        "key": "place:lasy-kozlowieckie-polana-1985",
+        "type": "place",
+        "id": "lasy-kozlowieckie-polana-1985",
+        "name": "Lasy Kozłowieckie — droga i polana, 1985",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lasy-kozlowieckie-polana-1985.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:koc-czeslawa-1985",
+        "key": "prop:koc-czeslawa-1985",
+        "type": "prop",
+        "id": "koc-czeslawa-1985",
+        "name": "Koc Czesława — 1985",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/koc-czeslawa-1985.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze18-03-polonez-przy-lesie",
+        "key": "shot:zlote-emoji-18/ze18-03-polonez-przy-lesie",
+        "type": "shot",
+        "id": "ze18-03-polonez-przy-lesie",
+        "name": "I — Przyjazd Polonezem",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-03-polonez-przy-lesie.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 3,
+        "referenceKeys": [
+          "shot:ze18-03-polonez-przy-lesie"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze18-03-polonez-przy-lesie",
+            "key": "shot:zlote-emoji-18/ze18-03-polonez-przy-lesie",
+            "type": "shot",
+            "id": "ze18-03-polonez-przy-lesie",
+            "name": "I — Przyjazd Polonezem",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-03-polonez-przy-lesie.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Precisely restore and clean the supplied existing film frame, do not redesign it. Keep identical full 16:9 composition and perspective, camera framing, ALL object positions and silhouettes, exact two people's faces/identities and relative heights, poses, hands, plum jacket patterned shirt and folded plaid blanket, woman's carmine draped waist-length blouse with short woven waist panel and black trousers, plum1985 Polish Polonez geometry, four round headlights, wheels, closed doors and plate text LUB 2486. Preserve moon position, massive forked oak right, winding path left, every major branch and existing lighting. Main task remove AI texture artifacts across image: waxy melted vegetation, repetitive crunchy shiny grass patterns, embossed wormlike bark, smeared car paint, oversharpened halos and synthetic microtexture. Replace only faulty surface rendering with coherent photographic natural texture: varied believable grass blades and leaf litter, individual nonrepetitive leaves and ferns, organic oak bark, smooth glossy automobile panels with coherent reflections, natural fabric weave, skin and hair. Clean photographic detail with restrained natural lens softness and very fine film grain, NOT plastic denoise or blur. Maintain restrained 1980s cinematic moonlit night, original brightness and color palette. No new objects, no composition change, no extra people, no redesign of car or costumes, no text additions or watermark. This is restoration of the same frame.",
+    "endFrameDescription": "",
+    "animation": "@Element1 identifies Czeslaw already on screen left; preserve face, hair and current clothes. @Image1 identifies Olivia already present; face and hair only, never the reference shirt or vest. @Image2 identifies the existing parked Polonez design and LUB 2486 plate, not daylight lighting. 0.0–0.25s: both shift their weight toward screen right. 0.25–2.5s: Olivia and Czeslaw take two natural walking steps diagonally right into the clearing, Czeslaw keeping the folded blanket under his arm. 2.5–3.0s: continue the same easy pace. Camera: locked-off wide shot. Secondary: trouser fabric sways and blanket fringe moves with his steps. Continuity: keep Olivia slightly taller, all clothes, clean forest textures and parked car fixed with closed doors and lights off; plate lettering remains unchanged. Avoid: no sliding feet, extra limbs, opening doors, morphing or cuts."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 3,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze18-03-polonez-przy-lesie"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze18-03-polonez-przy-lesie",
+          "key": "shot:zlote-emoji-18/ze18-03-polonez-przy-lesie",
+          "type": "shot",
+          "id": "ze18-03-polonez-przy-lesie",
+          "name": "I — Przyjazd Polonezem",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-03-polonez-przy-lesie.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-09T15:32:15.80139+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:czeslaw-mlody",
+            "character:olivia-dela-ossa",
+            "prop:polonez-czeslawa-1985",
+            "place:lasy-kozlowieckie-polana-1985",
+            "prop:koc-czeslawa-1985"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:czeslaw-mlody",
+              "key": "character:czeslaw-mlody",
+              "type": "character",
+              "id": "czeslaw-mlody",
+              "name": "Czesław — 1985",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw-mlody.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:olivia-dela-ossa",
+              "key": "character:olivia-dela-ossa",
+              "type": "character",
+              "id": "olivia-dela-ossa",
+              "name": "Olivia Dela Ossa",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/olivia-dela-ossa.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:polonez-czeslawa-1985",
+              "key": "prop:polonez-czeslawa-1985",
+              "type": "prop",
+              "id": "polonez-czeslawa-1985",
+              "name": "Polonez Czesława — 1985",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/polonez-czeslawa-1985.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:lasy-kozlowieckie-polana-1985",
+              "key": "place:lasy-kozlowieckie-polana-1985",
+              "type": "place",
+              "id": "lasy-kozlowieckie-polana-1985",
+              "name": "Lasy Kozłowieckie — droga i polana, 1985",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lasy-kozlowieckie-polana-1985.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:koc-czeslawa-1985",
+              "key": "prop:koc-czeslawa-1985",
+              "type": "prop",
+              "id": "koc-czeslawa-1985",
+              "name": "Koc Czesława — 1985",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/koc-czeslawa-1985.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-11-09T16:02:38.214972+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze18-03-polonez-przy-lesie",
+            "character:olivia-dela-ossa"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze18-03-polonez-przy-lesie",
+              "key": "shot:zlote-emoji-18/ze18-03-polonez-przy-lesie",
+              "type": "shot",
+              "id": "ze18-03-polonez-przy-lesie",
+              "name": "I — Przyjazd Polonezem",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-03-polonez-przy-lesie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:olivia-dela-ossa",
+              "key": "character:olivia-dela-ossa",
+              "type": "character",
+              "id": "olivia-dela-ossa",
+              "name": "Olivia Dela Ossa",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/olivia-dela-ossa.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 3,
+          "createdAt": "2026-11-11T15:29:44.711683+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze18-03-polonez-przy-lesie"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze18-03-polonez-przy-lesie",
+              "key": "shot:zlote-emoji-18/ze18-03-polonez-przy-lesie",
+              "type": "shot",
+              "id": "ze18-03-polonez-przy-lesie",
+              "name": "I — Przyjazd Polonezem",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-03-polonez-przy-lesie.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-18/shots/ze18-03-polonez-przy-lesie/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-18/shots/ze18-03-polonez-przy-lesie/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

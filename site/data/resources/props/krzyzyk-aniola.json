@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "prop:krzyzyk-aniola",
+  "type": "props",
+  "id": "krzyzyk-aniola",
+  "name": "Krzyżyk anioła — dar dla skrzypka",
+  "description": "DAR ANIOŁA DLA SKRZYPKA — ZE17, ustalenia autora 2026-11-08.\n\nPOCHODZENIE: pojedyncze anielskie pióro służy aniołowi do dyskretnego otarcia mimowolnej łzy podczas słuchania skrzypka. Kontakt wywołuje złoty rozbłysk. Po wrzuceniu do kapelusza pióro przemienia się w mały złoty krzyżyk. Oba wyglądy dotyczą tego samego daru, nie dwóch niezależnych artefaktów.\n\nMOTYWACJA: anioł wie, że dar nie może dostać się w niepowołane ręce. Wyczuwa czystą duszę skrzypka według kryteriów Nieba i świadomie powierza mu przedmiot. Zakłopotanie anioła i ukrywanie zdarzenia mają pozostać subtelne. Wiara i praktyki religijne skrzypka są rozważanym kierunkiem, nie ustaloną biografią.\n\nPROPOZYCJA WYGLĄDU v001: niewielki prosty złoty krzyż łaciński, około 28 mm wysokości bez uszka, 16 mm szerokości i 2 mm grubości. Dolne ramię wyraźnie dłuższe; proste płaskie ramiona, delikatnie zaokrąglone krawędzie, małe owalne uszko u góry. Ciepłe satynowe złoto, drobna naturalna faktura metalu. Bez łańcuszka, postaci Chrystusa, kamieni, napisów, run, skrzydeł i symboli Zakonu Jutrzenki. Wymiary i detale są propozycją produkcyjną do oceny autora. Zwyczajny przedmiot jubilerski, bez stałego świecenia.\n\nMOCE: nadnaturalne pochodzenie i przemiana są ustalone. Konkretne działanie, ograniczenia, koszt, trwałość i późniejsza rola fabularna pozostają nieustalone. Nie przypisywać uzdrawiania, egzorcyzmów, ochronnej bariery ani uwolnienia Sirock. Krzyżyk nie jest medalionem Halinki ani oznaką Zakonu Jutrzenki. Wygląd nie oznacza ustalonej próby złota ani rynkowej ceny.\n\nSTATUS: budowany zasób świata AIMFTV do planowanego ZE17. Scena w przejściu podziemnym przy peronach dużego miasta; konkretne miasto nieustalone. Brak wygenerowanej animacji i brak umieszczenia sceny na timeline.\n\nAKTUALIZACJA AUTORA 2026-11-09: dar w ZE17 ma postać niezwykłej monety (prop:moneta-aniola), NIE krzyżyka. Wcześniejsze opisy przemiany w krzyżyk są wariantem historycznym, odrzuconym. Zachowane pozostają łza, pióro, świadomy wybór skrzypka i nieustalone moce daru.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/krzyzyk-aniola/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/krzyzyk-aniola/image-001-thumb.webp",
+      "width": 1536,
+      "height": 1024,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-11-09T01:01:07.754668+00:00"
+}

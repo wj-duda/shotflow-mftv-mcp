@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-19/owczar-powrot",
+  "id": "owczar-powrot",
+  "title": "owczar-powrot",
+  "description": "Korekta ciągłości v002: plan średni szeroki 40 mm, kamera z tej samej strony chodnika co zbliżenie owczar-rozpoznanie. Witryna po lewej, Owczar po prawej; kończy krok, zwalnia i zwraca uwagę na wystawę po lewej. Cięcie do istniejącego zbliżenia zachowuje stronę spojrzenia i tło. Trzeci kadr bez zmian. Klatka statyczna, poza timeline, bez take.",
+  "project": {
+    "id": "zlote-emoji-19",
+    "key": "project:zlote-emoji-19",
+    "name": "Złote Emoji #19",
+    "createdAt": "2026-11-10T23:04:15.573Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-19",
+    "projectCreatedAt": "2026-11-10T23:04:15.573Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 15,
+    "lastSequence": 15,
+    "occurrences": [
+      15
+    ],
+    "sequenceTotal": 17,
+    "uniqueShotCount": 17,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "note",
+      "id": "ze19-owczar-dorosly"
+    },
+    {
+      "type": "shot",
+      "id": "owczar-powrot"
+    },
+    {
+      "type": "shot",
+      "id": "owczar-rozpoznanie"
+    },
+    {
+      "type": "shot",
+      "id": "owczar-witryna"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "note:ze19-owczar-dorosly",
+        "key": "note:ze19-owczar-dorosly",
+        "type": "note",
+        "id": "ze19-owczar-dorosly",
+        "name": "ZE19 — dorosły Owczar, epilog",
+        "relationship": "story-and-continuity-context",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze19-owczar-dorosly.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:owczar-powrot",
+        "key": "shot:zlote-emoji-19/owczar-powrot",
+        "type": "shot",
+        "id": "owczar-powrot",
+        "name": "owczar-powrot",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-19/shots/owczar-powrot.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:owczar-rozpoznanie",
+        "key": "shot:zlote-emoji-19/owczar-rozpoznanie",
+        "type": "shot",
+        "id": "owczar-rozpoznanie",
+        "name": "owczar-rozpoznanie",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-19/shots/owczar-rozpoznanie.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:owczar-witryna",
+        "key": "shot:zlote-emoji-19/owczar-witryna",
+        "type": "shot",
+        "id": "owczar-witryna",
+        "name": "owczar-witryna",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-19/shots/owczar-witryna.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "shot:owczar-powrot",
+          "shot:owczar-rozpoznanie",
+          "shot:owczar-witryna"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:owczar-powrot",
+            "key": "shot:zlote-emoji-19/owczar-powrot",
+            "type": "shot",
+            "id": "owczar-powrot",
+            "name": "owczar-powrot",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-19/shots/owczar-powrot.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:owczar-rozpoznanie",
+            "key": "shot:zlote-emoji-19/owczar-rozpoznanie",
+            "type": "shot",
+            "id": "owczar-rozpoznanie",
+            "name": "owczar-rozpoznanie",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-19/shots/owczar-rozpoznanie.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:owczar-witryna",
+            "key": "shot:zlote-emoji-19/owczar-witryna",
+            "type": "shot",
+            "id": "owczar-witryna",
+            "name": "owczar-witryna",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-19/shots/owczar-witryna.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Create a corrected photorealistic cinematic FIRST SHOT of this three-shot sequence, 16:9. Image1 is the old wide shot: reuse exact adult man, costume, retro shop architecture, window display, wooden frame, cool evening and warm shop light, but CHANGE CAMERA AND BLOCKING for continuity. Image2 is the following close-up and is the binding camera-side/eyeline reference. Image3 is final shot through glass and must remain unchanged; only create a replacement for image1. New shot is a medium-wide 40mm camera from the SAME pavement side and looking along the same facade direction as close-up image2: warm glass storefront runs on frame LEFT, building facade recedes behind the man toward centre, cool open street and trees on frame RIGHT. This is effectively a wider establishing view of image2. Show adult Owczar from knees up on RIGHT HALF, returning from work, just completing his last step toward frame RIGHT and slowing down: hips and feet still carry rightward motion, shoulders beginning to pivot toward LEFT toward shop, head turns toward glass on LEFT, gaze already catching something slightly low inside display. He has just passed the interesting display so it is to his left/back, but no walking backwards. Natural small half-turn, not twisted anatomy. Show enough left foreground shop glass, timber mullion and waist-height display to establish precisely what he turns toward. Face visible three-quarter, subtle first curiosity before the stronger recognition of image2. Charcoal wool overcoat, pale blue shirt, dark trousers, brown bag strap over his ANATOMICAL LEFT shoulder down to RIGHT hip. Keep same man and bag orientation as close-up image2. Camera remains outside, close to plane of facade, about 2.5m in front of him along pavement, not across street. Match close-up's warm rim on image-left side of his face and cool fill. Do not mirror image2. No readable Dawn Order close detail yet, no credits, no other people. Restrained real-life Polish street cinema. Exact location and identity continuity, believable perspective, SINGLE image, no storyboard panels. The cut from this image to reference2 should read as a straight closer angle with same screen-left glance, not an axis reversal.",
+    "endFrameDescription": "",
+    "animation": "0.0–0.6s: Continuing his arrival, Owczar completes one short settling step slightly toward the foreground and SCREEN RIGHT, then plants both feet. His head is ALREADY angled toward the glass on SCREEN LEFT; do not restart a large turn. 0.6–1.7s: Remaining on the right half, he shifts his eyes slightly DOWN-LEFT into the display, shoulders relaxing as his hurry subsides. 1.7–3.0s: Hold that stopped stance, quietly attentive. Camera: locked, beside the storefront, identical angle to Start; shop stays LEFT, street RIGHT. Only coat and bag finish settling. @Image1 preserves the same man's facial identity, not its close-up framing. Preserve left-shoulder bag strap and lighting. No walking left, entering shop, repeated head turn, orbit, added people, cuts or fade."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:owczar-powrot",
+        "shot:owczar-rozpoznanie",
+        "shot:owczar-witryna"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:owczar-powrot",
+          "key": "shot:zlote-emoji-19/owczar-powrot",
+          "type": "shot",
+          "id": "owczar-powrot",
+          "name": "owczar-powrot",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-19/shots/owczar-powrot.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:owczar-rozpoznanie",
+          "key": "shot:zlote-emoji-19/owczar-rozpoznanie",
+          "type": "shot",
+          "id": "owczar-rozpoznanie",
+          "name": "owczar-rozpoznanie",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-19/shots/owczar-rozpoznanie.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:owczar-witryna",
+          "key": "shot:zlote-emoji-19/owczar-witryna",
+          "type": "shot",
+          "id": "owczar-witryna",
+          "name": "owczar-witryna",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-19/shots/owczar-witryna.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-12T09:27:26.895385+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "note:ze19-owczar-dorosly"
+          ],
+          "references": [
+            {
+              "sourceKey": "note:ze19-owczar-dorosly",
+              "key": "note:ze19-owczar-dorosly",
+              "type": "note",
+              "id": "ze19-owczar-dorosly",
+              "name": "ZE19 — dorosły Owczar, epilog",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze19-owczar-dorosly.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-11-12T09:40:01.574994+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:owczar-powrot",
+            "shot:owczar-rozpoznanie",
+            "shot:owczar-witryna"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:owczar-powrot",
+              "key": "shot:zlote-emoji-19/owczar-powrot",
+              "type": "shot",
+              "id": "owczar-powrot",
+              "name": "owczar-powrot",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-19/shots/owczar-powrot.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:owczar-rozpoznanie",
+              "key": "shot:zlote-emoji-19/owczar-rozpoznanie",
+              "type": "shot",
+              "id": "owczar-rozpoznanie",
+              "name": "owczar-rozpoznanie",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-19/shots/owczar-rozpoznanie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:owczar-witryna",
+              "key": "shot:zlote-emoji-19/owczar-witryna",
+              "type": "shot",
+              "id": "owczar-witryna",
+              "name": "owczar-witryna",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-19/shots/owczar-witryna.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-19/shots/owczar-powrot/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-19/shots/owczar-powrot/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

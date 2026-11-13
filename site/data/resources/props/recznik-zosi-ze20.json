@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "prop:recznik-zosi-ze20",
+  "type": "props",
+  "id": "recznik-zosi-ze20",
+  "name": "Ręcznik Zosi — przybycie DIAXI",
+  "description": "Duży suchy ręcznik kąpielowy frotte, projektowo 100×180 cm, gruba bawełna, sprane bordo z dwiema wąskimi grafitowymi prążkami przy każdym krótszym brzegu. Czysty, używany, miękki, matowy. Plansza pokazuje ten sam wzór rozłożony i złożony, nie dwa osobne rekwizyty. Bez napisów, frędzli, kaptura i symboli zakonu. ZE20: Zosia rzuca go od niechcenia DIAXI po wyjściu z wody, następnie gestem prowadzi ją za sobą. DIAXI narzuca ręcznik na ramiona i osłania tułów; mokra oryginalna suknia pozostaje pod nim. Listopadowe zimno ma być odczuwalne. Ręcznik służy do osuszenia i krótkiego osłonięcia, nie oznacza natychmiastowego wyschnięcia ani długiego spaceru w mokrym stroju.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/recznik-zosi-ze20/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/recznik-zosi-ze20/image-001-thumb.webp",
+      "width": 1536,
+      "height": 1024,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-11-12T18:04:51.709901+00:00"
+}

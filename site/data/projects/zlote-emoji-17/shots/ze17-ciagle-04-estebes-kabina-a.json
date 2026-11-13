@@ -1,0 +1,367 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-17/ze17-ciagle-04-estebes-kabina-a",
+  "id": "ze17-ciagle-04-estebes-kabina-a",
+  "title": "ZE17 04 — estebes kabina a",
+  "description": "Fragment 4/18 jednego ciągłego ujęcia. First f0145 → Last f0193. 3 s, 24 fps, normalne tempo 1×; bez przyspieszania. Pozycja w sekwencji: 9–12 s. Last jest identyczny plikowo z First następnego shota. Tło bez pióra; pióro będzie warstwą z Blendera. Wybrane obrazy zachowują różnice odnotowane w _system/clean-plates-v001/pair-audit-v003.json; przygotowanie shota nie oznacza zatwierdzenia wszystkich detali.",
+  "project": {
+    "id": "zlote-emoji-17",
+    "key": "project:zlote-emoji-17",
+    "name": "Złote Emoji #17",
+    "createdAt": "2026-11-08T21:24:33.398Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-17",
+    "projectCreatedAt": "2026-11-08T21:24:33.398Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 4,
+    "lastSequence": 4,
+    "occurrences": [
+      4
+    ],
+    "sequenceTotal": 24,
+    "uniqueShotCount": 24,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "prop",
+      "id": "betoniara-team"
+    },
+    {
+      "type": "character",
+      "id": "estebes"
+    },
+    {
+      "type": "note",
+      "id": "ze17-estebes-szlafrok"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "prop:betoniara-team",
+        "key": "prop:betoniara-team",
+        "type": "prop",
+        "id": "betoniara-team",
+        "name": "Betoniara Team — GRUZAR G84",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/betoniara-team.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:estebes",
+        "key": "character:estebes",
+        "type": "character",
+        "id": "estebes",
+        "name": "Estebes — kierowca Betoniara Team",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/estebes.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "note:ze17-estebes-szlafrok",
+        "key": "note:ze17-estebes-szlafrok",
+        "type": "note",
+        "id": "ze17-estebes-szlafrok",
+        "name": "ZE17 — Estebes, wariant stroju z ZE15",
+        "relationship": "story-and-continuity-context",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze17-estebes-szlafrok.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "take:ze17-ciagle-04-estebes-kabina-a/take-3"
+        ],
+        "references": [
+          {
+            "sourceKey": "take:ze17-ciagle-04-estebes-kabina-a/take-3",
+            "key": "take:zlote-emoji-17/ze17-ciagle-04-estebes-kabina-a/take-3",
+            "type": "take",
+            "id": "ze17-ciagle-04-estebes-kabina-a/take-3",
+            "name": "ZE17 04 — estebes kabina a / take-3",
+            "relationship": "visible-state-from-take",
+            "shotKey": "shot:zlote-emoji-17/ze17-ciagle-04-estebes-kabina-a",
+            "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-04-estebes-kabina-a.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": {
+          "sourceKey": "take:ze17-ciagle-04-estebes-kabina-a/take-3",
+          "key": "take:zlote-emoji-17/ze17-ciagle-04-estebes-kabina-a/take-3",
+          "type": "take",
+          "id": "ze17-ciagle-04-estebes-kabina-a/take-3",
+          "name": "ZE17 04 — estebes kabina a / take-3",
+          "relationship": "visible-state-from-take",
+          "shotKey": "shot:zlote-emoji-17/ze17-ciagle-04-estebes-kabina-a",
+          "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-04-estebes-kabina-a.json",
+          "exists": true
+        }
+      },
+      {
+        "frameId": "frame-end",
+        "revision": 2,
+        "referenceKeys": [
+          "take:ze17-ciagle-04-estebes-kabina-a/take-3"
+        ],
+        "references": [
+          {
+            "sourceKey": "take:ze17-ciagle-04-estebes-kabina-a/take-3",
+            "key": "take:zlote-emoji-17/ze17-ciagle-04-estebes-kabina-a/take-3",
+            "type": "take",
+            "id": "ze17-ciagle-04-estebes-kabina-a/take-3",
+            "name": "ZE17 04 — estebes kabina a / take-3",
+            "relationship": "visible-state-from-take",
+            "shotKey": "shot:zlote-emoji-17/ze17-ciagle-04-estebes-kabina-a",
+            "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-04-estebes-kabina-a.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": {
+          "sourceKey": "take:ze17-ciagle-04-estebes-kabina-a/take-3",
+          "key": "take:zlote-emoji-17/ze17-ciagle-04-estebes-kabina-a/take-3",
+          "type": "take",
+          "id": "ze17-ciagle-04-estebes-kabina-a/take-3",
+          "name": "ZE17 04 — estebes kabina a / take-3",
+          "relationship": "visible-state-from-take",
+          "shotKey": "shot:zlote-emoji-17/ze17-ciagle-04-estebes-kabina-a",
+          "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-04-estebes-kabina-a.json",
+          "exists": true
+        }
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Exact decoded first visible frame of existing take-3, preserved for continuity.",
+    "endFrameDescription": "Zachowana ostatnia widoczna klatka take-3.",
+    "animation": "0-3s: The truck is already driving forward toward SCREEN LEFT at steady road speed. Camera travels alongside at matching speed and descends smoothly from Start to End, without stopping. Through the windshield and far window, fixed railway buildings drift steadily SCREEN RIGHT; near roadside details pass faster. Visible tires roll continuously; moving reflections sweep over chrome. Estebes is actively driving: at 0.4-1.5s he makes a small steering correction and returns the wheel, hands remaining attached to the rim; he blinks once, breathes and subtly absorbs road vibration through shoulders and head. He watches the road, mouth closed. @Image1 locks truck design only; @Image2 locks the existing driver's face and hair only. Retain the robe, architecture, lettering and dusk lighting from Start/End. No frozen tableau, orbit, wheel deformation, new objects, feather, morph or cut."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "video-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 2,
+      "source": "imported",
+      "referenceKeys": [
+        "take:ze17-ciagle-04-estebes-kabina-a/take-3"
+      ],
+      "references": [
+        {
+          "sourceKey": "take:ze17-ciagle-04-estebes-kabina-a/take-3",
+          "key": "take:zlote-emoji-17/ze17-ciagle-04-estebes-kabina-a/take-3",
+          "type": "take",
+          "id": "ze17-ciagle-04-estebes-kabina-a/take-3",
+          "name": "ZE17 04 — estebes kabina a / take-3",
+          "relationship": "visible-state-from-take",
+          "shotKey": "shot:zlote-emoji-17/ze17-ciagle-04-estebes-kabina-a",
+          "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-04-estebes-kabina-a.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": {
+        "sourceKey": "take:ze17-ciagle-04-estebes-kabina-a/take-3",
+        "key": "take:zlote-emoji-17/ze17-ciagle-04-estebes-kabina-a/take-3",
+        "type": "take",
+        "id": "ze17-ciagle-04-estebes-kabina-a/take-3",
+        "name": "ZE17 04 — estebes kabina a / take-3",
+        "relationship": "visible-state-from-take",
+        "shotKey": "shot:zlote-emoji-17/ze17-ciagle-04-estebes-kabina-a",
+        "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-04-estebes-kabina-a.json",
+        "exists": true
+      },
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-09T00:22:05.587932+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:estebes",
+            "note:ze17-estebes-szlafrok"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:estebes",
+              "key": "character:estebes",
+              "type": "character",
+              "id": "estebes",
+              "name": "Estebes — kierowca Betoniara Team",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/estebes.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "note:ze17-estebes-szlafrok",
+              "key": "note:ze17-estebes-szlafrok",
+              "type": "note",
+              "id": "ze17-estebes-szlafrok",
+              "name": "ZE17 — Estebes, wariant stroju z ZE15",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze17-estebes-szlafrok.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-11-09T17:22:10.157887+00:00",
+          "source": "imported",
+          "referenceKeys": [
+            "take:ze17-ciagle-04-estebes-kabina-a/take-3"
+          ],
+          "references": [
+            {
+              "sourceKey": "take:ze17-ciagle-04-estebes-kabina-a/take-3",
+              "key": "take:zlote-emoji-17/ze17-ciagle-04-estebes-kabina-a/take-3",
+              "type": "take",
+              "id": "ze17-ciagle-04-estebes-kabina-a/take-3",
+              "name": "ZE17 04 — estebes kabina a / take-3",
+              "relationship": "visible-state-from-take",
+              "shotKey": "shot:zlote-emoji-17/ze17-ciagle-04-estebes-kabina-a",
+              "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-04-estebes-kabina-a.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": {
+            "sourceKey": "take:ze17-ciagle-04-estebes-kabina-a/take-3",
+            "key": "take:zlote-emoji-17/ze17-ciagle-04-estebes-kabina-a/take-3",
+            "type": "take",
+            "id": "ze17-ciagle-04-estebes-kabina-a/take-3",
+            "name": "ZE17 04 — estebes kabina a / take-3",
+            "relationship": "visible-state-from-take",
+            "shotKey": "shot:zlote-emoji-17/ze17-ciagle-04-estebes-kabina-a",
+            "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-04-estebes-kabina-a.json",
+            "exists": true
+          }
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-ciagle-04-estebes-kabina-a/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-ciagle-04-estebes-kabina-a/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "role": "frame-end",
+      "revision": 2,
+      "source": "imported",
+      "referenceKeys": [
+        "take:ze17-ciagle-04-estebes-kabina-a/take-3"
+      ],
+      "references": [
+        {
+          "sourceKey": "take:ze17-ciagle-04-estebes-kabina-a/take-3",
+          "key": "take:zlote-emoji-17/ze17-ciagle-04-estebes-kabina-a/take-3",
+          "type": "take",
+          "id": "ze17-ciagle-04-estebes-kabina-a/take-3",
+          "name": "ZE17 04 — estebes kabina a / take-3",
+          "relationship": "visible-state-from-take",
+          "shotKey": "shot:zlote-emoji-17/ze17-ciagle-04-estebes-kabina-a",
+          "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-04-estebes-kabina-a.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": {
+        "sourceKey": "take:ze17-ciagle-04-estebes-kabina-a/take-3",
+        "key": "take:zlote-emoji-17/ze17-ciagle-04-estebes-kabina-a/take-3",
+        "type": "take",
+        "id": "ze17-ciagle-04-estebes-kabina-a/take-3",
+        "name": "ZE17 04 — estebes kabina a / take-3",
+        "relationship": "visible-state-from-take",
+        "shotKey": "shot:zlote-emoji-17/ze17-ciagle-04-estebes-kabina-a",
+        "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-04-estebes-kabina-a.json",
+        "exists": true
+      },
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-09T00:22:05.587932+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:estebes",
+            "note:ze17-estebes-szlafrok"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:estebes",
+              "key": "character:estebes",
+              "type": "character",
+              "id": "estebes",
+              "name": "Estebes — kierowca Betoniara Team",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/estebes.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "note:ze17-estebes-szlafrok",
+              "key": "note:ze17-estebes-szlafrok",
+              "type": "note",
+              "id": "ze17-estebes-szlafrok",
+              "name": "ZE17 — Estebes, wariant stroju z ZE15",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze17-estebes-szlafrok.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-11-09T17:22:10.157887+00:00",
+          "source": "imported",
+          "referenceKeys": [
+            "take:ze17-ciagle-04-estebes-kabina-a/take-3"
+          ],
+          "references": [
+            {
+              "sourceKey": "take:ze17-ciagle-04-estebes-kabina-a/take-3",
+              "key": "take:zlote-emoji-17/ze17-ciagle-04-estebes-kabina-a/take-3",
+              "type": "take",
+              "id": "ze17-ciagle-04-estebes-kabina-a/take-3",
+              "name": "ZE17 04 — estebes kabina a / take-3",
+              "relationship": "visible-state-from-take",
+              "shotKey": "shot:zlote-emoji-17/ze17-ciagle-04-estebes-kabina-a",
+              "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-04-estebes-kabina-a.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": {
+            "sourceKey": "take:ze17-ciagle-04-estebes-kabina-a/take-3",
+            "key": "take:zlote-emoji-17/ze17-ciagle-04-estebes-kabina-a/take-3",
+            "type": "take",
+            "id": "ze17-ciagle-04-estebes-kabina-a/take-3",
+            "name": "ZE17 04 — estebes kabina a / take-3",
+            "relationship": "visible-state-from-take",
+            "shotKey": "shot:zlote-emoji-17/ze17-ciagle-04-estebes-kabina-a",
+            "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-04-estebes-kabina-a.json",
+            "exists": true
+          }
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-ciagle-04-estebes-kabina-a/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-ciagle-04-estebes-kabina-a/frame-end-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

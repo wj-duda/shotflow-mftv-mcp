@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-20/ze20-10-przejscie-pod-woda",
+  "id": "ze20-10-przejscie-pod-woda",
+  "title": "Przejście w wodzie — ku górze",
+  "description": "35 mm, trzy czwarte od tyłu. DIAXI płynie w górę i w prawo; bąble osłaniają przejście do oliwkowoszarej wody zalewu. Bez widocznej obręczy portalu.",
+  "project": {
+    "id": "zlote-emoji-20",
+    "key": "project:zlote-emoji-20",
+    "name": "Złote Emoji #20",
+    "createdAt": "2026-11-12T06:49:40.532Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-20",
+    "projectCreatedAt": "2026-11-12T06:49:40.532Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": false,
+    "canonicalEvent": false,
+    "sequence": null,
+    "lastSequence": null,
+    "occurrences": [],
+    "sequenceTotal": 27,
+    "uniqueShotCount": 27,
+    "sequenceOrder": null,
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This project material is not present on the saved timeline, so it must not override canonical timeline events by date alone."
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "diaxi"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:diaxi",
+        "key": "character:diaxi",
+        "type": "character",
+        "id": "diaxi",
+        "name": "DIAXI",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "character:diaxi"
+        ],
+        "references": [
+          {
+            "sourceKey": "character:diaxi",
+            "key": "character:diaxi",
+            "type": "character",
+            "id": "diaxi",
+            "name": "DIAXI",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "One photorealistic underwater film still 16:9. Reference1 locks DIAXI identity, face and upward-right swimming direction and wet costume, reference2 exact original opaque ivory offshoulder embroidered layered dress with brown wide belt and furcuffed boots. NEW 35mm camera behind and to her left, three-quarter back full body, DIAXI swims diagonally toward UPPER RIGHT, feet trailing lower left, arms reaching ahead into diffuse daylight less than a meter above. Head up, active swimmer rather than standing upright. Moderate curtains of small bright bubbles in the NEAR foreground partially obscure body and allow a cinematic hidden transition. Water is now more turbid OLIVE-GRAY fresh reservoir water, suspended silt, no rocky canyon wall, no visible bottom, distorted pale cloudy sky in surface. This depicts magical travel through water WITHOUT visible portals, rings, beams or runes. Fabric remains opaque and exact original design, hair streams behind. Human scale, cold natural soft daylight, realistic refraction, restrained cinematic photography. No fish, other people, blood, text, watermark, illustration or doll appearance.",
+    "endFrameDescription": "",
+    "animation": ""
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "character:diaxi"
+      ],
+      "references": [
+        {
+          "sourceKey": "character:diaxi",
+          "key": "character:diaxi",
+          "type": "character",
+          "id": "diaxi",
+          "name": "DIAXI",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-12T18:21:31.334905+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:diaxi"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:diaxi",
+              "key": "character:diaxi",
+              "type": "character",
+              "id": "diaxi",
+              "name": "DIAXI",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-10-przejscie-pod-woda/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-10-przejscie-pod-woda/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

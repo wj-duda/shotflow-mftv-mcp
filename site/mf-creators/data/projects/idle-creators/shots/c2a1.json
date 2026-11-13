@@ -1,0 +1,328 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:08:29.779Z",
+  "worldId": "mf-creators",
+  "kind": "shot",
+  "key": "shot:idle-creators/c2a1",
+  "id": "c2a1",
+  "title": "C2 → A1 | C_o — powrót do oglądania",
+  "description": "Neutralny idle, energia 3. Loop Lab C_o: C2→A1, 72 klatki/3 s. Livaihen i LAIdy wracają wzrokiem do TV; Baju łagodnie wraca do pozy A1. Dokładny End A1 zamyka graf. Bez dialogu, gestów i ruchu scenografii.",
+  "project": {
+    "id": "idle-creators",
+    "key": "project:idle-creators",
+    "name": "IdleCreators",
+    "createdAt": "2026-10-05T20:23:26.754Z"
+  },
+  "chronology": {
+    "projectKey": "project:idle-creators",
+    "projectCreatedAt": "2026-10-05T20:23:26.754Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": false,
+    "canonicalEvent": false,
+    "sequence": null,
+    "lastSequence": null,
+    "occurrences": [],
+    "sequenceTotal": 2,
+    "uniqueShotCount": 2,
+    "sequenceOrder": null,
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This project material is not present on the saved timeline, so it must not override canonical timeline events by date alone."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "c1c2"
+    },
+    {
+      "type": "shot",
+      "id": "a1a2"
+    },
+    {
+      "type": "character",
+      "id": "livaihen"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:c1c2",
+        "key": "shot:idle-creators/c1c2",
+        "type": "shot",
+        "id": "c1c2",
+        "name": "C1 → C2 | C — odpowiedź spojrzeniem",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/c1c2.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:a1a2",
+        "key": "shot:idle-creators/a1a2",
+        "type": "shot",
+        "id": "a1a2",
+        "name": "a1a2",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/a1a2.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:livaihen",
+        "key": "character:livaihen",
+        "type": "character",
+        "id": "livaihen",
+        "name": "Livaihen",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/livaihen.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:c1c2",
+          "shot:a1a2",
+          "character:livaihen"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:c1c2",
+            "key": "shot:idle-creators/c1c2",
+            "type": "shot",
+            "id": "c1c2",
+            "name": "C1 → C2 | C — odpowiedź spojrzeniem",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/c1c2.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:a1a2",
+            "key": "shot:idle-creators/a1a2",
+            "type": "shot",
+            "id": "a1a2",
+            "name": "a1a2",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/a1a2.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:livaihen",
+            "key": "character:livaihen",
+            "type": "character",
+            "id": "livaihen",
+            "name": "Livaihen",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/livaihen.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      },
+      {
+        "frameId": "frame-end",
+        "revision": 2,
+        "referenceKeys": [
+          "shot:a1a2"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:a1a2",
+            "key": "shot:idle-creators/a1a2",
+            "type": "shot",
+            "id": "a1a2",
+            "name": "a1a2",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/a1a2.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": {
+          "sourceKey": "shot:a1a2",
+          "key": "shot:idle-creators/a1a2",
+          "type": "shot",
+          "id": "a1a2",
+          "name": "a1a2",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/a1a2.json",
+          "exists": true
+        }
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "APPROVED LORE-CONSISTENT STORY IDEA\n\nROZWINIĘTY POMYSŁ ZGODNY Z LORE MF CREATORS\n\nRDZEŃ POMYSŁU UŻYTKOWNIKA — ZACHOWAJ BEZ ZMIANY\n\nKontynuacja istniejącej sceny idle-creators: sześć osób siedzi przy nieruchomym telewizorze, kamera zablokowana. Wśród nich LAIdy Pipa siedzi druga od lewej, Livaihen trzecia od lewej. Nowe klatki C1 i C2 mają różnić się od zatwierdzonego A2 wyłącznie drobną neutralną mimiką tych dwóch sąsiadek: C1 LAIdy lekko unosi brew i kieruje oczy ku Livaihen, jak nieme pytanie; C2 Livaihen delikatnie odpowiada spojrzeniem i ledwo zauważalnym uśmiechem z zamkniętymi ustami. To uśredniony neutralny materiał do długiego idle: żadnej rozmowy ustami, śmiechu, emocjonalnej oceny filmu, teatralnych gestów ani ruchu rąk. Potem wracają do oglądania. Pozostali dokładnie ci sami, TV i scenografia bez zmian. Referencja główna istniejący zatwierdzony szeroki kadr ma nadrzędność dla pozycji, strojów i kompozycji. Nie przenosić wydarzeń Music Battle do tej sceny.\n\nOSADZENIE W ŚWIECIE\n\nTo jest scena w obecnym stanie świata.\n\nMiejsce wynika z pomysłu użytkownika; nie wolno podmieniać go na lokalizację znalezioną przypadkiem w materiale referencyjnym.\n\nNie dodawaj charakterystycznych rekwizytów świata, jeśli użytkownik ich nie wskazał i nie są konieczne do czytelności sceny.\n\nPOSTACIE, CHARAKTER I MOTYWACJE\n\n- LAIdy Pipa [character:laidy-pipa]: CHARACTER [age=25-34; presentation=feminine; height=tall; build=athletic; body=hourglass; chest=medium; skin=light; face=oval; eyes=blue-gray; hair-color=purple; hair-length=very-long; hair-texture=braided]\n\nLAIdy Pipa to wysoka, atletyczna kobieta o jasnej cerze, chłodnych niebieskoszarych oczach, mocnym śliwkowo-czarnym makijażu i precyzyjnej ciemnoczerwonej szmince. Ma bardzo długie, intensywnie fioletowe boxer braids: dwa grube warkocze oraz dwa cieńsze pasma przy twarzy. Nosi czarny gotycko-klubowy strój sceniczny: dopasowany skórzany top z konstrukcyjnym gorsetem i metalowymi klamrami, siateczkowe rękawy, szeroki ćwiekowany choker, nabijane karwasze, skórzane szorty z wysokim stanem, czarne rajstopy i wysokie sznurowane kozaki na platformie. Charakterystyczne są gest rogów, czaszkowe pierścienie, koła w uszach oraz spokojna, dumna i dominująca postawa. Rysuj ją w półrealistycznym heroicznym rock-comic z mocnym tuszem, kreskowaniem, połyskiem czarnej skóry i fioletowo-czarną paletą.\n\nKANON OBUWIA: Demonia Camel-300, czarne — wysokie do kolan sznurowane kozaki na grubej platformie i szerokim słupkowym obcasie, z paskami i klamrami przy cholewce. Zachowuj pełną wysokość, platformę oraz dominujący sceniczny charakter; to jedyne wysokie kozaki na obcasie w ekipie.\n\nPERSONA KOMIKSOWA (fikcyjna)\nZnak zodiaku: Lew.\nCechy charakteru: charyzmatyczna, dumna, odważna, teatralna i bardzo lojalna; wchodzi do pomieszczenia tak, jakby właśnie zaczynał się koncert.\nNiuanse charakteru: 1) chętnie oddaje komuś część sceny, jeśli sama czuje się zauważona i szanowana; 2) swoich ludzi broni publicznie, nawet gdy prywatnie zamierza ich później skrytykować; 3) krytyka dotyka ją mocniej, niż pozwala po sobie poznać; 4) zwykłe wydarzenie instynktownie zamienia w widowisko z wyraźnym początkiem i finałem.\nLubi: sceniczne światła, fiolet, mocne wejścia, precyzyjny makijaż, ciężkie brzmienie i ludzi, którzy dotrzymują słowa.\nNie lubi: lekceważenia, nijakości, zdrady zaufania, źle przygotowanych występów i prób odbierania jej kontroli.\nMocne strony: magnetyczna obecność, odwaga, mobilizowanie grupy, panowanie nad emocjami w kryzysie.\nSłabe strony: duma utrudnia jej przeprosiny, źle znosi ignorowanie, bywa dominująca i bierze krytykę zbyt osobiście.\nRockowy nerw i nostalgia: Scena powinna zostawić po sobie pot, rozmazaną kreskę makijażu i ciszę po ostatnim uderzeniu perkusji; perfekcja bez ryzyka ją nudzi. Ma słabość do mrocznego glamouru dawnych klubów, dymu scenicznego i kasetowych składanek nagrywanych komuś bez odwagi, by powiedzieć wprost, co się czuje.\nPowiedzonka: „Fiolet to nie kolor. To ostrzeżenie.”; „Korona nie spada, kiedy głowa jest wysoko.”\n\n- Livaihen [character:livaihen]: CHARACTER [age=30-44; presentation=feminine; height=170cm; build=curvy; body=hourglass; chest=medium; skin=fair; face=oval; eyes=brown; hair-color=burgundy-red; hair-length=very-long; hair-texture=wavy]\n\nTwórczyni kanału Livaihen (@ewaduda-livaihen, YouTube UCgK0hHeDmi_8rhmz5-lKrxQ). Kanoniczny wzrost: 170 cm. Aktualny kanon to rockowa kobieta o bardzo długich, gęstych, falowanych włosach w głębokim burgundzie z czerwonymi refleksami, czarnych kocich okularach, ciemnoczerwonej szmince i małym kolczyku w nosie. Nosi czarną koronkową bluzkę, dopasowane podarte czarne spodnie z podwójnym łańcuchem i ciężkie botki z klamrami. Charakterystyczne są spokojna pewność siebie, spojrzenie ponad oprawkami oraz karminowo-czarna paleta. Rysuj ją w półrealistycznym heroicznym rock-comic: proporcjonalna sylwetka, wyidealizowana twarz, tuszowe kreskowanie i plakatowe światło.\n\nKANON OBUWIA: Dr. Martens Jadon Max Hardware, czarna skóra Buttero — ośmiodziurkowe botki na bardzo wysokiej podeszwie Quad Max, z dodatkowymi paskami i metalowymi okuciami wokół kostki. Zachowuj satynowy połysk skóry, masywną platformę i elegancko-industrialne klamry.\n\nPERSONA KOMIKSOWA (fikcyjna)\nZnak zodiaku: Waga.\nCechy charakteru: opanowana, ambitna, elegancka, cierpliwa i cięta w słowach; rzadko podnosi głos, bo nie musi.\nNiuanse charakteru: 1) przed oceną potrafi uczciwie zobaczyć racje obu stron; 2) estetykę traktuje jako narzędzie porządkowania myśli, nie powierzchowną ozdobę; 3) negocjuje łagodnie, lecz stawia precyzyjne granice, których później pilnuje; 4) zwleka tylko wtedy, gdy dwa rozwiązania wydają się równie dobre — po znalezieniu równowagi działa natychmiast.\nLubi: dopracowany klimat, burgund, koronkowe detale, nocne rozmowy, porządek w planach i inteligentne poczucie humoru.\nNie lubi: chaosu organizacyjnego, nachalności, tanich skrótów, pustych obietnic i przerywania jej w połowie myśli.\nMocne strony: konsekwencja, dobry osąd ludzi, estetyczna precyzja, zachowanie zimnej krwi.\nSłabe strony: perfekcjonizm, trudność w odpuszczaniu kontroli, skrywanie zmęczenia i surowość wobec siebie.\nRockowy nerw i nostalgia: Jej elegancja potrzebuje jednej przetartej krawędzi: starej skóry, lekko zdartego lakieru albo głosu, który pęka w najlepszym wersie. Rockowa ballada z nocnej audycji potrafi na chwilę rozbroić jej kontrolę, choć następnego dnia będzie twierdzić, że to tylko dobrze napisany utwór.\nPowiedzonka: „Porządek to może mieć każdy, ale tylko geniusz zapanuje nad chaosem.”; „Nie gadajmy, tylko działajmy.”\n\nAKTUALNY STAN KANONU\n\n- Nie znaleziono późniejszego kanonicznego wydarzenia dla wybranych elementów. Zachowaj ich bazowe rekordy i nie wymyślaj transformacji.\n\nROZWINIĘCIE DRAMATYCZNE\n\nObraz pokazuje dokładnie sytuację opisaną przez użytkownika, ale zachowanie i reakcje LAIdy Pipa i Livaihen wynikają z powyższych cech, relacji i motywacji. Wybierz jeden czytelny, zamrożony moment, w którym działanie użytkownika jest już rozpoznawalne, a różnice charakterów ujawniają się przez gest, postawę, kontakt wzrokowy i stosunek do sytuacji. Napięcie ma wypływać z podanego zdarzenia oraz zapisanych osobowości, bez dopisywania obcego antagonisty, pomocnika lub pobocznego wątku.\n\nDODATKOWY WYBRANY KONTEKST\n\n- MF Creators — heroiczny rock-comic [look:rock-comic]: NADRZĘDNY KANON WIZUALNY MF CREATORS\n\nStyl łączy współczesny amerykański komiks, rockowy plakat i uliczny mural. Ma być półrealistyczny, filmowy i wyraźnie ręcznie tuszowany. Image-001 określa atmosferę, energię grupy i nasycenie światła. Image-002 jest głównym wzorcem kreski, anatomii, pełnych sylwetek, materiałów i wspólnego kadru. Referencje nie narzucają konkretnych osób, napisów ani kompozycji.\n\nKRESKA\nStosuj trzy poziomy linii. Najgrubszy, zmienny kontur zamyka sylwetkę, główne masy włosów i buty; grubieje po stronie cienia, na styku form i w miejscach nakładania się postaci, a zwęża się lub zanika na mocno oświetlonej krawędzi. Linia średnia rozdziela ręce od tułowia, poły ubrań, nogawki i duże pasma włosów. Najcieńsza opisuje oczy, usta, zarost, palce, szwy, zamki i biżuterię. Pociągnięcia są ostre, lekko nieregularne i zwężane na końcach; nie mogą wyglądać jak równy wektorowy stroke.\n\nKreskowanie prowadź zgodnie z objętością: wokół kości policzkowych, ukośnie od szczęki ku szyi, łukiem po mięśniach oraz promieniście ku zgięciom bioder, kolan i kostek. Zagęszczaj je tylko pod brodą, przy włosach, pod pachami, między palcami, w głębokich fałdach i cieniach kontaktowych. Jasne płaszczyzny pozostaw czystsze. Szraf jest krótki i tuszowy; krzyżuj go oszczędnie wyłącznie w najciemniejszych półcieniach. Bez jednolitej siatki kresek na całym obrazie.\n\nWALOR I ŚWIATŁO\nBuduj formę czterema poziomami: niemal czarną okluzją, nasyconym cieniem lokalnego koloru, głównym półtonem i wąskim jasnym refleksem. Kluczowe cienie pod nosem, szczęką, kością policzkową i fałdą ubrania mają czytelną, graficzną granicę. Absolutną czerń rezerwuj dla konturu, szczelin i wnętrza najgłębszych fałd; czarne ubrania nadal muszą pokazywać grafitowe płaszczyzny i konstrukcję.\n\nGłówne światło jest ciepłe, górno-przednie lub boczne: podkreśla czoło, nos, policzki, barki, górne pasma włosów i czubki butów. Słabsza chłodna kontra w błękicie, fiolecie albo magencie pojawia się na zewnętrznych krawędziach włosów i czarnych ubrań, oddzielając postać od muralu. Środek bryły pozostaje w neutralnym grafitowym cieniu. Neon działa jako wąskie odbicie, nie kolorowa mgła zalewająca całą skórę.\n\nMATERIAŁY\nSkóra twarzy ma małe, łagodniejsze światła i ostrzejsze tuszowe cienie. Skórzana kurtka: długie, twarde i nieregularne smugi refleksu wzdłuż zagięć. Denim: krótkie łamane kreski, przetarcia i szerokie matowe rozjaśnienia. Metal, okulary i nity: małe punktowe bliki o twardej krawędzi. Włosy buduj dużymi pasmami obrysowanymi tuszem, z kilkoma cienkimi włóknami wewnątrz, nie setkami równych włosków.\n\nKOLOR I GŁĘBIA\nBazą są głęboka czerń, grafit, złamana biel i ciepłe pomarańczowo-brązowe tony skóry. Każda postać zachowuje jeden dominujący akcent: karmin, magentę, błękit, fiolet, pomarańcz albo zieleń. Korzystaj z kontrastów pomarańcz–błękit, magenta–zieleń i żółć–fiolet, ale spinaj kadr czarnym tuszem. Najostrzejsze krawędzie i najwyższy detal umieszczaj na oczach, ustach, dłoniach oraz charakterystycznym elemencie stroju. Dalszy bark, dolne nogawki i fragmenty w cieniu mogą mieć linię suchą, przerwaną lub częściowo zgubioną.\n\nANATOMIA I KOMPOZYCJA\nPostacie mają proporcje dorosłych ludzi z lekką heroiczną idealizacją: nieco dłuższe nogi, wyraźne barki i pewną linię ciężaru, lecz głowę bliską realistycznej wielkości. Twarze pozostają indywidualne, modelowane kanciastymi płaszczyznami światła i cienia. Dłonie muszą mieć czytelne palce i celowy gest.\n\nW grupie stosuj szeroki kadr na wysokości pasa lub klatki piersiowej, z kamerą skierowaną minimalnie ku górze i bez silnego rozciągania osób na brzegach. Stopy stoją na wspólnej płaszczyźnie, ale różnicuj wzrost, rozstaw nóg, nachylenie barków i gesty. Postacie mogą lekko na siebie zachodzić, lecz ich twarze i sylwetki muszą pozostać rozdzielone.\n\nTYPOGRAFIA I TEKST — ZASADA BEZWZGLĘDNA\nObowiązuje całkowity zakaz „AI slop font”. Tekst nie może być malowany ani improwizowany przez model jako część ilustracji. Jeśli użytkownik nie zażądał konkretnego napisu, obraz ma być całkowicie wolny od liter, słów, pseudotekstu, szyldów, etykiet, nazw marek, logotypów, znaków wodnych i graffiti udającego pismo. Nie dodawaj dekoracyjnych glifów ani przypadkowych symboli przypominających alfabet.\n\nJeśli tekst jest wymagany, najpierw wygeneruj ilustrację bez liter, pozostawiając świadomie zaplanowane czyste pole z bezpiecznym marginesem, a dokładny napis złóż później w programie graficznym. Zachowaj podaną treść znak w znak, włącznie z polskimi znakami. Nie wolno tworzyć fikcyjnych liter, ręcznie dorabianych znaków diakrytycznych, przypadkowych ligatur, pseudo-luksusowych lub pseudo-filmowych szeryfów, chromu, plastikowego 3D ani nadmiernej poświaty.\n\nDopuszczalne rodziny fontów: Barlow Condensed 900 dla głównych tytułów plakatowych i nazw twórców; Barlow Condensed 700–800 dla nagłówków; Noto Sans 400–600 dla opisów; Noto Sans 700–800 dla etykiet, dat i krótkich informacji. Bangers 400 wolno użyć najwyżej raz w kompozycji i wyłącznie dla jednego krótkiego słowa, onomatopei albo komiksowego okrzyku; nigdy dla nazwiska, harmonogramu, opisu ani długiego tytułu. Jeżeli Bangers nie ma poprawnego polskiego znaku, cały akcent składaj Barlow Condensed 900.\n\nRockową energię buduj skalą, rytmem, kontrastem i kontrolowaną asymetrią całego bloku, nigdy deformowaniem pojedynczych liter. Dopuszczalny jest prosty, kontrolowany obrys lub cień zwiększający czytelność. W jednej kompozycji używaj najwyżej trzech rodzin, przy czym Bangers pozostaje wyłącznie pojedynczym akcentem. Oficjalne logo zawsze wstawiaj jako dostarczony asset; nie przerysowuj ani nie rekonstruuj jego liter fontem.\n\nTŁO I OGRANICZENIA\nTło może być klubem, studiem, industrialnym wnętrzem albo betonowym muralem. Maluj je szerzej i grubszym suchym pędzlem niż postacie. Rozpryski, graffiti, korony, serca i szczotkowana typografia są osobną warstwą plakatu: nie mogą przecinać twarzy ani zrastać się z ciałem. Jeśli tekst nie jest wymagany, pomijaj go.\n\nPriorytet wykonania: 1) sylwetka i proporcje, 2) układ światła i czarnych plam, 3) twarz i dłonie, 4) materiały, 5) tło i mikrodetal. Bez chibi, anime, ogromnych głów, fotorealizmu, gładkiego 3D, plastikowej skóry, nadmiernego airbrushu, identycznych twarzy, zlewających się kończyn i przypadkowych napisów.\n\nGRANICE LORE\n\n- Zachowaj rdzeń, podmioty i działanie z pomysłu użytkownika; rozwinięcie nie może zastąpić jego intencji.\n\n- Późniejsze kanoniczne wydarzenia mają pierwszeństwo przed starszymi portretami i ujęciami.\n\n- Nie dodawaj żadnych współwystępujących elementów ani wątków, których użytkownik nie wybrał.\n\n- Cechy i motywacje postaci mają wpływać na ich zachowanie i reakcje, a nie być jedynie opisem wyglądu.\n\nIMAGE GENERATION TASK\n\nCreate ONLY boundary C2 as a minimal edit of the supplied C1 wide scene. The purple-braided woman second from left holds her C1 eye direction and eyebrow, gently lowers her chin two degrees. The burgundy-haired woman in black glasses third from left turns her face only 8 degrees toward screen left / slightly toward camera so she can glance back toward her neighbor, keeps her hand exactly under her chin, and forms an almost imperceptible closed-mouth acknowledgement. She is composed, not grinning. Preserve every other body part and ALL other people, TV, camera, furniture and light exactly. Use original A2 as geometry anchor, not a new scene. Flat TV x620..1302 y76..422 at1920x1080 must stay unchanged. No speech, gestures, extra props, lettering, camera drift. Same ink style and 16:9 composition. Portraits only identity, never their gestures or scene.\n\nTIMELINE CONTINUITY\n\nThis is a present-day scene. Later canonical timeline events override earlier world states. A standalone resource image preserves base identity but never overrides a later event frame showing changed age, clothing, anatomy, transformation, damage or reconstruction. Use the state-evidence events listed below and their attached current-canonical-story-state images. The latest published project in the catalog is not available.\n\nCANONICAL STATE EVIDENCE\n\nNo matching canonical timeline event was found for the selected world entities; do not infer a transformation without evidence.\n\nNUMBERED IMAGE REFERENCES\n\nIMAGE 1: MF Creators — heroiczny rock-comic\nMaterial: look:rock-comic\nImage ID: image-001\nRole: reference\nRequired use: Use as a binding visual continuity reference for the described material.\n\nIMAGE 2: MF Creators — heroiczny rock-comic\nMaterial: look:rock-comic\nImage ID: image-002\nRole: reference\nRequired use: Use as a binding visual continuity reference for the described material.\n\nIMAGE 3: LAIdy Pipa\nMaterial: character:laidy-pipa\nImage ID: image-001\nRole: portrait\nRequired use: Preserve character identity, anatomy, face, hair, materials and fixed costume details.\n\nIMAGE 4: LAIdy Pipa\nMaterial: character:laidy-pipa\nImage ID: image-002\nRole: silhouette\nRequired use: Preserve character identity, anatomy, face, hair, materials and fixed costume details.\n\nIMAGE 5: Livaihen\nMaterial: character:livaihen\nImage ID: image-004\nRole: portrait\nRequired use: Preserve character identity, anatomy, face, hair, materials and fixed costume details.\n\nIMAGE 6: Livaihen\nMaterial: character:livaihen\nImage ID: image-005\nRole: silhouette\nRequired use: Preserve character identity, anatomy, face, hair, materials and fixed costume details.\n\nBINDING MF CREATORS RECORDS\n\nMF Creators — heroiczny rock-comic [look:rock-comic]\nNADRZĘDNY KANON WIZUALNY MF CREATORS\n\nStyl łączy współczesny amerykański komiks, rockowy plakat i uliczny mural. Ma być półrealistyczny, filmowy i wyraźnie ręcznie tuszowany. Image-001 określa atmosferę, energię grupy i nasycenie światła. Image-002 jest głównym wzorcem kreski, anatomii, pełnych sylwetek, materiałów i wspólnego kadru. Referencje nie narzucają konkretnych osób, napisów ani kompozycji.\n\nKRESKA\nStosuj trzy poziomy linii. Najgrubszy, zmienny kontur zamyka sylwetkę, główne masy włosów i buty; grubieje po stronie cienia, na styku form i w miejscach nakładania się postaci, a zwęża się lub zanika na mocno oświetlonej krawędzi. Linia średnia rozdziela ręce od tułowia, poły ubrań, nogawki i duże pasma włosów. Najcieńsza opisuje oczy, usta, zarost, palce, szwy, zamki i biżuterię. Pociągnięcia są ostre, lekko nieregularne i zwężane na końcach; nie mogą wyglądać jak równy wektorowy stroke.\n\nKreskowanie prowadź zgodnie z objętością: wokół kości policzkowych, ukośnie od szczęki ku szyi, łukiem po mięśniach oraz promieniście ku zgięciom bioder, kolan i kostek. Zagęszczaj je tylko pod brodą, przy włosach, pod pachami, między palcami, w głębokich fałdach i cieniach kontaktowych. Jasne płaszczyzny pozostaw czystsze. Szraf jest krótki i tuszowy; krzyżuj go oszczędnie wyłącznie w najciemniejszych półcieniach. Bez jednolitej siatki kresek na całym obrazie.\n\nWALOR I ŚWIATŁO\nBuduj formę czterema poziomami: niemal czarną okluzją, nasyconym cieniem lokalnego koloru, głównym półtonem i wąskim jasnym refleksem. Kluczowe cienie pod nosem, szczęką, kością policzkową i fałdą ubrania mają czytelną, graficzną granicę. Absolutną czerń rezerwuj dla konturu, szczelin i wnętrza najgłębszych fałd; czarne ubrania nadal muszą pokazywać grafitowe płaszczyzny i konstrukcję.\n\nGłówne światło jest ciepłe, górno-przednie lub boczne: podkreśla czoło, nos, policzki, barki, górne pasma włosów i czubki butów. Słabsza chłodna kontra w błękicie, fiolecie albo magencie pojawia się na zewnętrznych krawędziach włosów i czarnych ubrań, oddzielając postać od muralu. Środek bryły pozostaje w neutralnym grafitowym cieniu. Neon działa jako wąskie odbicie, nie kolorowa mgła zalewająca całą skórę.\n\nMATERIAŁY\nSkóra twarzy ma małe, łagodniejsze światła i ostrzejsze tuszowe cienie. Skórzana kurtka: długie, twarde i nieregularne smugi refleksu wzdłuż zagięć. Denim: krótkie łamane kreski, przetarcia i szerokie matowe rozjaśnienia. Metal, okulary i nity: małe punktowe bliki o twardej krawędzi. Włosy buduj dużymi pasmami obrysowanymi tuszem, z kilkoma cienkimi włóknami wewnątrz, nie setkami równych włosków.\n\nKOLOR I GŁĘBIA\nBazą są głęboka czerń, grafit, złamana biel i ciepłe pomarańczowo-brązowe tony skóry. Każda postać zachowuje jeden dominujący akcent: karmin, magentę, błękit, fiolet, pomarańcz albo zieleń. Korzystaj z kontrastów pomarańcz–błękit, magenta–zieleń i żółć–fiolet, ale spinaj kadr czarnym tuszem. Najostrzejsze krawędzie i najwyższy detal umieszczaj na oczach, ustach, dłoniach oraz charakterystycznym elemencie stroju. Dalszy bark, dolne nogawki i fragmenty w cieniu mogą mieć linię suchą, przerwaną lub częściowo zgubioną.\n\nANATOMIA I KOMPOZYCJA\nPostacie mają proporcje dorosłych ludzi z lekką heroiczną idealizacją: nieco dłuższe nogi, wyraźne barki i pewną linię ciężaru, lecz głowę bliską realistycznej wielkości. Twarze pozostają indywidualne, modelowane kanciastymi płaszczyznami światła i cienia. Dłonie muszą mieć czytelne palce i celowy gest.\n\nW grupie stosuj szeroki kadr na wysokości pasa lub klatki piersiowej, z kamerą skierowaną minimalnie ku górze i bez silnego rozciągania osób na brzegach. Stopy stoją na wspólnej płaszczyźnie, ale różnicuj wzrost, rozstaw nóg, nachylenie barków i gesty. Postacie mogą lekko na siebie zachodzić, lecz ich twarze i sylwetki muszą pozostać rozdzielone.\n\nTYPOGRAFIA I TEKST — ZASADA BEZWZGLĘDNA\nObowiązuje całkowity zakaz „AI slop font”. Tekst nie może być malowany ani improwizowany przez model jako część ilustracji. Jeśli użytkownik nie zażądał konkretnego napisu, obraz ma być całkowicie wolny od liter, słów, pseudotekstu, szyldów, etykiet, nazw marek, logotypów, znaków wodnych i graffiti udającego pismo. Nie dodawaj dekoracyjnych glifów ani przypadkowych symboli przypominających alfabet.\n\nJeśli tekst jest wymagany, najpierw wygeneruj ilustrację bez liter, pozostawiając świadomie zaplanowane czyste pole z bezpiecznym marginesem, a dokładny napis złóż później w programie graficznym. Zachowaj podaną treść znak w znak, włącznie z polskimi znakami. Nie wolno tworzyć fikcyjnych liter, ręcznie dorabianych znaków diakrytycznych, przypadkowych ligatur, pseudo-luksusowych lub pseudo-filmowych szeryfów, chromu, plastikowego 3D ani nadmiernej poświaty.\n\nDopuszczalne rodziny fontów: Barlow Condensed 900 dla głównych tytułów plakatowych i nazw twórców; Barlow Condensed 700–800 dla nagłówków; Noto Sans 400–600 dla opisów; Noto Sans 700–800 dla etykiet, dat i krótkich informacji. Bangers 400 wolno użyć najwyżej raz w kompozycji i wyłącznie dla jednego krótkiego słowa, onomatopei albo komiksowego okrzyku; nigdy dla nazwiska, harmonogramu, opisu ani długiego tytułu. Jeżeli Bangers nie ma poprawnego polskiego znaku, cały akcent składaj Barlow Condensed 900.\n\nRockową energię buduj skalą, rytmem, kontrastem i kontrolowaną asymetrią całego bloku, nigdy deformowaniem pojedynczych liter. Dopuszczalny jest prosty, kontrolowany obrys lub cień zwiększający czytelność. W jednej kompozycji używaj najwyżej trzech rodzin, przy czym Bangers pozostaje wyłącznie pojedynczym akcentem. Oficjalne logo zawsze wstawiaj jako dostarczony asset; nie przerysowuj ani nie rekonstruuj jego liter fontem.\n\nTŁO I OGRANICZENIA\nTło może być klubem, studiem, industrialnym wnętrzem albo betonowym muralem. Maluj je szerzej i grubszym suchym pędzlem niż postacie. Rozpryski, graffiti, korony, serca i szczotkowana typografia są osobną warstwą plakatu: nie mogą przecinać twarzy ani zrastać się z ciałem. Jeśli tekst nie jest wymagany, pomijaj go.\n\nPriorytet wykonania: 1) sylwetka i proporcje, 2) układ światła i czarnych plam, 3) twarz i dłonie, 4) materiały, 5) tło i mikrodetal. Bez chibi, anime, ogromnych głów, fotorealizmu, gładkiego 3D, plastikowej skóry, nadmiernego airbrushu, identycznych twarzy, zlewających się kończyn i przypadkowych napisów.\n\nLAIdy Pipa [character:laidy-pipa]\nCHARACTER [age=25-34; presentation=feminine; height=tall; build=athletic; body=hourglass; chest=medium; skin=light; face=oval; eyes=blue-gray; hair-color=purple; hair-length=very-long; hair-texture=braided]\n\nLAIdy Pipa to wysoka, atletyczna kobieta o jasnej cerze, chłodnych niebieskoszarych oczach, mocnym śliwkowo-czarnym makijażu i precyzyjnej ciemnoczerwonej szmince. Ma bardzo długie, intensywnie fioletowe boxer braids: dwa grube warkocze oraz dwa cieńsze pasma przy twarzy. Nosi czarny gotycko-klubowy strój sceniczny: dopasowany skórzany top z konstrukcyjnym gorsetem i metalowymi klamrami, siateczkowe rękawy, szeroki ćwiekowany choker, nabijane karwasze, skórzane szorty z wysokim stanem, czarne rajstopy i wysokie sznurowane kozaki na platformie. Charakterystyczne są gest rogów, czaszkowe pierścienie, koła w uszach oraz spokojna, dumna i dominująca postawa. Rysuj ją w półrealistycznym heroicznym rock-comic z mocnym tuszem, kreskowaniem, połyskiem czarnej skóry i fioletowo-czarną paletą.\n\nKANON OBUWIA: Demonia Camel-300, czarne — wysokie do kolan sznurowane kozaki na grubej platformie i szerokim słupkowym obcasie, z paskami i klamrami przy cholewce. Zachowuj pełną wysokość, platformę oraz dominujący sceniczny charakter; to jedyne wysokie kozaki na obcasie w ekipie.\n\nPERSONA KOMIKSOWA (fikcyjna)\nZnak zodiaku: Lew.\nCechy charakteru: charyzmatyczna, dumna, odważna, teatralna i bardzo lojalna; wchodzi do pomieszczenia tak, jakby właśnie zaczynał się koncert.\nNiuanse charakteru: 1) chętnie oddaje komuś część sceny, jeśli sama czuje się zauważona i szanowana; 2) swoich ludzi broni publicznie, nawet gdy prywatnie zamierza ich później skrytykować; 3) krytyka dotyka ją mocniej, niż pozwala po sobie poznać; 4) zwykłe wydarzenie instynktownie zamienia w widowisko z wyraźnym początkiem i finałem.\nLubi: sceniczne światła, fiolet, mocne wejścia, precyzyjny makijaż, ciężkie brzmienie i ludzi, którzy dotrzymują słowa.\nNie lubi: lekceważenia, nijakości, zdrady zaufania, źle przygotowanych występów i prób odbierania jej kontroli.\nMocne strony: magnetyczna obecność, odwaga, mobilizowanie grupy, panowanie nad emocjami w kryzysie.\nSłabe strony: duma utrudnia jej przeprosiny, źle znosi ignorowanie, bywa dominująca i bierze krytykę zbyt osobiście.\nRockowy nerw i nostalgia: Scena powinna zostawić po sobie pot, rozmazaną kreskę makijażu i ciszę po ostatnim uderzeniu perkusji; perfekcja bez ryzyka ją nudzi. Ma słabość do mrocznego glamouru dawnych klubów, dymu scenicznego i kasetowych składanek nagrywanych komuś bez odwagi, by powiedzieć wprost, co się czuje.\nPowiedzonka: „Fiolet to nie kolor. To ostrzeżenie.”; „Korona nie spada, kiedy głowa jest wysoko.”\n\nLivaihen [character:livaihen]\nCHARACTER [age=30-44; presentation=feminine; height=170cm; build=curvy; body=hourglass; chest=medium; skin=fair; face=oval; eyes=brown; hair-color=burgundy-red; hair-length=very-long; hair-texture=wavy]\n\nTwórczyni kanału Livaihen (@ewaduda-livaihen, YouTube UCgK0hHeDmi_8rhmz5-lKrxQ). Kanoniczny wzrost: 170 cm. Aktualny kanon to rockowa kobieta o bardzo długich, gęstych, falowanych włosach w głębokim burgundzie z czerwonymi refleksami, czarnych kocich okularach, ciemnoczerwonej szmince i małym kolczyku w nosie. Nosi czarną koronkową bluzkę, dopasowane podarte czarne spodnie z podwójnym łańcuchem i ciężkie botki z klamrami. Charakterystyczne są spokojna pewność siebie, spojrzenie ponad oprawkami oraz karminowo-czarna paleta. Rysuj ją w półrealistycznym heroicznym rock-comic: proporcjonalna sylwetka, wyidealizowana twarz, tuszowe kreskowanie i plakatowe światło.\n\nKANON OBUWIA: Dr. Martens Jadon Max Hardware, czarna skóra Buttero — ośmiodziurkowe botki na bardzo wysokiej podeszwie Quad Max, z dodatkowymi paskami i metalowymi okuciami wokół kostki. Zachowuj satynowy połysk skóry, masywną platformę i elegancko-industrialne klamry.\n\nPERSONA KOMIKSOWA (fikcyjna)\nZnak zodiaku: Waga.\nCechy charakteru: opanowana, ambitna, elegancka, cierpliwa i cięta w słowach; rzadko podnosi głos, bo nie musi.\nNiuanse charakteru: 1) przed oceną potrafi uczciwie zobaczyć racje obu stron; 2) estetykę traktuje jako narzędzie porządkowania myśli, nie powierzchowną ozdobę; 3) negocjuje łagodnie, lecz stawia precyzyjne granice, których później pilnuje; 4) zwleka tylko wtedy, gdy dwa rozwiązania wydają się równie dobre — po znalezieniu równowagi działa natychmiast.\nLubi: dopracowany klimat, burgund, koronkowe detale, nocne rozmowy, porządek w planach i inteligentne poczucie humoru.\nNie lubi: chaosu organizacyjnego, nachalności, tanich skrótów, pustych obietnic i przerywania jej w połowie myśli.\nMocne strony: konsekwencja, dobry osąd ludzi, estetyczna precyzja, zachowanie zimnej krwi.\nSłabe strony: perfekcjonizm, trudność w odpuszczaniu kontroli, skrywanie zmęczenia i surowość wobec siebie.\nRockowy nerw i nostalgia: Jej elegancja potrzebuje jednej przetartej krawędzi: starej skóry, lekko zdartego lakieru albo głosu, który pęka w najlepszym wersie. Rockowa ballada z nocnej audycji potrafi na chwilę rozbroić jej kontrolę, choć następnego dnia będzie twierdzić, że to tylko dobrze napisany utwór.\nPowiedzonka: „Porządek to może mieć każdy, ale tylko geniusz zapanuje nad chaosem.”; „Nie gadajmy, tylko działajmy.”\n\nREFERENCE POLICY\n\nUse every pasted image according to its numbered purpose. Preserve official brand assets and exact slogans when selected. Do not replace an available reference with a text-only reconstruction. Treat current shot frames as continuity references, not permission to invent new canon.\nACTUAL INPUTS: Image 1 C1 is edit target and authoritative for current poses. Image 2 original A2 is static-room and TV geometry anchor. Image 3 Livaihen portrait is facial identity only of EXISTING third-from-left person. No importing portrait background, hands or costume. Output ONE C2 frame only, 16:9. Keep changes small and local to facial microexpressions; keep screen and bezel EXACTLY identical.",
+    "endFrameDescription": "Dokładna A1: przywrócona po wykryciu utraty wpisu frame-end przed pierwszą generacją.",
+    "animation": "0.0–2.4s: the burgundy-haired woman with glasses third from left gently turns back toward the television, keeping her hand beneath her chin. The purple-braided woman beside her returns her eyes to TV and relaxes her eyebrow. The tattooed man at far left eases his chin and shoulders into the supplied A1 End Frame. 2.4–3.0s: settle naturally into the exact End Frame; neutral closed-mouth expressions. Camera: absolutely locked tripod, zero pan, tilt, zoom or shake. Secondary: tiny asynchronous breathing and occasional blinks among the six seated viewers. Hands and feet stay planted; mouths closed. Continuity: television screen, bezel and four corners remain at identical pixel coordinates; unchanged blank TV, furniture, lighting, identities, outfits and seats. No speech, big gestures, new objects, camera drift, background flicker, cuts, fades or morphing."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:c1c2",
+        "shot:a1a2",
+        "character:livaihen"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:c1c2",
+          "key": "shot:idle-creators/c1c2",
+          "type": "shot",
+          "id": "c1c2",
+          "name": "C1 → C2 | C — odpowiedź spojrzeniem",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/c1c2.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:a1a2",
+          "key": "shot:idle-creators/a1a2",
+          "type": "shot",
+          "id": "a1a2",
+          "name": "a1a2",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/a1a2.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:livaihen",
+          "key": "character:livaihen",
+          "type": "character",
+          "id": "livaihen",
+          "name": "Livaihen",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/livaihen.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-05T21:13:52.289744+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:c1c2",
+            "shot:a1a2",
+            "character:livaihen"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:c1c2",
+              "key": "shot:idle-creators/c1c2",
+              "type": "shot",
+              "id": "c1c2",
+              "name": "C1 → C2 | C — odpowiedź spojrzeniem",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/c1c2.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:a1a2",
+              "key": "shot:idle-creators/a1a2",
+              "type": "shot",
+              "id": "a1a2",
+              "name": "a1a2",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/a1a2.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:livaihen",
+              "key": "character:livaihen",
+              "type": "character",
+              "id": "livaihen",
+              "name": "Livaihen",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/livaihen.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/projects/idle-creators/shots/c2a1/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/projects/idle-creators/shots/c2a1/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "role": "frame-end",
+      "revision": 2,
+      "source": "reference",
+      "referenceKeys": [
+        "shot:a1a2"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:a1a2",
+          "key": "shot:idle-creators/a1a2",
+          "type": "shot",
+          "id": "a1a2",
+          "name": "a1a2",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/a1a2.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": {
+        "sourceKey": "shot:a1a2",
+        "key": "shot:idle-creators/a1a2",
+        "type": "shot",
+        "id": "a1a2",
+        "name": "a1a2",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/a1a2.json",
+        "exists": true
+      },
+      "revisions": [
+        {
+          "revision": 2,
+          "createdAt": "2026-10-05T21:19:12.909+00:00",
+          "source": "reference",
+          "referenceKeys": [
+            "shot:a1a2"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:a1a2",
+              "key": "shot:idle-creators/a1a2",
+              "type": "shot",
+              "id": "a1a2",
+              "name": "a1a2",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/a1a2.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": {
+            "sourceKey": "shot:a1a2",
+            "key": "shot:idle-creators/a1a2",
+            "type": "shot",
+            "id": "a1a2",
+            "name": "a1a2",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/a1a2.json",
+            "exists": true
+          }
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/projects/idle-creators/shots/c2a1/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/projects/idle-creators/shots/c2a1/frame-end-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

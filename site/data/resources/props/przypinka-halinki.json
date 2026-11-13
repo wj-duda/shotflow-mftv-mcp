@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "prop:przypinka-halinki",
+  "type": "props",
+  "id": "przypinka-halinki",
+  "name": "Przypinka Halinki — wschodzące słońce / Zakon Jutrzenki",
+  "description": "REKWIZYT KOSTIUMOWY — opracowanie produkcyjne 2026-11-06 na polecenie autora. Mała złota ażurowa przypinka z klapy kurtki dawnego projektu młodej Halinki. Podobny motyw występuje w projekcie wysłanniczki zakonu; są to osobne egzemplarze tego samego wzoru, nie jeden przedmiot pojawiający się równocześnie u dwóch osób.\n\nGEOMETRIA: gładka okrągła obręcz. Pozioma belka horyzontu w dolnej części koła, na niej półkoliste słońce. Dokładnie pięć smukłych prostych promieni biegnie od słońca do górnej części obręczy: jeden pionowy i dwie symetryczne pary ukośne. Prześwity pomiędzy elementami i pod horyzontem. Bez perełkowanego rantu, liter, kamieni, łańcuszka i uszka zawieszenia. Ciepłe złote wykończenie, subtelna faktura i zwykły metaliczny połysk.\n\nSKALA PROJEKTOWA: średnica około 18 mm, grubość około 1,5 mm; niewidoczne od frontu zwykłe zapięcie sztyftowe od tyłu. Wymiary i mechanizm to doprecyzowanie projektowe; rewers nie został osobno zobrazowany. Noszona na lewej klapie Halinki, nad kieszenią z peruwiańską lamówką. Nie zmieniać strony między ujęciami. Horyzont zawsze poziomo, promienie ku górze.\n\nZNACZENIE — ZAKON JUTRZENKI: Dyskretny znak kostiumowy Halinki i wysłanniczki Zakonu Jutrzenki, zachowany z wcześniejszych projektów. Dokument „Zakon_Jutrzenki_MFTV.md” ustanawia ośmioramienny medalion jako znak po rozłamie, lecz nie definiuje funkcji tej przypinki. Jej ranga, historia i dokładna relacja do medalionu pozostają otwarte. Nie nazywać jej odznaką konkretnego urzędu, stopnia, frakcji ani wcześniejszego etapu zakonu. Pięć promieni nad horyzontem to geometria tego rekwizytu, nie rozwiązanie zagadki przejścia z siedmiu do ośmiu ramion. Nie dodawać właściwości magicznych. Nie utożsamiać politycznych ulotek Halinki z działalnością zakonu. Wysłanniczka ma własny egzemplarz przypinki. Pełne lore: note:zakon-jutrzenki.\n\nODRÓŻNIENIE: prop:naszyjnik-halinki ma osiem promieni wokół środka, perełkowany rant i łańcuszek; przypinka ma pięć promieni ponad horyzontem i gładki obwód. Nie zamieniać symboli w zbliżeniach.\n\nSTATUS: referencja makro rozwinięta z dawnego portretu character:halinka-mloda. Przypinka jest obecna na lewej klapie aktywnej planszy młodej Halinki images/image-008.png; w przednich widokach zachowano tę samą stronę. Dawnych klatek filmowych nie przebudowano.\n\nRETUSZ REFERENCJI: image-002.png zastępuje image-001.png jako aktywne makro po korekcie krawędzi i połączeń; symbol i liczba promieni pozostają bez zmian.",
+  "images": [
+    {
+      "id": "image-002",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/przypinka-halinki/image-002.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/przypinka-halinki/image-002-thumb.webp",
+      "width": 1254,
+      "height": 1254,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-11-06T22:28:46.395104+00:00"
+}

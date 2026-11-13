@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "note:ze19-layout-seed",
+  "type": "notes",
+  "id": "ze19-layout-seed",
+  "name": "ZE19 — geometria: Przy automacie — najazd zza pleców",
+  "description": "Pomocnicze referencje tego ujęcia. Pierwszy obraz to render roboczy, drugi to niskorozdzielczy guide z rzutowanymi liniami perspektywy. Zachować kamerę, skalę i układ przestrzeni; zastąpić surowy wygląd modelu naturalnymi materiałami i światłem. Bryły to wyłącznie miejsca postaci, nigdy finalny wygląd. Nie przenosić linii, siatki ani opisów do wyniku. Both boys seen from behind, Owczar on screen left using the left joystick and buttons; Dariusz on screen right watching, not playing. Keep the screen visible between their heads.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/ze19-layout-seed/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/ze19-layout-seed/image-001-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-002",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/ze19-layout-seed/image-002.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/ze19-layout-seed/image-002-thumb.webp",
+      "width": 768,
+      "height": 432,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-11-10T23:01:29.837721+00:00"
+}

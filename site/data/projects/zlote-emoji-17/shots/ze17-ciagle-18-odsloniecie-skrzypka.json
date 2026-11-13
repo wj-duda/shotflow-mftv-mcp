@@ -1,0 +1,334 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-17/ze17-ciagle-18-odsloniecie-skrzypka",
+  "id": "ze17-ciagle-18-odsloniecie-skrzypka",
+  "title": "ZE17 18 — odsloniecie skrzypka",
+  "description": "Fragment 18/18 jednego ciągłego ujęcia. First f0817 → Last f0865. 3 s, 24 fps, normalne tempo 1×; bez przyspieszania. Pozycja w sekwencji: 51–54 s. Last jest identyczny plikowo z First następnego shota. Lądowanie i obecność pióra w obrazie — odcinek Kling. Wybrane obrazy zachowują różnice odnotowane w _system/clean-plates-v001/pair-audit-v003.json; przygotowanie shota nie oznacza zatwierdzenia wszystkich detali.",
+  "project": {
+    "id": "zlote-emoji-17",
+    "key": "project:zlote-emoji-17",
+    "name": "Złote Emoji #17",
+    "createdAt": "2026-11-08T21:24:33.398Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-17",
+    "projectCreatedAt": "2026-11-08T21:24:33.398Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": false,
+    "canonicalEvent": false,
+    "sequence": null,
+    "lastSequence": null,
+    "occurrences": [],
+    "sequenceTotal": 24,
+    "uniqueShotCount": 24,
+    "sequenceOrder": null,
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This project material is not present on the saved timeline, so it must not override canonical timeline events by date alone."
+  },
+  "references": [
+    {
+      "type": "note",
+      "id": "ze17-aniol-ludzki-wyglad"
+    },
+    {
+      "type": "note",
+      "id": "ze17-skrzypek-sylwetka"
+    },
+    {
+      "type": "note",
+      "id": "ze17-pioro-biale"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "note:ze17-aniol-ludzki-wyglad",
+        "key": "note:ze17-aniol-ludzki-wyglad",
+        "type": "note",
+        "id": "ze17-aniol-ludzki-wyglad",
+        "name": "ZE17 — anioł w ludzkim przebraniu",
+        "relationship": "story-and-continuity-context",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze17-aniol-ludzki-wyglad.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "note:ze17-skrzypek-sylwetka",
+        "key": "note:ze17-skrzypek-sylwetka",
+        "type": "note",
+        "id": "ze17-skrzypek-sylwetka",
+        "name": "ZE17 — skrzypek, czysta sylwetka",
+        "relationship": "story-and-continuity-context",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze17-skrzypek-sylwetka.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "note:ze17-pioro-biale",
+        "key": "note:ze17-pioro-biale",
+        "type": "note",
+        "id": "ze17-pioro-biale",
+        "name": "ZE17 — białe pióro do ciągłości",
+        "relationship": "story-and-continuity-context",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze17-pioro-biale.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "note:ze17-aniol-ludzki-wyglad",
+          "note:ze17-pioro-biale"
+        ],
+        "references": [
+          {
+            "sourceKey": "note:ze17-aniol-ludzki-wyglad",
+            "key": "note:ze17-aniol-ludzki-wyglad",
+            "type": "note",
+            "id": "ze17-aniol-ludzki-wyglad",
+            "name": "ZE17 — anioł w ludzkim przebraniu",
+            "relationship": "story-and-continuity-context",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze17-aniol-ludzki-wyglad.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "note:ze17-pioro-biale",
+            "key": "note:ze17-pioro-biale",
+            "type": "note",
+            "id": "ze17-pioro-biale",
+            "name": "ZE17 — białe pióro do ciągłości",
+            "relationship": "story-and-continuity-context",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze17-pioro-biale.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      },
+      {
+        "frameId": "frame-end",
+        "revision": 1,
+        "referenceKeys": [
+          "note:ze17-aniol-ludzki-wyglad",
+          "note:ze17-skrzypek-sylwetka",
+          "note:ze17-pioro-biale"
+        ],
+        "references": [
+          {
+            "sourceKey": "note:ze17-aniol-ludzki-wyglad",
+            "key": "note:ze17-aniol-ludzki-wyglad",
+            "type": "note",
+            "id": "ze17-aniol-ludzki-wyglad",
+            "name": "ZE17 — anioł w ludzkim przebraniu",
+            "relationship": "story-and-continuity-context",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze17-aniol-ludzki-wyglad.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "note:ze17-skrzypek-sylwetka",
+            "key": "note:ze17-skrzypek-sylwetka",
+            "type": "note",
+            "id": "ze17-skrzypek-sylwetka",
+            "name": "ZE17 — skrzypek, czysta sylwetka",
+            "relationship": "story-and-continuity-context",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze17-skrzypek-sylwetka.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "note:ze17-pioro-biale",
+            "key": "note:ze17-pioro-biale",
+            "type": "note",
+            "id": "ze17-pioro-biale",
+            "name": "ZE17 — białe pióro do ciągłości",
+            "relationship": "story-and-continuity-context",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze17-pioro-biale.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Generate a NEW photorealistic single cinematic landscape16:9 frame from original references, not an edit. Image1 locks camera projection and object positions; replace primitives with natural forms without moving them. Image2 supplies man's identity, thin shoulder-length brown hair, charcoal fine-wool overcoat and pale shirt; NO umbrella. Image3 supplies real station materials only. Neutral grey-beige large rectangular wall panels; fine-grained medium-grey terrazzo floor laid in large square slabs with faint straight seams. Modest warm overhead light with cool fill, not orange or sepia. Charcoal coat is plain dark fine wool, not coarse speckled tweed, center back seam and natural collar. Image4 is the exact white feather asset: preserve its irregular soft edges, central shaft and asymmetric vane, rotated horizontally with tip LEFT and quill RIGHT, lying physically on LEFT shoulder. Feather visible projected length approximately 20% image width, not glowing. No new architecture, stairs, crowd, captions or watermarks. One man with back to camera. Keep head x52–65%, y15–51%, shoulders x43–71% y45–58%, body cropped below. Wall-floor seam y45–55%, narrow pilaster x65–74%. Nose barely visible on left. Quiet neutral posture arms down. Feather exactly at shoulder location in image1, flattened by perspective rather than floating upright. Camera and man position must match image1, do not center him. GEOMETRY OVERRIDE: leave empty wall across the TOP 15% of the frame. Head top must be y16%, not y6%. Head width only x52–66%; left shoulder begins x43%, right shoulder ends x72%, NOT x82%. Narrow slim man. Do not enlarge the human to a standard portrait. Keep pilaster x65–74%; no visible lamps at top.",
+    "endFrameDescription": "Wspólna klatka graniczna f0865; dokładne zakończenie segmentu i początek następnego.",
+    "animation": "0-3s: Camera arcs gently left around the stationary listener, revealing the violinist on screen left while the listener moves toward the right foreground through parallax only. The violinist remains planted and plays one short bow stroke; the listener stays facing away, arms down. The feather stays attached to the same left shoulder with only a tiny tip tremble. Finish at the supplied End Frame without stopping the camera. Preserve identities, clothing, instrument, hands, hat, wall seams and lighting. No body turns, duplicate feather, new people, cuts or morphs. @Image1: the existing listener's identity, long hair and coat only; no umbrella or wings. @Image2: the existing violinist's identity and clothing only; keep his Start/End orientation."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "video-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "note:ze17-aniol-ludzki-wyglad",
+        "note:ze17-pioro-biale"
+      ],
+      "references": [
+        {
+          "sourceKey": "note:ze17-aniol-ludzki-wyglad",
+          "key": "note:ze17-aniol-ludzki-wyglad",
+          "type": "note",
+          "id": "ze17-aniol-ludzki-wyglad",
+          "name": "ZE17 — anioł w ludzkim przebraniu",
+          "relationship": "story-and-continuity-context",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze17-aniol-ludzki-wyglad.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "note:ze17-pioro-biale",
+          "key": "note:ze17-pioro-biale",
+          "type": "note",
+          "id": "ze17-pioro-biale",
+          "name": "ZE17 — białe pióro do ciągłości",
+          "relationship": "story-and-continuity-context",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze17-pioro-biale.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-09T00:22:05.587932+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "note:ze17-aniol-ludzki-wyglad",
+            "note:ze17-pioro-biale"
+          ],
+          "references": [
+            {
+              "sourceKey": "note:ze17-aniol-ludzki-wyglad",
+              "key": "note:ze17-aniol-ludzki-wyglad",
+              "type": "note",
+              "id": "ze17-aniol-ludzki-wyglad",
+              "name": "ZE17 — anioł w ludzkim przebraniu",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze17-aniol-ludzki-wyglad.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "note:ze17-pioro-biale",
+              "key": "note:ze17-pioro-biale",
+              "type": "note",
+              "id": "ze17-pioro-biale",
+              "name": "ZE17 — białe pióro do ciągłości",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze17-pioro-biale.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-ciagle-18-odsloniecie-skrzypka/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-ciagle-18-odsloniecie-skrzypka/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "role": "frame-end",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "note:ze17-aniol-ludzki-wyglad",
+        "note:ze17-skrzypek-sylwetka",
+        "note:ze17-pioro-biale"
+      ],
+      "references": [
+        {
+          "sourceKey": "note:ze17-aniol-ludzki-wyglad",
+          "key": "note:ze17-aniol-ludzki-wyglad",
+          "type": "note",
+          "id": "ze17-aniol-ludzki-wyglad",
+          "name": "ZE17 — anioł w ludzkim przebraniu",
+          "relationship": "story-and-continuity-context",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze17-aniol-ludzki-wyglad.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "note:ze17-skrzypek-sylwetka",
+          "key": "note:ze17-skrzypek-sylwetka",
+          "type": "note",
+          "id": "ze17-skrzypek-sylwetka",
+          "name": "ZE17 — skrzypek, czysta sylwetka",
+          "relationship": "story-and-continuity-context",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze17-skrzypek-sylwetka.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "note:ze17-pioro-biale",
+          "key": "note:ze17-pioro-biale",
+          "type": "note",
+          "id": "ze17-pioro-biale",
+          "name": "ZE17 — białe pióro do ciągłości",
+          "relationship": "story-and-continuity-context",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze17-pioro-biale.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-09T00:22:05.587932+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "note:ze17-aniol-ludzki-wyglad",
+            "note:ze17-skrzypek-sylwetka",
+            "note:ze17-pioro-biale"
+          ],
+          "references": [
+            {
+              "sourceKey": "note:ze17-aniol-ludzki-wyglad",
+              "key": "note:ze17-aniol-ludzki-wyglad",
+              "type": "note",
+              "id": "ze17-aniol-ludzki-wyglad",
+              "name": "ZE17 — anioł w ludzkim przebraniu",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze17-aniol-ludzki-wyglad.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "note:ze17-skrzypek-sylwetka",
+              "key": "note:ze17-skrzypek-sylwetka",
+              "type": "note",
+              "id": "ze17-skrzypek-sylwetka",
+              "name": "ZE17 — skrzypek, czysta sylwetka",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze17-skrzypek-sylwetka.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "note:ze17-pioro-biale",
+              "key": "note:ze17-pioro-biale",
+              "type": "note",
+              "id": "ze17-pioro-biale",
+              "name": "ZE17 — białe pióro do ciągłości",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze17-pioro-biale.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-ciagle-18-odsloniecie-skrzypka/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-ciagle-18-odsloniecie-skrzypka/frame-end-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

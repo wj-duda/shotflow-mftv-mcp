@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:08:29.779Z",
+  "worldId": "mf-creators",
+  "kind": "shot",
+  "key": "shot:idle-creators/a2c1",
+  "id": "a2c1",
+  "title": "A2 → C1 | C_i — nieme pytanie",
+  "description": "Neutralny idle, energia 3. Loop Lab C_i: A2→C1, 72 klatki/3 s. LAIdy Pipa kieruje wzrok ku Livaihen i subtelnie unosi brew; pozostałe osoby spokojnie oglądają. TV nieruchomy. Początek identyczny z a2a1 Start, koniec identyczny z c1c2 Start.",
+  "project": {
+    "id": "idle-creators",
+    "key": "project:idle-creators",
+    "name": "IdleCreators",
+    "createdAt": "2026-10-05T20:23:26.754Z"
+  },
+  "chronology": {
+    "projectKey": "project:idle-creators",
+    "projectCreatedAt": "2026-10-05T20:23:26.754Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": false,
+    "canonicalEvent": false,
+    "sequence": null,
+    "lastSequence": null,
+    "occurrences": [],
+    "sequenceTotal": 2,
+    "uniqueShotCount": 2,
+    "sequenceOrder": null,
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This project material is not present on the saved timeline, so it must not override canonical timeline events by date alone."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "a2a1"
+    },
+    {
+      "type": "shot",
+      "id": "a2c1"
+    },
+    {
+      "type": "shot",
+      "id": "c1c2"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:a2a1",
+        "key": "shot:idle-creators/a2a1",
+        "type": "shot",
+        "id": "a2a1",
+        "name": "A2 do A1 - powrot idle",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/a2a1.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:a2c1",
+        "key": "shot:idle-creators/a2c1",
+        "type": "shot",
+        "id": "a2c1",
+        "name": "A2 → C1 | C_i — nieme pytanie",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/a2c1.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:c1c2",
+        "key": "shot:idle-creators/c1c2",
+        "type": "shot",
+        "id": "c1c2",
+        "name": "C1 → C2 | C — odpowiedź spojrzeniem",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/c1c2.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:a2a1"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:a2a1",
+            "key": "shot:idle-creators/a2a1",
+            "type": "shot",
+            "id": "a2a1",
+            "name": "A2 do A1 - powrot idle",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/a2a1.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      },
+      {
+        "frameId": "frame-end",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:a2c1",
+          "shot:c1c2"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:a2c1",
+            "key": "shot:idle-creators/a2c1",
+            "type": "shot",
+            "id": "a2c1",
+            "name": "A2 → C1 | C_i — nieme pytanie",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/a2c1.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:c1c2",
+            "key": "shot:idle-creators/c1c2",
+            "type": "shot",
+            "id": "c1c2",
+            "name": "C1 → C2 | C — odpowiedź spojrzeniem",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/c1c2.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Exact byte-for-byte copy of existing A2 boundary. No image generation.",
+    "endFrameDescription": "C1: neutralne spojrzenie LAIdy ku Livaihen, subtelnie uniesiona brew.",
+    "animation": "0.0–2.2s: the purple-braided woman second from left gently angles her chin toward her burgundy-haired neighbor and shifts her eyes toward that neighbor, raising one eyebrow slightly in a quiet, neutral acknowledgement. 2.2–3.0s: she settles into the exact supplied End Frame, without speaking. The other five people keep their seated poses. Camera: absolutely locked tripod, zero pan, tilt, zoom or shake. Secondary: tiny asynchronous breathing and occasional blinks among the six seated viewers. Hands and feet stay planted; mouths closed. Continuity: television screen, bezel and four corners remain at identical pixel coordinates; unchanged blank TV, furniture, lighting, identities, outfits and seats. No speech, big gestures, new objects, camera drift, background flicker, cuts, fades or morphing."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:a2a1"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:a2a1",
+          "key": "shot:idle-creators/a2a1",
+          "type": "shot",
+          "id": "a2a1",
+          "name": "A2 do A1 - powrot idle",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/a2a1.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-05T21:13:57.169305+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:a2a1"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:a2a1",
+              "key": "shot:idle-creators/a2a1",
+              "type": "shot",
+              "id": "a2a1",
+              "name": "A2 do A1 - powrot idle",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/a2a1.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/projects/idle-creators/shots/a2c1/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/projects/idle-creators/shots/a2c1/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "role": "frame-end",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:a2c1",
+        "shot:c1c2"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:a2c1",
+          "key": "shot:idle-creators/a2c1",
+          "type": "shot",
+          "id": "a2c1",
+          "name": "A2 → C1 | C_i — nieme pytanie",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/a2c1.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:c1c2",
+          "key": "shot:idle-creators/c1c2",
+          "type": "shot",
+          "id": "c1c2",
+          "name": "C1 → C2 | C — odpowiedź spojrzeniem",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/c1c2.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-05T21:13:58.732068+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:a2c1",
+            "shot:c1c2"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:a2c1",
+              "key": "shot:idle-creators/a2c1",
+              "type": "shot",
+              "id": "a2c1",
+              "name": "A2 → C1 | C_i — nieme pytanie",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/a2c1.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:c1c2",
+              "key": "shot:idle-creators/c1c2",
+              "type": "shot",
+              "id": "c1c2",
+              "name": "C1 → C2 | C — odpowiedź spojrzeniem",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/c1c2.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/projects/idle-creators/shots/a2c1/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/projects/idle-creators/shots/a2c1/frame-end-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

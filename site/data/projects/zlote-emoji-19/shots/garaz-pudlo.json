@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-19/garaz-pudlo",
+  "id": "garaz-pudlo",
+  "title": "Po latach — stare pudło",
+  "description": "Przeskok do dorosłego Dariusza w garażu. Siedzi już obok OTWARTEGO pudła; lewa ręka znajduje się nad nim, prawa na kolanie. Zauważa stare saszetki i opuszcza lewą dłoń w ich kierunku, przygotowując następny detal. Nie otwiera pudła ponownie. Przejście czasu wykonujemy montażowo, bez morfingu chłopca w dorosłego. 3 s.",
+  "project": {
+    "id": "zlote-emoji-19",
+    "key": "project:zlote-emoji-19",
+    "name": "Złote Emoji #19",
+    "createdAt": "2026-11-10T23:04:15.573Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-19",
+    "projectCreatedAt": "2026-11-10T23:04:15.573Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 11,
+    "lastSequence": 11,
+    "occurrences": [
+      11
+    ],
+    "sequenceTotal": 17,
+    "uniqueShotCount": 17,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "grimskald"
+    },
+    {
+      "type": "prop",
+      "id": "oranzada-proszek-ze19"
+    },
+    {
+      "type": "shot",
+      "id": "final-schodki"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:grimskald",
+        "key": "character:grimskald",
+        "type": "character",
+        "id": "grimskald",
+        "name": "Pan Dariusz",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:oranzada-proszek-ze19",
+        "key": "prop:oranzada-proszek-ze19",
+        "type": "prop",
+        "id": "oranzada-proszek-ze19",
+        "name": "ZE19 — papierowa saszetka oranżady",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/oranzada-proszek-ze19.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:final-schodki",
+        "key": "shot:zlote-emoji-19/final-schodki",
+        "type": "shot",
+        "id": "final-schodki",
+        "name": "Schodki — koniec wspomnienia",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-19/shots/final-schodki.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "character:grimskald",
+          "prop:oranzada-proszek-ze19",
+          "shot:final-schodki"
+        ],
+        "references": [
+          {
+            "sourceKey": "character:grimskald",
+            "key": "character:grimskald",
+            "type": "character",
+            "id": "grimskald",
+            "name": "Pan Dariusz",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:oranzada-proszek-ze19",
+            "key": "prop:oranzada-proszek-ze19",
+            "type": "prop",
+            "id": "oranzada-proszek-ze19",
+            "name": "ZE19 — papierowa saszetka oranżady",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/oranzada-proszek-ze19.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:final-schodki",
+            "key": "shot:zlote-emoji-19/final-schodki",
+            "type": "shot",
+            "id": "final-schodki",
+            "name": "Schodki — koniec wspomnienia",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-19/shots/final-schodki.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Create one photorealistic cinematic 16:9 frame specifically aligned for a MATCH DISSOLVE from reference 5. Reference 1 and 2 are the adult Dariusz canonical face and clothes/body (blue shirt, dark waistcoat, leather suspenders, rectangular glasses, long auburn braided beard, stocky). Ref 3 is sealed orange powder paper sachet packaging. Ref 4 is GARAGE SET AND LIGHTING ONLY; change its camera and composition. Ref 5 is EXACT COMPOSITION anchor: the younger curly-haired boy with glasses on the LEFT becomes the older man. Match his head center around x=45% width,y=18% height, similar head scale and seated torso/knees silhouette. Adult alone, full seated figure with feet visible near bottom; head tilted slightly down and toward screen RIGHT, torso around x=42%. Put him on a sturdy workshop stool. The second boy must NOT be present; replace that right-hand area naturally with the low wooden workbench and battered cardboard box. Dariusz's left arm lowered naturally toward box screen right, right hand near his knee, just before reaching into the box; no packet held yet. Garage scene retains believable cool daylight screen left through an open garage door, back-wall cluttered shelves, old bicycle, dusty radio, cables, jars, cartons, warm tasklamp on right. Old magazines and two unopened small 6x9cm orange-drink sachets inside box only barely visible. Arrange furniture and floor with physically correct perspective, room enough for feet and chair, no intersections. Do NOT copy the close framing of ref4: pull camera back to match full seated human scale of ref5. Real film photography, natural adult skin, no plastic CG look, no morphing intermediate age, no extra people, no collage, no text overlays. Final still is fully adult in garage, not a blended image. Keep face clear enough for aligned crossfade.",
+    "endFrameDescription": "",
+    "animation": "0.0–1.5s: Adult Dariusz, already seated beside the open box, focuses his gaze on the two old sachets and lowers his left hand from its existing hovering position toward the nearer one. 1.5–3.0s: His fingers approach its sealed top edge and pause just before lifting it, preparing the following close-up. His right hand remains on his knee. Camera: locked medium-wide shot. Beard and shirt shift subtly with breathing. @Image1 fixes the existing adult Dariusz face, glasses, braided beard and vest details only. Preserve Start Frame garage, daylight, open flaps and box contents. No younger double, opening the box again, new objects, age morph, dissolve or cut."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "character:grimskald",
+        "prop:oranzada-proszek-ze19",
+        "shot:final-schodki"
+      ],
+      "references": [
+        {
+          "sourceKey": "character:grimskald",
+          "key": "character:grimskald",
+          "type": "character",
+          "id": "grimskald",
+          "name": "Pan Dariusz",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:oranzada-proszek-ze19",
+          "key": "prop:oranzada-proszek-ze19",
+          "type": "prop",
+          "id": "oranzada-proszek-ze19",
+          "name": "ZE19 — papierowa saszetka oranżady",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/oranzada-proszek-ze19.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:final-schodki",
+          "key": "shot:zlote-emoji-19/final-schodki",
+          "type": "shot",
+          "id": "final-schodki",
+          "name": "Schodki — koniec wspomnienia",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-19/shots/final-schodki.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-10T23:20:09.682356+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:grimskald",
+            "prop:oranzada-proszek-ze19",
+            "shot:final-schodki"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:grimskald",
+              "key": "character:grimskald",
+              "type": "character",
+              "id": "grimskald",
+              "name": "Pan Dariusz",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:oranzada-proszek-ze19",
+              "key": "prop:oranzada-proszek-ze19",
+              "type": "prop",
+              "id": "oranzada-proszek-ze19",
+              "name": "ZE19 — papierowa saszetka oranżady",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/oranzada-proszek-ze19.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:final-schodki",
+              "key": "shot:zlote-emoji-19/final-schodki",
+              "type": "shot",
+              "id": "final-schodki",
+              "name": "Schodki — koniec wspomnienia",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-19/shots/final-schodki.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-19/shots/garaz-pudlo/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-19/shots/garaz-pudlo/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

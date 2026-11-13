@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:marian-rolka/ux-paczka-sklep",
+  "id": "ux-paczka-sklep",
+  "title": "Paczka w sklepie",
+  "description": "Detal autentycznej karty Paczka dla Mariana w sklepie, przycisk Kup paczkę. Kadr montażowy z podpisem KOMIS RTV. Cena i stan magazynu pominięte; dane lokalne pokazowe. Kadr v002: mobilne zbliżenie komponentu. Podsumowanie eksponuje oceniony utwór i zapis; pominięte wiersze ukryte wyłącznie do kadrowania. Napisy: napisy-v002 na V2.",
+  "project": {
+    "id": "marian-rolka",
+    "key": "project:marian-rolka",
+    "name": "MarianRolka",
+    "createdAt": "2026-10-30T11:23:31.351Z"
+  },
+  "chronology": {
+    "projectKey": "project:marian-rolka",
+    "projectCreatedAt": "2026-10-30T11:23:31.351Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 6,
+    "lastSequence": 6,
+    "occurrences": [
+      6
+    ],
+    "sequenceTotal": 16,
+    "uniqueShotCount": 16,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [],
+  "referenceUsage": {
+    "declared": [],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [],
+        "references": [],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Local Playwright capture of actual application components. Capture scripts and browser-only fixture adapters: _system/refine-v002/capture.mjs and frame-ui.mjs. Detal autentycznej karty Paczka dla Mariana w sklepie, przycisk Kup paczkę. Kadr montażowy z podpisem KOMIS RTV. Cena i stan magazynu pominięte; dane lokalne pokazowe.",
+    "endFrameDescription": "",
+    "animation": ""
+  },
+  "media": {
+    "fps": 60,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "video-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 2,
+      "source": "reference",
+      "referenceKeys": [],
+      "references": [],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-30T13:32:35.632416+00:00",
+          "source": "reference",
+          "referenceKeys": [],
+          "references": [],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-10-30T14:51:53.129776+00:00",
+          "source": "reference",
+          "referenceKeys": [],
+          "references": [],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/marian-rolka/shots/ux-paczka-sklep/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/marian-rolka/shots/ux-paczka-sklep/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:08:29.779Z",
+  "worldId": "mf-creators",
+  "kind": "shot",
+  "key": "shot:idle-creators/af4-n2",
+  "id": "af4-n2",
+  "title": "AF4-N2",
+  "description": "Wzruszenie Vana kończy się spokojną wymianą Mai i Fonzo. | Imported approved ready frames; normalized by contain to 1920x1080, originals preserved. Image provenance: loops/READY_MANIFEST.json; animation refs are separate.",
+  "project": {
+    "id": "idle-creators",
+    "key": "project:idle-creators",
+    "name": "IdleCreators",
+    "createdAt": "2026-10-05T20:23:26.754Z"
+  },
+  "chronology": {
+    "projectKey": "project:idle-creators",
+    "projectCreatedAt": "2026-10-05T20:23:26.754Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": false,
+    "canonicalEvent": false,
+    "sequence": null,
+    "lastSequence": null,
+    "occurrences": [],
+    "sequenceTotal": 2,
+    "uniqueShotCount": 2,
+    "sequenceOrder": null,
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This project material is not present on the saved timeline, so it must not override canonical timeline events by date alone."
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "van-sabe"
+    },
+    {
+      "type": "character",
+      "id": "maia-melodies"
+    },
+    {
+      "type": "character",
+      "id": "rkfonzo"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:van-sabe",
+        "key": "character:van-sabe",
+        "type": "character",
+        "id": "van-sabe",
+        "name": "Van Sabe",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/van-sabe.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:maia-melodies",
+        "key": "character:maia-melodies",
+        "type": "character",
+        "id": "maia-melodies",
+        "name": "Maia Melodies",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/maia-melodies.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:rkfonzo",
+        "key": "character:rkfonzo",
+        "type": "character",
+        "id": "rkfonzo",
+        "name": "rkFonzo",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/rkfonzo.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [],
+        "references": [],
+        "sourceReference": null
+      },
+      {
+        "frameId": "frame-end",
+        "revision": 1,
+        "referenceKeys": [],
+        "references": [],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Existing approved PNG imported; no new image generation.",
+    "endFrameDescription": "N2",
+    "animation": "@Element1=Van (right foreground); @Element2=Maia (right rear); @Image1=Fonzo. Identity only; ignore reference backgrounds.\n0–2.6s: Van lowers his chest hand; Maia moves her chest hand toward her headphone, looking at Fonzo. Fonzo turns from Van to Maia and opens his free palm; the left group gently returns toward the TV.\n2.6–3s: settle into exact End pose, without freezing.\nBaju blinks once; Pipa exhales; Livaihen breathes; Maia subtly settles her shoulders; Fonzo exhales later; Van breathes. Stagger these throughout.\nCamera, lighting, room and black TV geometry locked. Hands/feet follow supported joint arcs to End; pelvis stays seated. Held glasses stay gripped, liquid surfaces level. Preserve identities, outfits, object count and anatomy. Nothing appears, disappears or duplicates; no penetration, foot skating, morph, cuts, speech or overlays."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [],
+      "references": [],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-06T02:09:12.128+00:00",
+          "source": "generated",
+          "referenceKeys": [],
+          "references": [],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/projects/idle-creators/shots/af4-n2/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/projects/idle-creators/shots/af4-n2/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "role": "frame-end",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [],
+      "references": [],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-06T02:09:12.128+00:00",
+          "source": "generated",
+          "referenceKeys": [],
+          "references": [],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/projects/idle-creators/shots/af4-n2/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/projects/idle-creators/shots/af4-n2/frame-end-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

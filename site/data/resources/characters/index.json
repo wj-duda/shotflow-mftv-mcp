@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-29T11:52:39.792Z",
+  "generatedAt": "2026-11-13T15:07:31.302Z",
   "worldId": "aimftv",
   "type": "characters",
   "label": "Postacie",
@@ -11,11 +11,11 @@
       "type": "characters",
       "id": "takajedna",
       "name": "@Taka Jedna",
-      "summary": "CHARACTER [age=18-29; presentation=feminine; height=average; build=slim; body=hourglass; chest=medium; skin=tan; face=heart; eyes=hazel; hair-color=black; hair-length=long; hair-texture=wavy] Około 170 cm wzrostu, smukła, kobieca sylwetka z zaznaczoną talią i proporcjonalnymi bi…",
+      "summary": "CHARACTER [age=25-26; presentation=feminine; height=average; build=slim; body=hourglass; chest=medium; skin=tan; face=heart; eyes=hazel; hair-color=black; hair-length=long; hair-texture=wavy] Około 170 cm wzrostu, smukła, kobieca sylwetka z zaznaczoną talią i proporcjonalnymi bi…",
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/takajedna/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/takajedna.json",
-      "updatedAt": "2026-08-01T15:23:40.725325+00:00"
+      "updatedAt": "2026-11-06T20:32:24.300Z"
     },
     {
       "key": "character:aniol-wygnany",
@@ -23,11 +23,11 @@
       "type": "characters",
       "id": "aniol-wygnany",
       "name": "Anioł wygnany",
-      "summary": "Oryginalna postać ZE12, imię i biografia pozostają otwarte. Mężczyzna około 42 lat, szczupły, zmęczona pociągła twarz, krzywy orli nos, szare oczy, bez zarostu. Zwykły staromodny dwurzędowy garnitur w kolorze kości słoniowej, spodnie z zakładkami, koszula z rozpiętym kołnierzem,…",
+      "summary": "KOREKTA AUTORA ZE17 — 2026-11-09: Pióro nasączone łzą przemienia się w monetę już w dłoni anioła przy twarzy (prop:moneta-aniola). Następnie gotowa moneta trafia do kapelusza skrzypka. Przed nasączeniem osobny close-up pokazuje pojedynczą łzę i minimalne zakłopotanie, bez ludzki…",
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/aniol-wygnany/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/aniol-wygnany.json",
-      "updatedAt": "2026-09-12T00:28:41.641594+00:00"
+      "updatedAt": "2026-11-09T01:14:15.271494+00:00"
     },
     {
       "key": "character:czeslaw",
@@ -35,11 +35,35 @@
       "type": "characters",
       "id": "czeslaw",
       "name": "Czesław",
-      "summary": "CHARACTER [age=45-59; presentation=masculine; height=average; build=average; body=straight; chest=small; skin=medium; face=oval; eyes=dark-brown; hair-color=black; hair-length=short; hair-texture=curly] Czesław to urzędniczo-artystyczny gospodarz Domu Kultury AIMFTV: formalny, p…",
+      "summary": "CHARACTER [age=65-66; presentation=masculine; height=average; build=average; body=straight; chest=small; skin=medium; face=oval; eyes=dark-brown; hair-color=black; hair-length=short; hair-texture=curly] Czesław to urzędniczo-artystyczny gospodarz Domu Kultury AIMFTV: formalny, p…",
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/czeslaw/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
-      "updatedAt": "2026-08-01T16:29:13.2392329+00:00"
+      "updatedAt": "2026-11-09T14:52:42.446752+00:00"
+    },
+    {
+      "key": "character:czeslaw-mlody",
+      "kind": "resource",
+      "type": "characters",
+      "id": "czeslaw-mlody",
+      "name": "Czesław — 1985",
+      "summary": "WARIANT HISTORYCZNY: ta sama osoba co współczesna postać bazowa, przedstawiona w młodości, nie nowy członek rodziny ani osobny bohater. Realia retrospekcji: lata 80. Czesław urodził się w 1960 roku; w 1985 kończy 25 lat. Dzień i miesiąc urodzenia oraz daty poszczególnych scen po…",
+      "imageCount": 2,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/czeslaw-mlody/image-003-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw-mlody.json",
+      "updatedAt": "2026-11-09T14:51:52.161111+00:00"
+    },
+    {
+      "key": "character:diaxi",
+      "kind": "resource",
+      "type": "characters",
+      "id": "diaxi",
+      "name": "DIAXI",
+      "summary": "FUNDAMENT KOSMOLOGII — XIAID: świat zbudowany z niebieskiej energii magicznej, która czasami przenika do innych światów. W fikcyjnej historii AIMFTV jej ślady wyjaśniają pokrewieństwo wybranych magicznych motywów tradycji nordyckich, islandzkich i słowiańskich. Przejścia mogą pr…",
+      "imageCount": 2,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/diaxi/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+      "updatedAt": "2026-11-13T14:56:27.095503+00:00"
     },
     {
       "key": "character:estebes",
@@ -47,11 +71,11 @@
       "type": "characters",
       "id": "estebes",
       "name": "Estebes — kierowca Betoniara Team",
-      "summary": "CHARACTER [age=34-38; presentation=masculine; height=181cm; build=sturdy-average-athletic; body=straight; skin=light; face=elongated-oval; eyes=blue-gray; hair-color=dark-brown; hair-length=medium-short; hair-texture=thick-wavy; beard=short-dark] Estebes jest właścicielem-kierow…",
+      "summary": "CHARACTER [age=35-36; presentation=masculine; height=181cm; build=sturdy-average-athletic; body=straight; skin=light; face=elongated-oval; eyes=blue-gray; hair-color=dark-brown; hair-length=medium-short; hair-texture=thick-wavy; beard=short-dark] Estebes jest właścicielem-kierow…",
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/estebes/image-003-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/estebes.json",
-      "updatedAt": "2026-10-04T16:30:57.374Z"
+      "updatedAt": "2026-11-06T20:32:24.300Z"
     },
     {
       "key": "character:filip-koza",
@@ -59,11 +83,11 @@
       "type": "characters",
       "id": "filip-koza",
       "name": "Filip",
-      "summary": "CHARACTER [age=18-29; presentation=masculine; height=average; build=very-slim; body=straight; chest=small; skin=olive; face=oblong; eyes=hazel; hair-color=black; hair-length=medium; hair-texture=wavy] Około 176 cm, chudy, lekko przygarbiony, z za długimi rękami i młodzieńczą twa…",
+      "summary": "CHARACTER [age=22-23; presentation=masculine; height=average; build=very-slim; body=straight; chest=small; skin=olive; face=oblong; eyes=hazel; hair-color=black; hair-length=medium; hair-texture=wavy] Około 176 cm, chudy, lekko przygarbiony, z za długimi rękami i młodzieńczą twa…",
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/filip-koza/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/filip-koza.json",
-      "updatedAt": "2026-08-01T01:34:19.5541925+00:00"
+      "updatedAt": "2026-11-06T20:32:24.300Z"
     },
     {
       "key": "character:halinka",
@@ -71,11 +95,11 @@
       "type": "characters",
       "id": "halinka",
       "name": "Halinka",
-      "summary": "CHARACTER [age=45-59; presentation=feminine; height=short; build=average; body=pear; chest=medium; skin=light; face=round; eyes=brown; hair-color=red; hair-length=medium; hair-texture=curly] Halinka jest ciepłą, swojską i życzliwą pracownicą prowincjonalnego Domu Kultury. Działa…",
+      "summary": "CHARACTER [age=59-60; presentation=feminine; height=short; build=average; body=pear; chest=medium; skin=light; face=round; eyes=brown; hair-color=red; hair-length=medium; hair-texture=curly] Halinka jest ciepłą, swojską i życzliwą pracownicą prowincjonalnego Domu Kultury. Działa…",
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/halinka/image-003-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
-      "updatedAt": "2026-08-01T16:50:34.2070029+00:00"
+      "updatedAt": "2026-11-13T14:52:47.175434+00:00"
     },
     {
       "key": "character:halinka-gruzowisko",
@@ -83,11 +107,11 @@
       "type": "characters",
       "id": "halinka-gruzowisko",
       "name": "Halinka — gruzowisko",
-      "summary": "CHARACTER [age=45-59; presentation=feminine; height=short; build=average; body=pear; chest=medium; skin=light; face=round; eyes=brown; hair-color=red; hair-length=medium; hair-texture=curly] Halinka jest ciepłą, swojską i życzliwą pracownicą prowincjonalnego Domu Kultury. Działa…",
+      "summary": "CHARACTER [age=59-60; presentation=feminine; height=short; build=average; body=pear; chest=medium; skin=light; face=round; eyes=brown; hair-color=red; hair-length=medium; hair-texture=curly] Halinka jest ciepłą, swojską i życzliwą pracownicą prowincjonalnego Domu Kultury. Działa…",
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/halinka-gruzowisko/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka-gruzowisko.json",
-      "updatedAt": "2026-09-20T09:43:53.881590+00:00"
+      "updatedAt": "2026-11-06T22:16:47.884521+00:00"
     },
     {
       "key": "character:horda-zombie-halloween",
@@ -99,7 +123,7 @@
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/horda-zombie-halloween/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/horda-zombie-halloween.json",
-      "updatedAt": "2026-09-20T15:09:55.048133+00:00"
+      "updatedAt": "2026-11-06T20:32:24.300Z"
     },
     {
       "key": "character:kkn-inspektorka",
@@ -111,7 +135,7 @@
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/kkn-inspektorka/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/kkn-inspektorka.json",
-      "updatedAt": "2026-09-30T22:16:59.027Z"
+      "updatedAt": "2026-11-06T20:32:24.300Z"
     },
     {
       "key": "character:kkn-protokolant",
@@ -123,7 +147,7 @@
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/kkn-protokolant/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/kkn-protokolant.json",
-      "updatedAt": "2026-09-30T22:16:59.028Z"
+      "updatedAt": "2026-11-06T20:32:24.300Z"
     },
     {
       "key": "character:kkn-przewodniczaca",
@@ -135,7 +159,7 @@
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/kkn-przewodniczaca/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/kkn-przewodniczaca.json",
-      "updatedAt": "2026-09-30T22:16:59.027Z"
+      "updatedAt": "2026-11-06T20:32:24.300Z"
     },
     {
       "key": "character:laidy-pipa",
@@ -143,11 +167,11 @@
       "type": "characters",
       "id": "laidy-pipa",
       "name": "LAIdy Pipa",
-      "summary": "CHARACTER [age=25-34; presentation=feminine; height=tall; build=athletic; body=hourglass; chest=medium; skin=light; face=oval; eyes=blue-gray; hair-color=platinum-blonde; hair-length=very-long; hair-texture=curly] LAIdy Pipa, persona ze Zdziroversum występująca jako „żona wiking…",
+      "summary": "CHARACTER [age=30-31; presentation=feminine; height=tall; build=athletic; body=hourglass; chest=medium; skin=light; face=oval; eyes=blue-gray; hair-color=platinum-blonde; hair-length=very-long; hair-texture=curly] LAIdy Pipa, persona ze Zdziroversum występująca jako „żona wiking…",
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/laidy-pipa/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/laidy-pipa.json",
-      "updatedAt": "2026-08-18T06:34:49.2569151+00:00"
+      "updatedAt": "2026-11-06T20:32:24.300Z"
     },
     {
       "key": "character:laidy-pipa-v2",
@@ -155,11 +179,11 @@
       "type": "characters",
       "id": "laidy-pipa-v2",
       "name": "LAIdy Pipa v2",
-      "summary": "CHARACTER [age=25-34; presentation=feminine; height=tall; build=athletic; body=hourglass; chest=medium; skin=light; face=oval; eyes=blue-gray; hair-color=purple; hair-length=very-long; hair-texture=braided] LAIdy Pipa v2 — wariant postaci przygotowany dla Złotego Emoji Tygodnia…",
+      "summary": "CHARACTER [age=30-31; presentation=feminine; height=tall; build=athletic; body=hourglass; chest=medium; skin=light; face=oval; eyes=blue-gray; hair-color=purple; hair-length=very-long; hair-texture=braided] LAIdy Pipa v2 — wariant postaci przygotowany dla Złotego Emoji Tygodnia…",
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/laidy-pipa-v2/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/laidy-pipa-v2.json",
-      "updatedAt": "2026-08-23T00:41:31+02:00"
+      "updatedAt": "2026-11-06T20:32:24.300Z"
     },
     {
       "key": "character:maia-melodies",
@@ -167,11 +191,11 @@
       "type": "characters",
       "id": "maia-melodies",
       "name": "Maia Melodies",
-      "summary": "CHARACTER [age=18-29; presentation=feminine; height=average; build=slim; body=hourglass; chest=medium; skin=fair; face=heart; eyes=green; hair-color=dyed; hair-length=short; hair-texture=straight] Publiczna persona kanału Maia Melodies: wirtualna DJ-ka, producentka i pogodna gos…",
+      "summary": "CHARACTER [age=24-25; presentation=feminine; height=average; build=slim; body=hourglass; chest=medium; skin=fair; face=heart; eyes=green; hair-color=dyed; hair-length=short; hair-texture=straight] Publiczna persona kanału Maia Melodies: wirtualna DJ-ka, producentka i pogodna gos…",
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/maia-melodies/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/maia-melodies.json",
-      "updatedAt": "2026-08-15T21:37:30.9615746+00:00"
+      "updatedAt": "2026-11-06T20:32:24.300Z"
     },
     {
       "key": "character:maia-melodies-v2",
@@ -179,11 +203,11 @@
       "type": "characters",
       "id": "maia-melodies-v2",
       "name": "Maia Melodies v2",
-      "summary": "CHARACTER [age=18-29; presentation=feminine; height=average; build=slim; body=hourglass; chest=medium; skin=fair; face=heart; eyes=green-hazel; hair-color=platinum-lavender; hair-length=short; hair-texture=straight] Maia Melodies v2 — wariant postaci przygotowany dla Złotego Emo…",
+      "summary": "CHARACTER [age=24-25; presentation=feminine; height=average; build=slim; body=hourglass; chest=medium; skin=fair; face=heart; eyes=green-hazel; hair-color=platinum-lavender; hair-length=short; hair-texture=straight] Maia Melodies v2 — wariant postaci przygotowany dla Złotego Emo…",
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/maia-melodies-v2/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/maia-melodies-v2.json",
-      "updatedAt": "2026-08-23T00:47:18+02:00"
+      "updatedAt": "2026-11-06T20:32:24.300Z"
     },
     {
       "key": "character:marcel",
@@ -191,11 +215,11 @@
       "type": "characters",
       "id": "marcel",
       "name": "Marcel",
-      "summary": "CHARACTER [age=18-29; presentation=masculine; height=short; build=stocky; body=oval; chest=medium; skin=very-fair; face=round; eyes=gray; hair-color=white; hair-length=short; hair-texture=straight] Około 169 cm, krępy, miękka sylwetka i szeroka twarz. Osoba z albinizmem: białe w…",
+      "summary": "CHARACTER [age=24-25; presentation=masculine; height=short; build=stocky; body=oval; chest=medium; skin=very-fair; face=round; eyes=gray; hair-color=white; hair-length=short; hair-texture=straight] Około 169 cm, krępy, miękka sylwetka i szeroka twarz. Osoba z albinizmem: białe w…",
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/marcel/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/marcel.json",
-      "updatedAt": "2026-08-01T01:53:40.1430197+00:00"
+      "updatedAt": "2026-11-06T20:32:24.300Z"
     },
     {
       "key": "character:marian",
@@ -203,11 +227,11 @@
       "type": "characters",
       "id": "marian",
       "name": "Marian",
-      "summary": "CHARACTER [age=55-64; presentation=masculine; height=average; build=slim; body=lean; chest=small; skin=light; face=long-angular; eyes=gray-blue; hair-color=gray; hair-length=short; hair-texture=untidy] MARIAN — PIERWSZY DESIGN POSTACI, 2026-10-28. Nowa postać świata AIMFTV tworz…",
+      "summary": "CHARACTER [age=62-63; presentation=masculine; height=average; build=slim; body=lean; chest=small; skin=light; face=long-angular; eyes=gray-blue; hair-color=gray; hair-length=short; hair-texture=untidy] MARIAN — PIERWSZY DESIGN POSTACI, 2026-10-28. Nowa postać świata AIMFTV tworz…",
       "imageCount": 6,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/marian/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/marian.json",
-      "updatedAt": "2026-10-29T11:51:47.100633+00:00"
+      "updatedAt": "2026-11-06T20:32:24.300Z"
     },
     {
       "key": "character:marianna",
@@ -215,11 +239,11 @@
       "type": "characters",
       "id": "marianna",
       "name": "Marianna \"Mańka\"",
-      "summary": "CHARACTER [age=18-29; presentation=feminine; height=tall; build=slim; body=straight; chest=small; skin=very-fair; face=heart; eyes=blue; hair-color=white; hair-length=long; hair-texture=straight] Około 178 cm, wysoka, szczupła, z długimi kończynami i nieco kanciastą postawą. Tak…",
+      "summary": "CHARACTER [age=22-23; presentation=feminine; height=tall; build=slim; body=straight; chest=small; skin=very-fair; face=heart; eyes=blue; hair-color=white; hair-length=long; hair-texture=straight] Około 178 cm, wysoka, szczupła, z długimi kończynami i nieco kanciastą postawą. Tak…",
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/marianna/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/marianna.json",
-      "updatedAt": "2026-08-01T23:33:14.0422348+00:00"
+      "updatedAt": "2026-11-06T20:32:24.300Z"
     },
     {
       "key": "character:mistrz-konca",
@@ -227,11 +251,71 @@
       "type": "characters",
       "id": "mistrz-konca",
       "name": "Mistrz Końca",
-      "summary": "CHARACTER [age=18-29; presentation=masculine; height=tall; build=stocky; body=inverted-triangle; chest=large; skin=light; face=oblong; eyes=hazel; hair-color=dark-brown; hair-length=short; hair-texture=straight] Mistrz Końca, robocza ksywa 27-letniego członka Klubu Fantastyki i…",
+      "summary": "CHARACTER [age=26-27; presentation=masculine; height=tall; build=stocky; body=inverted-triangle; chest=large; skin=light; face=oblong; eyes=hazel; hair-color=dark-brown; hair-length=short; hair-texture=straight] Mistrz Końca, robocza ksywa 27-letniego członka Klubu Fantastyki i…",
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/mistrz-konca/image-003-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/mistrz-konca.json",
-      "updatedAt": "2026-08-19T20:00:48.8611447+00:00"
+      "updatedAt": "2026-11-06T20:32:24.300Z"
+    },
+    {
+      "key": "character:halinka-mloda",
+      "kind": "resource",
+      "type": "characters",
+      "id": "halinka-mloda",
+      "name": "Młoda Halinka",
+      "summary": "WARIANT HISTORYCZNY: ta sama osoba co współczesna postać bazowa, przedstawiona w młodości, nie nowy członek rodziny ani osobny bohater. Realia retrospekcji: lata 80. Starsza moda inspirowana latami 60. jest świadomą decyzją kostiumową autora i nie zmienia daty wydarzeń. Rocznik…",
+      "imageCount": 2,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/halinka-mloda/image-007-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka-mloda.json",
+      "updatedAt": "2026-11-09T14:20:23.824631+00:00"
+    },
+    {
+      "key": "character:fonzo-mlody",
+      "kind": "resource",
+      "type": "characters",
+      "id": "fonzo-mlody",
+      "name": "Młody Fonzo",
+      "summary": "MŁODY FONZO — KOREKTA AUTORA I RELACJA FONZA, 2026-11-06 TOŻSAMOŚĆ: Słowak, rocznik 1969 według przekazanej przez autora wypowiedzi Fonza. Zastępuje wcześniejszy redakcyjnie dobrany rocznik 1962. W 1985 kończy 16 lat, w 1986 kończy 17, w 1987 kończy 18, a w 2026 kończy 57. Przed…",
+      "imageCount": 2,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/fonzo-mlody/image-007-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/fonzo-mlody.json",
+      "updatedAt": "2026-11-06T23:25:52.884296+00:00"
+    },
+    {
+      "key": "character:marian-mlody",
+      "kind": "resource",
+      "type": "characters",
+      "id": "marian-mlody",
+      "name": "Młody Marian",
+      "summary": "WARIANT HISTORYCZNY: ta sama osoba co współczesna postać bazowa, przedstawiona w młodości, nie nowy członek rodziny ani osobny bohater. Realia retrospekcji: lata 80. Starsza moda inspirowana latami 60. jest świadomą decyzją kostiumową autora i nie zmienia daty wydarzeń. Rok urod…",
+      "imageCount": 2,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/marian-mlody/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/marian-mlody.json",
+      "updatedAt": "2026-11-06T20:32:24.300Z"
+    },
+    {
+      "key": "character:olivia-wilczyca",
+      "kind": "resource",
+      "type": "characters",
+      "id": "olivia-wilczyca",
+      "name": "Olivia — postać wilczycy",
+      "summary": "Wariant tej samej Olivii Dela Ossa do ZE18, decyzja użytkownika: bliżej wilczycy, na czterech łapach. Naturalna smukła sylwetka, grafitowo-czarne futro ze srebrnymi włosami na policzkach i karku, ciemne bursztynowo-brązowe oczy. Bez ludzkiej anatomii, ubrań i świecących oczu. Te…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/olivia-wilczyca/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/olivia-wilczyca.json",
+      "updatedAt": "2026-11-09T16:18:08.175897+00:00"
+    },
+    {
+      "key": "character:olivia-dela-ossa",
+      "kind": "resource",
+      "type": "characters",
+      "id": "olivia-dela-ossa",
+      "name": "Olivia Dela Ossa",
+      "summary": "Olivia Dela Ossa — peruwiańska śpiewaczka zespołu ludowego Marinera, matka Alvara, znanego później jako Van Sabe (character:van-sabe). USTALONA HISTORIA: W latach 80. przyjeżdża z zespołem na tournée po Polsce. Nawiązuje romans z młodym Czesławem (character:czeslaw), organizator…",
+      "imageCount": 2,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/olivia-dela-ossa/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/olivia-dela-ossa.json",
+      "updatedAt": "2026-11-09T14:20:23.846139+00:00"
     },
     {
       "key": "character:grimskald",
@@ -239,11 +323,11 @@
       "type": "characters",
       "id": "grimskald",
       "name": "Pan Dariusz",
-      "summary": "CHARACTER [age=30-44; presentation=masculine; height=tall; build=stocky; body=pear; chest=large; skin=light; face=square; eyes=blue; hair-color=red; hair-length=long; hair-texture=straight] Pan Dariusz, opiekun klubu fantastyki w domu kultury. Potężnie zbudowany, ok. 188 cm, mas…",
+      "summary": "CHARACTER [age=40-41; presentation=masculine; height=tall; build=stocky; body=pear; chest=large; skin=light; face=square; eyes=blue; hair-color=red; hair-length=long; hair-texture=straight] Pan Dariusz, opiekun klubu fantastyki w domu kultury. Potężnie zbudowany, ok. 188 cm, mas…",
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/grimskald/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
-      "updatedAt": "2026-08-22T18:03:36.2366234+00:00"
+      "updatedAt": "2026-11-06T20:32:24.300Z"
     },
     {
       "key": "character:sirock",
@@ -251,11 +335,11 @@
       "type": "characters",
       "id": "sirock",
       "name": "Sirock",
-      "summary": "CHARACTER [age=30-38; presentation=feminine; height=average; build=slim; body=straight; chest=small; skin=pale; face=elongated-heart-oval; eyes=gray-green; hair-color=black; hair-length=long; hair-texture=straight-wet] Kanoniczna czarnowłosa wersja Sirock w świecie AIMFTV. Doros…",
+      "summary": "CHARACTER [age=34-35; presentation=feminine; height=average; build=slim; body=straight; chest=small; skin=pale; face=elongated-heart-oval; eyes=gray-green; hair-color=black; hair-length=long; hair-texture=straight-wet] Kanoniczna czarnowłosa wersja Sirock w świecie AIMFTV. Doros…",
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/sirock/image-005-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/sirock.json",
-      "updatedAt": "2026-09-26T18:45:00+02:00"
+      "updatedAt": "2026-11-06T20:32:24.300Z"
     },
     {
       "key": "character:sirock-blond",
@@ -263,11 +347,35 @@
       "type": "characters",
       "id": "sirock-blond",
       "name": "Sirock — blond",
-      "summary": "CHARACTER [age=30-38; presentation=feminine; height=average; build=slim; body=straight; chest=small; skin=pale; face=elongated-heart-oval; eyes=gray-green; hair-color=ash-blonde; hair-length=long; hair-texture=straight-wet] Blond wariant kanonicznej Sirock w świecie AIMFTV. To d…",
+      "summary": "CHARACTER [age=34-35; presentation=feminine; height=average; build=slim; body=straight; chest=small; skin=pale; face=elongated-heart-oval; eyes=gray-green; hair-color=ash-blonde; hair-length=long; hair-texture=straight-wet] Blond wariant kanonicznej Sirock w świecie AIMFTV. To d…",
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/sirock-blond/image-003-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/sirock-blond.json",
-      "updatedAt": "2026-09-26T18:45:00+02:00"
+      "updatedAt": "2026-11-06T20:32:24.300Z"
+    },
+    {
+      "key": "character:skrzypek",
+      "kind": "resource",
+      "type": "characters",
+      "id": "skrzypek",
+      "name": "Skrzypek — starszy muzyk z utworu Estebesa",
+      "summary": "KOREKTA AUTORA ZE17 — 2026-11-09: Pióro nasączone łzą przemienia się w monetę już w dłoni anioła przy twarzy (prop:moneta-aniola). Następnie gotowa moneta trafia do kapelusza skrzypka. Przed nasączeniem osobny close-up pokazuje pojedynczą łzę i minimalne zakłopotanie, bez ludzki…",
+      "imageCount": 2,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/skrzypek/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/skrzypek.json",
+      "updatedAt": "2026-11-09T01:14:15.271494+00:00"
+    },
+    {
+      "key": "character:szamanka-rodu-diaxi",
+      "kind": "resource",
+      "type": "characters",
+      "id": "szamanka-rodu-diaxi",
+      "name": "Szamanka rodu DIAXI — matka",
+      "summary": "FUNDAMENT KOSMOLOGII — XIAID: świat zbudowany z niebieskiej energii magicznej, która czasami przenika do innych światów. W fikcyjnej historii AIMFTV jej ślady wyjaśniają pokrewieństwo wybranych magicznych motywów tradycji nordyckich, islandzkich i słowiańskich. Przejścia mogą pr…",
+      "imageCount": 2,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/szamanka-rodu-diaxi/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/szamanka-rodu-diaxi.json",
+      "updatedAt": "2026-11-13T14:56:27.095503+00:00"
     },
     {
       "key": "character:van-sabe",
@@ -275,11 +383,23 @@
       "type": "characters",
       "id": "van-sabe",
       "name": "Van Sabe",
-      "summary": "CHARACTER [age=30-44; presentation=masculine; height=tall; build=athletic; body=oval; chest=medium; skin=medium; face=oval; eyes=dark-brown; hair-color=black; hair-length=medium; hair-texture=wavy] Prywatny detetektyw, coś pomiędzy indiana jonsem i kinem noir, tajemniczy i owian…",
+      "summary": "CHARACTER [age=39-40; presentation=masculine; height=tall; build=athletic; body=oval; chest=medium; skin=medium; face=oval; eyes=dark-brown; hair-color=black; hair-length=medium; hair-texture=wavy] Prywatny detektyw, łączący przygodowy charakter Indiany Jonesa z kinem noir; taje…",
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/van-sabe/image-004-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/van-sabe.json",
-      "updatedAt": "2026-08-18T07:14:14.3768994+00:00"
+      "updatedAt": "2026-11-09T14:20:23.869679+00:00"
+    },
+    {
+      "key": "character:van-sabe-wilcze-odbicie",
+      "kind": "resource",
+      "type": "characters",
+      "id": "van-sabe-wilcze-odbicie",
+      "name": "Van Sabe — wilcze odbicie",
+      "summary": "Wariant Vana wyłącznie do nadnaturalnego odbicia w finale ZE18. Wilcza głowa, ciemne futro i brązowe oczy; zachowany czarny strój, wisiorek i skórzany pas torby. Nie ustanawia fizycznej przemiany w baraku. Matczyna forma: character:olivia-wilczyca.",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/van-sabe-wilcze-odbicie/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/van-sabe-wilcze-odbicie.json",
+      "updatedAt": "2026-11-09T16:26:20.672561+00:00"
     },
     {
       "key": "character:wieslaw-majster",
@@ -291,7 +411,7 @@
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/wieslaw-majster/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/wieslaw-majster.json",
-      "updatedAt": "2026-09-12T12:03:58.004056+00:00"
+      "updatedAt": "2026-11-06T20:32:24.300Z"
     },
     {
       "key": "character:komisant",
@@ -299,11 +419,23 @@
       "type": "characters",
       "id": "komisant",
       "name": "Włodek — Komisant",
-      "summary": "CHARACTER [age=55-64; presentation=masculine; height=average; build=average; body=oval; chest=medium; skin=light; face=oblong; eyes=brown; hair-color=gray; hair-length=short; hair-texture=straight] Włodek jest właścicielem małomiasteczkowego place:komis-rtv i jedynym człowiekiem…",
+      "summary": "CHARACTER [age=63-64; presentation=masculine; height=average; build=average; body=oval; chest=medium; skin=light; face=oblong; eyes=brown; hair-color=gray; hair-length=short; hair-texture=straight] Włodek jest właścicielem małomiasteczkowego place:komis-rtv i jedynym człowiekiem…",
       "imageCount": 5,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/komisant/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/komisant.json",
-      "updatedAt": "2026-10-29T11:51:47.126320+00:00"
+      "updatedAt": "2026-11-06T20:32:24.300Z"
+    },
+    {
+      "key": "character:wyslanniczka-zakonu",
+      "kind": "resource",
+      "type": "characters",
+      "id": "wyslanniczka-zakonu",
+      "name": "Wysłanniczka Zakonu Jutrzenki",
+      "summary": "POSTAĆ DO ZE#16 — propozycja wizualna 2026-11-06. Kobieta związana z Zakonem Jutrzenki, do którego należy Halinka, przychodzi po młodą Halinkę podczas spotkania z Fonzo nad jeziorem. Jej pojawienie się przerywa tę chwilę; sygnał przynależności ma pozostać dyskretny. Nie ustalono…",
+      "imageCount": 2,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/wyslanniczka-zakonu/image-003-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/wyslanniczka-zakonu.json",
+      "updatedAt": "2026-11-06T23:12:26.223255+00:00"
     },
     {
       "key": "character:zosia",
@@ -311,11 +443,11 @@
       "type": "characters",
       "id": "zosia",
       "name": "Zosia",
-      "summary": "CHARACTER [age=18-29; presentation=feminine; height=very-short; build=slim; body=hourglass; chest=small; skin=fair; face=oval; eyes=gray; hair-color=dyed; hair-length=long; hair-texture=wavy] Zosia jest córką Halinki. Niska, szczupła młoda dziewczyna o jasnej cerze, z bardzo dłu…",
+      "summary": "CHARACTER [age=22-23; presentation=feminine; height=very-short; build=slim; body=hourglass; chest=small; skin=fair; face=oval; eyes=gray; hair-color=dyed; hair-length=long; hair-texture=wavy] Zosia jest córką Halinki. Niska, szczupła młoda dziewczyna o jasnej cerze, z bardzo dłu…",
       "imageCount": 2,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/zosia/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/zosia.json",
-      "updatedAt": "2026-08-01T02:37:48.5782588+00:00"
+      "updatedAt": "2026-11-13T14:49:46.644382+00:00"
     }
   ]
 }

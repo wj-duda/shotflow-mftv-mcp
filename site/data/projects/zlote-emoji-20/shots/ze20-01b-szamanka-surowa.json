@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-20/ze20-01b-szamanka-surowa",
+  "id": "ze20-01b-szamanka-surowa",
+  "title": "Szamanka — surowa odpowiedź",
+  "description": "2,00–5,08 s: półzbliżenie 75 mm według Blender D01. Szamanka patrzy w prawo na DIAXI; mocno ściągnięte brwi, zaciśnięta szczęka, stanowcza odpowiedź. Oczy jeszcze normalne, kamień nie świeci.",
+  "project": {
+    "id": "zlote-emoji-20",
+    "key": "project:zlote-emoji-20",
+    "name": "Złote Emoji #20",
+    "createdAt": "2026-11-12T06:49:40.532Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-20",
+    "projectCreatedAt": "2026-11-12T06:49:40.532Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 2,
+    "lastSequence": 2,
+    "occurrences": [
+      2
+    ],
+    "sequenceTotal": 27,
+    "uniqueShotCount": 27,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "szamanka-rodu-diaxi"
+    },
+    {
+      "type": "shot",
+      "id": "ze20-01-rozmowa-nad-wodospadem"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:szamanka-rodu-diaxi",
+        "key": "character:szamanka-rodu-diaxi",
+        "type": "character",
+        "id": "szamanka-rodu-diaxi",
+        "name": "Szamanka rodu DIAXI — matka",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/szamanka-rodu-diaxi.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze20-01-rozmowa-nad-wodospadem",
+        "key": "shot:zlote-emoji-20/ze20-01-rozmowa-nad-wodospadem",
+        "type": "shot",
+        "id": "ze20-01-rozmowa-nad-wodospadem",
+        "name": "Rozmowa nad wodospadem",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-01-rozmowa-nad-wodospadem.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "character:szamanka-rodu-diaxi",
+          "shot:ze20-01-rozmowa-nad-wodospadem"
+        ],
+        "references": [
+          {
+            "sourceKey": "character:szamanka-rodu-diaxi",
+            "key": "character:szamanka-rodu-diaxi",
+            "type": "character",
+            "id": "szamanka-rodu-diaxi",
+            "name": "Szamanka rodu DIAXI — matka",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/szamanka-rodu-diaxi.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:ze20-01-rozmowa-nad-wodospadem",
+            "key": "shot:zlote-emoji-20/ze20-01-rozmowa-nad-wodospadem",
+            "type": "shot",
+            "id": "ze20-01-rozmowa-nad-wodospadem",
+            "name": "Rozmowa nad wodospadem",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-01-rozmowa-nad-wodospadem.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Create ONE photoreal live-action film still, landscape 16:9 1920x1080. This is a cinematic dialogue close-up, not a character sheet. Image 1 is the Blender camera blockout: use ONLY its 75mm eye-level camera position and head-and-upper-chest framing, stone behind and staff at left edge. Do not copy any proxy shapes or materials. Image 2 is absolute authority for the elderly shaman's face, deep wrinkles, branching tattoos, silver braids, eyes and jewelry. Image 3 is authority for real location, costume, cloudy daylight and scene continuity. The same elderly woman is left of the dark engraved standing stone, facing three-quarter SCREEN RIGHT toward DIAXI just off camera. Crop to head and upper chest, eyes near upper third, slight breathing room in direction of gaze. Performance: stern protective anger held tightly, brows pulled together, jaw set, lips slightly parted mid-sentence, a small downward pressure in her chin; a mother who has said this before and will not be contradicted. Both eyes normal gray-blue, absolutely NO magical glow yet. Physical age, skin pores, fine facial hair, no beauty smoothing. Dark feather mantle, embroidered linen, weathered leather. One staff partly visible at far left, no hand gesture. Dark stone carving at right is defocused and unlit, hut warm window only a faint peripheral blur. Cold natural overcast light, negative fill on far cheek, restrained 35mm film texture, real human scale and optical 75mm perspective, shallow but believable f/4 depth. Preserve exact face and costume, no extra people, no plastic CGI, no miniatures, no written text, subtitles or watermark.",
+    "endFrameDescription": "",
+    "animation": "0.0–2.6s: the elder on screen left fixes her gaze toward screen right, draws her brows together and lowers her chin a few degrees with controlled severity. 2.6–4.0s: hold the stern expression with natural breathing. Camera: locked 75mm close-up. Secondary motion: loose silver strands and feather tips stir gently. @Image1 locks her exact face, age and tattoos. Preserve normal gray-blue eyes, wardrobe, staff and dark unlit stone. No large gestures, glowing eyes, facial morphing, new people, extra limbs, cuts, text or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "character:szamanka-rodu-diaxi",
+        "shot:ze20-01-rozmowa-nad-wodospadem"
+      ],
+      "references": [
+        {
+          "sourceKey": "character:szamanka-rodu-diaxi",
+          "key": "character:szamanka-rodu-diaxi",
+          "type": "character",
+          "id": "szamanka-rodu-diaxi",
+          "name": "Szamanka rodu DIAXI — matka",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/szamanka-rodu-diaxi.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ze20-01-rozmowa-nad-wodospadem",
+          "key": "shot:zlote-emoji-20/ze20-01-rozmowa-nad-wodospadem",
+          "type": "shot",
+          "id": "ze20-01-rozmowa-nad-wodospadem",
+          "name": "Rozmowa nad wodospadem",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-01-rozmowa-nad-wodospadem.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-12T23:26:24.911823+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:szamanka-rodu-diaxi",
+            "shot:ze20-01-rozmowa-nad-wodospadem"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:szamanka-rodu-diaxi",
+              "key": "character:szamanka-rodu-diaxi",
+              "type": "character",
+              "id": "szamanka-rodu-diaxi",
+              "name": "Szamanka rodu DIAXI — matka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/szamanka-rodu-diaxi.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ze20-01-rozmowa-nad-wodospadem",
+              "key": "shot:zlote-emoji-20/ze20-01-rozmowa-nad-wodospadem",
+              "type": "shot",
+              "id": "ze20-01-rozmowa-nad-wodospadem",
+              "name": "Rozmowa nad wodospadem",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-01-rozmowa-nad-wodospadem.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-01b-szamanka-surowa/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-01b-szamanka-surowa/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

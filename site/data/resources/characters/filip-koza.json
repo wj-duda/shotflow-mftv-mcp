@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-29T11:52:39.792Z",
+  "generatedAt": "2026-11-13T15:07:31.302Z",
   "worldId": "aimftv",
   "kind": "resource",
   "key": "character:filip-koza",
   "type": "characters",
   "id": "filip-koza",
   "name": "Filip",
-  "description": "CHARACTER [age=18-29; presentation=masculine; height=average; build=very-slim; body=straight; chest=small; skin=olive; face=oblong; eyes=hazel; hair-color=black; hair-length=medium; hair-texture=wavy]\r\n\r\nOkoło 176 cm, chudy, lekko przygarbiony, z za długimi rękami i młodzieńczą twarzą. Ciemne, niesforne włosy i delikatny trądzik. Cecha charakterystyczna: wyraźnie odstające uszy.",
+  "description": "CHARACTER [age=22-23; presentation=masculine; height=average; build=very-slim; body=straight; chest=small; skin=olive; face=oblong; eyes=hazel; hair-color=black; hair-length=medium; hair-texture=wavy]\r\n\r\nOkoło 176 cm, chudy, lekko przygarbiony, z za długimi rękami i młodzieńczą twarzą. Ciemne, niesforne włosy i delikatny trądzik. Cecha charakterystyczna: wyraźnie odstające uszy.\n\nCHRONOLOGIA — UZUPEŁNIENIE NA POLECENIE AUTORA 2026-11-06: Rok urodzenia postaci w AIMFTV: 2003. Dzień i miesiąc urodzenia pozostają nieustalone. W 2026 kończy 23 lat; przed urodzinami ma 22. Zakres wieku w nagłówku odnosi się do 2026 roku. Rocznik dobrano redakcyjnie do istniejącego bio i wspólnej chronologii; dotyczy fikcyjnej postaci, nie danych osobowych twórcy lub osoby z referencji.",
   "images": [
     {
       "id": "image-001",
@@ -28,5 +28,5 @@
       "contentType": "image/webp"
     }
   ],
-  "updatedAt": "2026-08-01T01:34:19.5541925+00:00"
+  "updatedAt": "2026-11-06T20:32:24.300Z"
 }

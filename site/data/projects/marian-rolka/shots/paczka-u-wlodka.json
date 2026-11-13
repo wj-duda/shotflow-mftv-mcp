@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:marian-rolka/paczka-u-wlodka",
+  "id": "paczka-u-wlodka",
+  "title": "Paczka u Włodka",
+  "description": "Włodek przesuwa po szklanej ladzie paczkę znaną z aplikacji w stronę widza. Oprawa komisu zgodna z referencją.\nKAMERA: 35 mm, wysokość lady, paczka duża z przodu, Włodek w drugim planie.\nPLAN KLATEK: START: dłoń Włodka na paczce; END opcjonalny po przesunięciu.\nNAPIS MONTAŻOWY: Zacznij od paczki u Włodka.\nMONTAŻ v003: 9.0–10.5 s. NARRACJA MARIANA: Weź dla mnie paczkę u Włodka.. Aktualne napisy: _system/napisy-v003.srt; zastępują wcześniejsze wskazówki napisów.",
+  "project": {
+    "id": "marian-rolka",
+    "key": "project:marian-rolka",
+    "name": "MarianRolka",
+    "createdAt": "2026-10-30T11:23:31.351Z"
+  },
+  "chronology": {
+    "projectKey": "project:marian-rolka",
+    "projectCreatedAt": "2026-10-30T11:23:31.351Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 5,
+    "lastSequence": 5,
+    "occurrences": [
+      5
+    ],
+    "sequenceTotal": 16,
+    "uniqueShotCount": 16,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "komisant"
+    },
+    {
+      "type": "place",
+      "id": "komis-rtv"
+    },
+    {
+      "type": "prop",
+      "id": "paczka-dla-mariana"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:komisant",
+        "key": "character:komisant",
+        "type": "character",
+        "id": "komisant",
+        "name": "Włodek — Komisant",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/komisant.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:komis-rtv",
+        "key": "place:komis-rtv",
+        "type": "place",
+        "id": "komis-rtv",
+        "name": "KOMIS RTV — kantor Włodka",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/komis-rtv.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:paczka-dla-mariana",
+        "key": "prop:paczka-dla-mariana",
+        "type": "prop",
+        "id": "paczka-dla-mariana",
+        "name": "Paczka dla Mariana",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/paczka-dla-mariana.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "character:komisant",
+          "place:komis-rtv",
+          "prop:paczka-dla-mariana"
+        ],
+        "references": [
+          {
+            "sourceKey": "character:komisant",
+            "key": "character:komisant",
+            "type": "character",
+            "id": "komisant",
+            "name": "Włodek — Komisant",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/komisant.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "place:komis-rtv",
+            "key": "place:komis-rtv",
+            "type": "place",
+            "id": "komis-rtv",
+            "name": "KOMIS RTV — kantor Włodka",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/komis-rtv.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:paczka-dla-mariana",
+            "key": "prop:paczka-dla-mariana",
+            "type": "prop",
+            "id": "paczka-dla-mariana",
+            "name": "Paczka dla Mariana",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/paczka-dla-mariana.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Cinematic photorealistic vertical 9:16 film frame, 1080x1920 composition. Reference 1 exact Wlodek portrait identity and clothing. Reference 2 pawn shop interior, lighting and shelves (its depicted man is also Wlodek, not an additional person). Reference 3 shop floorplan authoritative geometry. Reference 4 exact grocery aid parcel design. Scene: Wlodek behind his glass shop counter, one hand rests on the parcel ready to slide it toward the camera/customer. One man only. Slightly low counter-height 40mm lens: parcel dominates lower middle, Wlodek's face upper middle, warm brass desk lamp at left and cyan/magenta shelf accent lights in soft background. Preserve worn checked beige shirt, dark green sweater vest, amber rectangular glasses, grey thin moustache, shrewd unsentimental expression, no friendly big grin. Parcel is a wrinkled kraft paper bag tied with thin pale string and a blank kraft tag, top showing only bread, tin and folded beige cloth exactly as provided, no alcohol. Natural plausible five-finger hand placed on side of parcel, no extra customer hands. Five small canonical currency objects from interior sit separately on counter to the left of parcel, small and secondary; they are physical objects, not UI. No change of shop layout: camera south of counter looking north into electronics shelves. Leave upper 15 percent lower-contrast shelf background for later caption. Real glass reflections, realistic cloth and skin texture, no fractal overdetail. No added text, labels, prices, logos or watermark.",
+    "endFrameDescription": "",
+    "animation": "0.0–1.2s: Wlodek is already sliding the existing grocery parcel about eight centimetres toward the camera along the glass counter with his visible hand, stopping before the counter edge. 1.2–3.0s: he leaves his hand resting on the bag and holds his knowing gaze. Camera: locked off. Secondary motion: the string tag sways once and the parcel's glass reflection follows its motion. @Image1 fixes only Wlodek's facial identity. Continuity: retain his amber glasses, clothing, bag contents, bread, tin, cloth, string and blank tag; the five small currency objects remain stationary. Avoid customer hands, floating bag, changing contents, extra fingers, speech, cuts, morphing or text."
+  },
+  "media": {
+    "fps": 60,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "character:komisant",
+        "place:komis-rtv",
+        "prop:paczka-dla-mariana"
+      ],
+      "references": [
+        {
+          "sourceKey": "character:komisant",
+          "key": "character:komisant",
+          "type": "character",
+          "id": "komisant",
+          "name": "Włodek — Komisant",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/komisant.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "place:komis-rtv",
+          "key": "place:komis-rtv",
+          "type": "place",
+          "id": "komis-rtv",
+          "name": "KOMIS RTV — kantor Włodka",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/komis-rtv.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:paczka-dla-mariana",
+          "key": "prop:paczka-dla-mariana",
+          "type": "prop",
+          "id": "paczka-dla-mariana",
+          "name": "Paczka dla Mariana",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/paczka-dla-mariana.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-30T11:23:32.747902+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:komisant",
+            "place:komis-rtv",
+            "prop:paczka-dla-mariana"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:komisant",
+              "key": "character:komisant",
+              "type": "character",
+              "id": "komisant",
+              "name": "Włodek — Komisant",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/komisant.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:komis-rtv",
+              "key": "place:komis-rtv",
+              "type": "place",
+              "id": "komis-rtv",
+              "name": "KOMIS RTV — kantor Włodka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/komis-rtv.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:paczka-dla-mariana",
+              "key": "prop:paczka-dla-mariana",
+              "type": "prop",
+              "id": "paczka-dla-mariana",
+              "name": "Paczka dla Mariana",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/paczka-dla-mariana.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/marian-rolka/shots/paczka-u-wlodka/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/marian-rolka/shots/paczka-u-wlodka/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

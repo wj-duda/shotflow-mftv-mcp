@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-17/ze17-final-01b-pioro-do-lzy",
+  "id": "ze17-final-01b-pioro-do-lzy",
+  "title": "ZE17 - Podniesienie piora do lzy",
+  "description": "Most 3 s: ostatnia widoczna klatka final-01 do pierwszej widocznej klatki final-02. Reka podnosi pioro do policzka; bez przemiany.",
+  "project": {
+    "id": "zlote-emoji-17",
+    "key": "project:zlote-emoji-17",
+    "name": "Złote Emoji #17",
+    "createdAt": "2026-11-08T21:24:33.398Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-17",
+    "projectCreatedAt": "2026-11-08T21:24:33.398Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 21,
+    "lastSequence": 21,
+    "occurrences": [
+      21
+    ],
+    "sequenceTotal": 24,
+    "uniqueShotCount": 24,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "take",
+      "id": "ze17-final-01-zaklopotanie-lza/take-2"
+    },
+    {
+      "type": "take",
+      "id": "ze17-final-02-lza-przemiana-moneta/take-1"
+    },
+    {
+      "type": "shot",
+      "id": "ze17-final-02-lza-przemiana-moneta"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "take:ze17-final-01-zaklopotanie-lza/take-2",
+        "key": "take:zlote-emoji-17/ze17-final-01-zaklopotanie-lza/take-2",
+        "type": "take",
+        "id": "ze17-final-01-zaklopotanie-lza/take-2",
+        "name": "ZE17 — Łza i zakłopotanie / take-2",
+        "relationship": "visible-state-from-take",
+        "shotKey": "shot:zlote-emoji-17/ze17-final-01-zaklopotanie-lza",
+        "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-final-01-zaklopotanie-lza.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "take:ze17-final-02-lza-przemiana-moneta/take-1",
+        "key": "take:zlote-emoji-17/ze17-final-02-lza-przemiana-moneta/take-1",
+        "type": "take",
+        "id": "ze17-final-02-lza-przemiana-moneta/take-1",
+        "name": "ZE17 — Nasączenie pióra i przemiana w monetę / take-1",
+        "relationship": "visible-state-from-take",
+        "shotKey": "shot:zlote-emoji-17/ze17-final-02-lza-przemiana-moneta",
+        "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-final-02-lza-przemiana-moneta.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze17-final-02-lza-przemiana-moneta",
+        "key": "shot:zlote-emoji-17/ze17-final-02-lza-przemiana-moneta",
+        "type": "shot",
+        "id": "ze17-final-02-lza-przemiana-moneta",
+        "name": "ZE17 — Nasączenie pióra i przemiana w monetę",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-final-02-lza-przemiana-moneta.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "take:ze17-final-01-zaklopotanie-lza/take-2"
+        ],
+        "references": [
+          {
+            "sourceKey": "take:ze17-final-01-zaklopotanie-lza/take-2",
+            "key": "take:zlote-emoji-17/ze17-final-01-zaklopotanie-lza/take-2",
+            "type": "take",
+            "id": "ze17-final-01-zaklopotanie-lza/take-2",
+            "name": "ZE17 — Łza i zakłopotanie / take-2",
+            "relationship": "visible-state-from-take",
+            "shotKey": "shot:zlote-emoji-17/ze17-final-01-zaklopotanie-lza",
+            "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-final-01-zaklopotanie-lza.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": {
+          "sourceKey": "take:ze17-final-01-zaklopotanie-lza/take-2",
+          "key": "take:zlote-emoji-17/ze17-final-01-zaklopotanie-lza/take-2",
+          "type": "take",
+          "id": "ze17-final-01-zaklopotanie-lza/take-2",
+          "name": "ZE17 — Łza i zakłopotanie / take-2",
+          "relationship": "visible-state-from-take",
+          "shotKey": "shot:zlote-emoji-17/ze17-final-01-zaklopotanie-lza",
+          "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-final-01-zaklopotanie-lza.json",
+          "exists": true
+        }
+      },
+      {
+        "frameId": "frame-end",
+        "revision": 1,
+        "referenceKeys": [
+          "take:ze17-final-02-lza-przemiana-moneta/take-1"
+        ],
+        "references": [
+          {
+            "sourceKey": "take:ze17-final-02-lza-przemiana-moneta/take-1",
+            "key": "take:zlote-emoji-17/ze17-final-02-lza-przemiana-moneta/take-1",
+            "type": "take",
+            "id": "ze17-final-02-lza-przemiana-moneta/take-1",
+            "name": "ZE17 — Nasączenie pióra i przemiana w monetę / take-1",
+            "relationship": "visible-state-from-take",
+            "shotKey": "shot:zlote-emoji-17/ze17-final-02-lza-przemiana-moneta",
+            "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-final-02-lza-przemiana-moneta.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": {
+          "sourceKey": "take:ze17-final-02-lza-przemiana-moneta/take-1",
+          "key": "take:zlote-emoji-17/ze17-final-02-lza-przemiana-moneta/take-1",
+          "type": "take",
+          "id": "ze17-final-02-lza-przemiana-moneta/take-1",
+          "name": "ZE17 — Nasączenie pióra i przemiana w monetę / take-1",
+          "relationship": "visible-state-from-take",
+          "shotKey": "shot:zlote-emoji-17/ze17-final-02-lza-przemiana-moneta",
+          "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-final-02-lza-przemiana-moneta.json",
+          "exists": true
+        }
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Exact decoded frame 71 of final-01 take-2, no image generation.",
+    "endFrameDescription": "Pierwszy kontakt pióra z łzą; dokładny początek istniejącego filmu 02.",
+    "animation": "One continuous three-second locked close-up connecting the exact supplied Start and End Frames. Begin with the single tear already on his SCREEN-RIGHT cheek; his hand and feather are below the crop. 0-1.2s: His RIGHT hand lifts ONE white feather naturally through the lower-right edge, thumb and index pinching its bare quill; the soft tip travels toward the tear. 1.2-2.6s: He gently brings the feather tip into contact with the tear below his anatomical left eye, arriving at the exact End Frame hand position and diagonal feather angle. 2.6-3s: Settle at first contact; the tear remains visible. Eyes return subtly from their sideways check; mouth stays neutral, head nearly still. @Image1 defines the existing man's face, right-hand grip and white feather design only. Keep skin, background, camera scale and lighting fixed. No coin, transformation, glow, smile, extra fingers, duplicate feather, teleportation or cut."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "video-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "imported",
+      "referenceKeys": [
+        "take:ze17-final-01-zaklopotanie-lza/take-2"
+      ],
+      "references": [
+        {
+          "sourceKey": "take:ze17-final-01-zaklopotanie-lza/take-2",
+          "key": "take:zlote-emoji-17/ze17-final-01-zaklopotanie-lza/take-2",
+          "type": "take",
+          "id": "ze17-final-01-zaklopotanie-lza/take-2",
+          "name": "ZE17 — Łza i zakłopotanie / take-2",
+          "relationship": "visible-state-from-take",
+          "shotKey": "shot:zlote-emoji-17/ze17-final-01-zaklopotanie-lza",
+          "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-final-01-zaklopotanie-lza.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": {
+        "sourceKey": "take:ze17-final-01-zaklopotanie-lza/take-2",
+        "key": "take:zlote-emoji-17/ze17-final-01-zaklopotanie-lza/take-2",
+        "type": "take",
+        "id": "ze17-final-01-zaklopotanie-lza/take-2",
+        "name": "ZE17 — Łza i zakłopotanie / take-2",
+        "relationship": "visible-state-from-take",
+        "shotKey": "shot:zlote-emoji-17/ze17-final-01-zaklopotanie-lza",
+        "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-final-01-zaklopotanie-lza.json",
+        "exists": true
+      },
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-09T16:28:02.632982+00:00",
+          "source": "imported",
+          "referenceKeys": [
+            "take:ze17-final-01-zaklopotanie-lza/take-2"
+          ],
+          "references": [
+            {
+              "sourceKey": "take:ze17-final-01-zaklopotanie-lza/take-2",
+              "key": "take:zlote-emoji-17/ze17-final-01-zaklopotanie-lza/take-2",
+              "type": "take",
+              "id": "ze17-final-01-zaklopotanie-lza/take-2",
+              "name": "ZE17 — Łza i zakłopotanie / take-2",
+              "relationship": "visible-state-from-take",
+              "shotKey": "shot:zlote-emoji-17/ze17-final-01-zaklopotanie-lza",
+              "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-final-01-zaklopotanie-lza.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": {
+            "sourceKey": "take:ze17-final-01-zaklopotanie-lza/take-2",
+            "key": "take:zlote-emoji-17/ze17-final-01-zaklopotanie-lza/take-2",
+            "type": "take",
+            "id": "ze17-final-01-zaklopotanie-lza/take-2",
+            "name": "ZE17 — Łza i zakłopotanie / take-2",
+            "relationship": "visible-state-from-take",
+            "shotKey": "shot:zlote-emoji-17/ze17-final-01-zaklopotanie-lza",
+            "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-final-01-zaklopotanie-lza.json",
+            "exists": true
+          }
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-final-01b-pioro-do-lzy/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-final-01b-pioro-do-lzy/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "role": "frame-end",
+      "revision": 1,
+      "source": "imported",
+      "referenceKeys": [
+        "take:ze17-final-02-lza-przemiana-moneta/take-1"
+      ],
+      "references": [
+        {
+          "sourceKey": "take:ze17-final-02-lza-przemiana-moneta/take-1",
+          "key": "take:zlote-emoji-17/ze17-final-02-lza-przemiana-moneta/take-1",
+          "type": "take",
+          "id": "ze17-final-02-lza-przemiana-moneta/take-1",
+          "name": "ZE17 — Nasączenie pióra i przemiana w monetę / take-1",
+          "relationship": "visible-state-from-take",
+          "shotKey": "shot:zlote-emoji-17/ze17-final-02-lza-przemiana-moneta",
+          "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-final-02-lza-przemiana-moneta.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": {
+        "sourceKey": "take:ze17-final-02-lza-przemiana-moneta/take-1",
+        "key": "take:zlote-emoji-17/ze17-final-02-lza-przemiana-moneta/take-1",
+        "type": "take",
+        "id": "ze17-final-02-lza-przemiana-moneta/take-1",
+        "name": "ZE17 — Nasączenie pióra i przemiana w monetę / take-1",
+        "relationship": "visible-state-from-take",
+        "shotKey": "shot:zlote-emoji-17/ze17-final-02-lza-przemiana-moneta",
+        "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-final-02-lza-przemiana-moneta.json",
+        "exists": true
+      },
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-09T16:28:02.632982+00:00",
+          "source": "imported",
+          "referenceKeys": [
+            "take:ze17-final-02-lza-przemiana-moneta/take-1"
+          ],
+          "references": [
+            {
+              "sourceKey": "take:ze17-final-02-lza-przemiana-moneta/take-1",
+              "key": "take:zlote-emoji-17/ze17-final-02-lza-przemiana-moneta/take-1",
+              "type": "take",
+              "id": "ze17-final-02-lza-przemiana-moneta/take-1",
+              "name": "ZE17 — Nasączenie pióra i przemiana w monetę / take-1",
+              "relationship": "visible-state-from-take",
+              "shotKey": "shot:zlote-emoji-17/ze17-final-02-lza-przemiana-moneta",
+              "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-final-02-lza-przemiana-moneta.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": {
+            "sourceKey": "take:ze17-final-02-lza-przemiana-moneta/take-1",
+            "key": "take:zlote-emoji-17/ze17-final-02-lza-przemiana-moneta/take-1",
+            "type": "take",
+            "id": "ze17-final-02-lza-przemiana-moneta/take-1",
+            "name": "ZE17 — Nasączenie pióra i przemiana w monetę / take-1",
+            "relationship": "visible-state-from-take",
+            "shotKey": "shot:zlote-emoji-17/ze17-final-02-lza-przemiana-moneta",
+            "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-final-02-lza-przemiana-moneta.json",
+            "exists": true
+          }
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-final-01b-pioro-do-lzy/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-final-01b-pioro-do-lzy/frame-end-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

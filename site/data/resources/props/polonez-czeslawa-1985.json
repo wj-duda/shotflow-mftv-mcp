@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "prop:polonez-czeslawa-1985",
+  "type": "props",
+  "id": "polonez-czeslawa-1985",
+  "name": "Polonez Czesława — 1985",
+  "description": "Pojazd Czesława w retrospekcji ZE18, Polska 1985. FSO Polonez 1500 X, rocznik projektowy 1982, pięciodrzwiowe wczesne nadwozie Borewicz. Bogata wersja z dyskretnymi dodatkami możliwymi w epoce: niewielkie srebrne felgi aluminiowe typu Fiat z wysokim profilem opon, dwa prostokątne halogeny pod przednim zderzakiem, chromowane lusterko i antena teleskopowa. Oryginalna wysokość zawieszenia, czarne zderzaki z cienkim chromem, cztery okrągłe reflektory, szerokie tylne słupki z kratkami. Nietypowy głęboki śliwkowo-bakłażanowy lakier oraz cienki szampański pasek to fikcyjna indywidualizacja, nie deklarowany kolor fabryczny. Brązowe wnętrze. Czarne tablice z białymi znakami LUB 2486 są rekwizytem fikcyjnym. Bez współczesnych dodatków, LED, dużych felg, niskich opon, obniżania i elementów Caro. Zadbany samochód używany, nie wrak. Własność i sposób zdobycia auta pozostają otwarte. To generowana referencja inscenizacyjna oparta na zdjęciach aut z epoki konstrukcyjnej, nie autentyczne zdjęcie z 1985. Źródła zdjęć i pełny prompt: projects/zlote-emoji-18/_system/design-1985/car-sources.json oraz generation-record.json.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/polonez-czeslawa-1985/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/polonez-czeslawa-1985/image-001-thumb.webp",
+      "width": 1536,
+      "height": 1024,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-11-09T14:51:52.161111+00:00"
+}

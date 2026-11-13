@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-29T11:52:39.792Z",
+  "generatedAt": "2026-11-13T15:07:31.302Z",
   "worldId": "aimftv",
   "type": "places",
   "label": "Miejsca",
@@ -198,6 +198,18 @@
       "updatedAt": "2026-08-01T21:34:51.0366827+00:00"
     },
     {
+      "key": "place:lasy-kozlowieckie-polana-1985",
+      "kind": "resource",
+      "type": "places",
+      "id": "lasy-kozlowieckie-polana-1985",
+      "name": "Lasy Kozłowieckie — droga i polana, 1985",
+      "summary": "Rekonstrukcja filmowa inspirowana współczesnymi zdjęciami ścieżki Kopanina w Lasach Kozłowieckich. Jedna spójna lokacja: piaszczysta droga po lewej, mała polana po prawej, rozwidlony dąb i ścieżka ucieczki w głębi po prawej. Lato, noc pełni. Roślinność i płaska topografia region…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/lasy-kozlowieckie-polana-1985/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lasy-kozlowieckie-polana-1985.json",
+      "updatedAt": "2026-11-09T14:57:26.307749+00:00"
+    },
+    {
       "key": "place:lokal-zastepczy-domu-kultury",
       "kind": "resource",
       "type": "places",
@@ -208,6 +220,30 @@
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/lokal-zastepczy-domu-kultury/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lokal-zastepczy-domu-kultury.json",
       "updatedAt": "2026-09-21T23:53:55.011738+00:00"
+    },
+    {
+      "key": "place:lublin-muszla-ogrod-saski-1985",
+      "kind": "resource",
+      "type": "places",
+      "id": "lublin-muszla-ogrod-saski-1985",
+      "name": "Lublin — muszla Ogrodu Saskiego, 1985",
+      "summary": "Rekonstrukcja filmowa otoczenia muszli Ogrodu Saskiego po koncercie Lubelskich Spotkań Folklorystycznych, lato 1985. Czesław jest współorganizatorem festiwalu. Scena po lewej, boczna alejka po prawej. Bryła oparta na zdjęciu z remontu 2019; wykończenie, sprzęt, ławki i nocne świ…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/lublin-muszla-ogrod-saski-1985/image-002-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lublin-muszla-ogrod-saski-1985.json",
+      "updatedAt": "2026-11-09T15:49:55.599173+00:00"
+    },
+    {
+      "key": "place:lawka-mariana",
+      "kind": "resource",
+      "type": "places",
+      "id": "lawka-mariana",
+      "name": "Ławka Mariana — park osiedlowy",
+      "summary": "Lokacja rolki Mariana wyprowadzona z aktualnego tła rozmowy w aplikacji: /home/ojciech/atv/panel/static/assets/economy/marian/dialogue-scene-v2.png. Zwykły park osiedlowy, drewniana ławka po prawej, ścieżka po lewej, dojrzałe drzewa i krzewy, blok w tle, ciepłe lampy i chłodny z…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/lawka-mariana/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lawka-mariana.json",
+      "updatedAt": "2026-10-30T11:18:58.293383+00:00"
     },
     {
       "key": "place:lazy",
@@ -258,6 +294,18 @@
       "updatedAt": "2026-08-23T01:22:00+02:00"
     },
     {
+      "key": "place:poznan-most-dworcowy",
+      "kind": "resource",
+      "type": "places",
+      "id": "poznan-most-dworcowy",
+      "name": "Poznań — Most Dworcowy i tory",
+      "summary": "Referencja realnej infrastruktury dla ZE17: most drogowy ponad torami i peronami. Układ sceny filmowej jest uproszczony, nie stanowi rekonstrukcji pomiarowej. Zdjęcie dzienne służy konstrukcji i materiałom, nie porze dnia ani kątowi kamery. Źródło: https://www.poznan.pl/mim/smar…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/poznan-most-dworcowy/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/poznan-most-dworcowy.json",
+      "updatedAt": "2026-11-08T21:39:29.137596+00:00"
+    },
+    {
       "key": "place:dom-kultury-publika",
       "kind": "resource",
       "type": "places",
@@ -304,6 +352,66 @@
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/dom-kultury-wejscie/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/dom-kultury-wejscie.json",
       "updatedAt": "2026-08-03T11:54:21.9253277+00:00"
+    },
+    {
+      "key": "place:wodospad-brama-diaxi",
+      "kind": "resource",
+      "type": "places",
+      "id": "wodospad-brama-diaxi",
+      "name": "XIAID — wodospad i kamień bramy",
+      "summary": "FUNDAMENT KOSMOLOGII — XIAID: świat zbudowany z niebieskiej energii magicznej, która czasami przenika do innych światów. W fikcyjnej historii AIMFTV jej ślady wyjaśniają pokrewieństwo wybranych magicznych motywów tradycji nordyckich, islandzkich i słowiańskich. Przejścia mogą pr…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/wodospad-brama-diaxi/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/wodospad-brama-diaxi.json",
+      "updatedAt": "2026-11-13T14:56:27.095503+00:00"
+    },
+    {
+      "key": "place:zakon-jutrzenki",
+      "kind": "resource",
+      "type": "places",
+      "id": "zakon-jutrzenki",
+      "name": "Zakon Jutrzenki — zaplecze fabryki i archiwum",
+      "summary": "ZAKON JUTRZENKI — FABRYCZNE ZAPLECZE I ARCHIWUM Wpis lokacyjny świata AIMFTV powiązany z note:zakon-jutrzenki. Organizacja posiada osobne pełne lore w notes; ten zasób służy przyszłym scenom w jej ukrytym zapleczu cukierniczym. RDZEŃ MIEJSCA: normalnie działająca fabryka słodycz…",
+      "imageCount": 0,
+      "thumbnailUrl": null,
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/zakon-jutrzenki.json",
+      "updatedAt": "2026-11-06T22:03:34.892246+00:00"
+    },
+    {
+      "key": "place:zalew-mitrega-wyjscie-diaxi",
+      "kind": "resource",
+      "type": "places",
+      "id": "zalew-mitrega-wyjscie-diaxi",
+      "name": "Zalew Mitręga — listopadowe wyjście DIAXI",
+      "summary": "Lokacja ZE20 w Łazach, woj. śląskie: leśny brzeg Zalewu Mitręga przy asfaltowej alejce, dojście w stronę parkingu. Wybrana na podstawie fotografii oficjalnego serwisu turystykalazy.pl/artykuly/431 (Łukasz Nowak – Dronator, UM Łazy; Adrian Kała). Fotografie pokazują rzeczywisty z…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/zalew-mitrega-wyjscie-diaxi/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/zalew-mitrega-wyjscie-diaxi.json",
+      "updatedAt": "2026-11-13T14:52:47.175434+00:00"
+    },
+    {
+      "key": "place:ze17-przejscie-materialy",
+      "kind": "resource",
+      "type": "places",
+      "id": "ze17-przejscie-materialy",
+      "name": "ZE17 — materiały przejścia",
+      "summary": "Fotografia rzeczywistego przejścia w Poznaniu. Tylko materiały kamienia, lastryka i poręczy. Scenografia i kamera z First/Last; nie kopiować napisów ani geometrii tej fotografii.",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/ze17-przejscie-materialy/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/ze17-przejscie-materialy.json",
+      "updatedAt": "2026-11-09T00:22:05.587932+00:00"
+    },
+    {
+      "key": "place:ze20-przepasc-geometria",
+      "kind": "resource",
+      "type": "places",
+      "id": "ze20-przepasc-geometria",
+      "name": "ZE20 — geometria przepaści",
+      "summary": "Referencja produkcyjna widoku w dół wodospadu, bez postaci. Stabilizuje istniejący kadr i skalę miejsca.",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/ze20-przepasc-geometria/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/ze20-przepasc-geometria.json",
+      "updatedAt": "2026-11-13T11:42:37.427177+00:00"
     },
     {
       "key": "place:kanciapa-zniszczona",

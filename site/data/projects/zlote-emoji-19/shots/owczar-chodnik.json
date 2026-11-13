@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-19/owczar-chodnik",
+  "id": "owczar-chodnik",
+  "title": "Owczar - powrot chodnikiem",
+  "description": "Szeroki plan 35 mm: Owczar wraca z pracy chodnikiem, idzie od lewej do prawej i patrzy przed siebie, jeszcze nie zauważył gry. Oryginalny szeroki kadr przywrócony jako odrębny shot na polecenie autora; dalej zatrzymanie przy witrynie, reakcja, odbicie. Statyczna klatka, 3 s na timeline.",
+  "project": {
+    "id": "zlote-emoji-19",
+    "key": "project:zlote-emoji-19",
+    "name": "Złote Emoji #19",
+    "createdAt": "2026-11-10T23:04:15.573Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-19",
+    "projectCreatedAt": "2026-11-10T23:04:15.573Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 14,
+    "lastSequence": 14,
+    "occurrences": [
+      14
+    ],
+    "sequenceTotal": 17,
+    "uniqueShotCount": 17,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "note",
+      "id": "ze19-owczar-dorosly"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "note:ze19-owczar-dorosly",
+        "key": "note:ze19-owczar-dorosly",
+        "type": "note",
+        "id": "ze19-owczar-dorosly",
+        "name": "ZE19 — dorosły Owczar, epilog",
+        "relationship": "story-and-continuity-context",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze19-owczar-dorosly.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "note:ze19-owczar-dorosly"
+        ],
+        "references": [
+          {
+            "sourceKey": "note:ze19-owczar-dorosly",
+            "key": "note:ze19-owczar-dorosly",
+            "type": "note",
+            "id": "ze19-owczar-dorosly",
+            "name": "ZE19 — dorosły Owczar, epilog",
+            "relationship": "story-and-continuity-context",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze19-owczar-dorosly.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Photorealistic cinematic film still 16:9, contemporary Polish neighbourhood at blue hour, believable quiet street, NOT neon cyberpunk. Reference 1 is mandatory fictional adult Owczar identity/costume: the same 44-year-old dark blond man with short beard, charcoal knee-length wool overcoat, pale blue shirt, dark trousers, brown shoes; leather bag strap from his left shoulder to right hip. A single real person. Wide-medium 35mm lens, camera across narrow pavement at waist/chest height, slight diagonal perspective of small independent retro videogame shop in old plaster building. He walks from screen LEFT to RIGHT, positioned slightly left of centre in a natural mid-stride returning from work, looks ahead right, tired thoughtful face; he has not turned to shop yet. Shop wide display window occupies centre/right background with modest faded sign reading RETRO GRY, entrance at far right, practical warm tungsten interior, glass reflects cool street. Display counter waist high immediately behind glass has older game boxes and cream/grey consoles, objects plausible real size, but their titles not yet readable at this distance. No full-size arcade cabinet on counter. Subtle early evening ambient street light, worn but maintained pavement, no theatrical wet rain or heavy fog, grounded material detail. Interesting layered framing with a thin out-of-focus street edge at lower left, open walking room to right. Restrained nostalgic cinema, natural colours, realistic optical focus, no text overlays or credits. Keep face and costume exactly as reference. No extra pedestrians blocking him, no invented dramatic gestures.",
+    "endFrameDescription": "",
+    "animation": "0.0–2.1s: Already mid-stride, Owczar walks briskly toward SCREEN RIGHT, about two purposeful strides, absorbed in work thoughts: gaze straight ahead to the right, slightly tight brow, no interest in the shop. Keep his hands in his coat pockets. 2.1–3.0s: Something catches his peripheral attention; his next stride shortens and his forward momentum eases, gaze beginning to drift toward the shop behind him, without a full head turn. Camera: locked street-side wide view; no tracking, pan or zoom. His coat hem and bag swing with the steps, then settle as he slows. @Image1 fixes only the existing man's identity. Preserve wardrobe, bag side, architecture and RETRO GRY lettering. No running, backward steps, early smile, duplicated man, camera-axis reversal, cut or fade."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "note:ze19-owczar-dorosly"
+      ],
+      "references": [
+        {
+          "sourceKey": "note:ze19-owczar-dorosly",
+          "key": "note:ze19-owczar-dorosly",
+          "type": "note",
+          "id": "ze19-owczar-dorosly",
+          "name": "ZE19 — dorosły Owczar, epilog",
+          "relationship": "story-and-continuity-context",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze19-owczar-dorosly.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-12T09:48:01.562464+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "note:ze19-owczar-dorosly"
+          ],
+          "references": [
+            {
+              "sourceKey": "note:ze19-owczar-dorosly",
+              "key": "note:ze19-owczar-dorosly",
+              "type": "note",
+              "id": "ze19-owczar-dorosly",
+              "name": "ZE19 — dorosły Owczar, epilog",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze19-owczar-dorosly.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-19/shots/owczar-chodnik/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-19/shots/owczar-chodnik/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

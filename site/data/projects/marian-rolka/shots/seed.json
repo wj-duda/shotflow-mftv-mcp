@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:marian-rolka/seed",
+  "id": "seed",
+  "title": "Wyślij Mariana",
+  "description": "Bliski portret Mariana na ławce. Prawa ręka podnosi plik kartek do dolnej części kadru. Kontakt wzrokowy, dyskretny półuśmiech.\nKAMERA: 85 mm, lekki niski punkt widzenia, twarz i klips w ostrości; spokojna górna strefa napisów.\nPLAN KLATEK: START: kartki przy piersi. END opcjonalny: kartki bliżej widza, ten sam kadr.\nNAPIS MONTAŻOWY: Nie możesz zagłosować sam/sama? | Wyślij na audycję Mariana!\nMONTAŻ v003: 0.0–3.0 s. NARRACJA MARIANA: Pytasz o karteczki?. Aktualne napisy: _system/napisy-v003.srt; zastępują wcześniejsze wskazówki napisów.",
+  "project": {
+    "id": "marian-rolka",
+    "key": "project:marian-rolka",
+    "name": "MarianRolka",
+    "createdAt": "2026-10-30T11:23:31.351Z"
+  },
+  "chronology": {
+    "projectKey": "project:marian-rolka",
+    "projectCreatedAt": "2026-10-30T11:23:31.351Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 1,
+    "lastSequence": 1,
+    "occurrences": [
+      1
+    ],
+    "sequenceTotal": 16,
+    "uniqueShotCount": 16,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "marian"
+    },
+    {
+      "type": "place",
+      "id": "lawka-mariana"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:marian",
+        "key": "character:marian",
+        "type": "character",
+        "id": "marian",
+        "name": "Marian",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/marian.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:lawka-mariana",
+        "key": "place:lawka-mariana",
+        "type": "place",
+        "id": "lawka-mariana",
+        "name": "Ławka Mariana — park osiedlowy",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lawka-mariana.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "character:marian",
+          "place:lawka-mariana"
+        ],
+        "references": [
+          {
+            "sourceKey": "character:marian",
+            "key": "character:marian",
+            "type": "character",
+            "id": "marian",
+            "name": "Marian",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/marian.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "place:lawka-mariana",
+            "key": "place:lawka-mariana",
+            "type": "place",
+            "id": "lawka-mariana",
+            "name": "Ławka Mariana — park osiedlowy",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lawka-mariana.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Photorealistic cinematic promotional reel START FRAME, portrait 9:16, compose for 1080x1920. References in order: 1 exact Marian face identity, 2 his exact whole outfit and paper bundle, 3 exact park bench location. One man only, Marian around 60, long weathered face, long red nose, gray-blue eyes, small mole on HIS RIGHT cheek, thin gray moustache/stubble, worn charcoal knit cap, loose faded brown zip jacket, navy track jacket with pale piping, burgundy beige checked scarf. Preserve identity faithfully, ordinary human skin texture, do not beautify or caricature. Camera near seated eye height, cinematic 75mm medium close-up from chest upward, face occupies middle upper portion but leave top 18 percent darker quiet background for later title. Marian sits on the wooden park bench, autumn bushes and warm lamp bokeh behind, cool dusk sky. Direct alert knowing gaze to viewer, subtle lifted eyebrow and restrained half-smile. His RIGHT hand holds a small neat stack of folded off-white paper slips at chest level in lower center, secured by one small black binder clip with silver handles, natural five-finger grip. Paper blank at this viewing angle. LEFT hand is out of frame, no shopping bag in crop. Warm lamplight grazes his face and paper, cinematic gentle depth, no haze. Visible bench edge, grounded physical space. No rendered captions, letters, logos, UI or watermark. No extra fingers, duplicate clips, artificial etched skin or patterned noise.",
+    "endFrameDescription": "",
+    "animation": "0.0–1.2s: Marian raises the already-held clipped paper bundle about five centimetres toward his chest, keeping it facing the viewer. 1.2–3.0s: he lifts one eyebrow slightly and holds direct eye contact with a restrained closed-mouth half-smile. Camera: locked off. Secondary motion: small breathing movement and a slight settling of the paper edges. @Image1 fixes only the facial identity of the man already seated here. Continuity: retain his age, mole, cap, scarf, jacket, single binder clip and blank visible paper surface; preserve the bench, dusk lighting and top caption space. Avoid speech, new people, extra fingers, duplicated paper, cuts, morphing or added text."
+  },
+  "media": {
+    "fps": 60,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "character:marian",
+        "place:lawka-mariana"
+      ],
+      "references": [
+        {
+          "sourceKey": "character:marian",
+          "key": "character:marian",
+          "type": "character",
+          "id": "marian",
+          "name": "Marian",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/marian.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "place:lawka-mariana",
+          "key": "place:lawka-mariana",
+          "type": "place",
+          "id": "lawka-mariana",
+          "name": "Ławka Mariana — park osiedlowy",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lawka-mariana.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-30T11:23:31.351166+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:marian",
+            "place:lawka-mariana"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:marian",
+              "key": "character:marian",
+              "type": "character",
+              "id": "marian",
+              "name": "Marian",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/marian.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:lawka-mariana",
+              "key": "place:lawka-mariana",
+              "type": "place",
+              "id": "lawka-mariana",
+              "name": "Ławka Mariana — park osiedlowy",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lawka-mariana.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/marian-rolka/shots/seed/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/marian-rolka/shots/seed/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

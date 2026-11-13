@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "prop:ze19-dawn-order-opakowanie",
+  "type": "props",
+  "id": "ze19-dawn-order-opakowanie",
+  "name": "Dawn Order — grafika opakowania retro",
+  "description": "Istniejąca grafika Dawn Order z automatu. W epilogu użyta jako wzorzec nadruku na starym pudełku gry na ladzie retro sklepu. Złoty logotyp, VanSabeR po lewej, Osia po prawej, bordowe tło. Referencja nadruku opakowania, nie geometria pudełka; fizyczny wygląd pudełka wyznacza Start Frame owczar-witryna.",
+  "images": [
+    {
+      "id": "image-003",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/ze19-dawn-order-opakowanie/image-003.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/ze19-dawn-order-opakowanie/image-003-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-11-12T10:10:52.811486+00:00"
+}

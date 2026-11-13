@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-19/wejscie-sklep",
+  "id": "wejscie-sklep",
+  "title": "Wejście po oranżadę",
+  "description": "Owczar jest już przy progu otwartych drzwi warzywniaka; wchodzi pierwszy, Dariusz za nim. Drzwi pozostają otwarte. Cały używany zakres źródła 1,5 s, rozcięty obecnie na dwa wpisy timeline; źródło generacji minimum 3 s.",
+  "project": {
+    "id": "zlote-emoji-19",
+    "key": "project:zlote-emoji-19",
+    "name": "Złote Emoji #19",
+    "createdAt": "2026-11-10T23:04:15.573Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-19",
+    "projectCreatedAt": "2026-11-10T23:04:15.573Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 6,
+    "lastSequence": 6,
+    "occurrences": [
+      6
+    ],
+    "sequenceTotal": 17,
+    "uniqueShotCount": 17,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "note",
+      "id": "ze19-layout-wejscie-sklep"
+    },
+    {
+      "type": "note",
+      "id": "ze19-mlodzi-owczar-dariusz"
+    },
+    {
+      "type": "shot",
+      "id": "ulica-salon"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "note:ze19-layout-wejscie-sklep",
+        "key": "note:ze19-layout-wejscie-sklep",
+        "type": "note",
+        "id": "ze19-layout-wejscie-sklep",
+        "name": "ZE19 — geometria: Wejście po oranżadę",
+        "relationship": "story-and-continuity-context",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze19-layout-wejscie-sklep.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "note:ze19-mlodzi-owczar-dariusz",
+        "key": "note:ze19-mlodzi-owczar-dariusz",
+        "type": "note",
+        "id": "ze19-mlodzi-owczar-dariusz",
+        "name": "ZE19 — młodzi Owczar i Dariusz, ciągłość obrazu",
+        "relationship": "story-and-continuity-context",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze19-mlodzi-owczar-dariusz.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ulica-salon",
+        "key": "shot:zlote-emoji-19/ulica-salon",
+        "type": "shot",
+        "id": "ulica-salon",
+        "name": "Salon gier — ulica",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-19/shots/ulica-salon.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "note:ze19-layout-wejscie-sklep",
+          "note:ze19-mlodzi-owczar-dariusz",
+          "shot:ulica-salon"
+        ],
+        "references": [
+          {
+            "sourceKey": "note:ze19-layout-wejscie-sklep",
+            "key": "note:ze19-layout-wejscie-sklep",
+            "type": "note",
+            "id": "ze19-layout-wejscie-sklep",
+            "name": "ZE19 — geometria: Wejście po oranżadę",
+            "relationship": "story-and-continuity-context",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze19-layout-wejscie-sklep.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "note:ze19-mlodzi-owczar-dariusz",
+            "key": "note:ze19-mlodzi-owczar-dariusz",
+            "type": "note",
+            "id": "ze19-mlodzi-owczar-dariusz",
+            "name": "ZE19 — młodzi Owczar i Dariusz, ciągłość obrazu",
+            "relationship": "story-and-continuity-context",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze19-mlodzi-owczar-dariusz.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:ulica-salon",
+            "key": "shot:zlote-emoji-19/ulica-salon",
+            "type": "shot",
+            "id": "ulica-salon",
+            "name": "Salon gier — ulica",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-19/shots/ulica-salon.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Use case: sketch-to-render / photorealistic-natural. Create ONE final live-action film still, 16:9, ideally 1920x1080. Input 1 is a WORKING BLENDER RENDER, strictly a camera, spatial layout, scale and composition reference, NOT the final visual style. Input 2 is a SMALL PERSPECTIVE/BLOCKING GUIDE of the same camera: its converging lines explain real spatial directions and its primitive figures mark human placement. Do not reproduce the guide, linework, captions, faceted bodies, plastic surfaces or crude geometry. Rebuild the visible scene as a convincing photographed physical place while retaining the prescribed viewpoint, major dimensions, openings, object positions and framing. Improve natural material variation, construction details, contact shadows and realistic light; do not redesign the layout or invent different architecture. No game-engine look, no illustration, no split panels, no watermark. Early-1990s provincial Polish atmosphere, understated cinematic realism and restrained film grain, no modern products. Input 3 is the exact production identity and wardrobe reference: Dariusz is the chubby red-brown wavy-haired boy with rectangular dark glasses on the LEFT of that reference; Owczar is the slim dark-blond boy in the burgundy track jacket on its RIGHT. Both are 13–14, clean-shaven. Preserve their specific faces, hair, age, body shape and clothing. Owczar has TWO cream stripes on each sleeve, ivory T-shirt, loose blue jeans and worn pale canvas trainers. Dariusz has an open grey-blue plaid overshirt, grey/navy striped T-shirt, dark loose jeans and dark worn trainers. Their positions in the final shot are dictated by the shot instructions, not by the identity reference layout. Replace all visible primitive stand-ins with anatomically natural boys, and insert the boys where requested even if the clean render is empty. No adult beard, no extra people. SHOT ACTION AND COMPOSITION: Boys approach the open greengrocer door, Owczar one step ahead and nearer the opening, Dariusz behind. They have released the shoulder embrace. Keep a physically clear path to the existing door. No shopkeeper visible. Soft urban overcast daylight, believable worn materials and subtle dirt without theatrical decay. Keep the same natural atmosphere across the street and shop sequence.  Input 4 is the completed exterior establishing shot, for continuity of the boys and natural photographic material/light ONLY. It must NOT replace the viewpoint, architecture or crop of input 1. No coin display or copied pose from the identity sheet; follow THIS shot action. ",
+    "endFrameDescription": "",
+    "animation": "0.0–1.5s: Owczar, already stepping across the open doorway, moves forward into the shop. Dariusz follows the same clear path one step behind, approaching the threshold without overtaking. 1.5–3.0s: Dariusz crosses the threshold after Owczar clears it; both move away into the interior. Camera: locked exterior view. Natural weight shifts and slight shirt movement accompany the steps. @Image1 fixes the existing boys identities and clothes only. Preserve the exact opening, stationary open door, threshold, crates, shop signs and window displays from the Start Frame. No walking through the doorframe, closing door, added shopkeeper, extra people, duplicated legs or cuts."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "note:ze19-layout-wejscie-sklep",
+        "note:ze19-mlodzi-owczar-dariusz",
+        "shot:ulica-salon"
+      ],
+      "references": [
+        {
+          "sourceKey": "note:ze19-layout-wejscie-sklep",
+          "key": "note:ze19-layout-wejscie-sklep",
+          "type": "note",
+          "id": "ze19-layout-wejscie-sklep",
+          "name": "ZE19 — geometria: Wejście po oranżadę",
+          "relationship": "story-and-continuity-context",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze19-layout-wejscie-sklep.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "note:ze19-mlodzi-owczar-dariusz",
+          "key": "note:ze19-mlodzi-owczar-dariusz",
+          "type": "note",
+          "id": "ze19-mlodzi-owczar-dariusz",
+          "name": "ZE19 — młodzi Owczar i Dariusz, ciągłość obrazu",
+          "relationship": "story-and-continuity-context",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze19-mlodzi-owczar-dariusz.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ulica-salon",
+          "key": "shot:zlote-emoji-19/ulica-salon",
+          "type": "shot",
+          "id": "ulica-salon",
+          "name": "Salon gier — ulica",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-19/shots/ulica-salon.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-10T23:10:43.193457+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "note:ze19-layout-wejscie-sklep",
+            "note:ze19-mlodzi-owczar-dariusz",
+            "shot:ulica-salon"
+          ],
+          "references": [
+            {
+              "sourceKey": "note:ze19-layout-wejscie-sklep",
+              "key": "note:ze19-layout-wejscie-sklep",
+              "type": "note",
+              "id": "ze19-layout-wejscie-sklep",
+              "name": "ZE19 — geometria: Wejście po oranżadę",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze19-layout-wejscie-sklep.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "note:ze19-mlodzi-owczar-dariusz",
+              "key": "note:ze19-mlodzi-owczar-dariusz",
+              "type": "note",
+              "id": "ze19-mlodzi-owczar-dariusz",
+              "name": "ZE19 — młodzi Owczar i Dariusz, ciągłość obrazu",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze19-mlodzi-owczar-dariusz.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ulica-salon",
+              "key": "shot:zlote-emoji-19/ulica-salon",
+              "type": "shot",
+              "id": "ulica-salon",
+              "name": "Salon gier — ulica",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-19/shots/ulica-salon.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-19/shots/wejscie-sklep/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-19/shots/wejscie-sklep/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

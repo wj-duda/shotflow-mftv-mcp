@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "verifiedAt": "2026-11-06",
-  "scope": "Podstawowe zasady i mapa serwisu. Logowanie, label i łączenie Discorda zweryfikowano w opublikowanej wersji z 2026-11-05. Publiczny ekran /login sprawdzono ponownie 2026-11-06. Audyt z 2026-11-06 uzupełnia zasady Mariana na podstawie implementacji i 61 testów mechaniki oraz logowania; nie obejmuje wykonania pełnego OAuth ani operacji na prywatnych kontach. Pozostałe sekcje zachowują wcześniejszy zakres weryfikacji. Nie jest to pełna specyfikacja wszystkich reguł; bieżące liczby pochodzą z osobnej migawki. Test publicznego ekranu logowania potwierdził blokadę obu metod bez zgody, ich odblokowanie po zaznaczeniu, zachowanie zgody przy powrocie do wyboru metody oraz jej reset po odświeżeniu. W mobilnym widoku 390 px nie stwierdzono poziomego przepełnienia ani błędów JavaScript podczas tej próby.",
+  "verifiedAt": "2026-11-13",
+  "scope": "Podstawowe zasady i mapa serwisu. Logowanie, label i łączenie Discorda zweryfikowano w opublikowanej wersji z 2026-11-05. Publiczny ekran /login sprawdzono ponownie 2026-11-06. Audyt z 2026-11-06 uzupełnia zasady Mariana na podstawie implementacji i 61 testów mechaniki oraz logowania; nie obejmuje wykonania pełnego OAuth ani operacji na prywatnych kontach. Pozostałe sekcje zachowują wcześniejszy zakres weryfikacji. Nie jest to pełna specyfikacja wszystkich reguł; bieżące liczby pochodzą z osobnej migawki. Test publicznego ekranu logowania potwierdził blokadę obu metod bez zgody, ich odblokowanie po zaznaczeniu, zachowanie zgody przy powrocie do wyboru metody oraz jej reset po odświeżeniu. W mobilnym widoku 390 px nie stwierdzono poziomego przepełnienia ani błędów JavaScript podczas tej próby. Aktualizacja 2026-11-13: A-38, prognoza dostawy i nowy planer porównane z kodem oraz NEWWEEK.md. Opis implementacji nie jest potwierdzeniem jej wdrożenia; pozostałe daty weryfikacji zachowano.",
   "sections": [
     {
       "id": "battle",
@@ -129,11 +129,29 @@
       ]
     },
     {
+      "id": "repeats-and-weekly-planner",
+      "title": "A-38, dawny wtorek, powtórki i dogrywki",
+      "text": "Osobne Wtorki Powtórki są formatem historycznym. Nowy planer w aktualnym kodzie rezerwuje przed nowościami do jednego A-38 na poniedziałek, środę, czwartek i piątek. Najstarsze obsługiwalne podania mają pierwszeństwo; dopasowanie do dnia jest preferowane, lecz sam brak dopasowania nie blokuje podania. Nowość i A-38 tego samego autora mogą wystąpić w różnych dniach cyklu, lecz nie razem w jednej audycji. Po doborze i wyrównaniu nowości osobne DOGRYWKI dopełniają krótsze dni do około 45 minut muzyki; wybierane są wcześniej grane teledyski z najdawniejszą znaną emisją z głosowaniem, z zachowaniem ograniczeń. Daily nie odmładza tej daty. Próg odwołania poniżej 30 minut pozostaje. POWTÓRKA oznacza realizację A-38, DOGRYWKA archiwalne dopełnienie. Tag wtorki-powtorki nadal oznacza oczekujące podanie; nie gwarantuje wtorkowego terminu. Formularz kupuje się u Włodka i zużywa w ekwipunku na własny zaakceptowany utwór. Backend nie wymaga wcześniejszej emisji, choć część dialogów Włodka opisuje wcześniej grany kawałek. Zakup, użycie i planowanie nie uzupełniają sklepu. Rozliczona emisja z głosowaniem spala tag i zwalnia jedną sztukę przy ważnej rezerwacji; Daily bez głosowania tego nie robi. Nie ma potwierdzonej automatycznej cotygodniowej dostawy. Włodek może podać orientacyjny termin dostawy po najbliższej zaplanowanej realizacji ważnego A-38: godzinę, sam dzień, opóźnienie lub brak terminu. Prognoza nie rezerwuje towaru i może się zmienić. MCP udostępnia tylko migawkę sklepu, nie tę prognozę na żywo. Stan implementacji sprawdzono lokalnie 2026-11-13; eksport nie wdraża planera i nie potwierdza daty jego uruchomienia. Faktyczny termin sprawdzaj w konkretnej zaplanowanej audycji.",
+      "links": [
+        "https://aimusicfuture.tv/creator/shop",
+        "https://aimusicfuture.tv/creator/inventory",
+        "https://aimusicfuture.tv/ramowka"
+      ]
+    },
+    {
       "id": "mcp-data-tools",
       "title": "Narzędzia MCP: przewodnik i migawka danych",
       "text": "get_system_guide bez parametrów podaje indeks sekcji, z id zwraca sekcję, a query wyszukuje zasady i adresy. get_last_data_snapshot udostępnia sekcje overview, broadcasts, broadcast (wymaga id), chart, tags, economy i shop; query filtruje listy, limit wynosi maksymalnie 50, offset wybiera stronę. To wyłącznie odczyt opublikowanych plików, nie zapytanie na żywo do Firestore. Zawsze uwzględniaj generatedAt lub verifiedAt. Brak pozycji w ograniczonej migawce nie dowodzi jej nieistnienia. Źródła: system/guide.json i system/snapshot.json. Te dwa narzędzia współdzielą dane serwisu MF TV i MF Creators, ale nie łączą lore światów. Osobne, uwierzytelnione funkcje aplikacji listMarianBroadcasts, getMarianPreVoteSheet i saveMarianPreVotes działają dla zalogowanego kanału; nie są narzędziami publicznej wtyczki MCP i nie dają jej dostępu do prywatnych rozpisek.",
       "links": [
         "https://wj-duda.github.io/shotflow-mftv-mcp/system/guide.json",
+        "https://wj-duda.github.io/shotflow-mftv-mcp/system/snapshot.json"
+      ]
+    },
+    {
+      "id": "data-freshness",
+      "title": "Aktualność danych — publikacja 13 listopada 2026",
+      "text": "Lore i przewodnik zaktualizowano 13 listopada 2026. Osobna migawka danych systemu nadal ma generatedAt 2026-10-29T11:52:07.127Z: próba pełnego eksportu 13 listopada przekroczyła limit 2000 ukończonych odtworzeń i została przerwana bez zastępowania poprzednich danych. Nie przedstawiaj tego rankingu, stanu sklepu ani ramówki jako aktualnych. Zawsze sprawdź generatedAt bezpośrednio w migawce; późniejsze udane odświeżenie może zastąpić ten stan. Katalog lore i kod eksportera zostały zaktualizowane niezależnie od migawki.",
+      "links": [
         "https://wj-duda.github.io/shotflow-mftv-mcp/system/snapshot.json"
       ]
     }

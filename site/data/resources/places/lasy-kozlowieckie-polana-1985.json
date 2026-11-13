@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "place:lasy-kozlowieckie-polana-1985",
+  "type": "places",
+  "id": "lasy-kozlowieckie-polana-1985",
+  "name": "Lasy Kozłowieckie — droga i polana, 1985",
+  "description": "Rekonstrukcja filmowa inspirowana współczesnymi zdjęciami ścieżki Kopanina w Lasach Kozłowieckich. Jedna spójna lokacja: piaszczysta droga po lewej, mała polana po prawej, rozwidlony dąb i ścieżka ucieczki w głębi po prawej. Lato, noc pełni. Roślinność i płaska topografia regionalne; dokładna polana i dąb są scenograficzną kreacją, nie zidentyfikowanym miejscem z 1985. Bez współczesnej infrastruktury.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/lasy-kozlowieckie-polana-1985/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/lasy-kozlowieckie-polana-1985/image-001-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-11-09T14:57:26.307749+00:00"
+}

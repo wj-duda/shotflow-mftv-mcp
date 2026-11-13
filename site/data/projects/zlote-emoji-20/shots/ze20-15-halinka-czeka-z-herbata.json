@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-20/ze20-15-halinka-czeka-z-herbata",
+  "id": "ze20-15-halinka-czeka-z-herbata",
+  "title": "Halinka — najpierw się ogrzej",
+  "description": "Finał w ciepłym zapleczu. Halinka rutynowo czeka na spodziewaną Diaxi: neutralne zamknięte usta, bez uśmiechu i zadowolenia, spokojne rzeczowe spojrzenie ku drzwiom po lewej. Przygotowana herbata wyraża troskę. Złote Emoji po lewej na stole, wolne krzesło po prawej, grafitowy strój z bordową lamówką i mały ośmioramienny medalion. Przesuwa kubek i mówi zwyczajnie „Najpierw się ogrzej.” Głos i animacja jeszcze niewykonane. Aktualny montaż: start 1288f, długość 169f (7.042 s), wejście źródła 0f.",
+  "project": {
+    "id": "zlote-emoji-20",
+    "key": "project:zlote-emoji-20",
+    "name": "Złote Emoji #20",
+    "createdAt": "2026-11-12T06:49:40.532Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-20",
+    "projectCreatedAt": "2026-11-12T06:49:40.532Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 26,
+    "lastSequence": 26,
+    "occurrences": [
+      26
+    ],
+    "sequenceTotal": 27,
+    "uniqueShotCount": 27,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "halinka"
+    },
+    {
+      "type": "prop",
+      "id": "naszyjnik-halinki"
+    },
+    {
+      "type": "prop",
+      "id": "nagroda-zlote-emoji"
+    },
+    {
+      "type": "shot",
+      "id": "ze20-15-halinka-czeka-z-herbata"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:halinka",
+        "key": "character:halinka",
+        "type": "character",
+        "id": "halinka",
+        "name": "Halinka",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:naszyjnik-halinki",
+        "key": "prop:naszyjnik-halinki",
+        "type": "prop",
+        "id": "naszyjnik-halinki",
+        "name": "Naszyjnik Halinki — medalion Zakonu Jutrzenki",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/naszyjnik-halinki.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:nagroda-zlote-emoji",
+        "key": "prop:nagroda-zlote-emoji",
+        "type": "prop",
+        "id": "nagroda-zlote-emoji",
+        "name": "Złote Emoji",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/nagroda-zlote-emoji.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze20-15-halinka-czeka-z-herbata",
+        "key": "shot:zlote-emoji-20/ze20-15-halinka-czeka-z-herbata",
+        "type": "shot",
+        "id": "ze20-15-halinka-czeka-z-herbata",
+        "name": "Halinka — najpierw się ogrzej",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-15-halinka-czeka-z-herbata.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "shot:ze20-15-halinka-czeka-z-herbata",
+          "character:halinka"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze20-15-halinka-czeka-z-herbata",
+            "key": "shot:zlote-emoji-20/ze20-15-halinka-czeka-z-herbata",
+            "type": "shot",
+            "id": "ze20-15-halinka-czeka-z-herbata",
+            "name": "Halinka — najpierw się ogrzej",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-15-halinka-czeka-z-herbata.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:halinka",
+            "key": "character:halinka",
+            "type": "character",
+            "id": "halinka",
+            "name": "Halinka",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Precisely edit image1, the cinematic Halinka tea-room frame. Image2 is FACE IDENTITY ONLY, do NOT copy its smile. Change only Halinka's facial acting and slight head angle: remove the pleased smile completely, mouth closed with level relaxed corners, cheeks lowered, no smile creases from raised cheeks, brows resting neutrally, eyelids slightly heavy with ordinary patient waiting. Head upright instead of the friendly tilted pose, gaze directed matter-of-factly toward doorway offscreen left, not at camera. She looks like someone routinely waiting for an expected appointment, composed and mildly tired, no excitement, satisfaction, celebration or surprise. NOT angry, sad, stern, hostile or ominously smug. Her care is expressed through the prepared tea rather than a smile. Preserve exact facial identity and age, red curls, natural wrinkles and skin. Keep image1 framing, camera, hands holding the mug on table, charcoal high-collar burgundy-trim garment, small eight-ray pendant, golden emoji trophy exact shape, chair, room, window, lamp, lighting, steam and all object positions unchanged. Photorealistic restrained film acting. No new props, people, text or watermark. Output one 16:9 film frame.",
+    "endFrameDescription": "",
+    "animation": "0.0–1.0s: Halinka raises her eyes slightly toward the arriving visitor offscreen left, with a neutral matter-of-fact expression, relaxed level mouth corners, no smile or pleased reaction. 1.0–4.5s: keeping the mug upright on the tabletop, she slides it about 25 cm diagonally toward the empty guest chair in the foreground right, then releases the handle. 4.5–8.0s: she rests her hand beside the mug and holds the same neutral patient expression, as during an ordinary routine appointment; edit ends at 7.04s. Camera: locked 50mm medium-wide. Secondary motion: a faint plume of steam rises naturally from tea. @Image1 locks only Halinka face, age and hair, never its smile, red cardigan or lighting; retain the neutral expression and charcoal costume from Start Frame; @Image2 locks the exact golden award; @Image3 locks the small eight-ray pendant. Preserve charcoal outfit and burgundy trim. Award, table, chair and room stay fixed; pendant never glows. No smiling, pleased cheeks, celebratory reaction, new people, duplicated mug, spills, morphing, extra fingers, cuts, text or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze20-15-halinka-czeka-z-herbata",
+        "character:halinka"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze20-15-halinka-czeka-z-herbata",
+          "key": "shot:zlote-emoji-20/ze20-15-halinka-czeka-z-herbata",
+          "type": "shot",
+          "id": "ze20-15-halinka-czeka-z-herbata",
+          "name": "Halinka — najpierw się ogrzej",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-15-halinka-czeka-z-herbata.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:halinka",
+          "key": "character:halinka",
+          "type": "character",
+          "id": "halinka",
+          "name": "Halinka",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-13T00:44:42.32329+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:halinka",
+            "prop:naszyjnik-halinki",
+            "prop:nagroda-zlote-emoji"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:halinka",
+              "key": "character:halinka",
+              "type": "character",
+              "id": "halinka",
+              "name": "Halinka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:naszyjnik-halinki",
+              "key": "prop:naszyjnik-halinki",
+              "type": "prop",
+              "id": "naszyjnik-halinki",
+              "name": "Naszyjnik Halinki — medalion Zakonu Jutrzenki",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/naszyjnik-halinki.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:nagroda-zlote-emoji",
+              "key": "prop:nagroda-zlote-emoji",
+              "type": "prop",
+              "id": "nagroda-zlote-emoji",
+              "name": "Złote Emoji",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/nagroda-zlote-emoji.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-11-13T00:52:45.203502+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze20-15-halinka-czeka-z-herbata",
+            "character:halinka"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze20-15-halinka-czeka-z-herbata",
+              "key": "shot:zlote-emoji-20/ze20-15-halinka-czeka-z-herbata",
+              "type": "shot",
+              "id": "ze20-15-halinka-czeka-z-herbata",
+              "name": "Halinka — najpierw się ogrzej",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-15-halinka-czeka-z-herbata.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:halinka",
+              "key": "character:halinka",
+              "type": "character",
+              "id": "halinka",
+              "name": "Halinka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-15-halinka-czeka-z-herbata/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-15-halinka-czeka-z-herbata/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

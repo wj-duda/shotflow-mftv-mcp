@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:marian-rolka/telefon-odlozony",
+  "id": "telefon-odlozony",
+  "title": "Możesz już iść",
+  "description": "Telefon po przygotowaniu ocen zostaje odłożony ekranem w dół obok słuchawek; dłoń znika z kadru. Obecność na transmisji nie jest konieczna.\nKAMERA: Detal 50 mm, naturalne mieszkanie i lampka; filmowy match cut do papierowej rozpiski Mariana.\nPLAN KLATEK: START: dłoń odkłada telefon; END: telefon na stole bez dłoni.\nNAPIS MONTAŻOWY: \nMONTAŻ v003: 26.0–28.0 s. NARRACJA MARIANA: [pauza / patrz hasło końcowe w storyboard-v003]. Aktualne napisy: _system/napisy-v003.srt; zastępują wcześniejsze wskazówki napisów.",
+  "project": {
+    "id": "marian-rolka",
+    "key": "project:marian-rolka",
+    "name": "MarianRolka",
+    "createdAt": "2026-10-30T11:23:31.351Z"
+  },
+  "chronology": {
+    "projectKey": "project:marian-rolka",
+    "projectCreatedAt": "2026-10-30T11:23:31.351Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 13,
+    "lastSequence": 13,
+    "occurrences": [
+      13
+    ],
+    "sequenceTotal": 16,
+    "uniqueShotCount": 16,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [],
+  "referenceUsage": {
+    "declared": [],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [],
+        "references": [],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Photorealistic cinematic vertical 9:16 close-up film still, contemporary modest Polish apartment in late afternoon. This is the viewer's home, NOT Marian's old cultural centre. One ordinary modern matte dark smartphone is being laid SCREEN DOWN on a light natural oak table, diagonal pointing upper right, with no logo and simple small rear camera module. A single adult hand wearing a plain dark sweatshirt sleeve enters from lower left, fingers gently touching the phone edge as it finishes placing it; only one hand, anatomically correct, five fingers, no body or face. Pair of compact black over-ear headphones sits behind the phone on the right, a soft-focus warm table lamp at back left and a window with cool daylight behind. Calm sense of task completed and leaving to do something else, no dramatic clutter. Camera 50mm close focus about 35 degrees above tabletop, phone and fingers in central lower half, plenty of clean darker soft background in upper third. Realistic restrained materials, realistic wood grain and skin, no fractal noise, no text, captions, UI, clocks, logos or watermark. 1080x1920 composition.",
+    "endFrameDescription": "",
+    "animation": "0.0–0.6s: the existing hand finishes resting the phone flat, screen-down on the wooden table, without rotating or flipping it. 0.6–1.6s: the fingers release the phone and the hand withdraws completely toward the left edge. 1.6–3.0s: the unattended phone remains perfectly stationary beside the headphones. Camera: locked off. Secondary motion: the sleeve folds naturally as the wrist leaves; the hand's contact shadow recedes. Continuity: keep the phone's exact shape, camera module, face-down orientation, wood grain, headphones, lamp and window lighting. Avoid new hands, screen illumination, floating objects, phone deformation, cuts, dissolves, text or watermarks."
+  },
+  "media": {
+    "fps": 60,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [],
+      "references": [],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-30T12:25:03.158067+00:00",
+          "source": "generated",
+          "referenceKeys": [],
+          "references": [],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/marian-rolka/shots/telefon-odlozony/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/marian-rolka/shots/telefon-odlozony/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

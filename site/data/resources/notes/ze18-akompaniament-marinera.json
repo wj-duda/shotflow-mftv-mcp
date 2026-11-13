@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "note:ze18-akompaniament-marinera",
+  "type": "notes",
+  "id": "ze18-akompaniament-marinera",
+  "name": "ZE18 — akompaniament Marinera",
+  "description": "Propozycja realizacyjna przyjęta dla ZE18: Olivia śpiewa z dwoma muzykami, gitarzystą grającym na sześciostrunowej gitarze klasycznej oraz perkusistą siedzącym na drewnianym cajónie peruwiańskim. Gitara po lewej sceny, cajón po prawej. Muzycy w kremowych koszulach i ciemnych spodniach. Bez przypisywania nazwisk i nowej biografii. Obsada i instrumenty zachowują ciągłość po występie. Gitara i cajón są uzasadnione dla muzyki criolla/marinery; nie dowodzi to udziału fikcyjnego zespołu w realnym festiwalu. Źródło: https://centroderecursos.cultura.pe/sites/default/files/rb/pdf/PATRIMONIO%20CULTURAL%20INMATERIAL%20AFROPERUANO%20MINCU.pdf",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/ze18-akompaniament-marinera/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/ze18-akompaniament-marinera/image-001-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-11-09T15:49:55.599173+00:00"
+}

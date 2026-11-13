@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-29T11:52:39.792Z",
+  "generatedAt": "2026-11-13T15:07:31.302Z",
   "worldId": "aimftv",
   "kind": "resource",
   "key": "prop:formularz-a38",
   "type": "props",
   "id": "formularz-a38",
   "name": "Formularz A-38 — podanie o powtórkę",
-  "description": "Rzadki, zużywalny fant sprzedawany spod lady w place:komis-rtv. Wygląda jak gruba, sfatygowana teczka lub koperta z ciemnoczerwonej skóry: przetarcia na krawędziach, złoty napis «PODANIE O POWTÓRKĘ A-38», tłoczony polski orzeł, urzędowe znaczki i czerwony lak z pieczęcią. Ma być fizycznym, ciężkawym dokumentem, nie kartą interfejsu.\n\nMECHANIKA W ŚWIECIE: właściciel może wskazać jeden dowolny zaakceptowany utwór należący do jego kanału, także taki, który nie miał jeszcze pierwszej emisji, i zgłosić go do kolejki programu opisanego w note:wtorki-powtorki. Tego samego utworu nie można zgłosić ponownie, dopóki już czeka w kolejce. Po skutecznym użyciu dokument znika z ekwipunku, utwór otrzymuje znacznik audycji, a wpis pozostaje w rejestrze. Jednocześnie jedna sztuka A-38 wraca do stanu magazynowego sklepu; zakup formularza zmniejsza stan o jedną sztukę, a użycie zwiększa go o jedną. Cena i dostępność są bieżącą ofertą operatora sklepu, dlatego nie należy wywodzić ich ze starej ceny zapisanej w lore. Jeśli zapas wynosi zero, Włodek mówi, że formularze A-38 nie leżą na każdym rogu i być może jeszcze się pojawią.\n\nUŻYCIE FABULARNE: dokument działa jak biurokratyczny talizman — niezwykły skutek wymaga całkiem zwyczajnego podania. Nie daje gwarancji sukcesu utworu ani nagrody, tylko miejsce w kolejce audycji. Włodek nie przyjmuje zwrotów.",
+  "description": "Rzadki, zużywalny fant sprzedawany spod lady w place:komis-rtv. Wygląda jak gruba, sfatygowana teczka lub koperta z ciemnoczerwonej skóry: przetarcia na krawędziach, złoty napis «PODANIE O POWTÓRKĘ A-38», tłoczony polski orzeł, urzędowe znaczki i czerwony lak z pieczęcią. Ma być fizycznym, ciężkawym dokumentem, nie kartą interfejsu.\n\nMECHANIKA W ŚWIECIE: właściciel może wskazać jeden dowolny zaakceptowany utwór należący do jego kanału, także taki, który nie miał jeszcze pierwszej emisji, i zgłosić go do kolejki programu opisanego w note:wtorki-powtorki. Tego samego utworu nie można zgłosić ponownie, dopóki już czeka w kolejce. Po skutecznym użyciu dokument znika z ekwipunku, utwór otrzymuje znacznik audycji, a wpis pozostaje w rejestrze. Zakup zmniejsza stan sklepu o jedną sztukę. Użycie zużywa formularz i zapisuje rezerwację, ale nie zwiększa stanu sklepu. Dopiero rozliczona emisja z głosowaniem, zdejmująca tag i ważną rezerwację, przywraca jedną nową sztukę do sprzedaży. Daily bez głosowania nie realizuje podania. Cena i dostępność są bieżącą ofertą operatora sklepu, dlatego nie należy wywodzić ich ze starej ceny zapisanej w lore. Jeśli zapas wynosi zero, Włodek mówi, że formularze A-38 nie leżą na każdym rogu i być może jeszcze się pojawią.\n\nUŻYCIE FABULARNE: dokument działa jak biurokratyczny talizman — niezwykły skutek wymaga całkiem zwyczajnego podania. Nie daje gwarancji sukcesu utworu ani nagrody, tylko miejsce w kolejce audycji. Włodek nie przyjmuje zwrotów.",
   "images": [
     {
       "id": "image-001",
@@ -19,5 +19,5 @@
       "contentType": "image/webp"
     }
   ],
-  "updatedAt": "2026-09-29T23:04:53+02:00"
+  "updatedAt": "2026-11-13T15:04:37.621530+00:00"
 }

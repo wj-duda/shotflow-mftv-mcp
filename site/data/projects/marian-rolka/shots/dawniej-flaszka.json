@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:marian-rolka/dawniej-flaszka",
+  "id": "dawniej-flaszka",
+  "title": "Ukradkiem na zapleczu",
+  "description": "Młody Marian częściowo schowany za otwartymi drzwiami zaplecza bierze krótki łyk z małej buteleczki. Nerwowe spojrzenie na korytarz, bez komediowego upicia.\nKAMERA: 85 mm, ciasny kadr przez szczelinę; drzwi zasłaniają część sylwetki, notes w kieszeni.\nPLAN KLATEK: START: flaszeczka przy ustach; END niewymagany.\nNAPIS MONTAŻOWY: Nie wszystko dopilnował.\nMONTAŻ v003: 5.0–6.0 s. NARRACJA MARIANA: [pauza / patrz hasło końcowe w storyboard-v003]. Aktualne napisy: _system/napisy-v003.srt; zastępują wcześniejsze wskazówki napisów.",
+  "project": {
+    "id": "marian-rolka",
+    "key": "project:marian-rolka",
+    "name": "MarianRolka",
+    "createdAt": "2026-10-30T11:23:31.351Z"
+  },
+  "chronology": {
+    "projectKey": "project:marian-rolka",
+    "projectCreatedAt": "2026-10-30T11:23:31.351Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 3,
+    "lastSequence": 3,
+    "occurrences": [
+      3
+    ],
+    "sequenceTotal": 16,
+    "uniqueShotCount": 16,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "dawniej-notes"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:dawniej-notes",
+        "key": "shot:marian-rolka/dawniej-notes",
+        "type": "shot",
+        "id": "dawniej-notes",
+        "name": "Kiedyś pilnował sceny",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/marian-rolka/shots/dawniej-notes.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:dawniej-notes"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:dawniej-notes",
+            "key": "shot:marian-rolka/dawniej-notes",
+            "type": "shot",
+            "id": "dawniej-notes",
+            "name": "Kiedyś pilnował sceny",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/marian-rolka/shots/dawniej-notes.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Photorealistic cinematic vertical 9:16 film still for a 1.5 second flashback in a Polish cultural centre in the 1980s. Attached image establishes EXACT young Marian identity, blue work overshirt and navy undershirt, brown hair, thin moustache, long nose, mole on his right cheek, and warm worn backstage room. Change camera completely: a tight candid 85mm view from the dim corridor through the partly open manager-room door, the blurred cream door edge conceals left third of frame. Young Marian is standing inside the room, his right shoulder half hidden by door, taking a small secret sip from a tiny plain clear glass liquor bottle (100ml) held to his lips in his RIGHT hand. His alert eyes glance sideways toward the corridor, posture furtive, no grin or comic drunkenness. LEFT hand holds a closed small brown notebook against his waist. Background only small soft details of green/cream wall and filing cabinet with tungsten desk lamp, consistent with reference. Five natural fingers where visible, one bottle, one man, preserve face and age, no cap. No labels on bottle, no extra text or caption, no watermark. Restrained cinematic light, authentic clean photographic textures without artificial etched patterns. Quiet darker space near upper edge for later subtitle.",
+    "endFrameDescription": "",
+    "animation": "0.0–0.55s: the young man, already holding the small bottle at his lips, tips it slightly for one quick furtive sip while his eyes check the corridor. 0.55–0.95s: he lowers the same bottle just below his chin. 0.95–3.0s: he stays partly concealed by the door, keeping his notebook against his waist. Camera: locked off. Secondary motion: a small wrist rotation and settling sleeve. @Image1 fixes only the identity of this existing young Marian. Continuity: one clear bottle, one notebook, unchanged door opening, clothes and warm lighting. Avoid exaggerated drinking, liquid spills, new people, speech, extra fingers, face morphing, cuts or slow-motion delay."
+  },
+  "media": {
+    "fps": 60,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:dawniej-notes"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:dawniej-notes",
+          "key": "shot:marian-rolka/dawniej-notes",
+          "type": "shot",
+          "id": "dawniej-notes",
+          "name": "Kiedyś pilnował sceny",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/marian-rolka/shots/dawniej-notes.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-30T12:25:00.687281+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:dawniej-notes"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:dawniej-notes",
+              "key": "shot:marian-rolka/dawniej-notes",
+              "type": "shot",
+              "id": "dawniej-notes",
+              "name": "Kiedyś pilnował sceny",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/marian-rolka/shots/dawniej-notes.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/marian-rolka/shots/dawniej-flaszka/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/marian-rolka/shots/dawniej-flaszka/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

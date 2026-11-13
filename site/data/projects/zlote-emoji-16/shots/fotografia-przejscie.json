@@ -1,0 +1,297 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-16/fotografia-przejscie",
+  "id": "fotografia-przejscie",
+  "title": "10 — Wspomnienie staje się odbitką",
+  "description": "Statyczny sekundowy detal między fotografia-na-biurku a halinka-poznaje-fonza. POV Halinki patrzącej na blat: wyłącznie stara wyblakła odbitka leżąca płasko na biurku. Fotografia prawidłowo obrócona, głowa u góry. Bez dłoni, ramion i innych przedmiotów. Kadr wygenerowany od początku z referencją samego rekwizytu.",
+  "project": {
+    "id": "zlote-emoji-16",
+    "key": "project:zlote-emoji-16",
+    "name": "Złote Emoji #16",
+    "createdAt": "2026-11-06T18:54:57.286Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-16",
+    "projectCreatedAt": "2026-11-06T18:54:57.286Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 15,
+    "lastSequence": 15,
+    "occurrences": [
+      15
+    ],
+    "sequenceTotal": 16,
+    "uniqueShotCount": 16,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "fotografia-po-latach"
+    },
+    {
+      "type": "prop",
+      "id": "fotografia-halinki-fonza"
+    },
+    {
+      "type": "shot",
+      "id": "fotografia-przejscie"
+    },
+    {
+      "type": "shot",
+      "id": "fotografia-na-biurku"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:fotografia-po-latach",
+        "key": "shot:zlote-emoji-16/fotografia-po-latach",
+        "type": "shot",
+        "id": "fotografia-po-latach",
+        "name": "10 — Po latach: POV Fonza i mina Halinki",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/fotografia-po-latach.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:fotografia-halinki-fonza",
+        "key": "prop:fotografia-halinki-fonza",
+        "type": "prop",
+        "id": "fotografia-halinki-fonza",
+        "name": "Fotografia młodej Halinki — pamiątka Fonza",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/fotografia-halinki-fonza.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:fotografia-przejscie",
+        "key": "shot:zlote-emoji-16/fotografia-przejscie",
+        "type": "shot",
+        "id": "fotografia-przejscie",
+        "name": "10 — Wspomnienie staje się odbitką",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/fotografia-przejscie.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:fotografia-na-biurku",
+        "key": "shot:zlote-emoji-16/fotografia-na-biurku",
+        "type": "shot",
+        "id": "fotografia-na-biurku",
+        "name": "11 — Fotografia na biurku",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/fotografia-na-biurku.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 6,
+        "referenceKeys": [
+          "prop:fotografia-halinki-fonza"
+        ],
+        "references": [
+          {
+            "sourceKey": "prop:fotografia-halinki-fonza",
+            "key": "prop:fotografia-halinki-fonza",
+            "type": "prop",
+            "id": "fotografia-halinki-fonza",
+            "name": "Fotografia młodej Halinki — pamiątka Fonza",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/fotografia-halinki-fonza.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Generate a completely NEW photorealistic cinematic insert shot from scratch, landscape 16:9. Reference image is ONLY the exact physical aged photograph prop and its printed picture content, NOT a scene layout. New scene: a single old faded 10x15 cm landscape paper photograph lying completely flat on a plain medium brown wooden office desk. Camera is Halinka's seated point of view looking down at her desk, steep downward angle nearly overhead. The photograph is RIGHT SIDE UP to the viewer: woman's head at top, waist at bottom; boat on left, red-haired braided young woman on right exactly as reference. Print occupies about 75% of frame width, all four corners visible, surrounding area ONLY plain desk surface. Preserve the specific woman's identity, clothing, jewelry, boat and aged faded low-saturation print, thin yellowed border and worn corners. Natural soft indoor daylight, realistic modest wood grain, subtle contact shadow under thin paper, sharp legible print, no excessive reflections. ABSOLUTELY NO hands, fingers, arms, sleeves, people outside the printed photograph, desk accessories, objects, text, captions. ONLY ONE photograph lying on desk. Not held, not floating, not upside down. Deliver 1920x1080 composition.",
+    "endFrameDescription": "",
+    "animation": ""
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 6,
+      "source": "generated",
+      "referenceKeys": [
+        "prop:fotografia-halinki-fonza"
+      ],
+      "references": [
+        {
+          "sourceKey": "prop:fotografia-halinki-fonza",
+          "key": "prop:fotografia-halinki-fonza",
+          "type": "prop",
+          "id": "fotografia-halinki-fonza",
+          "name": "Fotografia młodej Halinki — pamiątka Fonza",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/fotografia-halinki-fonza.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-07T00:08:00.220093+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:fotografia-po-latach",
+            "prop:fotografia-halinki-fonza"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:fotografia-po-latach",
+              "key": "shot:zlote-emoji-16/fotografia-po-latach",
+              "type": "shot",
+              "id": "fotografia-po-latach",
+              "name": "10 — Po latach: POV Fonza i mina Halinki",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/fotografia-po-latach.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:fotografia-halinki-fonza",
+              "key": "prop:fotografia-halinki-fonza",
+              "type": "prop",
+              "id": "fotografia-halinki-fonza",
+              "name": "Fotografia młodej Halinki — pamiątka Fonza",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/fotografia-halinki-fonza.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-11-07T00:26:14.511774+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:fotografia-przejscie"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:fotografia-przejscie",
+              "key": "shot:zlote-emoji-16/fotografia-przejscie",
+              "type": "shot",
+              "id": "fotografia-przejscie",
+              "name": "10 — Wspomnienie staje się odbitką",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/fotografia-przejscie.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 3,
+          "createdAt": "2026-11-07T09:56:34.272109+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:fotografia-na-biurku"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:fotografia-na-biurku",
+              "key": "shot:zlote-emoji-16/fotografia-na-biurku",
+              "type": "shot",
+              "id": "fotografia-na-biurku",
+              "name": "11 — Fotografia na biurku",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/fotografia-na-biurku.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 4,
+          "createdAt": "2026-11-08T11:58:58.724153+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:fotografia-na-biurku"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:fotografia-na-biurku",
+              "key": "shot:zlote-emoji-16/fotografia-na-biurku",
+              "type": "shot",
+              "id": "fotografia-na-biurku",
+              "name": "11 — Fotografia na biurku",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/fotografia-na-biurku.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 5,
+          "createdAt": "2026-11-08T12:50:05.225089+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:fotografia-przejscie"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:fotografia-przejscie",
+              "key": "shot:zlote-emoji-16/fotografia-przejscie",
+              "type": "shot",
+              "id": "fotografia-przejscie",
+              "name": "10 — Wspomnienie staje się odbitką",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/fotografia-przejscie.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 6,
+          "createdAt": "2026-11-08T13:12:13.81271+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "prop:fotografia-halinki-fonza"
+          ],
+          "references": [
+            {
+              "sourceKey": "prop:fotografia-halinki-fonza",
+              "key": "prop:fotografia-halinki-fonza",
+              "type": "prop",
+              "id": "fotografia-halinki-fonza",
+              "name": "Fotografia młodej Halinki — pamiątka Fonza",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/fotografia-halinki-fonza.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-16/shots/fotografia-przejscie/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-16/shots/fotografia-przejscie/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

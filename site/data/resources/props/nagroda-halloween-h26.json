@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "prop:nagroda-halloween-h26",
+  "type": "props",
+  "id": "nagroda-halloween-h26",
+  "name": "Statuetka H’26 — Halloween Finals",
+  "description": "Kanoniczna grafika nagrody konkursu Halloween Finals 2026, zatwierdzona i dostarczona przez autora 2026-10-29. Powiązany tag konkursu: halloween26. Statuetka przedstawia połyskującą pomarańczowo-bursztynową dynię z ciemnymi skośnymi oczami i szerokim zębatym uśmiechem, złotą oprawą i zakrzywionym złotym ogonkiem. Na przodzie duży złoty napis H’26, po bokach złote uchwyty. Podstawa ma szeroki fioletowy pas oraz złote obrzeża. Zachować dokładny wygląd, napis, proporcje i kolory referencji images/image-001.png. Obraz z przezroczystością jest oryginalnym załącznikiem autora, nie rekonstrukcją z miniatury. Nie dodawać właściwości magicznych, laureata ani materiału wykonania fizycznego przedmiotu. Nagrodzie towarzyszy karta podarunkowa do Kling.ai o wartości 50 USD, która nie jest częścią wyglądu statuetki. Kontekst konkursu: note:halloween-finals-2026.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/nagroda-halloween-h26/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/nagroda-halloween-h26/image-001-thumb.webp",
+      "width": 1254,
+      "height": 1254,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-10-29T15:30:26.644973+00:00"
+}

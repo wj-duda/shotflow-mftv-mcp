@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "place:zakon-jutrzenki",
+  "type": "places",
+  "id": "zakon-jutrzenki",
+  "name": "Zakon Jutrzenki — zaplecze fabryki i archiwum",
+  "description": "ZAKON JUTRZENKI — FABRYCZNE ZAPLECZE I ARCHIWUM\n\nWpis lokacyjny świata AIMFTV powiązany z note:zakon-jutrzenki. Organizacja posiada osobne pełne lore w notes; ten zasób służy przyszłym scenom w jej ukrytym zapleczu cukierniczym.\n\nRDZEŃ MIEJSCA: normalnie działająca fabryka słodyczy związana z gałęzią Jutrzenki skrywa przechowywane przez wtajemniczonych archiwum, receptury, księgi i pamiątki organizacji. Zwykła działalność produkcyjna jest rzeczywista w fabule; nie cała załoga zna tajemnicę. Nie ustalać, że zakład jest centralą całego zakonu. Historyczne powiązanie gałęzi z Bydgoszczą nie wyznacza jeszcze adresu ani budynku tej scenicznej lokacji.\n\nDETAL ARCHIWUM „7:18”: receptura lub karta partii może nosić taki numer. Dla pracownika jest to oznaczenie produkcyjne; dla wtajemniczonych odsyłacz do Jeremiasza 7,18, wypieków składanych Królowej Nieba i tekstu potępiającego ten kult. To autorski easter egg; szczegółowy kontekst i źródło w note:zakon-jutrzenki. Nie przesądza obecnej doktryny zakonu ani magicznego działania produktów.\n\nCIĄGŁOŚĆ: organizacja ma starsze korzenie niż fabryka. Nie umieszczać nazwy zakładu Jutrzenka przed 1945 ani nazwy Zakłady Przemysłu Cukierniczego Jutrzenka przed 1951. Carmel jest odrębną gałęzią związaną z rozłamem; nie scalać automatycznie obu fabryk w jeden obiekt. Obecny ośmioramienny medalion: prop:naszyjnik-halinki. Przypinka: prop:przypinka-halinki. Halinka i Zosia należą do zakonu, ale ich dostęp do konkretnych pomieszczeń i urzędy nie zostały określone.\n\nSTATUS PRODUKCYJNY: wpis opisowy, bez wygenerowanych referencji. Adres, epoka konkretnej sceny, bryła, pomieszczenia, wejścia, geometria, wyposażenie i zabezpieczenia do opracowania przed projektowaniem ujęć. Nie przypisuje się fikcyjnego sekretnego archiwum do konkretnej realnej nieruchomości. Historia zakonnej działalności fabryki jest fikcją MF-TV, nie twierdzeniem o prawdziwym przedsiębiorstwie.",
+  "images": [],
+  "updatedAt": "2026-11-06T22:03:34.892246+00:00"
+}

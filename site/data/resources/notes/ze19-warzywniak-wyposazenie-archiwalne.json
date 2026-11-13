@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "note:ze19-warzywniak-wyposazenie-archiwalne",
+  "type": "notes",
+  "id": "ze19-warzywniak-wyposazenie-archiwalne",
+  "name": "ZE19 — archiwalna waga i półki sklepowe",
+  "description": "Referencja wyposażenia z fotografii Grażyny Rutowskiej, 1970, publikowanej w galerii Wroclaw.pl. Starsza niż akcja filmu: użyta wyłącznie dla konstrukcji mechanicznej wagi i prostych półek, jako wyposażenie nadal użytkowane na początku lat 90. Nie jest referencją postaci ani dowodem wystroju sklepu w 1990. Źródło: https://www.wroclaw.pl/dla-mieszkanca/galeria/sklepy-w-czasach-prl-tak-kiedys-robiono-zakupy-archiwalne-zdjecia%2Cp%2C21",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/ze19-warzywniak-wyposazenie-archiwalne/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/ze19-warzywniak-wyposazenie-archiwalne/image-001-thumb.webp",
+      "width": 1200,
+      "height": 630,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-11-12T06:47:06.942106+00:00"
+}

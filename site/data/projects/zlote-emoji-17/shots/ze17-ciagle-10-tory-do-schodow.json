@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-17/ze17-ciagle-10-tory-do-schodow",
+  "id": "ze17-ciagle-10-tory-do-schodow",
+  "title": "ZE17 10 — tory do schodow",
+  "description": "Fragment 10/18 jednego ciągłego ujęcia. First f0433 → Last f0481. 3 s, 24 fps, normalne tempo 1×; bez przyspieszania. Pozycja w sekwencji: 27–30 s. Last jest identyczny plikowo z First następnego shota. Tło bez pióra; pióro będzie warstwą z Blendera. Wybrane obrazy zachowują różnice odnotowane w _system/clean-plates-v001/pair-audit-v003.json; przygotowanie shota nie oznacza zatwierdzenia wszystkich detali.",
+  "project": {
+    "id": "zlote-emoji-17",
+    "key": "project:zlote-emoji-17",
+    "name": "Złote Emoji #17",
+    "createdAt": "2026-11-08T21:24:33.398Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-17",
+    "projectCreatedAt": "2026-11-08T21:24:33.398Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": false,
+    "canonicalEvent": false,
+    "sequence": null,
+    "lastSequence": null,
+    "occurrences": [],
+    "sequenceTotal": 24,
+    "uniqueShotCount": 24,
+    "sequenceOrder": null,
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This project material is not present on the saved timeline, so it must not override canonical timeline events by date alone."
+  },
+  "references": [
+    {
+      "type": "place",
+      "id": "poznan-most-dworcowy"
+    },
+    {
+      "type": "note",
+      "id": "ze17-przejscie-materialy"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "place:poznan-most-dworcowy",
+        "key": "place:poznan-most-dworcowy",
+        "type": "place",
+        "id": "poznan-most-dworcowy",
+        "name": "Poznań — Most Dworcowy i tory",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/poznan-most-dworcowy.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "note:ze17-przejscie-materialy",
+        "key": "note:ze17-przejscie-materialy",
+        "type": "note",
+        "id": "ze17-przejscie-materialy",
+        "name": "ZE17 — materiały przejścia",
+        "relationship": "story-and-continuity-context",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze17-przejscie-materialy.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "place:poznan-most-dworcowy"
+        ],
+        "references": [
+          {
+            "sourceKey": "place:poznan-most-dworcowy",
+            "key": "place:poznan-most-dworcowy",
+            "type": "place",
+            "id": "poznan-most-dworcowy",
+            "name": "Poznań — Most Dworcowy i tory",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/poznan-most-dworcowy.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      },
+      {
+        "frameId": "frame-end",
+        "revision": 1,
+        "referenceKeys": [
+          "place:poznan-most-dworcowy"
+        ],
+        "references": [
+          {
+            "sourceKey": "place:poznan-most-dworcowy",
+            "key": "place:poznan-most-dworcowy",
+            "type": "place",
+            "id": "poznan-most-dworcowy",
+            "name": "Poznań — Most Dworcowy i tory",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/poznan-most-dworcowy.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Generate a NEW photographic16:9 frame. Images1 and2 repeat exact Blender camera and layout and MUST control all object edges. Image3 only real railway materials. Blue dusk. Single diagonal railway left/top to right/bottom, steel rails concrete sleepers crushed stone. Look down. CRITICAL: keep small SHORT vertical wall face in upper right EXACTLY inside Blender silhouette; it ends around y40% near x59%, then a recessed DARK FLAT GROUND PATCH extends to right edge. Do NOT turn that small wall into a tall full-height retaining wall extending to bottom-right. Keep upper-right horizontal slab and its short end-face exactly like the blueprint. Trackside dark flat areas become level fine gravel, not polished tile. Maintain left platform edge. No extra walls, no people, no feather, no sky, no hillside, no added railings. Photographic materials, geometrically identical camera to image1.",
+    "endFrameDescription": "Wspólna klatka graniczna f0481; dokładne zakończenie segmentu i początek następnego.",
+    "animation": "0-3s: Glide forward toward the stair entrance on screen right, turning gently until the rails run toward the top center and the stair opening enters on the right. Rails and platform stay fixed. Camera motion continues through both boundaries, reaching the supplied End Frame at 3s. Keep architecture rigid and dusk exposure stable. No feather, cuts, dissolves, morphs or new people. @Image1: railway materials only, not daylight or camera layout. @Image2: station surface materials only, not its viewpoint or signs."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "video-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "place:poznan-most-dworcowy"
+      ],
+      "references": [
+        {
+          "sourceKey": "place:poznan-most-dworcowy",
+          "key": "place:poznan-most-dworcowy",
+          "type": "place",
+          "id": "poznan-most-dworcowy",
+          "name": "Poznań — Most Dworcowy i tory",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/poznan-most-dworcowy.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-09T00:22:05.587932+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "place:poznan-most-dworcowy"
+          ],
+          "references": [
+            {
+              "sourceKey": "place:poznan-most-dworcowy",
+              "key": "place:poznan-most-dworcowy",
+              "type": "place",
+              "id": "poznan-most-dworcowy",
+              "name": "Poznań — Most Dworcowy i tory",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/poznan-most-dworcowy.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-ciagle-10-tory-do-schodow/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-ciagle-10-tory-do-schodow/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "role": "frame-end",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "place:poznan-most-dworcowy"
+      ],
+      "references": [
+        {
+          "sourceKey": "place:poznan-most-dworcowy",
+          "key": "place:poznan-most-dworcowy",
+          "type": "place",
+          "id": "poznan-most-dworcowy",
+          "name": "Poznań — Most Dworcowy i tory",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/poznan-most-dworcowy.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-09T00:22:05.587932+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "place:poznan-most-dworcowy"
+          ],
+          "references": [
+            {
+              "sourceKey": "place:poznan-most-dworcowy",
+              "key": "place:poznan-most-dworcowy",
+              "type": "place",
+              "id": "poznan-most-dworcowy",
+              "name": "Poznań — Most Dworcowy i tory",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/poznan-most-dworcowy.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-ciagle-10-tory-do-schodow/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-ciagle-10-tory-do-schodow/frame-end-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

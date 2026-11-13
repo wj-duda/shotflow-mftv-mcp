@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "prop:moneta-aniola",
+  "type": "props",
+  "id": "moneta-aniola",
+  "name": "Moneta anioła — dar dla skrzypka",
+  "description": "AKTUALNY PRZEBIEG SCENY — KOREKTA AUTORA 2026-11-09: Pióro przemienia się w monetę natychmiast po nasączeniu łzą, w dłoni przy twarzy. Do kapelusza trafia już gotowa moneta. Osobny ciasny close-up pokazuje wcześniej pojawienie się łzy i dyskretne zakłopotanie. Starsze wzmianki o przemianie w kapeluszu są nieaktualne.\n\nMONETA ANIOŁA — aktualny dar dla skrzypka w ZE17, decyzja autora 2026-11-09. Zastępuje odrzucony krzyżyk; jego starsze referencje pozostają historyczne.\n\nPochodzenie: anioł zdejmuje białe pióro z ramienia i dyskretnie ociera nim pojedynczą mimowolną łzę. Złoty przebłysk; po wrzuceniu do kapelusza skrzypka pióro przemienia się w jedną niezwykłą monetę. Świadomy dar dla człowieka, którego czystość duszy anioł wyczuwa według kryteriów Nieba. Zakłopotanie, bez klasycznego ludzkiego rozczulenia. Konkretne moce i funkcja w finale pozostają nieustalone.\n\nWYGLĄD ZATWIERDZONY: ciepłe satynowe złoto, lekko przytarta powierzchnia, jeden większy grawer i trzy małe znaki poniżej, smukły podniesiony obrzeżny rant i drobno ząbkowana krawędź. Aktywna referencja image-002. Proponowana skala produkcyjna: średnica 30 mm, grubość około 2 mm; bez nominału, łańcuszka, uszka, portretu, krzyża i stałego świecenia.\n\nGLIFY: wzór zaczerpnięty z plansz INARIUS w portfolio Fernando Forero, autora glifów Diablo IV, https://fernandoforeroart.com/diablo-cultural-glyphs . Moneta jest autorskim rekwizytem tej historii, nie potwierdzonym przedmiotem z gry. Nie przypisano inskrypcji tłumaczenia ani dodatkowych mocy. Użycie glifów nie ustanawia tożsamości naszego anioła z Inariusem.\n\nPRODUKCJA: image-001 wygenerowano od początku z dwiema planszami glifów; image-002 to zatwierdzona przez autora edycja tej samej monety dodająca rant. Prompty i pochodzenie w source/generation.json.",
+  "images": [
+    {
+      "id": "image-002",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/moneta-aniola/image-002.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/moneta-aniola/image-002-thumb.webp",
+      "width": 1254,
+      "height": 1254,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-11-09T01:14:15.271494+00:00"
+}

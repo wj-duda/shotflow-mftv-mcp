@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "character:wyslanniczka-zakonu",
+  "type": "characters",
+  "id": "wyslanniczka-zakonu",
+  "name": "Wysłanniczka Zakonu Jutrzenki",
+  "description": "POSTAĆ DO ZE#16 — propozycja wizualna 2026-11-06. Kobieta związana z Zakonem Jutrzenki, do którego należy Halinka, przychodzi po młodą Halinkę podczas spotkania z Fonzo nad jeziorem. Jej pojawienie się przerywa tę chwilę; sygnał przynależności ma pozostać dyskretny. Nie ustalono imienia, rangi, biografii, zdolności ani głosu. Nie przypisywać jej automatycznie funkcji przełożonej lub antagonistki.\n\nWYGLĄD AKTUALNY — lato, Polska połowa lat 80.: około 40–41 lat, ciemnobrązowy bob do żuchwy, zachowana spokojna uważna twarz. Kremowa bluzka koszulowa z lekko poszerzonymi, marszczonymi ramionami i rękawami do łokcia, wpuszczona w granatową rozkloszowaną spódnicę do połowy łydki z szerokimi fałdami. Wąski brązowy pasek, brązowe czółenka na niskim obcasie, brązowa skórzana torebka na prawym ramieniu. Złota okrągła przypinka wschodzącego słońca na lewej piersi bluzki, własny egzemplarz wzoru prop:przypinka-halinki. Bez naszyjnika Halinki. Ubranie codzienne, zadbane, letnie; nie new romantic ani habit. Zastępuje wcześniejszy projekt płaszcza inspirowany latami 60. Bez broni i efektów magicznych. W roku 1986 kończy 41 lat; przed urodzinami ma 40. Projekt stroju nie zatwierdza odrzuconego scenariusza.\n\nRELACJE: character:halinka-mloda; character:fonzo-mlody. Portret i sylwetka wygenerowane jako komplet; styl i motyw przypinki zaczerpnięte z referencji młodej Halinki, twarz nowa.\n\nCHRONOLOGIA — UZUPEŁNIENIE NA POLECENIE AUTORA 2026-11-06: Rok urodzenia postaci w AIMFTV: 1945. Dzień i miesiąc urodzenia pozostają nieustalone. W 1985 kończy 40 lat; przed urodzinami ma 39. To punkt odniesienia do obsady retrospekcji, nie automatyczna data wszystkich dawnych scen. Rocznik dobrano redakcyjnie do istniejącego bio i wspólnej chronologii; dotyczy fikcyjnej postaci, nie danych osobowych twórcy lub osoby z referencji.\n\nSTATUS ZE16: Dotychczasowa historia spotkania nad jeziorem została zakwestionowana przez autora. Powyższy rocznik porządkuje wiek postaci; nie zatwierdza odrzuconego scenariusza ani nie wznawia produkcji.\n\nOSOBNY PROPS: prop:przypinka-halinki ustala wzór przypinki ze słońcem nad horyzontem; wysłanniczka nosi własny egzemplarz. Jej projekt nie daje jej naszyjnika Halinki.\n\nNAZWA I KANON: Wysłanniczka Zakonu Jutrzenki; historia i granice organizacji: note:zakon-jutrzenki. Tożsamość, urząd i stopień postaci nieustalone. Pięciopromienna przypinka nie dowodzi jej rangi ani przynależności do konkretnej gałęzi. Obecny medalion zakonu ma osiem ramion; nie dodaje to automatycznie naszyjnika do tej referencji. Dotychczasowy scenariusz ZE16 pozostaje zakwestionowany.",
+  "images": [
+    {
+      "id": "image-003",
+      "role": "portrait",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/wyslanniczka-zakonu/image-003.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/wyslanniczka-zakonu/image-003-thumb.webp",
+      "width": 1024,
+      "height": 1536,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-004",
+      "role": "silhouette",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/wyslanniczka-zakonu/image-004.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/wyslanniczka-zakonu/image-004-thumb.webp",
+      "width": 1024,
+      "height": 1536,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-11-06T23:12:26.223255+00:00"
+}

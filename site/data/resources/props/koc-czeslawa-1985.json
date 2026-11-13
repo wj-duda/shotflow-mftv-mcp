@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "prop:koc-czeslawa-1985",
+  "type": "props",
+  "id": "koc-czeslawa-1985",
+  "name": "Koc Czesława — 1985",
+  "description": "Rekwizyt ZE18: prostokątny zużyty wełniany koc w stonowaną oliwkowo-brązową kratę, beżowe frędzle. Ten sam składany przy aucie, rozłożony na polanie i zwinięty z ubraniami przy ucieczce. Referencja obrazowa wygenerowana dla ZE18; obowiązuje image-001.png.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/koc-czeslawa-1985/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/koc-czeslawa-1985/image-001-thumb.webp",
+      "width": 1536,
+      "height": 1024,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-11-09T15:28:13.054665+00:00"
+}

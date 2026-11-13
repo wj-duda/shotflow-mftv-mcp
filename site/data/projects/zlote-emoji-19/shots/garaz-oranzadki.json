@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-19/garaz-oranzadki",
+  "id": "garaz-oranzadki",
+  "title": "Nieotwarte oranżadki",
+  "description": "Detal odkrycia: lewa dłoń dorosłego Dariusza już trzyma zamkniętą saszetkę za górny brzeg. Podnosi ją z pudła; druga zostaje na starych czasopismach. Ta sama grafika opakowania co we wspomnieniu, ale inne, nadal nieotwarte egzemplarze. Montaż 2 s; źródło minimum 3 s.",
+  "project": {
+    "id": "zlote-emoji-19",
+    "key": "project:zlote-emoji-19",
+    "name": "Złote Emoji #19",
+    "createdAt": "2026-11-10T23:04:15.573Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-19",
+    "projectCreatedAt": "2026-11-10T23:04:15.573Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 12,
+    "lastSequence": 12,
+    "occurrences": [
+      12
+    ],
+    "sequenceTotal": 17,
+    "uniqueShotCount": 17,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "grimskald"
+    },
+    {
+      "type": "prop",
+      "id": "oranzada-proszek-ze19"
+    },
+    {
+      "type": "shot",
+      "id": "garaz-pudlo"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:grimskald",
+        "key": "character:grimskald",
+        "type": "character",
+        "id": "grimskald",
+        "name": "Pan Dariusz",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:oranzada-proszek-ze19",
+        "key": "prop:oranzada-proszek-ze19",
+        "type": "prop",
+        "id": "oranzada-proszek-ze19",
+        "name": "ZE19 — papierowa saszetka oranżady",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/oranzada-proszek-ze19.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:garaz-pudlo",
+        "key": "shot:zlote-emoji-19/garaz-pudlo",
+        "type": "shot",
+        "id": "garaz-pudlo",
+        "name": "Po latach — stare pudło",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-19/shots/garaz-pudlo.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "character:grimskald",
+          "prop:oranzada-proszek-ze19",
+          "shot:garaz-pudlo"
+        ],
+        "references": [
+          {
+            "sourceKey": "character:grimskald",
+            "key": "character:grimskald",
+            "type": "character",
+            "id": "grimskald",
+            "name": "Pan Dariusz",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:oranzada-proszek-ze19",
+            "key": "prop:oranzada-proszek-ze19",
+            "type": "prop",
+            "id": "oranzada-proszek-ze19",
+            "name": "ZE19 — papierowa saszetka oranżady",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/oranzada-proszek-ze19.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:garaz-pudlo",
+            "key": "shot:zlote-emoji-19/garaz-pudlo",
+            "type": "shot",
+            "id": "garaz-pudlo",
+            "name": "Po latach — stare pudło",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-19/shots/garaz-pudlo.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Single photorealistic cinematic 16:9 film still, contemporary Polish cluttered garage. Reference 1 fixes adult Dariusz identity and glasses/braided beard; reference 2 exact blue shirt, dark waistcoat, leather suspenders and large stocky body. Reference 3 exact small 6x9cm paper sachet orange/green design ORANŻADA W PROSZKU SMAK POMARAŃCZOWY; aged yellowish dry paper, all packets factory SEALED with intact top seam, no tears. Reference 4 is the established garage and action continuity: adult seated LEFT of box on low bench screen RIGHT, daylight from LEFT, warm tasklamp back RIGHT. Keep same clothes, space, props, light. No child, no extra people, no captions, no overlays, no collage, no CG appearance, correct anatomy. EXTREME CLOSE-UP INSERT photographed from above and slightly to Dariusz's side of the box, 75mm lens, frame filled by battered cardboard box interior, old magazines and TWO sealed sachets. His adult LEFT hand with blue rolled sleeve enters from LEFT of frame and just pinches the top of ONE sachet, lifting it a little; second sealed packet lies on magazines. Only this one hand visible, five anatomically correct fingers. No face, no torso, no wide shot. Tangible worn cardboard fibers, fine dust on magazines but clean intact package seal. Hand and packet are in sharp focus, garage background absent except a little workbench edge. One packet foreground readable orange/green print.\n",
+    "endFrameDescription": "",
+    "animation": "0.0–1.5s: The adult hand already gripping the nearer sealed sachet lifts it slowly upward and slightly toward screen left, clearing the magazines without releasing the top edge. The packet flexes gently under its own weight. 1.5–3.0s: Hold it just above the box with the printed front still facing camera. The second packet stays flat and motionless. Camera: locked close-up. @Image1 fixes only the sachet print; @Image2 fixes the adult hand, denim cuff and leather wristband continuity. Preserve the old paper, sealed seams, magazine covers and cardboard geometry. No tearing, powder, added packets, moving printed figures, extra fingers or cuts."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "character:grimskald",
+        "prop:oranzada-proszek-ze19",
+        "shot:garaz-pudlo"
+      ],
+      "references": [
+        {
+          "sourceKey": "character:grimskald",
+          "key": "character:grimskald",
+          "type": "character",
+          "id": "grimskald",
+          "name": "Pan Dariusz",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:oranzada-proszek-ze19",
+          "key": "prop:oranzada-proszek-ze19",
+          "type": "prop",
+          "id": "oranzada-proszek-ze19",
+          "name": "ZE19 — papierowa saszetka oranżady",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/oranzada-proszek-ze19.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:garaz-pudlo",
+          "key": "shot:zlote-emoji-19/garaz-pudlo",
+          "type": "shot",
+          "id": "garaz-pudlo",
+          "name": "Po latach — stare pudło",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-19/shots/garaz-pudlo.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-10T23:21:21.71142+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:grimskald",
+            "prop:oranzada-proszek-ze19",
+            "shot:garaz-pudlo"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:grimskald",
+              "key": "character:grimskald",
+              "type": "character",
+              "id": "grimskald",
+              "name": "Pan Dariusz",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/grimskald.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:oranzada-proszek-ze19",
+              "key": "prop:oranzada-proszek-ze19",
+              "type": "prop",
+              "id": "oranzada-proszek-ze19",
+              "name": "ZE19 — papierowa saszetka oranżady",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/oranzada-proszek-ze19.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:garaz-pudlo",
+              "key": "shot:zlote-emoji-19/garaz-pudlo",
+              "type": "shot",
+              "id": "garaz-pudlo",
+              "name": "Po latach — stare pudło",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-19/shots/garaz-pudlo.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-19/shots/garaz-oranzadki/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-19/shots/garaz-oranzadki/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

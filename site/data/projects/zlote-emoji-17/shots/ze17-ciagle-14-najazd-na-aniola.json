@@ -1,0 +1,287 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-17/ze17-ciagle-14-najazd-na-aniola",
+  "id": "ze17-ciagle-14-najazd-na-aniola",
+  "title": "ZE17 14 — najazd na aniola",
+  "description": "Fragment 14/18 jednego ciągłego ujęcia. First f0625 → Last f0673. 3 s, 24 fps, normalne tempo 1×; bez przyspieszania. Pozycja w sekwencji: 39–42 s. Last jest identyczny plikowo z First następnego shota. Tło bez pióra; pióro będzie warstwą z Blendera. Wybrane obrazy zachowują różnice odnotowane w _system/clean-plates-v001/pair-audit-v003.json; przygotowanie shota nie oznacza zatwierdzenia wszystkich detali.",
+  "project": {
+    "id": "zlote-emoji-17",
+    "key": "project:zlote-emoji-17",
+    "name": "Złote Emoji #17",
+    "createdAt": "2026-11-08T21:24:33.398Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-17",
+    "projectCreatedAt": "2026-11-08T21:24:33.398Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": false,
+    "canonicalEvent": false,
+    "sequence": null,
+    "lastSequence": null,
+    "occurrences": [],
+    "sequenceTotal": 24,
+    "uniqueShotCount": 24,
+    "sequenceOrder": null,
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This project material is not present on the saved timeline, so it must not override canonical timeline events by date alone."
+  },
+  "references": [
+    {
+      "type": "note",
+      "id": "ze17-aniol-ludzki-wyglad"
+    },
+    {
+      "type": "note",
+      "id": "ze17-przejscie-materialy"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "note:ze17-aniol-ludzki-wyglad",
+        "key": "note:ze17-aniol-ludzki-wyglad",
+        "type": "note",
+        "id": "ze17-aniol-ludzki-wyglad",
+        "name": "ZE17 — anioł w ludzkim przebraniu",
+        "relationship": "story-and-continuity-context",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze17-aniol-ludzki-wyglad.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "note:ze17-przejscie-materialy",
+        "key": "note:ze17-przejscie-materialy",
+        "type": "note",
+        "id": "ze17-przejscie-materialy",
+        "name": "ZE17 — materiały przejścia",
+        "relationship": "story-and-continuity-context",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze17-przejscie-materialy.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "note:ze17-aniol-ludzki-wyglad",
+          "note:ze17-przejscie-materialy"
+        ],
+        "references": [
+          {
+            "sourceKey": "note:ze17-aniol-ludzki-wyglad",
+            "key": "note:ze17-aniol-ludzki-wyglad",
+            "type": "note",
+            "id": "ze17-aniol-ludzki-wyglad",
+            "name": "ZE17 — anioł w ludzkim przebraniu",
+            "relationship": "story-and-continuity-context",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze17-aniol-ludzki-wyglad.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "note:ze17-przejscie-materialy",
+            "key": "note:ze17-przejscie-materialy",
+            "type": "note",
+            "id": "ze17-przejscie-materialy",
+            "name": "ZE17 — materiały przejścia",
+            "relationship": "story-and-continuity-context",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze17-przejscie-materialy.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      },
+      {
+        "frameId": "frame-end",
+        "revision": 1,
+        "referenceKeys": [
+          "note:ze17-aniol-ludzki-wyglad",
+          "note:ze17-przejscie-materialy"
+        ],
+        "references": [
+          {
+            "sourceKey": "note:ze17-aniol-ludzki-wyglad",
+            "key": "note:ze17-aniol-ludzki-wyglad",
+            "type": "note",
+            "id": "ze17-aniol-ludzki-wyglad",
+            "name": "ZE17 — anioł w ludzkim przebraniu",
+            "relationship": "story-and-continuity-context",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze17-aniol-ludzki-wyglad.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "note:ze17-przejscie-materialy",
+            "key": "note:ze17-przejscie-materialy",
+            "type": "note",
+            "id": "ze17-przejscie-materialy",
+            "name": "ZE17 — materiały przejścia",
+            "relationship": "story-and-continuity-context",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze17-przejscie-materialy.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Generate a NEW photorealistic BACKGROUND PLATE, not an edit. There is NO FEATHER, no bird, no floating foreground object anywhere. Image1 is the feather-free Blender spatial blueprint: retain its camera projection, crop, object placement and sizes exactly. Supporting reference images supply only specified identities/designs/materials. Keep framing even if it seems empty; foreground subject will be composited later. Do not fill the empty foreground or recompose. Generate a new photorealistic still that keeps the EXACT projection and layout of references1 and4 (same Blender camera stencil repeated to emphasize geometry). Reference2 gives actual Poznań stone/terrazzo surfaces, reference3 only male character's clothes and hair, without umbrella. The Blender image is authoritative, not the portraits. The man must have his head at22% height and feet53%, center42%width. Leave that much blank wall above him. He faces slightly LEFT, back toward camera, shoulders relaxed. Preserve body silhouette size, no enlargement/shrink. Shoulder-length dark untidy hair, slim dark charcoal coat and dark trousers. Both feet on level corridor floor. Keep its projected width and altitude, not above its proxy. Stair landing at78%height, wall-floor seam31%, opening inneredges20% and84%. Copy those EXACT lines from reference1. The camera is looking DOWN from lower stairs into crosswise passage. No otherpeople, no invented doors or objects. Calm neutral-warm station lighting, cool blue ambient evening. Natural photographic skin/hair/wool, realistic stone panels and floor,16:9, no text. Geometry must stay locked while materials become real. Entire output contains no feather or white floating speck. Realistic anatomy and mechanically rigid vehicles, dry charcoal coat for the man, consistent blue dusk and warm station lights. Landscape16:9.",
+    "endFrameDescription": "Wspólna klatka graniczna f0673; dokładne zakończenie segmentu i początek następnego.",
+    "animation": "0-3s: Glide off the bottom stairs onto the corridor level toward the listener. The stair walls leave the edges and the floor opens into view. Keep the listener in the same left-facing orientation. The listener remains planted, arms down, with subtle breathing only. No walking or head turn. Camera motion continues through both boundaries, reaching the supplied End Frame at 3s. Keep architecture rigid and dusk exposure stable. No feather, cuts, dissolves, morphs or new people. @Image1: the existing listener's identity, long hair and coat only; no umbrella or wings. @Image2: station surface materials only, not its viewpoint or signs."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "video-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "note:ze17-aniol-ludzki-wyglad",
+        "note:ze17-przejscie-materialy"
+      ],
+      "references": [
+        {
+          "sourceKey": "note:ze17-aniol-ludzki-wyglad",
+          "key": "note:ze17-aniol-ludzki-wyglad",
+          "type": "note",
+          "id": "ze17-aniol-ludzki-wyglad",
+          "name": "ZE17 — anioł w ludzkim przebraniu",
+          "relationship": "story-and-continuity-context",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze17-aniol-ludzki-wyglad.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "note:ze17-przejscie-materialy",
+          "key": "note:ze17-przejscie-materialy",
+          "type": "note",
+          "id": "ze17-przejscie-materialy",
+          "name": "ZE17 — materiały przejścia",
+          "relationship": "story-and-continuity-context",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze17-przejscie-materialy.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-09T00:22:05.587932+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "note:ze17-aniol-ludzki-wyglad",
+            "note:ze17-przejscie-materialy"
+          ],
+          "references": [
+            {
+              "sourceKey": "note:ze17-aniol-ludzki-wyglad",
+              "key": "note:ze17-aniol-ludzki-wyglad",
+              "type": "note",
+              "id": "ze17-aniol-ludzki-wyglad",
+              "name": "ZE17 — anioł w ludzkim przebraniu",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze17-aniol-ludzki-wyglad.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "note:ze17-przejscie-materialy",
+              "key": "note:ze17-przejscie-materialy",
+              "type": "note",
+              "id": "ze17-przejscie-materialy",
+              "name": "ZE17 — materiały przejścia",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze17-przejscie-materialy.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-ciagle-14-najazd-na-aniola/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-ciagle-14-najazd-na-aniola/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "role": "frame-end",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "note:ze17-aniol-ludzki-wyglad",
+        "note:ze17-przejscie-materialy"
+      ],
+      "references": [
+        {
+          "sourceKey": "note:ze17-aniol-ludzki-wyglad",
+          "key": "note:ze17-aniol-ludzki-wyglad",
+          "type": "note",
+          "id": "ze17-aniol-ludzki-wyglad",
+          "name": "ZE17 — anioł w ludzkim przebraniu",
+          "relationship": "story-and-continuity-context",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze17-aniol-ludzki-wyglad.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "note:ze17-przejscie-materialy",
+          "key": "note:ze17-przejscie-materialy",
+          "type": "note",
+          "id": "ze17-przejscie-materialy",
+          "name": "ZE17 — materiały przejścia",
+          "relationship": "story-and-continuity-context",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze17-przejscie-materialy.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-09T00:22:05.587932+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "note:ze17-aniol-ludzki-wyglad",
+            "note:ze17-przejscie-materialy"
+          ],
+          "references": [
+            {
+              "sourceKey": "note:ze17-aniol-ludzki-wyglad",
+              "key": "note:ze17-aniol-ludzki-wyglad",
+              "type": "note",
+              "id": "ze17-aniol-ludzki-wyglad",
+              "name": "ZE17 — anioł w ludzkim przebraniu",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze17-aniol-ludzki-wyglad.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "note:ze17-przejscie-materialy",
+              "key": "note:ze17-przejscie-materialy",
+              "type": "note",
+              "id": "ze17-przejscie-materialy",
+              "name": "ZE17 — materiały przejścia",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze17-przejscie-materialy.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-ciagle-14-najazd-na-aniola/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-ciagle-14-najazd-na-aniola/frame-end-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

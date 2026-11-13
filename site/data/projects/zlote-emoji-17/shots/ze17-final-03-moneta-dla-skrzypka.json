@@ -1,0 +1,256 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-17/ze17-final-03-moneta-dla-skrzypka",
+  "id": "ze17-final-03-moneta-dla-skrzypka",
+  "title": "ZE17 — Dar w kapeluszu",
+  "description": "Zakończenie z cięciami. Dar w kapeluszu. Moneta powstaje przy twarzy, po kontakcie pióra z łzą. 3.0 s, normalne tempo. Start/End oraz dodatkowe referencje przygotowane do Kling O3 Pro, bez natywnego audio.",
+  "project": {
+    "id": "zlote-emoji-17",
+    "key": "project:zlote-emoji-17",
+    "name": "Złote Emoji #17",
+    "createdAt": "2026-11-08T21:24:33.398Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-17",
+    "projectCreatedAt": "2026-11-08T21:24:33.398Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 23,
+    "lastSequence": 23,
+    "occurrences": [
+      23
+    ],
+    "sequenceTotal": 24,
+    "uniqueShotCount": 24,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "prop",
+      "id": "moneta-aniola"
+    },
+    {
+      "type": "shot",
+      "id": "ze17-final-03-moneta-dla-skrzypka"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "prop:moneta-aniola",
+        "key": "prop:moneta-aniola",
+        "type": "prop",
+        "id": "moneta-aniola",
+        "name": "Moneta anioła — dar dla skrzypka",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/moneta-aniola.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze17-final-03-moneta-dla-skrzypka",
+        "key": "shot:zlote-emoji-17/ze17-final-03-moneta-dla-skrzypka",
+        "type": "shot",
+        "id": "ze17-final-03-moneta-dla-skrzypka",
+        "name": "ZE17 — Dar w kapeluszu",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-final-03-moneta-dla-skrzypka.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "prop:moneta-aniola"
+        ],
+        "references": [
+          {
+            "sourceKey": "prop:moneta-aniola",
+            "key": "prop:moneta-aniola",
+            "type": "prop",
+            "id": "moneta-aniola",
+            "name": "Moneta anioła — dar dla skrzypka",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/moneta-aniola.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      },
+      {
+        "frameId": "frame-end",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:ze17-final-03-moneta-dla-skrzypka",
+          "prop:moneta-aniola"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze17-final-03-moneta-dla-skrzypka",
+            "key": "shot:zlote-emoji-17/ze17-final-03-moneta-dla-skrzypka",
+            "type": "shot",
+            "id": "ze17-final-03-moneta-dla-skrzypka",
+            "name": "ZE17 — Dar w kapeluszu",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-final-03-moneta-dla-skrzypka.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:moneta-aniola",
+            "key": "prop:moneta-aniola",
+            "type": "prop",
+            "id": "moneta-aniola",
+            "name": "Moneta anioła — dar dla skrzypka",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/moneta-aniola.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Generate a NEW photorealistic 16:9 movie frame, a quiet donation insert in the railway passage. Image1 locks the exact camera, shallow upturned dark felt hat, grey terrazzo floor, the violinist's two shoes at upper-left, four existing small coins (three silver, one copper), lighting and their positions. No feather in this new scene: it has ALREADY transformed before this cut. Image2 defines the exact small 30mm satin gold coin, finely milled rim, one large glyph and three small marks. Image3 locks donor's natural RIGHT hand and grip holding that coin. Right hand with dark charcoal wool sleeve and pale cuff enters from upper-right, holds the ONE gold coin between thumb and index about 12 cm above the hat opening, ready to release it. Coin face slightly tilted toward camera, correct small scale: diameter approximately 1.3 times the largest silver coin inside the hat, NOT a giant medallion. Hand natural five fingers, thumb and index pinch on edge, remaining fingers relaxed. Nothing glows. All four ordinary coins in the hat stay exactly positioned as image1. No gold coin already inside the hat, no duplicates, no white feather, no new people, no face, no letters or watermarks. Same fixed camera framing as image1, no environment change. This is the START of simply dropping an already existing coin; no transformation belongs in this shot.",
+    "endFrameDescription": "Dar w kapeluszu — stan końcowy zgodny z zatwierdzonym planem.",
+    "animation": "0-0.5s: The existing right thumb and index separate once, releasing the ONE gold coin straight down into the hat. 0.5-1.3s: It falls under gravity, tips gently on the felt and settles face up in the clear central space above the four ordinary coins. 1.3-2s: The empty hand withdraws through the upper-right edge. 2-3s: Hold the exact End Frame: five coins total, no hand. Camera locked. @Image1 defines only the existing gold coin, its engraving, thin reeded edge and small scale. Preserve hat shape, floor, shoes, lighting and the original four coins. No transformation, feather, glow, floating, extra coin, new hand, extra fingers, camera move or internal cut."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "prop:moneta-aniola"
+      ],
+      "references": [
+        {
+          "sourceKey": "prop:moneta-aniola",
+          "key": "prop:moneta-aniola",
+          "type": "prop",
+          "id": "moneta-aniola",
+          "name": "Moneta anioła — dar dla skrzypka",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/moneta-aniola.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-09T01:13:21.257064+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "prop:moneta-aniola"
+          ],
+          "references": [
+            {
+              "sourceKey": "prop:moneta-aniola",
+              "key": "prop:moneta-aniola",
+              "type": "prop",
+              "id": "moneta-aniola",
+              "name": "Moneta anioła — dar dla skrzypka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/moneta-aniola.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-final-03-moneta-dla-skrzypka/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-final-03-moneta-dla-skrzypka/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "role": "frame-end",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze17-final-03-moneta-dla-skrzypka",
+        "prop:moneta-aniola"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze17-final-03-moneta-dla-skrzypka",
+          "key": "shot:zlote-emoji-17/ze17-final-03-moneta-dla-skrzypka",
+          "type": "shot",
+          "id": "ze17-final-03-moneta-dla-skrzypka",
+          "name": "ZE17 — Dar w kapeluszu",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-final-03-moneta-dla-skrzypka.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:moneta-aniola",
+          "key": "prop:moneta-aniola",
+          "type": "prop",
+          "id": "moneta-aniola",
+          "name": "Moneta anioła — dar dla skrzypka",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/moneta-aniola.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-09T01:13:22.371558+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze17-final-03-moneta-dla-skrzypka",
+            "prop:moneta-aniola"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze17-final-03-moneta-dla-skrzypka",
+              "key": "shot:zlote-emoji-17/ze17-final-03-moneta-dla-skrzypka",
+              "type": "shot",
+              "id": "ze17-final-03-moneta-dla-skrzypka",
+              "name": "ZE17 — Dar w kapeluszu",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-final-03-moneta-dla-skrzypka.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:moneta-aniola",
+              "key": "prop:moneta-aniola",
+              "type": "prop",
+              "id": "moneta-aniola",
+              "name": "Moneta anioła — dar dla skrzypka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/moneta-aniola.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-final-03-moneta-dla-skrzypka/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-final-03-moneta-dla-skrzypka/frame-end-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "prop:fotografia-halinki-fonza",
+  "type": "props",
+  "id": "fotografia-halinki-fonza",
+  "name": "Fotografia młodej Halinki — pamiątka Fonza",
+  "description": "Osobista papierowa odbitka fotografii młodej Halinki wykonanej przez Fonza podczas letniego spotkania nad jeziorem. ZE16, roboczo lato1986. Źródło treści: shot halinka-fotografia, Start v002; twarz, warkocz, kurtka Peru, biżuteria i jacht zgodne z kadrem. Obecny wygląd po około40 latach noszenia i przechowywania. Zwykła pozioma odbitka około10×15cm, nie Polaroid. Dawniej kolorowa, teraz wyraźnie wyblakła: przygaszona zieleń, zgaszona rudość włosów, słabszy kontrast, lekko kremowe światła, delikatne nieregularne ziarno i miękkość obrazu. Cienki pożółkły margines, wytarte narożniki, drobne rysy i pyłki, małe zagięcie lewego dolnego rogu. Pozostaje czytelna i cenna emocjonalnie. Bez datownika, napisu, magicznego działania i dopisanej dedykacji. Rewers nie został zaprojektowany. To projekt filmowy odbitki, nie autentyczny dokument historyczny. Finał ZE16: niewidoczny starszy Fonzo kładzie ją na biurku Halinki obrazem ku niej, w ujęciu z własnego POV; dla kamery obraz na papierze jest odwrócony o180stopni. Przenosić dokładnie ten props, nie generować nowej nasyconej fotografii.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/fotografia-halinki-fonza/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/fotografia-halinki-fonza/image-001-thumb.webp",
+      "width": 1536,
+      "height": 1024,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-11-06T23:57:14.265875+00:00"
+}

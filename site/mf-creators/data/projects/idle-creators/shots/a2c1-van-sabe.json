@@ -1,0 +1,289 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:08:29.779Z",
+  "worldId": "mf-creators",
+  "kind": "shot",
+  "key": "shot:idle-creators/a2c1-van-sabe",
+  "id": "a2c1-van-sabe",
+  "title": "A2 → C1 | D — Van Sabe ożywa",
+  "description": "Loop Lab D, alternatywne A2→C1, 72 klatki/3s, neutralna energia 3. Van Sabe skrajnie po prawej unosi brodę znad dłoni, lekko cofa bark i zerka ku rkFonzo; wraca do dokładnej pozy końcowej. Start/End są identycznymi kopiami istniejących klatek. Bez nowej generacji obrazów. Nie zmienia istniejącego timeline.",
+  "project": {
+    "id": "idle-creators",
+    "key": "project:idle-creators",
+    "name": "IdleCreators",
+    "createdAt": "2026-10-05T20:23:26.754Z"
+  },
+  "chronology": {
+    "projectKey": "project:idle-creators",
+    "projectCreatedAt": "2026-10-05T20:23:26.754Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": false,
+    "canonicalEvent": false,
+    "sequence": null,
+    "lastSequence": null,
+    "occurrences": [],
+    "sequenceTotal": 2,
+    "uniqueShotCount": 2,
+    "sequenceOrder": null,
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This project material is not present on the saved timeline, so it must not override canonical timeline events by date alone."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "a2a1"
+    },
+    {
+      "type": "shot",
+      "id": "c1c2"
+    },
+    {
+      "type": "character",
+      "id": "van-sabe"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:a2a1",
+        "key": "shot:idle-creators/a2a1",
+        "type": "shot",
+        "id": "a2a1",
+        "name": "A2 do A1 - powrot idle",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/a2a1.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:c1c2",
+        "key": "shot:idle-creators/c1c2",
+        "type": "shot",
+        "id": "c1c2",
+        "name": "C1 → C2 | C — odpowiedź spojrzeniem",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/c1c2.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:van-sabe",
+        "key": "character:van-sabe",
+        "type": "character",
+        "id": "van-sabe",
+        "name": "Van Sabe",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/van-sabe.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:a2a1"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:a2a1",
+            "key": "shot:idle-creators/a2a1",
+            "type": "shot",
+            "id": "a2a1",
+            "name": "A2 do A1 - powrot idle",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/a2a1.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": {
+          "sourceKey": "shot:a2a1",
+          "key": "shot:idle-creators/a2a1",
+          "type": "shot",
+          "id": "a2a1",
+          "name": "A2 do A1 - powrot idle",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/a2a1.json",
+          "exists": true
+        }
+      },
+      {
+        "frameId": "frame-end",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:c1c2"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:c1c2",
+            "key": "shot:idle-creators/c1c2",
+            "type": "shot",
+            "id": "c1c2",
+            "name": "C1 → C2 | C — odpowiedź spojrzeniem",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/c1c2.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": {
+          "sourceKey": "shot:c1c2",
+          "key": "shot:idle-creators/c1c2",
+          "type": "shot",
+          "id": "c1c2",
+          "name": "C1 → C2 | C — odpowiedź spojrzeniem",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/c1c2.json",
+          "exists": true
+        }
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Exact copy of a2a1 Start Frame v1 (A2).",
+    "endFrameDescription": "Dokładna C1 wspólna z c1c2, po powrocie Van Sabe do pozy.",
+    "animation": "0.0–1.2s: Van Sabe, the curly black-haired man at the far right wearing black and dog tags, lifts his chin about three centimetres off his resting knuckles and gently eases his shoulder backward. 1.2–1.8s: he briefly glances toward his silver-haired neighbor, lips closed. 1.8–3.0s: he settles his chin onto the same hand and returns exactly to the End Frame pose. The purple-braided woman second from left makes only the small head adjustment required by the End Frame. Camera: absolutely locked, zero pan, zoom or shake. Secondary: quiet breathing and sparse blinks. Continuity: same six people, identities, clothing and seats; other hands and all feet stay planted. Freeze TV screen, bezel, corners, furniture and lighting at exact coordinates. Avoid talking, broad smiles, large gestures, face morphing, extra limbs, background drift or cuts."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "reference",
+      "referenceKeys": [
+        "shot:a2a1"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:a2a1",
+          "key": "shot:idle-creators/a2a1",
+          "type": "shot",
+          "id": "a2a1",
+          "name": "A2 do A1 - powrot idle",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/a2a1.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": {
+        "sourceKey": "shot:a2a1",
+        "key": "shot:idle-creators/a2a1",
+        "type": "shot",
+        "id": "a2a1",
+        "name": "A2 do A1 - powrot idle",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/a2a1.json",
+        "exists": true
+      },
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-05T21:33:31.654+00:00",
+          "source": "reference",
+          "referenceKeys": [
+            "shot:a2a1"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:a2a1",
+              "key": "shot:idle-creators/a2a1",
+              "type": "shot",
+              "id": "a2a1",
+              "name": "A2 do A1 - powrot idle",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/a2a1.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": {
+            "sourceKey": "shot:a2a1",
+            "key": "shot:idle-creators/a2a1",
+            "type": "shot",
+            "id": "a2a1",
+            "name": "A2 do A1 - powrot idle",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/a2a1.json",
+            "exists": true
+          }
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/projects/idle-creators/shots/a2c1-van-sabe/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/projects/idle-creators/shots/a2c1-van-sabe/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "role": "frame-end",
+      "revision": 1,
+      "source": "reference",
+      "referenceKeys": [
+        "shot:c1c2"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:c1c2",
+          "key": "shot:idle-creators/c1c2",
+          "type": "shot",
+          "id": "c1c2",
+          "name": "C1 → C2 | C — odpowiedź spojrzeniem",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/c1c2.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": {
+        "sourceKey": "shot:c1c2",
+        "key": "shot:idle-creators/c1c2",
+        "type": "shot",
+        "id": "c1c2",
+        "name": "C1 → C2 | C — odpowiedź spojrzeniem",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/c1c2.json",
+        "exists": true
+      },
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-05T21:33:31.654+00:00",
+          "source": "reference",
+          "referenceKeys": [
+            "shot:c1c2"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:c1c2",
+              "key": "shot:idle-creators/c1c2",
+              "type": "shot",
+              "id": "c1c2",
+              "name": "C1 → C2 | C — odpowiedź spojrzeniem",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/c1c2.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": {
+            "sourceKey": "shot:c1c2",
+            "key": "shot:idle-creators/c1c2",
+            "type": "shot",
+            "id": "c1c2",
+            "name": "C1 → C2 | C — odpowiedź spojrzeniem",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/c1c2.json",
+            "exists": true
+          }
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/projects/idle-creators/shots/a2c1-van-sabe/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/projects/idle-creators/shots/a2c1-van-sabe/frame-end-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

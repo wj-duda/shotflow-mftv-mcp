@@ -1,0 +1,301 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-17/ze17-ciagle-14-naprawa-swiatla",
+  "id": "ze17-ciagle-14-naprawa-swiatla",
+  "title": "ze17-ciagle-14-naprawa-swiatla",
+  "description": "Naprawa ciągłości 39–42 s. Rzeczywisty film Kling v4. Referencje, pełny payload i pochodzenie: _system/continuity-repair-v003/light/. Dokładnie 72 klatki, bez shiftu; oryginalne pliki zachowane.",
+  "project": {
+    "id": "zlote-emoji-17",
+    "key": "project:zlote-emoji-17",
+    "name": "Złote Emoji #17",
+    "createdAt": "2026-11-08T21:24:33.398Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-17",
+    "projectCreatedAt": "2026-11-08T21:24:33.398Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": false,
+    "canonicalEvent": false,
+    "sequence": null,
+    "lastSequence": null,
+    "occurrences": [],
+    "sequenceTotal": 24,
+    "uniqueShotCount": 24,
+    "sequenceOrder": null,
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This project material is not present on the saved timeline, so it must not override canonical timeline events by date alone."
+  },
+  "references": [
+    {
+      "type": "take",
+      "id": "ze17-ciagle-13-zejscie-do-aniola/take-2"
+    },
+    {
+      "type": "take",
+      "id": "ze17-ciagle-15-aniol-od-tylu/take-2"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "take:ze17-ciagle-13-zejscie-do-aniola/take-2",
+        "key": "take:zlote-emoji-17/ze17-ciagle-13-zejscie-do-aniola/take-2",
+        "type": "take",
+        "id": "ze17-ciagle-13-zejscie-do-aniola/take-2",
+        "name": "ZE17 13 — zejscie do aniola / take-2",
+        "relationship": "visible-state-from-take",
+        "shotKey": "shot:zlote-emoji-17/ze17-ciagle-13-zejscie-do-aniola",
+        "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-13-zejscie-do-aniola.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "take:ze17-ciagle-15-aniol-od-tylu/take-2",
+        "key": "take:zlote-emoji-17/ze17-ciagle-15-aniol-od-tylu/take-2",
+        "type": "take",
+        "id": "ze17-ciagle-15-aniol-od-tylu/take-2",
+        "name": "ZE17 15 — aniol od tylu / take-2",
+        "relationship": "visible-state-from-take",
+        "shotKey": "shot:zlote-emoji-17/ze17-ciagle-15-aniol-od-tylu",
+        "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-15-aniol-od-tylu.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "take:ze17-ciagle-13-zejscie-do-aniola/take-2",
+          "take:ze17-ciagle-15-aniol-od-tylu/take-2"
+        ],
+        "references": [
+          {
+            "sourceKey": "take:ze17-ciagle-13-zejscie-do-aniola/take-2",
+            "key": "take:zlote-emoji-17/ze17-ciagle-13-zejscie-do-aniola/take-2",
+            "type": "take",
+            "id": "ze17-ciagle-13-zejscie-do-aniola/take-2",
+            "name": "ZE17 13 — zejscie do aniola / take-2",
+            "relationship": "visible-state-from-take",
+            "shotKey": "shot:zlote-emoji-17/ze17-ciagle-13-zejscie-do-aniola",
+            "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-13-zejscie-do-aniola.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "take:ze17-ciagle-15-aniol-od-tylu/take-2",
+            "key": "take:zlote-emoji-17/ze17-ciagle-15-aniol-od-tylu/take-2",
+            "type": "take",
+            "id": "ze17-ciagle-15-aniol-od-tylu/take-2",
+            "name": "ZE17 15 — aniol od tylu / take-2",
+            "relationship": "visible-state-from-take",
+            "shotKey": "shot:zlote-emoji-17/ze17-ciagle-15-aniol-od-tylu",
+            "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-15-aniol-od-tylu.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      },
+      {
+        "frameId": "frame-end",
+        "revision": 1,
+        "referenceKeys": [
+          "take:ze17-ciagle-13-zejscie-do-aniola/take-2",
+          "take:ze17-ciagle-15-aniol-od-tylu/take-2"
+        ],
+        "references": [
+          {
+            "sourceKey": "take:ze17-ciagle-13-zejscie-do-aniola/take-2",
+            "key": "take:zlote-emoji-17/ze17-ciagle-13-zejscie-do-aniola/take-2",
+            "type": "take",
+            "id": "ze17-ciagle-13-zejscie-do-aniola/take-2",
+            "name": "ZE17 13 — zejscie do aniola / take-2",
+            "relationship": "visible-state-from-take",
+            "shotKey": "shot:zlote-emoji-17/ze17-ciagle-13-zejscie-do-aniola",
+            "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-13-zejscie-do-aniola.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "take:ze17-ciagle-15-aniol-od-tylu/take-2",
+            "key": "take:zlote-emoji-17/ze17-ciagle-15-aniol-od-tylu/take-2",
+            "type": "take",
+            "id": "ze17-ciagle-15-aniol-od-tylu/take-2",
+            "name": "ZE17 15 — aniol od tylu / take-2",
+            "relationship": "visible-state-from-take",
+            "shotKey": "shot:zlote-emoji-17/ze17-ciagle-15-aniol-od-tylu",
+            "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-15-aniol-od-tylu.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Decoded first frame of the real imported, boundary-matched video; not a new image generation.",
+    "endFrameDescription": "",
+    "animation": "One continuous three-second gentle camera push down the last steps toward the stationary man, from the exact Start Frame to the exact End Frame. @Video1 is PRECEDING footage for incoming movement and the existing man's identity; continue after its ending, never replay it. The man keeps both feet planted, arms down and gaze to screen left. The camera approaches and lowers smoothly; walls and the central pilaster move only through perspective. Preserve the same fixed practical lamps. Warm light remains on the left and cool entrance fill on the right, with a smooth natural exposure transition into the exact End Frame. Reflections remain anchored to the floor, no brightness step. Preserve hair, coat, anatomy and natural stone texture. No feather, new people, cuts, dissolves, morphing or sudden zoom. AUDIO: NO MUSIC; quiet station ambience only."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "video-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "imported",
+      "referenceKeys": [
+        "take:ze17-ciagle-13-zejscie-do-aniola/take-2",
+        "take:ze17-ciagle-15-aniol-od-tylu/take-2"
+      ],
+      "references": [
+        {
+          "sourceKey": "take:ze17-ciagle-13-zejscie-do-aniola/take-2",
+          "key": "take:zlote-emoji-17/ze17-ciagle-13-zejscie-do-aniola/take-2",
+          "type": "take",
+          "id": "ze17-ciagle-13-zejscie-do-aniola/take-2",
+          "name": "ZE17 13 — zejscie do aniola / take-2",
+          "relationship": "visible-state-from-take",
+          "shotKey": "shot:zlote-emoji-17/ze17-ciagle-13-zejscie-do-aniola",
+          "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-13-zejscie-do-aniola.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "take:ze17-ciagle-15-aniol-od-tylu/take-2",
+          "key": "take:zlote-emoji-17/ze17-ciagle-15-aniol-od-tylu/take-2",
+          "type": "take",
+          "id": "ze17-ciagle-15-aniol-od-tylu/take-2",
+          "name": "ZE17 15 — aniol od tylu / take-2",
+          "relationship": "visible-state-from-take",
+          "shotKey": "shot:zlote-emoji-17/ze17-ciagle-15-aniol-od-tylu",
+          "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-15-aniol-od-tylu.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-09T14:55:02.494922+00:00",
+          "source": "imported",
+          "referenceKeys": [
+            "take:ze17-ciagle-13-zejscie-do-aniola/take-2",
+            "take:ze17-ciagle-15-aniol-od-tylu/take-2"
+          ],
+          "references": [
+            {
+              "sourceKey": "take:ze17-ciagle-13-zejscie-do-aniola/take-2",
+              "key": "take:zlote-emoji-17/ze17-ciagle-13-zejscie-do-aniola/take-2",
+              "type": "take",
+              "id": "ze17-ciagle-13-zejscie-do-aniola/take-2",
+              "name": "ZE17 13 — zejscie do aniola / take-2",
+              "relationship": "visible-state-from-take",
+              "shotKey": "shot:zlote-emoji-17/ze17-ciagle-13-zejscie-do-aniola",
+              "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-13-zejscie-do-aniola.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "take:ze17-ciagle-15-aniol-od-tylu/take-2",
+              "key": "take:zlote-emoji-17/ze17-ciagle-15-aniol-od-tylu/take-2",
+              "type": "take",
+              "id": "ze17-ciagle-15-aniol-od-tylu/take-2",
+              "name": "ZE17 15 — aniol od tylu / take-2",
+              "relationship": "visible-state-from-take",
+              "shotKey": "shot:zlote-emoji-17/ze17-ciagle-15-aniol-od-tylu",
+              "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-15-aniol-od-tylu.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-ciagle-14-naprawa-swiatla/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-ciagle-14-naprawa-swiatla/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "role": "frame-end",
+      "revision": 1,
+      "source": "imported",
+      "referenceKeys": [
+        "take:ze17-ciagle-13-zejscie-do-aniola/take-2",
+        "take:ze17-ciagle-15-aniol-od-tylu/take-2"
+      ],
+      "references": [
+        {
+          "sourceKey": "take:ze17-ciagle-13-zejscie-do-aniola/take-2",
+          "key": "take:zlote-emoji-17/ze17-ciagle-13-zejscie-do-aniola/take-2",
+          "type": "take",
+          "id": "ze17-ciagle-13-zejscie-do-aniola/take-2",
+          "name": "ZE17 13 — zejscie do aniola / take-2",
+          "relationship": "visible-state-from-take",
+          "shotKey": "shot:zlote-emoji-17/ze17-ciagle-13-zejscie-do-aniola",
+          "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-13-zejscie-do-aniola.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "take:ze17-ciagle-15-aniol-od-tylu/take-2",
+          "key": "take:zlote-emoji-17/ze17-ciagle-15-aniol-od-tylu/take-2",
+          "type": "take",
+          "id": "ze17-ciagle-15-aniol-od-tylu/take-2",
+          "name": "ZE17 15 — aniol od tylu / take-2",
+          "relationship": "visible-state-from-take",
+          "shotKey": "shot:zlote-emoji-17/ze17-ciagle-15-aniol-od-tylu",
+          "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-15-aniol-od-tylu.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-09T14:55:02.494922+00:00",
+          "source": "imported",
+          "referenceKeys": [
+            "take:ze17-ciagle-13-zejscie-do-aniola/take-2",
+            "take:ze17-ciagle-15-aniol-od-tylu/take-2"
+          ],
+          "references": [
+            {
+              "sourceKey": "take:ze17-ciagle-13-zejscie-do-aniola/take-2",
+              "key": "take:zlote-emoji-17/ze17-ciagle-13-zejscie-do-aniola/take-2",
+              "type": "take",
+              "id": "ze17-ciagle-13-zejscie-do-aniola/take-2",
+              "name": "ZE17 13 — zejscie do aniola / take-2",
+              "relationship": "visible-state-from-take",
+              "shotKey": "shot:zlote-emoji-17/ze17-ciagle-13-zejscie-do-aniola",
+              "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-13-zejscie-do-aniola.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "take:ze17-ciagle-15-aniol-od-tylu/take-2",
+              "key": "take:zlote-emoji-17/ze17-ciagle-15-aniol-od-tylu/take-2",
+              "type": "take",
+              "id": "ze17-ciagle-15-aniol-od-tylu/take-2",
+              "name": "ZE17 15 — aniol od tylu / take-2",
+              "relationship": "visible-state-from-take",
+              "shotKey": "shot:zlote-emoji-17/ze17-ciagle-15-aniol-od-tylu",
+              "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-15-aniol-od-tylu.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-ciagle-14-naprawa-swiatla/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-ciagle-14-naprawa-swiatla/frame-end-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

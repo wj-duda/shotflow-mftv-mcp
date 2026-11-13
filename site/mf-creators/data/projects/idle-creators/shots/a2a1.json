@@ -1,0 +1,263 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:08:29.779Z",
+  "worldId": "mf-creators",
+  "kind": "shot",
+  "key": "shot:idle-creators/a2a1",
+  "id": "a2a1",
+  "title": "A2 do A1 - powrot idle",
+  "description": "Powrót idle A2→A1, 72 klatki / 3 s. Dokładne kopie klatek granicznych a1a2 w odwrotnej kolejności. Nieruchoma kamera, telewizor i scenografia; delikatny oddech i mruganie sześciu postaci.",
+  "project": {
+    "id": "idle-creators",
+    "key": "project:idle-creators",
+    "name": "IdleCreators",
+    "createdAt": "2026-10-05T20:23:26.754Z"
+  },
+  "chronology": {
+    "projectKey": "project:idle-creators",
+    "projectCreatedAt": "2026-10-05T20:23:26.754Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 2,
+    "lastSequence": 2,
+    "occurrences": [
+      2
+    ],
+    "sequenceTotal": 2,
+    "uniqueShotCount": 2,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "a1a2"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:a1a2",
+        "key": "shot:idle-creators/a1a2",
+        "type": "shot",
+        "id": "a1a2",
+        "name": "a1a2",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/a1a2.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:a1a2"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:a1a2",
+            "key": "shot:idle-creators/a1a2",
+            "type": "shot",
+            "id": "a1a2",
+            "name": "a1a2",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/a1a2.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": {
+          "sourceKey": "shot:a1a2",
+          "key": "shot:idle-creators/a1a2",
+          "type": "shot",
+          "id": "a1a2",
+          "name": "a1a2",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/a1a2.json",
+          "exists": true
+        }
+      },
+      {
+        "frameId": "frame-end",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:a1a2"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:a1a2",
+            "key": "shot:idle-creators/a1a2",
+            "type": "shot",
+            "id": "a1a2",
+            "name": "a1a2",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/a1a2.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": {
+          "sourceKey": "shot:a1a2",
+          "key": "shot:idle-creators/a1a2",
+          "type": "shot",
+          "id": "a1a2",
+          "name": "a1a2",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/a1a2.json",
+          "exists": true
+        }
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Exact copy of a1a2 End Frame revision 2; no new image generation.",
+    "endFrameDescription": "Powrót do identycznej klatki A1.",
+    "animation": "0.0–3.0s: the tattooed man at far left slowly raises his chin a few degrees and eases his shoulders back. The purple-braided woman beside him gently straightens her head and relaxes her faint smile. Both settle gently into the supplied End Frame by 3.0s. Camera: absolutely locked tripod, zero pan, tilt, zoom, shake or reframing. Secondary: all six seated viewers breathe gently with tiny asynchronous chest movement; occasional natural blinks away from boundaries. Hands and feet remain planted, mouths closed, gaze toward TV. Continuity: freeze television screen, bezel and all four corners at their exact image coordinates throughout; blank screen, unchanged furniture, room, lighting, identities and clothes. Motion is confined to people. Avoid screen wobble, camera drift, background flicker, gestures, cuts, fades or morphing."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "reference",
+      "referenceKeys": [
+        "shot:a1a2"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:a1a2",
+          "key": "shot:idle-creators/a1a2",
+          "type": "shot",
+          "id": "a1a2",
+          "name": "a1a2",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/a1a2.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": {
+        "sourceKey": "shot:a1a2",
+        "key": "shot:idle-creators/a1a2",
+        "type": "shot",
+        "id": "a1a2",
+        "name": "a1a2",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/a1a2.json",
+        "exists": true
+      },
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-05T20:29:46.671+00:00",
+          "source": "reference",
+          "referenceKeys": [
+            "shot:a1a2"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:a1a2",
+              "key": "shot:idle-creators/a1a2",
+              "type": "shot",
+              "id": "a1a2",
+              "name": "a1a2",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/a1a2.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": {
+            "sourceKey": "shot:a1a2",
+            "key": "shot:idle-creators/a1a2",
+            "type": "shot",
+            "id": "a1a2",
+            "name": "a1a2",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/a1a2.json",
+            "exists": true
+          }
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/projects/idle-creators/shots/a2a1/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/projects/idle-creators/shots/a2a1/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "role": "frame-end",
+      "revision": 1,
+      "source": "reference",
+      "referenceKeys": [
+        "shot:a1a2"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:a1a2",
+          "key": "shot:idle-creators/a1a2",
+          "type": "shot",
+          "id": "a1a2",
+          "name": "a1a2",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/a1a2.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": {
+        "sourceKey": "shot:a1a2",
+        "key": "shot:idle-creators/a1a2",
+        "type": "shot",
+        "id": "a1a2",
+        "name": "a1a2",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/a1a2.json",
+        "exists": true
+      },
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-05T20:29:46.671+00:00",
+          "source": "reference",
+          "referenceKeys": [
+            "shot:a1a2"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:a1a2",
+              "key": "shot:idle-creators/a1a2",
+              "type": "shot",
+              "id": "a1a2",
+              "name": "a1a2",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/a1a2.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": {
+            "sourceKey": "shot:a1a2",
+            "key": "shot:idle-creators/a1a2",
+            "type": "shot",
+            "id": "a1a2",
+            "name": "a1a2",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/a1a2.json",
+            "exists": true
+          }
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/projects/idle-creators/shots/a2a1/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/projects/idle-creators/shots/a2a1/frame-end-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

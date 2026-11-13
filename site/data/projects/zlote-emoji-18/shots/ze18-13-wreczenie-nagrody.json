@@ -1,0 +1,280 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-18/ze18-13-wreczenie-nagrody",
+  "id": "ze18-13-wreczenie-nagrody",
+  "title": "III — Współczesność, barak DK",
+  "description": "Plan średni dwojga, 50 mm. Współczesny Czesław po lewej za biurkiem, Van po prawej po stronie gościa. Jasne metalowe ściany, okno lewe, drzwi prawe: istniejący lokal zastępczy DK, remont trwa. Start: Czesław trzyma Złote Emoji na wysokości blatu; ręce Vana osobno gotowe do przyjęcia. Akcja: przekazanie statuetki. Kontekst szlema i Niña Mala w późniejszej warstwie dźwięku/napisie montażowym, nie na wymyślonym grawerze. Bez Dzięki tato i bez zdjęć.\nTAKE — AUDYT: widoczne 72 klatek (3.000 s) przy 24 fps; zakres źródła 0.000–3.000 s; generacja 3 s. Natywne audio wyłączone w planie; montaż pozostaje bez zmian.",
+  "project": {
+    "id": "zlote-emoji-18",
+    "key": "project:zlote-emoji-18",
+    "name": "Złote Emoji #18",
+    "createdAt": "2026-11-09T15:18:48.889Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-18",
+    "projectCreatedAt": "2026-11-09T15:18:48.889Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 17,
+    "lastSequence": 17,
+    "occurrences": [
+      17
+    ],
+    "sequenceTotal": 18,
+    "uniqueShotCount": 18,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "czeslaw"
+    },
+    {
+      "type": "character",
+      "id": "van-sabe"
+    },
+    {
+      "type": "place",
+      "id": "lokal-zastepczy-domu-kultury"
+    },
+    {
+      "type": "prop",
+      "id": "nagroda-zlote-emoji"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:czeslaw",
+        "key": "character:czeslaw",
+        "type": "character",
+        "id": "czeslaw",
+        "name": "Czesław",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:van-sabe",
+        "key": "character:van-sabe",
+        "type": "character",
+        "id": "van-sabe",
+        "name": "Van Sabe",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/van-sabe.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:lokal-zastepczy-domu-kultury",
+        "key": "place:lokal-zastepczy-domu-kultury",
+        "type": "place",
+        "id": "lokal-zastepczy-domu-kultury",
+        "name": "Lokal zastępczy Domu Kultury",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lokal-zastepczy-domu-kultury.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:nagroda-zlote-emoji",
+        "key": "prop:nagroda-zlote-emoji",
+        "type": "prop",
+        "id": "nagroda-zlote-emoji",
+        "name": "Złote Emoji",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/nagroda-zlote-emoji.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "character:czeslaw",
+          "character:van-sabe",
+          "place:lokal-zastepczy-domu-kultury",
+          "prop:nagroda-zlote-emoji"
+        ],
+        "references": [
+          {
+            "sourceKey": "character:czeslaw",
+            "key": "character:czeslaw",
+            "type": "character",
+            "id": "czeslaw",
+            "name": "Czesław",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:van-sabe",
+            "key": "character:van-sabe",
+            "type": "character",
+            "id": "van-sabe",
+            "name": "Van Sabe",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/van-sabe.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "place:lokal-zastepczy-domu-kultury",
+            "key": "place:lokal-zastepczy-domu-kultury",
+            "type": "place",
+            "id": "lokal-zastepczy-domu-kultury",
+            "name": "Lokal zastępczy Domu Kultury",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lokal-zastepczy-domu-kultury.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:nagroda-zlote-emoji",
+            "key": "prop:nagroda-zlote-emoji",
+            "type": "prop",
+            "id": "nagroda-zlote-emoji",
+            "name": "Złote Emoji",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/nagroda-zlote-emoji.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "One16:9 photoreal cinematic movie still contemporary2026, restrained classic1980s American dramatic composition and fine35mmgrain. Image1 EXACT Czeslaw66 face glasses curls grey stubble wrinkled dark suit beige shirt loose brown tie; image2 exact Van Sabe40 face; image3 his black suit open black shirt pendant brown crossbody bag strap outfit; image4 exact temporary container cultural-center office layout; image5 exact GOLD emoji award geometry, no black pedestal. Medium two-shot50mm viewed obliquely across desk: Czeslaw LEFT standing behind old wooden desk facing RIGHT, Van taller RIGHT standing guestside facingLEFT. Both faces threequarter readable. Czeslaw holds the small about22cm gold trophy with both hands at waist just above desk, poised to offer it; Van's hands are separately visible near his own waist ready to receive, NOT touching Czeslaw hands yet. Trophy exact circular gold face raised fourpoint star eyes broad smile, curved gold victoryarm cradle. No engraving. Subtle warmth in Czeslaw expression, Van quiet thoughtful, no exaggerated grin. Light metal walls, leftwindow blinds with soft daylight, beigephone LEFTdesk, openbinder center, documents, graycabinet hardhat highvis jacket backright, door right, shelves. Keep geography and modest temporary room, no ruins. Foreground desk corner anchors depth, soft sidewindow lighting shapesfaces, subtle golden glint on award. Exactly two people, natural hands, no extra arms, no captions no text no borders.",
+    "endFrameDescription": "",
+    "animation": "@Image1 identifies the existing older man on screen left; exact face, glasses and age. @Image2 identifies the existing man on screen right; exact identity and black outfit. @Image3 locks only the existing trophy geometry and scale, not the grip. 0.0–0.8s: Czeslaw extends the trophy toward Van on screen right. 0.8–1.8s: Van grasps the outer lower corners, thumbs in front, fingers behind; Czeslaw supports the center underside. 1.8–2.4s: once Van supports its weight, Czeslaw releases and withdraws both hands downward. 2.4–3.0s: Van holds it alone, tilts its face slightly toward himself and looks down. Camera: locked-off. Secondary: small sleeve folds and restrained gold reflections follow the transfer. Continuity: preserve faces, trophy geometry and room; keep the visible medal ordinary gold, without wolf reflections yet. Avoid: no handshake, fused or extra fingers, floating trophy, duplicate award, dialogue, transformation or cuts."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "character:czeslaw",
+        "character:van-sabe",
+        "place:lokal-zastepczy-domu-kultury",
+        "prop:nagroda-zlote-emoji"
+      ],
+      "references": [
+        {
+          "sourceKey": "character:czeslaw",
+          "key": "character:czeslaw",
+          "type": "character",
+          "id": "czeslaw",
+          "name": "Czesław",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:van-sabe",
+          "key": "character:van-sabe",
+          "type": "character",
+          "id": "van-sabe",
+          "name": "Van Sabe",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/van-sabe.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "place:lokal-zastepczy-domu-kultury",
+          "key": "place:lokal-zastepczy-domu-kultury",
+          "type": "place",
+          "id": "lokal-zastepczy-domu-kultury",
+          "name": "Lokal zastępczy Domu Kultury",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lokal-zastepczy-domu-kultury.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:nagroda-zlote-emoji",
+          "key": "prop:nagroda-zlote-emoji",
+          "type": "prop",
+          "id": "nagroda-zlote-emoji",
+          "name": "Złote Emoji",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/nagroda-zlote-emoji.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-09T16:24:53.039281+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:czeslaw",
+            "character:van-sabe",
+            "place:lokal-zastepczy-domu-kultury",
+            "prop:nagroda-zlote-emoji"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:czeslaw",
+              "key": "character:czeslaw",
+              "type": "character",
+              "id": "czeslaw",
+              "name": "Czesław",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:van-sabe",
+              "key": "character:van-sabe",
+              "type": "character",
+              "id": "van-sabe",
+              "name": "Van Sabe",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/van-sabe.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:lokal-zastepczy-domu-kultury",
+              "key": "place:lokal-zastepczy-domu-kultury",
+              "type": "place",
+              "id": "lokal-zastepczy-domu-kultury",
+              "name": "Lokal zastępczy Domu Kultury",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lokal-zastepczy-domu-kultury.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:nagroda-zlote-emoji",
+              "key": "prop:nagroda-zlote-emoji",
+              "type": "prop",
+              "id": "nagroda-zlote-emoji",
+              "name": "Złote Emoji",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/nagroda-zlote-emoji.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-18/shots/ze18-13-wreczenie-nagrody/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-18/shots/ze18-13-wreczenie-nagrody/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

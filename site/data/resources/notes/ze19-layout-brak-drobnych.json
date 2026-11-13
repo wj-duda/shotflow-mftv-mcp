@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "note:ze19-layout-brak-drobnych",
+  "type": "notes",
+  "id": "ze19-layout-brak-drobnych",
+  "name": "ZE19 — geometria: Nie mamy już na grę",
+  "description": "Pomocnicze referencje tego ujęcia. Pierwszy obraz to render roboczy, drugi to niskorozdzielczy guide z rzutowanymi liniami perspektywy. Zachować kamerę, skalę i układ przestrzeni; zastąpić surowy wygląd modelu naturalnymi materiałami i światłem. Bryły to wyłącznie miejsca postaci, nigdy finalny wygląd. Nie przenosić linii, siatki ani opisów do wyniku. Two boys have stepped back from the cabinet. Reverse medium close two-shot: Dariusz on screen left, Owczar on screen right. Owczar checks an empty pocket; Dariusz looks at him with rueful amusement. No coins held up.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/ze19-layout-brak-drobnych/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/ze19-layout-brak-drobnych/image-001-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-002",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/ze19-layout-brak-drobnych/image-002.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/ze19-layout-brak-drobnych/image-002-thumb.webp",
+      "width": 768,
+      "height": 432,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-11-10T23:01:29.837721+00:00"
+}

@@ -1,0 +1,247 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-18/ze18-08-zapalenie-papierosa",
+  "id": "ze18-08-zapalenie-papierosa",
+  "title": "II — Spokój przed odkryciem",
+  "description": "Półzbliżenie siedzącego Czesława, 70 mm, jego twarz po lewej, wolna przestrzeń na spojrzenie w prawo. Papieros między ustami, metalowa zapalniczka w jednej dłoni poniżej twarzy. Start: jeszcze niezapalony papieros. Akcja: zapala, opuszcza rękę, zaczyna odwracać głowę w prawo. Płomień zapalniczki, a potem żar są lokalnymi ciepłymi akcentami.\nKOSTIUM PO ELIPSIE: Czesław nadal bez koszuli i marynarki, w grafitowych spodniach, z tym samym zegarkiem i łańcuszkiem. Zapalniczka i chwilowy płomień przy zapalaniu, następnie żar papierosa; ręka opuszcza się przed odwróceniem głowy.\nTAKE — AUDYT: widoczne 72 klatek (3.000 s) przy 24 fps; zakres źródła 0.000–3.000 s; generacja 3 s. Natywne audio wyłączone w planie; montaż pozostaje bez zmian.",
+  "project": {
+    "id": "zlote-emoji-18",
+    "key": "project:zlote-emoji-18",
+    "name": "Złote Emoji #18",
+    "createdAt": "2026-11-09T15:18:48.889Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-18",
+    "projectCreatedAt": "2026-11-09T15:18:48.889Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 10,
+    "lastSequence": 10,
+    "occurrences": [
+      10
+    ],
+    "sequenceTotal": 18,
+    "uniqueShotCount": 18,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "czeslaw-mlody"
+    },
+    {
+      "type": "place",
+      "id": "lasy-kozlowieckie-polana-1985"
+    },
+    {
+      "type": "prop",
+      "id": "papieros-i-zapalniczka-czeslawa-1985"
+    },
+    {
+      "type": "shot",
+      "id": "ze18-07-przebudzenie"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:czeslaw-mlody",
+        "key": "character:czeslaw-mlody",
+        "type": "character",
+        "id": "czeslaw-mlody",
+        "name": "Czesław — 1985",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw-mlody.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:lasy-kozlowieckie-polana-1985",
+        "key": "place:lasy-kozlowieckie-polana-1985",
+        "type": "place",
+        "id": "lasy-kozlowieckie-polana-1985",
+        "name": "Lasy Kozłowieckie — droga i polana, 1985",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lasy-kozlowieckie-polana-1985.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:papieros-i-zapalniczka-czeslawa-1985",
+        "key": "prop:papieros-i-zapalniczka-czeslawa-1985",
+        "type": "prop",
+        "id": "papieros-i-zapalniczka-czeslawa-1985",
+        "name": "Papieros i zapalniczka Czesława — 1985",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/papieros-i-zapalniczka-czeslawa-1985.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze18-07-przebudzenie",
+        "key": "shot:zlote-emoji-18/ze18-07-przebudzenie",
+        "type": "shot",
+        "id": "ze18-07-przebudzenie",
+        "name": "II — Czesław budzi się",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-07-przebudzenie.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:ze18-07-przebudzenie",
+          "character:czeslaw-mlody",
+          "prop:papieros-i-zapalniczka-czeslawa-1985"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze18-07-przebudzenie",
+            "key": "shot:zlote-emoji-18/ze18-07-przebudzenie",
+            "type": "shot",
+            "id": "ze18-07-przebudzenie",
+            "name": "II — Czesław budzi się",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-07-przebudzenie.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:czeslaw-mlody",
+            "key": "character:czeslaw-mlody",
+            "type": "character",
+            "id": "czeslaw-mlody",
+            "name": "Czesław — 1985",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw-mlody.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:papieros-i-zapalniczka-czeslawa-1985",
+            "key": "prop:papieros-i-zapalniczka-czeslawa-1985",
+            "type": "prop",
+            "id": "papieros-i-zapalniczka-czeslawa-1985",
+            "name": "Papieros i zapalniczka Czesława — 1985",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/papieros-i-zapalniczka-czeslawa-1985.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Single 16:9 photoreal cinematic still. Reference1 exact barechested Czeslaw on blanket at night, reference2 facial identity only NOT shirt, reference3 exact cigarette and steel fliptop petrol lighter. Next shot he sits upright on blanket, bare chest, charcoal trousers on, thin silver chain simple watch, curly hair long nose heavy brows age25. Medium close70mm with face at LEFT third and dark forest look-room RIGHT. Calm sleepy content expression, looking slightly down at lighter. One unlit white cigarette tanfilter held naturally between lips, pointing toward right. His RIGHT hand holds small open steel lighter BELOW his chin at chest level preparing to raise it. No flame yet, no smoke yet. Only one hand visible and five natural fingers, lighter physically held not floating. Other hand below crop. 1985 moonlit Polish oak pine clearing softly out of focus, silver hair rim, soft face lighting with deep shadows, restrained colors, analog35mm grain. Classic American1980s suspense framing before unexpected discovery. No clothes on torso, no woman or wolf in frame, no other people, no text, no border.",
+    "endFrameDescription": "",
+    "animation": "@Image1 identifies the existing Czeslaw, face and hair only; keep his torso bare and trousers on. @Image2 identifies the existing single cigarette and open petrol lighter; preserve their scale. 0.0–0.6s: Czeslaw raises the open lighter beneath the cigarette tip and flicks its wheel once. 0.6–1.3s: the wick flame lights the cigarette. 1.3–2.1s: he draws the lighter away, closes its lid to extinguish the flame and lowers it. 2.1–3.0s: he turns his eyes toward screen right, keeping the cigarette between his lips. Camera: locked-off. Secondary: warm flame light briefly touches his lower face; a thin smoke thread rises only from the lit cigarette tip. Continuity: preserve face, bare chest, one cigarette and natural grip. Avoid: no floating flame, extra fingers, duplicated lighter, fire elsewhere, morphing or cuts."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze18-07-przebudzenie",
+        "character:czeslaw-mlody",
+        "prop:papieros-i-zapalniczka-czeslawa-1985"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze18-07-przebudzenie",
+          "key": "shot:zlote-emoji-18/ze18-07-przebudzenie",
+          "type": "shot",
+          "id": "ze18-07-przebudzenie",
+          "name": "II — Czesław budzi się",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-07-przebudzenie.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:czeslaw-mlody",
+          "key": "character:czeslaw-mlody",
+          "type": "character",
+          "id": "czeslaw-mlody",
+          "name": "Czesław — 1985",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw-mlody.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:papieros-i-zapalniczka-czeslawa-1985",
+          "key": "prop:papieros-i-zapalniczka-czeslawa-1985",
+          "type": "prop",
+          "id": "papieros-i-zapalniczka-czeslawa-1985",
+          "name": "Papieros i zapalniczka Czesława — 1985",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/papieros-i-zapalniczka-czeslawa-1985.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-09T16:17:19.138812+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze18-07-przebudzenie",
+            "character:czeslaw-mlody",
+            "prop:papieros-i-zapalniczka-czeslawa-1985"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze18-07-przebudzenie",
+              "key": "shot:zlote-emoji-18/ze18-07-przebudzenie",
+              "type": "shot",
+              "id": "ze18-07-przebudzenie",
+              "name": "II — Czesław budzi się",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-07-przebudzenie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:czeslaw-mlody",
+              "key": "character:czeslaw-mlody",
+              "type": "character",
+              "id": "czeslaw-mlody",
+              "name": "Czesław — 1985",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw-mlody.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:papieros-i-zapalniczka-czeslawa-1985",
+              "key": "prop:papieros-i-zapalniczka-czeslawa-1985",
+              "type": "prop",
+              "id": "papieros-i-zapalniczka-czeslawa-1985",
+              "name": "Papieros i zapalniczka Czesława — 1985",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/papieros-i-zapalniczka-czeslawa-1985.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-18/shots/ze18-08-zapalenie-papierosa/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-18/shots/ze18-08-zapalenie-papierosa/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

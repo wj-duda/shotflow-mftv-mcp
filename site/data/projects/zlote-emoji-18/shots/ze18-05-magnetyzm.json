@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-18/ze18-05-magnetyzm",
+  "id": "ze18-05-magnetyzm",
+  "title": "II — Przyciąganie i pocałunek",
+  "description": "Jedno ciągłe ujęcie przyciągania Czesława i Olivii: od Start Frame 05 do zbliżenia przed pocałunkiem z dawnego shota 06. Usta pozostają lekko rozdzielone. Połączony zakres montażu: 524–602, 79 klatek przy 24 fps; źródłowy shot 06 zachowany.\nTAKE — AUDYT: widoczne 79 klatek (3.292 s) przy 24 fps; zakres źródła 0.000–3.292 s; generacja 4 s. Natywne audio wyłączone w planie; montaż pozostaje bez zmian.",
+  "project": {
+    "id": "zlote-emoji-18",
+    "key": "project:zlote-emoji-18",
+    "name": "Złote Emoji #18",
+    "createdAt": "2026-11-09T15:18:48.889Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-18",
+    "projectCreatedAt": "2026-11-09T15:18:48.889Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 8,
+    "lastSequence": 8,
+    "occurrences": [
+      8
+    ],
+    "sequenceTotal": 18,
+    "uniqueShotCount": 18,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "czeslaw-mlody"
+    },
+    {
+      "type": "character",
+      "id": "olivia-dela-ossa"
+    },
+    {
+      "type": "place",
+      "id": "lasy-kozlowieckie-polana-1985"
+    },
+    {
+      "type": "shot",
+      "id": "ze18-04-wejscie-na-polane"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:czeslaw-mlody",
+        "key": "character:czeslaw-mlody",
+        "type": "character",
+        "id": "czeslaw-mlody",
+        "name": "Czesław — 1985",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw-mlody.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:olivia-dela-ossa",
+        "key": "character:olivia-dela-ossa",
+        "type": "character",
+        "id": "olivia-dela-ossa",
+        "name": "Olivia Dela Ossa",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/olivia-dela-ossa.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:lasy-kozlowieckie-polana-1985",
+        "key": "place:lasy-kozlowieckie-polana-1985",
+        "type": "place",
+        "id": "lasy-kozlowieckie-polana-1985",
+        "name": "Lasy Kozłowieckie — droga i polana, 1985",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lasy-kozlowieckie-polana-1985.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze18-04-wejscie-na-polane",
+        "key": "shot:zlote-emoji-18/ze18-04-wejscie-na-polane",
+        "type": "shot",
+        "id": "ze18-04-wejscie-na-polane",
+        "name": "II — Polana w pełni",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-04-wejscie-na-polane.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:ze18-04-wejscie-na-polane",
+          "character:czeslaw-mlody",
+          "character:olivia-dela-ossa"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze18-04-wejscie-na-polane",
+            "key": "shot:zlote-emoji-18/ze18-04-wejscie-na-polane",
+            "type": "shot",
+            "id": "ze18-04-wejscie-na-polane",
+            "name": "II — Polana w pełni",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-04-wejscie-na-polane.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:czeslaw-mlody",
+            "key": "character:czeslaw-mlody",
+            "type": "character",
+            "id": "czeslaw-mlody",
+            "name": "Czesław — 1985",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw-mlody.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:olivia-dela-ossa",
+            "key": "character:olivia-dela-ossa",
+            "type": "character",
+            "id": "olivia-dela-ossa",
+            "name": "Olivia Dela Ossa",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/olivia-dela-ossa.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      },
+      {
+        "frameId": "frame-end",
+        "revision": 1,
+        "referenceKeys": [],
+        "references": [],
+        "sourceReference": {
+          "sourceKey": "shot:ze18-06-pocalunek",
+          "key": "shot:zlote-emoji-18/ze18-06-pocalunek",
+          "type": "shot",
+          "id": "ze18-06-pocalunek",
+          "name": "II — Pocałunek i elipsa",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-06-pocalunek.json",
+          "exists": true
+        }
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "One 16:9 photorealistic cinematic film still, 1985 American 35mm romantic suspense cinematography in Polish woodland. Reference1 scene continuity exact pair and moonlit forest; reference2 Czeslaw identity; reference3 Olivia identity and exact red draped blouse. New shot: intimate medium close two-shot profiles from upper chest upward, 50mm lens. Man LEFT faces RIGHT, woman RIGHT faces LEFT. Faces separated by about 25cm dark negative space, intense gentle mutual eye contact, subtle attraction, no kiss yet. Olivia176cm eyes slightly ABOVE Czeslaw171cm eyes, natural posture. Exact young curly-haired long-nosed Czeslaw25 plum blazer and cream tiny patterned shirt, thin silver chain. Olivia28 long black waves silver earrings red asymmetric blouse, fully clothed. Moonlight strong silver edge on hair, sculpted soft readable skin, deep dark green forest bokeh, a blurred near leaf frames lower corner. Classic dramatic restrained night photography, fine analog grain, not fashion advertising. Keep human anatomy natural, no hands in crop, no glow or fantasy effects, no extra people, no text, no borders. Blanket on ground OUTSIDE crop, car outside crop.",
+    "endFrameDescription": "Dokładny kadr 06: ciaśniejsze zbliżenie, oczy przymknięte, Olivia pochylona ku Czesławowi, usta kilka centymetrów od siebie.",
+    "animation": "@Element1 identifies Czeslaw already on screen left; preserve face, hair and current clothes. @Image1 identifies Olivia already present; face and hair only, never the reference shirt or vest. 0.0–3.1s: both lean gently toward each other in one continuous movement, Olivia angling her chin slightly down and Czeslaw slightly up. Their eyelids gradually close as their faces approach without touching. Camera: one smooth slow push-in, reaching the supplied End Frame composition by 3.1s. 3.1–4.0s: settle in that exact near-kiss pose. Secondary: subtle breathing and hair settling. Continuity: preserve both faces, screen positions, red blouse, plum jacket, jewelry and moonlight. Avoid: no lip contact, fused noses, facial morphing, hands entering, new people, cut, fade or dissolve."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze18-04-wejscie-na-polane",
+        "character:czeslaw-mlody",
+        "character:olivia-dela-ossa"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze18-04-wejscie-na-polane",
+          "key": "shot:zlote-emoji-18/ze18-04-wejscie-na-polane",
+          "type": "shot",
+          "id": "ze18-04-wejscie-na-polane",
+          "name": "II — Polana w pełni",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-04-wejscie-na-polane.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:czeslaw-mlody",
+          "key": "character:czeslaw-mlody",
+          "type": "character",
+          "id": "czeslaw-mlody",
+          "name": "Czesław — 1985",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw-mlody.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:olivia-dela-ossa",
+          "key": "character:olivia-dela-ossa",
+          "type": "character",
+          "id": "olivia-dela-ossa",
+          "name": "Olivia Dela Ossa",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/olivia-dela-ossa.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-09T16:12:30.673618+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze18-04-wejscie-na-polane",
+            "character:czeslaw-mlody",
+            "character:olivia-dela-ossa"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze18-04-wejscie-na-polane",
+              "key": "shot:zlote-emoji-18/ze18-04-wejscie-na-polane",
+              "type": "shot",
+              "id": "ze18-04-wejscie-na-polane",
+              "name": "II — Polana w pełni",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-04-wejscie-na-polane.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:czeslaw-mlody",
+              "key": "character:czeslaw-mlody",
+              "type": "character",
+              "id": "czeslaw-mlody",
+              "name": "Czesław — 1985",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw-mlody.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:olivia-dela-ossa",
+              "key": "character:olivia-dela-ossa",
+              "type": "character",
+              "id": "olivia-dela-ossa",
+              "name": "Olivia Dela Ossa",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/olivia-dela-ossa.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-18/shots/ze18-05-magnetyzm/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-18/shots/ze18-05-magnetyzm/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "role": "frame-end",
+      "revision": 1,
+      "source": "reference",
+      "referenceKeys": [],
+      "references": [],
+      "sourceReference": {
+        "sourceKey": "shot:ze18-06-pocalunek",
+        "key": "shot:zlote-emoji-18/ze18-06-pocalunek",
+        "type": "shot",
+        "id": "ze18-06-pocalunek",
+        "name": "II — Pocałunek i elipsa",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-06-pocalunek.json",
+        "exists": true
+      },
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-11T14:56:44.689882+00:00",
+          "source": "reference",
+          "referenceKeys": [],
+          "references": [],
+          "sourceReference": {
+            "sourceKey": "shot:ze18-06-pocalunek",
+            "key": "shot:zlote-emoji-18/ze18-06-pocalunek",
+            "type": "shot",
+            "id": "ze18-06-pocalunek",
+            "name": "II — Pocałunek i elipsa",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-06-pocalunek.json",
+            "exists": true
+          }
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-18/shots/ze18-05-magnetyzm/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-18/shots/ze18-05-magnetyzm/frame-end-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

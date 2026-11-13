@@ -78,3 +78,19 @@ Publikuj pliki systemu przed wdrożeniem nowych narzędzi MCP. Sama zmiana tego
 repozytorium nie aktualizuje działających funkcji MCP.
 
 Testy offline: `npm test`. Eksport danych jest niezależny od builda grafik.
+# Publikacja 2026-11-13
+
+Eksporter zasobów czyta wyłącznie aktywne sloty
+`characters|places|props|notes|looks/<id>/resource.json`. Nie publikuje kopii
+z `_system`, katalogów projektu ani manifestów zagnieżdżonych w assetach.
+Test regresji: `scripts/resource-manifests.test.mjs`.
+
+Aktualizacja obejmuje XIAID, world walking, DIAXI i ciągłość ZE16–20 oraz
+zasady A-38, dogrywek i prognozy dostaw. Opis nowego planera odzwierciedla
+kod źródłowy; publikacja katalogu nie wdraża panelu ani Functions.
+
+Próba odświeżenia danych bieżących 2026-11-13 została zatrzymana przez limit
+2000 ukończeń eksportera. Zachowano kompletną migawkę z 2026-10-29 wraz z jej
+oryginalnym `generatedAt`. Nie traktować jej jako stanu bieżącego sklepu,
+rankingu ani programu. Odświeżenie wymaga osobnego dostosowania limitów
+adaptera i walidatora; nie wolno po cichu obcinać listy odtworzeń.

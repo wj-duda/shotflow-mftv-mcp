@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "note:ze17-skrzypek-sylwetka",
+  "type": "notes",
+  "id": "ze17-skrzypek-sylwetka",
+  "name": "ZE17 — skrzypek, czysta sylwetka",
+  "description": "Istniejący character:skrzypek. Czysta sylwetka do animacji: stary mężczyzna, kaszkiet, ciemny płaszcz, skrzypce. Kamera i kierunek postaci wynikają z First/Last, nie z tej referencji.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/ze17-skrzypek-sylwetka/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/ze17-skrzypek-sylwetka/image-001-thumb.webp",
+      "width": 1024,
+      "height": 1536,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-11-09T00:22:05.587932+00:00"
+}

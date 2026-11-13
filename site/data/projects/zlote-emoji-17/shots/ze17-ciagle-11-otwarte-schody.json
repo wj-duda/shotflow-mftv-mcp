@@ -1,0 +1,359 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-17/ze17-ciagle-11-otwarte-schody",
+  "id": "ze17-ciagle-11-otwarte-schody",
+  "title": "ze17-ciagle-11-otwarte-schody",
+  "description": "Naprawa ciągłości 30–33 s. Rzeczywisty film Kling v4. Referencje, pełny payload i pochodzenie: _system/continuity-repair-v004/stairs-entry-v2/. Dokładnie 72 klatki, bez shiftu; oryginalne pliki zachowane. Fragment jednego rzeczywistego filmu obejmującego całe zejście 30–42 s. Materiał 3 s zwolniony czterokrotnie do 12 s z interpolacją ruchu, potem fizycznie podzielony na cztery pliki po 72 klatki; bez shiftu. Pochodzenie: stairs-entry-v2; przetwarzanie: descent-continuous.",
+  "project": {
+    "id": "zlote-emoji-17",
+    "key": "project:zlote-emoji-17",
+    "name": "Złote Emoji #17",
+    "createdAt": "2026-11-08T21:24:33.398Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-17",
+    "projectCreatedAt": "2026-11-08T21:24:33.398Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 11,
+    "lastSequence": 11,
+    "occurrences": [
+      11
+    ],
+    "sequenceTotal": 24,
+    "uniqueShotCount": 24,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "take",
+      "id": "ze17-ciagle-09-most-do-torow/take-2"
+    },
+    {
+      "type": "take",
+      "id": "ze17-ciagle-15-aniol-od-tylu/take-2"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "take:ze17-ciagle-09-most-do-torow/take-2",
+        "key": "take:zlote-emoji-17/ze17-ciagle-09-most-do-torow/take-2",
+        "type": "take",
+        "id": "ze17-ciagle-09-most-do-torow/take-2",
+        "name": "ZE17 09 — most do torow / take-2",
+        "relationship": "visible-state-from-take",
+        "shotKey": "shot:zlote-emoji-17/ze17-ciagle-09-most-do-torow",
+        "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-09-most-do-torow.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "take:ze17-ciagle-15-aniol-od-tylu/take-2",
+        "key": "take:zlote-emoji-17/ze17-ciagle-15-aniol-od-tylu/take-2",
+        "type": "take",
+        "id": "ze17-ciagle-15-aniol-od-tylu/take-2",
+        "name": "ZE17 15 — aniol od tylu / take-2",
+        "relationship": "visible-state-from-take",
+        "shotKey": "shot:zlote-emoji-17/ze17-ciagle-15-aniol-od-tylu",
+        "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-15-aniol-od-tylu.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "take:ze17-ciagle-11-otwarte-schody/take-1"
+        ],
+        "references": [
+          {
+            "sourceKey": "take:ze17-ciagle-11-otwarte-schody/take-1",
+            "key": "take:zlote-emoji-17/ze17-ciagle-11-otwarte-schody/take-1",
+            "type": "take",
+            "id": "ze17-ciagle-11-otwarte-schody/take-1",
+            "name": "ze17-ciagle-11-otwarte-schody / take-1",
+            "relationship": "visible-state-from-take",
+            "shotKey": "shot:zlote-emoji-17/ze17-ciagle-11-otwarte-schody",
+            "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-11-otwarte-schody.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": {
+          "sourceKey": "take:ze17-ciagle-11-otwarte-schody/take-1",
+          "key": "take:zlote-emoji-17/ze17-ciagle-11-otwarte-schody/take-1",
+          "type": "take",
+          "id": "ze17-ciagle-11-otwarte-schody/take-1",
+          "name": "ze17-ciagle-11-otwarte-schody / take-1",
+          "relationship": "visible-state-from-take",
+          "shotKey": "shot:zlote-emoji-17/ze17-ciagle-11-otwarte-schody",
+          "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-11-otwarte-schody.json",
+          "exists": true
+        }
+      },
+      {
+        "frameId": "frame-end",
+        "revision": 2,
+        "referenceKeys": [
+          "take:ze17-ciagle-11-otwarte-schody/take-1"
+        ],
+        "references": [
+          {
+            "sourceKey": "take:ze17-ciagle-11-otwarte-schody/take-1",
+            "key": "take:zlote-emoji-17/ze17-ciagle-11-otwarte-schody/take-1",
+            "type": "take",
+            "id": "ze17-ciagle-11-otwarte-schody/take-1",
+            "name": "ze17-ciagle-11-otwarte-schody / take-1",
+            "relationship": "visible-state-from-take",
+            "shotKey": "shot:zlote-emoji-17/ze17-ciagle-11-otwarte-schody",
+            "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-11-otwarte-schody.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": {
+          "sourceKey": "take:ze17-ciagle-11-otwarte-schody/take-1",
+          "key": "take:zlote-emoji-17/ze17-ciagle-11-otwarte-schody/take-1",
+          "type": "take",
+          "id": "ze17-ciagle-11-otwarte-schody/take-1",
+          "name": "ze17-ciagle-11-otwarte-schody / take-1",
+          "relationship": "visible-state-from-take",
+          "shotKey": "shot:zlote-emoji-17/ze17-ciagle-11-otwarte-schody",
+          "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-11-otwarte-schody.json",
+          "exists": true
+        }
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Exact decoded first visible frame of existing take-1, preserved for continuity.",
+    "endFrameDescription": "Zachowana ostatnia widoczna klatka take-1.",
+    "animation": "0-3s: Camera is already gliding forward and downward into the open staircase from the first frame, traveling at uniform speed all the way to the exact End Frame; no hold or acceleration at the end. Near parapet edges and stair treads move past the camera faster than the distant landing: genuine three-dimensional parallax, not a digital zoom or image warp. The stairs, rails, overhead lintel and rear pilaster are solid stationary architecture; never rise, bend, slide or change shape. The same man remains in his original position on the landing with natural breathing, coat settling slightly, no steps. @Image1 defines the same landing, fixed rear wall and handrail geometry from the adjacent camera position; do not change viewpoint to match it early. Preserve warm-left/cool-right lighting and exposure. No new people, moving shadows, melting steps, time freeze, fade or cut."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "video-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 2,
+      "source": "imported",
+      "referenceKeys": [
+        "take:ze17-ciagle-11-otwarte-schody/take-1"
+      ],
+      "references": [
+        {
+          "sourceKey": "take:ze17-ciagle-11-otwarte-schody/take-1",
+          "key": "take:zlote-emoji-17/ze17-ciagle-11-otwarte-schody/take-1",
+          "type": "take",
+          "id": "ze17-ciagle-11-otwarte-schody/take-1",
+          "name": "ze17-ciagle-11-otwarte-schody / take-1",
+          "relationship": "visible-state-from-take",
+          "shotKey": "shot:zlote-emoji-17/ze17-ciagle-11-otwarte-schody",
+          "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-11-otwarte-schody.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": {
+        "sourceKey": "take:ze17-ciagle-11-otwarte-schody/take-1",
+        "key": "take:zlote-emoji-17/ze17-ciagle-11-otwarte-schody/take-1",
+        "type": "take",
+        "id": "ze17-ciagle-11-otwarte-schody/take-1",
+        "name": "ze17-ciagle-11-otwarte-schody / take-1",
+        "relationship": "visible-state-from-take",
+        "shotKey": "shot:zlote-emoji-17/ze17-ciagle-11-otwarte-schody",
+        "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-11-otwarte-schody.json",
+        "exists": true
+      },
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-09T15:50:56.837466+00:00",
+          "source": "imported",
+          "referenceKeys": [
+            "take:ze17-ciagle-09-most-do-torow/take-2",
+            "take:ze17-ciagle-15-aniol-od-tylu/take-2"
+          ],
+          "references": [
+            {
+              "sourceKey": "take:ze17-ciagle-09-most-do-torow/take-2",
+              "key": "take:zlote-emoji-17/ze17-ciagle-09-most-do-torow/take-2",
+              "type": "take",
+              "id": "ze17-ciagle-09-most-do-torow/take-2",
+              "name": "ZE17 09 — most do torow / take-2",
+              "relationship": "visible-state-from-take",
+              "shotKey": "shot:zlote-emoji-17/ze17-ciagle-09-most-do-torow",
+              "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-09-most-do-torow.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "take:ze17-ciagle-15-aniol-od-tylu/take-2",
+              "key": "take:zlote-emoji-17/ze17-ciagle-15-aniol-od-tylu/take-2",
+              "type": "take",
+              "id": "ze17-ciagle-15-aniol-od-tylu/take-2",
+              "name": "ZE17 15 — aniol od tylu / take-2",
+              "relationship": "visible-state-from-take",
+              "shotKey": "shot:zlote-emoji-17/ze17-ciagle-15-aniol-od-tylu",
+              "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-15-aniol-od-tylu.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-11-09T17:22:54.217901+00:00",
+          "source": "imported",
+          "referenceKeys": [
+            "take:ze17-ciagle-11-otwarte-schody/take-1"
+          ],
+          "references": [
+            {
+              "sourceKey": "take:ze17-ciagle-11-otwarte-schody/take-1",
+              "key": "take:zlote-emoji-17/ze17-ciagle-11-otwarte-schody/take-1",
+              "type": "take",
+              "id": "ze17-ciagle-11-otwarte-schody/take-1",
+              "name": "ze17-ciagle-11-otwarte-schody / take-1",
+              "relationship": "visible-state-from-take",
+              "shotKey": "shot:zlote-emoji-17/ze17-ciagle-11-otwarte-schody",
+              "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-11-otwarte-schody.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": {
+            "sourceKey": "take:ze17-ciagle-11-otwarte-schody/take-1",
+            "key": "take:zlote-emoji-17/ze17-ciagle-11-otwarte-schody/take-1",
+            "type": "take",
+            "id": "ze17-ciagle-11-otwarte-schody/take-1",
+            "name": "ze17-ciagle-11-otwarte-schody / take-1",
+            "relationship": "visible-state-from-take",
+            "shotKey": "shot:zlote-emoji-17/ze17-ciagle-11-otwarte-schody",
+            "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-11-otwarte-schody.json",
+            "exists": true
+          }
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-ciagle-11-otwarte-schody/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-ciagle-11-otwarte-schody/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "role": "frame-end",
+      "revision": 2,
+      "source": "imported",
+      "referenceKeys": [
+        "take:ze17-ciagle-11-otwarte-schody/take-1"
+      ],
+      "references": [
+        {
+          "sourceKey": "take:ze17-ciagle-11-otwarte-schody/take-1",
+          "key": "take:zlote-emoji-17/ze17-ciagle-11-otwarte-schody/take-1",
+          "type": "take",
+          "id": "ze17-ciagle-11-otwarte-schody/take-1",
+          "name": "ze17-ciagle-11-otwarte-schody / take-1",
+          "relationship": "visible-state-from-take",
+          "shotKey": "shot:zlote-emoji-17/ze17-ciagle-11-otwarte-schody",
+          "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-11-otwarte-schody.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": {
+        "sourceKey": "take:ze17-ciagle-11-otwarte-schody/take-1",
+        "key": "take:zlote-emoji-17/ze17-ciagle-11-otwarte-schody/take-1",
+        "type": "take",
+        "id": "ze17-ciagle-11-otwarte-schody/take-1",
+        "name": "ze17-ciagle-11-otwarte-schody / take-1",
+        "relationship": "visible-state-from-take",
+        "shotKey": "shot:zlote-emoji-17/ze17-ciagle-11-otwarte-schody",
+        "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-11-otwarte-schody.json",
+        "exists": true
+      },
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-09T15:50:56.837466+00:00",
+          "source": "imported",
+          "referenceKeys": [
+            "take:ze17-ciagle-09-most-do-torow/take-2",
+            "take:ze17-ciagle-15-aniol-od-tylu/take-2"
+          ],
+          "references": [
+            {
+              "sourceKey": "take:ze17-ciagle-09-most-do-torow/take-2",
+              "key": "take:zlote-emoji-17/ze17-ciagle-09-most-do-torow/take-2",
+              "type": "take",
+              "id": "ze17-ciagle-09-most-do-torow/take-2",
+              "name": "ZE17 09 — most do torow / take-2",
+              "relationship": "visible-state-from-take",
+              "shotKey": "shot:zlote-emoji-17/ze17-ciagle-09-most-do-torow",
+              "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-09-most-do-torow.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "take:ze17-ciagle-15-aniol-od-tylu/take-2",
+              "key": "take:zlote-emoji-17/ze17-ciagle-15-aniol-od-tylu/take-2",
+              "type": "take",
+              "id": "ze17-ciagle-15-aniol-od-tylu/take-2",
+              "name": "ZE17 15 — aniol od tylu / take-2",
+              "relationship": "visible-state-from-take",
+              "shotKey": "shot:zlote-emoji-17/ze17-ciagle-15-aniol-od-tylu",
+              "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-15-aniol-od-tylu.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-11-09T17:22:54.217901+00:00",
+          "source": "imported",
+          "referenceKeys": [
+            "take:ze17-ciagle-11-otwarte-schody/take-1"
+          ],
+          "references": [
+            {
+              "sourceKey": "take:ze17-ciagle-11-otwarte-schody/take-1",
+              "key": "take:zlote-emoji-17/ze17-ciagle-11-otwarte-schody/take-1",
+              "type": "take",
+              "id": "ze17-ciagle-11-otwarte-schody/take-1",
+              "name": "ze17-ciagle-11-otwarte-schody / take-1",
+              "relationship": "visible-state-from-take",
+              "shotKey": "shot:zlote-emoji-17/ze17-ciagle-11-otwarte-schody",
+              "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-11-otwarte-schody.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": {
+            "sourceKey": "take:ze17-ciagle-11-otwarte-schody/take-1",
+            "key": "take:zlote-emoji-17/ze17-ciagle-11-otwarte-schody/take-1",
+            "type": "take",
+            "id": "ze17-ciagle-11-otwarte-schody/take-1",
+            "name": "ze17-ciagle-11-otwarte-schody / take-1",
+            "relationship": "visible-state-from-take",
+            "shotKey": "shot:zlote-emoji-17/ze17-ciagle-11-otwarte-schody",
+            "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-11-otwarte-schody.json",
+            "exists": true
+          }
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-ciagle-11-otwarte-schody/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-ciagle-11-otwarte-schody/frame-end-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

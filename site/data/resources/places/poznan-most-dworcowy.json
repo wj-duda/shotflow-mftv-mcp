@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "place:poznan-most-dworcowy",
+  "type": "places",
+  "id": "poznan-most-dworcowy",
+  "name": "Poznań — Most Dworcowy i tory",
+  "description": "Referencja realnej infrastruktury dla ZE17: most drogowy ponad torami i peronami. Układ sceny filmowej jest uproszczony, nie stanowi rekonstrukcji pomiarowej. Zdjęcie dzienne służy konstrukcji i materiałom, nie porze dnia ani kątowi kamery. Źródło: https://www.poznan.pl/mim/smartcity/infoteka%2C1016/kolejny-etap-remontu-schodow-przy-moscie-dworcowym%2C155035.html",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/poznan-most-dworcowy/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/poznan-most-dworcowy/image-001-thumb.webp",
+      "width": 1600,
+      "height": 1200,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-11-08T21:39:29.137596+00:00"
+}

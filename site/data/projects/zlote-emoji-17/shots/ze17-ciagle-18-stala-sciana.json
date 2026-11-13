@@ -1,0 +1,230 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-17/ze17-ciagle-18-stala-sciana",
+  "id": "ze17-ciagle-18-stala-sciana",
+  "title": "ze17-ciagle-18-stala-sciana",
+  "description": "Naprawa ciągłości 51–54 s. Rzeczywisty film Kling v4. Referencje, pełny payload i pochodzenie: _system/continuity-repair-v004/reveal/. Dokładnie 72 klatki, bez shiftu; oryginalne pliki zachowane.",
+  "project": {
+    "id": "zlote-emoji-17",
+    "key": "project:zlote-emoji-17",
+    "name": "Złote Emoji #17",
+    "createdAt": "2026-11-08T21:24:33.398Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-17",
+    "projectCreatedAt": "2026-11-08T21:24:33.398Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 18,
+    "lastSequence": 18,
+    "occurrences": [
+      18
+    ],
+    "sequenceTotal": 24,
+    "uniqueShotCount": 24,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "take",
+      "id": "ze17-ciagle-17-naprawa-ladowania/take-1"
+    },
+    {
+      "type": "character",
+      "id": "skrzypek"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "take:ze17-ciagle-17-naprawa-ladowania/take-1",
+        "key": "take:zlote-emoji-17/ze17-ciagle-17-naprawa-ladowania/take-1",
+        "type": "take",
+        "id": "ze17-ciagle-17-naprawa-ladowania/take-1",
+        "name": "ze17-ciagle-17-naprawa-ladowania / take-1",
+        "relationship": "visible-state-from-take",
+        "shotKey": "shot:zlote-emoji-17/ze17-ciagle-17-naprawa-ladowania",
+        "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-17-naprawa-ladowania.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:skrzypek",
+        "key": "character:skrzypek",
+        "type": "character",
+        "id": "skrzypek",
+        "name": "Skrzypek — starszy muzyk z utworu Estebesa",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/skrzypek.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "take:ze17-ciagle-17-naprawa-ladowania/take-1"
+        ],
+        "references": [
+          {
+            "sourceKey": "take:ze17-ciagle-17-naprawa-ladowania/take-1",
+            "key": "take:zlote-emoji-17/ze17-ciagle-17-naprawa-ladowania/take-1",
+            "type": "take",
+            "id": "ze17-ciagle-17-naprawa-ladowania/take-1",
+            "name": "ze17-ciagle-17-naprawa-ladowania / take-1",
+            "relationship": "visible-state-from-take",
+            "shotKey": "shot:zlote-emoji-17/ze17-ciagle-17-naprawa-ladowania",
+            "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-17-naprawa-ladowania.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      },
+      {
+        "frameId": "frame-end",
+        "revision": 1,
+        "referenceKeys": [
+          "take:ze17-ciagle-17-naprawa-ladowania/take-1"
+        ],
+        "references": [
+          {
+            "sourceKey": "take:ze17-ciagle-17-naprawa-ladowania/take-1",
+            "key": "take:zlote-emoji-17/ze17-ciagle-17-naprawa-ladowania/take-1",
+            "type": "take",
+            "id": "ze17-ciagle-17-naprawa-ladowania/take-1",
+            "name": "ze17-ciagle-17-naprawa-ladowania / take-1",
+            "relationship": "visible-state-from-take",
+            "shotKey": "shot:zlote-emoji-17/ze17-ciagle-17-naprawa-ladowania",
+            "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-17-naprawa-ladowania.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Decoded first frame of the real imported, boundary-matched video; not a new image generation.",
+    "endFrameDescription": "",
+    "animation": "One continuous three-second slow PAN LEFT from the exact Start to exact End. Camera rotates in place without dolly, orbit or zoom; the listener and fixed pilaster drift smoothly toward screen right. Reveal the elderly violinist already standing just off-screen left; he enters only through the left image edge, making one gentle bow stroke. The listener keeps his head and body still; the single feather stays horizontally on the same shoulder. @Video1 is PRECEDING footage for listener, feather and light; continue after its ending. Preserve the same stone wall, pilaster, floor and soft warm/cool illumination, with stable exposure. No wall replacement, new light, shadow sweep, morph, teleport, cut or dissolve. AUDIO: NO MUSIC, no speech; quiet station ambience only. @Image1 fixes only the elderly violinist already off-screen left, his clothing and instrument; ignore its background."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "video-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "imported",
+      "referenceKeys": [
+        "take:ze17-ciagle-17-naprawa-ladowania/take-1"
+      ],
+      "references": [
+        {
+          "sourceKey": "take:ze17-ciagle-17-naprawa-ladowania/take-1",
+          "key": "take:zlote-emoji-17/ze17-ciagle-17-naprawa-ladowania/take-1",
+          "type": "take",
+          "id": "ze17-ciagle-17-naprawa-ladowania/take-1",
+          "name": "ze17-ciagle-17-naprawa-ladowania / take-1",
+          "relationship": "visible-state-from-take",
+          "shotKey": "shot:zlote-emoji-17/ze17-ciagle-17-naprawa-ladowania",
+          "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-17-naprawa-ladowania.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-09T15:34:49.336467+00:00",
+          "source": "imported",
+          "referenceKeys": [
+            "take:ze17-ciagle-17-naprawa-ladowania/take-1"
+          ],
+          "references": [
+            {
+              "sourceKey": "take:ze17-ciagle-17-naprawa-ladowania/take-1",
+              "key": "take:zlote-emoji-17/ze17-ciagle-17-naprawa-ladowania/take-1",
+              "type": "take",
+              "id": "ze17-ciagle-17-naprawa-ladowania/take-1",
+              "name": "ze17-ciagle-17-naprawa-ladowania / take-1",
+              "relationship": "visible-state-from-take",
+              "shotKey": "shot:zlote-emoji-17/ze17-ciagle-17-naprawa-ladowania",
+              "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-17-naprawa-ladowania.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-ciagle-18-stala-sciana/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-ciagle-18-stala-sciana/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "role": "frame-end",
+      "revision": 1,
+      "source": "imported",
+      "referenceKeys": [
+        "take:ze17-ciagle-17-naprawa-ladowania/take-1"
+      ],
+      "references": [
+        {
+          "sourceKey": "take:ze17-ciagle-17-naprawa-ladowania/take-1",
+          "key": "take:zlote-emoji-17/ze17-ciagle-17-naprawa-ladowania/take-1",
+          "type": "take",
+          "id": "ze17-ciagle-17-naprawa-ladowania/take-1",
+          "name": "ze17-ciagle-17-naprawa-ladowania / take-1",
+          "relationship": "visible-state-from-take",
+          "shotKey": "shot:zlote-emoji-17/ze17-ciagle-17-naprawa-ladowania",
+          "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-17-naprawa-ladowania.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-09T15:34:49.336467+00:00",
+          "source": "imported",
+          "referenceKeys": [
+            "take:ze17-ciagle-17-naprawa-ladowania/take-1"
+          ],
+          "references": [
+            {
+              "sourceKey": "take:ze17-ciagle-17-naprawa-ladowania/take-1",
+              "key": "take:zlote-emoji-17/ze17-ciagle-17-naprawa-ladowania/take-1",
+              "type": "take",
+              "id": "ze17-ciagle-17-naprawa-ladowania/take-1",
+              "name": "ze17-ciagle-17-naprawa-ladowania / take-1",
+              "relationship": "visible-state-from-take",
+              "shotKey": "shot:zlote-emoji-17/ze17-ciagle-17-naprawa-ladowania",
+              "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-17-naprawa-ladowania.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-ciagle-18-stala-sciana/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-ciagle-18-stala-sciana/frame-end-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

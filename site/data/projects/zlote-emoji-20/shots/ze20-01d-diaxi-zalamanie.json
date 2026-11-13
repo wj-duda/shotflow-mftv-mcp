@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-20/ze20-01d-diaxi-zalamanie",
+  "id": "ze20-01d-diaxi-zalamanie",
+  "title": "DIAXI — załamanie",
+  "description": "8,67–10,67 s: ciasne zbliżenie 100 mm według Blender D03. DIAXI opuszcza spojrzenie, zaciska drżącą dolną wargę, łza spływa po policzku. Konkretny moment załamania przy końcu wyznania; twarz i strój ciągłe z poprzednim kadrem.",
+  "project": {
+    "id": "zlote-emoji-20",
+    "key": "project:zlote-emoji-20",
+    "name": "Złote Emoji #20",
+    "createdAt": "2026-11-12T06:49:40.532Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-20",
+    "projectCreatedAt": "2026-11-12T06:49:40.532Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 4,
+    "lastSequence": 4,
+    "occurrences": [
+      4
+    ],
+    "sequenceTotal": 27,
+    "uniqueShotCount": 27,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "ze20-01c-diaxi-wyznanie"
+    },
+    {
+      "type": "character",
+      "id": "diaxi"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:ze20-01c-diaxi-wyznanie",
+        "key": "shot:zlote-emoji-20/ze20-01c-diaxi-wyznanie",
+        "type": "shot",
+        "id": "ze20-01c-diaxi-wyznanie",
+        "name": "DIAXI — próba wyznania",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-01c-diaxi-wyznanie.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:diaxi",
+        "key": "character:diaxi",
+        "type": "character",
+        "id": "diaxi",
+        "name": "DIAXI",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:ze20-01c-diaxi-wyznanie",
+          "character:diaxi"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze20-01c-diaxi-wyznanie",
+            "key": "shot:zlote-emoji-20/ze20-01c-diaxi-wyznanie",
+            "type": "shot",
+            "id": "ze20-01c-diaxi-wyznanie",
+            "name": "DIAXI — próba wyznania",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-01c-diaxi-wyznanie.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:diaxi",
+            "key": "character:diaxi",
+            "type": "character",
+            "id": "diaxi",
+            "name": "DIAXI",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "ONE landscape16:9 photoreal live-action cinematic close-up, same scene an instant after the supplied previous shot. Image1 is Blender D03 tight100mm camera framing ONLY: fill the frame with head and face, cropped upper shoulders, never copy mannequin appearance. Image2 is primary edit and continuity reference: EXACT same adult DIAXI, hair strand arrangement, branch forehead tattoo, costume, river forest, overcast daylight, screen-left eyeline. Image3 locks original real video facial identity, not its night lighting. Push to a genuinely tighter 100mm face close-up of DIAXI, three-quarter toward SCREEN LEFT, top of hair and shoulders gently cropped, both eyes and mouth fully visible, forehead symbol intact. Specific performance: she has reached the words she cannot bear to say; a single real tear has escaped down her visible cheek, reddened moist lower eyelids, inner eyebrows lift and squeeze, gaze drops a little below the elder's eyes, lower lip presses inward and trembles, nostrils slightly tense as she catches an interrupted breath. The expression should feel like a private emotional collapse caught by the camera, holding back sobbing, NO scream, NO exaggerated crying mask, NO pretty neutral portrait. Maintain exact jaw/nose/lip shapes from refs, skin pores and natural fine lines, same crown braids and blonde-brown strands. Diffuse cold sky key light with modeled shadow, realistic tear reflection, narrow natural depth of field with watery river and birch background entirely soft. No magic or glowing eyes, no blue reflections, no new props or people. No text, captions, logos or watermark. This is a single continuous dramatic moment with the prior frame, not a different woman.",
+    "endFrameDescription": "",
+    "animation": "0.0–0.8s: DIAXI’s gaze drops slightly toward screen left; her lower lip presses inward and her breath catches visibly in her upper chest. 0.8–1.8s: one tear travels a short distance down the existing wet cheek, her eyes squeeze slightly but stay open. 1.8–3.0s: hold this vulnerable expression. Camera: locked 100mm close-up. Secondary motion: minimal breeze in a few strands of hair. @Image1 preserves DIAXI’s exact original face and forehead marking. Preserve skin texture, costume and river background. No scream, exaggerated crying, glowing eyes, facial morph, new people, extra limbs, cuts, captions or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze20-01c-diaxi-wyznanie",
+        "character:diaxi"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze20-01c-diaxi-wyznanie",
+          "key": "shot:zlote-emoji-20/ze20-01c-diaxi-wyznanie",
+          "type": "shot",
+          "id": "ze20-01c-diaxi-wyznanie",
+          "name": "DIAXI — próba wyznania",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-01c-diaxi-wyznanie.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:diaxi",
+          "key": "character:diaxi",
+          "type": "character",
+          "id": "diaxi",
+          "name": "DIAXI",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-12T23:29:46.536186+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze20-01c-diaxi-wyznanie",
+            "character:diaxi"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze20-01c-diaxi-wyznanie",
+              "key": "shot:zlote-emoji-20/ze20-01c-diaxi-wyznanie",
+              "type": "shot",
+              "id": "ze20-01c-diaxi-wyznanie",
+              "name": "DIAXI — próba wyznania",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-01c-diaxi-wyznanie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:diaxi",
+              "key": "character:diaxi",
+              "type": "character",
+              "id": "diaxi",
+              "name": "DIAXI",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-01d-diaxi-zalamanie/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-01d-diaxi-zalamanie/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

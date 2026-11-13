@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-20/ze20-08-wejscie-pod-wode",
+  "id": "ze20-08-wejscie-pod-wode",
+  "title": "Zanurzenie — chmura bąbli",
+  "description": "28 mm pod powierzchnią. DIAXI wpada stopami w dół; chmura bąbli przesłania twarz. Przed otwarciem bramy. Aktualny montaż: start 630f, długość 24f (1.000 s), wejście źródła 0f.",
+  "project": {
+    "id": "zlote-emoji-20",
+    "key": "project:zlote-emoji-20",
+    "name": "Złote Emoji #20",
+    "createdAt": "2026-11-12T06:49:40.532Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-20",
+    "projectCreatedAt": "2026-11-12T06:49:40.532Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 13,
+    "lastSequence": 13,
+    "occurrences": [
+      13
+    ],
+    "sequenceTotal": 27,
+    "uniqueShotCount": 27,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "ze20-07-wodna-ton"
+    },
+    {
+      "type": "character",
+      "id": "diaxi"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:ze20-07-wodna-ton",
+        "key": "shot:zlote-emoji-20/ze20-07-wodna-ton",
+        "type": "shot",
+        "id": "ze20-07-wodna-ton",
+        "name": "DIAXI opada w toń",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-07-wodna-ton.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:diaxi",
+        "key": "character:diaxi",
+        "type": "character",
+        "id": "diaxi",
+        "name": "DIAXI",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:ze20-07-wodna-ton",
+          "character:diaxi"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze20-07-wodna-ton",
+            "key": "shot:zlote-emoji-20/ze20-07-wodna-ton",
+            "type": "shot",
+            "id": "ze20-07-wodna-ton",
+            "name": "DIAXI opada w toń",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-07-wodna-ton.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:diaxi",
+            "key": "character:diaxi",
+            "type": "character",
+            "id": "diaxi",
+            "name": "DIAXI",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Photorealistic live-action cinematic film still, landscape 16:9. Reference1 fixes the adult DIAXI character, opaque original ivory embroidered off-shoulder split layered dress, ornate brown belt, fur-cuff laceup boots, highlighted braided brown hair and natural blue-green waterfall pool. Reference2 is exact original costume and identity. NEW CAMERA: 28mm underwater camera 3m below surface, slightly to the side, looking diagonally upward. Capture just after DIAXI enters water FEET FIRST from above: her entire vertical body is surrounded by a tall dense irregular cloud of silver bubbles trailing UP to disturbed bright surface; boots are the lowest point, arms close to sides, skirt and hair driven upward by water drag. Face partially obscured by bubbles. One woman only, no injuries or blood, no magic, no glowing rings. Physically plausible strong water turbulence, deep dark rock barely visible at left, no visible lakebed, realistic suspended particles and subdued natural daylight. The film moment is an ambiguous descent before a magical gateway is activated later. Avoid floating standing portrait, glamor pose, dry hair, transparent fabric, copies, extra limbs, text, borders, watermark.",
+    "endFrameDescription": "",
+    "animation": "0.0–1.0s: DIAXI continues the feet-first DOWNWARD entry already underway below the surface; water drag slows her descent. Entrained air from the impact and clothing forms a dense plume rising UP behind her toward the surface. 1.0–3.0s: she continues sinking more slowly as bubbles separate and rise. Camera: locked underwater view. Hair and loose fabric lift relative to her descending body. @Element1 preserves the same DIAXI, her proportions and original opaque costume through partial bubble occlusion. Keep the surface above, head above feet and blue-green water. No second impact, reversed bubbles, swimming upward, new person, body morph, extra limbs, cut or text."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze20-07-wodna-ton",
+        "character:diaxi"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze20-07-wodna-ton",
+          "key": "shot:zlote-emoji-20/ze20-07-wodna-ton",
+          "type": "shot",
+          "id": "ze20-07-wodna-ton",
+          "name": "DIAXI opada w toń",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-07-wodna-ton.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:diaxi",
+          "key": "character:diaxi",
+          "type": "character",
+          "id": "diaxi",
+          "name": "DIAXI",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-12T18:18:50.681065+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze20-07-wodna-ton",
+            "character:diaxi"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze20-07-wodna-ton",
+              "key": "shot:zlote-emoji-20/ze20-07-wodna-ton",
+              "type": "shot",
+              "id": "ze20-07-wodna-ton",
+              "name": "DIAXI opada w toń",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-07-wodna-ton.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:diaxi",
+              "key": "character:diaxi",
+              "type": "character",
+              "id": "diaxi",
+              "name": "DIAXI",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-08-wejscie-pod-wode/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-08-wejscie-pod-wode/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

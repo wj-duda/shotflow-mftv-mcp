@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T10:00:01.833Z",
+  "generatedAt": "2026-11-13T15:08:29.779Z",
   "worldId": "mf-creators",
   "type": "characters",
   "label": "Postacie",
@@ -66,6 +66,18 @@
       "updatedAt": "2026-09-30T09:26:30.436Z"
     },
     {
+      "key": "character:laidy-pipa-face-loop-reference",
+      "kind": "resource",
+      "type": "characters",
+      "id": "laidy-pipa-face-loop-reference",
+      "name": "LAIdy Pipa — face-only loop reference",
+      "summary": "Technical face-only reference variant of existing adult character laidy-pipa. Same person, not a new character. Deterministic crops of canonical portrait and silhouette; no newly generated facial features. Used only for idle-creators loops. Role silhouette is required by the Ele…",
+      "imageCount": 2,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/laidy-pipa-face-loop-reference/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/laidy-pipa-face-loop-reference.json",
+      "updatedAt": "2026-10-06T02:55:23.616Z"
+    },
+    {
       "key": "character:livaihen",
       "kind": "resource",
       "type": "characters",
@@ -76,6 +88,18 @@
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/livaihen/image-004-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/livaihen.json",
       "updatedAt": "2026-09-30T09:27:27.757Z"
+    },
+    {
+      "key": "character:livaihen-face-loop-reference",
+      "kind": "resource",
+      "type": "characters",
+      "id": "livaihen-face-loop-reference",
+      "name": "Livaihen — face-only loop reference",
+      "summary": "Technical face-only variant of adult character livaihen. Canonical head crops, same person. Silhouette role is the required second Element slot and contains only an alternate head, not a body.",
+      "imageCount": 2,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/livaihen-face-loop-reference/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/livaihen-face-loop-reference.json",
+      "updatedAt": "2026-10-06T03:27:19.588Z"
     },
     {
       "key": "character:maia-melodies",

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "character:skrzypek",
+  "type": "characters",
+  "id": "skrzypek",
+  "name": "Skrzypek — starszy muzyk z utworu Estebesa",
+  "description": "KOREKTA AUTORA ZE17 — 2026-11-09: Pióro nasączone łzą przemienia się w monetę już w dłoni anioła przy twarzy (prop:moneta-aniola). Następnie gotowa moneta trafia do kapelusza skrzypka. Przed nasączeniem osobny close-up pokazuje pojedynczą łzę i minimalne zakłopotanie, bez ludzkiego rozczulenia. Ten zapis zastępuje wcześniejsze warianty przemiany dopiero w kapeluszu.\n\nSKRZYPEK — postać z materiału „Estebes — Skrzypek”, włączona do świata AIMFTV na polecenie autora 2026-11-08. Imię, dokładny wiek i rocznik nieustalone. To skrzypek z teledysku, nie Estebes jako kierowca betoniarki.\n\nWYGLĄD Z REFERENCJI AUTORA: starszy mężczyzna, szczupła, wydłużona twarz, wyraźny nos i głębokie zmarszczki, bez brody. Siwe włosy przy uszach i na karku. Ciemny tweedowy kaszkiet z krótkim daszkiem, ciężki ciemnoszary wełniany płaszcz z szerokimi klapami, ciemne ubranie pod spodem. Lekko przygarbiona sylwetka, skupiony i poważny wyraz twarzy. Brązowe drewniane skrzypce pod lewą stroną podbródka; lewa dłoń na szyjce instrumentu, prawa prowadzi smyczek.\n\nREFERENCJE: image-001 to oryginalna miniatura YouTube, zgodna z kadrem przesłanym przez autora; zawiera tło kolejowe i napis, które nie są elementem wyglądu postaci. image-002 to czysta pełna sylwetka wygenerowana wbudowanym image_gen z tej miniatury. Ciemne proste spodnie i zużyte ciemne skórzane buty są propozycją uzupełnienia części niewidocznej w oryginalnym kadrze, nie faktem odczytanym z niego. Prompty i źródło zachowane w source/.\n\nZE17 — PLAN SCENY: gra w przejściu podziemnym przy peronach. Anioł słucha melodii, ukrywa pojedynczą mimowolną łzę, ścierając ją piórem. Po złotym rozbłysku wrzuca dar do kapelusza skrzypka; pióro przemienia się w prosty złoty krzyżyk bez graweru (prop:krzyzyk-aniola). Anioł świadomie wybiera skrzypka, wyczuwając czystość jego duszy według kryteriów Nieba. Wiara i praktyki religijne skrzypka pozostają możliwym kierunkiem, nie ustaloną biografią. Nie znać jeszcze jego wiedzy o darze, konkretnych mocy krzyżyka ani roli w finale.\n\nUTWÓR: tekst przedstawia samotnego starszego skrzypka, pamięć o nieobecnych, dawną scenę i pusty dom. Te motywy stanowią kontekst utworu; nie dopisywać bez decyzji autora szczegółów rodzinnych, konkretnych zgonów, nazwiska lub nadnaturalnej tożsamości.\n\nPRODUKCJA: robocza makieta ZE17 w Blenderze oparta na układzie Poznania Głównego. Wysokość uproszczonej postaci około 1,73 m jest skalą produkcyjną, nie zatwierdzoną daną biograficzną. Model z prymitywów służy ustawieniu kamery i póz, nie zastępuje referencji twarzy.\n\nŹRÓDŁO: https://www.youtube.com/watch?v=xMGwAlPZOmU ; oryginalny obraz https://i.ytimg.com/vi/xMGwAlPZOmU/maxresdefault.jpg .\n\nAKTUALIZACJA AUTORA 2026-11-09: dar w ZE17 ma postać niezwykłej monety (prop:moneta-aniola), NIE krzyżyka. Wcześniejsze opisy przemiany w krzyżyk są wariantem historycznym, odrzuconym. Zachowane pozostają łza, pióro, świadomy wybór skrzypka i nieustalone moce daru.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "portrait",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/skrzypek/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/skrzypek/image-001-thumb.webp",
+      "width": 1280,
+      "height": 720,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-002",
+      "role": "silhouette",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/skrzypek/image-002.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/skrzypek/image-002-thumb.webp",
+      "width": 1024,
+      "height": 1536,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-11-09T01:14:15.271494+00:00"
+}

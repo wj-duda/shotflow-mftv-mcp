@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:marian-rolka/dawniej-klucze",
+  "id": "dawniej-klucze",
+  "title": "Oddane klucze",
+  "description": "Utrata pracy: młody Marian oddaje klucze młodemu Czesławowi przed Domem Kultury. Halinka obserwuje. Marian zachowuje brązowy notes. Szary pochmurny dzień, chłodne rozproszone światło, wilgotne betonowe płyty; zadbana kremowo-łososiowa elewacja. Bez współczesnych reklam i paczkomatu. Czesław bez okularów; Halinka z rudym kucykiem, bez kolczyków. Nowa fotograficzna generacja. Montaż 6–9 s; napis na V2: W przeciwieństwie do pracy. Aktualne napisy: napisy-v003.",
+  "project": {
+    "id": "marian-rolka",
+    "key": "project:marian-rolka",
+    "name": "MarianRolka",
+    "createdAt": "2026-10-30T11:23:31.351Z"
+  },
+  "chronology": {
+    "projectKey": "project:marian-rolka",
+    "projectCreatedAt": "2026-10-30T11:23:31.351Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 4,
+    "lastSequence": 4,
+    "occurrences": [
+      4
+    ],
+    "sequenceTotal": 16,
+    "uniqueShotCount": 16,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "dawniej-notes"
+    },
+    {
+      "type": "shot",
+      "id": "dawniej-klucze"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:dawniej-notes",
+        "key": "shot:marian-rolka/dawniej-notes",
+        "type": "shot",
+        "id": "dawniej-notes",
+        "name": "Kiedyś pilnował sceny",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/marian-rolka/shots/dawniej-notes.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:dawniej-klucze",
+        "key": "shot:marian-rolka/dawniej-klucze",
+        "type": "shot",
+        "id": "dawniej-klucze",
+        "name": "Oddane klucze",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/marian-rolka/shots/dawniej-klucze.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 3,
+        "referenceKeys": [
+          "shot:dawniej-klucze"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:dawniej-klucze",
+            "key": "shot:marian-rolka/dawniej-klucze",
+            "type": "shot",
+            "id": "dawniej-klucze",
+            "name": "Oddane klucze",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/marian-rolka/shots/dawniej-klucze.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Regenerate this scene as a NEW genuinely photographic film still, not a filtered copy. Vertical 9:16. Image 1 supplies the established Dom Kultury building, three-person scene and key handover story ONLY; replace its artificial render look and sunny warm lighting completely. Images 2, 3, 4 supply exact identities and period clothing of young Marian, young Czeslaw and young Halinka respectively. Preserve their individual faces and ages. Czeslaw no glasses, Halinka red ponytail, no earrings, small necklace and lapel pin. 1980s Poland. Marian has just lost his job: quietly ashamed, lowered eyes and slumped shoulders, not theatrical. He stands LEFT holding his small brown notebook against his ribs with left arm, handing a ring with three ordinary door keys from his right thumb and finger into Czeslaw's upturned right palm CENTRE RIGHT. Clearly separated anatomically correct hands and dangling metal keys, no handshake. Halinka watches just behind Czeslaw, concerned and quiet. Only three people. Use an intimate medium shot from mid-thigh upward, normal 50mm perspective, imperfect natural human posture, not posed like fashion models. Faces, notebook and keys legible. Keep upper 15 percent free of faces and keys for existing caption overlay; do not render any overlay. Background same recognisable entrance, freshly maintained cream and muted salmon facade, painted metal framed doors and railings, plain concrete slabs. Readable architectural sign DOM KULTURY. NO modern parcel locker, event banner, Zlote Emoji branding, satellite dish. WEATHER IS IMPORTANT: low solid grey overcast sky, bleak damp late-autumn afternoon, soft cold daylight, muted colours, slightly damp concrete, subdued interior with no golden glow. Building still maintained and relatively new, not ruined. Photographic optical softness, realistic skin pores of young adults, irregular hair, real cotton and leather, coherent diffuse light and contact shadows, modest fine film grain. Absolutely no illustration, CGI, waxy skin, artificial etched/fractal texture, HDR edge enhancement, teal orange grade, glamour glow, exaggerated distress, rain streak filter, extra fingers, captions or watermark.",
+    "endFrameDescription": "",
+    "animation": "0.0–1.7s: Marian on screen left lowers the existing key ring into Czeslaw's open right palm at centre-right; the keys contact the palm before Marian releases the ring. 1.7–2.5s: Czeslaw gently closes his fingers around the keys while Marian withdraws his empty right hand toward his body. 2.5–3.0s: Marian lowers his eyes. Halinka behind Czeslaw remains still. Camera: locked off. Secondary motion: keys swing briefly then settle. @Image1 fixes only young Marian's identity, not the other people. Continuity: exactly three people, their young faces and clothing, notebook retained in Marian's left arm, grey overcast weather, DOM KULTURY lettering. Avoid handshake, glasses on Czeslaw, earrings on Halinka, duplicated keys, merged hands, extra limbs, speech, cuts or morphing."
+  },
+  "media": {
+    "fps": 60,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 3,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:dawniej-klucze"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:dawniej-klucze",
+          "key": "shot:marian-rolka/dawniej-klucze",
+          "type": "shot",
+          "id": "dawniej-klucze",
+          "name": "Oddane klucze",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/marian-rolka/shots/dawniej-klucze.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-30T12:25:01.963713+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:dawniej-notes"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:dawniej-notes",
+              "key": "shot:marian-rolka/dawniej-notes",
+              "type": "shot",
+              "id": "dawniej-notes",
+              "name": "Kiedyś pilnował sceny",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/marian-rolka/shots/dawniej-notes.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-10-30T12:40:50.466411+00:00",
+          "source": "generated",
+          "referenceKeys": [],
+          "references": [],
+          "sourceReference": null
+        },
+        {
+          "revision": 3,
+          "createdAt": "2026-10-30T15:19:50.232276+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:dawniej-klucze"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:dawniej-klucze",
+              "key": "shot:marian-rolka/dawniej-klucze",
+              "type": "shot",
+              "id": "dawniej-klucze",
+              "name": "Oddane klucze",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/marian-rolka/shots/dawniej-klucze.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/marian-rolka/shots/dawniej-klucze/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/marian-rolka/shots/dawniej-klucze/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

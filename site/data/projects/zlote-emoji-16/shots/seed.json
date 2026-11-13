@@ -1,0 +1,358 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-16/seed",
+  "id": "seed",
+  "title": "01 — Letnie spotkanie",
+  "description": "3–6,917s: dotychczasowy pierwszy master spotkania, zachowany montaż użytkownika94klatki. Dojście ścieżką jest osobnym poprzednim shotem.",
+  "project": {
+    "id": "zlote-emoji-16",
+    "key": "project:zlote-emoji-16",
+    "name": "Złote Emoji #16",
+    "createdAt": "2026-11-06T18:54:57.286Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-16",
+    "projectCreatedAt": "2026-11-06T18:54:57.286Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 3,
+    "lastSequence": 3,
+    "occurrences": [
+      3
+    ],
+    "sequenceTotal": 16,
+    "uniqueShotCount": 16,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "fonzo-mlody"
+    },
+    {
+      "type": "character",
+      "id": "halinka-mloda"
+    },
+    {
+      "type": "prop",
+      "id": "leica-m3"
+    },
+    {
+      "type": "shot",
+      "id": "seed"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:fonzo-mlody",
+        "key": "character:fonzo-mlody",
+        "type": "character",
+        "id": "fonzo-mlody",
+        "name": "Młody Fonzo",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/fonzo-mlody.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:halinka-mloda",
+        "key": "character:halinka-mloda",
+        "type": "character",
+        "id": "halinka-mloda",
+        "name": "Młoda Halinka",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka-mloda.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:leica-m3",
+        "key": "prop:leica-m3",
+        "type": "prop",
+        "id": "leica-m3",
+        "name": "Leica M3 — aparat protokolanta",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/leica-m3.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:seed",
+        "key": "shot:zlote-emoji-16/seed",
+        "type": "shot",
+        "id": "seed",
+        "name": "01 — Letnie spotkanie",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/seed.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 4,
+        "referenceKeys": [
+          "shot:seed"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:seed",
+            "key": "shot:zlote-emoji-16/seed",
+            "type": "shot",
+            "id": "seed",
+            "name": "01 — Letnie spotkanie",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/seed.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      },
+      {
+        "frameId": "frame-end",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:seed"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:seed",
+            "key": "shot:zlote-emoji-16/seed",
+            "type": "shot",
+            "id": "seed",
+            "name": "01 — Letnie spotkanie",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/seed.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Restore original approved pier master unchanged after separate forest intro. No generation.",
+    "endFrameDescription": "Ten sam master spotkania; brak dojścia, które jest już w poprzednim ujęciu.",
+    "animation": "0.0–1.4s: Halinka on screen right holds Fonzo’s gaze with a small warm smile. 1.4–3.5s: Fonzo on screen left relaxes his shoulders and answers with a tentative closed-mouth half-smile, both hands resting on the camera. 3.5–4.0s: they hold the quiet glance naturally. Camera: locked wide shot. Secondary motion: gentle breathing and small wind ripples on the lake. Preserve both identities, body scale, clothes, camera straps, grounded feet and moored yacht. No walking, speech, broad grins, new people, camera movement or changing pier geometry."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 4,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:seed"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:seed",
+          "key": "shot:zlote-emoji-16/seed",
+          "type": "shot",
+          "id": "seed",
+          "name": "01 — Letnie spotkanie",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/seed.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-06T18:54:57.286925+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:fonzo-mlody",
+            "character:halinka-mloda",
+            "prop:leica-m3"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:fonzo-mlody",
+              "key": "character:fonzo-mlody",
+              "type": "character",
+              "id": "fonzo-mlody",
+              "name": "Młody Fonzo",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/fonzo-mlody.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:halinka-mloda",
+              "key": "character:halinka-mloda",
+              "type": "character",
+              "id": "halinka-mloda",
+              "name": "Młoda Halinka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka-mloda.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:leica-m3",
+              "key": "prop:leica-m3",
+              "type": "prop",
+              "id": "leica-m3",
+              "name": "Leica M3 — aparat protokolanta",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/leica-m3.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-11-06T23:30:49.708964+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:seed",
+            "character:fonzo-mlody",
+            "character:halinka-mloda"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:seed",
+              "key": "shot:zlote-emoji-16/seed",
+              "type": "shot",
+              "id": "seed",
+              "name": "01 — Letnie spotkanie",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/seed.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:fonzo-mlody",
+              "key": "character:fonzo-mlody",
+              "type": "character",
+              "id": "fonzo-mlody",
+              "name": "Młody Fonzo",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/fonzo-mlody.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:halinka-mloda",
+              "key": "character:halinka-mloda",
+              "type": "character",
+              "id": "halinka-mloda",
+              "name": "Młoda Halinka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka-mloda.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 3,
+          "createdAt": "2026-11-07T09:56:31.240285+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:seed"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:seed",
+              "key": "shot:zlote-emoji-16/seed",
+              "type": "shot",
+              "id": "seed",
+              "name": "01 — Letnie spotkanie",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/seed.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 4,
+          "createdAt": "2026-11-07T14:46:54.497578+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:seed"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:seed",
+              "key": "shot:zlote-emoji-16/seed",
+              "type": "shot",
+              "id": "seed",
+              "name": "01 — Letnie spotkanie",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/seed.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-16/shots/seed/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-16/shots/seed/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "role": "frame-end",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:seed"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:seed",
+          "key": "shot:zlote-emoji-16/seed",
+          "type": "shot",
+          "id": "seed",
+          "name": "01 — Letnie spotkanie",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/seed.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-07T09:56:32.742357+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:seed"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:seed",
+              "key": "shot:zlote-emoji-16/seed",
+              "type": "shot",
+              "id": "seed",
+              "name": "01 — Letnie spotkanie",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/seed.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-16/shots/seed/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-16/shots/seed/frame-end-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

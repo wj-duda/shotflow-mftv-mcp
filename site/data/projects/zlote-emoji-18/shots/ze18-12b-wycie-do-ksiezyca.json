@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-18/ze18-12b-wycie-do-ksiezyca",
+  "id": "ze18-12b-wycie-do-ksiezyca",
+  "title": "II — Wycie do księżyca",
+  "description": "Plan ogólny 35 mm. Olivia-wilczyca na łagodnym wzniesieniu po prawej wyje pod końcówkę piosenki. Bez dodatkowego dźwięku wycia. Księżyc nisko po lewej, około x40%, y58%, zbliżony miejscem do okrągłej statuetki w następnym kadrze. Van po prawej zastępuje kompozycyjnie wilczycę; Czesław wypełnia pustą lewą część. Kontrast chłodnej nocy i jasnego baraku, wręczenie dopiero w ciszy. Na timeline V2, klatki 1090–1147: 58 klatek (2,417 s), wypełnienie luki bez przesuwania muzyki i wręczenia.\nTAKE — AUDYT: widoczne 58 klatek (2.417 s) przy 24 fps; zakres źródła 0.000–2.417 s; generacja 3 s. Natywne audio wyłączone w planie; montaż pozostaje bez zmian.",
+  "project": {
+    "id": "zlote-emoji-18",
+    "key": "project:zlote-emoji-18",
+    "name": "Złote Emoji #18",
+    "createdAt": "2026-11-09T15:18:48.889Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-18",
+    "projectCreatedAt": "2026-11-09T15:18:48.889Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 16,
+    "lastSequence": 16,
+    "occurrences": [
+      16
+    ],
+    "sequenceTotal": 18,
+    "uniqueShotCount": 18,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "olivia-wilczyca"
+    },
+    {
+      "type": "place",
+      "id": "lasy-kozlowieckie-polana-1985"
+    },
+    {
+      "type": "shot",
+      "id": "ze18-09-wilczyca"
+    },
+    {
+      "type": "shot",
+      "id": "ze18-13-wreczenie-nagrody"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:olivia-wilczyca",
+        "key": "character:olivia-wilczyca",
+        "type": "character",
+        "id": "olivia-wilczyca",
+        "name": "Olivia — postać wilczycy",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/olivia-wilczyca.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:lasy-kozlowieckie-polana-1985",
+        "key": "place:lasy-kozlowieckie-polana-1985",
+        "type": "place",
+        "id": "lasy-kozlowieckie-polana-1985",
+        "name": "Lasy Kozłowieckie — droga i polana, 1985",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lasy-kozlowieckie-polana-1985.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze18-09-wilczyca",
+        "key": "shot:zlote-emoji-18/ze18-09-wilczyca",
+        "type": "shot",
+        "id": "ze18-09-wilczyca",
+        "name": "II — To, co zobaczył",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-09-wilczyca.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze18-13-wreczenie-nagrody",
+        "key": "shot:zlote-emoji-18/ze18-13-wreczenie-nagrody",
+        "type": "shot",
+        "id": "ze18-13-wreczenie-nagrody",
+        "name": "III — Współczesność, barak DK",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-13-wreczenie-nagrody.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "shot:ze18-12b-wycie-do-ksiezyca",
+          "shot:ze18-13-wreczenie-nagrody"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze18-12b-wycie-do-ksiezyca",
+            "key": "shot:zlote-emoji-18/ze18-12b-wycie-do-ksiezyca",
+            "type": "shot",
+            "id": "ze18-12b-wycie-do-ksiezyca",
+            "name": "II — Wycie do księżyca",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-12b-wycie-do-ksiezyca.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:ze18-13-wreczenie-nagrody",
+            "key": "shot:zlote-emoji-18/ze18-13-wreczenie-nagrody",
+            "type": "shot",
+            "id": "ze18-13-wreczenie-nagrody",
+            "name": "III — Współczesność, barak DK",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-13-wreczenie-nagrody.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Edit reference1 forest wolf frame, preserve exact wolf identity, charcoal silver fur, natural anatomy, howling profile, Polish oak/pine vegetation and analog1980s nighttime film look. Reference2 is NEXT EDIT SHOT used ONLY for compositional alignment: gold circular trophy centered approximately x42%, y63%; man Van on right. Do NOT copy any human, building, trophy, gold color or emoji into forest. Recompose forest cinematic low camera angle so natural full moon is much LOWER and nearer CENTER-LEFT than currently, ideally centered x42%, y55% (as close toward trophy position as geographically plausible), visible through a believable gap above a distant low woodland horizon. The foreground modest mossy earth rise with wolf on RIGHT is above distant terrain, never a cliff or mountain. Reframe branches and distant treeline organically to reveal moon. Keep full wolf readable in rightthird, looking up-left toward moon, wolf muzzle above body with natural howling neck. A modest full moon disk, not gigantic, no face or design. Visual match for next cut is circular moon to round trophy, and mother wolf right to son right. 16:9 photoreal film still, no borders text watermark. Preserve night quiet melancholy, do not brighten to daylight.",
+    "endFrameDescription": "",
+    "animation": "@Image1 identifies the single existing female wolf; preserve natural canine anatomy and fur markings. 0.0–2.4s: the wolf maintains her already raised muzzle and open-mouth posture, her throat and chest expanding subtly with one sustained breath. 2.4–3.0s: the breath eases while her head remains lifted. Camera: fully locked-off. Secondary: a slight breeze moves only the fur tips and a few nearby leaves. Continuity: keep all four paws planted, the wolf on the right, and the moon fixed low on the left for the following edit; preserve mound and forest. Avoid: no head turning toward camera, walking, moon movement, glowing eyes, extra wolves, dissolves or cuts."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze18-12b-wycie-do-ksiezyca",
+        "shot:ze18-13-wreczenie-nagrody"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze18-12b-wycie-do-ksiezyca",
+          "key": "shot:zlote-emoji-18/ze18-12b-wycie-do-ksiezyca",
+          "type": "shot",
+          "id": "ze18-12b-wycie-do-ksiezyca",
+          "name": "II — Wycie do księżyca",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-12b-wycie-do-ksiezyca.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ze18-13-wreczenie-nagrody",
+          "key": "shot:zlote-emoji-18/ze18-13-wreczenie-nagrody",
+          "type": "shot",
+          "id": "ze18-13-wreczenie-nagrody",
+          "name": "III — Współczesność, barak DK",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-13-wreczenie-nagrody.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-11T15:11:21.018065+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:olivia-wilczyca",
+            "place:lasy-kozlowieckie-polana-1985",
+            "shot:ze18-09-wilczyca"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:olivia-wilczyca",
+              "key": "character:olivia-wilczyca",
+              "type": "character",
+              "id": "olivia-wilczyca",
+              "name": "Olivia — postać wilczycy",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/olivia-wilczyca.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "place:lasy-kozlowieckie-polana-1985",
+              "key": "place:lasy-kozlowieckie-polana-1985",
+              "type": "place",
+              "id": "lasy-kozlowieckie-polana-1985",
+              "name": "Lasy Kozłowieckie — droga i polana, 1985",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lasy-kozlowieckie-polana-1985.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ze18-09-wilczyca",
+              "key": "shot:zlote-emoji-18/ze18-09-wilczyca",
+              "type": "shot",
+              "id": "ze18-09-wilczyca",
+              "name": "II — To, co zobaczył",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-09-wilczyca.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-11-11T15:11:21.018065+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze18-12b-wycie-do-ksiezyca",
+            "shot:ze18-13-wreczenie-nagrody"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze18-12b-wycie-do-ksiezyca",
+              "key": "shot:zlote-emoji-18/ze18-12b-wycie-do-ksiezyca",
+              "type": "shot",
+              "id": "ze18-12b-wycie-do-ksiezyca",
+              "name": "II — Wycie do księżyca",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-12b-wycie-do-ksiezyca.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ze18-13-wreczenie-nagrody",
+              "key": "shot:zlote-emoji-18/ze18-13-wreczenie-nagrody",
+              "type": "shot",
+              "id": "ze18-13-wreczenie-nagrody",
+              "name": "III — Współczesność, barak DK",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-13-wreczenie-nagrody.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-18/shots/ze18-12b-wycie-do-ksiezyca/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-18/shots/ze18-12b-wycie-do-ksiezyca/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

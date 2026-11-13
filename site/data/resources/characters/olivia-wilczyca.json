@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "character:olivia-wilczyca",
+  "type": "characters",
+  "id": "olivia-wilczyca",
+  "name": "Olivia — postać wilczycy",
+  "description": "Wariant tej samej Olivii Dela Ossa do ZE18, decyzja użytkownika: bliżej wilczycy, na czterech łapach. Naturalna smukła sylwetka, grafitowo-czarne futro ze srebrnymi włosami na policzkach i karku, ciemne bursztynowo-brązowe oczy. Bez ludzkiej anatomii, ubrań i świecących oczu. Ten sam wygląd w lesie i duchowym odbiciu statuetki.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "silhouette",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/olivia-wilczyca/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/olivia-wilczyca/image-001-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-11-09T16:18:08.175897+00:00"
+}

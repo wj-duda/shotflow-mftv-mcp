@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "note:h26-barak-geometria",
+  "type": "notes",
+  "id": "h26-barak-geometria",
+  "name": "H26 — barak: metry, blocking i kamery",
+  "description": "Rzut ciągłości Halloween26Nagroda wyprowadzony z h26-01-barak v001, nadrzędnego mastera. Wymiary robocze, nie pomiar: wnętrze4,00x4,80m; blat2,80x1,00m na wysokości0,76m. Początek współrzędnych lewy tylny narożnik, x w prawo, y ku przodowi. Biurko x0,40–3,20 y1,65–2,65. Czesław(1,35;1,30), puste krzesło(2,40;1,25), H26(2,56;2,20), telefon(1,13;2,16), segregator(1,80;2,14). Pazur porusza się po przednim pasie y2,40–2,65 z prawej do lewej i wraca. Kamery po stronie petentów, nie przestawiać mebli dla kompozycji. Referencja geometrii, nie docelowa perspektywa. Obraz i metry obowiązują dla tej produkcji; nie zmieniają historycznych planów świata.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/h26-barak-geometria/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/h26-barak-geometria/image-001-thumb.webp",
+      "width": 1600,
+      "height": 1200,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-10-29T17:12:44.351556+00:00"
+}

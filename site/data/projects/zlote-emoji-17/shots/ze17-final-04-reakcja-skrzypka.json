@@ -1,0 +1,303 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-17/ze17-final-04-reakcja-skrzypka",
+  "id": "ze17-final-04-reakcja-skrzypka",
+  "title": "ZE17 — Reakcja skrzypka",
+  "description": "Finalne 3-sekundowe zbliżenie zamykające historię. Skrzypek kończy niewielki ruch smyczka, wychodzi ze skupienia, podnosi wzrok ku aniołowi poza prawą stroną kadru. Twarz łagodnieje w dyskretnym podziękowaniu. Bez sugerowania wiedzy o magicznym pochodzeniu monety.",
+  "project": {
+    "id": "zlote-emoji-17",
+    "key": "project:zlote-emoji-17",
+    "name": "Złote Emoji #17",
+    "createdAt": "2026-11-08T21:24:33.398Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-17",
+    "projectCreatedAt": "2026-11-08T21:24:33.398Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 24,
+    "lastSequence": 24,
+    "occurrences": [
+      24
+    ],
+    "sequenceTotal": 24,
+    "uniqueShotCount": 24,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "skrzypek"
+    },
+    {
+      "type": "shot",
+      "id": "ze17-ciagle-18-odsloniecie-skrzypka"
+    },
+    {
+      "type": "shot",
+      "id": "ze17-final-04-reakcja-skrzypka"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:skrzypek",
+        "key": "character:skrzypek",
+        "type": "character",
+        "id": "skrzypek",
+        "name": "Skrzypek — starszy muzyk z utworu Estebesa",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/skrzypek.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze17-ciagle-18-odsloniecie-skrzypka",
+        "key": "shot:zlote-emoji-17/ze17-ciagle-18-odsloniecie-skrzypka",
+        "type": "shot",
+        "id": "ze17-ciagle-18-odsloniecie-skrzypka",
+        "name": "ZE17 18 — odsloniecie skrzypka",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-18-odsloniecie-skrzypka.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze17-final-04-reakcja-skrzypka",
+        "key": "shot:zlote-emoji-17/ze17-final-04-reakcja-skrzypka",
+        "type": "shot",
+        "id": "ze17-final-04-reakcja-skrzypka",
+        "name": "ZE17 — Reakcja skrzypka",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-final-04-reakcja-skrzypka.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "character:skrzypek",
+          "shot:ze17-ciagle-18-odsloniecie-skrzypka"
+        ],
+        "references": [
+          {
+            "sourceKey": "character:skrzypek",
+            "key": "character:skrzypek",
+            "type": "character",
+            "id": "skrzypek",
+            "name": "Skrzypek — starszy muzyk z utworu Estebesa",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/skrzypek.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:ze17-ciagle-18-odsloniecie-skrzypka",
+            "key": "shot:zlote-emoji-17/ze17-ciagle-18-odsloniecie-skrzypka",
+            "type": "shot",
+            "id": "ze17-ciagle-18-odsloniecie-skrzypka",
+            "name": "ZE17 18 — odsloniecie skrzypka",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-18-odsloniecie-skrzypka.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      },
+      {
+        "frameId": "frame-end",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:ze17-final-04-reakcja-skrzypka",
+          "character:skrzypek"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze17-final-04-reakcja-skrzypka",
+            "key": "shot:zlote-emoji-17/ze17-final-04-reakcja-skrzypka",
+            "type": "shot",
+            "id": "ze17-final-04-reakcja-skrzypka",
+            "name": "ZE17 — Reakcja skrzypka",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-final-04-reakcja-skrzypka.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:skrzypek",
+            "key": "character:skrzypek",
+            "type": "character",
+            "id": "skrzypek",
+            "name": "Skrzypek — starszy muzyk z utworu Estebesa",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/skrzypek.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Generate a NEW photorealistic widescreen 16:9 film still, the beginning of the final reaction close-up of the OLD VIOLINIST. Image1 is mandatory exact violinist identity: thin elongated deeply lined elderly face, strong nose, clean shaven, grey wisps at ears, dark tweed flat cap, dark heavy wool coat and brown wooden violin. Image2 locks the existing railway pedestrian underpass grey-beige large wall panels and restrained warm practical light with cool fill. Deliberate cut to a close-up from just below shoulders to above cap, entire head visible, elderly face is main subject, 85mm eye-level perspective. Camera sees a nearly frontal three-quarter face angled slightly screen left, not his back or full profile. Violin remains naturally tucked under LEFT side of chin and spans the lower foreground, neck points screen left. Only enough bow and hands at lower edges to show normal playing position; anatomically correct left hand on neck, right hand bow grip if visible. His eyes are almost closed and down toward the strings, deeply absorbed in playing, still face and neutral closed mouth, tired concentration, not sadness or smiling. He is finishing the last small bow stroke. Leave room for his eyes to lift slightly toward screen right toward the offscreen donor, without a large head turn. Background softly blurred same station wall, no another person, no visible hat on floor in this crop. Keep natural skin and real worn cloth, restrained neutral colour grading. No angel, feather, coin, halo, tears, lettering or watermark.",
+    "endFrameDescription": "Skrzypek podniósł wzrok ku aniołowi; subtelny, zamknięty półuśmiech. Skrzypce pod brodą, smyczek spokojny.",
+    "animation": "0-0.8s: The violinist completes one short gentle bow stroke and rests the bow on the strings. 0.8-2s: His eyes lift toward the offscreen donor at SCREEN RIGHT; his chin rises a little, keeping the violin against the chinrest. 2-3s: His brow releases its tension, eyelids soften and one corner of his closed mouth rises slightly into quiet gratitude; settle into the supplied End Frame. Camera locked. @Image1 provides only the existing elderly musician's identity, cap and coat; ignore its train, outdoor background and lettering. Preserve violin, bow, natural hands, face proportions and station lighting. No broad grin, teeth, tears, amazement, speech, large head turn, duplicate person, instrument morph, extra fingers or internal cut."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "character:skrzypek",
+        "shot:ze17-ciagle-18-odsloniecie-skrzypka"
+      ],
+      "references": [
+        {
+          "sourceKey": "character:skrzypek",
+          "key": "character:skrzypek",
+          "type": "character",
+          "id": "skrzypek",
+          "name": "Skrzypek — starszy muzyk z utworu Estebesa",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/skrzypek.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ze17-ciagle-18-odsloniecie-skrzypka",
+          "key": "shot:zlote-emoji-17/ze17-ciagle-18-odsloniecie-skrzypka",
+          "type": "shot",
+          "id": "ze17-ciagle-18-odsloniecie-skrzypka",
+          "name": "ZE17 18 — odsloniecie skrzypka",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-18-odsloniecie-skrzypka.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-09T01:33:46.648928+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:skrzypek",
+            "shot:ze17-ciagle-18-odsloniecie-skrzypka"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:skrzypek",
+              "key": "character:skrzypek",
+              "type": "character",
+              "id": "skrzypek",
+              "name": "Skrzypek — starszy muzyk z utworu Estebesa",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/skrzypek.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ze17-ciagle-18-odsloniecie-skrzypka",
+              "key": "shot:zlote-emoji-17/ze17-ciagle-18-odsloniecie-skrzypka",
+              "type": "shot",
+              "id": "ze17-ciagle-18-odsloniecie-skrzypka",
+              "name": "ZE17 18 — odsloniecie skrzypka",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-18-odsloniecie-skrzypka.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-final-04-reakcja-skrzypka/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-final-04-reakcja-skrzypka/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "role": "frame-end",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze17-final-04-reakcja-skrzypka",
+        "character:skrzypek"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze17-final-04-reakcja-skrzypka",
+          "key": "shot:zlote-emoji-17/ze17-final-04-reakcja-skrzypka",
+          "type": "shot",
+          "id": "ze17-final-04-reakcja-skrzypka",
+          "name": "ZE17 — Reakcja skrzypka",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-final-04-reakcja-skrzypka.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:skrzypek",
+          "key": "character:skrzypek",
+          "type": "character",
+          "id": "skrzypek",
+          "name": "Skrzypek — starszy muzyk z utworu Estebesa",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/skrzypek.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-09T01:33:48.337045+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze17-final-04-reakcja-skrzypka",
+            "character:skrzypek"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze17-final-04-reakcja-skrzypka",
+              "key": "shot:zlote-emoji-17/ze17-final-04-reakcja-skrzypka",
+              "type": "shot",
+              "id": "ze17-final-04-reakcja-skrzypka",
+              "name": "ZE17 — Reakcja skrzypka",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-final-04-reakcja-skrzypka.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:skrzypek",
+              "key": "character:skrzypek",
+              "type": "character",
+              "id": "skrzypek",
+              "name": "Skrzypek — starszy muzyk z utworu Estebesa",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/skrzypek.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-final-04-reakcja-skrzypka/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-final-04-reakcja-skrzypka/frame-end-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

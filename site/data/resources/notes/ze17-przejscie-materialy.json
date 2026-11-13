@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "note:ze17-przejscie-materialy",
+  "type": "notes",
+  "id": "ze17-przejscie-materialy",
+  "name": "ZE17 — materiały przejścia",
+  "description": "Fotografia rzeczywistego przejścia w Poznaniu. Tylko materiały kamienia, lastryka i poręczy. Scenografia i kamera z First/Last; nie kopiować napisów ani geometrii tej fotografii.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/ze17-przejscie-materialy/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/ze17-przejscie-materialy/image-001-thumb.webp",
+      "width": 1024,
+      "height": 768,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-11-09T00:22:05.587932+00:00"
+}

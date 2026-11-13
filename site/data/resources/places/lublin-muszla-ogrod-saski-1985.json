@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "place:lublin-muszla-ogrod-saski-1985",
+  "type": "places",
+  "id": "lublin-muszla-ogrod-saski-1985",
+  "name": "Lublin — muszla Ogrodu Saskiego, 1985",
+  "description": "Rekonstrukcja filmowa otoczenia muszli Ogrodu Saskiego po koncercie Lubelskich Spotkań Folklorystycznych, lato 1985. Czesław jest współorganizatorem festiwalu. Scena po lewej, boczna alejka po prawej. Bryła oparta na zdjęciu z remontu 2019; wykończenie, sprzęt, ławki i nocne światło są interpretacją epoki, nie udokumentowanym wyglądem z konkretnego dnia. Pełnia jest założeniem fabuły, data nieustalona.\nKOREKTA ZE18: obiekt utrzymany i użytkowany w 1985: cały jasny tynk, pomalowana fasada, zadbane drewno. Wcześniejsze zniszczenia nie są potwierdzone dla 1985 i nie obowiązują. To decyzja scenograficzna, nie twierdzenie o udokumentowanym remoncie. Obowiązuje image-002.png.",
+  "images": [
+    {
+      "id": "image-002",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/lublin-muszla-ogrod-saski-1985/image-002.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/lublin-muszla-ogrod-saski-1985/image-002-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-11-09T15:49:55.599173+00:00"
+}

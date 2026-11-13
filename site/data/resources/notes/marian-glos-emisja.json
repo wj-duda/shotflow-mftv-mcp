@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "note:marian-glos-emisja",
+  "type": "notes",
+  "id": "marian-glos-emisja",
+  "name": "Marian — publiczny podpis głosu na emisji",
+  "description": "Rzeczywisty komponent LiveReactionToast.svelte z lokalnego repo /home/ojciech/atv/panel. Renderowany w przeglądarce z kontrolowanymi danymi demonstracyjnymi authorName=Marian, sześć reakcji 🔥. Powiększony detal na neutralnym tle do rolki; nie jest zapisem rzeczywistej audycji ani transakcji. Logika pre-marian w chatvibe.ts zastępuje publiczny handle słowem Marian. Nie oznacza anonimowości wewnętrznego konta. Dokumentacja przechwycenia: projects/marian-rolka/_system/ui-live-v001/capture-record.json.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/marian-glos-emisja/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/marian-glos-emisja/image-001-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-10-30T12:27:53.032052+00:00"
+}

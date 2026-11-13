@@ -1,0 +1,250 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-17/ze17-final-00-ostatnia-fraza-skrzypka",
+  "id": "ze17-final-00-ostatnia-fraza-skrzypka",
+  "title": "ZE17 - Ostatnia fraza skrzypka",
+  "description": "Trzy sekundy zblizenia skrzypka przeciagajacego ostatnia fraze. Ciecie po stala-sciana, przed reakcja aniola.",
+  "project": {
+    "id": "zlote-emoji-17",
+    "key": "project:zlote-emoji-17",
+    "name": "Złote Emoji #17",
+    "createdAt": "2026-11-08T21:24:33.398Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-17",
+    "projectCreatedAt": "2026-11-08T21:24:33.398Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 19,
+    "lastSequence": 19,
+    "occurrences": [
+      19
+    ],
+    "sequenceTotal": 24,
+    "uniqueShotCount": 24,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "ze17-final-04-reakcja-skrzypka"
+    },
+    {
+      "type": "character",
+      "id": "skrzypek"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:ze17-final-04-reakcja-skrzypka",
+        "key": "shot:zlote-emoji-17/ze17-final-04-reakcja-skrzypka",
+        "type": "shot",
+        "id": "ze17-final-04-reakcja-skrzypka",
+        "name": "ZE17 — Reakcja skrzypka",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-final-04-reakcja-skrzypka.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:skrzypek",
+        "key": "character:skrzypek",
+        "type": "character",
+        "id": "skrzypek",
+        "name": "Skrzypek — starszy muzyk z utworu Estebesa",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/skrzypek.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:ze17-final-04-reakcja-skrzypka"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze17-final-04-reakcja-skrzypka",
+            "key": "shot:zlote-emoji-17/ze17-final-04-reakcja-skrzypka",
+            "type": "shot",
+            "id": "ze17-final-04-reakcja-skrzypka",
+            "name": "ZE17 — Reakcja skrzypka",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-final-04-reakcja-skrzypka.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": {
+          "sourceKey": "shot:ze17-final-04-reakcja-skrzypka",
+          "key": "shot:zlote-emoji-17/ze17-final-04-reakcja-skrzypka",
+          "type": "shot",
+          "id": "ze17-final-04-reakcja-skrzypka",
+          "name": "ZE17 — Reakcja skrzypka",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-final-04-reakcja-skrzypka.json",
+          "exists": true
+        }
+      },
+      {
+        "frameId": "frame-end",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:ze17-final-04-reakcja-skrzypka"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze17-final-04-reakcja-skrzypka",
+            "key": "shot:zlote-emoji-17/ze17-final-04-reakcja-skrzypka",
+            "type": "shot",
+            "id": "ze17-final-04-reakcja-skrzypka",
+            "name": "ZE17 — Reakcja skrzypka",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-final-04-reakcja-skrzypka.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Reuse the existing approved close-up Start Frame of ze17-final-04-reakcja-skrzypka",
+    "endFrameDescription": "Koniec długiego pociągnięcia smyczkiem; skrzypek nadal patrzy w dół, skupiony.",
+    "animation": "0-2.2s: The violinist actively fingers the final phrase: on the visible LEFT hand at SCREEN LEFT, the middle and ring fingertips alternately lift 5-8 mm and press the strings against the fingerboard, making three distinct successive fingering changes. The index finger anchors the position; thumb supports the neck. Fingers curl naturally from their knuckles, never slide through the strings. Simultaneously his right arm draws one steady down-bow diagonally toward lower SCREEN RIGHT. 2.2-3s: The final stopped fingertip rocks gently in visible vibrato as the bow slows toward the supplied End Frame. Camera locked; eyes down, expression absorbed. @Image1 supplies only the existing musician's identity and clothing. Preserve violin, hand anatomy and lighting. No frozen fingering, waving whole hand, extra fingers, instrument distortion, smile or cut."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "imported",
+      "referenceKeys": [
+        "shot:ze17-final-04-reakcja-skrzypka"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze17-final-04-reakcja-skrzypka",
+          "key": "shot:zlote-emoji-17/ze17-final-04-reakcja-skrzypka",
+          "type": "shot",
+          "id": "ze17-final-04-reakcja-skrzypka",
+          "name": "ZE17 — Reakcja skrzypka",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-final-04-reakcja-skrzypka.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": {
+        "sourceKey": "shot:ze17-final-04-reakcja-skrzypka",
+        "key": "shot:zlote-emoji-17/ze17-final-04-reakcja-skrzypka",
+        "type": "shot",
+        "id": "ze17-final-04-reakcja-skrzypka",
+        "name": "ZE17 — Reakcja skrzypka",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-final-04-reakcja-skrzypka.json",
+        "exists": true
+      },
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-09T16:58:00.302426+00:00",
+          "source": "imported",
+          "referenceKeys": [
+            "shot:ze17-final-04-reakcja-skrzypka"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze17-final-04-reakcja-skrzypka",
+              "key": "shot:zlote-emoji-17/ze17-final-04-reakcja-skrzypka",
+              "type": "shot",
+              "id": "ze17-final-04-reakcja-skrzypka",
+              "name": "ZE17 — Reakcja skrzypka",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-final-04-reakcja-skrzypka.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": {
+            "sourceKey": "shot:ze17-final-04-reakcja-skrzypka",
+            "key": "shot:zlote-emoji-17/ze17-final-04-reakcja-skrzypka",
+            "type": "shot",
+            "id": "ze17-final-04-reakcja-skrzypka",
+            "name": "ZE17 — Reakcja skrzypka",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-final-04-reakcja-skrzypka.json",
+            "exists": true
+          }
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-final-00-ostatnia-fraza-skrzypka/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-final-00-ostatnia-fraza-skrzypka/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "role": "frame-end",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze17-final-04-reakcja-skrzypka"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze17-final-04-reakcja-skrzypka",
+          "key": "shot:zlote-emoji-17/ze17-final-04-reakcja-skrzypka",
+          "type": "shot",
+          "id": "ze17-final-04-reakcja-skrzypka",
+          "name": "ZE17 — Reakcja skrzypka",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-final-04-reakcja-skrzypka.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-09T16:58:00.302426+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze17-final-04-reakcja-skrzypka"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze17-final-04-reakcja-skrzypka",
+              "key": "shot:zlote-emoji-17/ze17-final-04-reakcja-skrzypka",
+              "type": "shot",
+              "id": "ze17-final-04-reakcja-skrzypka",
+              "name": "ZE17 — Reakcja skrzypka",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-final-04-reakcja-skrzypka.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-final-00-ostatnia-fraza-skrzypka/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-final-00-ostatnia-fraza-skrzypka/frame-end-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

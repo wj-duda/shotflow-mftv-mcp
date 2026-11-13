@@ -1,0 +1,289 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-17/ze17-ciagle-17-ladowanie-piora",
+  "id": "ze17-ciagle-17-ladowanie-piora",
+  "title": "ZE17 17 — ciagle 17 ladowanie piora",
+  "description": "Fragment 17/18 jednego ciągłego ujęcia. First f0769 → Last f0817. 3 s, 24 fps, normalne tempo 1×; bez przyspieszania. Pozycja w sekwencji: 48–51 s. Last jest identyczny plikowo z First następnego shota. Lądowanie i obecność pióra w obrazie — odcinek Kling. Wybrane obrazy zachowują różnice odnotowane w _system/clean-plates-v001/pair-audit-v003.json; przygotowanie shota nie oznacza zatwierdzenia wszystkich detali.",
+  "project": {
+    "id": "zlote-emoji-17",
+    "key": "project:zlote-emoji-17",
+    "name": "Złote Emoji #17",
+    "createdAt": "2026-11-08T21:24:33.398Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-17",
+    "projectCreatedAt": "2026-11-08T21:24:33.398Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": false,
+    "canonicalEvent": false,
+    "sequence": null,
+    "lastSequence": null,
+    "occurrences": [],
+    "sequenceTotal": 24,
+    "uniqueShotCount": 24,
+    "sequenceOrder": null,
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This project material is not present on the saved timeline, so it must not override canonical timeline events by date alone."
+  },
+  "references": [
+    {
+      "type": "note",
+      "id": "ze17-aniol-ludzki-wyglad"
+    },
+    {
+      "type": "note",
+      "id": "ze17-pioro-biale"
+    },
+    {
+      "type": "shot",
+      "id": "ze17-ciagle-17-ladowanie-piora"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "note:ze17-aniol-ludzki-wyglad",
+        "key": "note:ze17-aniol-ludzki-wyglad",
+        "type": "note",
+        "id": "ze17-aniol-ludzki-wyglad",
+        "name": "ZE17 — anioł w ludzkim przebraniu",
+        "relationship": "story-and-continuity-context",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze17-aniol-ludzki-wyglad.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "note:ze17-pioro-biale",
+        "key": "note:ze17-pioro-biale",
+        "type": "note",
+        "id": "ze17-pioro-biale",
+        "name": "ZE17 — białe pióro do ciągłości",
+        "relationship": "story-and-continuity-context",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze17-pioro-biale.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze17-ciagle-17-ladowanie-piora",
+        "key": "shot:zlote-emoji-17/ze17-ciagle-17-ladowanie-piora",
+        "type": "shot",
+        "id": "ze17-ciagle-17-ladowanie-piora",
+        "name": "ZE17 17 — ciagle 17 ladowanie piora",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-17-ladowanie-piora.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "shot:ze17-ciagle-17-ladowanie-piora"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze17-ciagle-17-ladowanie-piora",
+            "key": "shot:zlote-emoji-17/ze17-ciagle-17-ladowanie-piora",
+            "type": "shot",
+            "id": "ze17-ciagle-17-ladowanie-piora",
+            "name": "ZE17 17 — ciagle 17 ladowanie piora",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-17-ladowanie-piora.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      },
+      {
+        "frameId": "frame-end",
+        "revision": 1,
+        "referenceKeys": [
+          "note:ze17-aniol-ludzki-wyglad",
+          "note:ze17-pioro-biale"
+        ],
+        "references": [
+          {
+            "sourceKey": "note:ze17-aniol-ludzki-wyglad",
+            "key": "note:ze17-aniol-ludzki-wyglad",
+            "type": "note",
+            "id": "ze17-aniol-ludzki-wyglad",
+            "name": "ZE17 — anioł w ludzkim przebraniu",
+            "relationship": "story-and-continuity-context",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze17-aniol-ludzki-wyglad.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "note:ze17-pioro-biale",
+            "key": "note:ze17-pioro-biale",
+            "type": "note",
+            "id": "ze17-pioro-biale",
+            "name": "ZE17 — białe pióro do ciągłości",
+            "relationship": "story-and-continuity-context",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze17-pioro-biale.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Deterministic alpha composite: unchanged approved landing Start Frame plus exact Blender feather alpha frame 1151 at original 1920x1080 position, scale, color. No generative edit. Matches final composited frame of preceding shot.",
+    "endFrameDescription": "Wspólna klatka graniczna f0817; dokładne zakończenie segmentu i początek następnego.",
+    "animation": "0-2.5s: The single foreground feather is already visible beside the listener. A small air eddy lifts it slightly toward screen left as it rolls from upright to nearly horizontal, drifts away from the lens and settles gently onto his left shoulder at the supplied End Frame position. Its apparent size decreases with distance, not by changing physical size. 2.5-3s: it rests on the coat. Camera: continue the descending forward approach to the shoulder through the entire shot. The listener remains planted, arms down. Preserve hair, coat, wall geometry and lighting. @Image1: listener identity and clothing only; no umbrella. No second feather, reaching, glow, cuts or morphs."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "video-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze17-ciagle-17-ladowanie-piora"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze17-ciagle-17-ladowanie-piora",
+          "key": "shot:zlote-emoji-17/ze17-ciagle-17-ladowanie-piora",
+          "type": "shot",
+          "id": "ze17-ciagle-17-ladowanie-piora",
+          "name": "ZE17 17 — ciagle 17 ladowanie piora",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-17-ladowanie-piora.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-09T00:22:05.587932+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "note:ze17-aniol-ludzki-wyglad"
+          ],
+          "references": [
+            {
+              "sourceKey": "note:ze17-aniol-ludzki-wyglad",
+              "key": "note:ze17-aniol-ludzki-wyglad",
+              "type": "note",
+              "id": "ze17-aniol-ludzki-wyglad",
+              "name": "ZE17 — anioł w ludzkim przebraniu",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze17-aniol-ludzki-wyglad.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-11-09T01:40:44.180991+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze17-ciagle-17-ladowanie-piora"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze17-ciagle-17-ladowanie-piora",
+              "key": "shot:zlote-emoji-17/ze17-ciagle-17-ladowanie-piora",
+              "type": "shot",
+              "id": "ze17-ciagle-17-ladowanie-piora",
+              "name": "ZE17 17 — ciagle 17 ladowanie piora",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-17-ladowanie-piora.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-ciagle-17-ladowanie-piora/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-ciagle-17-ladowanie-piora/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "role": "frame-end",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "note:ze17-aniol-ludzki-wyglad",
+        "note:ze17-pioro-biale"
+      ],
+      "references": [
+        {
+          "sourceKey": "note:ze17-aniol-ludzki-wyglad",
+          "key": "note:ze17-aniol-ludzki-wyglad",
+          "type": "note",
+          "id": "ze17-aniol-ludzki-wyglad",
+          "name": "ZE17 — anioł w ludzkim przebraniu",
+          "relationship": "story-and-continuity-context",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze17-aniol-ludzki-wyglad.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "note:ze17-pioro-biale",
+          "key": "note:ze17-pioro-biale",
+          "type": "note",
+          "id": "ze17-pioro-biale",
+          "name": "ZE17 — białe pióro do ciągłości",
+          "relationship": "story-and-continuity-context",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze17-pioro-biale.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-09T00:22:05.587932+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "note:ze17-aniol-ludzki-wyglad",
+            "note:ze17-pioro-biale"
+          ],
+          "references": [
+            {
+              "sourceKey": "note:ze17-aniol-ludzki-wyglad",
+              "key": "note:ze17-aniol-ludzki-wyglad",
+              "type": "note",
+              "id": "ze17-aniol-ludzki-wyglad",
+              "name": "ZE17 — anioł w ludzkim przebraniu",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze17-aniol-ludzki-wyglad.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "note:ze17-pioro-biale",
+              "key": "note:ze17-pioro-biale",
+              "type": "note",
+              "id": "ze17-pioro-biale",
+              "name": "ZE17 — białe pióro do ciągłości",
+              "relationship": "story-and-continuity-context",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze17-pioro-biale.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-ciagle-17-ladowanie-piora/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-ciagle-17-ladowanie-piora/frame-end-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

@@ -1,0 +1,359 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-17/ze17-ciagle-12-stale-zejscie",
+  "id": "ze17-ciagle-12-stale-zejscie",
+  "title": "ze17-ciagle-12-stale-zejscie",
+  "description": "Naprawa ciągłości 33–36 s. Rzeczywisty film Kling v4. Referencje, pełny payload i pochodzenie: _system/continuity-repair-v004/stairs-entry-v2/. Dokładnie 72 klatki, bez shiftu; oryginalne pliki zachowane. Fragment jednego rzeczywistego filmu obejmującego całe zejście 30–42 s. Materiał 3 s zwolniony czterokrotnie do 12 s z interpolacją ruchu, potem fizycznie podzielony na cztery pliki po 72 klatki; bez shiftu. Pochodzenie: stairs-entry-v2; przetwarzanie: descent-continuous.",
+  "project": {
+    "id": "zlote-emoji-17",
+    "key": "project:zlote-emoji-17",
+    "name": "Złote Emoji #17",
+    "createdAt": "2026-11-08T21:24:33.398Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-17",
+    "projectCreatedAt": "2026-11-08T21:24:33.398Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 12,
+    "lastSequence": 12,
+    "occurrences": [
+      12
+    ],
+    "sequenceTotal": 24,
+    "uniqueShotCount": 24,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "take",
+      "id": "ze17-ciagle-09-most-do-torow/take-2"
+    },
+    {
+      "type": "take",
+      "id": "ze17-ciagle-15-aniol-od-tylu/take-2"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "take:ze17-ciagle-09-most-do-torow/take-2",
+        "key": "take:zlote-emoji-17/ze17-ciagle-09-most-do-torow/take-2",
+        "type": "take",
+        "id": "ze17-ciagle-09-most-do-torow/take-2",
+        "name": "ZE17 09 — most do torow / take-2",
+        "relationship": "visible-state-from-take",
+        "shotKey": "shot:zlote-emoji-17/ze17-ciagle-09-most-do-torow",
+        "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-09-most-do-torow.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "take:ze17-ciagle-15-aniol-od-tylu/take-2",
+        "key": "take:zlote-emoji-17/ze17-ciagle-15-aniol-od-tylu/take-2",
+        "type": "take",
+        "id": "ze17-ciagle-15-aniol-od-tylu/take-2",
+        "name": "ZE17 15 — aniol od tylu / take-2",
+        "relationship": "visible-state-from-take",
+        "shotKey": "shot:zlote-emoji-17/ze17-ciagle-15-aniol-od-tylu",
+        "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-15-aniol-od-tylu.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "take:ze17-ciagle-12-stale-zejscie/take-1"
+        ],
+        "references": [
+          {
+            "sourceKey": "take:ze17-ciagle-12-stale-zejscie/take-1",
+            "key": "take:zlote-emoji-17/ze17-ciagle-12-stale-zejscie/take-1",
+            "type": "take",
+            "id": "ze17-ciagle-12-stale-zejscie/take-1",
+            "name": "ze17-ciagle-12-stale-zejscie / take-1",
+            "relationship": "visible-state-from-take",
+            "shotKey": "shot:zlote-emoji-17/ze17-ciagle-12-stale-zejscie",
+            "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-12-stale-zejscie.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": {
+          "sourceKey": "take:ze17-ciagle-12-stale-zejscie/take-1",
+          "key": "take:zlote-emoji-17/ze17-ciagle-12-stale-zejscie/take-1",
+          "type": "take",
+          "id": "ze17-ciagle-12-stale-zejscie/take-1",
+          "name": "ze17-ciagle-12-stale-zejscie / take-1",
+          "relationship": "visible-state-from-take",
+          "shotKey": "shot:zlote-emoji-17/ze17-ciagle-12-stale-zejscie",
+          "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-12-stale-zejscie.json",
+          "exists": true
+        }
+      },
+      {
+        "frameId": "frame-end",
+        "revision": 2,
+        "referenceKeys": [
+          "take:ze17-ciagle-12-stale-zejscie/take-1"
+        ],
+        "references": [
+          {
+            "sourceKey": "take:ze17-ciagle-12-stale-zejscie/take-1",
+            "key": "take:zlote-emoji-17/ze17-ciagle-12-stale-zejscie/take-1",
+            "type": "take",
+            "id": "ze17-ciagle-12-stale-zejscie/take-1",
+            "name": "ze17-ciagle-12-stale-zejscie / take-1",
+            "relationship": "visible-state-from-take",
+            "shotKey": "shot:zlote-emoji-17/ze17-ciagle-12-stale-zejscie",
+            "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-12-stale-zejscie.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": {
+          "sourceKey": "take:ze17-ciagle-12-stale-zejscie/take-1",
+          "key": "take:zlote-emoji-17/ze17-ciagle-12-stale-zejscie/take-1",
+          "type": "take",
+          "id": "ze17-ciagle-12-stale-zejscie/take-1",
+          "name": "ze17-ciagle-12-stale-zejscie / take-1",
+          "relationship": "visible-state-from-take",
+          "shotKey": "shot:zlote-emoji-17/ze17-ciagle-12-stale-zejscie",
+          "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-12-stale-zejscie.json",
+          "exists": true
+        }
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Exact decoded visible frame 0 of take-1; preserved input for Kling O3 repair.",
+    "endFrameDescription": "Ostatnia widoczna klatka istniejącego take-1; zachowana do naprawy schodów.",
+    "animation": "0-3s: One continuous forward-and-downward camera glide along the existing open staircase, already moving from the first frame, reaching the exact End Frame without stopping. The staircase is rigid stationary masonry: preserve every existing straight tread edge, equal riser height, tread depth and parallel spacing in world space. Steps never grow, sink, slide, merge, split or ripple; nearer steps leave the bottom of the view only because the camera passes above them. Wall corners, handrails, mounting brackets, lintel and rear pilaster remain fixed; only perspective and occlusion change, not a digital zoom or warp. The same man stands on the landing with subtle breathing and no steps. @Image1 locks the same landing, walls, rails and man from the adjacent view; do not snap to that view. Preserve steady warm-left/cool-right lighting. No new people, extra limbs, moving shadows, morphing, freezes, cuts, captions or watermarks."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "video-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 2,
+      "source": "imported",
+      "referenceKeys": [
+        "take:ze17-ciagle-12-stale-zejscie/take-1"
+      ],
+      "references": [
+        {
+          "sourceKey": "take:ze17-ciagle-12-stale-zejscie/take-1",
+          "key": "take:zlote-emoji-17/ze17-ciagle-12-stale-zejscie/take-1",
+          "type": "take",
+          "id": "ze17-ciagle-12-stale-zejscie/take-1",
+          "name": "ze17-ciagle-12-stale-zejscie / take-1",
+          "relationship": "visible-state-from-take",
+          "shotKey": "shot:zlote-emoji-17/ze17-ciagle-12-stale-zejscie",
+          "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-12-stale-zejscie.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": {
+        "sourceKey": "take:ze17-ciagle-12-stale-zejscie/take-1",
+        "key": "take:zlote-emoji-17/ze17-ciagle-12-stale-zejscie/take-1",
+        "type": "take",
+        "id": "ze17-ciagle-12-stale-zejscie/take-1",
+        "name": "ze17-ciagle-12-stale-zejscie / take-1",
+        "relationship": "visible-state-from-take",
+        "shotKey": "shot:zlote-emoji-17/ze17-ciagle-12-stale-zejscie",
+        "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-12-stale-zejscie.json",
+        "exists": true
+      },
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-09T15:50:56.837466+00:00",
+          "source": "imported",
+          "referenceKeys": [
+            "take:ze17-ciagle-09-most-do-torow/take-2",
+            "take:ze17-ciagle-15-aniol-od-tylu/take-2"
+          ],
+          "references": [
+            {
+              "sourceKey": "take:ze17-ciagle-09-most-do-torow/take-2",
+              "key": "take:zlote-emoji-17/ze17-ciagle-09-most-do-torow/take-2",
+              "type": "take",
+              "id": "ze17-ciagle-09-most-do-torow/take-2",
+              "name": "ZE17 09 — most do torow / take-2",
+              "relationship": "visible-state-from-take",
+              "shotKey": "shot:zlote-emoji-17/ze17-ciagle-09-most-do-torow",
+              "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-09-most-do-torow.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "take:ze17-ciagle-15-aniol-od-tylu/take-2",
+              "key": "take:zlote-emoji-17/ze17-ciagle-15-aniol-od-tylu/take-2",
+              "type": "take",
+              "id": "ze17-ciagle-15-aniol-od-tylu/take-2",
+              "name": "ZE17 15 — aniol od tylu / take-2",
+              "relationship": "visible-state-from-take",
+              "shotKey": "shot:zlote-emoji-17/ze17-ciagle-15-aniol-od-tylu",
+              "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-15-aniol-od-tylu.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-11-11T11:07:35.392169+00:00",
+          "source": "imported",
+          "referenceKeys": [
+            "take:ze17-ciagle-12-stale-zejscie/take-1"
+          ],
+          "references": [
+            {
+              "sourceKey": "take:ze17-ciagle-12-stale-zejscie/take-1",
+              "key": "take:zlote-emoji-17/ze17-ciagle-12-stale-zejscie/take-1",
+              "type": "take",
+              "id": "ze17-ciagle-12-stale-zejscie/take-1",
+              "name": "ze17-ciagle-12-stale-zejscie / take-1",
+              "relationship": "visible-state-from-take",
+              "shotKey": "shot:zlote-emoji-17/ze17-ciagle-12-stale-zejscie",
+              "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-12-stale-zejscie.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": {
+            "sourceKey": "take:ze17-ciagle-12-stale-zejscie/take-1",
+            "key": "take:zlote-emoji-17/ze17-ciagle-12-stale-zejscie/take-1",
+            "type": "take",
+            "id": "ze17-ciagle-12-stale-zejscie/take-1",
+            "name": "ze17-ciagle-12-stale-zejscie / take-1",
+            "relationship": "visible-state-from-take",
+            "shotKey": "shot:zlote-emoji-17/ze17-ciagle-12-stale-zejscie",
+            "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-12-stale-zejscie.json",
+            "exists": true
+          }
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-ciagle-12-stale-zejscie/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-ciagle-12-stale-zejscie/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "role": "frame-end",
+      "revision": 2,
+      "source": "imported",
+      "referenceKeys": [
+        "take:ze17-ciagle-12-stale-zejscie/take-1"
+      ],
+      "references": [
+        {
+          "sourceKey": "take:ze17-ciagle-12-stale-zejscie/take-1",
+          "key": "take:zlote-emoji-17/ze17-ciagle-12-stale-zejscie/take-1",
+          "type": "take",
+          "id": "ze17-ciagle-12-stale-zejscie/take-1",
+          "name": "ze17-ciagle-12-stale-zejscie / take-1",
+          "relationship": "visible-state-from-take",
+          "shotKey": "shot:zlote-emoji-17/ze17-ciagle-12-stale-zejscie",
+          "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-12-stale-zejscie.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": {
+        "sourceKey": "take:ze17-ciagle-12-stale-zejscie/take-1",
+        "key": "take:zlote-emoji-17/ze17-ciagle-12-stale-zejscie/take-1",
+        "type": "take",
+        "id": "ze17-ciagle-12-stale-zejscie/take-1",
+        "name": "ze17-ciagle-12-stale-zejscie / take-1",
+        "relationship": "visible-state-from-take",
+        "shotKey": "shot:zlote-emoji-17/ze17-ciagle-12-stale-zejscie",
+        "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-12-stale-zejscie.json",
+        "exists": true
+      },
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-09T15:50:56.837466+00:00",
+          "source": "imported",
+          "referenceKeys": [
+            "take:ze17-ciagle-09-most-do-torow/take-2",
+            "take:ze17-ciagle-15-aniol-od-tylu/take-2"
+          ],
+          "references": [
+            {
+              "sourceKey": "take:ze17-ciagle-09-most-do-torow/take-2",
+              "key": "take:zlote-emoji-17/ze17-ciagle-09-most-do-torow/take-2",
+              "type": "take",
+              "id": "ze17-ciagle-09-most-do-torow/take-2",
+              "name": "ZE17 09 — most do torow / take-2",
+              "relationship": "visible-state-from-take",
+              "shotKey": "shot:zlote-emoji-17/ze17-ciagle-09-most-do-torow",
+              "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-09-most-do-torow.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "take:ze17-ciagle-15-aniol-od-tylu/take-2",
+              "key": "take:zlote-emoji-17/ze17-ciagle-15-aniol-od-tylu/take-2",
+              "type": "take",
+              "id": "ze17-ciagle-15-aniol-od-tylu/take-2",
+              "name": "ZE17 15 — aniol od tylu / take-2",
+              "relationship": "visible-state-from-take",
+              "shotKey": "shot:zlote-emoji-17/ze17-ciagle-15-aniol-od-tylu",
+              "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-15-aniol-od-tylu.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-11-11T11:07:35.392169+00:00",
+          "source": "imported",
+          "referenceKeys": [
+            "take:ze17-ciagle-12-stale-zejscie/take-1"
+          ],
+          "references": [
+            {
+              "sourceKey": "take:ze17-ciagle-12-stale-zejscie/take-1",
+              "key": "take:zlote-emoji-17/ze17-ciagle-12-stale-zejscie/take-1",
+              "type": "take",
+              "id": "ze17-ciagle-12-stale-zejscie/take-1",
+              "name": "ze17-ciagle-12-stale-zejscie / take-1",
+              "relationship": "visible-state-from-take",
+              "shotKey": "shot:zlote-emoji-17/ze17-ciagle-12-stale-zejscie",
+              "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-12-stale-zejscie.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": {
+            "sourceKey": "take:ze17-ciagle-12-stale-zejscie/take-1",
+            "key": "take:zlote-emoji-17/ze17-ciagle-12-stale-zejscie/take-1",
+            "type": "take",
+            "id": "ze17-ciagle-12-stale-zejscie/take-1",
+            "name": "ze17-ciagle-12-stale-zejscie / take-1",
+            "relationship": "visible-state-from-take",
+            "shotKey": "shot:zlote-emoji-17/ze17-ciagle-12-stale-zejscie",
+            "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-17/shots/ze17-ciagle-12-stale-zejscie.json",
+            "exists": true
+          }
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-ciagle-12-stale-zejscie/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-17/shots/ze17-ciagle-12-stale-zejscie/frame-end-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

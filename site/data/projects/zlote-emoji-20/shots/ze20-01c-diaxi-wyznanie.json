@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-20/ze20-01c-diaxi-wyznanie",
+  "id": "ze20-01c-diaxi-wyznanie",
+  "title": "DIAXI — próba wyznania",
+  "description": "5,08–8,67 s: kontrplan 85 mm według Blender D02. DIAXI patrzy w lewo na szamankę, szuka słów: wilgotne oczy, ściągnięte brwi, napięta dolna warga, powstrzymywany płacz. Oryginalna twarz i strój z teledysku.",
+  "project": {
+    "id": "zlote-emoji-20",
+    "key": "project:zlote-emoji-20",
+    "name": "Złote Emoji #20",
+    "createdAt": "2026-11-12T06:49:40.532Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-20",
+    "projectCreatedAt": "2026-11-12T06:49:40.532Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 3,
+    "lastSequence": 3,
+    "occurrences": [
+      3
+    ],
+    "sequenceTotal": 27,
+    "uniqueShotCount": 27,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "diaxi"
+    },
+    {
+      "type": "shot",
+      "id": "ze20-01-rozmowa-nad-wodospadem"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:diaxi",
+        "key": "character:diaxi",
+        "type": "character",
+        "id": "diaxi",
+        "name": "DIAXI",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze20-01-rozmowa-nad-wodospadem",
+        "key": "shot:zlote-emoji-20/ze20-01-rozmowa-nad-wodospadem",
+        "type": "shot",
+        "id": "ze20-01-rozmowa-nad-wodospadem",
+        "name": "Rozmowa nad wodospadem",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-01-rozmowa-nad-wodospadem.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "character:diaxi",
+          "shot:ze20-01-rozmowa-nad-wodospadem"
+        ],
+        "references": [
+          {
+            "sourceKey": "character:diaxi",
+            "key": "character:diaxi",
+            "type": "character",
+            "id": "diaxi",
+            "name": "DIAXI",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:ze20-01-rozmowa-nad-wodospadem",
+            "key": "shot:zlote-emoji-20/ze20-01-rozmowa-nad-wodospadem",
+            "type": "shot",
+            "id": "ze20-01-rozmowa-nad-wodospadem",
+            "name": "Rozmowa nad wodospadem",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-01-rozmowa-nad-wodospadem.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "ONE 16:9 photoreal live-action dramatic film still. Image 1 is Blender D02 camera geometry ONLY: eye-level 85mm head-and-chest close shot, real river and birch forest behind her. Do not copy clay mannequin or toy landscape. Image 2 is absolute authority for DIAXI's exact face, blue-gray eyes, forehead branch mark, braided brown hair with golden highlights. Image 3 is exact original ivory off-shoulder embroidered deep-V dress authority; preserve original costume without redesign. Image 4 fixes current scene's cold overcast daylight, wardrobe and location. Same adult woman DIAXI, standing where she was on the RIGHT of the conversation, turned slightly toward SCREEN LEFT, looking to the elderly woman just offscreen left. Head and upper chest, eyes in upper third, natural human scale, 85mm perspective. Specific emotional acting: she is trying to confess her heartbreak without crying, eyes glassy with held tears, inner brows raised and pinched, lower lip subtly trembling, lips parted to find the words, chin slightly pulled back. Her face must be recognizably DIAXI, not a generic tearful model. A brittle vulnerable expression with visible tension around mouth, not glamour, not calm posing or open-mouth screaming. Both shoulders held tight, a few fine hair strands drift in wind. One tiny tear gathering at lower eyelid, no flowing tears yet. Background: defocused ordinary upland river, damp natural rocks and birches, no giant waterfall, no stone or hut behind her because those are across from her. Soft cold daylight and subtle negative fill, realistic skin texture, controlled shallow f/4 depth, cinematic subdued palette and fine film grain. No blue magical eyes on DIAXI, no other people, no modern objects, no text, subtitles or watermark.",
+    "endFrameDescription": "",
+    "animation": "0.0–1.3s: DIAXI looks toward screen left, inner brows lift and her lower lip trembles while she tries to hold composure. 1.3–3.3s: her eyes grow wetter, she swallows once and her chin draws back slightly. 3.3–4.0s: hold the strained expression. Camera: locked 85mm close-up. Secondary motion: a few loose hair strands shift in the breeze; shoulders rise subtly with a shallow breath. @Image1 locks DIAXI’s original face and forehead mark. Preserve hair, dress, river and lighting. No exaggerated sobbing, magical eyes, identity drift, new people, extra limbs, cuts, text or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "character:diaxi",
+        "shot:ze20-01-rozmowa-nad-wodospadem"
+      ],
+      "references": [
+        {
+          "sourceKey": "character:diaxi",
+          "key": "character:diaxi",
+          "type": "character",
+          "id": "diaxi",
+          "name": "DIAXI",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ze20-01-rozmowa-nad-wodospadem",
+          "key": "shot:zlote-emoji-20/ze20-01-rozmowa-nad-wodospadem",
+          "type": "shot",
+          "id": "ze20-01-rozmowa-nad-wodospadem",
+          "name": "Rozmowa nad wodospadem",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-01-rozmowa-nad-wodospadem.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-12T23:27:57.117615+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:diaxi",
+            "shot:ze20-01-rozmowa-nad-wodospadem"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:diaxi",
+              "key": "character:diaxi",
+              "type": "character",
+              "id": "diaxi",
+              "name": "DIAXI",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ze20-01-rozmowa-nad-wodospadem",
+              "key": "shot:zlote-emoji-20/ze20-01-rozmowa-nad-wodospadem",
+              "type": "shot",
+              "id": "ze20-01-rozmowa-nad-wodospadem",
+              "name": "Rozmowa nad wodospadem",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-01-rozmowa-nad-wodospadem.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-01c-diaxi-wyznanie/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-01c-diaxi-wyznanie/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

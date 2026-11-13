@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-29T11:52:39.792Z",
+  "generatedAt": "2026-11-13T15:07:31.302Z",
   "worldId": "aimftv",
   "kind": "resource",
   "key": "character:maia-melodies-v2",
   "type": "characters",
   "id": "maia-melodies-v2",
   "name": "Maia Melodies v2",
-  "description": "CHARACTER [age=18-29; presentation=feminine; height=average; build=slim; body=hourglass; chest=medium; skin=fair; face=heart; eyes=green-hazel; hair-color=platinum-lavender; hair-length=short; hair-texture=straight]\n\nMaia Melodies v2 — wariant postaci przygotowany dla Złotego Emoji Tygodnia #10 na podstawie materiałów źródłowych z klipu. Zachowuje rozpoznawalną twarz, młody wiek, szczupłą sylwetkę, zielonopiwne oczy oraz serdeczną i przystępną obecność wcześniejszej Mai, ale ma spokojniejszą, bardziej obserwującą ekspresję: delikatny uśmiech z zamkniętymi ustami zamiast szerokiej promocyjnej miny.\n\nKanoniczna fryzura tej wersji to krótki, prosty bob do linii żuchwy w kolorze platynowego srebra z subtelnym lawendowo-różowym tonem, ciemniejszym odrostem i przedziałkiem z boku. Kanoniczny strój to czarna skórzana ramoneska z asymetrycznymi klapami, srebrnymi napami i zamkami, noszona na jasnej kremowobiałej koszuli z kołnierzykiem, dopasowane czarne skórzane spodnie z wysokim stanem oraz proste czarne skórzane botki na niskim obcasie. W tej wersji nie nosi słuchawek. To współczesny klubowo-rockowy outfit z teledysku, bez elementów fantasy. Postawa swobodna, naturalna i pewna siebie; pozostaje pogodną przewodniczką muzycznych światów, ale w scenach narracyjnych nie musi stale uśmiechać się do kamery.",
+  "description": "CHARACTER [age=24-25; presentation=feminine; height=average; build=slim; body=hourglass; chest=medium; skin=fair; face=heart; eyes=green-hazel; hair-color=platinum-lavender; hair-length=short; hair-texture=straight]\n\nMaia Melodies v2 — wariant postaci przygotowany dla Złotego Emoji Tygodnia #10 na podstawie materiałów źródłowych z klipu. Zachowuje rozpoznawalną twarz, młody wiek, szczupłą sylwetkę, zielonopiwne oczy oraz serdeczną i przystępną obecność wcześniejszej Mai, ale ma spokojniejszą, bardziej obserwującą ekspresję: delikatny uśmiech z zamkniętymi ustami zamiast szerokiej promocyjnej miny.\n\nKanoniczna fryzura tej wersji to krótki, prosty bob do linii żuchwy w kolorze platynowego srebra z subtelnym lawendowo-różowym tonem, ciemniejszym odrostem i przedziałkiem z boku. Kanoniczny strój to czarna skórzana ramoneska z asymetrycznymi klapami, srebrnymi napami i zamkami, noszona na jasnej kremowobiałej koszuli z kołnierzykiem, dopasowane czarne skórzane spodnie z wysokim stanem oraz proste czarne skórzane botki na niskim obcasie. W tej wersji nie nosi słuchawek. To współczesny klubowo-rockowy outfit z teledysku, bez elementów fantasy. Postawa swobodna, naturalna i pewna siebie; pozostaje pogodną przewodniczką muzycznych światów, ale w scenach narracyjnych nie musi stale uśmiechać się do kamery.\n\nCHRONOLOGIA — UZUPEŁNIENIE NA POLECENIE AUTORA 2026-11-06: Rok urodzenia postaci w AIMFTV: 2001. Dzień i miesiąc urodzenia pozostają nieustalone. W 2026 kończy 25 lat; przed urodzinami ma 24. Zakres wieku w nagłówku odnosi się do 2026 roku. Rocznik dobrano redakcyjnie do istniejącego bio i wspólnej chronologii; dotyczy fikcyjnej postaci, nie danych osobowych twórcy lub osoby z referencji.",
   "images": [
     {
       "id": "image-001",
@@ -28,5 +28,5 @@
       "contentType": "image/webp"
     }
   ],
-  "updatedAt": "2026-08-23T00:47:18+02:00"
+  "updatedAt": "2026-11-06T20:32:24.300Z"
 }

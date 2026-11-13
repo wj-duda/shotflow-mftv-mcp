@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-20/ze20-04a-szamanka-gniew-i-strach",
+  "id": "ze20-04a-szamanka-gniew-i-strach",
+  "title": "Szamanka - gniew i strach przed skokiem",
+  "description": "Jednosekundowa reakcja tuż przed przekroczeniem krawędzi przez Diaxi. Babka zaciska zęby i wolną lewą pięść, wściekłość połączona z przerażeniem; spojrzenie w prawo. Prawa ręka nadal trzyma laskę. Kamień i oczy bez blasku. Bez dialogu. Aktualny montaż: start 546f, długość 24f (1.000 s), wejście źródła 0f.",
+  "project": {
+    "id": "zlote-emoji-20",
+    "key": "project:zlote-emoji-20",
+    "name": "Złote Emoji #20",
+    "createdAt": "2026-11-12T06:49:40.532Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-20",
+    "projectCreatedAt": "2026-11-12T06:49:40.532Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 10,
+    "lastSequence": 10,
+    "occurrences": [
+      10
+    ],
+    "sequenceTotal": 27,
+    "uniqueShotCount": 27,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "szamanka-rodu-diaxi"
+    },
+    {
+      "type": "shot",
+      "id": "ze20-03-reakcja-szamanki"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:szamanka-rodu-diaxi",
+        "key": "character:szamanka-rodu-diaxi",
+        "type": "character",
+        "id": "szamanka-rodu-diaxi",
+        "name": "Szamanka rodu DIAXI — matka",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/szamanka-rodu-diaxi.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze20-03-reakcja-szamanki",
+        "key": "shot:zlote-emoji-20/ze20-03-reakcja-szamanki",
+        "type": "shot",
+        "id": "ze20-03-reakcja-szamanki",
+        "name": "Szamanka — młode serce, troska pod surowością",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-03-reakcja-szamanki.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "character:szamanka-rodu-diaxi",
+          "shot:ze20-03-reakcja-szamanki"
+        ],
+        "references": [
+          {
+            "sourceKey": "character:szamanka-rodu-diaxi",
+            "key": "character:szamanka-rodu-diaxi",
+            "type": "character",
+            "id": "szamanka-rodu-diaxi",
+            "name": "Szamanka rodu DIAXI — matka",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/szamanka-rodu-diaxi.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:ze20-03-reakcja-szamanki",
+            "key": "shot:zlote-emoji-20/ze20-03-reakcja-szamanki",
+            "type": "shot",
+            "id": "ze20-03-reakcja-szamanki",
+            "name": "Szamanka — młode serce, troska pod surowością",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-03-reakcja-szamanki.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "One photorealistic 16:9 cinematic reaction frame of the elderly shaman immediately before Diaxi steps off the waterfall ledge. Reference1 exact face identity, age, tattoos and costume. Reference2 established scene, camera axis, staff in RIGHT hand at screen left, dark stone behind screen right, hut and cold daylight. Reference3 Blender camera orientation and spatial blocking only, not primitive shapes. Reframe slightly wider, waist-up 65–75mm, so FACE AND FREE LEFT HAND are clearly visible together, face dominant. She looks urgently SCREEN RIGHT toward offscreen Diaxi: a convincing simultaneous combination of FURY AND FEAR. Brows strongly knitted, eyes widened and alert with tension in lower lids, jaw muscles tight, lips drawn back just enough to show firmly clenched teeth (not open-mouth shout, not smile). Her free LEFT hand is raised near lower ribs screen right, fingers curling tightly into a fist, anatomically correct thumb outside fingers. Right hand keeps gripping the staff on screen left. A frightened sharp breath arrested in her shoulders, restrained powerful dramatic acting, no theatrical monster expression. Preserve silver braids, deep aged skin, branching facial tattoos, black raven feathers and costume exactly. Stone completely dark, eyes normal no glow. Natural overcast light, real photographic skin and hands, realistic proportions, no extra people, no extra fingers, no text or watermark.",
+    "endFrameDescription": "",
+    "animation": "0.0–0.45s: the elder intensifies her already clenched LEFT fist and already bared clenched teeth; her brows tighten while her eyes widen slightly toward screen RIGHT. 0.45–1.0s: she holds the mixture of anger and fear. 1.0–3.0s: sustain the pose with restrained breathing. Camera: locked medium close-up. A breeze shifts silver strands and feather tips. @Image1 preserves the existing elder’s exact face, age and tattoos. Her RIGHT hand keeps the staff planted; the LEFT fist stays separate near her chest. Stone remains dark and eyes normal. No reopening the hand, second gesture, punch, smile, extra fingers, facial morph, cut or text."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "character:szamanka-rodu-diaxi",
+        "shot:ze20-03-reakcja-szamanki"
+      ],
+      "references": [
+        {
+          "sourceKey": "character:szamanka-rodu-diaxi",
+          "key": "character:szamanka-rodu-diaxi",
+          "type": "character",
+          "id": "szamanka-rodu-diaxi",
+          "name": "Szamanka rodu DIAXI — matka",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/szamanka-rodu-diaxi.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ze20-03-reakcja-szamanki",
+          "key": "shot:zlote-emoji-20/ze20-03-reakcja-szamanki",
+          "type": "shot",
+          "id": "ze20-03-reakcja-szamanki",
+          "name": "Szamanka — młode serce, troska pod surowością",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-03-reakcja-szamanki.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-13T00:03:31.767312+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:szamanka-rodu-diaxi",
+            "shot:ze20-03-reakcja-szamanki"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:szamanka-rodu-diaxi",
+              "key": "character:szamanka-rodu-diaxi",
+              "type": "character",
+              "id": "szamanka-rodu-diaxi",
+              "name": "Szamanka rodu DIAXI — matka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/szamanka-rodu-diaxi.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ze20-03-reakcja-szamanki",
+              "key": "shot:zlote-emoji-20/ze20-03-reakcja-szamanki",
+              "type": "shot",
+              "id": "ze20-03-reakcja-szamanki",
+              "name": "Szamanka — młode serce, troska pod surowością",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-03-reakcja-szamanki.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-04a-szamanka-gniew-i-strach/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-04a-szamanka-gniew-i-strach/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

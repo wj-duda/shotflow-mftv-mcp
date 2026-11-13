@@ -1,0 +1,309 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-18/ze18-00b-czeslaw-przy-scenie",
+  "id": "ze18-00b-czeslaw-przy-scenie",
+  "title": "I — Czesław zabiera Olivię na bok",
+  "description": "Plan pełny dwojga, 35 mm, boczne zejście ze sceny. Olivia po prawej właśnie zeszła na alejkę; Czesław po lewej czeka z programem koncertu i zaprasza ruchem głowy do odejścia od tłumu. Start: wymiana spojrzeń. Akcja: z uśmiechem idą razem ku alejce. Spontaniczne porwanie po występie, nie przemoc. Olivia lekko wyższa, ręce rozdzielone. Scena i oklaskująca widownia w głębi. Dopiero następny kadr pokazuje pełnię i prośbę Olivii o las. Długość robocza, montaż pod muzykę.\nCIĄGŁOŚĆ: zadbana muszla z całym jasnym tynkiem; gitarzysta i muzyk na cajónie za Olivią podczas występu, pozostają na scenie po jej zejściu. Referencja zespołu: note:ze18-akompaniament-marinera.\nCIĄGŁOŚĆ SPRZĘTU: jeden główny mikrofon wokalny na statywie; bez drugiego statywu. Publiczność pozostaje na ławkach.\nTAKE — AUDYT: widoczne 49 klatek (2.042 s) przy 24 fps; zakres źródła 0.000–2.042 s; generacja 3 s. Natywne audio wyłączone w planie; montaż pozostaje bez zmian.",
+  "project": {
+    "id": "zlote-emoji-18",
+    "key": "project:zlote-emoji-18",
+    "name": "Złote Emoji #18",
+    "createdAt": "2026-11-09T15:18:48.889Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-18",
+    "projectCreatedAt": "2026-11-09T15:18:48.889Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 2,
+    "lastSequence": 2,
+    "occurrences": [
+      2
+    ],
+    "sequenceTotal": 18,
+    "uniqueShotCount": 18,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "czeslaw-mlody"
+    },
+    {
+      "type": "character",
+      "id": "olivia-dela-ossa"
+    },
+    {
+      "type": "place",
+      "id": "lublin-muszla-ogrod-saski-1985"
+    },
+    {
+      "type": "shot",
+      "id": "ze18-01-pelnia-po-koncercie"
+    },
+    {
+      "type": "shot",
+      "id": "ze18-00a-final-wystepu"
+    },
+    {
+      "type": "shot",
+      "id": "ze18-00b-czeslaw-przy-scenie"
+    },
+    {
+      "type": "note",
+      "id": "ze18-akompaniament-marinera"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:czeslaw-mlody",
+        "key": "character:czeslaw-mlody",
+        "type": "character",
+        "id": "czeslaw-mlody",
+        "name": "Czesław — 1985",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw-mlody.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:olivia-dela-ossa",
+        "key": "character:olivia-dela-ossa",
+        "type": "character",
+        "id": "olivia-dela-ossa",
+        "name": "Olivia Dela Ossa",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/olivia-dela-ossa.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "place:lublin-muszla-ogrod-saski-1985",
+        "key": "place:lublin-muszla-ogrod-saski-1985",
+        "type": "place",
+        "id": "lublin-muszla-ogrod-saski-1985",
+        "name": "Lublin — muszla Ogrodu Saskiego, 1985",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/lublin-muszla-ogrod-saski-1985.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze18-01-pelnia-po-koncercie",
+        "key": "shot:zlote-emoji-18/ze18-01-pelnia-po-koncercie",
+        "type": "shot",
+        "id": "ze18-01-pelnia-po-koncercie",
+        "name": "Pełnia po koncercie",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-01-pelnia-po-koncercie.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze18-00a-final-wystepu",
+        "key": "shot:zlote-emoji-18/ze18-00a-final-wystepu",
+        "type": "shot",
+        "id": "ze18-00a-final-wystepu",
+        "name": "I — Olivia kończy występ",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-00a-final-wystepu.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze18-00b-czeslaw-przy-scenie",
+        "key": "shot:zlote-emoji-18/ze18-00b-czeslaw-przy-scenie",
+        "type": "shot",
+        "id": "ze18-00b-czeslaw-przy-scenie",
+        "name": "I — Czesław zabiera Olivię na bok",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-00b-czeslaw-przy-scenie.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "note:ze18-akompaniament-marinera",
+        "key": "note:ze18-akompaniament-marinera",
+        "type": "note",
+        "id": "ze18-akompaniament-marinera",
+        "name": "ZE18 — akompaniament Marinera",
+        "relationship": "story-and-continuity-context",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/notes/ze18-akompaniament-marinera.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 3,
+        "referenceKeys": [
+          "shot:ze18-00b-czeslaw-przy-scenie"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze18-00b-czeslaw-przy-scenie",
+            "key": "shot:zlote-emoji-18/ze18-00b-czeslaw-przy-scenie",
+            "type": "shot",
+            "id": "ze18-00b-czeslaw-przy-scenie",
+            "name": "I — Czesław zabiera Olivię na bok",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-00b-czeslaw-przy-scenie.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Make ONE precise continuity correction to this exact cinematic still: on the background stage there are two microphone stands. Remove ONLY the short extra microphone and its entire stand near the cajon player (the shorter stand to the RIGHT of the tall main microphone). Keep the ONE tall central singer microphone and its cable intact. Fill the removed area naturally with the same maintained wooden wall and floor. Preserve absolutely everything else: foreground couple faces, heights, clothing, poses, fingers, paper, audience, two musicians and instruments, architecture, side door, camera and lighting. No other alterations.",
+    "endFrameDescription": "",
+    "animation": "@Element1 identifies Czeslaw already on screen left; preserve face, hair and current clothes. @Image1 identifies Olivia already present; face and hair only, never the reference shirt or vest. 0.0–0.6s: Czeslaw gives Olivia a small inviting head tilt toward screen right. 0.6–1.9s: both take one relaxed step toward screen right, exchanging a brief smile. 1.9–3.0s: continue their unhurried walk without turning away sharply. Camera: a gentle rightward track maintains the two-shot. Secondary: the paper stays in his hand; their clothing sways with the step. Continuity: Olivia remains slightly taller; keep the musicians and seated audience in the background. Avoid: no grabbing, hand contact, duplicate people, costume changes, cuts or text."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 3,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze18-00b-czeslaw-przy-scenie"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze18-00b-czeslaw-przy-scenie",
+          "key": "shot:zlote-emoji-18/ze18-00b-czeslaw-przy-scenie",
+          "type": "shot",
+          "id": "ze18-00b-czeslaw-przy-scenie",
+          "name": "I — Czesław zabiera Olivię na bok",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-00b-czeslaw-przy-scenie.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-09T15:42:01.799102+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze18-01-pelnia-po-koncercie",
+            "shot:ze18-00a-final-wystepu",
+            "character:czeslaw-mlody",
+            "character:olivia-dela-ossa"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze18-01-pelnia-po-koncercie",
+              "key": "shot:zlote-emoji-18/ze18-01-pelnia-po-koncercie",
+              "type": "shot",
+              "id": "ze18-01-pelnia-po-koncercie",
+              "name": "Pełnia po koncercie",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-01-pelnia-po-koncercie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ze18-00a-final-wystepu",
+              "key": "shot:zlote-emoji-18/ze18-00a-final-wystepu",
+              "type": "shot",
+              "id": "ze18-00a-final-wystepu",
+              "name": "I — Olivia kończy występ",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-00a-final-wystepu.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:czeslaw-mlody",
+              "key": "character:czeslaw-mlody",
+              "type": "character",
+              "id": "czeslaw-mlody",
+              "name": "Czesław — 1985",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/czeslaw-mlody.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:olivia-dela-ossa",
+              "key": "character:olivia-dela-ossa",
+              "type": "character",
+              "id": "olivia-dela-ossa",
+              "name": "Olivia Dela Ossa",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/olivia-dela-ossa.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-11-09T15:49:22.34227+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze18-00b-czeslaw-przy-scenie",
+            "shot:ze18-00a-final-wystepu"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze18-00b-czeslaw-przy-scenie",
+              "key": "shot:zlote-emoji-18/ze18-00b-czeslaw-przy-scenie",
+              "type": "shot",
+              "id": "ze18-00b-czeslaw-przy-scenie",
+              "name": "I — Czesław zabiera Olivię na bok",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-00b-czeslaw-przy-scenie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ze18-00a-final-wystepu",
+              "key": "shot:zlote-emoji-18/ze18-00a-final-wystepu",
+              "type": "shot",
+              "id": "ze18-00a-final-wystepu",
+              "name": "I — Olivia kończy występ",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-00a-final-wystepu.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 3,
+          "createdAt": "2026-11-09T16:02:33.794101+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze18-00b-czeslaw-przy-scenie"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze18-00b-czeslaw-przy-scenie",
+              "key": "shot:zlote-emoji-18/ze18-00b-czeslaw-przy-scenie",
+              "type": "shot",
+              "id": "ze18-00b-czeslaw-przy-scenie",
+              "name": "I — Czesław zabiera Olivię na bok",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-18/shots/ze18-00b-czeslaw-przy-scenie.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-18/shots/ze18-00b-czeslaw-przy-scenie/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-18/shots/ze18-00b-czeslaw-przy-scenie/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

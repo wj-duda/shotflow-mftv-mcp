@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "place:lawka-mariana",
+  "type": "places",
+  "id": "lawka-mariana",
+  "name": "Ławka Mariana — park osiedlowy",
+  "description": "Lokacja rolki Mariana wyprowadzona z aktualnego tła rozmowy w aplikacji: /home/ojciech/atv/panel/static/assets/economy/marian/dialogue-scene-v2.png. Zwykły park osiedlowy, drewniana ławka po prawej, ścieżka po lewej, dojrzałe drzewa i krzewy, blok w tle, ciepłe lampy i chłodny zmierzch. Nie ustala adresu. Kamera od strony ścieżki; Marian siedzi po lewej stronie siedziska z punktu widzenia kamery, miejsce na paczkę po prawej. To rozwinięcie scenograficzne na potrzeby produkcji.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/lawka-mariana/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/places/lawka-mariana/image-001-thumb.webp",
+      "width": 941,
+      "height": 1672,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-10-30T11:18:58.293383+00:00"
+}

@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-20/ze20-01h-diaxi-przy-krawedzi",
+  "id": "ze20-01h-diaxi-przy-krawedzi",
+  "title": "Diaxi - oddech przy krawedzi",
+  "description": "Po podejściu do krawędzi krótki ruch wyhamowania i spojrzenie w DÓŁ/PRAWO. Zachowana łza i zraniona mimika. Aktualny montaż: start 486f, długość 36f (1.500 s), wejście źródła 0f.",
+  "project": {
+    "id": "zlote-emoji-20",
+    "key": "project:zlote-emoji-20",
+    "name": "Złote Emoji #20",
+    "createdAt": "2026-11-12T06:49:40.532Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-20",
+    "projectCreatedAt": "2026-11-12T06:49:40.532Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 8,
+    "lastSequence": 8,
+    "occurrences": [
+      8
+    ],
+    "sequenceTotal": 27,
+    "uniqueShotCount": 27,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "ze20-01f-diaxi-odejscie"
+    },
+    {
+      "type": "character",
+      "id": "diaxi"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:ze20-01f-diaxi-odejscie",
+        "key": "shot:zlote-emoji-20/ze20-01f-diaxi-odejscie",
+        "type": "shot",
+        "id": "ze20-01f-diaxi-odejscie",
+        "name": "DIAXI — cisza i decyzja odejścia",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-01f-diaxi-odejscie.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:diaxi",
+        "key": "character:diaxi",
+        "type": "character",
+        "id": "diaxi",
+        "name": "DIAXI",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:ze20-01f-diaxi-odejscie",
+          "character:diaxi"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze20-01f-diaxi-odejscie",
+            "key": "shot:zlote-emoji-20/ze20-01f-diaxi-odejscie",
+            "type": "shot",
+            "id": "ze20-01f-diaxi-odejscie",
+            "name": "DIAXI — cisza i decyzja odejścia",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-01f-diaxi-odejscie.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:diaxi",
+            "key": "character:diaxi",
+            "type": "character",
+            "id": "diaxi",
+            "name": "DIAXI",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Generate a single cinematic 16:9 HEAD AND SHOULDERS reaction shot of the adult fantasy heroine Diaxi, fully nonsexual dramatic portrait. Image1 is Blender camera/location guidance only: river and forest behind woman. Image2 is exact previous scene continuity: same face, braided highlighted hair, forehead symbol, tear on screen-right cheek and existing costume unchanged. Image3 canonical facial identity only, ignore nighttime setting. Frame closely around face and shoulders with no emphasis on body. She has stopped walking, oriented three-quarter SCREEN RIGHT, looks DOWN RIGHT at something offscreen, chin lowered, lips gently parted after an exhausted exhale. Express quiet heartbreak and resolve with specific restrained acting, not a smile. Retain same tear, natural skin pores, damp eyelids, loose hair moved by wind. 75mm cinema lens shallow depth, river boulders birch/spruce woodland blurred behind her, cool overcast daylight. Real photographic film still not 3D or illustration. No other people, no visible magic, no text or watermark.",
+    "endFrameDescription": "",
+    "animation": "0.0–0.35s: DIAXI settles from her approach, her shoulders making one small forward-and-back braking motion; loose hair briefly continues forward. 0.35–1.2s: she lowers her chin slightly and fixes her gaze down toward screen RIGHT over the edge. 1.2–3.0s: hold the wounded expression with shallow breathing; only the first 1.5 seconds are visible. Camera: locked 75mm close-up. @Image1 preserves the existing DIAXI’s face and forehead mark only, not reference lighting. Keep the existing tear, original costume and cloudy daylight. No smile, emotional reset, extra step, magic, new people, facial morphing, cut or text. Performance: retain hurt withdrawal, a tense lower lip and the existing tear; no smile or sudden relief."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze20-01f-diaxi-odejscie",
+        "character:diaxi"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze20-01f-diaxi-odejscie",
+          "key": "shot:zlote-emoji-20/ze20-01f-diaxi-odejscie",
+          "type": "shot",
+          "id": "ze20-01f-diaxi-odejscie",
+          "name": "DIAXI — cisza i decyzja odejścia",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-01f-diaxi-odejscie.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:diaxi",
+          "key": "character:diaxi",
+          "type": "character",
+          "id": "diaxi",
+          "name": "DIAXI",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-12T23:54:10.179617+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze20-01f-diaxi-odejscie",
+            "character:diaxi"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze20-01f-diaxi-odejscie",
+              "key": "shot:zlote-emoji-20/ze20-01f-diaxi-odejscie",
+              "type": "shot",
+              "id": "ze20-01f-diaxi-odejscie",
+              "name": "DIAXI — cisza i decyzja odejścia",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-01f-diaxi-odejscie.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:diaxi",
+              "key": "character:diaxi",
+              "type": "character",
+              "id": "diaxi",
+              "name": "DIAXI",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-01h-diaxi-przy-krawedzi/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-01h-diaxi-przy-krawedzi/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

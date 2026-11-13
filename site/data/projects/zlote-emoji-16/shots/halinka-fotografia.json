@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-16/halinka-fotografia",
+  "id": "halinka-fotografia",
+  "title": "03 — Zgoda i uśmiech",
+  "description": "SCENOPIS v005; 8–12 s.\n\nHalinka daje drobne skinienie zgody, na chwilę opuszcza wzrok, następnie wraca do Fonza z cieplejszym, nieśmiałym uśmiechem. Samo fotografowanie w kolejnym zbliżeniu Fonza.\n\nGRA: Krótkie opuszczenie wzroku, małe skinienie i łagodnie cieplejszy uśmiech. Bez pozy modelki.\n\nDŹWIĘK — PLAN: Muzyka i jezioro; bez mowy. Kliki migawki dopiero w kolejnym ujęciu.\n\nStatyczna klatka; brak wygenerowanej animacji.",
+  "project": {
+    "id": "zlote-emoji-16",
+    "key": "project:zlote-emoji-16",
+    "name": "Złote Emoji #16",
+    "createdAt": "2026-11-06T18:54:57.286Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-16",
+    "projectCreatedAt": "2026-11-06T18:54:57.286Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 5,
+    "lastSequence": 5,
+    "occurrences": [
+      5
+    ],
+    "sequenceTotal": 16,
+    "uniqueShotCount": 16,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "halinka-mloda"
+    },
+    {
+      "type": "shot",
+      "id": "seed"
+    },
+    {
+      "type": "prop",
+      "id": "naszyjnik-halinki"
+    },
+    {
+      "type": "prop",
+      "id": "przypinka-halinki"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:halinka-mloda",
+        "key": "character:halinka-mloda",
+        "type": "character",
+        "id": "halinka-mloda",
+        "name": "Młoda Halinka",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka-mloda.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:seed",
+        "key": "shot:zlote-emoji-16/seed",
+        "type": "shot",
+        "id": "seed",
+        "name": "01 — Letnie spotkanie",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/seed.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:naszyjnik-halinki",
+        "key": "prop:naszyjnik-halinki",
+        "type": "prop",
+        "id": "naszyjnik-halinki",
+        "name": "Naszyjnik Halinki — medalion Zakonu Jutrzenki",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/naszyjnik-halinki.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:przypinka-halinki",
+        "key": "prop:przypinka-halinki",
+        "type": "prop",
+        "id": "przypinka-halinki",
+        "name": "Przypinka Halinki — wschodzące słońce / Zakon Jutrzenki",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/przypinka-halinki.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "shot:seed",
+          "character:halinka-mloda",
+          "prop:naszyjnik-halinki",
+          "prop:przypinka-halinki"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:seed",
+            "key": "shot:zlote-emoji-16/seed",
+            "type": "shot",
+            "id": "seed",
+            "name": "01 — Letnie spotkanie",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/seed.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:halinka-mloda",
+            "key": "character:halinka-mloda",
+            "type": "character",
+            "id": "halinka-mloda",
+            "name": "Młoda Halinka",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka-mloda.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:naszyjnik-halinki",
+            "key": "prop:naszyjnik-halinki",
+            "type": "prop",
+            "id": "naszyjnik-halinki",
+            "name": "Naszyjnik Halinki — medalion Zakonu Jutrzenki",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/naszyjnik-halinki.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:przypinka-halinki",
+            "key": "prop:przypinka-halinki",
+            "type": "prop",
+            "id": "przypinka-halinki",
+            "name": "Przypinka Halinki — wschodzące słońce / Zakon Jutrzenki",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/przypinka-halinki.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Landscape16:9 1920x1080 cinematic live action single medium closeup waist up of ONE young Halinka age19 on pier. Ref1 location light yacht; ref2 her exact face and side braid (nine views of ONE woman, NOT collage), ref3 authoritative charcoal Peru-trim jacket white tshirt bluejeans outfit. Ref4 tiny22mm gold necklace8rays and ref5 tiny18mm gold sunrise pin left lapel are different pieces, no glow. Camera from Fonzo's place, staying same side of axis, Halinka slightly right of center looking just LEFT of lens toward him. Moment of wordless consent to a holiday photograph, gentle closed-mouth half smile, soft attentive eyes, not broad laugh, relaxed shoulders, hands loosely near jeans pockets below crop. Same cream yacht wooden cabin moored immediately behind, lake and distant trees softly blurred, warm late afternoon. Natural skin freckles youthful face, no heavy makeup. Single frame not collage no text no borders no other person. Keep whole head and enough breathing room. This image is also source content for a small old photographic print in finale.",
+    "endFrameDescription": "",
+    "animation": "0.0–0.8s: Halinka briefly lowers her eyes, her existing smile becoming shy. 0.8–1.6s: she looks back just left of the lens and gives one tiny consent nod. 1.6–3.6s: her smile gently warms and settles as she holds eye contact with Fonzo offscreen. 3.6–4.0s: hold naturally. Camera: locked medium close-up. Secondary motion: a loose strand moves gently in the breeze. Preserve identity, braid, jacket trim, separate necklace and lapel pin, and boat position. No speech, broad laughter, posing, glowing jewelry, extra people or facial morph."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:seed",
+        "character:halinka-mloda",
+        "prop:naszyjnik-halinki",
+        "prop:przypinka-halinki"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:seed",
+          "key": "shot:zlote-emoji-16/seed",
+          "type": "shot",
+          "id": "seed",
+          "name": "01 — Letnie spotkanie",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/seed.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:halinka-mloda",
+          "key": "character:halinka-mloda",
+          "type": "character",
+          "id": "halinka-mloda",
+          "name": "Młoda Halinka",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka-mloda.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:naszyjnik-halinki",
+          "key": "prop:naszyjnik-halinki",
+          "type": "prop",
+          "id": "naszyjnik-halinki",
+          "name": "Naszyjnik Halinki — medalion Zakonu Jutrzenki",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/naszyjnik-halinki.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:przypinka-halinki",
+          "key": "prop:przypinka-halinki",
+          "type": "prop",
+          "id": "przypinka-halinki",
+          "name": "Przypinka Halinki — wschodzące słońce / Zakon Jutrzenki",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/przypinka-halinki.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-06T19:00:19.940154+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:seed",
+            "character:halinka-mloda"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:seed",
+              "key": "shot:zlote-emoji-16/seed",
+              "type": "shot",
+              "id": "seed",
+              "name": "01 — Letnie spotkanie",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/seed.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:halinka-mloda",
+              "key": "character:halinka-mloda",
+              "type": "character",
+              "id": "halinka-mloda",
+              "name": "Młoda Halinka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka-mloda.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-11-06T23:34:52.372187+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:seed",
+            "character:halinka-mloda",
+            "prop:naszyjnik-halinki",
+            "prop:przypinka-halinki"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:seed",
+              "key": "shot:zlote-emoji-16/seed",
+              "type": "shot",
+              "id": "seed",
+              "name": "01 — Letnie spotkanie",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-16/shots/seed.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:halinka-mloda",
+              "key": "character:halinka-mloda",
+              "type": "character",
+              "id": "halinka-mloda",
+              "name": "Młoda Halinka",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/halinka-mloda.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:naszyjnik-halinki",
+              "key": "prop:naszyjnik-halinki",
+              "type": "prop",
+              "id": "naszyjnik-halinki",
+              "name": "Naszyjnik Halinki — medalion Zakonu Jutrzenki",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/naszyjnik-halinki.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:przypinka-halinki",
+              "key": "prop:przypinka-halinki",
+              "type": "prop",
+              "id": "przypinka-halinki",
+              "name": "Przypinka Halinki — wschodzące słońce / Zakon Jutrzenki",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/przypinka-halinki.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-16/shots/halinka-fotografia/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-16/shots/halinka-fotografia/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

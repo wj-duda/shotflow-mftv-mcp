@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "note:ze17-aniol-ludzki-wyglad",
+  "type": "notes",
+  "id": "ze17-aniol-ludzki-wyglad",
+  "name": "ZE17 — anioł w ludzkim przebraniu",
+  "description": "Referencja wyglądu character:aniol-wygnany w ZE14/ZE17: długie brązowe włosy, grafitowy płaszcz, jasna koszula. Bez skrzydeł, aureoli i parasola w scenie ZE17. Kadr źródłowy zawiera parasol; nie przenosić go do ujęcia.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/ze17-aniol-ludzki-wyglad/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/ze17-aniol-ludzki-wyglad/image-001-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-11-09T00:22:05.587932+00:00"
+}

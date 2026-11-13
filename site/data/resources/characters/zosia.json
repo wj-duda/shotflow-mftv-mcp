@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-29T11:52:39.792Z",
+  "generatedAt": "2026-11-13T15:07:31.302Z",
   "worldId": "aimftv",
   "kind": "resource",
   "key": "character:zosia",
   "type": "characters",
   "id": "zosia",
   "name": "Zosia",
-  "description": "CHARACTER [age=18-29; presentation=feminine; height=very-short; build=slim; body=hourglass; chest=small; skin=fair; face=oval; eyes=gray; hair-color=dyed; hair-length=long; hair-texture=wavy]\r\n\r\nZosia jest córką Halinki. Niska, szczupła młoda dziewczyna o jasnej cerze, z bardzo długimi czarnymi włosami z niebieskimi pasmami, ciemnym makijażem oczu i chłodnym, ironicznym spojrzeniem. Styl grunge/metal, ciemne luźne ubrania, festiwalowy klimat, naturalna i autentyczna, lekko zmęczona, ale wyrazista.",
+  "description": "CHARACTER [age=22-23; presentation=feminine; height=very-short; build=slim; body=hourglass; chest=small; skin=fair; face=oval; eyes=gray; hair-color=dyed; hair-length=long; hair-texture=wavy]\r\n\r\nZosia jest córką Halinki. Niska, szczupła młoda dziewczyna o jasnej cerze, z bardzo długimi czarnymi włosami z niebieskimi pasmami, ciemnym makijażem oczu i chłodnym, ironicznym spojrzeniem. Styl grunge/metal, ciemne luźne ubrania, festiwalowy klimat, naturalna i autentyczna, lekko zmęczona, ale wyrazista.\n\nKANON RODZINNY — DECYZJA AUTORA 2026-11-06: Sirock i Zosia (Zośka) są przyrodnimi siostrami: mają wspólną matkę, Halinkę, i różnych ojców. Tożsamości ojców nie ustalono. Według relacji autora Sirock przedstawiła Halinkę jako swoją mamę we własnym teledysku; autor przyjmuje tę relację do kanonu AIMFTV. Pokrewieństwo nie zmienia ustalonych, odrębnych rysów obu sióstr ani wizerunków postaci.\n\nCHRONOLOGIA — USTALENIE AUTORA 2026-11-06: Zosia urodziła się w 2003 roku. W 2026 kończy 23 lata; przed urodzinami ma 22 lata. Matka Halinka urodziła się w 1966 roku. Sirock urodziła się w 1991 roku, gdy Halinka miała 24–25 lat; Zosia urodziła się w 2003 roku, gdy Halinka miała 36–37 lat. Dni i miesięcy urodzin nie ustalono. Córki mają różnych ojców, których tożsamości pozostają nieustalone. Sirock jest starszą przyrodnią siostrą Zosi; ich roczniki dzieli 12 lat.\n\nZAKON JUTRZENKI — KANON 2026-11-06: Halinka i Zosia należą do Zakonu Jutrzenki, dawnej wspólnoty walczącej z Diablo i jego sługami. Złoty ośmioramienny medalion jest znakiem po rozłamie; egzemplarz Halinki opisuje prop:naszyjnik-halinki. Starsza tradycja, radomska Jutrzenka Wschodząca oraz cukiernicze przykrywki Jutrzenka i Carmel są opisane w note:zakon-jutrzenki. Daty inicjacji, stopnie i urzędy pozostają otwarte. Członkostwo nie wyjaśnia pełni mocy Halinki ani nie ustanawia nowych mocy biżuterii. Zosia może nie znać pełnej skali możliwości matki. Sirock nie staje się członkinią tylko z racji pokrewieństwa.\n\nZE20 — 2026-11-13: Zosia rutynowo oczekuje na przybycie DIAXI z XIAID nad Zalewem Mitręga w Łazach. Siedzi na bordowym ręczniku na ławce i korzysta z telefonu; wstaje, bierze ręcznik, rzuca go mokrej DIAXI i prowadzi ją do Halinki. Zimna listopadowa pogoda, ciemna ocieplana kurtka. Wiedza Zosi jest pokazana zachowaniem, bez wykładu o portalu i zakonie. Nie ustalono, kto ją uprzedził ani jak otrzymała informację.",
   "images": [
     {
       "id": "image-001",
@@ -28,5 +28,5 @@
       "contentType": "image/webp"
     }
   ],
-  "updatedAt": "2026-08-01T02:37:48.5782588+00:00"
+  "updatedAt": "2026-11-13T14:49:46.644382+00:00"
 }

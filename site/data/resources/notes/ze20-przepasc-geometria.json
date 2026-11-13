@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "note:ze20-przepasc-geometria",
+  "type": "notes",
+  "id": "ze20-przepasc-geometria",
+  "name": "ZE20 — geometria przepaści",
+  "description": "Referencja produkcyjna widoku w dół wodospadu, bez postaci. Stabilizuje istniejący kadr i skalę miejsca.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/ze20-przepasc-geometria/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/ze20-przepasc-geometria/image-001-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-11-13T11:42:37.427177+00:00"
+}

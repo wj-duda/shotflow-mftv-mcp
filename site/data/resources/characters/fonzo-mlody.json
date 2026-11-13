@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "character:fonzo-mlody",
+  "type": "characters",
+  "id": "fonzo-mlody",
+  "name": "Młody Fonzo",
+  "description": "MŁODY FONZO — KOREKTA AUTORA I RELACJA FONZA, 2026-11-06\n\nTOŻSAMOŚĆ: Słowak, rocznik 1969 według przekazanej przez autora wypowiedzi Fonza. Zastępuje wcześniejszy redakcyjnie dobrany rocznik 1962. W 1985 kończy 16 lat, w 1986 kończy 17, w 1987 kończy 18, a w 2026 kończy 57. Przed urodzinami ma o rok mniej.\n\nWIEK AKTUALNEGO DESIGNU: autor chce Fonza około 17 lat, blisko osiemnastki, i Halinkę mającą 19 lat, w okresie bliskim 1985. Robocze rozwiązanie chronologiczne po korekcie letniego stroju: lato 1986, Fonzo ma 17 lat, Halinka jest przed dwudziestymi urodzinami. Określenie prawie 18 wymaga dopięcia dokładnego terminu sceny i urodzin; nie zmienia roczników. To założenie sceniczne do utrzymania żądanych wieków, nie poznana dokładna data urodzin realnego Fonza; dni i miesiące nadal nieustalone. Nie przedstawiać siedemnastolatka z rocznika 1969 w roku 1985 bez jawnej korekty daty.\n\nWSPOMNIENIA FONZA — ŹRÓDŁO OD AUTORA: Fonzo podaje, że zawsze ubierał się modnie. W 1982 inspirował się Duran Duran i new romantic, a w latach 1985–1992 Depeche Mode. Wspomina modne otoczenie, zakupy w Polsce i wyjazdy do Budapesztu; kwestionuje automatyczne przedstawianie ludzi z regionu jako ubranych niemodnie. To jego relacja, a nie ogólna reguła o ubiorze całej Europy Środkowej. Nie uzasadniać jego dawnego stroju lat 60. samym pochodzeniem.\n\nAKTUALNY PROJEKT — KIERUNEK ZLECONY PRZEZ AUTORA: lekki etap przejściowy między new romantic i Depeche Mode, nie dosłowna rekonstrukcja konkretnego zdjęcia z młodości. Wyraźnie młodzieńcza, łagodniejsza twarz, bez zarostu i ciężkiej dorosłej szczęki. Naturalne ciemnobrązowe włosy z uniesioną, asymetrycznie opadającą grzywką; bez rozjaśniania i współczesnego wygolonego fade. Letni wariant bez kurtki: miękka luźniejsza koszula w kolorze kości słoniowej w cienkie pionowe szare paski, zapięty kołnierzyk i rękawy podwinięte poniżej łokci; lekko wypuszczona nad paskiem. Grafitowe spodnie z wyższym stanem i zakładkami, prosty czarny pasek oraz czarne skórzane półbuty. Wyraźny akcent new romantic: mała srebrna ozdoba pod zapiętym kołnierzykiem, inspirowana archiwalną fotografią Papa Dance1985, oraz małe srebrne kółko wyłącznie w lewym uchu. Leica M3 na osobnym brązowym pasku szyjnym, przed brzuchem. Ciemnobordowa skórzana torba z klapą i mosiężną klamrą przy lewym biodrze, jej osobny pasek biegnie od prawego ramienia. Torba mieści podręczne rzeczy i zapas filmu; nie dopisywać ukrytych artefaktów. Bez teatralnych falban, pirackiego kostiumu, nadmiaru biżuterii i logo. Ten projekt zastępuje zielony golf i brązowy sztruks oraz dawny wiek 22–24.\n\nREFERENCJE: aktualny portret images/image-007.png, dopasowana pełna sylwetka images/image-008.png. Proporcje twarzy oparto na dwóch realnych zdjęciach rkFonzoReal.jpg i fonzo-prof.png oraz wcześniej zaakceptowanej młodej rekonstrukcji. Portret i sylwetka są nową propozycją zgodną z korektą autora, nie archiwalnymi fotografiami. Dawne obrazy pozostają na dysku.\n\nSTATUS HISTORII ZE16 — 2026-11-07: autor wznowił scenopis. Retrospekcja bez słów; finał we współczesnym Domu Kultury z oczu starszego Fonza, jedno pytanie po słowacku i cięcie na reakcji Halinki. Starszy Fonzo nie jest narratorem wspomnienia. Obowiązuje projektowy shotlist-v002.md; głos i animacja nie zostały wygenerowane.\n\nREKWIZYT: prop:leica-m3 jako wspólny model aparatu, nie ustalony ten sam egzemplarz co aparat Komisji. Odbitka wymaga wywołania filmu. Nie przenosić biografii kreskówkowego rkFonzo ze świata Creators.\n\nAKTUALIZACJA LETNIA: kurtka usunięta na polecenie autora. Ozdoba kołnierzyka, kolczyk, aparat i torba mają wyraźniej określać styl i podróżny charakter. Pozycje pasków i akcesoriów ustala aktywna sylwetka; nie łączyć pasków torby i aparatu. Wykonano korektę sztucznych faktur skóry i koszuli; drobne detale generowanych referencji nie są dokumentacją techniczną. Letnia pora sceny zastępuje wcześniejszą roboczą jesień; dokładny termin i urodziny do dopięcia, przy zachowaniu roczników Fonzo 1969 i Halinka 1966.",
+  "images": [
+    {
+      "id": "image-007",
+      "role": "portrait",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/fonzo-mlody/image-007.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/fonzo-mlody/image-007-thumb.webp",
+      "width": 1024,
+      "height": 1536,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-008",
+      "role": "silhouette",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/fonzo-mlody/image-008.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/fonzo-mlody/image-008-thumb.webp",
+      "width": 1024,
+      "height": 1536,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-11-06T23:25:52.884296+00:00"
+}

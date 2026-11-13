@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "note:ze19-dawn-order-art",
+  "type": "notes",
+  "id": "ze19-dawn-order-art",
+  "name": "ZE19 — Dawn Order, grafika pudełka w epilogu",
+  "description": "Istniejąca grafika Dawn Order z automatu. W epilogu użyta jako wzorzec nadruku na starym pudełku gry na ladzie retro sklepu. Złoty logotyp, VanSabeR po lewej, Osia po prawej, bordowe tło.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/ze19-dawn-order-art/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/ze19-dawn-order-art/image-001-thumb.webp",
+      "width": 1254,
+      "height": 243,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-11-12T09:27:26.572837+00:00"
+}

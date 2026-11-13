@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "note:ze19-layout-zakup-oranzady",
+  "type": "notes",
+  "id": "ze19-layout-zakup-oranzady",
+  "name": "ZE19 — geometria: Dwie saszetki na ladzie",
+  "description": "Pomocnicze referencje tego ujęcia. Pierwszy obraz to render roboczy, drugi to niskorozdzielczy guide z rzutowanymi liniami perspektywy. Zachować kamerę, skalę i układ przestrzeni; zastąpić surowy wygląd modelu naturalnymi materiałami i światłem. Bryły to wyłącznie miejsca postaci, nigdy finalny wygląd. Nie przenosić linii, siatki ani opisów do wyniku. Close shot of two paper orange-drink sachets and coins on the laminate counter. One teenage hand with burgundy sleeve enters from customer side reaching toward a sachet. Only two sachets. Keep subtle counter wear and readable ORANŻADA W PROSZKU SMAK POMARAŃCZOWY.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/ze19-layout-zakup-oranzady/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/ze19-layout-zakup-oranzady/image-001-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-002",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/ze19-layout-zakup-oranzady/image-002.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/ze19-layout-zakup-oranzady/image-002-thumb.webp",
+      "width": 768,
+      "height": 432,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-11-10T23:01:29.837721+00:00"
+}

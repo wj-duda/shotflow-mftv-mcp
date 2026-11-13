@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:marian-rolka/karteczka-oceny",
+  "id": "karteczka-oceny",
+  "title": "Karteczka to Twoje oceny",
+  "description": "Detal tej samej kartki i dłoni Mariana: VanSabe / Niña Mala / sześć ręcznie narysowanych płomieni. Rozwiązanie motywu karteczek. Cięcie od combo ×6 na emisji do tego samego zapisu na papierze.\nMONTAŻ v003: 31.0–32.5 s. NARRACJA MARIANA: [pauza / patrz hasło końcowe w storyboard-v003]. Aktualne napisy: _system/napisy-v003.srt; zastępują wcześniejsze wskazówki napisów.\nKOREKTA FOTOREALIZMU v004: odtworzono fotograficzny charakter skóry, dłoni i tkanin na podstawie pierwotnego shota seed. Zachowano zapis VanSabe / Niña Mala / sześć płomieni. Wersja zastępuje poprzedni zbyt ilustracyjny obraz.\n2026-10-31: autor zlecił 3-sekundowe przejście first/last frame od detalu kartki do Start Frame marian-dotarlo. Ruch kamery: płynny odjazd; kartka pozostaje w dłoniach. Nowy take ma 180 klatek, długość zapisanego klipu timeline sprawdzić przed podpięciem.",
+  "project": {
+    "id": "marian-rolka",
+    "key": "project:marian-rolka",
+    "name": "MarianRolka",
+    "createdAt": "2026-10-30T11:23:31.351Z"
+  },
+  "chronology": {
+    "projectKey": "project:marian-rolka",
+    "projectCreatedAt": "2026-10-30T11:23:31.351Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 15,
+    "lastSequence": 15,
+    "occurrences": [
+      15
+    ],
+    "sequenceTotal": 16,
+    "uniqueShotCount": 16,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "shot",
+      "id": "seed"
+    },
+    {
+      "type": "shot",
+      "id": "karteczka-oceny"
+    },
+    {
+      "type": "shot",
+      "id": "marian-dotarlo"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "shot:seed",
+        "key": "shot:marian-rolka/seed",
+        "type": "shot",
+        "id": "seed",
+        "name": "Wyślij Mariana",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/marian-rolka/shots/seed.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:karteczka-oceny",
+        "key": "shot:marian-rolka/karteczka-oceny",
+        "type": "shot",
+        "id": "karteczka-oceny",
+        "name": "Karteczka to Twoje oceny",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/marian-rolka/shots/karteczka-oceny.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:marian-dotarlo",
+        "key": "shot:marian-rolka/marian-dotarlo",
+        "type": "shot",
+        "id": "marian-dotarlo",
+        "name": "Karteczka dotrze",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/marian-rolka/shots/marian-dotarlo.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "shot:seed"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:seed",
+            "key": "shot:marian-rolka/seed",
+            "type": "shot",
+            "id": "seed",
+            "name": "Wyślij Mariana",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/marian-rolka/shots/seed.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      },
+      {
+        "frameId": "frame-end",
+        "revision": 1,
+        "referenceKeys": [
+          "shot:karteczka-oceny",
+          "shot:marian-dotarlo"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:karteczka-oceny",
+            "key": "shot:marian-rolka/karteczka-oceny",
+            "type": "shot",
+            "id": "karteczka-oceny",
+            "name": "Karteczka to Twoje oceny",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/marian-rolka/shots/karteczka-oceny.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:marian-dotarlo",
+            "key": "shot:marian-rolka/marian-dotarlo",
+            "type": "shot",
+            "id": "marian-dotarlo",
+            "name": "Karteczka dotrze",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/marian-rolka/shots/marian-dotarlo.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": {
+          "sourceKey": "shot:marian-dotarlo",
+          "key": "shot:marian-rolka/marian-dotarlo",
+          "type": "shot",
+          "id": "marian-dotarlo",
+          "name": "Karteczka dotrze",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/marian-rolka/shots/marian-dotarlo.json",
+          "exists": true
+        }
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Live-action photographic insert of the SAME hands and paper bundle in reference 1. Reference 1 fixes the pose, paper, writing, hands, clothing and light. Reference 2 fixes real photographic texture and color; do not paint or illustrate anything. Move the real camera closer to chest and hands; face is out of frame, small clipped paper bundle occupies approximately 65 percent of frame width. Naturally aged hands, realistic pores and soft fine hairs, imperfect fingernails, natural uneven skin with gentle shadows, NOT exaggerated grooves or etched linework. Hand at viewer left lightly holds the metal clip, hand at viewer right supports lower edge. Card has the exact same small blue handwriting: 'VanSabe' then 'Niña Mala', and exactly SIX simple orange outline flame doodles in one row. Doodles are ink drawn on paper, no fill gradient, no cartoon treatment of surrounding scene. Ordinary slightly creased off-white paper with subtle fibers, no heavy grunge. Soft brown fabric jacket and navy zip layer behind, softly blurred burgundy checked scarf upper edge. Photographed using 85mm lens at f/4, moderate natural contrast, restrained warm practical light from the park. Keep the paper and fingers in focus, rest gently optical blur. It must look like a real photograph, not a painting, not 3D, no swirly cloth textures, no sharpening halos, no plastic skin, no added objects, no captions. Vertical 9:16.",
+    "endFrameDescription": "Kamera odjeżdża od kartki do dokładnej kompozycji Start Frame marian-dotarlo. Ten sam Marian, chwyt obu dłoni, klips, napisy i sześć płomieni. Przejście trwa 3 sekundy.",
+    "animation": "0.0–2.7s: in one continuous shot, the camera smoothly dollies backward from the close view of the clipped handwritten card, revealing the same hands, torso, face and seated Marian on the bench, and arrives at the exact supplied End Frame composition. Marian holds the card at the same chest position and keeps both hands gripping it naturally; he does not extend or retract his arms to fake the camera movement. 2.7–3.0s: the camera settles and Marian maintains a quiet closed-mouth half-smile. Secondary motion: subtle breathing only. Continuity: preserve VanSabe, Niña Mala, exactly six orange flame doodles, the single binder clip, both hands, clothing, parcel and dusk lighting. Avoid cuts, fades, dissolves, morphs, duplicated fingers, changing letters, paper rotation, speech or added captions."
+  },
+  "media": {
+    "fps": 60,
+    "width": 1080,
+    "height": 1920
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:seed"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:seed",
+          "key": "shot:marian-rolka/seed",
+          "type": "shot",
+          "id": "seed",
+          "name": "Wyślij Mariana",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/marian-rolka/shots/seed.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-30T13:26:08.228339+00:00",
+          "source": "generated",
+          "referenceKeys": [],
+          "references": [],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-10-30T13:45:51.67694+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:seed"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:seed",
+              "key": "shot:marian-rolka/seed",
+              "type": "shot",
+              "id": "seed",
+              "name": "Wyślij Mariana",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/marian-rolka/shots/seed.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/marian-rolka/shots/karteczka-oceny/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/marian-rolka/shots/karteczka-oceny/frame-start-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "frame-end",
+      "role": "frame-end",
+      "revision": 1,
+      "source": "reference",
+      "referenceKeys": [
+        "shot:karteczka-oceny",
+        "shot:marian-dotarlo"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:karteczka-oceny",
+          "key": "shot:marian-rolka/karteczka-oceny",
+          "type": "shot",
+          "id": "karteczka-oceny",
+          "name": "Karteczka to Twoje oceny",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/marian-rolka/shots/karteczka-oceny.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:marian-dotarlo",
+          "key": "shot:marian-rolka/marian-dotarlo",
+          "type": "shot",
+          "id": "marian-dotarlo",
+          "name": "Karteczka dotrze",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/marian-rolka/shots/marian-dotarlo.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": {
+        "sourceKey": "shot:marian-dotarlo",
+        "key": "shot:marian-rolka/marian-dotarlo",
+        "type": "shot",
+        "id": "marian-dotarlo",
+        "name": "Karteczka dotrze",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/marian-rolka/shots/marian-dotarlo.json",
+        "exists": true
+      },
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-10-31T08:12:36.764376+00:00",
+          "source": "reference",
+          "referenceKeys": [
+            "shot:karteczka-oceny",
+            "shot:marian-dotarlo"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:karteczka-oceny",
+              "key": "shot:marian-rolka/karteczka-oceny",
+              "type": "shot",
+              "id": "karteczka-oceny",
+              "name": "Karteczka to Twoje oceny",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/marian-rolka/shots/karteczka-oceny.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:marian-dotarlo",
+              "key": "shot:marian-rolka/marian-dotarlo",
+              "type": "shot",
+              "id": "marian-dotarlo",
+              "name": "Karteczka dotrze",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/marian-rolka/shots/marian-dotarlo.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": {
+            "sourceKey": "shot:marian-dotarlo",
+            "key": "shot:marian-rolka/marian-dotarlo",
+            "type": "shot",
+            "id": "marian-dotarlo",
+            "name": "Karteczka dotrze",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/marian-rolka/shots/marian-dotarlo.json",
+            "exists": true
+          }
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/marian-rolka/shots/karteczka-oceny/frame-end.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/marian-rolka/shots/karteczka-oceny/frame-end-thumb.webp",
+      "width": 1080,
+      "height": 1920,
+      "contentType": "image/webp"
+    }
+  ]
+}

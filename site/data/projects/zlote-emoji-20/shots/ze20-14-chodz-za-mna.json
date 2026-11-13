@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-20/ze20-14-chodz-za-mna",
+  "id": "ze20-14-chodz-za-mna",
+  "title": "Chodź — odejście z brzegu",
+  "description": "Zosia po LEWEJ, z głową w kierunku alejki zgodnie ze Start Frame, kończy niedbały gest przywołania bez oglądania się za siebie i idzie w LEWO. Diaxi po PRAWEJ patrzy na Zosię w LEWO, podąża pół kroku za nią i trzyma ręcznik już owinięty wokół ramion. Pusta ława, telefon schowany, mokre włosy i strój. Kamera 50 mm po tej samej stronie osi. Aktualny zapis audytu: wejście źródła 1f, długość 71f przy 24 fps; prompt obejmuje całe 3 s źródła.",
+  "project": {
+    "id": "zlote-emoji-20",
+    "key": "project:zlote-emoji-20",
+    "name": "Złote Emoji #20",
+    "createdAt": "2026-11-12T06:49:40.532Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-20",
+    "projectCreatedAt": "2026-11-12T06:49:40.532Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 25,
+    "lastSequence": 25,
+    "occurrences": [
+      25
+    ],
+    "sequenceTotal": 27,
+    "uniqueShotCount": 27,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "character",
+      "id": "zosia"
+    },
+    {
+      "type": "character",
+      "id": "diaxi"
+    },
+    {
+      "type": "prop",
+      "id": "recznik-zosi-ze20"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "character:zosia",
+        "key": "character:zosia",
+        "type": "character",
+        "id": "zosia",
+        "name": "Zosia",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/zosia.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:diaxi",
+        "key": "character:diaxi",
+        "type": "character",
+        "id": "diaxi",
+        "name": "DIAXI",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "prop:recznik-zosi-ze20",
+        "key": "prop:recznik-zosi-ze20",
+        "type": "prop",
+        "id": "recznik-zosi-ze20",
+        "name": "Ręcznik Zosi — przybycie DIAXI",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/recznik-zosi-ze20.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "character:zosia",
+          "character:diaxi",
+          "prop:recznik-zosi-ze20"
+        ],
+        "references": [
+          {
+            "sourceKey": "character:zosia",
+            "key": "character:zosia",
+            "type": "character",
+            "id": "zosia",
+            "name": "Zosia",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/zosia.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:diaxi",
+            "key": "character:diaxi",
+            "type": "character",
+            "id": "diaxi",
+            "name": "DIAXI",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "prop:recznik-zosi-ze20",
+            "key": "prop:recznik-zosi-ze20",
+            "type": "prop",
+            "id": "recznik-zosi-ze20",
+            "name": "Ręcznik Zosi — przybycie DIAXI",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/recznik-zosi-ze20.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "One photorealistic cinematic film still 16:9, same scene moments AFTER image1. Image1 fixes identities, height difference, EXACT charcoal padded jacket black loose trousers boots of Zosia, November lake shore geography, wooden bench, DIAXI soaked original ivory dress tall furcuffed boots. Image2 exact Zosia face and black-blue hair; image3 DIAXI face and original dress; image4 exact burgundy bath towel twin charcoal bands. NEW CAMERA: 50mm eye-level medium-wide three-quarter side view on same side of action axis, path to left, lake to right. Zosia screen LEFT has turned toward the forest path and is beginning one step away LEFT, briefly glancing back over her right shoulder, one hand makes a small casual beckoning 'come along' gesture behind her. Phone hidden in pocket. DIAXI screen RIGHT a half-step behind has now UNFOLDED the ONE large burgundy towel and wrapped it snugly across BOTH shoulders and upper arms, holding front edges closed at chest with natural hands. Towel hangs to hips, not blanket to ankles; original soaked dress and belt below, heavy wet boots, dripping hems, hair clumped and visibly wet. DIAXI looks toward Zosia, cold and reserved, preparing to follow. Empty bare wooden bench behind them, NO second towel. Ground wet gravel and leaf-strewn asphalt, bare birches and pines, gray lake and reed gap consistent. Both full figures, realistic skin and tactile cotton, no glamor, no supernatural effects, no text, no new people or props, anatomically natural walking poses.",
+    "endFrameDescription": "",
+    "animation": "0.0–0.8s: Zosia on screen LEFT completes the small beckoning gesture already underway, keeping her head at the Start Frame angle toward the path on screen LEFT; she does not look back at DIAXI. 0.8–3.0s: Zosia continues walking LEFT along the path. DIAXI on screen RIGHT follows half a step behind, also LEFT, watching Zosia and holding the towel already wrapped around both shoulders. Camera: locked 50mm view, same side of the action axis. Wet dress hems sway with DIAXI’s steps; loose hair moves in the breeze. @Image1 preserves Zosia’s face and hair only; @Image2 preserves DIAXI’s face only; @Image3 preserves the single burgundy towel. Keep winter jacket, wet dress and boots. No backward glance, head reversal, new wrapping action, rightward departure, duplicate towel, extra people, morphing, cut or text. Performance: Zosia is matter-of-fact and unhurried; DIAXI remains cold and subdued, no smiles."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "character:zosia",
+        "character:diaxi",
+        "prop:recznik-zosi-ze20"
+      ],
+      "references": [
+        {
+          "sourceKey": "character:zosia",
+          "key": "character:zosia",
+          "type": "character",
+          "id": "zosia",
+          "name": "Zosia",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/zosia.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:diaxi",
+          "key": "character:diaxi",
+          "type": "character",
+          "id": "diaxi",
+          "name": "DIAXI",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "prop:recznik-zosi-ze20",
+          "key": "prop:recznik-zosi-ze20",
+          "type": "prop",
+          "id": "recznik-zosi-ze20",
+          "name": "Ręcznik Zosi — przybycie DIAXI",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/recznik-zosi-ze20.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-12T18:25:37.043735+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "character:zosia",
+            "character:diaxi",
+            "prop:recznik-zosi-ze20"
+          ],
+          "references": [
+            {
+              "sourceKey": "character:zosia",
+              "key": "character:zosia",
+              "type": "character",
+              "id": "zosia",
+              "name": "Zosia",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/zosia.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:diaxi",
+              "key": "character:diaxi",
+              "type": "character",
+              "id": "diaxi",
+              "name": "DIAXI",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "prop:recznik-zosi-ze20",
+              "key": "prop:recznik-zosi-ze20",
+              "type": "prop",
+              "id": "recznik-zosi-ze20",
+              "name": "Ręcznik Zosi — przybycie DIAXI",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/recznik-zosi-ze20.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-14-chodz-za-mna/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-14-chodz-za-mna/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

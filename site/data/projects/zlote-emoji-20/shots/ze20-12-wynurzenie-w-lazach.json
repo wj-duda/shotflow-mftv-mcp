@@ -1,0 +1,318 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-20/ze20-12-wynurzenie-w-lazach",
+  "id": "ze20-12-wynurzenie-w-lazach",
+  "title": "DIAXI wynurza się w Łazach",
+  "description": "Korekta osi: DIAXI po prawej w wodzie, głowa i wzrok skierowane w LEWO ku pobliskiemu brzegowi i Zosi poza kadrem. Lewy skraj pokazuje żwirowe wyjście; otwarty zalew za nią i po prawej. Mokre włosy i oddech po wynurzeniu, listopadowy chłód. Kamera nisko nad wodą. Aktualny montaż: start 1073f, długość 72f (3.000 s), wejście źródła 0f.",
+  "project": {
+    "id": "zlote-emoji-20",
+    "key": "project:zlote-emoji-20",
+    "name": "Złote Emoji #20",
+    "createdAt": "2026-11-12T06:49:40.532Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-20",
+    "projectCreatedAt": "2026-11-12T06:49:40.532Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 21,
+    "lastSequence": 21,
+    "occurrences": [
+      21
+    ],
+    "sequenceTotal": 27,
+    "uniqueShotCount": 27,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "place",
+      "id": "zalew-mitrega-wyjscie-diaxi"
+    },
+    {
+      "type": "character",
+      "id": "diaxi"
+    },
+    {
+      "type": "shot",
+      "id": "ze20-09-zwrot-ku-powierzchni"
+    },
+    {
+      "type": "shot",
+      "id": "ze20-12-wynurzenie-w-lazach"
+    },
+    {
+      "type": "shot",
+      "id": "ze20-11-zosia-czeka-z-telefonem"
+    },
+    {
+      "type": "shot",
+      "id": "ze20-13-zosia-rzuca-recznik"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "place:zalew-mitrega-wyjscie-diaxi",
+        "key": "place:zalew-mitrega-wyjscie-diaxi",
+        "type": "place",
+        "id": "zalew-mitrega-wyjscie-diaxi",
+        "name": "Zalew Mitręga — listopadowe wyjście DIAXI",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/zalew-mitrega-wyjscie-diaxi.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:diaxi",
+        "key": "character:diaxi",
+        "type": "character",
+        "id": "diaxi",
+        "name": "DIAXI",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze20-09-zwrot-ku-powierzchni",
+        "key": "shot:zlote-emoji-20/ze20-09-zwrot-ku-powierzchni",
+        "type": "shot",
+        "id": "ze20-09-zwrot-ku-powierzchni",
+        "name": "DIAXI — piruet przez wodną bramę",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-09-zwrot-ku-powierzchni.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze20-12-wynurzenie-w-lazach",
+        "key": "shot:zlote-emoji-20/ze20-12-wynurzenie-w-lazach",
+        "type": "shot",
+        "id": "ze20-12-wynurzenie-w-lazach",
+        "name": "DIAXI wynurza się w Łazach",
+        "relationship": "prior-state-of-same-shot",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-12-wynurzenie-w-lazach.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze20-11-zosia-czeka-z-telefonem",
+        "key": "shot:zlote-emoji-20/ze20-11-zosia-czeka-z-telefonem",
+        "type": "shot",
+        "id": "ze20-11-zosia-czeka-z-telefonem",
+        "name": "Zosia czeka — telefon i ręcznik",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-11-zosia-czeka-z-telefonem.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "shot:ze20-13-zosia-rzuca-recznik",
+        "key": "shot:zlote-emoji-20/ze20-13-zosia-rzuca-recznik",
+        "type": "shot",
+        "id": "ze20-13-zosia-rzuca-recznik",
+        "name": "Zosia rzuca ręcznik",
+        "relationship": "shot-continuity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-13-zosia-rzuca-recznik.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 2,
+        "referenceKeys": [
+          "shot:ze20-12-wynurzenie-w-lazach",
+          "shot:ze20-11-zosia-czeka-z-telefonem",
+          "shot:ze20-13-zosia-rzuca-recznik"
+        ],
+        "references": [
+          {
+            "sourceKey": "shot:ze20-12-wynurzenie-w-lazach",
+            "key": "shot:zlote-emoji-20/ze20-12-wynurzenie-w-lazach",
+            "type": "shot",
+            "id": "ze20-12-wynurzenie-w-lazach",
+            "name": "DIAXI wynurza się w Łazach",
+            "relationship": "prior-state-of-same-shot",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-12-wynurzenie-w-lazach.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:ze20-11-zosia-czeka-z-telefonem",
+            "key": "shot:zlote-emoji-20/ze20-11-zosia-czeka-z-telefonem",
+            "type": "shot",
+            "id": "ze20-11-zosia-czeka-z-telefonem",
+            "name": "Zosia czeka — telefon i ręcznik",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-11-zosia-czeka-z-telefonem.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "shot:ze20-13-zosia-rzuca-recznik",
+            "key": "shot:zlote-emoji-20/ze20-13-zosia-rzuca-recznik",
+            "type": "shot",
+            "id": "ze20-13-zosia-rzuca-recznik",
+            "name": "Zosia rzuca ręcznik",
+            "relationship": "shot-continuity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-13-zosia-rzuca-recznik.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Edit reference1 (Diaxi surfacing) to correct cinematic eyeline and geography. Reference2 (Zosia seated) and reference3 (towel two-shot) establish shoreline axis: LAND and ZOSIA are SCREEN LEFT, OPEN LAKE SCREEN RIGHT. In the corrected single 16:9 photorealistic still, Diaxi's head and upper shoulders are on the RIGHT half of frame, in water, turned three-quarter profile distinctly toward SCREEN LEFT, eyes looking slightly upward LEFT toward Zosia seated on the bank OFFSCREEN LEFT. Her nose points LEFT. Torso also oriented toward that bank, ready to swim left. NOT looking out across lake to right, NOT looking at camera, NOT staring skyward. Camera 15cm above surface on same side of action axis as other references, looking obliquely along the shoreline: a wedge of nearby wet gravel bank and reeds clearly visible at left edge, water behind and right. She remains in chest-deep water close to shore, only head neck and upper shoulders visible. Keep EXACT Diaxi face identity, forehead mark, soaked dark highlighted braided hair, droplets and original ivory embroidered costume from reference1 unchanged; preserve cold November daylight, reeds, bare birches, pines and realistic lake scale. Mouth slightly open taking a breath, tired/cold alert recognition, not smile. Give empty space to left for her gaze. Do not mirror forehead symbol or redesign her. No Zosia visible, no towel yet, no new people, no magic, no waterfall, no text or watermark. Correct anatomy and natural photographic textures.",
+    "endFrameDescription": "",
+    "animation": "0.0–0.8s: DIAXI steadies her head above the water and takes one visible breath, already looking toward screen LEFT at Zosia on the nearby bank offscreen. 0.8–3.0s: she moves slowly toward screen LEFT and the gravel shore, maintaining that eyeline. Camera: locked at water level. Secondary motion: small ripples spread from her submerged movement and droplets run down wet hair. @Image1 preserves DIAXI exact identity and original costume. Keep shore on left, open lake behind/right, November light and soaked hair. No looking screen right, camera crossing the axis, new people, towel, magic, morphing, extra limbs, cuts, text or watermark. Performance: cold, tired and briefly disoriented, then alert recognition toward Zosia; no cheerful relief."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 2,
+      "source": "generated",
+      "referenceKeys": [
+        "shot:ze20-12-wynurzenie-w-lazach",
+        "shot:ze20-11-zosia-czeka-z-telefonem",
+        "shot:ze20-13-zosia-rzuca-recznik"
+      ],
+      "references": [
+        {
+          "sourceKey": "shot:ze20-12-wynurzenie-w-lazach",
+          "key": "shot:zlote-emoji-20/ze20-12-wynurzenie-w-lazach",
+          "type": "shot",
+          "id": "ze20-12-wynurzenie-w-lazach",
+          "name": "DIAXI wynurza się w Łazach",
+          "relationship": "prior-state-of-same-shot",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-12-wynurzenie-w-lazach.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ze20-11-zosia-czeka-z-telefonem",
+          "key": "shot:zlote-emoji-20/ze20-11-zosia-czeka-z-telefonem",
+          "type": "shot",
+          "id": "ze20-11-zosia-czeka-z-telefonem",
+          "name": "Zosia czeka — telefon i ręcznik",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-11-zosia-czeka-z-telefonem.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "shot:ze20-13-zosia-rzuca-recznik",
+          "key": "shot:zlote-emoji-20/ze20-13-zosia-rzuca-recznik",
+          "type": "shot",
+          "id": "ze20-13-zosia-rzuca-recznik",
+          "name": "Zosia rzuca ręcznik",
+          "relationship": "shot-continuity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-13-zosia-rzuca-recznik.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-12T18:25:30.526909+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "place:zalew-mitrega-wyjscie-diaxi",
+            "character:diaxi",
+            "shot:ze20-09-zwrot-ku-powierzchni"
+          ],
+          "references": [
+            {
+              "sourceKey": "place:zalew-mitrega-wyjscie-diaxi",
+              "key": "place:zalew-mitrega-wyjscie-diaxi",
+              "type": "place",
+              "id": "zalew-mitrega-wyjscie-diaxi",
+              "name": "Zalew Mitręga — listopadowe wyjście DIAXI",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/places/zalew-mitrega-wyjscie-diaxi.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:diaxi",
+              "key": "character:diaxi",
+              "type": "character",
+              "id": "diaxi",
+              "name": "DIAXI",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ze20-09-zwrot-ku-powierzchni",
+              "key": "shot:zlote-emoji-20/ze20-09-zwrot-ku-powierzchni",
+              "type": "shot",
+              "id": "ze20-09-zwrot-ku-powierzchni",
+              "name": "DIAXI — piruet przez wodną bramę",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-09-zwrot-ku-powierzchni.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        },
+        {
+          "revision": 2,
+          "createdAt": "2026-11-13T00:30:55.932939+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "shot:ze20-12-wynurzenie-w-lazach",
+            "shot:ze20-11-zosia-czeka-z-telefonem",
+            "shot:ze20-13-zosia-rzuca-recznik"
+          ],
+          "references": [
+            {
+              "sourceKey": "shot:ze20-12-wynurzenie-w-lazach",
+              "key": "shot:zlote-emoji-20/ze20-12-wynurzenie-w-lazach",
+              "type": "shot",
+              "id": "ze20-12-wynurzenie-w-lazach",
+              "name": "DIAXI wynurza się w Łazach",
+              "relationship": "prior-state-of-same-shot",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-12-wynurzenie-w-lazach.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ze20-11-zosia-czeka-z-telefonem",
+              "key": "shot:zlote-emoji-20/ze20-11-zosia-czeka-z-telefonem",
+              "type": "shot",
+              "id": "ze20-11-zosia-czeka-z-telefonem",
+              "name": "Zosia czeka — telefon i ręcznik",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-11-zosia-czeka-z-telefonem.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "shot:ze20-13-zosia-rzuca-recznik",
+              "key": "shot:zlote-emoji-20/ze20-13-zosia-rzuca-recznik",
+              "type": "shot",
+              "id": "ze20-13-zosia-rzuca-recznik",
+              "name": "Zosia rzuca ręcznik",
+              "relationship": "shot-continuity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-13-zosia-rzuca-recznik.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-12-wynurzenie-w-lazach/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-12-wynurzenie-w-lazach/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

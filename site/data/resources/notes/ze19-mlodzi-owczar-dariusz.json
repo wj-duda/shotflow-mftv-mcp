@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "note:ze19-mlodzi-owczar-dariusz",
+  "type": "notes",
+  "id": "ze19-mlodzi-owczar-dariusz",
+  "name": "ZE19 — młodzi Owczar i Dariusz, ciągłość obrazu",
+  "description": "Referencja produkcyjna ZE19, wersje fikcyjne w wieku 13–14 lat. Na planszy po LEWEJ Dariusz: pulchny, jasna cera, rudobrązowe falujące włosy, prostokątne ciemne okulary, rozpięta szaroniebieska koszula w kratkę z podwiniętymi rękawami, szary T-shirt w poziome paski, ciemne luźne jeansy, zużyte sznurowane buty. Po PRAWEJ Owczar: szczupły, jasna cera, krótkie ciemny blond włosy, bordowa rozpinana bluza sportowa z dwoma kremowymi paskami na rękawach, kremowy T-shirt, luźne niebieskie jeansy, jasne zużyte trampki. Bez zarostu. Plansza z wcześniejszej pracy projektu; używana teraz na polecenie autora jako odniesienie postaci. Stroje obowiązują przez cały spacer i finał. Przyjaźń, wzajemne ramiona na barkach. Data kalendarzowa sceny nieustalona; nie zmienia rocznika globalnego Dariusza ani kanonu świata.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/ze19-mlodzi-owczar-dariusz/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/ze19-mlodzi-owczar-dariusz/image-001-thumb.webp",
+      "width": 1536,
+      "height": 1024,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-11-10T12:19:11.427892+00:00"
+}

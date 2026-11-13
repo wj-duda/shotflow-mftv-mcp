@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "shot",
+  "key": "shot:zlote-emoji-20/ze20-15a-diaxi-u-halinki",
+  "id": "ze20-15a-diaxi-u-halinki",
+  "title": "Diaxi u Halinki",
+  "description": "Diaxi u Halinki: mokre włosy, ten sam bordowy ręcznik, ciepłe światło zaplecza. Zbliżenie: zakłopotanie i poczucie winy podszyte ulgą. Patrzy w prawo ku Halince poza kadrem. Końcowe 36 klatek ujęcia Halinki przykryte bez zmiany audio.",
+  "project": {
+    "id": "zlote-emoji-20",
+    "key": "project:zlote-emoji-20",
+    "name": "Złote Emoji #20",
+    "createdAt": "2026-11-12T06:49:40.532Z"
+  },
+  "chronology": {
+    "projectKey": "project:zlote-emoji-20",
+    "projectCreatedAt": "2026-11-12T06:49:40.532Z",
+    "projectOrder": "newest-first outside the project",
+    "onTimeline": true,
+    "canonicalEvent": true,
+    "sequence": 27,
+    "lastSequence": 27,
+    "occurrences": [
+      27
+    ],
+    "sequenceTotal": 27,
+    "uniqueShotCount": 27,
+    "sequenceOrder": "oldest-to-newest timeline clip order",
+    "sequenceSource": "workspace timeline",
+    "stateRule": "This shot is canonical evidence of world state at this exact story moment. Later timeline clips in this project and later projects override it when determining current canon."
+  },
+  "references": [
+    {
+      "type": "take",
+      "id": "ze20-14-chodz-za-mna/take-1"
+    },
+    {
+      "type": "take",
+      "id": "ze20-15-halinka-czeka-z-herbata/take-1"
+    },
+    {
+      "type": "character",
+      "id": "diaxi"
+    }
+  ],
+  "referenceUsage": {
+    "declared": [
+      {
+        "sourceKey": "take:ze20-14-chodz-za-mna/take-1",
+        "key": "take:zlote-emoji-20/ze20-14-chodz-za-mna/take-1",
+        "type": "take",
+        "id": "ze20-14-chodz-za-mna/take-1",
+        "name": "Chodź — odejście z brzegu / take-1",
+        "relationship": "visible-state-from-take",
+        "shotKey": "shot:zlote-emoji-20/ze20-14-chodz-za-mna",
+        "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-14-chodz-za-mna.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "take:ze20-15-halinka-czeka-z-herbata/take-1",
+        "key": "take:zlote-emoji-20/ze20-15-halinka-czeka-z-herbata/take-1",
+        "type": "take",
+        "id": "ze20-15-halinka-czeka-z-herbata/take-1",
+        "name": "Halinka — najpierw się ogrzej / take-1",
+        "relationship": "visible-state-from-take",
+        "shotKey": "shot:zlote-emoji-20/ze20-15-halinka-czeka-z-herbata",
+        "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-15-halinka-czeka-z-herbata.json",
+        "exists": true
+      },
+      {
+        "sourceKey": "character:diaxi",
+        "key": "character:diaxi",
+        "type": "character",
+        "id": "diaxi",
+        "name": "DIAXI",
+        "relationship": "world-entity-identity",
+        "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+        "exists": true
+      }
+    ],
+    "activeFrames": [
+      {
+        "frameId": "frame-start",
+        "revision": 1,
+        "referenceKeys": [
+          "take:ze20-14-chodz-za-mna/take-1",
+          "take:ze20-15-halinka-czeka-z-herbata/take-1",
+          "character:diaxi"
+        ],
+        "references": [
+          {
+            "sourceKey": "take:ze20-14-chodz-za-mna/take-1",
+            "key": "take:zlote-emoji-20/ze20-14-chodz-za-mna/take-1",
+            "type": "take",
+            "id": "ze20-14-chodz-za-mna/take-1",
+            "name": "Chodź — odejście z brzegu / take-1",
+            "relationship": "visible-state-from-take",
+            "shotKey": "shot:zlote-emoji-20/ze20-14-chodz-za-mna",
+            "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-14-chodz-za-mna.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "take:ze20-15-halinka-czeka-z-herbata/take-1",
+            "key": "take:zlote-emoji-20/ze20-15-halinka-czeka-z-herbata/take-1",
+            "type": "take",
+            "id": "ze20-15-halinka-czeka-z-herbata/take-1",
+            "name": "Halinka — najpierw się ogrzej / take-1",
+            "relationship": "visible-state-from-take",
+            "shotKey": "shot:zlote-emoji-20/ze20-15-halinka-czeka-z-herbata",
+            "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-15-halinka-czeka-z-herbata.json",
+            "exists": true
+          },
+          {
+            "sourceKey": "character:diaxi",
+            "key": "character:diaxi",
+            "type": "character",
+            "id": "diaxi",
+            "name": "DIAXI",
+            "relationship": "world-entity-identity",
+            "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+            "exists": true
+          }
+        ],
+        "sourceReference": null
+      }
+    ],
+    "provenanceRule": "activeFrames contains the exact references recorded for the active image revision; revisions preserves the complete visual provenance history. declared contains the wider shot context."
+  },
+  "prompts": {
+    "image": "Create one photorealistic 16:9 cinematic close-up film frame, 1920x1080. Image1 is the exact last appearance of DIAXI: preserve her wet clumped highlighted brown hair with crown braids, wet ivory costume underneath ONE burgundy terrycloth towel with twin charcoal bands, hands holding towel edges shut at chest. Image2 defines the adjoining ordinary Polish backroom: aged warm beige plaster, dark brown wood, soft amber practical light mixing with cold November window daylight. It is an environment/light reference, NOT a background to copy literally: this is the reverse angle toward the entry doorway, so do not duplicate the window, shelves, trophy or Halinka behind Diaxi. Image3 locks Diaxi facial identity, light eyes and branching forehead mark ONLY, not dry styled hair, night forest or glamour. Frame Diaxi chest-up in the LEFT half of frame, body turned slightly toward screen RIGHT, eyes toward Halinka seated offscreen RIGHT slightly below her eye level. Eye-level 85mm lens, restrained natural film photography, shallow depth of field, eyes tack sharp, textured soft warm plaster wall and dark wooden doorway softly behind her, a hint of cold hallway beyond. She has just arrived soaking wet, towel around shoulders exactly as image1. Intimate restrained acting: tired, quietly embarrassed and apologetic, vulnerable concern that she has once again inconvenienced Halinka, yet relieved she has been welcomed. Mouth closed, corners neutral, a little tension in lips, brows gently lifted at center, not crying, not smiling, not angry, not seductive. She is seeking Halinka's gaze before lowering her eyes. Shoulders slightly drawn inward, fingers naturally holding towel. Warm light gently on her face balances subdued cool fill, believable natural damp skin. Only Diaxi visible, no extra person, no hand offering mug, no mug yet, no text, no symbols added to room, no fantasy effects. Preserve realistic adult anatomy, canonical face and forehead mark. No oversized decor, no overdramatic grimace. Single full frame, no collage.\n",
+    "endFrameDescription": "",
+    "animation": "0.0–0.4s: DIAXI quietly holds the offscreen-right eyeline, lips closed, apologetic tension in her brow. 0.4–1.4s: she lowers her eyes toward the cup below frame on screen right, presses her lips gently and draws the towel edges inward a couple of centimeters, without releasing either hand. Her shoulders settle with a small relieved breath. 1.4–3.0s: hold this subdued, embarrassed but grateful expression naturally. Camera: locked close-up. @Image1 preserves only DIAXI’s exact face and forehead mark, not its dry hair or lighting; @Image2 preserves the single burgundy towel design. Keep wet hair, covered costume, hands, doorway and warm room lighting unchanged. No smile, speaking, nodding, new people, visible cup, extra fingers, morphing, cuts, fades, text or watermark."
+  },
+  "media": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "frameStatus": "image-ready",
+  "images": [
+    {
+      "id": "frame-start",
+      "role": "frame-start",
+      "revision": 1,
+      "source": "generated",
+      "referenceKeys": [
+        "take:ze20-14-chodz-za-mna/take-1",
+        "take:ze20-15-halinka-czeka-z-herbata/take-1",
+        "character:diaxi"
+      ],
+      "references": [
+        {
+          "sourceKey": "take:ze20-14-chodz-za-mna/take-1",
+          "key": "take:zlote-emoji-20/ze20-14-chodz-za-mna/take-1",
+          "type": "take",
+          "id": "ze20-14-chodz-za-mna/take-1",
+          "name": "Chodź — odejście z brzegu / take-1",
+          "relationship": "visible-state-from-take",
+          "shotKey": "shot:zlote-emoji-20/ze20-14-chodz-za-mna",
+          "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-14-chodz-za-mna.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "take:ze20-15-halinka-czeka-z-herbata/take-1",
+          "key": "take:zlote-emoji-20/ze20-15-halinka-czeka-z-herbata/take-1",
+          "type": "take",
+          "id": "ze20-15-halinka-czeka-z-herbata/take-1",
+          "name": "Halinka — najpierw się ogrzej / take-1",
+          "relationship": "visible-state-from-take",
+          "shotKey": "shot:zlote-emoji-20/ze20-15-halinka-czeka-z-herbata",
+          "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-15-halinka-czeka-z-herbata.json",
+          "exists": true
+        },
+        {
+          "sourceKey": "character:diaxi",
+          "key": "character:diaxi",
+          "type": "character",
+          "id": "diaxi",
+          "name": "DIAXI",
+          "relationship": "world-entity-identity",
+          "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+          "exists": true
+        }
+      ],
+      "sourceReference": null,
+      "revisions": [
+        {
+          "revision": 1,
+          "createdAt": "2026-11-13T13:03:10.563475+00:00",
+          "source": "generated",
+          "referenceKeys": [
+            "take:ze20-14-chodz-za-mna/take-1",
+            "take:ze20-15-halinka-czeka-z-herbata/take-1",
+            "character:diaxi"
+          ],
+          "references": [
+            {
+              "sourceKey": "take:ze20-14-chodz-za-mna/take-1",
+              "key": "take:zlote-emoji-20/ze20-14-chodz-za-mna/take-1",
+              "type": "take",
+              "id": "ze20-14-chodz-za-mna/take-1",
+              "name": "Chodź — odejście z brzegu / take-1",
+              "relationship": "visible-state-from-take",
+              "shotKey": "shot:zlote-emoji-20/ze20-14-chodz-za-mna",
+              "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-14-chodz-za-mna.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "take:ze20-15-halinka-czeka-z-herbata/take-1",
+              "key": "take:zlote-emoji-20/ze20-15-halinka-czeka-z-herbata/take-1",
+              "type": "take",
+              "id": "ze20-15-halinka-czeka-z-herbata/take-1",
+              "name": "Halinka — najpierw się ogrzej / take-1",
+              "relationship": "visible-state-from-take",
+              "shotKey": "shot:zlote-emoji-20/ze20-15-halinka-czeka-z-herbata",
+              "shotDetailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/projects/zlote-emoji-20/shots/ze20-15-halinka-czeka-z-herbata.json",
+              "exists": true
+            },
+            {
+              "sourceKey": "character:diaxi",
+              "key": "character:diaxi",
+              "type": "character",
+              "id": "diaxi",
+              "name": "DIAXI",
+              "relationship": "world-entity-identity",
+              "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/characters/diaxi.json",
+              "exists": true
+            }
+          ],
+          "sourceReference": null
+        }
+      ],
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-15a-diaxi-u-halinki/frame-start.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/projects/zlote-emoji-20/shots/ze20-15a-diaxi-u-halinki/frame-start-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ]
+}

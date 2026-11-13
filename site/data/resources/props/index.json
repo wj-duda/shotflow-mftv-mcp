@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-29T11:52:39.792Z",
+  "generatedAt": "2026-11-13T15:07:31.302Z",
   "worldId": "aimftv",
   "type": "props",
   "label": "Rekwizyty",
@@ -114,6 +114,18 @@
       "updatedAt": "2026-10-01T17:40:28.749Z"
     },
     {
+      "key": "prop:ze19-dawn-order-opakowanie",
+      "kind": "resource",
+      "type": "props",
+      "id": "ze19-dawn-order-opakowanie",
+      "name": "Dawn Order — grafika opakowania retro",
+      "summary": "Istniejąca grafika Dawn Order z automatu. W epilogu użyta jako wzorzec nadruku na starym pudełku gry na ladzie retro sklepu. Złoty logotyp, VanSabeR po lewej, Osia po prawej, bordowe tło. Referencja nadruku opakowania, nie geometria pudełka; fizyczny wygląd pudełka wyznacza Star…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/ze19-dawn-order-opakowanie/image-003-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/ze19-dawn-order-opakowanie.json",
+      "updatedAt": "2026-11-12T10:10:52.811486+00:00"
+    },
+    {
       "key": "prop:delicja-pomaranczowa",
       "kind": "resource",
       "type": "props",
@@ -159,7 +171,19 @@
       "imageCount": 1,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/formularz-a38/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/formularz-a38.json",
-      "updatedAt": "2026-09-29T23:04:53+02:00"
+      "updatedAt": "2026-11-13T15:04:37.621530+00:00"
+    },
+    {
+      "key": "prop:fotografia-halinki-fonza",
+      "kind": "resource",
+      "type": "props",
+      "id": "fotografia-halinki-fonza",
+      "name": "Fotografia młodej Halinki — pamiątka Fonza",
+      "summary": "Osobista papierowa odbitka fotografii młodej Halinki wykonanej przez Fonza podczas letniego spotkania nad jeziorem. ZE16, roboczo lato1986. Źródło treści: shot halinka-fotografia, Start v002; twarz, warkocz, kurtka Peru, biżuteria i jacht zgodne z kadrem. Obecny wygląd po około4…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/fotografia-halinki-fonza/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/fotografia-halinki-fonza.json",
+      "updatedAt": "2026-11-06T23:57:14.265875+00:00"
     },
     {
       "key": "prop:waluta-gem",
@@ -234,6 +258,18 @@
       "updatedAt": "2026-10-04T16:21:16.609Z"
     },
     {
+      "key": "prop:koc-czeslawa-1985",
+      "kind": "resource",
+      "type": "props",
+      "id": "koc-czeslawa-1985",
+      "name": "Koc Czesława — 1985",
+      "summary": "Rekwizyt ZE18: prostokątny zużyty wełniany koc w stonowaną oliwkowo-brązową kratę, beżowe frędzle. Ten sam składany przy aucie, rozłożony na polanie i zwinięty z ubraniami przy ucieczce. Referencja obrazowa wygenerowana dla ZE18; obowiązuje image-001.png.",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/koc-czeslawa-1985/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/koc-czeslawa-1985.json",
+      "updatedAt": "2026-11-09T15:28:13.054665+00:00"
+    },
+    {
       "key": "prop:nagroda-krysztalowe-emoji",
       "kind": "resource",
       "type": "props",
@@ -244,6 +280,18 @@
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/nagroda-krysztalowe-emoji/image-002-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/nagroda-krysztalowe-emoji.json",
       "updatedAt": "2026-10-09T15:14:38Z"
+    },
+    {
+      "key": "prop:krzyzyk-aniola",
+      "kind": "resource",
+      "type": "props",
+      "id": "krzyzyk-aniola",
+      "name": "Krzyżyk anioła — dar dla skrzypka",
+      "summary": "DAR ANIOŁA DLA SKRZYPKA — ZE17, ustalenia autora 2026-11-08. POCHODZENIE: pojedyncze anielskie pióro służy aniołowi do dyskretnego otarcia mimowolnej łzy podczas słuchania skrzypka. Kontakt wywołuje złoty rozbłysk. Po wrzuceniu do kapelusza pióro przemienia się w mały złoty krzy…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/krzyzyk-aniola/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/krzyzyk-aniola.json",
+      "updatedAt": "2026-11-09T01:01:07.754668+00:00"
     },
     {
       "key": "prop:leica-m3",
@@ -330,6 +378,90 @@
       "updatedAt": "2026-09-29T11:32:35.988Z"
     },
     {
+      "key": "prop:moneta-aniola",
+      "kind": "resource",
+      "type": "props",
+      "id": "moneta-aniola",
+      "name": "Moneta anioła — dar dla skrzypka",
+      "summary": "AKTUALNY PRZEBIEG SCENY — KOREKTA AUTORA 2026-11-09: Pióro przemienia się w monetę natychmiast po nasączeniu łzą, w dłoni przy twarzy. Do kapelusza trafia już gotowa moneta. Osobny ciasny close-up pokazuje wcześniej pojawienie się łzy i dyskretne zakłopotanie. Starsze wzmianki o…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/moneta-aniola/image-002-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/moneta-aniola.json",
+      "updatedAt": "2026-11-09T01:14:15.271494+00:00"
+    },
+    {
+      "key": "prop:naszyjnik-halinki",
+      "kind": "resource",
+      "type": "props",
+      "id": "naszyjnik-halinki",
+      "name": "Naszyjnik Halinki — medalion Zakonu Jutrzenki",
+      "summary": "OSOBISTY REKWIZYT HALINKI — opracowanie produkcyjne 2026-11-06 na polecenie autora. Wspólny motyw dawnych referencji młodej Halinki oraz współczesnej Halinki, także wariantu gruzowisko. Traktować jako ten sam osobisty naszyjnik zachowany przez lata. Nie wynika z tego data ani sp…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/naszyjnik-halinki/image-002-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/naszyjnik-halinki.json",
+      "updatedAt": "2026-11-06T22:28:46.395104+00:00"
+    },
+    {
+      "key": "prop:paczka-dla-mariana",
+      "kind": "resource",
+      "type": "props",
+      "id": "paczka-dla-mariana",
+      "name": "Paczka dla Mariana",
+      "summary": "Dokładny asset wdrożonej aplikacji, przeniesiony do biblioteki referencji: papierowa torba przewiązana sznurkiem, jasna pusta zawieszka. Widoczne pieczywo, puszka i materiał odpowiadają grafice produktu; nie wyliczają pełnej zawartości paczki. Pomoc dla Mariana, za którą odwdzię…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/paczka-dla-mariana/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/paczka-dla-mariana.json",
+      "updatedAt": "2026-10-30T11:18:58.293383+00:00"
+    },
+    {
+      "key": "prop:papieros-i-zapalniczka-czeslawa-1985",
+      "kind": "resource",
+      "type": "props",
+      "id": "papieros-i-zapalniczka-czeslawa-1985",
+      "name": "Papieros i zapalniczka Czesława — 1985",
+      "summary": "Zestaw ciągłości ZE18: pojedynczy zwykły biały papieros z jasnobrązowym filtrem oraz niewielka stalowa zapalniczka benzynowa z zamykaną klapką, bez logo. Bez współczesnej paczki. Referencja obrazowa wygenerowana dla ZE18; obowiązuje image-001.png.",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/papieros-i-zapalniczka-czeslawa-1985/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/papieros-i-zapalniczka-czeslawa-1985.json",
+      "updatedAt": "2026-11-09T15:28:13.054665+00:00"
+    },
+    {
+      "key": "prop:polonez-czeslawa-1985",
+      "kind": "resource",
+      "type": "props",
+      "id": "polonez-czeslawa-1985",
+      "name": "Polonez Czesława — 1985",
+      "summary": "Pojazd Czesława w retrospekcji ZE18, Polska 1985. FSO Polonez 1500 X, rocznik projektowy 1982, pięciodrzwiowe wczesne nadwozie Borewicz. Bogata wersja z dyskretnymi dodatkami możliwymi w epoce: niewielkie srebrne felgi aluminiowe typu Fiat z wysokim profilem opon, dwa prostokątn…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/polonez-czeslawa-1985/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/polonez-czeslawa-1985.json",
+      "updatedAt": "2026-11-09T14:51:52.161111+00:00"
+    },
+    {
+      "key": "prop:przypinka-halinki",
+      "kind": "resource",
+      "type": "props",
+      "id": "przypinka-halinki",
+      "name": "Przypinka Halinki — wschodzące słońce / Zakon Jutrzenki",
+      "summary": "REKWIZYT KOSTIUMOWY — opracowanie produkcyjne 2026-11-06 na polecenie autora. Mała złota ażurowa przypinka z klapy kurtki dawnego projektu młodej Halinki. Podobny motyw występuje w projekcie wysłanniczki zakonu; są to osobne egzemplarze tego samego wzoru, nie jeden przedmiot poj…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/przypinka-halinki/image-002-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/przypinka-halinki.json",
+      "updatedAt": "2026-11-06T22:28:46.395104+00:00"
+    },
+    {
+      "key": "prop:recznik-zosi-ze20",
+      "kind": "resource",
+      "type": "props",
+      "id": "recznik-zosi-ze20",
+      "name": "Ręcznik Zosi — przybycie DIAXI",
+      "summary": "Duży suchy ręcznik kąpielowy frotte, projektowo 100×180 cm, gruba bawełna, sprane bordo z dwiema wąskimi grafitowymi prążkami przy każdym krótszym brzegu. Czysty, używany, miękki, matowy. Plansza pokazuje ten sam wzór rozłożony i złożony, nie dwa osobne rekwizyty. Bez napisów, f…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/recznik-zosi-ze20/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/recznik-zosi-ze20.json",
+      "updatedAt": "2026-11-12T18:04:51.709901+00:00"
+    },
+    {
       "key": "prop:roj-dzieci-gwiazd",
       "kind": "resource",
       "type": "props",
@@ -376,6 +508,18 @@
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/waluta-serce/image-002-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/waluta-serce.json",
       "updatedAt": "2026-10-01T17:40:28.002Z"
+    },
+    {
+      "key": "prop:nagroda-halloween-h26",
+      "kind": "resource",
+      "type": "props",
+      "id": "nagroda-halloween-h26",
+      "name": "Statuetka H’26 — Halloween Finals",
+      "summary": "Kanoniczna grafika nagrody konkursu Halloween Finals 2026, zatwierdzona i dostarczona przez autora 2026-10-29. Powiązany tag konkursu: halloween26. Statuetka przedstawia połyskującą pomarańczowo-bursztynową dynię z ciemnymi skośnymi oczami i szerokim zębatym uśmiechem, złotą opr…",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/nagroda-halloween-h26/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/nagroda-halloween-h26.json",
+      "updatedAt": "2026-10-29T15:30:26.644973+00:00"
     },
     {
       "key": "prop:szklanka-czeslawa",
@@ -436,6 +580,66 @@
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/werewolf-apocalypse-1e/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/werewolf-apocalypse-1e.json",
       "updatedAt": "2026-09-20T15:23:30.788624+00:00"
+    },
+    {
+      "key": "prop:ze17-pioro-biale",
+      "kind": "resource",
+      "type": "props",
+      "id": "ze17-pioro-biale",
+      "name": "ZE17 — białe pióro do ciągłości",
+      "summary": "Dokładna tekstura pióra używana w Blenderze. Białe pióro przed kontaktem z łzą; brak złotego blasku na etapie lądowania. Referencja rekwizytu, nie tła ani skali w kadrze.",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/ze17-pioro-biale/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/ze17-pioro-biale.json",
+      "updatedAt": "2026-11-09T00:22:05.587932+00:00"
+    },
+    {
+      "key": "prop:ze17-estebes-szlafrok",
+      "kind": "resource",
+      "type": "props",
+      "id": "ze17-estebes-szlafrok",
+      "name": "ZE17 — Estebes, wariant stroju z ZE15",
+      "summary": "Referencja wyłącznie bordowego szlafroka ze złotym haftem, czarnymi mankietami i kołnierzem oraz białej koszulki. Estebes w ZE17 jedzie w tym stroju. Pozy wysiadania, ulicy i otwartych drzwi nie przenosić do jazdy.",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/ze17-estebes-szlafrok/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/ze17-estebes-szlafrok.json",
+      "updatedAt": "2026-11-09T00:22:05.587932+00:00"
+    },
+    {
+      "key": "prop:oranzada-proszek-ze19",
+      "kind": "resource",
+      "type": "props",
+      "id": "oranzada-proszek-ze19",
+      "name": "ZE19 — papierowa saszetka oranżady",
+      "summary": "Fikcyjne opakowanie produkcyjne, papier 6 × 9 cm, kremowy z pomarańczowym i zielonym nadrukiem. ORANŻADA / W PROSZKU / SMAK POMARAŃCZOWY. Chłopcy kupują dokładnie dwie saszetki i jedzą proszek na sucho. Nie dodawać szklanek ani butelek.",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/oranzada-proszek-ze19/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/oranzada-proszek-ze19.json",
+      "updatedAt": "2026-11-10T23:01:21.953798+00:00"
+    },
+    {
+      "key": "prop:ze20-dlon-i-kamien",
+      "kind": "resource",
+      "type": "props",
+      "id": "ze20-dlon-i-kamien",
+      "name": "ZE20 — dłoń i kamień",
+      "summary": "Referencja produkcyjna nieruchomego detalu dłoni na ciemnym wyżłobionym kamieniu. Dokładny kontakt palców i geometria znaku; bez emisji światła.",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/ze20-dlon-i-kamien/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/ze20-dlon-i-kamien.json",
+      "updatedAt": "2026-11-13T11:42:37.427177+00:00"
+    },
+    {
+      "key": "prop:ze20-kruk-na-okapie",
+      "kind": "resource",
+      "type": "props",
+      "id": "ze20-kruk-na-okapie",
+      "name": "ZE20 — kruk na okapie",
+      "summary": "Referencja produkcyjna istniejącego kruka na gałęzi przy chacie. Dziób w prawo i w dół, bez magicznych oczu.",
+      "imageCount": 1,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/props/ze20-kruk-na-okapie/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/data/resources/props/ze20-kruk-na-okapie.json",
+      "updatedAt": "2026-11-13T11:42:37.427177+00:00"
     },
     {
       "key": "prop:nagroda-zlote-emoji",

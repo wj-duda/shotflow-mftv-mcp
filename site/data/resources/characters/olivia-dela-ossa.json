@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "character:olivia-dela-ossa",
+  "type": "characters",
+  "id": "olivia-dela-ossa",
+  "name": "Olivia Dela Ossa",
+  "description": "Olivia Dela Ossa — peruwiańska śpiewaczka zespołu ludowego Marinera, matka Alvara, znanego później jako Van Sabe (character:van-sabe).\n\nUSTALONA HISTORIA: W latach 80. przyjeżdża z zespołem na tournée po Polsce. Nawiązuje romans z młodym Czesławem (character:czeslaw), organizatorem koncertów. Poznaje Halinkę (character:halinka), drukującą w piwnicy polityczne ulotki; ta znajomość pobudza polityczne zaangażowanie Olivii. Po powrocie do Peru rodzi Alvara, który dorasta w otoczeniu muzyki. W latach 90. polityczne zamieszanie i jej zaangażowanie zmuszają ją do ucieczki. Ginie podczas ucieczki do Chile. Nie ustalono dokładnej daty, sprawców ani sposobu śmierci. W Chile chłopcem zajmują się Emma i Jan VanSabe, holenderscy emigranci, którzy zabierają go do Holandii. Po latach wuj przekazuje dorosłemu Alvarowi list matki, ujawniający prawdę o jego pochodzeniu i związku Olivii z Czesławem. List kieruje go do Polski, do Domu Kultury. Treść listu i tożsamość wuja pozostają otwarte. Potencjalny epizod z wilkami opisano przy Van Sabe; nie przesądza on natury Olivii ani jej rodziny.\n\nPROPOZYCJA CHARAKTERU: Ciepła, spostrzegawcza, niezależna. Na scenie swobodna, poza sceną ma spokojne poczucie humoru i potrafi celnie odpowiedzieć na zaczepkę. U Czesława pociągają ją dowcip, energia i zdolność improwizowania; dostrzega także jego skłonność do unikania odpowiedzialności. Jej słabością jest wiara, że osobisty urok i odwaga pozwolą opanować sytuację, która już wymknęła się spod kontroli. Znajomość z Halinką rozwija własną potrzebę działania Olivii: pozostaje ona osobą podejmującą decyzje, nie tylko bierną ofiarą cudzych wpływów. W scenach najpierw obserwuje rozmówcę, potem odpowiada z lekkim uśmiechem; śpiewając, staje się bardziej otwarta i ekspresyjna. Te cechy są propozycją dramaturgiczną do dalszego rozwinięcia.\n\nPROJEKT WYGLĄDU — MŁODA OLIVIA: Podczas polskiego tournée 27–28 lat w 1985 roku; rok urodzenia 1957. Wzrost projektowy 176 cm, nieco wyższa od młodego Czesława. Szczupła, wydłużona sylwetka, długa szyja i kończyny, swobodna postawa bez wychudzenia. Ciemnobrązowe oczy, mocne brwi, wysokie kości policzkowe, owalna twarz, długie czarne falowane włosy. Podobieństwo rodzinne do Vana oparto na oczach, brwiach, nosie i kościach policzkowych. Strój codzienny z tournée: kremowa bawełniana koszula, terakotowa kamizelka z wąską tkaną lamówką, prosta spódnica midi w kolorze indygo, brązowe skórzane botki na niskim obcasie, małe srebrne kolczyki. To ubiór podróżny, nie ustalony kostium sceniczny zespołu. Ornament jest projektem wizualnym, nie przypisaniem do konkretnej wspólnoty ani rodu.\n\nRODZINA — OTWARTY KIERUNEK: Autor rozważa szczególny ród z Peru. Nazwa, historia i znaczenie tego rodu nie są jeszcze ustalone. Wzrost Olivii jest indywidualną cechą postaci, nie dowodem nadnaturalnego pochodzenia. Nie dopisywać dynastii, mocy ani powiązania z Zakonem Jutrzenki bez dalszych ustaleń.\n\nSTATUS REFERENCJI: Pierwsza propozycja portretu i sylwetki, do oceny autora. Widoczna w portrecie nadmierna mikrofaktura skóry jest artefaktem generatora, nie cechą postaci.\n\nAKTUALIZACJA STROJU: Autor odrzucił zachowawczy kierunek lat 60. oraz skórzaną kurtkę zbyt podobną do stroju Czesława. Bieżąca propozycja sylwetki jest sceniczna: karminowa asymetryczna drapowana bluzka z tkanym panelem przy talii, czarne szerokie spodnie z wysokim stanem, czarne buty na stabilnym niskim obcasie i niewielkie srebrne kolczyki. Ten opis zastępuje wcześniejszy projekt stroju. Portret służy wyłącznie jako referencja twarzy i włosów; w sprawie ubioru obowiązuje nowa sylwetka image-003.png. Nowy strój pozostaje propozycją do oceny autora.\n\nREFERENCJE DO POLSKIEGO TOURNÉE: używać character:czeslaw-mlody i character:halinka-mloda. To historyczne warianty dotychczasowych postaci. Alvaro to character:van-sabe. Aktualny portret jest referencją twarzy, a sylwetka image-003 określa najnowszą propozycję stroju; wcześniejszy odrzucony wariant skórzanej kurtki nie jest aktualnym kostiumem.\n\nCHRONOLOGIA — UZUPEŁNIENIE NA POLECENIE AUTORA 2026-11-06: Rok urodzenia postaci w AIMFTV: 1957. Dzień i miesiąc urodzenia pozostają nieustalone. W 1985 kończy 28 lat. Zmarła w latach 90.; nie przypisywać jej wieku osoby żyjącej w 2026. Rocznik dobrano redakcyjnie do istniejącego bio i wspólnej chronologii; dotyczy fikcyjnej postaci, nie danych osobowych twórcy lub osoby z referencji.\n\nCHRONOLOGIA TOURNÉE — UZUPEŁNIENIE 2026-11-06: Polskie tournée zespołu Marinera i romans Olivii z Czesławem przypadają na 1985 rok. Olivia (1957) kończy wtedy 28 lat, Czesław (1960) 25, a Halinka (1966) 19. Alvaro / Van Sabe rodzi się w Peru w 1986 roku, po powrocie Olivii; matka ma przy porodzie 28–29 lat, ojciec 25–26. Ucieczka i śmierć Olivii pozostają w latach 90., bez konkretnego roku; Van jest wtedy dzieckiem lub nastolatkiem, zgodnie z wybraną później datą. Nie ustalono daty dziennej tournée, narodzin ani śmierci.\n\nKOREKTA AUTORA 2026-11-09 — OSTATECZNY KOMPROMIS: Czesław jest rocznik 1960 i w 2026 kończy 66 lat. To zastępuje wcześniejsze ustalenie rocznika 1956. Wiek i powiązana chronologia powyżej uwzględniają tę korektę.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "portrait",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/olivia-dela-ossa/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/olivia-dela-ossa/image-001-thumb.webp",
+      "width": 1254,
+      "height": 1254,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-003",
+      "role": "silhouette",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/olivia-dela-ossa/image-003.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/characters/olivia-dela-ossa/image-003-thumb.webp",
+      "width": 1024,
+      "height": 1536,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-11-09T14:20:23.846139+00:00"
+}

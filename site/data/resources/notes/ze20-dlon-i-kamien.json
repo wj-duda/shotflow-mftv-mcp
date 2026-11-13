@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "worldId": "aimftv",
+  "kind": "resource",
+  "key": "note:ze20-dlon-i-kamien",
+  "type": "notes",
+  "id": "ze20-dlon-i-kamien",
+  "name": "ZE20 — dłoń i kamień",
+  "description": "Referencja produkcyjna nieruchomego detalu dłoni na ciemnym wyżłobionym kamieniu. Dokładny kontakt palców i geometria znaku; bez emisji światła.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "reference",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/ze20-dlon-i-kamien/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/resources/notes/ze20-dlon-i-kamien/image-001-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-11-13T11:42:37.427177+00:00"
+}
