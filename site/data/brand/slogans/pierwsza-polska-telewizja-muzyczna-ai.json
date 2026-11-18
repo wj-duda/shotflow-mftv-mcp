@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-18T13:09:02.121Z",
+  "worldId": "aimftv",
+  "kind": "slogan",
+  "type": "brand",
+  "brandKey": "brand:aimftv",
+  "id": "pierwsza-polska-telewizja-muzyczna-ai",
+  "key": "slogan:pierwsza-polska-telewizja-muzyczna-ai",
+  "purpose": "stały opis i pozycjonowanie marki MFTV",
+  "text": "Pierwsza polska TV dla muzyki tworzonej z AI",
+  "preserveExactText": true,
+  "rationale": "Krótki opis określa kategorię stacji, polskie pochodzenie i specjalizację w muzyce tworzonej lub współtworzonej z AI. MFTV pokazuje niezależnych twórców i oddaje widzom głos podczas audycji.",
+  "whereToUse": [
+    "strona główna i SEO",
+    "bio YouTube, Facebooka i Discorda",
+    "główne grafiki wizerunkowe",
+    "opisy stacji i materiały dla mediów",
+    "baner kanału i plansze przedstawiające MFTV"
+  ],
+  "whenToUse": "Gdy przedstawiasz stację lub potrzebujesz krótkiego podpisu wyjaśniającego, czym jest MFTV. W małych materiałach wybierz jeden opis lub hasło, aby zachować czytelność.",
+  "howToReference": "Używaj klucza slogan:pierwsza-polska-telewizja-muzyczna-ai. Dokładny polski zapis: „Pierwsza polska TV dla muzyki tworzonej z AI”. Angielski odpowiednik: „Poland’s first TV for music made with AI”. W układzie trzywierszowym zachowaj podział PL: „Pierwsza polska” / „TV dla muzyki” / „tworzonej z AI”; EN: „Poland’s first” / „TV for music” / „made with AI”. Nagłówek bez końcowej kropki.",
+  "guardrail": "To pozycjonowanie MFTV jako polskiej internetowej telewizji poświęconej muzyce tworzonej z AI. Nie oznacza pierwszej telewizji AI na świecie ani całkowicie autonomicznej stacji. Nie dopisuj niepotwierdzonej daty startu, certyfikacji ani deklaracji największego zasięgu.",
+  "promotionalRequirement": "Stosuj przy przedstawianiu marki; nie zastępuje głównego CTA „Zagraj z nami” ani hasła audycji „Emocje na Żywo”. Nie wymuszaj dodatkowego wiersza przy logo w istniejących layoutach.",
+  "relatedAssets": {
+    "officialLogo": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/brand/aimftv.webp"
+  }
+}

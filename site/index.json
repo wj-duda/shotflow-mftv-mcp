@@ -6,7 +6,7 @@
     "generatedAt": "2026-10-29T11:52:07.127Z",
     "usage": "Wspólna migawka MF TV i MF Creators. To nie są dane na żywo. Odświeżana wyłącznie przez --live-data."
   },
-  "generatedAt": "2026-11-13T15:07:31.302Z",
+  "generatedAt": "2026-11-18T13:09:02.121Z",
   "universe": {
     "id": "mf-tv",
     "name": "Świat MF TV"
@@ -39,7 +39,7 @@
     "kind": "brand",
     "name": "AI Music Future TV",
     "priority": "required-for-mftv-generation",
-    "description": "Główny pakiet tożsamości marki MF TV używany przy przygotowywaniu obrazów, plansz i promptów.",
+    "description": "Pakiet marki MFTV — pierwsza polska telewizja dla muzyki tworzonej z AI. Oficjalne logo, opis marki, hasła i oprawa audycji do materiałów promocyjnych.",
     "naming": {
       "defaultForm": "short",
       "short": {
@@ -70,9 +70,29 @@
       "primary": "„Zagraj z nami” jest głównym, stałym CTA marki. Łączy trzy znaczenia: zagranie własnego utworu w MFTV, wspólny udział w audycji oraz wejście w gamifikację opartą na głosowaniu, łupach i przedmiotach.",
       "campaign": "„U nas utwory nie giną. U nas się GRA!” jest hasłem kampanijnym o dalszym życiu muzyki w MFTV. Najmocniej wspiera Wtorki Powtórki, lecz pasuje także do biblioteki, ponownych odkryć, rankingów i materiałów przypominających wcześniejsze utwory.",
       "composition": "W jednej kreacji można użyć hasła kampanijnego jako nagłówka, a „Zagraj z nami - https://aimusicfuture.tv” jako końcowego CTA. Nie dokładaj automatycznie pozostałych sloganów, jeśli osłabiają hierarchię.",
-      "guardrail": "Hasło o nieginących utworach wyraża ideę platformy, ale nie oznacza gwarancji przyjęcia zgłoszenia, automatycznej powtórki, stałej obecności w ramówce ani konkretnego wyniku głosowania."
+      "guardrail": "Hasło o nieginących utworach wyraża ideę platformy, ale nie oznacza gwarancji przyjęcia zgłoszenia, automatycznej powtórki, stałej obecności w ramówce ani konkretnego wyniku głosowania.",
+      "positioning": "„Pierwsza polska TV dla muzyki tworzonej z AI” jest stałym opisem marki MFTV, a nie wezwaniem do działania. Używaj go przy przedstawianiu stacji, w bio, SEO i głównych materiałach wizerunkowych. Angielski odpowiednik: „Poland’s first TV for music made with AI”. Nie rozszerzaj deklaracji na pierwszeństwo na świecie ani na największą stację. Nie dodawaj tego opisu automatycznie do każdej miniatury, jeśli pogarsza czytelność."
     },
     "slogans": [
+      {
+        "id": "pierwsza-polska-telewizja-muzyczna-ai",
+        "key": "slogan:pierwsza-polska-telewizja-muzyczna-ai",
+        "purpose": "stały opis i pozycjonowanie marki MFTV",
+        "text": "Pierwsza polska TV dla muzyki tworzonej z AI",
+        "preserveExactText": true,
+        "rationale": "Krótki opis określa kategorię stacji, polskie pochodzenie i specjalizację w muzyce tworzonej lub współtworzonej z AI. MFTV pokazuje niezależnych twórców i oddaje widzom głos podczas audycji.",
+        "whereToUse": [
+          "strona główna i SEO",
+          "bio YouTube, Facebooka i Discorda",
+          "główne grafiki wizerunkowe",
+          "opisy stacji i materiały dla mediów",
+          "baner kanału i plansze przedstawiające MFTV"
+        ],
+        "whenToUse": "Gdy przedstawiasz stację lub potrzebujesz krótkiego podpisu wyjaśniającego, czym jest MFTV. W małych materiałach wybierz jeden opis lub hasło, aby zachować czytelność.",
+        "howToReference": "Używaj klucza slogan:pierwsza-polska-telewizja-muzyczna-ai. Dokładny polski zapis: „Pierwsza polska TV dla muzyki tworzonej z AI”. Angielski odpowiednik: „Poland’s first TV for music made with AI”. W układzie trzywierszowym zachowaj podział PL: „Pierwsza polska” / „TV dla muzyki” / „tworzonej z AI”; EN: „Poland’s first” / „TV for music” / „made with AI”. Nagłówek bez końcowej kropki.",
+        "guardrail": "To pozycjonowanie MFTV jako polskiej internetowej telewizji poświęconej muzyce tworzonej z AI. Nie oznacza pierwszej telewizji AI na świecie ani całkowicie autonomicznej stacji. Nie dopisuj niepotwierdzonej daty startu, certyfikacji ani deklaracji największego zasięgu.",
+        "promotionalRequirement": "Stosuj przy przedstawianiu marki; nie zastępuje głównego CTA „Zagraj z nami” ani hasła audycji „Emocje na Żywo”. Nie wymuszaj dodatkowego wiersza przy logo w istniejących layoutach."
+      },
       {
         "id": "zagraj-z-nami",
         "key": "slogan:zagraj-z-nami",
@@ -617,7 +637,7 @@
       "type": "brand",
       "id": "aimftv",
       "name": "AI Music Future TV",
-      "summary": "Główny pakiet tożsamości marki MF TV używany przy przygotowywaniu obrazów, plansz i promptów.",
+      "summary": "Pakiet marki MFTV — pierwsza polska telewizja dla muzyki tworzonej z AI. Oficjalne logo, opis marki, hasła i oprawa audycji do materiałów promocyjnych.",
       "imageCount": 1,
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/brand/aimftv-thumb.webp",
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/assets/featured/brand/aimftv.webp",

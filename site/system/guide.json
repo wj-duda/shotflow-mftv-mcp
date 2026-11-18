@@ -1,8 +1,18 @@
 {
   "schemaVersion": 1,
-  "verifiedAt": "2026-11-13",
-  "scope": "Podstawowe zasady i mapa serwisu. Logowanie, label i łączenie Discorda zweryfikowano w opublikowanej wersji z 2026-11-05. Publiczny ekran /login sprawdzono ponownie 2026-11-06. Audyt z 2026-11-06 uzupełnia zasady Mariana na podstawie implementacji i 61 testów mechaniki oraz logowania; nie obejmuje wykonania pełnego OAuth ani operacji na prywatnych kontach. Pozostałe sekcje zachowują wcześniejszy zakres weryfikacji. Nie jest to pełna specyfikacja wszystkich reguł; bieżące liczby pochodzą z osobnej migawki. Test publicznego ekranu logowania potwierdził blokadę obu metod bez zgody, ich odblokowanie po zaznaczeniu, zachowanie zgody przy powrocie do wyboru metody oraz jej reset po odświeżeniu. W mobilnym widoku 390 px nie stwierdzono poziomego przepełnienia ani błędów JavaScript podczas tej próby. Aktualizacja 2026-11-13: A-38, prognoza dostawy i nowy planer porównane z kodem oraz NEWWEEK.md. Opis implementacji nie jest potwierdzeniem jej wdrożenia; pozostałe daty weryfikacji zachowano.",
+  "verifiedAt": "2026-11-18",
+  "scope": "Podstawowe zasady i mapa serwisu. Logowanie, label i łączenie Discorda zweryfikowano w opublikowanej wersji z 2026-11-05. Publiczny ekran /login sprawdzono ponownie 2026-11-06. Audyt z 2026-11-06 uzupełnia zasady Mariana na podstawie implementacji i 61 testów mechaniki oraz logowania; nie obejmuje wykonania pełnego OAuth ani operacji na prywatnych kontach. Pozostałe sekcje zachowują wcześniejszy zakres weryfikacji. Nie jest to pełna specyfikacja wszystkich reguł; bieżące liczby pochodzą z osobnej migawki. Test publicznego ekranu logowania potwierdził blokadę obu metod bez zgody, ich odblokowanie po zaznaczeniu, zachowanie zgody przy powrocie do wyboru metody oraz jej reset po odświeżeniu. W mobilnym widoku 390 px nie stwierdzono poziomego przepełnienia ani błędów JavaScript podczas tej próby. Aktualizacja 2026-11-13: A-38, prognoza dostawy i nowy planer porównane z kodem oraz NEWWEEK.md. Opis implementacji nie jest potwierdzeniem jej wdrożenia; pozostałe daty weryfikacji zachowano. Pozycjonowanie marki uzupełniono według ustalenia z 2026-11-18; nie oznacza to ponownej weryfikacji pozostałych sekcji.",
   "sections": [
+    {
+      "id": "brand-positioning",
+      "title": "MFTV — pierwsza polska telewizja dla muzyki tworzonej z AI",
+      "text": "Ustalenie marki z 18 listopada 2026: stały opis MFTV brzmi „Pierwsza polska TV dla muzyki tworzonej z AI”; po angielsku „Poland’s first TV for music made with AI”. MFTV jest polską internetową telewizją poświęconą muzyce tworzonej lub współtworzonej z AI przez niezależnych twórców. Widzowie oglądają teledyski i głosują na żywo. Główne CTA nadal brzmi „Zagraj z nami”; oprawa audycji może używać „Emocje na Żywo”. Opis marki nie oznacza pierwszeństwa na świecie, w pełni autonomicznej stacji ani gwarancji emisji każdego zgłoszenia. Nie dopisuj niepotwierdzonej daty startu lub certyfikacji. Opis stosuj w bio, SEO i materiałach przedstawiających stację; nie umieszczaj wszystkich haseł na każdej miniaturze i nie zmieniaj istniejącego logo. Dokładny rekord: slogan:pierwsza-polska-telewizja-muzyczna-ai.",
+      "links": [
+        "https://aimusicfuture.tv/",
+        "https://aimusicfuture.tv/about",
+        "https://wj-duda.github.io/shotflow-mftv-mcp/data/brand/slogans/pierwsza-polska-telewizja-muzyczna-ai.json"
+      ]
+    },
     {
       "id": "battle",
       "title": "Złote Emoji — tryb bitwy i nagrody",
