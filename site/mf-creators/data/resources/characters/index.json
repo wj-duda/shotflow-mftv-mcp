@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-19T20:55:19.388Z",
+  "generatedAt": "2026-11-19T21:03:04.121Z",
   "worldId": "mf-creators",
   "type": "characters",
   "label": "Postacie",
@@ -148,6 +148,18 @@
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/rkfonzo/image-007-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/rkfonzo.json",
       "updatedAt": "2026-11-19T20:55:09.208072+00:00"
+    },
+    {
+      "key": "character:sirock",
+      "kind": "resource",
+      "type": "characters",
+      "id": "sirock",
+      "name": "Sirock",
+      "summary": "Sirock jest nieślubną córką Pani Halinki. Jest łudząco podobna do Zosi. Znak zodiaku: Byk. Rozmiar buta: 39 (EU). Ma długie, falowane ciemne włosy, mocny czarny makijaż oczu i czerwone usta. Nosi duże kolczyki koła, skórzany choker i krzyż na łańcuszku. Czarny gorset zapina na m…",
+      "imageCount": 2,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/sirock/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/sirock.json",
+      "updatedAt": "2026-11-19T21:03:02.057839+00:00"
     },
     {
       "key": "character:tom",

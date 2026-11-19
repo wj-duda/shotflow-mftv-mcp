@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-19T21:03:04.121Z",
+  "worldId": "mf-creators",
+  "kind": "resource",
+  "key": "character:sirock",
+  "type": "characters",
+  "id": "sirock",
+  "name": "Sirock",
+  "description": "Sirock jest nieślubną córką Pani Halinki. Jest łudząco podobna do Zosi. Znak zodiaku: Byk. Rozmiar buta: 39 (EU).\n\nMa długie, falowane ciemne włosy, mocny czarny makijaż oczu i czerwone usta. Nosi duże kolczyki koła, skórzany choker i krzyż na łańcuszku. Czarny gorset zapina na metalowe klamry. Z bioder opadają łańcuchy i długie, postrzępione pasma śliwkowej tkaniny. \n\nKANON OBUWIA: Demonia Cult Trashville-518, Black Patent, rozmiar EU 39. Lakierowane czarne kozaki do kolan. Na każdej cholewce pięć pasków z metalowymi klamrami, z przodu sznurowanie, od wewnątrz zamek. Masywna platforma ma około 5,7 cm pod palcami i 8,3 cm pod piętą.\n\nKocha zwierzęta. Miała nawet własnego smoka i raz zabrała Baju na przelot. Potem przyszedł jakiś osioł i tyle smoka widzieli. Inne zwierzęta też kocha. Zwłaszcza jeść.\n\nPrzywołuje duchy. Lubi też pokopać sobie w ziemi. Czy tam zakopać… Dermatolog obejrzał jej skórę i stwierdził, że tu już nic nie pomoże. Polecił poszukać księdza od egzorcyzmów.\n\nZ Baju dobrze się dogaduje. Ze Zdzirowersum czeka, „aż wszystko j##nie”.\n\nPomysł na przyszłą historię: Silnoręki porywa Sirock dla okupu.",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "portrait",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/sirock/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/sirock/image-001-thumb.webp",
+      "width": 1254,
+      "height": 1254,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-002",
+      "role": "silhouette",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/sirock/image-002.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/sirock/image-002-thumb.webp",
+      "width": 1024,
+      "height": 1536,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-11-19T21:03:02.057839+00:00"
+}
