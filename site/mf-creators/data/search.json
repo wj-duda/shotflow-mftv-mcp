@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-18T13:09:02.121Z",
+  "generatedAt": "2026-11-19T20:55:19.388Z",
   "worldId": "mf-creators",
   "entries": [
     {
@@ -1122,6 +1122,30 @@
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/n4-n2.json"
     },
     {
+      "key": "character:aleksandra-ross",
+      "kind": "resource",
+      "type": "characters",
+      "id": "aleksandra-ross",
+      "name": "Aleksandra Ross",
+      "summary": "CHARACTER [age=18-29; presentation=feminine; height=168cm; build=slim; body=rectangle; chest=small; skin=fair; face=heart; eyes=green; hair-color=black-red; hair-length=long; hair-texture=wavy] Twórczyni kanału Aleksandra Ross (@aleksandraross6, YouTube UCVVZiC2RVqz4s2nXtTFuX9A)…",
+      "imageCount": 2,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/aleksandra-ross/image-008-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/aleksandra-ross.json",
+      "updatedAt": "2026-11-19T20:55:09.208072+00:00"
+    },
+    {
+      "key": "character:rkfonzo",
+      "kind": "resource",
+      "type": "characters",
+      "id": "rkfonzo",
+      "name": "rkFonzo",
+      "summary": "CHARACTER [age=45-64; presentation=masculine; height=178cm; build=athletic; body=rectangle; chest=medium; skin=medium; face=angular; eyes=dark-brown; hair-color=silver-gray; hair-length=short; hair-texture=spiky] Twórca kanału rkFonzo (@rkfonzo, YouTube UC_OFjUpeMOY_6wydhhoPlLA)…",
+      "imageCount": 2,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/rkfonzo/image-007-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/rkfonzo.json",
+      "updatedAt": "2026-11-19T20:55:09.208072+00:00"
+    },
+    {
       "key": "character:livaihen-face-loop-reference",
       "kind": "resource",
       "type": "characters",
@@ -1278,18 +1302,6 @@
       "updatedAt": "2026-09-30T09:29:54.287Z"
     },
     {
-      "key": "character:rkfonzo",
-      "kind": "resource",
-      "type": "characters",
-      "id": "rkfonzo",
-      "name": "rkFonzo",
-      "summary": "CHARACTER [age=45-64; presentation=masculine; height=178cm; build=athletic; body=rectangle; chest=medium; skin=medium; face=angular; eyes=dark-brown; hair-color=silver-gray; hair-length=short; hair-texture=spiky] Twórca kanału rkFonzo (@rkfonzo, YouTube UC_OFjUpeMOY_6wydhhoPlLA)…",
-      "imageCount": 2,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/rkfonzo/image-005-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/rkfonzo.json",
-      "updatedAt": "2026-09-30T09:29:21.310Z"
-    },
-    {
       "key": "character:pani-halinka",
       "kind": "resource",
       "type": "characters",
@@ -1360,18 +1372,6 @@
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/laidy-pipa/image-001-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/laidy-pipa.json",
       "updatedAt": "2026-09-30T09:26:30.436Z"
-    },
-    {
-      "key": "character:aleksandra-ross",
-      "kind": "resource",
-      "type": "characters",
-      "id": "aleksandra-ross",
-      "name": "Aleksandra Ross",
-      "summary": "CHARACTER [age=18-29; presentation=feminine; height=168cm; build=slim; body=rectangle; chest=small; skin=fair; face=heart; eyes=green; hair-color=black-red; hair-length=long; hair-texture=wavy] Twórczyni kanału Aleksandra Ross (@aleksandraross6, YouTube UCVVZiC2RVqz4s2nXtTFuX9A)…",
-      "imageCount": 2,
-      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/aleksandra-ross/image-006-thumb.webp",
-      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/aleksandra-ross.json",
-      "updatedAt": "2026-09-29T17:02:00+02:00"
     },
     {
       "key": "character:maia-melodies",
