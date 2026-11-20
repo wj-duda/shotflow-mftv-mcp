@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-20T20:15:29.171Z",
+  "worldId": "mf-creators",
+  "kind": "resource",
+  "key": "character:pan-introwertyk",
+  "type": "characters",
+  "id": "pan-introwertyk",
+  "name": "Pan Introwertyk",
+  "description": "Pan Introwertyk to raper. Niektórzy mówią na niego Mr Intro.\n\nNosi czarną czapkę z daszkiem pod kapturem i ciemną chustę zasłaniającą nos i usta. Na czarnej bluzie ma dużą białą nutę. Do tego luźne spodnie cargo z bocznymi kieszeniami i czarne opaski na nadgarstkach. Na sylwetce trzyma mikrofon w prawej dłoni.\n\nKANON OBUWIA: Nike Court Vision Mid Next Nature, kolor Black/Black/White, kod DN3577-001. Czarne sznurowane sneakersy za kostkę, z wyściełanym kołnierzem, przeszywanymi panelami i perforacją. Wzór do kolejnych ilustracji: https://www.nike.com/t/court-vision-mid-next-nature-mens-shoes-j5K4rb/DN3577-001",
+  "images": [
+    {
+      "id": "image-001",
+      "role": "portrait",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/pan-introwertyk/image-001.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/pan-introwertyk/image-001-thumb.webp",
+      "width": 1670,
+      "height": 941,
+      "contentType": "image/webp"
+    },
+    {
+      "id": "image-003",
+      "role": "silhouette",
+      "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/pan-introwertyk/image-003.webp",
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/pan-introwertyk/image-003-thumb.webp",
+      "width": 941,
+      "height": 1670,
+      "contentType": "image/webp"
+    }
+  ],
+  "updatedAt": "2026-11-20T19:52:36.407862+00:00"
+}

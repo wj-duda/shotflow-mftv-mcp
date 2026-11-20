@@ -6,7 +6,7 @@
     "generatedAt": "2026-10-29T11:52:07.127Z",
     "usage": "Wspólna migawka MF TV i MF Creators. To nie są dane na żywo. Odświeżana wyłącznie przez --live-data."
   },
-  "generatedAt": "2026-11-19T21:03:04.121Z",
+  "generatedAt": "2026-11-20T20:15:29.171Z",
   "universe": {
     "id": "mf-creators",
     "name": "MF Creators"
@@ -32,10 +32,10 @@
     ]
   },
   "counts": {
-    "resources": 25,
+    "resources": 26,
     "projects": 1,
     "shots": 55,
-    "images": 150
+    "images": 152
   },
   "brand": {
     "key": "brand:aimftv",
@@ -649,7 +649,7 @@
       }
     },
     "schemaVersion": 1,
-    "generatedAt": "2026-11-19T21:03:04.121Z",
+    "generatedAt": "2026-11-20T20:15:29.171Z",
     "worldId": "mf-creators",
     "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/brand.json",
     "generationGuidance": {
@@ -700,7 +700,7 @@
       {
         "type": "characters",
         "label": "Postacie",
-        "count": 16,
+        "count": 17,
         "url": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/index.json"
       },
       {

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-19T21:03:04.121Z",
+  "generatedAt": "2026-11-20T20:15:29.171Z",
   "worldId": "mf-creators",
   "entries": [
     {
@@ -1120,6 +1120,18 @@
       "imageUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/projects/idle-creators/shots/n4-n2/frame-start.webp",
       "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/projects/idle-creators/shots/n4-n2/frame-start-thumb.webp",
       "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/projects/idle-creators/shots/n4-n2.json"
+    },
+    {
+      "key": "character:pan-introwertyk",
+      "kind": "resource",
+      "type": "characters",
+      "id": "pan-introwertyk",
+      "name": "Pan Introwertyk",
+      "summary": "Pan Introwertyk to raper. Niektórzy mówią na niego Mr Intro. Nosi czarną czapkę z daszkiem pod kapturem i ciemną chustę zasłaniającą nos i usta. Na czarnej bluzie ma dużą białą nutę. Do tego luźne spodnie cargo z bocznymi kieszeniami i czarne opaski na nadgarstkach. Na sylwetce…",
+      "imageCount": 2,
+      "thumbnailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/assets/resources/characters/pan-introwertyk/image-001-thumb.webp",
+      "detailUrl": "https://wj-duda.github.io/shotflow-mftv-mcp/mf-creators/data/resources/characters/pan-introwertyk.json",
+      "updatedAt": "2026-11-20T19:52:36.407862+00:00"
     },
     {
       "key": "character:sirock",
